@@ -1,0 +1,204 @@
+{
+  "title": "PPP Command Line Cheat Sheet",
+  "slug": "ppp",
+  "description": "Essential PPP commands and configurations for networking engineers.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "pppd",
+      "description": "Start PPP daemon with default settings",
+      "scenario": "Start PPP daemon with default settings",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "daemon",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pppd --version",
+      "description": "Display PPP version information",
+      "scenario": "Display PPP version information",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "version",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "killall pppd",
+      "description": "Terminate PPP daemon",
+      "scenario": "Terminate PPP daemon",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "terminate",
+        "daemon"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pppd /dev/ttyS0",
+      "description": "Set the PPP device to ttyS0",
+      "scenario": "Set the PPP device to ttyS0",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "device",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pppd localIP:remoteIP",
+      "description": "Configure PPP with a specific IP address",
+      "scenario": "Configure PPP with a specific IP address",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "ip",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pppd debug",
+      "description": "Enable debug mode for PPP",
+      "scenario": "Enable debug mode for PPP",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "debug",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pppd user username password password",
+      "description": "Use PAP for authentication",
+      "scenario": "Use PAP for authentication",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "pap",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pppd +chap",
+      "description": "Use CHAP for authentication",
+      "scenario": "Use CHAP for authentication",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "chap",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pppd file /etc/ppp/peers/provider",
+      "description": "Specify a secrets file for authentication",
+      "scenario": "Specify a secrets file for authentication",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "secrets",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'nameserver 8.8.8.8' > /etc/ppp/resolv.conf",
+      "description": "Set PPP to use a specific DNS server",
+      "scenario": "Set PPP to use a specific DNS server",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "dns",
+        "networking"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 1 > /proc/sys/net/ipv4/ip_forward",
+      "description": "Enable IP forwarding with PPP",
+      "scenario": "Enable IP forwarding with PPP",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "ip",
+        "forwarding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pppd mtu 1492",
+      "description": "Set PPP to use a specific MTU",
+      "scenario": "Set PPP to use a specific MTU",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "mtu",
+        "networking"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tail -f /var/log/syslog | grep pppd",
+      "description": "View PPP logs for troubleshooting",
+      "scenario": "View PPP logs for troubleshooting",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "logs",
+        "troubleshooting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig ppp0",
+      "description": "Check PPP interface status",
+      "scenario": "Check PPP interface status",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "interface",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systemctl restart pppd",
+      "description": "Restart PPP service",
+      "scenario": "Restart PPP service",
+      "language": "bash",
+      "tags": [
+        "ppp",
+        "restart",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

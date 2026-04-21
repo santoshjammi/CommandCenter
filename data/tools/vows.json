@@ -1,0 +1,204 @@
+{
+  "title": "Vows Testing Framework Cheat Sheet",
+  "slug": "vows",
+  "description": "Quick reference for using Vows, a behavior-driven development framework for Node.js.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "vows.describe('A test suite')",
+      "description": "Define a test suite with a description",
+      "scenario": "Define a test suite with a description",
+      "language": "javascript",
+      "tags": [
+        "suite",
+        "describe",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".addBatch({ 'A topic': { topic: function () { return 42; } } })",
+      "description": "Add a topic to a suite",
+      "scenario": "Add a topic to a suite",
+      "language": "javascript",
+      "tags": [
+        "topic",
+        "batch",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".run();",
+      "description": "Run the test suite",
+      "scenario": "Run the test suite",
+      "language": "javascript",
+      "tags": [
+        "run",
+        "execute",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert.equal(actual, expected);",
+      "description": "Assert equality of values",
+      "scenario": "Assert equality of values",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "equal",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert.deepEqual(actual, expected);",
+      "description": "Assert deep equality of objects",
+      "scenario": "Assert deep equality of objects",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "deepEqual",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert.isTrue(value);",
+      "description": "Assert a value is true",
+      "scenario": "Assert a value is true",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "isTrue",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vows test/",
+      "description": "Run all Vows tests in a directory",
+      "scenario": "Run all Vows tests in a directory",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vows --reporter spec",
+      "description": "Run Vows tests with a specific reporter",
+      "scenario": "Run Vows tests with a specific reporter",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "reporter",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vows --watch",
+      "description": "Watch files and re-run tests on changes",
+      "scenario": "Watch files and re-run tests on changes",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "watch",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"reporter\": \"spec\"}",
+      "description": "Set a custom reporter in configuration",
+      "scenario": "Set a custom reporter in configuration",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "reporter",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"bail\": true}",
+      "description": "Configure Vows to exit on first failure",
+      "scenario": "Configure Vows to exit on first failure",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "bail",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"timeout\": 5000}",
+      "description": "Set timeout for async operations",
+      "scenario": "Set timeout for async operations",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "timeout",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "topic: function () { return someAsyncFunction(); }",
+      "description": "Use a promise as a topic",
+      "scenario": "Use a promise as a topic",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "topic",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "topic: function () { setTimeout(this.callback, 1000, null, 42); }",
+      "description": "Handle asynchronous topics",
+      "scenario": "Handle asynchronous topics",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "topic",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "topic: function () { fs.readFile('file.txt', this.callback); }",
+      "description": "Use a callback to handle errors",
+      "scenario": "Use a callback to handle errors",
+      "language": "javascript",
+      "tags": [
+        "callback",
+        "error",
+        "vows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

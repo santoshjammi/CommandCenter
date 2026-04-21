@@ -1,0 +1,204 @@
+{
+  "title": "Swift Cheat Sheet",
+  "slug": "swift",
+  "description": "Quick reference for Swift programming language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let constantNumber: Int = 10",
+      "description": "Declare a constant integer",
+      "scenario": "Declare a constant integer",
+      "language": "swift",
+      "tags": [
+        "constants",
+        "variables",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var greeting: String = \"Hello, World!\"",
+      "description": "Declare a variable string",
+      "scenario": "Declare a variable string",
+      "language": "swift",
+      "tags": [
+        "variables",
+        "strings",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var optionalNumber: Int? = nil",
+      "description": "Declare an optional integer",
+      "scenario": "Declare an optional integer",
+      "language": "swift",
+      "tags": [
+        "optionals",
+        "variables",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if condition {\n    // code\n} else {\n    // code\n}",
+      "description": "Basic if-else statement",
+      "scenario": "Basic if-else statement",
+      "language": "swift",
+      "tags": [
+        "control flow",
+        "if-else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch someValue {\ncase 1:\n    // code\ncase 2, 3:\n    // code\ndefault:\n    // code\n}",
+      "description": "Switch statement with cases",
+      "scenario": "Switch statement with cases",
+      "language": "swift",
+      "tags": [
+        "control flow",
+        "switch",
+        "cases"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for item in array {\n    // code\n}",
+      "description": "For-in loop over an array",
+      "scenario": "For-in loop over an array",
+      "language": "swift",
+      "tags": [
+        "loops",
+        "for-in",
+        "arrays"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "func greet(name: String) -> String {\n    return \"Hello, \\(name)!\"\n}",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "swift",
+      "tags": [
+        "functions",
+        "definition",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "func add(a: Int, b: Int) -> Int {\n    return a + b\n}",
+      "description": "Function with multiple parameters",
+      "scenario": "Function with multiple parameters",
+      "language": "swift",
+      "tags": [
+        "functions",
+        "parameters",
+        "addition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "func printMessage() {\n    print(\"This is a message.\")\n}",
+      "description": "Function with no return value",
+      "scenario": "Function with no return value",
+      "language": "swift",
+      "tags": [
+        "functions",
+        "void",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Vehicle {\n    var wheels: Int\n    init(wheels: Int) {\n        self.wheels = wheels\n    }\n}",
+      "description": "Define a simple class",
+      "scenario": "Define a simple class",
+      "language": "swift",
+      "tags": [
+        "classes",
+        "definition",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "struct Point {\n    var x: Int\n    var y: Int\n}",
+      "description": "Define a simple structure",
+      "scenario": "Define a simple structure",
+      "language": "swift",
+      "tags": [
+        "structures",
+        "definition",
+        "properties"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let car = Vehicle(wheels: 4)",
+      "description": "Create an instance of a class",
+      "scenario": "Create an instance of a class",
+      "language": "swift",
+      "tags": [
+        "classes",
+        "instances",
+        "initialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "enum FileError: Error {\n    case notFound\n}\n\nfunc readFile() throws {\n    throw FileError.notFound\n}",
+      "description": "Throw an error in a function",
+      "scenario": "Throw an error in a function",
+      "language": "swift",
+      "tags": [
+        "error handling",
+        "throw",
+        "enum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do {\n    try readFile()\n} catch {\n    print(\"Error: \\(error)\")\n}",
+      "description": "Handle errors with do-catch",
+      "scenario": "Handle errors with do-catch",
+      "language": "swift",
+      "tags": [
+        "error handling",
+        "do-catch",
+        "try"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "func fetchData() throws -> Data {\n    // code\n}",
+      "description": "Define a function that can throw errors",
+      "scenario": "Define a function that can throw errors",
+      "language": "swift",
+      "tags": [
+        "functions",
+        "error handling",
+        "throws"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

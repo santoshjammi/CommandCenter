@@ -1,0 +1,165 @@
+{
+  "title": "DOM Manipulation Cheat Sheet",
+  "slug": "dom",
+  "description": "Quick reference for common DOM manipulation tasks using JavaScript.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "document.getElementById('myId')",
+      "description": "Select an element by its ID",
+      "scenario": "Select an element by its ID",
+      "language": "javascript",
+      "tags": [
+        "select",
+        "id",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementsByClassName('myClass')",
+      "description": "Select elements by their class name",
+      "scenario": "Select elements by their class name",
+      "language": "javascript",
+      "tags": [
+        "select",
+        "class",
+        "elements"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.querySelectorAll('.myClass')",
+      "description": "Select elements using a CSS selector",
+      "scenario": "Select elements using a CSS selector",
+      "language": "javascript",
+      "tags": [
+        "select",
+        "css",
+        "elements"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.textContent = 'New Text'",
+      "description": "Change the text content of an element",
+      "scenario": "Change the text content of an element",
+      "language": "javascript",
+      "tags": [
+        "text",
+        "content",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.classList.add('newClass')",
+      "description": "Add a new class to an element",
+      "scenario": "Add a new class to an element",
+      "language": "javascript",
+      "tags": [
+        "class",
+        "add",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.remove()",
+      "description": "Remove an element from the DOM",
+      "scenario": "Remove an element from the DOM",
+      "language": "javascript",
+      "tags": [
+        "remove",
+        "element",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.createElement('div')",
+      "description": "Create a new element",
+      "scenario": "Create a new element",
+      "language": "javascript",
+      "tags": [
+        "create",
+        "element",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "parentElement.appendChild(childElement)",
+      "description": "Append a child element to a parent",
+      "scenario": "Append a child element to a parent",
+      "language": "javascript",
+      "tags": [
+        "append",
+        "child",
+        "parent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "parentElement.insertBefore(newElement, referenceElement)",
+      "description": "Insert an element before another element",
+      "scenario": "Insert an element before another element",
+      "language": "javascript",
+      "tags": [
+        "insert",
+        "element",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.addEventListener('click', function() { /* code */ })",
+      "description": "Add a click event listener to an element",
+      "scenario": "Add a click event listener to an element",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "click",
+        "listener"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.removeEventListener('click', eventHandler)",
+      "description": "Remove an event listener from an element",
+      "scenario": "Remove an event listener from an element",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "remove",
+        "listener"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "event.stopPropagation()",
+      "description": "Stop event propagation",
+      "scenario": "Stop event propagation",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "stop",
+        "propagation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

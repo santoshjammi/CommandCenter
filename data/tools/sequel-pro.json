@@ -1,0 +1,165 @@
+{
+  "title": "Sequel Pro Cheat Sheet",
+  "slug": "sequel-pro",
+  "description": "Essential commands and configurations for Sequel Pro users.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all records from a table",
+      "scenario": "Select all records from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "sql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES ('value1', 'value2');",
+      "description": "Insert a new record into a table",
+      "scenario": "Insert a new record into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "sql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = 'value' WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "sql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mysql -u username -p -h hostname database_name",
+      "description": "Connect to a MySQL database",
+      "scenario": "Connect to a MySQL database",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "mysql",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SHOW DATABASES;",
+      "description": "Show all available databases",
+      "scenario": "Show all available databases",
+      "language": "sql",
+      "tags": [
+        "databases",
+        "sql",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "USE database_name;",
+      "description": "Select a specific database to use",
+      "scenario": "Select a specific database to use",
+      "language": "sql",
+      "tags": [
+        "use",
+        "database",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE table_name (id INT PRIMARY KEY, column1 VARCHAR(255));",
+      "description": "Create a new table",
+      "scenario": "Create a new table",
+      "language": "sql",
+      "tags": [
+        "create",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP TABLE table_name;",
+      "description": "Delete a table",
+      "scenario": "Delete a table",
+      "language": "sql",
+      "tags": [
+        "drop",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALTER TABLE table_name ADD column_name VARCHAR(255);",
+      "description": "Add a new column to an existing table",
+      "scenario": "Add a new column to an existing table",
+      "language": "sql",
+      "tags": [
+        "alter",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mysqldump -u username -p database_name > dump.sql",
+      "description": "Export a database to a SQL file",
+      "scenario": "Export a database to a SQL file",
+      "language": "bash",
+      "tags": [
+        "export",
+        "sql",
+        "dump"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mysql -u username -p database_name < dump.sql",
+      "description": "Import a SQL file into a database",
+      "scenario": "Import a SQL file into a database",
+      "language": "bash",
+      "tags": [
+        "import",
+        "sql",
+        "load"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name INTO OUTFILE '/path/to/file.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\\n';",
+      "description": "Export a table to a CSV file",
+      "scenario": "Export a table to a CSV file",
+      "language": "sql",
+      "tags": [
+        "export",
+        "csv",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

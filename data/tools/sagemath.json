@@ -1,0 +1,204 @@
+{
+  "title": "SageMath Cheat Sheet",
+  "slug": "sagemath",
+  "description": "Quick reference for SageMath commands and syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "2 + 3",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "python",
+      "tags": [
+        "arithmetic",
+        "addition",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "5 - 2",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "python",
+      "tags": [
+        "arithmetic",
+        "subtraction",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "4 * 3",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "python",
+      "tags": [
+        "arithmetic",
+        "multiplication",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expand((x + 1)^3)",
+      "description": "Expand an algebraic expression",
+      "scenario": "Expand an algebraic expression",
+      "language": "python",
+      "tags": [
+        "algebra",
+        "expand",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "factor(x^2 - 4)",
+      "description": "Factor an algebraic expression",
+      "scenario": "Factor an algebraic expression",
+      "language": "python",
+      "tags": [
+        "algebra",
+        "factor",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "solve(x^2 - 4 == 0, x)",
+      "description": "Solve an algebraic equation",
+      "scenario": "Solve an algebraic equation",
+      "language": "python",
+      "tags": [
+        "algebra",
+        "solve",
+        "equation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "diff(x^2 + 3*x + 1, x)",
+      "description": "Differentiate a function",
+      "scenario": "Differentiate a function",
+      "language": "python",
+      "tags": [
+        "calculus",
+        "differentiate",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "integrate(x^2, x)",
+      "description": "Integrate a function",
+      "scenario": "Integrate a function",
+      "language": "python",
+      "tags": [
+        "calculus",
+        "integrate",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "limit(sin(x)/x, x=0)",
+      "description": "Find the limit of a function",
+      "scenario": "Find the limit of a function",
+      "language": "python",
+      "tags": [
+        "calculus",
+        "limit",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "matrix([[1, 2], [3, 4]])",
+      "description": "Create a matrix",
+      "scenario": "Create a matrix",
+      "language": "python",
+      "tags": [
+        "matrix",
+        "create",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "det(matrix([[1, 2], [3, 4]]))",
+      "description": "Find the determinant of a matrix",
+      "scenario": "Find the determinant of a matrix",
+      "language": "python",
+      "tags": [
+        "matrix",
+        "determinant",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "matrix([[1, 2], [3, 4]]).inverse()",
+      "description": "Inverse of a matrix",
+      "scenario": "Inverse of a matrix",
+      "language": "python",
+      "tags": [
+        "matrix",
+        "inverse",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plot(x^2, (x, -5, 5))",
+      "description": "Plot a function",
+      "scenario": "Plot a function",
+      "language": "python",
+      "tags": [
+        "plot",
+        "function",
+        "graph"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plot([x, x^2], (x, -5, 5))",
+      "description": "Plot multiple functions",
+      "scenario": "Plot multiple functions",
+      "language": "python",
+      "tags": [
+        "plot",
+        "multiple",
+        "graph"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plot3d(x^2 + y^2, (x, -5, 5), (y, -5, 5))",
+      "description": "3D plot of a function",
+      "scenario": "3D plot of a function",
+      "language": "python",
+      "tags": [
+        "plot",
+        "3D",
+        "graph"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

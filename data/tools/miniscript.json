@@ -1,0 +1,204 @@
+{
+  "title": "MiniScript Cheat Sheet",
+  "slug": "miniscript",
+  "description": "Essential MiniScript syntax and commands for quick reference",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "x = 10",
+      "description": "Declare a variable and assign a value",
+      "scenario": "Declare a variable and assign a value",
+      "language": "text",
+      "tags": [
+        "variable",
+        "assignment",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet(name)\n  return \"Hello, \" + name\nend function",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 5 then\n  print \"x is greater than 5\"\nelse\n  print \"x is 5 or less\"\nend if",
+      "description": "If-else conditional statement",
+      "scenario": "If-else conditional statement",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "if-else",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 1 to 5\n  print i\nend for",
+      "description": "For loop iterating over a range",
+      "scenario": "For loop iterating over a range",
+      "language": "text",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while x < 10\n  x = x + 1\nend while",
+      "description": "While loop with a condition",
+      "scenario": "While loop with a condition",
+      "language": "text",
+      "tags": [
+        "loop",
+        "while",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "repeat\n  x = x - 1\nuntil x == 0",
+      "description": "Repeat loop until a condition is met",
+      "scenario": "Repeat loop until a condition is met",
+      "language": "text",
+      "tags": [
+        "loop",
+        "repeat",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myList = [1, 2, 3, 4, 5]",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "text",
+      "tags": [
+        "list",
+        "data structure",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element = myList[2]",
+      "description": "Access an element in a list",
+      "scenario": "Access an element in a list",
+      "language": "text",
+      "tags": [
+        "list",
+        "access",
+        "index"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myMap = {\"key1\": \"value1\", \"key2\": \"value2\"}",
+      "description": "Create a map (dictionary)",
+      "scenario": "Create a map (dictionary)",
+      "language": "text",
+      "tags": [
+        "map",
+        "dictionary",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file = File.open(\"example.txt\", \"r\")",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "line = file.readLine()",
+      "description": "Read a line from a file",
+      "scenario": "Read a line from a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file = File.open(\"example.txt\", \"w\")\nfile.write(\"Hello, World!\")",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "write",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try\n  x = 1 / 0\ncatch err\n  print \"Error: \" + err\nend try",
+      "description": "Try-catch block for error handling",
+      "scenario": "Try-catch block for error handling",
+      "language": "text",
+      "tags": [
+        "error",
+        "try-catch",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw \"This is an error\"",
+      "description": "Throw an error manually",
+      "scenario": "Throw an error manually",
+      "language": "text",
+      "tags": [
+        "error",
+        "throw",
+        "manual"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x == null then\n  print \"x is null\"\nend if",
+      "description": "Check for null values",
+      "scenario": "Check for null values",
+      "language": "text",
+      "tags": [
+        "null",
+        "check",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "SDKMAN! Cheat Sheet",
+  "slug": "sdkman",
+  "description": "Quick reference for SDKMAN! CLI commands and usage.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "curl -s \"https://get.sdkman.io\" | bash",
+      "description": "Install SDKMAN! on Unix-based systems",
+      "scenario": "Install SDKMAN! on Unix-based systems",
+      "language": "bash",
+      "tags": [
+        "installation",
+        "setup",
+        "unix"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "source \"$HOME/.sdkman/bin/sdkman-init.sh\"",
+      "description": "Initialize SDKMAN! in the current shell session",
+      "scenario": "Initialize SDKMAN! in the current shell session",
+      "language": "bash",
+      "tags": [
+        "setup",
+        "initialize",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdk version",
+      "description": "Check SDKMAN! version",
+      "scenario": "Check SDKMAN! version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdk list",
+      "description": "List all available SDKs",
+      "scenario": "List all available SDKs",
+      "language": "bash",
+      "tags": [
+        "list",
+        "sdks",
+        "available"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdk install java 11.0.11-open",
+      "description": "Install a specific SDK version",
+      "scenario": "Install a specific SDK version",
+      "language": "bash",
+      "tags": [
+        "install",
+        "sdk",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdk uninstall java 11.0.11-open",
+      "description": "Uninstall a specific SDK version",
+      "scenario": "Uninstall a specific SDK version",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "sdk",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdk default java 11.0.11-open",
+      "description": "Set a default SDK version",
+      "scenario": "Set a default SDK version",
+      "language": "bash",
+      "tags": [
+        "default",
+        "sdk",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdk use java 11.0.11-open",
+      "description": "Use a specific SDK version for the current session",
+      "scenario": "Use a specific SDK version for the current session",
+      "language": "bash",
+      "tags": [
+        "use",
+        "sdk",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdk current java",
+      "description": "Display current SDK version in use",
+      "scenario": "Display current SDK version in use",
+      "language": "bash",
+      "tags": [
+        "current",
+        "sdk",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano $HOME/.sdkman/etc/config",
+      "description": "Open SDKMAN! configuration file",
+      "scenario": "Open SDKMAN! configuration file",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "file",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdkman_auto_selfupdate=true",
+      "description": "Enable auto self-update in configuration",
+      "scenario": "Enable auto self-update in configuration",
+      "language": "text",
+      "tags": [
+        "auto-update",
+        "configuration",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sdkman_colour_enable=false",
+      "description": "Disable color output in SDKMAN!",
+      "scenario": "Disable color output in SDKMAN!",
+      "language": "text",
+      "tags": [
+        "color",
+        "output",
+        "disable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

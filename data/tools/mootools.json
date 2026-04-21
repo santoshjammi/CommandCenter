@@ -1,0 +1,204 @@
+{
+  "title": "MooTools Cheat Sheet",
+  "slug": "mootools",
+  "description": "Essential MooTools commands and patterns for efficient development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "var element = document.id('myElement');",
+      "description": "Select an element by ID",
+      "scenario": "Select an element by ID",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "element",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('myElement').addClass('newClass');",
+      "description": "Add a class to an element",
+      "scenario": "Add a class to an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "class",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('myElement').removeClass('oldClass');",
+      "description": "Remove a class from an element",
+      "scenario": "Remove a class from an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "class",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('myElement').addEvent('click', function() { alert('Clicked!'); });",
+      "description": "Add a click event to an element",
+      "scenario": "Add a click event to an element",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "click",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('myElement').removeEvent('click', myFunction);",
+      "description": "Remove an event from an element",
+      "scenario": "Remove an event from an element",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "remove",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('myElement').fireEvent('customEvent', ['arg1', 'arg2']);",
+      "description": "Fire a custom event",
+      "scenario": "Fire a custom event",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "custom",
+        "fire"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new Request({ url: '/data', method: 'get', onSuccess: function(response) { console.log(response); } }).send();",
+      "description": "Send a GET request",
+      "scenario": "Send a GET request",
+      "language": "javascript",
+      "tags": [
+        "ajax",
+        "GET",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new Request({ url: '/submit', method: 'post', data: { key: 'value' }, onSuccess: function(response) { console.log(response); } }).send();",
+      "description": "Send a POST request",
+      "scenario": "Send a POST request",
+      "language": "javascript",
+      "tags": [
+        "ajax",
+        "POST",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new Request({ url: '/data', onFailure: function(xhr) { alert('Request failed'); } }).send();",
+      "description": "Handle request failure",
+      "scenario": "Handle request failure",
+      "language": "javascript",
+      "tags": [
+        "ajax",
+        "failure",
+        "handle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('myElement').fade('in');",
+      "description": "Fade an element in",
+      "scenario": "Fade an element in",
+      "language": "javascript",
+      "tags": [
+        "effects",
+        "fade",
+        "in"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('myElement').fade('out');",
+      "description": "Fade an element out",
+      "scenario": "Fade an element out",
+      "language": "javascript",
+      "tags": [
+        "effects",
+        "fade",
+        "out"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('myElement').slide('toggle');",
+      "description": "Slide an element",
+      "scenario": "Slide an element",
+      "language": "javascript",
+      "tags": [
+        "effects",
+        "slide",
+        "toggle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Number.random(1, 100);",
+      "description": "Generate a random number between two values",
+      "scenario": "Generate a random number between two values",
+      "language": "javascript",
+      "tags": [
+        "utilities",
+        "random",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var clone = Object.clone(originalObject);",
+      "description": "Clone an object",
+      "scenario": "Clone an object",
+      "language": "javascript",
+      "tags": [
+        "utilities",
+        "clone",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var merged = Object.merge(object1, object2);",
+      "description": "Merge two objects",
+      "scenario": "Merge two objects",
+      "language": "javascript",
+      "tags": [
+        "utilities",
+        "merge",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

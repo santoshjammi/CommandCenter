@@ -1,0 +1,165 @@
+{
+  "title": "Web Workers Cheat Sheet",
+  "slug": "web-workers",
+  "description": "Essential commands and patterns for using Web Workers in JavaScript.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const worker = new Worker('worker.js');",
+      "description": "Create a new Web Worker from a script file",
+      "scenario": "Create a new Web Worker from a script file",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "worker.terminate();",
+      "description": "Terminate a Web Worker",
+      "scenario": "Terminate a Web Worker",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "worker.onmessage = function(event) { console.log(event.data); };",
+      "description": "Listen for messages from a Web Worker",
+      "scenario": "Listen for messages from a Web Worker",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "messages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "worker.postMessage('Hello, Worker!');",
+      "description": "Send a message to a Web Worker",
+      "scenario": "Send a message to a Web Worker",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "communication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "self.onmessage = function(event) { console.log(event.data); };",
+      "description": "Receive a message in a Web Worker",
+      "scenario": "Receive a message in a Web Worker",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "receive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "postMessage('Hello, Main Thread!');",
+      "description": "Send a message back to the main thread",
+      "scenario": "Send a message back to the main thread",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "send"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "worker.onerror = function(event) { console.error('Error:', event.message); };",
+      "description": "Listen for error events in the main thread",
+      "scenario": "Listen for error events in the main thread",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "error handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw new Error('Something went wrong!');",
+      "description": "Throw an error in a Web Worker",
+      "scenario": "Throw an error in a Web Worker",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "self.onerror = function(event) { console.error('Worker Error:', event.message); return true; };",
+      "description": "Handle errors inside a Web Worker",
+      "scenario": "Handle errors inside a Web Worker",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "error handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "importScripts('script1.js', 'script2.js');",
+      "description": "Import scripts inside a Web Worker",
+      "scenario": "Import scripts inside a Web Worker",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const sharedWorker = new SharedWorker('sharedWorker.js');",
+      "description": "Use a SharedWorker for shared tasks",
+      "scenario": "Use a SharedWorker for shared tasks",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "shared"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "worker.postMessage(arrayBuffer, [arrayBuffer]);",
+      "description": "Transferable objects to a Web Worker",
+      "scenario": "Transferable objects to a Web Worker",
+      "language": "javascript",
+      "tags": [
+        "web workers",
+        "javascript",
+        "transferable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

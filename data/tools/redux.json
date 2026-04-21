@@ -1,0 +1,165 @@
+{
+  "title": "Redux Cheat Sheet",
+  "slug": "redux",
+  "description": "Quick reference for Redux state management patterns and commands",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm install redux react-redux",
+      "description": "Install Redux and React-Redux libraries",
+      "scenario": "Install Redux and React-Redux libraries",
+      "language": "bash",
+      "tags": [
+        "install",
+        "redux",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { createStore } from 'redux';\nconst store = createStore(reducer);",
+      "description": "Create a Redux store",
+      "scenario": "Create a Redux store",
+      "language": "javascript",
+      "tags": [
+        "store",
+        "redux",
+        "createStore"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const reducer = (state = initialState, action) => {\n  switch (action.type) {\n    case 'ACTION_TYPE':\n      return { ...state, ...action.payload };\n    default:\n      return state;\n  }\n};",
+      "description": "Define a simple reducer function",
+      "scenario": "Define a simple reducer function",
+      "language": "javascript",
+      "tags": [
+        "reducer",
+        "function",
+        "redux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const action = {\n  type: 'ACTION_TYPE',\n  payload: { key: 'value' }\n};",
+      "description": "Define a Redux action",
+      "scenario": "Define a Redux action",
+      "language": "javascript",
+      "tags": [
+        "action",
+        "redux",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const actionCreator = (payload) => ({\n  type: 'ACTION_TYPE',\n  payload\n});",
+      "description": "Create an action creator function",
+      "scenario": "Create an action creator function",
+      "language": "javascript",
+      "tags": [
+        "action",
+        "creator",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "store.dispatch(actionCreator({ key: 'value' }));",
+      "description": "Dispatch an action to the store",
+      "scenario": "Dispatch an action to the store",
+      "language": "javascript",
+      "tags": [
+        "dispatch",
+        "store",
+        "redux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { connect } from 'react-redux';\n\nconst mapStateToProps = (state) => ({\n  key: state.key\n});\n\nexport default connect(mapStateToProps)(Component);",
+      "description": "Connect a React component to the Redux store",
+      "scenario": "Connect a React component to the Redux store",
+      "language": "javascript",
+      "tags": [
+        "connect",
+        "react",
+        "redux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { useSelector } from 'react-redux';\n\nconst value = useSelector((state) => state.key);",
+      "description": "Use the useSelector hook to access state",
+      "scenario": "Use the useSelector hook to access state",
+      "language": "javascript",
+      "tags": [
+        "useSelector",
+        "hook",
+        "redux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { useDispatch } from 'react-redux';\n\nconst dispatch = useDispatch();\ndispatch(actionCreator({ key: 'value' }));",
+      "description": "Use the useDispatch hook to dispatch actions",
+      "scenario": "Use the useDispatch hook to dispatch actions",
+      "language": "javascript",
+      "tags": [
+        "useDispatch",
+        "hook",
+        "redux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { applyMiddleware, createStore } from 'redux';\nimport thunk from 'redux-thunk';\n\nconst store = createStore(reducer, applyMiddleware(thunk));",
+      "description": "Apply middleware to the Redux store",
+      "scenario": "Apply middleware to the Redux store",
+      "language": "javascript",
+      "tags": [
+        "middleware",
+        "thunk",
+        "redux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const logger = store => next => action => {\n  console.log('dispatching', action);\n  let result = next(action);\n  console.log('next state', store.getState());\n  return result;\n};",
+      "description": "Create a custom middleware",
+      "scenario": "Create a custom middleware",
+      "language": "javascript",
+      "tags": [
+        "middleware",
+        "logger",
+        "redux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { composeWithDevTools } from 'redux-devtools-extension';\n\nconst store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));",
+      "description": "Use Redux DevTools extension",
+      "scenario": "Use Redux DevTools extension",
+      "language": "javascript",
+      "tags": [
+        "devtools",
+        "redux",
+        "enhancer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Gremlins.js Cheat Sheet",
+  "slug": "gremlinsjs",
+  "description": "Quick reference for using Gremlins.js to test web applications.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "gremlins.createHorde().unleash();",
+      "description": "Start Gremlins.js with default settings",
+      "scenario": "Start Gremlins.js with default settings",
+      "language": "javascript",
+      "tags": [
+        "start",
+        "default",
+        "horde"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "horde.stop();",
+      "description": "Stop the Gremlins.js horde",
+      "scenario": "Stop the Gremlins.js horde",
+      "language": "javascript",
+      "tags": [
+        "stop",
+        "horde",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.createHorde().logger(console).unleash();",
+      "description": "Log Gremlins.js activity to console",
+      "scenario": "Log Gremlins.js activity to console",
+      "language": "javascript",
+      "tags": [
+        "log",
+        "console",
+        "activity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.createHorde({ nb: 100 }).unleash();",
+      "description": "Set the number of gremlins to unleash",
+      "scenario": "Set the number of gremlins to unleash",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "number",
+        "gremlins"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.createHorde({ delay: 10 }).unleash();",
+      "description": "Change the attack delay",
+      "scenario": "Change the attack delay",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "delay",
+        "attack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.createHorde().gremlin(gremlins.species.clicker()).unleash();",
+      "description": "Use a specific gremlin species",
+      "scenario": "Use a specific gremlin species",
+      "language": "javascript",
+      "tags": [
+        "species",
+        "specific",
+        "gremlin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.species.clicker();",
+      "description": "Use the clicker gremlin species",
+      "scenario": "Use the clicker gremlin species",
+      "language": "javascript",
+      "tags": [
+        "clicker",
+        "species",
+        "gremlin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.species.formFiller();",
+      "description": "Use the form filler gremlin species",
+      "scenario": "Use the form filler gremlin species",
+      "language": "javascript",
+      "tags": [
+        "form",
+        "filler",
+        "species"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.species.toucher();",
+      "description": "Use the toucher gremlin species",
+      "scenario": "Use the toucher gremlin species",
+      "language": "javascript",
+      "tags": [
+        "toucher",
+        "species",
+        "gremlin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.createHorde().gremlin(function() { /* custom behavior */ }).unleash();",
+      "description": "Add a custom gremlin",
+      "scenario": "Add a custom gremlin",
+      "language": "javascript",
+      "tags": [
+        "custom",
+        "gremlin",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.createHorde().gremlin(gremlins.species.clicker()).gremlin(gremlins.species.formFiller()).unleash();",
+      "description": "Chain multiple species",
+      "scenario": "Chain multiple species",
+      "language": "javascript",
+      "tags": [
+        "chain",
+        "species",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gremlins.createHorde().mogwai(gremlins.mogwais.alert()).unleash();",
+      "description": "Use a mogwai to control gremlins",
+      "scenario": "Use a mogwai to control gremlins",
+      "language": "javascript",
+      "tags": [
+        "mogwai",
+        "control",
+        "gremlins"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

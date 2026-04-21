@@ -1,0 +1,204 @@
+{
+  "title": "JavaScript Date Cheat Sheet",
+  "slug": "javascript-date",
+  "description": "Quick reference for JavaScript Date operations and formatting.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "const now = new Date();",
+      "description": "Create a new Date object with the current date and time",
+      "scenario": "Create a new Date object with the current date and time",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "current",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const specificDate = new Date('2023-10-01T12:00:00');",
+      "description": "Create a Date object for a specific date and time",
+      "scenario": "Create a Date object for a specific date and time",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "specific",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const anotherDate = new Date(2023, 9, 1, 12, 0, 0);",
+      "description": "Create a Date object using year, month, day, hour, minute, second",
+      "scenario": "Create a Date object using year, month, day, hour, minute, second",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "constructor",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const year = now.getFullYear();",
+      "description": "Get the full year from a Date object",
+      "scenario": "Get the full year from a Date object",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "year",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const month = now.getMonth();",
+      "description": "Get the month from a Date object (0-11)",
+      "scenario": "Get the month from a Date object (0-11)",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "month",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const day = now.getDay();",
+      "description": "Get the day of the week from a Date object (0-6)",
+      "scenario": "Get the day of the week from a Date object (0-6)",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "day",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "now.setFullYear(2024);",
+      "description": "Set the full year for a Date object",
+      "scenario": "Set the full year for a Date object",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "year",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "now.setMonth(11);",
+      "description": "Set the month for a Date object (0-11)",
+      "scenario": "Set the month for a Date object (0-11)",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "month",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "now.setDate(25);",
+      "description": "Set the day of the month for a Date object",
+      "scenario": "Set the day of the month for a Date object",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "day",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const dateString = now.toString();",
+      "description": "Convert a Date object to a string",
+      "scenario": "Convert a Date object to a string",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "string",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const dateOnlyString = now.toDateString();",
+      "description": "Convert a Date object to a date string",
+      "scenario": "Convert a Date object to a date string",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "string",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const isoString = now.toISOString();",
+      "description": "Convert a Date object to an ISO string",
+      "scenario": "Convert a Date object to an ISO string",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "iso",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const isEqual = date1.getTime() === date2.getTime();",
+      "description": "Compare two Date objects to check if they are equal",
+      "scenario": "Compare two Date objects to check if they are equal",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "compare",
+        "equal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const isBefore = date1 < date2;",
+      "description": "Check if one Date is before another",
+      "scenario": "Check if one Date is before another",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "compare",
+        "before"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const isAfter = date1 > date2;",
+      "description": "Check if one Date is after another",
+      "scenario": "Check if one Date is after another",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "compare",
+        "after"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

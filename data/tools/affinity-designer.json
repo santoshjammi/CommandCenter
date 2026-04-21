@@ -1,0 +1,165 @@
+{
+  "title": "Affinity Designer Cheat Sheet",
+  "slug": "affinity-designer",
+  "description": "Quick reference for Affinity Designer shortcuts and tools",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl + A",
+      "description": "Select all objects on the canvas",
+      "scenario": "Select all objects on the canvas",
+      "language": "text",
+      "tags": [
+        "select",
+        "shortcut",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + A",
+      "description": "Deselect any selected objects",
+      "scenario": "Deselect any selected objects",
+      "language": "text",
+      "tags": [
+        "deselect",
+        "shortcut",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "shortcut",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + G",
+      "description": "Group selected layers",
+      "scenario": "Group selected layers",
+      "language": "text",
+      "tags": [
+        "group",
+        "layers",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + G",
+      "description": "Ungroup selected layers",
+      "scenario": "Ungroup selected layers",
+      "language": "text",
+      "tags": [
+        "ungroup",
+        "layers",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + J",
+      "description": "Duplicate selected layer",
+      "scenario": "Duplicate selected layer",
+      "language": "text",
+      "tags": [
+        "duplicate",
+        "layer",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + +",
+      "description": "Zoom in on the canvas",
+      "scenario": "Zoom in on the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "view",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + -",
+      "description": "Zoom out of the canvas",
+      "scenario": "Zoom out of the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "view",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + 0",
+      "description": "Fit canvas to screen",
+      "scenario": "Fit canvas to screen",
+      "language": "text",
+      "tags": [
+        "fit",
+        "canvas",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "V",
+      "description": "Select the Move Tool",
+      "scenario": "Select the Move Tool",
+      "language": "text",
+      "tags": [
+        "move",
+        "tool",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A",
+      "description": "Select the Node Tool",
+      "scenario": "Select the Node Tool",
+      "language": "text",
+      "tags": [
+        "node",
+        "tool",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P",
+      "description": "Select the Pen Tool",
+      "scenario": "Select the Pen Tool",
+      "language": "text",
+      "tags": [
+        "pen",
+        "tool",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

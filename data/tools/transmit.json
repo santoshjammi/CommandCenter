@@ -1,0 +1,165 @@
+{
+  "title": "Transmit CLI Cheat Sheet",
+  "slug": "transmit",
+  "description": "Essential commands and patterns for using Transmit CLI efficiently.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "transmit favorites connect <favorite-name>",
+      "description": "Connect to a server using a saved favorite",
+      "scenario": "Connect to a server using a saved favorite",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "favorites",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit upload <local-path> <remote-path>",
+      "description": "Upload a file to a remote server",
+      "scenario": "Upload a file to a remote server",
+      "language": "bash",
+      "tags": [
+        "upload",
+        "file",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit download <remote-path> <local-path>",
+      "description": "Download a file from a remote server",
+      "scenario": "Download a file from a remote server",
+      "language": "bash",
+      "tags": [
+        "download",
+        "file",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit sync <local-dir> <remote-dir>",
+      "description": "Synchronize local and remote directories",
+      "scenario": "Synchronize local and remote directories",
+      "language": "bash",
+      "tags": [
+        "sync",
+        "directories",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit delete <remote-path>",
+      "description": "Delete a file on a remote server",
+      "scenario": "Delete a file on a remote server",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "file",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit list <remote-dir>",
+      "description": "List contents of a remote directory",
+      "scenario": "List contents of a remote directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "directory",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit config set protocol <protocol-name>",
+      "description": "Set the default protocol for connections",
+      "scenario": "Set the default protocol for connections",
+      "language": "bash",
+      "tags": [
+        "config",
+        "protocol",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit config show",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit --verbose <command>",
+      "description": "Enable verbose logging for debugging",
+      "scenario": "Enable verbose logging for debugging",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "verbose",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit status <server-name>",
+      "description": "Check the connection status to a server",
+      "scenario": "Check the connection status to a server",
+      "language": "bash",
+      "tags": [
+        "status",
+        "connection",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transmit logs last-error",
+      "description": "View the last error log",
+      "scenario": "View the last error log",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "error",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

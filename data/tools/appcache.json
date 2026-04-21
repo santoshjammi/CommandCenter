@@ -1,0 +1,165 @@
+{
+  "title": "Appcache Cheat Sheet",
+  "slug": "appcache",
+  "description": "Quick reference for HTML5 Appcache syntax and usage.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "CACHE MANIFEST",
+      "description": "Define the start of a cache manifest file",
+      "scenario": "Define the start of a cache manifest file",
+      "language": "text",
+      "tags": [
+        "manifest",
+        "start",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CACHE:\n/index.html\n/styles.css\n/script.js",
+      "description": "Specify files to cache",
+      "scenario": "Specify files to cache",
+      "language": "text",
+      "tags": [
+        "cache",
+        "files",
+        "specify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NETWORK:\n*",
+      "description": "Specify network resources that require online access",
+      "scenario": "Specify network resources that require online access",
+      "language": "text",
+      "tags": [
+        "network",
+        "online",
+        "resources"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FALLBACK:\n/ /offline.html",
+      "description": "Specify fallback resources",
+      "scenario": "Specify fallback resources",
+      "language": "text",
+      "tags": [
+        "fallback",
+        "offline",
+        "resources"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# This is a comment",
+      "description": "Comment within a manifest file",
+      "scenario": "Comment within a manifest file",
+      "language": "text",
+      "tags": [
+        "comment",
+        "manifest",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CACHE MANIFEST\n# Version 2",
+      "description": "Invalidate cache by changing the manifest",
+      "scenario": "Invalidate cache by changing the manifest",
+      "language": "text",
+      "tags": [
+        "invalidate",
+        "cache",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chrome://settings/clearBrowserData",
+      "description": "Clear the browser cache",
+      "scenario": "Clear the browser cache",
+      "language": "text",
+      "tags": [
+        "clear",
+        "cache",
+        "browser"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Open DevTools > Application > Manifest",
+      "description": "View cache status in Chrome DevTools",
+      "scenario": "View cache status in Chrome DevTools",
+      "language": "text",
+      "tags": [
+        "devtools",
+        "cache",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Open DevTools > Network > Disable cache",
+      "description": "Disable cache in Chrome DevTools",
+      "scenario": "Disable cache in Chrome DevTools",
+      "language": "text",
+      "tags": [
+        "disable",
+        "cache",
+        "devtools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<html manifest=\"/example.appcache\">",
+      "description": "Basic HTML5 manifest attribute usage",
+      "scenario": "Basic HTML5 manifest attribute usage",
+      "language": "html",
+      "tags": [
+        "html5",
+        "manifest",
+        "attribute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<link rel=\"manifest\" href=\"/manifest.appcache\">",
+      "description": "Link to manifest file in HTML",
+      "scenario": "Link to manifest file in HTML",
+      "language": "html",
+      "tags": [
+        "link",
+        "manifest",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cache-Control: no-cache",
+      "description": "Set cache-control headers for manifest file",
+      "scenario": "Set cache-control headers for manifest file",
+      "language": "text",
+      "tags": [
+        "cache-control",
+        "headers",
+        "manifest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

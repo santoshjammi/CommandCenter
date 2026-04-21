@@ -1,0 +1,165 @@
+{
+  "title": "IRC Cheat Sheet",
+  "slug": "irc",
+  "description": "Quick reference for IRC commands and patterns",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "/connect irc.example.com",
+      "description": "Connect to an IRC server",
+      "scenario": "Connect to an IRC server",
+      "language": "text",
+      "tags": [
+        "connect",
+        "server",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/join #channelname",
+      "description": "Join a channel",
+      "scenario": "Join a channel",
+      "language": "text",
+      "tags": [
+        "channel",
+        "join",
+        "chat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/part #channelname",
+      "description": "Leave a channel",
+      "scenario": "Leave a channel",
+      "language": "text",
+      "tags": [
+        "leave",
+        "channel",
+        "exit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/nick newnickname",
+      "description": "Change your nickname",
+      "scenario": "Change your nickname",
+      "language": "text",
+      "tags": [
+        "nickname",
+        "user",
+        "identity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/msg username message",
+      "description": "Send a private message to a user",
+      "scenario": "Send a private message to a user",
+      "language": "text",
+      "tags": [
+        "private",
+        "message",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/ignore username",
+      "description": "Ignore messages from a user",
+      "scenario": "Ignore messages from a user",
+      "language": "text",
+      "tags": [
+        "ignore",
+        "user",
+        "block"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/invite username #channelname",
+      "description": "Invite a user to a channel",
+      "scenario": "Invite a user to a channel",
+      "language": "text",
+      "tags": [
+        "invite",
+        "channel",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/kick #channelname username",
+      "description": "Kick a user from a channel",
+      "scenario": "Kick a user from a channel",
+      "language": "text",
+      "tags": [
+        "kick",
+        "channel",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/topic #channelname New Topic",
+      "description": "Set a channel topic",
+      "scenario": "Set a channel topic",
+      "language": "text",
+      "tags": [
+        "topic",
+        "channel",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/list",
+      "description": "List all available channels",
+      "scenario": "List all available channels",
+      "language": "text",
+      "tags": [
+        "list",
+        "channels",
+        "browse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/away reason",
+      "description": "Set yourself as away",
+      "scenario": "Set yourself as away",
+      "language": "text",
+      "tags": [
+        "away",
+        "status",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/whois username",
+      "description": "Get information about a user",
+      "scenario": "Get information about a user",
+      "language": "text",
+      "tags": [
+        "whois",
+        "user",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

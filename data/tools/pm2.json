@@ -1,0 +1,165 @@
+{
+  "title": "PM2 Cheat Sheet",
+  "slug": "pm2",
+  "description": "Quick reference for managing Node.js applications with PM2.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "pm2 start app.js",
+      "description": "Start an application with PM2",
+      "scenario": "Start an application with PM2",
+      "language": "bash",
+      "tags": [
+        "start",
+        "application",
+        "nodejs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 list",
+      "description": "List all running applications",
+      "scenario": "List all running applications",
+      "language": "bash",
+      "tags": [
+        "list",
+        "applications",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 stop app",
+      "description": "Stop a running application",
+      "scenario": "Stop a running application",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "application",
+        "manage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 restart app",
+      "description": "Restart a specific application",
+      "scenario": "Restart a specific application",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "application",
+        "manage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 delete app",
+      "description": "Delete an application from PM2 process list",
+      "scenario": "Delete an application from PM2 process list",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "application",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 reload all",
+      "description": "Reload all applications with zero downtime",
+      "scenario": "Reload all applications with zero downtime",
+      "language": "bash",
+      "tags": [
+        "reload",
+        "zero-downtime",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 logs",
+      "description": "Display logs for all applications",
+      "scenario": "Display logs for all applications",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "monitoring",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 monit",
+      "description": "Monitor resource usage of applications",
+      "scenario": "Monitor resource usage of applications",
+      "language": "bash",
+      "tags": [
+        "monitor",
+        "resource",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 flush",
+      "description": "Flush all application logs",
+      "scenario": "Flush all application logs",
+      "language": "bash",
+      "tags": [
+        "flush",
+        "logs",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 startup",
+      "description": "Generate a startup script for PM2",
+      "scenario": "Generate a startup script for PM2",
+      "language": "bash",
+      "tags": [
+        "startup",
+        "script",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 save",
+      "description": "Save the current process list",
+      "scenario": "Save the current process list",
+      "language": "bash",
+      "tags": [
+        "save",
+        "process",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pm2 start ecosystem.config.js",
+      "description": "Start PM2 with a specific ecosystem file",
+      "scenario": "Start PM2 with a specific ecosystem file",
+      "language": "bash",
+      "tags": [
+        "ecosystem",
+        "config",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Arduino Cheat Sheet",
+  "slug": "arduino",
+  "description": "Essential commands and code snippets for Arduino development",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "void setup() {\n  // put your setup code here, to run once:\n}",
+      "description": "Define the setup function for initializing configurations",
+      "scenario": "Define the setup function for initializing configurations",
+      "language": "cpp",
+      "tags": [
+        "setup",
+        "initialization",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void loop() {\n  // put your main code here, to run repeatedly:\n}",
+      "description": "Define the loop function for continuous execution",
+      "scenario": "Define the loop function for continuous execution",
+      "language": "cpp",
+      "tags": [
+        "loop",
+        "execution",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pinMode(LED_BUILTIN, OUTPUT);",
+      "description": "Set the pin mode to output",
+      "scenario": "Set the pin mode to output",
+      "language": "cpp",
+      "tags": [
+        "pinMode",
+        "output",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "digitalWrite(LED_BUILTIN, HIGH);",
+      "description": "Set a digital pin to HIGH",
+      "scenario": "Set a digital pin to HIGH",
+      "language": "cpp",
+      "tags": [
+        "digitalWrite",
+        "HIGH",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int buttonState = digitalRead(2);",
+      "description": "Read the state of a digital pin",
+      "scenario": "Read the state of a digital pin",
+      "language": "cpp",
+      "tags": [
+        "digitalRead",
+        "input",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));",
+      "description": "Toggle an LED on and off",
+      "scenario": "Toggle an LED on and off",
+      "language": "cpp",
+      "tags": [
+        "toggle",
+        "LED",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int sensorValue = analogRead(A0);",
+      "description": "Read an analog input pin",
+      "scenario": "Read an analog input pin",
+      "language": "cpp",
+      "tags": [
+        "analogRead",
+        "sensor",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "analogWrite(3, 128);",
+      "description": "Write an analog value to a pin",
+      "scenario": "Write an analog value to a pin",
+      "language": "cpp",
+      "tags": [
+        "analogWrite",
+        "PWM",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int outputValue = map(sensorValue, 0, 1023, 0, 255);",
+      "description": "Map a sensor value to a different range",
+      "scenario": "Map a sensor value to a different range",
+      "language": "cpp",
+      "tags": [
+        "map",
+        "range",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Serial.begin(9600);",
+      "description": "Initialize serial communication at 9600 baud",
+      "scenario": "Initialize serial communication at 9600 baud",
+      "language": "cpp",
+      "tags": [
+        "Serial",
+        "begin",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Serial.println(\"Hello, Arduino!\");",
+      "description": "Print a message to the serial monitor",
+      "scenario": "Print a message to the serial monitor",
+      "language": "cpp",
+      "tags": [
+        "Serial",
+        "println",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (Serial.available() > 0) {\n  // read the incoming byte:\n}",
+      "description": "Check if data is available to read from serial",
+      "scenario": "Check if data is available to read from serial",
+      "language": "cpp",
+      "tags": [
+        "Serial",
+        "available",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (sensorValue > threshold) {\n  // do something\n}",
+      "description": "Use an if statement to check a condition",
+      "scenario": "Use an if statement to check a condition",
+      "language": "cpp",
+      "tags": [
+        "if",
+        "condition",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (int i = 0; i < 10; i++) {\n  // loop code\n}",
+      "description": "Create a for loop to iterate a set number of times",
+      "scenario": "Create a for loop to iterate a set number of times",
+      "language": "cpp",
+      "tags": [
+        "for",
+        "loop",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch (variable) {\n  case 1:\n    // do something\n    break;\n  default:\n    // default action\n    break;\n}",
+      "description": "Use a switch case to handle multiple conditions",
+      "scenario": "Use a switch case to handle multiple conditions",
+      "language": "cpp",
+      "tags": [
+        "switch",
+        "case",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

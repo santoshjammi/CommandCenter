@@ -1,0 +1,204 @@
+{
+  "title": "Angular Cheat Sheet",
+  "slug": "angular",
+  "description": "Essential Angular CLI commands and code snippets for developers",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "ng new my-angular-app",
+      "description": "Create a new Angular project",
+      "scenario": "Create a new Angular project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "project",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ng serve",
+      "description": "Serve the application locally",
+      "scenario": "Serve the application locally",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "serve",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ng generate component my-component",
+      "description": "Generate a new component",
+      "scenario": "Generate a new component",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "generate",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Component({ selector: 'app-root', templateUrl: './app.component.html', styleUrls: ['./app.component.css'] }) export class AppComponent { title = 'my-angular-app'; }",
+      "description": "Define a basic Angular component",
+      "scenario": "Define a basic Angular component",
+      "language": "typescript",
+      "tags": [
+        "component",
+        "typescript",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h1>{{ title }}</h1>",
+      "description": "Bind a property in a template",
+      "scenario": "Bind a property in a template",
+      "language": "html",
+      "tags": [
+        "binding",
+        "template",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button (click)=\"myFunction()\">Click me</button>",
+      "description": "Handle a button click event",
+      "scenario": "Handle a button click event",
+      "language": "html",
+      "tags": [
+        "event",
+        "click",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const routes: Routes = [{ path: 'home', component: HomeComponent }];",
+      "description": "Define a route in Angular",
+      "scenario": "Define a route in Angular",
+      "language": "typescript",
+      "tags": [
+        "routing",
+        "typescript",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "imports: [RouterModule.forRoot(routes)], exports: [RouterModule]",
+      "description": "Import RouterModule and configure routes",
+      "scenario": "Import RouterModule and configure routes",
+      "language": "typescript",
+      "tags": [
+        "routing",
+        "module",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.router.navigate(['/home']);",
+      "description": "Navigate to a route programmatically",
+      "scenario": "Navigate to a route programmatically",
+      "language": "typescript",
+      "tags": [
+        "routing",
+        "navigate",
+        "typescript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ng generate service my-service",
+      "description": "Create a new service",
+      "scenario": "Create a new service",
+      "language": "bash",
+      "tags": [
+        "service",
+        "generate",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "constructor(private myService: MyService) {}",
+      "description": "Inject a service into a component",
+      "scenario": "Inject a service into a component",
+      "language": "typescript",
+      "tags": [
+        "service",
+        "inject",
+        "typescript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Injectable({ providedIn: 'root' }) export class MyService { constructor() {} }",
+      "description": "Define a basic Angular service",
+      "scenario": "Define a basic Angular service",
+      "language": "typescript",
+      "tags": [
+        "service",
+        "typescript",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div *ngIf=\"isVisible\">Visible Content</div>",
+      "description": "Use ngIf directive for conditional rendering",
+      "scenario": "Use ngIf directive for conditional rendering",
+      "language": "html",
+      "tags": [
+        "directive",
+        "conditional",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<li *ngFor=\"let item of items\">{{ item }}</li>",
+      "description": "Use ngFor directive for iterating over a list",
+      "scenario": "Use ngFor directive for iterating over a list",
+      "language": "html",
+      "tags": [
+        "directive",
+        "iteration",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input [(ngModel)]=\"name\">",
+      "description": "Two-way data binding with ngModel",
+      "scenario": "Two-way data binding with ngModel",
+      "language": "html",
+      "tags": [
+        "binding",
+        "ngModel",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

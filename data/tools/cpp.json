@@ -1,0 +1,204 @@
+{
+  "title": "C++ Cheat Sheet",
+  "slug": "cpp",
+  "description": "Essential C++ syntax, commands, and patterns for software engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "int main() {\n    return 0;\n}",
+      "description": "Define a main function in C++",
+      "scenario": "Define a main function in C++",
+      "language": "cpp",
+      "tags": [
+        "main",
+        "function",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int number = 10;",
+      "description": "Declare an integer variable",
+      "scenario": "Declare an integer variable",
+      "language": "cpp",
+      "tags": [
+        "variable",
+        "integer",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#include <iostream>",
+      "description": "Include the iostream library for input/output",
+      "scenario": "Include the iostream library for input/output",
+      "language": "cpp",
+      "tags": [
+        "iostream",
+        "include",
+        "library"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (x > 0) {\n    std::cout << \"Positive\";\n} else {\n    std::cout << \"Non-positive\";\n}",
+      "description": "If-else statement example",
+      "scenario": "If-else statement example",
+      "language": "cpp",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (int i = 0; i < 10; ++i) {\n    std::cout << i << std::endl;\n}",
+      "description": "For loop to iterate 10 times",
+      "scenario": "For loop to iterate 10 times",
+      "language": "cpp",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (n > 0) {\n    --n;\n}",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "cpp",
+      "tags": [
+        "while",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int add(int a, int b) {\n    return a + b;\n}",
+      "description": "Define a function that returns an integer",
+      "scenario": "Define a function that returns an integer",
+      "language": "cpp",
+      "tags": [
+        "function",
+        "return",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void printMessage() {\n    std::cout << \"Hello, World!\";\n}",
+      "description": "Function with no return value (void)",
+      "scenario": "Function with no return value (void)",
+      "language": "cpp",
+      "tags": [
+        "function",
+        "void",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int square(int x) {\n    return x * x;\n}\ndouble square(double x) {\n    return x * x;\n}",
+      "description": "Function overloading example",
+      "scenario": "Function overloading example",
+      "language": "cpp",
+      "tags": [
+        "function",
+        "overloading",
+        "example"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Car {\npublic:\n    Car() {\n        std::cout << \"Car created\";\n    }\n};",
+      "description": "Define a simple class with a constructor",
+      "scenario": "Define a simple class with a constructor",
+      "language": "cpp",
+      "tags": [
+        "class",
+        "constructor",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Car myCar;",
+      "description": "Create an object of a class",
+      "scenario": "Create an object of a class",
+      "language": "cpp",
+      "tags": [
+        "object",
+        "class",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Vehicle {\npublic:\n    void move() {\n        std::cout << \"Moving\";\n    }\n};\n\nclass Car : public Vehicle {\n};",
+      "description": "Inheritance example in C++",
+      "scenario": "Inheritance example in C++",
+      "language": "cpp",
+      "tags": [
+        "inheritance",
+        "class",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "std::vector<int> numbers;\nnumbers.push_back(1);",
+      "description": "Use a vector to store integers",
+      "scenario": "Use a vector to store integers",
+      "language": "cpp",
+      "tags": [
+        "vector",
+        "stl",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "std::sort(numbers.begin(), numbers.end());",
+      "description": "Sort a vector using STL sort",
+      "scenario": "Sort a vector using STL sort",
+      "language": "cpp",
+      "tags": [
+        "sort",
+        "stl",
+        "algorithm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "std::map<std::string, int> ageMap;\nageMap[\"Alice\"] = 30;",
+      "description": "Use a map to store key-value pairs",
+      "scenario": "Use a map to store key-value pairs",
+      "language": "cpp",
+      "tags": [
+        "map",
+        "stl",
+        "key-value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Java Persistence API Cheat Sheet",
+  "slug": "java-persistence-api",
+  "description": "Essential commands and patterns for Java Persistence API (JPA).",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "@Entity\npublic class User { }",
+      "description": "Define a class as a JPA entity",
+      "scenario": "Define a class as a JPA entity",
+      "language": "java",
+      "tags": [
+        "entity",
+        "annotation",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Id\nprivate Long id;",
+      "description": "Specify the primary key of an entity",
+      "scenario": "Specify the primary key of an entity",
+      "language": "java",
+      "tags": [
+        "primary key",
+        "annotation",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Column(name=\"user_name\")\nprivate String username;",
+      "description": "Map a field to a specific column in the database",
+      "scenario": "Map a field to a specific column in the database",
+      "language": "java",
+      "tags": [
+        "column",
+        "mapping",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "entityManager.persist(entity);",
+      "description": "Persist an entity to the database",
+      "scenario": "Persist an entity to the database",
+      "language": "java",
+      "tags": [
+        "persist",
+        "entitymanager",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User user = entityManager.find(User.class, userId);",
+      "description": "Find an entity by its primary key",
+      "scenario": "Find an entity by its primary key",
+      "language": "java",
+      "tags": [
+        "find",
+        "entitymanager",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "entityManager.remove(entity);",
+      "description": "Remove an entity from the database",
+      "scenario": "Remove an entity from the database",
+      "language": "java",
+      "tags": [
+        "remove",
+        "entitymanager",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT u FROM User u",
+      "description": "Select all users from the database",
+      "scenario": "Select all users from the database",
+      "language": "sql",
+      "tags": [
+        "jpql",
+        "select",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT u FROM User u WHERE u.username = :username",
+      "description": "Find users by username using a parameter",
+      "scenario": "Find users by username using a parameter",
+      "language": "sql",
+      "tags": [
+        "jpql",
+        "parameter",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE User u SET u.status = 'active' WHERE u.lastLogin < :date",
+      "description": "Update user status in bulk",
+      "scenario": "Update user status in bulk",
+      "language": "sql",
+      "tags": [
+        "jpql",
+        "update",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<persistence-unit name=\"myUnit\">\n  <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>\n</persistence-unit>",
+      "description": "Define persistence unit in persistence.xml",
+      "scenario": "Define persistence unit in persistence.xml",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "persistence.xml",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property name=\"javax.persistence.jdbc.url\" value=\"jdbc:mysql://localhost:3306/mydb\"/>",
+      "description": "Set the database connection URL",
+      "scenario": "Set the database connection URL",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "database",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property name=\"hibernate.show_sql\" value=\"true\"/>",
+      "description": "Enable SQL logging",
+      "scenario": "Enable SQL logging",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "logging",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "entityManager.getTransaction().begin();",
+      "description": "Begin a transaction",
+      "scenario": "Begin a transaction",
+      "language": "java",
+      "tags": [
+        "transaction",
+        "begin",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "entityManager.getTransaction().commit();",
+      "description": "Commit a transaction",
+      "scenario": "Commit a transaction",
+      "language": "java",
+      "tags": [
+        "transaction",
+        "commit",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "entityManager.getTransaction().rollback();",
+      "description": "Rollback a transaction",
+      "scenario": "Rollback a transaction",
+      "language": "java",
+      "tags": [
+        "transaction",
+        "rollback",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

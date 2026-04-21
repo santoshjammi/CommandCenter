@@ -1,0 +1,204 @@
+{
+  "title": "Microsoft Project (MSP) Cheat Sheet",
+  "slug": "microsoft-project-msp",
+  "description": "Quick reference for Microsoft Project commands and shortcuts.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl + O",
+      "description": "Open a project file",
+      "scenario": "Open a project file",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "file",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + S",
+      "description": "Save the current project",
+      "scenario": "Save the current project",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "file",
+        "save"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + F4",
+      "description": "Close the current project",
+      "scenario": "Close the current project",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "file",
+        "close"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + N",
+      "description": "Create a new task",
+      "scenario": "Create a new task",
+      "language": "text",
+      "tags": [
+        "task",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Shift + Right Arrow",
+      "description": "Indent a task",
+      "scenario": "Indent a task",
+      "language": "text",
+      "tags": [
+        "task",
+        "indent",
+        "hierarchy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Shift + Left Arrow",
+      "description": "Outdent a task",
+      "scenario": "Outdent a task",
+      "language": "text",
+      "tags": [
+        "task",
+        "outdent",
+        "hierarchy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + 1",
+      "description": "Switch to Gantt Chart view",
+      "scenario": "Switch to Gantt Chart view",
+      "language": "text",
+      "tags": [
+        "view",
+        "gantt",
+        "chart"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + 2",
+      "description": "Switch to Task Usage view",
+      "scenario": "Switch to Task Usage view",
+      "language": "text",
+      "tags": [
+        "view",
+        "task",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Shift + Plus",
+      "description": "Zoom in on the timeline",
+      "scenario": "Zoom in on the timeline",
+      "language": "text",
+      "tags": [
+        "view",
+        "zoom",
+        "timeline"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + H, R, N",
+      "description": "Add a new resource",
+      "scenario": "Add a new resource",
+      "language": "text",
+      "tags": [
+        "resource",
+        "add",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + H, A, R",
+      "description": "Assign a resource to a task",
+      "scenario": "Assign a resource to a task",
+      "language": "text",
+      "tags": [
+        "resource",
+        "assign",
+        "task"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + H, R, S",
+      "description": "Open Resource Sheet view",
+      "scenario": "Open Resource Sheet view",
+      "language": "text",
+      "tags": [
+        "resource",
+        "sheet",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + R, P, G",
+      "description": "Generate a project report",
+      "scenario": "Generate a project report",
+      "language": "text",
+      "tags": [
+        "report",
+        "generate",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + R",
+      "description": "Open the report tab",
+      "scenario": "Open the report tab",
+      "language": "text",
+      "tags": [
+        "report",
+        "tab",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + P",
+      "description": "Print a report",
+      "scenario": "Print a report",
+      "language": "text",
+      "tags": [
+        "report",
+        "print",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

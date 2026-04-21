@@ -1,0 +1,165 @@
+{
+  "title": "Tcpdump Cheat Sheet",
+  "slug": "tcpdump",
+  "description": "Essential tcpdump commands for network packet analysis.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "tcpdump -i any",
+      "description": "Capture packets on all interfaces",
+      "scenario": "Capture packets on all interfaces",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "interface",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -i eth0",
+      "description": "Capture packets on a specific interface",
+      "scenario": "Capture packets on a specific interface",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "interface",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -c 10",
+      "description": "Capture a specific number of packets",
+      "scenario": "Capture a specific number of packets",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "count",
+        "limit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump host 192.168.1.1",
+      "description": "Filter packets by host",
+      "scenario": "Filter packets by host",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "host",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump port 80",
+      "description": "Filter packets by port",
+      "scenario": "Filter packets by port",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "port",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump icmp",
+      "description": "Filter packets by protocol",
+      "scenario": "Filter packets by protocol",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "protocol",
+        "icmp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -w capture.pcap",
+      "description": "Capture and save packets to a file",
+      "scenario": "Capture and save packets to a file",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "save",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -r capture.pcap",
+      "description": "Read packets from a saved file",
+      "scenario": "Read packets from a saved file",
+      "language": "bash",
+      "tags": [
+        "read",
+        "file",
+        "pcap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump 'tcp[13] & 2 != 0'",
+      "description": "Capture packets with a specific expression",
+      "scenario": "Capture packets with a specific expression",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "expression",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -A",
+      "description": "Display packets in ASCII format",
+      "scenario": "Display packets in ASCII format",
+      "language": "bash",
+      "tags": [
+        "display",
+        "ascii",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -X",
+      "description": "Display packets in HEX and ASCII",
+      "scenario": "Display packets in HEX and ASCII",
+      "language": "bash",
+      "tags": [
+        "display",
+        "hex",
+        "ascii"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -tttt",
+      "description": "Display packet timestamps",
+      "scenario": "Display packet timestamps",
+      "language": "bash",
+      "tags": [
+        "display",
+        "timestamp",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "React.js Cheat Sheet",
+  "slug": "reactjs",
+  "description": "Essential React.js commands and patterns for developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "function MyComponent() {\n  return <div>Hello, World!</div>;\n}",
+      "description": "Define a functional component",
+      "scenario": "Define a functional component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "function",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyComponent extends React.Component {\n  render() {\n    return <div>Hello, World!</div>;\n  }\n}",
+      "description": "Define a class component",
+      "scenario": "Define a class component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "class",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function Greeting(props) {\n  return <h1>Hello, {props.name}!</h1>;\n}",
+      "description": "Use props in a functional component",
+      "scenario": "Use props in a functional component",
+      "language": "javascript",
+      "tags": [
+        "props",
+        "function",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyComponent extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = { count: 0 };\n  }\n}",
+      "description": "Initialize state in a class component",
+      "scenario": "Initialize state in a class component",
+      "language": "javascript",
+      "tags": [
+        "state",
+        "class",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  return (\n    <div>\n      <p>{count}</p>\n      <button onClick={() => setCount(count + 1)}>Increment</button>\n    </div>\n  );\n}",
+      "description": "Use useState hook in a functional component",
+      "scenario": "Use useState hook in a functional component",
+      "language": "javascript",
+      "tags": [
+        "state",
+        "hook",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.setState({ count: this.state.count + 1 });",
+      "description": "Update state in a class component",
+      "scenario": "Update state in a class component",
+      "language": "javascript",
+      "tags": [
+        "state",
+        "update",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyComponent extends React.Component {\n  componentDidMount() {\n    // Code to run after component mounts\n  }\n}",
+      "description": "Use componentDidMount lifecycle method",
+      "scenario": "Use componentDidMount lifecycle method",
+      "language": "javascript",
+      "tags": [
+        "lifecycle",
+        "mount",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyComponent extends React.Component {\n  componentDidUpdate(prevProps, prevState) {\n    // Code to run after component updates\n  }\n}",
+      "description": "Use componentDidUpdate lifecycle method",
+      "scenario": "Use componentDidUpdate lifecycle method",
+      "language": "javascript",
+      "tags": [
+        "lifecycle",
+        "update",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyComponent extends React.Component {\n  componentWillUnmount() {\n    // Code to run before component unmounts\n  }\n}",
+      "description": "Use componentWillUnmount lifecycle method",
+      "scenario": "Use componentWillUnmount lifecycle method",
+      "language": "javascript",
+      "tags": [
+        "lifecycle",
+        "unmount",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function MyButton() {\n  function handleClick() {\n    alert('Button clicked!');\n  }\n\n  return <button onClick={handleClick}>Click Me</button>;\n}",
+      "description": "Handle button click event in a functional component",
+      "scenario": "Handle button click event in a functional component",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "click",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function Parent() {\n  function handleChildClick() {\n    alert('Child clicked!');\n  }\n\n  return <Child onClick={handleChildClick} />;\n}",
+      "description": "Pass event handler as a prop",
+      "scenario": "Pass event handler as a prop",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "prop",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyButton extends React.Component {\n  constructor(props) {\n    super(props);\n    this.handleClick = this.handleClick.bind(this);\n  }\n\n  handleClick() {\n    alert('Button clicked!');\n  }\n\n  render() {\n    return <button onClick={this.handleClick}>Click Me</button>;\n  }\n}",
+      "description": "Bind event handler in a class component",
+      "scenario": "Bind event handler in a class component",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "bind",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function Greeting(props) {\n  if (props.isLoggedIn) {\n    return <h1>Welcome back!</h1>;\n  } else {\n    return <h1>Please sign up.</h1>;\n  }\n}",
+      "description": "Use if-else for conditional rendering",
+      "scenario": "Use if-else for conditional rendering",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "render",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function Greeting(props) {\n  return (\n    <h1>{props.isLoggedIn ? 'Welcome back!' : 'Please sign up.'}</h1>\n  );\n}",
+      "description": "Use ternary operator for inline conditional rendering",
+      "scenario": "Use ternary operator for inline conditional rendering",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "ternary",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function Mailbox(props) {\n  const unreadMessages = props.unreadMessages;\n  return (\n    <div>\n      <h1>Hello!</h1>\n      {unreadMessages.length > 0 &&\n        <h2>You have {unreadMessages.length} unread messages.</h2>\n      }\n    </div>\n  );\n}",
+      "description": "Use && operator for conditional rendering",
+      "scenario": "Use && operator for conditional rendering",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "logical",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

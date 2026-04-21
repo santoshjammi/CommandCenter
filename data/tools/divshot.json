@@ -1,0 +1,165 @@
+{
+  "title": "Divshot CLI Cheat Sheet",
+  "slug": "divshot",
+  "description": "Essential commands and configurations for Divshot CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "divshot init",
+      "description": "Initialize a new Divshot application",
+      "scenario": "Initialize a new Divshot application",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "divshot push",
+      "description": "Deploy the application to Divshot",
+      "scenario": "Deploy the application to Divshot",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "push",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "divshot server",
+      "description": "Serve the application locally",
+      "scenario": "Serve the application locally",
+      "language": "bash",
+      "tags": [
+        "local",
+        "server",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "divshot env development",
+      "description": "Set the environment to development",
+      "scenario": "Set the environment to development",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "development",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "divshot env staging",
+      "description": "Set the environment to staging",
+      "scenario": "Set the environment to staging",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "staging",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "divshot env production",
+      "description": "Set the environment to production",
+      "scenario": "Set the environment to production",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "production",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"name\": \"my-app\",\n  \"root\": \"public\",\n  \"clean_urls\": true\n}",
+      "description": "Example of a basic divshot.json configuration",
+      "scenario": "Example of a basic divshot.json configuration",
+      "language": "json",
+      "tags": [
+        "config",
+        "json",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"error_page\": \"404.html\"\n}",
+      "description": "Set custom error pages in divshot.json",
+      "scenario": "Set custom error pages in divshot.json",
+      "language": "json",
+      "tags": [
+        "config",
+        "error",
+        "pages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"routes\": {\n    \"/api/**\": \"https://api.example.com\"\n  }\n}",
+      "description": "Define routes in divshot.json",
+      "scenario": "Define routes in divshot.json",
+      "language": "json",
+      "tags": [
+        "routes",
+        "config",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "divshot promote production",
+      "description": "Promote a build to production",
+      "scenario": "Promote a build to production",
+      "language": "bash",
+      "tags": [
+        "promote",
+        "production",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "divshot domains add www.example.com",
+      "description": "Add a custom domain to your app",
+      "scenario": "Add a custom domain to your app",
+      "language": "bash",
+      "tags": [
+        "domains",
+        "custom",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "divshot domains remove www.example.com",
+      "description": "Remove a custom domain from your app",
+      "scenario": "Remove a custom domain from your app",
+      "language": "bash",
+      "tags": [
+        "domains",
+        "custom",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

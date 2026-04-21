@@ -1,0 +1,204 @@
+{
+  "title": "Tcl Cheat Sheet",
+  "slug": "tcl",
+  "description": "Essential Tcl commands and patterns for quick reference.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "puts \"Hello, World!\"",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "tcl",
+      "tags": [
+        "print",
+        "output",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set varName \"value\"",
+      "description": "Set a variable with a value",
+      "scenario": "Set a variable with a value",
+      "language": "tcl",
+      "tags": [
+        "variable",
+        "assignment",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set value $varName",
+      "description": "Get the value of a variable",
+      "scenario": "Get the value of a variable",
+      "language": "tcl",
+      "tags": [
+        "variable",
+        "get",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if {$condition} {\n    # do something\n} else {\n    # do something else\n}",
+      "description": "Conditional if-else statement",
+      "scenario": "Conditional if-else statement",
+      "language": "tcl",
+      "tags": [
+        "conditional",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for {set i 0} {$i < 10} {incr i} {\n    puts $i\n}",
+      "description": "For loop to iterate over a range",
+      "scenario": "For loop to iterate over a range",
+      "language": "tcl",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set i 0\nwhile {$i < 10} {\n    puts $i\n    incr i\n}",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "tcl",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "proc greet {name} {\n    puts \"Hello, $name!\"\n}",
+      "description": "Define a simple procedure",
+      "scenario": "Define a simple procedure",
+      "language": "tcl",
+      "tags": [
+        "procedure",
+        "function",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "greet \"Alice\"",
+      "description": "Call a procedure with an argument",
+      "scenario": "Call a procedure with an argument",
+      "language": "tcl",
+      "tags": [
+        "procedure",
+        "call",
+        "argument"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "proc greet {name {greeting \"Hello\"}} {\n    puts \"$greeting, $name!\"\n}",
+      "description": "Procedure with default argument",
+      "scenario": "Procedure with default argument",
+      "language": "tcl",
+      "tags": [
+        "procedure",
+        "default",
+        "argument"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set myList [list 1 2 3 4 5]",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "tcl",
+      "tags": [
+        "list",
+        "create",
+        "initialize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lappend myList 6",
+      "description": "Append an item to a list",
+      "scenario": "Append an item to a list",
+      "language": "tcl",
+      "tags": [
+        "list",
+        "append",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "llength $myList",
+      "description": "Get the length of a list",
+      "scenario": "Get the length of a list",
+      "language": "tcl",
+      "tags": [
+        "list",
+        "length",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set file [open \"filename.txt\" r]",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "tcl",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set contents [read $file]",
+      "description": "Read all contents from a file",
+      "scenario": "Read all contents from a file",
+      "language": "tcl",
+      "tags": [
+        "file",
+        "read",
+        "contents"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "close $file",
+      "description": "Close an open file",
+      "scenario": "Close an open file",
+      "language": "tcl",
+      "tags": [
+        "file",
+        "close",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

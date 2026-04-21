@@ -1,0 +1,204 @@
+{
+  "title": "SVN Cheat Sheet",
+  "slug": "svn",
+  "description": "Essential SVN commands and patterns for version control.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "svn checkout http://example.com/svn/repo",
+      "description": "Check out a repository",
+      "scenario": "Check out a repository",
+      "language": "bash",
+      "tags": [
+        "checkout",
+        "repository",
+        "svn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn update",
+      "description": "Update working copy to the latest revision",
+      "scenario": "Update working copy to the latest revision",
+      "language": "bash",
+      "tags": [
+        "update",
+        "working copy",
+        "svn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn commit -m \"Commit message\"",
+      "description": "Commit changes to the repository",
+      "scenario": "Commit changes to the repository",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "repository",
+        "svn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn copy http://example.com/svn/repo/trunk http://example.com/svn/repo/branches/new-branch -m \"Creating a new branch\"",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "copy",
+        "svn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn merge http://example.com/svn/repo/branches/branch-name",
+      "description": "Merge changes from a branch to trunk",
+      "scenario": "Merge changes from a branch to trunk",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "branch",
+        "trunk"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn switch http://example.com/svn/repo/branches/branch-name",
+      "description": "Switch working copy to a different branch",
+      "scenario": "Switch working copy to a different branch",
+      "language": "bash",
+      "tags": [
+        "switch",
+        "branch",
+        "working copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn resolve --accept working file.txt",
+      "description": "Resolve a conflict by choosing the current working copy",
+      "scenario": "Resolve a conflict by choosing the current working copy",
+      "language": "bash",
+      "tags": [
+        "resolve",
+        "conflict",
+        "working copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn resolve --accept theirs-full file.txt",
+      "description": "Resolve a conflict by choosing the incoming version",
+      "scenario": "Resolve a conflict by choosing the incoming version",
+      "language": "bash",
+      "tags": [
+        "resolve",
+        "conflict",
+        "incoming"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn resolved file.txt",
+      "description": "Mark a conflict as resolved",
+      "scenario": "Mark a conflict as resolved",
+      "language": "bash",
+      "tags": [
+        "resolve",
+        "conflict",
+        "mark"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svnadmin create /path/to/repo",
+      "description": "Create a new repository",
+      "scenario": "Create a new repository",
+      "language": "bash",
+      "tags": [
+        "create",
+        "repository",
+        "svnadmin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svnadmin dump /path/to/repo > repo_dumpfile",
+      "description": "Dump a repository to a file",
+      "scenario": "Dump a repository to a file",
+      "language": "bash",
+      "tags": [
+        "dump",
+        "repository",
+        "svnadmin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svnadmin load /path/to/repo < repo_dumpfile",
+      "description": "Load a dump file into a repository",
+      "scenario": "Load a dump file into a repository",
+      "language": "bash",
+      "tags": [
+        "load",
+        "repository",
+        "svnadmin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn log file.txt",
+      "description": "View the commit log for a file or directory",
+      "scenario": "View the commit log for a file or directory",
+      "language": "bash",
+      "tags": [
+        "log",
+        "history",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn diff -r 1234",
+      "description": "Show changes made in a specific revision",
+      "scenario": "Show changes made in a specific revision",
+      "language": "bash",
+      "tags": [
+        "diff",
+        "revision",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "svn info file.txt",
+      "description": "Show the last changed revision and author",
+      "scenario": "Show the last changed revision and author",
+      "language": "bash",
+      "tags": [
+        "info",
+        "revision",
+        "author"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

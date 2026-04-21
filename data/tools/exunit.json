@@ -1,0 +1,204 @@
+{
+  "title": "ExUnit Cheat Sheet",
+  "slug": "exunit",
+  "description": "Quick reference for ExUnit testing framework in Elixir.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "defmodule MyTest do\n  use ExUnit.Case\nend",
+      "description": "Define a test module with ExUnit",
+      "scenario": "Define a test module with ExUnit",
+      "language": "elixir",
+      "tags": [
+        "module",
+        "test",
+        "exunit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "test \"the truth\" do\n  assert 1 + 1 == 2\nend",
+      "description": "Define a basic test case",
+      "scenario": "Define a basic test case",
+      "language": "elixir",
+      "tags": [
+        "test",
+        "assert",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setup do\n  {:ok, value: 42}\nend",
+      "description": "Run setup before each test",
+      "scenario": "Run setup before each test",
+      "language": "elixir",
+      "tags": [
+        "setup",
+        "test",
+        "hook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert a == b",
+      "description": "Assert equality",
+      "scenario": "Assert equality",
+      "language": "elixir",
+      "tags": [
+        "assert",
+        "equality",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert {:ok, value} = result",
+      "description": "Assert match with pattern",
+      "scenario": "Assert match with pattern",
+      "language": "elixir",
+      "tags": [
+        "assert",
+        "pattern",
+        "match"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "refute is_nil(value)",
+      "description": "Refute a condition",
+      "scenario": "Refute a condition",
+      "language": "elixir",
+      "tags": [
+        "refute",
+        "condition",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix test",
+      "description": "Run all tests in a project",
+      "scenario": "Run all tests in a project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix test test/my_test.exs",
+      "description": "Run tests in a specific file",
+      "scenario": "Run tests in a specific file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix test test/my_test.exs:12",
+      "description": "Run a specific test by line number",
+      "scenario": "Run a specific test by line number",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import ExUnit.CaptureIO\n\nassert capture_io(fn ->\n  IO.puts(\"Hello\")\nend) == \"Hello\\n\"",
+      "description": "Use ExUnit.CaptureIO to test console output",
+      "scenario": "Use ExUnit.CaptureIO to test console output",
+      "language": "elixir",
+      "tags": [
+        "captureio",
+        "output",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import ExUnit.CaptureLog\n\nassert capture_log(fn ->\n  Logger.info(\"Log message\")\nend) =~ \"Log message\"",
+      "description": "Use ExUnit.CaptureLog to test log output",
+      "scenario": "Use ExUnit.CaptureLog to test log output",
+      "language": "elixir",
+      "tags": [
+        "capturelog",
+        "log",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@tag :custom_tag\ntest \"with custom tag\" do\n  assert true\nend",
+      "description": "Define a custom test tag",
+      "scenario": "Define a custom test tag",
+      "language": "elixir",
+      "tags": [
+        "tag",
+        "custom",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setup do\n  {:ok, user: %User{name: \"John\"}}\nend\n\ntest \"user name\", context do\n  assert context[:user].name == \"John\"\nend",
+      "description": "Use context in tests",
+      "scenario": "Use context in tests",
+      "language": "elixir",
+      "tags": [
+        "context",
+        "setup",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "test \"async test\", async: true do\n  assert_receive :message\nend",
+      "description": "Test asynchronous code",
+      "scenario": "Test asynchronous code",
+      "language": "elixir",
+      "tags": [
+        "async",
+        "test",
+        "receive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setup_all do\n  IO.puts(\"Setup for all tests\")\n  :ok\nend\n\nteardown_all do\n  IO.puts(\"Teardown for all tests\")\n  :ok\nend",
+      "description": "Use ExUnit callbacks for setup and teardown",
+      "scenario": "Use ExUnit callbacks for setup and teardown",
+      "language": "elixir",
+      "tags": [
+        "callback",
+        "setup",
+        "teardown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

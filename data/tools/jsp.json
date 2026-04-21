@@ -1,0 +1,165 @@
+{
+  "title": "JSP Cheat Sheet",
+  "slug": "jsp",
+  "description": "Quick reference for JSP syntax and common patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\" %>",
+      "description": "Declare a JSP page directive",
+      "scenario": "Declare a JSP page directive",
+      "language": "text",
+      "tags": [
+        "directive",
+        "page",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%@ include file=\"header.jsp\" %>",
+      "description": "Include a file in JSP",
+      "scenario": "Include a file in JSP",
+      "language": "text",
+      "tags": [
+        "include",
+        "file",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% int i = 0; %>",
+      "description": "Declare a JSP scriptlet",
+      "scenario": "Declare a JSP scriptlet",
+      "language": "text",
+      "tags": [
+        "scriptlet",
+        "java",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= variableName %>",
+      "description": "Output a variable using JSP expression",
+      "scenario": "Output a variable using JSP expression",
+      "language": "text",
+      "tags": [
+        "expression",
+        "output",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= 5 + 10 %>",
+      "description": "Add two numbers in JSP expression",
+      "scenario": "Add two numbers in JSP expression",
+      "language": "text",
+      "tags": [
+        "expression",
+        "math",
+        "addition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<jsp:getProperty name=\"beanName\" property=\"propertyName\" />",
+      "description": "Access a JavaBean property",
+      "scenario": "Access a JavaBean property",
+      "language": "text",
+      "tags": [
+        "expression",
+        "javabean",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<jsp:useBean id=\"bean\" class=\"com.example.Bean\" scope=\"session\" />",
+      "description": "Use JSP useBean tag",
+      "scenario": "Use JSP useBean tag",
+      "language": "text",
+      "tags": [
+        "tag",
+        "usebean",
+        "javabean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<jsp:forward page=\"anotherPage.jsp\" />",
+      "description": "Forward request to another resource",
+      "scenario": "Forward request to another resource",
+      "language": "text",
+      "tags": [
+        "tag",
+        "forward",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<jsp:setProperty name=\"bean\" property=\"propertyName\" value=\"value\" />",
+      "description": "Set a property in a JavaBean",
+      "scenario": "Set a property in a JavaBean",
+      "language": "text",
+      "tags": [
+        "tag",
+        "setproperty",
+        "javabean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%-- This is a JSP comment --%>",
+      "description": "Add a JSP comment",
+      "scenario": "Add a JSP comment",
+      "language": "text",
+      "tags": [
+        "comment",
+        "jsp",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!-- This is an HTML comment -->",
+      "description": "Add an HTML comment in JSP",
+      "scenario": "Add an HTML comment in JSP",
+      "language": "text",
+      "tags": [
+        "comment",
+        "html",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%--\n This is a \n multi-line JSP comment\n--%>",
+      "description": "Add a multi-line comment in JSP",
+      "scenario": "Add a multi-line comment in JSP",
+      "language": "text",
+      "tags": [
+        "comment",
+        "multiline",
+        "jsp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

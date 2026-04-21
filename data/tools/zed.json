@@ -1,0 +1,165 @@
+{
+  "title": "Zed CLI Cheat Sheet",
+  "slug": "zed",
+  "description": "Essential commands and syntax for using the Zed CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "zed init my_project",
+      "description": "Initialize a new Zed project",
+      "scenario": "Initialize a new Zed project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed start",
+      "description": "Start the Zed development server",
+      "scenario": "Start the Zed development server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "development",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed build",
+      "description": "Build the Zed project for production",
+      "scenario": "Build the Zed project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed config set env development",
+      "description": "Set the environment to development",
+      "scenario": "Set the environment to development",
+      "language": "bash",
+      "tags": [
+        "config",
+        "environment",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed config get key_name",
+      "description": "Get the current configuration for a specific key",
+      "scenario": "Get the current configuration for a specific key",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed deploy --env staging",
+      "description": "Deploy the Zed project to staging",
+      "scenario": "Deploy the Zed project to staging",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "staging",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed deploy --env production",
+      "description": "Deploy the Zed project to production",
+      "scenario": "Deploy the Zed project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed rollback",
+      "description": "Rollback the last deployment",
+      "scenario": "Rollback the last deployment",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "deploy",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed start --debug",
+      "description": "Run Zed in debug mode",
+      "scenario": "Run Zed in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "start",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed logs --type error",
+      "description": "View the Zed error logs",
+      "scenario": "View the Zed error logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "error",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zed cache clear",
+      "description": "Clear the Zed cache",
+      "scenario": "Clear the Zed cache",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "clear",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

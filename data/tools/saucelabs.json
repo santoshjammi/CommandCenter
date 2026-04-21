@@ -1,0 +1,165 @@
+{
+  "title": "Saucelabs Cheat Sheet",
+  "slug": "saucelabs",
+  "description": "Essential CLI commands and configuration for Saucelabs.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "sc -u $SAUCE_USERNAME -k $SAUCE_ACCESS_KEY",
+      "description": "Start a Sauce Connect Proxy tunnel",
+      "scenario": "Start a Sauce Connect Proxy tunnel",
+      "language": "bash",
+      "tags": [
+        "tunnel",
+        "proxy",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sc --status",
+      "description": "Check the status of a Sauce Connect Proxy tunnel",
+      "scenario": "Check the status of a Sauce Connect Proxy tunnel",
+      "language": "bash",
+      "tags": [
+        "status",
+        "tunnel",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sc --close",
+      "description": "Close a Sauce Connect Proxy tunnel",
+      "scenario": "Close a Sauce Connect Proxy tunnel",
+      "language": "bash",
+      "tags": [
+        "close",
+        "tunnel",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export SAUCE_USERNAME='your-username'\nexport SAUCE_ACCESS_KEY='your-access-key'",
+      "description": "Set up Sauce Labs credentials in environment variables",
+      "scenario": "Set up Sauce Labs credentials in environment variables",
+      "language": "bash",
+      "tags": [
+        "credentials",
+        "environment",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sc -u $SAUCE_USERNAME -k $SAUCE_ACCESS_KEY --tunnel-identifier my-tunnel",
+      "description": "Configure a Sauce Connect Proxy tunnel with a specific identifier",
+      "scenario": "Configure a Sauce Connect Proxy tunnel with a specific identifier",
+      "language": "bash",
+      "tags": [
+        "tunnel",
+        "identifier",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sc -u $SAUCE_USERNAME -k $SAUCE_ACCESS_KEY --verbose",
+      "description": "Run Sauce Connect Proxy with verbose logging",
+      "scenario": "Run Sauce Connect Proxy with verbose logging",
+      "language": "bash",
+      "tags": [
+        "logging",
+        "verbose",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Use the Sauce OnDemand Jenkins plugin to integrate with Jenkins.",
+      "description": "Integrate Sauce Labs with Jenkins for continuous testing",
+      "scenario": "Integrate Sauce Labs with Jenkins for continuous testing",
+      "language": "text",
+      "tags": [
+        "jenkins",
+        "integration",
+        "ci"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Use the 'maxInstances' capability to define the number of parallel tests.",
+      "description": "Parallel testing with Sauce Labs",
+      "scenario": "Parallel testing with Sauce Labs",
+      "language": "text",
+      "tags": [
+        "parallel",
+        "testing",
+        "capabilities"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Set the 'sauce:options' capability to configure Sauce Labs specific options.",
+      "description": "Use Sauce Labs with Selenium WebDriver",
+      "scenario": "Use Sauce Labs with Selenium WebDriver",
+      "language": "text",
+      "tags": [
+        "selenium",
+        "webdriver",
+        "capabilities"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sc -u $SAUCE_USERNAME -k $SAUCE_ACCESS_KEY --quiet",
+      "description": "Run Sauce Connect Proxy in quiet mode",
+      "scenario": "Run Sauce Connect Proxy in quiet mode",
+      "language": "bash",
+      "tags": [
+        "quiet",
+        "mode",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sc -u $SAUCE_USERNAME -k $SAUCE_ACCESS_KEY --logfile /path/to/logfile.log",
+      "description": "Specify a custom log file for Sauce Connect Proxy",
+      "scenario": "Specify a custom log file for Sauce Connect Proxy",
+      "language": "bash",
+      "tags": [
+        "logfile",
+        "custom",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sc -u $SAUCE_USERNAME -k $SAUCE_ACCESS_KEY --region eu-central-1",
+      "description": "Use a specific data center with Sauce Connect Proxy",
+      "scenario": "Use a specific data center with Sauce Connect Proxy",
+      "language": "bash",
+      "tags": [
+        "region",
+        "datacenter",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

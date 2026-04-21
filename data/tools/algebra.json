@@ -1,0 +1,204 @@
+{
+  "title": "Algebra Cheat Sheet",
+  "slug": "algebra",
+  "description": "Quick reference for common algebraic operations and expressions",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "a + b",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "text",
+      "tags": [
+        "addition",
+        "basic",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a - b",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "text",
+      "tags": [
+        "subtraction",
+        "basic",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a * b",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "text",
+      "tags": [
+        "multiplication",
+        "basic",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ax + b = 0",
+      "description": "Solve a linear equation",
+      "scenario": "Solve a linear equation",
+      "language": "text",
+      "tags": [
+        "linear",
+        "equation",
+        "solve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x = (-b \u00b1 \u221a(b\u00b2-4ac)) / (2a)",
+      "description": "Quadratic formula for solving ax^2 + bx + c = 0",
+      "scenario": "Quadratic formula for solving ax^2 + bx + c = 0",
+      "language": "text",
+      "tags": [
+        "quadratic",
+        "formula",
+        "solve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "y = mx + b; substitute y in another equation",
+      "description": "Solve a system of equations using substitution",
+      "scenario": "Solve a system of equations using substitution",
+      "language": "text",
+      "tags": [
+        "system",
+        "equations",
+        "substitution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ax + b > c",
+      "description": "Solve a linear inequality",
+      "scenario": "Solve a linear inequality",
+      "language": "text",
+      "tags": [
+        "linear",
+        "inequality",
+        "solve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "y > mx + b",
+      "description": "Graph a linear inequality",
+      "scenario": "Graph a linear inequality",
+      "language": "text",
+      "tags": [
+        "graph",
+        "inequality",
+        "linear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ax^2 + bx + c > 0",
+      "description": "Solve a quadratic inequality",
+      "scenario": "Solve a quadratic inequality",
+      "language": "text",
+      "tags": [
+        "quadratic",
+        "inequality",
+        "solve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f(x) = ax + b",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "define",
+        "linear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f(a)",
+      "description": "Evaluate a function at a point",
+      "scenario": "Evaluate a function at a point",
+      "language": "text",
+      "tags": [
+        "function",
+        "evaluate",
+        "point"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Swap x and y, solve for y",
+      "description": "Find the inverse of a function",
+      "scenario": "Find the inverse of a function",
+      "language": "text",
+      "tags": [
+        "inverse",
+        "function",
+        "solve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(ax^n + bx^(n-1)) + (cx^n + dx^(n-1))",
+      "description": "Add two polynomials",
+      "scenario": "Add two polynomials",
+      "language": "text",
+      "tags": [
+        "polynomials",
+        "addition",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(ax + b)(cx + d)",
+      "description": "Multiply two polynomials",
+      "scenario": "Multiply two polynomials",
+      "language": "text",
+      "tags": [
+        "polynomials",
+        "multiplication",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ax^2 + bx + c = (px + q)(rx + s)",
+      "description": "Factor a quadratic polynomial",
+      "scenario": "Factor a quadratic polynomial",
+      "language": "text",
+      "tags": [
+        "polynomials",
+        "factor",
+        "quadratic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

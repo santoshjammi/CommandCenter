@@ -1,0 +1,204 @@
+{
+  "title": "Android Development Cheat Sheet",
+  "slug": "android",
+  "description": "Essential commands and code snippets for Android development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "./gradlew build",
+      "description": "Build the Android project",
+      "scenario": "Build the Android project",
+      "language": "bash",
+      "tags": [
+        "gradle",
+        "build",
+        "android"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./gradlew clean",
+      "description": "Clean the project build",
+      "scenario": "Clean the project build",
+      "language": "bash",
+      "tags": [
+        "gradle",
+        "clean",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./gradlew assembleDebug",
+      "description": "Assemble a specific build variant",
+      "scenario": "Assemble a specific build variant",
+      "language": "bash",
+      "tags": [
+        "gradle",
+        "assemble",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "adb devices",
+      "description": "List all connected devices",
+      "scenario": "List all connected devices",
+      "language": "bash",
+      "tags": [
+        "adb",
+        "devices",
+        "android"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "adb install path/to/app.apk",
+      "description": "Install an APK on a connected device",
+      "scenario": "Install an APK on a connected device",
+      "language": "bash",
+      "tags": [
+        "adb",
+        "install",
+        "apk"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "adb uninstall com.example.app",
+      "description": "Uninstall an app from a device",
+      "scenario": "Uninstall an app from a device",
+      "language": "bash",
+      "tags": [
+        "adb",
+        "uninstall",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data class User(val name: String, val age: Int)",
+      "description": "Define a simple data class",
+      "scenario": "Define a simple data class",
+      "language": "kotlin",
+      "tags": [
+        "kotlin",
+        "data class",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fun greet(name: String = \"Guest\") { println(\"Hello, $name!\") }",
+      "description": "Create a function with a default parameter",
+      "scenario": "Create a function with a default parameter",
+      "language": "kotlin",
+      "tags": [
+        "kotlin",
+        "function",
+        "default parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "when (x) { 1 -> println(\"One\") 2 -> println(\"Two\") else -> println(\"Other\") }",
+      "description": "Use a when expression",
+      "scenario": "Use a when expression",
+      "language": "kotlin",
+      "tags": [
+        "kotlin",
+        "when",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<TextView android:layout_width=\"wrap_content\" android:layout_height=\"wrap_content\" android:text=\"Hello World!\" />",
+      "description": "Define a TextView in XML",
+      "scenario": "Define a TextView in XML",
+      "language": "xml",
+      "tags": [
+        "xml",
+        "textview",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<LinearLayout android:orientation=\"vertical\" android:layout_width=\"match_parent\" android:layout_height=\"match_parent\"> </LinearLayout>",
+      "description": "Create a LinearLayout with vertical orientation",
+      "scenario": "Create a LinearLayout with vertical orientation",
+      "language": "xml",
+      "tags": [
+        "xml",
+        "linearlayout",
+        "orientation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Button android:layout_width=\"wrap_content\" android:layout_height=\"wrap_content\" android:text=\"Click Me\" android:onClick=\"handleClick\" />",
+      "description": "Set a Button with an onClick attribute",
+      "scenario": "Set a Button with an onClick attribute",
+      "language": "xml",
+      "tags": [
+        "xml",
+        "button",
+        "onclick"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "object Singleton { fun doSomething() { println(\"Doing something\") } }",
+      "description": "Singleton pattern in Kotlin",
+      "scenario": "Singleton pattern in Kotlin",
+      "language": "kotlin",
+      "tags": [
+        "kotlin",
+        "singleton",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val data: LiveData<String> = MutableLiveData<String>()",
+      "description": "Observer pattern using LiveData",
+      "scenario": "Observer pattern using LiveData",
+      "language": "kotlin",
+      "tags": [
+        "kotlin",
+        "observer",
+        "livedata"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyViewModel : ViewModel() { val data = MutableLiveData<String>() }",
+      "description": "Basic MVVM structure",
+      "scenario": "Basic MVVM structure",
+      "language": "kotlin",
+      "tags": [
+        "kotlin",
+        "mvvm",
+        "viewmodel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

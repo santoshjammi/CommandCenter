@@ -1,0 +1,204 @@
+{
+  "title": "SmallBASIC Cheat Sheet",
+  "slug": "smallbasic",
+  "description": "Quick reference for SmallBASIC syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "LET x = 10",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "declaration",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PRINT \"Hello, World!\"",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "text",
+      "tags": [
+        "output",
+        "console",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FOR i = 1 TO 10\n  PRINT i\nNEXT",
+      "description": "Create a simple loop",
+      "scenario": "Create a simple loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "iteration",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IF x > 10 THEN\n  PRINT \"Greater\"\nELSE\n  PRINT \"Smaller or equal\"\nEND IF",
+      "description": "If-Else statement",
+      "scenario": "If-Else statement",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "WHILE x < 10\n  x = x + 1\nWEND",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "while",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT CASE x\n  CASE 1\n    PRINT \"One\"\n  CASE 2\n    PRINT \"Two\"\n  CASE ELSE\n    PRINT \"Other\"\nEND SELECT",
+      "description": "Select Case statement",
+      "scenario": "Select Case statement",
+      "language": "text",
+      "tags": [
+        "switch",
+        "case",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FUNC add(a, b)\n  RETURN a + b\nEND FUNC",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "definition",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "result = add(5, 3)",
+      "description": "Call a function",
+      "scenario": "Call a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "call",
+        "invoke"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SUB greet(name)\n  PRINT \"Hello, \" + name\nEND SUB",
+      "description": "Create a procedure",
+      "scenario": "Create a procedure",
+      "language": "text",
+      "tags": [
+        "procedure",
+        "subroutine",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DIM arr(10)",
+      "description": "Define an array",
+      "scenario": "Define an array",
+      "language": "text",
+      "tags": [
+        "array",
+        "data structure",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PRINT arr(1)",
+      "description": "Access array element",
+      "scenario": "Access array element",
+      "language": "text",
+      "tags": [
+        "array",
+        "access",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FOR i = 0 TO UBOUND(arr)\n  PRINT arr(i)\nNEXT",
+      "description": "Iterate over an array",
+      "scenario": "Iterate over an array",
+      "language": "text",
+      "tags": [
+        "array",
+        "iteration",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OPEN \"file.txt\" FOR INPUT AS #1",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OPEN \"file.txt\" FOR OUTPUT AS #1\nPRINT #1, \"Hello, File!\"\nCLOSE #1",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OPEN \"file.txt\" FOR INPUT AS #1\nLINE INPUT #1, line\nPRINT line\nCLOSE #1",
+      "description": "Read from a file",
+      "scenario": "Read from a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

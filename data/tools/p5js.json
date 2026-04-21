@@ -1,0 +1,204 @@
+{
+  "title": "p5.js Cheat Sheet",
+  "slug": "p5js",
+  "description": "Quick reference for p5.js coding patterns and functions.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "function setup() {\n  createCanvas(400, 400);\n}",
+      "description": "Initialize a p5.js sketch",
+      "scenario": "Initialize a p5.js sketch",
+      "language": "javascript",
+      "tags": [
+        "setup",
+        "canvas",
+        "initialize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function draw() {\n  background(220);\n}",
+      "description": "Draw loop for continuous rendering",
+      "scenario": "Draw loop for continuous rendering",
+      "language": "javascript",
+      "tags": [
+        "draw",
+        "loop",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function setup() {\n  noLoop();\n}",
+      "description": "Set up a static canvas",
+      "scenario": "Set up a static canvas",
+      "language": "javascript",
+      "tags": [
+        "setup",
+        "canvas",
+        "static"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rect(30, 20, 55, 55);",
+      "description": "Draw a rectangle",
+      "scenario": "Draw a rectangle",
+      "language": "javascript",
+      "tags": [
+        "rectangle",
+        "shape",
+        "draw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ellipse(50, 50, 80, 80);",
+      "description": "Draw an ellipse",
+      "scenario": "Draw an ellipse",
+      "language": "javascript",
+      "tags": [
+        "ellipse",
+        "shape",
+        "draw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "line(30, 20, 85, 75);",
+      "description": "Draw a line",
+      "scenario": "Draw a line",
+      "language": "javascript",
+      "tags": [
+        "line",
+        "shape",
+        "draw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fill(255, 204, 0);",
+      "description": "Set fill color",
+      "scenario": "Set fill color",
+      "language": "javascript",
+      "tags": [
+        "color",
+        "fill",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stroke(0, 102, 153);",
+      "description": "Set stroke color",
+      "scenario": "Set stroke color",
+      "language": "javascript",
+      "tags": [
+        "color",
+        "stroke",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "noStroke();",
+      "description": "Remove stroke",
+      "scenario": "Remove stroke",
+      "language": "javascript",
+      "tags": [
+        "style",
+        "stroke",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function mousePressed() {\n  console.log('Mouse is pressed');\n}",
+      "description": "Detect mouse press",
+      "scenario": "Detect mouse press",
+      "language": "javascript",
+      "tags": [
+        "interaction",
+        "mouse",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function keyPressed() {\n  console.log('Key is pressed');\n}",
+      "description": "Detect key press",
+      "scenario": "Detect key press",
+      "language": "javascript",
+      "tags": [
+        "interaction",
+        "keyboard",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let x = mouseX;\nlet y = mouseY;",
+      "description": "Get mouse coordinates",
+      "scenario": "Get mouse coordinates",
+      "language": "javascript",
+      "tags": [
+        "interaction",
+        "mouse",
+        "coordinates"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let x = 0;\nfunction draw() {\n  background(220);\n  x += 1;\n  ellipse(x, 50, 50, 50);\n}",
+      "description": "Move shape across canvas",
+      "scenario": "Move shape across canvas",
+      "language": "javascript",
+      "tags": [
+        "animation",
+        "motion",
+        "move"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let x = 0;\nlet speed = 2;\nfunction draw() {\n  background(220);\n  x += speed;\n  if (x > width || x < 0) {\n    speed *= -1;\n  }\n  ellipse(x, 50, 50, 50);\n}",
+      "description": "Bounce shape off canvas edges",
+      "scenario": "Bounce shape off canvas edges",
+      "language": "javascript",
+      "tags": [
+        "animation",
+        "bounce",
+        "motion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function draw() {\n  background(220);\n  translate(width/2, height/2);\n  rotate(frameCount / 50.0);\n  rect(-15, -15, 30, 30);\n}",
+      "description": "Rotate a shape",
+      "scenario": "Rotate a shape",
+      "language": "javascript",
+      "tags": [
+        "animation",
+        "rotate",
+        "transform"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

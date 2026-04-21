@@ -1,0 +1,204 @@
+{
+  "title": "File Manipulation Cheat Sheet",
+  "slug": "file",
+  "description": "Essential commands and snippets for file manipulation in CLI and code.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cat filename.txt",
+      "description": "Display the contents of a file",
+      "scenario": "Display the contents of a file",
+      "language": "bash",
+      "tags": [
+        "view",
+        "contents",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copy a file to another location",
+      "scenario": "Copy a file to another location",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "move"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 700 filename.txt",
+      "description": "Change file permissions to read, write, execute for owner",
+      "scenario": "Change file permissions to read, write, execute for owner",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "chmod",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chown newuser filename.txt",
+      "description": "Change file owner to a different user",
+      "scenario": "Change file owner to a different user",
+      "language": "bash",
+      "tags": [
+        "ownership",
+        "chown",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -l filename.txt",
+      "description": "View file permissions",
+      "scenario": "View file permissions",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "view",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gzip filename.txt",
+      "description": "Compress a file using gzip",
+      "scenario": "Compress a file using gzip",
+      "language": "bash",
+      "tags": [
+        "compress",
+        "gzip",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gunzip filename.txt.gz",
+      "description": "Decompress a gzip file",
+      "scenario": "Decompress a gzip file",
+      "language": "bash",
+      "tags": [
+        "decompress",
+        "gunzip",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -cvf archive.tar /path/to/directory",
+      "description": "Create a tarball of a directory",
+      "scenario": "Create a tarball of a directory",
+      "language": "bash",
+      "tags": [
+        "tar",
+        "archive",
+        "compress"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find . -name \"filename.txt\"",
+      "description": "Find files by name in the current directory",
+      "scenario": "Find files by name in the current directory",
+      "language": "bash",
+      "tags": [
+        "find",
+        "search",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep \"search term\" *.txt",
+      "description": "Search for a string within files",
+      "scenario": "Search for a string within files",
+      "language": "bash",
+      "tags": [
+        "grep",
+        "search",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f -mtime -7",
+      "description": "Find files modified in the last 7 days",
+      "scenario": "Find files modified in the last 7 days",
+      "language": "bash",
+      "tags": [
+        "find",
+        "modified",
+        "recent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano filename.txt",
+      "description": "Edit a file using nano editor",
+      "scenario": "Edit a file using nano editor",
+      "language": "bash",
+      "tags": [
+        "edit",
+        "nano",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vim filename.txt",
+      "description": "Edit a file using vim editor",
+      "scenario": "Edit a file using vim editor",
+      "language": "bash",
+      "tags": [
+        "edit",
+        "vim",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed -i 's/old-text/new-text/g' filename.txt",
+      "description": "Replace text in a file using sed",
+      "scenario": "Replace text in a file using sed",
+      "language": "bash",
+      "tags": [
+        "sed",
+        "replace",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

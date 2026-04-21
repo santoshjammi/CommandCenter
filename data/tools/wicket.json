@@ -1,0 +1,204 @@
+{
+  "title": "Wicket Cheat Sheet",
+  "slug": "wicket",
+  "description": "Quick reference for Apache Wicket web framework commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "Label label = new Label(\"labelId\", \"Hello, Wicket!\");",
+      "description": "Create a basic Wicket label component",
+      "scenario": "Create a basic Wicket label component",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "component",
+        "label"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add(new Label(\"labelId\", \"Hello, Wicket!\"));",
+      "description": "Add a component to a Wicket page",
+      "scenario": "Add a component to a Wicket page",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "component",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Label label = new Label(\"labelId\", new Model<>(\"Dynamic content\"));",
+      "description": "Set a model for a Wicket component",
+      "scenario": "Set a model for a Wicket component",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "component",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Form<?> form = new Form<Void>(\"formId\");",
+      "description": "Create a simple Wicket form",
+      "scenario": "Create a simple Wicket form",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "form",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "form.add(new TextField<String>(\"textFieldId\", new Model<>()));",
+      "description": "Add a text field to a Wicket form",
+      "scenario": "Add a text field to a Wicket form",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "form",
+        "textfield"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "form.onSubmit() { @Override protected void onSubmit() { // handle submission } };",
+      "description": "Handle form submission in Wicket",
+      "scenario": "Handle form submission in Wicket",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "form",
+        "submission"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setResponsePage(AnotherPage.class);",
+      "description": "Redirect to another Wicket page",
+      "scenario": "Redirect to another Wicket page",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "navigation",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PageParameters params = new PageParameters(); params.add(\"paramName\", \"value\"); setResponsePage(AnotherPage.class, params);",
+      "description": "Link to another page with parameters",
+      "scenario": "Link to another page with parameters",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "navigation",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add(new BookmarkablePageLink<Void>(\"linkId\", AnotherPage.class));",
+      "description": "Create a link component to another page",
+      "scenario": "Create a link component to another page",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "link",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add(new AjaxButton(\"buttonId\") { @Override protected void onSubmit(AjaxRequestTarget target) { // handle Ajax request } });",
+      "description": "Add an Ajax button to a page",
+      "scenario": "Add an Ajax button to a page",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "ajax",
+        "button"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add(new AjaxLink<Void>(\"linkId\") { @Override public void onClick(AjaxRequestTarget target) { // handle click } });",
+      "description": "Use an Ajax link in Wicket",
+      "scenario": "Use an Ajax link in Wicket",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "ajax",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "target.add(component);",
+      "description": "Update a component via Ajax",
+      "scenario": "Update a component via Ajax",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "ajax",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add(CSSPackageResource.getHeaderContribution(MyPage.class, \"style.css\"));",
+      "description": "Add a CSS resource to a Wicket page",
+      "scenario": "Add a CSS resource to a Wicket page",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "resource",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add(JavaScriptPackageResource.getHeaderContribution(MyPage.class, \"script.js\"));",
+      "description": "Add a JavaScript resource to a Wicket page",
+      "scenario": "Add a JavaScript resource to a Wicket page",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "resource",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SharedResourceReference resourceRef = new SharedResourceReference(\"resourceName\");",
+      "description": "Use a shared resource in Wicket",
+      "scenario": "Use a shared resource in Wicket",
+      "language": "java",
+      "tags": [
+        "wicket",
+        "resource",
+        "shared"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

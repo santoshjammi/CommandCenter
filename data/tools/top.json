@@ -1,0 +1,165 @@
+{
+  "title": "Top Command Cheat Sheet",
+  "slug": "top",
+  "description": "Essential commands and flags for using the 'top' command effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "top",
+      "description": "Start the top command in the terminal.",
+      "scenario": "Start the top command in the terminal.",
+      "language": "bash",
+      "tags": [
+        "start",
+        "basic",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "q",
+      "description": "Exit the top command interface.",
+      "scenario": "Exit the top command interface.",
+      "language": "text",
+      "tags": [
+        "exit",
+        "quit",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "space",
+      "description": "Refresh the display immediately.",
+      "scenario": "Refresh the display immediately.",
+      "language": "text",
+      "tags": [
+        "refresh",
+        "update",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "M",
+      "description": "Sort processes by memory usage.",
+      "scenario": "Sort processes by memory usage.",
+      "language": "text",
+      "tags": [
+        "sort",
+        "memory",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P",
+      "description": "Sort processes by CPU usage.",
+      "scenario": "Sort processes by CPU usage.",
+      "language": "text",
+      "tags": [
+        "sort",
+        "cpu",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "u",
+      "description": "Filter processes by a specific user.",
+      "scenario": "Filter processes by a specific user.",
+      "language": "text",
+      "tags": [
+        "filter",
+        "user",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "i",
+      "description": "Toggle the display of idle processes.",
+      "scenario": "Toggle the display of idle processes.",
+      "language": "text",
+      "tags": [
+        "display",
+        "idle",
+        "toggle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d 5",
+      "description": "Change the update interval to 5 seconds.",
+      "scenario": "Change the update interval to 5 seconds.",
+      "language": "text",
+      "tags": [
+        "interval",
+        "update",
+        "delay"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "V",
+      "description": "Display processes in a tree view.",
+      "scenario": "Display processes in a tree view.",
+      "language": "text",
+      "tags": [
+        "tree",
+        "view",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "k",
+      "description": "Kill a process by PID.",
+      "scenario": "Kill a process by PID.",
+      "language": "text",
+      "tags": [
+        "kill",
+        "process",
+        "pid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "r",
+      "description": "Renice a process by PID.",
+      "scenario": "Renice a process by PID.",
+      "language": "text",
+      "tags": [
+        "renice",
+        "priority",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "L",
+      "description": "Search for a string in the process list.",
+      "scenario": "Search for a string in the process list.",
+      "language": "text",
+      "tags": [
+        "search",
+        "string",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

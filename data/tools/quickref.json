@@ -1,0 +1,204 @@
+{
+  "title": "QuickRef",
+  "slug": "quickref",
+  "description": "A quick reference guide for common CLI and code tasks.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git init",
+      "description": "Initialize a new Git repository",
+      "scenario": "Initialize a new Git repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "version control",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone <repository-url>",
+      "description": "Clone a repository from a URL",
+      "scenario": "Clone a repository from a URL",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Your commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "version control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker build -t <image-name> .",
+      "description": "Build a Docker image from a Dockerfile",
+      "scenario": "Build a Docker image from a Dockerfile",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "build",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d <image-name>",
+      "description": "Run a Docker container from an image",
+      "scenario": "Run a Docker container from an image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "run",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List all running Docker containers",
+      "scenario": "List all running Docker containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "list",
+        "containers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_function():\n    pass",
+      "description": "Define a function in Python",
+      "scenario": "Define a function in Python",
+      "language": "python",
+      "tags": [
+        "python",
+        "function",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[x for x in range(10)]",
+      "description": "Create a list comprehension",
+      "scenario": "Create a list comprehension",
+      "language": "python",
+      "tags": [
+        "python",
+        "list",
+        "comprehension"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('file.txt', 'r') as file:\n    content = file.read()",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "python",
+      "tags": [
+        "python",
+        "file",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "select",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "insert",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "update",
+        "records"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd ~",
+      "description": "Navigate to the home directory",
+      "scenario": "Navigate to the home directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "navigation",
+        "home"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "list",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Display the current working directory",
+      "scenario": "Display the current working directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "directory",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

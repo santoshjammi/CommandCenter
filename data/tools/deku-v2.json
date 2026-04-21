@@ -1,0 +1,165 @@
+{
+  "title": "Deku v2 Cheat Sheet",
+  "slug": "deku-v2",
+  "description": "Essential commands and patterns for Deku v2 CLI and configuration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "deku init",
+      "description": "Initialize a new Deku project",
+      "scenario": "Initialize a new Deku project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku start",
+      "description": "Start the Deku development server",
+      "scenario": "Start the Deku development server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "development",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku build",
+      "description": "Build the Deku project for production",
+      "scenario": "Build the Deku project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = { name: 'MyDekuProject' };",
+      "description": "Set the project name in deku.config.js",
+      "scenario": "Set the project name in deku.config.js",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = { sourceMaps: true };",
+      "description": "Enable source maps for debugging",
+      "scenario": "Enable source maps for debugging",
+      "language": "javascript",
+      "tags": [
+        "debug",
+        "source maps",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = { outputDir: 'dist/custom' };",
+      "description": "Specify a custom output directory",
+      "scenario": "Specify a custom output directory",
+      "language": "javascript",
+      "tags": [
+        "output",
+        "directory",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku test",
+      "description": "Run tests with Deku",
+      "scenario": "Run tests with Deku",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku analyze",
+      "description": "Analyze the bundle size of the project",
+      "scenario": "Analyze the bundle size of the project",
+      "language": "bash",
+      "tags": [
+        "analyze",
+        "bundle",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku deploy",
+      "description": "Deploy the Deku project to a server",
+      "scenario": "Deploy the Deku project to a server",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "server",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import MyComponent from './components/MyComponent';",
+      "description": "Import a component in Deku",
+      "scenario": "Import a component in Deku",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "component",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const [state, setState] = useState(initialState);",
+      "description": "Use a hook in a Deku component",
+      "scenario": "Use a hook in a Deku component",
+      "language": "javascript",
+      "tags": [
+        "hook",
+        "state",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const MyComponent = () => { return <div>Hello, Deku!</div>; };",
+      "description": "Define a functional component",
+      "scenario": "Define a functional component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "functional",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

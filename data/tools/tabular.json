@@ -1,0 +1,204 @@
+{
+  "title": "Tabular CLI Cheat Sheet",
+  "slug": "tabular",
+  "description": "Essential commands and syntax for Tabular CLI operations.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "tabular init",
+      "description": "Initialize a new Tabular project",
+      "scenario": "Initialize a new Tabular project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular start",
+      "description": "Start the Tabular server",
+      "scenario": "Start the Tabular server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular stop",
+      "description": "Stop the Tabular server",
+      "scenario": "Stop the Tabular server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "server",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular import data.csv",
+      "description": "Import data into a Tabular project",
+      "scenario": "Import data into a Tabular project",
+      "language": "bash",
+      "tags": [
+        "import",
+        "data",
+        "csv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular export data.csv",
+      "description": "Export data from a Tabular project",
+      "scenario": "Export data from a Tabular project",
+      "language": "bash",
+      "tags": [
+        "export",
+        "data",
+        "csv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular list datasets",
+      "description": "List all datasets in the project",
+      "scenario": "List all datasets in the project",
+      "language": "bash",
+      "tags": [
+        "list",
+        "datasets",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular config set --file=config.yaml",
+      "description": "Set the configuration file for the project",
+      "scenario": "Set the configuration file for the project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular config view",
+      "description": "View the current configuration settings",
+      "scenario": "View the current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular user add --name=username",
+      "description": "Add a new user to the Tabular system",
+      "scenario": "Add a new user to the Tabular system",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular user remove --name=username",
+      "description": "Remove a user from the Tabular system",
+      "scenario": "Remove a user from the Tabular system",
+      "language": "bash",
+      "tags": [
+        "user",
+        "remove",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular user list",
+      "description": "List all users in the Tabular system",
+      "scenario": "List all users in the Tabular system",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular run script.py",
+      "description": "Run a custom script within Tabular",
+      "scenario": "Run a custom script within Tabular",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular logs --tail",
+      "description": "Monitor Tabular server logs",
+      "scenario": "Monitor Tabular server logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "monitor",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tabular upgrade",
+      "description": "Upgrade Tabular to the latest version",
+      "scenario": "Upgrade Tabular to the latest version",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "version",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

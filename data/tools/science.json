@@ -1,0 +1,204 @@
+{
+  "title": "Science CLI and Code Cheat Sheet",
+  "slug": "science",
+  "description": "Quick reference for scientific computing and data analysis commands.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "import pandas as pd",
+      "description": "Import pandas for data manipulation",
+      "scenario": "Import pandas for data manipulation",
+      "language": "python",
+      "tags": [
+        "python",
+        "pandas",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df = pd.read_csv('data.csv')",
+      "description": "Read a CSV file into a DataFrame",
+      "scenario": "Read a CSV file into a DataFrame",
+      "language": "python",
+      "tags": [
+        "pandas",
+        "csv",
+        "dataframe"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mean_value = df['column_name'].mean()",
+      "description": "Calculate the mean of a DataFrame column",
+      "scenario": "Calculate the mean of a DataFrame column",
+      "language": "python",
+      "tags": [
+        "pandas",
+        "mean",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wc -l filename.txt",
+      "description": "Count lines in a file",
+      "scenario": "Count lines in a file",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "wc",
+        "lines"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sort filename.txt | uniq",
+      "description": "Find unique lines in a file",
+      "scenario": "Find unique lines in a file",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "sort",
+        "uniq"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed 's/old-text/new-text/g' filename.txt",
+      "description": "Replace text in a file using sed",
+      "scenario": "Replace text in a file using sed",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "sed",
+        "replace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "select",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT column1, column2 FROM table_name;",
+      "description": "Select specific columns from a table",
+      "scenario": "Select specific columns from a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "select",
+        "columns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name WHERE condition;",
+      "description": "Filter results with a WHERE clause",
+      "scenario": "Filter results with a WHERE clause",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "where",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "library(ggplot2)",
+      "description": "Load ggplot2 for data visualization",
+      "scenario": "Load ggplot2 for data visualization",
+      "language": "r",
+      "tags": [
+        "r",
+        "ggplot2",
+        "visualization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ggplot(data, aes(x=var1, y=var2)) + geom_point()",
+      "description": "Create a basic scatter plot",
+      "scenario": "Create a basic scatter plot",
+      "language": "r",
+      "tags": [
+        "r",
+        "ggplot2",
+        "scatter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ggplot(data, aes(x=var1, y=var2)) + geom_point() + ggtitle('Title')",
+      "description": "Add a title to a ggplot",
+      "scenario": "Add a title to a ggplot",
+      "language": "r",
+      "tags": [
+        "r",
+        "ggplot2",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + Enter",
+      "description": "Run the current cell",
+      "scenario": "Run the current cell",
+      "language": "text",
+      "tags": [
+        "jupyter",
+        "shortcut",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A",
+      "description": "Insert a new cell above",
+      "scenario": "Insert a new cell above",
+      "language": "text",
+      "tags": [
+        "jupyter",
+        "shortcut",
+        "cell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D, D",
+      "description": "Delete the current cell",
+      "scenario": "Delete the current cell",
+      "language": "text",
+      "tags": [
+        "jupyter",
+        "shortcut",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

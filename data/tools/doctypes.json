@@ -1,0 +1,165 @@
+{
+  "title": "Doctypes Cheat Sheet",
+  "slug": "doctypes",
+  "description": "Quick reference for various document type declarations in HTML.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<!DOCTYPE html>",
+      "description": "Declare an HTML5 document type",
+      "scenario": "Declare an HTML5 document type",
+      "language": "text",
+      "tags": [
+        "html5",
+        "doctype",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n\n</body>\n</html>",
+      "description": "Basic HTML5 document structure",
+      "scenario": "Basic HTML5 document structure",
+      "language": "html",
+      "tags": [
+        "html5",
+        "structure",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE html>\n<html lang=\"en\">",
+      "description": "HTML5 doctype with language attribute",
+      "scenario": "HTML5 doctype with language attribute",
+      "language": "html",
+      "tags": [
+        "html5",
+        "language",
+        "attribute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">",
+      "description": "HTML 4.01 Strict doctype",
+      "scenario": "HTML 4.01 Strict doctype",
+      "language": "text",
+      "tags": [
+        "html4",
+        "strict",
+        "doctype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">",
+      "description": "HTML 4.01 Transitional doctype",
+      "scenario": "HTML 4.01 Transitional doctype",
+      "language": "text",
+      "tags": [
+        "html4",
+        "transitional",
+        "doctype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Frameset//EN\" \"http://www.w3.org/TR/html4/frameset.dtd\">",
+      "description": "HTML 4.01 Frameset doctype",
+      "scenario": "HTML 4.01 Frameset doctype",
+      "language": "text",
+      "tags": [
+        "html4",
+        "frameset",
+        "doctype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">",
+      "description": "XHTML 1.0 Strict doctype",
+      "scenario": "XHTML 1.0 Strict doctype",
+      "language": "text",
+      "tags": [
+        "xhtml",
+        "strict",
+        "doctype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">",
+      "description": "XHTML 1.0 Transitional doctype",
+      "scenario": "XHTML 1.0 Transitional doctype",
+      "language": "text",
+      "tags": [
+        "xhtml",
+        "transitional",
+        "doctype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Frameset//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd\">",
+      "description": "XHTML 1.0 Frameset doctype",
+      "scenario": "XHTML 1.0 Frameset doctype",
+      "language": "text",
+      "tags": [
+        "xhtml",
+        "frameset",
+        "doctype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">",
+      "description": "HTML 3.2 doctype declaration",
+      "scenario": "HTML 3.2 doctype declaration",
+      "language": "text",
+      "tags": [
+        "html3.2",
+        "doctype",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n<head>\n    <title>Document</title>\n</head>\n<body>\n\n</body>\n</html>",
+      "description": "Basic HTML 3.2 document structure",
+      "scenario": "Basic HTML 3.2 document structure",
+      "language": "html",
+      "tags": [
+        "html3.2",
+        "structure",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<html>\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <title>Document</title>\n</head>\n<body>\n\n</body>\n</html>",
+      "description": "HTML 3.2 with meta charset",
+      "scenario": "HTML 3.2 with meta charset",
+      "language": "html",
+      "tags": [
+        "html3.2",
+        "meta",
+        "charset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

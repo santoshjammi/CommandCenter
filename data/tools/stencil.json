@@ -1,0 +1,165 @@
+{
+  "title": "Stencil Cheat Sheet",
+  "slug": "stencil",
+  "description": "Quick reference for Stencil CLI commands and code syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npx stencil generate component-name",
+      "description": "Create a new Stencil component",
+      "scenario": "Create a new Stencil component",
+      "language": "bash",
+      "tags": [
+        "stencil",
+        "cli",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run build",
+      "description": "Build the Stencil project",
+      "scenario": "Build the Stencil project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "stencil",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm start",
+      "description": "Start a development server",
+      "scenario": "Start a development server",
+      "language": "bash",
+      "tags": [
+        "development",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Component({ tag: 'my-component', styleUrl: 'my-component.css', shadow: true }) export class MyComponent {}",
+      "description": "Define a new Stencil component",
+      "scenario": "Define a new Stencil component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "stencil",
+        "typescript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Prop() propName: string;",
+      "description": "Create a property in a Stencil component",
+      "scenario": "Create a property in a Stencil component",
+      "language": "javascript",
+      "tags": [
+        "property",
+        "stencil",
+        "typescript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Event() myEvent: EventEmitter; this.myEvent.emit(data);",
+      "description": "Emit an event from a Stencil component",
+      "scenario": "Emit an event from a Stencil component",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "stencil",
+        "typescript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "outputTargets: [{ type: 'www', serviceWorker: null }]",
+      "description": "Set the output target to www",
+      "scenario": "Set the output target to www",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "output",
+        "stencil"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sourceMap: true",
+      "description": "Enable source maps in Stencil config",
+      "scenario": "Enable source maps in Stencil config",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "source map",
+        "stencil"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "globalStyle: 'src/global/app.css'",
+      "description": "Configure global style in Stencil",
+      "scenario": "Configure global style in Stencil",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "style",
+        "stencil"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "componentDidLoad() { console.log('Component has loaded'); }",
+      "description": "Use lifecycle method to handle component load",
+      "scenario": "Use lifecycle method to handle component load",
+      "language": "javascript",
+      "tags": [
+        "lifecycle",
+        "component",
+        "stencil"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Watch('propName') watchHandler(newValue, oldValue) { console.log(newValue, oldValue); }",
+      "description": "Watch for changes in a property",
+      "scenario": "Watch for changes in a property",
+      "language": "javascript",
+      "tags": [
+        "watch",
+        "property",
+        "stencil"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@State() count: number = 0; increment() { this.count += 1; }",
+      "description": "Use a method to update state",
+      "scenario": "Use a method to update state",
+      "language": "javascript",
+      "tags": [
+        "state",
+        "method",
+        "stencil"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

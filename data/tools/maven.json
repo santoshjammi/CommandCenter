@@ -1,0 +1,204 @@
+{
+  "title": "Maven Cheat Sheet",
+  "slug": "maven",
+  "description": "Essential Maven commands and configuration snippets for Java projects.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "mvn compile",
+      "description": "Compile the source code of the project",
+      "scenario": "Compile the source code of the project",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "build",
+        "source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn clean",
+      "description": "Clean up the target directory",
+      "scenario": "Clean up the target directory",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "target",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn package",
+      "description": "Package the compiled code into a JAR file",
+      "scenario": "Package the compiled code into a JAR file",
+      "language": "bash",
+      "tags": [
+        "package",
+        "jar",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<dependency>\\n  <groupId>com.example</groupId>\\n  <artifactId>example-artifact</artifactId>\\n  <version>1.0.0</version>\\n</dependency>",
+      "description": "Add a dependency to the pom.xml file",
+      "scenario": "Add a dependency to the pom.xml file",
+      "language": "xml",
+      "tags": [
+        "dependency",
+        "pom",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn dependency:list",
+      "description": "List all dependencies of the project",
+      "scenario": "List all dependencies of the project",
+      "language": "bash",
+      "tags": [
+        "dependency",
+        "list",
+        "pom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn dependency:tree",
+      "description": "Analyze and display dependency tree",
+      "scenario": "Analyze and display dependency tree",
+      "language": "bash",
+      "tags": [
+        "dependency",
+        "tree",
+        "analysis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn help:effective-pom",
+      "description": "Display project information",
+      "scenario": "Display project information",
+      "language": "bash",
+      "tags": [
+        "project",
+        "information",
+        "pom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn help:effective-settings",
+      "description": "Show the effective settings for the project",
+      "scenario": "Show the effective settings for the project",
+      "language": "bash",
+      "tags": [
+        "settings",
+        "project",
+        "effective"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn help:describe",
+      "description": "Display a list of available goals",
+      "scenario": "Display a list of available goals",
+      "language": "bash",
+      "tags": [
+        "goals",
+        "describe",
+        "help"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn test",
+      "description": "Run all phases up to and including 'test'",
+      "scenario": "Run all phases up to and including 'test'",
+      "language": "bash",
+      "tags": [
+        "test",
+        "phase",
+        "lifecycle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn install",
+      "description": "Run all phases up to and including 'install'",
+      "scenario": "Run all phases up to and including 'install'",
+      "language": "bash",
+      "tags": [
+        "install",
+        "phase",
+        "lifecycle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn deploy",
+      "description": "Run all phases up to and including 'deploy'",
+      "scenario": "Run all phases up to and including 'deploy'",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "phase",
+        "lifecycle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<plugin>\\n  <groupId>org.apache.maven.plugins</groupId>\\n  <artifactId>maven-compiler-plugin</artifactId>\\n  <version>3.8.1</version>\\n</plugin>",
+      "description": "Add a plugin to the pom.xml file",
+      "scenario": "Add a plugin to the pom.xml file",
+      "language": "xml",
+      "tags": [
+        "plugin",
+        "pom",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn compiler:compile",
+      "description": "Execute a specific plugin goal",
+      "scenario": "Execute a specific plugin goal",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "goal",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn help:all-profiles",
+      "description": "List all available plugins",
+      "scenario": "List all available plugins",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "list",
+        "profiles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

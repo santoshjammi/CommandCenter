@@ -1,0 +1,165 @@
+{
+  "title": "Quicksilver CLI Cheat Sheet",
+  "slug": "quicksilver",
+  "description": "Essential commands and patterns for using Quicksilver CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "quicksilver init my_project",
+      "description": "Initialize a new Quicksilver project",
+      "scenario": "Initialize a new Quicksilver project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver start",
+      "description": "Start the Quicksilver server",
+      "scenario": "Start the Quicksilver server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver stop",
+      "description": "Stop the Quicksilver server",
+      "scenario": "Stop the Quicksilver server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver config set --file=config.yml",
+      "description": "Set the configuration file for Quicksilver",
+      "scenario": "Set the configuration file for Quicksilver",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver config get",
+      "description": "Get the current configuration settings",
+      "scenario": "Get the current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver deploy --env=production",
+      "description": "Deploy the current project to production",
+      "scenario": "Deploy the current project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver rollback",
+      "description": "Rollback the last deployment",
+      "scenario": "Rollback the last deployment",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "deploy",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver deploy list",
+      "description": "List all deployments",
+      "scenario": "List all deployments",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "list",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver logs --tail",
+      "description": "Monitor server logs in real-time",
+      "scenario": "Monitor server logs in real-time",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "monitor",
+        "tail"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver status",
+      "description": "Check the status of the Quicksilver server",
+      "scenario": "Check the status of the Quicksilver server",
+      "language": "bash",
+      "tags": [
+        "status",
+        "server",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quicksilver monitor resources",
+      "description": "View the resource usage of the server",
+      "scenario": "View the resource usage of the server",
+      "language": "bash",
+      "tags": [
+        "monitor",
+        "resources",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

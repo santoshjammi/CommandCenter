@@ -1,0 +1,165 @@
+{
+  "title": "Camp CLI Cheat Sheet",
+  "slug": "camp",
+  "description": "Essential commands and configurations for the Camp CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "camp init",
+      "description": "Initialize a new Camp project",
+      "scenario": "Initialize a new Camp project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camp start",
+      "description": "Start the Camp development server",
+      "scenario": "Start the Camp development server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camp build",
+      "description": "Build the Camp project for production",
+      "scenario": "Build the Camp project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "project_name: MyCampProject",
+      "description": "Set the project name in Camp configuration",
+      "scenario": "Set the project name in Camp configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug: true",
+      "description": "Enable debugging mode in Camp",
+      "scenario": "Enable debugging mode in Camp",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "debug",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "server_port: 8080",
+      "description": "Specify the port for the Camp server",
+      "scenario": "Specify the port for the Camp server",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "server",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camp test",
+      "description": "Run Camp tests",
+      "scenario": "Run Camp tests",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camp deploy",
+      "description": "Deploy Camp project to production",
+      "scenario": "Deploy Camp project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camp clean",
+      "description": "Clean the build artifacts in Camp",
+      "scenario": "Clean the build artifacts in Camp",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "artifacts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camp.route('/path', handlerFunction)",
+      "description": "Pattern for defining a new route in Camp",
+      "scenario": "Pattern for defining a new route in Camp",
+      "language": "javascript",
+      "tags": [
+        "route",
+        "define",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camp.use(middlewareFunction)",
+      "description": "Pattern for middleware in Camp",
+      "scenario": "Pattern for middleware in Camp",
+      "language": "javascript",
+      "tags": [
+        "middleware",
+        "pattern",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camp.onError(errorHandlerFunction)",
+      "description": "Pattern for handling errors in Camp",
+      "scenario": "Pattern for handling errors in Camp",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "cssnext Cheat Sheet",
+  "slug": "cssnext",
+  "description": "Quick reference for cssnext CLI and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "cssnext input.css output.css",
+      "description": "Compile CSS using cssnext",
+      "scenario": "Compile CSS using cssnext",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "css",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cssnext --watch input.css output.css",
+      "description": "Watch files for changes and recompile",
+      "scenario": "Watch files for changes and recompile",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "recompile",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cssnext --help",
+      "description": "Display help information for cssnext",
+      "scenario": "Display help information for cssnext",
+      "language": "bash",
+      "tags": [
+        "help",
+        "cli",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"browsers\": [\"> 1%\", \"last 2 versions\"],\n  \"features\": {\n    \"customProperties\": true\n  }\n}",
+      "description": "Basic configuration for cssnext",
+      "scenario": "Basic configuration for cssnext",
+      "language": "json",
+      "tags": [
+        "config",
+        "browsers",
+        "features"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"features\": {\n    \"customProperties\": false\n  }\n}",
+      "description": "Disable a specific feature",
+      "scenario": "Disable a specific feature",
+      "language": "json",
+      "tags": [
+        "config",
+        "features",
+        "disable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"import\": {\n    \"path\": [\"src/styles\", \"node_modules\"]\n  }\n}",
+      "description": "Set custom import paths",
+      "scenario": "Set custom import paths",
+      "language": "json",
+      "tags": [
+        "config",
+        "import",
+        "paths"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":root {\n  --main-color: #06c;\n}\n\nbody {\n  color: var(--main-color);\n}",
+      "description": "Using custom properties in CSS",
+      "scenario": "Using custom properties in CSS",
+      "language": "css",
+      "tags": [
+        "custom properties",
+        "variables",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nav {\n  ul {\n    margin: 0;\n    padding: 0;\n    list-style: none;\n  }\n}",
+      "description": "Nesting selectors in CSS",
+      "scenario": "Nesting selectors in CSS",
+      "language": "css",
+      "tags": [
+        "nesting",
+        "selectors",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@custom-media --small-viewport (max-width: 30em);\n\n@media (--small-viewport) {\n  body {\n    font-size: 14px;\n  }\n}",
+      "description": "Using custom media queries",
+      "scenario": "Using custom media queries",
+      "language": "css",
+      "tags": [
+        "media queries",
+        "responsive",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "body {\n  color: #000;\n  color: var(--main-color, #000);\n}",
+      "description": "Fallback for custom properties",
+      "scenario": "Fallback for custom properties",
+      "language": "css",
+      "tags": [
+        "fallback",
+        "custom properties",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "body {\n  background-color: color(#06c alpha(90%));\n}",
+      "description": "Using color functions",
+      "scenario": "Using color functions",
+      "language": "css",
+      "tags": [
+        "color",
+        "functions",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "html {\n  font-size: 100%;\n}\n\nbody {\n  font-size: 1rem;\n}",
+      "description": "Responsive typography with rem units",
+      "scenario": "Responsive typography with rem units",
+      "language": "css",
+      "tags": [
+        "responsive",
+        "typography",
+        "rem"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

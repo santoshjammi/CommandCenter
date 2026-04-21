@@ -1,0 +1,165 @@
+{
+  "title": "Legacy IE Bugs",
+  "slug": "legacy-ie-bugs",
+  "description": "Common bugs and workarounds for legacy Internet Explorer versions.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "float: left; display: inline;",
+      "description": "Fix double margin bug on floated elements",
+      "scenario": "Fix double margin bug on floated elements",
+      "language": "css",
+      "tags": [
+        "css",
+        "float",
+        "margin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "width: 100%; overflow: hidden;",
+      "description": "Prevent IE from incorrectly expanding container widths",
+      "scenario": "Prevent IE from incorrectly expanding container widths",
+      "language": "css",
+      "tags": [
+        "css",
+        "width",
+        "overflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "min-height: 200px; height: auto !important; height: 200px;",
+      "description": "Resolve issue with min-height not working",
+      "scenario": "Resolve issue with min-height not working",
+      "language": "css",
+      "tags": [
+        "css",
+        "min-height",
+        "height"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var keys = Object.keys(obj); for (var i = 0; i < keys.length; i++) { var key = keys[i]; /* use obj[key] */ }",
+      "description": "Fix issue with 'for...in' loop iteration order",
+      "scenario": "Fix issue with 'for...in' loop iteration order",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "loop",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (!window.console) console = { log: function() {} };",
+      "description": "Workaround for missing 'console' object",
+      "scenario": "Workaround for missing 'console' object",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "console",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (!Array.prototype.indexOf) { Array.prototype.indexOf = function(elt) { var len = this.length >>> 0; var from = Number(arguments[1]) || 0; from = (from < 0) ? Math.ceil(from) : Math.floor(from); if (from < 0) from += len; for (; from < len; from++) { if (from in this && this[from] === elt) return from; } return -1; }; }",
+      "description": "Fix 'indexOf' method not available on arrays",
+      "scenario": "Fix 'indexOf' method not available on arrays",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "indexOf",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<style type=\"text/css\"> img { behavior: url('iepngfix.htc'); } </style>",
+      "description": "Ensure PNG transparency works in IE6",
+      "scenario": "Ensure PNG transparency works in IE6",
+      "language": "html",
+      "tags": [
+        "html",
+        "png",
+        "transparency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "* { box-sizing: border-box; }",
+      "description": "Fix box model issues in IE5",
+      "scenario": "Fix box model issues in IE5",
+      "language": "css",
+      "tags": [
+        "css",
+        "box-model",
+        "ie5"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: inline-block; *display: inline; *zoom: 1;",
+      "description": "Prevent IE from treating inline elements as block",
+      "scenario": "Prevent IE from treating inline elements as block",
+      "language": "css",
+      "tags": [
+        "css",
+        "inline-block",
+        "ie"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(function() { var element = document.getElementById('element'); element.onclick = function() { /* do something */ }; })();",
+      "description": "Avoid memory leaks with closures",
+      "scenario": "Avoid memory leaks with closures",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "memory",
+        "closure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var fragment = document.createDocumentFragment(); for (var i = 0; i < 1000; i++) { var div = document.createElement('div'); fragment.appendChild(div); } document.body.appendChild(fragment);",
+      "description": "Reduce reflows by batching DOM changes",
+      "scenario": "Reduce reflows by batching DOM changes",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "dom",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@keyframes example { from { background-color: red; } to { background-color: yellow; } }",
+      "description": "Use CSS instead of JavaScript for animations",
+      "scenario": "Use CSS instead of JavaScript for animations",
+      "language": "css",
+      "tags": [
+        "css",
+        "animations",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

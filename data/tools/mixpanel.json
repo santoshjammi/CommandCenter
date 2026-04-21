@@ -1,0 +1,165 @@
+{
+  "title": "Mixpanel Cheat Sheet",
+  "slug": "mixpanel",
+  "description": "Quick reference for Mixpanel CLI commands and configuration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "mixpanel init",
+      "description": "Initialize a new Mixpanel project",
+      "scenario": "Initialize a new Mixpanel project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel track 'Event Name' --properties '{\"key\":\"value\"}'",
+      "description": "Track an event with properties",
+      "scenario": "Track an event with properties",
+      "language": "bash",
+      "tags": [
+        "track",
+        "event",
+        "properties"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel projects list",
+      "description": "List all Mixpanel projects",
+      "scenario": "List all Mixpanel projects",
+      "language": "bash",
+      "tags": [
+        "projects",
+        "list",
+        "manage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel config set project <project_id>",
+      "description": "Set the default project for Mixpanel CLI",
+      "scenario": "Set the default project for Mixpanel CLI",
+      "language": "bash",
+      "tags": [
+        "config",
+        "project",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel config view",
+      "description": "View current Mixpanel CLI configuration",
+      "scenario": "View current Mixpanel CLI configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel config add secret <api_secret>",
+      "description": "Add a new API secret to the configuration",
+      "scenario": "Add a new API secret to the configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "api",
+        "secret"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel import events.json",
+      "description": "Import events from a JSON file",
+      "scenario": "Import events from a JSON file",
+      "language": "bash",
+      "tags": [
+        "import",
+        "events",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel events delete 'Event Name'",
+      "description": "Delete an event by event name",
+      "scenario": "Delete an event by event name",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "event",
+        "manage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel events list",
+      "description": "List all events in a project",
+      "scenario": "List all events in a project",
+      "language": "bash",
+      "tags": [
+        "list",
+        "events",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel people identify <unique_id>",
+      "description": "Identify a user with a unique ID",
+      "scenario": "Identify a user with a unique ID",
+      "language": "bash",
+      "tags": [
+        "identify",
+        "user",
+        "unique_id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel people set <unique_id> '{\"property\":\"value\"}'",
+      "description": "Set properties for a user",
+      "scenario": "Set properties for a user",
+      "language": "bash",
+      "tags": [
+        "set",
+        "user",
+        "properties"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixpanel people delete <unique_id>",
+      "description": "Delete a user profile",
+      "scenario": "Delete a user profile",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "user",
+        "profile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

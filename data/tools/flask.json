@@ -1,0 +1,204 @@
+{
+  "title": "Flask Cheat Sheet",
+  "slug": "flask",
+  "description": "Quick reference for Flask CLI commands and code patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "from flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef hello_world():\n    return 'Hello, World!'",
+      "description": "Create a simple Flask app",
+      "scenario": "Create a simple Flask app",
+      "language": "python",
+      "tags": [
+        "flask",
+        "app",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export FLASK_APP=app.py\nflask run",
+      "description": "Run Flask app",
+      "scenario": "Run Flask app",
+      "language": "bash",
+      "tags": [
+        "run",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export FLASK_ENV=development",
+      "description": "Set Flask environment to development",
+      "scenario": "Set Flask environment to development",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "development",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.route('/user/<username>')\ndef show_user_profile(username):\n    return f'User {username}'",
+      "description": "Define a route with a dynamic segment",
+      "scenario": "Define a route with a dynamic segment",
+      "language": "python",
+      "tags": [
+        "routing",
+        "dynamic",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.route('/post/<int:post_id>')\ndef show_post(post_id):\n    return f'Post {post_id}'",
+      "description": "Define a route with an integer converter",
+      "scenario": "Define a route with an integer converter",
+      "language": "python",
+      "tags": [
+        "routing",
+        "converter",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.route('/login', methods=['GET', 'POST'])\ndef login():\n    if request.method == 'POST':\n        return 'Do the login'\n    else:\n        return 'Show the login form'",
+      "description": "Define a route with a default method",
+      "scenario": "Define a route with a default method",
+      "language": "python",
+      "tags": [
+        "routing",
+        "methods",
+        "post"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from flask import render_template\n\n@app.route('/hello/')\n@app.route('/hello/<name>')\ndef hello(name=None):\n    return render_template('hello.html', name=name)",
+      "description": "Render a template",
+      "scenario": "Render a template",
+      "language": "python",
+      "tags": [
+        "templates",
+        "render",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h1>Hello {{ name }}!</h1>",
+      "description": "Use Jinja2 syntax in templates",
+      "scenario": "Use Jinja2 syntax in templates",
+      "language": "html",
+      "tags": [
+        "jinja2",
+        "syntax",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% if user %}\n  Hello, {{ user }}!\n{% else %}\n  Hello, Guest!\n{% endif %}",
+      "description": "Use control structures in templates",
+      "scenario": "Use control structures in templates",
+      "language": "html",
+      "tags": [
+        "control",
+        "structures",
+        "jinja2"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.config.from_pyfile('config.py')",
+      "description": "Set configuration from a file",
+      "scenario": "Set configuration from a file",
+      "language": "python",
+      "tags": [
+        "configuration",
+        "file",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.config['DEBUG'] = True",
+      "description": "Set configuration directly",
+      "scenario": "Set configuration directly",
+      "language": "python",
+      "tags": [
+        "configuration",
+        "direct",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug_mode = app.config['DEBUG']",
+      "description": "Access configuration variables",
+      "scenario": "Access configuration variables",
+      "language": "python",
+      "tags": [
+        "configuration",
+        "access",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flask init",
+      "description": "Initialize a new Flask project",
+      "scenario": "Initialize a new Flask project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flask shell",
+      "description": "Run Flask shell",
+      "scenario": "Run Flask shell",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "shell",
+        "interactive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flask --help",
+      "description": "Show all available Flask commands",
+      "scenario": "Show all available Flask commands",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "commands",
+        "help"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

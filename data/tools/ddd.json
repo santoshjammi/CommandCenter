@@ -1,0 +1,204 @@
+{
+  "title": "Domain-Driven Design (DDD) Cheat Sheet",
+  "slug": "ddd",
+  "description": "Essential concepts and patterns for Domain-Driven Design (DDD).",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "Core Domain: The area of the business where the most value is derived.",
+      "description": "Define the core domain of the business.",
+      "scenario": "Define the core domain of the business.",
+      "language": "text",
+      "tags": [
+        "core",
+        "domain",
+        "business"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Subdomain: A distinct part of the core domain with its own logic.",
+      "description": "Identify subdomains within the core domain.",
+      "scenario": "Identify subdomains within the core domain.",
+      "language": "text",
+      "tags": [
+        "subdomain",
+        "core",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Bounded Context: A boundary within which a particular model is defined and applicable.",
+      "description": "Understand the concept of a bounded context.",
+      "scenario": "Understand the concept of a bounded context.",
+      "language": "text",
+      "tags": [
+        "bounded",
+        "context",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ubiquitous Language: A common language used by developers and domain experts.",
+      "description": "Define a ubiquitous language for the team.",
+      "scenario": "Define a ubiquitous language for the team.",
+      "language": "text",
+      "tags": [
+        "language",
+        "communication",
+        "team"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Context Map: A diagram showing relationships between bounded contexts.",
+      "description": "Create a context map to visualize bounded contexts.",
+      "scenario": "Create a context map to visualize bounded contexts.",
+      "language": "text",
+      "tags": [
+        "context",
+        "map",
+        "visualization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Domain Event: A significant change in the state of the domain.",
+      "description": "Identify and manage domain events.",
+      "scenario": "Identify and manage domain events.",
+      "language": "text",
+      "tags": [
+        "event",
+        "domain",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Entity {\n  constructor(id) {\n    this.id = id;\n  }\n}",
+      "description": "Implement entities to represent domain objects.",
+      "scenario": "Implement entities to represent domain objects.",
+      "language": "javascript",
+      "tags": [
+        "entity",
+        "domain",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class ValueObject {\n  constructor(value) {\n    this.value = value;\n  }\n}",
+      "description": "Use value objects for immutable data.",
+      "scenario": "Use value objects for immutable data.",
+      "language": "javascript",
+      "tags": [
+        "value",
+        "object",
+        "immutable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Aggregate {\n  constructor(root) {\n    this.root = root;\n  }\n}",
+      "description": "Define aggregates to enforce invariants.",
+      "scenario": "Define aggregates to enforce invariants.",
+      "language": "javascript",
+      "tags": [
+        "aggregate",
+        "invariant",
+        "root"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Repository {\n  find(id) {\n    // fetch entity by id\n  }\n}",
+      "description": "Use repositories to handle data access.",
+      "scenario": "Use repositories to handle data access.",
+      "language": "javascript",
+      "tags": [
+        "repository",
+        "data",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Factory {\n  create(type) {\n    // return new object of type\n  }\n}",
+      "description": "Apply factories for complex object creation.",
+      "scenario": "Apply factories for complex object creation.",
+      "language": "javascript",
+      "tags": [
+        "factory",
+        "object",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Service {\n  execute() {\n    // perform domain logic\n  }\n}",
+      "description": "Implement services for domain logic.",
+      "scenario": "Implement services for domain logic.",
+      "language": "javascript",
+      "tags": [
+        "service",
+        "domain",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Anti-Corruption Layer: A boundary that translates between systems to avoid corruption.",
+      "description": "Use anti-corruption layers to protect the domain.",
+      "scenario": "Use anti-corruption layers to protect the domain.",
+      "language": "text",
+      "tags": [
+        "anti-corruption",
+        "boundary",
+        "translation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Hexagonal Architecture: A design pattern for creating flexible and scalable applications.",
+      "description": "Apply the hexagonal architecture for flexibility.",
+      "scenario": "Apply the hexagonal architecture for flexibility.",
+      "language": "text",
+      "tags": [
+        "hexagonal",
+        "architecture",
+        "flexibility"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CQRS: Command Query Responsibility Segregation, a pattern to separate read and write operations.",
+      "description": "Utilize CQRS for separating read and write models.",
+      "scenario": "Utilize CQRS for separating read and write models.",
+      "language": "text",
+      "tags": [
+        "CQRS",
+        "read",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

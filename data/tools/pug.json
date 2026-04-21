@@ -1,0 +1,204 @@
+{
+  "title": "Pug Cheat Sheet",
+  "slug": "pug",
+  "description": "Quick reference for Pug template syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "p Hello World!",
+      "description": "Create a basic HTML element",
+      "scenario": "Create a basic HTML element",
+      "language": "pug",
+      "tags": [
+        "html",
+        "element",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a(href='https://example.com') Link",
+      "description": "Add an attribute to an element",
+      "scenario": "Add an attribute to an element",
+      "language": "pug",
+      "tags": [
+        "attribute",
+        "link",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ul\n  li Item 1\n  li Item 2",
+      "description": "Nest elements inside a parent",
+      "scenario": "Nest elements inside a parent",
+      "language": "pug",
+      "tags": [
+        "nesting",
+        "list",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "each item in items\n  li= item",
+      "description": "Iterate over an array",
+      "scenario": "Iterate over an array",
+      "language": "pug",
+      "tags": [
+        "iteration",
+        "loop",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if user\n  p Welcome, #{user.name}",
+      "description": "Conditional rendering with if",
+      "scenario": "Conditional rendering with if",
+      "language": "pug",
+      "tags": [
+        "conditional",
+        "if",
+        "rendering"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if user\n  p Welcome, #{user.name}\nelse if guest\n  p Welcome, Guest\nelse\n  p Welcome, Stranger",
+      "description": "Use else if and else",
+      "scenario": "Use else if and else",
+      "language": "pug",
+      "tags": [
+        "conditional",
+        "else",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixin list(items)\n  ul\n    each item in items\n      li= item",
+      "description": "Define a mixin",
+      "scenario": "Define a mixin",
+      "language": "pug",
+      "tags": [
+        "mixin",
+        "define",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+list(['Item 1', 'Item 2'])",
+      "description": "Use a mixin with arguments",
+      "scenario": "Use a mixin with arguments",
+      "language": "pug",
+      "tags": [
+        "mixin",
+        "use",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixin article(title)\n  h2= title\n  block\n\n+article('My Article')\n  p This is the content of the article.",
+      "description": "Mixin with block content",
+      "scenario": "Mixin with block content",
+      "language": "pug",
+      "tags": [
+        "mixin",
+        "block",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// This is a comment",
+      "description": "Add a comment in Pug",
+      "scenario": "Add a comment in Pug",
+      "language": "pug",
+      "tags": [
+        "comment",
+        "syntax",
+        "note"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//- This comment will not appear in the HTML",
+      "description": "Add an unbuffered comment",
+      "scenario": "Add an unbuffered comment",
+      "language": "pug",
+      "tags": [
+        "comment",
+        "unbuffered",
+        "note"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p Hello, #{name}!",
+      "description": "Interpolate a variable in text",
+      "scenario": "Interpolate a variable in text",
+      "language": "pug",
+      "tags": [
+        "interpolation",
+        "variable",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "input(type='text', name='username', required)",
+      "description": "Add multiple attributes to an element",
+      "scenario": "Add multiple attributes to an element",
+      "language": "pug",
+      "tags": [
+        "attributes",
+        "element",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div.class1.class2",
+      "description": "Add classes to an element",
+      "scenario": "Add classes to an element",
+      "language": "pug",
+      "tags": [
+        "classes",
+        "element",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a(href=url, target='_blank') Click here",
+      "description": "Dynamic attributes with JavaScript",
+      "scenario": "Dynamic attributes with JavaScript",
+      "language": "pug",
+      "tags": [
+        "dynamic",
+        "attributes",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

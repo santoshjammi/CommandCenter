@@ -1,0 +1,165 @@
+{
+  "title": "Lucene Cheat Sheet",
+  "slug": "lucene",
+  "description": "Quick reference for Lucene CLI commands and syntax",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "java -jar lucene-core.jar -index /path/to/index -docs /path/to/docs",
+      "description": "Run Lucene indexer on a directory",
+      "scenario": "Run Lucene indexer on a directory",
+      "language": "bash",
+      "tags": [
+        "index",
+        "cli",
+        "lucene"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -jar lucene-core.jar -search /path/to/index 'query'",
+      "description": "Search an index with a query",
+      "scenario": "Search an index with a query",
+      "language": "bash",
+      "tags": [
+        "search",
+        "cli",
+        "lucene"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -jar lucene-core.jar -optimize /path/to/index",
+      "description": "Optimize an existing Lucene index",
+      "scenario": "Optimize an existing Lucene index",
+      "language": "bash",
+      "tags": [
+        "optimize",
+        "cli",
+        "lucene"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "title:Lucene",
+      "description": "Search for a specific term",
+      "scenario": "Search for a specific term",
+      "language": "text",
+      "tags": [
+        "query",
+        "syntax",
+        "term"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "date:[20220101 TO 20221231]",
+      "description": "Search for terms within a range",
+      "scenario": "Search for terms within a range",
+      "language": "text",
+      "tags": [
+        "query",
+        "range",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "titl*:Lucen?",
+      "description": "Search for terms with wildcards",
+      "scenario": "Search for terms with wildcards",
+      "language": "text",
+      "tags": [
+        "query",
+        "wildcard",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query.default_field=content",
+      "description": "Set the default field for queries",
+      "scenario": "Set the default field for queries",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "default",
+        "field"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query.cache=true",
+      "description": "Enable or disable query caching",
+      "scenario": "Enable or disable query caching",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "cache",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "index.directory=/var/lucene/index",
+      "description": "Configure the directory for index storage",
+      "scenario": "Configure the directory for index storage",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "directory",
+        "index"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "title:Lucene^2",
+      "description": "Boost a term in a query",
+      "scenario": "Boost a term in a query",
+      "language": "text",
+      "tags": [
+        "query",
+        "boost",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "title:Lucene AND author:Smith",
+      "description": "Combine multiple queries with AND",
+      "scenario": "Combine multiple queries with AND",
+      "language": "text",
+      "tags": [
+        "query",
+        "combine",
+        "and"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "title:Lucene NOT author:Smith",
+      "description": "Exclude terms from a query",
+      "scenario": "Exclude terms from a query",
+      "language": "text",
+      "tags": [
+        "query",
+        "exclude",
+        "not"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

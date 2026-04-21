@@ -1,0 +1,204 @@
+{
+  "title": "Mathomatic Cheat Sheet",
+  "slug": "mathomatic",
+  "description": "Quick reference for Mathomatic CLI commands and syntax.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "mathomatic",
+      "description": "Start Mathomatic in interactive mode",
+      "scenario": "Start Mathomatic in interactive mode",
+      "language": "bash",
+      "tags": [
+        "start",
+        "interactive",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quit",
+      "description": "Exit Mathomatic interactive mode",
+      "scenario": "Exit Mathomatic interactive mode",
+      "language": "text",
+      "tags": [
+        "exit",
+        "quit",
+        "interactive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "clear all",
+      "description": "Clear all variables and equations",
+      "scenario": "Clear all variables and equations",
+      "language": "text",
+      "tags": [
+        "clear",
+        "reset",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "solve x",
+      "description": "Solve the current equation for a specific variable",
+      "scenario": "Solve the current equation for a specific variable",
+      "language": "text",
+      "tags": [
+        "solve",
+        "equation",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "simplify",
+      "description": "Simplify the current equation",
+      "scenario": "Simplify the current equation",
+      "language": "text",
+      "tags": [
+        "simplify",
+        "equation",
+        "reduce"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "differentiate x",
+      "description": "Differentiate the current equation with respect to a variable",
+      "scenario": "Differentiate the current equation with respect to a variable",
+      "language": "text",
+      "tags": [
+        "differentiate",
+        "calculus",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list variables",
+      "description": "List all current variables and their values",
+      "scenario": "List all current variables and their values",
+      "language": "text",
+      "tags": [
+        "list",
+        "variables",
+        "values"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let x = 5",
+      "description": "Set a variable to a specific value",
+      "scenario": "Set a variable to a specific value",
+      "language": "text",
+      "tags": [
+        "set",
+        "variable",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "clear x",
+      "description": "Delete a specific variable",
+      "scenario": "Delete a specific variable",
+      "language": "text",
+      "tags": [
+        "delete",
+        "clear",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "read filename.mo",
+      "description": "Load equations from a file",
+      "scenario": "Load equations from a file",
+      "language": "text",
+      "tags": [
+        "load",
+        "file",
+        "equations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "write filename.mo",
+      "description": "Save current session to a file",
+      "scenario": "Save current session to a file",
+      "language": "text",
+      "tags": [
+        "save",
+        "file",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "append filename.mo",
+      "description": "Append current equations to a file",
+      "scenario": "Append current equations to a file",
+      "language": "text",
+      "tags": [
+        "append",
+        "file",
+        "equations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set fractions on",
+      "description": "Enable or disable fractions mode",
+      "scenario": "Enable or disable fractions mode",
+      "language": "text",
+      "tags": [
+        "fractions",
+        "mode",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set decimals 5",
+      "description": "Change the number of decimal places displayed",
+      "scenario": "Change the number of decimal places displayed",
+      "language": "text",
+      "tags": [
+        "decimals",
+        "precision",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set color on",
+      "description": "Toggle color mode for output",
+      "scenario": "Toggle color mode for output",
+      "language": "text",
+      "tags": [
+        "color",
+        "output",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Ballerina Cheat Sheet",
+  "slug": "ballerina",
+  "description": "Quick reference for Ballerina syntax and CLI commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "function helloWorld() returns string { return \"Hello, World!\"; }",
+      "description": "Define a simple Ballerina function",
+      "scenario": "Define a simple Ballerina function",
+      "language": "ballerina",
+      "tags": [
+        "function",
+        "syntax",
+        "hello world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int age = 30;",
+      "description": "Declare a variable with a type",
+      "scenario": "Declare a variable with a type",
+      "language": "ballerina",
+      "tags": [
+        "variable",
+        "declaration",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "service /hello on new http:Listener(8080) { resource function get sayHello() returns string { return \"Hello, World!\"; } }",
+      "description": "Create a Ballerina service",
+      "scenario": "Create a Ballerina service",
+      "language": "ballerina",
+      "tags": [
+        "service",
+        "http",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bal run my_program.bal",
+      "description": "Run a Ballerina program",
+      "scenario": "Run a Ballerina program",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bal build",
+      "description": "Build a Ballerina project",
+      "scenario": "Build a Ballerina project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "build",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bal new my_project",
+      "description": "Initialize a new Ballerina project",
+      "scenario": "Initialize a new Ballerina project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[ballerina] version = \"1.2.3\"",
+      "description": "Define a configuration file",
+      "scenario": "Define a configuration file",
+      "language": "toml",
+      "tags": [
+        "config",
+        "version",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "configurable string host = ?;",
+      "description": "Access configuration values in code",
+      "scenario": "Access configuration values in code",
+      "language": "ballerina",
+      "tags": [
+        "config",
+        "access",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "configurable int port = 8080;",
+      "description": "Set a configuration value for a service",
+      "scenario": "Set a configuration value for a service",
+      "language": "ballerina",
+      "tags": [
+        "config",
+        "service",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int result = check calculateValue();",
+      "description": "Error handling with a check expression",
+      "scenario": "Error handling with a check expression",
+      "language": "ballerina",
+      "tags": [
+        "error",
+        "handling",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "match value { 1 => { io:println(\"One\"); } 2 => { io:println(\"Two\"); } _ => { io:println(\"Other\"); } }",
+      "description": "Use a match statement for pattern matching",
+      "scenario": "Use a match statement for pattern matching",
+      "language": "ballerina",
+      "tags": [
+        "pattern",
+        "match",
+        "statement"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int[] numbers = [1, 2, 3]; foreach int number in numbers { io:println(number); }",
+      "description": "Iterate over an array using foreach",
+      "scenario": "Iterate over an array using foreach",
+      "language": "ballerina",
+      "tags": [
+        "iteration",
+        "array",
+        "foreach"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

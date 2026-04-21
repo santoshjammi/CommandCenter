@@ -1,0 +1,165 @@
+{
+  "title": "Affinity Photo Cheat Sheet",
+  "slug": "affinity-photo",
+  "description": "Quick reference for essential Affinity Photo shortcuts and techniques.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "V",
+      "description": "Select the Move Tool",
+      "scenario": "Select the Move Tool",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "tool",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + +",
+      "description": "Zoom in",
+      "scenario": "Zoom in",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "view",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + -",
+      "description": "Zoom out",
+      "scenario": "Zoom out",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "view",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + N",
+      "description": "Create a new layer",
+      "scenario": "Create a new layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "new",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + J",
+      "description": "Duplicate the current layer",
+      "scenario": "Duplicate the current layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "duplicate",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + E",
+      "description": "Merge selected layers",
+      "scenario": "Merge selected layers",
+      "language": "text",
+      "tags": [
+        "layer",
+        "merge",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + A",
+      "description": "Select all",
+      "scenario": "Select all",
+      "language": "text",
+      "tags": [
+        "select",
+        "all",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + D",
+      "description": "Deselect all",
+      "scenario": "Deselect all",
+      "language": "text",
+      "tags": [
+        "deselect",
+        "all",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + I",
+      "description": "Invert selection",
+      "scenario": "Invert selection",
+      "language": "text",
+      "tags": [
+        "invert",
+        "selection",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + L",
+      "description": "Open the Levels adjustment",
+      "scenario": "Open the Levels adjustment",
+      "language": "text",
+      "tags": [
+        "color",
+        "adjustment",
+        "levels"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + M",
+      "description": "Open the Curves adjustment",
+      "scenario": "Open the Curves adjustment",
+      "language": "text",
+      "tags": [
+        "color",
+        "adjustment",
+        "curves"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + U",
+      "description": "Open the Hue/Saturation adjustment",
+      "scenario": "Open the Hue/Saturation adjustment",
+      "language": "text",
+      "tags": [
+        "color",
+        "adjustment",
+        "hue"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

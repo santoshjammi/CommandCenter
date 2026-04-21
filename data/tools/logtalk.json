@@ -1,0 +1,204 @@
+{
+  "title": "Logtalk Cheat Sheet",
+  "slug": "logtalk",
+  "description": "Essential Logtalk commands and syntax for efficient development.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "logtalk_load('source_file.lgt').",
+      "description": "Compile a Logtalk source file",
+      "scenario": "Compile a Logtalk source file",
+      "language": "text",
+      "tags": [
+        "compile",
+        "load",
+        "source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "logtalk_reload('source_file.lgt').",
+      "description": "Reload a modified Logtalk source file",
+      "scenario": "Reload a modified Logtalk source file",
+      "language": "text",
+      "tags": [
+        "reload",
+        "source",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "logtalk::loaded_entities.",
+      "description": "List all loaded entities",
+      "scenario": "List all loaded entities",
+      "language": "text",
+      "tags": [
+        "list",
+        "entities",
+        "loaded"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- object(object_name).",
+      "description": "Declare a new object",
+      "scenario": "Declare a new object",
+      "language": "text",
+      "tags": [
+        "object",
+        "declare",
+        "entity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- protocol(protocol_name).",
+      "description": "Declare a new protocol",
+      "scenario": "Declare a new protocol",
+      "language": "text",
+      "tags": [
+        "protocol",
+        "declare",
+        "entity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- category(category_name).",
+      "description": "Declare a new category",
+      "scenario": "Declare a new category",
+      "language": "text",
+      "tags": [
+        "category",
+        "declare",
+        "entity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- implements(protocol_name).",
+      "description": "Implement a protocol in an object",
+      "scenario": "Implement a protocol in an object",
+      "language": "text",
+      "tags": [
+        "implement",
+        "protocol",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- extends(object_name).",
+      "description": "Extend an object",
+      "scenario": "Extend an object",
+      "language": "text",
+      "tags": [
+        "extend",
+        "object",
+        "inheritance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- includes(category_name).",
+      "description": "Include a category in an object",
+      "scenario": "Include a category in an object",
+      "language": "text",
+      "tags": [
+        "include",
+        "category",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- public(predicate_name/arity).",
+      "description": "Define a public predicate",
+      "scenario": "Define a public predicate",
+      "language": "text",
+      "tags": [
+        "public",
+        "predicate",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- private(predicate_name/arity).",
+      "description": "Define a private predicate",
+      "scenario": "Define a private predicate",
+      "language": "text",
+      "tags": [
+        "private",
+        "predicate",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- protected(predicate_name/arity).",
+      "description": "Define a protected predicate",
+      "scenario": "Define a protected predicate",
+      "language": "text",
+      "tags": [
+        "protected",
+        "predicate",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set_logtalk_flag(flag_name, value).",
+      "description": "Set a Logtalk flag",
+      "scenario": "Set a Logtalk flag",
+      "language": "text",
+      "tags": [
+        "flag",
+        "set",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "current_logtalk_flag(flag_name, Value).",
+      "description": "Get the current value of a Logtalk flag",
+      "scenario": "Get the current value of a Logtalk flag",
+      "language": "text",
+      "tags": [
+        "flag",
+        "get",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "logtalk::current_flag(flag_name, Value).",
+      "description": "Check if a specific flag is set to a value",
+      "scenario": "Check if a specific flag is set to a value",
+      "language": "text",
+      "tags": [
+        "flag",
+        "check",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

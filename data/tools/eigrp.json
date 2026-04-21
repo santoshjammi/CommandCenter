@@ -1,0 +1,204 @@
+{
+  "title": "EIGRP Cheat Sheet",
+  "slug": "eigrp",
+  "description": "Essential EIGRP commands and configurations for network engineers.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "router eigrp 100",
+      "description": "Enable EIGRP on a router with autonomous system number 100",
+      "scenario": "Enable EIGRP on a router with autonomous system number 100",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "configuration",
+        "router"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "network 192.168.1.0 0.0.0.255",
+      "description": "Specify a network to advertise in EIGRP",
+      "scenario": "Specify a network to advertise in EIGRP",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "network",
+        "advertise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "no auto-summary",
+      "description": "Disable automatic summarization in EIGRP",
+      "scenario": "Disable automatic summarization in EIGRP",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "summarization",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip eigrp neighbors",
+      "description": "Display EIGRP neighbors",
+      "scenario": "Display EIGRP neighbors",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "neighbors",
+        "verification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip eigrp topology",
+      "description": "Show EIGRP topology table",
+      "scenario": "Show EIGRP topology table",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "topology",
+        "verification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip eigrp interfaces",
+      "description": "Verify EIGRP interfaces",
+      "scenario": "Verify EIGRP interfaces",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "interfaces",
+        "verification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "metric weights 0 1 0 1 0 0",
+      "description": "Set a specific EIGRP metric for a route",
+      "scenario": "Set a specific EIGRP metric for a route",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "metric",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip bandwidth-percent eigrp 100 50",
+      "description": "Configure EIGRP bandwidth percentage",
+      "scenario": "Configure EIGRP bandwidth percentage",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "bandwidth",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip hello-interval eigrp 100 5\nip hold-time eigrp 100 15",
+      "description": "Set EIGRP hello interval and hold time",
+      "scenario": "Set EIGRP hello interval and hold time",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "interval",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip authentication mode eigrp 100 md5",
+      "description": "Enable EIGRP authentication on an interface",
+      "scenario": "Enable EIGRP authentication on an interface",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "authentication",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip authentication key-chain eigrp 100 MY_KEYS",
+      "description": "Configure EIGRP authentication key-chain",
+      "scenario": "Configure EIGRP authentication key-chain",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "key-chain",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "key chain MY_KEYS\n key 1\n  key-string mypassword",
+      "description": "Define keys for EIGRP authentication",
+      "scenario": "Define keys for EIGRP authentication",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "keys",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug eigrp packets",
+      "description": "Debug EIGRP packets",
+      "scenario": "Debug EIGRP packets",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "debug",
+        "troubleshooting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug eigrp neighbors",
+      "description": "Debug EIGRP neighbors",
+      "scenario": "Debug EIGRP neighbors",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "debug",
+        "neighbors"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip eigrp events",
+      "description": "Check for EIGRP stuck in active",
+      "scenario": "Check for EIGRP stuck in active",
+      "language": "bash",
+      "tags": [
+        "EIGRP",
+        "troubleshooting",
+        "events"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "SQLite Cheat Sheet",
+  "slug": "sqlite",
+  "description": "Quick reference for SQLite CLI commands and SQL syntax.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "sqlite3 database.db",
+      "description": "Open a SQLite database file",
+      "scenario": "Open a SQLite database file",
+      "language": "bash",
+      "tags": [
+        "open",
+        "database",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".tables",
+      "description": "List all tables in the database",
+      "scenario": "List all tables in the database",
+      "language": "sql",
+      "tags": [
+        "list",
+        "tables",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".exit",
+      "description": "Exit the SQLite shell",
+      "scenario": "Exit the SQLite shell",
+      "language": "sql",
+      "tags": [
+        "exit",
+        "shell",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER);",
+      "description": "Create a new table",
+      "scenario": "Create a new table",
+      "language": "sql",
+      "tags": [
+        "create",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP TABLE users;",
+      "description": "Delete a table",
+      "scenario": "Delete a table",
+      "language": "sql",
+      "tags": [
+        "delete",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALTER TABLE users ADD COLUMN email TEXT;",
+      "description": "Add a column to an existing table",
+      "scenario": "Add a column to an existing table",
+      "language": "sql",
+      "tags": [
+        "alter",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO users (name, age) VALUES ('Alice', 30);",
+      "description": "Insert a new record into a table",
+      "scenario": "Insert a new record into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE users SET age = 31 WHERE name = 'Alice';",
+      "description": "Update records in a table",
+      "scenario": "Update records in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DELETE FROM users WHERE name = 'Alice';",
+      "description": "Delete records from a table",
+      "scenario": "Delete records from a table",
+      "language": "sql",
+      "tags": [
+        "delete",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM users;",
+      "description": "Select all records from a table",
+      "scenario": "Select all records from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "query",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT name, age FROM users;",
+      "description": "Select specific columns from a table",
+      "scenario": "Select specific columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "columns",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM users WHERE age > 25;",
+      "description": "Filter records with a condition",
+      "scenario": "Filter records with a condition",
+      "language": "sql",
+      "tags": [
+        "filter",
+        "condition",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE INDEX idx_name ON users (name);",
+      "description": "Create an index on a table column",
+      "scenario": "Create an index on a table column",
+      "language": "sql",
+      "tags": [
+        "create",
+        "index",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP INDEX idx_name;",
+      "description": "Remove an index from a table",
+      "scenario": "Remove an index from a table",
+      "language": "sql",
+      "tags": [
+        "drop",
+        "index",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ANALYZE users;",
+      "description": "Analyze a table for query optimization",
+      "scenario": "Analyze a table for query optimization",
+      "language": "sql",
+      "tags": [
+        "analyze",
+        "optimize",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

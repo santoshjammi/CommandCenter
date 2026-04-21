@@ -1,0 +1,204 @@
+{
+  "title": "Ruby Cheat Sheet",
+  "slug": "ruby",
+  "description": "Essential Ruby syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "class MyClass\n  def initialize(name)\n    @name = name\n  end\nend",
+      "description": "Define a class in Ruby",
+      "scenario": "Define a class in Ruby",
+      "language": "ruby",
+      "tags": [
+        "class",
+        "ruby",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_object = MyClass.new('Ruby')",
+      "description": "Create a new instance of a class",
+      "scenario": "Create a new instance of a class",
+      "language": "ruby",
+      "tags": [
+        "instance",
+        "object",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_method(param)\n  puts \"Hello, \"+param\nend",
+      "description": "Define a method in Ruby",
+      "scenario": "Define a method in Ruby",
+      "language": "ruby",
+      "tags": [
+        "method",
+        "function",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if condition\n  puts 'Condition is true'\nelse\n  puts 'Condition is false'\nend",
+      "description": "If-else statement in Ruby",
+      "scenario": "If-else statement in Ruby",
+      "language": "ruby",
+      "tags": [
+        "if",
+        "control",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while condition\n  puts 'Looping'\nend",
+      "description": "While loop in Ruby",
+      "scenario": "While loop in Ruby",
+      "language": "ruby",
+      "tags": [
+        "loop",
+        "while",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 0..5\n  puts i\nend",
+      "description": "For loop in Ruby",
+      "scenario": "For loop in Ruby",
+      "language": "ruby",
+      "tags": [
+        "loop",
+        "for",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_array = [1, 2, 3, 4, 5]",
+      "description": "Create an array in Ruby",
+      "scenario": "Create an array in Ruby",
+      "language": "ruby",
+      "tags": [
+        "array",
+        "collection",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_array.each do |element|\n  puts element\nend",
+      "description": "Iterate over an array with each",
+      "scenario": "Iterate over an array with each",
+      "language": "ruby",
+      "tags": [
+        "iteration",
+        "array",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_hash = { 'key1' => 'value1', 'key2' => 'value2' }",
+      "description": "Create a hash in Ruby",
+      "scenario": "Create a hash in Ruby",
+      "language": "ruby",
+      "tags": [
+        "hash",
+        "dictionary",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File.open('file.txt', 'r') do |file|\n  file.each_line { |line| puts line }\nend",
+      "description": "Read from a file in Ruby",
+      "scenario": "Read from a file in Ruby",
+      "language": "ruby",
+      "tags": [
+        "file",
+        "read",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File.open('file.txt', 'w') do |file|\n  file.puts 'Hello, world!'\nend",
+      "description": "Write to a file in Ruby",
+      "scenario": "Write to a file in Ruby",
+      "language": "ruby",
+      "tags": [
+        "file",
+        "write",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File.exist?('file.txt')",
+      "description": "Check if a file exists",
+      "scenario": "Check if a file exists",
+      "language": "ruby",
+      "tags": [
+        "file",
+        "check",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin\n  # Code that might raise an exception\nrescue StandardError => e\n  puts \"Error occurred: #{e.message}\"\nend",
+      "description": "Basic error handling with begin-rescue",
+      "scenario": "Basic error handling with begin-rescue",
+      "language": "ruby",
+      "tags": [
+        "error",
+        "exception",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "raise 'An error has occurred'",
+      "description": "Raise an exception in Ruby",
+      "scenario": "Raise an exception in Ruby",
+      "language": "ruby",
+      "tags": [
+        "error",
+        "raise",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin\n  # Code that might raise an exception\nrescue StandardError => e\n  puts \"Error occurred: #{e.message}\"\nensure\n  puts 'This will always run'\nend",
+      "description": "Ensure block to run code after rescue",
+      "scenario": "Ensure block to run code after rescue",
+      "language": "ruby",
+      "tags": [
+        "ensure",
+        "error",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

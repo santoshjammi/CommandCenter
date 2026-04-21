@@ -1,0 +1,165 @@
+{
+  "title": "Freenode IRC Cheat Sheet",
+  "slug": "freenode",
+  "description": "Quick reference for Freenode IRC commands and usage.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "/connect irc.freenode.net",
+      "description": "Connect to an IRC server",
+      "scenario": "Connect to an IRC server",
+      "language": "text",
+      "tags": [
+        "connect",
+        "server",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/join #channelname",
+      "description": "Join a channel",
+      "scenario": "Join a channel",
+      "language": "text",
+      "tags": [
+        "join",
+        "channel",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/nick newnickname",
+      "description": "Change your nickname",
+      "scenario": "Change your nickname",
+      "language": "text",
+      "tags": [
+        "nickname",
+        "change",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/join #newchannel",
+      "description": "Create a new channel",
+      "scenario": "Create a new channel",
+      "language": "text",
+      "tags": [
+        "create",
+        "channel",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/topic #channelname New Topic Here",
+      "description": "Set a channel topic",
+      "scenario": "Set a channel topic",
+      "language": "text",
+      "tags": [
+        "topic",
+        "channel",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/kick #channelname username",
+      "description": "Kick a user from a channel",
+      "scenario": "Kick a user from a channel",
+      "language": "text",
+      "tags": [
+        "kick",
+        "user",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/msg username message",
+      "description": "Send a private message to a user",
+      "scenario": "Send a private message to a user",
+      "language": "text",
+      "tags": [
+        "private",
+        "message",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/ignore username",
+      "description": "Ignore messages from a user",
+      "scenario": "Ignore messages from a user",
+      "language": "text",
+      "tags": [
+        "ignore",
+        "user",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/unignore username",
+      "description": "Unignore a user",
+      "scenario": "Unignore a user",
+      "language": "text",
+      "tags": [
+        "unignore",
+        "user",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/msg NickServ REGISTER password email@example.com",
+      "description": "Register your nickname",
+      "scenario": "Register your nickname",
+      "language": "text",
+      "tags": [
+        "register",
+        "nickname",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/msg NickServ IDENTIFY password",
+      "description": "Identify yourself to NickServ",
+      "scenario": "Identify yourself to NickServ",
+      "language": "text",
+      "tags": [
+        "identify",
+        "nickserv",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/names #channelname",
+      "description": "List all users in a channel",
+      "scenario": "List all users in a channel",
+      "language": "text",
+      "tags": [
+        "list",
+        "users",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

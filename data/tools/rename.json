@@ -1,0 +1,165 @@
+{
+  "title": "Rename Command Cheat Sheet",
+  "slug": "rename",
+  "description": "Quick reference for renaming files and directories using CLI tools.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "mv old_filename.txt new_filename.txt",
+      "description": "Rename a single file",
+      "scenario": "Rename a single file",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "file",
+        "mv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv old_directory new_directory",
+      "description": "Rename a directory",
+      "scenario": "Rename a directory",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "directory",
+        "mv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rename 's/old/new/' *.txt",
+      "description": "Rename multiple files with a pattern",
+      "scenario": "Rename multiple files with a pattern",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "pattern",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rename 's/ /_/g' *",
+      "description": "Rename files by replacing spaces with underscores",
+      "scenario": "Rename files by replacing spaces with underscores",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "pattern",
+        "spaces"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rename 's/\\.txt$/.md/' *.txt",
+      "description": "Change file extensions from .txt to .md",
+      "scenario": "Change file extensions from .txt to .md",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "extension",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rename 's/^/prefix_/' *",
+      "description": "Add a prefix to all files in a directory",
+      "scenario": "Add a prefix to all files in a directory",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "prefix",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find . -name \"*.jpg\" -exec rename 's/\\.jpg$/.jpeg/' '{}' \\;",
+      "description": "Rename all .jpg files to .jpeg recursively",
+      "scenario": "Rename all .jpg files to .jpeg recursively",
+      "language": "bash",
+      "tags": [
+        "find",
+        "rename",
+        "recursive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find . -name \"* *\" -exec rename 's/ /_/g' '{}' \\;",
+      "description": "Rename files with spaces in their names",
+      "scenario": "Rename files with spaces in their names",
+      "language": "bash",
+      "tags": [
+        "find",
+        "rename",
+        "spaces"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find . -type f -exec rename 's/^/$(date +%Y%m%d)_/' '{}' \\;",
+      "description": "Prepend current date to all files",
+      "scenario": "Prepend current date to all files",
+      "language": "bash",
+      "tags": [
+        "find",
+        "rename",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git mv old_filename.txt new_filename.txt",
+      "description": "Rename a file in a Git repository",
+      "scenario": "Rename a file in a Git repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "rename",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git mv old_directory new_directory",
+      "description": "Rename a directory in a Git repository",
+      "scenario": "Rename a directory in a Git repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "rename",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git mv -f new_filename.txt old_filename.txt",
+      "description": "Undo a rename before committing",
+      "scenario": "Undo a rename before committing",
+      "language": "bash",
+      "tags": [
+        "git",
+        "rename",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

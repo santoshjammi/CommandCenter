@@ -1,0 +1,204 @@
+{
+  "title": "Linux Command Line Cheat Sheet",
+  "slug": "linux",
+  "description": "Essential Linux CLI commands for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copy a file from source to destination",
+      "scenario": "Copy a file from source to destination",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv oldname.txt newname.txt",
+      "description": "Move or rename a file",
+      "scenario": "Move or rename a file",
+      "language": "bash",
+      "tags": [
+        "move",
+        "rename",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "running"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill 1234",
+      "description": "Kill a process by its ID",
+      "scenario": "Kill a process by its ID",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Show real-time system processes",
+      "scenario": "Show real-time system processes",
+      "language": "bash",
+      "tags": [
+        "system",
+        "process",
+        "real-time"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display network interfaces and IP addresses",
+      "scenario": "Display network interfaces and IP addresses",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interfaces",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping example.com",
+      "description": "Test connectivity to a host",
+      "scenario": "Test connectivity to a host",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "connectivity",
+        "host"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -tuln",
+      "description": "Display active network connections",
+      "scenario": "Display active network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo adduser username",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo deluser username",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "su - username",
+      "description": "Switch to another user account",
+      "scenario": "Switch to another user account",
+      "language": "bash",
+      "tags": [
+        "switch",
+        "user",
+        "account"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Display disk usage statistics",
+      "scenario": "Display disk usage statistics",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "free -m",
+      "description": "Show memory usage",
+      "scenario": "Show memory usage",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "usage",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uptime",
+      "description": "Display system uptime",
+      "scenario": "Display system uptime",
+      "language": "bash",
+      "tags": [
+        "system",
+        "uptime",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

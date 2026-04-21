@@ -1,0 +1,204 @@
+{
+  "title": "Adobe Illustrator Cheat Sheet",
+  "slug": "adobe-illustrator",
+  "description": "Quick reference for Adobe Illustrator shortcuts and workflows.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "edit",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+Z",
+      "description": "Redo the last action",
+      "scenario": "Redo the last action",
+      "language": "text",
+      "tags": [
+        "redo",
+        "edit",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl++",
+      "description": "Zoom in on the canvas",
+      "scenario": "Zoom in on the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "view",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > New",
+      "description": "Create a new document",
+      "scenario": "Create a new document",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Open",
+      "description": "Open an existing document",
+      "scenario": "Open an existing document",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Save",
+      "description": "Save the current document",
+      "scenario": "Save the current document",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+A",
+      "description": "Select all objects on the canvas",
+      "scenario": "Select all objects on the canvas",
+      "language": "text",
+      "tags": [
+        "select",
+        "all",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+A",
+      "description": "Deselect all objects",
+      "scenario": "Deselect all objects",
+      "language": "text",
+      "tags": [
+        "deselect",
+        "all",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A",
+      "description": "Select the direct selection tool",
+      "scenario": "Select the direct selection tool",
+      "language": "text",
+      "tags": [
+        "select",
+        "tool",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Layer > New > Layer",
+      "description": "Create a new layer",
+      "scenario": "Create a new layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "new",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+2",
+      "description": "Lock the selected layer",
+      "scenario": "Lock the selected layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "lock",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+Ctrl+2",
+      "description": "Unlock all layers",
+      "scenario": "Unlock all layers",
+      "language": "text",
+      "tags": [
+        "layer",
+        "unlock",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "T",
+      "description": "Create a new text box",
+      "scenario": "Create a new text box",
+      "language": "text",
+      "tags": [
+        "text",
+        "create",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+>",
+      "description": "Increase font size",
+      "scenario": "Increase font size",
+      "language": "text",
+      "tags": [
+        "text",
+        "font",
+        "increase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+<",
+      "description": "Decrease font size",
+      "scenario": "Decrease font size",
+      "language": "text",
+      "tags": [
+        "text",
+        "font",
+        "decrease"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

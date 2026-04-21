@@ -1,0 +1,165 @@
+{
+  "title": "JSCoverage Cheat Sheet",
+  "slug": "jscoverage",
+  "description": "Essential commands and patterns for using jscoverage effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "jscoverage input_directory output_directory",
+      "description": "Run jscoverage on a directory",
+      "scenario": "Run jscoverage on a directory",
+      "language": "bash",
+      "tags": [
+        "coverage",
+        "directory",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jscoverage --encoding=utf8 input_directory output_directory",
+      "description": "Run jscoverage with a specific encoding",
+      "scenario": "Run jscoverage with a specific encoding",
+      "language": "bash",
+      "tags": [
+        "encoding",
+        "utf8",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jscoverage --help",
+      "description": "Display help information for jscoverage",
+      "scenario": "Display help information for jscoverage",
+      "language": "bash",
+      "tags": [
+        "help",
+        "info",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jscoverage --exclude=excluded_directory input_directory output_directory",
+      "description": "Exclude a directory from coverage",
+      "scenario": "Exclude a directory from coverage",
+      "language": "bash",
+      "tags": [
+        "exclude",
+        "directory",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jscoverage --prefix=/custom_prefix input_directory output_directory",
+      "description": "Use a custom prefix for coverage files",
+      "scenario": "Use a custom prefix for coverage files",
+      "language": "bash",
+      "tags": [
+        "prefix",
+        "custom",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jscoverage --verbose input_directory output_directory",
+      "description": "Enable verbose mode for detailed logging",
+      "scenario": "Enable verbose mode for detailed logging",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "logging",
+        "detailed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"exclude\": \"node_modules\",\n  \"encoding\": \"utf8\"\n}",
+      "description": "Set up a basic configuration for jscoverage",
+      "scenario": "Set up a basic configuration for jscoverage",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "basic",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"exclude\": [\"test.js\", \"example.js\"]\n}",
+      "description": "Configure jscoverage to ignore specific files",
+      "scenario": "Configure jscoverage to ignore specific files",
+      "language": "json",
+      "tags": [
+        "ignore",
+        "files",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"output\": \"coverage_output\"\n}",
+      "description": "Define a custom output directory in config",
+      "scenario": "Define a custom output directory in config",
+      "language": "json",
+      "tags": [
+        "output",
+        "directory",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"scripts\": {\n  \"test\": \"jscoverage src build && npm test\"\n}",
+      "description": "Integrate jscoverage with a build script",
+      "scenario": "Integrate jscoverage with a build script",
+      "language": "json",
+      "tags": [
+        "integration",
+        "build",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"scripts\": {\n  \"ci\": \"jscoverage src build && npm run ci-test\"\n}",
+      "description": "Use jscoverage with continuous integration",
+      "scenario": "Use jscoverage with continuous integration",
+      "language": "json",
+      "tags": [
+        "ci",
+        "integration",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jscoverage src build && mocha build/test",
+      "description": "Combine jscoverage with a test runner",
+      "scenario": "Combine jscoverage with a test runner",
+      "language": "bash",
+      "tags": [
+        "test",
+        "runner",
+        "combine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Perforce Cheat Sheet",
+  "slug": "perforce",
+  "description": "Essential Perforce commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "p4 edit <file>",
+      "description": "Check out a file for editing",
+      "scenario": "Check out a file for editing",
+      "language": "bash",
+      "tags": [
+        "checkout",
+        "edit",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 submit -d \"Description of changes\"",
+      "description": "Submit changes to the depot",
+      "scenario": "Submit changes to the depot",
+      "language": "bash",
+      "tags": [
+        "submit",
+        "changes",
+        "depot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 revert <file>",
+      "description": "Revert changes made to a file",
+      "scenario": "Revert changes made to a file",
+      "language": "bash",
+      "tags": [
+        "revert",
+        "changes",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 integrate //depot/main/... //depot/branch/...",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "integrate",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 merge //depot/branch/... //depot/main/...",
+      "description": "Merge changes from one branch to another",
+      "scenario": "Merge changes from one branch to another",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "branch",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 resolve",
+      "description": "Resolve conflicts after a merge",
+      "scenario": "Resolve conflicts after a merge",
+      "language": "bash",
+      "tags": [
+        "resolve",
+        "conflicts",
+        "merge"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 add <file>",
+      "description": "Add a new file to the depot",
+      "scenario": "Add a new file to the depot",
+      "language": "bash",
+      "tags": [
+        "add",
+        "file",
+        "depot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 delete <file>",
+      "description": "Delete a file from the depot",
+      "scenario": "Delete a file from the depot",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "file",
+        "depot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 move <oldfile> <newfile>",
+      "description": "Rename or move a file",
+      "scenario": "Rename or move a file",
+      "language": "bash",
+      "tags": [
+        "move",
+        "rename",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 client",
+      "description": "Create a new workspace",
+      "scenario": "Create a new workspace",
+      "language": "bash",
+      "tags": [
+        "workspace",
+        "create",
+        "client"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 set P4CLIENT=<workspace-name>",
+      "description": "Switch to a different workspace",
+      "scenario": "Switch to a different workspace",
+      "language": "bash",
+      "tags": [
+        "workspace",
+        "switch",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 client -o",
+      "description": "View workspace specifications",
+      "scenario": "View workspace specifications",
+      "language": "bash",
+      "tags": [
+        "workspace",
+        "view",
+        "specifications"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 set P4PORT=ssl:perforce:1666",
+      "description": "Set the Perforce server address",
+      "scenario": "Set the Perforce server address",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "server",
+        "address"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 set P4USER=<username>",
+      "description": "Configure user information",
+      "scenario": "Configure user information",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "user",
+        "information"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p4 set P4EDITOR=<editor>",
+      "description": "Set the default editor for Perforce",
+      "scenario": "Set the default editor for Perforce",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "editor",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

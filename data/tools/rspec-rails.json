@@ -1,0 +1,204 @@
+{
+  "title": "RSpec-Rails Cheat Sheet",
+  "slug": "rspec-rails",
+  "description": "Quick reference for RSpec-Rails testing framework commands and syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "rails generate rspec:install",
+      "description": "Initialize RSpec in a Rails project",
+      "scenario": "Initialize RSpec in a Rails project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle exec rspec",
+      "description": "Run all RSpec tests",
+      "scenario": "Run all RSpec tests",
+      "language": "bash",
+      "tags": [
+        "run",
+        "tests",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle exec rspec spec/models/user_spec.rb",
+      "description": "Run RSpec tests in a specific file",
+      "scenario": "Run RSpec tests in a specific file",
+      "language": "bash",
+      "tags": [
+        "run",
+        "tests",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "it 'does something' do\n  expect(actual).to eq(expected)\nend",
+      "description": "Define a test example",
+      "scenario": "Define a test example",
+      "language": "ruby",
+      "tags": [
+        "test",
+        "example",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "before(:each) do\n  # setup code\nend",
+      "description": "Use before hook for setup",
+      "scenario": "Use before hook for setup",
+      "language": "ruby",
+      "tags": [
+        "setup",
+        "hook",
+        "before"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "describe 'User model' do\n  # test examples\nend",
+      "description": "Describe a test group",
+      "scenario": "Describe a test group",
+      "language": "ruby",
+      "tags": [
+        "describe",
+        "group",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(actual).to eq(expected)",
+      "description": "Check for equality",
+      "scenario": "Check for equality",
+      "language": "ruby",
+      "tags": [
+        "matcher",
+        "equality",
+        "expect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(object).to be_nil",
+      "description": "Check if an object is nil",
+      "scenario": "Check if an object is nil",
+      "language": "ruby",
+      "tags": [
+        "matcher",
+        "nil",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to be_truthy",
+      "description": "Check for truthiness",
+      "scenario": "Check for truthiness",
+      "language": "ruby",
+      "tags": [
+        "matcher",
+        "truthy",
+        "boolean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RSpec.configure do |config|\n  config.formatter = :documentation\nend",
+      "description": "Configure RSpec to format output as documentation",
+      "scenario": "Configure RSpec to format output as documentation",
+      "language": "ruby",
+      "tags": [
+        "config",
+        "output",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RSpec.configure do |config|\n  config.order = :random\nend",
+      "description": "Set RSpec to run tests in random order",
+      "scenario": "Set RSpec to run tests in random order",
+      "language": "ruby",
+      "tags": [
+        "config",
+        "order",
+        "random"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RSpec.configure do |config|\n  config.include FactoryBot::Syntax::Methods\nend",
+      "description": "Include FactoryBot methods",
+      "scenario": "Include FactoryBot methods",
+      "language": "ruby",
+      "tags": [
+        "config",
+        "factorybot",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let(:user) { create(:user) }",
+      "description": "Use FactoryBot to create a user",
+      "scenario": "Use FactoryBot to create a user",
+      "language": "ruby",
+      "tags": [
+        "factorybot",
+        "create",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "it { should validate_presence_of(:email) }",
+      "description": "Test for a model validation",
+      "scenario": "Test for a model validation",
+      "language": "ruby",
+      "tags": [
+        "validation",
+        "model",
+        "shoulda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "allow(object).to receive(:method).and_return(value)",
+      "description": "Mock a method in a test",
+      "scenario": "Mock a method in a test",
+      "language": "ruby",
+      "tags": [
+        "mock",
+        "method",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

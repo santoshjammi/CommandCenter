@@ -1,0 +1,204 @@
+{
+  "title": "Solaris CLI Cheat Sheet",
+  "slug": "solaris",
+  "description": "Essential commands and patterns for Solaris operating system.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -l",
+      "description": "List files in a directory with detailed information",
+      "scenario": "List files in a directory with detailed information",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt /destination/path/",
+      "description": "Copy a file to another location",
+      "scenario": "Copy a file to another location",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv file.txt /destination/path/",
+      "description": "Move a file to another location",
+      "scenario": "Move a file to another location",
+      "language": "bash",
+      "tags": [
+        "move",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps -ef",
+      "description": "Display currently running processes",
+      "scenario": "Display currently running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "running"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill 1234",
+      "description": "Kill a process by its process ID",
+      "scenario": "Kill a process by its process ID",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pgrep processname",
+      "description": "Find a process by name",
+      "scenario": "Find a process by name",
+      "language": "bash",
+      "tags": [
+        "find",
+        "process",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig -a",
+      "description": "Display network interface configuration",
+      "scenario": "Display network interface configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interface",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping hostname",
+      "description": "Check connectivity to a host",
+      "scenario": "Check connectivity to a host",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "connectivity",
+        "host"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -rn",
+      "description": "Display routing table",
+      "scenario": "Display routing table",
+      "language": "bash",
+      "tags": [
+        "routing",
+        "table",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "useradd username",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "userdel username",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "passwd username",
+      "description": "Change a user's password",
+      "scenario": "Change a user's password",
+      "language": "bash",
+      "tags": [
+        "user",
+        "password",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uptime",
+      "description": "Display system uptime and load",
+      "scenario": "Display system uptime and load",
+      "language": "bash",
+      "tags": [
+        "system",
+        "uptime",
+        "load"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Monitor real-time system performance",
+      "scenario": "Monitor real-time system performance",
+      "language": "bash",
+      "tags": [
+        "monitor",
+        "performance",
+        "real-time"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Check disk usage",
+      "scenario": "Check disk usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

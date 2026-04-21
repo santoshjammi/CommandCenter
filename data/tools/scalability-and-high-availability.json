@@ -1,0 +1,204 @@
+{
+  "title": "Scalability and High Availability",
+  "slug": "scalability-and-high-availability",
+  "description": "Key commands and patterns for scalable and highly available systems.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "upstream backend {\n    server backend1.example.com;\n    server backend2.example.com;\n}\n\nserver {\n    listen 80;\n\n    location / {\n        proxy_pass http://backend;\n    }\n}",
+      "description": "Set up an Nginx load balancer",
+      "scenario": "Set up an Nginx load balancer",
+      "language": "nginx",
+      "tags": [
+        "nginx",
+        "load balancing",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws elb describe-load-balancers --load-balancer-name my-load-balancer",
+      "description": "Check status of AWS ELB",
+      "scenario": "Check status of AWS ELB",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "elb",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "frontend http_front\n    bind *:80\n    default_backend servers\n\nbackend servers\n    balance roundrobin\n    server server1 192.168.1.1:80 check\n    server server2 192.168.1.2:80 check",
+      "description": "Configure round-robin load balancing in HAProxy",
+      "scenario": "Configure round-robin load balancing in HAProxy",
+      "language": "text",
+      "tags": [
+        "haproxy",
+        "load balancing",
+        "round robin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CHANGE MASTER TO\n  MASTER_HOST='master_host_name',\n  MASTER_USER='replication_user_name',\n  MASTER_PASSWORD='replication_password',\n  MASTER_LOG_FILE='recorded_log_name',\n  MASTER_LOG_POS=recorded_log_position;",
+      "description": "Set up MySQL replication",
+      "scenario": "Set up MySQL replication",
+      "language": "sql",
+      "tags": [
+        "mysql",
+        "replication",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sh.enableSharding(\"myDatabase\")",
+      "description": "Enable sharding in MongoDB",
+      "scenario": "Enable sharding in MongoDB",
+      "language": "javascript",
+      "tags": [
+        "mongodb",
+        "sharding",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws rds create-db-instance-read-replica --db-instance-identifier mydb-read-replica --source-db-instance-identifier mydb",
+      "description": "Add a read replica in AWS RDS",
+      "scenario": "Add a read replica in AWS RDS",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "rds",
+        "read replica"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const redis = require('redis');\nconst client = redis.createClient();\n\nclient.on('error', (err) => {\n  console.log('Error ' + err);\n});",
+      "description": "Set up Redis caching in Node.js",
+      "scenario": "Set up Redis caching in Node.js",
+      "language": "javascript",
+      "tags": [
+        "redis",
+        "node.js",
+        "caching"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vcl 4.0;\nbackend default {\n    .host = \"127.0.0.1\";\n    .port = \"8080\";\n}\n\nsub vcl_recv {\n    if (req.url ~ \"^/static/\") {\n        return (hash);\n    }\n}",
+      "description": "Configure Varnish for caching",
+      "scenario": "Configure Varnish for caching",
+      "language": "text",
+      "tags": [
+        "varnish",
+        "caching",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import memcache\n\nmc = memcache.Client(['127.0.0.1:11211'], debug=0)\nmc.set('key', 'value')",
+      "description": "Set up Memcached in Python",
+      "scenario": "Set up Memcached in Python",
+      "language": "python",
+      "tags": [
+        "memcached",
+        "python",
+        "caching"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws autoscaling create-auto-scaling-group --auto-scaling-group-name my-asg --launch-configuration-name my-launch-config --min-size 1 --max-size 5 --desired-capacity 2 --vpc-zone-identifier subnet-12345678",
+      "description": "Create an AWS Auto Scaling group",
+      "scenario": "Create an AWS Auto Scaling group",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "auto scaling",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl autoscale deployment my-deployment --cpu-percent=50 --min=1 --max=10",
+      "description": "Enable auto scaling in Kubernetes",
+      "scenario": "Enable auto scaling in Kubernetes",
+      "language": "bash",
+      "tags": [
+        "kubernetes",
+        "auto scaling",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud compute instance-groups managed set-autoscaling my-group --max-num-replicas 10 --target-cpu-utilization 0.6",
+      "description": "Set up Google Cloud auto scaling",
+      "scenario": "Set up Google Cloud auto scaling",
+      "language": "bash",
+      "tags": [
+        "gcloud",
+        "auto scaling",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws cloudwatch put-metric-alarm --alarm-name HighCPUUtilization --metric-name CPUUtilization --namespace AWS/EC2 --statistic Average --period 300 --threshold 70 --comparison-operator GreaterThanOrEqualToThreshold --dimensions Name=InstanceId,Value=i-1234567890abcdef0 --evaluation-periods 2 --alarm-actions arn:aws:sns:us-east-1:123456789012:my-sns-topic",
+      "description": "Set up a CloudWatch alarm for CPU usage",
+      "scenario": "Set up a CloudWatch alarm for CPU usage",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "cloudwatch",
+        "monitoring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "global:\n  scrape_interval: 15s\n\nscrape_configs:\n  - job_name: 'prometheus'\n    static_configs:\n      - targets: ['localhost:9090']",
+      "description": "Install and configure Prometheus",
+      "scenario": "Install and configure Prometheus",
+      "language": "yaml",
+      "tags": [
+        "prometheus",
+        "monitoring",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d -p 3000:3000 --name=grafana grafana/grafana",
+      "description": "Set up Grafana dashboard for visualization",
+      "scenario": "Set up Grafana dashboard for visualization",
+      "language": "bash",
+      "tags": [
+        "grafana",
+        "visualization",
+        "docker"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

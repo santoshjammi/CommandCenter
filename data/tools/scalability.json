@@ -1,0 +1,204 @@
+{
+  "title": "Scalability Cheat Sheet",
+  "slug": "scalability",
+  "description": "Essential commands and patterns for scalable systems.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "docker run -d <image_name>",
+      "description": "Run a container in detached mode",
+      "scenario": "Run a container in detached mode",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "container",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List all running containers",
+      "scenario": "List all running containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "list",
+        "containers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker-compose scale <service_name>=3",
+      "description": "Scale a service to 3 instances",
+      "scenario": "Scale a service to 3 instances",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "scale",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl scale deployment <deployment_name> --replicas=5",
+      "description": "Scale a deployment to 5 replicas",
+      "scenario": "Scale a deployment to 5 replicas",
+      "language": "bash",
+      "tags": [
+        "kubernetes",
+        "scale",
+        "deployment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl get pods",
+      "description": "Get all pods in the default namespace",
+      "scenario": "Get all pods in the default namespace",
+      "language": "bash",
+      "tags": [
+        "kubernetes",
+        "pods",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl describe pod <pod_name>",
+      "description": "Describe a specific pod",
+      "scenario": "Describe a specific pod",
+      "language": "bash",
+      "tags": [
+        "kubernetes",
+        "describe",
+        "pod"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "upstream backend { server backend1.example.com; server backend2.example.com; } server { location / { proxy_pass http://backend; } }",
+      "description": "Configure Nginx as a load balancer",
+      "scenario": "Configure Nginx as a load balancer",
+      "language": "nginx",
+      "tags": [
+        "nginx",
+        "load balancing",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'show stat' | socat unix-connect:/var/run/haproxy.sock stdio",
+      "description": "Check HAProxy status",
+      "scenario": "Check HAProxy status",
+      "language": "bash",
+      "tags": [
+        "haproxy",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "haproxy -f /etc/haproxy/haproxy.cfg -p /var/run/haproxy.pid -sf $(cat /var/run/haproxy.pid)",
+      "description": "Reload HAProxy configuration without downtime",
+      "scenario": "Reload HAProxy configuration without downtime",
+      "language": "bash",
+      "tags": [
+        "haproxy",
+        "reload",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CHANGE MASTER TO MASTER_HOST='master_host', MASTER_USER='replica_user', MASTER_PASSWORD='password'; START SLAVE;",
+      "description": "Add a read replica in MySQL",
+      "scenario": "Add a read replica in MySQL",
+      "language": "sql",
+      "tags": [
+        "mysql",
+        "replica",
+        "scaling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sh.enableSharding(\"myDatabase\")",
+      "description": "Enable sharding in MongoDB",
+      "scenario": "Enable sharding in MongoDB",
+      "language": "javascript",
+      "tags": [
+        "mongodb",
+        "sharding",
+        "scaling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM pg_stat_replication;",
+      "description": "Check replication status in PostgreSQL",
+      "scenario": "Check replication status in PostgreSQL",
+      "language": "sql",
+      "tags": [
+        "postgresql",
+        "replication",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SET mykey \"myvalue\"",
+      "description": "Set a key-value pair in Redis",
+      "scenario": "Set a key-value pair in Redis",
+      "language": "bash",
+      "tags": [
+        "redis",
+        "set",
+        "cache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'flush_all' | nc localhost 11211",
+      "description": "Invalidate a specific cache in Memcached",
+      "scenario": "Invalidate a specific cache in Memcached",
+      "language": "bash",
+      "tags": [
+        "memcached",
+        "invalidate",
+        "cache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sub vcl_backend_response { set beresp.ttl = 1h; }",
+      "description": "Configure Varnish to cache for 1 hour",
+      "scenario": "Configure Varnish to cache for 1 hour",
+      "language": "varnish",
+      "tags": [
+        "varnish",
+        "cache",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

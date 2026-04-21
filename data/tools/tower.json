@@ -1,0 +1,204 @@
+{
+  "title": "Tower CLI Cheat Sheet",
+  "slug": "tower",
+  "description": "Essential commands and configurations for Tower CLI usage.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "tower-cli config",
+      "description": "Initialize Tower CLI configuration",
+      "scenario": "Initialize Tower CLI configuration",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "config",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli job_template list",
+      "description": "List all available job templates",
+      "scenario": "List all available job templates",
+      "language": "bash",
+      "tags": [
+        "list",
+        "job templates",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli job launch --job-template=<template_id>",
+      "description": "Launch a job template by ID",
+      "scenario": "Launch a job template by ID",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "job",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli config host <tower_url>",
+      "description": "Set the Tower server URL",
+      "scenario": "Set the Tower server URL",
+      "language": "bash",
+      "tags": [
+        "config",
+        "host",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli config username <your_username>",
+      "description": "Configure the Tower CLI to use a specific username",
+      "scenario": "Configure the Tower CLI to use a specific username",
+      "language": "bash",
+      "tags": [
+        "config",
+        "username",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli config password <your_password>",
+      "description": "Set the password for the Tower CLI",
+      "scenario": "Set the password for the Tower CLI",
+      "language": "bash",
+      "tags": [
+        "config",
+        "password",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli inventory list",
+      "description": "List all inventories",
+      "scenario": "List all inventories",
+      "language": "bash",
+      "tags": [
+        "inventory",
+        "list",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli inventory create --name=\"New Inventory\"",
+      "description": "Create a new inventory",
+      "scenario": "Create a new inventory",
+      "language": "bash",
+      "tags": [
+        "inventory",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli inventory delete --id=<inventory_id>",
+      "description": "Delete an inventory by ID",
+      "scenario": "Delete an inventory by ID",
+      "language": "bash",
+      "tags": [
+        "inventory",
+        "delete",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli project list",
+      "description": "List all projects",
+      "scenario": "List all projects",
+      "language": "bash",
+      "tags": [
+        "project",
+        "list",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli project create --name=\"New Project\" --organization=<org_id>",
+      "description": "Create a new project",
+      "scenario": "Create a new project",
+      "language": "bash",
+      "tags": [
+        "project",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli project update --id=<project_id>",
+      "description": "Update a project by ID",
+      "scenario": "Update a project by ID",
+      "language": "bash",
+      "tags": [
+        "project",
+        "update",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli user list",
+      "description": "List all users",
+      "scenario": "List all users",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli user create --username=\"newuser\" --password=\"password\"",
+      "description": "Create a new user",
+      "scenario": "Create a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tower-cli user delete --id=<user_id>",
+      "description": "Delete a user by ID",
+      "scenario": "Delete a user by ID",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

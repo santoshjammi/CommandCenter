@@ -1,0 +1,204 @@
+{
+  "title": "Arduino Programming Cheat Sheet",
+  "slug": "arduino-programming",
+  "description": "Quick reference for Arduino programming essentials",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "void setup() {\n  // initialization code\n}",
+      "description": "Define the setup function, runs once at startup",
+      "scenario": "Define the setup function, runs once at startup",
+      "language": "cpp",
+      "tags": [
+        "setup",
+        "initialization",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void loop() {\n  // main code\n}",
+      "description": "Define the loop function, runs repeatedly",
+      "scenario": "Define the loop function, runs repeatedly",
+      "language": "cpp",
+      "tags": [
+        "loop",
+        "main",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int ledPin = 13;",
+      "description": "Declare a variable to store an integer",
+      "scenario": "Declare a variable to store an integer",
+      "language": "cpp",
+      "tags": [
+        "variable",
+        "integer",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pinMode(13, OUTPUT);",
+      "description": "Set a pin as an output",
+      "scenario": "Set a pin as an output",
+      "language": "cpp",
+      "tags": [
+        "pinMode",
+        "output",
+        "digital"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "digitalWrite(13, HIGH);",
+      "description": "Turn on an LED connected to a pin",
+      "scenario": "Turn on an LED connected to a pin",
+      "language": "cpp",
+      "tags": [
+        "digitalWrite",
+        "LED",
+        "HIGH"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int buttonState = digitalRead(2);",
+      "description": "Read the state of a digital input pin",
+      "scenario": "Read the state of a digital input pin",
+      "language": "cpp",
+      "tags": [
+        "digitalRead",
+        "input",
+        "button"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int sensorValue = analogRead(A0);",
+      "description": "Read an analog value from a pin",
+      "scenario": "Read an analog value from a pin",
+      "language": "cpp",
+      "tags": [
+        "analogRead",
+        "sensor",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "analogWrite(9, 128);",
+      "description": "Write an analog value to a pin (PWM)",
+      "scenario": "Write an analog value to a pin (PWM)",
+      "language": "cpp",
+      "tags": [
+        "analogWrite",
+        "PWM",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int mappedValue = map(sensorValue, 0, 1023, 0, 255);",
+      "description": "Map a value from one range to another",
+      "scenario": "Map a value from one range to another",
+      "language": "cpp",
+      "tags": [
+        "map",
+        "range",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Serial.begin(9600);",
+      "description": "Initialize serial communication at 9600 baud",
+      "scenario": "Initialize serial communication at 9600 baud",
+      "language": "cpp",
+      "tags": [
+        "Serial",
+        "begin",
+        "communication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Serial.println(\"Hello, world!\");",
+      "description": "Send data over serial",
+      "scenario": "Send data over serial",
+      "language": "cpp",
+      "tags": [
+        "Serial",
+        "println",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (Serial.available() > 0) {\n  char data = Serial.read();\n}",
+      "description": "Read data from serial",
+      "scenario": "Read data from serial",
+      "language": "cpp",
+      "tags": [
+        "Serial",
+        "read",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#include <Wire.h>",
+      "description": "Include a library for additional functionality",
+      "scenario": "Include a library for additional functionality",
+      "language": "cpp",
+      "tags": [
+        "include",
+        "library",
+        "Wire"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Wire.begin();",
+      "description": "Initialize a library object",
+      "scenario": "Initialize a library object",
+      "language": "cpp",
+      "tags": [
+        "Wire",
+        "begin",
+        "library"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Wire.requestFrom(8, 6);",
+      "description": "Use a library function",
+      "scenario": "Use a library function",
+      "language": "cpp",
+      "tags": [
+        "Wire",
+        "requestFrom",
+        "I2C"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

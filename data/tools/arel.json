@@ -1,0 +1,204 @@
+{
+  "title": "Arel Cheat Sheet",
+  "slug": "arel",
+  "description": "Quick reference for Arel query syntax and patterns",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "users = Arel::Table.new(:users)\nusers.project(Arel.star)",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "ruby",
+      "tags": [
+        "select",
+        "query",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.project(users[:id], users[:name])",
+      "description": "Select specific columns from a table",
+      "scenario": "Select specific columns from a table",
+      "language": "ruby",
+      "tags": [
+        "select",
+        "columns",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.where(users[:name].eq('John'))",
+      "description": "Add a where clause to a query",
+      "scenario": "Add a where clause to a query",
+      "language": "ruby",
+      "tags": [
+        "where",
+        "filter",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.join(orders).on(users[:id].eq(orders[:user_id]))",
+      "description": "Perform an inner join between two tables",
+      "scenario": "Perform an inner join between two tables",
+      "language": "ruby",
+      "tags": [
+        "join",
+        "inner join",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.join(orders, Arel::Nodes::OuterJoin).on(users[:id].eq(orders[:user_id]))",
+      "description": "Perform a left outer join",
+      "scenario": "Perform a left outer join",
+      "language": "ruby",
+      "tags": [
+        "join",
+        "left join",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.join(orders).on(users[:id].eq(orders[:user_id]).and(orders[:status].eq('shipped')))",
+      "description": "Join with additional conditions",
+      "scenario": "Join with additional conditions",
+      "language": "ruby",
+      "tags": [
+        "join",
+        "conditions",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.order(users[:name].asc)",
+      "description": "Order results by a specific column",
+      "scenario": "Order results by a specific column",
+      "language": "ruby",
+      "tags": [
+        "order",
+        "sort",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.order(users[:name].asc, users[:created_at].desc)",
+      "description": "Order results by multiple columns",
+      "scenario": "Order results by multiple columns",
+      "language": "ruby",
+      "tags": [
+        "order",
+        "multiple",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.group(users[:role])",
+      "description": "Group results by a column",
+      "scenario": "Group results by a column",
+      "language": "ruby",
+      "tags": [
+        "group",
+        "aggregate",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.project(users[:id].count)",
+      "description": "Count the number of records",
+      "scenario": "Count the number of records",
+      "language": "ruby",
+      "tags": [
+        "count",
+        "aggregate",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.project(users[:age].average)",
+      "description": "Calculate the average of a column",
+      "scenario": "Calculate the average of a column",
+      "language": "ruby",
+      "tags": [
+        "average",
+        "aggregate",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.project(users[:salary].maximum)",
+      "description": "Find the maximum value of a column",
+      "scenario": "Find the maximum value of a column",
+      "language": "ruby",
+      "tags": [
+        "maximum",
+        "aggregate",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "subquery = orders.project(orders[:user_id]).where(orders[:total].gt(100))\nusers.where(users[:id].in(subquery))",
+      "description": "Use a subquery in a where clause",
+      "scenario": "Use a subquery in a where clause",
+      "language": "ruby",
+      "tags": [
+        "subquery",
+        "where",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.project(users[:name], Arel.sql('COUNT(*) OVER()').as('total_count'))",
+      "description": "Use SQL functions in a query",
+      "scenario": "Use SQL functions in a query",
+      "language": "ruby",
+      "tags": [
+        "functions",
+        "sql",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "users.where(users[:name].eq('John').or(users[:name].eq('Jane')))",
+      "description": "Combine multiple conditions with OR",
+      "scenario": "Combine multiple conditions with OR",
+      "language": "ruby",
+      "tags": [
+        "conditions",
+        "or",
+        "arel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

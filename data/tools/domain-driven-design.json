@@ -1,0 +1,204 @@
+{
+  "title": "Domain-Driven Design Cheat Sheet",
+  "slug": "domain-driven-design",
+  "description": "Key concepts and patterns in Domain-Driven Design for software engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "// Use terms that are understood by both developers and domain experts",
+      "description": "Define a shared language between developers and domain experts",
+      "scenario": "Define a shared language between developers and domain experts",
+      "language": "text",
+      "tags": [
+        "language",
+        "communication",
+        "shared"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Order {\n  // Represents a customer's purchase order\n}",
+      "description": "Ensure consistent terminology in code and documentation",
+      "scenario": "Ensure consistent terminology in code and documentation",
+      "language": "javascript",
+      "tags": [
+        "terminology",
+        "consistency",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Rename 'User' to 'Customer' to better reflect the domain",
+      "description": "Refactor code to align with domain terms",
+      "scenario": "Refactor code to align with domain terms",
+      "language": "text",
+      "tags": [
+        "refactor",
+        "alignment",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Define a Bounded Context for the Sales domain",
+      "description": "Define boundaries within which a particular model is applicable",
+      "scenario": "Define boundaries within which a particular model is applicable",
+      "language": "text",
+      "tags": [
+        "boundary",
+        "context",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Use different namespaces or modules for different contexts",
+      "description": "Ensure clear separation between different contexts",
+      "scenario": "Ensure clear separation between different contexts",
+      "language": "text",
+      "tags": [
+        "separation",
+        "context",
+        "namespace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Create a context map to show relationships between contexts",
+      "description": "Integrate between bounded contexts using context maps",
+      "scenario": "Integrate between bounded contexts using context maps",
+      "language": "text",
+      "tags": [
+        "integration",
+        "context",
+        "map"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Product {\n  constructor(id, name) {\n    this.id = id;\n    this.name = name;\n  }\n}",
+      "description": "Define an entity with a unique identity",
+      "scenario": "Define an entity with a unique identity",
+      "language": "javascript",
+      "tags": [
+        "entity",
+        "identity",
+        "unique"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Money {\n  constructor(amount, currency) {\n    this.amount = amount;\n    this.currency = currency;\n  }\n}",
+      "description": "Define a value object that represents a descriptive aspect",
+      "scenario": "Define a value object that represents a descriptive aspect",
+      "language": "javascript",
+      "tags": [
+        "value object",
+        "descriptive",
+        "aspect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Use a UUID for unique identification of entities",
+      "description": "Ensure entities have a unique identifier",
+      "scenario": "Ensure entities have a unique identifier",
+      "language": "text",
+      "tags": [
+        "identifier",
+        "unique",
+        "entity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Order {\n  constructor(orderId, items) {\n    this.orderId = orderId;\n    this.items = items; // Items are part of the Order aggregate\n  }\n}",
+      "description": "Define an aggregate root that controls access to its children",
+      "scenario": "Define an aggregate root that controls access to its children",
+      "language": "javascript",
+      "tags": [
+        "aggregate",
+        "root",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Ensure all operations on Order go through the Order aggregate root",
+      "description": "Ensure aggregate boundaries are consistent",
+      "scenario": "Ensure aggregate boundaries are consistent",
+      "language": "text",
+      "tags": [
+        "boundary",
+        "consistency",
+        "aggregate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Use methods on the aggregate root to enforce business rules",
+      "description": "Design aggregates to enforce invariants",
+      "scenario": "Design aggregates to enforce invariants",
+      "language": "text",
+      "tags": [
+        "invariant",
+        "enforcement",
+        "aggregate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class OrderRepository {\n  findById(orderId) {\n    // Fetch order by ID\n  }\n}",
+      "description": "Define a repository for accessing aggregates",
+      "scenario": "Define a repository for accessing aggregates",
+      "language": "javascript",
+      "tags": [
+        "repository",
+        "access",
+        "aggregate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OrderRepository.prototype.save = function(order) {\n  // Save order to database\n}",
+      "description": "Implement repository methods for CRUD operations",
+      "scenario": "Implement repository methods for CRUD operations",
+      "language": "javascript",
+      "tags": [
+        "repository",
+        "CRUD",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Repositories should return full aggregate instances",
+      "description": "Ensure repositories return aggregates",
+      "scenario": "Ensure repositories return aggregates",
+      "language": "text",
+      "tags": [
+        "repository",
+        "return",
+        "aggregate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

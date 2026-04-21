@@ -1,0 +1,204 @@
+{
+  "title": "Rails Cheat Sheet",
+  "slug": "rails",
+  "description": "Quick reference for common Rails commands and patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "rails new myapp",
+      "description": "Create a new Rails application",
+      "scenario": "Create a new Rails application",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "cli",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails server",
+      "description": "Start the Rails server",
+      "scenario": "Start the Rails server",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "server",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate model ModelName",
+      "description": "Generate a new model",
+      "scenario": "Generate a new model",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "generate",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate migration MigrationName",
+      "description": "Create a new migration file",
+      "scenario": "Create a new migration file",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "migration",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails db:migrate",
+      "description": "Run pending migrations",
+      "scenario": "Run pending migrations",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "database",
+        "migrate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails db:rollback",
+      "description": "Rollback the last migration",
+      "scenario": "Rollback the last migration",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "database",
+        "rollback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "root 'controller#action'",
+      "description": "Define a root route",
+      "scenario": "Define a root route",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "routes",
+        "root"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "resources :model_name",
+      "description": "Create a resource route",
+      "scenario": "Create a resource route",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "routes",
+        "resources"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "get 'path', to: 'controller#action', as: 'name'",
+      "description": "Define a named route",
+      "scenario": "Define a named route",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "routes",
+        "named"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= render 'partial_name' %>",
+      "description": "Render a partial",
+      "scenario": "Render a partial",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "views",
+        "partial"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "before_action :method_name",
+      "description": "Use a before action filter",
+      "scenario": "Use a before action filter",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "controller",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "validates :attribute, presence: true",
+      "description": "Define a model validation",
+      "scenario": "Define a model validation",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "model",
+        "validation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ENV['VARIABLE_NAME'] = 'value'",
+      "description": "Set environment variables",
+      "scenario": "Set environment variables",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "environment",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config/environments/development.rb",
+      "description": "Load environment-specific settings",
+      "scenario": "Load environment-specific settings",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "configuration",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config/database.yml",
+      "description": "Configure database settings",
+      "scenario": "Configure database settings",
+      "language": "yaml",
+      "tags": [
+        "rails",
+        "database",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

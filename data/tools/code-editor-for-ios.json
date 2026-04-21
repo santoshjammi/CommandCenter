@@ -1,0 +1,204 @@
+{
+  "title": "Code Editor for iOS",
+  "slug": "code-editor-for-ios",
+  "description": "Essential shortcuts and commands for coding on iOS.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Cmd + S",
+      "description": "Save the current file",
+      "scenario": "Save the current file",
+      "language": "text",
+      "tags": [
+        "save",
+        "shortcut",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + P",
+      "description": "Open file search",
+      "scenario": "Open file search",
+      "language": "text",
+      "tags": [
+        "search",
+        "file",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + B",
+      "description": "Toggle sidebar visibility",
+      "scenario": "Toggle sidebar visibility",
+      "language": "text",
+      "tags": [
+        "sidebar",
+        "toggle",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Click",
+      "description": "Go to definition of a function or variable",
+      "scenario": "Go to definition of a function or variable",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "definition",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Shift + O",
+      "description": "Open symbol search",
+      "scenario": "Open symbol search",
+      "language": "text",
+      "tags": [
+        "symbol",
+        "search",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + -",
+      "description": "Navigate to the previous location",
+      "scenario": "Navigate to the previous location",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "history",
+        "back"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Shift + D",
+      "description": "Duplicate the current line",
+      "scenario": "Duplicate the current line",
+      "language": "text",
+      "tags": [
+        "edit",
+        "duplicate",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + /",
+      "description": "Comment or uncomment the selected lines",
+      "scenario": "Comment or uncomment the selected lines",
+      "language": "text",
+      "tags": [
+        "comment",
+        "uncomment",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Option + Up/Down Arrow",
+      "description": "Move line up or down",
+      "scenario": "Move line up or down",
+      "language": "text",
+      "tags": [
+        "edit",
+        "move",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd <directory>",
+      "description": "Change directory",
+      "scenario": "Change directory",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mkdir <directory-name>",
+      "description": "Create a new directory",
+      "scenario": "Create a new directory",
+      "language": "bash",
+      "tags": [
+        "create",
+        "directory",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE html>\\n<html>\\n<head>\\n<title>Page Title</title>\\n</head>\\n<body>\\n\\n<h1>This is a Heading</h1>\\n<p>This is a paragraph.</p>\\n\\n</body>\\n</html>",
+      "description": "Set up a basic HTML file structure",
+      "scenario": "Set up a basic HTML file structure",
+      "language": "html",
+      "tags": [
+        "html",
+        "structure",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm init -y",
+      "description": "Initialize a new Node.js project",
+      "scenario": "Initialize a new Node.js project",
+      "language": "bash",
+      "tags": [
+        "nodejs",
+        "npm",
+        "initialize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print('Hello, World!')",
+      "description": "Basic Python script to print 'Hello, World!'",
+      "scenario": "Basic Python script to print 'Hello, World!'",
+      "language": "python",
+      "tags": [
+        "python",
+        "script",
+        "hello"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

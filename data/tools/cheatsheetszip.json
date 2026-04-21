@@ -1,0 +1,165 @@
+{
+  "title": "Cheatsheets.zip CLI Commands",
+  "slug": "cheatsheetszip",
+  "description": "Essential CLI commands for managing zip files efficiently.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "zip -r archive.zip /path/to/directory",
+      "description": "Create a zip archive from a directory",
+      "scenario": "Create a zip archive from a directory",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "archive",
+        "compress"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unzip -l archive.zip",
+      "description": "List contents of a zip file",
+      "scenario": "List contents of a zip file",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "list",
+        "contents"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unzip archive.zip -d /path/to/destination",
+      "description": "Extract a zip file to a specific directory",
+      "scenario": "Extract a zip file to a specific directory",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "extract",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zip -u archive.zip file1.txt file2.txt",
+      "description": "Add files to an existing zip archive",
+      "scenario": "Add files to an existing zip archive",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "update",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zip -d archive.zip file1.txt",
+      "description": "Remove a file from a zip archive",
+      "scenario": "Remove a file from a zip archive",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "delete",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zip -e archive.zip file1.txt",
+      "description": "Encrypt a zip file with a password",
+      "scenario": "Encrypt a zip file with a password",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "encrypt",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zipinfo archive.zip",
+      "description": "Display detailed information about a zip file",
+      "scenario": "Display detailed information about a zip file",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "info",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unzip -t archive.zip",
+      "description": "Check the integrity of a zip file",
+      "scenario": "Check the integrity of a zip file",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "test",
+        "integrity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zip -v archive.zip",
+      "description": "Show the compression ratio of files in a zip archive",
+      "scenario": "Show the compression ratio of files in a zip archive",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "compression",
+        "ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zip -9 archive.zip file1.txt",
+      "description": "Create a zip file with maximum compression",
+      "scenario": "Create a zip file with maximum compression",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "compression",
+        "maximum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zip -0 archive.zip file1.txt",
+      "description": "Create a zip file with no compression",
+      "scenario": "Create a zip file with no compression",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "compression",
+        "none"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zip -1 archive.zip file1.txt",
+      "description": "Create a zip file with fast compression",
+      "scenario": "Create a zip file with fast compression",
+      "language": "bash",
+      "tags": [
+        "zip",
+        "compression",
+        "fast"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

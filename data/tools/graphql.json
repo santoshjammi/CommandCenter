@@ -1,0 +1,204 @@
+{
+  "title": "GraphQL Cheat Sheet",
+  "slug": "graphql",
+  "description": "Quick reference for GraphQL syntax and commands",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "query {\n  users {\n    name\n    email\n  }\n}",
+      "description": "Fetch a list of users with their names and emails",
+      "scenario": "Fetch a list of users with their names and emails",
+      "language": "graphql",
+      "tags": [
+        "query",
+        "users",
+        "fetch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query getUser($id: ID!) {\n  user(id: $id) {\n    name\n    email\n  }\n}",
+      "description": "Get a specific user by ID with name and email",
+      "scenario": "Get a specific user by ID with name and email",
+      "language": "graphql",
+      "tags": [
+        "query",
+        "user",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query {\n  posts {\n    title\n    author {\n      name\n    }\n  }\n}",
+      "description": "Fetch posts with their titles and authors",
+      "scenario": "Fetch posts with their titles and authors",
+      "language": "graphql",
+      "tags": [
+        "query",
+        "posts",
+        "author"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mutation {\n  createUser(name: \"John Doe\", email: \"john@example.com\") {\n    id\n    name\n    email\n  }\n}",
+      "description": "Create a new user with name and email",
+      "scenario": "Create a new user with name and email",
+      "language": "graphql",
+      "tags": [
+        "mutation",
+        "create",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mutation updateUserEmail($id: ID!, $email: String!) {\n  updateUser(id: $id, email: $email) {\n    id\n    email\n  }\n}",
+      "description": "Update a user's email by ID",
+      "scenario": "Update a user's email by ID",
+      "language": "graphql",
+      "tags": [
+        "mutation",
+        "update",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mutation deleteUser($id: ID!) {\n  deleteUser(id: $id) {\n    id\n  }\n}",
+      "description": "Delete a user by ID",
+      "scenario": "Delete a user by ID",
+      "language": "graphql",
+      "tags": [
+        "mutation",
+        "delete",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fragment userFields on User {\n  id\n  name\n  email\n}",
+      "description": "Define a fragment for user fields",
+      "scenario": "Define a fragment for user fields",
+      "language": "graphql",
+      "tags": [
+        "fragment",
+        "user",
+        "fields"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query {\n  users {\n    ...userFields\n  }\n}",
+      "description": "Use a fragment in a query",
+      "scenario": "Use a fragment in a query",
+      "language": "graphql",
+      "tags": [
+        "query",
+        "fragment",
+        "reuse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query {\n  posts {\n    title\n    author {\n      ...userFields\n    }\n  }\n}",
+      "description": "Combine fragments for complex queries",
+      "scenario": "Combine fragments for complex queries",
+      "language": "graphql",
+      "tags": [
+        "query",
+        "fragment",
+        "complex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query getUser($id: ID!) {\n  user(id: $id) {\n    name\n    email\n  }\n}",
+      "description": "Use variables in a query",
+      "scenario": "Use variables in a query",
+      "language": "graphql",
+      "tags": [
+        "variables",
+        "query",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mutation createUser($name: String!, $email: String!) {\n  createUser(name: $name, email: $email) {\n    id\n  }\n}",
+      "description": "Pass variables in a mutation",
+      "scenario": "Pass variables in a mutation",
+      "language": "graphql",
+      "tags": [
+        "variables",
+        "mutation",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query getUser($id: ID! = \"1\") {\n  user(id: $id) {\n    name\n  }\n}",
+      "description": "Declare variables in a query with default values",
+      "scenario": "Declare variables in a query with default values",
+      "language": "graphql",
+      "tags": [
+        "variables",
+        "default",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query getUser($withEmail: Boolean!) {\n  user(id: \"1\") {\n    name\n    email @include(if: $withEmail)\n  }\n}",
+      "description": "Use @include directive to conditionally include fields",
+      "scenario": "Use @include directive to conditionally include fields",
+      "language": "graphql",
+      "tags": [
+        "directive",
+        "include",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "query getUser($skipEmail: Boolean!) {\n  user(id: \"1\") {\n    name\n    email @skip(if: $skipEmail)\n  }\n}",
+      "description": "Use @skip directive to conditionally skip fields",
+      "scenario": "Use @skip directive to conditionally skip fields",
+      "language": "graphql",
+      "tags": [
+        "directive",
+        "skip",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "directive @auth on FIELD_DEFINITION\n\nquery {\n  user(id: \"1\") {\n    name\n    email @auth\n  }\n}",
+      "description": "Use custom directives for additional functionality",
+      "scenario": "Use custom directives for additional functionality",
+      "language": "graphql",
+      "tags": [
+        "directive",
+        "custom",
+        "auth"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

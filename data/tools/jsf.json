@@ -1,0 +1,204 @@
+{
+  "title": "JavaServer Faces (JSF) Cheat Sheet",
+  "slug": "jsf",
+  "description": "Quick reference for JavaServer Faces (JSF) development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp",
+      "description": "Start a new JSF project using Maven",
+      "scenario": "Start a new JSF project using Maven",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "jsf",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn jetty:run",
+      "description": "Run the JSF application on a local server",
+      "scenario": "Run the JSF application on a local server",
+      "language": "bash",
+      "tags": [
+        "jetty",
+        "server",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn clean install",
+      "description": "Clean and build the JSF project",
+      "scenario": "Clean and build the JSF project",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "build",
+        "clean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<managed-bean>\n  <managed-bean-name>myBean</managed-bean-name>\n  <managed-bean-class>com.example.MyBean</managed-bean-class>\n  <managed-bean-scope>session</managed-bean-scope>\n</managed-bean>",
+      "description": "Define a JSF managed bean in faces-config.xml",
+      "scenario": "Define a JSF managed bean in faces-config.xml",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "configuration",
+        "bean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<navigation-rule>\n  <from-view-id>/login.xhtml</from-view-id>\n  <navigation-case>\n    <from-outcome>success</from-outcome>\n    <to-view-id>/home.xhtml</to-view-id>\n  </navigation-case>\n</navigation-rule>",
+      "description": "Configure a navigation rule in faces-config.xml",
+      "scenario": "Configure a navigation rule in faces-config.xml",
+      "language": "xml",
+      "tags": [
+        "navigation",
+        "jsf",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<context-param>\n  <param-name>javax.faces.PROJECT_STAGE</param-name>\n  <param-value>Development</param-value>\n</context-param>",
+      "description": "Set JSF project stage to development",
+      "scenario": "Set JSF project stage to development",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "configuration",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h:form>\n  <h:inputText value=\"#{myBean.name}\" />\n  <h:commandButton value=\"Submit\" action=\"#{myBean.submit}\" />\n</h:form>",
+      "description": "Create a simple JSF page with a form",
+      "scenario": "Create a simple JSF page with a form",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "form",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@ManagedBean\n@SessionScoped\npublic class MyBean implements Serializable {\n  private String name;\n\n  public String getName() {\n    return name;\n  }\n\n  public void setName(String name) {\n    this.name = name;\n  }\n\n  public String submit() {\n    // Action logic\n    return \"success\";\n  }\n}",
+      "description": "Define a JSF managed bean with a property",
+      "scenario": "Define a JSF managed bean with a property",
+      "language": "java",
+      "tags": [
+        "bean",
+        "java",
+        "jsf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h:dataTable value=\"#{myBean.items}\" var=\"item\">\n  <h:column>\n    <f:facet name=\"header\">Name</f:facet>\n    #{item.name}\n  </h:column>\n</h:dataTable>",
+      "description": "Use a JSF data table to display a list",
+      "scenario": "Use a JSF data table to display a list",
+      "language": "xml",
+      "tags": [
+        "datatable",
+        "jsf",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public String submit() {\n  // Action logic\n  return \"success?faces-redirect=true\";\n}",
+      "description": "Redirect after a JSF action",
+      "scenario": "Redirect after a JSF action",
+      "language": "java",
+      "tags": [
+        "redirect",
+        "action",
+        "jsf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FacesContext context = FacesContext.getCurrentInstance();\nMyBean myBean = context.getApplication().evaluateExpressionGet(context, \"#{myBean}\", MyBean.class);",
+      "description": "Access a managed bean from another bean",
+      "scenario": "Access a managed bean from another bean",
+      "language": "java",
+      "tags": [
+        "bean",
+        "access",
+        "jsf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(\"Operation successful\"));",
+      "description": "Add a message to the JSF context",
+      "scenario": "Add a message to the JSF context",
+      "language": "java",
+      "tags": [
+        "message",
+        "context",
+        "jsf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install -g jsf-cli",
+      "description": "Install JSF CLI tool using npm",
+      "scenario": "Install JSF CLI tool using npm",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "install",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jsf-cli generate component myComponent",
+      "description": "Generate a JSF component using CLI",
+      "scenario": "Generate a JSF component using CLI",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "component",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jsf-cli create service myService",
+      "description": "Create a new JSF service using CLI",
+      "scenario": "Create a new JSF service using CLI",
+      "language": "bash",
+      "tags": [
+        "create",
+        "service",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

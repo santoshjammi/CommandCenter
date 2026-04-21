@@ -1,0 +1,204 @@
+{
+  "title": "CHICKEN Scheme Cheat Sheet",
+  "slug": "chicken",
+  "description": "Quick reference for CHICKEN Scheme commands and syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(define x 10)",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "scheme",
+      "tags": [
+        "define",
+        "variable",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(define (square x) (* x x))",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "scheme",
+      "tags": [
+        "define",
+        "function",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if (> x 5) 'yes 'no)",
+      "description": "Conditional expression",
+      "scenario": "Conditional expression",
+      "language": "scheme",
+      "tags": [
+        "conditional",
+        "if",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(list 1 2 3 4)",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "scheme",
+      "tags": [
+        "list",
+        "create",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(car '(1 2 3 4))",
+      "description": "Get the first element of a list",
+      "scenario": "Get the first element of a list",
+      "language": "scheme",
+      "tags": [
+        "list",
+        "car",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(cdr '(1 2 3 4))",
+      "description": "Get the rest of the list",
+      "scenario": "Get the rest of the list",
+      "language": "scheme",
+      "tags": [
+        "list",
+        "cdr",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(open-input-file \"example.txt\")",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "scheme",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(open-output-file \"example.txt\")",
+      "description": "Open a file for writing",
+      "scenario": "Open a file for writing",
+      "language": "scheme",
+      "tags": [
+        "file",
+        "open",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(close-input-port port)",
+      "description": "Close a file",
+      "scenario": "Close a file",
+      "language": "scheme",
+      "tags": [
+        "file",
+        "close",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(do ((i 0 (+ i 1))) ((= i 10)) (display i))",
+      "description": "Simple loop using 'do'",
+      "scenario": "Simple loop using 'do'",
+      "language": "scheme",
+      "tags": [
+        "loop",
+        "do",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(for-each (lambda (x) (display x)) '(1 2 3 4))",
+      "description": "Loop over a list using 'for-each'",
+      "scenario": "Loop over a list using 'for-each'",
+      "language": "scheme",
+      "tags": [
+        "loop",
+        "list",
+        "for-each"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(let loop ((i 0)) (if (< i 10) (begin (display i) (loop (+ i 1)))))",
+      "description": "Named let for looping",
+      "scenario": "Named let for looping",
+      "language": "scheme",
+      "tags": [
+        "loop",
+        "let",
+        "recursion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(error \"An error occurred\")",
+      "description": "Raise an error",
+      "scenario": "Raise an error",
+      "language": "scheme",
+      "tags": [
+        "error",
+        "raise",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(condition-case err (error \"Oops\") ((exn) (display \"Caught an error\")))",
+      "description": "Catch an error with 'condition-case'",
+      "scenario": "Catch an error with 'condition-case'",
+      "language": "scheme",
+      "tags": [
+        "error",
+        "catch",
+        "condition-case"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(guard (e ((exn) (display \"Error caught\"))) (error \"Oops\"))",
+      "description": "Use 'guard' for error handling",
+      "scenario": "Use 'guard' for error handling",
+      "language": "scheme",
+      "tags": [
+        "error",
+        "guard",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

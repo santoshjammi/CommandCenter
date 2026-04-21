@@ -1,0 +1,204 @@
+{
+  "title": "Apache Cordova Cheat Sheet",
+  "slug": "apache-cordova",
+  "description": "Quick reference for Apache Cordova CLI commands and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "cordova create MyApp",
+      "description": "Create a new Cordova project",
+      "scenario": "Create a new Cordova project",
+      "language": "bash",
+      "tags": [
+        "create",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cordova platform add android",
+      "description": "Add a platform to a Cordova project",
+      "scenario": "Add a platform to a Cordova project",
+      "language": "bash",
+      "tags": [
+        "platform",
+        "add",
+        "android"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cordova build ios",
+      "description": "Build the Cordova project for a specific platform",
+      "scenario": "Build the Cordova project for a specific platform",
+      "language": "bash",
+      "tags": [
+        "build",
+        "ios",
+        "platform"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cordova plugin add cordova-plugin-camera",
+      "description": "Add a plugin to the Cordova project",
+      "scenario": "Add a plugin to the Cordova project",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "add",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cordova plugin remove cordova-plugin-camera",
+      "description": "Remove a plugin from the Cordova project",
+      "scenario": "Remove a plugin from the Cordova project",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "remove",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cordova plugin ls",
+      "description": "List all installed plugins in the Cordova project",
+      "scenario": "List all installed plugins in the Cordova project",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "list",
+        "installed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<widget version=\"1.0.1\" xmlns=\"http://www.w3.org/ns/widgets\">",
+      "description": "Set the app version in config.xml",
+      "scenario": "Set the app version in config.xml",
+      "language": "xml",
+      "tags": [
+        "config",
+        "version",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<name>MyApp</name>",
+      "description": "Specify the app name in config.xml",
+      "scenario": "Specify the app name in config.xml",
+      "language": "xml",
+      "tags": [
+        "config",
+        "name",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<content src=\"index.html\" />",
+      "description": "Define the app's main entry point in config.xml",
+      "scenario": "Define the app's main entry point in config.xml",
+      "language": "xml",
+      "tags": [
+        "config",
+        "entry",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.addEventListener('deviceready', function() { console.log('Device is ready!'); }, false);",
+      "description": "Handle the 'deviceready' event in JavaScript",
+      "scenario": "Handle the 'deviceready' event in JavaScript",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "deviceready",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var deviceInfo = device.model;",
+      "description": "Access device information using Cordova",
+      "scenario": "Access device information using Cordova",
+      "language": "javascript",
+      "tags": [
+        "device",
+        "information",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.DATA_URL });",
+      "description": "Use Cordova to capture a photo",
+      "scenario": "Use Cordova to capture a photo",
+      "language": "javascript",
+      "tags": [
+        "camera",
+        "capture",
+        "photo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cordova run android --verbose",
+      "description": "Enable verbose logging for Cordova commands",
+      "scenario": "Enable verbose logging for Cordova commands",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "verbose",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chrome://inspect/#devices",
+      "description": "Use Chrome DevTools for debugging Cordova apps",
+      "scenario": "Use Chrome DevTools for debugging Cordova apps",
+      "language": "text",
+      "tags": [
+        "debug",
+        "chrome",
+        "devtools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cordova run browser",
+      "description": "Run Cordova app in a browser for quick testing",
+      "scenario": "Run Cordova app in a browser for quick testing",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "browser",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Redis Cheat Sheet",
+  "slug": "redis",
+  "description": "Essential Redis commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "redis-cli -h <host> -p <port>",
+      "description": "Connect to a Redis server instance",
+      "scenario": "Connect to a Redis server instance",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "cli",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SET mykey \"Hello, Redis!\"",
+      "description": "Set a key-value pair in Redis",
+      "scenario": "Set a key-value pair in Redis",
+      "language": "bash",
+      "tags": [
+        "set",
+        "key-value",
+        "store"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET mykey",
+      "description": "Get the value of a key from Redis",
+      "scenario": "Get the value of a key from Redis",
+      "language": "bash",
+      "tags": [
+        "get",
+        "key-value",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LPUSH mylist \"value\"",
+      "description": "Add a value to a Redis list",
+      "scenario": "Add a value to a Redis list",
+      "language": "bash",
+      "tags": [
+        "list",
+        "data type",
+        "push"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SADD myset \"member\"",
+      "description": "Add a member to a Redis set",
+      "scenario": "Add a member to a Redis set",
+      "language": "bash",
+      "tags": [
+        "set",
+        "data type",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INCR mycounter",
+      "description": "Increment a Redis key's integer value",
+      "scenario": "Increment a Redis key's integer value",
+      "language": "bash",
+      "tags": [
+        "integer",
+        "increment",
+        "counter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "requirepass yourpassword",
+      "description": "Configure Redis to require a password",
+      "scenario": "Configure Redis to require a password",
+      "language": "text",
+      "tags": [
+        "security",
+        "password",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "maxmemory 256mb",
+      "description": "Set the maximum memory usage for Redis",
+      "scenario": "Set the maximum memory usage for Redis",
+      "language": "text",
+      "tags": [
+        "memory",
+        "config",
+        "limit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "save 60 10000",
+      "description": "Enable Redis persistence with RDB snapshots",
+      "scenario": "Enable Redis persistence with RDB snapshots",
+      "language": "text",
+      "tags": [
+        "persistence",
+        "snapshot",
+        "rdb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MONITOR",
+      "description": "Monitor real-time Redis commands",
+      "scenario": "Monitor real-time Redis commands",
+      "language": "bash",
+      "tags": [
+        "monitor",
+        "real-time",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INFO",
+      "description": "Get information and statistics about the server",
+      "scenario": "Get information and statistics about the server",
+      "language": "bash",
+      "tags": [
+        "info",
+        "stats",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FLUSHDB",
+      "description": "Flush all data from the current database",
+      "scenario": "Flush all data from the current database",
+      "language": "bash",
+      "tags": [
+        "flush",
+        "database",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tail -f /var/log/redis/redis-server.log",
+      "description": "Check Redis server logs for errors",
+      "scenario": "Check Redis server logs for errors",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "errors",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "redis-cli --latency",
+      "description": "Test Redis server latency",
+      "scenario": "Test Redis server latency",
+      "language": "bash",
+      "tags": [
+        "latency",
+        "test",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "redis-cli INFO memory",
+      "description": "Check Redis memory usage",
+      "scenario": "Check Redis memory usage",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "usage",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

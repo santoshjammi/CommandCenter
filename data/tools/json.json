@@ -1,0 +1,165 @@
+{
+  "title": "JSON Cheat Sheet",
+  "slug": "json",
+  "description": "Essential JSON syntax and tools for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "{\"name\": \"John\", \"age\": \"30\"}",
+      "description": "Define a simple JSON object with string values",
+      "scenario": "Define a simple JSON object with string values",
+      "language": "json",
+      "tags": [
+        "json",
+        "object",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[1, 2, 3, 4, 5]",
+      "description": "Define a JSON array of numbers",
+      "scenario": "Define a JSON array of numbers",
+      "language": "json",
+      "tags": [
+        "json",
+        "array",
+        "numbers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"person\": {\"name\": \"John\", \"age\": 30}}",
+      "description": "Create a nested JSON object",
+      "scenario": "Create a nested JSON object",
+      "language": "json",
+      "tags": [
+        "json",
+        "nested",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "JSON.parse('{\"name\":\"John\", \"age\":30}')",
+      "description": "Parse a JSON string into a JavaScript object",
+      "scenario": "Parse a JSON string into a JavaScript object",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "json",
+        "parse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "JSON.stringify({name: \"John\", age: 30})",
+      "description": "Stringify a JavaScript object into a JSON string",
+      "scenario": "Stringify a JavaScript object into a JSON string",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "json",
+        "stringify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { JSON.parse('{\"name\":\"John\"}') } catch (e) { console.error(e) }",
+      "description": "Handle JSON parsing errors with try-catch",
+      "scenario": "Handle JSON parsing errors with try-catch",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "json",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo '{\"name\":\"John\",\"age\":30}' | jq '.'",
+      "description": "Pretty print JSON using jq",
+      "scenario": "Pretty print JSON using jq",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "json",
+        "jq"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jq empty file.json",
+      "description": "Validate JSON file syntax",
+      "scenario": "Validate JSON file syntax",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "json",
+        "validate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo '{\"name\":\"John\",\"age\":30}' | jq '.name'",
+      "description": "Extract a value from JSON using jq",
+      "scenario": "Extract a value from JSON using jq",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "json",
+        "jq"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"host\": \"localhost\", \"port\": 8080}",
+      "description": "Use JSON for configuration files",
+      "scenario": "Use JSON for configuration files",
+      "language": "json",
+      "tags": [
+        "json",
+        "config",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[{\"id\": 1, \"name\": \"John\"}, {\"id\": 2, \"name\": \"Jane\"}]",
+      "description": "Represent a list of objects in JSON",
+      "scenario": "Represent a list of objects in JSON",
+      "language": "json",
+      "tags": [
+        "json",
+        "list",
+        "objects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"isActive\": true, \"isAdmin\": false}",
+      "description": "Include boolean values in JSON",
+      "scenario": "Include boolean values in JSON",
+      "language": "json",
+      "tags": [
+        "json",
+        "boolean",
+        "values"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

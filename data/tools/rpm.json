@@ -1,0 +1,204 @@
+{
+  "title": "RPM Command Cheat Sheet",
+  "slug": "rpm",
+  "description": "Quick reference for RPM package management commands.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "rpm -qa",
+      "description": "List all installed packages",
+      "scenario": "List all installed packages",
+      "language": "bash",
+      "tags": [
+        "query",
+        "list",
+        "installed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -qi package-name",
+      "description": "Get information about a specific package",
+      "scenario": "Get information about a specific package",
+      "language": "bash",
+      "tags": [
+        "query",
+        "info",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -ql package-name",
+      "description": "List files installed by a package",
+      "scenario": "List files installed by a package",
+      "language": "bash",
+      "tags": [
+        "query",
+        "list",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -ivh package-file.rpm",
+      "description": "Install a package from a file",
+      "scenario": "Install a package from a file",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -Uvh package-file.rpm",
+      "description": "Upgrade an installed package",
+      "scenario": "Upgrade an installed package",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "package",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -ivh --nodeps package-file.rpm",
+      "description": "Install a package without dependencies",
+      "scenario": "Install a package without dependencies",
+      "language": "bash",
+      "tags": [
+        "install",
+        "nodeps",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -e package-name",
+      "description": "Remove a package",
+      "scenario": "Remove a package",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "uninstall",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -e --nodeps package-name",
+      "description": "Remove a package without checking dependencies",
+      "scenario": "Remove a package without checking dependencies",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "nodeps",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -e --force package-name",
+      "description": "Forcefully remove a package",
+      "scenario": "Forcefully remove a package",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "force",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -Va",
+      "description": "Verify all installed packages",
+      "scenario": "Verify all installed packages",
+      "language": "bash",
+      "tags": [
+        "verify",
+        "all",
+        "installed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -V package-name",
+      "description": "Verify a specific package",
+      "scenario": "Verify a specific package",
+      "language": "bash",
+      "tags": [
+        "verify",
+        "specific",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm -Vp package-file.rpm",
+      "description": "Verify package files against the RPM database",
+      "scenario": "Verify package files against the RPM database",
+      "language": "bash",
+      "tags": [
+        "verify",
+        "package",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rpm --rebuilddb",
+      "description": "Rebuild the RPM database",
+      "scenario": "Rebuild the RPM database",
+      "language": "bash",
+      "tags": [
+        "database",
+        "rebuild",
+        "rpm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp -a /var/lib/rpm /var/lib/rpm.backup",
+      "description": "Backup the RPM database",
+      "scenario": "Backup the RPM database",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "database",
+        "rpm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp -a /var/lib/rpm.backup /var/lib/rpm",
+      "description": "Restore the RPM database from backup",
+      "scenario": "Restore the RPM database from backup",
+      "language": "bash",
+      "tags": [
+        "restore",
+        "database",
+        "backup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "HTML Cheat Sheet",
+  "slug": "html",
+  "description": "Essential HTML tags and attributes for web development.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<!DOCTYPE html>",
+      "description": "Defines the document type and version of HTML",
+      "scenario": "Defines the document type and version of HTML",
+      "language": "html",
+      "tags": [
+        "doctype",
+        "html5",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<html lang=\"en\"></html>",
+      "description": "Root element of an HTML document",
+      "scenario": "Root element of an HTML document",
+      "language": "html",
+      "tags": [
+        "html",
+        "root",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<head></head>",
+      "description": "Defines the metadata and links for the document",
+      "scenario": "Defines the metadata and links for the document",
+      "language": "html",
+      "tags": [
+        "head",
+        "metadata",
+        "links"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p>This is a paragraph.</p>",
+      "description": "Defines a paragraph",
+      "scenario": "Defines a paragraph",
+      "language": "html",
+      "tags": [
+        "paragraph",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<strong>This text is bold.</strong>",
+      "description": "Defines a bold text",
+      "scenario": "Defines a bold text",
+      "language": "html",
+      "tags": [
+        "bold",
+        "text",
+        "strong"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<em>This text is italicized.</em>",
+      "description": "Defines an italic text",
+      "scenario": "Defines an italic text",
+      "language": "html",
+      "tags": [
+        "italic",
+        "text",
+        "emphasis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a href=\"https://example.com\">Visit Example</a>",
+      "description": "Creates a hyperlink",
+      "scenario": "Creates a hyperlink",
+      "language": "html",
+      "tags": [
+        "link",
+        "anchor",
+        "href"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img src=\"image.jpg\" alt=\"Description\">",
+      "description": "Embeds an image",
+      "scenario": "Embeds an image",
+      "language": "html",
+      "tags": [
+        "image",
+        "embed",
+        "src"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a href=\"https://example.com\"><img src=\"image.jpg\" alt=\"Description\"></a>",
+      "description": "Creates an image link",
+      "scenario": "Creates an image link",
+      "language": "html",
+      "tags": [
+        "image",
+        "link",
+        "anchor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ul><li>Item 1</li><li>Item 2</li></ul>",
+      "description": "Creates an unordered list",
+      "scenario": "Creates an unordered list",
+      "language": "html",
+      "tags": [
+        "list",
+        "unordered",
+        "li"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ol><li>First</li><li>Second</li></ol>",
+      "description": "Creates an ordered list",
+      "scenario": "Creates an ordered list",
+      "language": "html",
+      "tags": [
+        "list",
+        "ordered",
+        "li"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<dl><dt>Term</dt><dd>Description</dd></dl>",
+      "description": "Creates a description list",
+      "scenario": "Creates a description list",
+      "language": "html",
+      "tags": [
+        "list",
+        "description",
+        "dl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<table><tr><th>Header</th></tr><tr><td>Data</td></tr></table>",
+      "description": "Creates a basic table",
+      "scenario": "Creates a basic table",
+      "language": "html",
+      "tags": [
+        "table",
+        "row",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<tr><td>Row Data</td></tr>",
+      "description": "Defines a table row",
+      "scenario": "Defines a table row",
+      "language": "html",
+      "tags": [
+        "table",
+        "row",
+        "tr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<th>Header</th>",
+      "description": "Defines a table header",
+      "scenario": "Defines a table header",
+      "language": "html",
+      "tags": [
+        "table",
+        "header",
+        "th"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

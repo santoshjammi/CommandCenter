@@ -1,0 +1,204 @@
+{
+  "title": "Firefox Add-ons Cheat Sheet",
+  "slug": "firefox-add-ons",
+  "description": "Quick reference for developing Firefox add-ons",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "\"manifest_version\": 2",
+      "description": "Define the manifest version",
+      "scenario": "Define the manifest version",
+      "language": "json",
+      "tags": [
+        "manifest",
+        "version",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"name\": \"My Firefox Add-on\"",
+      "description": "Specify the add-on name",
+      "scenario": "Specify the add-on name",
+      "language": "json",
+      "tags": [
+        "manifest",
+        "name",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"version\": \"1.0\"",
+      "description": "Set the add-on version",
+      "scenario": "Set the add-on version",
+      "language": "json",
+      "tags": [
+        "manifest",
+        "version",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"background\": { \"scripts\": [\"background.js\"] }",
+      "description": "Register a background script",
+      "scenario": "Register a background script",
+      "language": "json",
+      "tags": [
+        "background",
+        "scripts",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browser.runtime.onInstalled.addListener(() => { console.log('Installed'); });",
+      "description": "Listen for a browser event in background script",
+      "scenario": "Listen for a browser event in background script",
+      "language": "javascript",
+      "tags": [
+        "background",
+        "event",
+        "listener"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browser.runtime.sendMessage({greeting: \"hello\"});",
+      "description": "Send a message from background script",
+      "scenario": "Send a message from background script",
+      "language": "javascript",
+      "tags": [
+        "background",
+        "message",
+        "communication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"content_scripts\": [{ \"matches\": [\"<all_urls>\"], \"js\": [\"content.js\"] }]",
+      "description": "Inject a content script into web pages",
+      "scenario": "Inject a content script into web pages",
+      "language": "json",
+      "tags": [
+        "content",
+        "scripts",
+        "injection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.body.style.backgroundColor = 'red';",
+      "description": "Access DOM in content script",
+      "scenario": "Access DOM in content script",
+      "language": "javascript",
+      "tags": [
+        "content",
+        "DOM",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browser.runtime.sendMessage({content: \"ping\"});",
+      "description": "Communicate with background script from content script",
+      "scenario": "Communicate with background script from content script",
+      "language": "javascript",
+      "tags": [
+        "content",
+        "background",
+        "communication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"permissions\": [\"tabs\"]",
+      "description": "Request permission for tabs access",
+      "scenario": "Request permission for tabs access",
+      "language": "json",
+      "tags": [
+        "permissions",
+        "tabs",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"permissions\": [\"storage\"]",
+      "description": "Request permission for storage access",
+      "scenario": "Request permission for storage access",
+      "language": "json",
+      "tags": [
+        "permissions",
+        "storage",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"permissions\": [\"activeTab\"]",
+      "description": "Request permission for activeTab access",
+      "scenario": "Request permission for activeTab access",
+      "language": "json",
+      "tags": [
+        "permissions",
+        "activeTab",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"browser_action\": { \"default_icon\": \"icon.png\", \"default_popup\": \"popup.html\" }",
+      "description": "Add a browser action button",
+      "scenario": "Add a browser action button",
+      "language": "json",
+      "tags": [
+        "UI",
+        "browser",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<html><body><h1>Popup</h1></body></html>",
+      "description": "Create a simple popup HTML",
+      "scenario": "Create a simple popup HTML",
+      "language": "html",
+      "tags": [
+        "UI",
+        "popup",
+        "HTML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"icons\": { \"48\": \"icon.png\" }",
+      "description": "Set a default icon for the add-on",
+      "scenario": "Set a default icon for the add-on",
+      "language": "json",
+      "tags": [
+        "UI",
+        "icon",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

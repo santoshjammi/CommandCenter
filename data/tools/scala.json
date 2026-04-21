@@ -1,0 +1,204 @@
+{
+  "title": "Scala Cheat Sheet",
+  "slug": "scala",
+  "description": "Quick reference for Scala syntax and commands",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var x: Int = 10",
+      "description": "Define a variable with a mutable value",
+      "scenario": "Define a variable with a mutable value",
+      "language": "scala",
+      "tags": [
+        "variable",
+        "mutable",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val y: String = \"Hello\"",
+      "description": "Define a variable with an immutable value",
+      "scenario": "Define a variable with an immutable value",
+      "language": "scala",
+      "tags": [
+        "variable",
+        "immutable",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def add(a: Int, b: Int): Int = a + b",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "scala",
+      "tags": [
+        "function",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val numbers = List(1, 2, 3, 4, 5)",
+      "description": "Create a list of integers",
+      "scenario": "Create a list of integers",
+      "language": "scala",
+      "tags": [
+        "list",
+        "collection",
+        "immutable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val fruits = scala.collection.mutable.Set(\"apple\", \"banana\")",
+      "description": "Create a mutable set",
+      "scenario": "Create a mutable set",
+      "language": "scala",
+      "tags": [
+        "set",
+        "mutable",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val doubled = numbers.map(_ * 2)",
+      "description": "Map a function over a list",
+      "scenario": "Map a function over a list",
+      "language": "scala",
+      "tags": [
+        "map",
+        "list",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val result = if (x > 0) \"positive\" else \"non-positive\"",
+      "description": "If-else expression",
+      "scenario": "If-else expression",
+      "language": "scala",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x match { case 0 => \"zero\"; case _ => \"non-zero\" }",
+      "description": "Pattern matching example",
+      "scenario": "Pattern matching example",
+      "language": "scala",
+      "tags": [
+        "pattern",
+        "match",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i <- 1 to 5) println(i)",
+      "description": "For loop with a range",
+      "scenario": "For loop with a range",
+      "language": "scala",
+      "tags": [
+        "for",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Point(val x: Int, val y: Int)",
+      "description": "Define a class with a primary constructor",
+      "scenario": "Define a class with a primary constructor",
+      "language": "scala",
+      "tags": [
+        "class",
+        "constructor",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "object MySingleton { def greet() = println(\"Hello\") }",
+      "description": "Create an object as a singleton",
+      "scenario": "Create an object as a singleton",
+      "language": "scala",
+      "tags": [
+        "object",
+        "singleton",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Circle(radius: Double) extends Shape { override def area: Double = Math.PI * radius * radius }",
+      "description": "Extend a class and override a method",
+      "scenario": "Extend a class and override a method",
+      "language": "scala",
+      "tags": [
+        "extend",
+        "override",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import scala.concurrent.Future\nimport scala.concurrent.ExecutionContext.Implicits.global\nval future = Future { 42 }",
+      "description": "Create a future to execute code asynchronously",
+      "scenario": "Create a future to execute code asynchronously",
+      "language": "scala",
+      "tags": [
+        "future",
+        "async",
+        "concurrency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import scala.concurrent.Await\nimport scala.concurrent.duration._\nval result = Await.result(future, 10.seconds)",
+      "description": "Await the result of a future",
+      "scenario": "Await the result of a future",
+      "language": "scala",
+      "tags": [
+        "await",
+        "future",
+        "concurrency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import scala.concurrent.Promise\nval promise = Promise[Int]()\npromise.success(42)\nval future = promise.future",
+      "description": "Use Promise to complete a future",
+      "scenario": "Use Promise to complete a future",
+      "language": "scala",
+      "tags": [
+        "promise",
+        "future",
+        "concurrency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Parsley.js Cheat Sheet",
+  "slug": "parsleyjs",
+  "description": "Quick reference for Parsley.js form validation library.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "$('#myForm').parsley();",
+      "description": "Initialize Parsley on a form",
+      "scenario": "Initialize Parsley on a form",
+      "language": "javascript",
+      "tags": [
+        "initialization",
+        "form",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myForm').parsley({\n  errorsContainer: function (ParsleyField) {\n    return ParsleyField.$element.closest('.form-group');\n  }\n});",
+      "description": "Initialize Parsley with options",
+      "scenario": "Initialize Parsley with options",
+      "language": "javascript",
+      "tags": [
+        "options",
+        "customization",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myForm').parsley().destroy();",
+      "description": "Destroy Parsley instance",
+      "scenario": "Destroy Parsley instance",
+      "language": "javascript",
+      "tags": [
+        "destroy",
+        "cleanup",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myForm').parsley().validate();",
+      "description": "Validate entire form",
+      "scenario": "Validate entire form",
+      "language": "javascript",
+      "tags": [
+        "validate",
+        "form",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myField').parsley().validate();",
+      "description": "Validate specific field",
+      "scenario": "Validate specific field",
+      "language": "javascript",
+      "tags": [
+        "validate",
+        "field",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myForm').parsley().isValid();",
+      "description": "Check if form is valid without triggering validation",
+      "scenario": "Check if form is valid without triggering validation",
+      "language": "javascript",
+      "tags": [
+        "check",
+        "valid",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "window.Parsley.addValidator('custom', {\n  validateString: function(value) {\n    return value.length > 5;\n  },\n  messages: {\n    en: 'This value should be more than 5 characters.'\n  }\n});",
+      "description": "Add a custom validator",
+      "scenario": "Add a custom validator",
+      "language": "javascript",
+      "tags": [
+        "custom",
+        "validator",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "window.Parsley.removeValidator('custom');",
+      "description": "Remove a custom validator",
+      "scenario": "Remove a custom validator",
+      "language": "javascript",
+      "tags": [
+        "remove",
+        "validator",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "window.Parsley.addMessages('en', {\n  defaultMessage: 'This value seems to be invalid.',\n  type: {\n    email: 'This value should be a valid email.'\n  }\n});",
+      "description": "Override default messages",
+      "scenario": "Override default messages",
+      "language": "javascript",
+      "tags": [
+        "messages",
+        "override",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "window.Parsley.setConfig({\n  errorsWrapper: '<div></div>',\n  errorTemplate: '<span></span>'\n});",
+      "description": "Set global configuration",
+      "scenario": "Set global configuration",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "global",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myForm').parsley({\n  trigger: 'input'\n});",
+      "description": "Configure Parsley to trigger validation on input",
+      "scenario": "Configure Parsley to trigger validation on input",
+      "language": "javascript",
+      "tags": [
+        "trigger",
+        "input",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myForm').parsley({\n  validationThreshold: 3\n});",
+      "description": "Change validation threshold",
+      "scenario": "Change validation threshold",
+      "language": "javascript",
+      "tags": [
+        "threshold",
+        "validation",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myForm').parsley().on('form:success', function() {\n  console.log('Form is valid!');\n});",
+      "description": "Listen to form validation success event",
+      "scenario": "Listen to form validation success event",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "success",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myField').parsley().on('field:error', function() {\n  console.log('Field has errors!');\n});",
+      "description": "Listen to field validation error event",
+      "scenario": "Listen to field validation error event",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "error",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#myForm').parsley().on('form:error', function() {\n  console.log('Form has errors!');\n});",
+      "description": "Listen to form validation error event",
+      "scenario": "Listen to form validation error event",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "error",
+        "parsley"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

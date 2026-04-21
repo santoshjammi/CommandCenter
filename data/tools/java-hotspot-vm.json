@@ -1,0 +1,204 @@
+{
+  "title": "Java HotSpot VM Cheat Sheet",
+  "slug": "java-hotspot-vm",
+  "description": "Essential commands and configurations for Java HotSpot VM.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "java -jar myapp.jar",
+      "description": "Run a Java application with the HotSpot VM",
+      "scenario": "Run a Java application with the HotSpot VM",
+      "language": "bash",
+      "tags": [
+        "java",
+        "hotspot",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -version",
+      "description": "Print version information of the Java HotSpot VM",
+      "scenario": "Print version information of the Java HotSpot VM",
+      "language": "bash",
+      "tags": [
+        "version",
+        "java",
+        "hotspot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "javac MyClass.java",
+      "description": "Compile Java source files using javac",
+      "scenario": "Compile Java source files using javac",
+      "language": "bash",
+      "tags": [
+        "javac",
+        "compile",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -Xms512m -jar myapp.jar",
+      "description": "Set initial Java heap size",
+      "scenario": "Set initial Java heap size",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "heap",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -Xmx1024m -jar myapp.jar",
+      "description": "Set maximum Java heap size",
+      "scenario": "Set maximum Java heap size",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "heap",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -verbose:gc -jar myapp.jar",
+      "description": "Enable garbage collection logging",
+      "scenario": "Enable garbage collection logging",
+      "language": "bash",
+      "tags": [
+        "gc",
+        "logging",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -server -jar myapp.jar",
+      "description": "Enable the server VM for better performance",
+      "scenario": "Enable the server VM for better performance",
+      "language": "bash",
+      "tags": [
+        "performance",
+        "server",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -XX:+PrintCompilation -jar myapp.jar",
+      "description": "Enable Just-In-Time (JIT) compiler logging",
+      "scenario": "Enable Just-In-Time (JIT) compiler logging",
+      "language": "bash",
+      "tags": [
+        "jit",
+        "logging",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -XX:ReservedCodeCacheSize=256m -jar myapp.jar",
+      "description": "Set the maximum size of the code cache",
+      "scenario": "Set the maximum size of the code cache",
+      "language": "bash",
+      "tags": [
+        "performance",
+        "cache",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005 -jar myapp.jar",
+      "description": "Enable remote debugging on port 5005",
+      "scenario": "Enable remote debugging on port 5005",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "remote",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -XX:+PrintFlagsFinal -version",
+      "description": "Print detailed JVM flags",
+      "scenario": "Print detailed JVM flags",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "flags",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -XX:+HeapDumpOnOutOfMemoryError -jar myapp.jar",
+      "description": "Enable core dump on crash",
+      "scenario": "Enable core dump on crash",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "dump",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Xms512m\n-Xmx1024m\n-XX:+UseG1GC",
+      "description": "Example of a JVM options file",
+      "scenario": "Example of a JVM options file",
+      "language": "text",
+      "tags": [
+        "config",
+        "options",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -DpropertyName=value -jar myapp.jar",
+      "description": "Set system properties via command line",
+      "scenario": "Set system properties via command line",
+      "language": "bash",
+      "tags": [
+        "config",
+        "properties",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java @options.txt -jar myapp.jar",
+      "description": "Use a configuration file for JVM options",
+      "scenario": "Use a configuration file for JVM options",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

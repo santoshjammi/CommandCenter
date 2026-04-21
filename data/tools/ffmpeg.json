@@ -1,0 +1,204 @@
+{
+  "title": "FFmpeg Cheat Sheet",
+  "slug": "ffmpeg",
+  "description": "Essential FFmpeg commands for video and audio processing.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ffmpeg -i input.mp4 output.avi",
+      "description": "Convert a video from one format to another",
+      "scenario": "Convert a video from one format to another",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "video",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -q:a 0 -map a output.mp3",
+      "description": "Extract audio from a video file",
+      "scenario": "Extract audio from a video file",
+      "language": "bash",
+      "tags": [
+        "extract",
+        "audio",
+        "mp3"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4",
+      "description": "Get information about a media file",
+      "scenario": "Get information about a media file",
+      "language": "bash",
+      "tags": [
+        "info",
+        "media",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -vf scale=1280:720 output.mp4",
+      "description": "Resize a video to a specific resolution",
+      "scenario": "Resize a video to a specific resolution",
+      "language": "bash",
+      "tags": [
+        "resize",
+        "video",
+        "resolution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -r 24 output.mp4",
+      "description": "Change the video frame rate",
+      "scenario": "Change the video frame rate",
+      "language": "bash",
+      "tags": [
+        "frame rate",
+        "video",
+        "fps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -vf \"crop=640:480:0:0\" output.mp4",
+      "description": "Crop a video",
+      "scenario": "Crop a video",
+      "language": "bash",
+      "tags": [
+        "crop",
+        "video",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp3 -b:a 192K output.mp3",
+      "description": "Change audio bitrate",
+      "scenario": "Change audio bitrate",
+      "language": "bash",
+      "tags": [
+        "audio",
+        "bitrate",
+        "mp3"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i stereo.mp3 -ac 1 mono.mp3",
+      "description": "Convert stereo audio to mono",
+      "scenario": "Convert stereo audio to mono",
+      "language": "bash",
+      "tags": [
+        "audio",
+        "stereo",
+        "mono"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp3 -filter:a \"volume=1.5\" output.mp3",
+      "description": "Increase audio volume",
+      "scenario": "Increase audio volume",
+      "language": "bash",
+      "tags": [
+        "audio",
+        "volume",
+        "increase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -vf subtitles=subs.srt output.mp4",
+      "description": "Add subtitles to a video",
+      "scenario": "Add subtitles to a video",
+      "language": "bash",
+      "tags": [
+        "subtitles",
+        "video",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -framerate 1 -i image%d.jpg -c:v libx264 output.mp4",
+      "description": "Create a video from images",
+      "scenario": "Create a video from images",
+      "language": "bash",
+      "tags": [
+        "video",
+        "images",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -i logo.png -filter_complex \"overlay=10:10\" output.mp4",
+      "description": "Overlay an image on a video",
+      "scenario": "Overlay an image on a video",
+      "language": "bash",
+      "tags": [
+        "overlay",
+        "image",
+        "video"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -c:v libx264 output.mp4",
+      "description": "Use a specific codec for video encoding",
+      "scenario": "Use a specific codec for video encoding",
+      "language": "bash",
+      "tags": [
+        "codec",
+        "video",
+        "encoding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -q:v 2 output.mp4",
+      "description": "Set the output video quality",
+      "scenario": "Set the output video quality",
+      "language": "bash",
+      "tags": [
+        "quality",
+        "video",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -map_metadata 0 -c copy output.mp4",
+      "description": "Preserve metadata during conversion",
+      "scenario": "Preserve metadata during conversion",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "preserve",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

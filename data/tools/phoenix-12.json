@@ -1,0 +1,204 @@
+{
+  "title": "Phoenix 1.2 Cheat Sheet",
+  "slug": "phoenix-12",
+  "description": "Essential commands and patterns for Phoenix 1.2 framework.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mix phoenix.new my_project",
+      "description": "Create a new Phoenix project",
+      "scenario": "Create a new Phoenix project",
+      "language": "bash",
+      "tags": [
+        "phoenix",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix phoenix.server",
+      "description": "Start the Phoenix server",
+      "scenario": "Start the Phoenix server",
+      "language": "bash",
+      "tags": [
+        "phoenix",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix phoenix.gen.html User users name:string age:integer",
+      "description": "Generate a new resource",
+      "scenario": "Generate a new resource",
+      "language": "bash",
+      "tags": [
+        "phoenix",
+        "resource",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "get \"/\", PageController, :index",
+      "description": "Define a simple route",
+      "scenario": "Define a simple route",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "routing",
+        "controller"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "resources \"/users\", UserController",
+      "description": "Define a resource route",
+      "scenario": "Define a resource route",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "routing",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "get \"/login\", SessionController, :new, as: :login",
+      "description": "Define a named route",
+      "scenario": "Define a named route",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "routing",
+        "named"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def index(conn, _params) do\n  render(conn, \"index.html\")\nend",
+      "description": "Define a basic controller action",
+      "scenario": "Define a basic controller action",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "controller",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "redirect(conn, to: page_path(conn, :index))",
+      "description": "Redirect to another route",
+      "scenario": "Redirect to another route",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "controller",
+        "redirect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "json(conn, %{message: \"Hello, World!\"})",
+      "description": "Send a JSON response",
+      "scenario": "Send a JSON response",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "controller",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "render(conn, \"index.html\", layout: {MyApp.LayoutView, \"app.html\"})",
+      "description": "Render a template with a layout",
+      "scenario": "Render a template with a layout",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "view",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= link \"Home\", to: page_path(@conn, :index) %>",
+      "description": "Use a helper function in a template",
+      "scenario": "Use a helper function in a template",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "view",
+        "helper"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def render(\"show.json\", %{user: user}) do\n  %{id: user.id, name: user.name}\nend",
+      "description": "Render JSON in a view",
+      "scenario": "Render JSON in a view",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "view",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config :my_app, MyApp.Repo,\n  adapter: Ecto.Adapters.Postgres,\n  url: System.get_env(\"DATABASE_URL\")",
+      "description": "Set the database URL in config",
+      "scenario": "Set the database URL in config",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "config",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config :my_app, MyApp.Endpoint,\n  url: [host: \"example.com\"]",
+      "description": "Configure the endpoint URL",
+      "scenario": "Configure the endpoint URL",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "config",
+        "endpoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config :my_app, MyApp.Endpoint,\n  secret_key_base: \"YOUR_SECRET_KEY_BASE\"",
+      "description": "Set the secret key base",
+      "scenario": "Set the secret key base",
+      "language": "elixir",
+      "tags": [
+        "phoenix",
+        "config",
+        "secret"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

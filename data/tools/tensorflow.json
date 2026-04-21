@@ -1,0 +1,204 @@
+{
+  "title": "TensorFlow Cheat Sheet",
+  "slug": "tensorflow",
+  "description": "Essential TensorFlow commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "import tensorflow as tf",
+      "description": "Import TensorFlow library",
+      "scenario": "Import TensorFlow library",
+      "language": "python",
+      "tags": [
+        "import",
+        "tensorflow",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tf.constant([1, 2, 3])",
+      "description": "Create a constant tensor",
+      "scenario": "Create a constant tensor",
+      "language": "python",
+      "tags": [
+        "tensor",
+        "constant",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print(tf.__version__)",
+      "description": "Check TensorFlow version",
+      "scenario": "Check TensorFlow version",
+      "language": "python",
+      "tags": [
+        "version",
+        "check",
+        "tensorflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tf.add(tensor_a, tensor_b)",
+      "description": "Add two tensors",
+      "scenario": "Add two tensors",
+      "language": "python",
+      "tags": [
+        "add",
+        "tensor",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tf.multiply(tensor_a, tensor_b)",
+      "description": "Multiply two tensors",
+      "scenario": "Multiply two tensors",
+      "language": "python",
+      "tags": [
+        "multiply",
+        "tensor",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tf.tensordot(tensor_a, tensor_b, axes=1)",
+      "description": "Compute the dot product of two tensors",
+      "scenario": "Compute the dot product of two tensors",
+      "language": "python",
+      "tags": [
+        "dot",
+        "product",
+        "tensor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model = tf.keras.Sequential()",
+      "description": "Define a Sequential model",
+      "scenario": "Define a Sequential model",
+      "language": "python",
+      "tags": [
+        "model",
+        "sequential",
+        "keras"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.add(tf.keras.layers.Dense(units=64, activation='relu'))",
+      "description": "Add a Dense layer to model",
+      "scenario": "Add a Dense layer to model",
+      "language": "python",
+      "tags": [
+        "layer",
+        "dense",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])",
+      "description": "Compile the model with optimizer and loss",
+      "scenario": "Compile the model with optimizer and loss",
+      "language": "python",
+      "tags": [
+        "compile",
+        "model",
+        "optimizer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.fit(x_train, y_train, epochs=10)",
+      "description": "Train the model with training data",
+      "scenario": "Train the model with training data",
+      "language": "python",
+      "tags": [
+        "train",
+        "model",
+        "fit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.evaluate(x_test, y_test)",
+      "description": "Evaluate the model with test data",
+      "scenario": "Evaluate the model with test data",
+      "language": "python",
+      "tags": [
+        "evaluate",
+        "model",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "predictions = model.predict(x_new)",
+      "description": "Make predictions with the model",
+      "scenario": "Make predictions with the model",
+      "language": "python",
+      "tags": [
+        "predict",
+        "model",
+        "inference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.save('model.h5')",
+      "description": "Save the model to a file",
+      "scenario": "Save the model to a file",
+      "language": "python",
+      "tags": [
+        "save",
+        "model",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model = tf.keras.models.load_model('model.h5')",
+      "description": "Load a model from a file",
+      "scenario": "Load a model from a file",
+      "language": "python",
+      "tags": [
+        "load",
+        "model",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.save_weights('weights.h5')",
+      "description": "Save model weights",
+      "scenario": "Save model weights",
+      "language": "python",
+      "tags": [
+        "save",
+        "weights",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

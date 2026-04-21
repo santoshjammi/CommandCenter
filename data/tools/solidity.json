@@ -1,0 +1,204 @@
+{
+  "title": "Solidity Cheat Sheet",
+  "slug": "solidity",
+  "description": "Essential Solidity syntax and patterns for smart contract development.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "pragma solidity ^0.8.0;",
+      "description": "Declare a Solidity version",
+      "scenario": "Declare a Solidity version",
+      "language": "solidity",
+      "tags": [
+        "version",
+        "pragma",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "contract MyContract { }",
+      "description": "Define a contract",
+      "scenario": "Define a contract",
+      "language": "solidity",
+      "tags": [
+        "contract",
+        "solidity",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uint public myVariable;",
+      "description": "Declare a state variable",
+      "scenario": "Declare a state variable",
+      "language": "solidity",
+      "tags": [
+        "variable",
+        "state",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function myFunction() public { }",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "solidity",
+      "tags": [
+        "function",
+        "solidity",
+        "public"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function getValue() public view returns (uint) { return myVariable; }",
+      "description": "Return a value from a function",
+      "scenario": "Return a value from a function",
+      "language": "solidity",
+      "tags": [
+        "function",
+        "return",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modifier onlyOwner() { require(msg.sender == owner); _; }",
+      "description": "Modifier example",
+      "scenario": "Modifier example",
+      "language": "solidity",
+      "tags": [
+        "modifier",
+        "solidity",
+        "access control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int myInt = -1;",
+      "description": "Declare an integer",
+      "scenario": "Declare an integer",
+      "language": "solidity",
+      "tags": [
+        "integer",
+        "data type",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bool isActive = true;",
+      "description": "Declare a boolean",
+      "scenario": "Declare a boolean",
+      "language": "solidity",
+      "tags": [
+        "boolean",
+        "data type",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "address public owner;",
+      "description": "Declare an address",
+      "scenario": "Declare an address",
+      "language": "solidity",
+      "tags": [
+        "address",
+        "data type",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (x > 10) { return true; } else { return false; }",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "solidity",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (uint i = 0; i < 10; i++) { sum += i; }",
+      "description": "For loop example",
+      "scenario": "For loop example",
+      "language": "solidity",
+      "tags": [
+        "loop",
+        "for",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (i < 10) { i++; }",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "solidity",
+      "tags": [
+        "loop",
+        "while",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "event Transfer(address indexed from, address indexed to, uint256 value);",
+      "description": "Declare an event",
+      "scenario": "Declare an event",
+      "language": "solidity",
+      "tags": [
+        "event",
+        "logging",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "emit Transfer(msg.sender, to, value);",
+      "description": "Emit an event",
+      "scenario": "Emit an event",
+      "language": "solidity",
+      "tags": [
+        "emit",
+        "event",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.log(\"Value: \", value);",
+      "description": "Log a message",
+      "scenario": "Log a message",
+      "language": "solidity",
+      "tags": [
+        "log",
+        "console",
+        "solidity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

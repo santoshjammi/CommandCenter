@@ -1,0 +1,165 @@
+{
+  "title": "Dockerfile Cheat Sheet",
+  "slug": "dockerfile",
+  "description": "Essential Dockerfile commands and patterns for building Docker images.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "FROM ubuntu:20.04",
+      "description": "Set the base image for the Docker image",
+      "scenario": "Set the base image for the Docker image",
+      "language": "dockerfile",
+      "tags": [
+        "base",
+        "image",
+        "from"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RUN apt-get update && apt-get install -y python3",
+      "description": "Execute a command in the shell",
+      "scenario": "Execute a command in the shell",
+      "language": "dockerfile",
+      "tags": [
+        "run",
+        "command",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ENV APP_HOME /app",
+      "description": "Set environment variables",
+      "scenario": "Set environment variables",
+      "language": "dockerfile",
+      "tags": [
+        "environment",
+        "variables",
+        "env"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "COPY . /app",
+      "description": "Copy files from the host to the image",
+      "scenario": "Copy files from the host to the image",
+      "language": "dockerfile",
+      "tags": [
+        "copy",
+        "files",
+        "host"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ADD https://example.com/file.tar.gz /app/",
+      "description": "Add files from a URL or host to the image",
+      "scenario": "Add files from a URL or host to the image",
+      "language": "dockerfile",
+      "tags": [
+        "add",
+        "files",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "WORKDIR /app",
+      "description": "Set the working directory for RUN, CMD, ENTRYPOINT",
+      "scenario": "Set the working directory for RUN, CMD, ENTRYPOINT",
+      "language": "dockerfile",
+      "tags": [
+        "working",
+        "directory",
+        "workdir"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CMD [\"python3\", \"app.py\"]",
+      "description": "Specify the command to run on container start",
+      "scenario": "Specify the command to run on container start",
+      "language": "dockerfile",
+      "tags": [
+        "command",
+        "start",
+        "cmd"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ENTRYPOINT [\"/docker-entrypoint.sh\"]",
+      "description": "Configure a container to run as an executable",
+      "scenario": "Configure a container to run as an executable",
+      "language": "dockerfile",
+      "tags": [
+        "entrypoint",
+        "executable",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "EXPOSE 8080",
+      "description": "Expose a port to be accessed from outside the container",
+      "scenario": "Expose a port to be accessed from outside the container",
+      "language": "dockerfile",
+      "tags": [
+        "port",
+        "expose",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RUN apt-get update && apt-get install -y \\\n    python3 \\\n    python3-pip",
+      "description": "Combine multiple RUN commands to reduce image layers",
+      "scenario": "Combine multiple RUN commands to reduce image layers",
+      "language": "dockerfile",
+      "tags": [
+        "optimization",
+        "run",
+        "layers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# .dockerignore\nnode_modules\n*.log",
+      "description": "Use .dockerignore to exclude files from the image",
+      "scenario": "Use .dockerignore to exclude files from the image",
+      "language": "text",
+      "tags": [
+        "ignore",
+        "files",
+        "dockerignore"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FROM node:14 AS builder\nWORKDIR /app\nCOPY . .\nRUN npm install\n\nFROM node:14\nWORKDIR /app\nCOPY --from=builder /app .",
+      "description": "Leverage multi-stage builds to reduce image size",
+      "scenario": "Leverage multi-stage builds to reduce image size",
+      "language": "dockerfile",
+      "tags": [
+        "multi-stage",
+        "build",
+        "optimization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Skype Command Line Interface Cheat Sheet",
+  "slug": "skype",
+  "description": "Essential CLI commands and configurations for Skype automation.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "skypeforlinux",
+      "description": "Start Skype application from the command line.",
+      "scenario": "Start Skype application from the command line.",
+      "language": "bash",
+      "tags": [
+        "start",
+        "launch",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "skypeforlinux --version",
+      "description": "Check Skype version installed on your system.",
+      "scenario": "Check Skype version installed on your system.",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "skypeforlinux --secondary",
+      "description": "Open Skype with a specific account.",
+      "scenario": "Open Skype with a specific account.",
+      "language": "bash",
+      "tags": [
+        "account",
+        "login",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LANG=fr_FR skypeforlinux",
+      "description": "Change Skype's default language to French.",
+      "scenario": "Change Skype's default language to French.",
+      "language": "bash",
+      "tags": [
+        "language",
+        "configuration",
+        "localization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "skypeforlinux --nogui",
+      "description": "Run Skype without GUI for automation purposes.",
+      "scenario": "Run Skype without GUI for automation purposes.",
+      "language": "bash",
+      "tags": [
+        "automation",
+        "headless",
+        "gui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "skypeforlinux --minimized",
+      "description": "Set Skype to start minimized in the system tray.",
+      "scenario": "Set Skype to start minimized in the system tray.",
+      "language": "bash",
+      "tags": [
+        "startup",
+        "minimize",
+        "tray"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rm -rf ~/.config/skypeforlinux",
+      "description": "Reset Skype settings to default.",
+      "scenario": "Reset Skype settings to default.",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "settings",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rm -rf ~/.cache/skypeforlinux",
+      "description": "Clear Skype cache to resolve performance issues.",
+      "scenario": "Clear Skype cache to resolve performance issues.",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "performance",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SKYPE_DEBUG=1 skypeforlinux",
+      "description": "Enable Skype debug logging for troubleshooting.",
+      "scenario": "Enable Skype debug logging for troubleshooting.",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "logging",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'message text' | skypeforlinux --send-message contact_name",
+      "description": "Script to send a message to a contact.",
+      "scenario": "Script to send a message to a contact.",
+      "language": "bash",
+      "tags": [
+        "script",
+        "message",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "skypeforlinux --call contact_name",
+      "description": "Automate Skype call to a specific contact.",
+      "scenario": "Automate Skype call to a specific contact.",
+      "language": "bash",
+      "tags": [
+        "call",
+        "automation",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "0 9 * * * /usr/bin/skypeforlinux",
+      "description": "Schedule Skype to start at a specific time using cron.",
+      "scenario": "Schedule Skype to start at a specific time using cron.",
+      "language": "bash",
+      "tags": [
+        "schedule",
+        "cron",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

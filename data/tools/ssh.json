@@ -1,0 +1,165 @@
+{
+  "title": "SSH Cheat Sheet",
+  "slug": "ssh",
+  "description": "Quick reference for SSH commands and configurations",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "ssh user@hostname",
+      "description": "Connect to a remote server via SSH",
+      "scenario": "Connect to a remote server via SSH",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "remote",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh -p 2222 user@hostname",
+      "description": "Connect to a remote server with a specific port",
+      "scenario": "Connect to a remote server with a specific port",
+      "language": "bash",
+      "tags": [
+        "port",
+        "connect",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh user@hostname 'ls -l /var/www'",
+      "description": "Run a command on a remote server",
+      "scenario": "Run a command on a remote server",
+      "language": "bash",
+      "tags": [
+        "remote",
+        "command",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"",
+      "description": "Generate a new SSH key pair",
+      "scenario": "Generate a new SSH key pair",
+      "language": "bash",
+      "tags": [
+        "key",
+        "generate",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh-add ~/.ssh/id_rsa",
+      "description": "Add SSH private key to the SSH agent",
+      "scenario": "Add SSH private key to the SSH agent",
+      "language": "bash",
+      "tags": [
+        "key",
+        "agent",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh-copy-id user@hostname",
+      "description": "Copy SSH public key to a remote server",
+      "scenario": "Copy SSH public key to a remote server",
+      "language": "bash",
+      "tags": [
+        "key",
+        "copy",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano ~/.ssh/config",
+      "description": "Edit the SSH configuration file",
+      "scenario": "Edit the SSH configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "edit",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Host myserver\n  HostName hostname\n  User user\n  Port 22",
+      "description": "Add a host alias in SSH config",
+      "scenario": "Add a host alias in SSH config",
+      "language": "text",
+      "tags": [
+        "alias",
+        "config",
+        "host"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh -o StrictHostKeyChecking=no user@hostname",
+      "description": "Disable SSH host key checking",
+      "scenario": "Disable SSH host key checking",
+      "language": "bash",
+      "tags": [
+        "security",
+        "host",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh -L 8080:localhost:80 user@hostname",
+      "description": "Set up SSH tunneling for port forwarding",
+      "scenario": "Set up SSH tunneling for port forwarding",
+      "language": "bash",
+      "tags": [
+        "tunnel",
+        "port",
+        "forward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh -D 1080 user@hostname",
+      "description": "Use SSH to create a SOCKS proxy",
+      "scenario": "Use SSH to create a SOCKS proxy",
+      "language": "bash",
+      "tags": [
+        "proxy",
+        "socks",
+        "tunnel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh -i /path/to/private_key user@hostname",
+      "description": "SSH into a server using a specific identity file",
+      "scenario": "SSH into a server using a specific identity file",
+      "language": "bash",
+      "tags": [
+        "identity",
+        "key",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

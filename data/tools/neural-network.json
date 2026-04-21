@@ -1,0 +1,204 @@
+{
+  "title": "Neural Network Cheat Sheet",
+  "slug": "neural-network",
+  "description": "Quick reference for neural network commands and patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "import tensorflow as tf",
+      "description": "Import TensorFlow library",
+      "scenario": "Import TensorFlow library",
+      "language": "python",
+      "tags": [
+        "tensorflow",
+        "import",
+        "library"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import torch",
+      "description": "Import PyTorch library",
+      "scenario": "Import PyTorch library",
+      "language": "python",
+      "tags": [
+        "pytorch",
+        "import",
+        "library"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from keras.models import Sequential",
+      "description": "Import Keras Sequential model",
+      "scenario": "Import Keras Sequential model",
+      "language": "python",
+      "tags": [
+        "keras",
+        "sequential",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model = Sequential()",
+      "description": "Define a Sequential model in Keras",
+      "scenario": "Define a Sequential model in Keras",
+      "language": "python",
+      "tags": [
+        "keras",
+        "sequential",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.add(Dense(128, activation='relu'))",
+      "description": "Add a Dense layer with 128 units",
+      "scenario": "Add a Dense layer with 128 units",
+      "language": "python",
+      "tags": [
+        "keras",
+        "dense",
+        "layer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])",
+      "description": "Compile the model with Adam optimizer",
+      "scenario": "Compile the model with Adam optimizer",
+      "language": "python",
+      "tags": [
+        "keras",
+        "compile",
+        "adam"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.fit(x_train, y_train, epochs=10)",
+      "description": "Train the model for 10 epochs",
+      "scenario": "Train the model for 10 epochs",
+      "language": "python",
+      "tags": [
+        "keras",
+        "train",
+        "fit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.evaluate(x_test, y_test)",
+      "description": "Evaluate the model on test data",
+      "scenario": "Evaluate the model on test data",
+      "language": "python",
+      "tags": [
+        "keras",
+        "evaluate",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "predictions = model.predict(x_test)",
+      "description": "Make predictions with the model",
+      "scenario": "Make predictions with the model",
+      "language": "python",
+      "tags": [
+        "keras",
+        "predict",
+        "inference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from keras.callbacks import EarlyStopping\ncallback = EarlyStopping(monitor='val_loss', patience=3)",
+      "description": "Early stopping to prevent overfitting",
+      "scenario": "Early stopping to prevent overfitting",
+      "language": "python",
+      "tags": [
+        "early stopping",
+        "overfitting",
+        "callback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model_json = model.to_json()\nwith open('model.json', 'w') as json_file:\n    json_file.write(model_json)",
+      "description": "Save model architecture to JSON",
+      "scenario": "Save model architecture to JSON",
+      "language": "python",
+      "tags": [
+        "save",
+        "json",
+        "architecture"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.load_weights('model_weights.h5')",
+      "description": "Load weights into model",
+      "scenario": "Load weights into model",
+      "language": "python",
+      "tags": [
+        "load",
+        "weights",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import numpy as np\nnp.random.seed(42)\ntf.random.set_seed(42)",
+      "description": "Set random seed for reproducibility",
+      "scenario": "Set random seed for reproducibility",
+      "language": "python",
+      "tags": [
+        "seed",
+        "reproducibility",
+        "random"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "physical_devices = tf.config.experimental.list_physical_devices('GPU')\nfor device in physical_devices:\n    tf.config.experimental.set_memory_growth(device, True)",
+      "description": "Configure GPU memory growth",
+      "scenario": "Configure GPU memory growth",
+      "language": "python",
+      "tags": [
+        "gpu",
+        "memory",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tf.get_logger().setLevel('ERROR')",
+      "description": "Set logging level to suppress warnings",
+      "scenario": "Set logging level to suppress warnings",
+      "language": "python",
+      "tags": [
+        "logging",
+        "warnings",
+        "suppress"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

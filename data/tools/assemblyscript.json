@@ -1,0 +1,204 @@
+{
+  "title": "AssemblyScript Cheat Sheet",
+  "slug": "assemblyscript",
+  "description": "Quick reference for AssemblyScript syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let count: i32 = 0;",
+      "description": "Declare a variable with a specific type",
+      "scenario": "Declare a variable with a specific type",
+      "language": "typescript",
+      "tags": [
+        "variable",
+        "declaration",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function add(a: i32, b: i32): i32 { return a + b; }",
+      "description": "Define a function with a return type",
+      "scenario": "Define a function with a return type",
+      "language": "typescript",
+      "tags": [
+        "function",
+        "return",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const PI: f64 = 3.14159;",
+      "description": "Create a constant",
+      "scenario": "Create a constant",
+      "language": "typescript",
+      "tags": [
+        "constant",
+        "declaration",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (x > 10) { /* do something */ } else { /* do something else */ }",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "typescript",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (let i: i32 = 0; i < 10; i++) { /* do something */ }",
+      "description": "For loop iterating over a range",
+      "scenario": "For loop iterating over a range",
+      "language": "typescript",
+      "tags": [
+        "loop",
+        "iteration",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (condition) { /* do something */ }",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "typescript",
+      "tags": [
+        "loop",
+        "while",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx asinit .",
+      "description": "Initialize a new AssemblyScript project",
+      "scenario": "Initialize a new AssemblyScript project",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run asbuild",
+      "description": "Compile AssemblyScript to WebAssembly",
+      "scenario": "Compile AssemblyScript to WebAssembly",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "webassembly",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm test",
+      "description": "Run tests for AssemblyScript project",
+      "scenario": "Run tests for AssemblyScript project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let numbers: i32[] = [1, 2, 3, 4];",
+      "description": "Declare a static array",
+      "scenario": "Declare a static array",
+      "language": "typescript",
+      "tags": [
+        "array",
+        "static",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Point { constructor(public x: i32, public y: i32) {} }",
+      "description": "Define a class with a constructor",
+      "scenario": "Define a class with a constructor",
+      "language": "typescript",
+      "tags": [
+        "class",
+        "constructor",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let map = new Map<string, i32>();",
+      "description": "Create a map (dictionary)",
+      "scenario": "Create a map (dictionary)",
+      "language": "typescript",
+      "tags": [
+        "map",
+        "dictionary",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Singleton { private static instance: Singleton; private constructor() {} static getInstance(): Singleton { if (!Singleton.instance) { Singleton.instance = new Singleton(); } return Singleton.instance; } }",
+      "description": "Singleton pattern implementation",
+      "scenario": "Singleton pattern implementation",
+      "language": "typescript",
+      "tags": [
+        "singleton",
+        "pattern",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class CarFactory { static createCar(type: string): Car { if (type === 'sedan') return new Sedan(); else return new SUV(); } }",
+      "description": "Factory pattern example",
+      "scenario": "Factory pattern example",
+      "language": "typescript",
+      "tags": [
+        "factory",
+        "pattern",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Subject { private observers: Observer[] = []; addObserver(observer: Observer) { this.observers.push(observer); } notifyObservers() { for (let observer of this.observers) { observer.update(); } } }",
+      "description": "Observer pattern setup",
+      "scenario": "Observer pattern setup",
+      "language": "typescript",
+      "tags": [
+        "observer",
+        "pattern",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

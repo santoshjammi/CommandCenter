@@ -1,0 +1,204 @@
+{
+  "title": "Ada Programming Cheat Sheet",
+  "slug": "ada",
+  "description": "Quick reference for Ada programming language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "My_Constant : constant Integer := 10;",
+      "description": "Declare a constant integer",
+      "scenario": "Declare a constant integer",
+      "language": "ada",
+      "tags": [
+        "constant",
+        "declaration",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "My_Variable : Integer;",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "ada",
+      "tags": [
+        "variable",
+        "declaration",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for I in 1..10 loop\n   -- loop body\nend loop;",
+      "description": "Create a simple loop",
+      "scenario": "Create a simple loop",
+      "language": "ada",
+      "tags": [
+        "loop",
+        "iteration",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if X > Y then\n   -- do something\nelse\n   -- do something else\nend if;",
+      "description": "If-Else statement",
+      "scenario": "If-Else statement",
+      "language": "ada",
+      "tags": [
+        "if",
+        "else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case Day is\n   when Monday =>\n      -- do something\n   when Tuesday =>\n      -- do something else\n   when others =>\n      -- default case\nend case;",
+      "description": "Case statement",
+      "scenario": "Case statement",
+      "language": "ada",
+      "tags": [
+        "case",
+        "switch",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while X < 10 loop\n   -- loop body\nend loop;",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "ada",
+      "tags": [
+        "while",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "procedure Print_Message is\nbegin\n   -- procedure body\nend Print_Message;",
+      "description": "Define a procedure",
+      "scenario": "Define a procedure",
+      "language": "ada",
+      "tags": [
+        "procedure",
+        "subroutine",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function Add (A, B : Integer) return Integer is\nbegin\n   return A + B;\nend Add;",
+      "description": "Define a function with return type",
+      "scenario": "Define a function with return type",
+      "language": "ada",
+      "tags": [
+        "function",
+        "return",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Print_Message;",
+      "description": "Call a procedure",
+      "scenario": "Call a procedure",
+      "language": "ada",
+      "tags": [
+        "procedure",
+        "call",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "package My_Package is\n   -- package specification\nend My_Package;",
+      "description": "Declare a package",
+      "scenario": "Declare a package",
+      "language": "ada",
+      "tags": [
+        "package",
+        "declaration",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with Ada.Text_IO;\nuse Ada.Text_IO;",
+      "description": "Use a package",
+      "scenario": "Use a package",
+      "language": "ada",
+      "tags": [
+        "package",
+        "use",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "package body My_Package is\n   -- package body implementation\nend My_Package;",
+      "description": "Create a package body",
+      "scenario": "Create a package body",
+      "language": "ada",
+      "tags": [
+        "package",
+        "body",
+        "implementation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin\n   -- code that may raise an exception\nexception\n   when others =>\n      -- handle exception\nend;",
+      "description": "Handle exceptions with 'when others'",
+      "scenario": "Handle exceptions with 'when others'",
+      "language": "ada",
+      "tags": [
+        "exception",
+        "handling",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "raise Constraint_Error;",
+      "description": "Raise an exception",
+      "scenario": "Raise an exception",
+      "language": "ada",
+      "tags": [
+        "exception",
+        "raise",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "My_Exception : exception;",
+      "description": "Define a custom exception",
+      "scenario": "Define a custom exception",
+      "language": "ada",
+      "tags": [
+        "exception",
+        "custom",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Bear CLI Cheat Sheet",
+  "slug": "bear",
+  "description": "Essential commands and syntax for using Bear CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "bear init",
+      "description": "Initialize a new Bear project",
+      "scenario": "Initialize a new Bear project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear start",
+      "description": "Start the Bear server",
+      "scenario": "Start the Bear server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear stop",
+      "description": "Stop the Bear server",
+      "scenario": "Stop the Bear server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "server",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear config set <key> <value>",
+      "description": "Set the Bear configuration file",
+      "scenario": "Set the Bear configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear config get <key>",
+      "description": "Get a configuration value",
+      "scenario": "Get a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear add component <name>",
+      "description": "Add a new component to the project",
+      "scenario": "Add a new component to the project",
+      "language": "bash",
+      "tags": [
+        "add",
+        "component",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear remove component <name>",
+      "description": "Remove a component from the project",
+      "scenario": "Remove a component from the project",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "component",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear list components",
+      "description": "List all components in the project",
+      "scenario": "List all components in the project",
+      "language": "bash",
+      "tags": [
+        "list",
+        "components",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear start --debug",
+      "description": "Run Bear in debug mode",
+      "scenario": "Run Bear in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "mode",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear --version",
+      "description": "Check Bear version",
+      "scenario": "Check Bear version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bear update",
+      "description": "Update Bear to the latest version",
+      "scenario": "Update Bear to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "latest",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

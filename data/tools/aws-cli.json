@@ -1,0 +1,204 @@
+{
+  "title": "AWS CLI Cheat Sheet",
+  "slug": "aws-cli",
+  "description": "Essential AWS CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "aws s3 ls",
+      "description": "List all S3 buckets",
+      "scenario": "List all S3 buckets",
+      "language": "bash",
+      "tags": [
+        "s3",
+        "list",
+        "buckets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 describe-instances",
+      "description": "Describe EC2 instances",
+      "scenario": "Describe EC2 instances",
+      "language": "bash",
+      "tags": [
+        "ec2",
+        "describe",
+        "instances"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws configure list",
+      "description": "Check current AWS CLI configuration",
+      "scenario": "Check current AWS CLI configuration",
+      "language": "bash",
+      "tags": [
+        "configure",
+        "settings",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 cp file.txt s3://mybucket/",
+      "description": "Copy a file to an S3 bucket",
+      "scenario": "Copy a file to an S3 bucket",
+      "language": "bash",
+      "tags": [
+        "s3",
+        "copy",
+        "upload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 sync ./localdir s3://mybucket/",
+      "description": "Sync a local directory with an S3 bucket",
+      "scenario": "Sync a local directory with an S3 bucket",
+      "language": "bash",
+      "tags": [
+        "s3",
+        "sync",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 rm s3://mybucket/file.txt",
+      "description": "Remove a file from an S3 bucket",
+      "scenario": "Remove a file from an S3 bucket",
+      "language": "bash",
+      "tags": [
+        "s3",
+        "remove",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws iam list-users",
+      "description": "List IAM users",
+      "scenario": "List IAM users",
+      "language": "bash",
+      "tags": [
+        "iam",
+        "list",
+        "users"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws iam create-user --user-name newuser",
+      "description": "Create a new IAM user",
+      "scenario": "Create a new IAM user",
+      "language": "bash",
+      "tags": [
+        "iam",
+        "create",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws iam attach-user-policy --user-name newuser --policy-arn arn:aws:iam::aws:policy/AdministratorAccess",
+      "description": "Attach a policy to an IAM user",
+      "scenario": "Attach a policy to an IAM user",
+      "language": "bash",
+      "tags": [
+        "iam",
+        "attach",
+        "policy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 start-instances --instance-ids i-1234567890abcdef0",
+      "description": "Start an EC2 instance",
+      "scenario": "Start an EC2 instance",
+      "language": "bash",
+      "tags": [
+        "ec2",
+        "start",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 stop-instances --instance-ids i-1234567890abcdef0",
+      "description": "Stop an EC2 instance",
+      "scenario": "Stop an EC2 instance",
+      "language": "bash",
+      "tags": [
+        "ec2",
+        "stop",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 terminate-instances --instance-ids i-1234567890abcdef0",
+      "description": "Terminate an EC2 instance",
+      "scenario": "Terminate an EC2 instance",
+      "language": "bash",
+      "tags": [
+        "ec2",
+        "terminate",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws configure --profile newprofile",
+      "description": "Set up a new AWS CLI profile",
+      "scenario": "Set up a new AWS CLI profile",
+      "language": "bash",
+      "tags": [
+        "configure",
+        "profile",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 ls --profile newprofile",
+      "description": "Use a specific profile for a command",
+      "scenario": "Use a specific profile for a command",
+      "language": "bash",
+      "tags": [
+        "profile",
+        "use",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws configure list-profiles",
+      "description": "List all configured profiles",
+      "scenario": "List all configured profiles",
+      "language": "bash",
+      "tags": [
+        "configure",
+        "list",
+        "profiles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "AWK Cheat Sheet",
+  "slug": "awk",
+  "description": "Quick reference for common AWK commands and patterns",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "awk '{print}' filename",
+      "description": "Print all lines in a file",
+      "scenario": "Print all lines in a file",
+      "language": "bash",
+      "tags": [
+        "print",
+        "file",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '{print $1}' filename",
+      "description": "Print the first column of each line",
+      "scenario": "Print the first column of each line",
+      "language": "bash",
+      "tags": [
+        "column",
+        "print",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '/pattern/ {print}' filename",
+      "description": "Print lines matching a pattern",
+      "scenario": "Print lines matching a pattern",
+      "language": "bash",
+      "tags": [
+        "pattern",
+        "match",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk -F\":\" '{print $1}' filename",
+      "description": "Specify a field separator",
+      "scenario": "Specify a field separator",
+      "language": "bash",
+      "tags": [
+        "separator",
+        "field",
+        "delimiter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk 'BEGIN {RS=\"\"} {print $1}' filename",
+      "description": "Use a different record separator",
+      "scenario": "Use a different record separator",
+      "language": "bash",
+      "tags": [
+        "record",
+        "separator",
+        "delimiter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk 'BEGIN {OFS=\",\"} {print $1, $2}' filename",
+      "description": "Change output field separator",
+      "scenario": "Change output field separator",
+      "language": "bash",
+      "tags": [
+        "output",
+        "separator",
+        "field"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '$1 > 10 {print}' filename",
+      "description": "Print lines where the first field is greater than 10",
+      "scenario": "Print lines where the first field is greater than 10",
+      "language": "bash",
+      "tags": [
+        "condition",
+        "greater",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '/word/ {print $0}' filename",
+      "description": "Print lines containing a specific word",
+      "scenario": "Print lines containing a specific word",
+      "language": "bash",
+      "tags": [
+        "search",
+        "word",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '$2 == \"foo\" {print}' filename",
+      "description": "Print lines where the second field is equal to 'foo'",
+      "scenario": "Print lines where the second field is equal to 'foo'",
+      "language": "bash",
+      "tags": [
+        "condition",
+        "equal",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '{print NF}' filename",
+      "description": "Print the number of fields in each line",
+      "scenario": "Print the number of fields in each line",
+      "language": "bash",
+      "tags": [
+        "fields",
+        "count",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '{print NR}' filename",
+      "description": "Print the current line number",
+      "scenario": "Print the current line number",
+      "language": "bash",
+      "tags": [
+        "line",
+        "number",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '{print FILENAME}' filename",
+      "description": "Print the filename being processed",
+      "scenario": "Print the filename being processed",
+      "language": "bash",
+      "tags": [
+        "filename",
+        "variable",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk 'NR <= 10 {print}' filename",
+      "description": "Print lines only from the first 10 lines",
+      "scenario": "Print lines only from the first 10 lines",
+      "language": "bash",
+      "tags": [
+        "control",
+        "flow",
+        "limit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk 'NR > 5 {print}' filename",
+      "description": "Skip the first 5 lines and print the rest",
+      "scenario": "Skip the first 5 lines and print the rest",
+      "language": "bash",
+      "tags": [
+        "skip",
+        "lines",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "awk '/start/,/end/' filename",
+      "description": "Print lines between two patterns",
+      "scenario": "Print lines between two patterns",
+      "language": "bash",
+      "tags": [
+        "range",
+        "pattern",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

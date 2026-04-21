@@ -1,0 +1,165 @@
+{
+  "title": "Characters Cheat Sheet",
+  "slug": "characters",
+  "description": "Quick reference for character handling in various languages.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "my_string.upper()",
+      "description": "Convert a string to uppercase",
+      "scenario": "Convert a string to uppercase",
+      "language": "python",
+      "tags": [
+        "uppercase",
+        "string",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_string.strip()",
+      "description": "Strip whitespace from a string",
+      "scenario": "Strip whitespace from a string",
+      "language": "python",
+      "tags": [
+        "strip",
+        "whitespace",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_string.replace('old', 'new')",
+      "description": "Replace a substring within a string",
+      "scenario": "Replace a substring within a string",
+      "language": "python",
+      "tags": [
+        "replace",
+        "substring",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iconv -f ISO-8859-1 -t UTF-8 input.txt -o output.txt",
+      "description": "Convert file from ISO-8859-1 to UTF-8",
+      "scenario": "Convert file from ISO-8859-1 to UTF-8",
+      "language": "bash",
+      "tags": [
+        "encoding",
+        "iconv",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file -i filename",
+      "description": "Display file encoding",
+      "scenario": "Display file encoding",
+      "language": "bash",
+      "tags": [
+        "encoding",
+        "file",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export LANG=en_US.UTF-8",
+      "description": "Set terminal to UTF-8 encoding",
+      "scenario": "Set terminal to UTF-8 encoding",
+      "language": "bash",
+      "tags": [
+        "encoding",
+        "terminal",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myString.length",
+      "description": "Find the length of a string",
+      "scenario": "Find the length of a string",
+      "language": "javascript",
+      "tags": [
+        "length",
+        "string",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myString.toLowerCase()",
+      "description": "Convert a string to lowercase",
+      "scenario": "Convert a string to lowercase",
+      "language": "javascript",
+      "tags": [
+        "lowercase",
+        "string",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "string1.concat(string2)",
+      "description": "Concatenate two strings",
+      "scenario": "Concatenate two strings",
+      "language": "javascript",
+      "tags": [
+        "concatenate",
+        "string",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT UPPER(column_name) FROM table_name;",
+      "description": "Convert a string to uppercase",
+      "scenario": "Convert a string to uppercase",
+      "language": "sql",
+      "tags": [
+        "uppercase",
+        "string",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT LENGTH(column_name) FROM table_name;",
+      "description": "Get the length of a string",
+      "scenario": "Get the length of a string",
+      "language": "sql",
+      "tags": [
+        "length",
+        "string",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT CONCAT(string1, string2) FROM table_name;",
+      "description": "Concatenate two strings",
+      "scenario": "Concatenate two strings",
+      "language": "sql",
+      "tags": [
+        "concatenate",
+        "string",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

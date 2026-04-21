@@ -1,0 +1,204 @@
+{
+  "title": "Slack Cheat Sheet",
+  "slug": "slack",
+  "description": "Quick reference for using Slack efficiently.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo last action",
+      "scenario": "Undo last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "keyboard",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+F",
+      "description": "Search messages",
+      "scenario": "Search messages",
+      "language": "text",
+      "tags": [
+        "search",
+        "keyboard",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+K",
+      "description": "Open Direct Messages",
+      "scenario": "Open Direct Messages",
+      "language": "text",
+      "tags": [
+        "direct messages",
+        "keyboard",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+Up Arrow",
+      "description": "Switch to next channel",
+      "scenario": "Switch to next channel",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "channel",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+Down Arrow",
+      "description": "Switch to previous channel",
+      "scenario": "Switch to previous channel",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "channel",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+A",
+      "description": "Open All Unreads",
+      "scenario": "Open All Unreads",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "unreads",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Enter",
+      "description": "Start a new line in a message",
+      "scenario": "Start a new line in a message",
+      "language": "text",
+      "tags": [
+        "messaging",
+        "new line",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Up Arrow",
+      "description": "Edit your last message",
+      "scenario": "Edit your last message",
+      "language": "text",
+      "tags": [
+        "edit",
+        "messaging",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Hover over message > Click on smiley face icon",
+      "description": "React to a message",
+      "scenario": "React to a message",
+      "language": "text",
+      "tags": [
+        "reaction",
+        "messaging",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on paperclip icon > Select file",
+      "description": "Upload a file",
+      "scenario": "Upload a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "upload",
+        "attachment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on file > Click 'Download' button",
+      "description": "Download a file",
+      "scenario": "Download a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "download",
+        "attachment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Drag file into channel > Press 'Enter'",
+      "description": "Share a file in a channel",
+      "scenario": "Share a file in a channel",
+      "language": "text",
+      "tags": [
+        "file",
+        "share",
+        "channel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Right-click channel name > Select 'Mute channel'",
+      "description": "Mute a channel",
+      "scenario": "Mute a channel",
+      "language": "text",
+      "tags": [
+        "notifications",
+        "mute",
+        "channel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on message options > Select 'Remind me about this'",
+      "description": "Set a reminder",
+      "scenario": "Set a reminder",
+      "language": "text",
+      "tags": [
+        "reminder",
+        "notifications",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Esc",
+      "description": "Mark all messages as read",
+      "scenario": "Mark all messages as read",
+      "language": "text",
+      "tags": [
+        "notifications",
+        "read",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

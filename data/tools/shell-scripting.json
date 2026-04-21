@@ -1,0 +1,204 @@
+{
+  "title": "Shell Scripting Cheat Sheet",
+  "slug": "shell-scripting",
+  "description": "Essential shell scripting commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "pwd",
+      "description": "Prints the current working directory",
+      "scenario": "Prints the current working directory",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "path",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -la",
+      "description": "Lists files and directories",
+      "scenario": "Lists files and directories",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /path/to/directory",
+      "description": "Changes the current directory",
+      "scenario": "Changes the current directory",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "touch filename.txt",
+      "description": "Creates a new file",
+      "scenario": "Creates a new file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "create",
+        "empty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rm filename.txt",
+      "description": "Removes a file",
+      "scenario": "Removes a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "delete",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copies a file",
+      "scenario": "Copies a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "copy",
+        "duplicate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'pattern' filename.txt",
+      "description": "Searches for a pattern in a file",
+      "scenario": "Searches for a pattern in a file",
+      "language": "bash",
+      "tags": [
+        "search",
+        "pattern",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sort filename.txt",
+      "description": "Sorts lines in a file",
+      "scenario": "Sorts lines in a file",
+      "language": "bash",
+      "tags": [
+        "sort",
+        "lines",
+        "order"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed 's/old/new/g' filename.txt",
+      "description": "Replaces text in a file",
+      "scenario": "Replaces text in a file",
+      "language": "bash",
+      "tags": [
+        "replace",
+        "text",
+        "sed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if [ condition ]; then echo 'true'; else echo 'false'; fi",
+      "description": "If-else conditional statement",
+      "scenario": "If-else conditional statement",
+      "language": "bash",
+      "tags": [
+        "conditional",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 1 2 3; do echo $i; done",
+      "description": "For loop to iterate over a list",
+      "scenario": "For loop to iterate over a list",
+      "language": "bash",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while [ condition ]; do echo 'running'; done",
+      "description": "While loop to execute until a condition is false",
+      "scenario": "While loop to execute until a condition is false",
+      "language": "bash",
+      "tags": [
+        "loop",
+        "while",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VARIABLE_NAME='value'",
+      "description": "Declares a variable and assigns a value",
+      "scenario": "Declares a variable and assigns a value",
+      "language": "bash",
+      "tags": [
+        "variable",
+        "declare",
+        "assign"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function_name() { echo 'Hello, World!'; }",
+      "description": "Defines a function",
+      "scenario": "Defines a function",
+      "language": "bash",
+      "tags": [
+        "function",
+        "define",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo $VARIABLE_NAME",
+      "description": "Accesses a variable's value",
+      "scenario": "Accesses a variable's value",
+      "language": "bash",
+      "tags": [
+        "variable",
+        "access",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

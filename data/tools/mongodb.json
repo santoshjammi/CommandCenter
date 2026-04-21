@@ -1,0 +1,204 @@
+{
+  "title": "MongoDB Cheat Sheet",
+  "slug": "mongodb",
+  "description": "Essential MongoDB commands and syntax for quick reference.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "mongo",
+      "description": "Start the MongoDB shell",
+      "scenario": "Start the MongoDB shell",
+      "language": "bash",
+      "tags": [
+        "shell",
+        "cli",
+        "startup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show dbs",
+      "description": "Show all databases",
+      "scenario": "Show all databases",
+      "language": "bash",
+      "tags": [
+        "databases",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "use myDatabase",
+      "description": "Switch to a specific database",
+      "scenario": "Switch to a specific database",
+      "language": "bash",
+      "tags": [
+        "database",
+        "switch",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.insertOne({ name: 'John', age: 30 })",
+      "description": "Insert a document into a collection",
+      "scenario": "Insert a document into a collection",
+      "language": "javascript",
+      "tags": [
+        "insert",
+        "document",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.find()",
+      "description": "Find all documents in a collection",
+      "scenario": "Find all documents in a collection",
+      "language": "javascript",
+      "tags": [
+        "find",
+        "query",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.updateOne({ name: 'John' }, { $set: { age: 31 } })",
+      "description": "Update a document in a collection",
+      "scenario": "Update a document in a collection",
+      "language": "javascript",
+      "tags": [
+        "update",
+        "document",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.createIndex({ name: 1 })",
+      "description": "Create an index on a field",
+      "scenario": "Create an index on a field",
+      "language": "javascript",
+      "tags": [
+        "index",
+        "create",
+        "field"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.getIndexes()",
+      "description": "List all indexes on a collection",
+      "scenario": "List all indexes on a collection",
+      "language": "javascript",
+      "tags": [
+        "index",
+        "list",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.dropIndex('name_1')",
+      "description": "Drop an index from a collection",
+      "scenario": "Drop an index from a collection",
+      "language": "javascript",
+      "tags": [
+        "index",
+        "drop",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.aggregate([{ $match: { status: 'A' } }])",
+      "description": "Perform a simple aggregation",
+      "scenario": "Perform a simple aggregation",
+      "language": "javascript",
+      "tags": [
+        "aggregate",
+        "match",
+        "pipeline"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.aggregate([{ $group: { _id: '$status', total: { $sum: 1 } } }])",
+      "description": "Group documents by a field",
+      "scenario": "Group documents by a field",
+      "language": "javascript",
+      "tags": [
+        "aggregate",
+        "group",
+        "sum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection.aggregate([{ $sort: { age: -1 } }])",
+      "description": "Sort documents in aggregation",
+      "scenario": "Sort documents in aggregation",
+      "language": "javascript",
+      "tags": [
+        "aggregate",
+        "sort",
+        "pipeline"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl enable mongod",
+      "description": "Set MongoDB to run as a service",
+      "scenario": "Set MongoDB to run as a service",
+      "language": "bash",
+      "tags": [
+        "service",
+        "systemctl",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl status mongod",
+      "description": "Check MongoDB service status",
+      "scenario": "Check MongoDB service status",
+      "language": "bash",
+      "tags": [
+        "service",
+        "status",
+        "systemctl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mongod --config /etc/mongod.conf",
+      "description": "Change MongoDB configuration file location",
+      "scenario": "Change MongoDB configuration file location",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

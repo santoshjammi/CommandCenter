@@ -1,0 +1,204 @@
+{
+  "title": "UML Cheat Sheet",
+  "slug": "uml",
+  "description": "Quick reference for UML diagram syntax and commands.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "class ClassName {\n    +attribute1: Type\n    -attribute2: Type\n    #method1(param: Type): ReturnType\n}",
+      "description": "Define a class with attributes and methods",
+      "scenario": "Define a class with attributes and methods",
+      "language": "text",
+      "tags": [
+        "class",
+        "attributes",
+        "methods"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ClassA -- ClassB",
+      "description": "Create an association between two classes",
+      "scenario": "Create an association between two classes",
+      "language": "text",
+      "tags": [
+        "association",
+        "relationship",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ClassA <|-- ClassB",
+      "description": "Define an inheritance relationship",
+      "scenario": "Define an inheritance relationship",
+      "language": "text",
+      "tags": [
+        "inheritance",
+        "generalization",
+        "hierarchy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ObjectA -> ObjectB: Message",
+      "description": "Create a message between two objects",
+      "scenario": "Create a message between two objects",
+      "language": "text",
+      "tags": [
+        "sequence",
+        "message",
+        "interaction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "activate ObjectA",
+      "description": "Define an activation bar on an object",
+      "scenario": "Define an activation bar on an object",
+      "language": "text",
+      "tags": [
+        "activation",
+        "lifeline",
+        "sequence"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ObjectB --> ObjectA: ReturnValue",
+      "description": "Represent a return message",
+      "scenario": "Represent a return message",
+      "language": "text",
+      "tags": [
+        "return",
+        "message",
+        "sequence"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "actor User",
+      "description": "Define an actor in a use case diagram",
+      "scenario": "Define an actor in a use case diagram",
+      "language": "text",
+      "tags": [
+        "actor",
+        "use case",
+        "role"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "usecase \"Use Case Name\" as UC1",
+      "description": "Create a use case",
+      "scenario": "Create a use case",
+      "language": "text",
+      "tags": [
+        "use case",
+        "interaction",
+        "diagram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User --> UC1",
+      "description": "Establish a relationship between an actor and a use case",
+      "scenario": "Establish a relationship between an actor and a use case",
+      "language": "text",
+      "tags": [
+        "relationship",
+        "actor",
+        "use case"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "start",
+      "description": "Define a start node",
+      "scenario": "Define a start node",
+      "language": "text",
+      "tags": [
+        "start",
+        "activity",
+        "node"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) then\n    :True path;\nelse\n    :False path;\nendif",
+      "description": "Create a decision node",
+      "scenario": "Create a decision node",
+      "language": "text",
+      "tags": [
+        "decision",
+        "branch",
+        "activity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "end",
+      "description": "Define an end node",
+      "scenario": "Define an end node",
+      "language": "text",
+      "tags": [
+        "end",
+        "activity",
+        "node"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "component ComponentName",
+      "description": "Define a component",
+      "scenario": "Define a component",
+      "language": "text",
+      "tags": [
+        "component",
+        "module",
+        "diagram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ComponentA ..> ComponentB",
+      "description": "Create a dependency between components",
+      "scenario": "Create a dependency between components",
+      "language": "text",
+      "tags": [
+        "dependency",
+        "relationship",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface InterfaceName",
+      "description": "Represent an interface provided by a component",
+      "scenario": "Represent an interface provided by a component",
+      "language": "text",
+      "tags": [
+        "interface",
+        "component",
+        "provided"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "WebAssembly Cheat Sheet",
+  "slug": "webassembly",
+  "description": "Quick reference for WebAssembly CLI commands and code syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "emcc hello.c -o hello.html",
+      "description": "Compile C to WebAssembly using Emscripten",
+      "scenario": "Compile C to WebAssembly using Emscripten",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "emscripten",
+        "c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "node --experimental-wasm hello.wasm",
+      "description": "Run a WebAssembly file using Node.js",
+      "scenario": "Run a WebAssembly file using Node.js",
+      "language": "bash",
+      "tags": [
+        "node.js",
+        "run",
+        "wasm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone https://github.com/emscripten-core/emsdk.git && cd emsdk && ./emsdk install latest && ./emsdk activate latest",
+      "description": "Install Emscripten SDK",
+      "scenario": "Install Emscripten SDK",
+      "language": "bash",
+      "tags": [
+        "emsdk",
+        "install",
+        "emscripten"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(module (func (export \"add\") (param i32 i32) (result i32) local.get 0 local.get 1 i32.add))",
+      "description": "Define a simple WebAssembly module",
+      "scenario": "Define a simple WebAssembly module",
+      "language": "text",
+      "tags": [
+        "wat",
+        "module",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(module (import \"env\" \"log\" (func $log (param i32))))",
+      "description": "Import a function from JavaScript",
+      "scenario": "Import a function from JavaScript",
+      "language": "text",
+      "tags": [
+        "import",
+        "javascript",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(module (memory (export \"mem\") 1))",
+      "description": "Export a memory object",
+      "scenario": "Export a memory object",
+      "language": "text",
+      "tags": [
+        "export",
+        "memory",
+        "wat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "WebAssembly.instantiateStreaming(fetch('module.wasm')).then(obj => console.log(obj.instance.exports));",
+      "description": "Load a WebAssembly module in JavaScript",
+      "scenario": "Load a WebAssembly module in JavaScript",
+      "language": "javascript",
+      "tags": [
+        "load",
+        "javascript",
+        "wasm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const result = instance.exports.add(5, 3);",
+      "description": "Call an exported WebAssembly function",
+      "scenario": "Call an exported WebAssembly function",
+      "language": "javascript",
+      "tags": [
+        "call",
+        "function",
+        "exports"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const memory = new WebAssembly.Memory({initial:1});",
+      "description": "Handle WebAssembly memory in JavaScript",
+      "scenario": "Handle WebAssembly memory in JavaScript",
+      "language": "javascript",
+      "tags": [
+        "memory",
+        "javascript",
+        "wasm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script>fetch('module.wasm').then(response => response.arrayBuffer()).then(bytes => WebAssembly.instantiate(bytes)).then(results => console.log(results));</script>",
+      "description": "Set up a basic HTML file to load WebAssembly",
+      "scenario": "Set up a basic HTML file to load WebAssembly",
+      "language": "html",
+      "tags": [
+        "html",
+        "load",
+        "wasm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "emcc -s WASM=1 -o output.html input.c",
+      "description": "Configure Emscripten to output WebAssembly",
+      "scenario": "Configure Emscripten to output WebAssembly",
+      "language": "bash",
+      "tags": [
+        "emscripten",
+        "output",
+        "wasm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(module (import \"js\" \"mem\" (memory 1)))",
+      "description": "Set up a WebAssembly module with memory import",
+      "scenario": "Set up a WebAssembly module with memory import",
+      "language": "text",
+      "tags": [
+        "memory",
+        "import",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (typeof WebAssembly === 'object') { console.log('WebAssembly is supported'); }",
+      "description": "Pattern for checking WebAssembly support",
+      "scenario": "Pattern for checking WebAssembly support",
+      "language": "javascript",
+      "tags": [
+        "support",
+        "check",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function stringToMemory(str, memory) { const encoder = new TextEncoder(); const view = new Uint8Array(memory.buffer); encoder.encodeInto(str, view); }",
+      "description": "Pattern for converting strings to WebAssembly memory",
+      "scenario": "Pattern for converting strings to WebAssembly memory",
+      "language": "javascript",
+      "tags": [
+        "convert",
+        "string",
+        "memory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(module (func (export \"add\") (param i32 i32) (result i32) local.get 0 local.get 1 i32.add) (func (export \"subtract\") (param i32 i32) (result i32) local.get 0 local.get 1 i32.sub))",
+      "description": "Pattern for exporting multiple functions",
+      "scenario": "Pattern for exporting multiple functions",
+      "language": "text",
+      "tags": [
+        "export",
+        "functions",
+        "wat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Gemini CLI Cheat Sheet",
+  "slug": "gemini-cli",
+  "description": "Essential commands and configurations for Gemini CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "gemini init",
+      "description": "Initialize a new Gemini project",
+      "scenario": "Initialize a new Gemini project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemini test",
+      "description": "Run tests in the current directory",
+      "scenario": "Run tests in the current directory",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemini update",
+      "description": "Update reference images for tests",
+      "scenario": "Update reference images for tests",
+      "language": "bash",
+      "tags": [
+        "update",
+        "images",
+        "reference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rootUrl: 'http://localhost:3000'",
+      "description": "Set the root URL for tests",
+      "scenario": "Set the root URL for tests",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "url",
+        "root"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browsers:\n  chrome:\n    desiredCapabilities:\n      browserName: 'chrome'",
+      "description": "Configure browsers for testing",
+      "scenario": "Configure browsers for testing",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "browsers",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "system:\n  exclude:\n    - 'node_modules/**'",
+      "description": "Exclude certain paths from testing",
+      "scenario": "Exclude certain paths from testing",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "exclude",
+        "paths"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemini test --browsers=chrome",
+      "description": "Run tests with a specific browser",
+      "scenario": "Run tests with a specific browser",
+      "language": "bash",
+      "tags": [
+        "test",
+        "browsers",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemini report",
+      "description": "Generate a detailed report of test results",
+      "scenario": "Generate a detailed report of test results",
+      "language": "bash",
+      "tags": [
+        "report",
+        "results",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemini test --debug",
+      "description": "Enable debug mode for more verbose output",
+      "scenario": "Enable debug mode for more verbose output",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "verbose",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemini test --config=custom.gemini.yml",
+      "description": "Use a custom configuration file",
+      "scenario": "Use a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "custom",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemini test --parallel",
+      "description": "Run tests in parallel",
+      "scenario": "Run tests in parallel",
+      "language": "bash",
+      "tags": [
+        "parallel",
+        "test",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemini test --grep='suite-name'",
+      "description": "Specify a test suite to run",
+      "scenario": "Specify a test suite to run",
+      "language": "bash",
+      "tags": [
+        "suite",
+        "specific",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

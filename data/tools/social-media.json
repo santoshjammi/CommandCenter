@@ -1,0 +1,204 @@
+{
+  "title": "Social Media CLI and API Cheat Sheet",
+  "slug": "social-media",
+  "description": "Essential commands and code snippets for managing social media via CLI and APIs.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "t update \"Hello World! #myfirstTweet\"",
+      "description": "Post a tweet using t CLI",
+      "scenario": "Post a tweet using t CLI",
+      "language": "bash",
+      "tags": [
+        "twitter",
+        "cli",
+        "tweet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "t follow @exampleuser",
+      "description": "Follow a user on Twitter using t CLI",
+      "scenario": "Follow a user on Twitter using t CLI",
+      "language": "bash",
+      "tags": [
+        "twitter",
+        "cli",
+        "follow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "t followers",
+      "description": "List your Twitter followers using t CLI",
+      "scenario": "List your Twitter followers using t CLI",
+      "language": "bash",
+      "tags": [
+        "twitter",
+        "cli",
+        "followers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /me?fields=id,name,email",
+      "description": "Get user profile information",
+      "scenario": "Get user profile information",
+      "language": "text",
+      "tags": [
+        "facebook",
+        "api",
+        "profile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /{page-id}/feed?message=Hello+World",
+      "description": "Post a status update to a Facebook page",
+      "scenario": "Post a status update to a Facebook page",
+      "language": "text",
+      "tags": [
+        "facebook",
+        "api",
+        "post"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /{page-id}/feed",
+      "description": "Retrieve a Facebook page's feed",
+      "scenario": "Retrieve a Facebook page's feed",
+      "language": "text",
+      "tags": [
+        "facebook",
+        "api",
+        "feed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /users/{user-id}/?access_token=ACCESS-TOKEN",
+      "description": "Get basic information about a user",
+      "scenario": "Get basic information about a user",
+      "language": "text",
+      "tags": [
+        "instagram",
+        "api",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /users/{user-id}/media/recent/?access_token=ACCESS-TOKEN",
+      "description": "Get the most recent media published by a user",
+      "scenario": "Get the most recent media published by a user",
+      "language": "text",
+      "tags": [
+        "instagram",
+        "api",
+        "media"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /users/search?q=USERNAME&access_token=ACCESS-TOKEN",
+      "description": "Search for a user by name",
+      "scenario": "Search for a user by name",
+      "language": "text",
+      "tags": [
+        "instagram",
+        "api",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /v2/shares",
+      "description": "Share a post on LinkedIn",
+      "scenario": "Share a post on LinkedIn",
+      "language": "text",
+      "tags": [
+        "linkedin",
+        "api",
+        "post"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /v2/me",
+      "description": "Retrieve the current user's profile",
+      "scenario": "Retrieve the current user's profile",
+      "language": "text",
+      "tags": [
+        "linkedin",
+        "api",
+        "profile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /v2/connections?q=viewer",
+      "description": "Get the current user's connections",
+      "scenario": "Get the current user's connections",
+      "language": "text",
+      "tags": [
+        "linkedin",
+        "api",
+        "connections"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://www.googleapis.com/youtube/v3/channels?part=snippet&id=CHANNEL_ID&key=API_KEY",
+      "description": "Retrieve a channel's details",
+      "scenario": "Retrieve a channel's details",
+      "language": "text",
+      "tags": [
+        "youtube",
+        "api",
+        "channel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://www.googleapis.com/youtube/v3/search?part=snippet&q=KEYWORD&type=video&key=API_KEY",
+      "description": "Search for videos by keyword",
+      "scenario": "Search for videos by keyword",
+      "language": "text",
+      "tags": [
+        "youtube",
+        "api",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://www.googleapis.com/youtube/v3/videos?part=snippet&id=VIDEO_ID&key=API_KEY",
+      "description": "Get a video's details",
+      "scenario": "Get a video's details",
+      "language": "text",
+      "tags": [
+        "youtube",
+        "api",
+        "video"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

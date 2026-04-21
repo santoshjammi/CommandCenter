@@ -1,0 +1,204 @@
+{
+  "title": "HTML-DOM Cheat Sheet",
+  "slug": "html-dom",
+  "description": "Quick reference for HTML DOM manipulation and traversal.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "document.getElementById('myId')",
+      "description": "Select an element by ID",
+      "scenario": "Select an element by ID",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "select",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementsByClassName('myClass')",
+      "description": "Select elements by class name",
+      "scenario": "Select elements by class name",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "select",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementsByTagName('div')",
+      "description": "Select elements by tag name",
+      "scenario": "Select elements by tag name",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "select",
+        "tag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').innerHTML = 'New Content';",
+      "description": "Change the inner HTML of an element",
+      "scenario": "Change the inner HTML of an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "manipulate",
+        "innerHTML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').setAttribute('class', 'newClass');",
+      "description": "Set an attribute of an element",
+      "scenario": "Set an attribute of an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "attribute",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').classList.add('newClass');",
+      "description": "Add a class to an element",
+      "scenario": "Add a class to an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "class",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').addEventListener('click', function() { alert('Clicked!'); });",
+      "description": "Add a click event listener to an element",
+      "scenario": "Add a click event listener to an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "event",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').removeEventListener('click', myFunction);",
+      "description": "Remove an event listener from an element",
+      "scenario": "Remove an event listener from an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "event",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').click();",
+      "description": "Trigger a click event programmatically",
+      "scenario": "Trigger a click event programmatically",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "event",
+        "trigger"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').parentNode",
+      "description": "Get the parent node of an element",
+      "scenario": "Get the parent node of an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "traverse",
+        "parent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').firstChild",
+      "description": "Get the first child of an element",
+      "scenario": "Get the first child of an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "traverse",
+        "child"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').nextSibling",
+      "description": "Get the next sibling of an element",
+      "scenario": "Get the next sibling of an element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "traverse",
+        "sibling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.createElement('div')",
+      "description": "Create a new element",
+      "scenario": "Create a new element",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "create",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('parentId').appendChild(newElement);",
+      "description": "Append a new element to a parent",
+      "scenario": "Append a new element to a parent",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "append",
+        "child"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myId').remove();",
+      "description": "Remove an element from the DOM",
+      "scenario": "Remove an element from the DOM",
+      "language": "javascript",
+      "tags": [
+        "DOM",
+        "remove",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

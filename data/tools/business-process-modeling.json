@@ -1,0 +1,204 @@
+{
+  "title": "Business Process Modeling Cheat Sheet",
+  "slug": "business-process-modeling",
+  "description": "Essential commands and syntax for Business Process Modeling",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "<bpmn:startEvent id=\"StartEvent_1\" name=\"Start\"/>",
+      "description": "Define a start event in BPMN",
+      "scenario": "Define a start event in BPMN",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "start",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:task id=\"Task_1\" name=\"Perform Task\"/>",
+      "description": "Define a task in BPMN",
+      "scenario": "Define a task in BPMN",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "task",
+        "activity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:endEvent id=\"EndEvent_1\" name=\"End\"/>",
+      "description": "Define an end event in BPMN",
+      "scenario": "Define an end event in BPMN",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "end",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:exclusiveGateway id=\"ExclusiveGateway_1\" name=\"Decision\"/>",
+      "description": "Define an exclusive gateway in BPMN",
+      "scenario": "Define an exclusive gateway in BPMN",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "gateway",
+        "exclusive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:parallelGateway id=\"ParallelGateway_1\" name=\"Parallel\"/>",
+      "description": "Define a parallel gateway in BPMN",
+      "scenario": "Define a parallel gateway in BPMN",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "gateway",
+        "parallel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:inclusiveGateway id=\"InclusiveGateway_1\" name=\"Inclusive\"/>",
+      "description": "Define an inclusive gateway in BPMN",
+      "scenario": "Define an inclusive gateway in BPMN",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "gateway",
+        "inclusive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:sequenceFlow id=\"Flow_1\" sourceRef=\"Task_1\" targetRef=\"Task_2\"/>",
+      "description": "Define a sequence flow between two tasks",
+      "scenario": "Define a sequence flow between two tasks",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "sequence",
+        "flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:sequenceFlow id=\"Flow_2\" sourceRef=\"ExclusiveGateway_1\" targetRef=\"Task_3\">\n  <bpmn:conditionExpression xsi:type=\"bpmn:tFormalExpression\">${condition}</bpmn:conditionExpression>\n</bpmn:sequenceFlow>",
+      "description": "Define a conditional flow with an expression",
+      "scenario": "Define a conditional flow with an expression",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "conditional",
+        "flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:sequenceFlow id=\"Flow_3\" sourceRef=\"ExclusiveGateway_1\" targetRef=\"Task_4\" isDefault=\"true\"/>",
+      "description": "Define a default flow from a gateway",
+      "scenario": "Define a default flow from a gateway",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "default",
+        "flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:participant id=\"Participant_1\" name=\"Pool Name\" processRef=\"Process_1\"/>",
+      "description": "Define a pool in BPMN",
+      "scenario": "Define a pool in BPMN",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "pool",
+        "participant"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:lane id=\"Lane_1\" name=\"Lane Name\">\n  <bpmn:flowNodeRef>Task_1</bpmn:flowNodeRef>\n</bpmn:lane>",
+      "description": "Define a lane within a pool",
+      "scenario": "Define a lane within a pool",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "lane",
+        "pool"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:process id=\"Process_1\" isExecutable=\"true\">\n  <bpmn:startEvent id=\"StartEvent_1\"/>\n</bpmn:process>",
+      "description": "Define a process within a pool",
+      "scenario": "Define a process within a pool",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "process",
+        "pool"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:intermediateCatchEvent id=\"TimerEvent_1\">\n  <bpmn:timerEventDefinition>\n    <bpmn:timeDate>2023-10-10T10:00:00</bpmn:timeDate>\n  </bpmn:timerEventDefinition>\n</bpmn:intermediateCatchEvent>",
+      "description": "Define an intermediate timer event",
+      "scenario": "Define an intermediate timer event",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "timer",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:intermediateThrowEvent id=\"MessageEvent_1\">\n  <bpmn:messageEventDefinition messageRef=\"Message_1\"/>\n</bpmn:intermediateThrowEvent>",
+      "description": "Define an intermediate message event",
+      "scenario": "Define an intermediate message event",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "message",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:endEvent id=\"ErrorEvent_1\">\n  <bpmn:errorEventDefinition errorRef=\"Error_1\"/>\n</bpmn:endEvent>",
+      "description": "Define an error event",
+      "scenario": "Define an error event",
+      "language": "xml",
+      "tags": [
+        "BPMN",
+        "error",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

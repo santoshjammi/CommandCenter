@@ -1,0 +1,204 @@
+{
+  "title": "Linker Script Cheat Sheet",
+  "slug": "linker-script",
+  "description": "Essential linker script commands and syntax for embedded engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "ENTRY(_start)",
+      "description": "Define the entry point of the program",
+      "scenario": "Define the entry point of the program",
+      "language": "text",
+      "tags": [
+        "entry",
+        "start",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INCLUDE \"other.ld\"",
+      "description": "Include another linker script",
+      "scenario": "Include another linker script",
+      "language": "text",
+      "tags": [
+        "include",
+        "linker",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MEMORY { RAM : ORIGIN = 0x20000000, LENGTH = 64K }",
+      "description": "Define a memory region",
+      "scenario": "Define a memory region",
+      "language": "text",
+      "tags": [
+        "memory",
+        "region",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SECTIONS { .text : { *(.text) } > FLASH }",
+      "description": "Place .text section in FLASH",
+      "scenario": "Place .text section in FLASH",
+      "language": "text",
+      "tags": [
+        "section",
+        "text",
+        "flash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SECTIONS { .data : { *(.data) } > RAM }",
+      "description": "Place .data section in RAM",
+      "scenario": "Place .data section in RAM",
+      "language": "text",
+      "tags": [
+        "section",
+        "data",
+        "ram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ". = ALIGN(4);",
+      "description": "Align a section to a specific boundary",
+      "scenario": "Align a section to a specific boundary",
+      "language": "text",
+      "tags": [
+        "align",
+        "boundary",
+        "section"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_my_symbol = .;",
+      "description": "Define a symbol at the current location",
+      "scenario": "Define a symbol at the current location",
+      "language": "text",
+      "tags": [
+        "symbol",
+        "define",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_size_of_text = SIZEOF(.text);",
+      "description": "Use a symbol in an expression",
+      "scenario": "Use a symbol in an expression",
+      "language": "text",
+      "tags": [
+        "symbol",
+        "expression",
+        "sizeof"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_stack_size = 0x400;",
+      "description": "Assign a value to a symbol",
+      "scenario": "Assign a value to a symbol",
+      "language": "text",
+      "tags": [
+        "symbol",
+        "assign",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OUTPUT_FORMAT(\"elf32-littlearm\")",
+      "description": "Specify the output format as ELF",
+      "scenario": "Specify the output format as ELF",
+      "language": "text",
+      "tags": [
+        "output",
+        "format",
+        "elf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OUTPUT_ARCH(arm)",
+      "description": "Set the output architecture",
+      "scenario": "Set the output architecture",
+      "language": "text",
+      "tags": [
+        "output",
+        "architecture",
+        "arm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ENTRY(main)",
+      "description": "Specify the entry point symbol",
+      "scenario": "Specify the entry point symbol",
+      "language": "text",
+      "tags": [
+        "entry",
+        "point",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MEMORY { STACK (rwx) : ORIGIN = 0x20001000, LENGTH = 0x1000 }",
+      "description": "Define a stack region",
+      "scenario": "Define a stack region",
+      "language": "text",
+      "tags": [
+        "stack",
+        "memory",
+        "region"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SECTIONS { .mydata : { *(.mydata) } > RAM }",
+      "description": "Place initialized data in a specific section",
+      "scenario": "Place initialized data in a specific section",
+      "language": "text",
+      "tags": [
+        "section",
+        "data",
+        "initialized"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SECTIONS { .debug : { *(.debug) } > FLASH }",
+      "description": "Define a custom section for debugging",
+      "scenario": "Define a custom section for debugging",
+      "language": "text",
+      "tags": [
+        "section",
+        "debug",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

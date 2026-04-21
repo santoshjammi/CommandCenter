@@ -1,0 +1,126 @@
+{
+  "title": "Fetch API Cheat Sheet",
+  "slug": "fetch",
+  "description": "Quick reference for using the Fetch API in JavaScript",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "fetch('https://api.example.com/data')\n  .then(response => response.json())\n  .then(data => console.log(data));",
+      "description": "Perform a simple GET request",
+      "scenario": "Perform a simple GET request",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "GET",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://api.example.com/data', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({ key: 'value' })\n})\n  .then(response => response.json())\n  .then(data => console.log(data));",
+      "description": "Perform a POST request with JSON payload",
+      "scenario": "Perform a POST request with JSON payload",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "POST",
+        "JSON"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://api.example.com/data')\n  .then(response => response.json())\n  .catch(error => console.error('Error:', error));",
+      "description": "Handle fetch errors with catch",
+      "scenario": "Handle fetch errors with catch",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "error",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const controller = new AbortController();\nconst signal = controller.signal;\nfetch('https://api.example.com/data', { signal })\n  .then(response => response.json())\n  .catch(error => console.error('Fetch aborted:', error));\ncontroller.abort();",
+      "description": "Abort a fetch request",
+      "scenario": "Abort a fetch request",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "abort",
+        "signal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const fetchWithTimeout = (url, options, timeout = 5000) => {\n  return Promise.race([\n    fetch(url, options),\n    new Promise((_, reject) =>\n      setTimeout(() => reject(new Error('Timeout')), timeout)\n    )\n  ]);\n};",
+      "description": "Set a timeout for fetch requests",
+      "scenario": "Set a timeout for fetch requests",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "timeout",
+        "promise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const fetchRetry = (url, options, n) => fetch(url, options)\n  .catch(error => {\n    if (n === 1) throw error;\n    return fetchRetry(url, options, n - 1);\n  });",
+      "description": "Retry fetch on failure",
+      "scenario": "Retry fetch on failure",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "retry",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://api.example.com/data')\n  .then(response => {\n    if (!response.ok) {\n      throw new Error('Network response was not ok');\n    }\n    return response.json();\n  })\n  .then(data => console.log(data));",
+      "description": "Check if response is OK",
+      "scenario": "Check if response is OK",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "response",
+        "ok"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://api.example.com/data')\n  .then(response => response.text())\n  .then(text => console.log(text));",
+      "description": "Read response as text",
+      "scenario": "Read response as text",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "response",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://api.example.com/data')\n  .then(response => response.blob())\n  .then(blob => {\n    // Handle the blob data\n  });",
+      "description": "Handle non-JSON response",
+      "scenario": "Handle non-JSON response",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "blob",
+        "response"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

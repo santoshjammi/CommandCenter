@@ -1,0 +1,204 @@
+{
+  "title": "Airtable Cheat Sheet",
+  "slug": "airtable",
+  "description": "Quick reference guide for using Airtable efficiently.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl+Shift+M",
+      "description": "Open the main menu",
+      "scenario": "Open the main menu",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "menu",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+K",
+      "description": "Switch between bases",
+      "scenario": "Switch between bases",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "bases",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Help > Help Center",
+      "description": "Open the help center",
+      "scenario": "Open the help center",
+      "language": "text",
+      "tags": [
+        "help",
+        "support",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Table > Create New Table",
+      "description": "Create a new table",
+      "scenario": "Create a new table",
+      "language": "text",
+      "tags": [
+        "table",
+        "create",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Table > Delete Table",
+      "description": "Delete a table",
+      "scenario": "Delete a table",
+      "language": "text",
+      "tags": [
+        "table",
+        "delete",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Double-click the table name",
+      "description": "Rename a table",
+      "scenario": "Rename a table",
+      "language": "text",
+      "tags": [
+        "table",
+        "rename",
+        "gui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Record > Add Record",
+      "description": "Add a new record",
+      "scenario": "Add a new record",
+      "language": "text",
+      "tags": [
+        "record",
+        "add",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Record > Delete Record",
+      "description": "Delete a record",
+      "scenario": "Delete a record",
+      "language": "text",
+      "tags": [
+        "record",
+        "delete",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Record > Duplicate Record",
+      "description": "Duplicate a record",
+      "scenario": "Duplicate a record",
+      "language": "text",
+      "tags": [
+        "record",
+        "duplicate",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View > Create New View",
+      "description": "Create a new view",
+      "scenario": "Create a new view",
+      "language": "text",
+      "tags": [
+        "view",
+        "create",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+V",
+      "description": "Switch between views",
+      "scenario": "Switch between views",
+      "language": "text",
+      "tags": [
+        "view",
+        "switch",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View > Filter",
+      "description": "Filter records in a view",
+      "scenario": "Filter records in a view",
+      "language": "text",
+      "tags": [
+        "view",
+        "filter",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Share > Invite Collaborators",
+      "description": "Share a base with others",
+      "scenario": "Share a base with others",
+      "language": "text",
+      "tags": [
+        "share",
+        "collaborate",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Record > Comment",
+      "description": "Comment on a record",
+      "scenario": "Comment on a record",
+      "language": "text",
+      "tags": [
+        "comment",
+        "record",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Activity > View Activity",
+      "description": "View collaborator activity",
+      "scenario": "View collaborator activity",
+      "language": "text",
+      "tags": [
+        "collaborate",
+        "activity",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

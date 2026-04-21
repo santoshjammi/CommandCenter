@@ -1,0 +1,165 @@
+{
+  "title": "BPM Command Line Cheat Sheet",
+  "slug": "bpm",
+  "description": "Essential BPM CLI commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "bpm init",
+      "description": "Initialize a new BPM project",
+      "scenario": "Initialize a new BPM project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm install",
+      "description": "Install dependencies for the current project",
+      "scenario": "Install dependencies for the current project",
+      "language": "bash",
+      "tags": [
+        "install",
+        "dependencies",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm update",
+      "description": "Update all dependencies to their latest versions",
+      "scenario": "Update all dependencies to their latest versions",
+      "language": "bash",
+      "tags": [
+        "update",
+        "dependencies",
+        "upgrade"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm add <package-name>",
+      "description": "Add a new package to the project",
+      "scenario": "Add a new package to the project",
+      "language": "bash",
+      "tags": [
+        "add",
+        "package",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm remove <package-name>",
+      "description": "Remove a package from the project",
+      "scenario": "Remove a package from the project",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "package",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm list",
+      "description": "List all installed packages in the project",
+      "scenario": "List all installed packages in the project",
+      "language": "bash",
+      "tags": [
+        "list",
+        "packages",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm config set <key> <value>",
+      "description": "Set a configuration value for the project",
+      "scenario": "Set a configuration value for the project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm config get <key>",
+      "description": "Get a configuration value for the project",
+      "scenario": "Get a configuration value for the project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm config delete <key>",
+      "description": "Delete a configuration key from the project",
+      "scenario": "Delete a configuration key from the project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "delete",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm publish",
+      "description": "Publish the current project to the BPM registry",
+      "scenario": "Publish the current project to the BPM registry",
+      "language": "bash",
+      "tags": [
+        "publish",
+        "registry",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm unpublish <project-name>",
+      "description": "Unpublish a project from the BPM registry",
+      "scenario": "Unpublish a project from the BPM registry",
+      "language": "bash",
+      "tags": [
+        "unpublish",
+        "registry",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpm status",
+      "description": "View the status of the current project",
+      "scenario": "View the status of the current project",
+      "language": "bash",
+      "tags": [
+        "status",
+        "project",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

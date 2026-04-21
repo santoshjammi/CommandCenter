@@ -1,0 +1,204 @@
+{
+  "title": "Scapy Cheat Sheet",
+  "slug": "scapy",
+  "description": "Quick reference for Scapy commands and patterns for network packet manipulation.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "packet = IP(dst='192.168.1.1')",
+      "description": "Create an IP packet with a destination address",
+      "scenario": "Create an IP packet with a destination address",
+      "language": "python",
+      "tags": [
+        "packet",
+        "IP",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packet = TCP(sport=1234)",
+      "description": "Create a TCP packet with a specific source port",
+      "scenario": "Create a TCP packet with a specific source port",
+      "language": "python",
+      "tags": [
+        "packet",
+        "TCP",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packet = IP(dst='192.168.1.1')/TCP(dport=80)",
+      "description": "Combine IP and TCP layers into a single packet",
+      "scenario": "Combine IP and TCP layers into a single packet",
+      "language": "python",
+      "tags": [
+        "packet",
+        "IP",
+        "TCP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "send(packet)",
+      "description": "Send a packet at layer 3",
+      "scenario": "Send a packet at layer 3",
+      "language": "python",
+      "tags": [
+        "send",
+        "packet",
+        "layer3"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sendp(packet)",
+      "description": "Send a packet at layer 2",
+      "scenario": "Send a packet at layer 2",
+      "language": "python",
+      "tags": [
+        "send",
+        "packet",
+        "layer2"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "send(packet, iface='eth0')",
+      "description": "Send a packet with a specific interface",
+      "scenario": "Send a packet with a specific interface",
+      "language": "python",
+      "tags": [
+        "send",
+        "interface",
+        "packet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sniff(iface='eth0', count=10)",
+      "description": "Sniff packets on a specific interface",
+      "scenario": "Sniff packets on a specific interface",
+      "language": "python",
+      "tags": [
+        "sniff",
+        "packets",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sniff(filter='tcp', count=5)",
+      "description": "Sniff packets and apply a filter",
+      "scenario": "Sniff packets and apply a filter",
+      "language": "python",
+      "tags": [
+        "sniff",
+        "filter",
+        "tcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sniff(prn=lambda x: x.summary(), count=5)",
+      "description": "Sniff packets and call a function for each packet",
+      "scenario": "Sniff packets and call a function for each packet",
+      "language": "python",
+      "tags": [
+        "sniff",
+        "callback",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packet.summary()",
+      "description": "Display a summary of a packet",
+      "scenario": "Display a summary of a packet",
+      "language": "python",
+      "tags": [
+        "packet",
+        "summary",
+        "analysis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packet.show()",
+      "description": "Show detailed information about a packet",
+      "scenario": "Show detailed information about a packet",
+      "language": "python",
+      "tags": [
+        "packet",
+        "details",
+        "analysis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hexdump(packet)",
+      "description": "Hexdump of a packet",
+      "scenario": "Hexdump of a packet",
+      "language": "python",
+      "tags": [
+        "packet",
+        "hexdump",
+        "analysis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "send(IP(dst='192.168.1.1')/ICMP())",
+      "description": "Create and send a ping (ICMP) packet",
+      "scenario": "Create and send a ping (ICMP) packet",
+      "language": "python",
+      "tags": [
+        "ping",
+        "ICMP",
+        "send"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packet = IP(dst='8.8.8.8')/UDP()/DNS(rd=1,qd=DNSQR(qname='example.com'))",
+      "description": "Create a DNS query packet",
+      "scenario": "Create a DNS query packet",
+      "language": "python",
+      "tags": [
+        "DNS",
+        "query",
+        "packet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "traceroute(['192.168.1.1'])",
+      "description": "Perform a traceroute to a destination",
+      "scenario": "Perform a traceroute to a destination",
+      "language": "python",
+      "tags": [
+        "traceroute",
+        "network",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

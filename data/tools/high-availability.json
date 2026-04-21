@@ -1,0 +1,165 @@
+{
+  "title": "High Availability Cheat Sheet",
+  "slug": "high-availability",
+  "description": "Key commands and patterns for ensuring high availability in systems.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "sudo systemctl start nginx",
+      "description": "Start an Nginx load balancer",
+      "scenario": "Start an Nginx load balancer",
+      "language": "bash",
+      "tags": [
+        "nginx",
+        "load balancing",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "upstream backend {\n    server backend1.example.com;\n    server backend2.example.com;\n}",
+      "description": "Configure round-robin load balancing in Nginx",
+      "scenario": "Configure round-robin load balancing in Nginx",
+      "language": "nginx",
+      "tags": [
+        "nginx",
+        "configuration",
+        "round-robin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "haproxy -c -f /etc/haproxy/haproxy.cfg",
+      "description": "Check HAProxy configuration syntax",
+      "scenario": "Check HAProxy configuration syntax",
+      "language": "bash",
+      "tags": [
+        "haproxy",
+        "syntax",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CHANGE MASTER TO MASTER_HOST='master_host', MASTER_USER='replica_user', MASTER_PASSWORD='password'; START SLAVE;",
+      "description": "Start MySQL replication",
+      "scenario": "Start MySQL replication",
+      "language": "sql",
+      "tags": [
+        "mysql",
+        "replication",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM pg_stat_replication;",
+      "description": "Check PostgreSQL replication status",
+      "scenario": "Check PostgreSQL replication status",
+      "language": "sql",
+      "tags": [
+        "postgresql",
+        "replication",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log-bin=mysql-bin",
+      "description": "Enable binary logging for MySQL replication",
+      "scenario": "Enable binary logging for MySQL replication",
+      "language": "text",
+      "tags": [
+        "mysql",
+        "binary log",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vrrp_instance VI_1 {\n    state MASTER\n    interface eth0\n    virtual_router_id 51\n    priority 100\n    advert_int 1\n    authentication {\n        auth_type PASS\n        auth_pass 1234\n    }\n    virtual_ipaddress {\n        192.168.1.1\n    }\n}",
+      "description": "Configure Keepalived for failover",
+      "scenario": "Configure Keepalived for failover",
+      "language": "text",
+      "tags": [
+        "keepalived",
+        "failover",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pcs status",
+      "description": "Check Pacemaker cluster status",
+      "scenario": "Check Pacemaker cluster status",
+      "language": "bash",
+      "tags": [
+        "pacemaker",
+        "cluster",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "auth 1\n1 sha1 yourpassword\n\nbcast eth0\nucast eth0 192.168.1.2\n\nnode node1\nnode node2",
+      "description": "Set up a basic Heartbeat configuration",
+      "scenario": "Set up a basic Heartbeat configuration",
+      "language": "text",
+      "tags": [
+        "heartbeat",
+        "configuration",
+        "failover"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt-get install prometheus",
+      "description": "Install Prometheus for monitoring",
+      "scenario": "Install Prometheus for monitoring",
+      "language": "bash",
+      "tags": [
+        "prometheus",
+        "monitoring",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "groups:\n- name: example\n  rules:\n  - alert: InstanceDown\n    expr: up == 0\n    for: 5m\n    labels:\n      severity: page\n    annotations:\n      summary: \"Instance {{ $labels.instance }} down\"",
+      "description": "Set up a basic alert in Prometheus",
+      "scenario": "Set up a basic alert in Prometheus",
+      "language": "yaml",
+      "tags": [
+        "prometheus",
+        "alert",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl status grafana-server",
+      "description": "Check Grafana server status",
+      "scenario": "Check Grafana server status",
+      "language": "bash",
+      "tags": [
+        "grafana",
+        "status",
+        "monitoring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "WS-BPEL Cheat Sheet",
+  "slug": "ws-bpel",
+  "description": "Key WS-BPEL syntax and patterns for orchestrating web services.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<process name=\"MyProcess\" targetNamespace=\"http://example.com/process\">...</process>",
+      "description": "Define a WS-BPEL process",
+      "scenario": "Define a WS-BPEL process",
+      "language": "xml",
+      "tags": [
+        "process",
+        "definition",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<import namespace=\"http://example.com/schema\" location=\"schema.wsdl\" importType=\"http://schemas.xmlsoap.org/wsdl/\"/>",
+      "description": "Import WSDL or XML Schema",
+      "scenario": "Import WSDL or XML Schema",
+      "language": "xml",
+      "tags": [
+        "import",
+        "wsdl",
+        "schema"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<variables><variable name=\"inputVar\" messageType=\"tns:InputMessage\"/></variables>",
+      "description": "Declare variables for the process",
+      "scenario": "Declare variables for the process",
+      "language": "xml",
+      "tags": [
+        "variables",
+        "declaration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<sequence><receive .../><invoke .../><reply .../></sequence>",
+      "description": "Define a sequence of activities",
+      "scenario": "Define a sequence of activities",
+      "language": "xml",
+      "tags": [
+        "sequence",
+        "control flow",
+        "activities"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<switch><case condition=\"$var == 'value1'\"><invoke .../></case><otherwise><invoke .../></otherwise></switch>",
+      "description": "Use a switch-case structure",
+      "scenario": "Use a switch-case structure",
+      "language": "xml",
+      "tags": [
+        "switch",
+        "conditional",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<while condition=\"$var &lt; 10\"><invoke .../></while>",
+      "description": "Implement a while loop",
+      "scenario": "Implement a while loop",
+      "language": "xml",
+      "tags": [
+        "loop",
+        "while",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<faultHandlers><catch faultName=\"tns:MyFault\"><compensate .../></catch></faultHandlers>",
+      "description": "Define a fault handler",
+      "scenario": "Define a fault handler",
+      "language": "xml",
+      "tags": [
+        "fault",
+        "handler",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<catchAll><compensate .../></catchAll>",
+      "description": "Catch all faults",
+      "scenario": "Catch all faults",
+      "language": "xml",
+      "tags": [
+        "catchAll",
+        "fault",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<compensate scope=\"activityName\"/>",
+      "description": "Compensate a completed activity",
+      "scenario": "Compensate a completed activity",
+      "language": "xml",
+      "tags": [
+        "compensate",
+        "activity",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<partnerLinks><partnerLink name=\"client\" partnerLinkType=\"tns:ClientType\" myRole=\"provider\" partnerRole=\"requester\"/></partnerLinks>",
+      "description": "Declare a partner link",
+      "scenario": "Declare a partner link",
+      "language": "xml",
+      "tags": [
+        "partner link",
+        "declaration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<invoke partnerLink=\"client\" operation=\"processOrder\" inputVariable=\"order\" outputVariable=\"confirmation\"/>",
+      "description": "Invoke an operation on a partner link",
+      "scenario": "Invoke an operation on a partner link",
+      "language": "xml",
+      "tags": [
+        "invoke",
+        "operation",
+        "partner link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<receive partnerLink=\"client\" operation=\"getOrder\" variable=\"order\"/>",
+      "description": "Receive a message from a partner link",
+      "scenario": "Receive a message from a partner link",
+      "language": "xml",
+      "tags": [
+        "receive",
+        "message",
+        "partner link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<eventHandlers><onEvent partnerLink=\"client\" operation=\"notify\" variable=\"notification\"><reply .../></onEvent></eventHandlers>",
+      "description": "Define an event handler",
+      "scenario": "Define an event handler",
+      "language": "xml",
+      "tags": [
+        "event",
+        "handler",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<onAlarm for=\"PT10M\"><compensate .../></onAlarm>",
+      "description": "Handle a timeout event",
+      "scenario": "Handle a timeout event",
+      "language": "xml",
+      "tags": [
+        "timeout",
+        "event",
+        "alarm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<onAlarm until=\"2023-12-31T23:59:59\"><compensate .../></onAlarm>",
+      "description": "Use an alarm with a specific date",
+      "scenario": "Use an alarm with a specific date",
+      "language": "xml",
+      "tags": [
+        "alarm",
+        "date",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

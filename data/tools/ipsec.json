@@ -1,0 +1,165 @@
+{
+  "title": "IPsec Cheat Sheet",
+  "slug": "ipsec",
+  "description": "Quick reference for IPsec commands and configurations",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "sudo ipsec start",
+      "description": "Start the IPsec service",
+      "scenario": "Start the IPsec service",
+      "language": "bash",
+      "tags": [
+        "start",
+        "service",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ipsec stop",
+      "description": "Stop the IPsec service",
+      "scenario": "Stop the IPsec service",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "service",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ipsec restart",
+      "description": "Restart the IPsec service",
+      "scenario": "Restart the IPsec service",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "service",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "conn my-connection\n    left=192.168.1.1\n    right=192.168.1.2\n    auto=start",
+      "description": "Define a basic IPsec connection",
+      "scenario": "Define a basic IPsec connection",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "connection",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "conn my-connection\n    authby=secret\n    leftid=@myleft\n    rightid=@myright",
+      "description": "Set up a pre-shared key",
+      "scenario": "Set up a pre-shared key",
+      "language": "text",
+      "tags": [
+        "preshared",
+        "key",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "conn my-connection\n    ike=aes256-sha1-modp1024!\n    keyexchange=ikev2",
+      "description": "Configure IPsec to use IKEv2",
+      "scenario": "Configure IPsec to use IKEv2",
+      "language": "text",
+      "tags": [
+        "ikev2",
+        "configuration",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ipsec status",
+      "description": "Check the status of IPsec connections",
+      "scenario": "Check the status of IPsec connections",
+      "language": "bash",
+      "tags": [
+        "status",
+        "connections",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ipsec listall",
+      "description": "List all IPsec connections",
+      "scenario": "List all IPsec connections",
+      "language": "bash",
+      "tags": [
+        "list",
+        "connections",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ipsec whack --debug-all",
+      "description": "Enable IPsec debugging",
+      "scenario": "Enable IPsec debugging",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "ipsec",
+        "whack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip xfrm policy add src 192.168.1.0/24 dst 192.168.2.0/24 dir out tmpl src 192.168.1.1 dst 192.168.2.1 proto esp mode tunnel",
+      "description": "Add a security policy",
+      "scenario": "Add a security policy",
+      "language": "bash",
+      "tags": [
+        "policy",
+        "add",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip xfrm policy delete src 192.168.1.0/24 dst 192.168.2.0/24 dir out",
+      "description": "Delete a security policy",
+      "scenario": "Delete a security policy",
+      "language": "bash",
+      "tags": [
+        "policy",
+        "delete",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip xfrm policy list",
+      "description": "List all security policies",
+      "scenario": "List all security policies",
+      "language": "bash",
+      "tags": [
+        "list",
+        "policy",
+        "ipsec"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

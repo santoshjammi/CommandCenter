@@ -1,0 +1,204 @@
+{
+  "title": "Bash Scripting Cheat Sheet",
+  "slug": "bash-scripting",
+  "description": "Essential Bash scripting commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "echo 'Hello, World!'",
+      "description": "Prints 'Hello, World!' to the terminal",
+      "scenario": "Prints 'Hello, World!' to the terminal",
+      "language": "bash",
+      "tags": [
+        "echo",
+        "print",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -l",
+      "description": "Lists files in the current directory",
+      "scenario": "Lists files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "directory",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /usr/local",
+      "description": "Changes the current directory to /usr/local",
+      "scenario": "Changes the current directory to /usr/local",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "greeting='Hello'",
+      "description": "Assigns 'Hello' to a variable named greeting",
+      "scenario": "Assigns 'Hello' to a variable named greeting",
+      "language": "bash",
+      "tags": [
+        "variables",
+        "assignment",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo $greeting",
+      "description": "Prints the value of the variable greeting",
+      "scenario": "Prints the value of the variable greeting",
+      "language": "bash",
+      "tags": [
+        "variables",
+        "print",
+        "echo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "arg1=$1",
+      "description": "Passes a script argument to a variable",
+      "scenario": "Passes a script argument to a variable",
+      "language": "bash",
+      "tags": [
+        "variables",
+        "arguments",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if [ -f \"file.txt\" ]; then echo \"File exists\"; else echo \"File does not exist\"; fi",
+      "description": "If-else statement to check if a file exists",
+      "scenario": "If-else statement to check if a file exists",
+      "language": "bash",
+      "tags": [
+        "if",
+        "else",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in {1..5}; do echo \"Number $i\"; done",
+      "description": "For loop iterating over a list of numbers",
+      "scenario": "For loop iterating over a list of numbers",
+      "language": "bash",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "i=1; while [ $i -le 5 ]; do echo $i; i=$((i + 1)); done",
+      "description": "While loop that prints numbers from 1 to 5",
+      "scenario": "While loop that prints numbers from 1 to 5",
+      "language": "bash",
+      "tags": [
+        "while",
+        "loop",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet() { echo 'Hello, World!'; }",
+      "description": "Defines a function that prints 'Hello, World!'",
+      "scenario": "Defines a function that prints 'Hello, World!'",
+      "language": "bash",
+      "tags": [
+        "function",
+        "define",
+        "hello"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "greet",
+      "description": "Calls a function named greet",
+      "scenario": "Calls a function named greet",
+      "language": "bash",
+      "tags": [
+        "function",
+        "call",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function add() { echo $(($1 + $2)); }",
+      "description": "Function with parameters that adds two numbers",
+      "scenario": "Function with parameters that adds two numbers",
+      "language": "bash",
+      "tags": [
+        "function",
+        "parameters",
+        "addition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "touch newfile.txt",
+      "description": "Creates a new file named newfile.txt",
+      "scenario": "Creates a new file named newfile.txt",
+      "language": "bash",
+      "tags": [
+        "file",
+        "create",
+        "touch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'Hello' >> greetings.txt",
+      "description": "Appends 'Hello' to a file named greetings.txt",
+      "scenario": "Appends 'Hello' to a file named greetings.txt",
+      "language": "bash",
+      "tags": [
+        "file",
+        "append",
+        "echo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while IFS= read -r line; do echo \"$line\"; done < file.txt",
+      "description": "Reads a file line by line",
+      "scenario": "Reads a file line by line",
+      "language": "bash",
+      "tags": [
+        "file",
+        "read",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

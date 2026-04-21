@@ -1,0 +1,204 @@
+{
+  "title": "Jinja Cheat Sheet",
+  "slug": "jinja",
+  "description": "Quick reference for Jinja templating syntax and commands.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "{{ variable_name }}",
+      "description": "Output a variable",
+      "scenario": "Output a variable",
+      "language": "jinja",
+      "tags": [
+        "variable",
+        "output",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ variable_name | filter_name }}",
+      "description": "Apply a filter to a variable",
+      "scenario": "Apply a filter to a variable",
+      "language": "jinja",
+      "tags": [
+        "filter",
+        "variable",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ variable_name | default('default_value') }}",
+      "description": "Use default filter if variable is undefined",
+      "scenario": "Use default filter if variable is undefined",
+      "language": "jinja",
+      "tags": [
+        "filter",
+        "default",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% if condition %} true {% endif %}",
+      "description": "If statement",
+      "scenario": "If statement",
+      "language": "jinja",
+      "tags": [
+        "if",
+        "condition",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% for item in list %} {{ item }} {% endfor %}",
+      "description": "For loop over a list",
+      "scenario": "For loop over a list",
+      "language": "jinja",
+      "tags": [
+        "for",
+        "loop",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% set variable_name = 'value' %}",
+      "description": "Set a variable within a template",
+      "scenario": "Set a variable within a template",
+      "language": "jinja",
+      "tags": [
+        "set",
+        "variable",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% extends 'base.html' %}",
+      "description": "Extend a base template",
+      "scenario": "Extend a base template",
+      "language": "jinja",
+      "tags": [
+        "extend",
+        "inheritance",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% block content %}...{% endblock %}",
+      "description": "Define a block to override",
+      "scenario": "Define a block to override",
+      "language": "jinja",
+      "tags": [
+        "block",
+        "override",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% include 'header.html' %}",
+      "description": "Include another template",
+      "scenario": "Include another template",
+      "language": "jinja",
+      "tags": [
+        "include",
+        "template",
+        "reuse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ 'text' | upper }}",
+      "description": "Convert string to uppercase",
+      "scenario": "Convert string to uppercase",
+      "language": "jinja",
+      "tags": [
+        "filter",
+        "string",
+        "uppercase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ list | join(', ') }}",
+      "description": "Join list items into a string",
+      "scenario": "Join list items into a string",
+      "language": "jinja",
+      "tags": [
+        "filter",
+        "list",
+        "join"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ list | sort }}",
+      "description": "Sort a list",
+      "scenario": "Sort a list",
+      "language": "jinja",
+      "tags": [
+        "filter",
+        "list",
+        "sort"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{- variable_name -}}",
+      "description": "Trim whitespace around variables",
+      "scenario": "Trim whitespace around variables",
+      "language": "jinja",
+      "tags": [
+        "whitespace",
+        "trim",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{%- if condition -%}...{%- endif -%}",
+      "description": "Trim whitespace in control structures",
+      "scenario": "Trim whitespace in control structures",
+      "language": "jinja",
+      "tags": [
+        "whitespace",
+        "trim",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{%- block content -%}...{%- endblock -%}",
+      "description": "Trim whitespace around blocks",
+      "scenario": "Trim whitespace around blocks",
+      "language": "jinja",
+      "tags": [
+        "whitespace",
+        "trim",
+        "block"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

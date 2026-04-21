@@ -1,0 +1,165 @@
+{
+  "title": "Open Graph Cheat Sheet",
+  "slug": "open-graph",
+  "description": "Quick reference for Open Graph meta tags and usage.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "<meta property=\"og:title\" content=\"The Rock\" />",
+      "description": "Define the title of the content",
+      "scenario": "Define the title of the content",
+      "language": "html",
+      "tags": [
+        "title",
+        "meta",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:type\" content=\"video.movie\" />",
+      "description": "Define the type of the content",
+      "scenario": "Define the type of the content",
+      "language": "html",
+      "tags": [
+        "type",
+        "meta",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:url\" content=\"http://www.imdb.com/title/tt0117500/\" />",
+      "description": "Define the URL of the content",
+      "scenario": "Define the URL of the content",
+      "language": "html",
+      "tags": [
+        "url",
+        "meta",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:image\" content=\"http://ia.media-imdb.com/images/rock.jpg\" />",
+      "description": "Specify the URL of the image",
+      "scenario": "Specify the URL of the image",
+      "language": "html",
+      "tags": [
+        "image",
+        "meta",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:image:width\" content=\"300\" />",
+      "description": "Specify the image width",
+      "scenario": "Specify the image width",
+      "language": "html",
+      "tags": [
+        "image",
+        "width",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:image:height\" content=\"300\" />",
+      "description": "Specify the image height",
+      "scenario": "Specify the image height",
+      "language": "html",
+      "tags": [
+        "image",
+        "height",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:site_name\" content=\"IMDb\" />",
+      "description": "Define the site name",
+      "scenario": "Define the site name",
+      "language": "html",
+      "tags": [
+        "site",
+        "name",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:description\" content=\"A group of U.S. Marines...\" />",
+      "description": "Define the description of the content",
+      "scenario": "Define the description of the content",
+      "language": "html",
+      "tags": [
+        "description",
+        "meta",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:locale\" content=\"en_US\" />",
+      "description": "Define the locale of the content",
+      "scenario": "Define the locale of the content",
+      "language": "html",
+      "tags": [
+        "locale",
+        "meta",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:video\" content=\"http://example.com/movie.swf\" />",
+      "description": "Specify the URL of the video",
+      "scenario": "Specify the URL of the video",
+      "language": "html",
+      "tags": [
+        "video",
+        "url",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:video:type\" content=\"application/x-shockwave-flash\" />",
+      "description": "Specify the video type",
+      "scenario": "Specify the video type",
+      "language": "html",
+      "tags": [
+        "video",
+        "type",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta property=\"og:video:width\" content=\"400\" />",
+      "description": "Specify the video width",
+      "scenario": "Specify the video width",
+      "language": "html",
+      "tags": [
+        "video",
+        "width",
+        "og"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

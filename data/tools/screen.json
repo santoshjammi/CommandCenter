@@ -1,0 +1,165 @@
+{
+  "title": "GNU Screen Cheat Sheet",
+  "slug": "screen",
+  "description": "Essential commands and patterns for using GNU Screen effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "screen",
+      "description": "Start a new screen session",
+      "scenario": "Start a new screen session",
+      "language": "bash",
+      "tags": [
+        "start",
+        "session",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "screen -ls",
+      "description": "List all active screen sessions",
+      "scenario": "List all active screen sessions",
+      "language": "bash",
+      "tags": [
+        "list",
+        "sessions",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "screen -r",
+      "description": "Attach to a detached screen session",
+      "scenario": "Attach to a detached screen session",
+      "language": "bash",
+      "tags": [
+        "attach",
+        "session",
+        "detached"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-a d",
+      "description": "Detach from the current screen session",
+      "scenario": "Detach from the current screen session",
+      "language": "text",
+      "tags": [
+        "detach",
+        "session",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "screen -X -S <session_name> quit",
+      "description": "Kill a screen session",
+      "scenario": "Kill a screen session",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "session",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-a A",
+      "description": "Rename the current screen session",
+      "scenario": "Rename the current screen session",
+      "language": "text",
+      "tags": [
+        "rename",
+        "session",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-a c",
+      "description": "Create a new window within a session",
+      "scenario": "Create a new window within a session",
+      "language": "text",
+      "tags": [
+        "create",
+        "window",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-a n",
+      "description": "Switch to the next window",
+      "scenario": "Switch to the next window",
+      "language": "text",
+      "tags": [
+        "switch",
+        "window",
+        "next"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-a k",
+      "description": "Close the current window",
+      "scenario": "Close the current window",
+      "language": "text",
+      "tags": [
+        "close",
+        "window",
+        "kill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "screen -c /path/to/.screenrc",
+      "description": "Specify a custom screenrc file",
+      "scenario": "Specify a custom screenrc file",
+      "language": "bash",
+      "tags": [
+        "custom",
+        "configuration",
+        "screenrc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hardstatus alwayslastline '%H | %l | %Y-%m-%d %c'",
+      "description": "Set a hardstatus line in .screenrc",
+      "scenario": "Set a hardstatus line in .screenrc",
+      "language": "text",
+      "tags": [
+        "hardstatus",
+        "configuration",
+        "screenrc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vbell on",
+      "description": "Enable visual bell in .screenrc",
+      "scenario": "Enable visual bell in .screenrc",
+      "language": "text",
+      "tags": [
+        "visual",
+        "bell",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

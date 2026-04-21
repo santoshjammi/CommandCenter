@@ -1,0 +1,204 @@
+{
+  "title": "GIMP Cheat Sheet",
+  "slug": "gimp",
+  "description": "Essential GIMP commands and shortcuts for efficient image editing.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "gimp image.jpg",
+      "description": "Open an image file in GIMP",
+      "scenario": "Open an image file in GIMP",
+      "language": "bash",
+      "tags": [
+        "open",
+        "image",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+S",
+      "description": "Save the current image",
+      "scenario": "Save the current image",
+      "language": "text",
+      "tags": [
+        "save",
+        "file",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+E",
+      "description": "Export the image to a different format",
+      "scenario": "Export the image to a different format",
+      "language": "text",
+      "tags": [
+        "export",
+        "format",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+N",
+      "description": "Create a new layer",
+      "scenario": "Create a new layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "new",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+M",
+      "description": "Merge down the current layer",
+      "scenario": "Merge down the current layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "merge",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+D",
+      "description": "Duplicate the current layer",
+      "scenario": "Duplicate the current layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "duplicate",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+A",
+      "description": "Select all elements in the image",
+      "scenario": "Select all elements in the image",
+      "language": "text",
+      "tags": [
+        "select",
+        "all",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+A",
+      "description": "Deselect the current selection",
+      "scenario": "Deselect the current selection",
+      "language": "text",
+      "tags": [
+        "deselect",
+        "selection",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+I",
+      "description": "Invert the current selection",
+      "scenario": "Invert the current selection",
+      "language": "text",
+      "tags": [
+        "invert",
+        "selection",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Colors > Brightness-Contrast",
+      "description": "Adjust the brightness and contrast",
+      "scenario": "Adjust the brightness and contrast",
+      "language": "text",
+      "tags": [
+        "brightness",
+        "contrast",
+        "adjust"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Filters > Blur > Gaussian Blur",
+      "description": "Apply a Gaussian blur",
+      "scenario": "Apply a Gaussian blur",
+      "language": "text",
+      "tags": [
+        "blur",
+        "filter",
+        "gaussian"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Image > Crop to Selection",
+      "description": "Crop the image to selection",
+      "scenario": "Crop the image to selection",
+      "language": "text",
+      "tags": [
+        "crop",
+        "selection",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "M",
+      "description": "Activate the Move tool",
+      "scenario": "Activate the Move tool",
+      "language": "text",
+      "tags": [
+        "move",
+        "tool",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P",
+      "description": "Activate the Paintbrush tool",
+      "scenario": "Activate the Paintbrush tool",
+      "language": "text",
+      "tags": [
+        "paintbrush",
+        "tool",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+E",
+      "description": "Activate the Eraser tool",
+      "scenario": "Activate the Eraser tool",
+      "language": "text",
+      "tags": [
+        "eraser",
+        "tool",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

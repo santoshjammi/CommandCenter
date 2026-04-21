@@ -1,0 +1,204 @@
+{
+  "title": "Sketch Cheat Sheet",
+  "slug": "sketch",
+  "description": "Quick reference for Sketch keyboard shortcuts and workflows.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Cmd++",
+      "description": "Zoom in on the canvas",
+      "scenario": "Zoom in on the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+-",
+      "description": "Zoom out of the canvas",
+      "scenario": "Zoom out of the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+0",
+      "description": "Fit canvas to window",
+      "scenario": "Fit canvas to window",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+Shift+]",
+      "description": "Bring selected layer to front",
+      "scenario": "Bring selected layer to front",
+      "language": "text",
+      "tags": [
+        "layer",
+        "arrange",
+        "front"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+Shift+[",
+      "description": "Send selected layer to back",
+      "scenario": "Send selected layer to back",
+      "language": "text",
+      "tags": [
+        "layer",
+        "arrange",
+        "back"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+G",
+      "description": "Group selected layers",
+      "scenario": "Group selected layers",
+      "language": "text",
+      "tags": [
+        "layer",
+        "group",
+        "arrange"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "R",
+      "description": "Draw a new rectangle",
+      "scenario": "Draw a new rectangle",
+      "language": "text",
+      "tags": [
+        "draw",
+        "shape",
+        "rectangle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O",
+      "description": "Draw a new oval",
+      "scenario": "Draw a new oval",
+      "language": "text",
+      "tags": [
+        "draw",
+        "shape",
+        "oval"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Enter",
+      "description": "Edit selected shape",
+      "scenario": "Edit selected shape",
+      "language": "text",
+      "tags": [
+        "edit",
+        "shape",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "T",
+      "description": "Insert a new text layer",
+      "scenario": "Insert a new text layer",
+      "language": "text",
+      "tags": [
+        "text",
+        "insert",
+        "layer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+B",
+      "description": "Bold selected text",
+      "scenario": "Bold selected text",
+      "language": "text",
+      "tags": [
+        "text",
+        "bold",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+I",
+      "description": "Italicize selected text",
+      "scenario": "Italicize selected text",
+      "language": "text",
+      "tags": [
+        "text",
+        "italic",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+S",
+      "description": "Save the current document",
+      "scenario": "Save the current document",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+E",
+      "description": "Export selected layers or artboards",
+      "scenario": "Export selected layers or artboards",
+      "language": "text",
+      "tags": [
+        "export",
+        "file",
+        "layers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd+N",
+      "description": "Open a new document",
+      "scenario": "Open a new document",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

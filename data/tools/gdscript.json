@@ -1,0 +1,204 @@
+{
+  "title": "GDScript Cheat Sheet",
+  "slug": "gdscript",
+  "description": "Essential GDScript syntax and patterns for Godot developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var health = 100",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "gdscript",
+      "tags": [
+        "variable",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "func _ready():\n    print(\"Hello, World!\")",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "gdscript",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if health > 0:\n    print(\"Alive\")\nelse:\n    print(\"Dead\")",
+      "description": "If-else conditional",
+      "scenario": "If-else conditional",
+      "language": "gdscript",
+      "tags": [
+        "conditional",
+        "if-else",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in range(5):\n    print(i)",
+      "description": "For loop iterating over a range",
+      "scenario": "For loop iterating over a range",
+      "language": "gdscript",
+      "tags": [
+        "loop",
+        "for",
+        "range"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while health > 0:\n    health -= 10",
+      "description": "While loop with a condition",
+      "scenario": "While loop with a condition",
+      "language": "gdscript",
+      "tags": [
+        "loop",
+        "while",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var fruits = [\"apple\", \"banana\", \"cherry\"]\nfor fruit in fruits:\n    print(fruit)",
+      "description": "Iterate over an array",
+      "scenario": "Iterate over an array",
+      "language": "gdscript",
+      "tags": [
+        "loop",
+        "array",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class_name Player\nvar health = 100",
+      "description": "Define a class",
+      "scenario": "Define a class",
+      "language": "gdscript",
+      "tags": [
+        "class",
+        "definition",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var player = Player.new()",
+      "description": "Create an instance of a class",
+      "scenario": "Create an instance of a class",
+      "language": "gdscript",
+      "tags": [
+        "instance",
+        "class",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print(player.health)",
+      "description": "Access a class property",
+      "scenario": "Access a class property",
+      "language": "gdscript",
+      "tags": [
+        "property",
+        "class",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "signal health_changed(new_health)",
+      "description": "Define a signal",
+      "scenario": "Define a signal",
+      "language": "gdscript",
+      "tags": [
+        "signal",
+        "define",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "emit_signal(\"health_changed\", health)",
+      "description": "Emit a signal",
+      "scenario": "Emit a signal",
+      "language": "gdscript",
+      "tags": [
+        "signal",
+        "emit",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "player.connect(\"health_changed\", self, \"_on_health_changed\")",
+      "description": "Connect a signal to a method",
+      "scenario": "Connect a signal to a method",
+      "language": "gdscript",
+      "tags": [
+        "signal",
+        "connect",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var numbers = [1, 2, 3, 4, 5]",
+      "description": "Create and initialize an array",
+      "scenario": "Create and initialize an array",
+      "language": "gdscript",
+      "tags": [
+        "array",
+        "initialize",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var player_stats = {\"health\": 100, \"mana\": 50}",
+      "description": "Create and initialize a dictionary",
+      "scenario": "Create and initialize a dictionary",
+      "language": "gdscript",
+      "tags": [
+        "dictionary",
+        "initialize",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print(player_stats[\"health\"])",
+      "description": "Access a dictionary value",
+      "scenario": "Access a dictionary value",
+      "language": "gdscript",
+      "tags": [
+        "dictionary",
+        "access",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

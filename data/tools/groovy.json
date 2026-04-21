@@ -1,0 +1,204 @@
+{
+  "title": "Groovy Cheat Sheet",
+  "slug": "groovy",
+  "description": "Essential Groovy syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "class Person { String name; int age }",
+      "description": "Define a simple Groovy class",
+      "scenario": "Define a simple Groovy class",
+      "language": "groovy",
+      "tags": [
+        "class",
+        "syntax",
+        "groovy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "println 'Hello, World!'",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "groovy",
+      "tags": [
+        "print",
+        "console",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def list = [1, 2, 3]; list.each { println it }",
+      "description": "Declare a list and iterate over it",
+      "scenario": "Declare a list and iterate over it",
+      "language": "groovy",
+      "tags": [
+        "list",
+        "iteration",
+        "groovy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def map = ['name':'John', 'age':30]; println map['name']",
+      "description": "Create a map and access its elements",
+      "scenario": "Create a map and access its elements",
+      "language": "groovy",
+      "tags": [
+        "map",
+        "collection",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def nums = [1, 2, 3, 4]; def evens = nums.findAll { it % 2 == 0 }",
+      "description": "Filter a list using a closure",
+      "scenario": "Filter a list using a closure",
+      "language": "groovy",
+      "tags": [
+        "filter",
+        "closure",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def nums = [3, 1, 4]; def sorted = nums.sort { -it }",
+      "description": "Sort a list in descending order",
+      "scenario": "Sort a list in descending order",
+      "language": "groovy",
+      "tags": [
+        "sort",
+        "list",
+        "descending"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new File('example.txt').eachLine { println it }",
+      "description": "Read a file line by line",
+      "scenario": "Read a file line by line",
+      "language": "groovy",
+      "tags": [
+        "file",
+        "read",
+        "lines"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new File('output.txt').withWriter { writer -> writer.write('Hello, Groovy!') }",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "groovy",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def file = new File('example.txt'); println file.exists()",
+      "description": "Check if a file exists",
+      "scenario": "Check if a file exists",
+      "language": "groovy",
+      "tags": [
+        "file",
+        "exists",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def x = 10; if (x > 5) { println 'Greater' } else { println 'Smaller' }",
+      "description": "Use an if-else statement",
+      "scenario": "Use an if-else statement",
+      "language": "groovy",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def num = 2; switch(num) { case 1: println 'One'; break; case 2: println 'Two'; break; default: println 'Other' }",
+      "description": "Implement a switch-case structure",
+      "scenario": "Implement a switch-case structure",
+      "language": "groovy",
+      "tags": [
+        "switch",
+        "case",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def count = 0; while (count < 5) { println count; count++ }",
+      "description": "Use a while loop",
+      "scenario": "Use a while loop",
+      "language": "groovy",
+      "tags": [
+        "while",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "groovy HelloWorld.groovy",
+      "description": "Execute a Groovy script from the command line",
+      "scenario": "Execute a Groovy script from the command line",
+      "language": "bash",
+      "tags": [
+        "execute",
+        "script",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#!/usr/bin/env groovy\nprintln 'Hello, Script!'",
+      "description": "Define a Groovy script with a shebang",
+      "scenario": "Define a Groovy script with a shebang",
+      "language": "groovy",
+      "tags": [
+        "shebang",
+        "script",
+        "groovy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "groovy Script.groovy arg1 arg2",
+      "description": "Run a Groovy script with arguments",
+      "scenario": "Run a Groovy script with arguments",
+      "language": "bash",
+      "tags": [
+        "arguments",
+        "script",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

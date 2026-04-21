@@ -1,0 +1,165 @@
+{
+  "title": "WordPress Cheat Sheet",
+  "slug": "wordpress",
+  "description": "Essential WordPress shortcuts and workflows for non-engineers.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "edit",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+B",
+      "description": "Bold the selected text",
+      "scenario": "Bold the selected text",
+      "language": "text",
+      "tags": [
+        "bold",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+K",
+      "description": "Insert a link",
+      "scenario": "Insert a link",
+      "language": "text",
+      "tags": [
+        "link",
+        "insert",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Posts > Add New",
+      "description": "Create a new post",
+      "scenario": "Create a new post",
+      "language": "text",
+      "tags": [
+        "post",
+        "create",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Media > Library",
+      "description": "Access the media library",
+      "scenario": "Access the media library",
+      "language": "text",
+      "tags": [
+        "media",
+        "library",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Appearance > Customize",
+      "description": "Customize the site appearance",
+      "scenario": "Customize the site appearance",
+      "language": "text",
+      "tags": [
+        "appearance",
+        "customize",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Plugins > Add New",
+      "description": "Add a new plugin",
+      "scenario": "Add a new plugin",
+      "language": "text",
+      "tags": [
+        "plugin",
+        "add",
+        "gui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Settings > General > Site Title",
+      "description": "Change site title",
+      "scenario": "Change site title",
+      "language": "text",
+      "tags": [
+        "settings",
+        "title",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Appearance > Widgets",
+      "description": "Manage widgets",
+      "scenario": "Manage widgets",
+      "language": "text",
+      "tags": [
+        "widgets",
+        "manage",
+        "gui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. Go to Posts > Add New\n2. Enter title and content\n3. Click 'Publish'",
+      "description": "How to publish a new post",
+      "scenario": "How to publish a new post",
+      "language": "text",
+      "tags": [
+        "post",
+        "publish",
+        "workflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. Go to Plugins > Installed Plugins\n2. Find the plugin\n3. Click 'Update Now'",
+      "description": "How to update a plugin",
+      "scenario": "How to update a plugin",
+      "language": "text",
+      "tags": [
+        "plugin",
+        "update",
+        "workflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. Go to Appearance > Themes\n2. Click 'Add New'\n3. Choose a theme and click 'Activate'",
+      "description": "How to change the theme",
+      "scenario": "How to change the theme",
+      "language": "text",
+      "tags": [
+        "theme",
+        "change",
+        "workflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

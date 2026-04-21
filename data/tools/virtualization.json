@@ -1,0 +1,165 @@
+{
+  "title": "Virtualization Cheat Sheet",
+  "slug": "virtualization",
+  "description": "Essential commands and configurations for virtualization tools",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "docker ps",
+      "description": "List all running containers",
+      "scenario": "List all running containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "containers",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d nginx",
+      "description": "Start a container from an image",
+      "scenario": "Start a container from an image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "run",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker rm <container_id>",
+      "description": "Remove a stopped container",
+      "scenario": "Remove a stopped container",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "remove",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VBoxManage startvm \"VM Name\" --type headless",
+      "description": "Start a VirtualBox VM",
+      "scenario": "Start a VirtualBox VM",
+      "language": "bash",
+      "tags": [
+        "virtualbox",
+        "vm",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VBoxManage list vms",
+      "description": "List all VirtualBox VMs",
+      "scenario": "List all VirtualBox VMs",
+      "language": "bash",
+      "tags": [
+        "virtualbox",
+        "list",
+        "vms"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VBoxManage snapshot \"VM Name\" take \"Snapshot Name\"",
+      "description": "Take a snapshot of a VM",
+      "scenario": "Take a snapshot of a VM",
+      "language": "bash",
+      "tags": [
+        "virtualbox",
+        "snapshot",
+        "vm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "virsh list --all",
+      "description": "List all KVM virtual machines",
+      "scenario": "List all KVM virtual machines",
+      "language": "bash",
+      "tags": [
+        "kvm",
+        "list",
+        "vms"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "virsh start <vm_name>",
+      "description": "Start a KVM virtual machine",
+      "scenario": "Start a KVM virtual machine",
+      "language": "bash",
+      "tags": [
+        "kvm",
+        "start",
+        "vm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "virt-install --name <vm_name> --ram 1024 --disk path=/var/lib/libvirt/images/<vm_name>.img,size=10 --vcpus 1 --os-type linux --network bridge=virbr0 --graphics none --console pty,target_type=serial --location 'http://<os_mirror>'",
+      "description": "Create a new KVM virtual machine",
+      "scenario": "Create a new KVM virtual machine",
+      "language": "bash",
+      "tags": [
+        "kvm",
+        "create",
+        "vm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vmrun list",
+      "description": "List all VMware VMs",
+      "scenario": "List all VMware VMs",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "list",
+        "vms"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vmrun start \"/path/to/vm.vmx\"",
+      "description": "Start a VMware VM",
+      "scenario": "Start a VMware VM",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "start",
+        "vm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vmrun stop \"/path/to/vm.vmx\"",
+      "description": "Stop a VMware VM",
+      "scenario": "Stop a VMware VM",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "stop",
+        "vm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

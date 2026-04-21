@@ -1,0 +1,204 @@
+{
+  "title": "Smalltalk Cheat Sheet",
+  "slug": "smalltalk",
+  "description": "Essential Smalltalk syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "Object subclass: #Person\n    instanceVariableNames: 'name age'",
+      "description": "Define a class named 'Person'",
+      "scenario": "Define a class named 'Person'",
+      "language": "text",
+      "tags": [
+        "class",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "person := Person new.",
+      "description": "Create a new instance of a class",
+      "scenario": "Create a new instance of a class",
+      "language": "text",
+      "tags": [
+        "instance",
+        "object",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Person>>greet\n    ^'Hello, ', name",
+      "description": "Define a method within a class",
+      "scenario": "Define a method within a class",
+      "language": "text",
+      "tags": [
+        "method",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#(1 2 3)",
+      "description": "Create an array with three elements",
+      "scenario": "Create an array with three elements",
+      "language": "text",
+      "tags": [
+        "array",
+        "collection",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "collection add: anElement.",
+      "description": "Add an element to a collection",
+      "scenario": "Add an element to a collection",
+      "language": "text",
+      "tags": [
+        "collection",
+        "add",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "collection do: [:each | Transcript show: each printString; cr].",
+      "description": "Iterate over a collection",
+      "scenario": "Iterate over a collection",
+      "language": "text",
+      "tags": [
+        "iteration",
+        "loop",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a > b ifTrue: [Transcript show: 'a is greater'].",
+      "description": "Conditional statement example",
+      "scenario": "Conditional statement example",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "if",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[condition] whileFalse: [Transcript show: 'Looping'].",
+      "description": "Loop with a repeat-until structure",
+      "scenario": "Loop with a repeat-until structure",
+      "language": "text",
+      "tags": [
+        "loop",
+        "repeat",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "value caseOf: {\n    [1] -> ['one'].\n    [2] -> ['two'].\n} otherwise: ['other'].",
+      "description": "Case statement example",
+      "scenario": "Case statement example",
+      "language": "text",
+      "tags": [
+        "case",
+        "switch",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file := FileStream fileNamed: 'example.txt' mode: #write.",
+      "description": "Open a file for writing",
+      "scenario": "Open a file for writing",
+      "language": "text",
+      "tags": [
+        "file",
+        "write",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file nextPutAll: 'Hello, World!'.",
+      "description": "Write a string to a file",
+      "scenario": "Write a string to a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "write",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file close.",
+      "description": "Close a file stream",
+      "scenario": "Close a file stream",
+      "language": "text",
+      "tags": [
+        "file",
+        "close",
+        "stream"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "object inspect.",
+      "description": "Inspect an object",
+      "scenario": "Inspect an object",
+      "language": "text",
+      "tags": [
+        "debug",
+        "inspect",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Transcript show: 'Debug info'; cr.",
+      "description": "Print a string to the Transcript",
+      "scenario": "Print a string to the Transcript",
+      "language": "text",
+      "tags": [
+        "debug",
+        "print",
+        "transcript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "self halt.",
+      "description": "Set a breakpoint in code",
+      "scenario": "Set a breakpoint in code",
+      "language": "text",
+      "tags": [
+        "debug",
+        "breakpoint",
+        "halt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

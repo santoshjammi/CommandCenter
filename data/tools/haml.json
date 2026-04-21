@@ -1,0 +1,202 @@
+{
+  "title": "Haml Cheat Sheet",
+  "slug": "haml",
+  "description": "Quick reference for Haml syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": ".classname",
+      "description": "Create a div with a class",
+      "scenario": "Create a div with a class",
+      "language": "haml",
+      "tags": [
+        "div",
+        "class",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#element-id",
+      "description": "Create an element with an ID",
+      "scenario": "Create an element with an ID",
+      "language": "haml",
+      "tags": [
+        "id",
+        "element",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "%a(href='https://example.com') Link",
+      "description": "Add attributes to an element",
+      "scenario": "Add attributes to an element",
+      "language": "haml",
+      "tags": [
+        "attributes",
+        "link",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- @items.each do |item|\n  %li= item.name",
+      "description": "Iterate over a collection",
+      "scenario": "Iterate over a collection",
+      "language": "haml",
+      "tags": [
+        "iteration",
+        "loop",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- if user.logged_in?\n  %p Welcome, #{user.name}!",
+      "description": "Conditional rendering with if",
+      "scenario": "Conditional rendering with if",
+      "language": "haml",
+      "tags": [
+        "conditional",
+        "if",
+        "rendering"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- unless user.admin?\n  %p Access Denied",
+      "description": "Conditional rendering with unless",
+      "scenario": "Conditional rendering with unless",
+      "language": "haml",
+      "tags": [
+        "conditional",
+        "unless",
+        "rendering"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/ This is an HTML comment",
+      "description": "Add an HTML comment",
+      "scenario": "Add an HTML comment",
+      "language": "haml",
+      "tags": [
+        "comment",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-# This is a Haml comment",
+      "description": "Add a Haml comment (not rendered)",
+      "scenario": "Add a Haml comment (not rendered)",
+      "language": "haml",
+      "tags": [
+        "comment",
+        "haml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--[if IE]>\n  %p You are using Internet Explorer.\n<![endif]-->",
+      "description": "Conditional comment for IE",
+      "scenario": "Conditional comment for IE",
+      "language": "haml",
+      "tags": [
+        "conditional",
+        "comment",
+        "IE"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "= ruby_code",
+      "description": "Embed Ruby code",
+      "scenario": "Embed Ruby code",
+      "language": "haml",
+      "tags": [
+        "ruby",
+        "embed",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":preserve\n  <pre>\n    This is preformatted text\n  </pre>",
+      "description": "Preserve whitespace",
+      "scenario": "Preserve whitespace",
+      "language": "haml",
+      "tags": [
+        "whitespace",
+        "preserve",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":markdown\n  # Header\n  This is a paragraph.",
+      "description": "Markdown filter",
+      "scenario": "Markdown filter",
+      "language": "haml",
+      "tags": [
+        "markdown",
+        "filter",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "%ul\n  %li Item 1\n  %li Item 2",
+      "description": "Nest elements using indentation",
+      "scenario": "Nest elements using indentation",
+      "language": "haml",
+      "tags": [
+        "nesting",
+        "indentation",
+        "elements"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- if user.admin?\n  %p Admin Panel\n  - else\n  %p User Panel",
+      "description": "Use indentation for nested Ruby code",
+      "scenario": "Use indentation for nested Ruby code",
+      "language": "haml",
+      "tags": [
+        "indentation",
+        "ruby",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "%input{type: 'text', name: 'username'}",
+      "description": "Nested attributes with hash syntax",
+      "scenario": "Nested attributes with hash syntax",
+      "language": "haml",
+      "tags": [
+        "attributes",
+        "hash",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

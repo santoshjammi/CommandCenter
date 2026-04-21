@@ -1,0 +1,204 @@
+{
+  "title": "PARI/GP Cheat Sheet",
+  "slug": "parigp",
+  "description": "Quick reference for PARI/GP commands and syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "2 + 3",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "text",
+      "tags": [
+        "addition",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "5 - 2",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "text",
+      "tags": [
+        "subtraction",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "4 * 3",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "text",
+      "tags": [
+        "multiplication",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x = 10",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "assignment",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x += 1",
+      "description": "Increment a variable by 1",
+      "scenario": "Increment a variable by 1",
+      "language": "text",
+      "tags": [
+        "increment",
+        "variables",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "y = x + 5",
+      "description": "Assign the result of an expression to a variable",
+      "scenario": "Assign the result of an expression to a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "assignment",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for(i = 1, 10, print(i))",
+      "description": "For loop from 1 to 10",
+      "scenario": "For loop from 1 to 10",
+      "language": "text",
+      "tags": [
+        "loop",
+        "control",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while(x < 10, x += 1)",
+      "description": "While loop with condition",
+      "scenario": "While loop with condition",
+      "language": "text",
+      "tags": [
+        "loop",
+        "control",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if(x > 5, print(\"Greater\"), print(\"Lesser\"))",
+      "description": "If-else condition",
+      "scenario": "If-else condition",
+      "language": "text",
+      "tags": [
+        "condition",
+        "control",
+        "branching"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f(x) = x^2 + 2*x + 1",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "text",
+      "tags": [
+        "function",
+        "definition",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f(3)",
+      "description": "Call a function with an argument",
+      "scenario": "Call a function with an argument",
+      "language": "text",
+      "tags": [
+        "function",
+        "call",
+        "argument"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "g() = { print(\"Hello, World!\"); }",
+      "description": "Define a procedure with no return value",
+      "scenario": "Define a procedure with no return value",
+      "language": "text",
+      "tags": [
+        "procedure",
+        "definition",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcd(24, 36)",
+      "description": "Calculate the greatest common divisor",
+      "scenario": "Calculate the greatest common divisor",
+      "language": "text",
+      "tags": [
+        "gcd",
+        "math",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "factorial(5)",
+      "description": "Compute the factorial of a number",
+      "scenario": "Compute the factorial of a number",
+      "language": "text",
+      "tags": [
+        "factorial",
+        "math",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fibonacci(10)",
+      "description": "Find the nth Fibonacci number",
+      "scenario": "Find the nth Fibonacci number",
+      "language": "text",
+      "tags": [
+        "fibonacci",
+        "math",
+        "sequence"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

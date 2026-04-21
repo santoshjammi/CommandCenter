@@ -1,0 +1,204 @@
+{
+  "title": "Mocha.js Cheat Sheet",
+  "slug": "mochajs",
+  "description": "Quick reference for Mocha.js testing framework commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mocha",
+      "description": "Run all tests in the 'test' directory",
+      "scenario": "Run all tests in the 'test' directory",
+      "language": "bash",
+      "tags": [
+        "run",
+        "tests",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --reporter spec",
+      "description": "Run tests with a specific reporter",
+      "scenario": "Run tests with a specific reporter",
+      "language": "bash",
+      "tags": [
+        "reporter",
+        "cli",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha test/myTest.js",
+      "description": "Run tests in a specific file",
+      "scenario": "Run tests in a specific file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "run",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "describe('Array', function() { /* tests */ });",
+      "description": "Define a test suite",
+      "scenario": "Define a test suite",
+      "language": "javascript",
+      "tags": [
+        "suite",
+        "describe",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "it('should return -1 when the value is not present', function() { /* test */ });",
+      "description": "Define a test case",
+      "scenario": "Define a test case",
+      "language": "javascript",
+      "tags": [
+        "test",
+        "case",
+        "it"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "beforeEach(function() { /* setup code */ });",
+      "description": "Add a hook to run before each test",
+      "scenario": "Add a hook to run before each test",
+      "language": "javascript",
+      "tags": [
+        "hook",
+        "setup",
+        "beforeEach"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --config .mocharc.json",
+      "description": "Use a configuration file for Mocha",
+      "scenario": "Use a configuration file for Mocha",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"spec\": \"test/**/*.spec.js\",\n  \"reporter\": \"dot\",\n  \"timeout\": 5000\n}",
+      "description": "Example Mocha configuration file",
+      "scenario": "Example Mocha configuration file",
+      "language": "json",
+      "tags": [
+        "config",
+        "json",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"scripts\": {\n    \"test\": \"mocha\"\n  },\n  \"mocha\": {\n    \"timeout\": 5000\n  }\n}",
+      "description": "Set Mocha options in package.json",
+      "scenario": "Set Mocha options in package.json",
+      "language": "json",
+      "tags": [
+        "package.json",
+        "config",
+        "scripts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --timeout 10000",
+      "description": "Run tests with a timeout",
+      "scenario": "Run tests with a timeout",
+      "language": "bash",
+      "tags": [
+        "timeout",
+        "cli",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --parallel",
+      "description": "Run tests in parallel",
+      "scenario": "Run tests in parallel",
+      "language": "bash",
+      "tags": [
+        "parallel",
+        "cli",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha.run((failures) => {\n  process.exitCode = failures ? 1 : 0;\n});",
+      "description": "Use a custom reporter programmatically",
+      "scenario": "Use a custom reporter programmatically",
+      "language": "javascript",
+      "tags": [
+        "reporter",
+        "custom",
+        "programmatic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --trace-warnings",
+      "description": "Enable full trace for errors",
+      "scenario": "Enable full trace for errors",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "trace",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "node inspect $(which mocha)",
+      "description": "Run tests with Node.js debugger",
+      "scenario": "Run tests with Node.js debugger",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "node",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "it('should log output', function() {\n  console.log('Debug info');\n  // test code\n});",
+      "description": "Use console.log for debugging in tests",
+      "scenario": "Use console.log for debugging in tests",
+      "language": "javascript",
+      "tags": [
+        "debug",
+        "log",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

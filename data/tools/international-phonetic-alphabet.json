@@ -1,0 +1,162 @@
+{
+  "title": "International Phonetic Alphabet Cheat Sheet",
+  "slug": "international-phonetic-alphabet",
+  "description": "Quick reference for IPA symbols and their usage in linguistics.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "\u00e6",
+      "description": "Open front unrounded vowel",
+      "scenario": "Open front unrounded vowel",
+      "language": "text",
+      "tags": [
+        "vowel",
+        "open",
+        "front"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "u",
+      "description": "Close back rounded vowel",
+      "scenario": "Close back rounded vowel",
+      "language": "text",
+      "tags": [
+        "vowel",
+        "close",
+        "back"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u0259",
+      "description": "Mid central vowel",
+      "scenario": "Mid central vowel",
+      "language": "text",
+      "tags": [
+        "vowel",
+        "mid",
+        "central"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p",
+      "description": "Voiceless bilabial plosive",
+      "scenario": "Voiceless bilabial plosive",
+      "language": "text",
+      "tags": [
+        "consonant",
+        "voiceless",
+        "bilabial"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "n",
+      "description": "Voiced alveolar nasal",
+      "scenario": "Voiced alveolar nasal",
+      "language": "text",
+      "tags": [
+        "consonant",
+        "voiced",
+        "alveolar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x",
+      "description": "Voiceless velar fricative",
+      "scenario": "Voiceless velar fricative",
+      "language": "text",
+      "tags": [
+        "consonant",
+        "voiceless",
+        "velar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u25cc\u0325",
+      "description": "Voiceless diacritic",
+      "scenario": "Voiceless diacritic",
+      "language": "text",
+      "tags": [
+        "diacritic",
+        "voiceless"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u25cc\u0303",
+      "description": "Nasalized diacritic",
+      "scenario": "Nasalized diacritic",
+      "language": "text",
+      "tags": [
+        "diacritic",
+        "nasalized"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u25cc\u02b2",
+      "description": "Palatalized diacritic",
+      "scenario": "Palatalized diacritic",
+      "language": "text",
+      "tags": [
+        "diacritic",
+        "palatalized"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u02c8",
+      "description": "Primary stress",
+      "scenario": "Primary stress",
+      "language": "text",
+      "tags": [
+        "suprasegmental",
+        "stress",
+        "primary"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u02d0",
+      "description": "Long vowel",
+      "scenario": "Long vowel",
+      "language": "text",
+      "tags": [
+        "suprasegmental",
+        "vowel",
+        "long"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".",
+      "description": "Syllable break",
+      "scenario": "Syllable break",
+      "language": "text",
+      "tags": [
+        "suprasegmental",
+        "syllable",
+        "break"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

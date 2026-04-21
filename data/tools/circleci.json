@@ -1,0 +1,165 @@
+{
+  "title": "CircleCI Cheat Sheet",
+  "slug": "circleci",
+  "description": "Quick reference for CircleCI CLI commands and configuration",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "circleci setup",
+      "description": "Login to CircleCI from the command line",
+      "scenario": "Login to CircleCI from the command line",
+      "language": "bash",
+      "tags": [
+        "login",
+        "setup",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "circleci config validate",
+      "description": "Validate CircleCI configuration file",
+      "scenario": "Validate CircleCI configuration file",
+      "language": "bash",
+      "tags": [
+        "validate",
+        "config",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "circleci local execute --job JOB_NAME",
+      "description": "Run a job locally using CircleCI CLI",
+      "scenario": "Run a job locally using CircleCI CLI",
+      "language": "bash",
+      "tags": [
+        "local",
+        "execute",
+        "job"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "version: 2.1",
+      "description": "Define a version for CircleCI configuration",
+      "scenario": "Define a version for CircleCI configuration",
+      "language": "yaml",
+      "tags": [
+        "version",
+        "config",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "executors:\n  docker-executor:\n    docker:\n      - image: circleci/node:14",
+      "description": "Specify a Docker executor in CircleCI config",
+      "scenario": "Specify a Docker executor in CircleCI config",
+      "language": "yaml",
+      "tags": [
+        "docker",
+        "executor",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jobs:\n  build:\n    docker:\n      - image: circleci/node:14\n    steps:\n      - checkout\n      - run: npm install",
+      "description": "Define a simple job in CircleCI",
+      "scenario": "Define a simple job in CircleCI",
+      "language": "yaml",
+      "tags": [
+        "job",
+        "build",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steps:\n  - restore_cache:\n      key: dependency-cache-{{ checksum \"package-lock.json\" }}\n  - run: npm install\n  - save_cache:\n      key: dependency-cache-{{ checksum \"package-lock.json\" }}\n      paths:\n        - node_modules",
+      "description": "Use caching to speed up builds",
+      "scenario": "Use caching to speed up builds",
+      "language": "yaml",
+      "tags": [
+        "cache",
+        "npm",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "workflows:\n  version: 2\n  build_and_test:\n    jobs:\n      - build\n    triggers:\n      - schedule:\n          cron: \"0 0 * * 0\"\n          filters:\n            branches:\n              only:\n                - main",
+      "description": "Trigger workflows on specific branches",
+      "scenario": "Trigger workflows on specific branches",
+      "language": "yaml",
+      "tags": [
+        "workflow",
+        "trigger",
+        "branch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jobs:\n  build:\n    docker:\n      - image: circleci/node:14\n    environment:\n      NODE_ENV: production\n    steps:\n      - checkout\n      - run: npm install",
+      "description": "Use environment variables in CircleCI",
+      "scenario": "Use environment variables in CircleCI",
+      "language": "yaml",
+      "tags": [
+        "environment",
+        "variables",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "circleci local execute --verbose",
+      "description": "Enable verbose logging for CircleCI CLI",
+      "scenario": "Enable verbose logging for CircleCI CLI",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "logging",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "circleci local execute --config .circleci/config.yml",
+      "description": "Specify a config file to use with CircleCI CLI",
+      "scenario": "Specify a config file to use with CircleCI CLI",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "circleci setup --token YOUR_API_TOKEN",
+      "description": "Use a specific CircleCI API token",
+      "scenario": "Use a specific CircleCI API token",
+      "language": "bash",
+      "tags": [
+        "api",
+        "token",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

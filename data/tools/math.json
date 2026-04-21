@@ -1,0 +1,204 @@
+{
+  "title": "Math Cheat Sheet",
+  "slug": "math",
+  "description": "Quick reference for common math operations and functions.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "5 + 3",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "text",
+      "tags": [
+        "addition",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "10 - 4",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "text",
+      "tags": [
+        "subtraction",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "6 * 7",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "text",
+      "tags": [
+        "multiplication",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x = (b - c) / a",
+      "description": "Solve a linear equation",
+      "scenario": "Solve a linear equation",
+      "language": "text",
+      "tags": [
+        "algebra",
+        "equation",
+        "solve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(a + b)^2 = a^2 + 2ab + b^2",
+      "description": "Expand a binomial",
+      "scenario": "Expand a binomial",
+      "language": "text",
+      "tags": [
+        "algebra",
+        "binomial",
+        "expand"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ax^2 + bx + c = (px + q)(rx + s)",
+      "description": "Factor a quadratic equation",
+      "scenario": "Factor a quadratic equation",
+      "language": "text",
+      "tags": [
+        "algebra",
+        "quadratic",
+        "factor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sin(\u03b8)",
+      "description": "Calculate sine of an angle",
+      "scenario": "Calculate sine of an angle",
+      "language": "text",
+      "tags": [
+        "trigonometry",
+        "sine",
+        "angle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cos(\u03b8)",
+      "description": "Calculate cosine of an angle",
+      "scenario": "Calculate cosine of an angle",
+      "language": "text",
+      "tags": [
+        "trigonometry",
+        "cosine",
+        "angle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tan(\u03b8)",
+      "description": "Calculate tangent of an angle",
+      "scenario": "Calculate tangent of an angle",
+      "language": "text",
+      "tags": [
+        "trigonometry",
+        "tangent",
+        "angle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx (x^2) = 2x",
+      "description": "Differentiate a function",
+      "scenario": "Differentiate a function",
+      "language": "text",
+      "tags": [
+        "calculus",
+        "differentiate",
+        "derivative"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u222b x dx = x^2/2 + C",
+      "description": "Integrate a function",
+      "scenario": "Integrate a function",
+      "language": "text",
+      "tags": [
+        "calculus",
+        "integrate",
+        "antiderivative"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lim (x -> 0) (sin(x)/x) = 1",
+      "description": "Find the limit of a function",
+      "scenario": "Find the limit of a function",
+      "language": "text",
+      "tags": [
+        "calculus",
+        "limit",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mean = (\u03a3x) / n",
+      "description": "Calculate mean of a dataset",
+      "scenario": "Calculate mean of a dataset",
+      "language": "text",
+      "tags": [
+        "statistics",
+        "mean",
+        "average"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Arrange data in order and find middle value",
+      "description": "Calculate median of a dataset",
+      "scenario": "Calculate median of a dataset",
+      "language": "text",
+      "tags": [
+        "statistics",
+        "median",
+        "dataset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03c3 = sqrt(\u03a3(xi - \u03bc)^2 / N)",
+      "description": "Calculate standard deviation",
+      "scenario": "Calculate standard deviation",
+      "language": "text",
+      "tags": [
+        "statistics",
+        "standard deviation",
+        "spread"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

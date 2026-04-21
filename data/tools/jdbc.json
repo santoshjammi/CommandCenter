@@ -1,0 +1,204 @@
+{
+  "title": "JDBC Cheat Sheet",
+  "slug": "jdbc",
+  "description": "Essential JDBC commands and patterns for database connectivity.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+      "description": "Load the JDBC driver for MySQL",
+      "scenario": "Load the JDBC driver for MySQL",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "MySQL",
+        "driver"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Connection conn = DriverManager.getConnection(\"jdbc:mysql://localhost:3306/mydb\",\"user\",\"password\");",
+      "description": "Establish a connection to a database",
+      "scenario": "Establish a connection to a database",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "connection",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "conn.close();",
+      "description": "Close the database connection",
+      "scenario": "Close the database connection",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "connection",
+        "close"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Statement stmt = conn.createStatement();",
+      "description": "Create a statement object for executing queries",
+      "scenario": "Create a statement object for executing queries",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "Statement",
+        "SQL"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ResultSet rs = stmt.executeQuery(\"SELECT * FROM users\");",
+      "description": "Execute a SELECT query",
+      "scenario": "Execute a SELECT query",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "SELECT",
+        "ResultSet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int rowsAffected = stmt.executeUpdate(\"UPDATE users SET name='John' WHERE id=1\");",
+      "description": "Execute an UPDATE query",
+      "scenario": "Execute an UPDATE query",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "UPDATE",
+        "SQL"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PreparedStatement pstmt = conn.prepareStatement(\"SELECT * FROM users WHERE id = ?\");",
+      "description": "Create a prepared statement for parameterized queries",
+      "scenario": "Create a prepared statement for parameterized queries",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "PreparedStatement",
+        "SQL"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pstmt.setInt(1, 1001);",
+      "description": "Set parameters in a prepared statement",
+      "scenario": "Set parameters in a prepared statement",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "PreparedStatement",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ResultSet rs = pstmt.executeQuery();",
+      "description": "Execute a prepared statement",
+      "scenario": "Execute a prepared statement",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "PreparedStatement",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "conn.setAutoCommit(false);",
+      "description": "Disable auto-commit mode for transactions",
+      "scenario": "Disable auto-commit mode for transactions",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "transaction",
+        "auto-commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "conn.commit();",
+      "description": "Commit a transaction",
+      "scenario": "Commit a transaction",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "transaction",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "conn.rollback();",
+      "description": "Rollback a transaction",
+      "scenario": "Rollback a transaction",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "transaction",
+        "rollback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { /* JDBC code */ } catch (SQLException e) { e.printStackTrace(); }",
+      "description": "Catch SQL exceptions",
+      "scenario": "Catch SQL exceptions",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "SQLException",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int errorCode = e.getErrorCode();",
+      "description": "Get SQL error code from exception",
+      "scenario": "Get SQL error code from exception",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "SQLException",
+        "error code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "String sqlState = e.getSQLState();",
+      "description": "Get SQL state from exception",
+      "scenario": "Get SQL state from exception",
+      "language": "java",
+      "tags": [
+        "JDBC",
+        "SQLException",
+        "SQL state"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

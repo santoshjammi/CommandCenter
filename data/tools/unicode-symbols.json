@@ -1,0 +1,204 @@
+{
+  "title": "Unicode Symbols Cheat Sheet",
+  "slug": "unicode-symbols",
+  "description": "Quick reference for common Unicode symbols and their codes.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "U+002B",
+      "description": "Addition symbol",
+      "scenario": "Addition symbol",
+      "language": "text",
+      "tags": [
+        "math",
+        "addition",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+00D7",
+      "description": "Multiplication symbol",
+      "scenario": "Multiplication symbol",
+      "language": "text",
+      "tags": [
+        "math",
+        "multiplication",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+00F7",
+      "description": "Division symbol",
+      "scenario": "Division symbol",
+      "language": "text",
+      "tags": [
+        "math",
+        "division",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+0024",
+      "description": "Dollar sign",
+      "scenario": "Dollar sign",
+      "language": "text",
+      "tags": [
+        "currency",
+        "dollar",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+20AC",
+      "description": "Euro sign",
+      "scenario": "Euro sign",
+      "language": "text",
+      "tags": [
+        "currency",
+        "euro",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+00A5",
+      "description": "Yen sign",
+      "scenario": "Yen sign",
+      "language": "text",
+      "tags": [
+        "currency",
+        "yen",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+0021",
+      "description": "Exclamation mark",
+      "scenario": "Exclamation mark",
+      "language": "text",
+      "tags": [
+        "punctuation",
+        "exclamation",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+003F",
+      "description": "Question mark",
+      "scenario": "Question mark",
+      "language": "text",
+      "tags": [
+        "punctuation",
+        "question",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+002C",
+      "description": "Comma",
+      "scenario": "Comma",
+      "language": "text",
+      "tags": [
+        "punctuation",
+        "comma",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+2192",
+      "description": "Rightwards arrow",
+      "scenario": "Rightwards arrow",
+      "language": "text",
+      "tags": [
+        "arrow",
+        "right",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+2190",
+      "description": "Leftwards arrow",
+      "scenario": "Leftwards arrow",
+      "language": "text",
+      "tags": [
+        "arrow",
+        "left",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+2191",
+      "description": "Upwards arrow",
+      "scenario": "Upwards arrow",
+      "language": "text",
+      "tags": [
+        "arrow",
+        "up",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+2665",
+      "description": "Heart symbol",
+      "scenario": "Heart symbol",
+      "language": "text",
+      "tags": [
+        "miscellaneous",
+        "heart",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+2605",
+      "description": "Star symbol",
+      "scenario": "Star symbol",
+      "language": "text",
+      "tags": [
+        "miscellaneous",
+        "star",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "U+2713",
+      "description": "Check mark",
+      "scenario": "Check mark",
+      "language": "text",
+      "tags": [
+        "miscellaneous",
+        "check",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Maple Programming Cheat Sheet",
+  "slug": "maple",
+  "description": "Essential Maple commands and syntax for engineers",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "3 + 5;",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "addition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "10 - 4;",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "subtraction",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "6 * 7;",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "multiplication",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x := 10;",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "assignment",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "y := 3 + 4;",
+      "description": "Assign the result of an expression to a variable",
+      "scenario": "Assign the result of an expression to a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "assignment",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x := x + 5;",
+      "description": "Reassign a new value to an existing variable",
+      "scenario": "Reassign a new value to an existing variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "reassignment",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 5 then 'Greater' else 'Smaller' end if;",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "text",
+      "tags": [
+        "control",
+        "conditional",
+        "if-else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i from 1 to 10 do print(i) end do;",
+      "description": "For loop from 1 to 10",
+      "scenario": "For loop from 1 to 10",
+      "language": "text",
+      "tags": [
+        "control",
+        "loop",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while x < 20 do x := x + 1 end do;",
+      "description": "While loop with a condition",
+      "scenario": "While loop with a condition",
+      "language": "text",
+      "tags": [
+        "control",
+        "loop",
+        "while"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f := x -> x^2 + 2*x + 1;",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "text",
+      "tags": [
+        "function",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "g := (x, y) -> x^2 + y^2;",
+      "description": "Define a function with multiple parameters",
+      "scenario": "Define a function with multiple parameters",
+      "language": "text",
+      "tags": [
+        "function",
+        "parameters",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f(3);",
+      "description": "Call a defined function",
+      "scenario": "Call a defined function",
+      "language": "text",
+      "tags": [
+        "function",
+        "call",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "L := [1, 2, 3, 4, 5];",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "text",
+      "tags": [
+        "data",
+        "list",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "L[3];",
+      "description": "Access an element in a list",
+      "scenario": "Access an element in a list",
+      "language": "text",
+      "tags": [
+        "data",
+        "list",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "S := {1, 2, 3};",
+      "description": "Create a set",
+      "scenario": "Create a set",
+      "language": "text",
+      "tags": [
+        "data",
+        "set",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

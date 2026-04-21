@@ -1,0 +1,204 @@
+{
+  "title": "VLC Player Cheat Sheet",
+  "slug": "vlc-player",
+  "description": "Essential VLC Player CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "vlc /path/to/video.mp4",
+      "description": "Play a video file from the command line",
+      "scenario": "Play a video file from the command line",
+      "language": "bash",
+      "tags": [
+        "playback",
+        "video",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --intf rc pause",
+      "description": "Pause the currently playing media",
+      "scenario": "Pause the currently playing media",
+      "language": "bash",
+      "tags": [
+        "pause",
+        "control",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --intf rc stop",
+      "description": "Stop the currently playing media",
+      "scenario": "Stop the currently playing media",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "control",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --fullscreen /path/to/video.mp4",
+      "description": "Play a video in fullscreen mode",
+      "scenario": "Play a video in fullscreen mode",
+      "language": "bash",
+      "tags": [
+        "fullscreen",
+        "video",
+        "playback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --loop /path/to/video.mp4",
+      "description": "Loop a video indefinitely",
+      "scenario": "Loop a video indefinitely",
+      "language": "bash",
+      "tags": [
+        "loop",
+        "repeat",
+        "video"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --start-time=60 /path/to/video.mp4",
+      "description": "Play a video with a specific start time",
+      "scenario": "Play a video with a specific start time",
+      "language": "bash",
+      "tags": [
+        "start",
+        "time",
+        "video"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --intf rc volup 1",
+      "description": "Increase the volume by 10%",
+      "scenario": "Increase the volume by 10%",
+      "language": "bash",
+      "tags": [
+        "audio",
+        "volume",
+        "increase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --intf rc voldown 1",
+      "description": "Decrease the volume by 10%",
+      "scenario": "Decrease the volume by 10%",
+      "language": "bash",
+      "tags": [
+        "audio",
+        "volume",
+        "decrease"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --intf rc mute",
+      "description": "Mute the audio",
+      "scenario": "Mute the audio",
+      "language": "bash",
+      "tags": [
+        "audio",
+        "mute",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc -vvv /path/to/video.mp4 --sout '#standard{access=http,mux=ts,dst=:8080}'",
+      "description": "Stream a video over HTTP",
+      "scenario": "Stream a video over HTTP",
+      "language": "bash",
+      "tags": [
+        "stream",
+        "http",
+        "video"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc /path/to/video.mp4 --sout '#transcode{acodec=mp3}:std{access=file,mux=raw,dst=/path/to/output.mp3}'",
+      "description": "Convert a video file to MP3",
+      "scenario": "Convert a video file to MP3",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "audio",
+        "mp3"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc http://example.com/stream --sout file/ts:/path/to/output.ts",
+      "description": "Capture a video stream to a file",
+      "scenario": "Capture a video stream to a file",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "stream",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --reset-config",
+      "description": "Reset VLC settings to default",
+      "scenario": "Reset VLC settings to default",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "config",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc --config /path/to/config-file",
+      "description": "Specify a custom configuration file",
+      "scenario": "Specify a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "custom",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc -vvv",
+      "description": "Enable verbose logging for troubleshooting",
+      "scenario": "Enable verbose logging for troubleshooting",
+      "language": "bash",
+      "tags": [
+        "logging",
+        "verbose",
+        "troubleshooting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

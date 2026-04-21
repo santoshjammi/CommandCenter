@@ -1,0 +1,165 @@
+{
+  "title": "HTML Input Tag Cheat Sheet",
+  "slug": "input-tag",
+  "description": "A quick reference for HTML input tag usage and attributes.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<input type=\"text\" name=\"username\">",
+      "description": "Create a text input field",
+      "scenario": "Create a text input field",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"password\" name=\"password\">",
+      "description": "Create a password input field",
+      "scenario": "Create a password input field",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"submit\" value=\"Submit\">",
+      "description": "Create a submit button",
+      "scenario": "Create a submit button",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "submit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"text\" placeholder=\"Enter your name\">",
+      "description": "Set a placeholder for an input field",
+      "scenario": "Set a placeholder for an input field",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "placeholder"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"email\" required>",
+      "description": "Make an input field required",
+      "scenario": "Make an input field required",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "required"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"text\" value=\"Default Text\">",
+      "description": "Set a default value for an input field",
+      "scenario": "Set a default value for an input field",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"email\" name=\"user_email\">",
+      "description": "Create an email input field",
+      "scenario": "Create an email input field",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"date\" name=\"birthday\">",
+      "description": "Create a date input field",
+      "scenario": "Create a date input field",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"color\" name=\"favcolor\">",
+      "description": "Create a color picker input",
+      "scenario": "Create a color picker input",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"text\" pattern=\"[A-Za-z]{3,}\">",
+      "description": "Set a pattern for input validation",
+      "scenario": "Set a pattern for input validation",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "validation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"text\" maxlength=\"10\">",
+      "description": "Limit input length with maxlength",
+      "scenario": "Limit input length with maxlength",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "maxlength"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"number\" min=\"1\">",
+      "description": "Set a minimum value for a number input",
+      "scenario": "Set a minimum value for a number input",
+      "language": "html",
+      "tags": [
+        "html",
+        "input",
+        "min"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

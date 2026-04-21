@@ -1,0 +1,165 @@
+{
+  "title": "GitHub Pages Cheat Sheet",
+  "slug": "github-pages",
+  "description": "Quick reference for setting up and managing GitHub Pages.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "jekyll new my-awesome-site",
+      "description": "Initialize a new GitHub Pages site using Jekyll",
+      "scenario": "Initialize a new GitHub Pages site using Jekyll",
+      "language": "bash",
+      "tags": [
+        "jekyll",
+        "init",
+        "site"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle exec jekyll serve",
+      "description": "Serve the site locally to preview changes",
+      "scenario": "Serve the site locally to preview changes",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "local",
+        "preview"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout -b gh-pages",
+      "description": "Create a new branch for GitHub Pages",
+      "scenario": "Create a new branch for GitHub Pages",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "gh-pages",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "baseurl: \"/my-awesome-site\"",
+      "description": "Set the base URL in _config.yml",
+      "scenario": "Set the base URL in _config.yml",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "baseurl",
+        "jekyll"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "theme: minima",
+      "description": "Set the theme in _config.yml",
+      "scenario": "Set the theme in _config.yml",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "theme",
+        "jekyll"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Navigate to Settings > Pages > Source and select branch",
+      "description": "Enable GitHub Pages in repository settings",
+      "scenario": "Enable GitHub Pages in repository settings",
+      "language": "text",
+      "tags": [
+        "settings",
+        "pages",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo \"www.example.com\" > CNAME",
+      "description": "Add a CNAME file for custom domain",
+      "scenario": "Add a CNAME file for custom domain",
+      "language": "bash",
+      "tags": [
+        "cname",
+        "custom domain",
+        "dns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Add A record pointing to 185.199.108.153",
+      "description": "Configure DNS settings for custom domain",
+      "scenario": "Configure DNS settings for custom domain",
+      "language": "text",
+      "tags": [
+        "dns",
+        "custom domain",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Check GitHub Pages > Custom domain section for status",
+      "description": "Verify custom domain setup in GitHub Pages settings",
+      "scenario": "Verify custom domain setup in GitHub Pages settings",
+      "language": "text",
+      "tags": [
+        "verify",
+        "custom domain",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Navigate to Actions tab and review logs",
+      "description": "Check build errors in GitHub Actions",
+      "scenario": "Check build errors in GitHub Actions",
+      "language": "text",
+      "tags": [
+        "actions",
+        "logs",
+        "errors"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle exec jekyll doctor",
+      "description": "Validate _config.yml syntax",
+      "scenario": "Validate _config.yml syntax",
+      "language": "bash",
+      "tags": [
+        "validate",
+        "config",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle exec jekyll clean",
+      "description": "Clear Jekyll cache to fix build issues",
+      "scenario": "Clear Jekyll cache to fix build issues",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "clean",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

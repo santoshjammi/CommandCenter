@@ -1,0 +1,204 @@
+{
+  "title": "Matplotlib Cheat Sheet",
+  "slug": "matplotlib",
+  "description": "Quick reference for Matplotlib plotting library in Python.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "plt.plot([1, 2, 3, 4], [1, 4, 9, 16])",
+      "description": "Create a simple line plot",
+      "scenario": "Create a simple line plot",
+      "language": "python",
+      "tags": [
+        "plot",
+        "line",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.show()",
+      "description": "Display the plot",
+      "scenario": "Display the plot",
+      "language": "python",
+      "tags": [
+        "display",
+        "plot",
+        "show"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.title('Sample Plot')",
+      "description": "Set plot title",
+      "scenario": "Set plot title",
+      "language": "python",
+      "tags": [
+        "title",
+        "plot",
+        "label"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.xlabel('X Axis')\nplt.ylabel('Y Axis')",
+      "description": "Add labels to axes",
+      "scenario": "Add labels to axes",
+      "language": "python",
+      "tags": [
+        "label",
+        "axes",
+        "customize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.plot(x, y, linestyle='--', color='r')",
+      "description": "Change line style and color",
+      "scenario": "Change line style and color",
+      "language": "python",
+      "tags": [
+        "style",
+        "color",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.legend(['Line 1', 'Line 2'])",
+      "description": "Add a legend to the plot",
+      "scenario": "Add a legend to the plot",
+      "language": "python",
+      "tags": [
+        "legend",
+        "plot",
+        "label"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fig, axs = plt.subplots(2, 1)",
+      "description": "Create a 2x1 grid of subplots",
+      "scenario": "Create a 2x1 grid of subplots",
+      "language": "python",
+      "tags": [
+        "subplot",
+        "grid",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "axs[0].plot(x, y)",
+      "description": "Add a plot to the first subplot",
+      "scenario": "Add a plot to the first subplot",
+      "language": "python",
+      "tags": [
+        "subplot",
+        "plot",
+        "axes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.tight_layout()",
+      "description": "Adjust subplot spacing",
+      "scenario": "Adjust subplot spacing",
+      "language": "python",
+      "tags": [
+        "spacing",
+        "layout",
+        "subplot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.savefig('plot.png')",
+      "description": "Save plot as a PNG file",
+      "scenario": "Save plot as a PNG file",
+      "language": "python",
+      "tags": [
+        "save",
+        "file",
+        "png"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.savefig('plot.png', dpi=300)",
+      "description": "Save plot with a specific DPI",
+      "scenario": "Save plot with a specific DPI",
+      "language": "python",
+      "tags": [
+        "save",
+        "dpi",
+        "resolution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.savefig('plot.pdf')",
+      "description": "Save plot as a PDF",
+      "scenario": "Save plot as a PDF",
+      "language": "python",
+      "tags": [
+        "save",
+        "file",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.grid(True)",
+      "description": "Add grid lines to the plot",
+      "scenario": "Add grid lines to the plot",
+      "language": "python",
+      "tags": [
+        "grid",
+        "lines",
+        "plot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.xlim(0, 10)\nplt.ylim(0, 20)",
+      "description": "Set axis limits",
+      "scenario": "Set axis limits",
+      "language": "python",
+      "tags": [
+        "axis",
+        "limits",
+        "range"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.xscale('log')\nplt.yscale('log')",
+      "description": "Use logarithmic scale for axes",
+      "scenario": "Use logarithmic scale for axes",
+      "language": "python",
+      "tags": [
+        "log",
+        "scale",
+        "axis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

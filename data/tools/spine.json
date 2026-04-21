@@ -1,0 +1,165 @@
+{
+  "title": "Spine CLI Cheat Sheet",
+  "slug": "spine",
+  "description": "Essential Spine CLI commands and configurations for developers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "spine init my_project",
+      "description": "Initialize a new Spine project",
+      "scenario": "Initialize a new Spine project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine server start",
+      "description": "Run the Spine server",
+      "scenario": "Run the Spine server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine server stop",
+      "description": "Stop the Spine server",
+      "scenario": "Stop the Spine server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine config set server.port 8080",
+      "description": "Set the Spine server port",
+      "scenario": "Set the Spine server port",
+      "language": "bash",
+      "tags": [
+        "config",
+        "server",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine config set debug true",
+      "description": "Enable debug mode in Spine",
+      "scenario": "Enable debug mode in Spine",
+      "language": "bash",
+      "tags": [
+        "config",
+        "debug",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine config view",
+      "description": "View current Spine configuration",
+      "scenario": "View current Spine configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine model create User",
+      "description": "Create a new Spine model",
+      "scenario": "Create a new Spine model",
+      "language": "bash",
+      "tags": [
+        "model",
+        "create",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine model list",
+      "description": "List all Spine models",
+      "scenario": "List all Spine models",
+      "language": "bash",
+      "tags": [
+        "model",
+        "list",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine model delete User",
+      "description": "Delete a Spine model",
+      "scenario": "Delete a Spine model",
+      "language": "bash",
+      "tags": [
+        "model",
+        "delete",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine deploy production",
+      "description": "Deploy the Spine project to production",
+      "scenario": "Deploy the Spine project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "release"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine deploy rollback",
+      "description": "Rollback the last Spine deployment",
+      "scenario": "Rollback the last Spine deployment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "rollback",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spine deploy status",
+      "description": "Check the status of a Spine deployment",
+      "scenario": "Check the status of a Spine deployment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

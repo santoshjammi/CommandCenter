@@ -1,0 +1,165 @@
+{
+  "title": "DOT Language Cheat Sheet",
+  "slug": "dot-language",
+  "description": "Quick reference for the DOT graph description language.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "digraph G { A -> B; B -> C; C -> A; }",
+      "description": "Define a simple directed graph",
+      "scenario": "Define a simple directed graph",
+      "language": "text",
+      "tags": [
+        "graph",
+        "directed",
+        "nodes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "graph G { A -- B; B -- C; C -- A; }",
+      "description": "Define a simple undirected graph",
+      "scenario": "Define a simple undirected graph",
+      "language": "text",
+      "tags": [
+        "graph",
+        "undirected",
+        "nodes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "digraph G { A [color=red]; B [shape=box]; A -> B; }",
+      "description": "Define a graph with node attributes",
+      "scenario": "Define a graph with node attributes",
+      "language": "text",
+      "tags": [
+        "graph",
+        "attributes",
+        "nodes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A [color=blue];",
+      "description": "Set color attribute for a node",
+      "scenario": "Set color attribute for a node",
+      "language": "text",
+      "tags": [
+        "node",
+        "attribute",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A -> B [label=\"Edge Label\"];",
+      "description": "Set label attribute for an edge",
+      "scenario": "Set label attribute for an edge",
+      "language": "text",
+      "tags": [
+        "edge",
+        "attribute",
+        "label"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "B [shape=ellipse];",
+      "description": "Set shape attribute for a node",
+      "scenario": "Set shape attribute for a node",
+      "language": "text",
+      "tags": [
+        "node",
+        "attribute",
+        "shape"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "subgraph cluster_0 { A; B; }",
+      "description": "Define a subgraph",
+      "scenario": "Define a subgraph",
+      "language": "text",
+      "tags": [
+        "subgraph",
+        "cluster",
+        "group"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "subgraph cluster_1 { label=\"Cluster 1\"; C; D; }",
+      "description": "Create a cluster with a label",
+      "scenario": "Create a cluster with a label",
+      "language": "text",
+      "tags": [
+        "cluster",
+        "label",
+        "group"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "subgraph cluster_2 { style=filled; color=lightgrey; E; F; }",
+      "description": "Define a subgraph for styling",
+      "scenario": "Define a subgraph for styling",
+      "language": "text",
+      "tags": [
+        "subgraph",
+        "style",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "digraph G { rankdir=LR; }",
+      "description": "Set global graph attribute for rank direction",
+      "scenario": "Set global graph attribute for rank direction",
+      "language": "text",
+      "tags": [
+        "graph",
+        "attribute",
+        "direction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "digraph G { node [style=filled, color=lightblue]; }",
+      "description": "Set global node style",
+      "scenario": "Set global node style",
+      "language": "text",
+      "tags": [
+        "node",
+        "style",
+        "global"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A -> B [style=dashed];",
+      "description": "Set edge style to dashed",
+      "scenario": "Set edge style to dashed",
+      "language": "text",
+      "tags": [
+        "edge",
+        "style",
+        "dashed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

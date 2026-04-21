@@ -1,0 +1,204 @@
+{
+  "title": "Windows Azure Cheat Sheet",
+  "slug": "windows-azure",
+  "description": "Essential commands and configurations for Windows Azure management.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "az login",
+      "description": "Log in to Azure account",
+      "scenario": "Log in to Azure account",
+      "language": "bash",
+      "tags": [
+        "login",
+        "authentication",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az account list --output table",
+      "description": "List all Azure subscriptions",
+      "scenario": "List all Azure subscriptions",
+      "language": "bash",
+      "tags": [
+        "subscriptions",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az account set --subscription \"<subscription-id>\"",
+      "description": "Set a specific Azure subscription",
+      "scenario": "Set a specific Azure subscription",
+      "language": "bash",
+      "tags": [
+        "subscription",
+        "set",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az group create --name MyResourceGroup --location eastus",
+      "description": "Create a new resource group",
+      "scenario": "Create a new resource group",
+      "language": "bash",
+      "tags": [
+        "resource group",
+        "create",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az group delete --name MyResourceGroup --yes --no-wait",
+      "description": "Delete a resource group",
+      "scenario": "Delete a resource group",
+      "language": "bash",
+      "tags": [
+        "resource group",
+        "delete",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az resource list --resource-group MyResourceGroup",
+      "description": "List resources in a group",
+      "scenario": "List resources in a group",
+      "language": "bash",
+      "tags": [
+        "resources",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az vm create --resource-group MyResourceGroup --name MyVM --image UbuntuLTS --admin-username azureuser --generate-ssh-keys",
+      "description": "Create a new virtual machine",
+      "scenario": "Create a new virtual machine",
+      "language": "bash",
+      "tags": [
+        "vm",
+        "create",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az vm start --resource-group MyResourceGroup --name MyVM",
+      "description": "Start a virtual machine",
+      "scenario": "Start a virtual machine",
+      "language": "bash",
+      "tags": [
+        "vm",
+        "start",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az vm stop --resource-group MyResourceGroup --name MyVM",
+      "description": "Stop a virtual machine",
+      "scenario": "Stop a virtual machine",
+      "language": "bash",
+      "tags": [
+        "vm",
+        "stop",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az storage account create --name mystorageaccount --resource-group MyResourceGroup --location eastus --sku Standard_LRS",
+      "description": "Create a storage account",
+      "scenario": "Create a storage account",
+      "language": "bash",
+      "tags": [
+        "storage",
+        "create",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az storage account list --resource-group MyResourceGroup --output table",
+      "description": "List storage accounts",
+      "scenario": "List storage accounts",
+      "language": "bash",
+      "tags": [
+        "storage",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az storage account delete --name mystorageaccount --resource-group MyResourceGroup",
+      "description": "Delete a storage account",
+      "scenario": "Delete a storage account",
+      "language": "bash",
+      "tags": [
+        "storage",
+        "delete",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az network vnet create --resource-group MyResourceGroup --name MyVnet --address-prefix 10.0.0.0/16",
+      "description": "Create a virtual network",
+      "scenario": "Create a virtual network",
+      "language": "bash",
+      "tags": [
+        "network",
+        "vnet",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az network vnet list --resource-group MyResourceGroup --output table",
+      "description": "List virtual networks",
+      "scenario": "List virtual networks",
+      "language": "bash",
+      "tags": [
+        "network",
+        "vnet",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az network vnet delete --resource-group MyResourceGroup --name MyVnet",
+      "description": "Delete a virtual network",
+      "scenario": "Delete a virtual network",
+      "language": "bash",
+      "tags": [
+        "network",
+        "vnet",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

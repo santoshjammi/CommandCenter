@@ -1,0 +1,204 @@
+{
+  "title": "Gulp Cheat Sheet",
+  "slug": "gulp",
+  "description": "Essential Gulp CLI commands and configuration patterns.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "gulp init",
+      "description": "Initialize a new Gulp project",
+      "scenario": "Initialize a new Gulp project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp",
+      "description": "Run the default Gulp task",
+      "scenario": "Run the default Gulp task",
+      "language": "bash",
+      "tags": [
+        "run",
+        "default",
+        "task"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp --tasks",
+      "description": "List all available Gulp tasks",
+      "scenario": "List all available Gulp tasks",
+      "language": "bash",
+      "tags": [
+        "list",
+        "tasks",
+        "help"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp.task('task-name', function() { console.log('Task running'); });",
+      "description": "Define a simple Gulp task",
+      "scenario": "Define a simple Gulp task",
+      "language": "javascript",
+      "tags": [
+        "task",
+        "define",
+        "simple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp.task('task-name', ['dep1', 'dep2'], function() { console.log('Task with dependencies'); });",
+      "description": "Create a task with dependencies",
+      "scenario": "Create a task with dependencies",
+      "language": "javascript",
+      "tags": [
+        "task",
+        "dependencies",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp.task('default', function() { console.log('Default task'); });",
+      "description": "Define a default task",
+      "scenario": "Define a default task",
+      "language": "javascript",
+      "tags": [
+        "default",
+        "task",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp.task('scripts', function() { return gulp.src('src/*.js').pipe(concat('all.js')).pipe(uglify()).pipe(gulp.dest('dist')); });",
+      "description": "Concatenate and minify JavaScript files",
+      "scenario": "Concatenate and minify JavaScript files",
+      "language": "javascript",
+      "tags": [
+        "concat",
+        "minify",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp.task('sass', function() { return gulp.src('src/*.scss').pipe(sass()).pipe(gulp.dest('dist')); });",
+      "description": "Compile Sass to CSS",
+      "scenario": "Compile Sass to CSS",
+      "language": "javascript",
+      "tags": [
+        "sass",
+        "compile",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp.task('watch', function() { gulp.watch('src/*.js', ['scripts']); gulp.watch('src/*.scss', ['sass']); });",
+      "description": "Watch files for changes",
+      "scenario": "Watch files for changes",
+      "language": "javascript",
+      "tags": [
+        "watch",
+        "files",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp --verbose",
+      "description": "Run Gulp in verbose mode",
+      "scenario": "Run Gulp in verbose mode",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "flag",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp --gulpfile custom-gulpfile.js",
+      "description": "Specify a custom Gulpfile",
+      "scenario": "Specify a custom Gulpfile",
+      "language": "bash",
+      "tags": [
+        "custom",
+        "gulpfile",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp --cwd /path/to/directory",
+      "description": "Set the working directory for Gulp",
+      "scenario": "Set the working directory for Gulp",
+      "language": "bash",
+      "tags": [
+        "cwd",
+        "directory",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const gulp = require('gulp');\nconst sass = require('gulp-sass');\nconst concat = require('gulp-concat');\nconst uglify = require('gulp-uglify');\ngulp.task('default', function() { console.log('Gulp is running!'); });",
+      "description": "Sample Gulpfile.js setup",
+      "scenario": "Sample Gulpfile.js setup",
+      "language": "javascript",
+      "tags": [
+        "setup",
+        "gulpfile",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const gulp = require('gulp');\nconst plugins = require('gulp-load-plugins')();\ngulp.task('default', function() { plugins.util.log('Plugins loaded'); });",
+      "description": "Load plugins automatically",
+      "scenario": "Load plugins automatically",
+      "language": "javascript",
+      "tags": [
+        "plugins",
+        "autoload",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import gulp from 'gulp';\nimport sass from 'gulp-sass';\nimport concat from 'gulp-concat';\ngulp.task('default', () => { console.log('ES6 Gulp is running!'); });",
+      "description": "Using ES6 with Gulp",
+      "scenario": "Using ES6 with Gulp",
+      "language": "javascript",
+      "tags": [
+        "es6",
+        "setup",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

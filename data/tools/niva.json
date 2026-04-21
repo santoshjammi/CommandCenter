@@ -1,0 +1,165 @@
+{
+  "title": "Niva CLI Cheat Sheet",
+  "slug": "niva",
+  "description": "Essential commands and patterns for using the Niva CLI efficiently.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "niva init",
+      "description": "Initialize a new Niva project",
+      "scenario": "Initialize a new Niva project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "niva start",
+      "description": "Start the Niva development server",
+      "scenario": "Start the Niva development server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "niva build",
+      "description": "Build the Niva project for production",
+      "scenario": "Build the Niva project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "project_name: MyNivaProject",
+      "description": "Set the project name in Niva config",
+      "scenario": "Set the project name in Niva config",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug: true",
+      "description": "Enable debug mode in Niva configuration",
+      "scenario": "Enable debug mode in Niva configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "debug",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output_dir: ./dist",
+      "description": "Specify the output directory for builds",
+      "scenario": "Specify the output directory for builds",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "output",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "niva start --config custom-config.yaml",
+      "description": "Run Niva with a specific configuration file",
+      "scenario": "Run Niva with a specific configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "custom",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "niva clean",
+      "description": "Clean the build directory",
+      "scenario": "Clean the build directory",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "niva help",
+      "description": "List all available Niva commands",
+      "scenario": "List all available Niva commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { // code } catch (error) { console.error(error); }",
+      "description": "Pattern for handling errors in Niva scripts",
+      "scenario": "Pattern for handling errors in Niva scripts",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData() { const data = await fetch('/api/data'); return data.json(); }",
+      "description": "Pattern for asynchronous operations in Niva",
+      "scenario": "Pattern for asynchronous operations in Niva",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "fetch",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% if user.isLoggedIn %} Welcome, {{ user.name }} {% else %} Please log in {% endif %}",
+      "description": "Pattern for conditional rendering in Niva templates",
+      "scenario": "Pattern for conditional rendering in Niva templates",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "rendering",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

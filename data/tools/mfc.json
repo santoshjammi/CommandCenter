@@ -1,0 +1,204 @@
+{
+  "title": "MFC Cheat Sheet",
+  "slug": "mfc",
+  "description": "Essential MFC commands and patterns for efficient development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "File -> New -> Project -> MFC App",
+      "description": "Create a new MFC application using Visual Studio.",
+      "scenario": "Create a new MFC application using Visual Studio.",
+      "language": "text",
+      "tags": [
+        "MFC",
+        "Visual Studio",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Insert -> Resource -> Dialog",
+      "description": "Add a new dialog to the MFC application.",
+      "scenario": "Add a new dialog to the MFC application.",
+      "language": "text",
+      "tags": [
+        "dialog",
+        "resource",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + F5",
+      "description": "Compile and run the MFC application.",
+      "scenario": "Compile and run the MFC application.",
+      "language": "text",
+      "tags": [
+        "compile",
+        "run",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CWnd myWindow; myWindow.Create(NULL, _T(\"My Window\"));",
+      "description": "Use CWnd to create a window.",
+      "scenario": "Use CWnd to create a window.",
+      "language": "cpp",
+      "tags": [
+        "CWnd",
+        "window",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CString myString = _T(\"Hello, MFC!\");",
+      "description": "Use CString for string manipulation.",
+      "scenario": "Use CString for string manipulation.",
+      "language": "cpp",
+      "tags": [
+        "CString",
+        "string",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CButton myButton; myButton.Create(_T(\"Click Me\"), WS_CHILD|WS_VISIBLE, CRect(10,10,100,30), pParentWnd, 1);",
+      "description": "Use CButton to create a button control.",
+      "scenario": "Use CButton to create a button control.",
+      "language": "cpp",
+      "tags": [
+        "CButton",
+        "control",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "afx_msg void OnPaint();",
+      "description": "Override the OnPaint function to handle WM_PAINT messages.",
+      "scenario": "Override the OnPaint function to handle WM_PAINT messages.",
+      "language": "cpp",
+      "tags": [
+        "OnPaint",
+        "WM_PAINT",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ON_COMMAND(ID_FILE_NEW, &CMyApp::OnFileNew)",
+      "description": "Map a command message to a handler function.",
+      "scenario": "Map a command message to a handler function.",
+      "language": "cpp",
+      "tags": [
+        "ON_COMMAND",
+        "message",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ON_BN_CLICKED(IDC_MYBUTTON, &CMyDialog::OnMyButtonClicked)",
+      "description": "Handle a button click event.",
+      "scenario": "Handle a button click event.",
+      "language": "cpp",
+      "tags": [
+        "ON_BN_CLICKED",
+        "button",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Project -> Properties -> Configuration Properties -> General -> Character Set -> Use Unicode Character Set",
+      "description": "Set the character set to Unicode in project settings.",
+      "scenario": "Set the character set to Unicode in project settings.",
+      "language": "text",
+      "tags": [
+        "Unicode",
+        "settings",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Project -> Properties -> Configuration Properties -> General -> Use of MFC -> Use MFC in a Shared DLL",
+      "description": "Enable MFC in a shared DLL.",
+      "scenario": "Enable MFC in a shared DLL.",
+      "language": "text",
+      "tags": [
+        "DLL",
+        "settings",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Project -> Properties -> Configuration Properties -> General -> Platform Toolset -> Visual Studio 2019 (v142)",
+      "description": "Change the target platform toolset.",
+      "scenario": "Change the target platform toolset.",
+      "language": "text",
+      "tags": [
+        "toolset",
+        "platform",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the left margin next to the line number or press F9.",
+      "description": "Set a breakpoint in Visual Studio.",
+      "scenario": "Set a breakpoint in Visual Studio.",
+      "language": "text",
+      "tags": [
+        "breakpoint",
+        "debug",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F11",
+      "description": "Step into a function during debugging.",
+      "scenario": "Step into a function during debugging.",
+      "language": "text",
+      "tags": [
+        "step into",
+        "debug",
+        "MFC"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Right-click on the variable -> Add Watch",
+      "description": "Watch a variable's value during debugging.",
+      "scenario": "Watch a variable's value during debugging.",
+      "language": "text",
+      "tags": [
+        "watch",
+        "variable",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

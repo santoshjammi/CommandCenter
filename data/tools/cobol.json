@@ -1,0 +1,204 @@
+{
+  "title": "COBOL Cheat Sheet",
+  "slug": "cobol",
+  "description": "Essential COBOL syntax and commands for software engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "IDENTIFICATION DIVISION.\nPROGRAM-ID. HelloWorld.\nPROCEDURE DIVISION.\n    DISPLAY 'Hello, World!'.\n    STOP RUN.",
+      "description": "Define a COBOL program structure",
+      "scenario": "Define a COBOL program structure",
+      "language": "text",
+      "tags": [
+        "structure",
+        "program",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "01 WS-NUMBER PIC 9(5) VALUE 0.",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "declaration",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ADD WS-NUMBER1 TO WS-NUMBER2 GIVING WS-RESULT.",
+      "description": "Perform a simple arithmetic operation",
+      "scenario": "Perform a simple arithmetic operation",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "operation",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OPEN INPUT file-name.",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "READ file-name INTO ws-record.",
+      "description": "Read a record from a file",
+      "scenario": "Read a record from a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CLOSE file-name.",
+      "description": "Close a file",
+      "scenario": "Close a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "close",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IF WS-NUMBER1 > WS-NUMBER2 THEN\n    DISPLAY 'Number1 is greater'.\nELSE\n    DISPLAY 'Number2 is greater'.",
+      "description": "Use an IF statement for conditional logic",
+      "scenario": "Use an IF statement for conditional logic",
+      "language": "text",
+      "tags": [
+        "if",
+        "conditional",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PERFORM UNTIL WS-COUNTER > 10\n    ADD 1 TO WS-COUNTER\n    DISPLAY WS-COUNTER\nEND-PERFORM.",
+      "description": "Perform a loop using PERFORM UNTIL",
+      "scenario": "Perform a loop using PERFORM UNTIL",
+      "language": "text",
+      "tags": [
+        "loop",
+        "perform",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "EVALUATE TRUE\n    WHEN WS-NUMBER = 1\n        DISPLAY 'One'\n    WHEN WS-NUMBER = 2\n        DISPLAY 'Two'\n    WHEN OTHER\n        DISPLAY 'Other'\nEND-EVALUATE.",
+      "description": "Use a CASE structure with EVALUATE",
+      "scenario": "Use a CASE structure with EVALUATE",
+      "language": "text",
+      "tags": [
+        "case",
+        "evaluate",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "STRING WS-FIRST-NAME DELIMITED BY SPACE\n       WS-LAST-NAME DELIMITED BY SPACE\n       INTO WS-FULL-NAME.",
+      "description": "Concatenate two strings",
+      "scenario": "Concatenate two strings",
+      "language": "text",
+      "tags": [
+        "string",
+        "concatenate",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UNSTRING WS-NAME DELIMITED BY SPACE INTO WS-FIRST-NAME WS-LAST-NAME.",
+      "description": "Trim spaces from a string",
+      "scenario": "Trim spaces from a string",
+      "language": "text",
+      "tags": [
+        "string",
+        "trim",
+        "unstring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "COMPUTE WS-LENGTH = FUNCTION LENGTH(WS-NAME).",
+      "description": "Find the length of a string",
+      "scenario": "Find the length of a string",
+      "language": "text",
+      "tags": [
+        "string",
+        "length",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "01 WS-AGE PIC 99.",
+      "description": "Define a numeric data type",
+      "scenario": "Define a numeric data type",
+      "language": "text",
+      "tags": [
+        "data",
+        "numeric",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "01 WS-NAME PIC X(20).",
+      "description": "Define an alphanumeric data type",
+      "scenario": "Define an alphanumeric data type",
+      "language": "text",
+      "tags": [
+        "data",
+        "alphanumeric",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "01 EMPLOYEE-RECORD.\n   05 EMP-ID PIC 9(5).\n   05 EMP-NAME PIC X(30).\n   05 EMP-SALARY PIC 9(7)V99.",
+      "description": "Define a record structure",
+      "scenario": "Define a record structure",
+      "language": "text",
+      "tags": [
+        "record",
+        "structure",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

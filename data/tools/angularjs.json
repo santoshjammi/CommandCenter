@@ -1,0 +1,204 @@
+{
+  "title": "AngularJS Cheat Sheet",
+  "slug": "angularjs",
+  "description": "Essential AngularJS commands and patterns for developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "ng new my-angularjs-app",
+      "description": "Create a new AngularJS project",
+      "scenario": "Create a new AngularJS project",
+      "language": "bash",
+      "tags": [
+        "angularjs",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ng serve",
+      "description": "Serve the AngularJS application locally",
+      "scenario": "Serve the AngularJS application locally",
+      "language": "bash",
+      "tags": [
+        "angularjs",
+        "cli",
+        "serve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ng build --prod",
+      "description": "Build the AngularJS application for production",
+      "scenario": "Build the AngularJS application for production",
+      "language": "bash",
+      "tags": [
+        "angularjs",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.directive('myDirective', function() { return { template: '<div>My Directive</div>' }; });",
+      "description": "Create a custom directive",
+      "scenario": "Create a custom directive",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "directive",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div ng-repeat=\"item in items\">{{ item.name }}</div>",
+      "description": "Use ng-repeat to iterate over a list",
+      "scenario": "Use ng-repeat to iterate over a list",
+      "language": "html",
+      "tags": [
+        "angularjs",
+        "directive",
+        "ng-repeat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"text\" ng-model=\"username\">",
+      "description": "Bind a model to an input field using ng-model",
+      "scenario": "Bind a model to an input field using ng-model",
+      "language": "html",
+      "tags": [
+        "angularjs",
+        "directive",
+        "ng-model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.controller('MainCtrl', function($scope) { $scope.message = 'Hello, World!'; });",
+      "description": "Define a controller in AngularJS",
+      "scenario": "Define a controller in AngularJS",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "controller",
+        "scope"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div ng-controller=\"MainCtrl\">{{ message }}</div>",
+      "description": "Use a controller in HTML",
+      "scenario": "Use a controller in HTML",
+      "language": "html",
+      "tags": [
+        "angularjs",
+        "controller",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.controller('MainCtrl', function($scope, $http) { $http.get('/api/data').then(function(response) { $scope.data = response.data; }); });",
+      "description": "Inject a service into a controller",
+      "scenario": "Inject a service into a controller",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "controller",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.service('myService', function() { this.sayHello = function() { return 'Hello'; }; });",
+      "description": "Create a custom service",
+      "scenario": "Create a custom service",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "service",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.controller('MainCtrl', function($scope, myService) { $scope.greeting = myService.sayHello(); });",
+      "description": "Use a service in a controller",
+      "scenario": "Use a service in a controller",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "service",
+        "controller"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.factory('myFactory', function() { return { getData: function() { return 'Data'; } }; });",
+      "description": "Define a factory service",
+      "scenario": "Define a factory service",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "service",
+        "factory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.config(function($routeProvider) { $routeProvider.when('/home', { templateUrl: 'home.html', controller: 'HomeCtrl' }); });",
+      "description": "Configure routes using $routeProvider",
+      "scenario": "Configure routes using $routeProvider",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "config",
+        "routes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.config(function($httpProvider) { $httpProvider.interceptors.push('myInterceptor'); });",
+      "description": "Set up HTTP interceptors",
+      "scenario": "Set up HTTP interceptors",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "config",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.config(function($locationProvider) { $locationProvider.html5Mode(true); });",
+      "description": "Enable HTML5 mode for routes",
+      "scenario": "Enable HTML5 mode for routes",
+      "language": "javascript",
+      "tags": [
+        "angularjs",
+        "config",
+        "html5"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

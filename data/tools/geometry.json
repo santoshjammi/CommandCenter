@@ -1,0 +1,204 @@
+{
+  "title": "Geometry Cheat Sheet",
+  "slug": "geometry",
+  "description": "Quick reference for common geometry formulas and concepts.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "A = \u03c0r\u00b2",
+      "description": "Calculate the area of a circle",
+      "scenario": "Calculate the area of a circle",
+      "language": "text",
+      "tags": [
+        "area",
+        "circle",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A = l \u00d7 w",
+      "description": "Calculate the area of a rectangle",
+      "scenario": "Calculate the area of a rectangle",
+      "language": "text",
+      "tags": [
+        "area",
+        "rectangle",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A = 0.5 \u00d7 b \u00d7 h",
+      "description": "Calculate the area of a triangle",
+      "scenario": "Calculate the area of a triangle",
+      "language": "text",
+      "tags": [
+        "area",
+        "triangle",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P = 2(l + w)",
+      "description": "Calculate the perimeter of a rectangle",
+      "scenario": "Calculate the perimeter of a rectangle",
+      "language": "text",
+      "tags": [
+        "perimeter",
+        "rectangle",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C = 2\u03c0r",
+      "description": "Calculate the perimeter of a circle (circumference)",
+      "scenario": "Calculate the perimeter of a circle (circumference)",
+      "language": "text",
+      "tags": [
+        "perimeter",
+        "circle",
+        "circumference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P = a + b + c",
+      "description": "Calculate the perimeter of a triangle",
+      "scenario": "Calculate the perimeter of a triangle",
+      "language": "text",
+      "tags": [
+        "perimeter",
+        "triangle",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "V = a\u00b3",
+      "description": "Calculate the volume of a cube",
+      "scenario": "Calculate the volume of a cube",
+      "language": "text",
+      "tags": [
+        "volume",
+        "cube",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "V = l \u00d7 w \u00d7 h",
+      "description": "Calculate the volume of a rectangular prism",
+      "scenario": "Calculate the volume of a rectangular prism",
+      "language": "text",
+      "tags": [
+        "volume",
+        "rectangular prism",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "V = 4/3\u03c0r\u00b3",
+      "description": "Calculate the volume of a sphere",
+      "scenario": "Calculate the volume of a sphere",
+      "language": "text",
+      "tags": [
+        "volume",
+        "sphere",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "c = \u221a(a\u00b2 + b\u00b2)",
+      "description": "Find the hypotenuse of a right triangle",
+      "scenario": "Find the hypotenuse of a right triangle",
+      "language": "text",
+      "tags": [
+        "pythagorean",
+        "hypotenuse",
+        "triangle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a = \u221a(c\u00b2 - b\u00b2)",
+      "description": "Find a leg of a right triangle",
+      "scenario": "Find a leg of a right triangle",
+      "language": "text",
+      "tags": [
+        "pythagorean",
+        "leg",
+        "triangle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a\u00b2 + b\u00b2 = c\u00b2",
+      "description": "Verify if a triangle is a right triangle",
+      "scenario": "Verify if a triangle is a right triangle",
+      "language": "text",
+      "tags": [
+        "pythagorean",
+        "right triangle",
+        "verification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sin(\u03b8) = opposite/hypotenuse",
+      "description": "Calculate sine of an angle",
+      "scenario": "Calculate sine of an angle",
+      "language": "text",
+      "tags": [
+        "trigonometry",
+        "sine",
+        "ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cos(\u03b8) = adjacent/hypotenuse",
+      "description": "Calculate cosine of an angle",
+      "scenario": "Calculate cosine of an angle",
+      "language": "text",
+      "tags": [
+        "trigonometry",
+        "cosine",
+        "ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tan(\u03b8) = opposite/adjacent",
+      "description": "Calculate tangent of an angle",
+      "scenario": "Calculate tangent of an angle",
+      "language": "text",
+      "tags": [
+        "trigonometry",
+        "tangent",
+        "ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

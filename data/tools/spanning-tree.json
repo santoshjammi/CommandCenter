@@ -1,0 +1,165 @@
+{
+  "title": "Spanning Tree Protocol (STP) Cheat Sheet",
+  "slug": "spanning-tree",
+  "description": "Essential commands and concepts for Spanning Tree Protocol (STP).",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "spanning-tree vlan 1",
+      "description": "Enable STP on a switch",
+      "scenario": "Enable STP on a switch",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "enable",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show spanning-tree",
+      "description": "Show STP status for all VLANs",
+      "scenario": "Show STP status for all VLANs",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "status",
+        "VLAN"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spanning-tree vlan 1 priority 4096",
+      "description": "Set the priority of a switch for STP",
+      "scenario": "Set the priority of a switch for STP",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "priority",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spanning-tree vlan 1 root primary",
+      "description": "Configure a switch as the root bridge",
+      "scenario": "Configure a switch as the root bridge",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "root",
+        "bridge"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spanning-tree mode rapid-pvst",
+      "description": "Change the STP mode to Rapid PVST+",
+      "scenario": "Change the STP mode to Rapid PVST+",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "mode",
+        "Rapid PVST+"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spanning-tree vlan 1 cost 10",
+      "description": "Set port cost for STP calculations",
+      "scenario": "Set port cost for STP calculations",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "port",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show spanning-tree interface",
+      "description": "Display STP port roles and states",
+      "scenario": "Display STP port roles and states",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "port",
+        "roles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show spanning-tree root",
+      "description": "Check STP root bridge information",
+      "scenario": "Check STP root bridge information",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "root",
+        "information"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show spanning-tree detail | include topology change",
+      "description": "Verify STP topology changes",
+      "scenario": "Verify STP topology changes",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "topology",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spanning-tree bpdufilter enable",
+      "description": "Block a port from participating in STP",
+      "scenario": "Block a port from participating in STP",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "block",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spanning-tree bpduguard enable",
+      "description": "Enable BPDU Guard on a port",
+      "scenario": "Enable BPDU Guard on a port",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "BPDU",
+        "guard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spanning-tree portfast",
+      "description": "Configure PortFast on an access port",
+      "scenario": "Configure PortFast on an access port",
+      "language": "bash",
+      "tags": [
+        "STP",
+        "PortFast",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

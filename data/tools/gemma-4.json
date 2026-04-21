@@ -1,0 +1,165 @@
+{
+  "title": "Gemma 4 Cheat Sheet",
+  "slug": "gemma-4",
+  "description": "Essential commands and configurations for Gemma 4 CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "gemma init my_project",
+      "description": "Initialize a new Gemma 4 project",
+      "scenario": "Initialize a new Gemma 4 project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma run",
+      "description": "Run the Gemma 4 application",
+      "scenario": "Run the Gemma 4 application",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma build",
+      "description": "Build the Gemma 4 project",
+      "scenario": "Build the Gemma 4 project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma config set env development",
+      "description": "Set the environment to development",
+      "scenario": "Set the environment to development",
+      "language": "bash",
+      "tags": [
+        "config",
+        "environment",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma config set db.connection \"postgres://user:pass@localhost/db\"",
+      "description": "Configure the database connection string",
+      "scenario": "Configure the database connection string",
+      "language": "bash",
+      "tags": [
+        "config",
+        "database",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma config set logging.verbose true",
+      "description": "Enable verbose logging",
+      "scenario": "Enable verbose logging",
+      "language": "bash",
+      "tags": [
+        "config",
+        "logging",
+        "verbose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma deploy --env production",
+      "description": "Deploy the Gemma 4 application",
+      "scenario": "Deploy the Gemma 4 application",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma test --coverage",
+      "description": "Run tests with coverage report",
+      "scenario": "Run tests with coverage report",
+      "language": "bash",
+      "tags": [
+        "test",
+        "coverage",
+        "report"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma generate module my_module",
+      "description": "Generate a new module",
+      "scenario": "Generate a new module",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "module",
+        "scaffold"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma status",
+      "description": "Check the status of the application",
+      "scenario": "Check the status of the application",
+      "language": "bash",
+      "tags": [
+        "status",
+        "check",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma help",
+      "description": "List all available commands",
+      "scenario": "List all available commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gemma update",
+      "description": "Update Gemma 4 to the latest version",
+      "scenario": "Update Gemma 4 to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "upgrade",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

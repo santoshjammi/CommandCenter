@@ -1,0 +1,204 @@
+{
+  "title": "Pascal Cheat Sheet",
+  "slug": "pascal",
+  "description": "Essential Pascal commands and syntax for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "program HelloWorld;\nbegin\n  writeln('Hello, World!');\nend.",
+      "description": "Define a simple program structure in Pascal",
+      "scenario": "Define a simple program structure in Pascal",
+      "language": "pascal",
+      "tags": [
+        "program",
+        "syntax",
+        "hello world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var\n  age: Integer;\n  name: String;\n  pi: Real;",
+      "description": "Declare variables of different types",
+      "scenario": "Declare variables of different types",
+      "language": "pascal",
+      "tags": [
+        "variables",
+        "declaration",
+        "types"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if age > 18 then\n  writeln('Adult')\nelse\n  writeln('Minor');",
+      "description": "Use conditional statements in Pascal",
+      "scenario": "Use conditional statements in Pascal",
+      "language": "pascal",
+      "tags": [
+        "conditional",
+        "if-else",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i := 1 to 10 do\n  writeln(i);",
+      "description": "Implement a for loop in Pascal",
+      "scenario": "Implement a for loop in Pascal",
+      "language": "pascal",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while count < 5 do\nbegin\n  writeln('Counting: ', count);\n  count := count + 1;\nend;",
+      "description": "Use a while loop to repeat actions",
+      "scenario": "Use a while loop to repeat actions",
+      "language": "pascal",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "repeat\n  writeln('Hello');\nuntil condition;",
+      "description": "Create a repeat-until loop",
+      "scenario": "Create a repeat-until loop",
+      "language": "pascal",
+      "tags": [
+        "repeat-until",
+        "loop",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "procedure Greet;\nbegin\n  writeln('Hello, World!');\nend;",
+      "description": "Define a simple procedure",
+      "scenario": "Define a simple procedure",
+      "language": "pascal",
+      "tags": [
+        "procedure",
+        "subroutine",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function Add(a, b: Integer): Integer;\nbegin\n  Add := a + b;\nend;",
+      "description": "Create a function that returns a value",
+      "scenario": "Create a function that returns a value",
+      "language": "pascal",
+      "tags": [
+        "function",
+        "return",
+        "addition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "procedure PrintMessage(msg: String);\nbegin\n  writeln(msg);\nend;",
+      "description": "Call a procedure with parameters",
+      "scenario": "Call a procedure with parameters",
+      "language": "pascal",
+      "tags": [
+        "procedure",
+        "parameters",
+        "call"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var\n  numbers: array[1..5] of Integer;\nbegin\n  numbers[1] := 10;\nend;",
+      "description": "Declare and use an array",
+      "scenario": "Declare and use an array",
+      "language": "pascal",
+      "tags": [
+        "array",
+        "data structure",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type\n  Person = record\n    name: String;\n    age: Integer;\n  end;",
+      "description": "Define a record type",
+      "scenario": "Define a record type",
+      "language": "pascal",
+      "tags": [
+        "record",
+        "data structure",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var\n  digits: set of 0..9;\nbegin\n  digits := [1, 2, 3];\nend;",
+      "description": "Use a set to store unique values",
+      "scenario": "Use a set to store unique values",
+      "language": "pascal",
+      "tags": [
+        "set",
+        "unique",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var\n  f: TextFile;\nbegin\n  AssignFile(f, 'example.txt');\n  Reset(f);",
+      "description": "Open a text file for reading",
+      "scenario": "Open a text file for reading",
+      "language": "pascal",
+      "tags": [
+        "file",
+        "read",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var\n  f: TextFile;\nbegin\n  AssignFile(f, 'output.txt');\n  Rewrite(f);\n  writeln(f, 'Hello, File!');\n  CloseFile(f);",
+      "description": "Write to a text file",
+      "scenario": "Write to a text file",
+      "language": "pascal",
+      "tags": [
+        "file",
+        "write",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var\n  f: TextFile;\n  line: String;\nbegin\n  AssignFile(f, 'example.txt');\n  Reset(f);\n  while not Eof(f) do\n  begin\n    Readln(f, line);\n    writeln(line);\n  end;\n  CloseFile(f);",
+      "description": "Read from a text file line by line",
+      "scenario": "Read from a text file line by line",
+      "language": "pascal",
+      "tags": [
+        "file",
+        "read",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Numpy Cheat Sheet",
+  "slug": "numpy",
+  "description": "Quick reference for common Numpy operations and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "np.array([1, 2, 3])",
+      "description": "Create a 1D array from a list",
+      "scenario": "Create a 1D array from a list",
+      "language": "python",
+      "tags": [
+        "array",
+        "creation",
+        "1D"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "np.zeros((3, 3))",
+      "description": "Create a 2D array of zeros",
+      "scenario": "Create a 2D array of zeros",
+      "language": "python",
+      "tags": [
+        "array",
+        "zeros",
+        "2D"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "np.arange(0, 10, 2)",
+      "description": "Create an array with a range of numbers",
+      "scenario": "Create an array with a range of numbers",
+      "language": "python",
+      "tags": [
+        "array",
+        "range",
+        "arange"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "np.add(array1, array2)",
+      "description": "Element-wise addition of two arrays",
+      "scenario": "Element-wise addition of two arrays",
+      "language": "python",
+      "tags": [
+        "addition",
+        "element-wise",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "np.dot(array1, array2)",
+      "description": "Compute the dot product of two arrays",
+      "scenario": "Compute the dot product of two arrays",
+      "language": "python",
+      "tags": [
+        "dot",
+        "product",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "np.max(array)",
+      "description": "Find the maximum value in an array",
+      "scenario": "Find the maximum value in an array",
+      "language": "python",
+      "tags": [
+        "maximum",
+        "value",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "array[0]",
+      "description": "Access the first element of an array",
+      "scenario": "Access the first element of an array",
+      "language": "python",
+      "tags": [
+        "indexing",
+        "access",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "array[0, :]",
+      "description": "Slice a 2D array to get the first row",
+      "scenario": "Slice a 2D array to get the first row",
+      "language": "python",
+      "tags": [
+        "slicing",
+        "2D",
+        "row"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "array[::-1]",
+      "description": "Reverse an array",
+      "scenario": "Reverse an array",
+      "language": "python",
+      "tags": [
+        "reverse",
+        "slicing",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "array.reshape((2, 3))",
+      "description": "Reshape a 1D array to a 2D array",
+      "scenario": "Reshape a 1D array to a 2D array",
+      "language": "python",
+      "tags": [
+        "reshape",
+        "1D",
+        "2D"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "array.flatten()",
+      "description": "Flatten a 2D array to a 1D array",
+      "scenario": "Flatten a 2D array to a 1D array",
+      "language": "python",
+      "tags": [
+        "flatten",
+        "2D",
+        "1D"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "array.T",
+      "description": "Transpose a 2D array",
+      "scenario": "Transpose a 2D array",
+      "language": "python",
+      "tags": [
+        "transpose",
+        "2D",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "np.mean(array)",
+      "description": "Calculate the mean of an array",
+      "scenario": "Calculate the mean of an array",
+      "language": "python",
+      "tags": [
+        "mean",
+        "statistical",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "np.std(array)",
+      "description": "Calculate the standard deviation of an array",
+      "scenario": "Calculate the standard deviation of an array",
+      "language": "python",
+      "tags": [
+        "standard deviation",
+        "statistical",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "np.sum(array)",
+      "description": "Calculate the sum of all elements in an array",
+      "scenario": "Calculate the sum of all elements in an array",
+      "language": "python",
+      "tags": [
+        "sum",
+        "statistical",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

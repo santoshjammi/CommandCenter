@@ -1,0 +1,172 @@
+{
+  "title": "Git Branches Cheat Sheet",
+  "slug": "git-branches",
+  "description": "Essential Git branch commands and patterns for efficient version control.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git branch new-branch",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch -d old-branch",
+      "description": "Delete a branch",
+      "scenario": "Delete a branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch -D old-branch",
+      "description": "Force delete a branch",
+      "scenario": "Force delete a branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "delete",
+        "force"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout existing-branch",
+      "description": "Switch to an existing branch",
+      "scenario": "Switch to an existing branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "checkout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout -b new-branch",
+      "description": "Create and switch to a new branch",
+      "scenario": "Create and switch to a new branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "checkout",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch",
+      "description": "List all branches",
+      "scenario": "List all branches",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge feature-branch",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "merge"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge --abort",
+      "description": "Abort a merge in progress",
+      "scenario": "Abort a merge in progress",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "merge",
+        "abort"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge feature-branch -m \"Merge feature-branch\"",
+      "description": "Merge with a commit message",
+      "scenario": "Merge with a commit message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "merge",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch --track local-branch origin/remote-branch",
+      "description": "Set up a local branch to track a remote branch",
+      "scenario": "Set up a local branch to track a remote branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "track",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin branch-name",
+      "description": "Push a branch to a remote repository",
+      "scenario": "Push a branch to a remote repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "push",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin --delete remote-branch",
+      "description": "Delete a remote branch",
+      "scenario": "Delete a remote branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "delete",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

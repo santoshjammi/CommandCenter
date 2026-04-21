@@ -1,0 +1,204 @@
+{
+  "title": "Rebol Cheat Sheet",
+  "slug": "rebol",
+  "description": "Quick reference for Rebol scripting language commands and syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "print \"Hello, World!\"",
+      "description": "Print a string to the console",
+      "scenario": "Print a string to the console",
+      "language": "rebol",
+      "tags": [
+        "print",
+        "output",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "name: \"Rebol\"",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "rebol",
+      "tags": [
+        "variable",
+        "define",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data-block: [1 2 3 4 5]",
+      "description": "Create a block of data",
+      "scenario": "Create a block of data",
+      "language": "rebol",
+      "tags": [
+        "block",
+        "data",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if condition [print \"True\"] else [print \"False\"]",
+      "description": "If-else conditional statement",
+      "scenario": "If-else conditional statement",
+      "language": "rebol",
+      "tags": [
+        "conditional",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "foreach item data-block [print item]",
+      "description": "Loop through a block",
+      "scenario": "Loop through a block",
+      "language": "rebol",
+      "tags": [
+        "loop",
+        "foreach",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while [condition] [print \"Looping\"]",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "rebol",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add: func [a b] [return a + b]",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "rebol",
+      "tags": [
+        "function",
+        "define",
+        "procedure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "result: add 5 10",
+      "description": "Call a function with arguments",
+      "scenario": "Call a function with arguments",
+      "language": "rebol",
+      "tags": [
+        "function",
+        "call",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do func [x] [print x]",
+      "description": "Anonymous function example",
+      "scenario": "Anonymous function example",
+      "language": "rebol",
+      "tags": [
+        "function",
+        "anonymous",
+        "lambda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "names: [\"Alice\" \"Bob\" \"Charlie\"]",
+      "description": "Create a list of strings",
+      "scenario": "Create a list of strings",
+      "language": "rebol",
+      "tags": [
+        "list",
+        "strings",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "person: make map! [\"name\" \"Alice\" \"age\" 30]",
+      "description": "Define a map (associative array)",
+      "scenario": "Define a map (associative array)",
+      "language": "rebol",
+      "tags": [
+        "map",
+        "associative",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "second data-block",
+      "description": "Access an element in a block",
+      "scenario": "Access an element in a block",
+      "language": "rebol",
+      "tags": [
+        "access",
+        "block",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "content: read %file.txt",
+      "description": "Read a file's content",
+      "scenario": "Read a file's content",
+      "language": "rebol",
+      "tags": [
+        "file",
+        "read",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "write %output.txt \"Hello, Rebol!\"",
+      "description": "Write data to a file",
+      "scenario": "Write data to a file",
+      "language": "rebol",
+      "tags": [
+        "file",
+        "write",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "append %log.txt \"New log entry\"",
+      "description": "Append data to a file",
+      "scenario": "Append data to a file",
+      "language": "rebol",
+      "tags": [
+        "file",
+        "append",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "ColdFusion Cheat Sheet",
+  "slug": "coldfusion",
+  "description": "Quick reference for ColdFusion syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<cfset myVar = \"Hello World\">",
+      "description": "Declare a variable in ColdFusion",
+      "scenario": "Declare a variable in ColdFusion",
+      "language": "text",
+      "tags": [
+        "variable",
+        "declaration",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfoutput>#myVar#</cfoutput>",
+      "description": "Output a variable in ColdFusion",
+      "scenario": "Output a variable in ColdFusion",
+      "language": "text",
+      "tags": [
+        "output",
+        "variable",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfif myVar EQ \"Hello World\">Yes</cfif>",
+      "description": "Create a simple if statement in ColdFusion",
+      "scenario": "Create a simple if statement in ColdFusion",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "if",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfloop from=\"1\" to=\"5\" index=\"i\">#i#</cfloop>",
+      "description": "Create a for loop in ColdFusion",
+      "scenario": "Create a for loop in ColdFusion",
+      "language": "text",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfset i = 1>\n<cfloop condition=\"i LTE 5\">\n  #i#\n  <cfset i = i + 1>\n</cfloop>",
+      "description": "Create a while loop in ColdFusion",
+      "scenario": "Create a while loop in ColdFusion",
+      "language": "text",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfset myList = \"a,b,c\">\n<cfloop list=\"#myList#\" index=\"item\">#item#</cfloop>",
+      "description": "Loop over a list in ColdFusion",
+      "scenario": "Loop over a list in ColdFusion",
+      "language": "text",
+      "tags": [
+        "loop",
+        "list",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cffunction name=\"myFunction\">\n  <cfreturn \"Hello\">\n</cffunction>",
+      "description": "Define a function in ColdFusion",
+      "scenario": "Define a function in ColdFusion",
+      "language": "text",
+      "tags": [
+        "function",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfset result = myFunction()>",
+      "description": "Call a function in ColdFusion",
+      "scenario": "Call a function in ColdFusion",
+      "language": "text",
+      "tags": [
+        "function",
+        "call",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cffunction name=\"greet\">\n  <cfargument name=\"name\" type=\"string\">\n  <cfreturn \"Hello \" & arguments.name>\n</cffunction>",
+      "description": "Create a function with arguments in ColdFusion",
+      "scenario": "Create a function with arguments in ColdFusion",
+      "language": "text",
+      "tags": [
+        "function",
+        "arguments",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cftry>\n  <!--- code --->\n<cfcatch>\n  <!--- error handling --->\n</cfcatch>\n</cftry>",
+      "description": "Try-catch block in ColdFusion",
+      "scenario": "Try-catch block in ColdFusion",
+      "language": "text",
+      "tags": [
+        "error",
+        "handling",
+        "try-catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfthrow type=\"CustomError\" message=\"An error occurred\">",
+      "description": "Throw an error in ColdFusion",
+      "scenario": "Throw an error in ColdFusion",
+      "language": "text",
+      "tags": [
+        "error",
+        "throw",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cferror type=\"exception\" template=\"error.cfm\">",
+      "description": "Use cferror for error handling",
+      "scenario": "Use cferror for error handling",
+      "language": "text",
+      "tags": [
+        "error",
+        "handling",
+        "cferror"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfquery name=\"getData\" datasource=\"myDSN\">\n  SELECT * FROM myTable\n</cfquery>",
+      "description": "Query a database in ColdFusion",
+      "scenario": "Query a database in ColdFusion",
+      "language": "text",
+      "tags": [
+        "database",
+        "query",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfoutput query=\"getData\">\n  #getData.columnName#\n</cfoutput>",
+      "description": "Output query results in ColdFusion",
+      "scenario": "Output query results in ColdFusion",
+      "language": "text",
+      "tags": [
+        "database",
+        "output",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfquery datasource=\"myDSN\">\n  INSERT INTO myTable (column1, column2) VALUES ('value1', 'value2')\n</cfquery>",
+      "description": "Insert data into a database in ColdFusion",
+      "scenario": "Insert data into a database in ColdFusion",
+      "language": "text",
+      "tags": [
+        "database",
+        "insert",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

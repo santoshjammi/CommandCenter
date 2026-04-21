@@ -1,0 +1,204 @@
+{
+  "title": "VBScript Cheat Sheet",
+  "slug": "vbscript",
+  "description": "Essential VBScript syntax and commands for quick reference.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "Dim myVariable",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "vbscript",
+      "tags": [
+        "variables",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MsgBox \"Hello, World!\"",
+      "description": "Create a simple message box",
+      "scenario": "Create a simple message box",
+      "language": "vbscript",
+      "tags": [
+        "messagebox",
+        "output",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myVariable = 10",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "vbscript",
+      "tags": [
+        "assignment",
+        "variables",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "If condition Then\n    ' code to execute\nElse\n    ' code to execute\nEnd If",
+      "description": "If-Else statement",
+      "scenario": "If-Else statement",
+      "language": "vbscript",
+      "tags": [
+        "control",
+        "if-else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "For i = 1 To 10\n    ' code to execute\nNext",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "vbscript",
+      "tags": [
+        "loop",
+        "iteration",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "While condition\n    ' code to execute\nWend",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "vbscript",
+      "tags": [
+        "loop",
+        "iteration",
+        "while"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Function myFunction()\n    ' code to execute\nEnd Function",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "vbscript",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "result = myFunction()",
+      "description": "Call a function",
+      "scenario": "Call a function",
+      "language": "vbscript",
+      "tags": [
+        "function",
+        "call",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Sub mySubroutine()\n    ' code to execute\nEnd Sub",
+      "description": "Define a subroutine",
+      "scenario": "Define a subroutine",
+      "language": "vbscript",
+      "tags": [
+        "subroutine",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "On Error Resume Next",
+      "description": "Enable error handling",
+      "scenario": "Enable error handling",
+      "language": "vbscript",
+      "tags": [
+        "error",
+        "handling",
+        "resume"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "If Err.Number <> 0 Then\n    ' handle error\nEnd If",
+      "description": "Check for an error",
+      "scenario": "Check for an error",
+      "language": "vbscript",
+      "tags": [
+        "error",
+        "check",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "On Error GoTo 0",
+      "description": "Disable error handling",
+      "scenario": "Disable error handling",
+      "language": "vbscript",
+      "tags": [
+        "error",
+        "handling",
+        "disable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Set objFSO = CreateObject(\"Scripting.FileSystemObject\")\nSet objFile = objFSO.OpenTextFile(\"file.txt\", 1)",
+      "description": "Open a text file for reading",
+      "scenario": "Open a text file for reading",
+      "language": "vbscript",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Set objFile = objFSO.CreateTextFile(\"file.txt\", True)\nobjFile.WriteLine(\"Hello, World!\")",
+      "description": "Write to a text file",
+      "scenario": "Write to a text file",
+      "language": "vbscript",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "objFile.Close",
+      "description": "Close a text file",
+      "scenario": "Close a text file",
+      "language": "vbscript",
+      "tags": [
+        "file",
+        "close",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

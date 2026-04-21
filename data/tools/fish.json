@@ -1,0 +1,204 @@
+{
+  "title": "Fish Shell Cheat Sheet",
+  "slug": "fish",
+  "description": "Quick reference for Fish shell commands and syntax.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "cd ~",
+      "description": "Change directory to home",
+      "scenario": "Change directory to home",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "navigation",
+        "home"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls",
+      "description": "List files in current directory",
+      "scenario": "List files in current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Print working directory",
+      "scenario": "Print working directory",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "path",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set fish_variable 'value'",
+      "description": "Set a variable",
+      "scenario": "Set a variable",
+      "language": "bash",
+      "tags": [
+        "variable",
+        "set",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo $fish_variable",
+      "description": "Display a variable's value",
+      "scenario": "Display a variable's value",
+      "language": "bash",
+      "tags": [
+        "variable",
+        "display",
+        "echo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet; echo Hello, $argv; end",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "bash",
+      "tags": [
+        "function",
+        "define",
+        "greet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano ~/.config/fish/config.fish",
+      "description": "Open Fish configuration file",
+      "scenario": "Open Fish configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "edit",
+        "nano"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set -U fish_user_paths /new/path $fish_user_paths",
+      "description": "Add a directory to PATH",
+      "scenario": "Add a directory to PATH",
+      "language": "bash",
+      "tags": [
+        "path",
+        "environment",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chsh -s /usr/local/bin/fish",
+      "description": "Make Fish the default shell",
+      "scenario": "Make Fish the default shell",
+      "language": "bash",
+      "tags": [
+        "default",
+        "shell",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#!/usr/bin/env fish\necho 'Hello, Fish!'",
+      "description": "Create a simple script",
+      "scenario": "Create a simple script",
+      "language": "bash",
+      "tags": [
+        "script",
+        "create",
+        "hello"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fish myscript.fish",
+      "description": "Run a script",
+      "scenario": "Run a script",
+      "language": "bash",
+      "tags": [
+        "script",
+        "run",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fish --no-execute myscript.fish",
+      "description": "Check syntax of a script",
+      "scenario": "Check syntax of a script",
+      "language": "bash",
+      "tags": [
+        "script",
+        "syntax",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls | grep 'pattern'",
+      "description": "Pipe output to another command",
+      "scenario": "Pipe output to another command",
+      "language": "bash",
+      "tags": [
+        "pipe",
+        "output",
+        "grep"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'Hello' > output.txt",
+      "description": "Redirect output to a file",
+      "scenario": "Redirect output to a file",
+      "language": "bash",
+      "tags": [
+        "redirect",
+        "output",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'Hello again' >> output.txt",
+      "description": "Append output to a file",
+      "scenario": "Append output to a file",
+      "language": "bash",
+      "tags": [
+        "append",
+        "output",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

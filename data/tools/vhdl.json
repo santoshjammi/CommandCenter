@@ -1,0 +1,204 @@
+{
+  "title": "VHDL Cheat Sheet",
+  "slug": "vhdl",
+  "description": "Quick reference for VHDL syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "entity AND_GATE is\n  Port ( A : in STD_LOGIC;\n         B : in STD_LOGIC;\n         Y : out STD_LOGIC);\nend AND_GATE;",
+      "description": "Define an entity in VHDL",
+      "scenario": "Define an entity in VHDL",
+      "language": "vhdl",
+      "tags": [
+        "entity",
+        "definition",
+        "vhdl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "architecture Behavioral of AND_GATE is\nbegin\n  Y <= A and B;\nend Behavioral;",
+      "description": "Define an architecture in VHDL",
+      "scenario": "Define an architecture in VHDL",
+      "language": "vhdl",
+      "tags": [
+        "architecture",
+        "behavioral",
+        "vhdl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "signal temp : STD_LOGIC;",
+      "description": "Use a signal assignment",
+      "scenario": "Use a signal assignment",
+      "language": "vhdl",
+      "tags": [
+        "signal",
+        "assignment",
+        "vhdl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (A = '1') then\n  Y <= '1';\nelse\n  Y <= '0';\nend if;",
+      "description": "Implement an if-else statement",
+      "scenario": "Implement an if-else statement",
+      "language": "vhdl",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case sel is\n  when \"00\" => Y <= A;\n  when \"01\" => Y <= B;\n  when others => Y <= '0';\nend case;",
+      "description": "Implement a case statement",
+      "scenario": "Implement a case statement",
+      "language": "vhdl",
+      "tags": [
+        "case",
+        "switch",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 0 to 3 loop\n  Y(i) <= A(i) and B(i);\nend loop;",
+      "description": "Implement a for loop",
+      "scenario": "Implement a for loop",
+      "language": "vhdl",
+      "tags": [
+        "for",
+        "loop",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "signal data_bus : STD_LOGIC_VECTOR(7 downto 0);",
+      "description": "Declare a standard logic vector",
+      "scenario": "Declare a standard logic vector",
+      "language": "vhdl",
+      "tags": [
+        "data",
+        "vector",
+        "std_logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "signal counter : INTEGER range 0 to 255;",
+      "description": "Declare an integer range",
+      "scenario": "Declare an integer range",
+      "language": "vhdl",
+      "tags": [
+        "integer",
+        "range",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "signal flag : BOOLEAN;",
+      "description": "Declare a boolean type",
+      "scenario": "Declare a boolean type",
+      "language": "vhdl",
+      "tags": [
+        "boolean",
+        "data",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;",
+      "description": "Include a standard library",
+      "scenario": "Include a standard library",
+      "language": "vhdl",
+      "tags": [
+        "library",
+        "ieee",
+        "standard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "use work.my_package.all;",
+      "description": "Use a custom package",
+      "scenario": "Use a custom package",
+      "language": "vhdl",
+      "tags": [
+        "package",
+        "custom",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "package my_package is\n  constant MY_CONST : integer := 10;\nend my_package;",
+      "description": "Declare a package",
+      "scenario": "Declare a package",
+      "language": "vhdl",
+      "tags": [
+        "package",
+        "declare",
+        "constant"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "entity tb_AND_GATE is\nend tb_AND_GATE;\n\narchitecture behavior of tb_AND_GATE is\n  signal A, B, Y : STD_LOGIC;\n  component AND_GATE\n    Port ( A : in STD_LOGIC;\n           B : in STD_LOGIC;\n           Y : out STD_LOGIC);\n  end component;\nbegin\n  uut: AND_GATE port map (A => A, B => B, Y => Y);\n  process\n  begin\n    A <= '0'; B <= '0'; wait for 10 ns;\n    A <= '1'; B <= '0'; wait for 10 ns;\n    A <= '0'; B <= '1'; wait for 10 ns;\n    A <= '1'; B <= '1'; wait for 10 ns;\n    wait;\n  end process;\nend behavior;",
+      "description": "Create a simple testbench",
+      "scenario": "Create a simple testbench",
+      "language": "vhdl",
+      "tags": [
+        "testbench",
+        "simulation",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ghdl -a and_gate.vhdl\nghdl -a tb_and_gate.vhdl\nghdl -e tb_AND_GATE\nghdl -r tb_AND_GATE --vcd=and_gate.vcd",
+      "description": "Run a simulation using GHDL",
+      "scenario": "Run a simulation using GHDL",
+      "language": "bash",
+      "tags": [
+        "ghdl",
+        "simulation",
+        "vhdl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gtkwave and_gate.vcd",
+      "description": "View simulation results with GTKWave",
+      "scenario": "View simulation results with GTKWave",
+      "language": "bash",
+      "tags": [
+        "gtkwave",
+        "simulation",
+        "results"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

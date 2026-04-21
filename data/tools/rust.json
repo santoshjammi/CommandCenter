@@ -1,0 +1,204 @@
+{
+  "title": "Rust Cheat Sheet",
+  "slug": "rust",
+  "description": "Essential Rust syntax, commands, and patterns for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "fn main() {\n    println!(\"Hello, world!\");\n}",
+      "description": "Define a function in Rust",
+      "scenario": "Define a function in Rust",
+      "language": "rust",
+      "tags": [
+        "function",
+        "syntax",
+        "hello world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let mut x = 5;",
+      "description": "Declare a mutable variable",
+      "scenario": "Declare a mutable variable",
+      "language": "rust",
+      "tags": [
+        "variable",
+        "mutable",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "struct Point {\n    x: i32,\n    y: i32,\n}",
+      "description": "Create a struct",
+      "scenario": "Create a struct",
+      "language": "rust",
+      "tags": [
+        "struct",
+        "data structure",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x < 5 {\n    println!(\"x is less than 5\");\n} else {\n    println!(\"x is 5 or more\");\n}",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "rust",
+      "tags": [
+        "if",
+        "else",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "match number {\n    1 => println!(\"One\"),\n    2 => println!(\"Two\"),\n    _ => println!(\"Other\"),\n}",
+      "description": "Match statement",
+      "scenario": "Match statement",
+      "language": "rust",
+      "tags": [
+        "match",
+        "pattern matching",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 0..5 {\n    println!(\"i is {}\", i);\n}",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "rust",
+      "tags": [
+        "for loop",
+        "iteration",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fn divide(a: i32, b: i32) -> Result<i32, String> {\n    if b == 0 {\n        Err(String::from(\"Cannot divide by zero\"))\n    } else {\n        Ok(a / b)\n    }\n}",
+      "description": "Using Result for error handling",
+      "scenario": "Using Result for error handling",
+      "language": "rust",
+      "tags": [
+        "result",
+        "error handling",
+        "division"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fn find_item(vec: Vec<i32>, item: i32) -> Option<usize> {\n    vec.iter().position(|&x| x == item)\n}",
+      "description": "Using Option for optional values",
+      "scenario": "Using Option for optional values",
+      "language": "rust",
+      "tags": [
+        "option",
+        "error handling",
+        "optional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let result = divide(10, 2);\nmatch result {\n    Ok(v) => println!(\"Result is {}\", v),\n    Err(e) => println!(\"Error: {}\", e),\n}",
+      "description": "Unwrap a Result safely",
+      "scenario": "Unwrap a Result safely",
+      "language": "rust",
+      "tags": [
+        "unwrap",
+        "result",
+        "error handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cargo new my_project",
+      "description": "Create a new Rust project",
+      "scenario": "Create a new Rust project",
+      "language": "bash",
+      "tags": [
+        "cargo",
+        "project",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cargo build",
+      "description": "Build a Rust project",
+      "scenario": "Build a Rust project",
+      "language": "bash",
+      "tags": [
+        "cargo",
+        "build",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cargo run",
+      "description": "Run a Rust project",
+      "scenario": "Run a Rust project",
+      "language": "bash",
+      "tags": [
+        "cargo",
+        "run",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fn print_length(s: &String) {\n    println!(\"Length is {}\", s.len());\n}",
+      "description": "Pass by reference",
+      "scenario": "Pass by reference",
+      "language": "rust",
+      "tags": [
+        "reference",
+        "borrowing",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fn take_ownership(s: String) {\n    println!(\"String is {}\", s);\n}",
+      "description": "Transfer ownership",
+      "scenario": "Transfer ownership",
+      "language": "rust",
+      "tags": [
+        "ownership",
+        "transfer",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let s1 = String::from(\"hello\");\nlet s2 = s1.clone();",
+      "description": "Clone a value",
+      "scenario": "Clone a value",
+      "language": "rust",
+      "tags": [
+        "clone",
+        "ownership",
+        "copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

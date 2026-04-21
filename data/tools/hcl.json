@@ -1,0 +1,204 @@
+{
+  "title": "HCL Cheat Sheet",
+  "slug": "hcl",
+  "description": "Essential HCL syntax and patterns for engineers",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "variable \"instance_type\" { default = \"t2.micro\" }",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "hcl",
+      "tags": [
+        "variable",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output \"instance_ip\" { value = aws_instance.example.public_ip }",
+      "description": "Output a value",
+      "scenario": "Output a value",
+      "language": "hcl",
+      "tags": [
+        "output",
+        "value",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "resource \"aws_instance\" \"example\" { ami = \"ami-123456\" instance_type = var.instance_type }",
+      "description": "Define a resource",
+      "scenario": "Define a resource",
+      "language": "hcl",
+      "tags": [
+        "resource",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "count = var.create_instance ? 1 : 0",
+      "description": "Use conditional expression",
+      "scenario": "Use conditional expression",
+      "language": "hcl",
+      "tags": [
+        "conditional",
+        "expression",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "default = var.instance_type != \"\" ? var.instance_type : \"t2.micro\"",
+      "description": "Set default value with conditional",
+      "scenario": "Set default value with conditional",
+      "language": "hcl",
+      "tags": [
+        "default",
+        "conditional",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "resource \"aws_instance\" \"example\" { count = var.create_instance ? 1 : 0 ami = \"ami-123456\" instance_type = var.instance_type }",
+      "description": "Conditional resource creation",
+      "scenario": "Conditional resource creation",
+      "language": "hcl",
+      "tags": [
+        "resource",
+        "conditional",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "resource \"aws_security_group\" \"example\" { for_each = var.security_groups name = each.key description = each.value }",
+      "description": "Use for_each with a resource",
+      "scenario": "Use for_each with a resource",
+      "language": "hcl",
+      "tags": [
+        "loop",
+        "for_each",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "locals { instance_ids = [for i in aws_instance.example : i.id] }",
+      "description": "Iterate over a list",
+      "scenario": "Iterate over a list",
+      "language": "hcl",
+      "tags": [
+        "loop",
+        "list",
+        "iterate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "locals { transformed = [for s in var.strings : upper(s)] }",
+      "description": "Use for expression to transform a list",
+      "scenario": "Use for expression to transform a list",
+      "language": "hcl",
+      "tags": [
+        "for",
+        "expression",
+        "transform"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module \"vpc\" { source = \"terraform-aws-modules/vpc/aws\" version = \"~> 2.0\" }",
+      "description": "Define a module",
+      "scenario": "Define a module",
+      "language": "hcl",
+      "tags": [
+        "module",
+        "define",
+        "source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module \"vpc\" { source = \"terraform-aws-modules/vpc/aws\" version = \"~> 2.0\" cidr = \"10.0.0.0/16\" }",
+      "description": "Pass variables to a module",
+      "scenario": "Pass variables to a module",
+      "language": "hcl",
+      "tags": [
+        "module",
+        "variables",
+        "pass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output \"vpc_id\" { value = module.vpc.vpc_id }",
+      "description": "Use module outputs",
+      "scenario": "Use module outputs",
+      "language": "hcl",
+      "tags": [
+        "module",
+        "output",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "length(var.list_of_strings)",
+      "description": "Use the length function",
+      "scenario": "Use the length function",
+      "language": "hcl",
+      "tags": [
+        "function",
+        "length",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "join(\",\", var.list_of_strings)",
+      "description": "Use the join function",
+      "scenario": "Use the join function",
+      "language": "hcl",
+      "tags": [
+        "function",
+        "join",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lookup(var.map, \"key\", \"default_value\")",
+      "description": "Use the lookup function",
+      "scenario": "Use the lookup function",
+      "language": "hcl",
+      "tags": [
+        "function",
+        "lookup",
+        "map"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

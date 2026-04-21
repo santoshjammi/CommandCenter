@@ -1,0 +1,204 @@
+{
+  "title": "Bundler Cheat Sheet",
+  "slug": "bundler",
+  "description": "Essential commands and patterns for using Bundler with Ruby projects.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "bundle install",
+      "description": "Install all gems specified in the Gemfile",
+      "scenario": "Install all gems specified in the Gemfile",
+      "language": "bash",
+      "tags": [
+        "install",
+        "gems",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle update",
+      "description": "Update all gems to the latest versions",
+      "scenario": "Update all gems to the latest versions",
+      "language": "bash",
+      "tags": [
+        "update",
+        "gems",
+        "latest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle outdated",
+      "description": "Check for outdated gems in the project",
+      "scenario": "Check for outdated gems in the project",
+      "language": "bash",
+      "tags": [
+        "outdated",
+        "gems",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle add <gem_name>",
+      "description": "Add a new gem to the Gemfile",
+      "scenario": "Add a new gem to the Gemfile",
+      "language": "bash",
+      "tags": [
+        "add",
+        "gem",
+        "Gemfile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle remove <gem_name>",
+      "description": "Remove a gem from the Gemfile",
+      "scenario": "Remove a gem from the Gemfile",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "gem",
+        "Gemfile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle list",
+      "description": "List all gems in the Gemfile",
+      "scenario": "List all gems in the Gemfile",
+      "language": "bash",
+      "tags": [
+        "list",
+        "gems",
+        "Gemfile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ruby '2.7.2'",
+      "description": "Set a specific Ruby version for the project",
+      "scenario": "Set a specific Ruby version for the project",
+      "language": "ruby",
+      "tags": [
+        "ruby",
+        "version",
+        "Gemfile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "source 'https://rubygems.org'",
+      "description": "Specify a source for gems in the Gemfile",
+      "scenario": "Specify a source for gems in the Gemfile",
+      "language": "ruby",
+      "tags": [
+        "source",
+        "gems",
+        "Gemfile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle config set --local path 'vendor/bundle'",
+      "description": "Configure Bundler to use a specific path for installed gems",
+      "scenario": "Configure Bundler to use a specific path for installed gems",
+      "language": "bash",
+      "tags": [
+        "config",
+        "path",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle install --without development test",
+      "description": "Install gems without development and test groups",
+      "scenario": "Install gems without development and test groups",
+      "language": "bash",
+      "tags": [
+        "install",
+        "production",
+        "exclude"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle package",
+      "description": "Package the current gems for deployment",
+      "scenario": "Package the current gems for deployment",
+      "language": "bash",
+      "tags": [
+        "package",
+        "deployment",
+        "gems"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle install --deployment",
+      "description": "Install gems from the Gemfile.lock file",
+      "scenario": "Install gems from the Gemfile.lock file",
+      "language": "bash",
+      "tags": [
+        "install",
+        "deployment",
+        "lockfile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle clean",
+      "description": "Clean up unused gems from the project",
+      "scenario": "Clean up unused gems from the project",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "unused",
+        "gems"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle install --verbose",
+      "description": "Debug Bundler issues with verbose output",
+      "scenario": "Debug Bundler issues with verbose output",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "verbose",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle exec rake clean",
+      "description": "Remove all installed gems and cached files",
+      "scenario": "Remove all installed gems and cached files",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "gems",
+        "cache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Lotus Domino Cheat Sheet",
+  "slug": "lotus-domino",
+  "description": "Essential Lotus Domino CLI commands and configuration snippets.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "load server",
+      "description": "Start the Domino server",
+      "scenario": "Start the Domino server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "management",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tell server quit",
+      "description": "Stop the Domino server",
+      "scenario": "Stop the Domino server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "management",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "restart server",
+      "description": "Restart the Domino server",
+      "scenario": "Restart the Domino server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "management",
+        "restart"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "load compact -c newdb.nsf",
+      "description": "Create a new database",
+      "scenario": "Create a new database",
+      "language": "bash",
+      "tags": [
+        "database",
+        "create",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "load compact dbname.nsf",
+      "description": "Compact a database",
+      "scenario": "Compact a database",
+      "language": "bash",
+      "tags": [
+        "database",
+        "compact",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "load fixup dbname.nsf",
+      "description": "Fixup a database",
+      "scenario": "Fixup a database",
+      "language": "bash",
+      "tags": [
+        "database",
+        "fixup",
+        "repair"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "register user",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "delete user username",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show users",
+      "description": "List all users",
+      "scenario": "List all users",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano /local/notesdata/notes.ini",
+      "description": "Edit server notes.ini file",
+      "scenario": "Edit server notes.ini file",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "edit",
+        "notes.ini"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show config",
+      "description": "View server configuration",
+      "scenario": "View server configuration",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "view",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set config PARAMETER=VALUE",
+      "description": "Set a configuration parameter",
+      "scenario": "Set a configuration parameter",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "set",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show security",
+      "description": "View server security settings",
+      "scenario": "View server security settings",
+      "language": "bash",
+      "tags": [
+        "security",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set security PARAMETER=VALUE",
+      "description": "Update server security settings",
+      "scenario": "Update server security settings",
+      "language": "bash",
+      "tags": [
+        "security",
+        "update",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tell security status",
+      "description": "Check server security status",
+      "scenario": "Check server security status",
+      "language": "bash",
+      "tags": [
+        "security",
+        "check",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

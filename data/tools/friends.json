@@ -1,0 +1,165 @@
+{
+  "title": "Friends CLI Cheat Sheet",
+  "slug": "friends",
+  "description": "Essential commands and patterns for using the Friends CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "friends init",
+      "description": "Initialize a new Friends project",
+      "scenario": "Initialize a new Friends project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends add \"John Doe\"",
+      "description": "Add a new friend to the list",
+      "scenario": "Add a new friend to the list",
+      "language": "bash",
+      "tags": [
+        "add",
+        "friend",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends list",
+      "description": "List all friends",
+      "scenario": "List all friends",
+      "language": "bash",
+      "tags": [
+        "list",
+        "friends",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends remove \"John Doe\"",
+      "description": "Remove a friend from the list",
+      "scenario": "Remove a friend from the list",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "friend",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends update \"John Doe\" --email john@example.com",
+      "description": "Update a friend's details",
+      "scenario": "Update a friend's details",
+      "language": "bash",
+      "tags": [
+        "update",
+        "friend",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends find \"John Doe\"",
+      "description": "Find a friend by name",
+      "scenario": "Find a friend by name",
+      "language": "bash",
+      "tags": [
+        "find",
+        "search",
+        "friend"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends config set default_email_domain example.com",
+      "description": "Set the default email domain for new friends",
+      "scenario": "Set the default email domain for new friends",
+      "language": "bash",
+      "tags": [
+        "config",
+        "email",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends config list",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "settings",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends export --format csv --output friends.csv",
+      "description": "Export friends list to a CSV file",
+      "scenario": "Export friends list to a CSV file",
+      "language": "bash",
+      "tags": [
+        "export",
+        "csv",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends import --file friends.csv",
+      "description": "Import friends from a CSV file",
+      "scenario": "Import friends from a CSV file",
+      "language": "bash",
+      "tags": [
+        "import",
+        "csv",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "friends sync --remote https://api.example.com/friends",
+      "description": "Sync friends list with a remote server",
+      "scenario": "Sync friends list with a remote server",
+      "language": "bash",
+      "tags": [
+        "sync",
+        "remote",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

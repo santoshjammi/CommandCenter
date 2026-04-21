@@ -1,0 +1,204 @@
+{
+  "title": "Apache Solr Cheat Sheet",
+  "slug": "apache-solr",
+  "description": "Quick reference for Apache Solr CLI commands and configurations.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "solr create -c mycore",
+      "description": "Create a new Solr core",
+      "scenario": "Create a new Solr core",
+      "language": "bash",
+      "tags": [
+        "core",
+        "create",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "solr delete -c mycore",
+      "description": "Delete an existing Solr core",
+      "scenario": "Delete an existing Solr core",
+      "language": "bash",
+      "tags": [
+        "core",
+        "delete",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "solr reload -c mycore",
+      "description": "Reload a Solr core to apply configuration changes",
+      "scenario": "Reload a Solr core to apply configuration changes",
+      "language": "bash",
+      "tags": [
+        "core",
+        "reload",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl http://localhost:8983/solr/mycore/update?commit=true -d @data.json -H 'Content-type:application/json'",
+      "description": "Post JSON data to Solr for indexing",
+      "scenario": "Post JSON data to Solr for indexing",
+      "language": "bash",
+      "tags": [
+        "index",
+        "json",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl http://localhost:8983/solr/mycore/update?commit=true --data-binary @data.xml -H 'Content-type:application/xml'",
+      "description": "Post XML data to Solr for indexing",
+      "scenario": "Post XML data to Solr for indexing",
+      "language": "bash",
+      "tags": [
+        "index",
+        "xml",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl http://localhost:8983/solr/mycore/update?commit=true -d '<delete><query>*:*</query></delete>' -H 'Content-type:application/xml'",
+      "description": "Delete all documents from a Solr core",
+      "scenario": "Delete all documents from a Solr core",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "documents",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/mycore/select?q=*:*'",
+      "description": "Perform a basic search query on a Solr core",
+      "scenario": "Perform a basic search query on a Solr core",
+      "language": "bash",
+      "tags": [
+        "query",
+        "search",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/mycore/select?q=title:solr'",
+      "description": "Search with a specific field and value",
+      "scenario": "Search with a specific field and value",
+      "language": "bash",
+      "tags": [
+        "query",
+        "field",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/mycore/select?q=*:*&start=0&rows=10'",
+      "description": "Search with pagination",
+      "scenario": "Search with pagination",
+      "language": "bash",
+      "tags": [
+        "query",
+        "pagination",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<initParams path=\"/config\">\n  <lst name=\"initParams\">\n    <str name=\"cors.enabled\">true</str>\n    <str name=\"cors.allow-origin\">*</str>\n  </lst>\n</initParams>",
+      "description": "Enable CORS in Solr configuration",
+      "scenario": "Enable CORS in Solr configuration",
+      "language": "xml",
+      "tags": [
+        "cors",
+        "configuration",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<defaultSearchField>text</defaultSearchField>",
+      "description": "Set the default search field in schema.xml",
+      "scenario": "Set the default search field in schema.xml",
+      "language": "xml",
+      "tags": [
+        "schema",
+        "search",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<fieldType name=\"text_general\" class=\"solr.TextField\" positionIncrementGap=\"100\">\n  <analyzer type=\"index\">\n    <tokenizer class=\"solr.StandardTokenizerFactory\"/>\n    <filter class=\"solr.LowerCaseFilterFactory\"/>\n  </analyzer>\n  <analyzer type=\"query\">\n    <tokenizer class=\"solr.StandardTokenizerFactory\"/>\n    <filter class=\"solr.LowerCaseFilterFactory\"/>\n  </analyzer>\n</fieldType>",
+      "description": "Define a new field type in schema.xml",
+      "scenario": "Define a new field type in schema.xml",
+      "language": "xml",
+      "tags": [
+        "field",
+        "schema",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/admin/cores?action=STATUS'",
+      "description": "Check Solr server status",
+      "scenario": "Check Solr server status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "server",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/admin/cores?action=BACKUP&name=mycore&location=/path/to/backup'",
+      "description": "Backup a Solr core",
+      "scenario": "Backup a Solr core",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "core",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/admin/cores?action=RESTORE&name=mycore&location=/path/to/backup'",
+      "description": "Restore a Solr core from backup",
+      "scenario": "Restore a Solr core from backup",
+      "language": "bash",
+      "tags": [
+        "restore",
+        "core",
+        "solr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

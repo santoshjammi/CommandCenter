@@ -1,0 +1,165 @@
+{
+  "title": "FitNesse Cheat Sheet",
+  "slug": "fitnesse",
+  "description": "Quick reference for FitNesse commands and syntax",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "java -jar fitnesse-standalone.jar -p 8080",
+      "description": "Start the FitNesse server",
+      "scenario": "Start the FitNesse server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "fitnesse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST http://localhost:8080/?responder=stop",
+      "description": "Stop the FitNesse server",
+      "scenario": "Stop the FitNesse server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "fitnesse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -jar fitnesse-standalone.jar -c \"FrontPage.TestSuite?suite&format=text\"",
+      "description": "Run tests from the command line",
+      "scenario": "Run tests from the command line",
+      "language": "bash",
+      "tags": [
+        "tests",
+        "cli",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "|''Test Name''|''Input''|''Expected Output''|",
+      "description": "Define a test table",
+      "scenario": "Define a test table",
+      "language": "text",
+      "tags": [
+        "wiki",
+        "syntax",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[PageName]]",
+      "description": "Create a link to another page",
+      "scenario": "Create a link to another page",
+      "language": "text",
+      "tags": [
+        "wiki",
+        "link",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# This is a comment",
+      "description": "Add a comment in the wiki",
+      "scenario": "Add a comment in the wiki",
+      "language": "text",
+      "tags": [
+        "wiki",
+        "comment",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!define TEST_SYSTEM {slim}",
+      "description": "Set the root path for FitNesse",
+      "scenario": "Set the root path for FitNesse",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "root",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!define SERVER_PORT {8080}",
+      "description": "Configure the port for FitNesse server",
+      "scenario": "Configure the port for FitNesse server",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "port",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!define TEST_RUNNER {myCustomRunner}",
+      "description": "Specify a custom test runner",
+      "scenario": "Specify a custom test runner",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "runner",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!path /path/to/your/project\n!define TEST_SYSTEM {slim}\n!define COMMAND_PATTERN {java -cp %p %m}\n!|MyTestPage|",
+      "description": "Run a specific test page",
+      "scenario": "Run a specific test page",
+      "language": "text",
+      "tags": [
+        "test",
+        "execution",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!include -setup .Setup\n!include -teardown .TearDown",
+      "description": "Include setup and teardown pages",
+      "scenario": "Include setup and teardown pages",
+      "language": "text",
+      "tags": [
+        "setup",
+        "teardown",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!|suite\n|TestPage1|\n|TestPage2|\n|TestPage3|",
+      "description": "Run a suite of tests",
+      "scenario": "Run a suite of tests",
+      "language": "text",
+      "tags": [
+        "suite",
+        "tests",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "CheatSheets",
+  "slug": "cheatsheets",
+  "description": "Quick reference for creating and using cheat sheets effectively.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "{\"title\":\"My Cheat Sheet\",\"description\":\"A quick reference guide.\"}",
+      "description": "Define a new cheat sheet with title and description",
+      "scenario": "Define a new cheat sheet with title and description",
+      "language": "json",
+      "tags": [
+        "create",
+        "json",
+        "metadata"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"sectionTitle\":\"New Section\",\"items\":[]}",
+      "description": "Add a new section to a cheat sheet",
+      "scenario": "Add a new section to a cheat sheet",
+      "language": "json",
+      "tags": [
+        "section",
+        "json",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"intent\":\"Example command\",\"command\":\"echo 'Hello World'\",\"language\":\"bash\",\"tags\":[\"example\",\"bash\"]}",
+      "description": "Add a snippet item to a section",
+      "scenario": "Add a snippet item to a section",
+      "language": "json",
+      "tags": [
+        "snippet",
+        "json",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -la",
+      "description": "List all files in a directory",
+      "scenario": "List all files in a directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "directory",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Display current directory path",
+      "scenario": "Display current directory path",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "path",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'pattern' *.txt",
+      "description": "Search for a pattern in files",
+      "scenario": "Search for a pattern in files",
+      "language": "bash",
+      "tags": [
+        "search",
+        "pattern",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for item in my_list:\n    print(item)",
+      "description": "Loop through a list in Python",
+      "scenario": "Loop through a list in Python",
+      "language": "python",
+      "tags": [
+        "loop",
+        "python",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from sqlalchemy import create_engine\nengine = create_engine('sqlite:///example.db')",
+      "description": "Connect to a database using SQLAlchemy",
+      "scenario": "Connect to a database using SQLAlchemy",
+      "language": "python",
+      "tags": [
+        "database",
+        "sqlalchemy",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const http = require('http');\nhttp.createServer((req, res) => {\n  res.write('Hello World');\n  res.end();\n}).listen(8080);",
+      "description": "Create a simple HTTP server in Node.js",
+      "scenario": "Create a simple HTTP server in Node.js",
+      "language": "javascript",
+      "tags": [
+        "http",
+        "server",
+        "nodejs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "key: value\nlist:\n  - item1\n  - item2",
+      "description": "Basic YAML configuration structure",
+      "scenario": "Basic YAML configuration structure",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "configuration",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"name\": \"example\",\"version\": \"1.0.0\"}",
+      "description": "JSON configuration example",
+      "scenario": "JSON configuration example",
+      "language": "json",
+      "tags": [
+        "json",
+        "configuration",
+        "example"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FROM node:14\nWORKDIR /app\nCOPY . .\nRUN npm install\nCMD [\"node\", \"app.js\"]",
+      "description": "Dockerfile to create a simple Node.js app",
+      "scenario": "Dockerfile to create a simple Node.js app",
+      "language": "dockerfile",
+      "tags": [
+        "docker",
+        "nodejs",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+C",
+      "description": "Copy selected text",
+      "scenario": "Copy selected text",
+      "language": "text",
+      "tags": [
+        "copy",
+        "shortcut",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+V",
+      "description": "Paste copied text",
+      "scenario": "Paste copied text",
+      "language": "text",
+      "tags": [
+        "paste",
+        "shortcut",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo last action",
+      "scenario": "Undo last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "shortcut",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

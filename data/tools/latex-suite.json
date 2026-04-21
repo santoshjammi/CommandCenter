@@ -1,0 +1,204 @@
+{
+  "title": "LaTeX-Suite Cheat Sheet",
+  "slug": "latex-suite",
+  "description": "Essential commands and shortcuts for LaTeX-Suite in Vim.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": ":LL",
+      "description": "Compile the current LaTeX document",
+      "scenario": "Compile the current LaTeX document",
+      "language": "text",
+      "tags": [
+        "compile",
+        "latex",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":LV",
+      "description": "View the compiled PDF document",
+      "scenario": "View the compiled PDF document",
+      "language": "text",
+      "tags": [
+        "view",
+        "pdf",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":LS",
+      "description": "Toggle between the source and the PDF",
+      "scenario": "Toggle between the source and the PDF",
+      "language": "text",
+      "tags": [
+        "toggle",
+        "source",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<F5>",
+      "description": "Insert an equation environment",
+      "scenario": "Insert an equation environment",
+      "language": "text",
+      "tags": [
+        "equation",
+        "environment",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<F6>",
+      "description": "Insert an itemize environment",
+      "scenario": "Insert an itemize environment",
+      "language": "text",
+      "tags": [
+        "itemize",
+        "environment",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<F7>",
+      "description": "Insert a tabular environment",
+      "scenario": "Insert a tabular environment",
+      "language": "text",
+      "tags": [
+        "tabular",
+        "environment",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\section{Section Title}",
+      "description": "Insert a new section",
+      "scenario": "Insert a new section",
+      "language": "text",
+      "tags": [
+        "section",
+        "latex",
+        "snippet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\subsection{Subsection Title}",
+      "description": "Insert a new subsection",
+      "scenario": "Insert a new subsection",
+      "language": "text",
+      "tags": [
+        "subsection",
+        "latex",
+        "snippet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\label{key}",
+      "description": "Insert a new label",
+      "scenario": "Insert a new label",
+      "language": "text",
+      "tags": [
+        "label",
+        "latex",
+        "snippet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{figure}\\includegraphics{file}\\caption{Caption}\\end{figure}",
+      "description": "Create a figure with caption",
+      "scenario": "Create a figure with caption",
+      "language": "text",
+      "tags": [
+        "figure",
+        "caption",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{table}\\begin{tabular}{|c|c|}\\hline A & B \\\\ \\hline\\end{tabular}\\caption{Caption}\\end{table}",
+      "description": "Create a table with caption",
+      "scenario": "Create a table with caption",
+      "language": "text",
+      "tags": [
+        "table",
+        "caption",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{itemize}\\item First item\\item Second item\\end{itemize}",
+      "description": "Create a list of items",
+      "scenario": "Create a list of items",
+      "language": "text",
+      "tags": [
+        "list",
+        "itemize",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:Tex_DefaultTargetFormat='pdf'",
+      "description": "Set the default compiler to pdflatex",
+      "scenario": "Set the default compiler to pdflatex",
+      "language": "text",
+      "tags": [
+        "compiler",
+        "pdflatex",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode $*'",
+      "description": "Enable automatic compilation on save",
+      "scenario": "Enable automatic compilation on save",
+      "language": "text",
+      "tags": [
+        "compile",
+        "autosave",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:Tex_ViewRule_pdf='evince'",
+      "description": "Configure viewer for PDF output",
+      "scenario": "Configure viewer for PDF output",
+      "language": "text",
+      "tags": [
+        "viewer",
+        "pdf",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

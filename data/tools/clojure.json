@@ -1,0 +1,165 @@
+{
+  "title": "Clojure Cheat Sheet",
+  "slug": "clojure",
+  "description": "Essential Clojure syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(def x 10)",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "clojure",
+      "tags": [
+        "variable",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defn add [a b] (+ a b))",
+      "description": "Create a function",
+      "scenario": "Create a function",
+      "language": "clojure",
+      "tags": [
+        "function",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if (> x 10) \"Greater\" \"Lesser or equal\")",
+      "description": "Conditional statement",
+      "scenario": "Conditional statement",
+      "language": "clojure",
+      "tags": [
+        "conditional",
+        "if",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(list 1 2 3 4)",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "clojure",
+      "tags": [
+        "list",
+        "data structure",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[1 2 3 4]",
+      "description": "Create a vector",
+      "scenario": "Create a vector",
+      "language": "clojure",
+      "tags": [
+        "vector",
+        "data structure",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{:key1 \"value1\" :key2 \"value2\"}",
+      "description": "Create a map",
+      "scenario": "Create a map",
+      "language": "clojure",
+      "tags": [
+        "map",
+        "data structure",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(for [x [1 2 3]] (* x x))",
+      "description": "Loop using 'for'",
+      "scenario": "Loop using 'for'",
+      "language": "clojure",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(doseq [n [1 2 3]] (println n))",
+      "description": "Loop using 'doseq'",
+      "scenario": "Loop using 'doseq'",
+      "language": "clojure",
+      "tags": [
+        "loop",
+        "doseq",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(loop [i 0] (when (< i 10) (println i) (recur (inc i))))",
+      "description": "Loop using 'loop/recur'",
+      "scenario": "Loop using 'loop/recur'",
+      "language": "clojure",
+      "tags": [
+        "loop",
+        "recur",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(def counter (atom 0))",
+      "description": "Create an atom",
+      "scenario": "Create an atom",
+      "language": "clojure",
+      "tags": [
+        "atom",
+        "concurrency",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(swap! counter inc)",
+      "description": "Update an atom",
+      "scenario": "Update an atom",
+      "language": "clojure",
+      "tags": [
+        "atom",
+        "update",
+        "concurrency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(future (println \"Running in a separate thread\"))",
+      "description": "Create a future",
+      "scenario": "Create a future",
+      "language": "clojure",
+      "tags": [
+        "future",
+        "thread",
+        "concurrency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

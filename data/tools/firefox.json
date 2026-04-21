@@ -1,0 +1,204 @@
+{
+  "title": "Firefox Developer Cheat Sheet",
+  "slug": "firefox",
+  "description": "Essential Firefox commands and shortcuts for developers.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "firefox",
+      "description": "Launch Firefox from the terminal",
+      "scenario": "Launch Firefox from the terminal",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "cli",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firefox https://www.example.com",
+      "description": "Open Firefox with a specific URL",
+      "scenario": "Open Firefox with a specific URL",
+      "language": "bash",
+      "tags": [
+        "url",
+        "cli",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firefox --safe-mode",
+      "description": "Start Firefox in safe mode",
+      "scenario": "Start Firefox in safe mode",
+      "language": "bash",
+      "tags": [
+        "safe-mode",
+        "troubleshoot",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firefox --no-remote --safe-mode",
+      "description": "Disable hardware acceleration",
+      "scenario": "Disable hardware acceleration",
+      "language": "bash",
+      "tags": [
+        "hardware",
+        "acceleration",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firefox -P \"ProfileName\"",
+      "description": "Use a specific profile",
+      "scenario": "Use a specific profile",
+      "language": "bash",
+      "tags": [
+        "profile",
+        "cli",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firefox --setDefaultBrowser",
+      "description": "Set Firefox as the default browser",
+      "scenario": "Set Firefox as the default browser",
+      "language": "bash",
+      "tags": [
+        "default",
+        "browser",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + I",
+      "description": "Open Developer Tools",
+      "scenario": "Open Developer Tools",
+      "language": "text",
+      "tags": [
+        "devtools",
+        "shortcut",
+        "inspect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + K",
+      "description": "Open JavaScript Console",
+      "scenario": "Open JavaScript Console",
+      "language": "text",
+      "tags": [
+        "console",
+        "javascript",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + E",
+      "description": "Open Network Monitor",
+      "scenario": "Open Network Monitor",
+      "language": "text",
+      "tags": [
+        "network",
+        "monitor",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + Delete",
+      "description": "Clear browsing data",
+      "scenario": "Clear browsing data",
+      "language": "text",
+      "tags": [
+        "privacy",
+        "clear",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "about:preferences#privacy",
+      "description": "Open security settings",
+      "scenario": "Open security settings",
+      "language": "text",
+      "tags": [
+        "security",
+        "settings",
+        "privacy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "about:logins",
+      "description": "Manage saved passwords",
+      "scenario": "Manage saved passwords",
+      "language": "text",
+      "tags": [
+        "passwords",
+        "manage",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "about:performance",
+      "description": "Open Task Manager to view resource usage",
+      "scenario": "Open Task Manager to view resource usage",
+      "language": "text",
+      "tags": [
+        "performance",
+        "task-manager",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "about:preferences#performance",
+      "description": "Enable performance settings",
+      "scenario": "Enable performance settings",
+      "language": "text",
+      "tags": [
+        "performance",
+        "settings",
+        "optimize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "about:preferences#general",
+      "description": "Check for updates to improve performance",
+      "scenario": "Check for updates to improve performance",
+      "language": "text",
+      "tags": [
+        "update",
+        "performance",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

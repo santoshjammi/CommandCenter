@@ -1,0 +1,165 @@
+{
+  "title": "Berkeley DB Cheat Sheet",
+  "slug": "bdb",
+  "description": "Quick reference for Berkeley DB commands and configurations.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "db_env_create(&dbenv, 0);",
+      "description": "Initialize a new Berkeley DB environment",
+      "scenario": "Initialize a new Berkeley DB environment",
+      "language": "c",
+      "tags": [
+        "initialize",
+        "environment",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db_create(&dbp, dbenv, 0);",
+      "description": "Open a database in Berkeley DB",
+      "scenario": "Open a database in Berkeley DB",
+      "language": "c",
+      "tags": [
+        "open",
+        "database",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbp->close(dbp, 0);",
+      "description": "Close a Berkeley DB database",
+      "scenario": "Close a Berkeley DB database",
+      "language": "c",
+      "tags": [
+        "close",
+        "database",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->set_cachesize(dbenv, 0, 10485760, 1);",
+      "description": "Set the database cache size",
+      "scenario": "Set the database cache size",
+      "language": "c",
+      "tags": [
+        "configuration",
+        "cache",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->log_set_config(dbenv, DB_LOG_AUTO_REMOVE, 1);",
+      "description": "Enable logging in Berkeley DB",
+      "scenario": "Enable logging in Berkeley DB",
+      "language": "c",
+      "tags": [
+        "logging",
+        "configuration",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbp->set_pagesize(dbp, 4096);",
+      "description": "Set the database page size",
+      "scenario": "Set the database page size",
+      "language": "c",
+      "tags": [
+        "configuration",
+        "page",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->txn_begin(dbenv, NULL, &txn, 0);",
+      "description": "Begin a transaction in Berkeley DB",
+      "scenario": "Begin a transaction in Berkeley DB",
+      "language": "c",
+      "tags": [
+        "transaction",
+        "begin",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "txn->commit(txn, 0);",
+      "description": "Commit a transaction in Berkeley DB",
+      "scenario": "Commit a transaction in Berkeley DB",
+      "language": "c",
+      "tags": [
+        "transaction",
+        "commit",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "txn->abort(txn);",
+      "description": "Abort a transaction in Berkeley DB",
+      "scenario": "Abort a transaction in Berkeley DB",
+      "language": "c",
+      "tags": [
+        "transaction",
+        "abort",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db_strerror(ret);",
+      "description": "Get a string for a Berkeley DB error code",
+      "scenario": "Get a string for a Berkeley DB error code",
+      "language": "c",
+      "tags": [
+        "error",
+        "handling",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->set_errcall(dbenv, my_errcall);",
+      "description": "Configure error reporting callback",
+      "scenario": "Configure error reporting callback",
+      "language": "c",
+      "tags": [
+        "error",
+        "callback",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->set_errfile(dbenv, fopen(\"error.log\", \"w\"));",
+      "description": "Set a file for error messages",
+      "scenario": "Set a file for error messages",
+      "language": "c",
+      "tags": [
+        "error",
+        "file",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

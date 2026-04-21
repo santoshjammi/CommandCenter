@@ -1,0 +1,204 @@
+{
+  "title": "Bookshelf.js Cheat Sheet",
+  "slug": "bookshelfjs",
+  "description": "Quick reference for common Bookshelf.js patterns and commands.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const User = bookshelf.model('User', { tableName: 'users' });",
+      "description": "Define a basic Bookshelf.js model",
+      "scenario": "Define a basic Bookshelf.js model",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "definition",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const Post = bookshelf.model('Post', { tableName: 'posts', author() { return this.belongsTo(User); } });",
+      "description": "Define a model with a relation",
+      "scenario": "Define a model with a relation",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "relation",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const User = bookshelf.model('User', { tableName: 'users', virtuals: { fullName: function() { return this.get('firstName') + ' ' + this.get('lastName'); } } });",
+      "description": "Add a virtual attribute to a model",
+      "scenario": "Add a virtual attribute to a model",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "virtual",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.fetchAll().then(users => { console.log(users.toJSON()); });",
+      "description": "Fetch all records from a model",
+      "scenario": "Fetch all records from a model",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "all",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.where('id', 1).fetch().then(user => { console.log(user.toJSON()); });",
+      "description": "Fetch a single record by ID",
+      "scenario": "Fetch a single record by ID",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "single",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Post.where('id', 1).fetch({ withRelated: ['author'] }).then(post => { console.log(post.toJSON()); });",
+      "description": "Fetch with related data",
+      "scenario": "Fetch with related data",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "related",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new User({ firstName: 'John', lastName: 'Doe' }).save().then(user => { console.log(user.toJSON()); });",
+      "description": "Create a new record",
+      "scenario": "Create a new record",
+      "language": "javascript",
+      "tags": [
+        "create",
+        "save",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.where('id', 1).fetch().then(user => { user.set('lastName', 'Smith').save().then(updatedUser => { console.log(updatedUser.toJSON()); }); });",
+      "description": "Update an existing record",
+      "scenario": "Update an existing record",
+      "language": "javascript",
+      "tags": [
+        "update",
+        "save",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.where('id', 1).destroy().then(() => { console.log('User deleted'); });",
+      "description": "Destroy a record",
+      "scenario": "Destroy a record",
+      "language": "javascript",
+      "tags": [
+        "destroy",
+        "delete",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookshelf.transaction(trx => { return new User({ firstName: 'Jane' }).save(null, { transacting: trx }).then(user => { return new Post({ title: 'New Post', user_id: user.id }).save(null, { transacting: trx }); }); }).then(trx.commit).catch(trx.rollback);",
+      "description": "Perform a transaction with Bookshelf.js",
+      "scenario": "Perform a transaction with Bookshelf.js",
+      "language": "javascript",
+      "tags": [
+        "transaction",
+        "bookshelf",
+        "save"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookshelf.transaction(trx => { return new User({ firstName: 'Error' }).save(null, { transacting: trx }).then(() => { throw new Error('Rollback'); }).catch(trx.rollback); });",
+      "description": "Rollback a transaction on error",
+      "scenario": "Rollback a transaction on error",
+      "language": "javascript",
+      "tags": [
+        "transaction",
+        "rollback",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookshelf.transaction(trx => { return new User({ firstName: 'Commit' }).save(null, { transacting: trx }); }).then(trx.commit).catch(trx.rollback);",
+      "description": "Commit a transaction",
+      "scenario": "Commit a transaction",
+      "language": "javascript",
+      "tags": [
+        "transaction",
+        "commit",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const User = bookshelf.model('User', { tableName: 'users', validate: { firstName: { presence: true } } });",
+      "description": "Add validation to a model",
+      "scenario": "Add validation to a model",
+      "language": "javascript",
+      "tags": [
+        "validation",
+        "model",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.forge({ firstName: '' }).save().catch(err => { console.error(err); });",
+      "description": "Validate data before saving",
+      "scenario": "Validate data before saving",
+      "language": "javascript",
+      "tags": [
+        "validation",
+        "save",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const User = bookshelf.model('User', { tableName: 'users', validate: function(attrs) { if (!attrs.firstName) throw new Error('First name is required'); } });",
+      "description": "Custom validation logic",
+      "scenario": "Custom validation logic",
+      "language": "javascript",
+      "tags": [
+        "validation",
+        "custom",
+        "bookshelf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

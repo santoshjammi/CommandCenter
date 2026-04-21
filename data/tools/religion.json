@@ -1,0 +1,204 @@
+{
+  "title": "Religion CLI and Code Patterns",
+  "slug": "religion",
+  "description": "A cheat sheet for CLI commands and code patterns related to religion-themed applications.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "ls | grep 'bible\\|quran\\|torah'",
+      "description": "List all files related to religious texts",
+      "scenario": "List all files related to religious texts",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "cli",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -i 'john 3:16' *.txt",
+      "description": "Search for a specific verse in religious text files",
+      "scenario": "Search for a specific verse in religious text files",
+      "language": "bash",
+      "tags": [
+        "search",
+        "grep",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -o 'faith' document.txt | wc -l",
+      "description": "Count occurrences of 'faith' in a document",
+      "scenario": "Count occurrences of 'faith' in a document",
+      "language": "bash",
+      "tags": [
+        "count",
+        "grep",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('bible.txt', 'r') as file:\n    print(file.read())",
+      "description": "Read and print a religious text file",
+      "scenario": "Read and print a religious text file",
+      "language": "python",
+      "tags": [
+        "file",
+        "read",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "text = text.replace('God', 'Allah')",
+      "description": "Find and replace 'God' with 'Allah' in a text",
+      "scenario": "Find and replace 'God' with 'Allah' in a text",
+      "language": "python",
+      "tags": [
+        "replace",
+        "string",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chapters = text.split('Chapter')\nprint(len(chapters) - 1)",
+      "description": "Count the number of chapters in a religious text",
+      "scenario": "Count the number of chapters in a religious text",
+      "language": "python",
+      "tags": [
+        "split",
+        "count",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://api.religion.com/quote')\n  .then(response => response.json())\n  .then(data => console.log(data.quote));",
+      "description": "Fetch a religious quote from an API",
+      "scenario": "Fetch a religious quote from an API",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "api",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "text = text.replace(/sin/g, 'forgiveness');",
+      "description": "Replace all occurrences of 'sin' with 'forgiveness' in a string",
+      "scenario": "Replace all occurrences of 'sin' with 'forgiveness' in a string",
+      "language": "javascript",
+      "tags": [
+        "replace",
+        "regex",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function convertToGregorian(religiousDate) {\n  // Conversion logic here\n  return gregorianDate;\n}",
+      "description": "Convert a religious date to Gregorian",
+      "scenario": "Convert a religious date to Gregorian",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "conversion",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM religious_texts;",
+      "description": "Select all religious texts from the database",
+      "scenario": "Select all religious texts from the database",
+      "language": "sql",
+      "tags": [
+        "select",
+        "sql",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT DISTINCT author FROM religious_texts;",
+      "description": "Find all authors of religious texts",
+      "scenario": "Find all authors of religious texts",
+      "language": "sql",
+      "tags": [
+        "distinct",
+        "authors",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT COUNT(*) FROM verses WHERE text_id = 1;",
+      "description": "Count the number of verses in a specific text",
+      "scenario": "Count the number of verses in a specific text",
+      "language": "sql",
+      "tags": [
+        "count",
+        "verses",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "service:\n  name: religious-text-service\n  version: '1.0'",
+      "description": "Define a religious text service configuration",
+      "scenario": "Define a religious text service configuration",
+      "language": "yaml",
+      "tags": [
+        "service",
+        "yaml",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "database:\n  host: localhost\n  port: 5432\n  name: religion_db",
+      "description": "Set up a database connection for religious data",
+      "scenario": "Set up a database connection for religious data",
+      "language": "yaml",
+      "tags": [
+        "database",
+        "yaml",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "api:\n  endpoints:\n    - /get-verse\n    - /get-chapter",
+      "description": "Configure API endpoints for religious queries",
+      "scenario": "Configure API endpoints for religious queries",
+      "language": "yaml",
+      "tags": [
+        "api",
+        "yaml",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "title": "Taskset Cheat Sheet",
+  "slug": "taskset",
+  "description": "Quick reference for using taskset to set CPU affinity on Linux.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "taskset -p <pid>",
+      "description": "Display current CPU affinity of a running process",
+      "scenario": "Display current CPU affinity of a running process",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "cpu",
+        "affinity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskset -p 0x3 <pid>",
+      "description": "Set CPU affinity of a running process",
+      "scenario": "Set CPU affinity of a running process",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "cpu",
+        "affinity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskset 0x1 mycommand",
+      "description": "Run a command with a specific CPU affinity",
+      "scenario": "Run a command with a specific CPU affinity",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "cpu",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskset --cpu-list 0,2 mycommand",
+      "description": "Run a command with a specific CPU affinity using a mask",
+      "scenario": "Run a command with a specific CPU affinity using a mask",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "cpu",
+        "mask"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskset -c 0,1 mycommand",
+      "description": "Verify the CPU affinity of a command",
+      "scenario": "Verify the CPU affinity of a command",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "verify",
+        "affinity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskset -v 0x3 mycommand",
+      "description": "Set CPU affinity using taskset with verbose output",
+      "scenario": "Set CPU affinity using taskset with verbose output",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "verbose",
+        "affinity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskset 0x1 mycommand",
+      "description": "Use taskset to improve performance by limiting CPU usage",
+      "scenario": "Use taskset to improve performance by limiting CPU usage",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "performance",
+        "cpu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskset -c 0,1 <pid>",
+      "description": "Bind a process to the first two CPUs",
+      "scenario": "Bind a process to the first two CPUs",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "bind",
+        "cpu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskset -p <pid>",
+      "description": "Check if a process is bound to specific CPUs",
+      "scenario": "Check if a process is bound to specific CPUs",
+      "language": "bash",
+      "tags": [
+        "taskset",
+        "check",
+        "cpu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Windows Command Line Cheat Sheet",
+  "slug": "windows-cmd",
+  "description": "Essential Windows CMD commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "dir",
+      "description": "List files and directories in the current directory",
+      "scenario": "List files and directories in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd path\\to\\directory",
+      "description": "Change the current directory",
+      "scenario": "Change the current directory",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mkdir new_directory",
+      "description": "Create a new directory",
+      "scenario": "Create a new directory",
+      "language": "bash",
+      "tags": [
+        "create",
+        "directory",
+        "folder"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ipconfig",
+      "description": "Display the computer's IP configuration",
+      "scenario": "Display the computer's IP configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ip",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systeminfo",
+      "description": "Show system information",
+      "scenario": "Show system information",
+      "language": "bash",
+      "tags": [
+        "system",
+        "information",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tasklist",
+      "description": "Display running processes",
+      "scenario": "Display running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "tasks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "copy source.txt destination.txt",
+      "description": "Copy files from one location to another",
+      "scenario": "Copy files from one location to another",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "files",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "move source.txt destination.txt",
+      "description": "Move files from one location to another",
+      "scenario": "Move files from one location to another",
+      "language": "bash",
+      "tags": [
+        "move",
+        "files",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "del filename.txt",
+      "description": "Delete a file",
+      "scenario": "Delete a file",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "file",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping hostname",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "network",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat",
+      "description": "Display active network connections",
+      "scenario": "Display active network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ipconfig /flushdns",
+      "description": "Flush the DNS resolver cache",
+      "scenario": "Flush the DNS resolver cache",
+      "language": "bash",
+      "tags": [
+        "dns",
+        "flush",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "whoami",
+      "description": "Display the current user",
+      "scenario": "Display the current user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "identity",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "icacls file.txt /grant username:F",
+      "description": "Change file permissions",
+      "scenario": "Change file permissions",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "file",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "net user",
+      "description": "List all users on the system",
+      "scenario": "List all users on the system",
+      "language": "bash",
+      "tags": [
+        "users",
+        "list",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

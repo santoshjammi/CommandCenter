@@ -1,0 +1,204 @@
+{
+  "title": "Colour",
+  "slug": "colour",
+  "description": "Quick reference for color manipulation in CSS and JavaScript",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "background-color: #ff5733;",
+      "description": "Set background color using hexadecimal",
+      "scenario": "Set background color using hexadecimal",
+      "language": "css",
+      "tags": [
+        "css",
+        "background",
+        "hex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color: rgb(255, 87, 51);",
+      "description": "Set text color using RGB",
+      "scenario": "Set text color using RGB",
+      "language": "css",
+      "tags": [
+        "css",
+        "text",
+        "rgb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "border-color: hsl(9, 100%, 60%);",
+      "description": "Set border color using HSL",
+      "scenario": "Set border color using HSL",
+      "language": "css",
+      "tags": [
+        "css",
+        "border",
+        "hsl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function hexToRgb(hex) { var bigint = parseInt(hex.slice(1), 16); var r = (bigint >> 16) & 255; var g = (bigint >> 8) & 255; var b = bigint & 255; return r + \",\" + g + \",\" + b; }",
+      "description": "Convert hex color to RGB",
+      "scenario": "Convert hex color to RGB",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "hex",
+        "rgb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.body.style.backgroundColor = \"#ff5733\";",
+      "description": "Change background color dynamically",
+      "scenario": "Change background color dynamically",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "background",
+        "dynamic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function getRandomColor() { return '#' + Math.floor(Math.random()*16777215).toString(16); }",
+      "description": "Generate a random hex color",
+      "scenario": "Generate a random hex color",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "random",
+        "hex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "darken(#ff5733, 10%);",
+      "description": "Darken a color by 10%",
+      "scenario": "Darken a color by 10%",
+      "language": "scss",
+      "tags": [
+        "sass",
+        "darken",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lighten(#ff5733, 20%);",
+      "description": "Lighten a color by 20%",
+      "scenario": "Lighten a color by 20%",
+      "language": "scss",
+      "tags": [
+        "sass",
+        "lighten",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix(#ff5733, #333333, 50%);",
+      "description": "Mix two colors",
+      "scenario": "Mix two colors",
+      "language": "scss",
+      "tags": [
+        "sass",
+        "mix",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":root { --primary-color: #ff5733; }",
+      "description": "Define a CSS variable for primary color",
+      "scenario": "Define a CSS variable for primary color",
+      "language": "css",
+      "tags": [
+        "css",
+        "variables",
+        "primary"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "background-color: var(--primary-color);",
+      "description": "Use a CSS variable for background color",
+      "scenario": "Use a CSS variable for background color",
+      "language": "css",
+      "tags": [
+        "css",
+        "variables",
+        "background"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".special { --primary-color: #333333; }",
+      "description": "Override a CSS variable in a specific class",
+      "scenario": "Override a CSS variable in a specific class",
+      "language": "css",
+      "tags": [
+        "css",
+        "variables",
+        "override"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://webaim.org/resources/contrastchecker/",
+      "description": "Check contrast ratio for accessibility",
+      "scenario": "Check contrast ratio for accessibility",
+      "language": "text",
+      "tags": [
+        "accessibility",
+        "contrast",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div role=\"alert\" style=\"color: #ff5733;\">Alert message</div>",
+      "description": "Use ARIA roles to enhance color accessibility",
+      "scenario": "Use ARIA roles to enhance color accessibility",
+      "language": "html",
+      "tags": [
+        "accessibility",
+        "aria",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.body.classList.toggle('high-contrast');",
+      "description": "Implement high-contrast mode toggle",
+      "scenario": "Implement high-contrast mode toggle",
+      "language": "javascript",
+      "tags": [
+        "accessibility",
+        "contrast",
+        "toggle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

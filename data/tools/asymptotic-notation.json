@@ -1,0 +1,204 @@
+{
+  "title": "Asymptotic Notation Cheat Sheet",
+  "slug": "asymptotic-notation",
+  "description": "Quick reference for Big O, Big Omega, and Big Theta notations.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "O(1)",
+      "description": "Express constant time complexity",
+      "scenario": "Express constant time complexity",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "constant",
+        "big o"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(log n)",
+      "description": "Express logarithmic time complexity",
+      "scenario": "Express logarithmic time complexity",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "logarithmic",
+        "big o"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n)",
+      "description": "Express linear time complexity",
+      "scenario": "Express linear time complexity",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "linear",
+        "big o"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03a9(1)",
+      "description": "Express constant lower bound",
+      "scenario": "Express constant lower bound",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "constant",
+        "big omega"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03a9(log n)",
+      "description": "Express logarithmic lower bound",
+      "scenario": "Express logarithmic lower bound",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "logarithmic",
+        "big omega"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03a9(n)",
+      "description": "Express linear lower bound",
+      "scenario": "Express linear lower bound",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "linear",
+        "big omega"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u0398(1)",
+      "description": "Express constant bound",
+      "scenario": "Express constant bound",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "constant",
+        "big theta"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u0398(log n)",
+      "description": "Express logarithmic bound",
+      "scenario": "Express logarithmic bound",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "logarithmic",
+        "big theta"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u0398(n)",
+      "description": "Express linear bound",
+      "scenario": "Express linear bound",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "linear",
+        "big theta"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n^2)",
+      "description": "Quadratic time complexity",
+      "scenario": "Quadratic time complexity",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "quadratic",
+        "big o"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n^3)",
+      "description": "Cubic time complexity",
+      "scenario": "Cubic time complexity",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "cubic",
+        "big o"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(2^n)",
+      "description": "Exponential time complexity",
+      "scenario": "Exponential time complexity",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "exponential",
+        "big o"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P",
+      "description": "Polynomial time complexity class",
+      "scenario": "Polynomial time complexity class",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "polynomial",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NP",
+      "description": "Non-deterministic polynomial time complexity class",
+      "scenario": "Non-deterministic polynomial time complexity class",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "non-deterministic",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "EXP",
+      "description": "Exponential time complexity class",
+      "scenario": "Exponential time complexity class",
+      "language": "text",
+      "tags": [
+        "complexity",
+        "exponential",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

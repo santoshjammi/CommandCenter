@@ -1,0 +1,204 @@
+{
+  "title": "Unity Shader Graph Cheat Sheet",
+  "slug": "unity-shader-graph",
+  "description": "Quick reference for Unity Shader Graph nodes and patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "Color Node: Set Color to #FF5733",
+      "description": "Create a color node with a specific color",
+      "scenario": "Create a color node with a specific color",
+      "language": "text",
+      "tags": [
+        "color",
+        "node",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Add Node: A + B",
+      "description": "Add two values together using an Add node",
+      "scenario": "Add two values together using an Add node",
+      "language": "text",
+      "tags": [
+        "add",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Multiply Node: A * B",
+      "description": "Multiply two values using a Multiply node",
+      "scenario": "Multiply two values using a Multiply node",
+      "language": "text",
+      "tags": [
+        "multiply",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Unlit Master Node -> Color Node",
+      "description": "Create a simple unlit shader",
+      "scenario": "Create a simple unlit shader",
+      "language": "text",
+      "tags": [
+        "unlit",
+        "shader",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Lerp Node: Texture A, Texture B, T",
+      "description": "Blend two textures using Lerp",
+      "scenario": "Blend two textures using Lerp",
+      "language": "text",
+      "tags": [
+        "lerp",
+        "blend",
+        "textures"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Fresnel Effect: Fresnel Node -> Multiply Node",
+      "description": "Create a Fresnel effect",
+      "scenario": "Create a Fresnel effect",
+      "language": "text",
+      "tags": [
+        "fresnel",
+        "effect",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Noise Node -> Step Node -> Alpha Clip Threshold",
+      "description": "Implement a dissolve effect",
+      "scenario": "Implement a dissolve effect",
+      "language": "text",
+      "tags": [
+        "dissolve",
+        "effect",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parallax Node -> UV Node",
+      "description": "Create a parallax mapping effect",
+      "scenario": "Create a parallax mapping effect",
+      "language": "text",
+      "tags": [
+        "parallax",
+        "mapping",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Normal Map Node -> Tiling and Offset Node",
+      "description": "Simulate water with normal maps",
+      "scenario": "Simulate water with normal maps",
+      "language": "text",
+      "tags": [
+        "water",
+        "normal map",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Create -> Shader -> HDRP -> Unlit Shader Graph",
+      "description": "Set up a shader graph for HDRP",
+      "scenario": "Set up a shader graph for HDRP",
+      "language": "text",
+      "tags": [
+        "hdrp",
+        "setup",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Create -> Shader -> Universal Render Pipeline -> Lit Shader Graph",
+      "description": "Configure a shader for URP",
+      "scenario": "Configure a shader for URP",
+      "language": "text",
+      "tags": [
+        "urp",
+        "setup",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shader Graph Settings: Enable GPU Instancing",
+      "description": "Enable GPU instancing in a shader",
+      "scenario": "Enable GPU instancing in a shader",
+      "language": "text",
+      "tags": [
+        "gpu",
+        "instancing",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unity -projectPath <path> -executeMethod ShaderGraph.Open",
+      "description": "Open Unity Shader Graph editor",
+      "scenario": "Open Unity Shader Graph editor",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "open",
+        "editor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unity -projectPath <path> -executeMethod BuildPipeline.BuildAssetBundles",
+      "description": "Build a shader graph asset bundle",
+      "scenario": "Build a shader graph asset bundle",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "build",
+        "asset bundle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unity -projectPath <path> -executeMethod ExportPackage -exportPackageOptions ShaderGraph",
+      "description": "Export shader graph to a package",
+      "scenario": "Export shader graph to a package",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "export",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

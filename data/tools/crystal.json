@@ -1,0 +1,204 @@
+{
+  "title": "Crystal Language Cheat Sheet",
+  "slug": "crystal",
+  "description": "Quick reference for Crystal programming language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "class Person\n  def initialize(@name : String, @age : Int32)\n  end\nend",
+      "description": "Define a simple class with an initializer",
+      "scenario": "Define a simple class with an initializer",
+      "language": "crystal",
+      "tags": [
+        "class",
+        "initializer",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def add(a : Int32, b : Int32) : Int32\n  a + b\nend",
+      "description": "Create a method with a return type",
+      "scenario": "Create a method with a return type",
+      "language": "crystal",
+      "tags": [
+        "method",
+        "return type",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if age >= 18\n  puts \"Adult\"\nelse\n  puts \"Minor\"\nend",
+      "description": "Conditional statement example",
+      "scenario": "Conditional statement example",
+      "language": "crystal",
+      "tags": [
+        "conditional",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "names = [\"Alice\", \"Bob\", \"Charlie\"]\nnames.each do |name|\n  puts name\nend",
+      "description": "Create and iterate over an array",
+      "scenario": "Create and iterate over an array",
+      "language": "crystal",
+      "tags": [
+        "array",
+        "iteration",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ages = {\"Alice\" => 30, \"Bob\" => 25}\nputs ages[\"Alice\"]",
+      "description": "Create a hash and access its values",
+      "scenario": "Create a hash and access its values",
+      "language": "crystal",
+      "tags": [
+        "hash",
+        "dictionary",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "coordinates = {10, 20}\nputs coordinates[0]",
+      "description": "Use a tuple to store multiple values",
+      "scenario": "Use a tuple to store multiple values",
+      "language": "crystal",
+      "tags": [
+        "tuple",
+        "index",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spawn do\n  puts \"Hello from a fiber\"\nend",
+      "description": "Spawn a new fiber",
+      "scenario": "Spawn a new fiber",
+      "language": "crystal",
+      "tags": [
+        "fiber",
+        "concurrency",
+        "spawn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "channel = Channel(Int32).new\nspawn do\n  channel.send(42)\nend\nputs channel.receive",
+      "description": "Use channels for communication",
+      "scenario": "Use channels for communication",
+      "language": "crystal",
+      "tags": [
+        "channel",
+        "communication",
+        "concurrency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ch1 = Channel(Int32).new\nch2 = Channel(String).new\nselect\nwhen value = ch1.receive\n  puts value\nwhen message = ch2.receive\n  puts message\nend",
+      "description": "Use select to handle multiple channels",
+      "scenario": "Use select to handle multiple channels",
+      "language": "crystal",
+      "tags": [
+        "select",
+        "channels",
+        "concurrency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "crystal build program.cr",
+      "description": "Compile a Crystal program",
+      "scenario": "Compile a Crystal program",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "build",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "crystal run program.cr",
+      "description": "Run a Crystal program directly",
+      "scenario": "Run a Crystal program directly",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "crystal tool format",
+      "description": "Format Crystal code",
+      "scenario": "Format Crystal code",
+      "language": "bash",
+      "tags": [
+        "format",
+        "style",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "raise \"An error occurred\"",
+      "description": "Raise an exception",
+      "scenario": "Raise an exception",
+      "language": "crystal",
+      "tags": [
+        "exception",
+        "error",
+        "raise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin\n  # code that might raise an exception\nrescue ex : Exception\n  puts ex.message\nend",
+      "description": "Rescue an exception",
+      "scenario": "Rescue an exception",
+      "language": "crystal",
+      "tags": [
+        "rescue",
+        "exception",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin\n  # code that might raise an exception\nensure\n  puts \"This will always run\"\nend",
+      "description": "Ensure block execution",
+      "scenario": "Ensure block execution",
+      "language": "crystal",
+      "tags": [
+        "ensure",
+        "exception",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

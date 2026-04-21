@@ -1,0 +1,165 @@
+{
+  "title": "Finder Cheat Sheet",
+  "slug": "finder",
+  "description": "Quick reference for Finder commands and shortcuts on macOS.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Command + N",
+      "description": "Open a new Finder window",
+      "scenario": "Open a new Finder window",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "window",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + T",
+      "description": "Open a new tab in the current Finder window",
+      "scenario": "Open a new tab in the current Finder window",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "tab",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + Up Arrow",
+      "description": "Go to the parent folder of the current folder",
+      "scenario": "Go to the parent folder of the current folder",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "parent",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + C",
+      "description": "Copy selected file(s) to clipboard",
+      "scenario": "Copy selected file(s) to clipboard",
+      "language": "text",
+      "tags": [
+        "file",
+        "copy",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + V",
+      "description": "Paste copied file(s) from clipboard",
+      "scenario": "Paste copied file(s) from clipboard",
+      "language": "text",
+      "tags": [
+        "file",
+        "paste",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + Delete",
+      "description": "Move selected file(s) to Trash",
+      "scenario": "Move selected file(s) to Trash",
+      "language": "text",
+      "tags": [
+        "file",
+        "trash",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + 1",
+      "description": "Switch to icon view",
+      "scenario": "Switch to icon view",
+      "language": "text",
+      "tags": [
+        "view",
+        "icon",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + 2",
+      "description": "Switch to list view",
+      "scenario": "Switch to list view",
+      "language": "text",
+      "tags": [
+        "view",
+        "list",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + 3",
+      "description": "Switch to column view",
+      "scenario": "Switch to column view",
+      "language": "text",
+      "tags": [
+        "view",
+        "column",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + Space",
+      "description": "Open Spotlight search",
+      "scenario": "Open Spotlight search",
+      "language": "text",
+      "tags": [
+        "search",
+        "spotlight",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + F",
+      "description": "Search for files in the current folder",
+      "scenario": "Search for files in the current folder",
+      "language": "text",
+      "tags": [
+        "search",
+        "file",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + Option + W",
+      "description": "Show all Finder windows",
+      "scenario": "Show all Finder windows",
+      "language": "text",
+      "tags": [
+        "search",
+        "windows",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

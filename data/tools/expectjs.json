@@ -1,0 +1,165 @@
+{
+  "title": "Expect.js Cheat Sheet",
+  "slug": "expectjs",
+  "description": "Quick reference for using Expect.js assertions in JavaScript tests.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "expect(value).to.be.ok();",
+      "description": "Check if a value is truthy",
+      "scenario": "Check if a value is truthy",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "truthy",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(actual).to.equal(expected);",
+      "description": "Assert equality between two values",
+      "scenario": "Assert equality between two values",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "equality",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to.be.undefined();",
+      "description": "Verify if a value is undefined",
+      "scenario": "Verify if a value is undefined",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "undefined",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to.be.a('string');",
+      "description": "Check if a value is a string",
+      "scenario": "Check if a value is a string",
+      "language": "javascript",
+      "tags": [
+        "type",
+        "string",
+        "assertion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to.be.an('object');",
+      "description": "Assert that a value is an object",
+      "scenario": "Assert that a value is an object",
+      "language": "javascript",
+      "tags": [
+        "type",
+        "object",
+        "assertion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to.be.an('array');",
+      "description": "Verify if a value is an array",
+      "scenario": "Verify if a value is an array",
+      "language": "javascript",
+      "tags": [
+        "type",
+        "array",
+        "assertion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(array).to.contain(value);",
+      "description": "Check if an array contains a value",
+      "scenario": "Check if an array contains a value",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "contain",
+        "assertion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(object).to.have.property('key');",
+      "description": "Assert that an object has a specific property",
+      "scenario": "Assert that an object has a specific property",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "property",
+        "assertion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(object).to.have.property('key', value);",
+      "description": "Verify if an object has a property with a specific value",
+      "scenario": "Verify if an object has a property with a specific value",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "property",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(fn).to.throwError();",
+      "description": "Assert that a function throws an error",
+      "scenario": "Assert that a function throws an error",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "function",
+        "assertion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(fn).to.throwError(/message/);",
+      "description": "Check for a specific error message",
+      "scenario": "Check for a specific error message",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "message",
+        "assertion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(fn).not.to.throwError();",
+      "description": "Verify that a function does not throw an error",
+      "scenario": "Verify that a function does not throw an error",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "function",
+        "assertion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

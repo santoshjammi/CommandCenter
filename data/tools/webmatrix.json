@@ -1,0 +1,204 @@
+{
+  "title": "WebMatrix Cheat Sheet",
+  "slug": "webmatrix",
+  "description": "Quick reference for WebMatrix commands and configurations",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "webmatrix",
+      "description": "Start WebMatrix from the command line",
+      "scenario": "Start WebMatrix from the command line",
+      "language": "bash",
+      "tags": [
+        "start",
+        "cli",
+        "webmatrix"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "webmatrix /path/to/project",
+      "description": "Open a specific project in WebMatrix",
+      "scenario": "Open a specific project in WebMatrix",
+      "language": "bash",
+      "tags": [
+        "open",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "webmatrix --version",
+      "description": "Check WebMatrix version",
+      "scenario": "Check WebMatrix version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Page Title</title>\n</head>\n<body>\n\n<h1>This is a Heading</h1>\n<p>This is a paragraph.</p>\n\n</body>\n</html>",
+      "description": "Basic HTML structure in WebMatrix",
+      "scenario": "Basic HTML structure in WebMatrix",
+      "language": "html",
+      "tags": [
+        "html",
+        "structure",
+        "web"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">",
+      "description": "Add a CSS file to a WebMatrix project",
+      "scenario": "Add a CSS file to a WebMatrix project",
+      "language": "html",
+      "tags": [
+        "css",
+        "link",
+        "web"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script>\n    alert('Hello, World!');\n</script>",
+      "description": "Basic JavaScript alert function",
+      "scenario": "Basic JavaScript alert function",
+      "language": "html",
+      "tags": [
+        "javascript",
+        "alert",
+        "web"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<configuration>\n    <system.webServer>\n        <defaultDocument>\n            <files>\n                <add value=\"index.html\" />\n            </files>\n        </defaultDocument>\n    </system.webServer>\n</configuration>",
+      "description": "Set default document type to HTML5",
+      "scenario": "Set default document type to HTML5",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "html5",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<configuration>\n    <system.webServer>\n        <directoryBrowse enabled=\"true\" />\n    </system.webServer>\n</configuration>",
+      "description": "Enable directory browsing in WebMatrix",
+      "scenario": "Enable directory browsing in WebMatrix",
+      "language": "xml",
+      "tags": [
+        "directory",
+        "browsing",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<configuration>\n    <system.webServer>\n        <httpErrors errorMode=\"Custom\">\n            <remove statusCode=\"404\" />\n            <error statusCode=\"404\" path=\"404.html\" responseMode=\"ExecuteURL\" />\n        </httpErrors>\n    </system.webServer>\n</configuration>",
+      "description": "Configure custom error pages",
+      "scenario": "Configure custom error pages",
+      "language": "xml",
+      "tags": [
+        "error",
+        "custom",
+        "pages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<?php\n// PHP code goes here\n?>",
+      "description": "Create a new PHP file in WebMatrix",
+      "scenario": "Create a new PHP file in WebMatrix",
+      "language": "php",
+      "tags": [
+        "php",
+        "new",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<?php\n$servername = \"localhost\";\n$username = \"username\";\n$password = \"password\";\n$dbname = \"database\";\n\n$conn = new mysqli($servername, $username, $password, $dbname);\n\nif ($conn->connect_error) {\n    die(\"Connection failed: \" . $conn->connect_error);\n}\n?>",
+      "description": "Connect to a MySQL database",
+      "scenario": "Connect to a MySQL database",
+      "language": "php",
+      "tags": [
+        "mysql",
+        "database",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@{\n    var message = \"Hello, World!\";\n}\n<p>@message</p>",
+      "description": "Basic ASP.NET Razor syntax",
+      "scenario": "Basic ASP.NET Razor syntax",
+      "language": "razor",
+      "tags": [
+        "asp.net",
+        "razor",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "webmatrix --safe-mode",
+      "description": "Run WebMatrix in safe mode",
+      "scenario": "Run WebMatrix in safe mode",
+      "language": "bash",
+      "tags": [
+        "safe",
+        "mode",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "webmatrix --disable-extensions",
+      "description": "Launch WebMatrix without loading extensions",
+      "scenario": "Launch WebMatrix without loading extensions",
+      "language": "bash",
+      "tags": [
+        "extensions",
+        "disable",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "webmatrix --theme Dark",
+      "description": "Open WebMatrix with a specific theme",
+      "scenario": "Open WebMatrix with a specific theme",
+      "language": "bash",
+      "tags": [
+        "theme",
+        "dark",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

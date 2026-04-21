@@ -1,0 +1,204 @@
+{
+  "title": "Music CLI and Scripting",
+  "slug": "music",
+  "description": "Essential commands and scripts for managing music files and metadata.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls *.mp3",
+      "description": "List all MP3 files in a directory",
+      "scenario": "List all MP3 files in a directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "mp3",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.wav -codec:a libmp3lame output.mp3",
+      "description": "Convert WAV file to MP3 using FFmpeg",
+      "scenario": "Convert WAV file to MP3 using FFmpeg",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "wav",
+        "mp3"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for file in *.mp3; do mv \"$file\" \"$(echo $file | tr '[:upper:]' '[:lower:]')\"; done",
+      "description": "Rename all MP3 files to lowercase",
+      "scenario": "Rename all MP3 files to lowercase",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "lowercase",
+        "mp3"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffprobe -i song.mp3",
+      "description": "Display metadata of an MP3 file using ffprobe",
+      "scenario": "Display metadata of an MP3 file using ffprobe",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "mp3",
+        "ffprobe"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "eyeD3 --title 'New Title' --artist 'New Artist' song.mp3",
+      "description": "Edit MP3 metadata using eyeD3",
+      "scenario": "Edit MP3 metadata using eyeD3",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "edit",
+        "eyeD3"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp3 -map_metadata -1 -c:a copy output.mp3",
+      "description": "Remove all metadata from an MP3 file",
+      "scenario": "Remove all metadata from an MP3 file",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "remove",
+        "mp3"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from mutagen.mp3 import MP3\nmp3 = MP3('song.mp3')\nprint(mp3.info.length)",
+      "description": "Read MP3 metadata using mutagen",
+      "scenario": "Read MP3 metadata using mutagen",
+      "language": "python",
+      "tags": [
+        "python",
+        "mutagen",
+        "metadata"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import os\nfor filename in os.listdir('.'): os.rename(filename, filename.lower())",
+      "description": "Batch rename MP3 files with Python",
+      "scenario": "Batch rename MP3 files with Python",
+      "language": "python",
+      "tags": [
+        "python",
+        "rename",
+        "batch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from mutagen.mp3 import MP3\nfrom mutagen.id3 import ID3, APIC\nmp3 = MP3('song.mp3', ID3=ID3)\nartwork = mp3.tags['APIC:'].data\nwith open('cover.jpg', 'wb') as img: img.write(artwork)",
+      "description": "Extract album art from MP3 using mutagen",
+      "scenario": "Extract album art from MP3 using mutagen",
+      "language": "python",
+      "tags": [
+        "python",
+        "album art",
+        "mutagen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vlc http://example.com/stream",
+      "description": "Stream music from a URL using VLC",
+      "scenario": "Stream music from a URL using VLC",
+      "language": "bash",
+      "tags": [
+        "stream",
+        "vlc",
+        "playback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mpg123 song.mp3",
+      "description": "Play an MP3 file using mpg123",
+      "scenario": "Play an MP3 file using mpg123",
+      "language": "bash",
+      "tags": [
+        "play",
+        "mp3",
+        "mpg123"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo '#EXTM3U\nsong1.mp3\nsong2.mp3' > playlist.m3u",
+      "description": "Create a playlist file for VLC",
+      "scenario": "Create a playlist file for VLC",
+      "language": "bash",
+      "tags": [
+        "playlist",
+        "vlc",
+        "m3u"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp3 -filter:a loudnorm output.mp3",
+      "description": "Normalize audio volume using FFmpeg",
+      "scenario": "Normalize audio volume using FFmpeg",
+      "language": "bash",
+      "tags": [
+        "normalize",
+        "volume",
+        "ffmpeg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i video.mp4 -q:a 0 -map a audio.mp3",
+      "description": "Extract audio from video using FFmpeg",
+      "scenario": "Extract audio from video using FFmpeg",
+      "language": "bash",
+      "tags": [
+        "extract",
+        "audio",
+        "ffmpeg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp3 -b:a 192K output.mp3",
+      "description": "Change audio bitrate using FFmpeg",
+      "scenario": "Change audio bitrate using FFmpeg",
+      "language": "bash",
+      "tags": [
+        "bitrate",
+        "audio",
+        "ffmpeg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

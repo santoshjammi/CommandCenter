@@ -1,0 +1,204 @@
+{
+  "title": "ES6 Cheat Sheet",
+  "slug": "es6",
+  "description": "Essential ES6 syntax and features for JavaScript developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let count = 0;",
+      "description": "Declare a block-scoped variable using let",
+      "scenario": "Declare a block-scoped variable using let",
+      "language": "javascript",
+      "tags": [
+        "let",
+        "variable",
+        "block-scope"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const PI = 3.14;",
+      "description": "Declare a constant variable using const",
+      "scenario": "Declare a constant variable using const",
+      "language": "javascript",
+      "tags": [
+        "const",
+        "variable",
+        "constant"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var name = 'John';",
+      "description": "Declare a variable using var (function-scoped)",
+      "scenario": "Declare a variable using var (function-scoped)",
+      "language": "javascript",
+      "tags": [
+        "var",
+        "variable",
+        "function-scope"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const add = (a, b) => a + b;",
+      "description": "Define a simple arrow function",
+      "scenario": "Define a simple arrow function",
+      "language": "javascript",
+      "tags": [
+        "arrow function",
+        "function",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const greet = () => 'Hello';",
+      "description": "Arrow function with no parameters",
+      "scenario": "Arrow function with no parameters",
+      "language": "javascript",
+      "tags": [
+        "arrow function",
+        "no parameters",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const square = x => x * x;",
+      "description": "Arrow function with a single parameter",
+      "scenario": "Arrow function with a single parameter",
+      "language": "javascript",
+      "tags": [
+        "arrow function",
+        "single parameter",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const greeting = `Hello, ${name}!`;",
+      "description": "Create a string with embedded expressions",
+      "scenario": "Create a string with embedded expressions",
+      "language": "javascript",
+      "tags": [
+        "template literals",
+        "string",
+        "interpolation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const poem = `Roses are red,\nViolets are blue.`;",
+      "description": "Multiline string using template literals",
+      "scenario": "Multiline string using template literals",
+      "language": "javascript",
+      "tags": [
+        "template literals",
+        "multiline",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const tag = (strings, ...values) => strings[0] + values.join('');\ntag`Hello, ${name}!`;",
+      "description": "Tagged template literals example",
+      "scenario": "Tagged template literals example",
+      "language": "javascript",
+      "tags": [
+        "tagged template",
+        "template literals",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const { name, age } = person;",
+      "description": "Destructure an object into variables",
+      "scenario": "Destructure an object into variables",
+      "language": "javascript",
+      "tags": [
+        "destructuring",
+        "object",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const [first, second] = numbers;",
+      "description": "Destructure an array into variables",
+      "scenario": "Destructure an array into variables",
+      "language": "javascript",
+      "tags": [
+        "destructuring",
+        "array",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const { a = 10, b = 5 } = obj;",
+      "description": "Destructure with default values",
+      "scenario": "Destructure with default values",
+      "language": "javascript",
+      "tags": [
+        "destructuring",
+        "default values",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export const add = (a, b) => a + b;",
+      "description": "Export a function from a module",
+      "scenario": "Export a function from a module",
+      "language": "javascript",
+      "tags": [
+        "modules",
+        "export",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { add } from './math';",
+      "description": "Import a function from a module",
+      "scenario": "Import a function from a module",
+      "language": "javascript",
+      "tags": [
+        "modules",
+        "import",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export default function multiply(a, b) { return a * b; }",
+      "description": "Export a default function",
+      "scenario": "Export a default function",
+      "language": "javascript",
+      "tags": [
+        "modules",
+        "export",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

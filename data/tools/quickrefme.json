@@ -1,0 +1,204 @@
+{
+  "title": "QuickRef.ME",
+  "slug": "quickrefme",
+  "description": "A quick reference guide for command-line and coding essentials.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files and directories",
+      "scenario": "List files and directories",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /path/to/directory",
+      "description": "Change directory",
+      "scenario": "Change directory",
+      "language": "bash",
+      "tags": [
+        "navigate",
+        "directory",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Display current directory path",
+      "scenario": "Display current directory path",
+      "language": "bash",
+      "tags": [
+        "path",
+        "current",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone a repository",
+      "scenario": "Clone a repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin main",
+      "description": "Push changes to remote repository",
+      "scenario": "Push changes to remote repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "push",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_function():\n    pass",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "python",
+      "tags": [
+        "function",
+        "define",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_list = [1, 2, 3, 4]",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "python",
+      "tags": [
+        "list",
+        "create",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for item in my_list:\n    print(item)",
+      "description": "Loop through a list",
+      "scenario": "Loop through a list",
+      "language": "python",
+      "tags": [
+        "loop",
+        "list",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker build -t myimage:latest .",
+      "description": "Build a Docker image",
+      "scenario": "Build a Docker image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "build",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d myimage:latest",
+      "description": "Run a Docker container",
+      "scenario": "Run a Docker container",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "run",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List running Docker containers",
+      "scenario": "List running Docker containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "list",
+        "containers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "key: value\nlist:\n  - item1\n  - item2",
+      "description": "Define a basic YAML structure",
+      "scenario": "Define a basic YAML structure",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "structure",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "environment:\n  VAR1: value1\n  VAR2: value2",
+      "description": "Specify environment variables in YAML",
+      "scenario": "Specify environment variables in YAML",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "environment",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "services:\n  web:\n    image: nginx\n    ports:\n      - \"80:80\"",
+      "description": "Set up a Docker Compose service",
+      "scenario": "Set up a Docker Compose service",
+      "language": "yaml",
+      "tags": [
+        "docker",
+        "compose",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

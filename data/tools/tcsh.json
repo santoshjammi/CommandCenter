@@ -1,0 +1,204 @@
+{
+  "title": "tcsh Cheat Sheet",
+  "slug": "tcsh",
+  "description": "Essential tcsh commands and syntax for efficient shell usage.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "pwd",
+      "description": "Print the current working directory",
+      "scenario": "Print the current working directory",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "navigation",
+        "cwd"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "files",
+        "list",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /usr/local",
+      "description": "Change directory to /usr/local",
+      "scenario": "Change directory to /usr/local",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "navigation",
+        "cd"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setenv PATH /usr/local/bin:$PATH",
+      "description": "Set an environment variable",
+      "scenario": "Set an environment variable",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "setenv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unsetenv PATH",
+      "description": "Unset an environment variable",
+      "scenario": "Unset an environment variable",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "unsetenv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "printenv",
+      "description": "Display all environment variables",
+      "scenario": "Display all environment variables",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "printenv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#!/bin/tcsh\\necho \"Hello, World!\"",
+      "description": "Create a simple tcsh script",
+      "scenario": "Create a simple tcsh script",
+      "language": "bash",
+      "tags": [
+        "scripting",
+        "tcsh",
+        "hello world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcsh script.csh",
+      "description": "Execute a tcsh script",
+      "scenario": "Execute a tcsh script",
+      "language": "bash",
+      "tags": [
+        "scripting",
+        "execute",
+        "tcsh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (-e filename) then\\n  echo \"File exists\"\\nendif",
+      "description": "Check if a file exists in tcsh script",
+      "scenario": "Check if a file exists in tcsh script",
+      "language": "bash",
+      "tags": [
+        "scripting",
+        "file",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alias ll 'ls -l'",
+      "description": "Create an alias for a command",
+      "scenario": "Create an alias for a command",
+      "language": "bash",
+      "tags": [
+        "alias",
+        "command",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unalias ll",
+      "description": "Remove an alias",
+      "scenario": "Remove an alias",
+      "language": "bash",
+      "tags": [
+        "alias",
+        "remove",
+        "unalias"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alias",
+      "description": "List all defined aliases",
+      "scenario": "List all defined aliases",
+      "language": "bash",
+      "tags": [
+        "alias",
+        "list",
+        "commands"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jobs",
+      "description": "List all jobs",
+      "scenario": "List all jobs",
+      "language": "bash",
+      "tags": [
+        "jobs",
+        "list",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fg %1",
+      "description": "Bring a background job to the foreground",
+      "scenario": "Bring a background job to the foreground",
+      "language": "bash",
+      "tags": [
+        "jobs",
+        "foreground",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bg %1",
+      "description": "Send a job to the background",
+      "scenario": "Send a job to the background",
+      "language": "bash",
+      "tags": [
+        "jobs",
+        "background",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

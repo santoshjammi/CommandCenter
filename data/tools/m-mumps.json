@@ -1,0 +1,204 @@
+{
+  "title": "M (MUMPS) Cheat Sheet",
+  "slug": "m-mumps",
+  "description": "Essential MUMPS syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "SET var=10",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "declaration",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "WRITE \"Hello, World!\"",
+      "description": "Write output to console",
+      "scenario": "Write output to console",
+      "language": "text",
+      "tags": [
+        "output",
+        "console",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SET var=var+1",
+      "description": "Increment a variable",
+      "scenario": "Increment a variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "increment",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IF var=10 WRITE \"Ten\" ELSE WRITE \"Not Ten\"",
+      "description": "If-Else statement",
+      "scenario": "If-Else statement",
+      "language": "text",
+      "tags": [
+        "control",
+        "if-else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FOR i=1:1:5 WRITE i",
+      "description": "For loop from 1 to 5",
+      "scenario": "For loop from 1 to 5",
+      "language": "text",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SET i=0 WHILE i<5 SET i=i+1 WRITE i",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "text",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OPEN \"myfile.txt\":\"R\"",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "USE \"myfile.txt\" READ line",
+      "description": "Read a line from a file",
+      "scenario": "Read a line from a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CLOSE \"myfile.txt\"",
+      "description": "Close a file",
+      "scenario": "Close a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "close",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SET ^global(\"key\")=value",
+      "description": "Set a global variable",
+      "scenario": "Set a global variable",
+      "language": "text",
+      "tags": [
+        "database",
+        "global",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "WRITE ^global(\"key\")",
+      "description": "Get a global variable",
+      "scenario": "Get a global variable",
+      "language": "text",
+      "tags": [
+        "database",
+        "global",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "KILL ^global(\"key\")",
+      "description": "Kill a global variable",
+      "scenario": "Kill a global variable",
+      "language": "text",
+      "tags": [
+        "database",
+        "global",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SET $ETRAP=\"GOTO ERROR\"",
+      "description": "Trap an error",
+      "scenario": "Trap an error",
+      "language": "text",
+      "tags": [
+        "error",
+        "trap",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ERROR WRITE \"An error occurred\" QUIT",
+      "description": "Handle an error in a subroutine",
+      "scenario": "Handle an error in a subroutine",
+      "language": "text",
+      "tags": [
+        "error",
+        "subroutine",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SET $ETRAP=\"\"",
+      "description": "Clear error trap",
+      "scenario": "Clear error trap",
+      "language": "text",
+      "tags": [
+        "error",
+        "trap",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Unreal Engine Cheat Sheet",
+  "slug": "unreal-engine",
+  "description": "Essential commands and syntax for Unreal Engine development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "ue4 newproject MyProjectName",
+      "description": "Create a new Unreal Engine project",
+      "scenario": "Create a new Unreal Engine project",
+      "language": "bash",
+      "tags": [
+        "create",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ue4 build MyProjectName",
+      "description": "Build the Unreal Engine project",
+      "scenario": "Build the Unreal Engine project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ue4 editor MyProjectName",
+      "description": "Run the Unreal Engine editor",
+      "scenario": "Run the Unreal Engine editor",
+      "language": "bash",
+      "tags": [
+        "run",
+        "editor",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Blueprint'/Game/MyBlueprintClass.MyBlueprintClass'",
+      "description": "Create a new Blueprint class",
+      "scenario": "Create a new Blueprint class",
+      "language": "text",
+      "tags": [
+        "blueprint",
+        "class",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "EventBeginPlay -> CustomEvent",
+      "description": "Bind an event to a function",
+      "scenario": "Bind an event to a function",
+      "language": "text",
+      "tags": [
+        "event",
+        "bind",
+        "blueprint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Set MyVariable = NewValue",
+      "description": "Set a variable in Blueprint",
+      "scenario": "Set a variable in Blueprint",
+      "language": "text",
+      "tags": [
+        "variable",
+        "set",
+        "blueprint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#include \"MyHeaderFile.h\"",
+      "description": "Include a header file in Unreal Engine C++",
+      "scenario": "Include a header file in Unreal Engine C++",
+      "language": "cpp",
+      "tags": [
+        "include",
+        "header",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyClass : public AActor { ... };",
+      "description": "Define a new class in Unreal Engine",
+      "scenario": "Define a new class in Unreal Engine",
+      "language": "cpp",
+      "tags": [
+        "class",
+        "define",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "virtual void BeginPlay() override;",
+      "description": "Override a function in Unreal Engine",
+      "scenario": "Override a function in Unreal Engine",
+      "language": "cpp",
+      "tags": [
+        "override",
+        "function",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[/Script/EngineSettings.GameMapsSettings]\nGameDefaultMap=/Game/Maps/MyMap",
+      "description": "Set the default map in DefaultEngine.ini",
+      "scenario": "Set the default map in DefaultEngine.ini",
+      "language": "ini",
+      "tags": [
+        "configuration",
+        "map",
+        "ini"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"FileVersion\": 3,\n  \"Plugins\": [\n    {\n      \"Name\": \"MyPlugin\",\n      \"Enabled\": true\n    }\n  ]\n}",
+      "description": "Enable a plugin in uproject file",
+      "scenario": "Enable a plugin in uproject file",
+      "language": "json",
+      "tags": [
+        "plugin",
+        "enable",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PublicDependencyModuleNames.AddRange(new string[] { \"Core\", \"CoreUObject\", \"Engine\", \"InputCore\" });",
+      "description": "Configure build settings in Build.cs",
+      "scenario": "Configure build settings in Build.cs",
+      "language": "cpp",
+      "tags": [
+        "build",
+        "settings",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "static MyClass* Instance;\nif (!Instance) {\n  Instance = NewObject<MyClass>();\n}",
+      "description": "Singleton pattern in Unreal Engine",
+      "scenario": "Singleton pattern in Unreal Engine",
+      "language": "cpp",
+      "tags": [
+        "singleton",
+        "pattern",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMyDelegate);\nFMyDelegate OnEventTriggered;",
+      "description": "Observer pattern using delegates",
+      "scenario": "Observer pattern using delegates",
+      "language": "cpp",
+      "tags": [
+        "observer",
+        "delegate",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UObject* MyObject = NewObject<UObject>(GetTransientPackage(), MyClass::StaticClass());",
+      "description": "Factory pattern for object creation",
+      "scenario": "Factory pattern for object creation",
+      "language": "cpp",
+      "tags": [
+        "factory",
+        "pattern",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

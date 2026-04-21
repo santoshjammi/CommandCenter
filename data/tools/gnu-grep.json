@@ -1,0 +1,165 @@
+{
+  "title": "GNU grep Cheat Sheet",
+  "slug": "gnu-grep",
+  "description": "Essential GNU grep commands and flags for efficient text searching.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "grep 'pattern' filename.txt",
+      "description": "Search for a pattern in a file",
+      "scenario": "Search for a pattern in a file",
+      "language": "bash",
+      "tags": [
+        "search",
+        "pattern",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'pattern' file1.txt file2.txt",
+      "description": "Search for a pattern in multiple files",
+      "scenario": "Search for a pattern in multiple files",
+      "language": "bash",
+      "tags": [
+        "search",
+        "multiple",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -r 'pattern' /path/to/directory",
+      "description": "Search for a pattern recursively in directories",
+      "scenario": "Search for a pattern recursively in directories",
+      "language": "bash",
+      "tags": [
+        "recursive",
+        "directory",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -i 'pattern' filename.txt",
+      "description": "Ignore case distinctions in patterns and data",
+      "scenario": "Ignore case distinctions in patterns and data",
+      "language": "bash",
+      "tags": [
+        "ignore",
+        "case",
+        "insensitive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -n 'pattern' filename.txt",
+      "description": "Print line numbers with output lines",
+      "scenario": "Print line numbers with output lines",
+      "language": "bash",
+      "tags": [
+        "line",
+        "numbers",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -s 'pattern' filename.txt",
+      "description": "Suppress error messages about nonexistent or unreadable files",
+      "scenario": "Suppress error messages about nonexistent or unreadable files",
+      "language": "bash",
+      "tags": [
+        "suppress",
+        "errors",
+        "silent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -o 'pattern' filename.txt",
+      "description": "Print only the matched parts of a matching line",
+      "scenario": "Print only the matched parts of a matching line",
+      "language": "bash",
+      "tags": [
+        "output",
+        "matched",
+        "parts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -c 'pattern' filename.txt",
+      "description": "Count the number of matching lines",
+      "scenario": "Count the number of matching lines",
+      "language": "bash",
+      "tags": [
+        "count",
+        "lines",
+        "matches"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -v 'pattern' filename.txt",
+      "description": "Invert the match to select non-matching lines",
+      "scenario": "Invert the match to select non-matching lines",
+      "language": "bash",
+      "tags": [
+        "invert",
+        "non-matching",
+        "lines"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -E 'pattern' filename.txt",
+      "description": "Use extended regular expressions",
+      "scenario": "Use extended regular expressions",
+      "language": "bash",
+      "tags": [
+        "extended",
+        "regex",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -f patterns.txt filename.txt",
+      "description": "Use a pattern list from a file",
+      "scenario": "Use a pattern list from a file",
+      "language": "bash",
+      "tags": [
+        "pattern",
+        "file",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -l 'pattern' *.txt",
+      "description": "Display filenames with matches",
+      "scenario": "Display filenames with matches",
+      "language": "bash",
+      "tags": [
+        "filenames",
+        "matches",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

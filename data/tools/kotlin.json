@@ -1,0 +1,204 @@
+{
+  "title": "Kotlin Cheat Sheet",
+  "slug": "kotlin",
+  "description": "Essential Kotlin syntax, patterns, and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "val name: String = \"Kotlin\"",
+      "description": "Declare a read-only variable",
+      "scenario": "Declare a read-only variable",
+      "language": "kotlin",
+      "tags": [
+        "variable",
+        "declaration",
+        "val"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var count: Int = 10",
+      "description": "Declare a mutable variable",
+      "scenario": "Declare a mutable variable",
+      "language": "kotlin",
+      "tags": [
+        "variable",
+        "declaration",
+        "var"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fun sum(a: Int, b: Int): Int { return a + b }",
+      "description": "Define a function with parameters",
+      "scenario": "Define a function with parameters",
+      "language": "kotlin",
+      "tags": [
+        "function",
+        "parameters",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val max = if (a > b) a else b",
+      "description": "If expression",
+      "scenario": "If expression",
+      "language": "kotlin",
+      "tags": [
+        "if",
+        "expression",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "when (x) { 1 -> print(\"One\") 2 -> print(\"Two\") else -> print(\"Other\") }",
+      "description": "When expression",
+      "scenario": "When expression",
+      "language": "kotlin",
+      "tags": [
+        "when",
+        "expression",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i in 1..10) { println(i) }",
+      "description": "For loop over a range",
+      "scenario": "For loop over a range",
+      "language": "kotlin",
+      "tags": [
+        "for",
+        "loop",
+        "range"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val numbers = listOf(1, 2, 3, 4, 5)",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "kotlin",
+      "tags": [
+        "list",
+        "collection",
+        "immutable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val mutableNumbers = mutableListOf(1, 2, 3)",
+      "description": "Create a mutable list",
+      "scenario": "Create a mutable list",
+      "language": "kotlin",
+      "tags": [
+        "list",
+        "collection",
+        "mutable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (item in numbers) { println(item) }",
+      "description": "Iterate over a list",
+      "scenario": "Iterate over a list",
+      "language": "kotlin",
+      "tags": [
+        "list",
+        "iteration",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Car(val make: String, val model: String)",
+      "description": "Define a simple class",
+      "scenario": "Define a simple class",
+      "language": "kotlin",
+      "tags": [
+        "class",
+        "object",
+        "constructor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val myCar = Car(\"Toyota\", \"Corolla\")",
+      "description": "Create an object instance",
+      "scenario": "Create an object instance",
+      "language": "kotlin",
+      "tags": [
+        "object",
+        "instance",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data class User(val name: String, val age: Int)",
+      "description": "Define a data class",
+      "scenario": "Define a data class",
+      "language": "kotlin",
+      "tags": [
+        "data class",
+        "immutable",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val sum = { x: Int, y: Int -> x + y }",
+      "description": "Lambda expression",
+      "scenario": "Lambda expression",
+      "language": "kotlin",
+      "tags": [
+        "lambda",
+        "expression",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fun calculate(x: Int, y: Int, operation: (Int, Int) -> Int): Int { return operation(x, y) }",
+      "description": "Higher-order function",
+      "scenario": "Higher-order function",
+      "language": "kotlin",
+      "tags": [
+        "higher-order",
+        "function",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fun String.removeSpaces(): String { return this.replace(\" \", \"\") }",
+      "description": "Extension function",
+      "scenario": "Extension function",
+      "language": "kotlin",
+      "tags": [
+        "extension",
+        "function",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

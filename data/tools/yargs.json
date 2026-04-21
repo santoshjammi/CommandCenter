@@ -1,0 +1,204 @@
+{
+  "title": "Yargs CLI Cheat Sheet",
+  "slug": "yargs",
+  "description": "Quick reference for Yargs CLI commands and patterns",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "npm init -y && npm install yargs",
+      "description": "Initialize a new Yargs CLI application",
+      "scenario": "Initialize a new Yargs CLI application",
+      "language": "bash",
+      "tags": [
+        "init",
+        "npm",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "node your-script.js --help",
+      "description": "Run a Yargs CLI script",
+      "scenario": "Run a Yargs CLI script",
+      "language": "bash",
+      "tags": [
+        "run",
+        "node",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "node your-script.js --help",
+      "description": "Display help for a Yargs command",
+      "scenario": "Display help for a Yargs command",
+      "language": "bash",
+      "tags": [
+        "help",
+        "cli",
+        "commands"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.command('greet', 'Greet the user', () => {}, (argv) => { console.log('Hello, ' + argv.name); }).argv;",
+      "description": "Define a simple Yargs command",
+      "scenario": "Define a simple Yargs command",
+      "language": "javascript",
+      "tags": [
+        "command",
+        "define",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.command('greet', 'Greet the user with a name', () => {}, (argv) => { console.log('Hello, ' + argv.name); }).argv;",
+      "description": "Add a description to a command",
+      "scenario": "Add a description to a command",
+      "language": "javascript",
+      "tags": [
+        "command",
+        "description",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.command('greet', 'Greet the user', { name: { describe: 'Name to greet', demandOption: true, type: 'string' } }, (argv) => { console.log('Hello, ' + argv.name); }).argv;",
+      "description": "Define a command with options",
+      "scenario": "Define a command with options",
+      "language": "javascript",
+      "tags": [
+        "options",
+        "command",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const argv = require('yargs').argv; console.log(argv.name);",
+      "description": "Access a command-line argument",
+      "scenario": "Access a command-line argument",
+      "language": "javascript",
+      "tags": [
+        "arguments",
+        "access",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.option('name', { alias: 'n', default: 'World' });",
+      "description": "Set default value for an argument",
+      "scenario": "Set default value for an argument",
+      "language": "javascript",
+      "tags": [
+        "default",
+        "arguments",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.demandOption(['name'], 'Please provide a name to greet');",
+      "description": "Require an argument",
+      "scenario": "Require an argument",
+      "language": "javascript",
+      "tags": [
+        "require",
+        "arguments",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.strict();",
+      "description": "Configure Yargs to use strict mode",
+      "scenario": "Configure Yargs to use strict mode",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "strict",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.version('1.0.0');",
+      "description": "Set a custom version for the CLI",
+      "scenario": "Set a custom version for the CLI",
+      "language": "javascript",
+      "tags": [
+        "version",
+        "config",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.help('help').wrap(null);",
+      "description": "Set a custom help message",
+      "scenario": "Set a custom help message",
+      "language": "javascript",
+      "tags": [
+        "help",
+        "config",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.middleware([(argv) => { argv.timestamp = new Date(); }]);",
+      "description": "Use middleware in Yargs",
+      "scenario": "Use middleware in Yargs",
+      "language": "javascript",
+      "tags": [
+        "middleware",
+        "advanced",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.parse('greet --name=John');",
+      "description": "Parse arguments from a string",
+      "scenario": "Parse arguments from a string",
+      "language": "javascript",
+      "tags": [
+        "parse",
+        "string",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yargs.completion('completion', (current, argv, done) => { done(['foo', 'bar']); });",
+      "description": "Create a custom completion command",
+      "scenario": "Create a custom completion command",
+      "language": "javascript",
+      "tags": [
+        "completion",
+        "advanced",
+        "yargs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

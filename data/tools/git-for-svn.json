@@ -1,0 +1,204 @@
+{
+  "title": "Git for SVN Users",
+  "slug": "git-for-svn",
+  "description": "Quick reference for SVN users transitioning to Git",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git clone <repository-url>",
+      "description": "Clone a repository",
+      "scenario": "Clone a repository",
+      "language": "bash",
+      "tags": [
+        "clone",
+        "repository",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git status",
+      "description": "Check the status of the working directory",
+      "scenario": "Check the status of the working directory",
+      "language": "bash",
+      "tags": [
+        "status",
+        "working directory",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git add <file-or-directory>",
+      "description": "Add changes to the staging area",
+      "scenario": "Add changes to the staging area",
+      "language": "bash",
+      "tags": [
+        "add",
+        "staging",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch <branch-name>",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout <branch-name>",
+      "description": "Switch to a branch",
+      "scenario": "Switch to a branch",
+      "language": "bash",
+      "tags": [
+        "checkout",
+        "switch",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge <branch-name>",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "branch",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "message",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log",
+      "description": "Show commit history",
+      "scenario": "Show commit history",
+      "language": "bash",
+      "tags": [
+        "log",
+        "history",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git diff <commit1> <commit2>",
+      "description": "Show changes between commits",
+      "scenario": "Show changes between commits",
+      "language": "bash",
+      "tags": [
+        "diff",
+        "changes",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git remote add <name> <url>",
+      "description": "Add a remote repository",
+      "scenario": "Add a remote repository",
+      "language": "bash",
+      "tags": [
+        "remote",
+        "add",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git fetch <remote>",
+      "description": "Fetch changes from a remote repository",
+      "scenario": "Fetch changes from a remote repository",
+      "language": "bash",
+      "tags": [
+        "fetch",
+        "remote",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push <remote> <branch>",
+      "description": "Push changes to a remote repository",
+      "scenario": "Push changes to a remote repository",
+      "language": "bash",
+      "tags": [
+        "push",
+        "remote",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git config --global user.name \"Your Name\"",
+      "description": "Set global username",
+      "scenario": "Set global username",
+      "language": "bash",
+      "tags": [
+        "config",
+        "username",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git config --global user.email \"your.email@example.com\"",
+      "description": "Set global email",
+      "scenario": "Set global email",
+      "language": "bash",
+      "tags": [
+        "config",
+        "email",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git config --list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

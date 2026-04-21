@@ -1,0 +1,165 @@
+{
+  "title": "Flexbox Cheat Sheet",
+  "slug": "flex",
+  "description": "Quick reference for CSS Flexbox layout properties and patterns.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "display: flex;",
+      "description": "Defines a flex container",
+      "scenario": "Defines a flex container",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "container",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flex-direction: row;",
+      "description": "Sets the direction of flex items",
+      "scenario": "Sets the direction of flex items",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "direction",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flex-wrap: wrap;",
+      "description": "Wraps flex items onto multiple lines",
+      "scenario": "Wraps flex items onto multiple lines",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "wrap",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flex-grow: 1;",
+      "description": "Defines the ability for a flex item to grow",
+      "scenario": "Defines the ability for a flex item to grow",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "grow",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flex-shrink: 1;",
+      "description": "Defines the ability for a flex item to shrink",
+      "scenario": "Defines the ability for a flex item to shrink",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "shrink",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flex-basis: 100px;",
+      "description": "Defines the default size of a flex item",
+      "scenario": "Defines the default size of a flex item",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "basis",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "justify-content: center;",
+      "description": "Aligns flex items along the main axis",
+      "scenario": "Aligns flex items along the main axis",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "align",
+        "main-axis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "align-items: stretch;",
+      "description": "Aligns flex items along the cross axis",
+      "scenario": "Aligns flex items along the cross axis",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "align",
+        "cross-axis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "align-content: space-between;",
+      "description": "Aligns flex container's lines within the flex container",
+      "scenario": "Aligns flex container's lines within the flex container",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "align",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: flex; justify-content: center; align-items: center;",
+      "description": "Center an item horizontally and vertically",
+      "scenario": "Center an item horizontally and vertically",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "center",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: flex; flex-wrap: wrap;",
+      "description": "Create a responsive grid layout",
+      "scenario": "Create a responsive grid layout",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "grid",
+        "responsive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: flex; flex-direction: column; justify-content: space-between;",
+      "description": "Create a sticky footer layout",
+      "scenario": "Create a sticky footer layout",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "footer",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

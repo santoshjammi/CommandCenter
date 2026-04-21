@@ -1,0 +1,165 @@
+{
+  "title": "Adobe Acrobat Cheat Sheet",
+  "slug": "adobe-acrobat",
+  "description": "Quick reference for Adobe Acrobat CLI and shortcuts.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "pdftotext input.pdf output.txt",
+      "description": "Convert a PDF to a text file",
+      "scenario": "Convert a PDF to a text file",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "convert",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pdfunite file1.pdf file2.pdf merged.pdf",
+      "description": "Merge multiple PDFs into one",
+      "scenario": "Merge multiple PDFs into one",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "merge",
+        "combine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pdfimages -j input.pdf image-prefix",
+      "description": "Extract images from a PDF",
+      "scenario": "Extract images from a PDF",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "images",
+        "extract"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pdftk input.pdf cat 1-endS output rotated.pdf",
+      "description": "Rotate pages in a PDF",
+      "scenario": "Rotate pages in a PDF",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "rotate",
+        "pages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pdftk input.pdf burst",
+      "description": "Split a PDF into individual pages",
+      "scenario": "Split a PDF into individual pages",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "split",
+        "pages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qpdf --encrypt user-password owner-password 40 -- input.pdf output.pdf",
+      "description": "Encrypt a PDF with a password",
+      "scenario": "Encrypt a PDF with a password",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "encrypt",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + O",
+      "description": "Open a file",
+      "scenario": "Open a file",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "open",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + S",
+      "description": "Save a file",
+      "scenario": "Save a file",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "save",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + P",
+      "description": "Print a document",
+      "scenario": "Print a document",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "print",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Preferences > Page Display > Default Zoom > 100%",
+      "description": "Set default zoom level to 100%",
+      "scenario": "Set default zoom level to 100%",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "zoom",
+        "preferences"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View > Page Display > Single Page View",
+      "description": "Enable single page view",
+      "scenario": "Enable single page view",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "view",
+        "single page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Preferences > Documents > Uncheck 'Automatically save document changes'",
+      "description": "Disable auto-save feature",
+      "scenario": "Disable auto-save feature",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "auto-save",
+        "preferences"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

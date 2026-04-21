@@ -1,0 +1,165 @@
+{
+  "title": "Mercury CLI Cheat Sheet",
+  "slug": "mercury",
+  "description": "Key commands and configurations for Mercury CLI usage",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "mercury init my_project",
+      "description": "Initialize a new Mercury project",
+      "scenario": "Initialize a new Mercury project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury build",
+      "description": "Build the current Mercury project",
+      "scenario": "Build the current Mercury project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury run --dev",
+      "description": "Run the Mercury project in development mode",
+      "scenario": "Run the Mercury project in development mode",
+      "language": "bash",
+      "tags": [
+        "run",
+        "development",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury config set --file config.yaml",
+      "description": "Set the configuration file for the project",
+      "scenario": "Set the configuration file for the project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury config show",
+      "description": "Display the current configuration settings",
+      "scenario": "Display the current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "display",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury deploy --env production",
+      "description": "Deploy the Mercury project to production",
+      "scenario": "Deploy the Mercury project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "release"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury test",
+      "description": "Run tests for the Mercury project",
+      "scenario": "Run tests for the Mercury project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "validate",
+        "qa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury docs generate",
+      "description": "Generate documentation for the project",
+      "scenario": "Generate documentation for the project",
+      "language": "bash",
+      "tags": [
+        "docs",
+        "generate",
+        "documentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury check",
+      "description": "Check the Mercury project for errors",
+      "scenario": "Check the Mercury project for errors",
+      "language": "bash",
+      "tags": [
+        "check",
+        "errors",
+        "validate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury logs --verbose",
+      "description": "View detailed logs for debugging",
+      "scenario": "View detailed logs for debugging",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "debug",
+        "verbose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mercury cache clear",
+      "description": "Clear the cache for the Mercury project",
+      "scenario": "Clear the cache for the Mercury project",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "clear",
+        "reset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

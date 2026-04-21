@@ -1,0 +1,204 @@
+{
+  "title": "Design Pattern Cheat Sheet",
+  "slug": "design-pattern",
+  "description": "Key design patterns with examples and explanations for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "class Singleton {\n  constructor() {\n    if (!Singleton.instance) {\n      Singleton.instance = this;\n    }\n    return Singleton.instance;\n  }\n}\nconst instance = new Singleton();",
+      "description": "Ensure a class has only one instance and provide a global point of access to it.",
+      "scenario": "Ensure a class has only one instance and provide a global point of access to it.",
+      "language": "javascript",
+      "tags": [
+        "singleton",
+        "design pattern",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Singleton:\n    _instance = None\n\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = super(Singleton, cls).__new__(cls)\n        return cls._instance\n\nsingleton = Singleton()",
+      "description": "Get the singleton instance in Python.",
+      "scenario": "Get the singleton instance in Python.",
+      "language": "python",
+      "tags": [
+        "singleton",
+        "python",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class Singleton {\n    private static volatile Singleton instance;\n\n    private Singleton() {}\n\n    public static Singleton getInstance() {\n        if (instance == null) {\n            synchronized (Singleton.class) {\n                if (instance == null) {\n                    instance = new Singleton();\n                }\n            }\n        }\n        return instance;\n    }\n}",
+      "description": "Thread-safe singleton implementation in Java.",
+      "scenario": "Thread-safe singleton implementation in Java.",
+      "language": "java",
+      "tags": [
+        "singleton",
+        "thread-safe",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Subject:\n    def __init__(self):\n        self._observers = []\n\n    def attach(self, observer):\n        self._observers.append(observer)\n\n    def notify(self, message):\n        for observer in self._observers:\n            observer.update(message)\n\nclass Observer:\n    def update(self, message):\n        print(f'Received message: {message}')",
+      "description": "Define a one-to-many dependency between objects in Python.",
+      "scenario": "Define a one-to-many dependency between objects in Python.",
+      "language": "python",
+      "tags": [
+        "observer",
+        "design pattern",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Subject {\n  constructor() {\n    this.observers = [];\n  }\n  subscribe(observer) {\n    this.observers.push(observer);\n  }\n  notify(data) {\n    this.observers.forEach(observer => observer(data));\n  }\n}\n\nconst observer = data => console.log(`Received: ${data}`);\nconst subject = new Subject();\nsubject.subscribe(observer);",
+      "description": "Implement observer pattern in JavaScript.",
+      "scenario": "Implement observer pattern in JavaScript.",
+      "language": "javascript",
+      "tags": [
+        "observer",
+        "javascript",
+        "subscribe"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import java.util.ArrayList;\nimport java.util.List;\n\nclass Subject {\n    private List<Observer> observers = new ArrayList<>();\n\n    public void attach(Observer observer) {\n        observers.add(observer);\n    }\n\n    public void notifyAllObservers(String message) {\n        for (Observer observer : observers) {\n            observer.update(message);\n        }\n    }\n}\n\ninterface Observer {\n    void update(String message);\n}",
+      "description": "Java implementation of observer pattern.",
+      "scenario": "Java implementation of observer pattern.",
+      "language": "java",
+      "tags": [
+        "observer",
+        "java",
+        "notify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class AnimalFactory:\n    def create_animal(self, animal_type):\n        if animal_type == 'dog':\n            return Dog()\n        elif animal_type == 'cat':\n            return Cat()\n\nclass Dog:\n    def speak(self):\n        return 'Woof!'\n\nclass Cat:\n    def speak(self):\n        return 'Meow!'",
+      "description": "Define a factory method in Python.",
+      "scenario": "Define a factory method in Python.",
+      "language": "python",
+      "tags": [
+        "factory",
+        "python",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function createAnimal(type) {\n  switch(type) {\n    case 'dog':\n      return { speak: () => 'Woof!' };\n    case 'cat':\n      return { speak: () => 'Meow!' };\n  }\n}\n\nconst dog = createAnimal('dog');",
+      "description": "JavaScript factory function example.",
+      "scenario": "JavaScript factory function example.",
+      "language": "javascript",
+      "tags": [
+        "factory",
+        "javascript",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "abstract class Animal {\n    abstract String speak();\n}\n\nclass Dog extends Animal {\n    @Override\n    String speak() {\n        return \"Woof!\";\n    }\n}\n\nclass Cat extends Animal {\n    @Override\n    String speak() {\n        return \"Meow!\";\n    }\n}\n\nclass AnimalFactory {\n    public static Animal createAnimal(String type) {\n        switch (type) {\n            case \"dog\":\n                return new Dog();\n            case \"cat\":\n                return new Cat();\n            default:\n                return null;\n        }\n    }\n}",
+      "description": "Implement factory pattern in Java.",
+      "scenario": "Implement factory pattern in Java.",
+      "language": "java",
+      "tags": [
+        "factory",
+        "java",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class StrategyExample:\n    def __init__(self, strategy):\n        self._strategy = strategy\n\n    def execute(self):\n        self._strategy()\n\ndef strategy_one():\n    print('Strategy One')\n\ndef strategy_two():\n    print('Strategy Two')\n\nexample = StrategyExample(strategy_one)\nexample.execute()",
+      "description": "Implement strategy pattern in Python.",
+      "scenario": "Implement strategy pattern in Python.",
+      "language": "python",
+      "tags": [
+        "strategy",
+        "pattern",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Context {\n  constructor(strategy) {\n    this.strategy = strategy;\n  }\n  executeStrategy() {\n    this.strategy();\n  }\n}\n\nconst strategyOne = () => console.log('Strategy One');\nconst strategyTwo = () => console.log('Strategy Two');\n\nconst context = new Context(strategyOne);\ncontext.executeStrategy();",
+      "description": "JavaScript strategy pattern example.",
+      "scenario": "JavaScript strategy pattern example.",
+      "language": "javascript",
+      "tags": [
+        "strategy",
+        "javascript",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface Strategy {\n    void execute();\n}\n\nclass StrategyOne implements Strategy {\n    public void execute() {\n        System.out.println(\"Strategy One\");\n    }\n}\n\nclass StrategyTwo implements Strategy {\n    public void execute() {\n        System.out.println(\"Strategy Two\");\n    }\n}\n\nclass Context {\n    private Strategy strategy;\n\n    public Context(Strategy strategy) {\n        this.strategy = strategy;\n    }\n\n    public void executeStrategy() {\n        strategy.execute();\n    }\n}",
+      "description": "Java strategy pattern implementation.",
+      "scenario": "Java strategy pattern implementation.",
+      "language": "java",
+      "tags": [
+        "strategy",
+        "java",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def decorator_function(original_function):\n    def wrapper_function(*args, **kwargs):\n        print('Wrapper executed this before {}'.format(original_function.__name__))\n        return original_function(*args, **kwargs)\n    return wrapper_function\n\n@decorator_function\ndef display():\n    print('Display function ran')\n\ndisplay()",
+      "description": "Use decorators to add functionality to functions in Python.",
+      "scenario": "Use decorators to add functionality to functions in Python.",
+      "language": "python",
+      "tags": [
+        "decorator",
+        "python",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function decoratorFunction(originalFunction) {\n  return function(...args) {\n    console.log('Wrapper executed before ' + originalFunction.name);\n    return originalFunction(...args);\n  };\n}\n\nfunction display() {\n  console.log('Display function ran');\n}\n\nconst decoratedDisplay = decoratorFunction(display);\ndecoratedDisplay();",
+      "description": "JavaScript decorator pattern example.",
+      "scenario": "JavaScript decorator pattern example.",
+      "language": "javascript",
+      "tags": [
+        "decorator",
+        "javascript",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface Component {\n    void execute();\n}\n\nclass ConcreteComponent implements Component {\n    public void execute() {\n        System.out.println(\"Executing component\");\n    }\n}\n\nclass Decorator implements Component {\n    private Component component;\n\n    public Decorator(Component component) {\n        this.component = component;\n    }\n\n    public void execute() {\n        System.out.println(\"Decorator before\");\n        component.execute();\n        System.out.println(\"Decorator after\");\n    }\n}",
+      "description": "Implement decorator pattern in Java.",
+      "scenario": "Implement decorator pattern in Java.",
+      "language": "java",
+      "tags": [
+        "decorator",
+        "java",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

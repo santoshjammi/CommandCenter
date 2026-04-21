@@ -1,0 +1,165 @@
+{
+  "title": "Watchman Cheat Sheet",
+  "slug": "watchman",
+  "description": "Essential commands and configurations for using Watchman effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "watchman --foreground",
+      "description": "Start the Watchman service",
+      "scenario": "Start the Watchman service",
+      "language": "bash",
+      "tags": [
+        "start",
+        "service",
+        "foreground"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman --version",
+      "description": "Check the Watchman version",
+      "scenario": "Check the Watchman version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman shutdown-server",
+      "description": "Stop the Watchman service",
+      "scenario": "Stop the Watchman service",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "shutdown",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman watch-list",
+      "description": "List all active watches",
+      "scenario": "List all active watches",
+      "language": "bash",
+      "tags": [
+        "list",
+        "watches",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman watch /path/to/directory",
+      "description": "Add a directory to be watched",
+      "scenario": "Add a directory to be watched",
+      "language": "bash",
+      "tags": [
+        "add",
+        "watch",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman watch-del /path/to/directory",
+      "description": "Remove a directory from being watched",
+      "scenario": "Remove a directory from being watched",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "watch",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman -- trigger /path/to/directory trigger-name '*.js' -- echo 'File changed'",
+      "description": "Create a trigger for a watch",
+      "scenario": "Create a trigger for a watch",
+      "language": "bash",
+      "tags": [
+        "trigger",
+        "create",
+        "watch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman trigger-list /path/to/directory",
+      "description": "List all triggers for a watch",
+      "scenario": "List all triggers for a watch",
+      "language": "bash",
+      "tags": [
+        "list",
+        "triggers",
+        "watch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman trigger-del /path/to/directory trigger-name",
+      "description": "Delete a trigger from a watch",
+      "scenario": "Delete a trigger from a watch",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "trigger",
+        "watch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman --no-save-state config --global-set gc.age 3600",
+      "description": "Set a global configuration option",
+      "scenario": "Set a global configuration option",
+      "language": "bash",
+      "tags": [
+        "config",
+        "global",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman config get /path/to/directory gc.age",
+      "description": "Get a configuration option value",
+      "scenario": "Get a configuration option value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchman config --unset /path/to/directory gc.age",
+      "description": "Unset a configuration option",
+      "scenario": "Unset a configuration option",
+      "language": "bash",
+      "tags": [
+        "config",
+        "unset",
+        "option"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

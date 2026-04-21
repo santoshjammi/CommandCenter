@@ -1,0 +1,204 @@
+{
+  "title": "Physics Cheat Sheet",
+  "slug": "physics",
+  "description": "Essential physics formulas and concepts for engineers",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "F = m * a",
+      "description": "Calculate force using mass and acceleration",
+      "scenario": "Calculate force using mass and acceleration",
+      "language": "text",
+      "tags": [
+        "force",
+        "motion",
+        "newton"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "An object at rest stays at rest and an object in motion stays in motion unless acted upon by a net external force.",
+      "description": "State of an object remains constant unless acted upon",
+      "scenario": "State of an object remains constant unless acted upon",
+      "language": "text",
+      "tags": [
+        "inertia",
+        "motion",
+        "newton"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "For every action, there is an equal and opposite reaction.",
+      "description": "Action-reaction law",
+      "scenario": "Action-reaction law",
+      "language": "text",
+      "tags": [
+        "reaction",
+        "motion",
+        "newton"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "W = P * \u0394V",
+      "description": "Calculate work done in thermodynamic process",
+      "scenario": "Calculate work done in thermodynamic process",
+      "language": "text",
+      "tags": [
+        "work",
+        "thermodynamics",
+        "pressure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u0394U = Q - W",
+      "description": "First law of thermodynamics",
+      "scenario": "First law of thermodynamics",
+      "language": "text",
+      "tags": [
+        "energy",
+        "thermodynamics",
+        "law"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03b7 = 1 - (Qc/Qh)",
+      "description": "Efficiency of a heat engine",
+      "scenario": "Efficiency of a heat engine",
+      "language": "text",
+      "tags": [
+        "efficiency",
+        "thermodynamics",
+        "engine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F = k * (q1 * q2) / r^2",
+      "description": "Calculate electric force between two charges",
+      "scenario": "Calculate electric force between two charges",
+      "language": "text",
+      "tags": [
+        "electric",
+        "force",
+        "coulomb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "V = I * R",
+      "description": "Ohm's Law for electrical circuits",
+      "scenario": "Ohm's Law for electrical circuits",
+      "language": "text",
+      "tags": [
+        "voltage",
+        "current",
+        "resistance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F = q * v * B * sin(\u03b8)",
+      "description": "Calculate magnetic force on a moving charge",
+      "scenario": "Calculate magnetic force on a moving charge",
+      "language": "text",
+      "tags": [
+        "magnetic",
+        "force",
+        "charge"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "v = f * \u03bb",
+      "description": "Calculate wave speed",
+      "scenario": "Calculate wave speed",
+      "language": "text",
+      "tags": [
+        "wave",
+        "speed",
+        "frequency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "n1 * sin(\u03b81) = n2 * sin(\u03b82)",
+      "description": "Snell's Law for refraction",
+      "scenario": "Snell's Law for refraction",
+      "language": "text",
+      "tags": [
+        "refraction",
+        "optics",
+        "snell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "E = h * f",
+      "description": "Calculate energy of a photon",
+      "scenario": "Calculate energy of a photon",
+      "language": "text",
+      "tags": [
+        "photon",
+        "energy",
+        "frequency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u0394x * \u0394p \u2265 \u0127 / 2",
+      "description": "Heisenberg's uncertainty principle",
+      "scenario": "Heisenberg's uncertainty principle",
+      "language": "text",
+      "tags": [
+        "uncertainty",
+        "quantum",
+        "heisenberg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "i\u0127 \u2202\u03c8/\u2202t = \u0124\u03c8",
+      "description": "Schr\u00f6dinger's equation for wave function",
+      "scenario": "Schr\u00f6dinger's equation for wave function",
+      "language": "text",
+      "tags": [
+        "schrodinger",
+        "quantum",
+        "wave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bb = h / p",
+      "description": "Calculate de Broglie wavelength",
+      "scenario": "Calculate de Broglie wavelength",
+      "language": "text",
+      "tags": [
+        "wavelength",
+        "quantum",
+        "de broglie"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

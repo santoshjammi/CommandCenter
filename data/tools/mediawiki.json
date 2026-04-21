@@ -1,0 +1,204 @@
+{
+  "title": "MediaWiki Cheat Sheet",
+  "slug": "mediawiki",
+  "description": "Essential commands and snippets for MediaWiki management.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "php maintenance/update.php",
+      "description": "Run the MediaWiki maintenance script",
+      "scenario": "Run the MediaWiki maintenance script",
+      "language": "bash",
+      "tags": [
+        "maintenance",
+        "update",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer install --no-dev",
+      "description": "Install MediaWiki using Composer",
+      "scenario": "Install MediaWiki using Composer",
+      "language": "bash",
+      "tags": [
+        "install",
+        "composer",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php maintenance/runJobs.php",
+      "description": "Run MediaWiki's job queue",
+      "scenario": "Run MediaWiki's job queue",
+      "language": "bash",
+      "tags": [
+        "jobs",
+        "queue",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$wgSitename = \"MyWiki\";",
+      "description": "Set the site name in LocalSettings.php",
+      "scenario": "Set the site name in LocalSettings.php",
+      "language": "php",
+      "tags": [
+        "configuration",
+        "site",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$wgEnableUploads = true;",
+      "description": "Enable uploads in LocalSettings.php",
+      "scenario": "Enable uploads in LocalSettings.php",
+      "language": "php",
+      "tags": [
+        "uploads",
+        "configuration",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$wgDefaultSkin = \"vector\";",
+      "description": "Set the default skin in LocalSettings.php",
+      "scenario": "Set the default skin in LocalSettings.php",
+      "language": "php",
+      "tags": [
+        "skin",
+        "default",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Go to Special:CreatePage and fill out the form",
+      "description": "Create a new MediaWiki page",
+      "scenario": "Create a new MediaWiki page",
+      "language": "text",
+      "tags": [
+        "create",
+        "page",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[Category:CategoryName]]",
+      "description": "Add a category to a page",
+      "scenario": "Add a category to a page",
+      "language": "text",
+      "tags": [
+        "category",
+        "page",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[PageName]]",
+      "description": "Link to another page",
+      "scenario": "Link to another page",
+      "language": "text",
+      "tags": [
+        "link",
+        "page",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{TemplateName}}",
+      "description": "Add a template to a page",
+      "scenario": "Add a template to a page",
+      "language": "text",
+      "tags": [
+        "template",
+        "page",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ref>Reference text</ref>",
+      "description": "Add a reference to a page",
+      "scenario": "Add a reference to a page",
+      "language": "text",
+      "tags": [
+        "reference",
+        "page",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{| class=\"wikitable\"\n|-\n! Header 1\n! Header 2\n|-\n| Row 1, Cell 1\n| Row 1, Cell 2\n|}",
+      "description": "Create a table in a page",
+      "scenario": "Create a table in a page",
+      "language": "text",
+      "tags": [
+        "table",
+        "page",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php maintenance/update.php --dry-run",
+      "description": "Run update.php script in dry-run mode",
+      "scenario": "Run update.php script in dry-run mode",
+      "language": "bash",
+      "tags": [
+        "update",
+        "dry-run",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php maintenance/runJobs.php --type=refreshLinks",
+      "description": "Run jobs with a specific type",
+      "scenario": "Run jobs with a specific type",
+      "language": "bash",
+      "tags": [
+        "jobs",
+        "type",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php maintenance/script.php --verbose",
+      "description": "Enable verbose output for maintenance scripts",
+      "scenario": "Enable verbose output for maintenance scripts",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "output",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Delphi Cheat Sheet",
+  "slug": "delphi",
+  "description": "Essential Delphi syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var MyVar: Integer;",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "procedure MyProcedure;\nbegin\n  // code here\nend;",
+      "description": "Create a simple procedure",
+      "scenario": "Create a simple procedure",
+      "language": "text",
+      "tags": [
+        "procedure",
+        "syntax",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i := 1 to 10 do\nbegin\n  // code here\nend;",
+      "description": "Write a for loop",
+      "scenario": "Write a for loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "iteration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var MyString: String;",
+      "description": "Declare a string variable",
+      "scenario": "Declare a string variable",
+      "language": "text",
+      "tags": [
+        "string",
+        "variable",
+        "datatype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var MyBool: Boolean;",
+      "description": "Declare a boolean variable",
+      "scenario": "Declare a boolean variable",
+      "language": "text",
+      "tags": [
+        "boolean",
+        "variable",
+        "datatype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var MyFloat: Double;",
+      "description": "Declare a floating-point variable",
+      "scenario": "Declare a floating-point variable",
+      "language": "text",
+      "tags": [
+        "float",
+        "variable",
+        "datatype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if condition then\nbegin\n  // code here\nend;",
+      "description": "Use an if statement",
+      "scenario": "Use an if statement",
+      "language": "text",
+      "tags": [
+        "if",
+        "conditional",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case MyVar of\n  1: // code for case 1;\n  2: // code for case 2;\nelse\n  // default code;\nend;",
+      "description": "Use a case statement",
+      "scenario": "Use a case statement",
+      "language": "text",
+      "tags": [
+        "case",
+        "switch",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while condition do\nbegin\n  // code here\nend;",
+      "description": "Use a while loop",
+      "scenario": "Use a while loop",
+      "language": "text",
+      "tags": [
+        "while",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type\n  TMyClass = class\n  private\n    FField: Integer;\n  public\n    procedure MyMethod;\n  end;",
+      "description": "Define a class",
+      "scenario": "Define a class",
+      "language": "text",
+      "tags": [
+        "class",
+        "oop",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var\n  MyObject: TMyClass;\nbegin\n  MyObject := TMyClass.Create;\nend;",
+      "description": "Create an object instance",
+      "scenario": "Create an object instance",
+      "language": "text",
+      "tags": [
+        "object",
+        "instance",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "constructor TMyClass.Create;\nbegin\n  inherited Create;\n  // initialization code\nend;",
+      "description": "Define a constructor",
+      "scenario": "Define a constructor",
+      "language": "text",
+      "tags": [
+        "constructor",
+        "oop",
+        "initialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try\n  // code that might raise an exception\nexcept\n  on E: Exception do\n    // handle exception\nend;",
+      "description": "Use try-except block",
+      "scenario": "Use try-except block",
+      "language": "text",
+      "tags": [
+        "try",
+        "except",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try\n  // code that might raise an exception\nfinally\n  // cleanup code\nend;",
+      "description": "Use try-finally block",
+      "scenario": "Use try-finally block",
+      "language": "text",
+      "tags": [
+        "try",
+        "finally",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "raise Exception.Create('Error message');",
+      "description": "Raise an exception",
+      "scenario": "Raise an exception",
+      "language": "text",
+      "tags": [
+        "raise",
+        "exception",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

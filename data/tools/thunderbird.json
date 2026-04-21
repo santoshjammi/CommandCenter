@@ -1,0 +1,165 @@
+{
+  "title": "Thunderbird Cheat Sheet",
+  "slug": "thunderbird",
+  "description": "Quick reference for Thunderbird CLI commands and config settings.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "thunderbird -safe-mode",
+      "description": "Start Thunderbird in safe mode",
+      "scenario": "Start Thunderbird in safe mode",
+      "language": "bash",
+      "tags": [
+        "safe-mode",
+        "cli",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "thunderbird -P \"ProfileName\"",
+      "description": "Open Thunderbird with a specific profile",
+      "scenario": "Open Thunderbird with a specific profile",
+      "language": "bash",
+      "tags": [
+        "profile",
+        "cli",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "thunderbird -compose \"to='example@example.com',subject='Hello'\"",
+      "description": "Compose a new email from the command line",
+      "scenario": "Compose a new email from the command line",
+      "language": "bash",
+      "tags": [
+        "compose",
+        "email",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "~/.thunderbird/",
+      "description": "Location of Thunderbird profiles",
+      "scenario": "Location of Thunderbird profiles",
+      "language": "text",
+      "tags": [
+        "profiles",
+        "location",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "about:config",
+      "description": "Edit Thunderbird's configuration settings",
+      "scenario": "Edit Thunderbird's configuration settings",
+      "language": "text",
+      "tags": [
+        "config",
+        "settings",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp -r ~/.thunderbird/ ~/thunderbird_backup/",
+      "description": "Backup Thunderbird profile",
+      "scenario": "Backup Thunderbird profile",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "profile",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tools > Message Filters > New > From > Contains",
+      "description": "Filter emails by sender",
+      "scenario": "Filter emails by sender",
+      "language": "text",
+      "tags": [
+        "filter",
+        "email",
+        "sender"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Account Settings > Signature Text",
+      "description": "Set up an email signature",
+      "scenario": "Set up an email signature",
+      "language": "text",
+      "tags": [
+        "signature",
+        "email",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tools > Message Filters > New > Reply with Template",
+      "description": "Enable automatic replies",
+      "scenario": "Enable automatic replies",
+      "language": "text",
+      "tags": [
+        "auto-reply",
+        "email",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + N",
+      "description": "Compose a new message",
+      "scenario": "Compose a new message",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "compose",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + R",
+      "description": "Reply to a message",
+      "scenario": "Reply to a message",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "reply",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + L",
+      "description": "Forward a message",
+      "scenario": "Forward a message",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "forward",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

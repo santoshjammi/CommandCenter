@@ -1,0 +1,204 @@
+{
+  "title": "CSS Cheat Sheet",
+  "slug": "css",
+  "description": "Essential CSS syntax and patterns for web developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "p { color: blue; }",
+      "description": "Select all elements of a specific type",
+      "scenario": "Select all elements of a specific type",
+      "language": "css",
+      "tags": [
+        "selectors",
+        "elements",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".my-class { font-size: 16px; }",
+      "description": "Select elements with a specific class",
+      "scenario": "Select elements with a specific class",
+      "language": "css",
+      "tags": [
+        "selectors",
+        "class",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#my-id { margin: 10px; }",
+      "description": "Select elements with a specific ID",
+      "scenario": "Select elements with a specific ID",
+      "language": "css",
+      "tags": [
+        "selectors",
+        "id",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { padding: 20px; }",
+      "description": "Set padding for an element",
+      "scenario": "Set padding for an element",
+      "language": "css",
+      "tags": [
+        "box model",
+        "padding",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { margin: 15px; }",
+      "description": "Set margin for an element",
+      "scenario": "Set margin for an element",
+      "language": "css",
+      "tags": [
+        "box model",
+        "margin",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { border: 1px solid black; }",
+      "description": "Set border for an element",
+      "scenario": "Set border for an element",
+      "language": "css",
+      "tags": [
+        "box model",
+        "border",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { display: flex; }",
+      "description": "Create a flex container",
+      "scenario": "Create a flex container",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "layout",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { display: flex; align-items: center; }",
+      "description": "Align items in the center",
+      "scenario": "Align items in the center",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "alignment",
+        "center"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { display: flex; justify-content: space-between; }",
+      "description": "Justify content space between",
+      "scenario": "Justify content space between",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "justification",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { display: grid; }",
+      "description": "Create a grid container",
+      "scenario": "Create a grid container",
+      "language": "css",
+      "tags": [
+        "grid",
+        "layout",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { grid-template-columns: 1fr 2fr; grid-template-rows: auto; }",
+      "description": "Define grid columns and rows",
+      "scenario": "Define grid columns and rows",
+      "language": "css",
+      "tags": [
+        "grid",
+        "columns",
+        "rows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { grid-area: header; }",
+      "description": "Place an item in a specific grid area",
+      "scenario": "Place an item in a specific grid area",
+      "language": "css",
+      "tags": [
+        "grid",
+        "placement",
+        "area"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@media (max-width: 600px) { body { background-color: lightblue; } }",
+      "description": "Use media queries for responsive design",
+      "scenario": "Use media queries for responsive design",
+      "language": "css",
+      "tags": [
+        "responsive",
+        "media queries",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div { width: 100%; max-width: 1200px; }",
+      "description": "Set a flexible width for an element",
+      "scenario": "Set a flexible width for an element",
+      "language": "css",
+      "tags": [
+        "responsive",
+        "width",
+        "flexible"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@media (max-width: 600px) { .hide-on-small { display: none; } }",
+      "description": "Hide an element on small screens",
+      "scenario": "Hide an element on small screens",
+      "language": "css",
+      "tags": [
+        "responsive",
+        "visibility",
+        "media queries"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

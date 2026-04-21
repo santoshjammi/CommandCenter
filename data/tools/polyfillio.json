@@ -1,0 +1,165 @@
+{
+  "title": "Polyfill.io Cheat Sheet",
+  "slug": "polyfillio",
+  "description": "Quick reference for using Polyfill.io to support older browsers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js\"></script>",
+      "description": "Include Polyfill.io script in HTML",
+      "scenario": "Include Polyfill.io script in HTML",
+      "language": "html",
+      "tags": [
+        "polyfill",
+        "html",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.includes\"></script>",
+      "description": "Load specific polyfills",
+      "scenario": "Load specific polyfills",
+      "language": "html",
+      "tags": [
+        "polyfill",
+        "features",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js?ua=firefox/50\"></script>",
+      "description": "Load polyfills for a specific browser",
+      "scenario": "Load polyfills for a specific browser",
+      "language": "html",
+      "tags": [
+        "polyfill",
+        "browser",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js?callback=init\"></script>",
+      "description": "Set callback function after polyfills load",
+      "scenario": "Set callback function after polyfills load",
+      "language": "html",
+      "tags": [
+        "callback",
+        "polyfill",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js?flags=gated\"></script>",
+      "description": "Use the `flags` parameter to load polyfills in `gated` mode",
+      "scenario": "Use the `flags` parameter to load polyfills in `gated` mode",
+      "language": "html",
+      "tags": [
+        "flags",
+        "gated",
+        "polyfill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js?flags=always\"></script>",
+      "description": "Load polyfills with `always` flag to force inclusion",
+      "scenario": "Load polyfills with `always` flag to force inclusion",
+      "language": "html",
+      "tags": [
+        "flags",
+        "always",
+        "polyfill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js?features=fetch,Promise\"></script>",
+      "description": "Load multiple features with a single request",
+      "scenario": "Load multiple features with a single request",
+      "language": "html",
+      "tags": [
+        "features",
+        "polyfill",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js?excludes=Symbol.iterator\"></script>",
+      "description": "Exclude a feature from being polyfilled",
+      "scenario": "Exclude a feature from being polyfilled",
+      "language": "html",
+      "tags": [
+        "exclude",
+        "polyfill",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://polyfill.io/v3/polyfill.min.js?minify=true\"></script>",
+      "description": "Minify the response for faster loading",
+      "scenario": "Minify the response for faster loading",
+      "language": "html",
+      "tags": [
+        "minify",
+        "performance",
+        "polyfill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (!('fetch' in window)) { var script = document.createElement('script'); script.src = 'https://polyfill.io/v3/polyfill.min.js?features=fetch'; document.head.appendChild(script); }",
+      "description": "Check if a polyfill is needed before loading",
+      "scenario": "Check if a polyfill is needed before loading",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "polyfill",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (process.env.NODE_ENV === 'development') { require('polyfill.io'); }",
+      "description": "Use polyfills in a development environment only",
+      "scenario": "Use polyfills in a development environment only",
+      "language": "javascript",
+      "tags": [
+        "environment",
+        "development",
+        "polyfill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script async src=\"https://polyfill.io/v3/polyfill.min.js\"></script>",
+      "description": "Load polyfills asynchronously",
+      "scenario": "Load polyfills asynchronously",
+      "language": "html",
+      "tags": [
+        "async",
+        "performance",
+        "polyfill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

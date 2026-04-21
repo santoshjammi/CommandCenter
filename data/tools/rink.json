@@ -1,0 +1,204 @@
+{
+  "title": "Rink CLI Cheat Sheet",
+  "slug": "rink",
+  "description": "Essential commands and syntax for using Rink CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "rink init",
+      "description": "Initialize a new Rink project",
+      "scenario": "Initialize a new Rink project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink start",
+      "description": "Start the Rink server",
+      "scenario": "Start the Rink server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink stop",
+      "description": "Stop the Rink server",
+      "scenario": "Stop the Rink server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink config set <key> <value>",
+      "description": "Set a configuration key-value pair",
+      "scenario": "Set a configuration key-value pair",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "key-value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink config get <key>",
+      "description": "Get the value of a configuration key",
+      "scenario": "Get the value of a configuration key",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink projects list",
+      "description": "List all projects in Rink",
+      "scenario": "List all projects in Rink",
+      "language": "bash",
+      "tags": [
+        "projects",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink projects switch <project-name>",
+      "description": "Switch to a different project",
+      "scenario": "Switch to a different project",
+      "language": "bash",
+      "tags": [
+        "projects",
+        "switch",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink projects remove <project-name>",
+      "description": "Remove a project from Rink",
+      "scenario": "Remove a project from Rink",
+      "language": "bash",
+      "tags": [
+        "projects",
+        "remove",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink users add <username>",
+      "description": "Add a new user to Rink",
+      "scenario": "Add a new user to Rink",
+      "language": "bash",
+      "tags": [
+        "users",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink users remove <username>",
+      "description": "Remove a user from Rink",
+      "scenario": "Remove a user from Rink",
+      "language": "bash",
+      "tags": [
+        "users",
+        "remove",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink users list",
+      "description": "List all users in Rink",
+      "scenario": "List all users in Rink",
+      "language": "bash",
+      "tags": [
+        "users",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink exec <script-name>",
+      "description": "Run a custom script in Rink",
+      "scenario": "Run a custom script in Rink",
+      "language": "bash",
+      "tags": [
+        "exec",
+        "script",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink status",
+      "description": "Check the status of Rink services",
+      "scenario": "Check the status of Rink services",
+      "language": "bash",
+      "tags": [
+        "status",
+        "services",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rink upgrade",
+      "description": "Upgrade Rink to the latest version",
+      "scenario": "Upgrade Rink to the latest version",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "update",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

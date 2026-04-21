@@ -1,0 +1,165 @@
+{
+  "title": "YouTube CLI and API Cheat Sheet",
+  "slug": "youtube",
+  "description": "Essential YouTube CLI and API commands for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "youtube-dl https://www.youtube.com/watch?v=example",
+      "description": "Download a video from YouTube",
+      "scenario": "Download a video from YouTube",
+      "language": "bash",
+      "tags": [
+        "download",
+        "video",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "youtube-dl -x --audio-format mp3 https://www.youtube.com/watch?v=example",
+      "description": "Download audio only from a YouTube video",
+      "scenario": "Download audio only from a YouTube video",
+      "language": "bash",
+      "tags": [
+        "audio",
+        "download",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "youtube-dl -F https://www.youtube.com/watch?v=example",
+      "description": "List available formats for a YouTube video",
+      "scenario": "List available formats for a YouTube video",
+      "language": "bash",
+      "tags": [
+        "formats",
+        "video",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://www.googleapis.com/youtube/v3/videos?id=VIDEO_ID&part=snippet,contentDetails,statistics&key=API_KEY",
+      "description": "Retrieve video details using YouTube Data API",
+      "scenario": "Retrieve video details using YouTube Data API",
+      "language": "bash",
+      "tags": [
+        "api",
+        "video",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://www.googleapis.com/youtube/v3/search?part=snippet&q=QUERY&type=video&key=API_KEY",
+      "description": "Search for videos with a specific query",
+      "scenario": "Search for videos with a specific query",
+      "language": "bash",
+      "tags": [
+        "api",
+        "search",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId=CHANNEL_ID&key=API_KEY",
+      "description": "List all playlists in a channel",
+      "scenario": "List all playlists in a channel",
+      "language": "bash",
+      "tags": [
+        "api",
+        "playlists",
+        "channel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "youtube-dl -i https://www.youtube.com/playlist?list=PLAYLIST_ID",
+      "description": "Download a playlist from YouTube",
+      "scenario": "Download a playlist from YouTube",
+      "language": "bash",
+      "tags": [
+        "playlist",
+        "download",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best' https://www.youtube.com/watch?v=example",
+      "description": "Download videos with a specific format",
+      "scenario": "Download videos with a specific format",
+      "language": "bash",
+      "tags": [
+        "format",
+        "video",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "youtube-dl --limit-rate 50K https://www.youtube.com/watch?v=example",
+      "description": "Limit download speed to 50K",
+      "scenario": "Limit download speed to 50K",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "limit",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Visit https://console.developers.google.com/apis/credentials and create OAuth 2.0 client IDs",
+      "description": "Generate OAuth 2.0 credentials for YouTube API",
+      "scenario": "Generate OAuth 2.0 credentials for YouTube API",
+      "language": "text",
+      "tags": [
+        "oauth",
+        "authentication",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Configure the OAuth consent screen in Google Cloud Console",
+      "description": "Set up OAuth 2.0 consent screen",
+      "scenario": "Set up OAuth 2.0 consent screen",
+      "language": "text",
+      "tags": [
+        "oauth",
+        "consent",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST https://oauth2.googleapis.com/token with client_id, client_secret, code, and redirect_uri",
+      "description": "Exchange authorization code for access token",
+      "scenario": "Exchange authorization code for access token",
+      "language": "bash",
+      "tags": [
+        "oauth",
+        "token",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "SNOBOL Cheat Sheet",
+  "slug": "snobol",
+  "description": "Essential SNOBOL commands and patterns for text processing.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "X = 'Hello, World!'",
+      "description": "Define a simple variable assignment",
+      "scenario": "Define a simple variable assignment",
+      "language": "text",
+      "tags": [
+        "assignment",
+        "variable",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Z = X Y",
+      "description": "Concatenate two strings",
+      "scenario": "Concatenate two strings",
+      "language": "text",
+      "tags": [
+        "concatenation",
+        "strings",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OUTPUT = X",
+      "description": "Print a variable's value",
+      "scenario": "Print a variable's value",
+      "language": "text",
+      "tags": [
+        "output",
+        "print",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X 'Hello' :S(FOUND)",
+      "description": "Match a simple pattern in a string",
+      "scenario": "Match a simple pattern in a string",
+      "language": "text",
+      "tags": [
+        "pattern",
+        "match",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X ('Hello' | 'Hi') :S(FOUND)",
+      "description": "Use alternation in pattern matching",
+      "scenario": "Use alternation in pattern matching",
+      "language": "text",
+      "tags": [
+        "pattern",
+        "alternation",
+        "match"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X 'A' * 3 :S(FOUND)",
+      "description": "Use pattern repetition",
+      "scenario": "Use pattern repetition",
+      "language": "text",
+      "tags": [
+        "pattern",
+        "repetition",
+        "match"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X = 'Hello' :S(FOUND)",
+      "description": "Simple conditional statement",
+      "scenario": "Simple conditional statement",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "control",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LP = X :F(END) OUTPUT = X :(LP) END",
+      "description": "Loop through a string",
+      "scenario": "Loop through a string",
+      "language": "text",
+      "tags": [
+        "loop",
+        "control",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X = 'Hello' :(NEXT) NEXT OUTPUT = X",
+      "description": "Goto statement example",
+      "scenario": "Goto statement example",
+      "language": "text",
+      "tags": [
+        "goto",
+        "control",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DEFINE('FUNC(A)') OUTPUT = A RETURN",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "text",
+      "tags": [
+        "function",
+        "define",
+        "procedure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FUNC('Hello')",
+      "description": "Call a function with an argument",
+      "scenario": "Call a function with an argument",
+      "language": "text",
+      "tags": [
+        "function",
+        "call",
+        "argument"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DEFINE('FUNC(A)') RETURN(A)",
+      "description": "Return a value from a function",
+      "scenario": "Return a value from a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "return",
+        "procedure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X = 'Hello' :F(ERROR)",
+      "description": "Basic error handling with :F",
+      "scenario": "Basic error handling with :F",
+      "language": "text",
+      "tags": [
+        "error",
+        "handling",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X = 'Hello' :F(ERROR) OUTPUT = 'Error occurred'",
+      "description": "Redirect on error",
+      "scenario": "Redirect on error",
+      "language": "text",
+      "tags": [
+        "error",
+        "redirect",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X 'Hello' :S(SUCCESS)",
+      "description": "Use :S for successful match",
+      "scenario": "Use :S for successful match",
+      "language": "text",
+      "tags": [
+        "success",
+        "match",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

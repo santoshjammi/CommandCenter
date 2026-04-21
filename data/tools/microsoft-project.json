@@ -1,0 +1,204 @@
+{
+  "title": "Microsoft Project Cheat Sheet",
+  "slug": "microsoft-project",
+  "description": "Quick reference for Microsoft Project commands and shortcuts.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "File -> Open -> Browse",
+      "description": "Open a project file",
+      "scenario": "Open a project file",
+      "language": "text",
+      "tags": [
+        "open",
+        "file",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File -> Save",
+      "description": "Save the current project",
+      "scenario": "Save the current project",
+      "language": "text",
+      "tags": [
+        "save",
+        "file",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File -> New -> Blank Project",
+      "description": "Create a new project",
+      "scenario": "Create a new project",
+      "language": "text",
+      "tags": [
+        "new",
+        "project",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Task -> Add Task",
+      "description": "Add a new task",
+      "scenario": "Add a new task",
+      "language": "text",
+      "tags": [
+        "task",
+        "add",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select two tasks -> Task -> Link the Selected Tasks",
+      "description": "Link two tasks",
+      "scenario": "Link two tasks",
+      "language": "text",
+      "tags": [
+        "link",
+        "tasks",
+        "dependency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Enter duration in the Duration column",
+      "description": "Set task duration",
+      "scenario": "Set task duration",
+      "language": "text",
+      "tags": [
+        "task",
+        "duration",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Resource -> Add Resource",
+      "description": "Add a new resource",
+      "scenario": "Add a new resource",
+      "language": "text",
+      "tags": [
+        "resource",
+        "add",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select task -> Resource -> Assign Resources",
+      "description": "Assign a resource to a task",
+      "scenario": "Assign a resource to a task",
+      "language": "text",
+      "tags": [
+        "assign",
+        "resource",
+        "task"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View -> Resource Usage",
+      "description": "View resource usage",
+      "scenario": "View resource usage",
+      "language": "text",
+      "tags": [
+        "resource",
+        "usage",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View -> Gantt Chart",
+      "description": "Switch to Gantt Chart view",
+      "scenario": "Switch to Gantt Chart view",
+      "language": "text",
+      "tags": [
+        "view",
+        "gantt",
+        "chart"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View -> Filter -> Apply Filter",
+      "description": "Apply a filter to tasks",
+      "scenario": "Apply a filter to tasks",
+      "language": "text",
+      "tags": [
+        "filter",
+        "tasks",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View -> Timescale -> Select timescale option",
+      "description": "Change timescale",
+      "scenario": "Change timescale",
+      "language": "text",
+      "tags": [
+        "timescale",
+        "view",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + O",
+      "description": "Open a project",
+      "scenario": "Open a project",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "open",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + S",
+      "description": "Save a project",
+      "scenario": "Save a project",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "save",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Z",
+      "description": "Undo last action",
+      "scenario": "Undo last action",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "undo",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

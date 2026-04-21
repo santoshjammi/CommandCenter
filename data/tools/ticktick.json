@@ -1,0 +1,165 @@
+{
+  "title": "TickTick Cheat Sheet",
+  "slug": "ticktick",
+  "description": "Essential shortcuts and commands for TickTick productivity app.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl + N",
+      "description": "Create a new task",
+      "scenario": "Create a new task",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "task",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + D",
+      "description": "Complete a task",
+      "scenario": "Complete a task",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "task",
+        "complete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Delete",
+      "description": "Delete a task",
+      "scenario": "Delete a task",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "task",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task_name !2023-10-15",
+      "description": "Add a new task with a due date",
+      "scenario": "Add a new task with a due date",
+      "language": "text",
+      "tags": [
+        "task",
+        "due date",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task_name !!1",
+      "description": "Set task priority to high",
+      "scenario": "Set task priority to high",
+      "language": "text",
+      "tags": [
+        "task",
+        "priority",
+        "high"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task_name #list_name",
+      "description": "Assign a task to a specific list",
+      "scenario": "Assign a task to a specific list",
+      "language": "text",
+      "tags": [
+        "task",
+        "list",
+        "assign"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "keyword",
+      "description": "Search for tasks containing a keyword",
+      "scenario": "Search for tasks containing a keyword",
+      "language": "text",
+      "tags": [
+        "search",
+        "task",
+        "keyword"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "priority:1",
+      "description": "Filter tasks by priority",
+      "scenario": "Filter tasks by priority",
+      "language": "text",
+      "tags": [
+        "filter",
+        "priority",
+        "task"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "due:today",
+      "description": "Find tasks due today",
+      "scenario": "Find tasks due today",
+      "language": "text",
+      "tags": [
+        "filter",
+        "due",
+        "today"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task_name *every day",
+      "description": "Create a daily recurring task",
+      "scenario": "Create a daily recurring task",
+      "language": "text",
+      "tags": [
+        "recurring",
+        "task",
+        "daily"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task_name *every week",
+      "description": "Create a weekly recurring task",
+      "scenario": "Create a weekly recurring task",
+      "language": "text",
+      "tags": [
+        "recurring",
+        "task",
+        "weekly"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task_name *every month",
+      "description": "Create a monthly recurring task",
+      "scenario": "Create a monthly recurring task",
+      "language": "text",
+      "tags": [
+        "recurring",
+        "task",
+        "monthly"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

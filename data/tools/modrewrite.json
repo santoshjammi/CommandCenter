@@ -1,0 +1,165 @@
+{
+  "title": "mod_rewrite Cheat Sheet",
+  "slug": "modrewrite",
+  "description": "Essential mod_rewrite commands and patterns for URL rewriting.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "RewriteEngine On\nRewriteCond %{HTTP_HOST} !^www\\.\nRewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]",
+      "description": "Redirect from non-www to www",
+      "scenario": "Redirect from non-www to www",
+      "language": "apache",
+      "tags": [
+        "redirect",
+        "www",
+        "non-www"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteCond %{HTTPS} off\nRewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]",
+      "description": "Redirect from HTTP to HTTPS",
+      "scenario": "Redirect from HTTP to HTTPS",
+      "language": "apache",
+      "tags": [
+        "https",
+        "redirect",
+        "secure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteRule ^about$ about.html [L]",
+      "description": "Rewrite URL to a specific file",
+      "scenario": "Rewrite URL to a specific file",
+      "language": "apache",
+      "tags": [
+        "rewrite",
+        "url",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteCond %{QUERY_STRING} ^id=([0-9]+)$\nRewriteRule ^product$ product.php?id=%1 [L]",
+      "description": "Rewrite based on query string",
+      "scenario": "Rewrite based on query string",
+      "language": "apache",
+      "tags": [
+        "query",
+        "conditional",
+        "rewrite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteRule ^images/(.*)$ images/default.png [L]",
+      "description": "Rewrite if file does not exist",
+      "scenario": "Rewrite if file does not exist",
+      "language": "apache",
+      "tags": [
+        "file",
+        "conditional",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule ^blog/(.*)$ blog/index.php?post=$1 [L]",
+      "description": "Rewrite if directory does not exist",
+      "scenario": "Rewrite if directory does not exist",
+      "language": "apache",
+      "tags": [
+        "directory",
+        "conditional",
+        "rewrite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteRule ^foo$ bar [L]",
+      "description": "Use the 'L' flag to stop processing",
+      "scenario": "Use the 'L' flag to stop processing",
+      "language": "apache",
+      "tags": [
+        "flag",
+        "last",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteRule ^old-page$ new-page [R=302,L]",
+      "description": "Use the 'R' flag for a temporary redirect",
+      "scenario": "Use the 'R' flag for a temporary redirect",
+      "language": "apache",
+      "tags": [
+        "redirect",
+        "temporary",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteRule ^page$ PAGE [NC,L]",
+      "description": "Use the 'NC' flag for case-insensitive matching",
+      "scenario": "Use the 'NC' flag for case-insensitive matching",
+      "language": "apache",
+      "tags": [
+        "case-insensitive",
+        "flag",
+        "match"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteCond %{HTTP_HOST} ^example\\.com$\nRewriteCond %{REQUEST_URI} !^/blog\nRewriteRule ^(.*)$ https://example.com/blog/$1 [R=301,L]",
+      "description": "Rewrite with multiple conditions",
+      "scenario": "Rewrite with multiple conditions",
+      "language": "apache",
+      "tags": [
+        "multiple",
+        "conditions",
+        "rewrite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteRule ^user/([0-9]+)$ profile.php?id=$1 [L]",
+      "description": "Rewrite with back-references",
+      "scenario": "Rewrite with back-references",
+      "language": "apache",
+      "tags": [
+        "back-reference",
+        "rewrite",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteCond %{ENV:REDIRECT_STATUS} ^$\nRewriteRule ^secure/(.*)$ https://secure.example.com/$1 [R=301,L]",
+      "description": "Rewrite using environment variables",
+      "scenario": "Rewrite using environment variables",
+      "language": "apache",
+      "tags": [
+        "environment",
+        "variable",
+        "rewrite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

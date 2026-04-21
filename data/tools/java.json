@@ -1,0 +1,204 @@
+{
+  "title": "Java Cheat Sheet",
+  "slug": "java",
+  "description": "Essential Java syntax and commands for software engineers",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "public class MyClass { }",
+      "description": "Declare a class in Java",
+      "scenario": "Declare a class in Java",
+      "language": "java",
+      "tags": [
+        "class",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public static void main(String[] args) { }",
+      "description": "Main method entry point",
+      "scenario": "Main method entry point",
+      "language": "java",
+      "tags": [
+        "main",
+        "method",
+        "entry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "System.out.println(\"Hello, World!\");",
+      "description": "Print to console",
+      "scenario": "Print to console",
+      "language": "java",
+      "tags": [
+        "print",
+        "console",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) { /* code */ } else { /* code */ }",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "java",
+      "tags": [
+        "if",
+        "else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (int i = 0; i < 10; i++) { /* code */ }",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "java",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch (variable) { case 1: /* code */ break; default: /* code */ }",
+      "description": "Switch statement",
+      "scenario": "Switch statement",
+      "language": "java",
+      "tags": [
+        "switch",
+        "case",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ArrayList<String> list = new ArrayList<>();",
+      "description": "Create an ArrayList",
+      "scenario": "Create an ArrayList",
+      "language": "java",
+      "tags": [
+        "arraylist",
+        "collection",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (String item : list) { System.out.println(item); }",
+      "description": "Iterate over a List",
+      "scenario": "Iterate over a List",
+      "language": "java",
+      "tags": [
+        "list",
+        "iteration",
+        "foreach"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "map.put(\"key\", \"value\");",
+      "description": "Add an item to a HashMap",
+      "scenario": "Add an item to a HashMap",
+      "language": "java",
+      "tags": [
+        "hashmap",
+        "put",
+        "map"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { /* code */ } catch (Exception e) { e.printStackTrace(); }",
+      "description": "Try-catch block",
+      "scenario": "Try-catch block",
+      "language": "java",
+      "tags": [
+        "try",
+        "catch",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw new Exception(\"Error message\");",
+      "description": "Throw an exception",
+      "scenario": "Throw an exception",
+      "language": "java",
+      "tags": [
+        "throw",
+        "exception",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "finally { /* code */ }",
+      "description": "Finally block",
+      "scenario": "Finally block",
+      "language": "java",
+      "tags": [
+        "finally",
+        "cleanup",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "BufferedReader reader = new BufferedReader(new FileReader(\"file.txt\"));",
+      "description": "Read a file using BufferedReader",
+      "scenario": "Read a file using BufferedReader",
+      "language": "java",
+      "tags": [
+        "file",
+        "read",
+        "bufferedreader"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FileWriter writer = new FileWriter(\"file.txt\"); writer.write(\"data\"); writer.close();",
+      "description": "Write to a file using FileWriter",
+      "scenario": "Write to a file using FileWriter",
+      "language": "java",
+      "tags": [
+        "file",
+        "write",
+        "filewriter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File file = new File(\"file.txt\"); boolean exists = file.exists();",
+      "description": "Check if a file exists",
+      "scenario": "Check if a file exists",
+      "language": "java",
+      "tags": [
+        "file",
+        "exists",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

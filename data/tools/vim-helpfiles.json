@@ -1,0 +1,165 @@
+{
+  "title": "Vim Helpfiles Cheat Sheet",
+  "slug": "vim-helpfiles",
+  "description": "Quick reference for navigating and using Vim helpfiles efficiently.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": ":help <topic>",
+      "description": "Open Vim help for a specific topic",
+      "scenario": "Open Vim help for a specific topic",
+      "language": "text",
+      "tags": [
+        "vim",
+        "help",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CTRL-]",
+      "description": "Jump to the next help tag",
+      "scenario": "Jump to the next help tag",
+      "language": "text",
+      "tags": [
+        "vim",
+        "navigation",
+        "tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CTRL-T",
+      "description": "Return to the previous location in help",
+      "scenario": "Return to the previous location in help",
+      "language": "text",
+      "tags": [
+        "vim",
+        "navigation",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":helpgrep <keyword>",
+      "description": "Search for a keyword in helpfiles",
+      "scenario": "Search for a keyword in helpfiles",
+      "language": "text",
+      "tags": [
+        "vim",
+        "search",
+        "help"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":cnext",
+      "description": "Navigate to the next search result",
+      "scenario": "Navigate to the next search result",
+      "language": "text",
+      "tags": [
+        "vim",
+        "search",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":cprev",
+      "description": "Navigate to the previous search result",
+      "scenario": "Navigate to the previous search result",
+      "language": "text",
+      "tags": [
+        "vim",
+        "search",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":helpnew <topic>",
+      "description": "Open a new help window",
+      "scenario": "Open a new help window",
+      "language": "text",
+      "tags": [
+        "vim",
+        "help",
+        "window"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":q",
+      "description": "Close the current help window",
+      "scenario": "Close the current help window",
+      "language": "text",
+      "tags": [
+        "vim",
+        "help",
+        "close"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":vert help <topic>",
+      "description": "Open help in a vertical split",
+      "scenario": "Open help in a vertical split",
+      "language": "text",
+      "tags": [
+        "vim",
+        "help",
+        "split"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":helptags",
+      "description": "List all help tags",
+      "scenario": "List all help tags",
+      "language": "text",
+      "tags": [
+        "vim",
+        "help",
+        "tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "K",
+      "description": "Open help for a command under the cursor",
+      "scenario": "Open help for a command under the cursor",
+      "language": "text",
+      "tags": [
+        "vim",
+        "help",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":helptags ALL",
+      "description": "Reload help tags after adding new plugins",
+      "scenario": "Reload help tags after adding new plugins",
+      "language": "text",
+      "tags": [
+        "vim",
+        "help",
+        "plugins"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

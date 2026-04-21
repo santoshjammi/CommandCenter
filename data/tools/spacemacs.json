@@ -1,0 +1,204 @@
+{
+  "title": "Spacemacs Cheat Sheet",
+  "slug": "spacemacs",
+  "description": "Essential commands and configurations for Spacemacs users.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "SPC 0",
+      "description": "Move to the beginning of the line",
+      "scenario": "Move to the beginning of the line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "beginning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC $",
+      "description": "Move to the end of the line",
+      "scenario": "Move to the end of the line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "end"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC : <line-number>",
+      "description": "Jump to a specific line number",
+      "scenario": "Jump to a specific line number",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "jump"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC f f",
+      "description": "Open a file",
+      "scenario": "Open a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC f s",
+      "description": "Save the current buffer",
+      "scenario": "Save the current buffer",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "buffer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC b d",
+      "description": "Close the current buffer",
+      "scenario": "Close the current buffer",
+      "language": "text",
+      "tags": [
+        "file",
+        "close",
+        "buffer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC w s",
+      "description": "Split window horizontally",
+      "scenario": "Split window horizontally",
+      "language": "text",
+      "tags": [
+        "window",
+        "split",
+        "horizontal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC w v",
+      "description": "Split window vertically",
+      "scenario": "Split window vertically",
+      "language": "text",
+      "tags": [
+        "window",
+        "split",
+        "vertical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC w c",
+      "description": "Close the current window",
+      "scenario": "Close the current window",
+      "language": "text",
+      "tags": [
+        "window",
+        "close",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC /",
+      "description": "Search for a string in the project",
+      "scenario": "Search for a string in the project",
+      "language": "text",
+      "tags": [
+        "search",
+        "project",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC s r",
+      "description": "Replace a string in the buffer",
+      "scenario": "Replace a string in the buffer",
+      "language": "text",
+      "tags": [
+        "replace",
+        "buffer",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC s s",
+      "description": "Search for a string in the current buffer",
+      "scenario": "Search for a string in the current buffer",
+      "language": "text",
+      "tags": [
+        "search",
+        "buffer",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC f e d",
+      "description": "Open the Spacemacs configuration file",
+      "scenario": "Open the Spacemacs configuration file",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "customization",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC f e R",
+      "description": "Reload the Spacemacs configuration",
+      "scenario": "Reload the Spacemacs configuration",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "reload",
+        "customization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SPC : package-install <package-name>",
+      "description": "Install a new package",
+      "scenario": "Install a new package",
+      "language": "text",
+      "tags": [
+        "package",
+        "install",
+        "customization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

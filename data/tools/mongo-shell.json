@@ -1,0 +1,204 @@
+{
+  "title": "Mongo Shell Cheat Sheet",
+  "slug": "mongo-shell",
+  "description": "Quick reference for MongoDB shell commands and syntax",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "mongo --host <hostname> --port <port>",
+      "description": "Connect to a MongoDB instance",
+      "scenario": "Connect to a MongoDB instance",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "mongodb",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show dbs",
+      "description": "Show all databases",
+      "scenario": "Show all databases",
+      "language": "javascript",
+      "tags": [
+        "databases",
+        "list",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "use <database_name>",
+      "description": "Switch to a specific database",
+      "scenario": "Switch to a specific database",
+      "language": "javascript",
+      "tags": [
+        "database",
+        "switch",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show collections",
+      "description": "Show all collections in the current database",
+      "scenario": "Show all collections in the current database",
+      "language": "javascript",
+      "tags": [
+        "collections",
+        "list",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.createCollection('<collection_name>')",
+      "description": "Create a new collection",
+      "scenario": "Create a new collection",
+      "language": "javascript",
+      "tags": [
+        "create",
+        "collection",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.drop()",
+      "description": "Drop a collection",
+      "scenario": "Drop a collection",
+      "language": "javascript",
+      "tags": [
+        "drop",
+        "collection",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.insert({ name: 'John', age: 30 })",
+      "description": "Insert a document into a collection",
+      "scenario": "Insert a document into a collection",
+      "language": "javascript",
+      "tags": [
+        "insert",
+        "document",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.find()",
+      "description": "Find all documents in a collection",
+      "scenario": "Find all documents in a collection",
+      "language": "javascript",
+      "tags": [
+        "find",
+        "documents",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.update({ name: 'John' }, { $set: { age: 31 } })",
+      "description": "Update a document in a collection",
+      "scenario": "Update a document in a collection",
+      "language": "javascript",
+      "tags": [
+        "update",
+        "document",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.createIndex({ field_name: 1 })",
+      "description": "Create an index on a field",
+      "scenario": "Create an index on a field",
+      "language": "javascript",
+      "tags": [
+        "index",
+        "create",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.getIndexes()",
+      "description": "List all indexes on a collection",
+      "scenario": "List all indexes on a collection",
+      "language": "javascript",
+      "tags": [
+        "index",
+        "list",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.dropIndex('index_name')",
+      "description": "Drop an index from a collection",
+      "scenario": "Drop an index from a collection",
+      "language": "javascript",
+      "tags": [
+        "index",
+        "drop",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.aggregate([{ $match: { status: 'A' } }])",
+      "description": "Perform a simple aggregation",
+      "scenario": "Perform a simple aggregation",
+      "language": "javascript",
+      "tags": [
+        "aggregation",
+        "match",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.aggregate([{ $group: { _id: '$field_name', total: { $sum: 1 } } }])",
+      "description": "Group documents by a field",
+      "scenario": "Group documents by a field",
+      "language": "javascript",
+      "tags": [
+        "aggregation",
+        "group",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.<collection_name>.aggregate([{ $sort: { age: -1 } }])",
+      "description": "Sort documents in aggregation",
+      "scenario": "Sort documents in aggregation",
+      "language": "javascript",
+      "tags": [
+        "aggregation",
+        "sort",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

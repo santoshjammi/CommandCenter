@@ -1,0 +1,204 @@
+{
+  "title": "Regular Expressions Cheat Sheet",
+  "slug": "regexp",
+  "description": "Quick reference for common RegExp patterns and usage.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": ".",
+      "description": "Match any single character except newline",
+      "scenario": "Match any single character except newline",
+      "language": "text",
+      "tags": [
+        "wildcard",
+        "character",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "^",
+      "description": "Match the start of a string",
+      "scenario": "Match the start of a string",
+      "language": "text",
+      "tags": [
+        "anchor",
+        "start",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$",
+      "description": "Match the end of a string",
+      "scenario": "Match the end of a string",
+      "language": "text",
+      "tags": [
+        "anchor",
+        "end",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\d",
+      "description": "Match any digit",
+      "scenario": "Match any digit",
+      "language": "text",
+      "tags": [
+        "digit",
+        "character class",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\D",
+      "description": "Match any non-digit character",
+      "scenario": "Match any non-digit character",
+      "language": "text",
+      "tags": [
+        "non-digit",
+        "character class",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\s",
+      "description": "Match any whitespace character",
+      "scenario": "Match any whitespace character",
+      "language": "text",
+      "tags": [
+        "whitespace",
+        "character class",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*",
+      "description": "Match zero or more of the preceding element",
+      "scenario": "Match zero or more of the preceding element",
+      "language": "text",
+      "tags": [
+        "quantifier",
+        "zero or more",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+",
+      "description": "Match one or more of the preceding element",
+      "scenario": "Match one or more of the preceding element",
+      "language": "text",
+      "tags": [
+        "quantifier",
+        "one or more",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?",
+      "description": "Match zero or one of the preceding element",
+      "scenario": "Match zero or one of the preceding element",
+      "language": "text",
+      "tags": [
+        "quantifier",
+        "optional",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[abc]",
+      "description": "Match any character in the set",
+      "scenario": "Match any character in the set",
+      "language": "text",
+      "tags": [
+        "set",
+        "group",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[^abc]",
+      "description": "Match any character not in the set",
+      "scenario": "Match any character not in the set",
+      "language": "text",
+      "tags": [
+        "negated set",
+        "group",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[a-z]",
+      "description": "Match any character in the range",
+      "scenario": "Match any character in the range",
+      "language": "text",
+      "tags": [
+        "range",
+        "group",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(?:...)",
+      "description": "Non-capturing group",
+      "scenario": "Non-capturing group",
+      "language": "text",
+      "tags": [
+        "group",
+        "non-capturing",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(?=...)",
+      "description": "Positive lookahead",
+      "scenario": "Positive lookahead",
+      "language": "text",
+      "tags": [
+        "lookahead",
+        "positive",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(?!...)",
+      "description": "Negative lookahead",
+      "scenario": "Negative lookahead",
+      "language": "text",
+      "tags": [
+        "lookahead",
+        "negative",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

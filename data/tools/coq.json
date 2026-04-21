@@ -1,0 +1,204 @@
+{
+  "title": "Coq Cheat Sheet",
+  "slug": "coq",
+  "description": "Essential Coq commands and syntax for theorem proving.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "coqtop",
+      "description": "Start Coq interactive shell",
+      "scenario": "Start Coq interactive shell",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "interactive",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "coqc myfile.v",
+      "description": "Compile a Coq file",
+      "scenario": "Compile a Coq file",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "file",
+        "coq"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "coqc --version",
+      "description": "Check the version of Coq installed",
+      "scenario": "Check the version of Coq installed",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apply H.",
+      "description": "Apply a hypothesis or lemma",
+      "scenario": "Apply a hypothesis or lemma",
+      "language": "text",
+      "tags": [
+        "proof",
+        "tactic",
+        "apply"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "intros.",
+      "description": "Introduce hypotheses into the proof context",
+      "scenario": "Introduce hypotheses into the proof context",
+      "language": "text",
+      "tags": [
+        "proof",
+        "tactic",
+        "intros"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "simpl.",
+      "description": "Simplify the goal",
+      "scenario": "Simplify the goal",
+      "language": "text",
+      "tags": [
+        "proof",
+        "tactic",
+        "simplify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Inductive nat : Type := | O : nat | S : nat -> nat.",
+      "description": "Define a simple inductive type",
+      "scenario": "Define a simple inductive type",
+      "language": "text",
+      "tags": [
+        "inductive",
+        "type",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Fixpoint add (n m : nat) : nat := match n with | O => m | S n' => S (add n' m) end.",
+      "description": "Define a function using pattern matching",
+      "scenario": "Define a function using pattern matching",
+      "language": "text",
+      "tags": [
+        "function",
+        "pattern",
+        "matching"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "destruct n.",
+      "description": "Use the 'destruct' tactic for case analysis",
+      "scenario": "Use the 'destruct' tactic for case analysis",
+      "language": "text",
+      "tags": [
+        "case",
+        "analysis",
+        "destruct"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export EDITOR='vim'",
+      "description": "Set default editor for Coq",
+      "scenario": "Set default editor for Coq",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "editor",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export PATH=\"$PATH:/usr/local/bin/coq\"",
+      "description": "Add Coq to PATH environment variable",
+      "scenario": "Add Coq to PATH environment variable",
+      "language": "bash",
+      "tags": [
+        "path",
+        "environment",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(require 'proof-site)",
+      "description": "Configure Emacs for Coq development",
+      "scenario": "Configure Emacs for Coq development",
+      "language": "text",
+      "tags": [
+        "emacs",
+        "configuration",
+        "coq"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "induction n.",
+      "description": "Use 'induction' for structural induction",
+      "scenario": "Use 'induction' for structural induction",
+      "language": "text",
+      "tags": [
+        "induction",
+        "tactic",
+        "proof"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rewrite <- H.",
+      "description": "Use 'rewrite' to replace equals with equals",
+      "scenario": "Use 'rewrite' to replace equals with equals",
+      "language": "text",
+      "tags": [
+        "rewrite",
+        "tactic",
+        "proof"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unfold my_definition.",
+      "description": "Use 'unfold' to expand definitions",
+      "scenario": "Use 'unfold' to expand definitions",
+      "language": "text",
+      "tags": [
+        "unfold",
+        "definition",
+        "expand"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

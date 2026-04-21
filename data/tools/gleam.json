@@ -1,0 +1,204 @@
+{
+  "title": "Gleam Cheat Sheet",
+  "slug": "gleam",
+  "description": "Quick reference for Gleam language syntax and CLI commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "fn add(x: Int, y: Int) -> Int { x + y }",
+      "description": "Define a new function",
+      "scenario": "Define a new function",
+      "language": "gleam",
+      "tags": [
+        "function",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const pi = 3.14",
+      "description": "Declare a constant",
+      "scenario": "Declare a constant",
+      "language": "gleam",
+      "tags": [
+        "constant",
+        "declaration",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let tuple(a, b) = my_tuple",
+      "description": "Pattern match on a tuple",
+      "scenario": "Pattern match on a tuple",
+      "language": "gleam",
+      "tags": [
+        "pattern",
+        "tuple",
+        "match"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type User { User(name: String, age: Int) }",
+      "description": "Define a custom type",
+      "scenario": "Define a custom type",
+      "language": "gleam",
+      "tags": [
+        "type",
+        "custom",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let numbers = [1, 2, 3, 4]",
+      "description": "Use a list",
+      "scenario": "Use a list",
+      "language": "gleam",
+      "tags": [
+        "list",
+        "collection",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let maybe_value: Option(Int) = Some(5)",
+      "description": "Create an option type",
+      "scenario": "Create an option type",
+      "language": "gleam",
+      "tags": [
+        "option",
+        "type",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 10 { \"Greater\" } else { \"Smaller\" }",
+      "description": "Use an if expression",
+      "scenario": "Use an if expression",
+      "language": "gleam",
+      "tags": [
+        "if",
+        "expression",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case user { User(name, age) -> name }",
+      "description": "Match on a custom type",
+      "scenario": "Match on a custom type",
+      "language": "gleam",
+      "tags": [
+        "match",
+        "custom type",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for number in numbers { io.print(number) }",
+      "description": "Loop over a list",
+      "scenario": "Loop over a list",
+      "language": "gleam",
+      "tags": [
+        "loop",
+        "list",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gleam build",
+      "description": "Compile a Gleam project",
+      "scenario": "Compile a Gleam project",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gleam test",
+      "description": "Run tests in a Gleam project",
+      "scenario": "Run tests in a Gleam project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "cli",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gleam format",
+      "description": "Format Gleam source code",
+      "scenario": "Format Gleam source code",
+      "language": "bash",
+      "tags": [
+        "format",
+        "cli",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import my_module",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "gleam",
+      "tags": [
+        "import",
+        "module",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pub fn my_function() -> String { \"Hello\" }",
+      "description": "Define a module",
+      "scenario": "Define a module",
+      "language": "gleam",
+      "tags": [
+        "module",
+        "define",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_module.my_function()",
+      "description": "Use a function from another module",
+      "scenario": "Use a function from another module",
+      "language": "gleam",
+      "tags": [
+        "module",
+        "function",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

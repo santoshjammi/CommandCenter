@@ -1,0 +1,204 @@
+{
+  "title": "Sybase Cheat Sheet",
+  "slug": "sybase",
+  "description": "Essential Sybase commands and syntax for database management.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "isql -S server_name -U username -P password",
+      "description": "Connect to a Sybase database",
+      "scenario": "Connect to a Sybase database",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "isql",
+        "login"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT name FROM sysdatabases",
+      "description": "List all databases",
+      "scenario": "List all databases",
+      "language": "sql",
+      "tags": [
+        "list",
+        "databases",
+        "sysdatabases"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE DATABASE my_database",
+      "description": "Create a new database",
+      "scenario": "Create a new database",
+      "language": "sql",
+      "tags": [
+        "create",
+        "database",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE my_table (id INT, name VARCHAR(50))",
+      "description": "Create a new table",
+      "scenario": "Create a new table",
+      "language": "sql",
+      "tags": [
+        "create",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALTER TABLE my_table ADD age INT",
+      "description": "Add a column to an existing table",
+      "scenario": "Add a column to an existing table",
+      "language": "sql",
+      "tags": [
+        "alter",
+        "table",
+        "column"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP TABLE my_table",
+      "description": "Delete a table",
+      "scenario": "Delete a table",
+      "language": "sql",
+      "tags": [
+        "drop",
+        "table",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO my_table (id, name) VALUES (1, 'John Doe')",
+      "description": "Insert data into a table",
+      "scenario": "Insert data into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE my_table SET name = 'Jane Doe' WHERE id = 1",
+      "description": "Update data in a table",
+      "scenario": "Update data in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DELETE FROM my_table WHERE id = 1",
+      "description": "Delete data from a table",
+      "scenario": "Delete data from a table",
+      "language": "sql",
+      "tags": [
+        "delete",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sp_addlogin 'new_user', 'password'",
+      "description": "Create a new user",
+      "scenario": "Create a new user",
+      "language": "sql",
+      "tags": [
+        "create",
+        "user",
+        "login"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GRANT SELECT ON my_table TO new_user",
+      "description": "Grant privileges to a user",
+      "scenario": "Grant privileges to a user",
+      "language": "sql",
+      "tags": [
+        "grant",
+        "privileges",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "REVOKE SELECT ON my_table FROM new_user",
+      "description": "Revoke privileges from a user",
+      "scenario": "Revoke privileges from a user",
+      "language": "sql",
+      "tags": [
+        "revoke",
+        "privileges",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DUMP DATABASE my_database TO '/backup/my_database.bak'",
+      "description": "Backup a database",
+      "scenario": "Backup a database",
+      "language": "sql",
+      "tags": [
+        "backup",
+        "dump",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LOAD DATABASE my_database FROM '/backup/my_database.bak'",
+      "description": "Restore a database",
+      "scenario": "Restore a database",
+      "language": "sql",
+      "tags": [
+        "restore",
+        "load",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sp_helpdb my_database",
+      "description": "Check backup history",
+      "scenario": "Check backup history",
+      "language": "sql",
+      "tags": [
+        "backup",
+        "history",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

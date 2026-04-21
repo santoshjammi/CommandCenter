@@ -1,0 +1,204 @@
+{
+  "title": "Raylib Cheat Sheet",
+  "slug": "raylib",
+  "description": "Quick reference for Raylib game development library.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "InitWindow(800, 600, \"Game Window\");",
+      "description": "Initialize the window with a title and dimensions",
+      "scenario": "Initialize the window with a title and dimensions",
+      "language": "c",
+      "tags": [
+        "window",
+        "initialization",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "WindowShouldClose();",
+      "description": "Check if the window should close",
+      "scenario": "Check if the window should close",
+      "language": "c",
+      "tags": [
+        "window",
+        "close",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SetTargetFPS(60);",
+      "description": "Set the target FPS for the game loop",
+      "scenario": "Set the target FPS for the game loop",
+      "language": "c",
+      "tags": [
+        "fps",
+        "performance",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "BeginDrawing();",
+      "description": "Start the drawing process",
+      "scenario": "Start the drawing process",
+      "language": "c",
+      "tags": [
+        "drawing",
+        "rendering",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ClearBackground(RAYWHITE);",
+      "description": "Clear the background with a color",
+      "scenario": "Clear the background with a color",
+      "language": "c",
+      "tags": [
+        "background",
+        "clear",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "EndDrawing();",
+      "description": "End the drawing process",
+      "scenario": "End the drawing process",
+      "language": "c",
+      "tags": [
+        "drawing",
+        "rendering",
+        "end"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IsKeyPressed(KEY_SPACE);",
+      "description": "Check if a key is pressed",
+      "scenario": "Check if a key is pressed",
+      "language": "c",
+      "tags": [
+        "input",
+        "keyboard",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IsKeyDown(KEY_RIGHT);",
+      "description": "Check if a key is down",
+      "scenario": "Check if a key is down",
+      "language": "c",
+      "tags": [
+        "input",
+        "keyboard",
+        "continuous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IsMouseButtonPressed(MOUSE_LEFT_BUTTON);",
+      "description": "Check if a mouse button is pressed",
+      "scenario": "Check if a mouse button is pressed",
+      "language": "c",
+      "tags": [
+        "input",
+        "mouse",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Texture2D texture = LoadTexture(\"resources/texture.png\");",
+      "description": "Load a texture from an image file",
+      "scenario": "Load a texture from an image file",
+      "language": "c",
+      "tags": [
+        "texture",
+        "image",
+        "load"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UnloadTexture(texture);",
+      "description": "Unload a texture from memory",
+      "scenario": "Unload a texture from memory",
+      "language": "c",
+      "tags": [
+        "texture",
+        "memory",
+        "unload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DrawTexture(texture, 100, 100, WHITE);",
+      "description": "Draw a texture at a specific position",
+      "scenario": "Draw a texture at a specific position",
+      "language": "c",
+      "tags": [
+        "texture",
+        "draw",
+        "position"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "InitAudioDevice();",
+      "description": "Initialize the audio device",
+      "scenario": "Initialize the audio device",
+      "language": "c",
+      "tags": [
+        "audio",
+        "initialization",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Sound fx = LoadSound(\"resources/sound.wav\");",
+      "description": "Load a sound from a file",
+      "scenario": "Load a sound from a file",
+      "language": "c",
+      "tags": [
+        "audio",
+        "sound",
+        "load"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PlaySound(fx);",
+      "description": "Play a sound",
+      "scenario": "Play a sound",
+      "language": "c",
+      "tags": [
+        "audio",
+        "sound",
+        "play"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

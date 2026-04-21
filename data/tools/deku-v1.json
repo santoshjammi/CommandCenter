@@ -1,0 +1,165 @@
+{
+  "title": "Deku v1 Cheat Sheet",
+  "slug": "deku-v1",
+  "description": "Essential commands and patterns for Deku v1 CLI and configuration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "deku init my-project",
+      "description": "Initialize a new Deku project",
+      "scenario": "Initialize a new Deku project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku dev",
+      "description": "Start the Deku development server",
+      "scenario": "Start the Deku development server",
+      "language": "bash",
+      "tags": [
+        "dev",
+        "server",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku build",
+      "description": "Build the Deku project for production",
+      "scenario": "Build the Deku project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "base: '/my-base-url/'",
+      "description": "Set the base URL for the project",
+      "scenario": "Set the base URL for the project",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "base",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sourceMaps: true",
+      "description": "Enable source maps for debugging",
+      "scenario": "Enable source maps for debugging",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "debug",
+        "sourcemaps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "outputDir: 'dist'",
+      "description": "Specify the output directory for builds",
+      "scenario": "Specify the output directory for builds",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "output",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku run my-script.js",
+      "description": "Run a custom script with Deku",
+      "scenario": "Run a custom script with Deku",
+      "language": "bash",
+      "tags": [
+        "script",
+        "custom",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku watch",
+      "description": "Watch for file changes and rebuild automatically",
+      "scenario": "Watch for file changes and rebuild automatically",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "rebuild",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deku analyze",
+      "description": "Analyze the bundle size of the project",
+      "scenario": "Analyze the bundle size of the project",
+      "language": "bash",
+      "tags": [
+        "analyze",
+        "bundle",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import MyComponent from './components/MyComponent';",
+      "description": "Import a component in a Deku project",
+      "scenario": "Import a component in a Deku project",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "component",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const MyComponent = () => (<div>Hello World</div>);",
+      "description": "Define a functional component",
+      "scenario": "Define a functional component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "functional",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const [state, setState] = useState(initialState);",
+      "description": "Use a hook to manage state",
+      "scenario": "Use a hook to manage state",
+      "language": "javascript",
+      "tags": [
+        "hook",
+        "state",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

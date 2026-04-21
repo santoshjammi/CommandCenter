@@ -1,0 +1,204 @@
+{
+  "title": "Common Lisp Cheat Sheet",
+  "slug": "common-lisp",
+  "description": "Essential Common Lisp commands and syntax for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(defvar *variable-name* initial-value)",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "lisp",
+      "tags": [
+        "variable",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defconstant +constant-name+ value)",
+      "description": "Define a constant",
+      "scenario": "Define a constant",
+      "language": "lisp",
+      "tags": [
+        "constant",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defun function-name (parameters) (body))",
+      "description": "Create a function",
+      "scenario": "Create a function",
+      "language": "lisp",
+      "tags": [
+        "function",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if condition then-part else-part)",
+      "description": "Conditional if statement",
+      "scenario": "Conditional if statement",
+      "language": "lisp",
+      "tags": [
+        "conditional",
+        "if",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(case keyform (key1 result1) (key2 result2) ...)",
+      "description": "Case statement for multiple conditions",
+      "scenario": "Case statement for multiple conditions",
+      "language": "lisp",
+      "tags": [
+        "case",
+        "conditional",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(do ((var1 init1 step1) (var2 init2 step2) ...) (end-test result) (body))",
+      "description": "Loop with do",
+      "scenario": "Loop with do",
+      "language": "lisp",
+      "tags": [
+        "loop",
+        "do",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(list element1 element2 element3)",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "data",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(car list)",
+      "description": "Access first element of a list",
+      "scenario": "Access first element of a list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "access",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(cdr list)",
+      "description": "Access rest of the list",
+      "scenario": "Access rest of the list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "access",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(handler-case (progn ...) (error-type (var) (handler-body)))",
+      "description": "Handle errors with handler-case",
+      "scenario": "Handle errors with handler-case",
+      "language": "lisp",
+      "tags": [
+        "error",
+        "handling",
+        "handler-case"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(error 'error-type \"Error message\")",
+      "description": "Signal an error",
+      "scenario": "Signal an error",
+      "language": "lisp",
+      "tags": [
+        "error",
+        "signal",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(ignore-errors (progn ...))",
+      "description": "Ignore errors with ignore-errors",
+      "scenario": "Ignore errors with ignore-errors",
+      "language": "lisp",
+      "tags": [
+        "error",
+        "ignore",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defmacro macro-name (parameters) `(body))",
+      "description": "Define a simple macro",
+      "scenario": "Define a simple macro",
+      "language": "lisp",
+      "tags": [
+        "macro",
+        "define",
+        "simple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`(list ,@list)",
+      "description": "Use backquote and comma in macros",
+      "scenario": "Use backquote and comma in macros",
+      "language": "lisp",
+      "tags": [
+        "macro",
+        "backquote",
+        "comma"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defmacro with-gensyms ((&rest symbols) &body body) `(let ,(mapcar (lambda (s) `(,s (gensym))) symbols) ,@body))",
+      "description": "Create a macro with gensym",
+      "scenario": "Create a macro with gensym",
+      "language": "lisp",
+      "tags": [
+        "macro",
+        "gensym",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

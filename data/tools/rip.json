@@ -1,0 +1,165 @@
+{
+  "title": "RIP Routing Protocol Cheat Sheet",
+  "slug": "rip",
+  "description": "Quick reference for RIP routing protocol commands and configurations.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "router rip",
+      "description": "Enable RIP on a router",
+      "scenario": "Enable RIP on a router",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "enable",
+        "router"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "network 192.168.1.0",
+      "description": "Specify a network to advertise with RIP",
+      "scenario": "Specify a network to advertise with RIP",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "network",
+        "advertise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "passive-interface FastEthernet0/0",
+      "description": "Disable RIP on a specific interface",
+      "scenario": "Disable RIP on a specific interface",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "disable",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "version 2",
+      "description": "Set RIP version to 2",
+      "scenario": "Set RIP version to 2",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "version",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "passive-interface GigabitEthernet0/1",
+      "description": "Prevent RIP updates from being sent out an interface",
+      "scenario": "Prevent RIP updates from being sent out an interface",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "passive",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "timers basic 30 180 180 240",
+      "description": "Configure RIP to use a specific update timer",
+      "scenario": "Configure RIP to use a specific update timer",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "timers",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip rip database",
+      "description": "Display RIP routing table",
+      "scenario": "Display RIP routing table",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "show",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show running-config | section rip",
+      "description": "Display RIP configuration",
+      "scenario": "Display RIP configuration",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "configuration",
+        "show"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip protocols",
+      "description": "Check RIP status and statistics",
+      "scenario": "Check RIP status and statistics",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "status",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip rip authentication mode md5",
+      "description": "Enable RIP authentication",
+      "scenario": "Enable RIP authentication",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "authentication",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip summary-address rip 192.168.0.0 255.255.0.0",
+      "description": "Configure RIP route summarization",
+      "scenario": "Configure RIP route summarization",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "summarization",
+        "route"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "distance 120",
+      "description": "Adjust RIP administrative distance",
+      "scenario": "Adjust RIP administrative distance",
+      "language": "bash",
+      "tags": [
+        "rip",
+        "administrative",
+        "distance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

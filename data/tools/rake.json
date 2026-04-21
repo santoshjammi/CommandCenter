@@ -1,0 +1,165 @@
+{
+  "title": "Rake Cheat Sheet",
+  "slug": "rake",
+  "description": "Essential Rake commands and patterns for task automation in Ruby projects.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "rake -T",
+      "description": "List all available Rake tasks",
+      "scenario": "List all available Rake tasks",
+      "language": "bash",
+      "tags": [
+        "list",
+        "tasks",
+        "commands"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rake task_name",
+      "description": "Run a specific Rake task",
+      "scenario": "Run a specific Rake task",
+      "language": "bash",
+      "tags": [
+        "run",
+        "task",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rake --version",
+      "description": "Show Rake version",
+      "scenario": "Show Rake version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task :task_name do\n  puts 'Task executed'\nend",
+      "description": "Define a simple Rake task",
+      "scenario": "Define a simple Rake task",
+      "language": "ruby",
+      "tags": [
+        "task",
+        "define",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task :task_name => [:dependency1, :dependency2] do\n  puts 'Task with dependencies'\nend",
+      "description": "Define a task with dependencies",
+      "scenario": "Define a task with dependencies",
+      "language": "ruby",
+      "tags": [
+        "dependencies",
+        "task",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task :default => :task_name",
+      "description": "Set a default Rake task",
+      "scenario": "Set a default Rake task",
+      "language": "ruby",
+      "tags": [
+        "default",
+        "task",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rake::Task['task_name'].invoke",
+      "description": "Invoke a task from another task",
+      "scenario": "Invoke a task from another task",
+      "language": "ruby",
+      "tags": [
+        "invoke",
+        "task",
+        "nested"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task :task_name do\n  puts ENV['VARIABLE_NAME']\nend",
+      "description": "Access environment variables within a task",
+      "scenario": "Access environment variables within a task",
+      "language": "ruby",
+      "tags": [
+        "environment",
+        "variables",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "namespace :namespace_name do\n  task :task_name do\n    puts 'Namespaced task'\n  end\nend",
+      "description": "Define a namespace for tasks",
+      "scenario": "Define a namespace for tasks",
+      "language": "ruby",
+      "tags": [
+        "namespace",
+        "organize",
+        "tasks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rake parallel:spec",
+      "description": "Run Rake tasks in parallel",
+      "scenario": "Run Rake tasks in parallel",
+      "language": "bash",
+      "tags": [
+        "parallel",
+        "tasks",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rvm use ruby_version do rake task_name",
+      "description": "Use Rake with a specific Ruby version",
+      "scenario": "Use Rake with a specific Ruby version",
+      "language": "bash",
+      "tags": [
+        "ruby",
+        "version",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rake cache:clear",
+      "description": "Clear Rake task cache",
+      "scenario": "Clear Rake task cache",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "clear",
+        "tasks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

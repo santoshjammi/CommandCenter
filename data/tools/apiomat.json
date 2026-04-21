@@ -1,0 +1,204 @@
+{
+  "title": "apiOmat Cheat Sheet",
+  "slug": "apiomat",
+  "description": "Quick reference for using apiOmat with CLI and code snippets.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "apiomat init <project-name>",
+      "description": "Initialize a new apiOmat project",
+      "scenario": "Initialize a new apiOmat project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat deploy",
+      "description": "Deploy the current project to apiOmat",
+      "scenario": "Deploy the current project to apiOmat",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat list modules",
+      "description": "List all available apiOmat modules",
+      "scenario": "List all available apiOmat modules",
+      "language": "bash",
+      "tags": [
+        "modules",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "base_url: https://apiomat.org",
+      "description": "Set the base URL for apiOmat",
+      "scenario": "Set the base URL for apiOmat",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "base_url",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "auth:\n  username: <your-username>\n  password: <your-password>",
+      "description": "Configure authentication settings",
+      "scenario": "Configure authentication settings",
+      "language": "yaml",
+      "tags": [
+        "auth",
+        "config",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug: true",
+      "description": "Enable debug mode in apiOmat",
+      "scenario": "Enable debug mode in apiOmat",
+      "language": "yaml",
+      "tags": [
+        "debug",
+        "config",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat.createUser({ username: 'john_doe', password: 'securePass123' })",
+      "description": "Create a new user in apiOmat",
+      "scenario": "Create a new user in apiOmat",
+      "language": "javascript",
+      "tags": [
+        "user",
+        "create",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat.getModuleData('ModuleName')",
+      "description": "Fetch data from a specific module",
+      "scenario": "Fetch data from a specific module",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "module",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat.updateUser(userId, { email: 'newemail@example.com' })",
+      "description": "Update an existing user's data",
+      "scenario": "Update an existing user's data",
+      "language": "javascript",
+      "tags": [
+        "update",
+        "user",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try {\n  // API call\n} catch (error) {\n  console.error('API Error:', error);\n}",
+      "description": "Pattern for handling API errors",
+      "scenario": "Pattern for handling API errors",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData() {\n  const data = await apiomat.getData();\n  console.log(data);\n}",
+      "description": "Pattern for asynchronous data fetching",
+      "scenario": "Pattern for asynchronous data fetching",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "fetch",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat.authenticate('username', 'password').then(success => {\n  if (success) {\n    console.log('Authenticated');\n  }\n});",
+      "description": "Pattern for user authentication",
+      "scenario": "Pattern for user authentication",
+      "language": "javascript",
+      "tags": [
+        "auth",
+        "pattern",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat <command> --verbose",
+      "description": "Enable verbose output in commands",
+      "scenario": "Enable verbose output in commands",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "flag",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat deploy --env production",
+      "description": "Specify environment for deployment",
+      "scenario": "Specify environment for deployment",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "deploy",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat update --force",
+      "description": "Force update of local modules",
+      "scenario": "Force update of local modules",
+      "language": "bash",
+      "tags": [
+        "update",
+        "force",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

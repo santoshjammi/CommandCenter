@@ -1,0 +1,165 @@
+{
+  "title": "Quip.com Cheat Sheet",
+  "slug": "quipcom",
+  "description": "Essential commands and shortcuts for Quip.com",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "quip-cli create-document --title \"New Document\"",
+      "description": "Create a new document",
+      "scenario": "Create a new document",
+      "language": "bash",
+      "tags": [
+        "create",
+        "document",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli list-documents",
+      "description": "List all documents",
+      "scenario": "List all documents",
+      "language": "bash",
+      "tags": [
+        "list",
+        "documents",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli delete-document --id 123456",
+      "description": "Delete a document by ID",
+      "scenario": "Delete a document by ID",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "document",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli rename-document --id 123456 --title \"Updated Title\"",
+      "description": "Rename a document",
+      "scenario": "Rename a document",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "document",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli share-document --id 123456 --user \"user@example.com\"",
+      "description": "Share a document with a user",
+      "scenario": "Share a document with a user",
+      "language": "bash",
+      "tags": [
+        "share",
+        "document",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli export-document --id 123456 --format pdf",
+      "description": "Export a document to PDF",
+      "scenario": "Export a document to PDF",
+      "language": "bash",
+      "tags": [
+        "export",
+        "document",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli config set default-format markdown",
+      "description": "Set default document format to Markdown",
+      "scenario": "Set default document format to Markdown",
+      "language": "bash",
+      "tags": [
+        "config",
+        "format",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli config set api-token YOUR_API_TOKEN",
+      "description": "Configure API token for authentication",
+      "scenario": "Configure API token for authentication",
+      "language": "bash",
+      "tags": [
+        "config",
+        "api",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli config set verbose true",
+      "description": "Enable verbose logging",
+      "scenario": "Enable verbose logging",
+      "language": "bash",
+      "tags": [
+        "config",
+        "logging",
+        "verbose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for id in $(quip-cli list-documents --format ids); do quip-cli rename-document --id $id --title \"Prefix_$id\"; done",
+      "description": "Batch rename documents with a prefix",
+      "scenario": "Batch rename documents with a prefix",
+      "language": "bash",
+      "tags": [
+        "batch",
+        "rename",
+        "prefix"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli list-documents --older-than 365 --format ids | xargs -I {} quip-cli archive-document --id {}",
+      "description": "Archive old documents",
+      "scenario": "Archive old documents",
+      "language": "bash",
+      "tags": [
+        "archive",
+        "old",
+        "documents"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quip-cli sync-documents --destination ~/local_quip_docs",
+      "description": "Sync documents to local directory",
+      "scenario": "Sync documents to local directory",
+      "language": "bash",
+      "tags": [
+        "sync",
+        "local",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

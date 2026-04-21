@@ -1,0 +1,204 @@
+{
+  "title": "Devhints.io Cheat Sheet",
+  "slug": "devhintsio",
+  "description": "Quick reference for common CLI and code snippets",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone a repository",
+      "scenario": "Clone a repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git status",
+      "description": "Check the status of the repository",
+      "scenario": "Check the status of the repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "status",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Your commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List all running containers",
+      "scenario": "List all running containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "containers",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker build -t myimage:latest .",
+      "description": "Build a Docker image from a Dockerfile",
+      "scenario": "Build a Docker image from a Dockerfile",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "build",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d myimage:latest",
+      "description": "Run a Docker container",
+      "scenario": "Run a Docker container",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "run",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_function(param1, param2):\n    return param1 + param2",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "python",
+      "tags": [
+        "python",
+        "function",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import os",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "python",
+      "tags": [
+        "python",
+        "import",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squares = [x**2 for x in range(10)]",
+      "description": "List comprehension example",
+      "scenario": "List comprehension example",
+      "language": "python",
+      "tags": [
+        "python",
+        "list",
+        "comprehension"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mkdir new_directory",
+      "description": "Create a new directory",
+      "scenario": "Create a new directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "directory",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv source.txt destination/",
+      "description": "Move a file",
+      "scenario": "Move a file",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "move",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'search_term' *.txt",
+      "description": "Search for a string in files",
+      "scenario": "Search for a string in files",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "search",
+        "grep"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "select",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "insert",
+        "row"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "update",
+        "records"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

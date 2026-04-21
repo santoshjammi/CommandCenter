@@ -1,0 +1,165 @@
+{
+  "title": "Drizzle ORM Cheat Sheet",
+  "slug": "drizzle-orm",
+  "description": "Quick reference for Drizzle ORM commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "drizzle init",
+      "description": "Initialize a new Drizzle ORM project",
+      "scenario": "Initialize a new Drizzle ORM project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drizzle migrate",
+      "description": "Run migrations for the database",
+      "scenario": "Run migrations for the database",
+      "language": "bash",
+      "tags": [
+        "migrate",
+        "database",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drizzle generate migration <migration_name>",
+      "description": "Generate a new migration file",
+      "scenario": "Generate a new migration file",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "migration",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = { database: { client: 'pg', connection: { host: 'localhost', user: 'user', password: 'password', database: 'dbname' } } };",
+      "description": "Set up database connection in config file",
+      "scenario": "Set up database connection in config file",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "database",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = { logging: { level: 'info', format: 'json' } };",
+      "description": "Configure logging for Drizzle ORM",
+      "scenario": "Configure logging for Drizzle ORM",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "logging",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DATABASE_URL=postgres://user:password@localhost:5432/dbname",
+      "description": "Set environment variables for Drizzle ORM",
+      "scenario": "Set environment variables for Drizzle ORM",
+      "language": "bash",
+      "tags": [
+        "env",
+        "variables",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.table('users').select('*').execute();",
+      "description": "Select all records from a table",
+      "scenario": "Select all records from a table",
+      "language": "javascript",
+      "tags": [
+        "select",
+        "query",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.table('users').insert({ name: 'John Doe', age: 30 }).execute();",
+      "description": "Insert a new record into a table",
+      "scenario": "Insert a new record into a table",
+      "language": "javascript",
+      "tags": [
+        "insert",
+        "record",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.table('users').where('id', 1).update({ age: 31 }).execute();",
+      "description": "Update records in a table",
+      "scenario": "Update records in a table",
+      "language": "javascript",
+      "tags": [
+        "update",
+        "record",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "await db.transaction(async trx => { await trx.table('users').insert({ name: 'Jane Doe' }); await trx.table('accounts').insert({ userId: 1, balance: 100 }); });",
+      "description": "Use transactions for multiple operations",
+      "scenario": "Use transactions for multiple operations",
+      "language": "javascript",
+      "tags": [
+        "transaction",
+        "pattern",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { await db.table('users').select('*').execute(); } catch (error) { console.error('Query failed', error); }",
+      "description": "Handle errors in queries",
+      "scenario": "Handle errors in queries",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.table('users').select('*').limit(10).offset(20).execute();",
+      "description": "Paginate query results",
+      "scenario": "Paginate query results",
+      "language": "javascript",
+      "tags": [
+        "pagination",
+        "query",
+        "limit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

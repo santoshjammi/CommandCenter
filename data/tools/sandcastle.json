@@ -1,0 +1,165 @@
+{
+  "title": "Sandcastle CLI Cheat Sheet",
+  "slug": "sandcastle",
+  "description": "Essential commands and configurations for Sandcastle CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sandcastle init",
+      "description": "Initialize a new Sandcastle project",
+      "scenario": "Initialize a new Sandcastle project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle build",
+      "description": "Build the Sandcastle project",
+      "scenario": "Build the Sandcastle project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle run",
+      "description": "Run the Sandcastle project",
+      "scenario": "Run the Sandcastle project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle config set projectName MyProject",
+      "description": "Set the project name in configuration",
+      "scenario": "Set the project name in configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle config set logging verbose",
+      "description": "Enable verbose logging",
+      "scenario": "Enable verbose logging",
+      "language": "bash",
+      "tags": [
+        "config",
+        "logging",
+        "verbose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle config set outputDir ./dist",
+      "description": "Specify the output directory for builds",
+      "scenario": "Specify the output directory for builds",
+      "language": "bash",
+      "tags": [
+        "config",
+        "output",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle watch",
+      "description": "Watch for changes and rebuild automatically",
+      "scenario": "Watch for changes and rebuild automatically",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "rebuild",
+        "automate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle clean",
+      "description": "Clean the build artifacts",
+      "scenario": "Clean the build artifacts",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "artifacts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle deploy --server production",
+      "description": "Deploy the project to a server",
+      "scenario": "Deploy the project to a server",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "server",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle --version",
+      "description": "Check the current Sandcastle version",
+      "scenario": "Check the current Sandcastle version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle help",
+      "description": "Get help for Sandcastle commands",
+      "scenario": "Get help for Sandcastle commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sandcastle list",
+      "description": "List all available commands",
+      "scenario": "List all available commands",
+      "language": "bash",
+      "tags": [
+        "list",
+        "commands",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

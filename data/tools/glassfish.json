@@ -1,0 +1,204 @@
+{
+  "title": "GlassFish Cheat Sheet",
+  "slug": "glassfish",
+  "description": "Essential commands and configurations for GlassFish server management.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "asadmin start-domain",
+      "description": "Start the GlassFish server",
+      "scenario": "Start the GlassFish server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin stop-domain",
+      "description": "Stop the GlassFish server",
+      "scenario": "Stop the GlassFish server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "server",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin restart-domain",
+      "description": "Restart the GlassFish server",
+      "scenario": "Restart the GlassFish server",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "server",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin deploy /path/to/application.war",
+      "description": "Deploy an application to the server",
+      "scenario": "Deploy an application to the server",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "application",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin undeploy applicationName",
+      "description": "Undeploy an application from the server",
+      "scenario": "Undeploy an application from the server",
+      "language": "bash",
+      "tags": [
+        "undeploy",
+        "application",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin list-applications",
+      "description": "List all deployed applications",
+      "scenario": "List all deployed applications",
+      "language": "bash",
+      "tags": [
+        "list",
+        "applications",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano $GLASSFISH_HOME/glassfish/domains/domain1/config/domain.xml",
+      "description": "Edit the domain configuration file",
+      "scenario": "Edit the domain configuration file",
+      "language": "bash",
+      "tags": [
+        "edit",
+        "configuration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tail -f $GLASSFISH_HOME/glassfish/domains/domain1/logs/server.log",
+      "description": "View server log file",
+      "scenario": "View server log file",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "server",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp $GLASSFISH_HOME/glassfish/domains/domain1/config/domain.xml /backup/location/",
+      "description": "Backup domain configuration",
+      "scenario": "Backup domain configuration",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "configuration",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin create-file-user --groups Admin newAdminUser",
+      "description": "Create a new admin user",
+      "scenario": "Create a new admin user",
+      "language": "bash",
+      "tags": [
+        "create",
+        "user",
+        "admin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin delete-file-user existingUser",
+      "description": "Delete an existing user",
+      "scenario": "Delete an existing user",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "user",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin list-file-users",
+      "description": "List all users",
+      "scenario": "List all users",
+      "language": "bash",
+      "tags": [
+        "list",
+        "users",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin set server.monitoring-service.module-monitoring-levels.module=HIGH",
+      "description": "Enable monitoring for a specific module",
+      "scenario": "Enable monitoring for a specific module",
+      "language": "bash",
+      "tags": [
+        "monitoring",
+        "module",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin set server.monitoring-service.module-monitoring-levels.module=OFF",
+      "description": "Disable monitoring for a specific module",
+      "scenario": "Disable monitoring for a specific module",
+      "language": "bash",
+      "tags": [
+        "monitoring",
+        "module",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "asadmin get-log-levels",
+      "description": "View detailed server log",
+      "scenario": "View detailed server log",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "server",
+        "glassfish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Firebug Cheat Sheet",
+  "slug": "firebug",
+  "description": "Quick reference for using Firebug effectively in web development.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "F12 or Ctrl + Shift + I",
+      "description": "Open Firebug in the browser",
+      "scenario": "Open Firebug in the browser",
+      "language": "text",
+      "tags": [
+        "firebug",
+        "inspect",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click the 'Inspect' button and hover over elements",
+      "description": "Select an element to inspect",
+      "scenario": "Select an element to inspect",
+      "language": "text",
+      "tags": [
+        "inspect",
+        "element",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Right-click on the element and select 'Edit HTML'",
+      "description": "Edit HTML of an element",
+      "scenario": "Edit HTML of an element",
+      "language": "text",
+      "tags": [
+        "edit",
+        "html",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.log('Hello, World!');",
+      "description": "Log a message to the console",
+      "scenario": "Log a message to the console",
+      "language": "javascript",
+      "tags": [
+        "console",
+        "log",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.clear();",
+      "description": "Clear the console",
+      "scenario": "Clear the console",
+      "language": "javascript",
+      "tags": [
+        "console",
+        "clear",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.time('Timer'); // code to time\nconsole.timeEnd('Timer');",
+      "description": "Time a function execution",
+      "scenario": "Time a function execution",
+      "language": "javascript",
+      "tags": [
+        "console",
+        "time",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the 'Network' tab in Firebug",
+      "description": "View network requests",
+      "scenario": "View network requests",
+      "language": "text",
+      "tags": [
+        "network",
+        "requests",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Use the filter buttons (e.g., XHR, JS, CSS) in the Network tab",
+      "description": "Filter network requests by type",
+      "scenario": "Filter network requests by type",
+      "language": "text",
+      "tags": [
+        "filter",
+        "network",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on a request and view the 'Headers' tab",
+      "description": "Inspect headers of a network request",
+      "scenario": "Inspect headers of a network request",
+      "language": "text",
+      "tags": [
+        "network",
+        "headers",
+        "inspect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select an element and modify its styles in the 'Style' tab",
+      "description": "Edit CSS properties of an element",
+      "scenario": "Edit CSS properties of an element",
+      "language": "text",
+      "tags": [
+        "css",
+        "edit",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Uncheck the checkbox next to the CSS rule in the 'Style' tab",
+      "description": "Disable a CSS rule temporarily",
+      "scenario": "Disable a CSS rule temporarily",
+      "language": "text",
+      "tags": [
+        "css",
+        "disable",
+        "rule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click 'New Rule' in the 'Style' tab and enter your CSS",
+      "description": "Add a new CSS rule",
+      "scenario": "Add a new CSS rule",
+      "language": "text",
+      "tags": [
+        "css",
+        "new",
+        "rule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

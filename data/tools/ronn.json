@@ -1,0 +1,165 @@
+{
+  "title": "Ronn CLI Cheat Sheet",
+  "slug": "ronn",
+  "description": "Quick reference for Ronn CLI commands and syntax.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ronn example.md",
+      "description": "Convert Markdown to man page format",
+      "scenario": "Convert Markdown to man page format",
+      "language": "bash",
+      "tags": [
+        "markdown",
+        "man",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ronn --html example.md",
+      "description": "Generate HTML from Markdown",
+      "scenario": "Generate HTML from Markdown",
+      "language": "bash",
+      "tags": [
+        "html",
+        "markdown",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ronn --help",
+      "description": "Display help information for Ronn",
+      "scenario": "Display help information for Ronn",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ronn --output /path/to/dir example.md",
+      "description": "Specify output directory for generated files",
+      "scenario": "Specify output directory for generated files",
+      "language": "bash",
+      "tags": [
+        "output",
+        "directory",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ronn --section 7 example.md",
+      "description": "Set the manual section number",
+      "scenario": "Set the manual section number",
+      "language": "bash",
+      "tags": [
+        "section",
+        "manual",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ronn --no-man example.md",
+      "description": "Disable the generation of a man page",
+      "scenario": "Disable the generation of a man page",
+      "language": "bash",
+      "tags": [
+        "disable",
+        "man",
+        "generation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "section: 1",
+      "description": "Set default section in Ronn configuration",
+      "scenario": "Set default section in Ronn configuration",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "default",
+        "section"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "html: true",
+      "description": "Enable HTML generation by default",
+      "scenario": "Enable HTML generation by default",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "html",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output: /default/output/path",
+      "description": "Specify default output directory in config",
+      "scenario": "Specify default output directory in config",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "output",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ronn *.md",
+      "description": "Convert multiple Markdown files to man pages",
+      "scenario": "Convert multiple Markdown files to man pages",
+      "language": "bash",
+      "tags": [
+        "multiple",
+        "files",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ronn --html --pipe example.md | open -a 'Google Chrome'",
+      "description": "Preview HTML output in a browser",
+      "scenario": "Preview HTML output in a browser",
+      "language": "bash",
+      "tags": [
+        "preview",
+        "html",
+        "browser"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ronn --man --html example.md",
+      "description": "Generate both man and HTML outputs",
+      "scenario": "Generate both man and HTML outputs",
+      "language": "bash",
+      "tags": [
+        "man",
+        "html",
+        "dual-output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

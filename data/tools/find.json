@@ -1,0 +1,165 @@
+{
+  "title": "Find Command Cheat Sheet",
+  "slug": "find",
+  "description": "Essential find command usage for file searching and manipulation.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "find /path/to/search -name \"filename.txt\"",
+      "description": "Find files by name",
+      "scenario": "Find files by name",
+      "language": "bash",
+      "tags": [
+        "find",
+        "files",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type d -name \"dirname\"",
+      "description": "Find directories by name",
+      "scenario": "Find directories by name",
+      "language": "bash",
+      "tags": [
+        "find",
+        "directories",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f -name \"*.ext\"",
+      "description": "Find files by extension",
+      "scenario": "Find files by extension",
+      "language": "bash",
+      "tags": [
+        "find",
+        "files",
+        "extension"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f -exec ls -l {} \\;",
+      "description": "Find files and execute a command on them",
+      "scenario": "Find files and execute a command on them",
+      "language": "bash",
+      "tags": [
+        "find",
+        "execute",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f -mtime -7",
+      "description": "Find files modified in the last 7 days",
+      "scenario": "Find files modified in the last 7 days",
+      "language": "bash",
+      "tags": [
+        "find",
+        "files",
+        "modified"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f -size +100M",
+      "description": "Find files larger than 100MB",
+      "scenario": "Find files larger than 100MB",
+      "language": "bash",
+      "tags": [
+        "find",
+        "files",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f -perm 644",
+      "description": "Find files with specific permissions",
+      "scenario": "Find files with specific permissions",
+      "language": "bash",
+      "tags": [
+        "find",
+        "permissions",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f -user username",
+      "description": "Find files owned by a specific user",
+      "scenario": "Find files owned by a specific user",
+      "language": "bash",
+      "tags": [
+        "find",
+        "ownership",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f ! -user username",
+      "description": "Find files not owned by a specific user",
+      "scenario": "Find files not owned by a specific user",
+      "language": "bash",
+      "tags": [
+        "find",
+        "ownership",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -name \"*.log\" -size +10M",
+      "description": "Find files with specific name and size",
+      "scenario": "Find files with specific name and size",
+      "language": "bash",
+      "tags": [
+        "find",
+        "files",
+        "conditions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search \\( -name \"*.txt\" -o -name \"*.md\" \\)",
+      "description": "Find files with specific name or extension",
+      "scenario": "Find files with specific name or extension",
+      "language": "bash",
+      "tags": [
+        "find",
+        "files",
+        "conditions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find /path/to/search -type f -mtime -7 -user username",
+      "description": "Find files modified in the last 7 days and owned by a user",
+      "scenario": "Find files modified in the last 7 days and owned by a user",
+      "language": "bash",
+      "tags": [
+        "find",
+        "files",
+        "conditions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "SSL Cheat Sheet",
+  "slug": "ssl",
+  "description": "Essential SSL commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "Security",
+  "commands": [
+    {
+      "command": "openssl genpkey -algorithm RSA -out private.key",
+      "description": "Generate a new private key",
+      "scenario": "Generate a new private key",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "key",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl req -x509 -new -nodes -key private.key -sha256 -days 365 -out certificate.crt",
+      "description": "Create a self-signed certificate",
+      "scenario": "Create a self-signed certificate",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "certificate",
+        "self-signed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl x509 -in certificate.crt -text -noout",
+      "description": "Check the details of a certificate",
+      "scenario": "Check the details of a certificate",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "certificate",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SSLEngine on\nSSLCertificateFile /path/to/certificate.crt\nSSLCertificateKeyFile /path/to/private.key",
+      "description": "Configure SSL in Apache",
+      "scenario": "Configure SSL in Apache",
+      "language": "text",
+      "tags": [
+        "apache",
+        "ssl",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "server {\n    listen 443 ssl;\n    ssl_certificate /path/to/certificate.crt;\n    ssl_certificate_key /path/to/private.key;\n}",
+      "description": "Enable SSL in Nginx",
+      "scenario": "Enable SSL in Nginx",
+      "language": "text",
+      "tags": [
+        "nginx",
+        "ssl",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "server {\n    listen 80;\n    server_name example.com;\n    return 301 https://$server_name$request_uri;\n}",
+      "description": "Force HTTPS in Nginx",
+      "scenario": "Force HTTPS in Nginx",
+      "language": "text",
+      "tags": [
+        "nginx",
+        "https",
+        "redirect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl x509 -inform DER -in certificate.cer -out certificate.pem",
+      "description": "Convert a certificate to PEM format",
+      "scenario": "Convert a certificate to PEM format",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "certificate",
+        "convert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl verify -CAfile ca_bundle.crt certificate.crt",
+      "description": "Verify a certificate chain",
+      "scenario": "Verify a certificate chain",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "certificate",
+        "verify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl rsa -check -in private.key",
+      "description": "Check a private key",
+      "scenario": "Check a private key",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "key",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl x509 -x509toreq -in certificate.crt -out CSR.csr -signkey private.key",
+      "description": "Renew a certificate",
+      "scenario": "Renew a certificate",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "certificate",
+        "renew"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl x509 -pubkey -noout -in certificate.crt > public.key",
+      "description": "Extract public key from a certificate",
+      "scenario": "Extract public key from a certificate",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "public key",
+        "extract"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl req -new -key private.key -out request.csr -config openssl.cnf",
+      "description": "Create a CSR with a configuration file",
+      "scenario": "Create a CSR with a configuration file",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "CSR",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

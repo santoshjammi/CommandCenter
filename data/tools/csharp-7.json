@@ -1,0 +1,204 @@
+{
+  "title": "C# 7 Cheat Sheet",
+  "slug": "csharp-7",
+  "description": "Key features and syntax of C# 7",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "if (obj is string s) { Console.WriteLine($\"String length: {s.Length}\"); }",
+      "description": "Use pattern matching with 'is' keyword",
+      "scenario": "Use pattern matching with 'is' keyword",
+      "language": "csharp",
+      "tags": [
+        "pattern matching",
+        "is keyword",
+        "type check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch (shape) { case Circle c: Console.WriteLine($\"Circle with radius {c.Radius}\"); break; case Rectangle r: Console.WriteLine($\"Rectangle with width {r.Width}\"); break; }",
+      "description": "Switch statement with pattern matching",
+      "scenario": "Switch statement with pattern matching",
+      "language": "csharp",
+      "tags": [
+        "switch",
+        "pattern matching",
+        "shapes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch (shape) { case Circle c when c.Radius > 10: Console.WriteLine(\"Large circle\"); break; }",
+      "description": "Using 'when' clause in switch pattern matching",
+      "scenario": "Using 'when' clause in switch pattern matching",
+      "language": "csharp",
+      "tags": [
+        "when clause",
+        "switch",
+        "pattern matching"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var person = (\"John\", 30); Console.WriteLine(person.Item1); // John",
+      "description": "Create and use a tuple",
+      "scenario": "Create and use a tuple",
+      "language": "csharp",
+      "tags": [
+        "tuples",
+        "declaration",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var (name, age) = person; Console.WriteLine(name); // John",
+      "description": "Deconstruct a tuple into variables",
+      "scenario": "Deconstruct a tuple into variables",
+      "language": "csharp",
+      "tags": [
+        "tuples",
+        "deconstruction",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var person = (Name: \"John\", Age: 30); Console.WriteLine(person.Name); // John",
+      "description": "Named tuple elements",
+      "scenario": "Named tuple elements",
+      "language": "csharp",
+      "tags": [
+        "tuples",
+        "named elements",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void OuterMethod() { int LocalFunction(int x) => x * x; Console.WriteLine(LocalFunction(5)); }",
+      "description": "Define a local function within a method",
+      "scenario": "Define a local function within a method",
+      "language": "csharp",
+      "tags": [
+        "local functions",
+        "methods",
+        "scope"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int Factorial(int n) { return n <= 1 ? 1 : n * Factorial(n - 1); }",
+      "description": "Use local function with recursion",
+      "scenario": "Use local function with recursion",
+      "language": "csharp",
+      "tags": [
+        "local functions",
+        "recursion",
+        "factorial"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void OuterMethod() { int y = 5; int LocalFunction(int x) => x + y; Console.WriteLine(LocalFunction(3)); }",
+      "description": "Local function capturing variables",
+      "scenario": "Local function capturing variables",
+      "language": "csharp",
+      "tags": [
+        "local functions",
+        "capturing",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (int.TryParse(\"123\", out int result)) { Console.WriteLine(result); }",
+      "description": "Declare out variables inline",
+      "scenario": "Declare out variables inline",
+      "language": "csharp",
+      "tags": [
+        "out variables",
+        "inline declaration",
+        "parsing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bool IsValid(string input, out int number) { return int.TryParse(input, out number); }",
+      "description": "Use out variables in method calls",
+      "scenario": "Use out variables in method calls",
+      "language": "csharp",
+      "tags": [
+        "out variables",
+        "method calls",
+        "validation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bool ParseCoordinates(string input, out int x, out int y) { var parts = input.Split(','); return int.TryParse(parts[0], out x) && int.TryParse(parts[1], out y); }",
+      "description": "Multiple out variables in a single method",
+      "scenario": "Multiple out variables in a single method",
+      "language": "csharp",
+      "tags": [
+        "out variables",
+        "multiple",
+        "coordinates"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ref int Find(int[] numbers, int target) { for (int i = 0; i < numbers.Length; i++) { if (numbers[i] == target) return ref numbers[i]; } throw new IndexOutOfRangeException(); }",
+      "description": "Return a reference to a local variable",
+      "scenario": "Return a reference to a local variable",
+      "language": "csharp",
+      "tags": [
+        "ref returns",
+        "local variables",
+        "reference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ref int number = ref Find(numbers, 5); number = 10;",
+      "description": "Modify a value using ref return",
+      "scenario": "Modify a value using ref return",
+      "language": "csharp",
+      "tags": [
+        "ref returns",
+        "modify",
+        "reference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ref int refLocal = ref numbers[0]; refLocal = 42;",
+      "description": "Use ref locals to hold references",
+      "scenario": "Use ref locals to hold references",
+      "language": "csharp",
+      "tags": [
+        "ref locals",
+        "reference",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

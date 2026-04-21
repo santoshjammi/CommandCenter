@@ -1,0 +1,204 @@
+{
+  "title": "AsciiDoc Cheat Sheet",
+  "slug": "asciidoc",
+  "description": "Quick reference for AsciiDoc syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "== Section Title",
+      "description": "Create a section title",
+      "scenario": "Create a section title",
+      "language": "text",
+      "tags": [
+        "section",
+        "title",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "This is a paragraph in AsciiDoc.",
+      "description": "Create a paragraph",
+      "scenario": "Create a paragraph",
+      "language": "text",
+      "tags": [
+        "paragraph",
+        "text",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "* Item 1\n* Item 2\n* Item 3",
+      "description": "Create a bullet list",
+      "scenario": "Create a bullet list",
+      "language": "text",
+      "tags": [
+        "list",
+        "bullet",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*bold text*",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "text",
+      "tags": [
+        "bold",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_italic text_",
+      "description": "Make text italic",
+      "scenario": "Make text italic",
+      "language": "text",
+      "tags": [
+        "italic",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`monospaced text`",
+      "description": "Create a monospaced text",
+      "scenario": "Create a monospaced text",
+      "language": "text",
+      "tags": [
+        "monospace",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "link:https://example.com[Example]",
+      "description": "Create a hyperlink",
+      "scenario": "Create a hyperlink",
+      "language": "text",
+      "tags": [
+        "link",
+        "hyperlink",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "image::path/to/image.png[Alt text]",
+      "description": "Embed an image",
+      "scenario": "Embed an image",
+      "language": "text",
+      "tags": [
+        "image",
+        "embed",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[anchor-id]]",
+      "description": "Create an internal anchor",
+      "scenario": "Create an internal anchor",
+      "language": "text",
+      "tags": [
+        "anchor",
+        "internal",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[source]\n----\ncode goes here\n----",
+      "description": "Create a code block",
+      "scenario": "Create a code block",
+      "language": "text",
+      "tags": [
+        "code",
+        "block",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[source,python]\n----\nprint(\"Hello, World!\")\n----",
+      "description": "Create a code block with language",
+      "scenario": "Create a code block with language",
+      "language": "text",
+      "tags": [
+        "code",
+        "block",
+        "language"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`inline code`",
+      "description": "Inline code",
+      "scenario": "Inline code",
+      "language": "text",
+      "tags": [
+        "inline",
+        "code",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "|===\n|Header 1 |Header 2\n|Cell 1   |Cell 2\n|===",
+      "description": "Create a simple table",
+      "scenario": "Create a simple table",
+      "language": "text",
+      "tags": [
+        "table",
+        "simple",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[cols=\"2,3\"]\n|===\n|Header 1 |Header 2\n|Cell 1   |Cell 2\n|===",
+      "description": "Create a table with alignment",
+      "scenario": "Create a table with alignment",
+      "language": "text",
+      "tags": [
+        "table",
+        "alignment",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[options=\"header\"]\n|===\n|Header 1 |Header 2\n|Cell 1   |Cell 2\n|===",
+      "description": "Create a table with formatting",
+      "scenario": "Create a table with formatting",
+      "language": "text",
+      "tags": [
+        "table",
+        "formatting",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

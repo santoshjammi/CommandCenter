@@ -1,0 +1,165 @@
+{
+  "title": "Hibernate Cheat Sheet",
+  "slug": "hibernate",
+  "description": "Quick reference for Hibernate ORM usage and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "@Entity\n@Table(name = \"table_name\")",
+      "description": "Map a class to a database table",
+      "scenario": "Map a class to a database table",
+      "language": "java",
+      "tags": [
+        "annotations",
+        "entity",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Id\n@GeneratedValue(strategy = GenerationType.IDENTITY)",
+      "description": "Mark a field as the primary key",
+      "scenario": "Mark a field as the primary key",
+      "language": "java",
+      "tags": [
+        "primary key",
+        "id",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Column(name = \"column_name\")",
+      "description": "Map a field to a column in the database",
+      "scenario": "Map a field to a column in the database",
+      "language": "java",
+      "tags": [
+        "column",
+        "field",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<hibernate-configuration>\n  <session-factory>\n    <property name=\"hibernate.dialect\">org.hibernate.dialect.MySQLDialect</property>\n    <property name=\"hibernate.connection.driver_class\">com.mysql.cj.jdbc.Driver</property>\n    <property name=\"hibernate.connection.url\">jdbc:mysql://localhost:3306/dbname</property>\n    <property name=\"hibernate.connection.username\">username</property>\n    <property name=\"hibernate.connection.password\">password</property>\n  </session-factory>\n</hibernate-configuration>",
+      "description": "Basic Hibernate configuration in XML",
+      "scenario": "Basic Hibernate configuration in XML",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "xml",
+        "hibernate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hibernate.dialect=org.hibernate.dialect.MySQLDialect\nhibernate.connection.driver_class=com.mysql.cj.jdbc.Driver\nhibernate.connection.url=jdbc:mysql://localhost:3306/dbname\nhibernate.connection.username=username\nhibernate.connection.password=password",
+      "description": "Set Hibernate properties in a properties file",
+      "scenario": "Set Hibernate properties in a properties file",
+      "language": "text",
+      "tags": [
+        "properties",
+        "configuration",
+        "hibernate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property name=\"hibernate.show_sql\">true</property>",
+      "description": "Enable Hibernate show SQL",
+      "scenario": "Enable Hibernate show SQL",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "sql",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FROM EntityName",
+      "description": "Select all records from a table",
+      "scenario": "Select all records from a table",
+      "language": "text",
+      "tags": [
+        "hql",
+        "query",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FROM EntityName WHERE fieldName = :value",
+      "description": "Select records with a condition",
+      "scenario": "Select records with a condition",
+      "language": "text",
+      "tags": [
+        "hql",
+        "query",
+        "where"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FROM EntityName1 e1 JOIN e1.entityName2 e2",
+      "description": "Join two tables",
+      "scenario": "Join two tables",
+      "language": "text",
+      "tags": [
+        "hql",
+        "query",
+        "join"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Session session = sessionFactory.openSession();",
+      "description": "Open a new Hibernate session",
+      "scenario": "Open a new Hibernate session",
+      "language": "java",
+      "tags": [
+        "session",
+        "open",
+        "hibernate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Transaction tx = session.beginTransaction();",
+      "description": "Begin a transaction",
+      "scenario": "Begin a transaction",
+      "language": "java",
+      "tags": [
+        "transaction",
+        "begin",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tx.commit();",
+      "description": "Commit a transaction",
+      "scenario": "Commit a transaction",
+      "language": "java",
+      "tags": [
+        "transaction",
+        "commit",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

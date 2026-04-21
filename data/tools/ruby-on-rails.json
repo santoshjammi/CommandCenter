@@ -1,0 +1,204 @@
+{
+  "title": "Ruby on Rails Cheat Sheet",
+  "slug": "ruby-on-rails",
+  "description": "Essential commands and patterns for Ruby on Rails development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "rails new myapp",
+      "description": "Create a new Rails application",
+      "scenario": "Create a new Rails application",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "cli",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate model User name:string email:string",
+      "description": "Generate a new model",
+      "scenario": "Generate a new model",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "generate",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails server",
+      "description": "Start the Rails server",
+      "scenario": "Start the Rails server",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "server",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate migration AddAgeToUsers age:integer",
+      "description": "Create a new migration file",
+      "scenario": "Create a new migration file",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "migration",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails db:migrate",
+      "description": "Run pending migrations",
+      "scenario": "Run pending migrations",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "database",
+        "migrate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails db:rollback",
+      "description": "Rollback the last migration",
+      "scenario": "Rollback the last migration",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "database",
+        "rollback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class User < ApplicationRecord\n  has_many :posts\nend",
+      "description": "Define a has_many association in a model",
+      "scenario": "Define a has_many association in a model",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "model",
+        "association"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class User < ApplicationRecord\n  validates :name, presence: true\nend",
+      "description": "Define a validation for presence of an attribute",
+      "scenario": "Define a validation for presence of an attribute",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "validation",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def show\n  render json: @user\nend",
+      "description": "Render JSON in a controller action",
+      "scenario": "Render JSON in a controller action",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "controller",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.time_zone = 'Central Time (US & Canada)'",
+      "description": "Set the default timezone",
+      "scenario": "Set the default timezone",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "configuration",
+        "timezone"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rails.application.routes.default_url_options[:host] = 'example.com'",
+      "description": "Configure the default host for URL generation",
+      "scenario": "Configure the default host for URL generation",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "configuration",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.assets.enabled = true",
+      "description": "Enable the asset pipeline",
+      "scenario": "Enable the asset pipeline",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "configuration",
+        "assets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate rspec:install",
+      "description": "Install RSpec in a Rails application",
+      "scenario": "Install RSpec in a Rails application",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "rspec",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle exec rspec",
+      "description": "Run all RSpec tests",
+      "scenario": "Run all RSpec tests",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "rspec",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate rspec:model User",
+      "description": "Create a new RSpec model test",
+      "scenario": "Create a new RSpec model test",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "rspec",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Vala Cheat Sheet",
+  "slug": "vala",
+  "description": "Essential Vala commands and syntax for software development.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "class MyClass { }",
+      "description": "Define a simple class in Vala",
+      "scenario": "Define a simple class in Vala",
+      "language": "vala",
+      "tags": [
+        "class",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void main() { print(\"Hello, World!\\n\"); }",
+      "description": "Declare a main function",
+      "scenario": "Declare a main function",
+      "language": "vala",
+      "tags": [
+        "main",
+        "function",
+        "hello world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int number = 10;",
+      "description": "Create a variable and assign a value",
+      "scenario": "Create a variable and assign a value",
+      "language": "vala",
+      "tags": [
+        "variable",
+        "assignment",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (x > 0) { print(\"Positive\\n\"); } else { print(\"Non-positive\\n\"); }",
+      "description": "If-else statement example",
+      "scenario": "If-else statement example",
+      "language": "vala",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (int i = 0; i < 10; i++) { print(\"%d\\n\", i); }",
+      "description": "For loop syntax",
+      "scenario": "For loop syntax",
+      "language": "vala",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (condition) { // code }",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "vala",
+      "tags": [
+        "while",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int add(int a, int b) { return a + b; }",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "vala",
+      "tags": [
+        "function",
+        "definition",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int result = add(5, 3);",
+      "description": "Call a function",
+      "scenario": "Call a function",
+      "language": "vala",
+      "tags": [
+        "function",
+        "call",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void greet() { print(\"Hello!\\n\"); }",
+      "description": "Function with no return value",
+      "scenario": "Function with no return value",
+      "language": "vala",
+      "tags": [
+        "function",
+        "void",
+        "greet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Person { string name; public Person(string name) { this.name = name; } }",
+      "description": "Create a class with a constructor",
+      "scenario": "Create a class with a constructor",
+      "language": "vala",
+      "tags": [
+        "class",
+        "constructor",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Employee : Person { int id; public Employee(string name, int id) : base(name) { this.id = id; } }",
+      "description": "Inheritance example",
+      "scenario": "Inheritance example",
+      "language": "vala",
+      "tags": [
+        "inheritance",
+        "oop",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface Printable { void print(); } class Document : Printable { public void print() { print(\"Document\\n\"); } }",
+      "description": "Interface implementation",
+      "scenario": "Interface implementation",
+      "language": "vala",
+      "tags": [
+        "interface",
+        "implementation",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "valac my_program.vala",
+      "description": "Compile a Vala program",
+      "scenario": "Compile a Vala program",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "command line",
+        "valac"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "valac -g my_program.vala",
+      "description": "Compile with debugging information",
+      "scenario": "Compile with debugging information",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "debug",
+        "valac"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "valac file1.vala file2.vala",
+      "description": "Compile multiple Vala files",
+      "scenario": "Compile multiple Vala files",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "multiple files",
+        "valac"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

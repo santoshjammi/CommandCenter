@@ -1,0 +1,165 @@
+{
+  "title": "Weechat Cheat Sheet",
+  "slug": "weechat",
+  "description": "Essential commands and configurations for Weechat IRC client.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "/connect irc.freenode.net",
+      "description": "Connect to a server",
+      "scenario": "Connect to a server",
+      "language": "text",
+      "tags": [
+        "connect",
+        "server",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/join #weechat",
+      "description": "Join a channel",
+      "scenario": "Join a channel",
+      "language": "text",
+      "tags": [
+        "join",
+        "channel",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/msg username Hello!",
+      "description": "Send a private message",
+      "scenario": "Send a private message",
+      "language": "text",
+      "tags": [
+        "message",
+        "private",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/set irc.server_default.nicks \"nickname\"",
+      "description": "Set a default nickname",
+      "scenario": "Set a default nickname",
+      "language": "text",
+      "tags": [
+        "nickname",
+        "config",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/set irc.server.freenode.autoconnect on",
+      "description": "Auto-connect to a server on startup",
+      "scenario": "Auto-connect to a server on startup",
+      "language": "text",
+      "tags": [
+        "autoconnect",
+        "server",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/save",
+      "description": "Save current configuration",
+      "scenario": "Save current configuration",
+      "language": "text",
+      "tags": [
+        "save",
+        "config",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/buffer +1",
+      "description": "Switch to the next buffer",
+      "scenario": "Switch to the next buffer",
+      "language": "text",
+      "tags": [
+        "buffer",
+        "navigation",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/close",
+      "description": "Close the current buffer",
+      "scenario": "Close the current buffer",
+      "language": "text",
+      "tags": [
+        "buffer",
+        "close",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/buffer list",
+      "description": "List all open buffers",
+      "scenario": "List all open buffers",
+      "language": "text",
+      "tags": [
+        "buffer",
+        "list",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/script list",
+      "description": "List all installed scripts",
+      "scenario": "List all installed scripts",
+      "language": "text",
+      "tags": [
+        "script",
+        "list",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/script install script_name.py",
+      "description": "Install a new script",
+      "scenario": "Install a new script",
+      "language": "text",
+      "tags": [
+        "script",
+        "install",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/script remove script_name.py",
+      "description": "Remove an installed script",
+      "scenario": "Remove an installed script",
+      "language": "text",
+      "tags": [
+        "script",
+        "remove",
+        "irc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

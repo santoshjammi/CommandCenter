@@ -1,0 +1,165 @@
+{
+  "title": "InfrontJS Cheat Sheet",
+  "slug": "infrontjs",
+  "description": "Essential CLI commands and code snippets for InfrontJS framework.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "infrontjs create my-project",
+      "description": "Create a new InfrontJS project",
+      "scenario": "Create a new InfrontJS project",
+      "language": "bash",
+      "tags": [
+        "create",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "infrontjs start",
+      "description": "Start the development server",
+      "scenario": "Start the development server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "infrontjs build",
+      "description": "Build the project for production",
+      "scenario": "Build the project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"apiEndpoint\": \"https://api.example.com\"\n}",
+      "description": "Set the API endpoint in config file",
+      "scenario": "Set the API endpoint in config file",
+      "language": "json",
+      "tags": [
+        "config",
+        "api",
+        "endpoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"debug\": true\n}",
+      "description": "Enable debug mode in configuration",
+      "scenario": "Enable debug mode in configuration",
+      "language": "json",
+      "tags": [
+        "config",
+        "debug",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"database\": {\n    \"host\": \"localhost\",\n    \"port\": 5432\n  }\n}",
+      "description": "Configure the database connection",
+      "scenario": "Configure the database connection",
+      "language": "json",
+      "tags": [
+        "config",
+        "database",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { Component } from 'infrontjs';",
+      "description": "Import a component in InfrontJS",
+      "scenario": "Import a component in InfrontJS",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "component",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyComponent extends Component {\n  render() {\n    return <div>Hello World</div>;\n  }\n}",
+      "description": "Define a new component",
+      "scenario": "Define a new component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "define",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.state = { count: 0 };",
+      "description": "Use state in a component",
+      "scenario": "Use state in a component",
+      "language": "javascript",
+      "tags": [
+        "state",
+        "component",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "render() {\n  return this.state.isLoggedIn ? <Dashboard /> : <Login />;\n}",
+      "description": "Conditional rendering in a component",
+      "scenario": "Conditional rendering in a component",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "rendering",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "render() {\n  return this.items.map(item => <Item key={item.id} {...item} />);\n}",
+      "description": "Loop through an array in render method",
+      "scenario": "Loop through an array in render method",
+      "language": "javascript",
+      "tags": [
+        "loop",
+        "array",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "handleSubmit(event) {\n  event.preventDefault();\n  // handle form data\n}",
+      "description": "Handle form submission",
+      "scenario": "Handle form submission",
+      "language": "javascript",
+      "tags": [
+        "form",
+        "submit",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

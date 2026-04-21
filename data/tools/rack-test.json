@@ -1,0 +1,165 @@
+{
+  "title": "Rack-Test Cheat Sheet",
+  "slug": "rack-test",
+  "description": "Quick reference for Rack-Test commands and usage patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "session = Rack::Test::Session.new(app)",
+      "description": "Initialize a new Rack-Test session",
+      "scenario": "Initialize a new Rack-Test session",
+      "language": "ruby",
+      "tags": [
+        "initialize",
+        "session",
+        "rack-test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.get('/path')",
+      "description": "Perform a GET request",
+      "scenario": "Perform a GET request",
+      "language": "ruby",
+      "tags": [
+        "get",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.post('/path', param1: 'value1', param2: 'value2')",
+      "description": "Perform a POST request with parameters",
+      "scenario": "Perform a POST request with parameters",
+      "language": "ruby",
+      "tags": [
+        "post",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.last_response.body",
+      "description": "Access the response body",
+      "scenario": "Access the response body",
+      "language": "ruby",
+      "tags": [
+        "response",
+        "body",
+        "rack-test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.last_response.ok?",
+      "description": "Check if the response status is OK",
+      "scenario": "Check if the response status is OK",
+      "language": "ruby",
+      "tags": [
+        "response",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.last_response.status",
+      "description": "Get the response status code",
+      "scenario": "Get the response status code",
+      "language": "ruby",
+      "tags": [
+        "response",
+        "status",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.set_cookie('name=value')",
+      "description": "Set a cookie in the session",
+      "scenario": "Set a cookie in the session",
+      "language": "ruby",
+      "tags": [
+        "cookie",
+        "session",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.clear_cookies",
+      "description": "Clear all cookies in the session",
+      "scenario": "Clear all cookies in the session",
+      "language": "ruby",
+      "tags": [
+        "cookie",
+        "session",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.cookie_jar['name']",
+      "description": "Access a specific cookie value",
+      "scenario": "Access a specific cookie value",
+      "language": "ruby",
+      "tags": [
+        "cookie",
+        "session",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.put('/path', param1: 'value1')",
+      "description": "Perform a PUT request",
+      "scenario": "Perform a PUT request",
+      "language": "ruby",
+      "tags": [
+        "put",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.delete('/path')",
+      "description": "Perform a DELETE request",
+      "scenario": "Perform a DELETE request",
+      "language": "ruby",
+      "tags": [
+        "delete",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.patch('/path', param1: 'value1')",
+      "description": "Perform a PATCH request",
+      "scenario": "Perform a PATCH request",
+      "language": "ruby",
+      "tags": [
+        "patch",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

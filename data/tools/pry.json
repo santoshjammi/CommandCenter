@@ -1,0 +1,204 @@
+{
+  "title": "Pry Cheat Sheet",
+  "slug": "pry",
+  "description": "Essential commands and configurations for using Pry effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "pry",
+      "description": "Start a Pry session in the current directory",
+      "scenario": "Start a Pry session in the current directory",
+      "language": "bash",
+      "tags": [
+        "pry",
+        "start",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exit",
+      "description": "Exit the current Pry session",
+      "scenario": "Exit the current Pry session",
+      "language": "text",
+      "tags": [
+        "exit",
+        "quit",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "reload-file",
+      "description": "Reload the current file in Pry",
+      "scenario": "Reload the current file in Pry",
+      "language": "text",
+      "tags": [
+        "reload",
+        "file",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "up",
+      "description": "Move up the call stack",
+      "scenario": "Move up the call stack",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "stack",
+        "up"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "down",
+      "description": "Move down the call stack",
+      "scenario": "Move down the call stack",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "stack",
+        "down"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls",
+      "description": "List methods available on an object",
+      "scenario": "List methods available on an object",
+      "language": "text",
+      "tags": [
+        "list",
+        "methods",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Pry.config.editor = 'vim'",
+      "description": "Configure Pry to use a specific editor",
+      "scenario": "Configure Pry to use a specific editor",
+      "language": "ruby",
+      "tags": [
+        "configuration",
+        "editor",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Pry.config.auto_show_doc = true",
+      "description": "Set Pry to automatically show documentation",
+      "scenario": "Set Pry to automatically show documentation",
+      "language": "ruby",
+      "tags": [
+        "configuration",
+        "documentation",
+        "auto"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Pry.config.prompt = Pry::Prompt[:simple]",
+      "description": "Change the color of Pry prompts",
+      "scenario": "Change the color of Pry prompts",
+      "language": "ruby",
+      "tags": [
+        "configuration",
+        "prompt",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "binding.pry",
+      "description": "Set a breakpoint in your code",
+      "scenario": "Set a breakpoint in your code",
+      "language": "ruby",
+      "tags": [
+        "debug",
+        "breakpoint",
+        "binding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "continue",
+      "description": "Continue execution until the next breakpoint",
+      "scenario": "Continue execution until the next breakpoint",
+      "language": "text",
+      "tags": [
+        "debug",
+        "continue",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "step",
+      "description": "Step into the next line of code",
+      "scenario": "Step into the next line of code",
+      "language": "text",
+      "tags": [
+        "debug",
+        "step",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Pry::Commands.create_command 'greet' do\ndef process\noutput.puts 'Hello!'\nend\nend",
+      "description": "Create a custom Pry command",
+      "scenario": "Create a custom Pry command",
+      "language": "ruby",
+      "tags": [
+        "custom",
+        "command",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Pry.plugins['pry-doc'].activate!",
+      "description": "Load a plugin in Pry",
+      "scenario": "Load a plugin in Pry",
+      "language": "ruby",
+      "tags": [
+        "plugin",
+        "load",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`ls -la`",
+      "description": "Run a shell command from Pry",
+      "scenario": "Run a shell command from Pry",
+      "language": "ruby",
+      "tags": [
+        "shell",
+        "command",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

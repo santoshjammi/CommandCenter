@@ -1,0 +1,204 @@
+{
+  "title": "Bash Cheat Sheet",
+  "slug": "bash",
+  "description": "Essential Bash commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -al",
+      "description": "List files and directories",
+      "scenario": "List files and directories",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /path/to/directory",
+      "description": "Change directory",
+      "scenario": "Change directory",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copy files",
+      "scenario": "Copy files",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "files",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cat filename.txt",
+      "description": "Display file content",
+      "scenario": "Display file content",
+      "language": "bash",
+      "tags": [
+        "display",
+        "file",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'pattern' filename.txt",
+      "description": "Search for a pattern in a file",
+      "scenario": "Search for a pattern in a file",
+      "language": "bash",
+      "tags": [
+        "search",
+        "pattern",
+        "grep"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wc filename.txt",
+      "description": "Count lines, words, and characters in a file",
+      "scenario": "Count lines, words, and characters in a file",
+      "language": "bash",
+      "tags": [
+        "count",
+        "lines",
+        "words"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux",
+      "description": "List running processes",
+      "scenario": "List running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "running"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill 1234",
+      "description": "Kill a process by ID",
+      "scenario": "Kill a process by ID",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Show real-time system processes",
+      "scenario": "Show real-time system processes",
+      "language": "bash",
+      "tags": [
+        "system",
+        "processes",
+        "real-time"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display network configuration",
+      "scenario": "Display network configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "configuration",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping example.com",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "host",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wget http://example.com/file.txt",
+      "description": "Download files from the web",
+      "scenario": "Download files from the web",
+      "language": "bash",
+      "tags": [
+        "download",
+        "files",
+        "web"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VARIABLE_NAME=value",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "bash",
+      "tags": [
+        "variable",
+        "define",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in {1..5}; do echo $i; done",
+      "description": "Create a simple for loop",
+      "scenario": "Create a simple for loop",
+      "language": "bash",
+      "tags": [
+        "loop",
+        "for",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if [ -f /path/to/file ]; then echo \"File exists\"; fi",
+      "description": "Check if a file exists",
+      "scenario": "Check if a file exists",
+      "language": "bash",
+      "tags": [
+        "file",
+        "exists",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

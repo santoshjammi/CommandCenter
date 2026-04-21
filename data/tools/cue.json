@@ -1,0 +1,165 @@
+{
+  "title": "CUE Cheat Sheet",
+  "slug": "cue",
+  "description": "Quick reference for CUE CLI commands and syntax.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "cue eval config.cue",
+      "description": "Evaluate and print configuration files",
+      "scenario": "Evaluate and print configuration files",
+      "language": "bash",
+      "tags": [
+        "eval",
+        "cli",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cue fmt config.cue",
+      "description": "Format CUE files",
+      "scenario": "Format CUE files",
+      "language": "bash",
+      "tags": [
+        "format",
+        "cli",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cue vet config.cue schema.cue",
+      "description": "Validate CUE files against schema",
+      "scenario": "Validate CUE files against schema",
+      "language": "bash",
+      "tags": [
+        "validate",
+        "schema",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "field: string",
+      "description": "Define a simple string field",
+      "scenario": "Define a simple string field",
+      "language": "text",
+      "tags": [
+        "syntax",
+        "string",
+        "field"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "numbers: [...int]",
+      "description": "Define a list of integers",
+      "scenario": "Define a list of integers",
+      "language": "text",
+      "tags": [
+        "list",
+        "integers",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "person: { name: string, age: int }",
+      "description": "Create a struct with nested fields",
+      "scenario": "Create a struct with nested fields",
+      "language": "text",
+      "tags": [
+        "struct",
+        "nested",
+        "fields"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cue export config.cue -o config.json",
+      "description": "Export CUE configuration to JSON",
+      "scenario": "Export CUE configuration to JSON",
+      "language": "bash",
+      "tags": [
+        "export",
+        "json",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cue merge file1.cue file2.cue",
+      "description": "Merge multiple CUE files",
+      "scenario": "Merge multiple CUE files",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "files",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cue run template.cue -t param=value",
+      "description": "Run a CUE template with parameters",
+      "scenario": "Run a CUE template with parameters",
+      "language": "bash",
+      "tags": [
+        "run",
+        "template",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "field: int if condition",
+      "description": "Conditional field definition",
+      "scenario": "Conditional field definition",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "field",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "field: int | *42",
+      "description": "Define default values for fields",
+      "scenario": "Define default values for fields",
+      "language": "text",
+      "tags": [
+        "default",
+        "values",
+        "fields"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "field: otherField + 1",
+      "description": "Use references to other fields",
+      "scenario": "Use references to other fields",
+      "language": "text",
+      "tags": [
+        "references",
+        "fields",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

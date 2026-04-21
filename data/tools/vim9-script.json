@@ -1,0 +1,204 @@
+{
+  "title": "Vim9 Script Cheat Sheet",
+  "slug": "vim9-script",
+  "description": "Quick reference for Vim9 script syntax and commands.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "def MyFunction()\n  echo 'Hello, Vim9!'\nenddef",
+      "description": "Define a simple function in Vim9 script",
+      "scenario": "Define a simple function in Vim9 script",
+      "language": "vim",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var myNumber: number = 42",
+      "description": "Declare a variable with a type",
+      "scenario": "Declare a variable with a type",
+      "language": "vim",
+      "tags": [
+        "variable",
+        "declaration",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for item in ['a', 'b', 'c']\n  echo item\nendfor",
+      "description": "Use a for loop to iterate over a list",
+      "scenario": "Use a for loop to iterate over a list",
+      "language": "vim",
+      "tags": [
+        "loop",
+        "iteration",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if condition\n  echo 'Condition is true'\nelse\n  echo 'Condition is false'\nendif",
+      "description": "If-else statement in Vim9 script",
+      "scenario": "If-else statement in Vim9 script",
+      "language": "vim",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var count = 0\nwhile count < 5\n  echo count\n  count += 1\nendwhile",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "vim",
+      "tags": [
+        "loop",
+        "while",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try\n  call SomeFunction()\ncatch\n  echo 'An error occurred'\nendtry",
+      "description": "Try-catch block for error handling",
+      "scenario": "Try-catch block for error handling",
+      "language": "vim",
+      "tags": [
+        "error",
+        "handling",
+        "try-catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def AddNumbers(a: number, b: number): number\n  return a + b\nenddef",
+      "description": "Define a function with parameters",
+      "scenario": "Define a function with parameters",
+      "language": "vim",
+      "tags": [
+        "function",
+        "parameters",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var result = AddNumbers(3, 4)\necho result",
+      "description": "Call a function with arguments",
+      "scenario": "Call a function with arguments",
+      "language": "vim",
+      "tags": [
+        "function",
+        "call",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyClass\n  def MyMethod()\n    echo 'Method in class'\n  enddef\nendclass",
+      "description": "Define a method within a class",
+      "scenario": "Define a method within a class",
+      "language": "vim",
+      "tags": [
+        "class",
+        "method",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var myList: list<number> = [1, 2, 3]\necho myList[0]",
+      "description": "Define a list and access elements",
+      "scenario": "Define a list and access elements",
+      "language": "vim",
+      "tags": [
+        "list",
+        "data",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var myDict: dict<string, number> = {'one': 1, 'two': 2}\necho myDict['one']",
+      "description": "Define a dictionary and access values",
+      "scenario": "Define a dictionary and access values",
+      "language": "vim",
+      "tags": [
+        "dictionary",
+        "data",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var mySet: set<number> = {1, 2, 3}\necho mySet.has(2)",
+      "description": "Use a set for unique elements",
+      "scenario": "Use a set for unique elements",
+      "language": "vim",
+      "tags": [
+        "set",
+        "unique",
+        "elements"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for line in readfile('example.txt')\n  echo line\nendfor",
+      "description": "Read a file line by line",
+      "scenario": "Read a file line by line",
+      "language": "vim",
+      "tags": [
+        "file",
+        "read",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "writefile(['line1', 'line2'], 'output.txt')",
+      "description": "Write a list to a file",
+      "scenario": "Write a list to a file",
+      "language": "vim",
+      "tags": [
+        "file",
+        "write",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "writefile(['new line'], 'output.txt', 'a')",
+      "description": "Append to a file",
+      "scenario": "Append to a file",
+      "language": "vim",
+      "tags": [
+        "file",
+        "append",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

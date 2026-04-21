@@ -1,0 +1,165 @@
+{
+  "title": "Parsimmon Cheat Sheet",
+  "slug": "parsimmon",
+  "description": "Quick reference for Parsimmon, a library for writing parsers in JavaScript.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "Parsimmon.string('hello')",
+      "description": "Create a parser that matches a specific string",
+      "scenario": "Create a parser that matches a specific string",
+      "language": "javascript",
+      "tags": [
+        "parser",
+        "string",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.any",
+      "description": "Create a parser that matches any single character",
+      "scenario": "Create a parser that matches any single character",
+      "language": "javascript",
+      "tags": [
+        "parser",
+        "character",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.regex(/[a-z]+/)",
+      "description": "Create a parser that matches a regex pattern",
+      "scenario": "Create a parser that matches a regex pattern",
+      "language": "javascript",
+      "tags": [
+        "parser",
+        "regex",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.seq(Parsimmon.string('a'), Parsimmon.string('b'))",
+      "description": "Combine two parsers sequentially",
+      "scenario": "Combine two parsers sequentially",
+      "language": "javascript",
+      "tags": [
+        "combinator",
+        "sequence",
+        "parsers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.string('hello').or(Parsimmon.of(null))",
+      "description": "Create an optional parser",
+      "scenario": "Create an optional parser",
+      "language": "javascript",
+      "tags": [
+        "combinator",
+        "optional",
+        "parsers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.string('a').many()",
+      "description": "Repeat a parser zero or more times",
+      "scenario": "Repeat a parser zero or more times",
+      "language": "javascript",
+      "tags": [
+        "combinator",
+        "repeat",
+        "parsers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.digit",
+      "description": "Create a parser that matches a digit",
+      "scenario": "Create a parser that matches a digit",
+      "language": "javascript",
+      "tags": [
+        "parser",
+        "digit",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.whitespace",
+      "description": "Create a parser that matches whitespace",
+      "scenario": "Create a parser that matches whitespace",
+      "language": "javascript",
+      "tags": [
+        "parser",
+        "whitespace",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.letter",
+      "description": "Create a parser that matches a letter",
+      "scenario": "Create a parser that matches a letter",
+      "language": "javascript",
+      "tags": [
+        "parser",
+        "letter",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.string('hello').desc('Expected the word hello')",
+      "description": "Attach a custom error message to a parser",
+      "scenario": "Attach a custom error message to a parser",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "parsers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parsimmon.string('hello').fallback('default')",
+      "description": "Chain a parser with an error handler",
+      "scenario": "Chain a parser with an error handler",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "fallback",
+        "parsers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "parser.tryParse('input')",
+      "description": "Use tryParse to handle errors gracefully",
+      "scenario": "Use tryParse to handle errors gracefully",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "tryParse",
+        "parsers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

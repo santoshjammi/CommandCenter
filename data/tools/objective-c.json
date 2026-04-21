@@ -1,0 +1,204 @@
+{
+  "title": "Objective-C Cheat Sheet",
+  "slug": "objective-c",
+  "description": "Quick reference for Objective-C syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "@interface MyClass : NSObject\n@property (nonatomic, strong) NSString *name;\n@end",
+      "description": "Declare a new class interface",
+      "scenario": "Declare a new class interface",
+      "language": "objective-c",
+      "tags": [
+        "class",
+        "interface",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@implementation MyClass\n- (void)printName {\n    NSLog(@\"Name: %@\", self.name);\n}\n@end",
+      "description": "Implement a class method",
+      "scenario": "Implement a class method",
+      "language": "objective-c",
+      "tags": [
+        "method",
+        "implementation",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MyClass *myObject = [[MyClass alloc] init];\nmyObject.name = @\"Objective-C\";",
+      "description": "Create an instance of a class",
+      "scenario": "Create an instance of a class",
+      "language": "objective-c",
+      "tags": [
+        "instance",
+        "object",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[myObject retain];\n[myObject release];",
+      "description": "Manual memory management with retain and release",
+      "scenario": "Manual memory management with retain and release",
+      "language": "objective-c",
+      "tags": [
+        "memory",
+        "retain",
+        "release"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@autoreleasepool {\n    MyClass *tempObject = [[MyClass alloc] init];\n    // Use tempObject\n}",
+      "description": "Use autorelease pool for temporary objects",
+      "scenario": "Use autorelease pool for temporary objects",
+      "language": "objective-c",
+      "tags": [
+        "autorelease",
+        "memory",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// No manual retain/release needed with ARC enabled",
+      "description": "Enable Automatic Reference Counting (ARC)",
+      "scenario": "Enable Automatic Reference Counting (ARC)",
+      "language": "text",
+      "tags": [
+        "arc",
+        "memory",
+        "automatic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) {\n    // Code if true\n} else {\n    // Code if false\n}",
+      "description": "Conditional statement using if-else",
+      "scenario": "Conditional statement using if-else",
+      "language": "objective-c",
+      "tags": [
+        "if",
+        "else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch (variable) {\n    case 1:\n        // Code for case 1\n        break;\n    default:\n        // Default code\n        break;\n}",
+      "description": "Switch statement for multiple conditions",
+      "scenario": "Switch statement for multiple conditions",
+      "language": "objective-c",
+      "tags": [
+        "switch",
+        "case",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (int i = 0; i < 10; i++) {\n    NSLog(@\"%d\", i);\n}",
+      "description": "For loop iteration",
+      "scenario": "For loop iteration",
+      "language": "objective-c",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NSArray *array = @[@\"One\", @\"Two\", @\"Three\"];\nNSString *firstElement = array[0];",
+      "description": "Create and use an NSArray",
+      "scenario": "Create and use an NSArray",
+      "language": "objective-c",
+      "tags": [
+        "array",
+        "nsarray",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NSDictionary *dict = @{ @\"key1\": @\"value1\", @\"key2\": @\"value2\" };\nNSString *value = dict[@\"key1\"];",
+      "description": "Create and use an NSDictionary",
+      "scenario": "Create and use an NSDictionary",
+      "language": "objective-c",
+      "tags": [
+        "dictionary",
+        "nsdictionary",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NSMutableArray *mutableArray = [NSMutableArray array];\n[mutableArray addObject:@\"New Element\"];",
+      "description": "Mutable array operations",
+      "scenario": "Mutable array operations",
+      "language": "objective-c",
+      "tags": [
+        "mutable",
+        "array",
+        "nsarray"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@try {\n    // Code that might throw\n} @catch (NSException *exception) {\n    NSLog(@\"Exception: %@\", exception);\n}",
+      "description": "Using try-catch for exceptions",
+      "scenario": "Using try-catch for exceptions",
+      "language": "objective-c",
+      "tags": [
+        "try",
+        "catch",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@throw [NSException exceptionWithName:@\"MyException\"\n                                 reason:@\"Something went wrong\"\n                               userInfo:nil];",
+      "description": "Throwing an exception manually",
+      "scenario": "Throwing an exception manually",
+      "language": "objective-c",
+      "tags": [
+        "throw",
+        "exception",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NSError *error = [NSError errorWithDomain:@\"com.example.error\"\n                                             code:100\n                                         userInfo:@{NSLocalizedDescriptionKey: @\"Description of error\"}];",
+      "description": "Define a custom error domain and code",
+      "scenario": "Define a custom error domain and code",
+      "language": "objective-c",
+      "tags": [
+        "error",
+        "custom",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Todoist Cheat Sheet",
+  "slug": "todoist",
+  "description": "Quick reference for Todoist CLI commands and syntax",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "todoist add \"Buy groceries\"",
+      "description": "Add a new task to Todoist",
+      "scenario": "Add a new task to Todoist",
+      "language": "bash",
+      "tags": [
+        "add",
+        "task",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist list",
+      "description": "List all tasks",
+      "scenario": "List all tasks",
+      "language": "bash",
+      "tags": [
+        "list",
+        "tasks",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist complete 123456",
+      "description": "Complete a task by ID",
+      "scenario": "Complete a task by ID",
+      "language": "bash",
+      "tags": [
+        "complete",
+        "task",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist project add \"New Project\"",
+      "description": "Create a new project",
+      "scenario": "Create a new project",
+      "language": "bash",
+      "tags": [
+        "project",
+        "add",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist project list",
+      "description": "List all projects",
+      "scenario": "List all projects",
+      "language": "bash",
+      "tags": [
+        "project",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist project delete 654321",
+      "description": "Delete a project by ID",
+      "scenario": "Delete a project by ID",
+      "language": "bash",
+      "tags": [
+        "project",
+        "delete",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist label add \"Urgent\"",
+      "description": "Add a new label",
+      "scenario": "Add a new label",
+      "language": "bash",
+      "tags": [
+        "label",
+        "add",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist label list",
+      "description": "List all labels",
+      "scenario": "List all labels",
+      "language": "bash",
+      "tags": [
+        "label",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist filter add \"Priority 1\" \"p1\"",
+      "description": "Create a new filter",
+      "scenario": "Create a new filter",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "add",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist config set default_project \"Work\"",
+      "description": "Set default project",
+      "scenario": "Set default project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist config set default_due \"tomorrow\"",
+      "description": "Set default due date",
+      "scenario": "Set default due date",
+      "language": "bash",
+      "tags": [
+        "config",
+        "due",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "todoist config show",
+      "description": "View current configuration",
+      "scenario": "View current configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

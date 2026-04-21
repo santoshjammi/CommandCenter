@@ -1,0 +1,204 @@
+{
+  "title": "Arturo Cheat Sheet",
+  "slug": "arturo",
+  "description": "Essential commands and syntax for Arturo programming language.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "print(\"Hello, World!\")",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "arturo",
+      "tags": [
+        "print",
+        "output",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x = 10",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "arturo",
+      "tags": [
+        "variable",
+        "declare",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet(name) { print(\"Hello, \" + name) }",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "arturo",
+      "tags": [
+        "function",
+        "define",
+        "greet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (x > 10) { print(\"Greater\") } else { print(\"Smaller or equal\") }",
+      "description": "If-else conditional statement",
+      "scenario": "If-else conditional statement",
+      "language": "arturo",
+      "tags": [
+        "if",
+        "else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (x < 5) { print(x) x = x + 1 }",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "arturo",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i in 1..5) { print(i) }",
+      "description": "For loop example",
+      "scenario": "For loop example",
+      "language": "arturo",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myList = [1, 2, 3, 4, 5]",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "arturo",
+      "tags": [
+        "list",
+        "array",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element = myList[2]",
+      "description": "Access list element",
+      "scenario": "Access list element",
+      "language": "arturo",
+      "tags": [
+        "list",
+        "access",
+        "index"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myDict = {\"key1\": \"value1\", \"key2\": \"value2\"}",
+      "description": "Create a dictionary",
+      "scenario": "Create a dictionary",
+      "language": "arturo",
+      "tags": [
+        "dictionary",
+        "map",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "content = read(\"file.txt\")",
+      "description": "Read from a file",
+      "scenario": "Read from a file",
+      "language": "arturo",
+      "tags": [
+        "file",
+        "read",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "write(\"file.txt\", \"Hello, File!\")",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "arturo",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "append(\"file.txt\", \"Additional line\")",
+      "description": "Append to a file",
+      "scenario": "Append to a file",
+      "language": "arturo",
+      "tags": [
+        "file",
+        "append",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { riskyFunction() } catch (error) { print(error) }",
+      "description": "Try-catch block for error handling",
+      "scenario": "Try-catch block for error handling",
+      "language": "arturo",
+      "tags": [
+        "error",
+        "try",
+        "catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw(\"An error occurred\")",
+      "description": "Throw an error",
+      "scenario": "Throw an error",
+      "language": "arturo",
+      "tags": [
+        "error",
+        "throw",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { riskyFunction() } catch (error) { print(error) } finally { print(\"Cleanup\") }",
+      "description": "Finally block usage",
+      "scenario": "Finally block usage",
+      "language": "arturo",
+      "tags": [
+        "finally",
+        "cleanup",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

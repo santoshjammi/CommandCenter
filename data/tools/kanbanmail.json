@@ -1,0 +1,165 @@
+{
+  "title": "KanbanMail Cheat Sheet",
+  "slug": "kanbanmail",
+  "description": "Quick reference for using KanbanMail CLI and configuration.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "kanbanmail init",
+      "description": "Initialize a new KanbanMail board",
+      "scenario": "Initialize a new KanbanMail board",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "board"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail add \"Task Title\"",
+      "description": "Add a new task to the board",
+      "scenario": "Add a new task to the board",
+      "language": "bash",
+      "tags": [
+        "add",
+        "task",
+        "board"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail list",
+      "description": "List all tasks in the current board",
+      "scenario": "List all tasks in the current board",
+      "language": "bash",
+      "tags": [
+        "list",
+        "tasks",
+        "board"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail move 1 done",
+      "description": "Move a task to a different column",
+      "scenario": "Move a task to a different column",
+      "language": "bash",
+      "tags": [
+        "move",
+        "task",
+        "column"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail delete 1",
+      "description": "Delete a task from the board",
+      "scenario": "Delete a task from the board",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "task",
+        "board"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail edit 1 \"New Task Title\"",
+      "description": "Edit the title of an existing task",
+      "scenario": "Edit the title of an existing task",
+      "language": "bash",
+      "tags": [
+        "edit",
+        "task",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail config set default-board myboard",
+      "description": "Set the default board for KanbanMail",
+      "scenario": "Set the default board for KanbanMail",
+      "language": "bash",
+      "tags": [
+        "config",
+        "default",
+        "board"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail config view",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail init && kanbanmail add \"Initial Task\"",
+      "description": "Create a new board and add a task in one command",
+      "scenario": "Create a new board and add a task in one command",
+      "language": "bash",
+      "tags": [
+        "init",
+        "add",
+        "task"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail archive done",
+      "description": "Archive all tasks in the 'done' column",
+      "scenario": "Archive all tasks in the 'done' column",
+      "language": "bash",
+      "tags": [
+        "archive",
+        "tasks",
+        "done"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kanbanmail switch myboard",
+      "description": "Quickly switch between boards",
+      "scenario": "Quickly switch between boards",
+      "language": "bash",
+      "tags": [
+        "switch",
+        "boards",
+        "navigate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

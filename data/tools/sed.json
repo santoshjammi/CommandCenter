@@ -1,0 +1,165 @@
+{
+  "title": "Sed Cheat Sheet",
+  "slug": "sed",
+  "description": "Essential sed commands for text processing in CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sed 's/foo/bar/' file.txt",
+      "description": "Replace first occurrence of 'foo' with 'bar' in each line",
+      "scenario": "Replace first occurrence of 'foo' with 'bar' in each line",
+      "language": "bash",
+      "tags": [
+        "substitution",
+        "replace",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed 's/foo/bar/g' file.txt",
+      "description": "Replace all occurrences of 'foo' with 'bar' in each line",
+      "scenario": "Replace all occurrences of 'foo' with 'bar' in each line",
+      "language": "bash",
+      "tags": [
+        "substitution",
+        "global",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed '/pattern/s/foo/bar/' file.txt",
+      "description": "Replace 'foo' with 'bar' only on lines matching 'pattern'",
+      "scenario": "Replace 'foo' with 'bar' only on lines matching 'pattern'",
+      "language": "bash",
+      "tags": [
+        "conditional",
+        "substitution",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed -i 's/foo/bar/g' file.txt",
+      "description": "Edit file in place, replacing 'foo' with 'bar'",
+      "scenario": "Edit file in place, replacing 'foo' with 'bar'",
+      "language": "bash",
+      "tags": [
+        "in-place",
+        "edit",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed -i.bak 's/foo/bar/g' file.txt",
+      "description": "Edit file in place with backup, replacing 'foo' with 'bar'",
+      "scenario": "Edit file in place with backup, replacing 'foo' with 'bar'",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "in-place",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed -i 's/foo/bar/g' *.txt",
+      "description": "Edit multiple files in place, replacing 'foo' with 'bar'",
+      "scenario": "Edit multiple files in place, replacing 'foo' with 'bar'",
+      "language": "bash",
+      "tags": [
+        "multiple",
+        "in-place",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed '/pattern/d' file.txt",
+      "description": "Delete lines matching a pattern",
+      "scenario": "Delete lines matching a pattern",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "pattern",
+        "lines"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed -n '/pattern/p' file.txt",
+      "description": "Print only lines matching a pattern",
+      "scenario": "Print only lines matching a pattern",
+      "language": "bash",
+      "tags": [
+        "print",
+        "pattern",
+        "lines"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed -E 's/(foo|bar)/baz/g' file.txt",
+      "description": "Replace using extended regular expressions",
+      "scenario": "Replace using extended regular expressions",
+      "language": "bash",
+      "tags": [
+        "extended",
+        "regex",
+        "substitution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed '1d' file.txt",
+      "description": "Delete the first line of a file",
+      "scenario": "Delete the first line of a file",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "line",
+        "first"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed -n '1,10p' file.txt",
+      "description": "Print the first 10 lines of a file",
+      "scenario": "Print the first 10 lines of a file",
+      "language": "bash",
+      "tags": [
+        "print",
+        "lines",
+        "range"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sed '3a\\New line of text' file.txt",
+      "description": "Append text after a specific line",
+      "scenario": "Append text after a specific line",
+      "language": "bash",
+      "tags": [
+        "append",
+        "line",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

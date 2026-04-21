@@ -1,0 +1,165 @@
+{
+  "title": "SSI (Self-Sovereign Identity) Cheat Sheet",
+  "slug": "ssi",
+  "description": "Essential commands and patterns for working with SSI systems.",
+  "audience": "engineer",
+  "category": "Security",
+  "commands": [
+    {
+      "command": "did create --method=indy",
+      "description": "Create a new DID using the Indy CLI",
+      "scenario": "Create a new DID using the Indy CLI",
+      "language": "bash",
+      "tags": [
+        "DID",
+        "Indy",
+        "CLI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"@context\": \"https://w3id.org/did/v1\",\n  \"id\": \"did:example:123456789abcdefghi\",\n  \"publicKey\": [{\n    \"id\": \"did:example:123456789abcdefghi#keys-1\",\n    \"type\": \"RsaVerificationKey2018\",\n    \"controller\": \"did:example:123456789abcdefghi\",\n    \"publicKeyPem\": \"-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\"\n  }]\n}",
+      "description": "Generate a DID document in JSON format",
+      "scenario": "Generate a DID document in JSON format",
+      "language": "json",
+      "tags": [
+        "DID",
+        "JSON",
+        "Document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "did list",
+      "description": "List all DIDs stored in the wallet",
+      "scenario": "List all DIDs stored in the wallet",
+      "language": "bash",
+      "tags": [
+        "DID",
+        "List",
+        "Wallet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"@context\": [\"https://www.w3.org/2018/credentials/v1\"],\n  \"id\": \"http://example.edu/credentials/1872\",\n  \"type\": [\"VerifiableCredential\"],\n  \"issuer\": \"https://example.edu/issuers/14\",\n  \"issuanceDate\": \"2020-01-01T19:23:24Z\",\n  \"credentialSubject\": {\n    \"id\": \"did:example:abcdef1234567890\",\n    \"degree\": {\n      \"type\": \"BachelorDegree\",\n      \"name\": \"Bachelor of Science and Arts\"\n    }\n  }\n}",
+      "description": "Issue a verifiable credential using JSON-LD",
+      "scenario": "Issue a verifiable credential using JSON-LD",
+      "language": "json",
+      "tags": [
+        "Credential",
+        "Issue",
+        "JSON-LD"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vc verify --credential=credential.json",
+      "description": "Verify a verifiable credential using a CLI tool",
+      "scenario": "Verify a verifiable credential using a CLI tool",
+      "language": "bash",
+      "tags": [
+        "Verify",
+        "Credential",
+        "CLI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vc revoke --id=credential-id",
+      "description": "Revoke a verifiable credential",
+      "scenario": "Revoke a verifiable credential",
+      "language": "bash",
+      "tags": [
+        "Revoke",
+        "Credential",
+        "CLI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wallet create --name=myWallet",
+      "description": "Create a new identity wallet",
+      "scenario": "Create a new identity wallet",
+      "language": "bash",
+      "tags": [
+        "Wallet",
+        "Create",
+        "Identity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wallet open --name=myWallet",
+      "description": "Open an existing identity wallet",
+      "scenario": "Open an existing identity wallet",
+      "language": "bash",
+      "tags": [
+        "Wallet",
+        "Open",
+        "Identity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wallet close --name=myWallet",
+      "description": "Close an open identity wallet",
+      "scenario": "Close an open identity wallet",
+      "language": "bash",
+      "tags": [
+        "Wallet",
+        "Close",
+        "Identity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "did resolve did:example:123456789abcdefghi",
+      "description": "Resolve a DID to its DID Document",
+      "scenario": "Resolve a DID to its DID Document",
+      "language": "bash",
+      "tags": [
+        "DID",
+        "Resolve",
+        "Document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "did update --id=did:example:123456789abcdefghi --add-public-key=newKey.pem",
+      "description": "Update a DID Document with a new public key",
+      "scenario": "Update a DID Document with a new public key",
+      "language": "bash",
+      "tags": [
+        "DID",
+        "Update",
+        "Key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "did deactivate --id=did:example:123456789abcdefghi",
+      "description": "Deactivate a DID",
+      "scenario": "Deactivate a DID",
+      "language": "bash",
+      "tags": [
+        "DID",
+        "Deactivate",
+        "Security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

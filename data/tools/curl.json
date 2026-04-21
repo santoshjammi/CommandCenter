@@ -1,0 +1,165 @@
+{
+  "title": "Curl Cheat Sheet",
+  "slug": "curl",
+  "description": "A quick reference for common curl commands and usage patterns.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "curl http://example.com",
+      "description": "Perform a simple GET request",
+      "scenario": "Perform a simple GET request",
+      "language": "bash",
+      "tags": [
+        "GET",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -d \"name=value\" http://example.com",
+      "description": "Perform a POST request with data",
+      "scenario": "Perform a POST request with data",
+      "language": "bash",
+      "tags": [
+        "POST",
+        "request",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -O http://example.com/file.txt",
+      "description": "Download a file from a URL",
+      "scenario": "Download a file from a URL",
+      "language": "bash",
+      "tags": [
+        "download",
+        "file",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H \"X-Custom-Header: value\" http://example.com",
+      "description": "Send a custom header with a request",
+      "scenario": "Send a custom header with a request",
+      "language": "bash",
+      "tags": [
+        "header",
+        "custom",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -u username:password http://example.com",
+      "description": "Use basic authentication",
+      "scenario": "Use basic authentication",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "basic",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H \"Authorization: Bearer token\" http://example.com",
+      "description": "Include a bearer token in the request",
+      "scenario": "Include a bearer token in the request",
+      "language": "bash",
+      "tags": [
+        "bearer",
+        "token",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -o response.txt http://example.com",
+      "description": "Save response to a file",
+      "scenario": "Save response to a file",
+      "language": "bash",
+      "tags": [
+        "response",
+        "file",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -L http://example.com",
+      "description": "Follow redirects automatically",
+      "scenario": "Follow redirects automatically",
+      "language": "bash",
+      "tags": [
+        "redirect",
+        "follow",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -i http://example.com",
+      "description": "Include response headers in the output",
+      "scenario": "Include response headers in the output",
+      "language": "bash",
+      "tags": [
+        "headers",
+        "response",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --limit-rate 100K http://example.com",
+      "description": "Limit the maximum transfer rate",
+      "scenario": "Limit the maximum transfer rate",
+      "language": "bash",
+      "tags": [
+        "limit",
+        "rate",
+        "transfer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -x http://proxy.example.com:8080 http://example.com",
+      "description": "Use a proxy for the request",
+      "scenario": "Use a proxy for the request",
+      "language": "bash",
+      "tags": [
+        "proxy",
+        "http",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -A \"Mozilla/5.0\" http://example.com",
+      "description": "Perform a request with a specific user agent",
+      "scenario": "Perform a request with a specific user agent",
+      "language": "bash",
+      "tags": [
+        "user-agent",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "DOM Range Cheat Sheet",
+  "slug": "dom-range",
+  "description": "Quick reference for using DOM Range API in JavaScript.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "const range = document.createRange();",
+      "description": "Create a new Range object",
+      "scenario": "Create a new Range object",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "dom",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "range.setStart(startNode, startOffset);",
+      "description": "Select a node and set it as the start of the range",
+      "scenario": "Select a node and set it as the start of the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "start",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "range.setEnd(endNode, endOffset);",
+      "description": "Select a node and set it as the end of the range",
+      "scenario": "Select a node and set it as the end of the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "end",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "range.collapse(true);",
+      "description": "Collapse the range to its start point",
+      "scenario": "Collapse the range to its start point",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "collapse",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "range.selectNodeContents(node);",
+      "description": "Select the entire contents of a node",
+      "scenario": "Select the entire contents of a node",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "select",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "range.deleteContents();",
+      "description": "Delete the contents within the range",
+      "scenario": "Delete the contents within the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "delete",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const ancestor = range.commonAncestorContainer;",
+      "description": "Get the common ancestor container of the range",
+      "scenario": "Get the common ancestor container of the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "ancestor",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const isCollapsed = range.collapsed;",
+      "description": "Check if the range is collapsed",
+      "scenario": "Check if the range is collapsed",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "collapsed",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const startContainer = range.startContainer;",
+      "description": "Get the start container of the range",
+      "scenario": "Get the start container of the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "start",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const fragment = range.cloneContents();",
+      "description": "Clone the contents of the range",
+      "scenario": "Clone the contents of the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "clone",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const fragment = range.extractContents();",
+      "description": "Extract the contents of the range",
+      "scenario": "Extract the contents of the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "extract",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const newRange = range.cloneRange();",
+      "description": "Clone the range itself",
+      "scenario": "Clone the range itself",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "clone",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const comparison = range.compareBoundaryPoints(Range.START_TO_END, otherRange);",
+      "description": "Compare boundary points of two ranges",
+      "scenario": "Compare boundary points of two ranges",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "compare",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const isPartiallyContained = range.intersectsNode(node);",
+      "description": "Check if a node is partially contained in the range",
+      "scenario": "Check if a node is partially contained in the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "intersects",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const isInRange = range.isPointInRange(node, offset);",
+      "description": "Check if a point is in the range",
+      "scenario": "Check if a point is in the range",
+      "language": "javascript",
+      "tags": [
+        "range",
+        "point",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

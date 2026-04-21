@@ -1,0 +1,165 @@
+{
+  "title": "Bluebird.js Cheat Sheet",
+  "slug": "bluebirdjs",
+  "description": "Essential Bluebird.js promise patterns and methods for JavaScript developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const promise = new Promise((resolve, reject) => { /* executor */ });",
+      "description": "Create a new promise using Bluebird",
+      "scenario": "Create a new promise using Bluebird",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "create",
+        "bluebird"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const fs = require('fs');\nconst readFileAsync = Promise.promisify(fs.readFile);",
+      "description": "Convert a callback-based function to a promise",
+      "scenario": "Convert a callback-based function to a promise",
+      "language": "javascript",
+      "tags": [
+        "callback",
+        "convert",
+        "promisify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const resolvedPromise = Promise.resolve('value');",
+      "description": "Create a resolved promise with a value",
+      "scenario": "Create a resolved promise with a value",
+      "language": "javascript",
+      "tags": [
+        "resolve",
+        "promise",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.then(result => { /* handle result */ });",
+      "description": "Chain promises with then()",
+      "scenario": "Chain promises with then()",
+      "language": "javascript",
+      "tags": [
+        "chain",
+        "then",
+        "promise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.catch(error => { /* handle error */ });",
+      "description": "Catch errors in promise chain",
+      "scenario": "Catch errors in promise chain",
+      "language": "javascript",
+      "tags": [
+        "catch",
+        "error",
+        "promise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.finally(() => { /* cleanup */ });",
+      "description": "Execute code regardless of promise outcome",
+      "scenario": "Execute code regardless of promise outcome",
+      "language": "javascript",
+      "tags": [
+        "finally",
+        "cleanup",
+        "promise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.all([promise1, promise2]).then(results => { /* handle results */ });",
+      "description": "Run promises in parallel and wait for all to resolve",
+      "scenario": "Run promises in parallel and wait for all to resolve",
+      "language": "javascript",
+      "tags": [
+        "parallel",
+        "all",
+        "resolve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.each([promise1, promise2], promise => promise()).then(() => { /* done */ });",
+      "description": "Run promises in sequence",
+      "scenario": "Run promises in sequence",
+      "language": "javascript",
+      "tags": [
+        "sequence",
+        "each",
+        "promise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.race([promise1, promise2]).then(result => { /* handle result */ });",
+      "description": "Wait for the first promise to resolve",
+      "scenario": "Wait for the first promise to resolve",
+      "language": "javascript",
+      "tags": [
+        "race",
+        "first",
+        "resolve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.map(array, item => asyncFunction(item)).then(results => { /* handle results */ });",
+      "description": "Map an array to promises and wait for all to resolve",
+      "scenario": "Map an array to promises and wait for all to resolve",
+      "language": "javascript",
+      "tags": [
+        "map",
+        "array",
+        "resolve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.map(array, item => asyncFunction(item), { concurrency: 2 }).then(results => { /* handle results */ });",
+      "description": "Limit the number of concurrent promises",
+      "scenario": "Limit the number of concurrent promises",
+      "language": "javascript",
+      "tags": [
+        "concurrency",
+        "limit",
+        "promise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.delay(1000).then(() => { /* delayed execution */ });",
+      "description": "Delay promise resolution",
+      "scenario": "Delay promise resolution",
+      "language": "javascript",
+      "tags": [
+        "delay",
+        "promise",
+        "timeout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

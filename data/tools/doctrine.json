@@ -1,0 +1,204 @@
+{
+  "title": "Doctrine ORM Cheat Sheet",
+  "slug": "doctrine",
+  "description": "Essential Doctrine ORM commands and patterns for PHP developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "php bin/console doctrine:mapping:import \"App\\Entity\" annotation --path=src/Entity",
+      "description": "Generate Doctrine entity classes from database schema",
+      "scenario": "Generate Doctrine entity classes from database schema",
+      "language": "bash",
+      "tags": [
+        "doctrine",
+        "cli",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php bin/console doctrine:schema:create",
+      "description": "Create the database schema from entity metadata",
+      "scenario": "Create the database schema from entity metadata",
+      "language": "bash",
+      "tags": [
+        "doctrine",
+        "cli",
+        "schema"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php bin/console doctrine:schema:update --force",
+      "description": "Update the database schema to match entity metadata",
+      "scenario": "Update the database schema to match entity metadata",
+      "language": "bash",
+      "tags": [
+        "doctrine",
+        "cli",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Entity @Table(name=\"users\") class User { /** @Id @GeneratedValue @Column(type=\"integer\") */ private $id; /** @Column(type=\"string\") */ private $name; }",
+      "description": "Define a basic Doctrine entity with annotations",
+      "scenario": "Define a basic Doctrine entity with annotations",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "entity",
+        "annotation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Column(type=\"string\", unique=true)",
+      "description": "Set a unique constraint on a column",
+      "scenario": "Set a unique constraint on a column",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "entity",
+        "unique"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@OneToMany(targetEntity=\"Post\", mappedBy=\"user\") private $posts;",
+      "description": "Define a one-to-many relationship",
+      "scenario": "Define a one-to-many relationship",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "entity",
+        "relationship"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$user = $entityManager->getRepository(User::class)->find($id);",
+      "description": "Find a single entity by its primary key",
+      "scenario": "Find a single entity by its primary key",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "repository",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$users = $entityManager->getRepository(User::class)->findAll();",
+      "description": "Find all entities of a type",
+      "scenario": "Find all entities of a type",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "repository",
+        "findAll"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$users = $entityManager->getRepository(User::class)->findBy(['status' => 'active']);",
+      "description": "Find entities by criteria",
+      "scenario": "Find entities by criteria",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "repository",
+        "findBy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "doctrine: dbal: driver: 'pdo_mysql' host: '%database_host%' dbname: '%database_name%' user: '%database_user%' password: '%database_password%'",
+      "description": "Basic Doctrine configuration in YAML",
+      "scenario": "Basic Doctrine configuration in YAML",
+      "language": "yaml",
+      "tags": [
+        "doctrine",
+        "configuration",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "doctrine: orm: metadata_cache_driver: apcu query_cache_driver: apcu",
+      "description": "Set up caching for metadata and queries",
+      "scenario": "Set up caching for metadata and queries",
+      "language": "yaml",
+      "tags": [
+        "doctrine",
+        "configuration",
+        "cache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "doctrine: dbal: logging: true",
+      "description": "Enable SQL logging for debugging",
+      "scenario": "Enable SQL logging for debugging",
+      "language": "yaml",
+      "tags": [
+        "doctrine",
+        "configuration",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$entityManager->persist($entity); $entityManager->flush();",
+      "description": "Persist a new entity to the database",
+      "scenario": "Persist a new entity to the database",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "entity",
+        "persist"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$entityManager->remove($entity); $entityManager->flush();",
+      "description": "Remove an entity from the database",
+      "scenario": "Remove an entity from the database",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "entity",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$entityManager->refresh($entity);",
+      "description": "Refresh an entity's state from the database",
+      "scenario": "Refresh an entity's state from the database",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "entity",
+        "refresh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

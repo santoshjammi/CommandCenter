@@ -1,0 +1,204 @@
+{
+  "title": "Nix Cheat Sheet",
+  "slug": "nix",
+  "description": "Quick reference for Nix CLI commands and configuration patterns.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "nix-shell",
+      "description": "Initialize a new Nix environment",
+      "scenario": "Initialize a new Nix environment",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "shell",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nix-build <path-to-nix-file>",
+      "description": "Build a Nix package",
+      "scenario": "Build a Nix package",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "build",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nix-env -qaP <package-name>",
+      "description": "Search for a package in Nixpkgs",
+      "scenario": "Search for a package in Nixpkgs",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "search",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nix-env -i <package-name>",
+      "description": "Install a package",
+      "scenario": "Install a package",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "install",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nix-env -e <package-name>",
+      "description": "Uninstall a package",
+      "scenario": "Uninstall a package",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "uninstall",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nix-env -q",
+      "description": "List installed packages",
+      "scenario": "List installed packages",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "list",
+        "packages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ stdenv, fetchurl }:\nstdenv.mkDerivation {\n  pname = \"hello\";\n  version = \"2.10\";\n  src = fetchurl {\n    url = \"http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz\";\n    sha256 = \"0ssi1wpaf7plaswqqjwigppsg5fyh99vdlb9kzl7c9lng89ndq1i\";\n  };\n  buildInputs = [];\n}",
+      "description": "Define a simple Nix package",
+      "scenario": "Define a simple Nix package",
+      "language": "nix",
+      "tags": [
+        "nix",
+        "package",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ config, pkgs, ... }:\n{\n  nixpkgs.config = {\n    allowUnfree = true;\n  };\n}",
+      "description": "Set a custom Nixpkgs channel",
+      "scenario": "Set a custom Nixpkgs channel",
+      "language": "nix",
+      "tags": [
+        "nix",
+        "channel",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ config, pkgs, ... }:\n{\n  nix.gc.automatic = true;\n  nix.gc.dates = \"weekly\";\n}",
+      "description": "Enable garbage collection for Nix",
+      "scenario": "Enable garbage collection for Nix",
+      "language": "nix",
+      "tags": [
+        "nix",
+        "garbage collection",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nix-shell -p <package> --run \"<command>\"",
+      "description": "Run a command in a Nix shell",
+      "scenario": "Run a command in a Nix shell",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "shell",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nix-shell -p <package1> <package2>",
+      "description": "Create a development shell with specific packages",
+      "scenario": "Create a development shell with specific packages",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "shell",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nix-build <path-to-nix-file> && nix-env -i ./result",
+      "description": "Build and install a package from source",
+      "scenario": "Build and install a package from source",
+      "language": "bash",
+      "tags": [
+        "nix",
+        "build",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nixos-option",
+      "description": "Show all available options in NixOS",
+      "scenario": "Show all available options in NixOS",
+      "language": "bash",
+      "tags": [
+        "nixos",
+        "options",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nixos-rebuild switch",
+      "description": "Switch to a new NixOS configuration",
+      "scenario": "Switch to a new NixOS configuration",
+      "language": "bash",
+      "tags": [
+        "nixos",
+        "rebuild",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nixos-rebuild switch --rollback",
+      "description": "Rollback to a previous NixOS generation",
+      "scenario": "Rollback to a previous NixOS generation",
+      "language": "bash",
+      "tags": [
+        "nixos",
+        "rollback",
+        "generation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

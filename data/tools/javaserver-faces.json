@@ -1,0 +1,165 @@
+{
+  "title": "JavaServer Faces Cheat Sheet",
+  "slug": "javaserver-faces",
+  "description": "Quick reference for JavaServer Faces (JSF) CLI commands and code syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp",
+      "description": "Create a new JSF project using Maven",
+      "scenario": "Create a new JSF project using Maven",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "jsf",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn jetty:run",
+      "description": "Run the JSF application using Maven",
+      "scenario": "Run the JSF application using Maven",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "jetty",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn package",
+      "description": "Package the JSF application into a WAR file",
+      "scenario": "Package the JSF application into a WAR file",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "package",
+        "war"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<managed-bean>\n  <managed-bean-name>userBean</managed-bean-name>\n  <managed-bean-class>com.example.UserBean</managed-bean-class>\n  <managed-bean-scope>session</managed-bean-scope>\n</managed-bean>",
+      "description": "Define a JSF managed bean in faces-config.xml",
+      "scenario": "Define a JSF managed bean in faces-config.xml",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "managed-bean",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<navigation-rule>\n  <from-view-id>/login.xhtml</from-view-id>\n  <navigation-case>\n    <from-outcome>success</from-outcome>\n    <to-view-id>/home.xhtml</to-view-id>\n  </navigation-case>\n</navigation-rule>",
+      "description": "Configure a navigation rule in faces-config.xml",
+      "scenario": "Configure a navigation rule in faces-config.xml",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "navigation",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<context-param>\n  <param-name>javax.faces.PROJECT_STAGE</param-name>\n  <param-value>Development</param-value>\n</context-param>",
+      "description": "Set JSF project stage to development",
+      "scenario": "Set JSF project stage to development",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "project-stage",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h:inputText value=\"#{userBean.username}\" />",
+      "description": "Declare a JSF input text field",
+      "scenario": "Declare a JSF input text field",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "input",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h:commandButton value=\"Submit\" action=\"#{userBean.submit}\" />",
+      "description": "Create a JSF command button",
+      "scenario": "Create a JSF command button",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "button",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h:message for=\"username\" />",
+      "description": "Output a JSF message",
+      "scenario": "Output a JSF message",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "message",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h:form>\n  <h:outputLabel for=\"username\" value=\"Username:\" />\n  <h:inputText id=\"username\" value=\"#{userBean.username}\" />\n  <h:commandButton value=\"Login\" action=\"#{userBean.login}\" />\n</h:form>",
+      "description": "Pattern for a simple login form",
+      "scenario": "Pattern for a simple login form",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "form",
+        "login"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h:dataTable value=\"#{userBean.users}\" var=\"user\">\n  <h:column>\n    <f:facet name=\"header\">Name</f:facet>\n    #{user.name}\n  </h:column>\n</h:dataTable>",
+      "description": "Pattern for iterating over a list with JSF",
+      "scenario": "Pattern for iterating over a list with JSF",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "datatable",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h:panelGroup rendered=\"#{userBean.loggedIn}\">\n  <h:outputText value=\"Welcome, #{userBean.username}!\" />\n</h:panelGroup>",
+      "description": "Pattern for conditional rendering in JSF",
+      "scenario": "Pattern for conditional rendering in JSF",
+      "language": "xml",
+      "tags": [
+        "jsf",
+        "conditional",
+        "rendering"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

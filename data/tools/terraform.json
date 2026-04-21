@@ -1,0 +1,165 @@
+{
+  "title": "Terraform Cheat Sheet",
+  "slug": "terraform",
+  "description": "Essential Terraform CLI commands and configuration patterns.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "terraform init",
+      "description": "Initialize a new or existing Terraform configuration",
+      "scenario": "Initialize a new or existing Terraform configuration",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "terraform plan",
+      "description": "Create an execution plan",
+      "scenario": "Create an execution plan",
+      "language": "bash",
+      "tags": [
+        "plan",
+        "cli",
+        "preview"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "terraform apply",
+      "description": "Apply the changes required to reach the desired state",
+      "scenario": "Apply the changes required to reach the desired state",
+      "language": "bash",
+      "tags": [
+        "apply",
+        "cli",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "provider \"aws\" {\n  region = \"us-west-2\"\n}",
+      "description": "Define a provider block for AWS",
+      "scenario": "Define a provider block for AWS",
+      "language": "hcl",
+      "tags": [
+        "provider",
+        "aws",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "resource \"aws_s3_bucket\" \"my_bucket\" {\n  bucket = \"my-unique-bucket-name\"\n  acl    = \"private\"\n}",
+      "description": "Declare a resource for an AWS S3 bucket",
+      "scenario": "Declare a resource for an AWS S3 bucket",
+      "language": "hcl",
+      "tags": [
+        "resource",
+        "s3",
+        "aws"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "variable \"instance_type\" {\n  description = \"Type of instance to use\"\n  default     = \"t2.micro\"\n}",
+      "description": "Use a variable with a default value",
+      "scenario": "Use a variable with a default value",
+      "language": "hcl",
+      "tags": [
+        "variable",
+        "default",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "terraform show",
+      "description": "Show the current state in a human-readable format",
+      "scenario": "Show the current state in a human-readable format",
+      "language": "bash",
+      "tags": [
+        "state",
+        "show",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "terraform state rm aws_instance.my_instance",
+      "description": "Remove items from the Terraform state",
+      "scenario": "Remove items from the Terraform state",
+      "language": "bash",
+      "tags": [
+        "state",
+        "remove",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "terraform state mv aws_instance.old aws_instance.new",
+      "description": "Move an item in the Terraform state",
+      "scenario": "Move an item in the Terraform state",
+      "language": "bash",
+      "tags": [
+        "state",
+        "move",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output \"instance_ip\" {\n  value = aws_instance.my_instance.public_ip\n}",
+      "description": "Output a value from the configuration",
+      "scenario": "Output a value from the configuration",
+      "language": "hcl",
+      "tags": [
+        "output",
+        "value",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data \"aws_ami\" \"latest\" {\n  most_recent = true\n  owners      = [\"self\"]\n}",
+      "description": "Use a data source to reference existing resources",
+      "scenario": "Use a data source to reference existing resources",
+      "language": "hcl",
+      "tags": [
+        "data",
+        "source",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module \"vpc\" {\n  source = \"terraform-aws-modules/vpc/aws\"\n  version = \"~> 2.0\"\n}",
+      "description": "Define a module to encapsulate resources",
+      "scenario": "Define a module to encapsulate resources",
+      "language": "hcl",
+      "tags": [
+        "module",
+        "encapsulation",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

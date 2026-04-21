@@ -1,0 +1,165 @@
+{
+  "title": "Flynn CLI Cheat Sheet",
+  "slug": "flynn",
+  "description": "Essential commands and configurations for Flynn CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "flynn create app-name",
+      "description": "Deploy an application using Flynn",
+      "scenario": "Deploy an application using Flynn",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "app",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn apps",
+      "description": "List all applications",
+      "scenario": "List all applications",
+      "language": "bash",
+      "tags": [
+        "list",
+        "apps",
+        "applications"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn delete app-name",
+      "description": "Delete an application",
+      "scenario": "Delete an application",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "app",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn env set VAR_NAME=value",
+      "description": "Set environment variable for an app",
+      "scenario": "Set environment variable for an app",
+      "language": "bash",
+      "tags": [
+        "env",
+        "set",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn env",
+      "description": "Get environment variables for an app",
+      "scenario": "Get environment variables for an app",
+      "language": "bash",
+      "tags": [
+        "env",
+        "list",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn env unset VAR_NAME",
+      "description": "Unset an environment variable",
+      "scenario": "Unset an environment variable",
+      "language": "bash",
+      "tags": [
+        "env",
+        "unset",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn release add",
+      "description": "Create a new release for an app",
+      "scenario": "Create a new release for an app",
+      "language": "bash",
+      "tags": [
+        "release",
+        "create",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn release list",
+      "description": "List all releases for an app",
+      "scenario": "List all releases for an app",
+      "language": "bash",
+      "tags": [
+        "release",
+        "list",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn release rollback release-id",
+      "description": "Rollback to a previous release",
+      "scenario": "Rollback to a previous release",
+      "language": "bash",
+      "tags": [
+        "release",
+        "rollback",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn scale web=3",
+      "description": "Scale a process type to a specified number of instances",
+      "scenario": "Scale a process type to a specified number of instances",
+      "language": "bash",
+      "tags": [
+        "scale",
+        "process",
+        "instances"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn ps",
+      "description": "View current process formation",
+      "scenario": "View current process formation",
+      "language": "bash",
+      "tags": [
+        "process",
+        "formation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flynn kill process-id",
+      "description": "Stop a process by ID",
+      "scenario": "Stop a process by ID",
+      "language": "bash",
+      "tags": [
+        "process",
+        "kill",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

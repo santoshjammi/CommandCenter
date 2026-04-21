@@ -1,0 +1,204 @@
+{
+  "title": "Figma Cheat Sheet",
+  "slug": "figma",
+  "description": "Essential shortcuts and workflows for Figma users.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl + +",
+      "description": "Zoom in on the canvas",
+      "scenario": "Zoom in on the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + -",
+      "description": "Zoom out of the canvas",
+      "scenario": "Zoom out of the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + 1",
+      "description": "Fit the canvas to the window",
+      "scenario": "Fit the canvas to the window",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "fit",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + G",
+      "description": "Group selected layers",
+      "scenario": "Group selected layers",
+      "language": "text",
+      "tags": [
+        "layers",
+        "group",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + G",
+      "description": "Ungroup selected layers",
+      "scenario": "Ungroup selected layers",
+      "language": "text",
+      "tags": [
+        "layers",
+        "ungroup",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Right-click layer > Rename",
+      "description": "Rename a layer",
+      "scenario": "Rename a layer",
+      "language": "text",
+      "tags": [
+        "layers",
+        "rename",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + B",
+      "description": "Bold selected text",
+      "scenario": "Bold selected text",
+      "language": "text",
+      "tags": [
+        "text",
+        "bold",
+        "editing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + I",
+      "description": "Italicize selected text",
+      "scenario": "Italicize selected text",
+      "language": "text",
+      "tags": [
+        "text",
+        "italic",
+        "editing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + U",
+      "description": "Underline selected text",
+      "scenario": "Underline selected text",
+      "language": "text",
+      "tags": [
+        "text",
+        "underline",
+        "editing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > New",
+      "description": "Create a new file",
+      "scenario": "Create a new file",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Save",
+      "description": "Save a file",
+      "scenario": "Save a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Export > Export As",
+      "description": "Export selected layers",
+      "scenario": "Export selected layers",
+      "language": "text",
+      "tags": [
+        "file",
+        "export",
+        "layers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the 'Prototype' tab",
+      "description": "Enter prototype mode",
+      "scenario": "Enter prototype mode",
+      "language": "text",
+      "tags": [
+        "prototype",
+        "mode",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select object > Click '+' under 'Prototype'",
+      "description": "Add an interaction",
+      "scenario": "Add an interaction",
+      "language": "text",
+      "tags": [
+        "prototype",
+        "interaction",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click 'Present' in the top-right corner",
+      "description": "Preview prototype",
+      "scenario": "Preview prototype",
+      "language": "text",
+      "tags": [
+        "prototype",
+        "preview",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

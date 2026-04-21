@@ -1,0 +1,204 @@
+{
+  "title": "Drupal Cheat Sheet",
+  "slug": "drupal",
+  "description": "Essential commands and snippets for Drupal development",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "drush cache-rebuild",
+      "description": "Clear all caches",
+      "scenario": "Clear all caches",
+      "language": "bash",
+      "tags": [
+        "drush",
+        "cache",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush en module_name",
+      "description": "Enable a module",
+      "scenario": "Enable a module",
+      "language": "bash",
+      "tags": [
+        "drush",
+        "module",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush updb",
+      "description": "Run database updates",
+      "scenario": "Run database updates",
+      "language": "bash",
+      "tags": [
+        "drush",
+        "database",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drupal generate:module",
+      "description": "Generate a new module",
+      "scenario": "Generate a new module",
+      "language": "bash",
+      "tags": [
+        "drupal console",
+        "module",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drupal list",
+      "description": "List all available commands",
+      "scenario": "List all available commands",
+      "language": "bash",
+      "tags": [
+        "drupal console",
+        "commands",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drupal generate:content:type",
+      "description": "Create a new content type",
+      "scenario": "Create a new content type",
+      "language": "bash",
+      "tags": [
+        "drupal console",
+        "content type",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush config-export",
+      "description": "Export configuration to files",
+      "scenario": "Export configuration to files",
+      "language": "bash",
+      "tags": [
+        "drush",
+        "config",
+        "export"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush config-import",
+      "description": "Import configuration from files",
+      "scenario": "Import configuration from files",
+      "language": "bash",
+      "tags": [
+        "drush",
+        "config",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush config-get system.site",
+      "description": "View a specific configuration",
+      "scenario": "View a specific configuration",
+      "language": "bash",
+      "tags": [
+        "drush",
+        "config",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$node = \\Drupal\\node\\Entity\\Node::load($nid);",
+      "description": "Load a node by ID",
+      "scenario": "Load a node by ID",
+      "language": "php",
+      "tags": [
+        "php",
+        "node",
+        "load"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$uid = \\Drupal::currentUser()->id();",
+      "description": "Get current user ID",
+      "scenario": "Get current user ID",
+      "language": "php",
+      "tags": [
+        "php",
+        "user",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$block = \\Drupal\\block\\Entity\\Block::load('block_id');\\Drupal::entityTypeManager()->getViewBuilder('block')->view($block);",
+      "description": "Render a block programmatically",
+      "scenario": "Render a block programmatically",
+      "language": "php",
+      "tags": [
+        "php",
+        "block",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stylesheets[all][] = css/style.css",
+      "description": "Add CSS to a theme",
+      "scenario": "Add CSS to a theme",
+      "language": "yaml",
+      "tags": [
+        "theme",
+        "css",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Copy node.html.twig to your theme's templates folder",
+      "description": "Override a template",
+      "scenario": "Override a template",
+      "language": "text",
+      "tags": [
+        "theme",
+        "template",
+        "override"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "regions:\n  my_custom_region: 'My Custom Region'",
+      "description": "Add a custom region",
+      "scenario": "Add a custom region",
+      "language": "yaml",
+      "tags": [
+        "theme",
+        "region",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

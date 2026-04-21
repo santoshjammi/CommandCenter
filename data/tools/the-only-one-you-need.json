@@ -1,0 +1,204 @@
+{
+  "title": "The Only One You Need",
+  "slug": "the-only-one-you-need",
+  "description": "Essential CLI commands and code snippets for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd ..",
+      "description": "Change directory to the parent directory",
+      "scenario": "Change directory to the parent directory",
+      "language": "bash",
+      "tags": [
+        "navigation",
+        "directory",
+        "parent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Display the current working directory",
+      "scenario": "Display the current working directory",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "path",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone a repository from GitHub",
+      "scenario": "Clone a repository from GitHub",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git status",
+      "description": "Check the status of the working directory",
+      "scenario": "Check the status of the working directory",
+      "language": "bash",
+      "tags": [
+        "git",
+        "status",
+        "working-directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Your commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List all running Docker containers",
+      "scenario": "List all running Docker containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "list",
+        "containers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker build -t my-image:latest .",
+      "description": "Build a Docker image from a Dockerfile",
+      "scenario": "Build a Docker image from a Dockerfile",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "build",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d my-image:latest",
+      "description": "Run a Docker container from an image",
+      "scenario": "Run a Docker container from an image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "run",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print('Hello, World!')",
+      "description": "Print 'Hello, World!' to the console",
+      "scenario": "Print 'Hello, World!' to the console",
+      "language": "python",
+      "tags": [
+        "python",
+        "print",
+        "hello-world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_function():\n    return 'Hello from function!'",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "python",
+      "tags": [
+        "python",
+        "function",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squares = [x**2 for x in range(10)]",
+      "description": "Create a list comprehension",
+      "scenario": "Create a list comprehension",
+      "language": "python",
+      "tags": [
+        "python",
+        "list",
+        "comprehension"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "select",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "insert",
+        "row"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "update",
+        "records"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

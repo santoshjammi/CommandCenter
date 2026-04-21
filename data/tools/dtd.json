@@ -1,0 +1,204 @@
+{
+  "title": "DTD Cheat Sheet",
+  "slug": "dtd",
+  "description": "Quick reference for Document Type Definitions (DTD) syntax and usage.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "<!ELEMENT elementName ANY>",
+      "description": "Declare an element with any content",
+      "scenario": "Declare an element with any content",
+      "language": "text",
+      "tags": [
+        "element",
+        "declaration",
+        "any"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!ELEMENT elementName (#PCDATA)>",
+      "description": "Declare an element with parsed character data",
+      "scenario": "Declare an element with parsed character data",
+      "language": "text",
+      "tags": [
+        "element",
+        "declaration",
+        "pcdata"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!ELEMENT elementName (child1, child2)>",
+      "description": "Declare an element with child elements",
+      "scenario": "Declare an element with child elements",
+      "language": "text",
+      "tags": [
+        "element",
+        "declaration",
+        "children"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!ATTLIST elementName attributeName CDATA #REQUIRED>",
+      "description": "Declare an attribute with a string type",
+      "scenario": "Declare an attribute with a string type",
+      "language": "text",
+      "tags": [
+        "attribute",
+        "declaration",
+        "cdata"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!ATTLIST elementName attributeName (value1|value2) #IMPLIED>",
+      "description": "Declare an attribute with enumerated type",
+      "scenario": "Declare an attribute with enumerated type",
+      "language": "text",
+      "tags": [
+        "attribute",
+        "declaration",
+        "enumeration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!ATTLIST elementName attributeName CDATA \"defaultValue\">",
+      "description": "Declare an attribute with a default value",
+      "scenario": "Declare an attribute with a default value",
+      "language": "text",
+      "tags": [
+        "attribute",
+        "declaration",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!ENTITY entityName \"entityValue\">",
+      "description": "Declare a general entity",
+      "scenario": "Declare a general entity",
+      "language": "text",
+      "tags": [
+        "entity",
+        "declaration",
+        "general"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!ENTITY % entityName \"entityValue\">",
+      "description": "Declare a parameter entity",
+      "scenario": "Declare a parameter entity",
+      "language": "text",
+      "tags": [
+        "entity",
+        "declaration",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!ENTITY entityName SYSTEM \"http://example.com/entity\">",
+      "description": "Declare an external entity",
+      "scenario": "Declare an external entity",
+      "language": "text",
+      "tags": [
+        "entity",
+        "declaration",
+        "external"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!NOTATION notationName SYSTEM \"notationSystem\">",
+      "description": "Declare a notation for an external format",
+      "scenario": "Declare a notation for an external format",
+      "language": "text",
+      "tags": [
+        "notation",
+        "declaration",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!NOTATION notationName PUBLIC \"publicIdentifier\">",
+      "description": "Declare a notation with public identifier",
+      "scenario": "Declare a notation with public identifier",
+      "language": "text",
+      "tags": [
+        "notation",
+        "declaration",
+        "public"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!NOTATION notationName PUBLIC \"publicIdentifier\" \"systemIdentifier\">",
+      "description": "Declare a notation with both system and public identifiers",
+      "scenario": "Declare a notation with both system and public identifiers",
+      "language": "text",
+      "tags": [
+        "notation",
+        "declaration",
+        "combined"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<![ INCLUDE [ ... ]]>",
+      "description": "Include a section conditionally",
+      "scenario": "Include a section conditionally",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "section",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<![ IGNORE [ ... ]]>",
+      "description": "Ignore a section conditionally",
+      "scenario": "Ignore a section conditionally",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "section",
+        "ignore"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<![ %entityName; [ ... ]]>",
+      "description": "Use a parameter entity in a conditional section",
+      "scenario": "Use a parameter entity in a conditional section",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "section",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

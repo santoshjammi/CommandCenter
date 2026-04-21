@@ -1,0 +1,204 @@
+{
+  "title": "Chef Cheat Sheet",
+  "slug": "chef",
+  "description": "Essential commands and patterns for using Chef effectively.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "chef generate repo my_chef_repo",
+      "description": "Initialize a new Chef repository",
+      "scenario": "Initialize a new Chef repository",
+      "language": "bash",
+      "tags": [
+        "init",
+        "repository",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chef-client",
+      "description": "Run a Chef client on a node",
+      "scenario": "Run a Chef client on a node",
+      "language": "bash",
+      "tags": [
+        "client",
+        "node",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knife cookbook upload my_cookbook",
+      "description": "Upload a cookbook to the Chef server",
+      "scenario": "Upload a cookbook to the Chef server",
+      "language": "bash",
+      "tags": [
+        "upload",
+        "cookbook",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knife node list",
+      "description": "List all nodes managed by Chef",
+      "scenario": "List all nodes managed by Chef",
+      "language": "bash",
+      "tags": [
+        "nodes",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knife node show NODE_NAME",
+      "description": "Show details of a specific node",
+      "scenario": "Show details of a specific node",
+      "language": "bash",
+      "tags": [
+        "node",
+        "details",
+        "show"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knife node delete NODE_NAME",
+      "description": "Delete a node from the Chef server",
+      "scenario": "Delete a node from the Chef server",
+      "language": "bash",
+      "tags": [
+        "node",
+        "delete",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "package 'httpd' do\n  action :install\nend",
+      "description": "Define a package resource to install a package",
+      "scenario": "Define a package resource to install a package",
+      "language": "ruby",
+      "tags": [
+        "package",
+        "install",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file '/tmp/motd' do\n  content 'Welcome to Chef!'\nend",
+      "description": "Create a file with specific content",
+      "scenario": "Create a file with specific content",
+      "language": "ruby",
+      "tags": [
+        "file",
+        "create",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "service 'httpd' do\n  action [:enable, :start]\nend",
+      "description": "Start a service using a service resource",
+      "scenario": "Start a service using a service resource",
+      "language": "ruby",
+      "tags": [
+        "service",
+        "start",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chef_server_url 'https://chef.example.com/organizations/myorg'",
+      "description": "Set the Chef server URL in client.rb",
+      "scenario": "Set the Chef server URL in client.rb",
+      "language": "ruby",
+      "tags": [
+        "config",
+        "server",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log_level :info",
+      "description": "Configure the log level in client.rb",
+      "scenario": "Configure the log level in client.rb",
+      "language": "ruby",
+      "tags": [
+        "config",
+        "log",
+        "level"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "validation_client_name 'myorg-validator'",
+      "description": "Specify the validation client name in client.rb",
+      "scenario": "Specify the validation client name in client.rb",
+      "language": "ruby",
+      "tags": [
+        "config",
+        "validation",
+        "client"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "template '/etc/httpd/conf/httpd.conf' do\n  source 'httpd.conf.erb'\nend",
+      "description": "Use a template resource to manage configuration files",
+      "scenario": "Use a template resource to manage configuration files",
+      "language": "ruby",
+      "tags": [
+        "template",
+        "configuration",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "execute 'run_script' do\n  command 'bash /tmp/script.sh'\n  notifies :restart, 'service[httpd]', :immediately\nend",
+      "description": "Notify a service to restart after a resource update",
+      "scenario": "Notify a service to restart after a resource update",
+      "language": "ruby",
+      "tags": [
+        "notify",
+        "service",
+        "restart"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "execute 'apt-get update' do\n  command 'apt-get update'\n  only_if { ::File.exist?('/etc/debian_version') }\nend",
+      "description": "Use a guard to prevent unnecessary resource execution",
+      "scenario": "Use a guard to prevent unnecessary resource execution",
+      "language": "ruby",
+      "tags": [
+        "guard",
+        "resource",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

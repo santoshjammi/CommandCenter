@@ -1,0 +1,165 @@
+{
+  "title": "BQN Cheat Sheet",
+  "slug": "bqn",
+  "description": "Quick reference for BQN programming language syntax and commands",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "a \u2190 5",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "text",
+      "tags": [
+        "assignment",
+        "variable",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Add \u2190 {\ud835\udd69 + \ud835\udd68}",
+      "description": "Define a function that adds two numbers",
+      "scenario": "Define a function that adds two numbers",
+      "language": "text",
+      "tags": [
+        "function",
+        "addition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list \u2190 1\u203f2\u203f3\u203f4\u203f5",
+      "description": "Create a list of numbers from 1 to 5",
+      "scenario": "Create a list of numbers from 1 to 5",
+      "language": "text",
+      "tags": [
+        "list",
+        "array",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IfTrue \u2190 {\ud835\udd69 > 0 \u2192 'Positive' ; 'Non-positive'}",
+      "description": "Conditional execution with if-else",
+      "scenario": "Conditional execution with if-else",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "if",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\ud835\udd69 + 1}\u00a8 1\u203f2\u203f3",
+      "description": "Loop over a list and apply a function",
+      "scenario": "Loop over a list and apply a function",
+      "language": "text",
+      "tags": [
+        "loop",
+        "map",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\ud835\udd69|2 = 0}\u233f 1\u203f2\u203f3\u203f4\u203f5",
+      "description": "Filter a list for even numbers",
+      "scenario": "Filter a list for even numbers",
+      "language": "text",
+      "tags": [
+        "filter",
+        "even",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+\u00b4 1\u203f2\u203f3\u203f4\u203f5",
+      "description": "Sum all elements in a list",
+      "scenario": "Sum all elements in a list",
+      "language": "text",
+      "tags": [
+        "sum",
+        "array",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u233d 1\u203f2\u203f3\u203f4\u203f5",
+      "description": "Reverse a list",
+      "scenario": "Reverse a list",
+      "language": "text",
+      "tags": [
+        "reverse",
+        "array",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u2349 1\u203f2\u203f3\u203f4\u203f5",
+      "description": "Transpose a matrix",
+      "scenario": "Transpose a matrix",
+      "language": "text",
+      "tags": [
+        "transpose",
+        "matrix",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\ud835\udd69 + \ud835\udd68}\u00a8 1\u203f2\u203f3\u203f4\u203f5 \u294a 6\u203f7\u203f8\u203f9\u203f10",
+      "description": "Apply a function to each pair of elements from two lists",
+      "scenario": "Apply a function to each pair of elements from two lists",
+      "language": "text",
+      "tags": [
+        "pair",
+        "function",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Fact \u2190 {\ud835\udd69 = 0 \u2192 1 ; \ud835\udd69 \u00d7 \u2207 \ud835\udd69 - 1}",
+      "description": "Define a recursive function for factorial",
+      "scenario": "Define a recursive function for factorial",
+      "language": "text",
+      "tags": [
+        "recursive",
+        "factorial",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u2308\u00b4 1\u203f2\u203f3\u203f4\u203f5",
+      "description": "Use a reduction to compute the maximum value",
+      "scenario": "Use a reduction to compute the maximum value",
+      "language": "text",
+      "tags": [
+        "reduction",
+        "maximum",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

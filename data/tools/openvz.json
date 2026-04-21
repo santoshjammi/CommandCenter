@@ -1,0 +1,204 @@
+{
+  "title": "OpenVZ Cheat Sheet",
+  "slug": "openvz",
+  "description": "Essential OpenVZ commands and configurations for container management.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "vzlist",
+      "description": "List all OpenVZ containers",
+      "scenario": "List all OpenVZ containers",
+      "language": "bash",
+      "tags": [
+        "list",
+        "containers",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl start <CTID>",
+      "description": "Start a specific OpenVZ container",
+      "scenario": "Start a specific OpenVZ container",
+      "language": "bash",
+      "tags": [
+        "start",
+        "container",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl stop <CTID>",
+      "description": "Stop a specific OpenVZ container",
+      "scenario": "Stop a specific OpenVZ container",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "container",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl create <CTID> --ostemplate <template>",
+      "description": "Create a new OpenVZ container",
+      "scenario": "Create a new OpenVZ container",
+      "language": "bash",
+      "tags": [
+        "create",
+        "container",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl destroy <CTID>",
+      "description": "Destroy an existing OpenVZ container",
+      "scenario": "Destroy an existing OpenVZ container",
+      "language": "bash",
+      "tags": [
+        "destroy",
+        "container",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl enter <CTID>",
+      "description": "Enter into a running OpenVZ container",
+      "scenario": "Enter into a running OpenVZ container",
+      "language": "bash",
+      "tags": [
+        "enter",
+        "container",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl set <CTID> --ram <amount> --save",
+      "description": "Set memory limit for a container",
+      "scenario": "Set memory limit for a container",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "limit",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl set <CTID> --cpuunits <units> --save",
+      "description": "Set CPU units for a container",
+      "scenario": "Set CPU units for a container",
+      "language": "bash",
+      "tags": [
+        "cpu",
+        "units",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl set <CTID> --diskspace <soft>:<hard> --save",
+      "description": "Set disk space for a container",
+      "scenario": "Set disk space for a container",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "space",
+        "resource"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl set <CTID> --ipadd <IP> --save",
+      "description": "Set IP address for a container",
+      "scenario": "Set IP address for a container",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ip",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl set <CTID> --nameserver <IP> --save",
+      "description": "Set nameserver for a container",
+      "scenario": "Set nameserver for a container",
+      "language": "bash",
+      "tags": [
+        "network",
+        "dns",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iptables -t nat -A PREROUTING -p tcp --dport <host_port> -j DNAT --to-destination <container_ip>:<container_port>",
+      "description": "Configure port redirection for a container",
+      "scenario": "Configure port redirection for a container",
+      "language": "bash",
+      "tags": [
+        "network",
+        "port",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl exec <CTID> free -m",
+      "description": "Show resource usage of a container",
+      "scenario": "Show resource usage of a container",
+      "language": "bash",
+      "tags": [
+        "monitor",
+        "resource",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cat /var/log/vzctl.log | grep <CTID>",
+      "description": "View logs for a specific container",
+      "scenario": "View logs for a specific container",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "view",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vzctl status <CTID>",
+      "description": "Check the status of a container",
+      "scenario": "Check the status of a container",
+      "language": "bash",
+      "tags": [
+        "status",
+        "check",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

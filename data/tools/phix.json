@@ -1,0 +1,204 @@
+{
+  "title": "Phix Cheat Sheet",
+  "slug": "phix",
+  "description": "Essential commands and syntax for Phix programming.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var x = 10",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function add(a, b) return a + b end function",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if condition then\n    -- code\nelse\n    -- code\nend if",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "control flow",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i = 1 to 10 do\n    -- code\nend for",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "iteration",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while condition do\n    -- code\nend while",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "iteration",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch expression do\n    case 1:\n        -- code\n    case else:\n        -- code\nend switch",
+      "description": "Switch case",
+      "scenario": "Switch case",
+      "language": "text",
+      "tags": [
+        "switch",
+        "conditional",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file = open(\"filename.txt\", \"r\")",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "line = gets(file)",
+      "description": "Read from a file",
+      "scenario": "Read from a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "close(file)",
+      "description": "Close a file",
+      "scenario": "Close a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "close",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try\n    -- code\ncatch\n    -- handle error\nend try",
+      "description": "Try-catch block",
+      "scenario": "Try-catch block",
+      "language": "text",
+      "tags": [
+        "error",
+        "exception",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw new Exception(\"Error message\")",
+      "description": "Throw an exception",
+      "scenario": "Throw an exception",
+      "language": "text",
+      "tags": [
+        "error",
+        "exception",
+        "throw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert(condition, \"Error message\")",
+      "description": "Assert condition",
+      "scenario": "Assert condition",
+      "language": "text",
+      "tags": [
+        "assert",
+        "error",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list = {1, 2, 3, 4}",
+      "description": "Declare a list",
+      "scenario": "Declare a list",
+      "language": "text",
+      "tags": [
+        "list",
+        "data structure",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element = list[1]",
+      "description": "Access list element",
+      "scenario": "Access list element",
+      "language": "text",
+      "tags": [
+        "list",
+        "access",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dict = {\"key1\": \"value1\", \"key2\": \"value2\"}",
+      "description": "Declare a dictionary",
+      "scenario": "Declare a dictionary",
+      "language": "text",
+      "tags": [
+        "dictionary",
+        "data structure",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

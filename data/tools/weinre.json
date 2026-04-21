@@ -1,0 +1,204 @@
+{
+  "title": "Weinre Cheat Sheet",
+  "slug": "weinre",
+  "description": "Quick reference for Weinre CLI commands and usage patterns.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "npm install -g weinre",
+      "description": "Install Weinre globally using npm",
+      "scenario": "Install Weinre globally using npm",
+      "language": "bash",
+      "tags": [
+        "install",
+        "npm",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "weinre --version",
+      "description": "Verify Weinre installation",
+      "scenario": "Verify Weinre installation",
+      "language": "bash",
+      "tags": [
+        "verify",
+        "version",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm update -g weinre",
+      "description": "Update Weinre to the latest version",
+      "scenario": "Update Weinre to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "npm",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "weinre --boundHost -all-",
+      "description": "Start a Weinre server with default settings",
+      "scenario": "Start a Weinre server with default settings",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "weinre --boundHost -all- --httpPort 8080",
+      "description": "Start Weinre server on a specific port",
+      "scenario": "Start Weinre server on a specific port",
+      "language": "bash",
+      "tags": [
+        "port",
+        "server",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "weinre --boundHost -all- --debugClientID my-client-id",
+      "description": "Run Weinre with a specific debug client ID",
+      "scenario": "Run Weinre with a specific debug client ID",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "client",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "weinre --httpPort 8081",
+      "description": "Set the HTTP port for the Weinre server",
+      "scenario": "Set the HTTP port for the Weinre server",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "port",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "weinre --boundHost localhost",
+      "description": "Specify the host to which Weinre should bind",
+      "scenario": "Specify the host to which Weinre should bind",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "host",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "weinre --verbose",
+      "description": "Enable verbose logging for debugging",
+      "scenario": "Enable verbose logging for debugging",
+      "language": "bash",
+      "tags": [
+        "logging",
+        "debug",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"http://<weinre-server>:<port>/target/target-script-min.js\"></script>",
+      "description": "Embed Weinre script in HTML for debugging",
+      "scenario": "Embed Weinre script in HTML for debugging",
+      "language": "html",
+      "tags": [
+        "embed",
+        "script",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http://<weinre-server>:<port>/client/#anonymous",
+      "description": "Access the Weinre client user interface",
+      "scenario": "Access the Weinre client user interface",
+      "language": "text",
+      "tags": [
+        "access",
+        "client",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "weinre --httpPort 8080 --boundHost -all- --targetUrl http://example.com",
+      "description": "Use Weinre with a specific target URL",
+      "scenario": "Use Weinre with a specific target URL",
+      "language": "bash",
+      "tags": [
+        "target",
+        "url",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux | grep weinre",
+      "description": "Check if the Weinre server is running",
+      "scenario": "Check if the Weinre server is running",
+      "language": "bash",
+      "tags": [
+        "troubleshoot",
+        "server",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill $(ps aux | grep '[w]einre' | awk '{print $2}')",
+      "description": "Kill a running Weinre process",
+      "scenario": "Kill a running Weinre process",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm cache clean --force",
+      "description": "Clear npm cache if installation issues occur",
+      "scenario": "Clear npm cache if installation issues occur",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "npm",
+        "weinre"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Azure CLI Cheat Sheet",
+  "slug": "azure",
+  "description": "Essential Azure CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "az group create --name MyResourceGroup --location eastus",
+      "description": "Create a new resource group",
+      "scenario": "Create a new resource group",
+      "language": "bash",
+      "tags": [
+        "resource",
+        "group",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az group list --output table",
+      "description": "List all resource groups",
+      "scenario": "List all resource groups",
+      "language": "bash",
+      "tags": [
+        "resource",
+        "group",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az group delete --name MyResourceGroup --yes --no-wait",
+      "description": "Delete a resource group",
+      "scenario": "Delete a resource group",
+      "language": "bash",
+      "tags": [
+        "resource",
+        "group",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az vm create --resource-group MyResourceGroup --name MyVM --image UbuntuLTS --admin-username azureuser --generate-ssh-keys",
+      "description": "Create a new virtual machine",
+      "scenario": "Create a new virtual machine",
+      "language": "bash",
+      "tags": [
+        "vm",
+        "create",
+        "azure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az vm start --resource-group MyResourceGroup --name MyVM",
+      "description": "Start a virtual machine",
+      "scenario": "Start a virtual machine",
+      "language": "bash",
+      "tags": [
+        "vm",
+        "start",
+        "azure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az vm stop --resource-group MyResourceGroup --name MyVM",
+      "description": "Stop a virtual machine",
+      "scenario": "Stop a virtual machine",
+      "language": "bash",
+      "tags": [
+        "vm",
+        "stop",
+        "azure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az storage account create --name mystorageaccount --resource-group MyResourceGroup --location eastus --sku Standard_LRS",
+      "description": "Create a storage account",
+      "scenario": "Create a storage account",
+      "language": "bash",
+      "tags": [
+        "storage",
+        "account",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az storage account list --resource-group MyResourceGroup --output table",
+      "description": "List storage accounts",
+      "scenario": "List storage accounts",
+      "language": "bash",
+      "tags": [
+        "storage",
+        "account",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az storage account delete --name mystorageaccount --resource-group MyResourceGroup",
+      "description": "Delete a storage account",
+      "scenario": "Delete a storage account",
+      "language": "bash",
+      "tags": [
+        "storage",
+        "account",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az functionapp create --resource-group MyResourceGroup --consumption-plan-location eastus --runtime python --name MyFunctionApp --storage-account mystorageaccount",
+      "description": "Create a new Azure Function app",
+      "scenario": "Create a new Azure Function app",
+      "language": "bash",
+      "tags": [
+        "function",
+        "app",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az functionapp deployment source config-zip --resource-group MyResourceGroup --name MyFunctionApp --src myfunctionapp.zip",
+      "description": "Deploy code to an Azure Function app",
+      "scenario": "Deploy code to an Azure Function app",
+      "language": "bash",
+      "tags": [
+        "function",
+        "deploy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az functionapp list --resource-group MyResourceGroup --output table",
+      "description": "List all Azure Function apps",
+      "scenario": "List all Azure Function apps",
+      "language": "bash",
+      "tags": [
+        "function",
+        "app",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az network vnet create --name MyVnet --resource-group MyResourceGroup --subnet-name MySubnet",
+      "description": "Create a virtual network",
+      "scenario": "Create a virtual network",
+      "language": "bash",
+      "tags": [
+        "network",
+        "vnet",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az network vnet list --resource-group MyResourceGroup --output table",
+      "description": "List virtual networks",
+      "scenario": "List virtual networks",
+      "language": "bash",
+      "tags": [
+        "network",
+        "vnet",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "az network vnet delete --name MyVnet --resource-group MyResourceGroup",
+      "description": "Delete a virtual network",
+      "scenario": "Delete a virtual network",
+      "language": "bash",
+      "tags": [
+        "network",
+        "vnet",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

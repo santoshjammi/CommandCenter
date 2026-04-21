@@ -1,0 +1,165 @@
+{
+  "title": "Blessed CLI Cheat Sheet",
+  "slug": "blessed",
+  "description": "Quick reference for Blessed CLI commands and usage patterns.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "blessed init",
+      "description": "Initialize a new Blessed project",
+      "scenario": "Initialize a new Blessed project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed run",
+      "description": "Run the Blessed application",
+      "scenario": "Run the Blessed application",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed --version",
+      "description": "Check the version of Blessed installed",
+      "scenario": "Check the version of Blessed installed",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed config set <key> <value>",
+      "description": "Set the configuration file for Blessed",
+      "scenario": "Set the configuration file for Blessed",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed config get <key>",
+      "description": "Get a configuration value",
+      "scenario": "Get a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed run --debug",
+      "description": "Run Blessed in debug mode",
+      "scenario": "Run Blessed in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "run",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed build --prod",
+      "description": "Build the Blessed project for production",
+      "scenario": "Build the Blessed project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed clean",
+      "description": "Clean the build artifacts",
+      "scenario": "Clean the build artifacts",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "artifacts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed run --env=<environment>",
+      "description": "Use Blessed with a specific environment",
+      "scenario": "Use Blessed with a specific environment",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "run",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed generate component <name>",
+      "description": "Generate a new component in Blessed",
+      "scenario": "Generate a new component in Blessed",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "component",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blessed watch",
+      "description": "Watch for file changes and auto-reload",
+      "scenario": "Watch for file changes and auto-reload",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "reload",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

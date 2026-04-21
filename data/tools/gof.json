@@ -1,0 +1,126 @@
+{
+  "title": "Gang of Four Design Patterns",
+  "slug": "gof",
+  "description": "Essential GoF design patterns for software engineers.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "class Singleton {\n  private static instance: Singleton;\n  private constructor() {}\n  public static getInstance(): Singleton {\n    if (!Singleton.instance) {\n      Singleton.instance = new Singleton();\n    }\n    return Singleton.instance;\n  }\n}",
+      "description": "Create an instance of a class with a method rather than a constructor.",
+      "scenario": "Create an instance of a class with a method rather than a constructor.",
+      "language": "javascript",
+      "tags": [
+        "singleton",
+        "creational",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Director {\n  private builder: Builder;\n  constructor(builder: Builder) {\n    this.builder = builder;\n  }\n  public construct(): void {\n    this.builder.buildPartA();\n    this.builder.buildPartB();\n  }\n}",
+      "description": "Separate the construction of a complex object from its representation.",
+      "scenario": "Separate the construction of a complex object from its representation.",
+      "language": "typescript",
+      "tags": [
+        "builder",
+        "creational",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface AbstractFactory {\n  createProductA(): AbstractProductA;\n  createProductB(): AbstractProductB;\n}",
+      "description": "Create families of related objects without specifying their concrete classes.",
+      "scenario": "Create families of related objects without specifying their concrete classes.",
+      "language": "typescript",
+      "tags": [
+        "abstract factory",
+        "creational",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Proxy {\n  private realSubject: RealSubject;\n  constructor(realSubject: RealSubject) {\n    this.realSubject = realSubject;\n  }\n  public request(): void {\n    if (this.checkAccess()) {\n      this.realSubject.request();\n      this.logAccess();\n    }\n  }\n}",
+      "description": "Provide a surrogate or placeholder for another object to control access to it.",
+      "scenario": "Provide a surrogate or placeholder for another object to control access to it.",
+      "language": "typescript",
+      "tags": [
+        "proxy",
+        "structural",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Composite implements Component {\n  private children: Component[] = [];\n  public add(component: Component): void {\n    this.children.push(component);\n  }\n  public operation(): string {\n    return this.children.map(child => child.operation()).join('+');\n  }\n}",
+      "description": "Compose objects into tree structures to represent part-whole hierarchies.",
+      "scenario": "Compose objects into tree structures to represent part-whole hierarchies.",
+      "language": "typescript",
+      "tags": [
+        "composite",
+        "structural",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Decorator implements Component {\n  protected component: Component;\n  constructor(component: Component) {\n    this.component = component;\n  }\n  public operation(): string {\n    return `Decorator(${this.component.operation()})`;\n  }\n}",
+      "description": "Attach additional responsibilities to an object dynamically.",
+      "scenario": "Attach additional responsibilities to an object dynamically.",
+      "language": "typescript",
+      "tags": [
+        "decorator",
+        "structural",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Context {\n  private strategy: Strategy;\n  constructor(strategy: Strategy) {\n    this.strategy = strategy;\n  }\n  public executeStrategy(): void {\n    this.strategy.doAlgorithm();\n  }\n}",
+      "description": "Define a family of algorithms, encapsulate each one, and make them interchangeable.",
+      "scenario": "Define a family of algorithms, encapsulate each one, and make them interchangeable.",
+      "language": "typescript",
+      "tags": [
+        "strategy",
+        "behavioral",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Mediator {\n  private components: Component[] = [];\n  public register(component: Component): void {\n    this.components.push(component);\n  }\n  public notify(sender: Component, event: string): void {\n    // Handle interaction\n  }\n}",
+      "description": "Define an object that encapsulates how a set of objects interact.",
+      "scenario": "Define an object that encapsulates how a set of objects interact.",
+      "language": "typescript",
+      "tags": [
+        "mediator",
+        "behavioral",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Subject {\n  private observers: Observer[] = [];\n  public attach(observer: Observer): void {\n    this.observers.push(observer);\n  }\n  public notify(): void {\n    for (const observer of this.observers) {\n      observer.update(this);\n    }\n  }\n}",
+      "description": "Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified.",
+      "scenario": "Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified.",
+      "language": "typescript",
+      "tags": [
+        "observer",
+        "behavioral",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

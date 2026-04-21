@@ -1,0 +1,204 @@
+{
+  "title": "PCRE Cheat Sheet",
+  "slug": "pcre",
+  "description": "Quick reference for PCRE syntax and usage",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": ".",
+      "description": "Match any single character except newline",
+      "scenario": "Match any single character except newline",
+      "language": "text",
+      "tags": [
+        "match",
+        "character",
+        "wildcard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "^",
+      "description": "Match start of a string",
+      "scenario": "Match start of a string",
+      "language": "text",
+      "tags": [
+        "anchor",
+        "start",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$",
+      "description": "Match end of a string",
+      "scenario": "Match end of a string",
+      "language": "text",
+      "tags": [
+        "anchor",
+        "end",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\d",
+      "description": "Match any digit",
+      "scenario": "Match any digit",
+      "language": "text",
+      "tags": [
+        "digit",
+        "character class",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\D",
+      "description": "Match any non-digit",
+      "scenario": "Match any non-digit",
+      "language": "text",
+      "tags": [
+        "non-digit",
+        "character class",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\s",
+      "description": "Match any whitespace character",
+      "scenario": "Match any whitespace character",
+      "language": "text",
+      "tags": [
+        "whitespace",
+        "character class",
+        "space"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*",
+      "description": "Match zero or more occurrences",
+      "scenario": "Match zero or more occurrences",
+      "language": "text",
+      "tags": [
+        "quantifier",
+        "zero or more",
+        "repeat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+",
+      "description": "Match one or more occurrences",
+      "scenario": "Match one or more occurrences",
+      "language": "text",
+      "tags": [
+        "quantifier",
+        "one or more",
+        "repeat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?",
+      "description": "Match zero or one occurrence",
+      "scenario": "Match zero or one occurrence",
+      "language": "text",
+      "tags": [
+        "quantifier",
+        "optional",
+        "repeat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(abc)",
+      "description": "Capture group for backreference",
+      "scenario": "Capture group for backreference",
+      "language": "text",
+      "tags": [
+        "group",
+        "capture",
+        "backreference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(?:abc)",
+      "description": "Non-capturing group",
+      "scenario": "Non-capturing group",
+      "language": "text",
+      "tags": [
+        "group",
+        "non-capturing",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\1",
+      "description": "Backreference to the first captured group",
+      "scenario": "Backreference to the first captured group",
+      "language": "text",
+      "tags": [
+        "backreference",
+        "group",
+        "capture"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(?=abc)",
+      "description": "Positive lookahead assertion",
+      "scenario": "Positive lookahead assertion",
+      "language": "text",
+      "tags": [
+        "lookahead",
+        "assertion",
+        "positive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(?!abc)",
+      "description": "Negative lookahead assertion",
+      "scenario": "Negative lookahead assertion",
+      "language": "text",
+      "tags": [
+        "lookahead",
+        "assertion",
+        "negative"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(?<=abc)",
+      "description": "Positive lookbehind assertion",
+      "scenario": "Positive lookbehind assertion",
+      "language": "text",
+      "tags": [
+        "lookbehind",
+        "assertion",
+        "positive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

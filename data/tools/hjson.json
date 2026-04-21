@@ -1,0 +1,204 @@
+{
+  "title": "Hjson Cheat Sheet",
+  "slug": "hjson",
+  "description": "A quick reference for Hjson syntax and usage",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "{\n  key: \"value\",\n  number: 123\n}",
+      "description": "Define a simple object with key-value pairs",
+      "scenario": "Define a simple object with key-value pairs",
+      "language": "yaml",
+      "tags": [
+        "object",
+        "syntax",
+        "key-value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[\n  \"apple\",\n  \"banana\",\n  \"cherry\"\n]",
+      "description": "Define an array of values",
+      "scenario": "Define an array of values",
+      "language": "yaml",
+      "tags": [
+        "array",
+        "syntax",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  # This is a comment\n  key: \"value\"\n}",
+      "description": "Include comments in Hjson",
+      "scenario": "Include comments in Hjson",
+      "language": "yaml",
+      "tags": [
+        "comments",
+        "syntax",
+        "documentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  description: \"\"\"\n  This is a multi-line\n  string.\n  \"\"\"\n}",
+      "description": "Define a multi-line string",
+      "scenario": "Define a multi-line string",
+      "language": "yaml",
+      "tags": [
+        "string",
+        "multi-line",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  isActive: true,\n  isVerified: false\n}",
+      "description": "Use boolean values",
+      "scenario": "Use boolean values",
+      "language": "yaml",
+      "tags": [
+        "boolean",
+        "syntax",
+        "data type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  key: null\n}",
+      "description": "Define a null value",
+      "scenario": "Define a null value",
+      "language": "yaml",
+      "tags": [
+        "null",
+        "syntax",
+        "data type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hjson -j input.json -o output.hjson",
+      "description": "Convert JSON to Hjson format",
+      "scenario": "Convert JSON to Hjson format",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "cli",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hjson -j input.hjson -o output.json",
+      "description": "Convert Hjson to JSON format",
+      "scenario": "Convert Hjson to JSON format",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "cli",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hjson -v input.hjson",
+      "description": "Validate an Hjson file",
+      "scenario": "Validate an Hjson file",
+      "language": "bash",
+      "tags": [
+        "validate",
+        "cli",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  parent: {\n    child: {\n      key: \"value\"\n    }\n  }\n}",
+      "description": "Define an object with nested objects",
+      "scenario": "Define an object with nested objects",
+      "language": "yaml",
+      "tags": [
+        "nested",
+        "object",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  unquotedKey: \"value\"\n}",
+      "description": "Use unquoted keys",
+      "scenario": "Use unquoted keys",
+      "language": "yaml",
+      "tags": [
+        "unquoted",
+        "keys",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[\n  {\n    key1: \"value1\"\n  },\n  {\n    key2: \"value2\"\n  }\n]",
+      "description": "Define an array of objects",
+      "scenario": "Define an array of objects",
+      "language": "yaml",
+      "tags": [
+        "array",
+        "objects",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  host: \"localhost\",\n  port: 8080,\n  useSSL: false\n}",
+      "description": "Define a configuration with default values",
+      "scenario": "Define a configuration with default values",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "default",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  # key: \"value\",\n  # anotherKey: 123\n}",
+      "description": "Comment out a section temporarily",
+      "scenario": "Comment out a section temporarily",
+      "language": "yaml",
+      "tags": [
+        "comment",
+        "pattern",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[\n  \"apple\",\n  \"banana\",\n  \"cherry\",\n]",
+      "description": "Use trailing commas in arrays",
+      "scenario": "Use trailing commas in arrays",
+      "language": "yaml",
+      "tags": [
+        "trailing comma",
+        "array",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

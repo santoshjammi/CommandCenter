@@ -1,0 +1,204 @@
+{
+  "title": "HTML Emails Cheat Sheet",
+  "slug": "html-emails",
+  "description": "Essential snippets and commands for crafting HTML emails.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "<!DOCTYPE html><html><head><title>Email Title</title></head><body></body></html>",
+      "description": "Define the basic structure of an HTML email",
+      "scenario": "Define the basic structure of an HTML email",
+      "language": "html",
+      "tags": [
+        "html",
+        "email",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "description": "Add a viewport meta tag for responsive design",
+      "scenario": "Add a viewport meta tag for responsive design",
+      "language": "html",
+      "tags": [
+        "responsive",
+        "meta",
+        "viewport"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<style>body { margin: 0; padding: 0; }</style>",
+      "description": "Include a CSS reset for consistent styling",
+      "scenario": "Include a CSS reset for consistent styling",
+      "language": "html",
+      "tags": [
+        "css",
+        "reset",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p style=\"color: #333; font-size: 16px;\">Hello, World!</p>",
+      "description": "Apply inline styles to an HTML element",
+      "scenario": "Apply inline styles to an HTML element",
+      "language": "html",
+      "tags": [
+        "inline",
+        "css",
+        "styles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div style=\"background-color: #f0f0f0;\">Content</div>",
+      "description": "Set a background color using inline CSS",
+      "scenario": "Set a background color using inline CSS",
+      "language": "html",
+      "tags": [
+        "background",
+        "color",
+        "inline"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<td style=\"padding: 10px;\">Cell Content</td>",
+      "description": "Add padding to a table cell",
+      "scenario": "Add padding to a table cell",
+      "language": "html",
+      "tags": [
+        "padding",
+        "table",
+        "cell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<center><h1>Welcome!</h1></center>",
+      "description": "Use the 'center' tag for centering content",
+      "scenario": "Use the 'center' tag for centering content",
+      "language": "html",
+      "tags": [
+        "center",
+        "content",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<table><tr><td>Content</td></tr></table>",
+      "description": "Create a table layout for email",
+      "scenario": "Create a table layout for email",
+      "language": "html",
+      "tags": [
+        "table",
+        "layout",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a href=\"https://example.com\" target=\"_blank\">Visit Us</a>",
+      "description": "Add a link with a target attribute",
+      "scenario": "Add a link with a target attribute",
+      "language": "html",
+      "tags": [
+        "link",
+        "target",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img src=\"image.jpg\" alt=\"Description of image\" style=\"width:100%;\">",
+      "description": "Embed an image with alt text",
+      "scenario": "Embed an image with alt text",
+      "language": "html",
+      "tags": [
+        "image",
+        "embed",
+        "alt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a href=\"https://example.com/video.mp4\">Watch Video</a>",
+      "description": "Add a video using a link",
+      "scenario": "Add a video using a link",
+      "language": "html",
+      "tags": [
+        "video",
+        "link",
+        "media"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img src=\"animation.gif\" alt=\"Animated GIF\" style=\"width:100%;\">",
+      "description": "Use a GIF in an email",
+      "scenario": "Use a GIF in an email",
+      "language": "html",
+      "tags": [
+        "gif",
+        "animation",
+        "embed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://litmus.com",
+      "description": "Use Litmus for email testing",
+      "scenario": "Use Litmus for email testing",
+      "language": "text",
+      "tags": [
+        "testing",
+        "litmus",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://validator.w3.org",
+      "description": "Validate HTML with W3C Validator",
+      "scenario": "Validate HTML with W3C Validator",
+      "language": "text",
+      "tags": [
+        "validate",
+        "html",
+        "w3c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://www.emailonacid.com",
+      "description": "Check email rendering with Email on Acid",
+      "scenario": "Check email rendering with Email on Acid",
+      "language": "text",
+      "tags": [
+        "rendering",
+        "testing",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

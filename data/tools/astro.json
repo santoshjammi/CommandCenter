@@ -1,0 +1,204 @@
+{
+  "title": "Astro Cheat Sheet",
+  "slug": "astro",
+  "description": "Quick reference for Astro CLI commands and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npx create-astro@latest",
+      "description": "Initialize a new Astro project",
+      "scenario": "Initialize a new Astro project",
+      "language": "bash",
+      "tags": [
+        "astro",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run dev",
+      "description": "Start the Astro development server",
+      "scenario": "Start the Astro development server",
+      "language": "bash",
+      "tags": [
+        "astro",
+        "dev",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run build",
+      "description": "Build the Astro project for production",
+      "scenario": "Build the Astro project for production",
+      "language": "bash",
+      "tags": [
+        "astro",
+        "build",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "base: '/my-base-url/'",
+      "description": "Set the base URL for the project",
+      "scenario": "Set the base URL for the project",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "base",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "typescript: true",
+      "description": "Enable TypeScript support",
+      "scenario": "Enable TypeScript support",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "typescript",
+        "support"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "outDir: './dist'",
+      "description": "Configure the output directory",
+      "scenario": "Configure the output directory",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "output",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import MyComponent from '../components/MyComponent.astro';",
+      "description": "Import a component in Astro",
+      "scenario": "Import a component in Astro",
+      "language": "javascript",
+      "tags": [
+        "astro",
+        "import",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<MyComponent />",
+      "description": "Use a component in Astro",
+      "scenario": "Use a component in Astro",
+      "language": "html",
+      "tags": [
+        "astro",
+        "component",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<style src=\"../styles/global.css\"></style>",
+      "description": "Add a CSS file to a component",
+      "scenario": "Add a CSS file to a component",
+      "language": "html",
+      "tags": [
+        "astro",
+        "css",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vercel --prod",
+      "description": "Deploy Astro site to Vercel",
+      "scenario": "Deploy Astro site to Vercel",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "vercel",
+        "astro"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netlify deploy --prod",
+      "description": "Deploy Astro site to Netlify",
+      "scenario": "Deploy Astro site to Netlify",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "netlify",
+        "astro"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run deploy",
+      "description": "Deploy Astro site to GitHub Pages",
+      "scenario": "Deploy Astro site to GitHub Pages",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "github",
+        "astro"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run astro -- cache clear",
+      "description": "Clear Astro cache",
+      "scenario": "Clear Astro cache",
+      "language": "bash",
+      "tags": [
+        "troubleshoot",
+        "cache",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "astro --version",
+      "description": "Check Astro version",
+      "scenario": "Check Astro version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "astro"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run build -- --verbose",
+      "description": "Debug Astro build issues",
+      "scenario": "Debug Astro build issues",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "build",
+        "astro"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

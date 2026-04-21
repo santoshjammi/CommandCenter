@@ -1,0 +1,165 @@
+{
+  "title": "Apache ServiceMix Cheat Sheet",
+  "slug": "apache-servicemix",
+  "description": "Essential commands and configurations for Apache ServiceMix.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "./bin/servicemix start",
+      "description": "Start the ServiceMix server",
+      "scenario": "Start the ServiceMix server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./bin/servicemix stop",
+      "description": "Stop the ServiceMix server",
+      "scenario": "Stop the ServiceMix server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "server",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./bin/servicemix restart",
+      "description": "Restart the ServiceMix server",
+      "scenario": "Restart the ServiceMix server",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "server",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle:install -s mvn:groupId/artifactId/version",
+      "description": "Deploy a bundle using the Karaf console",
+      "scenario": "Deploy a bundle using the Karaf console",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "bundle",
+        "karaf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle:list",
+      "description": "List all deployed bundles",
+      "scenario": "List all deployed bundles",
+      "language": "bash",
+      "tags": [
+        "list",
+        "bundles",
+        "karaf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle:uninstall <bundle-id>",
+      "description": "Uninstall a specific bundle",
+      "scenario": "Uninstall a specific bundle",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "bundle",
+        "karaf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vim etc/org.apache.karaf.features.cfg",
+      "description": "Edit the main configuration file",
+      "scenario": "Edit the main configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "edit",
+        "karaf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log:set DEBUG",
+      "description": "Set the log level to DEBUG",
+      "scenario": "Set the log level to DEBUG",
+      "language": "bash",
+      "tags": [
+        "log",
+        "debug",
+        "karaf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "features:addurl mvn:groupId/artifactId/version/xml/features",
+      "description": "Add a new feature repository",
+      "scenario": "Add a new feature repository",
+      "language": "bash",
+      "tags": [
+        "features",
+        "repository",
+        "karaf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "status",
+      "description": "Check the current status of the ServiceMix server",
+      "scenario": "Check the current status of the ServiceMix server",
+      "language": "bash",
+      "tags": [
+        "status",
+        "server",
+        "karaf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "help",
+      "description": "Display the Karaf shell help",
+      "scenario": "Display the Karaf shell help",
+      "language": "bash",
+      "tags": [
+        "help",
+        "karaf",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log:tail",
+      "description": "View the log file in real-time",
+      "scenario": "View the log file in real-time",
+      "language": "bash",
+      "tags": [
+        "log",
+        "tail",
+        "karaf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

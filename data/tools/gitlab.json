@@ -1,0 +1,204 @@
+{
+  "title": "GitLab Cheat Sheet",
+  "slug": "gitlab",
+  "description": "Essential GitLab CLI commands and configuration snippets for engineers.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "git clone https://gitlab.com/username/repo.git",
+      "description": "Clone a repository from GitLab",
+      "scenario": "Clone a repository from GitLab",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git add .",
+      "description": "Add all changes to staging",
+      "scenario": "Add all changes to staging",
+      "language": "bash",
+      "tags": [
+        "git",
+        "add",
+        "staging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Your commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout -b new-branch-name",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout existing-branch",
+      "description": "Switch to an existing branch",
+      "scenario": "Switch to an existing branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge feature-branch",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "merge",
+        "branch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stages:\n  - build\n  - test\n\nbuild_job:\n  stage: build\n  script:\n    - echo \"Building...\"\n\ntest_job:\n  stage: test\n  script:\n    - echo \"Testing...\"",
+      "description": "Define a basic GitLab CI/CD pipeline",
+      "scenario": "Define a basic GitLab CI/CD pipeline",
+      "language": "yaml",
+      "tags": [
+        "gitlab",
+        "ci",
+        "pipeline"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gitlab-runner exec shell job_name",
+      "description": "Run a specific job in GitLab CI/CD",
+      "scenario": "Run a specific job in GitLab CI/CD",
+      "language": "bash",
+      "tags": [
+        "gitlab",
+        "ci",
+        "runner"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --header \"PRIVATE-TOKEN: <your_access_token>\" \"https://gitlab.com/api/v4/projects/:id/pipelines\"",
+      "description": "View CI/CD pipeline status",
+      "scenario": "View CI/CD pipeline status",
+      "language": "bash",
+      "tags": [
+        "gitlab",
+        "ci",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --request POST --header \"PRIVATE-TOKEN: <your_access_token>\" \"https://gitlab.com/api/v4/projects/:id/members\" --data \"user_id=<user_id>&access_level=30\"",
+      "description": "Add a user to a GitLab project",
+      "scenario": "Add a user to a GitLab project",
+      "language": "bash",
+      "tags": [
+        "gitlab",
+        "user",
+        "permissions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --header \"PRIVATE-TOKEN: <your_access_token>\" \"https://gitlab.com/api/v4/projects/:id/members\"",
+      "description": "List all members of a project",
+      "scenario": "List all members of a project",
+      "language": "bash",
+      "tags": [
+        "gitlab",
+        "members",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --request DELETE --header \"PRIVATE-TOKEN: <your_access_token>\" \"https://gitlab.com/api/v4/projects/:id/members/<user_id>\"",
+      "description": "Remove a user from a project",
+      "scenario": "Remove a user from a project",
+      "language": "bash",
+      "tags": [
+        "gitlab",
+        "user",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --request POST --header \"PRIVATE-TOKEN: <your_access_token>\" \"https://gitlab.com/api/v4/projects/:id/merge_requests\" --data \"source_branch=<source>&target_branch=<target>&title=<title>\"",
+      "description": "Create a new merge request",
+      "scenario": "Create a new merge request",
+      "language": "bash",
+      "tags": [
+        "gitlab",
+        "merge",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --header \"PRIVATE-TOKEN: <your_access_token>\" \"https://gitlab.com/api/v4/projects/:id/merge_requests\"",
+      "description": "List all merge requests",
+      "scenario": "List all merge requests",
+      "language": "bash",
+      "tags": [
+        "gitlab",
+        "merge",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --request POST --header \"PRIVATE-TOKEN: <your_access_token>\" \"https://gitlab.com/api/v4/projects/:id/merge_requests/:merge_request_iid/approve\"",
+      "description": "Approve a merge request",
+      "scenario": "Approve a merge request",
+      "language": "bash",
+      "tags": [
+        "gitlab",
+        "merge",
+        "approve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

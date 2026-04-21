@@ -1,0 +1,204 @@
+{
+  "title": "Statistics Cheat Sheet",
+  "slug": "statistics",
+  "description": "Essential commands and code snippets for statistical analysis.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "import statistics\nmean = statistics.mean([1, 2, 3, 4, 5])",
+      "description": "Calculate the mean of a list of numbers",
+      "scenario": "Calculate the mean of a list of numbers",
+      "language": "python",
+      "tags": [
+        "mean",
+        "average",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import statistics\nmedian = statistics.median([1, 2, 3, 4, 5])",
+      "description": "Calculate the median of a list of numbers",
+      "scenario": "Calculate the median of a list of numbers",
+      "language": "python",
+      "tags": [
+        "median",
+        "central tendency",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import statistics\nstdev = statistics.stdev([1, 2, 3, 4, 5])",
+      "description": "Calculate the standard deviation of a list of numbers",
+      "scenario": "Calculate the standard deviation of a list of numbers",
+      "language": "python",
+      "tags": [
+        "standard deviation",
+        "dispersion",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mean(c(1, 2, 3, 4, 5))",
+      "description": "Calculate the mean of a vector",
+      "scenario": "Calculate the mean of a vector",
+      "language": "r",
+      "tags": [
+        "mean",
+        "average",
+        "r"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "median(c(1, 2, 3, 4, 5))",
+      "description": "Calculate the median of a vector",
+      "scenario": "Calculate the median of a vector",
+      "language": "r",
+      "tags": [
+        "median",
+        "central tendency",
+        "r"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sd(c(1, 2, 3, 4, 5))",
+      "description": "Calculate the standard deviation of a vector",
+      "scenario": "Calculate the standard deviation of a vector",
+      "language": "r",
+      "tags": [
+        "standard deviation",
+        "dispersion",
+        "r"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT AVG(column_name) FROM table_name;",
+      "description": "Calculate the average value of a column",
+      "scenario": "Calculate the average value of a column",
+      "language": "sql",
+      "tags": [
+        "average",
+        "sql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT column_name FROM table_name ORDER BY column_name LIMIT 1 OFFSET (SELECT COUNT(*) FROM table_name) / 2;",
+      "description": "Find the median value of a column",
+      "scenario": "Find the median value of a column",
+      "language": "sql",
+      "tags": [
+        "median",
+        "sql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT STDDEV(column_name) FROM table_name;",
+      "description": "Calculate the standard deviation of a column",
+      "scenario": "Calculate the standard deviation of a column",
+      "language": "sql",
+      "tags": [
+        "standard deviation",
+        "sql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "=AVERAGE(A1:A5)",
+      "description": "Calculate the mean of a range",
+      "scenario": "Calculate the mean of a range",
+      "language": "text",
+      "tags": [
+        "mean",
+        "excel",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "=MEDIAN(A1:A5)",
+      "description": "Calculate the median of a range",
+      "scenario": "Calculate the median of a range",
+      "language": "text",
+      "tags": [
+        "median",
+        "excel",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "=STDEV.P(A1:A5)",
+      "description": "Calculate the standard deviation of a range",
+      "scenario": "Calculate the standard deviation of a range",
+      "language": "text",
+      "tags": [
+        "standard deviation",
+        "excel",
+        "formula"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "variance = sum((x - mean) ** 2 for x in data) / len(data)",
+      "description": "Pattern for calculating variance",
+      "scenario": "Pattern for calculating variance",
+      "language": "python",
+      "tags": [
+        "variance",
+        "pattern",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mode = max(set(data), key=data.count)",
+      "description": "Pattern for calculating mode",
+      "scenario": "Pattern for calculating mode",
+      "language": "python",
+      "tags": [
+        "mode",
+        "pattern",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "range_value = max(data) - min(data)",
+      "description": "Pattern for calculating range",
+      "scenario": "Pattern for calculating range",
+      "language": "python",
+      "tags": [
+        "range",
+        "pattern",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

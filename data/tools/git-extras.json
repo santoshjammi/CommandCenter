@@ -1,0 +1,204 @@
+{
+  "title": "Git Extras Cheat Sheet",
+  "slug": "git-extras",
+  "description": "Enhance your Git workflow with these extra commands.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git br -D",
+      "description": "Delete all branches except master",
+      "scenario": "Delete all branches except master",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git rename-branch old-name new-name",
+      "description": "Rename a branch locally and remotely",
+      "scenario": "Rename a branch locally and remotely",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "rename"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git summary",
+      "description": "List all branches with last commit details",
+      "scenario": "List all branches with last commit details",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "summary"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git amend",
+      "description": "Amend the last commit without changing its message",
+      "scenario": "Amend the last commit without changing its message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "amend"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git undo",
+      "description": "Undo the last commit, keeping changes in the working directory",
+      "scenario": "Undo the last commit, keeping changes in the working directory",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git rebase -i HEAD~n",
+      "description": "Squash multiple commits into one",
+      "scenario": "Squash multiple commits into one",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "squash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git graph",
+      "description": "View a graph of commits",
+      "scenario": "View a graph of commits",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "graph"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git history",
+      "description": "Show a summary of repository history",
+      "scenario": "Show a summary of repository history",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git contributors",
+      "description": "Display a list of contributors to the repository",
+      "scenario": "Display a list of contributors to the repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "contributors"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git init-repo",
+      "description": "Initialize a new repository with a README",
+      "scenario": "Initialize a new repository with a README",
+      "language": "bash",
+      "tags": [
+        "git",
+        "repository",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git cleanup",
+      "description": "Clean up unnecessary files and optimize the local repository",
+      "scenario": "Clean up unnecessary files and optimize the local repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "repository",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone-url",
+      "description": "Clone a repository and set up remote tracking",
+      "scenario": "Clone a repository and set up remote tracking",
+      "language": "bash",
+      "tags": [
+        "git",
+        "repository",
+        "clone"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git stash-push \"message\"",
+      "description": "Stash changes with a message",
+      "scenario": "Stash changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "stash",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git stash-pop",
+      "description": "Apply the latest stash and drop it from the stash list",
+      "scenario": "Apply the latest stash and drop it from the stash list",
+      "language": "bash",
+      "tags": [
+        "git",
+        "stash",
+        "pop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git stash-list",
+      "description": "List all stashed changes with details",
+      "scenario": "List all stashed changes with details",
+      "language": "bash",
+      "tags": [
+        "git",
+        "stash",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

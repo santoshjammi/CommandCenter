@@ -1,0 +1,204 @@
+{
+  "title": "Hardware Description Language (HDL) Cheat Sheet",
+  "slug": "hdl",
+  "description": "Quick reference for common HDL commands and syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "entity MyEntity is\n  port (\n    clk : in std_logic;\n    rst : in std_logic;\n    data_out : out std_logic_vector(7 downto 0)\n  );\nend MyEntity;",
+      "description": "Declare an entity in VHDL",
+      "scenario": "Declare an entity in VHDL",
+      "language": "vhdl",
+      "tags": [
+        "vhdl",
+        "entity",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "architecture Behavioral of MyEntity is\nbegin\n  process(clk, rst)\n  begin\n    if rst = '1' then\n      data_out <= (others => '0');\n    elsif rising_edge(clk) then\n      -- logic here\n    end if;\n  end process;\nend Behavioral;",
+      "description": "Define an architecture in VHDL",
+      "scenario": "Define an architecture in VHDL",
+      "language": "vhdl",
+      "tags": [
+        "vhdl",
+        "architecture",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "signal temp_signal : std_logic_vector(7 downto 0);",
+      "description": "Use a signal assignment in VHDL",
+      "scenario": "Use a signal assignment in VHDL",
+      "language": "vhdl",
+      "tags": [
+        "vhdl",
+        "signal",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module MyModule (\n  input wire clk,\n  input wire rst,\n  output reg [7:0] data_out\n);\nendmodule",
+      "description": "Declare a module in Verilog",
+      "scenario": "Declare a module in Verilog",
+      "language": "verilog",
+      "tags": [
+        "verilog",
+        "module",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "always @(posedge clk or posedge rst) begin\n  if (rst) begin\n    data_out <= 8'b0;\n  end else begin\n    // logic here\n  end\nend",
+      "description": "Define an always block in Verilog",
+      "scenario": "Define an always block in Verilog",
+      "language": "verilog",
+      "tags": [
+        "verilog",
+        "always",
+        "block"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "initial begin\n  data_out = 8'b0;\nend",
+      "description": "Use an initial block in Verilog",
+      "scenario": "Use an initial block in Verilog",
+      "language": "verilog",
+      "tags": [
+        "verilog",
+        "initial",
+        "block"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ghdl -a myfile.vhdl",
+      "description": "Compile a VHDL file using GHDL",
+      "scenario": "Compile a VHDL file using GHDL",
+      "language": "bash",
+      "tags": [
+        "vhdl",
+        "ghdl",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ghdl -r myfile --wave=myfile.ghw",
+      "description": "Simulate a VHDL file using GHDL",
+      "scenario": "Simulate a VHDL file using GHDL",
+      "language": "bash",
+      "tags": [
+        "vhdl",
+        "ghdl",
+        "simulate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iverilog -o myfile.vvp myfile.v",
+      "description": "Compile a Verilog file using Icarus Verilog",
+      "scenario": "Compile a Verilog file using Icarus Verilog",
+      "language": "bash",
+      "tags": [
+        "verilog",
+        "iverilog",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vsim -c -do \"run -all\" myfile",
+      "description": "Run a simulation with ModelSim",
+      "scenario": "Run a simulation with ModelSim",
+      "language": "bash",
+      "tags": [
+        "modelsim",
+        "simulation",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gtkwave myfile.vcd",
+      "description": "View waveform with GTKWave",
+      "scenario": "View waveform with GTKWave",
+      "language": "bash",
+      "tags": [
+        "gtkwave",
+        "waveform",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$dumpfile(\"myfile.vcd\");\n$dumpvars(0, MyModule);",
+      "description": "Generate a VCD file in Verilog",
+      "scenario": "Generate a VCD file in Verilog",
+      "language": "verilog",
+      "tags": [
+        "verilog",
+        "vcd",
+        "dump"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "entity tb_MyEntity is\nend tb_MyEntity;\n\narchitecture sim of tb_MyEntity is\n  signal clk : std_logic := '0';\n  signal rst : std_logic := '1';\n  signal data_out : std_logic_vector(7 downto 0);\n\n  component MyEntity\n    port (\n      clk : in std_logic;\n      rst : in std_logic;\n      data_out : out std_logic_vector(7 downto 0)\n    );\n  end component;\n\nbegin\n  uut: MyEntity port map (\n    clk => clk,\n    rst => rst,\n    data_out => data_out\n  );\n\n  clk <= not clk after 10 ns;\n\n  process\n  begin\n    rst <= '0' after 20 ns;\n    wait;\n  end process;\nend sim;",
+      "description": "Set up a basic VHDL testbench",
+      "scenario": "Set up a basic VHDL testbench",
+      "language": "vhdl",
+      "tags": [
+        "vhdl",
+        "testbench",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module tb_MyModule;\n  reg clk;\n  reg rst;\n  wire [7:0] data_out;\n\n  MyModule uut (\n    .clk(clk),\n    .rst(rst),\n    .data_out(data_out)\n  );\n\n  initial begin\n    clk = 0;\n    rst = 1;\n    #20 rst = 0;\n  end\n\n  always #10 clk = ~clk;\nendmodule",
+      "description": "Configure a basic Verilog testbench",
+      "scenario": "Configure a basic Verilog testbench",
+      "language": "verilog",
+      "tags": [
+        "verilog",
+        "testbench",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "clk <= not clk after 10 ns;",
+      "description": "Set up a clock signal in VHDL",
+      "scenario": "Set up a clock signal in VHDL",
+      "language": "vhdl",
+      "tags": [
+        "vhdl",
+        "clock",
+        "signal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

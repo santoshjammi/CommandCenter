@@ -1,0 +1,165 @@
+{
+  "title": "NetworkPorts",
+  "slug": "networkports",
+  "description": "Common network port numbers and their uses",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "80",
+      "description": "HTTP traffic",
+      "scenario": "HTTP traffic",
+      "language": "text",
+      "tags": [
+        "HTTP",
+        "web",
+        "tcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "443",
+      "description": "HTTPS traffic",
+      "scenario": "HTTPS traffic",
+      "language": "text",
+      "tags": [
+        "HTTPS",
+        "web",
+        "tcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "21",
+      "description": "FTP control",
+      "scenario": "FTP control",
+      "language": "text",
+      "tags": [
+        "FTP",
+        "file transfer",
+        "tcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "53",
+      "description": "DNS queries",
+      "scenario": "DNS queries",
+      "language": "text",
+      "tags": [
+        "DNS",
+        "udp",
+        "queries"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "68",
+      "description": "DHCP client requests",
+      "scenario": "DHCP client requests",
+      "language": "text",
+      "tags": [
+        "DHCP",
+        "udp",
+        "client"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "161",
+      "description": "SNMP management",
+      "scenario": "SNMP management",
+      "language": "text",
+      "tags": [
+        "SNMP",
+        "udp",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sT <target-ip>",
+      "description": "Scan common TCP ports using nmap",
+      "scenario": "Scan common TCP ports using nmap",
+      "language": "bash",
+      "tags": [
+        "nmap",
+        "tcp",
+        "scan"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sU <target-ip>",
+      "description": "Scan all UDP ports using nmap",
+      "scenario": "Scan all UDP ports using nmap",
+      "language": "bash",
+      "tags": [
+        "nmap",
+        "udp",
+        "scan"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -p 1-100 <target-ip>",
+      "description": "Scan specific port range using nmap",
+      "scenario": "Scan specific port range using nmap",
+      "language": "bash",
+      "tags": [
+        "nmap",
+        "port range",
+        "scan"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ufw allow 80/tcp",
+      "description": "Allow incoming HTTP traffic on UFW",
+      "scenario": "Allow incoming HTTP traffic on UFW",
+      "language": "bash",
+      "tags": [
+        "ufw",
+        "firewall",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ufw default deny incoming",
+      "description": "Deny all incoming traffic on UFW",
+      "scenario": "Deny all incoming traffic on UFW",
+      "language": "bash",
+      "tags": [
+        "ufw",
+        "firewall",
+        "deny"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ufw status",
+      "description": "Check UFW status",
+      "scenario": "Check UFW status",
+      "language": "bash",
+      "tags": [
+        "ufw",
+        "firewall",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "REST API Cheat Sheet",
+  "slug": "rest",
+  "description": "Quick reference for REST API commands and patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "GET /api/resource",
+      "description": "Retrieve data from the server",
+      "scenario": "Retrieve data from the server",
+      "language": "text",
+      "tags": [
+        "GET",
+        "HTTP",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /api/resource",
+      "description": "Create a new resource on the server",
+      "scenario": "Create a new resource on the server",
+      "language": "text",
+      "tags": [
+        "POST",
+        "HTTP",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PUT /api/resource/1",
+      "description": "Update an existing resource on the server",
+      "scenario": "Update an existing resource on the server",
+      "language": "text",
+      "tags": [
+        "PUT",
+        "HTTP",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "201 Created",
+      "description": "Request succeeded and a resource was created",
+      "scenario": "Request succeeded and a resource was created",
+      "language": "text",
+      "tags": [
+        "201",
+        "HTTP",
+        "success"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "404 Not Found",
+      "description": "The server cannot find the requested resource",
+      "scenario": "The server cannot find the requested resource",
+      "language": "text",
+      "tags": [
+        "404",
+        "HTTP",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "204 No Content",
+      "description": "The request was successful but there is no content to send",
+      "scenario": "The request was successful but there is no content to send",
+      "language": "text",
+      "tags": [
+        "204",
+        "HTTP",
+        "success"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Content-Type: application/json",
+      "description": "Specify the media type of the resource",
+      "scenario": "Specify the media type of the resource",
+      "language": "text",
+      "tags": [
+        "header",
+        "Content-Type",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Accept-Language: en-US",
+      "description": "Indicate the preferred language for the response",
+      "scenario": "Indicate the preferred language for the response",
+      "language": "text",
+      "tags": [
+        "header",
+        "Accept-Language",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Authorization: Bearer <token>",
+      "description": "Provide authentication credentials",
+      "scenario": "Provide authentication credentials",
+      "language": "text",
+      "tags": [
+        "header",
+        "Authorization",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET https://api.example.com/resource",
+      "description": "Send a GET request to a REST API",
+      "scenario": "Send a GET request to a REST API",
+      "language": "bash",
+      "tags": [
+        "cURL",
+        "GET",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST https://api.example.com/resource -H \"Content-Type: application/json\" -d '{\"key\":\"value\"}'",
+      "description": "Send a POST request with JSON data",
+      "scenario": "Send a POST request with JSON data",
+      "language": "bash",
+      "tags": [
+        "cURL",
+        "POST",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X DELETE https://api.example.com/resource/1",
+      "description": "Send a DELETE request to remove a resource",
+      "scenario": "Send a DELETE request to remove a resource",
+      "language": "bash",
+      "tags": [
+        "cURL",
+        "DELETE",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"key\": \"value\"}",
+      "description": "Basic structure of a JSON object",
+      "scenario": "Basic structure of a JSON object",
+      "language": "json",
+      "tags": [
+        "JSON",
+        "object",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[{\"id\": 1, \"name\": \"Item 1\"}, {\"id\": 2, \"name\": \"Item 2\"}]",
+      "description": "Array of JSON objects",
+      "scenario": "Array of JSON objects",
+      "language": "json",
+      "tags": [
+        "JSON",
+        "array",
+        "objects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"user\": {\"id\": 1, \"name\": \"John Doe\"}}",
+      "description": "Nested JSON object",
+      "scenario": "Nested JSON object",
+      "language": "json",
+      "tags": [
+        "JSON",
+        "nested",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

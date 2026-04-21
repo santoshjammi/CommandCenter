@@ -1,0 +1,204 @@
+{
+  "title": "Dhall Cheat Sheet",
+  "slug": "dhall",
+  "description": "Essential Dhall commands and syntax for configuration management.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "{ name = \"John\", age = 30 }",
+      "description": "Define a simple record",
+      "scenario": "Define a simple record",
+      "language": "dhall",
+      "tags": [
+        "record",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let config = ./config.dhall in config",
+      "description": "Import another Dhall file",
+      "scenario": "Import another Dhall file",
+      "language": "dhall",
+      "tags": [
+        "import",
+        "file",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\(x : Natural) -> x + 1",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "dhall",
+      "tags": [
+        "function",
+        "syntax",
+        "lambda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dhall type --file ./example.dhall",
+      "description": "Type-check a Dhall file",
+      "scenario": "Type-check a Dhall file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "type-check",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dhall normalize --file ./example.dhall",
+      "description": "Normalize a Dhall expression",
+      "scenario": "Normalize a Dhall expression",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "normalize",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dhall-to-json --file ./example.dhall",
+      "description": "Convert Dhall to JSON",
+      "scenario": "Convert Dhall to JSON",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "convert",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "< Red | Green | Blue >",
+      "description": "Use a union type",
+      "scenario": "Use a union type",
+      "language": "dhall",
+      "tags": [
+        "union",
+        "type",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ name : Text, age : Natural = 30 }",
+      "description": "Default value for a field",
+      "scenario": "Default value for a field",
+      "language": "dhall",
+      "tags": [
+        "default",
+        "field",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ name = \"John\" } // { age = 30 }",
+      "description": "Merge records",
+      "scenario": "Merge records",
+      "language": "dhall",
+      "tags": [
+        "merge",
+        "record",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let Person = { name : Text, age : Natural } in Person",
+      "description": "Use a custom type",
+      "scenario": "Use a custom type",
+      "language": "dhall",
+      "tags": [
+        "custom",
+        "type",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let Tree = < Leaf : Natural | Node : { left : Tree, right : Tree } > in Tree",
+      "description": "Recursive record types",
+      "scenario": "Recursive record types",
+      "language": "dhall",
+      "tags": [
+        "recursive",
+        "record",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let List = \\(a : Type) -> < Nil | Cons : { head : a, tail : List a } > in List",
+      "description": "Parameterized types",
+      "scenario": "Parameterized types",
+      "language": "dhall",
+      "tags": [
+        "parameterized",
+        "type",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-- Ensure types match: let x : Natural = 1",
+      "description": "Handle a type mismatch error",
+      "scenario": "Handle a type mismatch error",
+      "language": "text",
+      "tags": [
+        "error",
+        "type",
+        "mismatch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-- Check file path and permissions for imports",
+      "description": "Fix an import error",
+      "scenario": "Fix an import error",
+      "language": "text",
+      "tags": [
+        "error",
+        "import",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-- Ensure all required fields are present in records",
+      "description": "Resolve a missing field error",
+      "scenario": "Resolve a missing field error",
+      "language": "text",
+      "tags": [
+        "error",
+        "field",
+        "missing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

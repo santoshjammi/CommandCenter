@@ -1,0 +1,204 @@
+{
+  "title": "Nim Programming Language Cheat Sheet",
+  "slug": "nim",
+  "description": "Essential commands and syntax for Nim programming.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var x: int = 10",
+      "description": "Define a variable of type int",
+      "scenario": "Define a variable of type int",
+      "language": "nim",
+      "tags": [
+        "variables",
+        "int",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 0..10:\n  echo i",
+      "description": "Create a simple for loop",
+      "scenario": "Create a simple for loop",
+      "language": "nim",
+      "tags": [
+        "loops",
+        "iteration",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "proc add(a, b: int): int =\n  return a + b",
+      "description": "Define a function that returns an int",
+      "scenario": "Define a function that returns an int",
+      "language": "nim",
+      "tags": [
+        "functions",
+        "return",
+        "int"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nim compile myfile.nim",
+      "description": "Compile a Nim file",
+      "scenario": "Compile a Nim file",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nim run myfile.nim",
+      "description": "Run a Nim file",
+      "scenario": "Run a Nim file",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nim --version",
+      "description": "Check Nim version",
+      "scenario": "Check Nim version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 0:\n  echo \"Positive\"\nelse:\n  echo \"Non-positive\"",
+      "description": "Conditional statement example",
+      "scenario": "Conditional statement example",
+      "language": "nim",
+      "tags": [
+        "conditional",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type\n  MyType[T] = object\n    value: T",
+      "description": "Define a generic type",
+      "scenario": "Define a generic type",
+      "language": "nim",
+      "tags": [
+        "generic",
+        "type",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try:\n  echo 1 div 0\nexcept:\n  echo \"Error: Division by zero\"",
+      "description": "Use a try-except block for error handling",
+      "scenario": "Use a try-except block for error handling",
+      "language": "nim",
+      "tags": [
+        "error",
+        "handling",
+        "try"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "version = \"1.0.0\"",
+      "description": "Set a Nimble package version",
+      "scenario": "Set a Nimble package version",
+      "language": "text",
+      "tags": [
+        "nimble",
+        "package",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "requires \"jester >= 0.4.3\"",
+      "description": "Specify dependencies in a Nimble file",
+      "scenario": "Specify dependencies in a Nimble file",
+      "language": "text",
+      "tags": [
+        "dependencies",
+        "nimble",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task build, \"Build the project\":\n  exec \"nim compile myfile.nim\"",
+      "description": "Define a task in a Nimble file",
+      "scenario": "Define a task in a Nimble file",
+      "language": "text",
+      "tags": [
+        "task",
+        "nimble",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nim c -d:debug myfile.nim",
+      "description": "Compile with debugging information",
+      "scenario": "Compile with debugging information",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "compile",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nim c -d:release myfile.nim",
+      "description": "Compile with optimization",
+      "scenario": "Compile with optimization",
+      "language": "bash",
+      "tags": [
+        "optimization",
+        "compile",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nim c --genScript myfile.nim",
+      "description": "Generate C code from Nim",
+      "scenario": "Generate C code from Nim",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "c code",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

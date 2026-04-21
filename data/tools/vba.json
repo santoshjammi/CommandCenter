@@ -1,0 +1,204 @@
+{
+  "title": "VBA Cheat Sheet",
+  "slug": "vba",
+  "description": "Quick reference for VBA syntax and common patterns.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "Dim i As Integer",
+      "description": "Declare an integer variable",
+      "scenario": "Declare an integer variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "declaration",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Dim name As String",
+      "description": "Declare a string variable",
+      "scenario": "Declare a string variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "declaration",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Dim isActive As Boolean",
+      "description": "Declare a boolean variable",
+      "scenario": "Declare a boolean variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "declaration",
+        "boolean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "If x > 10 Then\n    MsgBox \"Greater than 10\"\nEnd If",
+      "description": "If statement example",
+      "scenario": "If statement example",
+      "language": "text",
+      "tags": [
+        "control",
+        "if",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "For i = 1 To 10\n    MsgBox i\nNext i",
+      "description": "For loop example",
+      "scenario": "For loop example",
+      "language": "text",
+      "tags": [
+        "control",
+        "loop",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "While x < 5\n    x = x + 1\nWend",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "text",
+      "tags": [
+        "control",
+        "loop",
+        "while"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Function Add(a As Integer, b As Integer) As Integer\n    Add = a + b\nEnd Function",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "text",
+      "tags": [
+        "functions",
+        "definition",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Sub ShowMessage()\n    MsgBox \"Hello, World!\"\nEnd Sub",
+      "description": "Define a subroutine",
+      "scenario": "Define a subroutine",
+      "language": "text",
+      "tags": [
+        "subroutine",
+        "definition",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Call ShowMessage()",
+      "description": "Call a subroutine",
+      "scenario": "Call a subroutine",
+      "language": "text",
+      "tags": [
+        "subroutine",
+        "call",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "On Error GoTo ErrorHandler\n' Your code here\nExit Sub\nErrorHandler:\nMsgBox \"An error occurred\"",
+      "description": "Basic error handling structure",
+      "scenario": "Basic error handling structure",
+      "language": "text",
+      "tags": [
+        "error",
+        "handling",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "On Error Resume Next\n' Your code here",
+      "description": "Resume next on error",
+      "scenario": "Resume next on error",
+      "language": "text",
+      "tags": [
+        "error",
+        "handling",
+        "resume"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "On Error GoTo 0",
+      "description": "Clear error after handling",
+      "scenario": "Clear error after handling",
+      "language": "text",
+      "tags": [
+        "error",
+        "handling",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Dim numbers(5) As Integer",
+      "description": "Declare a static array",
+      "scenario": "Declare a static array",
+      "language": "text",
+      "tags": [
+        "arrays",
+        "static",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Dim numbers() As Integer\nReDim numbers(10)",
+      "description": "Declare a dynamic array",
+      "scenario": "Declare a dynamic array",
+      "language": "text",
+      "tags": [
+        "arrays",
+        "dynamic",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Dim i As Integer\nFor i = LBound(numbers) To UBound(numbers)\n    MsgBox numbers(i)\nNext i",
+      "description": "Iterate over an array",
+      "scenario": "Iterate over an array",
+      "language": "text",
+      "tags": [
+        "arrays",
+        "iteration",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

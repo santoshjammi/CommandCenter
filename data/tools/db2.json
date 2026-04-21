@@ -1,0 +1,165 @@
+{
+  "title": "Db2 Cheat Sheet",
+  "slug": "db2",
+  "description": "Essential Db2 CLI commands and SQL syntax for database management.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "db2 connect to mydb user myuser using mypassword",
+      "description": "Connect to a Db2 database",
+      "scenario": "Connect to a Db2 database",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "connect",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db2 list database directory",
+      "description": "List all databases",
+      "scenario": "List all databases",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "list",
+        "databases"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db2 terminate",
+      "description": "Terminate the current database connection",
+      "scenario": "Terminate the current database connection",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "terminate",
+        "disconnect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(100), position VARCHAR(50));",
+      "description": "Create a new table",
+      "scenario": "Create a new table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "create",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO employees (id, name, position) VALUES (1, 'John Doe', 'Manager');",
+      "description": "Insert data into a table",
+      "scenario": "Insert data into a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "insert",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM employees;",
+      "description": "Select all data from a table",
+      "scenario": "Select all data from a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "select",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db2set DB2AUTOSTART=YES",
+      "description": "Set the Db2 instance to start automatically",
+      "scenario": "Set the Db2 instance to start automatically",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "configuration",
+        "autostart"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db2 update dbm cfg using SVCENAME 50000",
+      "description": "Configure the database manager configuration file",
+      "scenario": "Configure the database manager configuration file",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "configuration",
+        "dbm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db2 update db cfg for mydb using LOGFILSIZ 1000",
+      "description": "Set the database configuration parameter",
+      "scenario": "Set the database configuration parameter",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "configuration",
+        "log"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db2 backup database mydb to /backup/directory",
+      "description": "Backup a database",
+      "scenario": "Backup a database",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "backup",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db2 restore database mydb from /backup/directory",
+      "description": "Restore a database from a backup",
+      "scenario": "Restore a database from a backup",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "restore",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db2 -tvf script.sql",
+      "description": "Run a SQL script file",
+      "scenario": "Run a SQL script file",
+      "language": "bash",
+      "tags": [
+        "db2",
+        "sql",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

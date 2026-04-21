@@ -1,0 +1,204 @@
+{
+  "title": "Assembly Language Cheat Sheet",
+  "slug": "assembly-language",
+  "description": "Essential assembly language commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "MOV AX, BX",
+      "description": "Move data from one register to another",
+      "scenario": "Move data from one register to another",
+      "language": "text",
+      "tags": [
+        "move",
+        "register",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ADD AX, BX",
+      "description": "Add two numbers and store the result in a register",
+      "scenario": "Add two numbers and store the result in a register",
+      "language": "text",
+      "tags": [
+        "addition",
+        "arithmetic",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SUB AX, BX",
+      "description": "Subtract one number from another",
+      "scenario": "Subtract one number from another",
+      "language": "text",
+      "tags": [
+        "subtraction",
+        "arithmetic",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "JZ label_name",
+      "description": "Jump to a label if zero flag is set",
+      "scenario": "Jump to a label if zero flag is set",
+      "language": "text",
+      "tags": [
+        "jump",
+        "zero flag",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "JMP label_name",
+      "description": "Unconditional jump to a label",
+      "scenario": "Unconditional jump to a label",
+      "language": "text",
+      "tags": [
+        "jump",
+        "unconditional",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CMP AX, BX",
+      "description": "Compare two registers and set flags",
+      "scenario": "Compare two registers and set flags",
+      "language": "text",
+      "tags": [
+        "compare",
+        "flags",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myByte DB 0x1A",
+      "description": "Define a byte of data",
+      "scenario": "Define a byte of data",
+      "language": "text",
+      "tags": [
+        "data",
+        "byte",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myWord DW 0x1234",
+      "description": "Define a word of data",
+      "scenario": "Define a word of data",
+      "language": "text",
+      "tags": [
+        "data",
+        "word",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myDword DD 0x12345678",
+      "description": "Define a double word of data",
+      "scenario": "Define a double word of data",
+      "language": "text",
+      "tags": [
+        "data",
+        "double word",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PUSH AX",
+      "description": "Push a register onto the stack",
+      "scenario": "Push a register onto the stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "push",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POP AX",
+      "description": "Pop a value from the stack into a register",
+      "scenario": "Pop a value from the stack into a register",
+      "language": "text",
+      "tags": [
+        "stack",
+        "pop",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CALL procedure_name",
+      "description": "Call a procedure and save return address on stack",
+      "scenario": "Call a procedure and save return address on stack",
+      "language": "text",
+      "tags": [
+        "call",
+        "procedure",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "AND AX, BX",
+      "description": "Perform bitwise AND on two registers",
+      "scenario": "Perform bitwise AND on two registers",
+      "language": "text",
+      "tags": [
+        "bitwise",
+        "and",
+        "logical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OR AX, BX",
+      "description": "Perform bitwise OR on two registers",
+      "scenario": "Perform bitwise OR on two registers",
+      "language": "text",
+      "tags": [
+        "bitwise",
+        "or",
+        "logical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "XOR AX, BX",
+      "description": "Perform bitwise XOR on two registers",
+      "scenario": "Perform bitwise XOR on two registers",
+      "language": "text",
+      "tags": [
+        "bitwise",
+        "xor",
+        "logical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

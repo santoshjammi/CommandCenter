@@ -1,0 +1,165 @@
+{
+  "title": "Flash CLI Cheat Sheet",
+  "slug": "flash",
+  "description": "Essential commands and configurations for the Flash CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "flash init my_project",
+      "description": "Initialize a new Flash project",
+      "scenario": "Initialize a new Flash project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flash run",
+      "description": "Run the Flash project",
+      "scenario": "Run the Flash project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flash build",
+      "description": "Build the Flash project",
+      "scenario": "Build the Flash project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "project_name: my_flash_project",
+      "description": "Set the project name in configuration",
+      "scenario": "Set the project name in configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug: true",
+      "description": "Enable debug mode in configuration",
+      "scenario": "Enable debug mode in configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "debug",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output_dir: ./dist",
+      "description": "Specify the output directory in configuration",
+      "scenario": "Specify the output directory in configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "output",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flash run --verbose",
+      "description": "Run the Flash project in verbose mode",
+      "scenario": "Run the Flash project in verbose mode",
+      "language": "bash",
+      "tags": [
+        "run",
+        "verbose",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flash clean",
+      "description": "Clean the build artifacts",
+      "scenario": "Clean the build artifacts",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "artifacts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flash deploy",
+      "description": "Deploy the Flash project",
+      "scenario": "Deploy the Flash project",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "project",
+        "release"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flash test",
+      "description": "Pattern for running tests",
+      "scenario": "Pattern for running tests",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "verify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flash watch",
+      "description": "Pattern for watching file changes",
+      "scenario": "Pattern for watching file changes",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "files",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flash doc",
+      "description": "Pattern for generating documentation",
+      "scenario": "Pattern for generating documentation",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "documentation",
+        "docs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

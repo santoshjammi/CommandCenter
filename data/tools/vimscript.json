@@ -1,0 +1,204 @@
+{
+  "title": "Vimscript Cheat Sheet",
+  "slug": "vimscript",
+  "description": "Essential Vimscript commands and patterns for efficient scripting in Vim.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": ":echo \"Hello, Vim!\"",
+      "description": "Print a message to the command line",
+      "scenario": "Print a message to the command line",
+      "language": "vim",
+      "tags": [
+        "echo",
+        "print",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":let myVar = 42",
+      "description": "Set a variable",
+      "scenario": "Set a variable",
+      "language": "vim",
+      "tags": [
+        "variable",
+        "set",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":unlet myVar",
+      "description": "Delete a variable",
+      "scenario": "Delete a variable",
+      "language": "vim",
+      "tags": [
+        "variable",
+        "delete",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if myVar == 42\n  echo \"The answer is 42\"\nelse\n  echo \"Not the answer\"\nendif",
+      "description": "If-Else statement",
+      "scenario": "If-Else statement",
+      "language": "vim",
+      "tags": [
+        "if",
+        "control",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in range(1, 5)\n  echo i\nendfor",
+      "description": "For loop over a list",
+      "scenario": "For loop over a list",
+      "language": "vim",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let i = 0\nwhile i < 5\n  echo i\n  let i += 1\nendwhile",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "vim",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function! MyFunction()\n  echo \"Function called\"\nendfunction",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "vim",
+      "tags": [
+        "function",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function! Greet(name)\n  echo \"Hello, \" . a:name\nendfunction",
+      "description": "Function with arguments",
+      "scenario": "Function with arguments",
+      "language": "vim",
+      "tags": [
+        "function",
+        "arguments",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":call MyFunction()",
+      "description": "Call a function",
+      "scenario": "Call a function",
+      "language": "vim",
+      "tags": [
+        "function",
+        "call",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "autocmd BufWritePost *.txt echo \"File saved!\"",
+      "description": "Run command on file save",
+      "scenario": "Run command on file save",
+      "language": "vim",
+      "tags": [
+        "autocmd",
+        "save",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "autocmd FileType python setlocal tabstop=4",
+      "description": "Set file type specific settings",
+      "scenario": "Set file type specific settings",
+      "language": "vim",
+      "tags": [
+        "autocmd",
+        "filetype",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "augroup mygroup\n  autocmd!\naugroup END",
+      "description": "Remove autocommands for a group",
+      "scenario": "Remove autocommands for a group",
+      "language": "vim",
+      "tags": [
+        "autocmd",
+        "group",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":nnoremap <leader>w :w<CR>",
+      "description": "Map a key to save file",
+      "scenario": "Map a key to save file",
+      "language": "vim",
+      "tags": [
+        "mapping",
+        "key",
+        "save"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":nnoremap <leader>q :q<CR>",
+      "description": "Map a key sequence to quit",
+      "scenario": "Map a key sequence to quit",
+      "language": "vim",
+      "tags": [
+        "mapping",
+        "key",
+        "quit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":nnoremap <leader>r :!python %<CR>",
+      "description": "Map a key to run a command",
+      "scenario": "Map a key to run a command",
+      "language": "vim",
+      "tags": [
+        "mapping",
+        "key",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "BPEL Cheat Sheet",
+  "slug": "bpel",
+  "description": "Quick reference for BPEL syntax and commands",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<process name=\"MyProcess\" targetNamespace=\"http://example.com/MyProcess\">...</process>",
+      "description": "Define a BPEL process",
+      "scenario": "Define a BPEL process",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "process",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<invoke partnerLink=\"myPartner\" portType=\"tns:MyPortType\" operation=\"myOperation\" inputVariable=\"inputVar\" outputVariable=\"outputVar\"/>",
+      "description": "Invoke a web service",
+      "scenario": "Invoke a web service",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "invoke",
+        "web service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<receive partnerLink=\"client\" portType=\"tns:MyPortType\" operation=\"myOperation\" variable=\"inputVar\"/>",
+      "description": "Receive a message",
+      "scenario": "Receive a message",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "receive",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<sequence> <activity1/> <activity2/> </sequence>",
+      "description": "Define a sequence of activities",
+      "scenario": "Define a sequence of activities",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "sequence",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<flow> <activity1/> <activity2/> </flow>",
+      "description": "Define a parallel execution",
+      "scenario": "Define a parallel execution",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "flow",
+        "parallel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<switch> <case condition=\"xpath expression\"> <activity/> </case> <otherwise> <activity/> </otherwise> </switch>",
+      "description": "Implement a switch-case logic",
+      "scenario": "Implement a switch-case logic",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "switch",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<catch faultName=\"tns:MyFault\"> <compensate/> </catch>",
+      "description": "Catch a fault",
+      "scenario": "Catch a fault",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "fault",
+        "catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<faultHandlers> <catchAll> <activity/> </catchAll> </faultHandlers>",
+      "description": "Define a fault handler",
+      "scenario": "Define a fault handler",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "fault",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<compensate scope=\"myScope\"/>",
+      "description": "Compensate an activity",
+      "scenario": "Compensate an activity",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "compensate",
+        "activity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<variable name=\"myVar\" messageType=\"tns:MyMessageType\"/>",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "variable",
+        "declare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<assign> <copy> <from variable=\"inputVar\"/> <to variable=\"outputVar\"/> </copy> </assign>",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "assign",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<from variable=\"myVar\" part=\"partName\"/>",
+      "description": "Access a variable's part",
+      "scenario": "Access a variable's part",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "variable",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<partnerLink name=\"myPartner\" partnerLinkType=\"tns:MyPartnerLinkType\" myRole=\"myRole\" partnerRole=\"partnerRole\"/>",
+      "description": "Define a partner link",
+      "scenario": "Define a partner link",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "partner link",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<correlationSets> <correlationSet name=\"myCorrelationSet\" properties=\"tns:property1 tns:property2\"/> </correlationSets>",
+      "description": "Set up correlation",
+      "scenario": "Set up correlation",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "correlation",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<correlate set=\"myCorrelationSet\" initiate=\"yes\"/>",
+      "description": "Use a correlation set",
+      "scenario": "Use a correlation set",
+      "language": "xml",
+      "tags": [
+        "bpel",
+        "correlation",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

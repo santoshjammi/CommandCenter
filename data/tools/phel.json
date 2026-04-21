@@ -1,0 +1,204 @@
+{
+  "title": "Phel Cheat Sheet",
+  "slug": "phel",
+  "description": "Essential Phel language commands and syntax for efficient coding.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(def my-var 10)",
+      "description": "Define a variable in Phel",
+      "scenario": "Define a variable in Phel",
+      "language": "phel",
+      "tags": [
+        "variable",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defn add [a b] (+ a b))",
+      "description": "Create a simple function",
+      "scenario": "Create a simple function",
+      "language": "phel",
+      "tags": [
+        "function",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if (> a b) \"a is greater\" \"b is greater or equal\")",
+      "description": "Conditional statement example",
+      "scenario": "Conditional statement example",
+      "language": "phel",
+      "tags": [
+        "conditional",
+        "if",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(def my-list [1 2 3 4])",
+      "description": "Define a list",
+      "scenario": "Define a list",
+      "language": "phel",
+      "tags": [
+        "list",
+        "data structure",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(def my-map {:key1 \"value1\" :key2 \"value2\"})",
+      "description": "Define a map",
+      "scenario": "Define a map",
+      "language": "phel",
+      "tags": [
+        "map",
+        "data structure",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(:key1 my-map)",
+      "description": "Access an element in a map",
+      "scenario": "Access an element in a map",
+      "language": "phel",
+      "tags": [
+        "map",
+        "access",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(for [item my-list] (println item))",
+      "description": "Loop through a list with 'for'",
+      "scenario": "Loop through a list with 'for'",
+      "language": "phel",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(while (< i 10) (do (println i) (set! i (+ i 1))))",
+      "description": "Use 'while' loop",
+      "scenario": "Use 'while' loop",
+      "language": "phel",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(foreach [key val my-map] (println key val))",
+      "description": "Iterate with 'foreach'",
+      "scenario": "Iterate with 'foreach'",
+      "language": "phel",
+      "tags": [
+        "loop",
+        "foreach",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(try (do-something-risky) (catch Exception e (println \"Error:\" e)))",
+      "description": "Try-catch block for error handling",
+      "scenario": "Try-catch block for error handling",
+      "language": "phel",
+      "tags": [
+        "error",
+        "try-catch",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(throw (Exception. \"Something went wrong\"))",
+      "description": "Throw an exception",
+      "scenario": "Throw an exception",
+      "language": "phel",
+      "tags": [
+        "error",
+        "throw",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defn my-error [msg] (Exception. msg))",
+      "description": "Define a custom error",
+      "scenario": "Define a custom error",
+      "language": "phel",
+      "tags": [
+        "error",
+        "custom",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "phel run src/my_script.phel",
+      "description": "Run a Phel script",
+      "scenario": "Run a Phel script",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "phel repl",
+      "description": "Start a Phel REPL",
+      "scenario": "Start a Phel REPL",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "repl",
+        "interactive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "phel compile src/ --output=out/",
+      "description": "Compile Phel to PHP",
+      "scenario": "Compile Phel to PHP",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "compile",
+        "php"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

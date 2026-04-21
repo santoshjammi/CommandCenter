@@ -1,0 +1,165 @@
+{
+  "title": "Icons Cheat Sheet",
+  "slug": "icons",
+  "description": "Quick reference for using icons in web development",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">",
+      "description": "Include Font Awesome via CDN",
+      "scenario": "Include Font Awesome via CDN",
+      "language": "html",
+      "tags": [
+        "font awesome",
+        "cdn",
+        "icons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<i class=\"fas fa-camera\"></i>",
+      "description": "Use a Font Awesome icon",
+      "scenario": "Use a Font Awesome icon",
+      "language": "html",
+      "tags": [
+        "font awesome",
+        "html",
+        "icons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<i class=\"fas fa-camera fa-2x\"></i>",
+      "description": "Change icon size using Font Awesome classes",
+      "scenario": "Change icon size using Font Awesome classes",
+      "language": "html",
+      "tags": [
+        "font awesome",
+        "size",
+        "icons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">",
+      "description": "Include Material Icons via Google Fonts",
+      "scenario": "Include Material Icons via Google Fonts",
+      "language": "html",
+      "tags": [
+        "material icons",
+        "google fonts",
+        "icons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<i class=\"material-icons\">face</i>",
+      "description": "Use a Material Icon",
+      "scenario": "Use a Material Icon",
+      "language": "html",
+      "tags": [
+        "material icons",
+        "html",
+        "icons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<i class=\"material-icons\" style=\"color: red;\">face</i>",
+      "description": "Change icon color using CSS",
+      "scenario": "Change icon color using CSS",
+      "language": "html",
+      "tags": [
+        "material icons",
+        "css",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/></svg>",
+      "description": "Embed an SVG icon directly in HTML",
+      "scenario": "Embed an SVG icon directly in HTML",
+      "language": "html",
+      "tags": [
+        "svg",
+        "html",
+        "icons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<svg width=\"50\" height=\"50\">...</svg>",
+      "description": "Change SVG icon size with CSS",
+      "scenario": "Change SVG icon size with CSS",
+      "language": "html",
+      "tags": [
+        "svg",
+        "css",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<svg fill=\"blue\">...</svg>",
+      "description": "Change SVG icon color with CSS",
+      "scenario": "Change SVG icon color with CSS",
+      "language": "html",
+      "tags": [
+        "svg",
+        "css",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css\">",
+      "description": "Include Bootstrap Icons via CDN",
+      "scenario": "Include Bootstrap Icons via CDN",
+      "language": "html",
+      "tags": [
+        "bootstrap",
+        "cdn",
+        "icons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<i class=\"bi bi-alarm\"></i>",
+      "description": "Use a Bootstrap Icon",
+      "scenario": "Use a Bootstrap Icon",
+      "language": "html",
+      "tags": [
+        "bootstrap",
+        "html",
+        "icons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<i class=\"bi bi-alarm\" style=\"font-size: 2rem;\"></i>",
+      "description": "Change Bootstrap Icon size with CSS",
+      "scenario": "Change Bootstrap Icon size with CSS",
+      "language": "html",
+      "tags": [
+        "bootstrap",
+        "css",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "OS X Cheat Sheet",
+  "slug": "os-x",
+  "description": "Essential OS X commands and shortcuts for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "filesystem",
+        "list",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd ~",
+      "description": "Change directory to the user's home directory",
+      "scenario": "Change directory to the user's home directory",
+      "language": "bash",
+      "tags": [
+        "navigate",
+        "home",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt /destination/",
+      "description": "Copy a file to another directory",
+      "scenario": "Copy a file to another directory",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sw_vers",
+      "description": "Display current OS version",
+      "scenario": "Display current OS version",
+      "language": "bash",
+      "tags": [
+        "system",
+        "version",
+        "os"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Show current disk usage",
+      "scenario": "Show current disk usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vm_stat",
+      "description": "Display current memory usage",
+      "scenario": "Display current memory usage",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display current network configuration",
+      "scenario": "Display current network configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "configuration",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 example.com",
+      "description": "Ping a remote server to check connectivity",
+      "scenario": "Ping a remote server to check connectivity",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ping",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder",
+      "description": "Flush DNS cache",
+      "scenario": "Flush DNS cache",
+      "language": "bash",
+      "tags": [
+        "dns",
+        "cache",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill -9 PID",
+      "description": "Kill a process by its ID",
+      "scenario": "Kill a process by its ID",
+      "language": "bash",
+      "tags": [
+        "process",
+        "kill",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pgrep -fl process_name",
+      "description": "Find a process by name",
+      "scenario": "Find a process by name",
+      "language": "bash",
+      "tags": [
+        "process",
+        "find",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Space",
+      "description": "Open Spotlight search",
+      "scenario": "Open Spotlight search",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "spotlight",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Shift + 3",
+      "description": "Take a screenshot of the entire screen",
+      "scenario": "Take a screenshot of the entire screen",
+      "language": "text",
+      "tags": [
+        "screenshot",
+        "shortcut",
+        "screen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Option + Esc",
+      "description": "Force quit an application",
+      "scenario": "Force quit an application",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "force quit",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

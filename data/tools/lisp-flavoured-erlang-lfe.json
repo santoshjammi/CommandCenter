@@ -1,0 +1,204 @@
+{
+  "title": "Lisp Flavoured Erlang (LFE) Cheat Sheet",
+  "slug": "lisp-flavoured-erlang-lfe",
+  "description": "Essential LFE syntax and commands for efficient development.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(defun add (a b) (+ a b))",
+      "description": "Define a simple function in LFE",
+      "scenario": "Define a simple function in LFE",
+      "language": "lisp",
+      "tags": [
+        "function",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(list 1 2 3 4)",
+      "description": "Create a list in LFE",
+      "scenario": "Create a list in LFE",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "data structure",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(cond ((> x 0) 'positive) ((< x 0) 'negative) (t 'zero))",
+      "description": "Conditional expression using cond",
+      "scenario": "Conditional expression using cond",
+      "language": "lisp",
+      "tags": [
+        "conditional",
+        "control flow",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(case (tuple 1 2) ((tuple 1 2) 'match) (t 'no-match))",
+      "description": "Pattern match a tuple",
+      "scenario": "Pattern match a tuple",
+      "language": "lisp",
+      "tags": [
+        "pattern matching",
+        "tuple",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(case (list 1 2 3) ((list 1 2 3) 'match) (t 'no-match))",
+      "description": "Pattern match a list",
+      "scenario": "Pattern match a list",
+      "language": "lisp",
+      "tags": [
+        "pattern matching",
+        "list",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(case x ((when (> x 10)) 'greater) (t 'not-greater))",
+      "description": "Pattern match with a guard",
+      "scenario": "Pattern match with a guard",
+      "language": "lisp",
+      "tags": [
+        "pattern matching",
+        "guard",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defmodule my-module (export (my-func 1)))",
+      "description": "Define a module in LFE",
+      "scenario": "Define a module in LFE",
+      "language": "lisp",
+      "tags": [
+        "module",
+        "definition",
+        "compilation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lfec my_module.lfe",
+      "description": "Compile an LFE file",
+      "scenario": "Compile an LFE file",
+      "language": "bash",
+      "tags": [
+        "compilation",
+        "cli",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(lfe-shell) > (c 'my-module)",
+      "description": "Load a compiled module",
+      "scenario": "Load a compiled module",
+      "language": "lisp",
+      "tags": [
+        "module",
+        "loading",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(spawn (lambda () (io:format \"Hello from process~n\")))",
+      "description": "Spawn a new process",
+      "scenario": "Spawn a new process",
+      "language": "lisp",
+      "tags": [
+        "concurrency",
+        "process",
+        "spawn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(send pid 'message)",
+      "description": "Send a message to a process",
+      "scenario": "Send a message to a process",
+      "language": "lisp",
+      "tags": [
+        "concurrency",
+        "message",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(receive (msg (io:format \"Received: ~p~n\" msg)))",
+      "description": "Receive a message in a process",
+      "scenario": "Receive a message in a process",
+      "language": "lisp",
+      "tags": [
+        "concurrency",
+        "receive",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(try (/ 1 0) (catch 'error (reason) (io:format \"Error: ~p~n\" reason)))",
+      "description": "Try-catch block for error handling",
+      "scenario": "Try-catch block for error handling",
+      "language": "lisp",
+      "tags": [
+        "error handling",
+        "try-catch",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(throw 'custom-error)",
+      "description": "Throw an error manually",
+      "scenario": "Throw an error manually",
+      "language": "lisp",
+      "tags": [
+        "error handling",
+        "throw",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(try (do-something) (catch 'error (reason) (io:format \"Error: ~p~n\" reason)) (after (cleanup)))",
+      "description": "Use after clause in try-catch",
+      "scenario": "Use after clause in try-catch",
+      "language": "lisp",
+      "tags": [
+        "error handling",
+        "after",
+        "try-catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

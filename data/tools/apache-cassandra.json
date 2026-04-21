@@ -1,0 +1,204 @@
+{
+  "title": "Apache Cassandra Cheat Sheet",
+  "slug": "apache-cassandra",
+  "description": "Essential commands and syntax for Apache Cassandra.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "cassandra -f",
+      "description": "Start the Cassandra server",
+      "scenario": "Start the Cassandra server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cqlsh",
+      "description": "Connect to the Cassandra Query Language Shell (cqlsh)",
+      "scenario": "Connect to the Cassandra Query Language Shell (cqlsh)",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "cqlsh",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nodetool stopdaemon",
+      "description": "Stop the Cassandra server",
+      "scenario": "Stop the Cassandra server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE KEYSPACE my_keyspace WITH replication = {'class': 'SimpleStrategy', 'replication_factor' : 3};",
+      "description": "Create a keyspace with SimpleStrategy",
+      "scenario": "Create a keyspace with SimpleStrategy",
+      "language": "sql",
+      "tags": [
+        "create",
+        "keyspace",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE my_keyspace.users (user_id UUID PRIMARY KEY, name text, age int);",
+      "description": "Create a table with primary key",
+      "scenario": "Create a table with primary key",
+      "language": "sql",
+      "tags": [
+        "create",
+        "table",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALTER TABLE my_keyspace.users ADD email text;",
+      "description": "Alter a table to add a new column",
+      "scenario": "Alter a table to add a new column",
+      "language": "sql",
+      "tags": [
+        "alter",
+        "table",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO my_keyspace.users (user_id, name, age) VALUES (uuid(), 'Alice', 30);",
+      "description": "Insert data into a table",
+      "scenario": "Insert data into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "data",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE my_keyspace.users SET age = 31 WHERE user_id = <uuid>;",
+      "description": "Update data in a table",
+      "scenario": "Update data in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "data",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DELETE FROM my_keyspace.users WHERE user_id = <uuid>;",
+      "description": "Delete data from a table",
+      "scenario": "Delete data from a table",
+      "language": "sql",
+      "tags": [
+        "delete",
+        "data",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM my_keyspace.users;",
+      "description": "Select all data from a table",
+      "scenario": "Select all data from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "query",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT name, age FROM my_keyspace.users;",
+      "description": "Select specific columns from a table",
+      "scenario": "Select specific columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "columns",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM my_keyspace.users WHERE age > 25;",
+      "description": "Select data with a condition",
+      "scenario": "Select data with a condition",
+      "language": "sql",
+      "tags": [
+        "select",
+        "condition",
+        "cql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cluster_name: 'MyCluster'",
+      "description": "Set the cluster name in cassandra.yaml",
+      "scenario": "Set the cluster name in cassandra.yaml",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "cluster",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seeds: '127.0.0.1,127.0.0.2'",
+      "description": "Configure seed nodes in cassandra.yaml",
+      "scenario": "Configure seed nodes in cassandra.yaml",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "seeds",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data_file_directories:\n  - /var/lib/cassandra/data",
+      "description": "Configure data directory in cassandra.yaml",
+      "scenario": "Configure data directory in cassandra.yaml",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "data",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "js-model Cheat Sheet",
+  "slug": "js-model",
+  "description": "Quick reference for using js-model library in JavaScript applications.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "var User = Model('user').attr('name').attr('email');",
+      "description": "Define a basic model with attributes",
+      "scenario": "Define a basic model with attributes",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "definition",
+        "attributes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var User = Model('user').attr('name', {default: 'Anonymous'});",
+      "description": "Set default values for model attributes",
+      "scenario": "Set default values for model attributes",
+      "language": "javascript",
+      "tags": [
+        "default",
+        "attributes",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var User = Model('user').primaryKey('userId');",
+      "description": "Define a model with a custom primary key",
+      "scenario": "Define a model with a custom primary key",
+      "language": "javascript",
+      "tags": [
+        "primary key",
+        "model",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var user = new User({name: 'John Doe', email: 'john@example.com'});",
+      "description": "Create a new instance of a model",
+      "scenario": "Create a new instance of a model",
+      "language": "javascript",
+      "tags": [
+        "instance",
+        "model",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var userName = user.name;",
+      "description": "Access an attribute of a model instance",
+      "scenario": "Access an attribute of a model instance",
+      "language": "javascript",
+      "tags": [
+        "instance",
+        "attribute",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "user.name = 'Jane Doe';",
+      "description": "Update an attribute of a model instance",
+      "scenario": "Update an attribute of a model instance",
+      "language": "javascript",
+      "tags": [
+        "instance",
+        "attribute",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "user.save();",
+      "description": "Save a model instance to the server",
+      "scenario": "Save a model instance to the server",
+      "language": "javascript",
+      "tags": [
+        "persistence",
+        "save",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.fetch(1, function(user) { console.log(user.name); });",
+      "description": "Fetch a model instance from the server",
+      "scenario": "Fetch a model instance from the server",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "server",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "user.destroy();",
+      "description": "Delete a model instance from the server",
+      "scenario": "Delete a model instance from the server",
+      "language": "javascript",
+      "tags": [
+        "delete",
+        "server",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.attr('email', {validate: function(value) { return /@/.test(value); }});",
+      "description": "Add a validation rule to a model attribute",
+      "scenario": "Add a validation rule to a model attribute",
+      "language": "javascript",
+      "tags": [
+        "validation",
+        "attribute",
+        "rule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var isValid = user.isValid();",
+      "description": "Check if a model instance is valid",
+      "scenario": "Check if a model instance is valid",
+      "language": "javascript",
+      "tags": [
+        "validation",
+        "instance",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var errors = user.errors();",
+      "description": "Get validation errors for a model instance",
+      "scenario": "Get validation errors for a model instance",
+      "language": "javascript",
+      "tags": [
+        "validation",
+        "errors",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.hasMany('posts');",
+      "description": "Define a hasMany association between models",
+      "scenario": "Define a hasMany association between models",
+      "language": "javascript",
+      "tags": [
+        "association",
+        "hasMany",
+        "models"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Post.belongsTo('user');",
+      "description": "Define a belongsTo association between models",
+      "scenario": "Define a belongsTo association between models",
+      "language": "javascript",
+      "tags": [
+        "association",
+        "belongsTo",
+        "models"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var posts = user.posts();",
+      "description": "Access associated models from an instance",
+      "scenario": "Access associated models from an instance",
+      "language": "javascript",
+      "tags": [
+        "association",
+        "access",
+        "models"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

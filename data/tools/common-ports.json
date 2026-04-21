@@ -1,0 +1,204 @@
+{
+  "title": "Common Ports Cheat Sheet",
+  "slug": "common-ports",
+  "description": "Quick reference for common network ports and their services.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "80",
+      "description": "Standard port for HTTP traffic",
+      "scenario": "Standard port for HTTP traffic",
+      "language": "text",
+      "tags": [
+        "http",
+        "web",
+        "traffic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "443",
+      "description": "Standard port for HTTPS traffic",
+      "scenario": "Standard port for HTTPS traffic",
+      "language": "text",
+      "tags": [
+        "https",
+        "web",
+        "secure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "8080",
+      "description": "Alternate port for HTTP traffic",
+      "scenario": "Alternate port for HTTP traffic",
+      "language": "text",
+      "tags": [
+        "http",
+        "alternate",
+        "web"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "25",
+      "description": "Port for SMTP email sending",
+      "scenario": "Port for SMTP email sending",
+      "language": "text",
+      "tags": [
+        "smtp",
+        "email",
+        "send"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "143",
+      "description": "Port for IMAP email retrieval",
+      "scenario": "Port for IMAP email retrieval",
+      "language": "text",
+      "tags": [
+        "imap",
+        "email",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "110",
+      "description": "Port for POP3 email retrieval",
+      "scenario": "Port for POP3 email retrieval",
+      "language": "text",
+      "tags": [
+        "pop3",
+        "email",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "21",
+      "description": "Port for FTP control commands",
+      "scenario": "Port for FTP control commands",
+      "language": "text",
+      "tags": [
+        "ftp",
+        "file",
+        "transfer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "22",
+      "description": "Port for SFTP (SSH File Transfer Protocol)",
+      "scenario": "Port for SFTP (SSH File Transfer Protocol)",
+      "language": "text",
+      "tags": [
+        "sftp",
+        "ssh",
+        "secure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "990",
+      "description": "Port for FTPS (FTP Secure)",
+      "scenario": "Port for FTPS (FTP Secure)",
+      "language": "text",
+      "tags": [
+        "ftps",
+        "secure",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "3306",
+      "description": "Port for MySQL database connections",
+      "scenario": "Port for MySQL database connections",
+      "language": "text",
+      "tags": [
+        "mysql",
+        "database",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "5432",
+      "description": "Port for PostgreSQL database connections",
+      "scenario": "Port for PostgreSQL database connections",
+      "language": "text",
+      "tags": [
+        "postgresql",
+        "database",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "27017",
+      "description": "Port for MongoDB database connections",
+      "scenario": "Port for MongoDB database connections",
+      "language": "text",
+      "tags": [
+        "mongodb",
+        "database",
+        "nosql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "22",
+      "description": "Port for SSH remote access",
+      "scenario": "Port for SSH remote access",
+      "language": "text",
+      "tags": [
+        "ssh",
+        "remote",
+        "secure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "23",
+      "description": "Port for Telnet remote access",
+      "scenario": "Port for Telnet remote access",
+      "language": "text",
+      "tags": [
+        "telnet",
+        "remote",
+        "insecure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "3389",
+      "description": "Port for RDP (Remote Desktop Protocol)",
+      "scenario": "Port for RDP (Remote Desktop Protocol)",
+      "language": "text",
+      "tags": [
+        "rdp",
+        "remote",
+        "desktop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

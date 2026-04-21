@@ -1,0 +1,204 @@
+{
+  "title": "Monday.com CLI and API Cheat Sheet",
+  "slug": "mondaycom",
+  "description": "Essential CLI and API commands for Monday.com integration.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "monday-cli login --token YOUR_API_TOKEN",
+      "description": "Login to Monday.com CLI",
+      "scenario": "Login to Monday.com CLI",
+      "language": "bash",
+      "tags": [
+        "login",
+        "authentication",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "monday-cli boards create --name \"New Board\"",
+      "description": "Create a new board",
+      "scenario": "Create a new board",
+      "language": "bash",
+      "tags": [
+        "create",
+        "board",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "monday-cli boards list",
+      "description": "List all boards",
+      "scenario": "List all boards",
+      "language": "bash",
+      "tags": [
+        "list",
+        "boards",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST https://api.monday.com/v2 -H \"Authorization: YOUR_API_TOKEN\" -H \"Content-Type: application/json\" -d '{\"query\":\"{ users { id name email } }\"}'",
+      "description": "Get user details",
+      "scenario": "Get user details",
+      "language": "bash",
+      "tags": [
+        "api",
+        "users",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST https://api.monday.com/v2 -H \"Authorization: YOUR_API_TOKEN\" -H \"Content-Type: application/json\" -d '{\"query\":\"mutation { create_item (board_id: YOUR_BOARD_ID, item_name: \\\"New Item\\\") { id } }\"}'",
+      "description": "Create a new item in a board",
+      "scenario": "Create a new item in a board",
+      "language": "bash",
+      "tags": [
+        "api",
+        "create",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST https://api.monday.com/v2 -H \"Authorization: YOUR_API_TOKEN\" -H \"Content-Type: application/json\" -d '{\"query\":\"mutation { change_column_value (board_id: YOUR_BOARD_ID, item_id: YOUR_ITEM_ID, column_id: \\\"status\\\", value: \\\"{\\\\\"index\\\\\":1}\\\") { id } }\"}'",
+      "description": "Update an item",
+      "scenario": "Update an item",
+      "language": "bash",
+      "tags": [
+        "api",
+        "update",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ boards(ids: YOUR_BOARD_ID) { items { id name } } }",
+      "description": "Fetch all items from a board",
+      "scenario": "Fetch all items from a board",
+      "language": "text",
+      "tags": [
+        "graphql",
+        "query",
+        "items"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ boards(ids: YOUR_BOARD_ID) { name description } }",
+      "description": "Get board details",
+      "scenario": "Get board details",
+      "language": "text",
+      "tags": [
+        "graphql",
+        "query",
+        "board"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ items(ids: YOUR_ITEM_ID) { column_values { id text } } }",
+      "description": "Retrieve column values for an item",
+      "scenario": "Retrieve column values for an item",
+      "language": "text",
+      "tags": [
+        "graphql",
+        "query",
+        "columns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export MONDAY_API_TOKEN=YOUR_API_TOKEN",
+      "description": "Set API token in environment variable",
+      "scenario": "Set API token in environment variable",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "api",
+        "token"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "monday-cli config set default-board YOUR_BOARD_ID",
+      "description": "Configure CLI default board",
+      "scenario": "Configure CLI default board",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "cli",
+        "board"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "monday-cli config set default-workspace YOUR_WORKSPACE_ID",
+      "description": "Set default workspace",
+      "scenario": "Set default workspace",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "cli",
+        "workspace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "monday-cli --version",
+      "description": "Check if CLI is installed",
+      "scenario": "Check if CLI is installed",
+      "language": "bash",
+      "tags": [
+        "check",
+        "version",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -v -X POST https://api.monday.com/v2 -H \"Authorization: YOUR_API_TOKEN\" -H \"Content-Type: application/json\" -d '{\"query\":\"{ users { id name } }\"}'",
+      "description": "Debug API responses",
+      "scenario": "Debug API responses",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "api",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "monday-cli boards list --token $MONDAY_API_TOKEN",
+      "description": "Use environment variables in scripts",
+      "scenario": "Use environment variables in scripts",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

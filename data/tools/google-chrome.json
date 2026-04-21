@@ -1,0 +1,204 @@
+{
+  "title": "Google Chrome Cheat Sheet",
+  "slug": "google-chrome",
+  "description": "Essential commands and shortcuts for Google Chrome developers.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "google-chrome",
+      "description": "Launch Google Chrome from the terminal",
+      "scenario": "Launch Google Chrome from the terminal",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "cli",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "google-chrome https://www.example.com",
+      "description": "Open a specific URL in Google Chrome",
+      "scenario": "Open a specific URL in Google Chrome",
+      "language": "bash",
+      "tags": [
+        "url",
+        "cli",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "google-chrome --incognito",
+      "description": "Start Google Chrome in incognito mode",
+      "scenario": "Start Google Chrome in incognito mode",
+      "language": "bash",
+      "tags": [
+        "incognito",
+        "cli",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + I",
+      "description": "Open Developer Tools",
+      "scenario": "Open Developer Tools",
+      "language": "text",
+      "tags": [
+        "devtools",
+        "shortcuts",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + M",
+      "description": "Toggle Device Toolbar",
+      "scenario": "Toggle Device Toolbar",
+      "language": "text",
+      "tags": [
+        "responsive",
+        "shortcuts",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + J",
+      "description": "Open JavaScript Console",
+      "scenario": "Open JavaScript Console",
+      "language": "text",
+      "tags": [
+        "console",
+        "shortcuts",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "google-chrome --disable-gpu",
+      "description": "Disable GPU hardware acceleration",
+      "scenario": "Disable GPU hardware acceleration",
+      "language": "bash",
+      "tags": [
+        "gpu",
+        "flags",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "google-chrome --disable-extensions",
+      "description": "Run Chrome with extensions disabled",
+      "scenario": "Run Chrome with extensions disabled",
+      "language": "bash",
+      "tags": [
+        "extensions",
+        "flags",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "google-chrome --user-data-dir=/path/to/directory",
+      "description": "Start Chrome with a custom user data directory",
+      "scenario": "Start Chrome with a custom user data directory",
+      "language": "bash",
+      "tags": [
+        "profile",
+        "flags",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xdg-settings set default-web-browser google-chrome.desktop",
+      "description": "Set Chrome as the default browser",
+      "scenario": "Set Chrome as the default browser",
+      "language": "bash",
+      "tags": [
+        "default",
+        "config",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chrome://flags",
+      "description": "Enable experimental features",
+      "scenario": "Enable experimental features",
+      "language": "text",
+      "tags": [
+        "experimental",
+        "features",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chrome://settings/clearBrowserData",
+      "description": "Clear browsing data",
+      "scenario": "Clear browsing data",
+      "language": "text",
+      "tags": [
+        "clear",
+        "data",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + R",
+      "description": "Reload the current page",
+      "scenario": "Reload the current page",
+      "language": "text",
+      "tags": [
+        "reload",
+        "shortcuts",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + T",
+      "description": "Open a new tab",
+      "scenario": "Open a new tab",
+      "language": "text",
+      "tags": [
+        "tab",
+        "shortcuts",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + W",
+      "description": "Close the current tab",
+      "scenario": "Close the current tab",
+      "language": "text",
+      "tags": [
+        "close",
+        "shortcuts",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

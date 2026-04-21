@@ -1,0 +1,165 @@
+{
+  "title": "Packs (Ruby) Cheat Sheet",
+  "slug": "packs-ruby",
+  "description": "Essential commands and patterns for using Packs in Ruby applications.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "packs init my_pack",
+      "description": "Initialize a new pack",
+      "scenario": "Initialize a new pack",
+      "language": "bash",
+      "tags": [
+        "init",
+        "create",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packs list",
+      "description": "List all packs in the application",
+      "scenario": "List all packs in the application",
+      "language": "bash",
+      "tags": [
+        "list",
+        "packs",
+        "overview"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packs add my_pack --dependency another_pack",
+      "description": "Add a new dependency to a pack",
+      "scenario": "Add a new dependency to a pack",
+      "language": "bash",
+      "tags": [
+        "add",
+        "dependency",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packs set-visibility my_pack --public",
+      "description": "Set the pack's visibility to public",
+      "scenario": "Set the pack's visibility to public",
+      "language": "bash",
+      "tags": [
+        "visibility",
+        "public",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packs set-visibility my_pack --private",
+      "description": "Configure a pack to be private",
+      "scenario": "Configure a pack to be private",
+      "language": "bash",
+      "tags": [
+        "visibility",
+        "private",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packs config my_pack",
+      "description": "View the configuration of a specific pack",
+      "scenario": "View the configuration of a specific pack",
+      "language": "bash",
+      "tags": [
+        "view",
+        "config",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module MyPack\n  # Pack code here\nend",
+      "description": "Define a pack in a Ruby file",
+      "scenario": "Define a pack in a Ruby file",
+      "language": "ruby",
+      "tags": [
+        "define",
+        "module",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "require 'packs/my_pack'",
+      "description": "Require a pack in another Ruby file",
+      "scenario": "Require a pack in another Ruby file",
+      "language": "ruby",
+      "tags": [
+        "require",
+        "dependency",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "include MyPack::SomeModule",
+      "description": "Include a module from a pack",
+      "scenario": "Include a module from a pack",
+      "language": "ruby",
+      "tags": [
+        "include",
+        "module",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Packs.loaded?(:my_pack)",
+      "description": "Check if a pack is loaded",
+      "scenario": "Check if a pack is loaded",
+      "language": "ruby",
+      "tags": [
+        "check",
+        "loaded",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Packs.path(:my_pack)",
+      "description": "Get the path of a pack",
+      "scenario": "Get the path of a pack",
+      "language": "ruby",
+      "tags": [
+        "path",
+        "location",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Packs.dependencies(:my_pack)",
+      "description": "List all dependencies of a pack",
+      "scenario": "List all dependencies of a pack",
+      "language": "ruby",
+      "tags": [
+        "list",
+        "dependencies",
+        "pack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

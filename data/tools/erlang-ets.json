@@ -1,0 +1,165 @@
+{
+  "title": "Erlang ETS Cheat Sheet",
+  "slug": "erlang-ets",
+  "description": "Quick reference for Erlang ETS table operations and patterns.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "ets:new(table_name, [named_table, public])",
+      "description": "Create a new ETS table with a given name and options",
+      "scenario": "Create a new ETS table with a given name and options",
+      "language": "erlang",
+      "tags": [
+        "create",
+        "table",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:delete(table_name)",
+      "description": "Delete an ETS table by its name",
+      "scenario": "Delete an ETS table by its name",
+      "language": "erlang",
+      "tags": [
+        "delete",
+        "table",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:info(table_name) /= undefined",
+      "description": "Check if an ETS table exists",
+      "scenario": "Check if an ETS table exists",
+      "language": "erlang",
+      "tags": [
+        "check",
+        "exists",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:insert(table_name, {key, value})",
+      "description": "Insert a key-value pair into an ETS table",
+      "scenario": "Insert a key-value pair into an ETS table",
+      "language": "erlang",
+      "tags": [
+        "insert",
+        "key-value",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:lookup(table_name, key)",
+      "description": "Retrieve a value by key from an ETS table",
+      "scenario": "Retrieve a value by key from an ETS table",
+      "language": "erlang",
+      "tags": [
+        "lookup",
+        "retrieve",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:match(table_name, {'_', value})",
+      "description": "Match objects in an ETS table with a pattern",
+      "scenario": "Match objects in an ETS table with a pattern",
+      "language": "erlang",
+      "tags": [
+        "match",
+        "pattern",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:insert(table_name, {key, new_value})",
+      "description": "Update a value for a given key in an ETS table",
+      "scenario": "Update a value for a given key in an ETS table",
+      "language": "erlang",
+      "tags": [
+        "update",
+        "insert",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:delete(table_name, key)",
+      "description": "Delete a specific key from an ETS table",
+      "scenario": "Delete a specific key from an ETS table",
+      "language": "erlang",
+      "tags": [
+        "delete",
+        "key",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:delete_all_objects(table_name)",
+      "description": "Delete all objects from an ETS table",
+      "scenario": "Delete all objects from an ETS table",
+      "language": "erlang",
+      "tags": [
+        "clear",
+        "delete",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:info(table_name)",
+      "description": "Get information about an ETS table",
+      "scenario": "Get information about an ETS table",
+      "language": "erlang",
+      "tags": [
+        "info",
+        "table",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:info(table_name, size)",
+      "description": "Get the number of objects in an ETS table",
+      "scenario": "Get the number of objects in an ETS table",
+      "language": "erlang",
+      "tags": [
+        "count",
+        "size",
+        "ets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ets:all()",
+      "description": "Get a list of all ETS tables in the system",
+      "scenario": "Get a list of all ETS tables in the system",
+      "language": "erlang",
+      "tags": [
+        "list",
+        "all",
+        "tables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Mako Template Engine Cheat Sheet",
+  "slug": "mako",
+  "description": "Essential Mako template syntax and commands for engineers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<% name = 'World' %>",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "mako",
+      "tags": [
+        "variable",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Hello, ${name}!",
+      "description": "Output a variable",
+      "scenario": "Output a variable",
+      "language": "mako",
+      "tags": [
+        "output",
+        "variable",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "## This is a comment",
+      "description": "Comment in Mako template",
+      "scenario": "Comment in Mako template",
+      "language": "mako",
+      "tags": [
+        "comment",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% if user.is_logged_in(): %>\n  Welcome, ${user.name}!\n<% endif %>",
+      "description": "If statement",
+      "scenario": "If statement",
+      "language": "mako",
+      "tags": [
+        "if",
+        "control",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% for item in items: %>\n  ${item}\n<% endfor %>",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "mako",
+      "tags": [
+        "loop",
+        "for",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% while condition: %>\n  ${do_something()}\n<% endwhile %>",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "mako",
+      "tags": [
+        "while",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "${user_input | h}",
+      "description": "Use a filter to escape HTML",
+      "scenario": "Use a filter to escape HTML",
+      "language": "mako",
+      "tags": [
+        "filter",
+        "escape",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "${len(items)}",
+      "description": "Call a Python function",
+      "scenario": "Call a Python function",
+      "language": "mako",
+      "tags": [
+        "function",
+        "python",
+        "call"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "${value | my_custom_filter}",
+      "description": "Use a custom filter",
+      "scenario": "Use a custom filter",
+      "language": "mako",
+      "tags": [
+        "filter",
+        "custom",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%block name=\"header\">\n  <h1>Header Content</h1>\n</%block>",
+      "description": "Define a block",
+      "scenario": "Define a block",
+      "language": "mako",
+      "tags": [
+        "block",
+        "define",
+        "inheritance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%inherit file=\"base.html\"/>",
+      "description": "Extend a template",
+      "scenario": "Extend a template",
+      "language": "mako",
+      "tags": [
+        "inherit",
+        "template",
+        "extend"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%block name=\"header\">\n  <h1>New Header Content</h1>\n</%block>",
+      "description": "Override a block",
+      "scenario": "Override a block",
+      "language": "mako",
+      "tags": [
+        "override",
+        "block",
+        "inheritance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% try: %>\n  ${1/0}\n<% except: %>\n  Division by zero error\n<% endtry %>",
+      "description": "Try-except block",
+      "scenario": "Try-except block",
+      "language": "mako",
+      "tags": [
+        "error",
+        "handling",
+        "try"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% raise ValueError('An error occurred') %>",
+      "description": "Raise an exception",
+      "scenario": "Raise an exception",
+      "language": "mako",
+      "tags": [
+        "error",
+        "raise",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% try: %>\n  ${1/0}\n<% except ZeroDivisionError: %>\n  Cannot divide by zero\n<% endtry %>",
+      "description": "Catch specific exception",
+      "scenario": "Catch specific exception",
+      "language": "mako",
+      "tags": [
+        "error",
+        "specific",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

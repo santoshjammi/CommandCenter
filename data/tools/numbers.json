@@ -1,0 +1,165 @@
+{
+  "title": "Numbers in JavaScript",
+  "slug": "numbers",
+  "description": "Quick reference for handling numbers in JavaScript",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let sum = a + b;",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "javascript",
+      "tags": [
+        "addition",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let difference = a - b;",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "javascript",
+      "tags": [
+        "subtraction",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let product = a * b;",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "javascript",
+      "tags": [
+        "multiplication",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let num = Number('123');",
+      "description": "Convert a string to a number",
+      "scenario": "Convert a string to a number",
+      "language": "javascript",
+      "tags": [
+        "conversion",
+        "string",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let isNotANumber = isNaN(value);",
+      "description": "Check if a value is NaN",
+      "scenario": "Check if a value is NaN",
+      "language": "javascript",
+      "tags": [
+        "NaN",
+        "check",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let int = parseInt('123', 10);",
+      "description": "Parse a string into an integer",
+      "scenario": "Parse a string into an integer",
+      "language": "javascript",
+      "tags": [
+        "parse",
+        "integer",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let absolute = Math.abs(-5);",
+      "description": "Get the absolute value of a number",
+      "scenario": "Get the absolute value of a number",
+      "language": "javascript",
+      "tags": [
+        "absolute",
+        "math",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let rounded = Math.round(4.7);",
+      "description": "Round a number to the nearest integer",
+      "scenario": "Round a number to the nearest integer",
+      "language": "javascript",
+      "tags": [
+        "round",
+        "math",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let max = Math.max(1, 2, 3);",
+      "description": "Find the maximum of a set of numbers",
+      "scenario": "Find the maximum of a set of numbers",
+      "language": "javascript",
+      "tags": [
+        "maximum",
+        "math",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let formatted = num.toFixed(2);",
+      "description": "Format a number to two decimal places",
+      "scenario": "Format a number to two decimal places",
+      "language": "javascript",
+      "tags": [
+        "format",
+        "decimal",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let str = num.toString();",
+      "description": "Convert a number to a string",
+      "scenario": "Convert a number to a string",
+      "language": "javascript",
+      "tags": [
+        "conversion",
+        "string",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let currency = num.toLocaleString('en-US', { style: 'currency', currency: 'USD' });",
+      "description": "Format a number as currency",
+      "scenario": "Format a number as currency",
+      "language": "javascript",
+      "tags": [
+        "currency",
+        "format",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

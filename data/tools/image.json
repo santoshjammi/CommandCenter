@@ -1,0 +1,165 @@
+{
+  "title": "Image Manipulation CLI",
+  "slug": "image",
+  "description": "Essential CLI commands for image processing and manipulation.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "convert image.png image.jpg",
+      "description": "Convert an image from PNG to JPEG format.",
+      "scenario": "Convert an image from PNG to JPEG format.",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "imagemagick",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -resize 800x600 output.jpg",
+      "description": "Resize an image to 800x600 pixels.",
+      "scenario": "Resize an image to 800x600 pixels.",
+      "language": "bash",
+      "tags": [
+        "resize",
+        "imagemagick",
+        "dimensions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -blur 0x8 output.jpg",
+      "description": "Apply a blur effect to an image.",
+      "scenario": "Apply a blur effect to an image.",
+      "language": "bash",
+      "tags": [
+        "blur",
+        "imagemagick",
+        "effect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i video.mp4 -ss 00:00:10 -vframes 1 output.png",
+      "description": "Extract a single frame from a video at 00:00:10.",
+      "scenario": "Extract a single frame from a video at 00:00:10.",
+      "language": "bash",
+      "tags": [
+        "ffmpeg",
+        "extract",
+        "frame"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i video.mp4 -vf fps=1 img%03d.png",
+      "description": "Convert a video to a series of images.",
+      "scenario": "Convert a video to a series of images.",
+      "language": "bash",
+      "tags": [
+        "ffmpeg",
+        "convert",
+        "series"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -framerate 24 -i img%03d.png -c:v libx264 output.mp4",
+      "description": "Create a video from a series of images.",
+      "scenario": "Create a video from a series of images.",
+      "language": "bash",
+      "tags": [
+        "ffmpeg",
+        "create",
+        "video"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exiftool image.jpg",
+      "description": "View metadata of an image file.",
+      "scenario": "View metadata of an image file.",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "exiftool",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exiftool -all= image.jpg",
+      "description": "Remove all metadata from an image.",
+      "scenario": "Remove all metadata from an image.",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "exiftool",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exiftool -tagsFromFile src.jpg dst.jpg",
+      "description": "Copy metadata from one image to another.",
+      "scenario": "Copy metadata from one image to another.",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "exiftool",
+        "copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sips -Z 300 input.jpg",
+      "description": "Resize an image to 300x300 pixels.",
+      "scenario": "Resize an image to 300x300 pixels.",
+      "language": "bash",
+      "tags": [
+        "sips",
+        "resize",
+        "macos"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sips -s format png input.jpg --out output.png",
+      "description": "Convert an image to PNG format.",
+      "scenario": "Convert an image to PNG format.",
+      "language": "bash",
+      "tags": [
+        "sips",
+        "convert",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sips --setProperty formatOptions high input.jpg",
+      "description": "Adjust the saturation of an image.",
+      "scenario": "Adjust the saturation of an image.",
+      "language": "bash",
+      "tags": [
+        "sips",
+        "saturation",
+        "adjust"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

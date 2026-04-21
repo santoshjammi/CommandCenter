@@ -1,0 +1,204 @@
+{
+  "title": "Notepad++ Cheat Sheet",
+  "slug": "notepad",
+  "description": "Quick reference for Notepad++ shortcuts and features.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl + N",
+      "description": "Open a new file",
+      "scenario": "Open a new file",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "new file",
+        "basics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + S",
+      "description": "Save current file",
+      "scenario": "Save current file",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "save",
+        "basics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + W",
+      "description": "Close current file",
+      "scenario": "Close current file",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "close file",
+        "basics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + D",
+      "description": "Duplicate current line",
+      "scenario": "Duplicate current line",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "duplicate",
+        "editing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + Up",
+      "description": "Move current line up",
+      "scenario": "Move current line up",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "move line",
+        "editing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + Down",
+      "description": "Move current line down",
+      "scenario": "Move current line down",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "move line",
+        "editing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + F",
+      "description": "Open search dialog",
+      "scenario": "Open search dialog",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "search",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + H",
+      "description": "Open replace dialog",
+      "scenario": "Open replace dialog",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "replace",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F3",
+      "description": "Find next occurrence",
+      "scenario": "Find next occurrence",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "find",
+        "next"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F11",
+      "description": "Toggle full screen mode",
+      "scenario": "Toggle full screen mode",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "view",
+        "fullscreen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + G",
+      "description": "Go to line number",
+      "scenario": "Go to line number",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "navigation",
+        "goto"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + W",
+      "description": "Toggle word wrap",
+      "scenario": "Toggle word wrap",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "view",
+        "word wrap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + Shift + F",
+      "description": "Open the function list",
+      "scenario": "Open the function list",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "functions",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + R",
+      "description": "Toggle macro recording",
+      "scenario": "Toggle macro recording",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "macro",
+        "recording"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + P",
+      "description": "Run a macro",
+      "scenario": "Run a macro",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "macro",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

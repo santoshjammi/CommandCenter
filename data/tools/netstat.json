@@ -1,0 +1,165 @@
+{
+  "title": "Netstat Cheat Sheet",
+  "slug": "netstat",
+  "description": "Quick reference for common netstat commands and options.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "netstat -a",
+      "description": "Display all active connections",
+      "scenario": "Display all active connections",
+      "language": "bash",
+      "tags": [
+        "connections",
+        "listening",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -s",
+      "description": "Show network statistics",
+      "scenario": "Show network statistics",
+      "language": "bash",
+      "tags": [
+        "statistics",
+        "network",
+        "summary"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -r",
+      "description": "Display routing table",
+      "scenario": "Display routing table",
+      "language": "bash",
+      "tags": [
+        "routing",
+        "table",
+        "routes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -at",
+      "description": "Show only TCP connections",
+      "scenario": "Show only TCP connections",
+      "language": "bash",
+      "tags": [
+        "tcp",
+        "filter",
+        "connections"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -au",
+      "description": "Show only UDP connections",
+      "scenario": "Show only UDP connections",
+      "language": "bash",
+      "tags": [
+        "udp",
+        "filter",
+        "connections"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -an | grep ':80'",
+      "description": "Display connections for a specific port",
+      "scenario": "Display connections for a specific port",
+      "language": "bash",
+      "tags": [
+        "port",
+        "filter",
+        "grep"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -p",
+      "description": "Show PID and program name for each connection",
+      "scenario": "Show PID and program name for each connection",
+      "language": "bash",
+      "tags": [
+        "pid",
+        "program",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -e",
+      "description": "Display extended information for connections",
+      "scenario": "Display extended information for connections",
+      "language": "bash",
+      "tags": [
+        "extended",
+        "info",
+        "connections"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -l",
+      "description": "Show all listening ports",
+      "scenario": "Show all listening ports",
+      "language": "bash",
+      "tags": [
+        "listening",
+        "ports",
+        "services"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -i",
+      "description": "Display network interface statistics",
+      "scenario": "Display network interface statistics",
+      "language": "bash",
+      "tags": [
+        "interface",
+        "statistics",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -g",
+      "description": "Show multicast group membership",
+      "scenario": "Show multicast group membership",
+      "language": "bash",
+      "tags": [
+        "multicast",
+        "group",
+        "membership"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -c",
+      "description": "Monitor network traffic continuously",
+      "scenario": "Monitor network traffic continuously",
+      "language": "bash",
+      "tags": [
+        "monitor",
+        "traffic",
+        "continuous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

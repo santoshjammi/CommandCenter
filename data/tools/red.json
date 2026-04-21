@@ -1,0 +1,204 @@
+{
+  "title": "Red Programming Language Cheat Sheet",
+  "slug": "red",
+  "description": "Quick reference for Red programming language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "my-func: func [x y] [\n    print [\"Sum:\" x + y]\n]",
+      "description": "Define a Red function",
+      "scenario": "Define a Red function",
+      "language": "red",
+      "tags": [
+        "function",
+        "syntax",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "person: object [\n    name: \"John\"\n    age: 30\n]",
+      "description": "Create a Red object",
+      "scenario": "Create a Red object",
+      "language": "red",
+      "tags": [
+        "object",
+        "syntax",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > y [\n    print \"x is greater\"\n]",
+      "description": "Conditional statement in Red",
+      "scenario": "Conditional statement in Red",
+      "language": "red",
+      "tags": [
+        "conditional",
+        "syntax",
+        "if"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "greeting: \"Hello, World!\"",
+      "description": "Define a Red string",
+      "scenario": "Define a Red string",
+      "language": "red",
+      "tags": [
+        "string",
+        "data type",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "numbers: [1 2 3 4 5]",
+      "description": "Define a Red block",
+      "scenario": "Define a Red block",
+      "language": "red",
+      "tags": [
+        "block",
+        "data type",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "count: 10",
+      "description": "Define a Red integer",
+      "scenario": "Define a Red integer",
+      "language": "red",
+      "tags": [
+        "integer",
+        "data type",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "foreach item [1 2 3] [\n    print item\n]",
+      "description": "For loop in Red",
+      "scenario": "For loop in Red",
+      "language": "red",
+      "tags": [
+        "loop",
+        "iteration",
+        "foreach"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while [x < 10] [\n    x: x + 1\n    print x\n]",
+      "description": "While loop in Red",
+      "scenario": "While loop in Red",
+      "language": "red",
+      "tags": [
+        "loop",
+        "iteration",
+        "while"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "repeat i 5 [\n    print i\n]",
+      "description": "Repeat loop in Red",
+      "scenario": "Repeat loop in Red",
+      "language": "red",
+      "tags": [
+        "loop",
+        "iteration",
+        "repeat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data: read %file.txt",
+      "description": "Read a file in Red",
+      "scenario": "Read a file in Red",
+      "language": "red",
+      "tags": [
+        "file",
+        "I/O",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "write %output.txt \"Hello, Red!\"",
+      "description": "Write to a file in Red",
+      "scenario": "Write to a file in Red",
+      "language": "red",
+      "tags": [
+        "file",
+        "I/O",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "append %output.txt \" More text.\"",
+      "description": "Append to a file in Red",
+      "scenario": "Append to a file in Red",
+      "language": "red",
+      "tags": [
+        "file",
+        "I/O",
+        "append"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "attempt [\n    print 1 / 0\n]",
+      "description": "Try-catch block in Red",
+      "scenario": "Try-catch block in Red",
+      "language": "red",
+      "tags": [
+        "error",
+        "handling",
+        "try-catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if error? try [\n    print 1 / 0\n] [\n    print \"Error occurred\"\n]",
+      "description": "Check for error in Red",
+      "scenario": "Check for error in Red",
+      "language": "red",
+      "tags": [
+        "error",
+        "check",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "trap [\n    print \"An error occurred\"\n]",
+      "description": "Handle error with trap in Red",
+      "scenario": "Handle error with trap in Red",
+      "language": "red",
+      "tags": [
+        "error",
+        "handling",
+        "trap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

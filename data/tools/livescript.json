@@ -1,0 +1,204 @@
+{
+  "title": "LiveScript Cheat Sheet",
+  "slug": "livescript",
+  "description": "Quick reference for LiveScript syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "name = 'LiveScript'",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "javascript",
+      "tags": [
+        "variable",
+        "assignment",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add = (x, y) -> x + y",
+      "description": "Create a function",
+      "scenario": "Create a function",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "arrow",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 10\n  console.log 'x is greater than 10'",
+      "description": "Conditional statement",
+      "scenario": "Conditional statement",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "if",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squares = [1 2 3].map (x) -> x * x",
+      "description": "Map over an array",
+      "scenario": "Map over an array",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "map",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "evens = [1 2 3 4].filter (x) -> x % 2 is 0",
+      "description": "Filter an array",
+      "scenario": "Filter an array",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "filter",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sum = [1 2 3].reduce (a, b) -> a + b, 0",
+      "description": "Reduce an array",
+      "scenario": "Reduce an array",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "reduce",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "person = {name: 'Alice', age: 30}\nname = person.name",
+      "description": "Access object properties",
+      "scenario": "Access object properties",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "access",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "person.city = 'New York'",
+      "description": "Add a property to an object",
+      "scenario": "Add a property to an object",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "add",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "delete person.age",
+      "description": "Delete a property from an object",
+      "scenario": "Delete a property from an object",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "delete",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for x in [0 to 5]\n  console.log x",
+      "description": "For loop over a range",
+      "scenario": "For loop over a range",
+      "language": "javascript",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "i = 0\nwhile i < 5\n  console.log i\n  i++",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "javascript",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for own key, value of person\n  console.log key, value",
+      "description": "Iterate over object keys",
+      "scenario": "Iterate over object keys",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "keys",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[a, b] = [1, 2]",
+      "description": "Destructuring assignment",
+      "scenario": "Destructuring assignment",
+      "language": "javascript",
+      "tags": [
+        "destructuring",
+        "assignment",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "greet = (name = 'Guest') -> console.log 'Hello, ' + name",
+      "description": "Default parameters in functions",
+      "scenario": "Default parameters in functions",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "default",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sum = (args...) -> args.reduce (a, b) -> a + b",
+      "description": "Using splats for variable arguments",
+      "scenario": "Using splats for variable arguments",
+      "language": "javascript",
+      "tags": [
+        "splat",
+        "arguments",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

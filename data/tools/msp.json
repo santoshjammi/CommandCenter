@@ -1,0 +1,204 @@
+{
+  "title": "Microsoft Service Platform (MSP) CLI Cheat Sheet",
+  "slug": "msp",
+  "description": "Quick reference for Microsoft Service Platform CLI commands and configurations.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "msp login",
+      "description": "Log in to the Microsoft Service Platform",
+      "scenario": "Log in to the Microsoft Service Platform",
+      "language": "bash",
+      "tags": [
+        "login",
+        "authentication",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp logout",
+      "description": "Log out from the Microsoft Service Platform",
+      "scenario": "Log out from the Microsoft Service Platform",
+      "language": "bash",
+      "tags": [
+        "logout",
+        "authentication",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp --version",
+      "description": "Display the current MSP CLI version",
+      "scenario": "Display the current MSP CLI version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp service list",
+      "description": "List all available services",
+      "scenario": "List all available services",
+      "language": "bash",
+      "tags": [
+        "services",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp service start <service-name>",
+      "description": "Start a specific service by name",
+      "scenario": "Start a specific service by name",
+      "language": "bash",
+      "tags": [
+        "service",
+        "start",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp service stop <service-name>",
+      "description": "Stop a specific service by name",
+      "scenario": "Stop a specific service by name",
+      "language": "bash",
+      "tags": [
+        "service",
+        "stop",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp config view",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp config set <parameter> <value>",
+      "description": "Set a configuration parameter",
+      "scenario": "Set a configuration parameter",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp logs <service-name>",
+      "description": "View recent logs for a service",
+      "scenario": "View recent logs for a service",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "service",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp monitor <service-name>",
+      "description": "Monitor real-time metrics for a service",
+      "scenario": "Monitor real-time metrics for a service",
+      "language": "bash",
+      "tags": [
+        "monitor",
+        "metrics",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp logs <service-name> --output <file-path>",
+      "description": "Export logs to a file",
+      "scenario": "Export logs to a file",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "export",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp user list",
+      "description": "List all users in the platform",
+      "scenario": "List all users in the platform",
+      "language": "bash",
+      "tags": [
+        "users",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp user add <username>",
+      "description": "Add a new user to the platform",
+      "scenario": "Add a new user to the platform",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msp user remove <username>",
+      "description": "Remove a user from the platform",
+      "scenario": "Remove a user from the platform",
+      "language": "bash",
+      "tags": [
+        "user",
+        "remove",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

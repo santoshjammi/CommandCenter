@@ -1,0 +1,204 @@
+{
+  "title": "MakrellPy Cheat Sheet",
+  "slug": "makrellpy",
+  "description": "Essential commands and patterns for MakrellPy development",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "makrellpy init my_project",
+      "description": "Initialize a new MakrellPy project",
+      "scenario": "Initialize a new MakrellPy project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "makrellpy runserver",
+      "description": "Run the MakrellPy development server",
+      "scenario": "Run the MakrellPy development server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "run",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "makrellpy build",
+      "description": "Build the project for production",
+      "scenario": "Build the project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DATABASE_URL='postgresql://user:password@localhost/dbname'",
+      "description": "Set the database URL in the config file",
+      "scenario": "Set the database URL in the config file",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "database",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DEBUG=True",
+      "description": "Enable debug mode in the configuration",
+      "scenario": "Enable debug mode in the configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "debug",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PORT=8080",
+      "description": "Specify the port for the development server",
+      "scenario": "Specify the port for the development server",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "server",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.route('/home')\ndef home():\n    return 'Welcome to MakrellPy!'",
+      "description": "Define a new route in MakrellPy",
+      "scenario": "Define a new route in MakrellPy",
+      "language": "python",
+      "tags": [
+        "route",
+        "function",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.connect('postgresql://user:password@localhost/dbname')",
+      "description": "Connect to the database using ORM",
+      "scenario": "Connect to the database using ORM",
+      "language": "python",
+      "tags": [
+        "database",
+        "orm",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.route('/submit', methods=['POST'])\ndef submit():\n    data = request.form\n    return 'Data received'",
+      "description": "Handle a POST request in MakrellPy",
+      "scenario": "Handle a POST request in MakrellPy",
+      "language": "python",
+      "tags": [
+        "post",
+        "request",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Singleton:\n    _instance = None\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = super(Singleton, cls).__new__(cls)\n        return cls._instance",
+      "description": "Singleton pattern implementation",
+      "scenario": "Singleton pattern implementation",
+      "language": "python",
+      "tags": [
+        "pattern",
+        "singleton",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Factory:\n    def create(self, type):\n        if type == 'A':\n            return ProductA()\n        elif type == 'B':\n            return ProductB()",
+      "description": "Factory pattern example",
+      "scenario": "Factory pattern example",
+      "language": "python",
+      "tags": [
+        "pattern",
+        "factory",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Observer:\n    def update(self, data):\n        pass\n\nclass Subject:\n    def __init__(self):\n        self.observers = []\n    def notify(self, data):\n        for observer in self.observers:\n            observer.update(data)",
+      "description": "Observer pattern setup",
+      "scenario": "Observer pattern setup",
+      "language": "python",
+      "tags": [
+        "pattern",
+        "observer",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "makrellpy runserver --verbose",
+      "description": "Run server in verbose mode",
+      "scenario": "Run server in verbose mode",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "verbose",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "makrellpy build --minify",
+      "description": "Build project with minification",
+      "scenario": "Build project with minification",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "minify",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "makrellpy init my_project --template=basic",
+      "description": "Initialize project with a specific template",
+      "scenario": "Initialize project with a specific template",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "template",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

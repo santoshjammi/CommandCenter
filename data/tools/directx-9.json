@@ -1,0 +1,165 @@
+{
+  "title": "DirectX 9 Cheat Sheet",
+  "slug": "directx-9",
+  "description": "Essential DirectX 9 commands and code snippets for graphics programming.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "IDirect3D9* d3d = Direct3DCreate9(D3D_SDK_VERSION);",
+      "description": "Initialize Direct3D interface",
+      "scenario": "Initialize Direct3D interface",
+      "language": "cpp",
+      "tags": [
+        "initialization",
+        "direct3d",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d3d->CreateDevice(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hwnd, D3DCREATE_SOFTWARE_VERTEXPROCESSING, &d3dpp, &d3dDevice);",
+      "description": "Create a Direct3D device",
+      "scenario": "Create a Direct3D device",
+      "language": "cpp",
+      "tags": [
+        "device",
+        "creation",
+        "direct3d"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D3DPRESENT_PARAMETERS d3dpp = {0};\nd3dpp.Windowed = TRUE;\nd3dpp.SwapEffect = D3DSWAPEFFECT_DISCARD;",
+      "description": "Set up the presentation parameters",
+      "scenario": "Set up the presentation parameters",
+      "language": "cpp",
+      "tags": [
+        "presentation",
+        "parameters",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->Clear(0, NULL, D3DCLEAR_TARGET, D3DCOLOR_XRGB(0, 0, 0), 1.0f, 0);",
+      "description": "Clear the back buffer",
+      "scenario": "Clear the back buffer",
+      "language": "cpp",
+      "tags": [
+        "rendering",
+        "clear",
+        "buffer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->BeginScene();",
+      "description": "Begin the scene",
+      "scenario": "Begin the scene",
+      "language": "cpp",
+      "tags": [
+        "rendering",
+        "scene",
+        "begin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->EndScene();",
+      "description": "End the scene",
+      "scenario": "End the scene",
+      "language": "cpp",
+      "tags": [
+        "rendering",
+        "scene",
+        "end"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D3DXCreateTextureFromFile(d3dDevice, \"texture.jpg\", &texture);",
+      "description": "Load a texture from file",
+      "scenario": "Load a texture from file",
+      "language": "cpp",
+      "tags": [
+        "texture",
+        "loading",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->SetTexture(0, texture);",
+      "description": "Set a texture for rendering",
+      "scenario": "Set a texture for rendering",
+      "language": "cpp",
+      "tags": [
+        "texture",
+        "set",
+        "rendering"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if(texture) texture->Release();",
+      "description": "Release a texture",
+      "scenario": "Release a texture",
+      "language": "cpp",
+      "tags": [
+        "texture",
+        "release",
+        "memory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D3DXCompileShaderFromFile(\"shader.vsh\", NULL, NULL, \"main\", \"vs_3_0\", 0, &shaderBuffer, NULL, &vertexShader);",
+      "description": "Compile a vertex shader from file",
+      "scenario": "Compile a vertex shader from file",
+      "language": "cpp",
+      "tags": [
+        "shader",
+        "compile",
+        "vertex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->SetVertexShader(vertexShader);",
+      "description": "Set a vertex shader",
+      "scenario": "Set a vertex shader",
+      "language": "cpp",
+      "tags": [
+        "shader",
+        "set",
+        "vertex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if(vertexShader) vertexShader->Release();",
+      "description": "Release a vertex shader",
+      "scenario": "Release a vertex shader",
+      "language": "cpp",
+      "tags": [
+        "shader",
+        "release",
+        "vertex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

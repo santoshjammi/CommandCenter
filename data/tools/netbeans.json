@@ -1,0 +1,204 @@
+{
+  "title": "NetBeans Cheat Sheet",
+  "slug": "netbeans",
+  "description": "Quick reference guide for NetBeans IDE commands and shortcuts.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "netbeans",
+      "description": "Start NetBeans IDE from the terminal",
+      "scenario": "Start NetBeans IDE from the terminal",
+      "language": "bash",
+      "tags": [
+        "start",
+        "cli",
+        "launch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netbeans /path/to/project",
+      "description": "Open a specific project in NetBeans",
+      "scenario": "Open a specific project in NetBeans",
+      "language": "bash",
+      "tags": [
+        "open",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netbeans --version",
+      "description": "Check NetBeans version",
+      "scenario": "Check NetBeans version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + F11",
+      "description": "Build the project",
+      "scenario": "Build the project",
+      "language": "text",
+      "tags": [
+        "build",
+        "shortcut",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F6",
+      "description": "Run the project",
+      "scenario": "Run the project",
+      "language": "text",
+      "tags": [
+        "run",
+        "shortcut",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + F5",
+      "description": "Debug the project",
+      "scenario": "Debug the project",
+      "language": "text",
+      "tags": [
+        "debug",
+        "shortcut",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + G",
+      "description": "Go to a specific line",
+      "scenario": "Go to a specific line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + F7",
+      "description": "Find usages of a method or variable",
+      "scenario": "Find usages of a method or variable",
+      "language": "text",
+      "tags": [
+        "find",
+        "usage",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + O",
+      "description": "Navigate to a type",
+      "scenario": "Navigate to a type",
+      "language": "text",
+      "tags": [
+        "navigate",
+        "type",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netbeans_default_options=\"-J-Xmx1024m\"",
+      "description": "Set the maximum heap size for NetBeans",
+      "scenario": "Set the maximum heap size for NetBeans",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "memory",
+        "heap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netbeans_default_options=\"-J-Dorg.netbeans.log.startup=print\"",
+      "description": "Enable verbose logging for NetBeans",
+      "scenario": "Enable verbose logging for NetBeans",
+      "language": "bash",
+      "tags": [
+        "logging",
+        "verbose",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netbeans_default_options=\"--laf Nimbus\"",
+      "description": "Change the default look and feel",
+      "scenario": "Change the default look and feel",
+      "language": "bash",
+      "tags": [
+        "look",
+        "feel",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + C",
+      "description": "Commit changes using Git",
+      "scenario": "Commit changes using Git",
+      "language": "text",
+      "tags": [
+        "git",
+        "commit",
+        "version control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + U",
+      "description": "Update project from repository",
+      "scenario": "Update project from repository",
+      "language": "text",
+      "tags": [
+        "update",
+        "repository",
+        "version control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + H",
+      "description": "View project history",
+      "scenario": "View project history",
+      "language": "text",
+      "tags": [
+        "history",
+        "version control",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

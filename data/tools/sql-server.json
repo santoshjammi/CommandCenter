@@ -1,0 +1,204 @@
+{
+  "title": "SQL Server Cheat Sheet",
+  "slug": "sql-server",
+  "description": "Essential SQL Server commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "query",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "data",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing rows in a table",
+      "scenario": "Update existing rows in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "modify",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE table_name (column1 datatype, column2 datatype);",
+      "description": "Create a new table",
+      "scenario": "Create a new table",
+      "language": "sql",
+      "tags": [
+        "create",
+        "table",
+        "schema"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP TABLE table_name;",
+      "description": "Delete a table",
+      "scenario": "Delete a table",
+      "language": "sql",
+      "tags": [
+        "drop",
+        "delete",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALTER TABLE table_name ADD column_name datatype;",
+      "description": "Add a new column to an existing table",
+      "scenario": "Add a new column to an existing table",
+      "language": "sql",
+      "tags": [
+        "alter",
+        "add",
+        "column"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALTER TABLE table_name ADD PRIMARY KEY (column_name);",
+      "description": "Create a primary key on a column",
+      "scenario": "Create a primary key on a column",
+      "language": "sql",
+      "tags": [
+        "primary key",
+        "constraint",
+        "index"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE INDEX index_name ON table_name (column_name);",
+      "description": "Create an index on a column",
+      "scenario": "Create an index on a column",
+      "language": "sql",
+      "tags": [
+        "index",
+        "performance",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP INDEX index_name ON table_name;",
+      "description": "Drop an index from a table",
+      "scenario": "Drop an index from a table",
+      "language": "sql",
+      "tags": [
+        "drop",
+        "index",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE PROCEDURE procedure_name AS BEGIN SELECT * FROM table_name; END;",
+      "description": "Create a simple stored procedure",
+      "scenario": "Create a simple stored procedure",
+      "language": "sql",
+      "tags": [
+        "stored procedure",
+        "create",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "EXEC procedure_name;",
+      "description": "Execute a stored procedure",
+      "scenario": "Execute a stored procedure",
+      "language": "sql",
+      "tags": [
+        "execute",
+        "procedure",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP PROCEDURE procedure_name;",
+      "description": "Drop a stored procedure",
+      "scenario": "Drop a stored procedure",
+      "language": "sql",
+      "tags": [
+        "drop",
+        "procedure",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE LOGIN login_name WITH PASSWORD = 'password';",
+      "description": "Create a new SQL Server login",
+      "scenario": "Create a new SQL Server login",
+      "language": "sql",
+      "tags": [
+        "user",
+        "create",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "USE database_name; GRANT CONNECT TO login_name;",
+      "description": "Grant a user access to a database",
+      "scenario": "Grant a user access to a database",
+      "language": "sql",
+      "tags": [
+        "grant",
+        "access",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "USE database_name; REVOKE CONNECT FROM login_name;",
+      "description": "Revoke a user's access to a database",
+      "scenario": "Revoke a user's access to a database",
+      "language": "sql",
+      "tags": [
+        "revoke",
+        "access",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "IntelliJ IDEA Cheat Sheet",
+  "slug": "intellij-idea",
+  "description": "Quick reference for IntelliJ IDEA shortcuts and features.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl + Shift + N",
+      "description": "Open a file by name",
+      "scenario": "Open a file by name",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "file",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + N",
+      "description": "Navigate to class",
+      "scenario": "Navigate to class",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "class",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + Alt + N",
+      "description": "Navigate to symbol",
+      "scenario": "Navigate to symbol",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "symbol",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + L",
+      "description": "Reformat code",
+      "scenario": "Reformat code",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Insert",
+      "description": "Generate code (getters, setters, etc.)",
+      "scenario": "Generate code (getters, setters, etc.)",
+      "language": "text",
+      "tags": [
+        "generate",
+        "code",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + /",
+      "description": "Comment/uncomment line",
+      "scenario": "Comment/uncomment line",
+      "language": "text",
+      "tags": [
+        "comment",
+        "code",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + F",
+      "description": "Find in path",
+      "scenario": "Find in path",
+      "language": "text",
+      "tags": [
+        "search",
+        "find",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + R",
+      "description": "Replace in path",
+      "scenario": "Replace in path",
+      "language": "text",
+      "tags": [
+        "replace",
+        "find",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + F7",
+      "description": "Find usages",
+      "scenario": "Find usages",
+      "language": "text",
+      "tags": [
+        "search",
+        "usages",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + K",
+      "description": "Commit changes",
+      "scenario": "Commit changes",
+      "language": "text",
+      "tags": [
+        "vcs",
+        "commit",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + T",
+      "description": "Update project",
+      "scenario": "Update project",
+      "language": "text",
+      "tags": [
+        "vcs",
+        "update",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + 9",
+      "description": "View history",
+      "scenario": "View history",
+      "language": "text",
+      "tags": [
+        "vcs",
+        "history",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F10",
+      "description": "Run current configuration",
+      "scenario": "Run current configuration",
+      "language": "text",
+      "tags": [
+        "run",
+        "debug",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F9",
+      "description": "Debug current configuration",
+      "scenario": "Debug current configuration",
+      "language": "text",
+      "tags": [
+        "debug",
+        "run",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F8",
+      "description": "Step over during debugging",
+      "scenario": "Step over during debugging",
+      "language": "text",
+      "tags": [
+        "debug",
+        "step",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

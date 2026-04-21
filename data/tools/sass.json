@@ -1,0 +1,204 @@
+{
+  "title": "Sass Cheat Sheet",
+  "slug": "sass",
+  "description": "Essential CLI commands and syntax for Sass development.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "sass input.scss output.css",
+      "description": "Compile a single Sass file to CSS",
+      "scenario": "Compile a single Sass file to CSS",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "cli",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sass --watch scss:css",
+      "description": "Watch a directory for changes and compile Sass to CSS",
+      "scenario": "Watch a directory for changes and compile Sass to CSS",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "directory",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sass --style=compressed input.scss output.css",
+      "description": "Compile Sass with compressed output style",
+      "scenario": "Compile Sass with compressed output style",
+      "language": "bash",
+      "tags": [
+        "compressed",
+        "output",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$primary-color: #333;",
+      "description": "Define a variable for a primary color",
+      "scenario": "Define a variable for a primary color",
+      "language": "sass",
+      "tags": [
+        "variables",
+        "colors",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nav {\n  ul {\n    margin: 0;\n    padding: 0;\n    list-style: none;\n  }\n}",
+      "description": "Nest CSS selectors for better readability",
+      "scenario": "Nest CSS selectors for better readability",
+      "language": "sass",
+      "tags": [
+        "nesting",
+        "selectors",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "body {\n  color: $primary-color;\n}",
+      "description": "Use a variable within a CSS rule",
+      "scenario": "Use a variable within a CSS rule",
+      "language": "sass",
+      "tags": [
+        "variables",
+        "usage",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@mixin flex-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}",
+      "description": "Create a mixin for a flex container",
+      "scenario": "Create a mixin for a flex container",
+      "language": "sass",
+      "tags": [
+        "mixin",
+        "flex",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "header {\n  @include flex-container;\n}",
+      "description": "Use a mixin in a CSS rule",
+      "scenario": "Use a mixin in a CSS rule",
+      "language": "sass",
+      "tags": [
+        "mixin",
+        "include",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@function half($number) {\n  @return $number / 2;\n}",
+      "description": "Define a function to calculate half a value",
+      "scenario": "Define a function to calculate half a value",
+      "language": "sass",
+      "tags": [
+        "function",
+        "calculation",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// _variables.scss\n$primary-color: #333;",
+      "description": "Create a partial Sass file for variables",
+      "scenario": "Create a partial Sass file for variables",
+      "language": "sass",
+      "tags": [
+        "partials",
+        "variables",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@import 'variables';",
+      "description": "Import a partial into a main Sass file",
+      "scenario": "Import a partial into a main Sass file",
+      "language": "sass",
+      "tags": [
+        "import",
+        "partials",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "footer {\n  background-color: $primary-color;\n}",
+      "description": "Use an imported variable in a CSS rule",
+      "scenario": "Use an imported variable in a CSS rule",
+      "language": "sass",
+      "tags": [
+        "import",
+        "usage",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@if $theme == dark {\n  background-color: black;\n} @else {\n  background-color: white;\n}",
+      "description": "Use @if directive for conditional styles",
+      "scenario": "Use @if directive for conditional styles",
+      "language": "sass",
+      "tags": [
+        "conditional",
+        "styles",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@each $size in small, medium, large {\n  .#{$size} {\n    font-size: 10px * index($size);\n  }\n}",
+      "description": "Iterate over a list with @each directive",
+      "scenario": "Iterate over a list with @each directive",
+      "language": "sass",
+      "tags": [
+        "iteration",
+        "list",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@for $i from 1 through 3 {\n  .col-#{$i} {\n    width: 100% / $i;\n  }\n}",
+      "description": "Use @for directive to create a loop",
+      "scenario": "Use @for directive to create a loop",
+      "language": "sass",
+      "tags": [
+        "loop",
+        "for",
+        "sass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

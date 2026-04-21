@@ -1,0 +1,204 @@
+{
+  "title": "Developer Tools Cheat Sheet",
+  "slug": "developer-tools",
+  "description": "Essential commands and patterns for developer tools.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone a repository from GitHub",
+      "scenario": "Clone a repository from GitHub",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git status",
+      "description": "Check the status of your working directory",
+      "scenario": "Check the status of your working directory",
+      "language": "bash",
+      "tags": [
+        "git",
+        "status",
+        "working-directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Your commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker build -t my-image:latest .",
+      "description": "Build a Docker image from a Dockerfile",
+      "scenario": "Build a Docker image from a Dockerfile",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "build",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d -p 80:80 my-image:latest",
+      "description": "Run a Docker container from an image",
+      "scenario": "Run a Docker container from an image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "run",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List all running Docker containers",
+      "scenario": "List all running Docker containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "list",
+        "containers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm init -y",
+      "description": "Initialize a new Node.js project",
+      "scenario": "Initialize a new Node.js project",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "init",
+        "nodejs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install express --save",
+      "description": "Install a package and save it as a dependency",
+      "scenario": "Install a package and save it as a dependency",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "install",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run start",
+      "description": "Run a script defined in package.json",
+      "scenario": "Run a script defined in package.json",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "run",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+P",
+      "description": "Open the command palette",
+      "scenario": "Open the command palette",
+      "language": "text",
+      "tags": [
+        "vscode",
+        "shortcut",
+        "command-palette"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+`",
+      "description": "Toggle terminal",
+      "scenario": "Toggle terminal",
+      "language": "text",
+      "tags": [
+        "vscode",
+        "shortcut",
+        "terminal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+F",
+      "description": "Find in files",
+      "scenario": "Find in files",
+      "language": "text",
+      "tags": [
+        "vscode",
+        "shortcut",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "list",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd ..",
+      "description": "Change directory to the parent directory",
+      "scenario": "Change directory to the parent directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "change-directory",
+        "parent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Display the current working directory",
+      "scenario": "Display the current working directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "current",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

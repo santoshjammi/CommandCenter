@@ -1,0 +1,204 @@
+{
+  "title": "Unix Command Line Cheat Sheet",
+  "slug": "unix",
+  "description": "Essential Unix commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /usr/local",
+      "description": "Change directory to /usr/local",
+      "scenario": "Change directory to /usr/local",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copy a file from source to destination",
+      "scenario": "Copy a file from source to destination",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 700 file.txt",
+      "description": "Change file permissions to read, write, execute for owner",
+      "scenario": "Change file permissions to read, write, execute for owner",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "file",
+        "chmod"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chown john file.txt",
+      "description": "Change ownership of a file to user 'john'",
+      "scenario": "Change ownership of a file to user 'john'",
+      "language": "bash",
+      "tags": [
+        "ownership",
+        "file",
+        "chown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod a+x script.sh",
+      "description": "Add execute permission for all users",
+      "scenario": "Add execute permission for all users",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "execute",
+        "chmod"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "ps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill 1234",
+      "description": "Kill a process with a specific PID",
+      "scenario": "Kill a process with a specific PID",
+      "language": "bash",
+      "tags": [
+        "process",
+        "kill",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Show real-time system processes",
+      "scenario": "Show real-time system processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "system",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display network interfaces and IP addresses",
+      "scenario": "Display network interfaces and IP addresses",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interface",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 example.com",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ping",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -tuln",
+      "description": "Display current network connections",
+      "scenario": "Display current network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "netstat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'pattern' file.txt",
+      "description": "Search for a pattern in a file",
+      "scenario": "Search for a pattern in a file",
+      "language": "bash",
+      "tags": [
+        "search",
+        "pattern",
+        "grep"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wc file.txt",
+      "description": "Count lines, words, and characters in a file",
+      "scenario": "Count lines, words, and characters in a file",
+      "language": "bash",
+      "tags": [
+        "count",
+        "lines",
+        "words"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sort file.txt",
+      "description": "Sort lines in a file alphabetically",
+      "scenario": "Sort lines in a file alphabetically",
+      "language": "bash",
+      "tags": [
+        "sort",
+        "file",
+        "lines"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

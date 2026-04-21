@@ -1,0 +1,204 @@
+{
+  "title": "PHP Frameworks Cheat Sheet",
+  "slug": "php-frameworks",
+  "description": "Essential commands and snippets for PHP frameworks.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "composer create-project --prefer-dist laravel/laravel blog",
+      "description": "Create a new Laravel project",
+      "scenario": "Create a new Laravel project",
+      "language": "bash",
+      "tags": [
+        "laravel",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php artisan serve",
+      "description": "Run the Laravel development server",
+      "scenario": "Run the Laravel development server",
+      "language": "bash",
+      "tags": [
+        "laravel",
+        "server",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php artisan migrate",
+      "description": "Run database migrations",
+      "scenario": "Run database migrations",
+      "language": "bash",
+      "tags": [
+        "laravel",
+        "database",
+        "migrate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "symfony new my_project_name",
+      "description": "Create a new Symfony project",
+      "scenario": "Create a new Symfony project",
+      "language": "bash",
+      "tags": [
+        "symfony",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "symfony server:start",
+      "description": "Start the Symfony local server",
+      "scenario": "Start the Symfony local server",
+      "language": "bash",
+      "tags": [
+        "symfony",
+        "server",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php bin/console cache:clear",
+      "description": "Clear the Symfony cache",
+      "scenario": "Clear the Symfony cache",
+      "language": "bash",
+      "tags": [
+        "symfony",
+        "cache",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$config['base_url'] = 'http://example.com/';",
+      "description": "Set base URL in CodeIgniter",
+      "scenario": "Set base URL in CodeIgniter",
+      "language": "php",
+      "tags": [
+        "codeigniter",
+        "configuration",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$config['log_threshold'] = 1;",
+      "description": "Enable error logging in CodeIgniter",
+      "scenario": "Enable error logging in CodeIgniter",
+      "language": "php",
+      "tags": [
+        "codeigniter",
+        "logging",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$db['default'] = array('dsn' => '', 'hostname' => 'localhost', 'username' => 'root', 'password' => '', 'database' => 'my_db', 'dbdriver' => 'mysqli');",
+      "description": "Set database connection settings",
+      "scenario": "Set database connection settings",
+      "language": "php",
+      "tags": [
+        "codeigniter",
+        "database",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bin/cake bake model Users",
+      "description": "Bake a new CakePHP model",
+      "scenario": "Bake a new CakePHP model",
+      "language": "bash",
+      "tags": [
+        "cakephp",
+        "bake",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bin/cake migrations migrate",
+      "description": "Run CakePHP migrations",
+      "scenario": "Run CakePHP migrations",
+      "language": "bash",
+      "tags": [
+        "cakephp",
+        "migrations",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bin/cake cache clear_all",
+      "description": "Clear CakePHP cache",
+      "scenario": "Clear CakePHP cache",
+      "language": "bash",
+      "tags": [
+        "cakephp",
+        "cache",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer create-project -sdev zendframework/skeleton-application path/to/install",
+      "description": "Create a new Zend Framework project",
+      "scenario": "Create a new Zend Framework project",
+      "language": "bash",
+      "tags": [
+        "zend",
+        "framework",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php -S 0.0.0.0:8080 -t public",
+      "description": "Run Zend Framework development server",
+      "scenario": "Run Zend Framework development server",
+      "language": "bash",
+      "tags": [
+        "zend",
+        "server",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "'db' => ['driver' => 'Pdo_Mysql', 'dsn' => 'mysql:dbname=zend_db;host=localhost', 'username' => 'root', 'password' => ''],",
+      "description": "Configure database in Zend Framework",
+      "scenario": "Configure database in Zend Framework",
+      "language": "php",
+      "tags": [
+        "zend",
+        "database",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

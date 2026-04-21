@@ -1,0 +1,204 @@
+{
+  "title": "OpenGL Cheat Sheet",
+  "slug": "opengl",
+  "description": "Essential OpenGL commands and patterns for graphics programming.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "glfwInit();",
+      "description": "Initialize OpenGL context",
+      "scenario": "Initialize OpenGL context",
+      "language": "c",
+      "tags": [
+        "initialization",
+        "context",
+        "glfw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glViewport(0, 0, width, height);",
+      "description": "Set the viewport size",
+      "scenario": "Set the viewport size",
+      "language": "c",
+      "tags": [
+        "viewport",
+        "resize",
+        "rendering"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glClearColor(0.0f, 0.0f, 0.0f, 1.0f);\nglClear(GL_COLOR_BUFFER_BIT);",
+      "description": "Clear the screen with a color",
+      "scenario": "Clear the screen with a color",
+      "language": "c",
+      "tags": [
+        "clear",
+        "color",
+        "buffer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);\nglShaderSource(vertexShader, 1, &vertexShaderSource, NULL);\nglCompileShader(vertexShader);",
+      "description": "Compile a vertex shader",
+      "scenario": "Compile a vertex shader",
+      "language": "c",
+      "tags": [
+        "shader",
+        "vertex",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);\nglShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);\nglCompileShader(fragmentShader);",
+      "description": "Compile a fragment shader",
+      "scenario": "Compile a fragment shader",
+      "language": "c",
+      "tags": [
+        "shader",
+        "fragment",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GLuint shaderProgram = glCreateProgram();\nglAttachShader(shaderProgram, vertexShader);\nglAttachShader(shaderProgram, fragmentShader);\nglLinkProgram(shaderProgram);",
+      "description": "Link shaders into a program",
+      "scenario": "Link shaders into a program",
+      "language": "c",
+      "tags": [
+        "shader",
+        "link",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GLuint VBO;\nglGenBuffers(1, &VBO);",
+      "description": "Generate a buffer object",
+      "scenario": "Generate a buffer object",
+      "language": "c",
+      "tags": [
+        "buffer",
+        "generate",
+        "VBO"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glBindBuffer(GL_ARRAY_BUFFER, VBO);",
+      "description": "Bind a buffer object",
+      "scenario": "Bind a buffer object",
+      "language": "c",
+      "tags": [
+        "buffer",
+        "bind",
+        "VBO"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);",
+      "description": "Send data to a buffer",
+      "scenario": "Send data to a buffer",
+      "language": "c",
+      "tags": [
+        "buffer",
+        "data",
+        "upload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GLuint texture;\nglGenTextures(1, &texture);",
+      "description": "Generate a texture object",
+      "scenario": "Generate a texture object",
+      "language": "c",
+      "tags": [
+        "texture",
+        "generate",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glBindTexture(GL_TEXTURE_2D, texture);",
+      "description": "Bind a texture object",
+      "scenario": "Bind a texture object",
+      "language": "c",
+      "tags": [
+        "texture",
+        "bind",
+        "2D"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);\nglTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);\nglTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);\nglTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);",
+      "description": "Set texture parameters",
+      "scenario": "Set texture parameters",
+      "language": "c",
+      "tags": [
+        "texture",
+        "parameters",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while(!glfwWindowShouldClose(window)) {\n    // Render here\n    glfwSwapBuffers(window);\n    glfwPollEvents();\n}",
+      "description": "Start the rendering loop",
+      "scenario": "Start the rendering loop",
+      "language": "c",
+      "tags": [
+        "rendering",
+        "loop",
+        "window"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glUseProgram(shaderProgram);",
+      "description": "Use a shader program",
+      "scenario": "Use a shader program",
+      "language": "c",
+      "tags": [
+        "shader",
+        "program",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glDrawArrays(GL_TRIANGLES, 0, 3);",
+      "description": "Draw a triangle",
+      "scenario": "Draw a triangle",
+      "language": "c",
+      "tags": [
+        "draw",
+        "triangle",
+        "arrays"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

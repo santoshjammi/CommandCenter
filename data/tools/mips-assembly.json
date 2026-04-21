@@ -1,0 +1,165 @@
+{
+  "title": "MIPS Assembly Cheat Sheet",
+  "slug": "mips-assembly",
+  "description": "Quick reference for MIPS Assembly instructions and syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "lw $t0, 0($t1)",
+      "description": "Load a word from memory into a register",
+      "scenario": "Load a word from memory into a register",
+      "language": "text",
+      "tags": [
+        "load",
+        "memory",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sw $t0, 0($t1)",
+      "description": "Store a word from a register into memory",
+      "scenario": "Store a word from a register into memory",
+      "language": "text",
+      "tags": [
+        "store",
+        "memory",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add $t0, $t1, $t2",
+      "description": "Add two registers and store the result in a register",
+      "scenario": "Add two registers and store the result in a register",
+      "language": "text",
+      "tags": [
+        "add",
+        "register",
+        "arithmetic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "beq $t0, $t1, label",
+      "description": "Branch if two registers are equal",
+      "scenario": "Branch if two registers are equal",
+      "language": "text",
+      "tags": [
+        "branch",
+        "control",
+        "equal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "j label",
+      "description": "Jump to a specified label",
+      "scenario": "Jump to a specified label",
+      "language": "text",
+      "tags": [
+        "jump",
+        "control",
+        "label"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "slt $t0, $t1, $t2",
+      "description": "Set register to 1 if less than, otherwise 0",
+      "scenario": "Set register to 1 if less than, otherwise 0",
+      "language": "text",
+      "tags": [
+        "set",
+        "less",
+        "compare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "move $t0, $t1",
+      "description": "Move data from one register to another",
+      "scenario": "Move data from one register to another",
+      "language": "text",
+      "tags": [
+        "move",
+        "register",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "li $t0, 10",
+      "description": "Load immediate value into a register",
+      "scenario": "Load immediate value into a register",
+      "language": "text",
+      "tags": [
+        "load",
+        "immediate",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "la $t0, label",
+      "description": "Load address of a label into a register",
+      "scenario": "Load address of a label into a register",
+      "language": "text",
+      "tags": [
+        "load",
+        "address",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sub $t0, $t1, $t2",
+      "description": "Subtract one register from another",
+      "scenario": "Subtract one register from another",
+      "language": "text",
+      "tags": [
+        "subtract",
+        "arithmetic",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mul $t0, $t1, $t2",
+      "description": "Multiply two registers",
+      "scenario": "Multiply two registers",
+      "language": "text",
+      "tags": [
+        "multiply",
+        "arithmetic",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div $t0, $t1",
+      "description": "Divide one register by another",
+      "scenario": "Divide one register by another",
+      "language": "text",
+      "tags": [
+        "divide",
+        "arithmetic",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

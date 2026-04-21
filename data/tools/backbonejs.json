@@ -1,0 +1,165 @@
+{
+  "title": "Backbone.js Cheat Sheet",
+  "slug": "backbonejs",
+  "description": "Quick reference for Backbone.js commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "var MyModel = Backbone.Model.extend({\n  defaults: {\n    name: 'Default Name',\n    age: 25\n  }\n});",
+      "description": "Define a Backbone model with default attributes",
+      "scenario": "Define a Backbone model with default attributes",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "default",
+        "attributes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var myModelInstance = new MyModel({name: 'John Doe'});",
+      "description": "Create an instance of a Backbone model",
+      "scenario": "Create an instance of a Backbone model",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "instance",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myModelInstance.set('age', 30);",
+      "description": "Set an attribute on a Backbone model",
+      "scenario": "Set an attribute on a Backbone model",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "set",
+        "attribute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var MyView = Backbone.View.extend({\n  events: {\n    'click .button': 'handleClick'\n  },\n  handleClick: function() {\n    alert('Button clicked!');\n  }\n});",
+      "description": "Define a Backbone view with an event handler",
+      "scenario": "Define a Backbone view with an event handler",
+      "language": "javascript",
+      "tags": [
+        "view",
+        "event",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var myViewInstance = new MyView({el: '#myElement'});\nmyViewInstance.render();",
+      "description": "Render a Backbone view",
+      "scenario": "Render a Backbone view",
+      "language": "javascript",
+      "tags": [
+        "view",
+        "render",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var MyView = Backbone.View.extend({\n  template: _.template($('#my-template').html()),\n  render: function() {\n    this.$el.html(this.template(this.model.toJSON()));\n    return this;\n  }\n});",
+      "description": "Attach a template to a Backbone view",
+      "scenario": "Attach a template to a Backbone view",
+      "language": "javascript",
+      "tags": [
+        "view",
+        "template",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var MyCollection = Backbone.Collection.extend({\n  model: MyModel\n});",
+      "description": "Define a Backbone collection for models",
+      "scenario": "Define a Backbone collection for models",
+      "language": "javascript",
+      "tags": [
+        "collection",
+        "model",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var myCollection = new MyCollection();\nmyCollection.add(myModelInstance);",
+      "description": "Add a model to a Backbone collection",
+      "scenario": "Add a model to a Backbone collection",
+      "language": "javascript",
+      "tags": [
+        "collection",
+        "add",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "myCollection.fetch({\n  success: function(collection, response, options) {\n    console.log('Collection fetched successfully');\n  },\n  error: function(collection, response, options) {\n    console.error('Failed to fetch collection');\n  }\n});",
+      "description": "Fetch data for a Backbone collection from a server",
+      "scenario": "Fetch data for a Backbone collection from a server",
+      "language": "javascript",
+      "tags": [
+        "collection",
+        "fetch",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var MyRouter = Backbone.Router.extend({\n  routes: {\n    'home': 'homeRoute',\n    'about': 'aboutRoute'\n  },\n  homeRoute: function() {\n    console.log('Home route');\n  },\n  aboutRoute: function() {\n    console.log('About route');\n  }\n});",
+      "description": "Define a Backbone router with routes",
+      "scenario": "Define a Backbone router with routes",
+      "language": "javascript",
+      "tags": [
+        "router",
+        "routes",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Backbone.history.start();",
+      "description": "Start Backbone history to enable routing",
+      "scenario": "Start Backbone history to enable routing",
+      "language": "javascript",
+      "tags": [
+        "router",
+        "history",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var myRouter = new MyRouter();\nmyRouter.navigate('home', {trigger: true});",
+      "description": "Navigate to a different route programmatically",
+      "scenario": "Navigate to a different route programmatically",
+      "language": "javascript",
+      "tags": [
+        "router",
+        "navigate",
+        "programmatically"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "ImageMagick Cheat Sheet",
+  "slug": "imagemagick",
+  "description": "Essential CLI commands for ImageMagick image processing.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "convert input.jpg output.png",
+      "description": "Convert an image from one format to another",
+      "scenario": "Convert an image from one format to another",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "format",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -resize 200x100 output.jpg",
+      "description": "Resize an image to 200x100 pixels",
+      "scenario": "Resize an image to 200x100 pixels",
+      "language": "bash",
+      "tags": [
+        "resize",
+        "dimensions",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -rotate 90 output.jpg",
+      "description": "Rotate an image by 90 degrees",
+      "scenario": "Rotate an image by 90 degrees",
+      "language": "bash",
+      "tags": [
+        "rotate",
+        "image",
+        "transform"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -blur 0x8 output.jpg",
+      "description": "Apply a blur effect to an image",
+      "scenario": "Apply a blur effect to an image",
+      "language": "bash",
+      "tags": [
+        "blur",
+        "effect",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -sepia-tone 80% output.jpg",
+      "description": "Add a sepia tone to an image",
+      "scenario": "Add a sepia tone to an image",
+      "language": "bash",
+      "tags": [
+        "sepia",
+        "tone",
+        "effect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -colorspace Gray output.jpg",
+      "description": "Create a grayscale version of an image",
+      "scenario": "Create a grayscale version of an image",
+      "language": "bash",
+      "tags": [
+        "grayscale",
+        "colorspace",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composite -gravity center overlay.png input.jpg output.jpg",
+      "description": "Overlay one image on top of another",
+      "scenario": "Overlay one image on top of another",
+      "language": "bash",
+      "tags": [
+        "overlay",
+        "composite",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "montage input1.jpg input2.jpg -tile 2x1 -geometry +0+0 montage.jpg",
+      "description": "Create a montage of multiple images",
+      "scenario": "Create a montage of multiple images",
+      "language": "bash",
+      "tags": [
+        "montage",
+        "tile",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input1.jpg input2.jpg -append output.jpg",
+      "description": "Append images vertically",
+      "scenario": "Append images vertically",
+      "language": "bash",
+      "tags": [
+        "append",
+        "vertical",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -crop 100x100+10+10 output.jpg",
+      "description": "Crop an image to a specific size and position",
+      "scenario": "Crop an image to a specific size and position",
+      "language": "bash",
+      "tags": [
+        "crop",
+        "size",
+        "position"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -brightness-contrast 10x20 output.jpg",
+      "description": "Change the brightness and contrast of an image",
+      "scenario": "Change the brightness and contrast of an image",
+      "language": "bash",
+      "tags": [
+        "brightness",
+        "contrast",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -bordercolor black -border 10x10 output.jpg",
+      "description": "Add a border to an image",
+      "scenario": "Add a border to an image",
+      "language": "bash",
+      "tags": [
+        "border",
+        "image",
+        "frame"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

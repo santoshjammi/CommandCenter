@@ -1,0 +1,204 @@
+{
+  "title": "Trigonometry Cheat Sheet",
+  "slug": "trigonometry",
+  "description": "Quick reference for trigonometric functions and identities",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "import math\nmath.sin(angle_in_radians)",
+      "description": "Calculate sine of an angle in radians",
+      "scenario": "Calculate sine of an angle in radians",
+      "language": "python",
+      "tags": [
+        "sine",
+        "math",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nmath.cos(angle_in_radians)",
+      "description": "Calculate cosine of an angle in radians",
+      "scenario": "Calculate cosine of an angle in radians",
+      "language": "python",
+      "tags": [
+        "cosine",
+        "math",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nmath.tan(angle_in_radians)",
+      "description": "Calculate tangent of an angle in radians",
+      "scenario": "Calculate tangent of an angle in radians",
+      "language": "python",
+      "tags": [
+        "tangent",
+        "math",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nmath.asin(value)",
+      "description": "Calculate arcsine of a value",
+      "scenario": "Calculate arcsine of a value",
+      "language": "python",
+      "tags": [
+        "arcsine",
+        "inverse",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nmath.acos(value)",
+      "description": "Calculate arccosine of a value",
+      "scenario": "Calculate arccosine of a value",
+      "language": "python",
+      "tags": [
+        "arccosine",
+        "inverse",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nmath.atan(value)",
+      "description": "Calculate arctangent of a value",
+      "scenario": "Calculate arctangent of a value",
+      "language": "python",
+      "tags": [
+        "arctangent",
+        "inverse",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sin^2(\u03b8) + cos^2(\u03b8) = 1",
+      "description": "Pythagorean identity for sine and cosine",
+      "scenario": "Pythagorean identity for sine and cosine",
+      "language": "text",
+      "tags": [
+        "identity",
+        "pythagorean",
+        "trigonometry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sin(a + b) = sin(a)cos(b) + cos(a)sin(b)",
+      "description": "Angle sum identity for sine",
+      "scenario": "Angle sum identity for sine",
+      "language": "text",
+      "tags": [
+        "identity",
+        "angle sum",
+        "trigonometry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cos(a + b) = cos(a)cos(b) - sin(a)sin(b)",
+      "description": "Angle sum identity for cosine",
+      "scenario": "Angle sum identity for cosine",
+      "language": "text",
+      "tags": [
+        "identity",
+        "angle sum",
+        "trigonometry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nradians = math.radians(degrees)",
+      "description": "Convert degrees to radians",
+      "scenario": "Convert degrees to radians",
+      "language": "python",
+      "tags": [
+        "conversion",
+        "degrees",
+        "radians"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nmath.sin(math.radians(angle_in_degrees))",
+      "description": "Calculate sine of an angle in degrees",
+      "scenario": "Calculate sine of an angle in degrees",
+      "language": "python",
+      "tags": [
+        "sine",
+        "degrees",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nmath.cos(math.radians(angle_in_degrees))",
+      "description": "Calculate cosine of an angle in degrees",
+      "scenario": "Calculate cosine of an angle in degrees",
+      "language": "python",
+      "tags": [
+        "cosine",
+        "degrees",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sin(45\u00b0) = \u221a2/2",
+      "description": "Sine of 45 degrees",
+      "scenario": "Sine of 45 degrees",
+      "language": "text",
+      "tags": [
+        "special angle",
+        "sine",
+        "trigonometry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cos(60\u00b0) = 1/2",
+      "description": "Cosine of 60 degrees",
+      "scenario": "Cosine of 60 degrees",
+      "language": "text",
+      "tags": [
+        "special angle",
+        "cosine",
+        "trigonometry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tan(30\u00b0) = \u221a3/3",
+      "description": "Tangent of 30 degrees",
+      "scenario": "Tangent of 30 degrees",
+      "language": "text",
+      "tags": [
+        "special angle",
+        "tangent",
+        "trigonometry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

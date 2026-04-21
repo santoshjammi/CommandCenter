@@ -1,0 +1,204 @@
+{
+  "title": "Ruby Ecosystem Cheat Sheet",
+  "slug": "ruby-ecosystem",
+  "description": "Essential Ruby commands, syntax, and patterns for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "gem install <gem_name>",
+      "description": "Install a Ruby gem",
+      "scenario": "Install a Ruby gem",
+      "language": "bash",
+      "tags": [
+        "gem",
+        "install",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem list",
+      "description": "List installed gems",
+      "scenario": "List installed gems",
+      "language": "bash",
+      "tags": [
+        "gem",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "irb",
+      "description": "Run an interactive Ruby shell",
+      "scenario": "Run an interactive Ruby shell",
+      "language": "bash",
+      "tags": [
+        "interactive",
+        "shell",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyClass\n  def initialize\n    @variable = 0\n  end\nend",
+      "description": "Define a Ruby class",
+      "scenario": "Define a Ruby class",
+      "language": "ruby",
+      "tags": [
+        "class",
+        "syntax",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_method(param)\n  puts \"Hello, \"+param\nend",
+      "description": "Create a Ruby method",
+      "scenario": "Create a Ruby method",
+      "language": "ruby",
+      "tags": [
+        "method",
+        "syntax",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[1, 2, 3].each do |num|\n  puts num\nend",
+      "description": "Use a Ruby block",
+      "scenario": "Use a Ruby block",
+      "language": "ruby",
+      "tags": [
+        "block",
+        "syntax",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails new myapp",
+      "description": "Generate a new Rails application",
+      "scenario": "Generate a new Rails application",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "new",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails server",
+      "description": "Start the Rails server",
+      "scenario": "Start the Rails server",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate model ModelName field1:type field2:type",
+      "description": "Generate a Rails model",
+      "scenario": "Generate a Rails model",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "model",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo '2.7.2' > .ruby-version",
+      "description": "Set Ruby version using rbenv",
+      "scenario": "Set Ruby version using rbenv",
+      "language": "bash",
+      "tags": [
+        "rbenv",
+        "version",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle config set --local path 'vendor/bundle'",
+      "description": "Configure Bundler to use a specific path",
+      "scenario": "Configure Bundler to use a specific path",
+      "language": "bash",
+      "tags": [
+        "bundler",
+        "config",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ENV['MY_VARIABLE'] = 'value'",
+      "description": "Set environment variable in Rails",
+      "scenario": "Set environment variable in Rails",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "environment",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Singleton\n  include Singleton\nend",
+      "description": "Use a Singleton pattern",
+      "scenario": "Use a Singleton pattern",
+      "language": "ruby",
+      "tags": [
+        "singleton",
+        "pattern",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module MyModule\n  def module_method\n    puts 'Module method'\n  end\nend",
+      "description": "Implement a Module for mixins",
+      "scenario": "Implement a Module for mixins",
+      "language": "ruby",
+      "tags": [
+        "module",
+        "mixin",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "enumerator = [1, 2, 3].each\nputs enumerator.next",
+      "description": "Use an Enumerator",
+      "scenario": "Use an Enumerator",
+      "language": "ruby",
+      "tags": [
+        "enumerator",
+        "pattern",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

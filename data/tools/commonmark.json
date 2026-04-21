@@ -1,0 +1,204 @@
+{
+  "title": "CommonMark Cheat Sheet",
+  "slug": "commonmark",
+  "description": "Quick reference for CommonMark syntax and usage",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "**bold text**",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "text",
+      "tags": [
+        "bold",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*italic text*",
+      "description": "Make text italic",
+      "scenario": "Make text italic",
+      "language": "text",
+      "tags": [
+        "italic",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "~~strikethrough~~",
+      "description": "Strikethrough text",
+      "scenario": "Strikethrough text",
+      "language": "text",
+      "tags": [
+        "strikethrough",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n- Item 2\n- Item 3",
+      "description": "Create an unordered list",
+      "scenario": "Create an unordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "unordered",
+        "bullet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. First item\n2. Second item\n3. Third item",
+      "description": "Create an ordered list",
+      "scenario": "Create an ordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "ordered",
+        "numbered"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n  - Subitem 1\n  - Subitem 2",
+      "description": "Create a nested list",
+      "scenario": "Create a nested list",
+      "language": "text",
+      "tags": [
+        "list",
+        "nested",
+        "hierarchy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[Link text](http://example.com)",
+      "description": "Create a hyperlink",
+      "scenario": "Create a hyperlink",
+      "language": "text",
+      "tags": [
+        "link",
+        "hyperlink",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "![Alt text](http://example.com/image.jpg)",
+      "description": "Embed an image",
+      "scenario": "Embed an image",
+      "language": "text",
+      "tags": [
+        "image",
+        "embed",
+        "media"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[Link text][1]\n\n[1]: http://example.com",
+      "description": "Reference-style link",
+      "scenario": "Reference-style link",
+      "language": "text",
+      "tags": [
+        "link",
+        "reference",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`inline code`",
+      "description": "Inline code",
+      "scenario": "Inline code",
+      "language": "text",
+      "tags": [
+        "code",
+        "inline",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "```\ncode block\n```",
+      "description": "Fenced code block",
+      "scenario": "Fenced code block",
+      "language": "text",
+      "tags": [
+        "code",
+        "block",
+        "fenced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "```python\nprint(\"Hello, World!\")\n```",
+      "description": "Specify language for syntax highlighting",
+      "scenario": "Specify language for syntax highlighting",
+      "language": "text",
+      "tags": [
+        "code",
+        "highlight",
+        "language"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "> This is a blockquote",
+      "description": "Create a blockquote",
+      "scenario": "Create a blockquote",
+      "language": "text",
+      "tags": [
+        "blockquote",
+        "quote",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "> First level\n>> Second level",
+      "description": "Create a nested blockquote",
+      "scenario": "Create a nested blockquote",
+      "language": "text",
+      "tags": [
+        "blockquote",
+        "nested",
+        "quote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "---",
+      "description": "Insert a horizontal rule",
+      "scenario": "Insert a horizontal rule",
+      "language": "text",
+      "tags": [
+        "rule",
+        "horizontal",
+        "divider"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Symfony Cheat Sheet",
+  "slug": "symfony",
+  "description": "Quick reference for Symfony CLI commands and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "symfony new my_project",
+      "description": "Create a new Symfony project",
+      "scenario": "Create a new Symfony project",
+      "language": "bash",
+      "tags": [
+        "symfony",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "symfony server:start",
+      "description": "Start the Symfony local web server",
+      "scenario": "Start the Symfony local web server",
+      "language": "bash",
+      "tags": [
+        "symfony",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "symfony check:requirements",
+      "description": "Check Symfony project requirements",
+      "scenario": "Check Symfony project requirements",
+      "language": "bash",
+      "tags": [
+        "symfony",
+        "requirements",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "home:\n  path: /\n  controller: App\\Controller\\HomeController::index",
+      "description": "Define a simple route in YAML",
+      "scenario": "Define a simple route in YAML",
+      "language": "yaml",
+      "tags": [
+        "routing",
+        "yaml",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "product_show:\n  path: /product/{id}\n  controller: App\\Controller\\ProductController::show",
+      "description": "Define a route with a parameter",
+      "scenario": "Define a route with a parameter",
+      "language": "yaml",
+      "tags": [
+        "routing",
+        "yaml",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "product_show:\n  path: /product/{id}\n  defaults: { id: 1 }\n  controller: App\\Controller\\ProductController::show",
+      "description": "Set a default value for a route parameter",
+      "scenario": "Set a default value for a route parameter",
+      "language": "yaml",
+      "tags": [
+        "routing",
+        "yaml",
+        "defaults"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php bin/console make:migration",
+      "description": "Generate database migration files",
+      "scenario": "Generate database migration files",
+      "language": "bash",
+      "tags": [
+        "doctrine",
+        "migration",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php bin/console doctrine:migrations:migrate",
+      "description": "Execute database migrations",
+      "scenario": "Execute database migrations",
+      "language": "bash",
+      "tags": [
+        "doctrine",
+        "migrate",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php bin/console make:entity",
+      "description": "Create a new Doctrine entity",
+      "scenario": "Create a new Doctrine entity",
+      "language": "bash",
+      "tags": [
+        "doctrine",
+        "entity",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ variable }}",
+      "description": "Output a variable in Twig",
+      "scenario": "Output a variable in Twig",
+      "language": "text",
+      "tags": [
+        "twig",
+        "templating",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% for item in items %}\n  {{ item }}\n{% endfor %}",
+      "description": "Use a Twig for loop",
+      "scenario": "Use a Twig for loop",
+      "language": "text",
+      "tags": [
+        "twig",
+        "loop",
+        "templating"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% include 'template.html.twig' %}",
+      "description": "Include another template in Twig",
+      "scenario": "Include another template in Twig",
+      "language": "text",
+      "tags": [
+        "twig",
+        "include",
+        "templating"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firewalls:\n  main:\n    anonymous: true\n    provider: app_user_provider",
+      "description": "Configure a firewall in security.yaml",
+      "scenario": "Configure a firewall in security.yaml",
+      "language": "yaml",
+      "tags": [
+        "security",
+        "firewall",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "access_control:\n  - { path: ^/admin, roles: ROLE_ADMIN }",
+      "description": "Define access control rules",
+      "scenario": "Define access control rules",
+      "language": "yaml",
+      "tags": [
+        "security",
+        "access",
+        "roles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "providers:\n  app_user_provider:\n    entity:\n      class: App\\Entity\\User\n      property: username",
+      "description": "Set up user providers",
+      "scenario": "Set up user providers",
+      "language": "yaml",
+      "tags": [
+        "security",
+        "user",
+        "provider"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

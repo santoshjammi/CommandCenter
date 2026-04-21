@@ -1,0 +1,204 @@
+{
+  "title": "TeX Cheat Sheet",
+  "slug": "tex",
+  "description": "Essential TeX commands and syntax for document preparation.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "\\documentclass{article}\n\\begin{document}\nHello, World!\n\\end{document}",
+      "description": "Start a new TeX document",
+      "scenario": "Start a new TeX document",
+      "language": "text",
+      "tags": [
+        "document",
+        "structure",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\title{My Document}\n\\author{Author Name}\n\\date{\\today}\n\\maketitle",
+      "description": "Add a title to the document",
+      "scenario": "Add a title to the document",
+      "language": "text",
+      "tags": [
+        "title",
+        "metadata",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\section{Introduction}",
+      "description": "Include a section heading",
+      "scenario": "Include a section heading",
+      "language": "text",
+      "tags": [
+        "section",
+        "heading",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$E = mc^2$",
+      "description": "Inline mathematical expression",
+      "scenario": "Inline mathematical expression",
+      "language": "text",
+      "tags": [
+        "math",
+        "inline",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\[\na^2 + b^2 = c^2\n\\]",
+      "description": "Display a mathematical equation",
+      "scenario": "Display a mathematical equation",
+      "language": "text",
+      "tags": [
+        "math",
+        "display",
+        "equation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\frac{a}{b}",
+      "description": "Use fractions in equations",
+      "scenario": "Use fractions in equations",
+      "language": "text",
+      "tags": [
+        "math",
+        "fractions",
+        "equation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{itemize}\n  \\item First item\n  \\item Second item\n\\end{itemize}",
+      "description": "Create an itemized list",
+      "scenario": "Create an itemized list",
+      "language": "text",
+      "tags": [
+        "list",
+        "itemize",
+        "bullet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{enumerate}\n  \\item First item\n  \\item Second item\n\\end{enumerate}",
+      "description": "Create an enumerated list",
+      "scenario": "Create an enumerated list",
+      "language": "text",
+      "tags": [
+        "list",
+        "enumerate",
+        "numbered"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{itemize}\n  \\item First item\n  \\begin{itemize}\n    \\item Nested item\n  \\end{itemize}\n\\end{itemize}",
+      "description": "Nested lists example",
+      "scenario": "Nested lists example",
+      "language": "text",
+      "tags": [
+        "list",
+        "nested",
+        "itemize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{tabular}{|c|c|}\n\\hline\nCell 1 & Cell 2 \\\\\n\\hline\nCell 3 & Cell 4 \\\\\n\\hline\n\\end{tabular}",
+      "description": "Create a simple table",
+      "scenario": "Create a simple table",
+      "language": "text",
+      "tags": [
+        "table",
+        "simple",
+        "tabular"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{table}\n\\centering\n\\begin{tabular}{|c|c|}\n\\hline\nCell 1 & Cell 2 \\\\\n\\hline\n\\end{tabular}\n\\caption{Sample Table}\n\\end{table}",
+      "description": "Add a caption to a table",
+      "scenario": "Add a caption to a table",
+      "language": "text",
+      "tags": [
+        "table",
+        "caption",
+        "tabular"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{tabular}{|c|c|}\n\\hline\n\\multicolumn{2}{|c|}{Merged Cell} \\\\\n\\hline\nCell 1 & Cell 2 \\\\\n\\hline\n\\end{tabular}",
+      "description": "Merge cells horizontally",
+      "scenario": "Merge cells horizontally",
+      "language": "text",
+      "tags": [
+        "table",
+        "merge",
+        "cells"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{figure}\n\\centering\n\\includegraphics[width=0.5\\textwidth]{image.png}\n\\caption{Sample Image}\n\\end{figure}",
+      "description": "Include an image",
+      "scenario": "Include an image",
+      "language": "text",
+      "tags": [
+        "image",
+        "figure",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\includegraphics[width=0.3\\textwidth]{image.png}",
+      "description": "Adjust image size",
+      "scenario": "Adjust image size",
+      "language": "text",
+      "tags": [
+        "image",
+        "size",
+        "adjust"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{figure}\n\\centering\n\\includegraphics{image.png}\n\\caption{Sample Image}\n\\label{fig:sample}\n\\end{figure}",
+      "description": "Add a label to a figure",
+      "scenario": "Add a label to a figure",
+      "language": "text",
+      "tags": [
+        "figure",
+        "label",
+        "reference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

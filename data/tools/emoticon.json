@@ -1,0 +1,165 @@
+{
+  "title": "Emoticon Cheat Sheet",
+  "slug": "emoticon",
+  "description": "Quick reference for creating and using emoticons in text",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": ":-)",
+      "description": "Express happiness or a smile",
+      "scenario": "Express happiness or a smile",
+      "language": "text",
+      "tags": [
+        "smile",
+        "happy",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":-(",
+      "description": "Express sadness or a frown",
+      "scenario": "Express sadness or a frown",
+      "language": "text",
+      "tags": [
+        "sad",
+        "frown",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ";-)",
+      "description": "Express a wink",
+      "scenario": "Express a wink",
+      "language": "text",
+      "tags": [
+        "wink",
+        "basic",
+        "playful"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":-D",
+      "description": "Express a big grin",
+      "scenario": "Express a big grin",
+      "language": "text",
+      "tags": [
+        "grin",
+        "happy",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "=-O",
+      "description": "Express surprise or shock",
+      "scenario": "Express surprise or shock",
+      "language": "text",
+      "tags": [
+        "surprise",
+        "shock",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ";-*",
+      "description": "Express a kiss",
+      "scenario": "Express a kiss",
+      "language": "text",
+      "tags": [
+        "kiss",
+        "affection",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":-/",
+      "description": "Express confusion",
+      "scenario": "Express confusion",
+      "language": "text",
+      "tags": [
+        "confused",
+        "puzzled",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":'(",
+      "description": "Express crying",
+      "scenario": "Express crying",
+      "language": "text",
+      "tags": [
+        "crying",
+        "sad",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "8-)",
+      "description": "Express coolness or wearing sunglasses",
+      "scenario": "Express coolness or wearing sunglasses",
+      "language": "text",
+      "tags": [
+        "cool",
+        "sunglasses",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{hug}}",
+      "description": "Express a hug",
+      "scenario": "Express a hug",
+      "language": "text",
+      "tags": [
+        "hug",
+        "affection",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{handshake}}",
+      "description": "Express a handshake",
+      "scenario": "Express a handshake",
+      "language": "text",
+      "tags": [
+        "handshake",
+        "greeting",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{clap}}",
+      "description": "Express clapping",
+      "scenario": "Express clapping",
+      "language": "text",
+      "tags": [
+        "clap",
+        "applause",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

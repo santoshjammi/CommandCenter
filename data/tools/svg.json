@@ -1,0 +1,204 @@
+{
+  "title": "SVG Cheat Sheet",
+  "slug": "svg",
+  "description": "Quick reference for SVG syntax and usage patterns",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "<circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"red\" />",
+      "description": "Draw a circle with center at (50,50) and radius 40",
+      "scenario": "Draw a circle with center at (50,50) and radius 40",
+      "language": "xml",
+      "tags": [
+        "circle",
+        "shape",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<rect width=\"100\" height=\"50\" fill=\"blue\" />",
+      "description": "Draw a rectangle with width 100 and height 50",
+      "scenario": "Draw a rectangle with width 100 and height 50",
+      "language": "xml",
+      "tags": [
+        "rectangle",
+        "shape",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<line x1=\"0\" y1=\"0\" x2=\"200\" y2=\"200\" stroke=\"black\" />",
+      "description": "Draw a line from (0,0) to (200,200)",
+      "scenario": "Draw a line from (0,0) to (200,200)",
+      "language": "xml",
+      "tags": [
+        "line",
+        "shape",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<g transform=\"rotate(45, 50, 50)\">\n  <!-- elements here -->\n</g>",
+      "description": "Rotate an element 45 degrees around its center",
+      "scenario": "Rotate an element 45 degrees around its center",
+      "language": "xml",
+      "tags": [
+        "rotate",
+        "transform",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<g transform=\"scale(2)\">\n  <!-- elements here -->\n</g>",
+      "description": "Scale an element by a factor of 2",
+      "scenario": "Scale an element by a factor of 2",
+      "language": "xml",
+      "tags": [
+        "scale",
+        "transform",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<g transform=\"translate(10, 20)\">\n  <!-- elements here -->\n</g>",
+      "description": "Translate an element by (10, 20)",
+      "scenario": "Translate an element by (10, 20)",
+      "language": "xml",
+      "tags": [
+        "translate",
+        "transform",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<linearGradient id=\"grad1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n  <stop offset=\"0%\" style=\"stop-color:blue;stop-opacity:1\" />\n  <stop offset=\"100%\" style=\"stop-color:green;stop-opacity:1\" />\n</linearGradient>",
+      "description": "Create a linear gradient from blue to green",
+      "scenario": "Create a linear gradient from blue to green",
+      "language": "xml",
+      "tags": [
+        "gradient",
+        "linear",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<radialGradient id=\"grad2\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n  <stop offset=\"0%\" style=\"stop-color:red;stop-opacity:1\" />\n  <stop offset=\"100%\" style=\"stop-color:yellow;stop-opacity:1\" />\n</radialGradient>",
+      "description": "Create a radial gradient from red to yellow",
+      "scenario": "Create a radial gradient from red to yellow",
+      "language": "xml",
+      "tags": [
+        "gradient",
+        "radial",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<rect width=\"100\" height=\"50\" fill=\"url(#grad1)\" />",
+      "description": "Apply a gradient to a rectangle",
+      "scenario": "Apply a gradient to a rectangle",
+      "language": "xml",
+      "tags": [
+        "gradient",
+        "rectangle",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<text x=\"10\" y=\"20\" fill=\"black\">Hello, SVG!</text>",
+      "description": "Add text at position (10,20)",
+      "scenario": "Add text at position (10,20)",
+      "language": "xml",
+      "tags": [
+        "text",
+        "svg",
+        "position"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<text x=\"10\" y=\"20\" transform=\"rotate(45)\">Rotated Text</text>",
+      "description": "Rotate text 45 degrees",
+      "scenario": "Rotate text 45 degrees",
+      "language": "xml",
+      "tags": [
+        "text",
+        "rotate",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<text x=\"10\" y=\"20\" font-family=\"Verdana\" font-size=\"20\" fill=\"blue\">Styled Text</text>",
+      "description": "Apply a font size and family to text",
+      "scenario": "Apply a font size and family to text",
+      "language": "xml",
+      "tags": [
+        "text",
+        "font",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<path d=\"M10 10 H 90 V 90 H 10 L 10 10\" fill=\"transparent\" stroke=\"black\" />",
+      "description": "Draw a simple path using move and line commands",
+      "scenario": "Draw a simple path using move and line commands",
+      "language": "xml",
+      "tags": [
+        "path",
+        "draw",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<path d=\"M10 80 C 40 10, 65 10, 95 80\" stroke=\"black\" fill=\"transparent\" />",
+      "description": "Create a path with a cubic Bezier curve",
+      "scenario": "Create a path with a cubic Bezier curve",
+      "language": "xml",
+      "tags": [
+        "path",
+        "bezier",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<path d=\"M10 80 A 45 45, 0, 0, 1, 95 80\" stroke=\"black\" fill=\"transparent\" />",
+      "description": "Create a path with an arc",
+      "scenario": "Create a path with an arc",
+      "language": "xml",
+      "tags": [
+        "path",
+        "arc",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

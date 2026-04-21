@@ -1,0 +1,165 @@
+{
+  "title": "Odin CLI Cheat Sheet",
+  "slug": "odin",
+  "description": "Essential commands and patterns for using the Odin CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "odin init my_project",
+      "description": "Initialize a new Odin project",
+      "scenario": "Initialize a new Odin project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin build .",
+      "description": "Build an Odin project",
+      "scenario": "Build an Odin project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin run .",
+      "description": "Run an Odin project",
+      "scenario": "Run an Odin project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin package add github.com/user/package",
+      "description": "Add a new package to the project",
+      "scenario": "Add a new package to the project",
+      "language": "bash",
+      "tags": [
+        "package",
+        "add",
+        "dependency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin package remove github.com/user/package",
+      "description": "Remove a package from the project",
+      "scenario": "Remove a package from the project",
+      "language": "bash",
+      "tags": [
+        "package",
+        "remove",
+        "dependency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin package list",
+      "description": "List all packages in the project",
+      "scenario": "List all packages in the project",
+      "language": "bash",
+      "tags": [
+        "package",
+        "list",
+        "dependency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin config set key=value",
+      "description": "Set a configuration value",
+      "scenario": "Set a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin config get key",
+      "description": "Get a configuration value",
+      "scenario": "Get a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin config remove key",
+      "description": "Remove a configuration value",
+      "scenario": "Remove a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "remove",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin test .",
+      "description": "Run tests in the Odin project",
+      "scenario": "Run tests in the Odin project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "debug",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin build . --verbose",
+      "description": "Enable verbose output for debugging",
+      "scenario": "Enable verbose output for debugging",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "verbose",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "odin check .",
+      "description": "Check for syntax errors",
+      "scenario": "Check for syntax errors",
+      "language": "bash",
+      "tags": [
+        "syntax",
+        "check",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

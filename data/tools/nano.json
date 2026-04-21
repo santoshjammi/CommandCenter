@@ -1,0 +1,165 @@
+{
+  "title": "Nano Cheat Sheet",
+  "slug": "nano",
+  "description": "Quick reference for Nano text editor commands and shortcuts.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "nano filename.txt",
+      "description": "Open a file in Nano",
+      "scenario": "Open a file in Nano",
+      "language": "bash",
+      "tags": [
+        "open",
+        "file",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + O",
+      "description": "Save the current file",
+      "scenario": "Save the current file",
+      "language": "text",
+      "tags": [
+        "save",
+        "write",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + X",
+      "description": "Exit Nano",
+      "scenario": "Exit Nano",
+      "language": "text",
+      "tags": [
+        "exit",
+        "quit",
+        "close"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Y",
+      "description": "Move to the beginning of the file",
+      "scenario": "Move to the beginning of the file",
+      "language": "text",
+      "tags": [
+        "navigate",
+        "beginning",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + V",
+      "description": "Move to the end of the file",
+      "scenario": "Move to the end of the file",
+      "language": "text",
+      "tags": [
+        "navigate",
+        "end",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + N",
+      "description": "Move to the next line",
+      "scenario": "Move to the next line",
+      "language": "text",
+      "tags": [
+        "navigate",
+        "next",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + K",
+      "description": "Cut a line of text",
+      "scenario": "Cut a line of text",
+      "language": "text",
+      "tags": [
+        "cut",
+        "line",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + U",
+      "description": "Paste the cut text",
+      "scenario": "Paste the cut text",
+      "language": "text",
+      "tags": [
+        "paste",
+        "text",
+        "insert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + J",
+      "description": "Justify the current paragraph",
+      "scenario": "Justify the current paragraph",
+      "language": "text",
+      "tags": [
+        "justify",
+        "paragraph",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + W",
+      "description": "Search for a string",
+      "scenario": "Search for a string",
+      "language": "text",
+      "tags": [
+        "search",
+        "find",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + W",
+      "description": "Repeat the last search",
+      "scenario": "Repeat the last search",
+      "language": "text",
+      "tags": [
+        "search",
+        "repeat",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + \\",
+      "description": "Search and replace a string",
+      "scenario": "Search and replace a string",
+      "language": "text",
+      "tags": [
+        "search",
+        "replace",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

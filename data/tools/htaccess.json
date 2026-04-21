@@ -1,0 +1,204 @@
+{
+  "title": "htaccess Cheat Sheet",
+  "slug": "htaccess",
+  "description": "Quick reference for common .htaccess configurations and commands.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "Redirect 301 /old-page.html /new-page.html",
+      "description": "Redirect a single page to another",
+      "scenario": "Redirect a single page to another",
+      "language": "text",
+      "tags": [
+        "redirect",
+        "url",
+        "rewrite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteRule ^old-path$ /new-path [L]",
+      "description": "Rewrite URL to a new path internally",
+      "scenario": "Rewrite URL to a new path internally",
+      "language": "text",
+      "tags": [
+        "rewrite",
+        "url",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RewriteEngine On\nRewriteCond %{HTTPS} off\nRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]",
+      "description": "Force HTTPS for all URLs",
+      "scenario": "Force HTTPS for all URLs",
+      "language": "text",
+      "tags": [
+        "https",
+        "ssl",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Deny from 192.168.1.1",
+      "description": "Block a specific IP address",
+      "scenario": "Block a specific IP address",
+      "language": "text",
+      "tags": [
+        "access",
+        "block",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Order Deny,Allow\nDeny from all\nAllow from 192.168.1.1",
+      "description": "Allow access from a specific IP address",
+      "scenario": "Allow access from a specific IP address",
+      "language": "text",
+      "tags": [
+        "access",
+        "allow",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "AuthType Basic\nAuthName \"Restricted Area\"\nAuthUserFile /path/to/.htpasswd\nRequire valid-user",
+      "description": "Password protect a directory",
+      "scenario": "Password protect a directory",
+      "language": "text",
+      "tags": [
+        "password",
+        "protect",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ErrorDocument 404 /errors/404.html",
+      "description": "Set a custom 404 error page",
+      "scenario": "Set a custom 404 error page",
+      "language": "text",
+      "tags": [
+        "error",
+        "404",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ErrorDocument 500 /errors/500.html",
+      "description": "Set a custom 500 error page",
+      "scenario": "Set a custom 500 error page",
+      "language": "text",
+      "tags": [
+        "error",
+        "500",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ErrorDocument 403 /errors/403.html",
+      "description": "Set a custom 403 error page",
+      "scenario": "Set a custom 403 error page",
+      "language": "text",
+      "tags": [
+        "error",
+        "403",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<FilesMatch \"\\.(jpg|jpeg|png|gif|ico)$\">\nHeader set Cache-Control \"max-age=2592000, public\"\n</FilesMatch>",
+      "description": "Enable browser caching for images",
+      "scenario": "Enable browser caching for images",
+      "language": "text",
+      "tags": [
+        "cache",
+        "images",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<FilesMatch \"\\.(html|htm)$\">\nHeader set Cache-Control \"no-cache, no-store, must-revalidate\"\n</FilesMatch>",
+      "description": "Disable caching for specific files",
+      "scenario": "Disable caching for specific files",
+      "language": "text",
+      "tags": [
+        "cache",
+        "disable",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<FilesMatch \"\\.(css|js)$\">\nHeader set Cache-Control \"max-age=604800, public\"\n</FilesMatch>",
+      "description": "Set cache expiration for CSS and JS files",
+      "scenario": "Set cache expiration for CSS and JS files",
+      "language": "text",
+      "tags": [
+        "cache",
+        "css",
+        "js"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "AddType application/json .json",
+      "description": "Add MIME type for JSON files",
+      "scenario": "Add MIME type for JSON files",
+      "language": "text",
+      "tags": [
+        "mime",
+        "json",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "AddType image/svg+xml .svg",
+      "description": "Add MIME type for SVG files",
+      "scenario": "Add MIME type for SVG files",
+      "language": "text",
+      "tags": [
+        "mime",
+        "svg",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "AddType image/webp .webp",
+      "description": "Add MIME type for WebP images",
+      "scenario": "Add MIME type for WebP images",
+      "language": "text",
+      "tags": [
+        "mime",
+        "webp",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

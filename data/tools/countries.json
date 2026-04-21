@@ -1,0 +1,126 @@
+{
+  "title": "Countries CLI Cheat Sheet",
+  "slug": "countries",
+  "description": "Quick reference for country-related CLI commands and code snippets.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "curl -s 'https://restcountries.com/v3.1/alpha/{ISO_CODE}'",
+      "description": "Get country information by ISO code",
+      "scenario": "Get country information by ISO code",
+      "language": "bash",
+      "tags": [
+        "country",
+        "lookup",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -s 'https://restcountries.com/v3.1/all' | jq '.'",
+      "description": "List all countries",
+      "scenario": "List all countries",
+      "language": "bash",
+      "tags": [
+        "country",
+        "list",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -s 'https://restcountries.com/v3.1/name/{COUNTRY_NAME}'",
+      "description": "Search for a country by name",
+      "scenario": "Search for a country by name",
+      "language": "bash",
+      "tags": [
+        "country",
+        "search",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jq '.[].name.common' countries.json",
+      "description": "Extract country names from JSON response",
+      "scenario": "Extract country names from JSON response",
+      "language": "bash",
+      "tags": [
+        "json",
+        "jq",
+        "country"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jq '.[] | select(.population > 50000000)' countries.json",
+      "description": "Filter countries by population greater than 50 million",
+      "scenario": "Filter countries by population greater than 50 million",
+      "language": "bash",
+      "tags": [
+        "json",
+        "jq",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jq 'sort_by(.area) | .[] | {name: .name.common, area: .area}' countries.json",
+      "description": "Sort countries by area",
+      "scenario": "Sort countries by area",
+      "language": "bash",
+      "tags": [
+        "json",
+        "jq",
+        "sort"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import requests\nresponse = requests.get('https://restcountries.com/v3.1/alpha/{ISO_CODE}')\ndata = response.json()",
+      "description": "Python: Get country data by ISO code",
+      "scenario": "Python: Get country data by ISO code",
+      "language": "python",
+      "tags": [
+        "python",
+        "api",
+        "country"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://restcountries.com/v3.1/name/{COUNTRY_NAME}')\n  .then(response => response.json())\n  .then(data => console.log(data));",
+      "description": "JavaScript: Fetch country data by name",
+      "scenario": "JavaScript: Fetch country data by name",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "fetch",
+        "country"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const https = require('https');\nhttps.get('https://restcountries.com/v3.1/all', (resp) => {\n  let data = '';\n  resp.on('data', (chunk) => { data += chunk; });\n  resp.on('end', () => { console.log(JSON.parse(data)); });\n});",
+      "description": "Node.js: List all countries",
+      "scenario": "Node.js: List all countries",
+      "language": "javascript",
+      "tags": [
+        "nodejs",
+        "api",
+        "country"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

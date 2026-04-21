@@ -1,0 +1,165 @@
+{
+  "title": "Hledger CLI Cheat Sheet",
+  "slug": "hledger",
+  "description": "Essential Hledger commands and configurations for efficient financial tracking.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "hledger add",
+      "description": "Add a new transaction",
+      "scenario": "Add a new transaction",
+      "language": "bash",
+      "tags": [
+        "transaction",
+        "add",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger balance",
+      "description": "Print the current balance sheet",
+      "scenario": "Print the current balance sheet",
+      "language": "bash",
+      "tags": [
+        "balance",
+        "report",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger print",
+      "description": "View all transactions",
+      "scenario": "View all transactions",
+      "language": "bash",
+      "tags": [
+        "transactions",
+        "view",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger incomestatement",
+      "description": "Generate an income statement",
+      "scenario": "Generate an income statement",
+      "language": "bash",
+      "tags": [
+        "income",
+        "report",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger cashflow",
+      "description": "Show cash flow report",
+      "scenario": "Show cash flow report",
+      "language": "bash",
+      "tags": [
+        "cashflow",
+        "report",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger register expenses:food",
+      "description": "Create a custom report with specific accounts",
+      "scenario": "Create a custom report with specific accounts",
+      "language": "bash",
+      "tags": [
+        "custom",
+        "report",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export LEDGER_FILE=~/finance.journal",
+      "description": "Set default journal file",
+      "scenario": "Set default journal file",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "journal",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger -f ~/other.journal balance",
+      "description": "Specify a different journal file for a session",
+      "scenario": "Specify a different journal file for a session",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "session",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger --config ~/.hledger.conf",
+      "description": "Use a configuration file for settings",
+      "scenario": "Use a configuration file for settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger register --begin 2023/01/01 --end 2023/12/31",
+      "description": "Filter transactions by date",
+      "scenario": "Filter transactions by date",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "date",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger balance --exclude assets:bank",
+      "description": "Exclude certain accounts from reports",
+      "scenario": "Exclude certain accounts from reports",
+      "language": "bash",
+      "tags": [
+        "exclude",
+        "accounts",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hledger balance --output-format csv",
+      "description": "Convert reports to CSV format",
+      "scenario": "Convert reports to CSV format",
+      "language": "bash",
+      "tags": [
+        "csv",
+        "export",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

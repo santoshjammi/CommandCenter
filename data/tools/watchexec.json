@@ -1,0 +1,165 @@
+{
+  "title": "Watchexec Cheat Sheet",
+  "slug": "watchexec",
+  "description": "Quick reference for using Watchexec to watch files and run commands.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "watchexec -w ./src -- echo 'File changed!'",
+      "description": "Watch a directory and run a command on changes",
+      "scenario": "Watch a directory and run a command on changes",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "command",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec -- echo 'A file changed!'",
+      "description": "Run a command when any file changes",
+      "scenario": "Run a command when any file changes",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "file",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec -e js,css -- echo 'JS or CSS file changed!'",
+      "description": "Watch specific file extensions",
+      "scenario": "Watch specific file extensions",
+      "language": "bash",
+      "tags": [
+        "extensions",
+        "watch",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec -i node_modules -- echo 'Change detected!'",
+      "description": "Ignore specific files or directories",
+      "scenario": "Ignore specific files or directories",
+      "language": "bash",
+      "tags": [
+        "ignore",
+        "directory",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec --env -- echo 'Change with env vars!'",
+      "description": "Run a command with environment variables",
+      "scenario": "Run a command with environment variables",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec --restart -- echo 'Restarting command!'",
+      "description": "Restart command on changes",
+      "scenario": "Restart command on changes",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "command",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec --config-file ./watchexec.toml",
+      "description": "Use a configuration file",
+      "scenario": "Use a configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec --debounce 500 -- echo 'Debounced change!'",
+      "description": "Set debounce time for changes",
+      "scenario": "Set debounce time for changes",
+      "language": "bash",
+      "tags": [
+        "debounce",
+        "time",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec --clear -- echo 'Screen cleared!'",
+      "description": "Clear screen before running command",
+      "scenario": "Clear screen before running command",
+      "language": "bash",
+      "tags": [
+        "clear",
+        "screen",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec -w ./src -w ./tests -- echo 'Change in src or tests!'",
+      "description": "Watch multiple directories",
+      "scenario": "Watch multiple directories",
+      "language": "bash",
+      "tags": [
+        "multiple",
+        "directories",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec -w ./src -- npm run build",
+      "description": "Run a build script on file changes",
+      "scenario": "Run a build script on file changes",
+      "language": "bash",
+      "tags": [
+        "build",
+        "script",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchexec -w ./src -- npm test",
+      "description": "Watch files and run tests",
+      "scenario": "Watch files and run tests",
+      "language": "bash",
+      "tags": [
+        "tests",
+        "watch",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

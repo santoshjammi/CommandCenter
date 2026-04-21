@@ -1,0 +1,204 @@
+{
+  "title": "OCaml Cheat Sheet",
+  "slug": "ocaml",
+  "description": "Essential OCaml syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let add x y = x + y",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "ocaml",
+      "tags": [
+        "function",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "match x with | 0 -> \"zero\" | _ -> \"non-zero\"",
+      "description": "Pattern matching example",
+      "scenario": "Pattern matching example",
+      "language": "ocaml",
+      "tags": [
+        "pattern matching",
+        "syntax",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let my_list = [1; 2; 3]; List.nth my_list 1",
+      "description": "Define a list and access elements",
+      "scenario": "Define a list and access elements",
+      "language": "ocaml",
+      "tags": [
+        "list",
+        "syntax",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module MyModule = struct let x = 42 end",
+      "description": "Define a module",
+      "scenario": "Define a module",
+      "language": "ocaml",
+      "tags": [
+        "module",
+        "structure",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type point = { x: int; y: int }",
+      "description": "Create a type alias",
+      "scenario": "Create a type alias",
+      "language": "ocaml",
+      "tags": [
+        "type",
+        "alias",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type shape = Circle of float | Square of float",
+      "description": "Define a variant type",
+      "scenario": "Define a variant type",
+      "language": "ocaml",
+      "tags": [
+        "variant",
+        "type",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ocamlc -o my_program my_file.ml",
+      "description": "Compile an OCaml file",
+      "scenario": "Compile an OCaml file",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "cli",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ocaml my_file.ml",
+      "description": "Run an OCaml program",
+      "scenario": "Run an OCaml program",
+      "language": "bash",
+      "tags": [
+        "run",
+        "cli",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ocaml",
+      "description": "Start OCaml interactive shell",
+      "scenario": "Start OCaml interactive shell",
+      "language": "bash",
+      "tags": [
+        "interactive",
+        "shell",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List.map (fun x -> x * 2) [1; 2; 3]",
+      "description": "Use map function on a list",
+      "scenario": "Use map function on a list",
+      "language": "ocaml",
+      "tags": [
+        "map",
+        "list",
+        "functional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List.filter (fun x -> x mod 2 = 0) [1; 2; 3; 4]",
+      "description": "Filter a list",
+      "scenario": "Filter a list",
+      "language": "ocaml",
+      "tags": [
+        "filter",
+        "list",
+        "functional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List.fold_left ( + ) 0 [1; 2; 3]",
+      "description": "Fold a list from the left",
+      "scenario": "Fold a list from the left",
+      "language": "ocaml",
+      "tags": [
+        "fold",
+        "list",
+        "functional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try some_function () with | Not_found -> -1",
+      "description": "Handle exceptions with try...with",
+      "scenario": "Handle exceptions with try...with",
+      "language": "ocaml",
+      "tags": [
+        "exception",
+        "error handling",
+        "try"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "raise (Failure \"Error message\")",
+      "description": "Raise an exception",
+      "scenario": "Raise an exception",
+      "language": "ocaml",
+      "tags": [
+        "exception",
+        "raise",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exception MyException of string",
+      "description": "Define a custom exception",
+      "scenario": "Define a custom exception",
+      "language": "ocaml",
+      "tags": [
+        "exception",
+        "custom",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

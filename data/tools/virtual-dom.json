@@ -1,0 +1,165 @@
+{
+  "title": "Virtual DOM Cheat Sheet",
+  "slug": "virtual-dom",
+  "description": "Quick reference for Virtual DOM operations and patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const vNode = h('div', { id: 'container' }, 'Hello World');",
+      "description": "Create a virtual DOM element",
+      "scenario": "Create a virtual DOM element",
+      "language": "javascript",
+      "tags": [
+        "create",
+        "element",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const rootNode = createElement(vNode);\ndocument.body.appendChild(rootNode);",
+      "description": "Render a virtual DOM to the real DOM",
+      "scenario": "Render a virtual DOM to the real DOM",
+      "language": "javascript",
+      "tags": [
+        "render",
+        "real DOM",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const patches = diff(oldVNode, newVNode);\nrootNode = patch(rootNode, patches);",
+      "description": "Update the real DOM with a new virtual DOM",
+      "scenario": "Update the real DOM with a new virtual DOM",
+      "language": "javascript",
+      "tags": [
+        "update",
+        "patch",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const vNode = condition ? h('div', 'True') : h('div', 'False');",
+      "description": "Conditional rendering in virtual DOM",
+      "scenario": "Conditional rendering in virtual DOM",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "render",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const listVNode = h('ul', items.map(item => h('li', item)));",
+      "description": "Loop through data to create virtual DOM elements",
+      "scenario": "Loop through data to create virtual DOM elements",
+      "language": "javascript",
+      "tags": [
+        "loop",
+        "map",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const buttonVNode = h('button', { onclick: () => alert('Clicked!') }, 'Click Me');",
+      "description": "Handling events in virtual DOM",
+      "scenario": "Handling events in virtual DOM",
+      "language": "javascript",
+      "tags": [
+        "events",
+        "onclick",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const listVNode = h('ul', items.map(item => h('li', { key: item.id }, item.name)));",
+      "description": "Use keys to optimize list rendering",
+      "scenario": "Use keys to optimize list rendering",
+      "language": "javascript",
+      "tags": [
+        "keys",
+        "performance",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function shouldComponentUpdate(nextProps) {\n  return nextProps.value !== this.props.value;\n}",
+      "description": "Avoid unnecessary re-renders by comparing props",
+      "scenario": "Avoid unnecessary re-renders by comparing props",
+      "language": "javascript",
+      "tags": [
+        "re-render",
+        "props",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "requestAnimationFrame(() => {\n  // Perform DOM updates here\n});",
+      "description": "Batch DOM updates to minimize reflows",
+      "scenario": "Batch DOM updates to minimize reflows",
+      "language": "javascript",
+      "tags": [
+        "batch",
+        "reflow",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { h, createElement, diff, patch } from 'virtual-dom';",
+      "description": "Set up a basic virtual DOM environment",
+      "scenario": "Set up a basic virtual DOM environment",
+      "language": "javascript",
+      "tags": [
+        "setup",
+        "environment",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"presets\": [\"@babel/preset-react\"],\n  \"plugins\": [\"transform-react-jsx\"]\n}",
+      "description": "Configure Babel for JSX with virtual DOM",
+      "scenario": "Configure Babel for JSX with virtual DOM",
+      "language": "json",
+      "tags": [
+        "babel",
+        "jsx",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = {\n  entry: './src/index.js',\n  output: {\n    path: __dirname + '/dist',\n    filename: 'bundle.js'\n  },\n  module: {\n    rules: [\n      {\n        test: /\\.js$/,\n        exclude: /node_modules/,\n        use: {\n          loader: 'babel-loader'\n        }\n      }\n    ]\n  }\n};",
+      "description": "Webpack configuration for virtual DOM projects",
+      "scenario": "Webpack configuration for virtual DOM projects",
+      "language": "javascript",
+      "tags": [
+        "webpack",
+        "configuration",
+        "vdom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

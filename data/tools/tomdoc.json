@@ -1,0 +1,165 @@
+{
+  "title": "Tomdoc Cheat Sheet",
+  "slug": "tomdoc",
+  "description": "A guide to writing clear and consistent documentation using Tomdoc.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "# Public: Brief description of the method\n#\n# args - Description of arguments\n#\n# Returns the result of the method",
+      "description": "Define a public method with description",
+      "scenario": "Define a public method with description",
+      "language": "text",
+      "tags": [
+        "documentation",
+        "public",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Internal: Brief description of the method\n#\n# args - Description of arguments\n#\n# Returns the result of the method",
+      "description": "Define a private method with description",
+      "scenario": "Define a private method with description",
+      "language": "text",
+      "tags": [
+        "documentation",
+        "private",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Public: Brief description of the class\n#\n# Purpose: Explain the purpose of the class\n#\n# Examples\n#\n#   Example usage of the class",
+      "description": "Document a class with purpose",
+      "scenario": "Document a class with purpose",
+      "language": "text",
+      "tags": [
+        "documentation",
+        "class",
+        "purpose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Arguments\n#\n# arg1 - Description of the first argument\n# arg2 - Description of the second argument",
+      "description": "Use 'Arguments' tag to describe parameters",
+      "scenario": "Use 'Arguments' tag to describe parameters",
+      "language": "text",
+      "tags": [
+        "arguments",
+        "tags",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Returns\n#\n# Description of what the method returns",
+      "description": "Use 'Returns' tag to describe return values",
+      "scenario": "Use 'Returns' tag to describe return values",
+      "language": "text",
+      "tags": [
+        "returns",
+        "tags",
+        "values"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Raises\n#\n# ExceptionName - Description of the exception raised",
+      "description": "Use 'Raises' tag to describe exceptions",
+      "scenario": "Use 'Raises' tag to describe exceptions",
+      "language": "text",
+      "tags": [
+        "raises",
+        "exceptions",
+        "tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Examples\n#\n#   Example usage of the method\n#   method_name(arg1, arg2)",
+      "description": "Provide an example of method usage",
+      "scenario": "Provide an example of method usage",
+      "language": "text",
+      "tags": [
+        "examples",
+        "usage",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Examples\n#\n#   Example usage of the class\n#   class_instance = ClassName.new",
+      "description": "Document a class with examples",
+      "scenario": "Document a class with examples",
+      "language": "text",
+      "tags": [
+        "examples",
+        "usage",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Examples\n#\n#   Handling edge cases\n#   method_name(edge_case_arg)",
+      "description": "Showcase edge case handling",
+      "scenario": "Showcase edge case handling",
+      "language": "text",
+      "tags": [
+        "examples",
+        "edge cases",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Public: Initializes a new instance of the class\n#\n# args - Initialization parameters\n#\n# Returns a new instance of the class",
+      "description": "Document a constructor method",
+      "scenario": "Document a constructor method",
+      "language": "text",
+      "tags": [
+        "constructor",
+        "initialization",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Public: Brief description of the method\n#\n# Returns the result of the method",
+      "description": "Document a method with no arguments",
+      "scenario": "Document a method with no arguments",
+      "language": "text",
+      "tags": [
+        "method",
+        "no arguments",
+        "documentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Public: Brief description of the method\n#\n# Returns\n#\n# String - Description if condition A\n# Integer - Description if condition B",
+      "description": "Document a method with multiple return types",
+      "scenario": "Document a method with multiple return types",
+      "language": "text",
+      "tags": [
+        "multiple returns",
+        "conditions",
+        "documentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "CSS Tricks",
+  "slug": "css-tricks",
+  "description": "Handy CSS tricks for efficient styling",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "display: flex; justify-content: center; align-items: center;",
+      "description": "Center an element horizontally and vertically",
+      "scenario": "Center an element horizontally and vertically",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "center",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: flex; flex-wrap: wrap;",
+      "description": "Create a responsive grid",
+      "scenario": "Create a responsive grid",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "grid",
+        "responsive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "justify-content: space-between;",
+      "description": "Space between flex items",
+      "scenario": "Space between flex items",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "spacing",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: grid; grid-template-columns: repeat(3, 1fr);",
+      "description": "Define a basic grid layout",
+      "scenario": "Define a basic grid layout",
+      "language": "css",
+      "tags": [
+        "grid",
+        "layout",
+        "responsive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-gap: 10px;",
+      "description": "Create a grid gap",
+      "scenario": "Create a grid gap",
+      "language": "css",
+      "tags": [
+        "grid",
+        "spacing",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-area: header;",
+      "description": "Position an item in a specific grid area",
+      "scenario": "Position an item in a specific grid area",
+      "language": "css",
+      "tags": [
+        "grid",
+        "position",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transition: all 0.3s ease-in-out;",
+      "description": "Apply a transition effect",
+      "scenario": "Apply a transition effect",
+      "language": "css",
+      "tags": [
+        "transition",
+        "animation",
+        "effect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@keyframes slideIn { from { transform: translateX(-100%); } to { transform: translateX(0); } }",
+      "description": "Create a keyframe animation",
+      "scenario": "Create a keyframe animation",
+      "language": "css",
+      "tags": [
+        "animation",
+        "keyframes",
+        "effect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "&:hover { transform: scale(1.1); }",
+      "description": "Animate an element on hover",
+      "scenario": "Animate an element on hover",
+      "language": "css",
+      "tags": [
+        "hover",
+        "animation",
+        "effect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@media (max-width: 600px) { body { background-color: lightblue; } }",
+      "description": "Use media queries for responsiveness",
+      "scenario": "Use media queries for responsiveness",
+      "language": "css",
+      "tags": [
+        "responsive",
+        "media-query",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "img { max-width: 100%; height: auto; }",
+      "description": "Make an image responsive",
+      "scenario": "Make an image responsive",
+      "language": "css",
+      "tags": [
+        "responsive",
+        "image",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@media (max-width: 600px) { .element { display: none; } }",
+      "description": "Hide an element on small screens",
+      "scenario": "Hide an element on small screens",
+      "language": "css",
+      "tags": [
+        "responsive",
+        "media-query",
+        "visibility"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "font-family: 'Open Sans', sans-serif;",
+      "description": "Apply a custom font",
+      "scenario": "Apply a custom font",
+      "language": "css",
+      "tags": [
+        "font",
+        "text",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);",
+      "description": "Add text shadow for emphasis",
+      "scenario": "Add text shadow for emphasis",
+      "language": "css",
+      "tags": [
+        "text",
+        "shadow",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "white-space: nowrap; overflow: hidden; text-overflow: ellipsis;",
+      "description": "Control text overflow with ellipsis",
+      "scenario": "Control text overflow with ellipsis",
+      "language": "css",
+      "tags": [
+        "text",
+        "overflow",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

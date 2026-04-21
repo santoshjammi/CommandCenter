@@ -1,0 +1,204 @@
+{
+  "title": "Mitmproxy Cheat Sheet",
+  "slug": "mitmproxy",
+  "description": "Essential commands and configurations for using Mitmproxy effectively.",
+  "audience": "engineer",
+  "category": "Security",
+  "commands": [
+    {
+      "command": "mitmproxy",
+      "description": "Start mitmproxy with default settings",
+      "scenario": "Start mitmproxy with default settings",
+      "language": "bash",
+      "tags": [
+        "start",
+        "basic",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy -p 8080",
+      "description": "Start mitmproxy with a specified port",
+      "scenario": "Start mitmproxy with a specified port",
+      "language": "bash",
+      "tags": [
+        "port",
+        "custom",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy --mode transparent",
+      "description": "Start mitmproxy in transparent mode",
+      "scenario": "Start mitmproxy in transparent mode",
+      "language": "bash",
+      "tags": [
+        "transparent",
+        "mode",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy -m \"~d example.com\"",
+      "description": "Filter requests to a specific domain",
+      "scenario": "Filter requests to a specific domain",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "domain",
+        "requests"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy -m \"~m POST\"",
+      "description": "Filter requests with a specific HTTP method",
+      "scenario": "Filter requests with a specific HTTP method",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "method",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy -m \"~u /api/v1/\"",
+      "description": "Filter requests containing a specific URL pattern",
+      "scenario": "Filter requests containing a specific URL pattern",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "url",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy -s myscript.py",
+      "description": "Run mitmproxy with a custom script",
+      "scenario": "Run mitmproxy with a custom script",
+      "language": "bash",
+      "tags": [
+        "script",
+        "automation",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def request(flow):\n    flow.request.headers['User-Agent'] = 'MyAgent'",
+      "description": "Access flow object in a mitmproxy script",
+      "scenario": "Access flow object in a mitmproxy script",
+      "language": "python",
+      "tags": [
+        "flow",
+        "script",
+        "headers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def response(flow):\n    flow.response.text = flow.response.text.replace('foo', 'bar')",
+      "description": "Modify response content in a script",
+      "scenario": "Modify response content in a script",
+      "language": "python",
+      "tags": [
+        "response",
+        "modify",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy --conf /path/to/config.yaml",
+      "description": "Set a custom configuration file",
+      "scenario": "Set a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "custom",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy --set console_eventlog_verbosity=info",
+      "description": "Enable console event log",
+      "scenario": "Enable console event log",
+      "language": "bash",
+      "tags": [
+        "console",
+        "log",
+        "verbosity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy --no-http2",
+      "description": "Disable HTTP/2 support",
+      "scenario": "Disable HTTP/2 support",
+      "language": "bash",
+      "tags": [
+        "http2",
+        "disable",
+        "support"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy -w outputfile",
+      "description": "Save HTTP traffic to a file",
+      "scenario": "Save HTTP traffic to a file",
+      "language": "bash",
+      "tags": [
+        "save",
+        "http",
+        "traffic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy -r inputfile",
+      "description": "Load saved HTTP traffic from a file",
+      "scenario": "Load saved HTTP traffic from a file",
+      "language": "bash",
+      "tags": [
+        "load",
+        "http",
+        "traffic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mitmproxy -w output.har --export-har",
+      "description": "Export flows to a HAR file",
+      "scenario": "Export flows to a HAR file",
+      "language": "bash",
+      "tags": [
+        "export",
+        "har",
+        "flows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

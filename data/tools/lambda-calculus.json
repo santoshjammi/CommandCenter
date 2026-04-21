@@ -1,0 +1,165 @@
+{
+  "title": "Lambda Calculus Cheat Sheet",
+  "slug": "lambda-calculus",
+  "description": "Essential lambda calculus syntax and operations for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "\u03bbx.x",
+      "description": "Define a simple identity function",
+      "scenario": "Define a simple identity function",
+      "language": "text",
+      "tags": [
+        "identity",
+        "function",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bbx.5",
+      "description": "Define a constant function that returns 5",
+      "scenario": "Define a constant function that returns 5",
+      "language": "text",
+      "tags": [
+        "constant",
+        "function",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(\u03bbx.x) 5",
+      "description": "Apply a function to an argument",
+      "scenario": "Apply a function to an argument",
+      "language": "text",
+      "tags": [
+        "application",
+        "function",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bbx.f (g x)",
+      "description": "Compose two functions f and g",
+      "scenario": "Compose two functions f and g",
+      "language": "text",
+      "tags": [
+        "composition",
+        "functions",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bbx.f (g (h x))",
+      "description": "Compose three functions f, g, and h",
+      "scenario": "Compose three functions f, g, and h",
+      "language": "text",
+      "tags": [
+        "composition",
+        "functions",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(\u03bbx.\u03bby.x y) a b",
+      "description": "Nested function application",
+      "scenario": "Nested function application",
+      "language": "text",
+      "tags": [
+        "application",
+        "nested",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(\u03bbx.x) a \u2192 a",
+      "description": "Perform beta reduction on a simple expression",
+      "scenario": "Perform beta reduction on a simple expression",
+      "language": "text",
+      "tags": [
+        "beta",
+        "reduction",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bbx.x \u2192 \u03bby.y",
+      "description": "Alpha conversion to rename bound variables",
+      "scenario": "Alpha conversion to rename bound variables",
+      "language": "text",
+      "tags": [
+        "alpha",
+        "conversion",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bbx.(f x) \u2192 f",
+      "description": "Eta reduction to simplify expressions",
+      "scenario": "Eta reduction to simplify expressions",
+      "language": "text",
+      "tags": [
+        "eta",
+        "reduction",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bbx.\u03bby.x",
+      "description": "Define a boolean true function",
+      "scenario": "Define a boolean true function",
+      "language": "text",
+      "tags": [
+        "boolean",
+        "true",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bbx.\u03bby.y",
+      "description": "Define a boolean false function",
+      "scenario": "Define a boolean false function",
+      "language": "text",
+      "tags": [
+        "boolean",
+        "false",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u03bbx.\u03bby.\u03bbf.f x y \u2192 \u03bbp.p (\u03bbx.\u03bby.x)",
+      "description": "Define a pair and access its first element",
+      "scenario": "Define a pair and access its first element",
+      "language": "text",
+      "tags": [
+        "pair",
+        "first",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

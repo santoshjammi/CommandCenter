@@ -1,0 +1,204 @@
+{
+  "title": "Firebase Cheat Sheet",
+  "slug": "firebase",
+  "description": "Essential Firebase commands and configuration snippets for engineers.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "firebase init",
+      "description": "Initialize a new Firebase project",
+      "scenario": "Initialize a new Firebase project",
+      "language": "bash",
+      "tags": [
+        "firebase",
+        "init",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase deploy",
+      "description": "Deploy Firebase project to the cloud",
+      "scenario": "Deploy Firebase project to the cloud",
+      "language": "bash",
+      "tags": [
+        "firebase",
+        "deploy",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase login",
+      "description": "Login to Firebase account via CLI",
+      "scenario": "Login to Firebase account via CLI",
+      "language": "bash",
+      "tags": [
+        "firebase",
+        "login",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection('users').get()",
+      "description": "Get all documents from a collection",
+      "scenario": "Get all documents from a collection",
+      "language": "javascript",
+      "tags": [
+        "firestore",
+        "query",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection('users').add({ name: 'John Doe' })",
+      "description": "Add a new document to a collection",
+      "scenario": "Add a new document to a collection",
+      "language": "javascript",
+      "tags": [
+        "firestore",
+        "add",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.collection('users').doc('user_id').update({ age: 30 })",
+      "description": "Update a document in a collection",
+      "scenario": "Update a document in a collection",
+      "language": "javascript",
+      "tags": [
+        "firestore",
+        "update",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase.auth().createUserWithEmailAndPassword(email, password)",
+      "description": "Sign up a new user with email and password",
+      "scenario": "Sign up a new user with email and password",
+      "language": "javascript",
+      "tags": [
+        "auth",
+        "signup",
+        "firebase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase.auth().signInWithEmailAndPassword(email, password)",
+      "description": "Sign in a user with email and password",
+      "scenario": "Sign in a user with email and password",
+      "language": "javascript",
+      "tags": [
+        "auth",
+        "signin",
+        "firebase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase.auth().signOut()",
+      "description": "Sign out the current user",
+      "scenario": "Sign out the current user",
+      "language": "javascript",
+      "tags": [
+        "auth",
+        "signout",
+        "firebase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"hosting\": {\n    \"public\": \"public\",\n    \"ignore\": [\n      \"firebase.json\",\n      \"**/.*\",\n      \"**/node_modules/**\"\n    ]\n  }\n}",
+      "description": "Set up Firebase hosting in firebase.json",
+      "scenario": "Set up Firebase hosting in firebase.json",
+      "language": "json",
+      "tags": [
+        "firebase",
+        "hosting",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"hosting\": {\n    \"rewrites\": [\n      {\n        \"source\": \"**\",\n        \"destination\": \"/index.html\"\n      }\n    ]\n  }\n}",
+      "description": "Redirect all HTTP to HTTPS",
+      "scenario": "Redirect all HTTP to HTTPS",
+      "language": "json",
+      "tags": [
+        "firebase",
+        "hosting",
+        "https"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase hosting:sites:create my-custom-domain",
+      "description": "Add custom domain to Firebase Hosting",
+      "scenario": "Add custom domain to Firebase Hosting",
+      "language": "bash",
+      "tags": [
+        "firebase",
+        "hosting",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase functions:config:set key=value",
+      "description": "Create a new Firebase function",
+      "scenario": "Create a new Firebase function",
+      "language": "bash",
+      "tags": [
+        "firebase",
+        "functions",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase deploy --only functions",
+      "description": "Deploy Firebase functions",
+      "scenario": "Deploy Firebase functions",
+      "language": "bash",
+      "tags": [
+        "firebase",
+        "functions",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "firebase functions:log",
+      "description": "Log Firebase function output",
+      "scenario": "Log Firebase function output",
+      "language": "bash",
+      "tags": [
+        "firebase",
+        "functions",
+        "log"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

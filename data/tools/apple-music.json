@@ -1,0 +1,204 @@
+{
+  "title": "Apple Music CLI Cheat Sheet",
+  "slug": "apple-music",
+  "description": "Essential CLI commands and patterns for Apple Music API integration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "jwt -k AuthKey_XXXXXX.p8 -i TEAM_ID -a APPLE_MUSIC_KEY_ID",
+      "description": "Generate a new developer token for Apple Music API",
+      "scenario": "Generate a new developer token for Apple Music API",
+      "language": "bash",
+      "tags": [
+        "auth",
+        "token",
+        "jwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H \"Authorization: Bearer DEVELOPER_TOKEN\" https://api.music.apple.com/v1/catalog/us/songs/203709340",
+      "description": "Use the developer token to authenticate API requests",
+      "scenario": "Use the developer token to authenticate API requests",
+      "language": "bash",
+      "tags": [
+        "api",
+        "auth",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jwt -k AuthKey_XXXXXX.p8 -i TEAM_ID -a APPLE_MUSIC_KEY_ID --renew",
+      "description": "Renew an expired developer token",
+      "scenario": "Renew an expired developer token",
+      "language": "bash",
+      "tags": [
+        "auth",
+        "token",
+        "renew"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -G \"https://api.music.apple.com/v1/catalog/us/search\" --data-urlencode \"term=Imagine Dragons\" --data-urlencode \"types=songs\" -H \"Authorization: Bearer DEVELOPER_TOKEN\"",
+      "description": "Search for a song in the Apple Music catalog",
+      "scenario": "Search for a song in the Apple Music catalog",
+      "language": "bash",
+      "tags": [
+        "api",
+        "search",
+        "music"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H \"Authorization: Bearer DEVELOPER_TOKEN\" https://api.music.apple.com/v1/catalog/us/albums/310730204",
+      "description": "Fetch details of a specific album",
+      "scenario": "Fetch details of a specific album",
+      "language": "bash",
+      "tags": [
+        "api",
+        "album",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H \"Authorization: Bearer DEVELOPER_TOKEN\" https://api.music.apple.com/v1/catalog/us/playlists/pl.u-XXXXX",
+      "description": "Retrieve a playlist by its ID",
+      "scenario": "Retrieve a playlist by its ID",
+      "language": "bash",
+      "tags": [
+        "api",
+        "playlist",
+        "fetch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if response.status_code == 429:\n    time.sleep(60)  # Wait for a minute before retrying",
+      "description": "Handle API rate limit errors in your application",
+      "scenario": "Handle API rate limit errors in your application",
+      "language": "python",
+      "tags": [
+        "error",
+        "rate-limit",
+        "retry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try:\n    response = requests.get(api_url)\n    response.raise_for_status()\nexcept requests.exceptions.HTTPError as err:\n    print(f\"HTTP error occurred: {err}\")",
+      "description": "Log API errors for debugging",
+      "scenario": "Log API errors for debugging",
+      "language": "python",
+      "tags": [
+        "error",
+        "logging",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for _ in range(3):\n    response = requests.get(api_url)\n    if response.status_code == 200:\n        break\n    time.sleep(5)",
+      "description": "Retry a failed API request",
+      "scenario": "Retry a failed API request",
+      "language": "python",
+      "tags": [
+        "retry",
+        "error",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import json\nresponse = requests.get(api_url)\ndata = json.loads(response.text)\nprint(data['results'])",
+      "description": "Parse JSON response from Apple Music API",
+      "scenario": "Parse JSON response from Apple Music API",
+      "language": "python",
+      "tags": [
+        "json",
+        "parse",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "songs = [song['attributes']['name'] for song in data['results']['songs']['data']]",
+      "description": "Extract song names from API response",
+      "scenario": "Extract song names from API response",
+      "language": "python",
+      "tags": [
+        "json",
+        "extract",
+        "songs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import json\nresponse_dict = json.loads(response.text)",
+      "description": "Convert API response to a Python dictionary",
+      "scenario": "Convert API response to a Python dictionary",
+      "language": "python",
+      "tags": [
+        "json",
+        "convert",
+        "dictionary"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export APPLE_MUSIC_KEY_ID=your_key_id\nexport APPLE_MUSIC_TEAM_ID=your_team_id",
+      "description": "Set environment variables for API keys",
+      "scenario": "Set environment variables for API keys",
+      "language": "bash",
+      "tags": [
+        "config",
+        "env",
+        "keys"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "APPLE_MUSIC_KEY_ID=your_key_id\nAPPLE_MUSIC_TEAM_ID=your_team_id\nDEVELOPER_TOKEN=your_developer_token",
+      "description": "Configure a .env file for sensitive data",
+      "scenario": "Configure a .env file for sensitive data",
+      "language": "text",
+      "tags": [
+        "config",
+        "env",
+        "dotenv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from dotenv import load_dotenv\nimport os\nload_dotenv()\nkey_id = os.getenv('APPLE_MUSIC_KEY_ID')",
+      "description": "Load environment variables in a Python script",
+      "scenario": "Load environment variables in a Python script",
+      "language": "python",
+      "tags": [
+        "config",
+        "env",
+        "load"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

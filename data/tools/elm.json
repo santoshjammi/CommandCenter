@@ -1,0 +1,165 @@
+{
+  "title": "Elm Cheat Sheet",
+  "slug": "elm",
+  "description": "Quick reference for Elm CLI commands and syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "elm init",
+      "description": "Initialize a new Elm project",
+      "scenario": "Initialize a new Elm project",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "elm install <package-name>",
+      "description": "Install a package",
+      "scenario": "Install a package",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "elm make src/Main.elm --output=main.js",
+      "description": "Compile Elm code to JavaScript",
+      "scenario": "Compile Elm code to JavaScript",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "javascript",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add x y = x + y",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "elm",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "numbers = [1, 2, 3, 4, 5]",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "elm",
+      "tags": [
+        "list",
+        "data",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 10 then \"large\" else \"small\"",
+      "description": "Conditional expression",
+      "scenario": "Conditional expression",
+      "language": "elm",
+      "tags": [
+        "conditional",
+        "expression",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "elm reactor --debug",
+      "description": "Run Elm with debug mode",
+      "scenario": "Run Elm with debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "reactor",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "elm make src/Main.elm --output=dist/main.js",
+      "description": "Specify output file for compiled JavaScript",
+      "scenario": "Specify output file for compiled JavaScript",
+      "language": "bash",
+      "tags": [
+        "output",
+        "file",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "elm reactor --port=8000",
+      "description": "Configure Elm to use a specific port",
+      "scenario": "Configure Elm to use a specific port",
+      "language": "bash",
+      "tags": [
+        "port",
+        "configuration",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case list of\n    [] -> \"empty\"\n    x::xs -> \"not empty\"",
+      "description": "Pattern match on a list",
+      "scenario": "Pattern match on a list",
+      "language": "elm",
+      "tags": [
+        "pattern",
+        "match",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case maybeValue of\n    Just value -> value\n    Nothing -> defaultValue",
+      "description": "Using Maybe type",
+      "scenario": "Using Maybe type",
+      "language": "elm",
+      "tags": [
+        "maybe",
+        "type",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type alias Person = { name : String, age : Int }",
+      "description": "Define a record type",
+      "scenario": "Define a record type",
+      "language": "elm",
+      "tags": [
+        "record",
+        "type",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

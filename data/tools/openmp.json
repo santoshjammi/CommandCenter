@@ -1,0 +1,204 @@
+{
+  "title": "OpenMP Cheat Sheet",
+  "slug": "openmp",
+  "description": "Quick reference for OpenMP pragmas and directives",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "#pragma omp parallel",
+      "description": "Define a parallel region",
+      "scenario": "Define a parallel region",
+      "language": "text",
+      "tags": [
+        "parallel",
+        "region",
+        "construct"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp parallel for",
+      "description": "Define a parallel for loop",
+      "scenario": "Define a parallel for loop",
+      "language": "text",
+      "tags": [
+        "parallel",
+        "loop",
+        "construct"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp parallel sections",
+      "description": "Define a parallel sections block",
+      "scenario": "Define a parallel sections block",
+      "language": "text",
+      "tags": [
+        "parallel",
+        "sections",
+        "construct"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp for",
+      "description": "Distribute loop iterations among threads",
+      "scenario": "Distribute loop iterations among threads",
+      "language": "text",
+      "tags": [
+        "work-sharing",
+        "loop",
+        "construct"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp sections",
+      "description": "Divide work into sections",
+      "scenario": "Divide work into sections",
+      "language": "text",
+      "tags": [
+        "work-sharing",
+        "sections",
+        "construct"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp for schedule(dynamic)",
+      "description": "Distribute iterations of a loop with dynamic scheduling",
+      "scenario": "Distribute iterations of a loop with dynamic scheduling",
+      "language": "text",
+      "tags": [
+        "dynamic",
+        "scheduling",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp critical",
+      "description": "Ensure mutual exclusion",
+      "scenario": "Ensure mutual exclusion",
+      "language": "text",
+      "tags": [
+        "synchronization",
+        "mutual exclusion",
+        "critical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp barrier",
+      "description": "Barrier synchronization among threads",
+      "scenario": "Barrier synchronization among threads",
+      "language": "text",
+      "tags": [
+        "synchronization",
+        "barrier",
+        "threads"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp atomic",
+      "description": "Atomic operation to prevent race conditions",
+      "scenario": "Atomic operation to prevent race conditions",
+      "language": "text",
+      "tags": [
+        "synchronization",
+        "atomic",
+        "race condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp parallel private(var)",
+      "description": "Define private variables for each thread",
+      "scenario": "Define private variables for each thread",
+      "language": "text",
+      "tags": [
+        "data environment",
+        "private",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp parallel shared(var)",
+      "description": "Define shared variables among threads",
+      "scenario": "Define shared variables among threads",
+      "language": "text",
+      "tags": [
+        "data environment",
+        "shared",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp parallel firstprivate(var)",
+      "description": "Firstprivate initializes each thread's private variable",
+      "scenario": "Firstprivate initializes each thread's private variable",
+      "language": "text",
+      "tags": [
+        "data environment",
+        "firstprivate",
+        "initialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp parallel for reduction(+:var)",
+      "description": "Perform reduction on a variable with addition",
+      "scenario": "Perform reduction on a variable with addition",
+      "language": "text",
+      "tags": [
+        "reduction",
+        "addition",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp parallel for reduction(*:var)",
+      "description": "Perform reduction on a variable with multiplication",
+      "scenario": "Perform reduction on a variable with multiplication",
+      "language": "text",
+      "tags": [
+        "reduction",
+        "multiplication",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#pragma omp parallel for reduction(&&:var)",
+      "description": "Perform reduction on a variable with logical AND",
+      "scenario": "Perform reduction on a variable with logical AND",
+      "language": "text",
+      "tags": [
+        "reduction",
+        "logical and",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

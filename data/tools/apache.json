@@ -1,0 +1,204 @@
+{
+  "title": "Apache HTTP Server Cheat Sheet",
+  "slug": "apache",
+  "description": "Essential commands and configurations for Apache HTTP Server.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "sudo systemctl start apache2",
+      "description": "Start the Apache server",
+      "scenario": "Start the Apache server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "apache",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl stop apache2",
+      "description": "Stop the Apache server",
+      "scenario": "Stop the Apache server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "apache",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl restart apache2",
+      "description": "Restart the Apache server",
+      "scenario": "Restart the Apache server",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "apache",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/etc/apache2/apache2.conf",
+      "description": "Main Apache configuration file location",
+      "scenario": "Main Apache configuration file location",
+      "language": "text",
+      "tags": [
+        "config",
+        "apache",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/etc/apache2/sites-available/000-default.conf",
+      "description": "Virtual host configuration file location",
+      "scenario": "Virtual host configuration file location",
+      "language": "text",
+      "tags": [
+        "virtualhost",
+        "config",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo a2ensite example.conf",
+      "description": "Enable a site configuration",
+      "scenario": "Enable a site configuration",
+      "language": "bash",
+      "tags": [
+        "enable",
+        "site",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/var/log/apache2/access.log",
+      "description": "Access log file location",
+      "scenario": "Access log file location",
+      "language": "text",
+      "tags": [
+        "logs",
+        "access",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/var/log/apache2/error.log",
+      "description": "Error log file location",
+      "scenario": "Error log file location",
+      "language": "text",
+      "tags": [
+        "logs",
+        "error",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo tail -n 100 /var/log/apache2/error.log",
+      "description": "View the last 100 lines of the error log",
+      "scenario": "View the last 100 lines of the error log",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "error",
+        "tail"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo a2enmod rewrite",
+      "description": "Enable an Apache module",
+      "scenario": "Enable an Apache module",
+      "language": "bash",
+      "tags": [
+        "enable",
+        "module",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo a2dismod rewrite",
+      "description": "Disable an Apache module",
+      "scenario": "Disable an Apache module",
+      "language": "bash",
+      "tags": [
+        "disable",
+        "module",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apache2ctl -M",
+      "description": "List all enabled modules",
+      "scenario": "List all enabled modules",
+      "language": "bash",
+      "tags": [
+        "list",
+        "modules",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Options -Indexes",
+      "description": "Disable directory listing",
+      "scenario": "Disable directory listing",
+      "language": "text",
+      "tags": [
+        "security",
+        "directory",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "htpasswd -c /etc/apache2/.htpasswd username",
+      "description": "Set up a basic authentication",
+      "scenario": "Set up a basic authentication",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "security",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Directory /var/www/>\n    Require all denied\n</Directory>",
+      "description": "Restrict access to a directory",
+      "scenario": "Restrict access to a directory",
+      "language": "text",
+      "tags": [
+        "access",
+        "restriction",
+        "apache"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

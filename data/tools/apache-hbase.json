@@ -1,0 +1,204 @@
+{
+  "title": "Apache HBase Cheat Sheet",
+  "slug": "apache-hbase",
+  "description": "Essential commands and configurations for Apache HBase.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "hbase shell",
+      "description": "Start the HBase shell",
+      "scenario": "Start the HBase shell",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "shell",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list",
+      "description": "List all tables in HBase",
+      "scenario": "List all tables in HBase",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "tables",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "describe 'my_table'",
+      "description": "Describe the structure of a table",
+      "scenario": "Describe the structure of a table",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "describe",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "create 'my_table', 'my_family'",
+      "description": "Create a new table with a column family",
+      "scenario": "Create a new table with a column family",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "create",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "disable 'my_table'",
+      "description": "Disable a table before deleting",
+      "scenario": "Disable a table before deleting",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "disable",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drop 'my_table'",
+      "description": "Delete a table from HBase",
+      "scenario": "Delete a table from HBase",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "drop",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "put 'my_table', 'row1', 'my_family:my_column', 'my_value'",
+      "description": "Insert data into a table",
+      "scenario": "Insert data into a table",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "put",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "get 'my_table', 'row1'",
+      "description": "Get data from a specific row",
+      "scenario": "Get data from a specific row",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "get",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scan 'my_table'",
+      "description": "Scan a table for all data",
+      "scenario": "Scan a table for all data",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "scan",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property><name>hbase.rootdir</name><value>hdfs://namenode:8020/hbase</value></property>",
+      "description": "Set HBase root directory in hbase-site.xml",
+      "scenario": "Set HBase root directory in hbase-site.xml",
+      "language": "xml",
+      "tags": [
+        "hbase",
+        "configuration",
+        "hdfs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property><name>hbase.zookeeper.quorum</name><value>zookeeper1,zookeeper2,zookeeper3</value></property>",
+      "description": "Configure Zookeeper quorum in hbase-site.xml",
+      "scenario": "Configure Zookeeper quorum in hbase-site.xml",
+      "language": "xml",
+      "tags": [
+        "hbase",
+        "zookeeper",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property><name>hbase.cluster.distributed</name><value>true</value></property>",
+      "description": "Set HBase cluster distributed mode",
+      "scenario": "Set HBase cluster distributed mode",
+      "language": "xml",
+      "tags": [
+        "hbase",
+        "cluster",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hbase version",
+      "description": "Check HBase version",
+      "scenario": "Check HBase version",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "version",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "start-hbase.sh",
+      "description": "Start HBase services",
+      "scenario": "Start HBase services",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "start",
+        "services"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stop-hbase.sh",
+      "description": "Stop HBase services",
+      "scenario": "Stop HBase services",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "stop",
+        "services"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

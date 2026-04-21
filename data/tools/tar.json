@@ -1,0 +1,165 @@
+{
+  "title": "tar Command Cheat Sheet",
+  "slug": "tar",
+  "description": "Essential tar commands for file archiving and extraction.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "tar -cvf archive.tar file1 file2",
+      "description": "Create a tar archive from files",
+      "scenario": "Create a tar archive from files",
+      "language": "bash",
+      "tags": [
+        "create",
+        "archive",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -czvf archive.tar.gz file1 file2",
+      "description": "Create a compressed gzip tar archive",
+      "scenario": "Create a compressed gzip tar archive",
+      "language": "bash",
+      "tags": [
+        "create",
+        "gzip",
+        "compress"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -cjvf archive.tar.bz2 file1 file2",
+      "description": "Create a compressed bzip2 tar archive",
+      "scenario": "Create a compressed bzip2 tar archive",
+      "language": "bash",
+      "tags": [
+        "create",
+        "bzip2",
+        "compress"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -xvf archive.tar",
+      "description": "Extract a tar archive",
+      "scenario": "Extract a tar archive",
+      "language": "bash",
+      "tags": [
+        "extract",
+        "archive",
+        "untar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -xzvf archive.tar.gz",
+      "description": "Extract a gzip compressed tar archive",
+      "scenario": "Extract a gzip compressed tar archive",
+      "language": "bash",
+      "tags": [
+        "extract",
+        "gzip",
+        "untar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -xjvf archive.tar.bz2",
+      "description": "Extract a bzip2 compressed tar archive",
+      "scenario": "Extract a bzip2 compressed tar archive",
+      "language": "bash",
+      "tags": [
+        "extract",
+        "bzip2",
+        "untar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -tvf archive.tar",
+      "description": "List contents of a tar archive",
+      "scenario": "List contents of a tar archive",
+      "language": "bash",
+      "tags": [
+        "list",
+        "contents",
+        "archive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -tzvf archive.tar.gz",
+      "description": "List contents of a gzip compressed tar archive",
+      "scenario": "List contents of a gzip compressed tar archive",
+      "language": "bash",
+      "tags": [
+        "list",
+        "gzip",
+        "contents"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -tjvf archive.tar.bz2",
+      "description": "List contents of a bzip2 compressed tar archive",
+      "scenario": "List contents of a bzip2 compressed tar archive",
+      "language": "bash",
+      "tags": [
+        "list",
+        "bzip2",
+        "contents"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -xvf archive.tar -C /path/to/directory",
+      "description": "Extract files to a specific directory",
+      "scenario": "Extract files to a specific directory",
+      "language": "bash",
+      "tags": [
+        "extract",
+        "directory",
+        "untar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -cvf archive.tar --exclude='*.log' /path/to/files",
+      "description": "Exclude specific files from the archive",
+      "scenario": "Exclude specific files from the archive",
+      "language": "bash",
+      "tags": [
+        "exclude",
+        "files",
+        "archive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tar -rvf archive.tar newfile1 newfile2",
+      "description": "Append files to an existing tar archive",
+      "scenario": "Append files to an existing tar archive",
+      "language": "bash",
+      "tags": [
+        "append",
+        "archive",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

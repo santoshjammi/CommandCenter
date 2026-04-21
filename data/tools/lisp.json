@@ -1,0 +1,204 @@
+{
+  "title": "Lisp Cheat Sheet",
+  "slug": "lisp",
+  "description": "Essential Lisp syntax and commands for software engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(setq x 10)",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "lisp",
+      "tags": [
+        "variable",
+        "define",
+        "setq"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defun square (x) (* x x))",
+      "description": "Create a function",
+      "scenario": "Create a function",
+      "language": "lisp",
+      "tags": [
+        "function",
+        "defun",
+        "square"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if (> x 5) 'greater 'lesser)",
+      "description": "Conditional statement",
+      "scenario": "Conditional statement",
+      "language": "lisp",
+      "tags": [
+        "conditional",
+        "if",
+        "comparison"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(setq my-list '(1 2 3 4))",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "create",
+        "setq"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(push 5 my-list)",
+      "description": "Add element to list",
+      "scenario": "Add element to list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "push",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(pop my-list)",
+      "description": "Remove element from list",
+      "scenario": "Remove element from list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "pop",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(dotimes (i 5) (print i))",
+      "description": "Loop with 'dotimes'",
+      "scenario": "Loop with 'dotimes'",
+      "language": "lisp",
+      "tags": [
+        "loop",
+        "dotimes",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(dolist (item my-list) (print item))",
+      "description": "Loop with 'dolist'",
+      "scenario": "Loop with 'dolist'",
+      "language": "lisp",
+      "tags": [
+        "loop",
+        "dolist",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(loop for i from 1 to 5 do (print i))",
+      "description": "Loop with 'loop'",
+      "scenario": "Loop with 'loop'",
+      "language": "lisp",
+      "tags": [
+        "loop",
+        "iteration",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-open-file (stream \"file.txt\" :direction :input) (read-line stream))",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "lisp",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-open-file (stream \"file.txt\" :direction :output) (write-line \"Hello, World!\" stream))",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "lisp",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-open-file (stream \"file.txt\" :direction :output :if-exists :append) (write-line \"Appending this line.\" stream))",
+      "description": "Append to a file",
+      "scenario": "Append to a file",
+      "language": "lisp",
+      "tags": [
+        "file",
+        "append",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(handler-case (/ 1 0) (error (e) (format t \"Error: ~a\" e)))",
+      "description": "Basic error handling with 'handler-case'",
+      "scenario": "Basic error handling with 'handler-case'",
+      "language": "lisp",
+      "tags": [
+        "error",
+        "handler-case",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(ignore-errors (/ 1 0))",
+      "description": "Using 'ignore-errors' to suppress errors",
+      "scenario": "Using 'ignore-errors' to suppress errors",
+      "language": "lisp",
+      "tags": [
+        "error",
+        "ignore-errors",
+        "suppress"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(error \"Custom error message\")",
+      "description": "Custom error signaling",
+      "scenario": "Custom error signaling",
+      "language": "lisp",
+      "tags": [
+        "error",
+        "signal",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

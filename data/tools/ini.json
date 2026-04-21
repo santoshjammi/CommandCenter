@@ -1,0 +1,165 @@
+{
+  "title": "INI Configuration Cheat Sheet",
+  "slug": "ini",
+  "description": "A quick reference for INI file syntax and patterns.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "[section_name]",
+      "description": "Define a section in an INI file",
+      "scenario": "Define a section in an INI file",
+      "language": "text",
+      "tags": [
+        "section",
+        "structure",
+        "ini"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "key = value",
+      "description": "Assign a value to a key",
+      "scenario": "Assign a value to a key",
+      "language": "text",
+      "tags": [
+        "key",
+        "value",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "; This is a comment",
+      "description": "Add a comment",
+      "scenario": "Add a comment",
+      "language": "text",
+      "tags": [
+        "comment",
+        "documentation",
+        "ini"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "string_key = \"This is a string\"",
+      "description": "Define a string value",
+      "scenario": "Define a string value",
+      "language": "text",
+      "tags": [
+        "string",
+        "value",
+        "data type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "integer_key = 42",
+      "description": "Define an integer value",
+      "scenario": "Define an integer value",
+      "language": "text",
+      "tags": [
+        "integer",
+        "value",
+        "data type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "boolean_key = true",
+      "description": "Define a boolean value",
+      "scenario": "Define a boolean value",
+      "language": "text",
+      "tags": [
+        "boolean",
+        "value",
+        "data type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "multiline_key = \"Line 1\\nLine 2\\nLine 3\"",
+      "description": "Use a multiline value",
+      "scenario": "Use a multiline value",
+      "language": "text",
+      "tags": [
+        "multiline",
+        "value",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "include = other_config.ini",
+      "description": "Include another INI file",
+      "scenario": "Include another INI file",
+      "language": "text",
+      "tags": [
+        "include",
+        "file",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list_key = value1, value2, value3",
+      "description": "Define a list of values",
+      "scenario": "Define a list of values",
+      "language": "text",
+      "tags": [
+        "list",
+        "value",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[DEFAULT]\ndefault_key = default_value",
+      "description": "Define a default section",
+      "scenario": "Define a default section",
+      "language": "text",
+      "tags": [
+        "default",
+        "section",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[specific_section]\ndefault_key = new_value",
+      "description": "Override a default value in a specific section",
+      "scenario": "Override a default value in a specific section",
+      "language": "text",
+      "tags": [
+        "override",
+        "default",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "env_key = %(ENV_VAR)s",
+      "description": "Use environment variables",
+      "scenario": "Use environment variables",
+      "language": "text",
+      "tags": [
+        "environment",
+        "variable",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

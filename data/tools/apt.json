@@ -1,0 +1,165 @@
+{
+  "title": "APT Cheat Sheet",
+  "slug": "apt",
+  "description": "Essential APT commands for package management on Debian-based systems.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sudo apt update",
+      "description": "Update the package list to get information on the newest versions of packages and their dependencies.",
+      "scenario": "Update the package list to get information on the newest versions of packages and their dependencies.",
+      "language": "bash",
+      "tags": [
+        "update",
+        "package",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt upgrade",
+      "description": "Upgrade all the packages to the latest version available.",
+      "scenario": "Upgrade all the packages to the latest version available.",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "package",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt install <package-name>",
+      "description": "Install a new package by name.",
+      "scenario": "Install a new package by name.",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apt show <package-name>",
+      "description": "Show details about a specific package.",
+      "scenario": "Show details about a specific package.",
+      "language": "bash",
+      "tags": [
+        "show",
+        "package",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apt search <package-name>",
+      "description": "Search for a package in the package list.",
+      "scenario": "Search for a package in the package list.",
+      "language": "bash",
+      "tags": [
+        "search",
+        "package",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apt list --installed",
+      "description": "List all installed packages.",
+      "scenario": "List all installed packages.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "installed",
+        "packages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt remove <package-name>",
+      "description": "Remove a package but keep its configuration files.",
+      "scenario": "Remove a package but keep its configuration files.",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "package",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt purge <package-name>",
+      "description": "Remove a package and its configuration files.",
+      "scenario": "Remove a package and its configuration files.",
+      "language": "bash",
+      "tags": [
+        "purge",
+        "package",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt clean",
+      "description": "Clean up the local repository of retrieved package files.",
+      "scenario": "Clean up the local repository of retrieved package files.",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "repository",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt autoremove",
+      "description": "Remove packages that were automatically installed to satisfy dependencies for other packages and are no longer needed.",
+      "scenario": "Remove packages that were automatically installed to satisfy dependencies for other packages and are no longer needed.",
+      "language": "bash",
+      "tags": [
+        "autoremove",
+        "dependencies",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt --fix-broken install",
+      "description": "Fix broken dependencies.",
+      "scenario": "Fix broken dependencies.",
+      "language": "bash",
+      "tags": [
+        "fix",
+        "broken",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt full-upgrade",
+      "description": "Upgrade the system by installing/upgrading packages.",
+      "scenario": "Upgrade the system by installing/upgrading packages.",
+      "language": "bash",
+      "tags": [
+        "full-upgrade",
+        "system",
+        "apt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

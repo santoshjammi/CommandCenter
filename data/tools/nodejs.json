@@ -1,0 +1,204 @@
+{
+  "title": "NodeJS Cheat Sheet",
+  "slug": "nodejs",
+  "description": "Quick reference for NodeJS CLI commands and code patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm init",
+      "description": "Initialize a new Node.js project",
+      "scenario": "Initialize a new Node.js project",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install express --save",
+      "description": "Install a package and save it as a dependency",
+      "scenario": "Install a package and save it as a dependency",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "install",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "node app.js",
+      "description": "Run a Node.js application",
+      "scenario": "Run a Node.js application",
+      "language": "bash",
+      "tags": [
+        "node",
+        "run",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = function() { return 'Hello World'; };",
+      "description": "Export a function from a module",
+      "scenario": "Export a function from a module",
+      "language": "javascript",
+      "tags": [
+        "module",
+        "exports",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const myModule = require('./myModule');",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "javascript",
+      "tags": [
+        "require",
+        "import",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exports.myFunction = function() {}; exports.myVariable = 42;",
+      "description": "Export multiple items from a module",
+      "scenario": "Export multiple items from a module",
+      "language": "javascript",
+      "tags": [
+        "exports",
+        "multiple",
+        "items"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export function myFunction() { return 'Hello World'; }",
+      "description": "Export a function using ES6 syntax",
+      "scenario": "Export a function using ES6 syntax",
+      "language": "javascript",
+      "tags": [
+        "export",
+        "function",
+        "es6"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { myFunction } from './myModule';",
+      "description": "Import a specific function from a module",
+      "scenario": "Import a specific function from a module",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "function",
+        "es6"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export { myFunction, myVariable };",
+      "description": "Export multiple items using ES6 syntax",
+      "scenario": "Export multiple items using ES6 syntax",
+      "language": "javascript",
+      "tags": [
+        "export",
+        "multiple",
+        "es6"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"scripts\": { \"start\": \"node app.js\" }",
+      "description": "Define a start script",
+      "scenario": "Define a start script",
+      "language": "json",
+      "tags": [
+        "package.json",
+        "scripts",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"engines\": { \"node\": \">=14.0.0\" }",
+      "description": "Specify a Node.js version",
+      "scenario": "Specify a Node.js version",
+      "language": "json",
+      "tags": [
+        "package.json",
+        "engines",
+        "node"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"dependencies\": { \"express\": \"^4.17.1\" }",
+      "description": "Add a dependency",
+      "scenario": "Add a dependency",
+      "language": "json",
+      "tags": [
+        "package.json",
+        "dependencies",
+        "express"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { // code } catch (error) { console.error(error); }",
+      "description": "Basic try-catch block",
+      "scenario": "Basic try-catch block",
+      "language": "javascript",
+      "tags": [
+        "try",
+        "catch",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.then(result => { /* handle result */ }).catch(error => { console.error(error); });",
+      "description": "Handle asynchronous errors with promises",
+      "scenario": "Handle asynchronous errors with promises",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "catch",
+        "asynchronous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData() { try { const data = await getData(); } catch (error) { console.error(error); } }",
+      "description": "Handle asynchronous errors with async/await",
+      "scenario": "Handle asynchronous errors with async/await",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "await",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

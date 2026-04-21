@@ -1,0 +1,204 @@
+{
+  "title": "VoiceXML Cheat Sheet",
+  "slug": "voicexml",
+  "description": "Essential VoiceXML syntax and patterns for building voice applications.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<?xml version=\"1.0\"?>\n<vxml version=\"2.1\">\n  <form>\n    <!-- Form content here -->\n  </form>\n</vxml>",
+      "description": "Define a basic VoiceXML document structure",
+      "scenario": "Define a basic VoiceXML document structure",
+      "language": "xml",
+      "tags": [
+        "structure",
+        "basic",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<form id=\"mainForm\">\n  <!-- Form content here -->\n</form>",
+      "description": "Declare a VoiceXML form",
+      "scenario": "Declare a VoiceXML form",
+      "language": "xml",
+      "tags": [
+        "form",
+        "declaration",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script>\n  <![CDATA[\n    // JavaScript code here\n  ]]>\n</script>",
+      "description": "Include a VoiceXML script",
+      "scenario": "Include a VoiceXML script",
+      "language": "xml",
+      "tags": [
+        "script",
+        "javascript",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<prompt>Welcome to the VoiceXML application.</prompt>",
+      "description": "Define a simple prompt",
+      "scenario": "Define a simple prompt",
+      "language": "xml",
+      "tags": [
+        "prompt",
+        "audio",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<grammar type=\"application/grammar+xml\" version=\"1.0\">\n  <rule id=\"yesno\">\n    <one-of>\n      <item>yes</item>\n      <item>no</item>\n    </one-of>\n  </rule>\n</grammar>",
+      "description": "Define a grammar for user input",
+      "scenario": "Define a grammar for user input",
+      "language": "xml",
+      "tags": [
+        "grammar",
+        "input",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<field name=\"confirmation\">\n  <prompt>Do you confirm?</prompt>\n  <grammar type=\"application/grammar+xml\" src=\"builtin:yesno\"/>\n</field>",
+      "description": "Use a built-in grammar",
+      "scenario": "Use a built-in grammar",
+      "language": "xml",
+      "tags": [
+        "builtin",
+        "grammar",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<if cond=\"userInput == 'yes'\">\n  <prompt>You said yes.</prompt>\n<else/>\n  <prompt>You said no.</prompt>\n</if>",
+      "description": "Use a conditional if-else statement",
+      "scenario": "Use a conditional if-else statement",
+      "language": "xml",
+      "tags": [
+        "control",
+        "conditional",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<menu>\n  <prompt>Press 1 for sales, 2 for support.</prompt>\n  <choice dtmf=\"1\" next=\"sales.vxml\"/>\n  <choice dtmf=\"2\" next=\"support.vxml\"/>\n</menu>",
+      "description": "Define a VoiceXML menu",
+      "scenario": "Define a VoiceXML menu",
+      "language": "xml",
+      "tags": [
+        "menu",
+        "navigation",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<goto next=\"#mainForm\"/>",
+      "description": "Implement a VoiceXML goto statement",
+      "scenario": "Implement a VoiceXML goto statement",
+      "language": "xml",
+      "tags": [
+        "goto",
+        "navigation",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<noinput>\n  <prompt>I didn't hear anything. Please try again.</prompt>\n</noinput>",
+      "description": "Handle no input event",
+      "scenario": "Handle no input event",
+      "language": "xml",
+      "tags": [
+        "error",
+        "noinput",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<nomatch>\n  <prompt>Sorry, I didn't understand that.</prompt>\n</nomatch>",
+      "description": "Handle nomatch event",
+      "scenario": "Handle nomatch event",
+      "language": "xml",
+      "tags": [
+        "error",
+        "nomatch",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<catch event=\"error\">\n  <prompt>An error occurred. Please try again later.</prompt>\n</catch>",
+      "description": "Use catch to handle errors",
+      "scenario": "Use catch to handle errors",
+      "language": "xml",
+      "tags": [
+        "error",
+        "catch",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<record name=\"userRecording\" beep=\"true\" maxtime=\"10s\">\n  <prompt>Please record your message after the beep.</prompt>\n</record>",
+      "description": "Record user input",
+      "scenario": "Record user input",
+      "language": "xml",
+      "tags": [
+        "record",
+        "input",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<transfer name=\"callTransfer\" dest=\"tel:+1234567890\">\n  <prompt>Transferring your call.</prompt>\n</transfer>",
+      "description": "Transfer a call",
+      "scenario": "Transfer a call",
+      "language": "xml",
+      "tags": [
+        "transfer",
+        "call",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<data name=\"weatherData\" src=\"http://example.com/weather.xml\">\n  <prompt>The weather data has been fetched.</prompt>\n</data>",
+      "description": "Fetch external data using data tag",
+      "scenario": "Fetch external data using data tag",
+      "language": "xml",
+      "tags": [
+        "data",
+        "fetch",
+        "vxml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

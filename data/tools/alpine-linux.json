@@ -1,0 +1,204 @@
+{
+  "title": "Alpine Linux Cheat Sheet",
+  "slug": "alpine-linux",
+  "description": "Essential commands and configurations for Alpine Linux.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "apk update",
+      "description": "Update the package index",
+      "scenario": "Update the package index",
+      "language": "bash",
+      "tags": [
+        "package",
+        "update",
+        "apk"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apk add <package-name>",
+      "description": "Install a new package",
+      "scenario": "Install a new package",
+      "language": "bash",
+      "tags": [
+        "package",
+        "install",
+        "apk"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apk del <package-name>",
+      "description": "Remove an installed package",
+      "scenario": "Remove an installed package",
+      "language": "bash",
+      "tags": [
+        "package",
+        "remove",
+        "apk"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "adduser <username>",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deluser <username>",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "addgroup <username> <groupname>",
+      "description": "Add a user to a group",
+      "scenario": "Add a user to a group",
+      "language": "bash",
+      "tags": [
+        "user",
+        "group",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Display disk usage",
+      "scenario": "Display disk usage",
+      "language": "bash",
+      "tags": [
+        "system",
+        "disk",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "free -m",
+      "description": "Show memory usage",
+      "scenario": "Show memory usage",
+      "language": "bash",
+      "tags": [
+        "system",
+        "memory",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uptime",
+      "description": "Check system uptime",
+      "scenario": "Check system uptime",
+      "language": "bash",
+      "tags": [
+        "system",
+        "uptime",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip addr",
+      "description": "Display network interfaces",
+      "scenario": "Display network interfaces",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interfaces",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping <hostname>",
+      "description": "Ping a host",
+      "scenario": "Ping a host",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ping",
+        "host"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -tuln",
+      "description": "Show active network connections",
+      "scenario": "Show active network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "netstat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp <source> <destination>",
+      "description": "Copy a file",
+      "scenario": "Copy a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "copy",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv <source> <destination>",
+      "description": "Move a file",
+      "scenario": "Move a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "move",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rm <file>",
+      "description": "Remove a file",
+      "scenario": "Remove a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "remove",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

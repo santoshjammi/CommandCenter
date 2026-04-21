@@ -1,0 +1,204 @@
+{
+  "title": "Vue.js Cheat Sheet",
+  "slug": "vuejs",
+  "description": "Quick reference for Vue.js commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "vue create my-project",
+      "description": "Create a new Vue.js project with Vue CLI",
+      "scenario": "Create a new Vue.js project with Vue CLI",
+      "language": "bash",
+      "tags": [
+        "vue",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run serve",
+      "description": "Serve a Vue.js project locally",
+      "scenario": "Serve a Vue.js project locally",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "local",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run build",
+      "description": "Build a Vue.js project for production",
+      "scenario": "Build a Vue.js project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new Vue({ el: '#app' })",
+      "description": "Create a new Vue instance",
+      "scenario": "Create a new Vue instance",
+      "language": "javascript",
+      "tags": [
+        "vue",
+        "instance",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data: { message: 'Hello Vue!' }",
+      "description": "Define a data property in a Vue instance",
+      "scenario": "Define a data property in a Vue instance",
+      "language": "javascript",
+      "tags": [
+        "data",
+        "property",
+        "vue"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "methods: { greet() { return 'Hello!' } }",
+      "description": "Add a method to a Vue instance",
+      "scenario": "Add a method to a Vue instance",
+      "language": "javascript",
+      "tags": [
+        "methods",
+        "vue",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div v-if=\"isVisible\">Visible Content</div>",
+      "description": "Use v-if directive for conditional rendering",
+      "scenario": "Use v-if directive for conditional rendering",
+      "language": "html",
+      "tags": [
+        "directive",
+        "conditional",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<li v-for=\"item in items\" :key=\"item.id\">{{ item.name }}</li>",
+      "description": "Use v-for directive for list rendering",
+      "scenario": "Use v-for directive for list rendering",
+      "language": "html",
+      "tags": [
+        "directive",
+        "list",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img v-bind:src=\"imageSrc\" alt=\"Image\">",
+      "description": "Use v-bind directive to bind attributes",
+      "scenario": "Use v-bind directive to bind attributes",
+      "language": "html",
+      "tags": [
+        "directive",
+        "bind",
+        "attribute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vue.component('my-component', { template: '<div>A custom component!</div>' })",
+      "description": "Define a new Vue component",
+      "scenario": "Define a new Vue component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "vue",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "components: { 'my-component': MyComponent }",
+      "description": "Register a local component in a Vue instance",
+      "scenario": "Register a local component in a Vue instance",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "local",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<my-component></my-component>",
+      "description": "Use a component in a template",
+      "scenario": "Use a component in a template",
+      "language": "html",
+      "tags": [
+        "component",
+        "template",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install vue-router",
+      "description": "Install Vue Router",
+      "scenario": "Install Vue Router",
+      "language": "bash",
+      "tags": [
+        "vue",
+        "router",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const routes = [{ path: '/home', component: Home }]",
+      "description": "Define routes in a Vue Router instance",
+      "scenario": "Define routes in a Vue Router instance",
+      "language": "javascript",
+      "tags": [
+        "router",
+        "routes",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const router = new VueRouter({ routes })",
+      "description": "Create a router instance and pass the routes",
+      "scenario": "Create a router instance and pass the routes",
+      "language": "javascript",
+      "tags": [
+        "router",
+        "instance",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

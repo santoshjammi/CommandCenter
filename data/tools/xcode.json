@@ -1,0 +1,165 @@
+{
+  "title": "Xcode Cheat Sheet",
+  "slug": "xcode",
+  "description": "Essential Xcode CLI commands and shortcuts for developers.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "xcode-select --install",
+      "description": "Install Xcode command line tools",
+      "scenario": "Install Xcode command line tools",
+      "language": "bash",
+      "tags": [
+        "install",
+        "cli",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo xcode-select --switch /Applications/Xcode.app",
+      "description": "Switch to a different version of Xcode",
+      "scenario": "Switch to a different version of Xcode",
+      "language": "bash",
+      "tags": [
+        "switch",
+        "version",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xcode-select -p",
+      "description": "Check the path of the current Xcode version",
+      "scenario": "Check the path of the current Xcode version",
+      "language": "bash",
+      "tags": [
+        "check",
+        "path",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xcodebuild -project MyProject.xcodeproj -scheme MyScheme build",
+      "description": "Build an Xcode project from the command line",
+      "scenario": "Build an Xcode project from the command line",
+      "language": "bash",
+      "tags": [
+        "build",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xcodebuild test -project MyProject.xcodeproj -scheme MyScheme",
+      "description": "Run tests for an Xcode project",
+      "scenario": "Run tests for an Xcode project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xcodebuild clean -project MyProject.xcodeproj -scheme MyScheme",
+      "description": "Clean the build folder",
+      "scenario": "Clean the build folder",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + 1",
+      "description": "Open the project navigator",
+      "scenario": "Open the project navigator",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "navigator",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + 3",
+      "description": "Open the search navigator",
+      "scenario": "Open the search navigator",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "search",
+        "navigator"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Shift + Y",
+      "description": "Toggle the debug area",
+      "scenario": "Toggle the debug area",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "debug",
+        "area"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IPHONEOS_DEPLOYMENT_TARGET = 14.0;",
+      "description": "Set the deployment target in a project file",
+      "scenario": "Set the deployment target in a project file",
+      "language": "yaml",
+      "tags": [
+        "deployment",
+        "target",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ENABLE_BITCODE = YES;",
+      "description": "Enable bitcode in a project file",
+      "scenario": "Enable bitcode in a project file",
+      "language": "yaml",
+      "tags": [
+        "bitcode",
+        "enable",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SWIFT_VERSION = 5.0;",
+      "description": "Set the Swift version in a project file",
+      "scenario": "Set the Swift version in a project file",
+      "language": "yaml",
+      "tags": [
+        "swift",
+        "version",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

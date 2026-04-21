@@ -1,0 +1,204 @@
+{
+  "title": "JUnit Cheat Sheet",
+  "slug": "junit",
+  "description": "Essential JUnit commands and patterns for testing in Java.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "@Test",
+      "description": "Mark a method as a test method.",
+      "scenario": "Mark a method as a test method.",
+      "language": "java",
+      "tags": [
+        "annotations",
+        "test",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@BeforeAll",
+      "description": "Execute once before all test methods in the class.",
+      "scenario": "Execute once before all test methods in the class.",
+      "language": "java",
+      "tags": [
+        "annotations",
+        "setup",
+        "lifecycle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@AfterAll",
+      "description": "Execute once after all test methods in the class.",
+      "scenario": "Execute once after all test methods in the class.",
+      "language": "java",
+      "tags": [
+        "annotations",
+        "teardown",
+        "lifecycle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assertEquals(expected, actual);",
+      "description": "Check that two values are equal.",
+      "scenario": "Check that two values are equal.",
+      "language": "java",
+      "tags": [
+        "assertions",
+        "equality",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assertTrue(condition);",
+      "description": "Check that a condition is true.",
+      "scenario": "Check that a condition is true.",
+      "language": "java",
+      "tags": [
+        "assertions",
+        "boolean",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assertNotNull(object);",
+      "description": "Check that an object is not null.",
+      "scenario": "Check that an object is not null.",
+      "language": "java",
+      "tags": [
+        "assertions",
+        "null",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@ParameterizedTest",
+      "description": "Define a parameterized test method.",
+      "scenario": "Define a parameterized test method.",
+      "language": "java",
+      "tags": [
+        "parameterized",
+        "test",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@ValueSource(strings = {\"one\", \"two\", \"three\"})",
+      "description": "Provide a source of arguments for a parameterized test.",
+      "scenario": "Provide a source of arguments for a parameterized test.",
+      "language": "java",
+      "tags": [
+        "parameterized",
+        "source",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@MethodSource(\"stringProvider\")",
+      "description": "Use method source for parameterized test arguments.",
+      "scenario": "Use method source for parameterized test arguments.",
+      "language": "java",
+      "tags": [
+        "parameterized",
+        "method",
+        "source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Test(expected = Exception.class)",
+      "description": "Expect an exception to be thrown by the test method.",
+      "scenario": "Expect an exception to be thrown by the test method.",
+      "language": "java",
+      "tags": [
+        "exception",
+        "test",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assertThrows(Exception.class, () -> { /* code */ });",
+      "description": "Assert that a specific exception is thrown.",
+      "scenario": "Assert that a specific exception is thrown.",
+      "language": "java",
+      "tags": [
+        "exception",
+        "assertions",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assertDoesNotThrow(() -> { /* code */ });",
+      "description": "Verify that no exceptions are thrown by the test method.",
+      "scenario": "Verify that no exceptions are thrown by the test method.",
+      "language": "java",
+      "tags": [
+        "exception",
+        "assertions",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Suite",
+      "description": "Create a test suite to run multiple test classes.",
+      "scenario": "Create a test suite to run multiple test classes.",
+      "language": "java",
+      "tags": [
+        "suite",
+        "test",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@SelectClasses({TestClass1.class, TestClass2.class})",
+      "description": "Include test classes in a test suite.",
+      "scenario": "Include test classes in a test suite.",
+      "language": "java",
+      "tags": [
+        "suite",
+        "select",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@SelectPackages(\"com.example.tests\")",
+      "description": "Specify package for test discovery in a suite.",
+      "scenario": "Specify package for test discovery in a suite.",
+      "language": "java",
+      "tags": [
+        "suite",
+        "package",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

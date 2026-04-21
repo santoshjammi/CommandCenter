@@ -1,0 +1,204 @@
+{
+  "title": "Vim Cheat Sheet",
+  "slug": "vim",
+  "description": "Essential Vim commands and shortcuts for efficient text editing.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "0",
+      "description": "Move cursor to the beginning of the line",
+      "scenario": "Move cursor to the beginning of the line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "cursor",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$",
+      "description": "Move cursor to the end of the line",
+      "scenario": "Move cursor to the end of the line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "cursor",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "w",
+      "description": "Move cursor to the next word",
+      "scenario": "Move cursor to the next word",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "cursor",
+        "word"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x",
+      "description": "Delete a character under the cursor",
+      "scenario": "Delete a character under the cursor",
+      "language": "text",
+      "tags": [
+        "editing",
+        "delete",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "u",
+      "description": "Undo the last change",
+      "scenario": "Undo the last change",
+      "language": "text",
+      "tags": [
+        "editing",
+        "undo",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p",
+      "description": "Paste text after the cursor",
+      "scenario": "Paste text after the cursor",
+      "language": "text",
+      "tags": [
+        "editing",
+        "paste",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/pattern",
+      "description": "Search for a pattern in the text",
+      "scenario": "Search for a pattern in the text",
+      "language": "text",
+      "tags": [
+        "search",
+        "pattern",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":%s/foo/bar/g",
+      "description": "Replace all occurrences of 'foo' with 'bar' in the file",
+      "scenario": "Replace all occurrences of 'foo' with 'bar' in the file",
+      "language": "text",
+      "tags": [
+        "replace",
+        "text",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "n",
+      "description": "Find the next occurrence of the search pattern",
+      "scenario": "Find the next occurrence of the search pattern",
+      "language": "text",
+      "tags": [
+        "search",
+        "next",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":w",
+      "description": "Save the current file",
+      "scenario": "Save the current file",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":q",
+      "description": "Quit Vim",
+      "scenario": "Quit Vim",
+      "language": "text",
+      "tags": [
+        "file",
+        "quit",
+        "exit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":wq",
+      "description": "Save and quit Vim",
+      "scenario": "Save and quit Vim",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "quit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "v",
+      "description": "Enter visual mode to select text",
+      "scenario": "Enter visual mode to select text",
+      "language": "text",
+      "tags": [
+        "visual",
+        "select",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "V",
+      "description": "Enter visual line mode to select lines",
+      "scenario": "Enter visual line mode to select lines",
+      "language": "text",
+      "tags": [
+        "visual",
+        "select",
+        "lines"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-v",
+      "description": "Enter visual block mode to select a block of text",
+      "scenario": "Enter visual block mode to select a block of text",
+      "language": "text",
+      "tags": [
+        "visual",
+        "select",
+        "block"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

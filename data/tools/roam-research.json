@@ -1,0 +1,204 @@
+{
+  "title": "Roam Research Cheat Sheet",
+  "slug": "roam-research",
+  "description": "Quick reference for Roam Research shortcuts and commands.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Shift + Enter",
+      "description": "Create a new block below the current one",
+      "scenario": "Create a new block below the current one",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "block",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tab",
+      "description": "Indent the current block",
+      "scenario": "Indent the current block",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "indent",
+        "block"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + Tab",
+      "description": "Un-indent the current block",
+      "scenario": "Un-indent the current block",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "unindent",
+        "block"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Heading 1\n## Heading 2\n### Heading 3",
+      "description": "Create a heading",
+      "scenario": "Create a heading",
+      "language": "text",
+      "tags": [
+        "markdown",
+        "heading",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "**bold text**",
+      "description": "Bold text",
+      "scenario": "Bold text",
+      "language": "text",
+      "tags": [
+        "markdown",
+        "bold",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*italic text*",
+      "description": "Italicize text",
+      "scenario": "Italicize text",
+      "language": "text",
+      "tags": [
+        "markdown",
+        "italic",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + U",
+      "description": "Search for a page or block",
+      "scenario": "Search for a page or block",
+      "language": "text",
+      "tags": [
+        "commands",
+        "search",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + P",
+      "description": "Open the command palette",
+      "scenario": "Open the command palette",
+      "language": "text",
+      "tags": [
+        "commands",
+        "palette",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + D",
+      "description": "Navigate to the daily notes page",
+      "scenario": "Navigate to the daily notes page",
+      "language": "text",
+      "tags": [
+        "commands",
+        "daily notes",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "body { background-color: #f0f0f0; }",
+      "description": "Customize the theme using CSS",
+      "scenario": "Customize the theme using CSS",
+      "language": "css",
+      "tags": [
+        "configuration",
+        "theme",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.addEventListener('DOMContentLoaded', function() { console.log('Roam loaded'); });",
+      "description": "Add custom JavaScript to enhance functionality",
+      "scenario": "Add custom JavaScript to enhance functionality",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "javascript",
+        "customization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{iframe: https://calendar.google.com/calendar/embed?src=your_calendar_id}}",
+      "description": "Embed a Google Calendar",
+      "scenario": "Embed a Google Calendar",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "embed",
+        "calendar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[Page Name]]",
+      "description": "Link to a page",
+      "scenario": "Link to a page",
+      "language": "text",
+      "tags": [
+        "patterns",
+        "link",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- [ ] Task 1\n- [x] Completed Task",
+      "description": "Create a to-do list",
+      "scenario": "Create a to-do list",
+      "language": "text",
+      "tags": [
+        "patterns",
+        "todo",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{[[template]]: Meeting Notes}}",
+      "description": "Use a template for meeting notes",
+      "scenario": "Use a template for meeting notes",
+      "language": "text",
+      "tags": [
+        "patterns",
+        "template",
+        "notes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

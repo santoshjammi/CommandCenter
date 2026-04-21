@@ -1,0 +1,165 @@
+{
+  "title": "BIRT Cheat Sheet",
+  "slug": "birt",
+  "description": "Essential commands and patterns for BIRT report development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "birt-designer",
+      "description": "Start BIRT report designer from the command line",
+      "scenario": "Start BIRT report designer from the command line",
+      "language": "bash",
+      "tags": [
+        "birt",
+        "cli",
+        "designer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "birt-runner -f report.rptdesign",
+      "description": "Run a BIRT report from the command line",
+      "scenario": "Run a BIRT report from the command line",
+      "language": "bash",
+      "tags": [
+        "birt",
+        "cli",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "birt-runner -f report.rptdesign -o output.pdf",
+      "description": "Export a BIRT report to PDF format",
+      "scenario": "Export a BIRT report to PDF format",
+      "language": "bash",
+      "tags": [
+        "birt",
+        "cli",
+        "export"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<parameter name=\"param1\" type=\"string\"/>",
+      "description": "Define a simple BIRT report parameter",
+      "scenario": "Define a simple BIRT report parameter",
+      "language": "xml",
+      "tags": [
+        "birt",
+        "parameter",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<data-source name=\"myDataSource\" type=\"jdbc\"/>",
+      "description": "Create a data source for a BIRT report",
+      "scenario": "Create a data source for a BIRT report",
+      "language": "xml",
+      "tags": [
+        "birt",
+        "data-source",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<data-set name=\"myDataSet\" queryText=\"SELECT * FROM table\"/>",
+      "description": "Add a data set to a BIRT report",
+      "scenario": "Add a data set to a BIRT report",
+      "language": "xml",
+      "tags": [
+        "birt",
+        "data-set",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property name=\"odaURL\" value=\"jdbc:mysql://localhost:3306/mydb\"/>",
+      "description": "Set up a JDBC data source in BIRT",
+      "scenario": "Set up a JDBC data source in BIRT",
+      "language": "xml",
+      "tags": [
+        "birt",
+        "jdbc",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<logging level=\"INFO\"/>",
+      "description": "Configure BIRT logging level",
+      "scenario": "Configure BIRT logging level",
+      "language": "xml",
+      "tags": [
+        "birt",
+        "logging",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<output format=\"pdf\"/>",
+      "description": "Specify the output format for a BIRT report",
+      "scenario": "Specify the output format for a BIRT report",
+      "language": "xml",
+      "tags": [
+        "birt",
+        "output",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function beforeFactory() { this.param1 = 'value'; }",
+      "description": "Use a script to manipulate report data",
+      "scenario": "Use a script to manipulate report data",
+      "language": "javascript",
+      "tags": [
+        "birt",
+        "script",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<highlight-rule expression=\"row['value'] > 100\" style=\"highlight\"/>",
+      "description": "Create a conditional formatting rule in BIRT",
+      "scenario": "Create a conditional formatting rule in BIRT",
+      "language": "xml",
+      "tags": [
+        "birt",
+        "formatting",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<chart type=\"pie\" dataSet=\"myDataSet\"/>",
+      "description": "Embed a chart in a BIRT report",
+      "scenario": "Embed a chart in a BIRT report",
+      "language": "xml",
+      "tags": [
+        "birt",
+        "chart",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

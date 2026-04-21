@@ -1,0 +1,204 @@
+{
+  "title": "Fish Shell Cheat Sheet",
+  "slug": "fish-shell",
+  "description": "Essential Fish shell commands and syntax for efficient CLI usage.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /path/to/directory",
+      "description": "Change directory to the specified path",
+      "scenario": "Change directory to the specified path",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Print the current working directory",
+      "scenario": "Print the current working directory",
+      "language": "bash",
+      "tags": [
+        "print",
+        "working",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set variable_name value",
+      "description": "Set a variable with a value",
+      "scenario": "Set a variable with a value",
+      "language": "bash",
+      "tags": [
+        "set",
+        "variable",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo $variable_name",
+      "description": "Display the value of a variable",
+      "scenario": "Display the value of a variable",
+      "language": "bash",
+      "tags": [
+        "echo",
+        "variable",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set -e variable_name",
+      "description": "Unset a variable",
+      "scenario": "Unset a variable",
+      "language": "bash",
+      "tags": [
+        "unset",
+        "variable",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function fname; echo Hello; end",
+      "description": "Define a new function",
+      "scenario": "Define a new function",
+      "language": "bash",
+      "tags": [
+        "function",
+        "define",
+        "echo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "functions",
+      "description": "List all defined functions",
+      "scenario": "List all defined functions",
+      "language": "bash",
+      "tags": [
+        "list",
+        "functions",
+        "defined"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "functions -e fname",
+      "description": "Erase a defined function",
+      "scenario": "Erase a defined function",
+      "language": "bash",
+      "tags": [
+        "erase",
+        "function",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano ~/.config/fish/config.fish",
+      "description": "Open the Fish configuration file",
+      "scenario": "Open the Fish configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set -U fish_user_paths /new/path $fish_user_paths",
+      "description": "Add a directory to the PATH",
+      "scenario": "Add a directory to the PATH",
+      "language": "bash",
+      "tags": [
+        "path",
+        "add",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set -U variable_name value",
+      "description": "Make a variable universal",
+      "scenario": "Make a variable universal",
+      "language": "bash",
+      "tags": [
+        "universal",
+        "variable",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fish script.fish",
+      "description": "Run a Fish script",
+      "scenario": "Run a Fish script",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fish --no-execute script.fish",
+      "description": "Check syntax of a Fish script",
+      "scenario": "Check syntax of a Fish script",
+      "language": "bash",
+      "tags": [
+        "check",
+        "syntax",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in (seq 1 5); echo $i; end",
+      "description": "Use a loop to iterate over items",
+      "scenario": "Use a loop to iterate over items",
+      "language": "bash",
+      "tags": [
+        "loop",
+        "iterate",
+        "sequence"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

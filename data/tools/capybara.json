@@ -1,0 +1,165 @@
+{
+  "title": "Capybara Cheat Sheet",
+  "slug": "capybara",
+  "description": "Quick reference for Capybara commands and patterns in Ruby testing.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "visit '/home'",
+      "description": "Visit a specific page",
+      "scenario": "Visit a specific page",
+      "language": "ruby",
+      "tags": [
+        "navigation",
+        "visit",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find('.button')",
+      "description": "Find an element by CSS selector",
+      "scenario": "Find an element by CSS selector",
+      "language": "ruby",
+      "tags": [
+        "find",
+        "element",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "click_button 'Submit'",
+      "description": "Click a button with specific text",
+      "scenario": "Click a button with specific text",
+      "language": "ruby",
+      "tags": [
+        "click",
+        "button",
+        "interaction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(page).to have_content('Welcome')",
+      "description": "Assert that a page has specific content",
+      "scenario": "Assert that a page has specific content",
+      "language": "ruby",
+      "tags": [
+        "assertion",
+        "content",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(page).to have_button('Submit')",
+      "description": "Check for the presence of a button",
+      "scenario": "Check for the presence of a button",
+      "language": "ruby",
+      "tags": [
+        "assertion",
+        "button",
+        "presence"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(page).not_to have_selector('.hidden')",
+      "description": "Verify an element is not visible",
+      "scenario": "Verify an element is not visible",
+      "language": "ruby",
+      "tags": [
+        "assertion",
+        "visibility",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fill_in 'Name', with: 'John Doe'",
+      "description": "Fill in a text field with a value",
+      "scenario": "Fill in a text field with a value",
+      "language": "ruby",
+      "tags": [
+        "fill",
+        "form",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "select 'Option 1', from: 'Dropdown'",
+      "description": "Select an option from a dropdown",
+      "scenario": "Select an option from a dropdown",
+      "language": "ruby",
+      "tags": [
+        "select",
+        "dropdown",
+        "form"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "check 'Accept Terms'",
+      "description": "Check a checkbox",
+      "scenario": "Check a checkbox",
+      "language": "ruby",
+      "tags": [
+        "check",
+        "checkbox",
+        "form"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "page.execute_script(\"alert('Hello!')\")",
+      "description": "Execute JavaScript on the page",
+      "scenario": "Execute JavaScript on the page",
+      "language": "ruby",
+      "tags": [
+        "javascript",
+        "execute",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "within_frame 'iframe_id' do\n  # actions\nend",
+      "description": "Switch to an iframe",
+      "scenario": "Switch to an iframe",
+      "language": "ruby",
+      "tags": [
+        "iframe",
+        "switch",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "accept_alert do\n  click_button 'Delete'\nend",
+      "description": "Handle a modal dialog",
+      "scenario": "Handle a modal dialog",
+      "language": "ruby",
+      "tags": [
+        "modal",
+        "alert",
+        "dialog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

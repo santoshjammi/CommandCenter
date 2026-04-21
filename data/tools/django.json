@@ -1,0 +1,204 @@
+{
+  "title": "Django Cheat Sheet",
+  "slug": "django",
+  "description": "Quick reference for Django CLI commands, syntax, and configurations.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "django-admin startproject myproject",
+      "description": "Start a new Django project",
+      "scenario": "Start a new Django project",
+      "language": "bash",
+      "tags": [
+        "django",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "python manage.py runserver",
+      "description": "Run the development server",
+      "scenario": "Run the development server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "development",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "python manage.py startapp myapp",
+      "description": "Create a new Django app",
+      "scenario": "Create a new Django app",
+      "language": "bash",
+      "tags": [
+        "app",
+        "cli",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from django.db import models\n\nclass MyModel(models.Model):\n    name = models.CharField(max_length=100)\n    age = models.IntegerField()",
+      "description": "Define a basic Django model",
+      "scenario": "Define a basic Django model",
+      "language": "python",
+      "tags": [
+        "models",
+        "django",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Book(models.Model):\n    author = models.ForeignKey(Author, on_delete=models.CASCADE)",
+      "description": "Add a foreign key to another model",
+      "scenario": "Add a foreign key to another model",
+      "language": "python",
+      "tags": [
+        "models",
+        "foreignkey",
+        "relationships"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyModel(models.Model):\n    name = models.CharField(max_length=100)\n\n    def __str__(self):\n        return self.name",
+      "description": "Define a model with a custom string representation",
+      "scenario": "Define a model with a custom string representation",
+      "language": "python",
+      "tags": [
+        "models",
+        "string",
+        "representation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from django.http import HttpResponse\n\ndef my_view(request):\n    return HttpResponse('Hello, World!')",
+      "description": "Create a simple view function",
+      "scenario": "Create a simple view function",
+      "language": "python",
+      "tags": [
+        "views",
+        "http",
+        "response"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from django.views import View\nfrom django.http import HttpResponse\n\nclass MyView(View):\n    def get(self, request):\n        return HttpResponse('Hello, World!')",
+      "description": "Use a class-based view",
+      "scenario": "Use a class-based view",
+      "language": "python",
+      "tags": [
+        "views",
+        "class-based",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from django.shortcuts import render\n\ndef my_view(request):\n    return render(request, 'my_template.html')",
+      "description": "Render a template in a view",
+      "scenario": "Render a template in a view",
+      "language": "python",
+      "tags": [
+        "views",
+        "templates",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'mydatabase',\n        'USER': 'mydatabaseuser',\n        'PASSWORD': 'mypassword',\n        'HOST': 'localhost',\n        'PORT': '5432',\n    }\n}",
+      "description": "Set up the database configuration",
+      "scenario": "Set up the database configuration",
+      "language": "python",
+      "tags": [
+        "settings",
+        "database",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]",
+      "description": "Configure static files",
+      "scenario": "Configure static files",
+      "language": "python",
+      "tags": [
+        "settings",
+        "static",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'mydomain.com']",
+      "description": "Set up allowed hosts",
+      "scenario": "Set up allowed hosts",
+      "language": "python",
+      "tags": [
+        "settings",
+        "security",
+        "hosts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from django.shortcuts import redirect\n\ndef my_view(request):\n    if request.method == 'POST':\n        # process form data\n        return redirect('success_url')",
+      "description": "Redirect after a form submission",
+      "scenario": "Redirect after a form submission",
+      "language": "python",
+      "tags": [
+        "patterns",
+        "redirect",
+        "forms"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from django.db.models.signals import post_save\nfrom django.dispatch import receiver\n\n@receiver(post_save, sender=MyModel)\ndef my_handler(sender, instance, created, **kwargs):\n    if created:\n        # do something",
+      "description": "Use Django signals",
+      "scenario": "Use Django signals",
+      "language": "python",
+      "tags": [
+        "patterns",
+        "signals",
+        "post_save"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from django.core.paginator import Paginator\n\nobjects = MyModel.objects.all()\npaginator = Paginator(objects, 10)  # Show 10 objects per page\npage_number = request.GET.get('page')\npage_obj = paginator.get_page(page_number)",
+      "description": "Paginate a list of objects",
+      "scenario": "Paginate a list of objects",
+      "language": "python",
+      "tags": [
+        "patterns",
+        "pagination",
+        "objects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

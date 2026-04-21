@@ -1,0 +1,204 @@
+{
+  "title": "Claude Code Cheat Sheet",
+  "slug": "claude-code",
+  "description": "Essential CLI commands and code snippets for Claude Code.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "claude init my-project",
+      "description": "Initialize a new Claude Code project",
+      "scenario": "Initialize a new Claude Code project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "claude build",
+      "description": "Build the Claude Code project",
+      "scenario": "Build the Claude Code project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "claude run",
+      "description": "Run the Claude Code project",
+      "scenario": "Run the Claude Code project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "cli",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function myFunction() { // code here }",
+      "description": "Define a new function in Claude Code",
+      "scenario": "Define a new function in Claude Code",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "syntax",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (let i = 0; i < 10; i++) { // code here }",
+      "description": "Create a loop in Claude Code",
+      "scenario": "Create a loop in Claude Code",
+      "language": "javascript",
+      "tags": [
+        "loop",
+        "syntax",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let myVariable = 10;",
+      "description": "Declare a variable in Claude Code",
+      "scenario": "Declare a variable in Claude Code",
+      "language": "javascript",
+      "tags": [
+        "variable",
+        "declare",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "claude run --verbose",
+      "description": "Run Claude Code in verbose mode",
+      "scenario": "Run Claude Code in verbose mode",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "flag",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "claude run --config=config.json",
+      "description": "Specify a configuration file for Claude Code",
+      "scenario": "Specify a configuration file for Claude Code",
+      "language": "bash",
+      "tags": [
+        "config",
+        "flag",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "claude build --force",
+      "description": "Force rebuild in Claude Code",
+      "scenario": "Force rebuild in Claude Code",
+      "language": "bash",
+      "tags": [
+        "force",
+        "rebuild",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\"\n}",
+      "description": "Basic configuration for Claude Code",
+      "scenario": "Basic configuration for Claude Code",
+      "language": "json",
+      "tags": [
+        "config",
+        "setup",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"scripts\": {\n    \"start\": \"claude run\"\n  }\n}",
+      "description": "Add a script to Claude Code configuration",
+      "scenario": "Add a script to Claude Code configuration",
+      "language": "json",
+      "tags": [
+        "script",
+        "config",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"env\": {\n    \"NODE_ENV\": \"production\"\n  }\n}",
+      "description": "Set environment variables in Claude Code",
+      "scenario": "Set environment variables in Claude Code",
+      "language": "json",
+      "tags": [
+        "env",
+        "config",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try {\n  // code\n} catch (error) {\n  console.error(error);\n}",
+      "description": "Pattern for error handling in Claude Code",
+      "scenario": "Pattern for error handling in Claude Code",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "pattern",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData() {\n  const response = await fetch(url);\n  return response.json();\n}",
+      "description": "Pattern for asynchronous operations in Claude Code",
+      "scenario": "Pattern for asynchronous operations in Claude Code",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "pattern",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) {\n  // render component\n} else {\n  // render alternative\n}",
+      "description": "Pattern for conditional rendering in Claude Code",
+      "scenario": "Pattern for conditional rendering in Claude Code",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "pattern",
+        "rendering"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "ActiveAdmin Cheat Sheet",
+  "slug": "activeadmin",
+  "description": "Essential commands and snippets for ActiveAdmin in Rails applications.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "gem 'activeadmin'",
+      "description": "Add ActiveAdmin to your Gemfile",
+      "scenario": "Add ActiveAdmin to your Gemfile",
+      "language": "ruby",
+      "tags": [
+        "setup",
+        "gemfile",
+        "installation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate active_admin:install",
+      "description": "Install ActiveAdmin and generate initial files",
+      "scenario": "Install ActiveAdmin and generate initial files",
+      "language": "bash",
+      "tags": [
+        "setup",
+        "installation",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails db:migrate",
+      "description": "Run migrations for ActiveAdmin",
+      "scenario": "Run migrations for ActiveAdmin",
+      "language": "bash",
+      "tags": [
+        "setup",
+        "migrations",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ActiveAdmin.register Post do\n  # Customizations\nend",
+      "description": "Register a model with ActiveAdmin",
+      "scenario": "Register a model with ActiveAdmin",
+      "language": "ruby",
+      "tags": [
+        "resources",
+        "models",
+        "registration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "index do\n  selectable_column\n  id_column\n  column :title\n  actions\nend",
+      "description": "Customize index page for a resource",
+      "scenario": "Customize index page for a resource",
+      "language": "ruby",
+      "tags": [
+        "index",
+        "customization",
+        "resources"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "filter :title\nfilter :created_at",
+      "description": "Add filters to a resource",
+      "scenario": "Add filters to a resource",
+      "language": "ruby",
+      "tags": [
+        "filters",
+        "resources",
+        "customization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "member_action :approve, method: :put do\n  resource.approve!\n  redirect_to resource_path, notice: \"Approved!\"\nend",
+      "description": "Add a custom member action",
+      "scenario": "Add a custom member action",
+      "language": "ruby",
+      "tags": [
+        "actions",
+        "custom",
+        "member"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "collection_action :import_csv, method: :post do\n  # CSV import logic\nend",
+      "description": "Add a custom collection action",
+      "scenario": "Add a custom collection action",
+      "language": "ruby",
+      "tags": [
+        "actions",
+        "custom",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "batch_action :destroy, confirm: \"Are you sure?\" do |ids|\n  Post.where(id: ids).destroy_all\n  redirect_to collection_path, alert: \"Posts deleted!\"\nend",
+      "description": "Create a batch action",
+      "scenario": "Create a batch action",
+      "language": "ruby",
+      "tags": [
+        "batch",
+        "actions",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "render partial: 'admin/posts/form', locals: { post: post }",
+      "description": "Render a partial in ActiveAdmin",
+      "scenario": "Render a partial in ActiveAdmin",
+      "language": "ruby",
+      "tags": [
+        "views",
+        "partials",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "form do |f|\n  f.inputs do\n    f.input :title\n    f.input :body\n  end\n  f.actions\nend",
+      "description": "Customize form for a resource",
+      "scenario": "Customize form for a resource",
+      "language": "ruby",
+      "tags": [
+        "forms",
+        "customization",
+        "resources"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show do\n  attributes_table do\n    row :title\n    row :body\n  end\n  active_admin_comments\nend",
+      "description": "Display custom content in show view",
+      "scenario": "Display custom content in show view",
+      "language": "ruby",
+      "tags": [
+        "show",
+        "views",
+        "customization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate devise:install",
+      "description": "Set up Devise for authentication",
+      "scenario": "Set up Devise for authentication",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "devise",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.authorization_adapter = ActiveAdmin::PunditAdapter",
+      "description": "Configure Pundit for authorization",
+      "scenario": "Configure Pundit for authorization",
+      "language": "ruby",
+      "tags": [
+        "authorization",
+        "pundit",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class PostPolicy < ApplicationPolicy\n  def update?\n    user.admin?\n  end\nend",
+      "description": "Define a policy for a resource",
+      "scenario": "Define a policy for a resource",
+      "language": "ruby",
+      "tags": [
+        "authorization",
+        "policy",
+        "pundit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "title": "ZNC Bouncer Cheat Sheet",
+  "slug": "znc-bouncer",
+  "description": "Quick reference for ZNC IRC bouncer commands and configuration.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "znc --foreground",
+      "description": "Start ZNC service",
+      "scenario": "Start ZNC service",
+      "language": "bash",
+      "tags": [
+        "start",
+        "service",
+        "foreground"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "killall znc",
+      "description": "Stop ZNC service",
+      "scenario": "Stop ZNC service",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "service",
+        "kill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "znc --restart",
+      "description": "Restart ZNC service",
+      "scenario": "Restart ZNC service",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "znc --makepass",
+      "description": "Add a new user to ZNC",
+      "scenario": "Add a new user to ZNC",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "znc --listusers",
+      "description": "List all users",
+      "scenario": "List all users",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "manage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "znc --deluser <username>",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "manage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano ~/.znc/configs/znc.conf",
+      "description": "Edit the main configuration file",
+      "scenario": "Edit the main configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "edit",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp ~/.znc/configs/znc.conf ~/.znc/configs/znc.conf.backup",
+      "description": "Backup the configuration file",
+      "scenario": "Backup the configuration file",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "config",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp ~/.znc/configs/znc.conf.backup ~/.znc/configs/znc.conf",
+      "description": "Restore configuration from backup",
+      "scenario": "Restore configuration from backup",
+      "language": "bash",
+      "tags": [
+        "restore",
+        "config",
+        "backup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<User> -> Add Network -> Fill in details",
+      "description": "Set up a network for a user",
+      "scenario": "Set up a network for a user",
+      "language": "text",
+      "tags": [
+        "network",
+        "setup",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<User> -> Add Module -> Select Module",
+      "description": "Configure a module for a user",
+      "scenario": "Configure a module for a user",
+      "language": "text",
+      "tags": [
+        "module",
+        "configure",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<User> -> Edit -> Change Password",
+      "description": "Change user password",
+      "scenario": "Change user password",
+      "language": "text",
+      "tags": [
+        "password",
+        "change",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tail -f ~/.znc/moddata/admin/log",
+      "description": "Check ZNC logs for errors",
+      "scenario": "Check ZNC logs for errors",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "errors",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "znc --debug",
+      "description": "Test ZNC configuration",
+      "scenario": "Test ZNC configuration",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "test",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "znc --version",
+      "description": "Check ZNC version",
+      "scenario": "Check ZNC version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

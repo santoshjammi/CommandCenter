@@ -1,0 +1,204 @@
+{
+  "title": "Less.js Cheat Sheet",
+  "slug": "lessjs",
+  "description": "Essential Less.js syntax and CLI commands for efficient styling.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "@primary-color: #4D926F;",
+      "description": "Define a color variable",
+      "scenario": "Define a color variable",
+      "language": "less",
+      "tags": [
+        "variables",
+        "colors",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".header { color: @primary-color; }",
+      "description": "Use a variable in a class",
+      "scenario": "Use a variable in a class",
+      "language": "less",
+      "tags": [
+        "variables",
+        "usage",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@primary-color: #FF5733;",
+      "description": "Override a variable",
+      "scenario": "Override a variable",
+      "language": "less",
+      "tags": [
+        "variables",
+        "override",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".nav { ul { margin: 0; padding: 0; list-style: none; } }",
+      "description": "Nest selectors for cleaner code",
+      "scenario": "Nest selectors for cleaner code",
+      "language": "less",
+      "tags": [
+        "nesting",
+        "selectors",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".btn { &:hover { background-color: #EEE; } }",
+      "description": "Use & to reference parent selector",
+      "scenario": "Use & to reference parent selector",
+      "language": "less",
+      "tags": [
+        "nesting",
+        "parent",
+        "selectors"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".box { width: @width; .inner { padding: 10px; } }",
+      "description": "Combine nested selectors with variables",
+      "scenario": "Combine nested selectors with variables",
+      "language": "less",
+      "tags": [
+        "nesting",
+        "variables",
+        "selectors"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".border-radius(@radius) { border-radius: @radius; }",
+      "description": "Define a mixin for reusable styles",
+      "scenario": "Define a mixin for reusable styles",
+      "language": "less",
+      "tags": [
+        "mixins",
+        "reusability",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".box { .border-radius(10px); }",
+      "description": "Use a mixin in a class",
+      "scenario": "Use a mixin in a class",
+      "language": "less",
+      "tags": [
+        "mixins",
+        "usage",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".box-shadow(@x: 0, @y: 0, @blur: 5px) { box-shadow: @x @y @blur; }",
+      "description": "Create a parametric mixin with default values",
+      "scenario": "Create a parametric mixin with default values",
+      "language": "less",
+      "tags": [
+        "mixins",
+        "parameters",
+        "defaults"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@width: 10px + 5px;",
+      "description": "Perform arithmetic operations in Less",
+      "scenario": "Perform arithmetic operations in Less",
+      "language": "less",
+      "tags": [
+        "operations",
+        "arithmetic",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@base-color: #111; @light-color: @base-color + #222;",
+      "description": "Use operations with colors",
+      "scenario": "Use operations with colors",
+      "language": "less",
+      "tags": [
+        "operations",
+        "colors",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".margin(@value) { margin: @value * 2; }",
+      "description": "Combine operations with mixins",
+      "scenario": "Combine operations with mixins",
+      "language": "less",
+      "tags": [
+        "operations",
+        "mixins",
+        "styling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lessc styles.less styles.css",
+      "description": "Compile a Less file to CSS",
+      "scenario": "Compile a Less file to CSS",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "compile",
+        "lessc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lessc styles.less styles.css --watch",
+      "description": "Watch a Less file for changes and compile automatically",
+      "scenario": "Watch a Less file for changes and compile automatically",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "watch",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lessc styles.less styles.min.css --clean-css",
+      "description": "Compress output CSS using Less CLI",
+      "scenario": "Compress output CSS using Less CLI",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "compress",
+        "minify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

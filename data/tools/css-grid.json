@@ -1,0 +1,165 @@
+{
+  "title": "CSS Grid Cheat Sheet",
+  "slug": "css-grid",
+  "description": "Quick reference for CSS Grid layout properties and patterns.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "display: grid;\ngrid-template-columns: 1fr 1fr;",
+      "description": "Define a grid container with two columns",
+      "scenario": "Define a grid container with two columns",
+      "language": "css",
+      "tags": [
+        "grid",
+        "layout",
+        "columns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: grid;\ngrid-template-rows: repeat(3, 1fr);",
+      "description": "Create a grid with three equal rows",
+      "scenario": "Create a grid with three equal rows",
+      "language": "css",
+      "tags": [
+        "grid",
+        "layout",
+        "rows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-gap: 10px;",
+      "description": "Set grid gap between rows and columns",
+      "scenario": "Set grid gap between rows and columns",
+      "language": "css",
+      "tags": [
+        "grid",
+        "gap",
+        "spacing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-column: 1;\ngrid-row: 2;",
+      "description": "Place an item in the first column and second row",
+      "scenario": "Place an item in the first column and second row",
+      "language": "css",
+      "tags": [
+        "grid",
+        "item",
+        "placement"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-column: span 2;",
+      "description": "Span an item across two columns",
+      "scenario": "Span an item across two columns",
+      "language": "css",
+      "tags": [
+        "grid",
+        "span",
+        "columns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-column: 2 / 4;",
+      "description": "Position an item from column 2 to 4",
+      "scenario": "Position an item from column 2 to 4",
+      "language": "css",
+      "tags": [
+        "grid",
+        "position",
+        "columns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-template-areas: 'header header' 'sidebar content';",
+      "description": "Define named grid areas",
+      "scenario": "Define named grid areas",
+      "language": "css",
+      "tags": [
+        "grid",
+        "areas",
+        "naming"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-area: header;",
+      "description": "Assign a grid item to a named area",
+      "scenario": "Assign a grid item to a named area",
+      "language": "css",
+      "tags": [
+        "grid",
+        "areas",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));",
+      "description": "Create a responsive grid using minmax",
+      "scenario": "Create a responsive grid using minmax",
+      "language": "css",
+      "tags": [
+        "grid",
+        "responsive",
+        "minmax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "justify-items: center;\nalign-items: center;",
+      "description": "Center items within the grid",
+      "scenario": "Center items within the grid",
+      "language": "css",
+      "tags": [
+        "grid",
+        "alignment",
+        "center"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "justify-content: start;\nalign-content: start;",
+      "description": "Align grid content to the start",
+      "scenario": "Align grid content to the start",
+      "language": "css",
+      "tags": [
+        "grid",
+        "alignment",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "justify-content: space-around;",
+      "description": "Distribute space around grid items",
+      "scenario": "Distribute space around grid items",
+      "language": "css",
+      "tags": [
+        "grid",
+        "alignment",
+        "spacing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

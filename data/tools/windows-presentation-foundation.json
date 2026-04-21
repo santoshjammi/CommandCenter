@@ -1,0 +1,204 @@
+{
+  "title": "Windows Presentation Foundation Cheat Sheet",
+  "slug": "windows-presentation-foundation",
+  "description": "Essential WPF commands and patterns for efficient UI development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<Button Content=\"Click Me\" Width=\"100\" Height=\"50\"/>",
+      "description": "Define a simple Button in XAML",
+      "scenario": "Define a simple Button in XAML",
+      "language": "xml",
+      "tags": [
+        "XAML",
+        "UI",
+        "Button"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<TextBox Width=\"200\" Height=\"30\" Text=\"Enter text here...\"/>",
+      "description": "Create a TextBox with placeholder text",
+      "scenario": "Create a TextBox with placeholder text",
+      "language": "xml",
+      "tags": [
+        "XAML",
+        "UI",
+        "TextBox"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Grid>\n  <Grid.RowDefinitions>\n    <RowDefinition Height=\"*\"/>\n    <RowDefinition Height=\"2*\"/>\n  </Grid.RowDefinitions>\n  <Grid.ColumnDefinitions>\n    <ColumnDefinition Width=\"*\"/>\n    <ColumnDefinition Width=\"2*\"/>\n  </Grid.ColumnDefinitions>\n</Grid>",
+      "description": "Define a Grid layout with two rows and two columns",
+      "scenario": "Define a Grid layout with two rows and two columns",
+      "language": "xml",
+      "tags": [
+        "XAML",
+        "Layout",
+        "Grid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<TextBox Text=\"{Binding Path=PropertyName}\"/>",
+      "description": "Bind a TextBox to a property in the DataContext",
+      "scenario": "Bind a TextBox to a property in the DataContext",
+      "language": "xml",
+      "tags": [
+        "Data Binding",
+        "TextBox",
+        "XAML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.DataContext = new ViewModel();",
+      "description": "Set up a simple data context in code-behind",
+      "scenario": "Set up a simple data context in code-behind",
+      "language": "csharp",
+      "tags": [
+        "Data Binding",
+        "DataContext",
+        "C#"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ListBox ItemsSource=\"{Binding Path=ItemsCollection}\"/>",
+      "description": "Bind a ListBox to a collection",
+      "scenario": "Bind a ListBox to a collection",
+      "language": "xml",
+      "tags": [
+        "Data Binding",
+        "ListBox",
+        "XAML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Button Content=\"Click Me\" Click=\"Button_Click\"/>",
+      "description": "Attach a Click event handler to a Button",
+      "scenario": "Attach a Click event handler to a Button",
+      "language": "xml",
+      "tags": [
+        "Event Handling",
+        "Button",
+        "XAML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "private void Button_Click(object sender, RoutedEventArgs e)\n{\n    // Handle click event\n}",
+      "description": "Define a Click event handler in code-behind",
+      "scenario": "Define a Click event handler in code-behind",
+      "language": "csharp",
+      "tags": [
+        "Event Handling",
+        "C#",
+        "Button"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Window x:Class=\"MainWindow\" Loaded=\"Window_Loaded\">",
+      "description": "Attach a Loaded event to a Window",
+      "scenario": "Attach a Loaded event to a Window",
+      "language": "xml",
+      "tags": [
+        "Event Handling",
+        "Window",
+        "XAML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Style TargetType=\"Button\">\n  <Setter Property=\"Background\" Value=\"LightBlue\"/>\n</Style>",
+      "description": "Define a style for a Button",
+      "scenario": "Define a style for a Button",
+      "language": "xml",
+      "tags": [
+        "Styles",
+        "Button",
+        "XAML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Button Background=\"{StaticResource MyBrush}\"/>",
+      "description": "Use a StaticResource for a Brush",
+      "scenario": "Use a StaticResource for a Brush",
+      "language": "xml",
+      "tags": [
+        "Resources",
+        "Brush",
+        "XAML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Window.Resources>\n  <SolidColorBrush x:Key=\"MyBrush\" Color=\"Blue\"/>\n</Window.Resources>",
+      "description": "Define a SolidColorBrush in Resources",
+      "scenario": "Define a SolidColorBrush in Resources",
+      "language": "xml",
+      "tags": [
+        "Resources",
+        "Brush",
+        "XAML"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class ViewModel : INotifyPropertyChanged\n{\n    public event PropertyChangedEventHandler PropertyChanged;\n    protected void OnPropertyChanged(string propertyName)\n    {\n        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));\n    }\n}",
+      "description": "Implement the INotifyPropertyChanged interface",
+      "scenario": "Implement the INotifyPropertyChanged interface",
+      "language": "csharp",
+      "tags": [
+        "Patterns",
+        "INotifyPropertyChanged",
+        "C#"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// Model\npublic class Model { public string Name { get; set; } }\n\n// ViewModel\npublic class ViewModel : INotifyPropertyChanged { /* Implement properties and INotifyPropertyChanged */ }\n\n// View (XAML)\n<Window DataContext=\"{Binding ViewModelInstance}\">",
+      "description": "Create a simple MVVM structure",
+      "scenario": "Create a simple MVVM structure",
+      "language": "csharp",
+      "tags": [
+        "MVVM",
+        "Patterns",
+        "C#"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class RelayCommand : ICommand\n{\n    private readonly Action<object> _execute;\n    private readonly Func<object, bool> _canExecute;\n\n    public RelayCommand(Action<object> execute, Func<object, bool> canExecute = null)\n    {\n        _execute = execute;\n        _canExecute = canExecute;\n    }\n\n    public bool CanExecute(object parameter) => _canExecute == null || _canExecute(parameter);\n    public void Execute(object parameter) => _execute(parameter);\n    public event EventHandler CanExecuteChanged;\n}",
+      "description": "Use a RelayCommand for command binding",
+      "scenario": "Use a RelayCommand for command binding",
+      "language": "csharp",
+      "tags": [
+        "Patterns",
+        "RelayCommand",
+        "C#"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

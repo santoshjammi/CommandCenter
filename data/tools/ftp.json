@@ -1,0 +1,165 @@
+{
+  "title": "FTP Command Line Cheat Sheet",
+  "slug": "ftp",
+  "description": "Essential FTP CLI commands for file transfer and management.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "ftp ftp.example.com",
+      "description": "Connect to an FTP server",
+      "scenario": "Connect to an FTP server",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "ftp",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> user username",
+      "description": "Login with username",
+      "scenario": "Login with username",
+      "language": "text",
+      "tags": [
+        "login",
+        "username",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> bye",
+      "description": "Exit the FTP session",
+      "scenario": "Exit the FTP session",
+      "language": "text",
+      "tags": [
+        "exit",
+        "logout",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> put localfile.txt",
+      "description": "Upload a file to the server",
+      "scenario": "Upload a file to the server",
+      "language": "text",
+      "tags": [
+        "upload",
+        "file",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> get remotefile.txt",
+      "description": "Download a file from the server",
+      "scenario": "Download a file from the server",
+      "language": "text",
+      "tags": [
+        "download",
+        "file",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> delete remotefile.txt",
+      "description": "Delete a file on the server",
+      "scenario": "Delete a file on the server",
+      "language": "text",
+      "tags": [
+        "delete",
+        "file",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> ls",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "text",
+      "tags": [
+        "list",
+        "directory",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> cd /path/to/directory",
+      "description": "Change directory on the server",
+      "scenario": "Change directory on the server",
+      "language": "text",
+      "tags": [
+        "change",
+        "directory",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> mkdir newdirectory",
+      "description": "Create a directory on the server",
+      "scenario": "Create a directory on the server",
+      "language": "text",
+      "tags": [
+        "create",
+        "directory",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> passive",
+      "description": "Enable passive mode for data transfer",
+      "scenario": "Enable passive mode for data transfer",
+      "language": "text",
+      "tags": [
+        "passive",
+        "mode",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> binary",
+      "description": "Set file transfer mode to binary",
+      "scenario": "Set file transfer mode to binary",
+      "language": "text",
+      "tags": [
+        "binary",
+        "transfer",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ftp> ascii",
+      "description": "Set file transfer mode to ASCII",
+      "scenario": "Set file transfer mode to ASCII",
+      "language": "text",
+      "tags": [
+        "ascii",
+        "transfer",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

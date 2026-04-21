@@ -1,0 +1,165 @@
+{
+  "title": "Webpack Cheat Sheet",
+  "slug": "webpack",
+  "description": "Essential commands and configurations for Webpack",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "npx webpack init",
+      "description": "Initialize a new Webpack project",
+      "scenario": "Initialize a new Webpack project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx webpack --mode development",
+      "description": "Run Webpack in development mode",
+      "scenario": "Run Webpack in development mode",
+      "language": "bash",
+      "tags": [
+        "development",
+        "build",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx webpack --mode production",
+      "description": "Run Webpack in production mode",
+      "scenario": "Run Webpack in production mode",
+      "language": "bash",
+      "tags": [
+        "production",
+        "build",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = { entry: './src/index.js', output: { filename: 'bundle.js', path: __dirname + '/dist' } };",
+      "description": "Basic Webpack configuration file",
+      "scenario": "Basic Webpack configuration file",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "entry",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = { module: { rules: [{ test: /\\.css$/, use: ['style-loader', 'css-loader'] }] } };",
+      "description": "Add a loader for CSS files",
+      "scenario": "Add a loader for CSS files",
+      "language": "javascript",
+      "tags": [
+        "loader",
+        "css",
+        "rules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const HtmlWebpackPlugin = require('html-webpack-plugin'); module.exports = { plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })] };",
+      "description": "Configure a plugin in Webpack",
+      "scenario": "Configure a plugin in Webpack",
+      "language": "javascript",
+      "tags": [
+        "plugin",
+        "html",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import(/* webpackChunkName: 'lodash' */ 'lodash').then(({ default: _ }) => { console.log(_.join(['Hello', 'webpack'], ' ')); });",
+      "description": "Code splitting with dynamic imports",
+      "scenario": "Code splitting with dynamic imports",
+      "language": "javascript",
+      "tags": [
+        "code splitting",
+        "dynamic import",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new webpack.DefinePlugin({ 'process.env.NODE_ENV': JSON.stringify('production') })",
+      "description": "Using environment variables in Webpack",
+      "scenario": "Using environment variables in Webpack",
+      "language": "javascript",
+      "tags": [
+        "environment",
+        "variables",
+        "plugin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output: { filename: '[name].[contenthash].js', path: __dirname + '/dist' }",
+      "description": "Caching with content hashes in filenames",
+      "scenario": "Caching with content hashes in filenames",
+      "language": "javascript",
+      "tags": [
+        "caching",
+        "contenthash",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx webpack --config webpack.custom.js",
+      "description": "Specify a custom configuration file",
+      "scenario": "Specify a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "custom",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx webpack --watch",
+      "description": "Watch files for changes and rebuild automatically",
+      "scenario": "Watch files for changes and rebuild automatically",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "rebuild",
+        "automatic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx webpack --profile --json > stats.json",
+      "description": "Display detailed build statistics",
+      "scenario": "Display detailed build statistics",
+      "language": "bash",
+      "tags": [
+        "statistics",
+        "profile",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

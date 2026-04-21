@@ -1,0 +1,165 @@
+{
+  "title": "Alpine.js Cheat Sheet",
+  "slug": "alpinejs",
+  "description": "Quick reference for Alpine.js syntax and commands.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<div x-data=\"{ open: false }\">...</div>",
+      "description": "Initialize Alpine.js component",
+      "scenario": "Initialize Alpine.js component",
+      "language": "html",
+      "tags": [
+        "init",
+        "component",
+        "x-data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button :class=\"{ 'active': isActive }\">Click Me</button>",
+      "description": "Bind an attribute to a property",
+      "scenario": "Bind an attribute to a property",
+      "language": "html",
+      "tags": [
+        "bind",
+        "attribute",
+        ":class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div x-show=\"isVisible\">Hello World</div>",
+      "description": "Use x-show to conditionally display elements",
+      "scenario": "Use x-show to conditionally display elements",
+      "language": "html",
+      "tags": [
+        "conditional",
+        "display",
+        "x-show"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button @click=\"toggle()\">Toggle</button>",
+      "description": "Listen for a click event",
+      "scenario": "Listen for a click event",
+      "language": "html",
+      "tags": [
+        "event",
+        "click",
+        "@click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<form @submit.prevent=\"submitForm\">...</form>",
+      "description": "Prevent default action on form submit",
+      "scenario": "Prevent default action on form submit",
+      "language": "html",
+      "tags": [
+        "form",
+        "submit",
+        "prevent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input @input.debounce.500ms=\"search($event.target.value)\">",
+      "description": "Debounce input event",
+      "scenario": "Debounce input event",
+      "language": "html",
+      "tags": [
+        "input",
+        "debounce",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<span x-text=\"message\"></span>",
+      "description": "Use x-text to update text content",
+      "scenario": "Use x-text to update text content",
+      "language": "html",
+      "tags": [
+        "text",
+        "update",
+        "x-text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input x-model=\"username\">",
+      "description": "Use x-model for two-way data binding",
+      "scenario": "Use x-model for two-way data binding",
+      "language": "html",
+      "tags": [
+        "binding",
+        "two-way",
+        "x-model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a :href=\"url\">Link</a>",
+      "description": "Use x-bind for dynamic attribute binding",
+      "scenario": "Use x-bind for dynamic attribute binding",
+      "language": "html",
+      "tags": [
+        "dynamic",
+        "attribute",
+        "x-bind"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div x-show=\"open\" x-transition>...</div>",
+      "description": "Use x-transition for animations",
+      "scenario": "Use x-transition for animations",
+      "language": "html",
+      "tags": [
+        "animation",
+        "transition",
+        "x-transition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input x-ref=\"inputField\">",
+      "description": "Use x-ref to reference DOM elements",
+      "scenario": "Use x-ref to reference DOM elements",
+      "language": "html",
+      "tags": [
+        "reference",
+        "dom",
+        "x-ref"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<template x-for=\"item in items\" :key=\"item.id\">...</template>",
+      "description": "Use x-for to loop over data",
+      "scenario": "Use x-for to loop over data",
+      "language": "html",
+      "tags": [
+        "loop",
+        "iteration",
+        "x-for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

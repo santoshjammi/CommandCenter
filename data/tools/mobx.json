@@ -1,0 +1,204 @@
+{
+  "title": "Mobx Cheat Sheet",
+  "slug": "mobx",
+  "description": "Quick reference for Mobx state management library in JavaScript.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm install mobx mobx-react",
+      "description": "Install Mobx and Mobx React",
+      "scenario": "Install Mobx and Mobx React",
+      "language": "bash",
+      "tags": [
+        "installation",
+        "npm",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { observable, action } from 'mobx';",
+      "description": "Import Mobx into your project",
+      "scenario": "Import Mobx into your project",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "setup",
+        "mobx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { Provider } from 'mobx-react';",
+      "description": "Configure Mobx in a React project",
+      "scenario": "Configure Mobx in a React project",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "provider",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const store = observable({ count: 0 });",
+      "description": "Create an observable object",
+      "scenario": "Create an observable object",
+      "language": "javascript",
+      "tags": [
+        "observable",
+        "state",
+        "store"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const todos = observable([]);",
+      "description": "Create an observable array",
+      "scenario": "Create an observable array",
+      "language": "javascript",
+      "tags": [
+        "observable",
+        "array",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Store { @observable count = 0; }",
+      "description": "Make a class property observable",
+      "scenario": "Make a class property observable",
+      "language": "javascript",
+      "tags": [
+        "class",
+        "observable",
+        "decorator"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const increment = action(() => { store.count += 1; });",
+      "description": "Define an action to modify state",
+      "scenario": "Define an action to modify state",
+      "language": "javascript",
+      "tags": [
+        "action",
+        "state",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Store { @action increment() { this.count += 1; } }",
+      "description": "Use action decorator in a class",
+      "scenario": "Use action decorator in a class",
+      "language": "javascript",
+      "tags": [
+        "action",
+        "class",
+        "decorator"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "runInAction(() => { store.count += 1; store.todos.push('New Todo'); });",
+      "description": "Batch updates using runInAction",
+      "scenario": "Batch updates using runInAction",
+      "language": "javascript",
+      "tags": [
+        "batch",
+        "runInAction",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "autorun(() => { console.log(store.count); });",
+      "description": "React to state changes with autorun",
+      "scenario": "React to state changes with autorun",
+      "language": "javascript",
+      "tags": [
+        "reaction",
+        "autorun",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "reaction(() => store.count, count => { console.log(count); });",
+      "description": "Use reaction for specific state changes",
+      "scenario": "Use reaction for specific state changes",
+      "language": "javascript",
+      "tags": [
+        "reaction",
+        "state",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "when(() => store.count > 5, () => { console.log('Count is greater than 5'); });",
+      "description": "Use when to trigger once condition is met",
+      "scenario": "Use when to trigger once condition is met",
+      "language": "javascript",
+      "tags": [
+        "when",
+        "condition",
+        "trigger"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const doubled = computed(() => store.count * 2);",
+      "description": "Create a computed value",
+      "scenario": "Create a computed value",
+      "language": "javascript",
+      "tags": [
+        "computed",
+        "value",
+        "derived"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Store { @computed get doubled() { return this.count * 2; } }",
+      "description": "Access computed value in a class",
+      "scenario": "Access computed value in a class",
+      "language": "javascript",
+      "tags": [
+        "computed",
+        "class",
+        "getter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "reaction(() => store.doubled.get(), doubled => { console.log(doubled); });",
+      "description": "Use computed value in a reaction",
+      "scenario": "Use computed value in a reaction",
+      "language": "javascript",
+      "tags": [
+        "computed",
+        "reaction",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

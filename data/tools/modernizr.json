@@ -1,0 +1,204 @@
+{
+  "title": "Modernizr Cheat Sheet",
+  "slug": "modernizr",
+  "description": "Quick reference for using Modernizr to detect HTML5 and CSS3 features.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm install modernizr",
+      "description": "Install Modernizr via npm",
+      "scenario": "Install Modernizr via npm",
+      "language": "bash",
+      "tags": [
+        "installation",
+        "npm",
+        "modernizr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"path/to/modernizr.js\"></script>",
+      "description": "Include Modernizr in HTML",
+      "scenario": "Include Modernizr in HTML",
+      "language": "html",
+      "tags": [
+        "html",
+        "include",
+        "modernizr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Visit https://modernizr.com/download to customize and download",
+      "description": "Download a custom build from Modernizr website",
+      "scenario": "Download a custom build from Modernizr website",
+      "language": "text",
+      "tags": [
+        "custom",
+        "download",
+        "modernizr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (Modernizr.flexbox) { /* Flexbox is supported */ }",
+      "description": "Check if the browser supports Flexbox",
+      "scenario": "Check if the browser supports Flexbox",
+      "language": "javascript",
+      "tags": [
+        "feature",
+        "detection",
+        "flexbox"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (Modernizr.cssgrid) { /* CSS Grid is supported */ }",
+      "description": "Detect support for CSS Grid",
+      "scenario": "Detect support for CSS Grid",
+      "language": "javascript",
+      "tags": [
+        "feature",
+        "detection",
+        "cssgrid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (Modernizr.webp) { /* WebP is supported */ }",
+      "description": "Test for WebP image format support",
+      "scenario": "Test for WebP image format support",
+      "language": "javascript",
+      "tags": [
+        "feature",
+        "detection",
+        "webp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<html class=\"no-js\">",
+      "description": "Add a class to HTML if JavaScript is enabled",
+      "scenario": "Add a class to HTML if JavaScript is enabled",
+      "language": "html",
+      "tags": [
+        "class",
+        "javascript",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<html class=\"flexbox\">",
+      "description": "Modernizr adds 'flexbox' class if supported",
+      "scenario": "Modernizr adds 'flexbox' class if supported",
+      "language": "html",
+      "tags": [
+        "class",
+        "flexbox",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (Modernizr.canvas) { document.documentElement.className += ' canvas'; }",
+      "description": "Add custom class based on feature detection",
+      "scenario": "Add custom class based on feature detection",
+      "language": "javascript",
+      "tags": [
+        "class",
+        "custom",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = { 'minify': true, 'options': ['setClasses'], 'feature-detects': ['css/flexbox'] };",
+      "description": "Create a Modernizr configuration file",
+      "scenario": "Create a Modernizr configuration file",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "modernizr",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "options: ['html5printshiv']",
+      "description": "Enable HTML5 printshiv",
+      "scenario": "Enable HTML5 printshiv",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "html5",
+        "printshiv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "excludeTests: ['hidden']",
+      "description": "Exclude tests from build",
+      "scenario": "Exclude tests from build",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "exclude",
+        "tests"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (!Modernizr.svg) { loadScript('polyfill.js'); }",
+      "description": "Using Modernizr to load polyfills",
+      "scenario": "Using Modernizr to load polyfills",
+      "language": "javascript",
+      "tags": [
+        "polyfill",
+        "load",
+        "svg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (!Modernizr.webgl) { alert('WebGL not supported'); }",
+      "description": "Run code only if a feature is not supported",
+      "scenario": "Run code only if a feature is not supported",
+      "language": "javascript",
+      "tags": [
+        "feature",
+        "detection",
+        "webgl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (!Modernizr.video) { /* Provide video fallback */ }",
+      "description": "Add a fallback for unsupported features",
+      "scenario": "Add a fallback for unsupported features",
+      "language": "javascript",
+      "tags": [
+        "fallback",
+        "video",
+        "detection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "QUnit Cheat Sheet",
+  "slug": "qunit",
+  "description": "Essential QUnit commands and patterns for efficient testing.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "QUnit.test('example test', function(assert) { assert.ok(true, 'This test will pass.'); });",
+      "description": "Define a basic test with QUnit",
+      "scenario": "Define a basic test with QUnit",
+      "language": "javascript",
+      "tags": [
+        "test",
+        "basic",
+        "assert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.test('equal test', function(assert) { assert.equal(1, 1, '1 equals 1'); });",
+      "description": "Use assert.equal to compare values",
+      "scenario": "Use assert.equal to compare values",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "equal",
+        "comparison"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.test('deepEqual test', function(assert) { assert.deepEqual({a: 1}, {a: 1}, 'Objects are equal'); });",
+      "description": "Use assert.deepEqual for object comparison",
+      "scenario": "Use assert.deepEqual for object comparison",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "deepEqual",
+        "objects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.test('async test', function(assert) { var done = assert.async(); setTimeout(function() { assert.ok(true, 'Async test passed'); done(); }, 1000); });",
+      "description": "Test asynchronous code with assert.async",
+      "scenario": "Test asynchronous code with assert.async",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "assert",
+        "timeout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.test('expect test', function(assert) { assert.expect(2); assert.ok(true, 'First assertion'); assert.ok(true, 'Second assertion'); });",
+      "description": "Use assert.expect to specify number of assertions",
+      "scenario": "Use assert.expect to specify number of assertions",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "expect",
+        "count"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.test('promise test', function(assert) { return new Promise(function(resolve) { setTimeout(function() { assert.ok(true, 'Promise resolved'); resolve(); }, 1000); }); });",
+      "description": "Test asynchronous operations with promises",
+      "scenario": "Test asynchronous operations with promises",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "async",
+        "assert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.module('module name', { beforeEach: function() { // setup code }, afterEach: function() { // teardown code } });",
+      "description": "Use QUnit.module for grouping tests with setup and teardown",
+      "scenario": "Use QUnit.module for grouping tests with setup and teardown",
+      "language": "javascript",
+      "tags": [
+        "module",
+        "setup",
+        "teardown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.module('setup example', { beforeEach: function() { this.value = 0; } });",
+      "description": "Setup code before each test in a module",
+      "scenario": "Setup code before each test in a module",
+      "language": "javascript",
+      "tags": [
+        "setup",
+        "beforeEach",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.module('teardown example', { afterEach: function() { delete this.value; } });",
+      "description": "Teardown code after each test in a module",
+      "scenario": "Teardown code after each test in a module",
+      "language": "javascript",
+      "tags": [
+        "teardown",
+        "afterEach",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.test('throws test', function(assert) { assert.throws(function() { throw new Error('Error!'); }, 'Error!'); });",
+      "description": "Use assert.throws to test exceptions",
+      "scenario": "Use assert.throws to test exceptions",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "throws",
+        "exceptions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.test('notOk test', function(assert) { assert.notOk(false, 'This will pass'); });",
+      "description": "Use assert.notOk to assert false values",
+      "scenario": "Use assert.notOk to assert false values",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "notOk",
+        "false"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "QUnit.test('propEqual test', function(assert) { assert.propEqual({a: 1}, {a: 1}, 'Properties are equal'); });",
+      "description": "Use assert.propEqual for property comparison",
+      "scenario": "Use assert.propEqual for property comparison",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "propEqual",
+        "properties"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/qunit/qunit-2.17.2.js\"></script>",
+      "description": "Run QUnit tests in the browser",
+      "scenario": "Run QUnit tests in the browser",
+      "language": "html",
+      "tags": [
+        "browser",
+        "run",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "node_modules/.bin/qunit",
+      "description": "Run QUnit tests using Node.js",
+      "scenario": "Run QUnit tests using Node.js",
+      "language": "bash",
+      "tags": [
+        "node",
+        "run",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm test",
+      "description": "Use npm to run QUnit tests",
+      "scenario": "Use npm to run QUnit tests",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

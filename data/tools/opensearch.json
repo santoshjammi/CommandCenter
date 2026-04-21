@@ -1,0 +1,204 @@
+{
+  "title": "OpenSearch Cheat Sheet",
+  "slug": "opensearch",
+  "description": "Quick reference for OpenSearch CLI commands and configurations.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "sudo systemctl start opensearch",
+      "description": "Start the OpenSearch service",
+      "scenario": "Start the OpenSearch service",
+      "language": "bash",
+      "tags": [
+        "service",
+        "start",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl status opensearch",
+      "description": "Check the status of OpenSearch service",
+      "scenario": "Check the status of OpenSearch service",
+      "language": "bash",
+      "tags": [
+        "service",
+        "status",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl stop opensearch",
+      "description": "Stop the OpenSearch service",
+      "scenario": "Stop the OpenSearch service",
+      "language": "bash",
+      "tags": [
+        "service",
+        "stop",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PUT /my-index",
+      "description": "Create a new index",
+      "scenario": "Create a new index",
+      "language": "bash",
+      "tags": [
+        "index",
+        "create",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DELETE /my-index",
+      "description": "Delete an existing index",
+      "scenario": "Delete an existing index",
+      "language": "bash",
+      "tags": [
+        "index",
+        "delete",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /_cat/indices?v",
+      "description": "List all indices",
+      "scenario": "List all indices",
+      "language": "bash",
+      "tags": [
+        "index",
+        "list",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /my-index/_search?q=field:value",
+      "description": "Perform a basic search query",
+      "scenario": "Perform a basic search query",
+      "language": "bash",
+      "tags": [
+        "search",
+        "query",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /my-index/_search\n{\n  \"query\": {\n    \"match\": {\n      \"field\": \"value\"\n    }\n  }\n}",
+      "description": "Search with a JSON query",
+      "scenario": "Search with a JSON query",
+      "language": "bash",
+      "tags": [
+        "search",
+        "json",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /my-index/_search\n{\n  \"query\": {\n    \"range\": {\n      \"field\": {\n        \"gte\": 10,\n        \"lte\": 20\n      }\n    }\n  }\n}",
+      "description": "Search with a range filter",
+      "scenario": "Search with a range filter",
+      "language": "bash",
+      "tags": [
+        "search",
+        "range",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Xms512m\n-Xmx512m",
+      "description": "Set memory limits in OpenSearch configuration",
+      "scenario": "Set memory limits in OpenSearch configuration",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "memory",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plugins.security.enabled: true",
+      "description": "Enable security plugin",
+      "scenario": "Enable security plugin",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "security",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "network.host: 0.0.0.0",
+      "description": "Configure network host",
+      "scenario": "Configure network host",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "network",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /my-index/_bulk\n{\"index\": {}}\n{\"field\": \"value1\"}\n{\"index\": {}}\n{\"field\": \"value2\"}",
+      "description": "Bulk insert documents",
+      "scenario": "Bulk insert documents",
+      "language": "bash",
+      "tags": [
+        "bulk",
+        "insert",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /my-index/_update_by_query\n{\n  \"script\": {\n    \"source\": \"ctx._source.field += params.count\",\n    \"params\": {\n      \"count\": 4\n    }\n  },\n  \"query\": {\n    \"term\": {\n      \"field\": \"value\"\n    }\n  }\n}",
+      "description": "Update a document by query",
+      "scenario": "Update a document by query",
+      "language": "bash",
+      "tags": [
+        "update",
+        "query",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /my-index/_delete_by_query\n{\n  \"query\": {\n    \"match\": {\n      \"field\": \"value\"\n    }\n  }\n}",
+      "description": "Delete documents by query",
+      "scenario": "Delete documents by query",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "query",
+        "opensearch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Zen Coding (Emmet) Cheat Sheet",
+  "slug": "zen-coding-emmet",
+  "description": "Quick reference for Zen Coding (Emmet) syntax and shortcuts.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "div",
+      "description": "Expand a simple HTML element",
+      "scenario": "Expand a simple HTML element",
+      "language": "text",
+      "tags": [
+        "html",
+        "expansion",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ul>li*3",
+      "description": "Expand a nested HTML structure",
+      "scenario": "Expand a nested HTML structure",
+      "language": "text",
+      "tags": [
+        "html",
+        "nested",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div#header.header-class",
+      "description": "Add an ID and class to an element",
+      "scenario": "Add an ID and class to an element",
+      "language": "text",
+      "tags": [
+        "html",
+        "id",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "m10",
+      "description": "Expand a CSS rule with a property and value",
+      "scenario": "Expand a CSS rule with a property and value",
+      "language": "text",
+      "tags": [
+        "css",
+        "abbreviation",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p10+m20",
+      "description": "Create a CSS rule with multiple properties",
+      "scenario": "Create a CSS rule with multiple properties",
+      "language": "text",
+      "tags": [
+        "css",
+        "multiple",
+        "properties"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-webkit-border-radius",
+      "description": "Generate a CSS rule with a vendor prefix",
+      "scenario": "Generate a CSS rule with a vendor prefix",
+      "language": "text",
+      "tags": [
+        "css",
+        "vendor",
+        "prefix"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "table>tr*3>td*2",
+      "description": "Create a table with rows and columns",
+      "scenario": "Create a table with rows and columns",
+      "language": "text",
+      "tags": [
+        "html",
+        "table",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "form>input:text*2+input:submit",
+      "description": "Generate a form with input fields",
+      "scenario": "Generate a form with input fields",
+      "language": "text",
+      "tags": [
+        "html",
+        "form",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ul>li.item$*3>ul>li.sub-item$*2",
+      "description": "Create a list with nested items",
+      "scenario": "Create a list with nested items",
+      "language": "text",
+      "tags": [
+        "html",
+        "list",
+        "nested"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lorem10",
+      "description": "Generate lorem ipsum text",
+      "scenario": "Generate lorem ipsum text",
+      "language": "text",
+      "tags": [
+        "text",
+        "lorem",
+        "ipsum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a[href='http://example.com']{Example}",
+      "description": "Create a link with text",
+      "scenario": "Create a link with text",
+      "language": "text",
+      "tags": [
+        "html",
+        "link",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "img[src='image.jpg'][alt='description']",
+      "description": "Generate an image tag with source and alt",
+      "scenario": "Generate an image tag with source and alt",
+      "language": "text",
+      "tags": [
+        "html",
+        "image",
+        "alt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Sorbet Cheat Sheet",
+  "slug": "sorbet",
+  "description": "Essential Sorbet commands and syntax for Ruby type checking.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "srb init",
+      "description": "Initialize Sorbet in a Ruby project",
+      "scenario": "Initialize Sorbet in a Ruby project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "srb tc",
+      "description": "Type check the entire project",
+      "scenario": "Type check the entire project",
+      "language": "bash",
+      "tags": [
+        "type-check",
+        "cli",
+        "validation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "srb rbi update",
+      "description": "Update Sorbet RBI files",
+      "scenario": "Update Sorbet RBI files",
+      "language": "bash",
+      "tags": [
+        "rbi",
+        "update",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sig { returns(Integer) }",
+      "description": "Annotate a method with a return type",
+      "scenario": "Annotate a method with a return type",
+      "language": "ruby",
+      "tags": [
+        "annotations",
+        "method",
+        "return-type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sig { params(x: Integer, y: Integer).returns(Integer) }",
+      "description": "Annotate a method with parameters and return type",
+      "scenario": "Annotate a method with parameters and return type",
+      "language": "ruby",
+      "tags": [
+        "annotations",
+        "method",
+        "params"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sig { returns(T.nilable(String)) }",
+      "description": "Use T.nilable to allow nil values",
+      "scenario": "Use T.nilable to allow nil values",
+      "language": "ruby",
+      "tags": [
+        "annotations",
+        "nilable",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Person\n  extend T::Sig\n  sig { returns(String) }\n  attr_reader :name\nend",
+      "description": "Define a class with typed attributes",
+      "scenario": "Define a class with typed attributes",
+      "language": "ruby",
+      "tags": [
+        "class",
+        "attributes",
+        "typed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sig { params(x: T.any(String, Integer)).returns(String) }",
+      "description": "Use T.any for multiple possible types",
+      "scenario": "Use T.any for multiple possible types",
+      "language": "ruby",
+      "tags": [
+        "annotations",
+        "any",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MyType = T.type_alias { T.any(String, Integer) }",
+      "description": "Create a custom type alias",
+      "scenario": "Create a custom type alias",
+      "language": "ruby",
+      "tags": [
+        "type-alias",
+        "custom",
+        "alias"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# typed: ignore",
+      "description": "Exclude a file from type checking",
+      "scenario": "Exclude a file from type checking",
+      "language": "ruby",
+      "tags": [
+        "configuration",
+        "exclude",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# typed: strict",
+      "description": "Set strictness level for a file",
+      "scenario": "Set strictness level for a file",
+      "language": "ruby",
+      "tags": [
+        "configuration",
+        "strictness",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# typed: true",
+      "description": "Specify a file as true for type checking",
+      "scenario": "Specify a file as true for type checking",
+      "language": "ruby",
+      "tags": [
+        "configuration",
+        "type-checking",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "srb --version",
+      "description": "Display Sorbet version",
+      "scenario": "Display Sorbet version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "srb --help",
+      "description": "Show help for Sorbet commands",
+      "scenario": "Show help for Sorbet commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "cli",
+        "commands"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "srb tc --verbose",
+      "description": "Run Sorbet in verbose mode",
+      "scenario": "Run Sorbet in verbose mode",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "cli",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

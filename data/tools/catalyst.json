@@ -1,0 +1,204 @@
+{
+  "title": "Catalyst Cheat Sheet",
+  "slug": "catalyst",
+  "description": "Quick reference for Catalyst CLI commands and configurations.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "catalyst init",
+      "description": "Initialize a new Catalyst project",
+      "scenario": "Initialize a new Catalyst project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst deploy",
+      "description": "Deploy the Catalyst application",
+      "scenario": "Deploy the Catalyst application",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "application",
+        "cloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst run",
+      "description": "Run the Catalyst application locally",
+      "scenario": "Run the Catalyst application locally",
+      "language": "bash",
+      "tags": [
+        "run",
+        "local",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"project\": \"my-catalyst-app\",\n  \"version\": \"1.0.0\"\n}",
+      "description": "Basic configuration for Catalyst project",
+      "scenario": "Basic configuration for Catalyst project",
+      "language": "json",
+      "tags": [
+        "config",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"env\": {\n    \"API_KEY\": \"your-api-key\"\n  }\n}",
+      "description": "Set environment variables in Catalyst",
+      "scenario": "Set environment variables in Catalyst",
+      "language": "json",
+      "tags": [
+        "env",
+        "variables",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"build\": {\n    \"output\": \"dist/\",\n    \"minify\": true\n  }\n}",
+      "description": "Define build settings for Catalyst",
+      "scenario": "Define build settings for Catalyst",
+      "language": "json",
+      "tags": [
+        "build",
+        "settings",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const catalyst = require('catalyst');\nconst app = catalyst();\n\napp.get('/', (req, res) => {\n  res.send('Hello, Catalyst!');\n});\n\napp.listen(3000);",
+      "description": "Set up a basic HTTP server in Catalyst",
+      "scenario": "Set up a basic HTTP server in Catalyst",
+      "language": "javascript",
+      "tags": [
+        "server",
+        "http",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const db = catalyst.database();\ndb.connect('mongodb://localhost:27017/mydb');",
+      "description": "Connect to a database using Catalyst",
+      "scenario": "Connect to a database using Catalyst",
+      "language": "javascript",
+      "tags": [
+        "database",
+        "connect",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use((err, req, res, next) => {\n  console.error(err.stack);\n  res.status(500).send('Something broke!');\n});",
+      "description": "Handle errors in Catalyst application",
+      "scenario": "Handle errors in Catalyst application",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "middleware"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst deploy --verbose",
+      "description": "Enable verbose logging during deployment",
+      "scenario": "Enable verbose logging during deployment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "verbose",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst run --config custom-config.json",
+      "description": "Specify a custom configuration file",
+      "scenario": "Specify a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "custom",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst build --skip-tests",
+      "description": "Skip tests during the build process",
+      "scenario": "Skip tests during the build process",
+      "language": "bash",
+      "tags": [
+        "build",
+        "tests",
+        "skip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst status",
+      "description": "Check the status of the Catalyst services",
+      "scenario": "Check the status of the Catalyst services",
+      "language": "bash",
+      "tags": [
+        "status",
+        "services",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst logs",
+      "description": "View logs for the Catalyst application",
+      "scenario": "View logs for the Catalyst application",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "view",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst reset",
+      "description": "Reset the Catalyst environment",
+      "scenario": "Reset the Catalyst environment",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "environment",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Rdoc Cheat Sheet",
+  "slug": "rdoc",
+  "description": "Essential commands and syntax for using Rdoc documentation tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "rdoc",
+      "description": "Generate documentation for a Ruby project",
+      "scenario": "Generate documentation for a Ruby project",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "documentation",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdoc --help",
+      "description": "Display help information for Rdoc",
+      "scenario": "Display help information for Rdoc",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdoc -o docs",
+      "description": "Generate documentation and output to a specific directory",
+      "scenario": "Generate documentation and output to a specific directory",
+      "language": "bash",
+      "tags": [
+        "output",
+        "directory",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdoc --exclude README.md",
+      "description": "Exclude specific files from documentation",
+      "scenario": "Exclude specific files from documentation",
+      "language": "bash",
+      "tags": [
+        "exclude",
+        "files",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdoc --main README.md",
+      "description": "Set the main page for the documentation",
+      "scenario": "Set the main page for the documentation",
+      "language": "bash",
+      "tags": [
+        "main",
+        "page",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdoc --template darkfish",
+      "description": "Use a specific template for documentation",
+      "scenario": "Use a specific template for documentation",
+      "language": "bash",
+      "tags": [
+        "template",
+        "style",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# :nodoc:\n# This class handles user authentication\nclass UserAuth\nend",
+      "description": "Document a class with a description",
+      "scenario": "Document a class with a description",
+      "language": "ruby",
+      "tags": [
+        "class",
+        "description",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# :nodoc:\n# Authenticates a user\n# @param username [String] the username\n# @param password [String] the password\n# @return [Boolean] true if authenticated\n def authenticate(username, password)\n end",
+      "description": "Document a method with parameters and return value",
+      "scenario": "Document a method with parameters and return value",
+      "language": "ruby",
+      "tags": [
+        "method",
+        "parameters",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# :nodoc:\n# This file contains utility functions\nmodule Utils\nend",
+      "description": "Add a file-level comment",
+      "scenario": "Add a file-level comment",
+      "language": "ruby",
+      "tags": [
+        "file",
+        "comment",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdoc --charset utf-8",
+      "description": "Generate documentation with a specific charset",
+      "scenario": "Generate documentation with a specific charset",
+      "language": "bash",
+      "tags": [
+        "charset",
+        "advanced",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdoc --all",
+      "description": "Include private methods in the documentation",
+      "scenario": "Include private methods in the documentation",
+      "language": "bash",
+      "tags": [
+        "private",
+        "methods",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdoc --title 'Project Documentation'",
+      "description": "Generate documentation with a specific title",
+      "scenario": "Generate documentation with a specific title",
+      "language": "bash",
+      "tags": [
+        "title",
+        "advanced",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

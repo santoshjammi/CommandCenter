@@ -1,0 +1,204 @@
+{
+  "title": "Shell Script Cheat Sheet",
+  "slug": "shell-script",
+  "description": "Essential shell script commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "pwd",
+      "description": "Print working directory",
+      "scenario": "Print working directory",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "path",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -l",
+      "description": "List files in a directory",
+      "scenario": "List files in a directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /path/to/directory",
+      "description": "Change directory",
+      "scenario": "Change directory",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "navigation",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copy a file",
+      "scenario": "Copy a file",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv oldname.txt newname.txt",
+      "description": "Move a file",
+      "scenario": "Move a file",
+      "language": "bash",
+      "tags": [
+        "move",
+        "rename",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rm file.txt",
+      "description": "Remove a file",
+      "scenario": "Remove a file",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "delete",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'pattern' file.txt",
+      "description": "Search for a pattern in a file",
+      "scenario": "Search for a pattern in a file",
+      "language": "bash",
+      "tags": [
+        "search",
+        "pattern",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "head file.txt",
+      "description": "Display first 10 lines of a file",
+      "scenario": "Display first 10 lines of a file",
+      "language": "bash",
+      "tags": [
+        "display",
+        "lines",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sort file.txt",
+      "description": "Sort lines in a file",
+      "scenario": "Sort lines in a file",
+      "language": "bash",
+      "tags": [
+        "sort",
+        "lines",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 755 script.sh",
+      "description": "Change file permissions",
+      "scenario": "Change file permissions",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "file",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chown user:group file.txt",
+      "description": "Change file owner",
+      "scenario": "Change file owner",
+      "language": "bash",
+      "tags": [
+        "owner",
+        "file",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -l file.txt",
+      "description": "View file permissions",
+      "scenario": "View file permissions",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "view",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux",
+      "description": "List running processes",
+      "scenario": "List running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "running"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill 1234",
+      "description": "Kill a process by ID",
+      "scenario": "Kill a process by ID",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Show system resource usage",
+      "scenario": "Show system resource usage",
+      "language": "bash",
+      "tags": [
+        "resource",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

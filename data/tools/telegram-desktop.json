@@ -1,0 +1,165 @@
+{
+  "title": "Telegram Desktop Cheat Sheet",
+  "slug": "telegram-desktop",
+  "description": "Essential commands and shortcuts for Telegram Desktop.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "telegram-desktop",
+      "description": "Start Telegram Desktop from the terminal",
+      "scenario": "Start Telegram Desktop from the terminal",
+      "language": "bash",
+      "tags": [
+        "start",
+        "cli",
+        "telegram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "telegram-desktop --profile=profile_name",
+      "description": "Open Telegram Desktop with a specific profile",
+      "scenario": "Open Telegram Desktop with a specific profile",
+      "language": "bash",
+      "tags": [
+        "profile",
+        "cli",
+        "telegram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "telegram-desktop --debug",
+      "description": "Run Telegram Desktop in debug mode",
+      "scenario": "Run Telegram Desktop in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "cli",
+        "telegram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + ,",
+      "description": "Open settings menu",
+      "scenario": "Open settings menu",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "settings",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + F",
+      "description": "Search for messages or contacts",
+      "scenario": "Search for messages or contacts",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "search",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + J",
+      "description": "Open chat list",
+      "scenario": "Open chat list",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "chat",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"download_path\": \"/path/to/downloads\"}",
+      "description": "Set custom download path for files",
+      "scenario": "Set custom download path for files",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "downloads",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"auto_update\": true}",
+      "description": "Enable auto-update feature",
+      "scenario": "Enable auto-update feature",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "update",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"message_preview\": false}",
+      "description": "Disable message preview notifications",
+      "scenario": "Disable message preview notifications",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "notifications",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rm -rf ~/.local/share/TelegramDesktop/tdata/*",
+      "description": "Clear cache to free up space",
+      "scenario": "Clear cache to free up space",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "cleanup",
+        "storage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp -r ~/.local/share/TelegramDesktop ~/backup/TelegramDesktop",
+      "description": "Backup Telegram Desktop data",
+      "scenario": "Backup Telegram Desktop data",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "data",
+        "storage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp -r ~/backup/TelegramDesktop ~/.local/share/TelegramDesktop",
+      "description": "Restore Telegram Desktop data from backup",
+      "scenario": "Restore Telegram Desktop data from backup",
+      "language": "bash",
+      "tags": [
+        "restore",
+        "backup",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

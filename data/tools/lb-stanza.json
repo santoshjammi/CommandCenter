@@ -1,0 +1,165 @@
+{
+  "title": "LB Stanza Cheat Sheet",
+  "slug": "lb-stanza",
+  "description": "Quick reference for LB Stanza CLI commands and configuration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "lb-stanza start",
+      "description": "Start the LB Stanza service",
+      "scenario": "Start the LB Stanza service",
+      "language": "bash",
+      "tags": [
+        "start",
+        "service",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza stop",
+      "description": "Stop the LB Stanza service",
+      "scenario": "Stop the LB Stanza service",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "service",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza restart",
+      "description": "Restart the LB Stanza service",
+      "scenario": "Restart the LB Stanza service",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "service",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza config view",
+      "description": "View current configuration",
+      "scenario": "View current configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza config edit",
+      "description": "Edit the configuration file",
+      "scenario": "Edit the configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "edit",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza config reset",
+      "description": "Reset configuration to default",
+      "scenario": "Reset configuration to default",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza logs",
+      "description": "View service logs",
+      "scenario": "View service logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "view",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza status",
+      "description": "Monitor service status",
+      "scenario": "Monitor service status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "monitor",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza logs --verbose",
+      "description": "Enable verbose logging",
+      "scenario": "Enable verbose logging",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "verbose",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza --debug",
+      "description": "Run LB Stanza in debug mode",
+      "scenario": "Run LB Stanza in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "mode",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza update check",
+      "description": "Check for updates",
+      "scenario": "Check for updates",
+      "language": "bash",
+      "tags": [
+        "update",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lb-stanza update apply",
+      "description": "Apply updates to LB Stanza",
+      "scenario": "Apply updates to LB Stanza",
+      "language": "bash",
+      "tags": [
+        "update",
+        "apply",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

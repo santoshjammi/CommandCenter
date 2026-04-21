@@ -1,0 +1,177 @@
+{
+  "title": "Yahoo CLI and API Cheat Sheet",
+  "slug": "yahoo",
+  "description": "Essential commands and code snippets for Yahoo's CLI and API usage.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "yahoo-finance-cli quote AAPL",
+      "description": "Fetch real-time stock data for a given symbol",
+      "scenario": "Fetch real-time stock data for a given symbol",
+      "language": "bash",
+      "tags": [
+        "yahoo",
+        "finance",
+        "cli",
+        "stocks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yahoo-finance-cli history AAPL --start 2023-01-01 --end 2023-12-31",
+      "description": "Get historical data for a stock symbol",
+      "scenario": "Get historical data for a stock symbol",
+      "language": "bash",
+      "tags": [
+        "yahoo",
+        "finance",
+        "cli",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yahoo-finance-cli symbols",
+      "description": "List available stock symbols",
+      "scenario": "List available stock symbols",
+      "language": "bash",
+      "tags": [
+        "yahoo",
+        "finance",
+        "cli",
+        "symbols"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET 'https://weather-ydn-yql.media.yahoo.com/forecastrss?location=sunnyvale,ca&format=json' -H 'Authorization: Bearer YOUR_TOKEN'",
+      "description": "Fetch current weather data for a location",
+      "scenario": "Fetch current weather data for a location",
+      "language": "bash",
+      "tags": [
+        "yahoo",
+        "weather",
+        "api",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import requests\nresponse = requests.get('https://weather-ydn-yql.media.yahoo.com/forecastrss?location=sunnyvale,ca&format=json', headers={'Authorization': 'Bearer YOUR_TOKEN'})\ndata = response.json()",
+      "description": "Parse weather data in Python",
+      "scenario": "Parse weather data in Python",
+      "language": "python",
+      "tags": [
+        "yahoo",
+        "weather",
+        "api",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://weather-ydn-yql.media.yahoo.com/forecastrss?location=sunnyvale,ca&format=json', {\n  headers: {'Authorization': 'Bearer YOUR_TOKEN'}\n})\n.then(response => response.json())\n.then(data => console.log(data));",
+      "description": "Display weather forecast using JavaScript",
+      "scenario": "Display weather forecast using JavaScript",
+      "language": "javascript",
+      "tags": [
+        "yahoo",
+        "weather",
+        "api",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /ws/mail/v1/sendEmail\nHost: api.mail.yahoo.com\nAuthorization: Bearer YOUR_ACCESS_TOKEN\nContent-Type: application/json\n\n{\n  \"to\": \"recipient@example.com\",\n  \"subject\": \"Hello from Yahoo API\",\n  \"body\": \"This is a test email.\"\n}",
+      "description": "Send an email using Yahoo Mail API",
+      "scenario": "Send an email using Yahoo Mail API",
+      "language": "text",
+      "tags": [
+        "yahoo",
+        "mail",
+        "api",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /ws/mail/v1/inbox\nHost: api.mail.yahoo.com\nAuthorization: Bearer YOUR_ACCESS_TOKEN",
+      "description": "Fetch inbox emails using Yahoo Mail API",
+      "scenario": "Fetch inbox emails using Yahoo Mail API",
+      "language": "text",
+      "tags": [
+        "yahoo",
+        "mail",
+        "api",
+        "inbox"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DELETE /ws/mail/v1/message/{messageId}\nHost: api.mail.yahoo.com\nAuthorization: Bearer YOUR_ACCESS_TOKEN",
+      "description": "Delete an email using Yahoo Mail API",
+      "scenario": "Delete an email using Yahoo Mail API",
+      "language": "text",
+      "tags": [
+        "yahoo",
+        "mail",
+        "api",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open https://developer.yahoo.com",
+      "description": "Access Yahoo Developer Network documentation",
+      "scenario": "Access Yahoo Developer Network documentation",
+      "language": "bash",
+      "tags": [
+        "yahoo",
+        "developer",
+        "documentation",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open https://developer.yahoo.com/apps/create/",
+      "description": "Register a new application for API access",
+      "scenario": "Register a new application for API access",
+      "language": "bash",
+      "tags": [
+        "yahoo",
+        "developer",
+        "api",
+        "registration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open https://developer.yahoo.com/apps/",
+      "description": "Manage API keys and secrets",
+      "scenario": "Manage API keys and secrets",
+      "language": "bash",
+      "tags": [
+        "yahoo",
+        "developer",
+        "api",
+        "keys"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

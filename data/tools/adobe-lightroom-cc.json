@@ -1,0 +1,204 @@
+{
+  "title": "Adobe Lightroom CC Cheat Sheet",
+  "slug": "adobe-lightroom-cc",
+  "description": "Quick guide to essential Adobe Lightroom CC shortcuts and workflows.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "edit",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Y",
+      "description": "Redo the last undone action",
+      "scenario": "Redo the last undone action",
+      "language": "text",
+      "tags": [
+        "redo",
+        "edit",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Double-click slider label",
+      "description": "Reset all sliders to default",
+      "scenario": "Reset all sliders to default",
+      "language": "text",
+      "tags": [
+        "reset",
+        "sliders",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Import Photos and Video",
+      "description": "Open the import dialog to add new photos",
+      "scenario": "Open the import dialog to add new photos",
+      "language": "text",
+      "tags": [
+        "import",
+        "photos",
+        "workflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Export",
+      "description": "Export selected photos",
+      "scenario": "Export selected photos",
+      "language": "text",
+      "tags": [
+        "export",
+        "photos",
+        "workflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+E",
+      "description": "Export with previous settings",
+      "scenario": "Export with previous settings",
+      "language": "text",
+      "tags": [
+        "export",
+        "shortcut",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "G",
+      "description": "Switch to Library module",
+      "scenario": "Switch to Library module",
+      "language": "text",
+      "tags": [
+        "library",
+        "navigation",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "E",
+      "description": "View photo in Loupe view",
+      "scenario": "View photo in Loupe view",
+      "language": "text",
+      "tags": [
+        "loupe",
+        "view",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C",
+      "description": "Compare two photos side by side",
+      "scenario": "Compare two photos side by side",
+      "language": "text",
+      "tags": [
+        "compare",
+        "photos",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D",
+      "description": "Switch to Develop module",
+      "scenario": "Switch to Develop module",
+      "language": "text",
+      "tags": [
+        "develop",
+        "module",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "R",
+      "description": "Open the Crop & Straighten tool",
+      "scenario": "Open the Crop & Straighten tool",
+      "language": "text",
+      "tags": [
+        "crop",
+        "tool",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\",
+      "description": "Toggle before and after view",
+      "scenario": "Toggle before and after view",
+      "language": "text",
+      "tags": [
+        "before",
+        "after",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P",
+      "description": "Flag photo as a pick",
+      "scenario": "Flag photo as a pick",
+      "language": "text",
+      "tags": [
+        "flag",
+        "photo",
+        "organize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X",
+      "description": "Reject photo",
+      "scenario": "Reject photo",
+      "language": "text",
+      "tags": [
+        "reject",
+        "photo",
+        "organize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1-5",
+      "description": "Assign a star rating",
+      "scenario": "Assign a star rating",
+      "language": "text",
+      "tags": [
+        "rating",
+        "stars",
+        "organize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

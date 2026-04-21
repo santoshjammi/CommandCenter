@@ -1,0 +1,204 @@
+{
+  "title": "Adobe ColdFusion Cheat Sheet",
+  "slug": "adobe-coldfusion",
+  "description": "Essential commands and syntax for Adobe ColdFusion development.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<cfset myVariable = \"Hello, World!\">",
+      "description": "Define a variable in ColdFusion",
+      "scenario": "Define a variable in ColdFusion",
+      "language": "html",
+      "tags": [
+        "variable",
+        "cfset",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfoutput>#myVariable#</cfoutput>",
+      "description": "Output a variable's value",
+      "scenario": "Output a variable's value",
+      "language": "html",
+      "tags": [
+        "output",
+        "variable",
+        "cfoutput"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfif myVariable EQ \"Hello, World!\">Yes</cfif>",
+      "description": "Create a simple conditional statement",
+      "scenario": "Create a simple conditional statement",
+      "language": "html",
+      "tags": [
+        "conditional",
+        "cfif",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfloop index=\"i\" from=\"1\" to=\"10\">#i#</cfloop>",
+      "description": "Create a basic loop from 1 to 10",
+      "scenario": "Create a basic loop from 1 to 10",
+      "language": "html",
+      "tags": [
+        "loop",
+        "cfloop",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfloop list=\"item1,item2,item3\" index=\"item\">#item#</cfloop>",
+      "description": "Loop over a list of items",
+      "scenario": "Loop over a list of items",
+      "language": "html",
+      "tags": [
+        "loop",
+        "list",
+        "cfloop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfloop query=\"myQuery\">#myQuery.myColumn#</cfloop>",
+      "description": "Loop over a query result set",
+      "scenario": "Loop over a query result set",
+      "language": "html",
+      "tags": [
+        "loop",
+        "query",
+        "cfloop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cffunction name=\"myFunction\">\n    <cfreturn \"Hello\">\n</cffunction>",
+      "description": "Define a ColdFusion function",
+      "scenario": "Define a ColdFusion function",
+      "language": "html",
+      "tags": [
+        "function",
+        "cffunction",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfset result = myFunction()>",
+      "description": "Call a ColdFusion function",
+      "scenario": "Call a ColdFusion function",
+      "language": "html",
+      "tags": [
+        "function",
+        "call",
+        "cfset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfdirectory action=\"list\" directory=\"/path/to/dir\" name=\"dirList\">",
+      "description": "Use built-in function to list directories",
+      "scenario": "Use built-in function to list directories",
+      "language": "html",
+      "tags": [
+        "function",
+        "cfdirectory",
+        "builtin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfquery name=\"myQuery\" datasource=\"myDataSource\">\n    SELECT * FROM myTable\n</cfquery>",
+      "description": "Query a database",
+      "scenario": "Query a database",
+      "language": "html",
+      "tags": [
+        "database",
+        "query",
+        "cfquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfquery datasource=\"myDataSource\">\n    INSERT INTO myTable (column1, column2) VALUES ('value1', 'value2')\n</cfquery>",
+      "description": "Insert data into a database",
+      "scenario": "Insert data into a database",
+      "language": "html",
+      "tags": [
+        "database",
+        "insert",
+        "cfquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfquery datasource=\"myDataSource\">\n    UPDATE myTable SET column1 = 'newValue' WHERE column2 = 'value2'\n</cfquery>",
+      "description": "Update data in a database",
+      "scenario": "Update data in a database",
+      "language": "html",
+      "tags": [
+        "database",
+        "update",
+        "cfquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cftry>\n    <!--- Code that might throw an error --->\n<cfcatch>\n    <!--- Error handling code --->\n</cfcatch>\n</cftry>",
+      "description": "Basic error handling with try-catch",
+      "scenario": "Basic error handling with try-catch",
+      "language": "html",
+      "tags": [
+        "error",
+        "try-catch",
+        "cftry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cfthrow type=\"CustomError\" message=\"An error occurred\">",
+      "description": "Throw a custom error",
+      "scenario": "Throw a custom error",
+      "language": "html",
+      "tags": [
+        "error",
+        "throw",
+        "cfthrow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<cflog file=\"myLogFile\" text=\"An error occurred\" type=\"error\">",
+      "description": "Log an error message",
+      "scenario": "Log an error message",
+      "language": "html",
+      "tags": [
+        "error",
+        "log",
+        "cflog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

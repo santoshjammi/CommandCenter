@@ -1,0 +1,204 @@
+{
+  "title": "PureScript Cheat Sheet",
+  "slug": "purescript",
+  "description": "Essential PureScript commands and syntax for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "add x y = x + y",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "purescript",
+      "tags": [
+        "function",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data Maybe a = Just a | Nothing",
+      "description": "Declare a data type",
+      "scenario": "Declare a data type",
+      "language": "purescript",
+      "tags": [
+        "data",
+        "type",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type Point = { x :: Number, y :: Number }",
+      "description": "Create a type alias",
+      "scenario": "Create a type alias",
+      "language": "purescript",
+      "tags": [
+        "type",
+        "alias",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import Data.Maybe (Maybe(..))",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "purescript",
+      "tags": [
+        "import",
+        "module",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module MyModule (myFunction) where",
+      "description": "Export specific functions from a module",
+      "scenario": "Export specific functions from a module",
+      "language": "purescript",
+      "tags": [
+        "export",
+        "module",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import Data.Map as Map",
+      "description": "Qualified import of a module",
+      "scenario": "Qualified import of a module",
+      "language": "purescript",
+      "tags": [
+        "import",
+        "qualified",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case maybeValue of Just x -> x Nothing -> defaultValue",
+      "description": "Pattern matching on a Maybe type",
+      "scenario": "Pattern matching on a Maybe type",
+      "language": "purescript",
+      "tags": [
+        "pattern",
+        "matching",
+        "maybe"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do x <- computation1 y <- computation2 pure (x + y)",
+      "description": "Using do notation for monads",
+      "scenario": "Using do notation for monads",
+      "language": "purescript",
+      "tags": [
+        "do",
+        "notation",
+        "monad"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "newtype Age = Age Int",
+      "description": "Define a newtype for performance",
+      "scenario": "Define a newtype for performance",
+      "language": "purescript",
+      "tags": [
+        "newtype",
+        "performance",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pulp init",
+      "description": "Initialize a new PureScript project",
+      "scenario": "Initialize a new PureScript project",
+      "language": "bash",
+      "tags": [
+        "pulp",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pulp build",
+      "description": "Build a PureScript project",
+      "scenario": "Build a PureScript project",
+      "language": "bash",
+      "tags": [
+        "pulp",
+        "build",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pulp test",
+      "description": "Run PureScript tests",
+      "scenario": "Run PureScript tests",
+      "language": "bash",
+      "tags": [
+        "pulp",
+        "test",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"name\": \"my-project\",\n  \"dependencies\": {\n    \"purescript-prelude\": \"^4.1.0\"\n  }\n}",
+      "description": "Example bower.json file for dependencies",
+      "scenario": "Example bower.json file for dependencies",
+      "language": "json",
+      "tags": [
+        "bower",
+        "dependencies",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"name\": \"my-project\",\n  \"set\": \"psc-0.13.8\",\n  \"source\": \"https://github.com/purescript/package-sets.git\"\n}",
+      "description": "psc-package.json for package management",
+      "scenario": "psc-package.json for package management",
+      "language": "json",
+      "tags": [
+        "psc-package",
+        "configuration",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  name = \"my-project\",\n  dependencies = [ \"effect\", \"console\" ],\n  packages = ./packages.dhall\n}",
+      "description": "Example spago.dhall configuration",
+      "scenario": "Example spago.dhall configuration",
+      "language": "dhall",
+      "tags": [
+        "spago",
+        "configuration",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

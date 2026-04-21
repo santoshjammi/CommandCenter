@@ -1,0 +1,204 @@
+{
+  "title": "Microsoft Outlook Cheat Sheet",
+  "slug": "microsoft-outlook",
+  "description": "Quick reference for common tasks and shortcuts in Microsoft Outlook.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl+N",
+      "description": "Create a new email message",
+      "scenario": "Create a new email message",
+      "language": "text",
+      "tags": [
+        "email",
+        "new",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+R",
+      "description": "Reply to the selected email",
+      "scenario": "Reply to the selected email",
+      "language": "text",
+      "tags": [
+        "email",
+        "reply",
+        "response"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+F",
+      "description": "Forward the selected email",
+      "scenario": "Forward the selected email",
+      "language": "text",
+      "tags": [
+        "email",
+        "forward",
+        "share"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+2",
+      "description": "Open the calendar view",
+      "scenario": "Open the calendar view",
+      "language": "text",
+      "tags": [
+        "calendar",
+        "view",
+        "navigate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+A",
+      "description": "Create a new appointment",
+      "scenario": "Create a new appointment",
+      "language": "text",
+      "tags": [
+        "calendar",
+        "appointment",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+1",
+      "description": "Switch to daily view in calendar",
+      "scenario": "Switch to daily view in calendar",
+      "language": "text",
+      "tags": [
+        "calendar",
+        "daily",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+E",
+      "description": "Search for an email or contact",
+      "scenario": "Search for an email or contact",
+      "language": "text",
+      "tags": [
+        "search",
+        "email",
+        "contact"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+F",
+      "description": "Open the Advanced Find dialog",
+      "scenario": "Open the Advanced Find dialog",
+      "language": "text",
+      "tags": [
+        "search",
+        "advanced",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Folder > New Folder",
+      "description": "Create a new folder",
+      "scenario": "Create a new folder",
+      "language": "text",
+      "tags": [
+        "organize",
+        "folder",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+4",
+      "description": "Open the tasks view",
+      "scenario": "Open the tasks view",
+      "language": "text",
+      "tags": [
+        "tasks",
+        "view",
+        "navigate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+K",
+      "description": "Create a new task",
+      "scenario": "Create a new task",
+      "language": "text",
+      "tags": [
+        "tasks",
+        "new",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Home > Mark Complete",
+      "description": "Mark a task as complete",
+      "scenario": "Mark a task as complete",
+      "language": "text",
+      "tags": [
+        "tasks",
+        "complete",
+        "mark"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+S",
+      "description": "Send an email",
+      "scenario": "Send an email",
+      "language": "text",
+      "tags": [
+        "email",
+        "send",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+B",
+      "description": "Open the address book",
+      "scenario": "Open the address book",
+      "language": "text",
+      "tags": [
+        "address",
+        "book",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F9",
+      "description": "Check for new messages",
+      "scenario": "Check for new messages",
+      "language": "text",
+      "tags": [
+        "email",
+        "check",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

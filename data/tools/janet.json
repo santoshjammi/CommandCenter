@@ -1,0 +1,204 @@
+{
+  "title": "Janet Programming Language Cheat Sheet",
+  "slug": "janet",
+  "description": "Quick reference for Janet programming language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(defn add [x y] (+ x y))",
+      "description": "Define a function that adds two numbers",
+      "scenario": "Define a function that adds two numbers",
+      "language": "janet",
+      "tags": [
+        "function",
+        "addition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(def my-array @[1 2 3])",
+      "description": "Create a simple array with three elements",
+      "scenario": "Create a simple array with three elements",
+      "language": "janet",
+      "tags": [
+        "array",
+        "data structure",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(print \"Hello, World!\")",
+      "description": "Print a string to the console",
+      "scenario": "Print a string to the console",
+      "language": "janet",
+      "tags": [
+        "print",
+        "console",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if (> x 0) (print \"Positive\") (print \"Non-positive\"))",
+      "description": "Conditional statement to check if a number is positive",
+      "scenario": "Conditional statement to check if a number is positive",
+      "language": "janet",
+      "tags": [
+        "conditional",
+        "if",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(each x my-array (print x))",
+      "description": "Loop through an array and print each element",
+      "scenario": "Loop through an array and print each element",
+      "language": "janet",
+      "tags": [
+        "loop",
+        "iteration",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(var x 10) (while (> x 0) (print x) (set x (- x 1)))",
+      "description": "Define a while loop that decrements a counter",
+      "scenario": "Define a while loop that decrements a counter",
+      "language": "janet",
+      "tags": [
+        "loop",
+        "while",
+        "decrement"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(import math)",
+      "description": "Import a module named 'math'",
+      "scenario": "Import a module named 'math'",
+      "language": "janet",
+      "tags": [
+        "module",
+        "import",
+        "library"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(math/sqrt 9)",
+      "description": "Use a function from an imported module",
+      "scenario": "Use a function from an imported module",
+      "language": "janet",
+      "tags": [
+        "module",
+        "function",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defmodule mymod (defn public-fn [] (print \"Hello\")))",
+      "description": "Define a module with a public function",
+      "scenario": "Define a module with a public function",
+      "language": "janet",
+      "tags": [
+        "module",
+        "definition",
+        "public"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with [f (file/open \"myfile.txt\" :r)] (print (slurp f)))",
+      "description": "Read a file and print its contents",
+      "scenario": "Read a file and print its contents",
+      "language": "janet",
+      "tags": [
+        "file",
+        "read",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with [f (file/open \"myfile.txt\" :w)] (file/write f \"Hello, File!\"))",
+      "description": "Write a string to a file",
+      "scenario": "Write a string to a file",
+      "language": "janet",
+      "tags": [
+        "file",
+        "write",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with [f (file/open \"myfile.txt\" :a)] (file/write f \"Appending text.\"))",
+      "description": "Append a string to a file",
+      "scenario": "Append a string to a file",
+      "language": "janet",
+      "tags": [
+        "file",
+        "append",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(try (do-something-risky) (catch e (print \"Error:\" e)))",
+      "description": "Try-catch block to handle errors",
+      "scenario": "Try-catch block to handle errors",
+      "language": "janet",
+      "tags": [
+        "error",
+        "try-catch",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(error \"Something went wrong!\")",
+      "description": "Throw an error with a custom message",
+      "scenario": "Throw an error with a custom message",
+      "language": "janet",
+      "tags": [
+        "error",
+        "throw",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(assert (= 1 1) \"Assertion failed!\")",
+      "description": "Use 'assert' to check a condition",
+      "scenario": "Use 'assert' to check a condition",
+      "language": "janet",
+      "tags": [
+        "assert",
+        "condition",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Mathematica Cheat Sheet",
+  "slug": "mathematica",
+  "description": "Essential Mathematica commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "2 + 2",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "text",
+      "tags": [
+        "addition",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "5 - 3",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "text",
+      "tags": [
+        "subtraction",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "4 * 3",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "text",
+      "tags": [
+        "multiplication",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list = {1, 2, 3, 4, 5}",
+      "description": "Create a list of numbers",
+      "scenario": "Create a list of numbers",
+      "language": "text",
+      "tags": [
+        "list",
+        "create",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Append[list, 6]",
+      "description": "Append an element to a list",
+      "scenario": "Append an element to a list",
+      "language": "text",
+      "tags": [
+        "list",
+        "append",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Length[list]",
+      "description": "Get the length of a list",
+      "scenario": "Get the length of a list",
+      "language": "text",
+      "tags": [
+        "list",
+        "length",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f[x_] := x^2",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "text",
+      "tags": [
+        "function",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Map[f, list]",
+      "description": "Apply a function to a list",
+      "scenario": "Apply a function to a list",
+      "language": "text",
+      "tags": [
+        "function",
+        "apply",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "g[x_, y_] := x + y",
+      "description": "Define a function with multiple variables",
+      "scenario": "Define a function with multiple variables",
+      "language": "text",
+      "tags": [
+        "function",
+        "define",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Plot[Sin[x], {x, 0, 2*Pi}]",
+      "description": "Plot a simple function",
+      "scenario": "Plot a simple function",
+      "language": "text",
+      "tags": [
+        "plot",
+        "function",
+        "visualization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Plot[{Sin[x], Cos[x]}, {x, 0, 2*Pi}]",
+      "description": "Plot multiple functions",
+      "scenario": "Plot multiple functions",
+      "language": "text",
+      "tags": [
+        "plot",
+        "multiple",
+        "visualization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Plot[Sin[x], {x, 0, 2*Pi}, AxesLabel -> {\"x\", \"Sin[x]\"}]",
+      "description": "Add labels to a plot",
+      "scenario": "Add labels to a plot",
+      "language": "text",
+      "tags": [
+        "plot",
+        "labels",
+        "visualization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "matrix = {{1, 2}, {3, 4}}",
+      "description": "Create a matrix",
+      "scenario": "Create a matrix",
+      "language": "text",
+      "tags": [
+        "matrix",
+        "create",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Transpose[matrix]",
+      "description": "Transpose a matrix",
+      "scenario": "Transpose a matrix",
+      "language": "text",
+      "tags": [
+        "matrix",
+        "transpose",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Dot[matrix, matrix]",
+      "description": "Multiply two matrices",
+      "scenario": "Multiply two matrices",
+      "language": "text",
+      "tags": [
+        "matrix",
+        "multiply",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

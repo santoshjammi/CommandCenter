@@ -1,0 +1,165 @@
+{
+  "title": "EJS Cheat Sheet",
+  "slug": "ejs",
+  "description": "Essential EJS syntax and commands for templating",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<%= expression %>",
+      "description": "Embed JavaScript expression",
+      "scenario": "Embed JavaScript expression",
+      "language": "text",
+      "tags": [
+        "embed",
+        "expression",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% code %>",
+      "description": "Execute JavaScript code without output",
+      "scenario": "Execute JavaScript code without output",
+      "language": "text",
+      "tags": [
+        "execute",
+        "code",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%- content %>",
+      "description": "Output unescaped content",
+      "scenario": "Output unescaped content",
+      "language": "text",
+      "tags": [
+        "output",
+        "unescaped",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% if (user) { %> Hello, <%= user.name %> <% } %>",
+      "description": "If statement in EJS",
+      "scenario": "If statement in EJS",
+      "language": "text",
+      "tags": [
+        "if",
+        "control",
+        "flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<% for(var i=0; i < items.length; i++) { %> <%= items[i] %> <% } %>",
+      "description": "For loop in EJS",
+      "scenario": "For loop in EJS",
+      "language": "text",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%- include('template.ejs') %>",
+      "description": "Include another EJS template",
+      "scenario": "Include another EJS template",
+      "language": "text",
+      "tags": [
+        "include",
+        "template",
+        "partial"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install ejs",
+      "description": "Install EJS via npm",
+      "scenario": "Install EJS via npm",
+      "language": "bash",
+      "tags": [
+        "install",
+        "npm",
+        "ejs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ejs input.ejs -o output.html",
+      "description": "Render an EJS file from CLI",
+      "scenario": "Render an EJS file from CLI",
+      "language": "bash",
+      "tags": [
+        "render",
+        "cli",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ejs -w input.ejs -o output.html",
+      "description": "Watch EJS files for changes",
+      "scenario": "Watch EJS files for changes",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "changes",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ejs.delimiter = '?'",
+      "description": "Set EJS delimiter to '?'",
+      "scenario": "Set EJS delimiter to '?'",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "delimiter",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ejs.cache = true",
+      "description": "Enable EJS caching",
+      "scenario": "Enable EJS caching",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "cache",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.set('views', path.join(__dirname, 'views'))",
+      "description": "Set EJS views directory",
+      "scenario": "Set EJS views directory",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "views",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

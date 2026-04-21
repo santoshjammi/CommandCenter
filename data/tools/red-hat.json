@@ -1,0 +1,204 @@
+{
+  "title": "Red Hat Cheat Sheet",
+  "slug": "red-hat",
+  "description": "Essential Red Hat CLI commands and configurations for engineers",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sudo yum install package-name",
+      "description": "Install a package using yum",
+      "scenario": "Install a package using yum",
+      "language": "bash",
+      "tags": [
+        "yum",
+        "install",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo yum update",
+      "description": "Update all packages to the latest version",
+      "scenario": "Update all packages to the latest version",
+      "language": "bash",
+      "tags": [
+        "yum",
+        "update",
+        "packages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo yum remove package-name",
+      "description": "Remove a package using yum",
+      "scenario": "Remove a package using yum",
+      "language": "bash",
+      "tags": [
+        "yum",
+        "remove",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl start service-name",
+      "description": "Start a system service",
+      "scenario": "Start a system service",
+      "language": "bash",
+      "tags": [
+        "systemctl",
+        "service",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl stop service-name",
+      "description": "Stop a system service",
+      "scenario": "Stop a system service",
+      "language": "bash",
+      "tags": [
+        "systemctl",
+        "service",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl status service-name",
+      "description": "Check the status of a system service",
+      "scenario": "Check the status of a system service",
+      "language": "bash",
+      "tags": [
+        "systemctl",
+        "service",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo useradd username",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "useradd",
+        "user",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo userdel username",
+      "description": "Delete a user account",
+      "scenario": "Delete a user account",
+      "language": "bash",
+      "tags": [
+        "userdel",
+        "user",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo passwd username",
+      "description": "Change a user's password",
+      "scenario": "Change a user's password",
+      "language": "bash",
+      "tags": [
+        "passwd",
+        "user",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip addr show",
+      "description": "Display network configuration",
+      "scenario": "Display network configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ip",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl restart network",
+      "description": "Restart the network service",
+      "scenario": "Restart the network service",
+      "language": "bash",
+      "tags": [
+        "network",
+        "systemctl",
+        "restart"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 hostname",
+      "description": "Check connectivity to a host",
+      "scenario": "Check connectivity to a host",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "network",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -la /path/to/directory",
+      "description": "List files in a directory",
+      "scenario": "List files in a directory",
+      "language": "bash",
+      "tags": [
+        "ls",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp /source/file /destination/file",
+      "description": "Copy a file from one location to another",
+      "scenario": "Copy a file from one location to another",
+      "language": "bash",
+      "tags": [
+        "cp",
+        "file",
+        "copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv /source/file /destination/file",
+      "description": "Move a file to a new location",
+      "scenario": "Move a file to a new location",
+      "language": "bash",
+      "tags": [
+        "mv",
+        "file",
+        "move"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

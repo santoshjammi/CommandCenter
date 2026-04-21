@@ -1,0 +1,204 @@
+{
+  "title": "Systemd Cheat Sheet",
+  "slug": "systemd",
+  "description": "Essential systemd commands and configurations for service management",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "sudo systemctl start <service-name>",
+      "description": "Start a systemd service",
+      "scenario": "Start a systemd service",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl stop <service-name>",
+      "description": "Stop a systemd service",
+      "scenario": "Stop a systemd service",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl restart <service-name>",
+      "description": "Restart a systemd service",
+      "scenario": "Restart a systemd service",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "restart"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systemctl status <service-name>",
+      "description": "Check the status of a systemd service",
+      "scenario": "Check the status of a systemd service",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systemctl list-units --type=service --state=active",
+      "description": "View all active systemd services",
+      "scenario": "View all active systemd services",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systemctl --failed",
+      "description": "View failed systemd services",
+      "scenario": "View failed systemd services",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "failed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl enable <service-name>",
+      "description": "Enable a service to start at boot",
+      "scenario": "Enable a service to start at boot",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl disable <service-name>",
+      "description": "Disable a service from starting at boot",
+      "scenario": "Disable a service from starting at boot",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "disable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl mask <service-name>",
+      "description": "Mask a service to prevent it from being started",
+      "scenario": "Mask a service to prevent it from being started",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "mask"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "journalctl",
+      "description": "View the systemd journal logs",
+      "scenario": "View the systemd journal logs",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "logs",
+        "journal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "journalctl -u <service-name>",
+      "description": "View logs for a specific service",
+      "scenario": "View logs for a specific service",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "logs",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "journalctl -f",
+      "description": "Follow the journal logs in real-time",
+      "scenario": "Follow the journal logs in real-time",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "logs",
+        "follow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl edit <service-name>",
+      "description": "Edit a systemd service file",
+      "scenario": "Edit a systemd service file",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "service",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl daemon-reload",
+      "description": "Reload systemd manager configuration",
+      "scenario": "Reload systemd manager configuration",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "reload",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systemctl cat <service-name>",
+      "description": "Show systemd unit file for a service",
+      "scenario": "Show systemd unit file for a service",
+      "language": "bash",
+      "tags": [
+        "systemd",
+        "unit",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

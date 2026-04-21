@@ -1,0 +1,165 @@
+{
+  "title": "Flow Cheat Sheet",
+  "slug": "flow",
+  "description": "Quick reference for Flow CLI commands and configuration",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "flow init",
+      "description": "Initialize a new Flow project",
+      "scenario": "Initialize a new Flow project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flow status",
+      "description": "Check the status of the Flow server",
+      "scenario": "Check the status of the Flow server",
+      "language": "bash",
+      "tags": [
+        "status",
+        "server",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flow stop",
+      "description": "Stop the Flow server",
+      "scenario": "Stop the Flow server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "server",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flow check",
+      "description": "Run Flow type checker on the entire project",
+      "scenario": "Run Flow type checker on the entire project",
+      "language": "bash",
+      "tags": [
+        "type",
+        "check",
+        "validation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flow check path/to/file.js",
+      "description": "Run Flow type checker on a specific file",
+      "scenario": "Run Flow type checker on a specific file",
+      "language": "bash",
+      "tags": [
+        "type",
+        "check",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flow",
+      "description": "Start Flow in watch mode for real-time type checking",
+      "scenario": "Start Flow in watch mode for real-time type checking",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "type",
+        "realtime"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "touch .flowconfig",
+      "description": "Add a .flowconfig file to the project",
+      "scenario": "Add a .flowconfig file to the project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "setup",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[version]\n^0.130.0",
+      "description": "Specify the Flow version in .flowconfig",
+      "scenario": "Specify the Flow version in .flowconfig",
+      "language": "text",
+      "tags": [
+        "version",
+        "config",
+        "specify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[ignore]\n<PROJECT_ROOT>/node_modules/",
+      "description": "Ignore specific directories in .flowconfig",
+      "scenario": "Ignore specific directories in .flowconfig",
+      "language": "text",
+      "tags": [
+        "ignore",
+        "config",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type User = { name: string, age: number };",
+      "description": "Declare a type alias for an object",
+      "scenario": "Declare a type alias for an object",
+      "language": "javascript",
+      "tags": [
+        "type",
+        "alias",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function square(n: number): number { return n * n; }",
+      "description": "Use Flow annotations in a function",
+      "scenario": "Use Flow annotations in a function",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "annotations",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let name: ?string = null;",
+      "description": "Declare a nullable type",
+      "scenario": "Declare a nullable type",
+      "language": "javascript",
+      "tags": [
+        "nullable",
+        "type",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Emacs Cheat Sheet",
+  "slug": "emacs",
+  "description": "Essential Emacs commands and shortcuts for efficient text editing.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "C-f",
+      "description": "Move the cursor forward by one character",
+      "scenario": "Move the cursor forward by one character",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "cursor",
+        "movement"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-b",
+      "description": "Move the cursor backward by one character",
+      "scenario": "Move the cursor backward by one character",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "cursor",
+        "movement"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-a",
+      "description": "Move the cursor to the beginning of the line",
+      "scenario": "Move the cursor to the beginning of the line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "cursor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-x C-f",
+      "description": "Open a file",
+      "scenario": "Open a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "operations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-x C-s",
+      "description": "Save the current buffer to a file",
+      "scenario": "Save the current buffer to a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "buffer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-x k",
+      "description": "Close the current buffer",
+      "scenario": "Close the current buffer",
+      "language": "text",
+      "tags": [
+        "file",
+        "close",
+        "buffer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-w",
+      "description": "Cut the selected region",
+      "scenario": "Cut the selected region",
+      "language": "text",
+      "tags": [
+        "cut",
+        "text",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "M-w",
+      "description": "Copy the selected region",
+      "scenario": "Copy the selected region",
+      "language": "text",
+      "tags": [
+        "copy",
+        "text",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-y",
+      "description": "Paste the last cut or copied text",
+      "scenario": "Paste the last cut or copied text",
+      "language": "text",
+      "tags": [
+        "paste",
+        "text",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-s",
+      "description": "Search forward for a string",
+      "scenario": "Search forward for a string",
+      "language": "text",
+      "tags": [
+        "search",
+        "forward",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-r",
+      "description": "Search backward for a string",
+      "scenario": "Search backward for a string",
+      "language": "text",
+      "tags": [
+        "search",
+        "backward",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "M-%",
+      "description": "Replace a string",
+      "scenario": "Replace a string",
+      "language": "text",
+      "tags": [
+        "replace",
+        "string",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-x 2",
+      "description": "Split the window horizontally",
+      "scenario": "Split the window horizontally",
+      "language": "text",
+      "tags": [
+        "window",
+        "split",
+        "horizontal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-x 3",
+      "description": "Split the window vertically",
+      "scenario": "Split the window vertically",
+      "language": "text",
+      "tags": [
+        "window",
+        "split",
+        "vertical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-x 0",
+      "description": "Close the current window",
+      "scenario": "Close the current window",
+      "language": "text",
+      "tags": [
+        "window",
+        "close",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

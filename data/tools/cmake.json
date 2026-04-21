@@ -1,0 +1,165 @@
+{
+  "title": "CMake Cheat Sheet",
+  "slug": "cmake",
+  "description": "Essential CMake commands and patterns for build automation",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "cmake .",
+      "description": "Generate build files in the current directory",
+      "scenario": "Generate build files in the current directory",
+      "language": "bash",
+      "tags": [
+        "build",
+        "generate",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cmake --build .",
+      "description": "Build the project using generated build files",
+      "scenario": "Build the project using generated build files",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cmake --build . --target clean",
+      "description": "Clean the build directory",
+      "scenario": "Clean the build directory",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cmake -DVARIABLE_NAME=VALUE .",
+      "description": "Set a CMake variable from the command line",
+      "scenario": "Set a CMake variable from the command line",
+      "language": "bash",
+      "tags": [
+        "variable",
+        "configure",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cmake -DCMAKE_BUILD_TYPE=Release .",
+      "description": "Specify a build type (e.g., Debug, Release)",
+      "scenario": "Specify a build type (e.g., Debug, Release)",
+      "language": "bash",
+      "tags": [
+        "build type",
+        "configure",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cmake -DCMAKE_INSTALL_PREFIX=/path/to/install .",
+      "description": "Specify an installation prefix",
+      "scenario": "Specify an installation prefix",
+      "language": "bash",
+      "tags": [
+        "install",
+        "prefix",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add_subdirectory(subdir)",
+      "description": "Include a subdirectory in the build",
+      "scenario": "Include a subdirectory in the build",
+      "language": "text",
+      "tags": [
+        "subdirectory",
+        "include",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "target_link_libraries(my_executable my_library)",
+      "description": "Link a library to an executable",
+      "scenario": "Link a library to an executable",
+      "language": "text",
+      "tags": [
+        "link",
+        "library",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add_custom_command(TARGET my_target POST_BUILD COMMAND my_command)",
+      "description": "Define a custom command",
+      "scenario": "Define a custom command",
+      "language": "text",
+      "tags": [
+        "custom",
+        "command",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .",
+      "description": "Generate a compile_commands.json file",
+      "scenario": "Generate a compile_commands.json file",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "commands",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ccmake .",
+      "description": "Run CMake in interactive mode",
+      "scenario": "Run CMake in interactive mode",
+      "language": "bash",
+      "tags": [
+        "interactive",
+        "configure",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cmake --install .",
+      "description": "Install the built files to the specified prefix",
+      "scenario": "Install the built files to the specified prefix",
+      "language": "bash",
+      "tags": [
+        "install",
+        "prefix",
+        "cmake"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

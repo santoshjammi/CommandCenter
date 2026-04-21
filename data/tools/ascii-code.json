@@ -1,0 +1,165 @@
+{
+  "title": "ASCII Code Cheat Sheet",
+  "slug": "ascii-code",
+  "description": "A quick reference guide for ASCII codes and their usage.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "10",
+      "description": "ASCII code for newline character",
+      "scenario": "ASCII code for newline character",
+      "language": "text",
+      "tags": [
+        "newline",
+        "ascii",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "32",
+      "description": "ASCII code for space character",
+      "scenario": "ASCII code for space character",
+      "language": "text",
+      "tags": [
+        "space",
+        "ascii",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "65",
+      "description": "ASCII code for uppercase letter 'A'",
+      "scenario": "ASCII code for uppercase letter 'A'",
+      "language": "text",
+      "tags": [
+        "uppercase",
+        "ascii",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "printf '%d\\n' \"'A'\"",
+      "description": "Print ASCII value of a character",
+      "scenario": "Print ASCII value of a character",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "bash",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "printf '\\x41'",
+      "description": "Convert ASCII value to character",
+      "scenario": "Convert ASCII value to character",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "bash",
+        "convert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in {65..90}; do printf \"\\x$(printf %x $i) \"; done",
+      "description": "Loop through ASCII values 65 to 90 and print characters",
+      "scenario": "Loop through ASCII values 65 to 90 and print characters",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "bash",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ord('A')",
+      "description": "Get ASCII value of a character",
+      "scenario": "Get ASCII value of a character",
+      "language": "python",
+      "tags": [
+        "ascii",
+        "python",
+        "ord"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chr(65)",
+      "description": "Convert ASCII value to character",
+      "scenario": "Convert ASCII value to character",
+      "language": "python",
+      "tags": [
+        "ascii",
+        "python",
+        "chr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print([ord(c) for c in 'Hello'])",
+      "description": "Print ASCII values for a string",
+      "scenario": "Print ASCII values for a string",
+      "language": "python",
+      "tags": [
+        "ascii",
+        "python",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "'A'.charCodeAt(0)",
+      "description": "Get ASCII value of a character",
+      "scenario": "Get ASCII value of a character",
+      "language": "javascript",
+      "tags": [
+        "ascii",
+        "javascript",
+        "charCodeAt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "String.fromCharCode(65)",
+      "description": "Convert ASCII value to character",
+      "scenario": "Convert ASCII value to character",
+      "language": "javascript",
+      "tags": [
+        "ascii",
+        "javascript",
+        "fromCharCode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "'Hello'.split('').map(c => c.charCodeAt(0))",
+      "description": "Map string to ASCII values",
+      "scenario": "Map string to ASCII values",
+      "language": "javascript",
+      "tags": [
+        "ascii",
+        "javascript",
+        "map"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

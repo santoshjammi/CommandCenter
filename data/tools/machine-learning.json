@@ -1,0 +1,204 @@
+{
+  "title": "Machine Learning Cheat Sheet",
+  "slug": "machine-learning",
+  "description": "Essential commands and code snippets for machine learning engineers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "import numpy as np",
+      "description": "Import NumPy for numerical operations",
+      "scenario": "Import NumPy for numerical operations",
+      "language": "python",
+      "tags": [
+        "numpy",
+        "import",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import pandas as pd",
+      "description": "Import Pandas for data manipulation",
+      "scenario": "Import Pandas for data manipulation",
+      "language": "python",
+      "tags": [
+        "pandas",
+        "dataframe",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from sklearn.model_selection import train_test_split",
+      "description": "Import Scikit-learn for machine learning models",
+      "scenario": "Import Scikit-learn for machine learning models",
+      "language": "python",
+      "tags": [
+        "scikit-learn",
+        "machine-learning",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from sklearn.preprocessing import MinMaxScaler\nscaler = MinMaxScaler()\nscaled_data = scaler.fit_transform(data)",
+      "description": "Normalize data using MinMaxScaler",
+      "scenario": "Normalize data using MinMaxScaler",
+      "language": "python",
+      "tags": [
+        "scikit-learn",
+        "normalization",
+        "preprocessing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data.fillna(data.mean(), inplace=True)",
+      "description": "Handle missing values by filling with mean",
+      "scenario": "Handle missing values by filling with mean",
+      "language": "python",
+      "tags": [
+        "pandas",
+        "missing-values",
+        "data-cleaning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from sklearn.preprocessing import OneHotEncoder\nencoder = OneHotEncoder()\nencoded_data = encoder.fit_transform(categorical_data)",
+      "description": "Encode categorical variables using OneHotEncoder",
+      "scenario": "Encode categorical variables using OneHotEncoder",
+      "language": "python",
+      "tags": [
+        "scikit-learn",
+        "encoding",
+        "categorical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from sklearn.linear_model import LinearRegression\nmodel = LinearRegression()\nmodel.fit(X_train, y_train)",
+      "description": "Train a linear regression model",
+      "scenario": "Train a linear regression model",
+      "language": "python",
+      "tags": [
+        "linear-regression",
+        "scikit-learn",
+        "training"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from sklearn.model_selection import cross_val_score\nscores = cross_val_score(model, X, y, cv=5)",
+      "description": "Evaluate model accuracy using cross-validation",
+      "scenario": "Evaluate model accuracy using cross-validation",
+      "language": "python",
+      "tags": [
+        "cross-validation",
+        "scikit-learn",
+        "evaluation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import joblib\njoblib.dump(model, 'model.pkl')",
+      "description": "Save a trained model using joblib",
+      "scenario": "Save a trained model using joblib",
+      "language": "python",
+      "tags": [
+        "model-saving",
+        "joblib",
+        "scikit-learn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pip install scikit-learn",
+      "description": "Install Scikit-learn using pip",
+      "scenario": "Install Scikit-learn using pip",
+      "language": "bash",
+      "tags": [
+        "installation",
+        "scikit-learn",
+        "pip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "python -m venv myenv",
+      "description": "Create a virtual environment",
+      "scenario": "Create a virtual environment",
+      "language": "bash",
+      "tags": [
+        "virtualenv",
+        "python",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "source myenv/bin/activate",
+      "description": "Activate a virtual environment on Unix or MacOS",
+      "scenario": "Activate a virtual environment on Unix or MacOS",
+      "language": "bash",
+      "tags": [
+        "virtualenv",
+        "activation",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import numpy as np\nnp.random.seed(42)",
+      "description": "Set random seed for reproducibility",
+      "scenario": "Set random seed for reproducibility",
+      "language": "python",
+      "tags": [
+        "random-seed",
+        "reproducibility",
+        "numpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "%matplotlib inline",
+      "description": "Configure Matplotlib for inline plotting in Jupyter Notebook",
+      "scenario": "Configure Matplotlib for inline plotting in Jupyter Notebook",
+      "language": "python",
+      "tags": [
+        "matplotlib",
+        "jupyter",
+        "plotting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import logging\nlogging.basicConfig(level=logging.INFO)",
+      "description": "Set logging level to INFO",
+      "scenario": "Set logging level to INFO",
+      "language": "python",
+      "tags": [
+        "logging",
+        "configuration",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

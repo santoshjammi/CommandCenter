@@ -1,0 +1,165 @@
+{
+  "title": "ShutIt Cheat Sheet",
+  "slug": "shutit",
+  "description": "Quick reference for ShutIt CLI commands and configuration",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "shutit skeleton",
+      "description": "Initialize a new ShutIt module",
+      "scenario": "Initialize a new ShutIt module",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "module",
+        "skeleton"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit build",
+      "description": "Run a ShutIt build",
+      "scenario": "Run a ShutIt build",
+      "language": "bash",
+      "tags": [
+        "build",
+        "run",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit list_modules",
+      "description": "List all available ShutIt modules",
+      "scenario": "List all available ShutIt modules",
+      "language": "bash",
+      "tags": [
+        "list",
+        "modules",
+        "available"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit set_config_file /path/to/config.cfg",
+      "description": "Set the default configuration file",
+      "scenario": "Set the default configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit set --config section.key value",
+      "description": "Override a configuration setting",
+      "scenario": "Override a configuration setting",
+      "language": "bash",
+      "tags": [
+        "config",
+        "override",
+        "setting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit get_config",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit module install /path/to/module",
+      "description": "Install a ShutIt module",
+      "scenario": "Install a ShutIt module",
+      "language": "bash",
+      "tags": [
+        "install",
+        "module",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit module remove module_name",
+      "description": "Uninstall a ShutIt module",
+      "scenario": "Uninstall a ShutIt module",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "module",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit module status module_name",
+      "description": "Check the status of a ShutIt module",
+      "scenario": "Check the status of a ShutIt module",
+      "language": "bash",
+      "tags": [
+        "status",
+        "module",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit build --debug",
+      "description": "Run ShutIt in debug mode",
+      "scenario": "Run ShutIt in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "mode",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit test module_name",
+      "description": "Test a specific ShutIt module",
+      "scenario": "Test a specific ShutIt module",
+      "language": "bash",
+      "tags": [
+        "test",
+        "module",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutit build --verbose",
+      "description": "Enable verbose output for troubleshooting",
+      "scenario": "Enable verbose output for troubleshooting",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "output",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

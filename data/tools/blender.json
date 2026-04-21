@@ -1,0 +1,204 @@
+{
+  "title": "Blender CLI and Scripting Cheat Sheet",
+  "slug": "blender",
+  "description": "Essential Blender CLI commands and scripting snippets for engineers.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "blender -b myfile.blend -a",
+      "description": "Render an animation using Blender from the command line",
+      "scenario": "Render an animation using Blender from the command line",
+      "language": "bash",
+      "tags": [
+        "render",
+        "animation",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blender -b myfile.blend -f 10",
+      "description": "Render a specific frame using Blender from the command line",
+      "scenario": "Render a specific frame using Blender from the command line",
+      "language": "bash",
+      "tags": [
+        "render",
+        "frame",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blender -b myfile.blend --python myscript.py",
+      "description": "Run a Python script in Blender from the command line",
+      "scenario": "Run a Python script in Blender from the command line",
+      "language": "bash",
+      "tags": [
+        "python",
+        "script",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.ops.mesh.primitive_cube_add()",
+      "description": "Add a cube to the scene using Python",
+      "scenario": "Add a cube to the scene using Python",
+      "language": "python",
+      "tags": [
+        "bpy",
+        "cube",
+        "mesh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.context.scene.render.resolution_x = 1920\nbpy.context.scene.render.resolution_y = 1080",
+      "description": "Set the render resolution using Python",
+      "scenario": "Set the render resolution using Python",
+      "language": "python",
+      "tags": [
+        "render",
+        "resolution",
+        "bpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.context.active_object.name = \"NewName\"",
+      "description": "Change the active object name using Python",
+      "scenario": "Change the active object name using Python",
+      "language": "python",
+      "tags": [
+        "object",
+        "name",
+        "bpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for obj in bpy.data.objects:\n    print(obj.name)",
+      "description": "Loop through all objects in the scene",
+      "scenario": "Loop through all objects in the scene",
+      "language": "python",
+      "tags": [
+        "loop",
+        "objects",
+        "bpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.ops.object.select_all(action='SELECT')",
+      "description": "Select all objects in the scene",
+      "scenario": "Select all objects in the scene",
+      "language": "python",
+      "tags": [
+        "select",
+        "objects",
+        "bpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.ops.object.delete()",
+      "description": "Delete all selected objects",
+      "scenario": "Delete all selected objects",
+      "language": "python",
+      "tags": [
+        "delete",
+        "objects",
+        "bpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.ops.wm.addon_enable(module='my_addon')",
+      "description": "Enable an add-on by its module name",
+      "scenario": "Enable an add-on by its module name",
+      "language": "python",
+      "tags": [
+        "addon",
+        "enable",
+        "bpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.context.scene.render.image_settings.file_format = 'PNG'",
+      "description": "Set the output file format to PNG",
+      "scenario": "Set the output file format to PNG",
+      "language": "python",
+      "tags": [
+        "output",
+        "format",
+        "bpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.context.space_data.shading.type = 'RENDERED'",
+      "description": "Change the shading mode to 'RENDERED'",
+      "scenario": "Change the shading mode to 'RENDERED'",
+      "language": "python",
+      "tags": [
+        "shading",
+        "mode",
+        "bpy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blender -b",
+      "description": "Start Blender with no interface",
+      "scenario": "Start Blender with no interface",
+      "language": "bash",
+      "tags": [
+        "headless",
+        "cli",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blender -b myfile.blend -s 1 -e 250 -a",
+      "description": "Set the start and end frames for rendering",
+      "scenario": "Set the start and end frames for rendering",
+      "language": "bash",
+      "tags": [
+        "frames",
+        "render",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blender -b myfile.blend -o //output/ -a",
+      "description": "Specify an output directory for renders",
+      "scenario": "Specify an output directory for renders",
+      "language": "bash",
+      "tags": [
+        "output",
+        "directory",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

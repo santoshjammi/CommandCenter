@@ -1,0 +1,165 @@
+{
+  "title": "Harvey.js Cheat Sheet",
+  "slug": "harveyjs",
+  "description": "Quick reference for Harvey.js CLI commands and code patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "harvey init my-project",
+      "description": "Initialize a new Harvey.js project",
+      "scenario": "Initialize a new Harvey.js project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "harvey serve",
+      "description": "Start the development server",
+      "scenario": "Start the development server",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "development",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "harvey build",
+      "description": "Build the project for production",
+      "scenario": "Build the project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"devServer\": {\n    \"port\": 8080\n  }\n}",
+      "description": "Set the port for the development server",
+      "scenario": "Set the port for the development server",
+      "language": "json",
+      "tags": [
+        "config",
+        "server",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"build\": {\n    \"sourceMaps\": true\n  }\n}",
+      "description": "Enable source maps for debugging",
+      "scenario": "Enable source maps for debugging",
+      "language": "json",
+      "tags": [
+        "config",
+        "debug",
+        "source maps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"entry\": \"src/index.js\"\n}",
+      "description": "Specify entry point for the application",
+      "scenario": "Specify entry point for the application",
+      "language": "json",
+      "tags": [
+        "config",
+        "entry",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { moduleName } from 'harvey';",
+      "description": "Import a module in Harvey.js",
+      "scenario": "Import a module in Harvey.js",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "module",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const MyComponent = () => {\n  return <div>Hello, World!</div>;\n};",
+      "description": "Define a new component",
+      "scenario": "Define a new component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "define",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const [state, setState] = useState(initialState);",
+      "description": "Use state in a component",
+      "scenario": "Use state in a component",
+      "language": "javascript",
+      "tags": [
+        "state",
+        "component",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{condition ? <ComponentA /> : <ComponentB />}",
+      "description": "Conditional rendering in a component",
+      "scenario": "Conditional rendering in a component",
+      "language": "javascript",
+      "tags": [
+        "conditional",
+        "render",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "items.map(item => <li key={item.id}>{item.name}</li>)",
+      "description": "Map over an array to render list items",
+      "scenario": "Map over an array to render list items",
+      "language": "javascript",
+      "tags": [
+        "map",
+        "array",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const handleSubmit = (event) => {\n  event.preventDefault();\n  // handle submission\n};",
+      "description": "Handle form submission",
+      "scenario": "Handle form submission",
+      "language": "javascript",
+      "tags": [
+        "form",
+        "submit",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

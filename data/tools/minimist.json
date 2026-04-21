@@ -1,0 +1,126 @@
+{
+  "title": "Minimist CLI Argument Parser",
+  "slug": "minimist",
+  "description": "A cheat sheet for using the Minimist library to parse CLI arguments in Node.js.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "const minimist = require('minimist');",
+      "description": "Import the minimist library",
+      "scenario": "Import the minimist library",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "require",
+        "nodejs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const args = minimist(process.argv.slice(2));",
+      "description": "Parse command line arguments",
+      "scenario": "Parse command line arguments",
+      "language": "javascript",
+      "tags": [
+        "parse",
+        "arguments",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const value = args['name'];",
+      "description": "Access a parsed argument by name",
+      "scenario": "Access a parsed argument by name",
+      "language": "javascript",
+      "tags": [
+        "access",
+        "argument",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const args = minimist(process.argv.slice(2), { default: { name: 'defaultName' } });",
+      "description": "Set default values for arguments",
+      "scenario": "Set default values for arguments",
+      "language": "javascript",
+      "tags": [
+        "default",
+        "values",
+        "options"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const args = minimist(process.argv.slice(2), { alias: { n: 'name' } });",
+      "description": "Specify alias for an argument",
+      "scenario": "Specify alias for an argument",
+      "language": "javascript",
+      "tags": [
+        "alias",
+        "shortcut",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const args = minimist(process.argv.slice(2), { boolean: ['flag'] });",
+      "description": "Enable boolean parsing for specific flags",
+      "scenario": "Enable boolean parsing for specific flags",
+      "language": "javascript",
+      "tags": [
+        "boolean",
+        "flags",
+        "parse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const args = minimist(process.argv.slice(2), { stopEarly: true });",
+      "description": "Stop parsing on the first non-option argument",
+      "scenario": "Stop parsing on the first non-option argument",
+      "language": "javascript",
+      "tags": [
+        "stopEarly",
+        "non-option",
+        "parse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const args = minimist(process.argv.slice(2), { string: ['name'], boolean: ['flag'] });",
+      "description": "Parse arguments into a specific type",
+      "scenario": "Parse arguments into a specific type",
+      "language": "javascript",
+      "tags": [
+        "type",
+        "parse",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const args = minimist(process.argv.slice(2), { unknown: (arg) => { return false; } });",
+      "description": "Override default behavior for unknown options",
+      "scenario": "Override default behavior for unknown options",
+      "language": "javascript",
+      "tags": [
+        "unknown",
+        "options",
+        "override"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

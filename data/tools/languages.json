@@ -1,0 +1,204 @@
+{
+  "title": "Languages Cheat Sheet",
+  "slug": "languages",
+  "description": "Quick reference for common programming languages syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "print('Hello, World!')",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "python",
+      "tags": [
+        "print",
+        "output",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_function():\n    return 'Hello, World!'",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "python",
+      "tags": [
+        "function",
+        "define",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my_list = []\nmy_list.append('item')",
+      "description": "Create a list and append an item",
+      "scenario": "Create a list and append an item",
+      "language": "python",
+      "tags": [
+        "list",
+        "append",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.log('Hello, World!');",
+      "description": "Log a message to the console",
+      "scenario": "Log a message to the console",
+      "language": "javascript",
+      "tags": [
+        "console",
+        "log",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function myFunction() {\n    return 'Hello, World!';\n}",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "define",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let myArray = [];\nmyArray.push('item');",
+      "description": "Create an array and push an item",
+      "scenario": "Create an array and push an item",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "push",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "query",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES ('value1', 'value2');",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "row",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = 'value' WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "modify",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -la",
+      "description": "List files in a directory",
+      "scenario": "List files in a directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /path/to/directory",
+      "description": "Change directory",
+      "scenario": "Change directory",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source_file destination_file",
+      "description": "Copy a file",
+      "scenario": "Copy a file",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "key: value",
+      "description": "Define a simple key-value pair",
+      "scenario": "Define a simple key-value pair",
+      "language": "yaml",
+      "tags": [
+        "key-value",
+        "pair",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "items:\n  - item1\n  - item2",
+      "description": "List items under a key",
+      "scenario": "List items under a key",
+      "language": "yaml",
+      "tags": [
+        "list",
+        "items",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "parent:\n  child: value",
+      "description": "Nested key-value pairs",
+      "scenario": "Nested key-value pairs",
+      "language": "yaml",
+      "tags": [
+        "nested",
+        "key-value",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

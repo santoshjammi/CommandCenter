@@ -1,0 +1,165 @@
+{
+  "title": "Superhuman Keyboard Shortcuts",
+  "slug": "superhuman",
+  "description": "Essential keyboard shortcuts for Superhuman email client.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Cmd + K",
+      "description": "Open the command palette",
+      "scenario": "Open the command palette",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "command",
+        "palette"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "G then I",
+      "description": "Go to Inbox",
+      "scenario": "Go to Inbox",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "inbox",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "G then S",
+      "description": "Go to Sent Mail",
+      "scenario": "Go to Sent Mail",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "sent",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + N",
+      "description": "Compose a new email",
+      "scenario": "Compose a new email",
+      "language": "text",
+      "tags": [
+        "email",
+        "compose",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "R",
+      "description": "Reply to an email",
+      "scenario": "Reply to an email",
+      "language": "text",
+      "tags": [
+        "email",
+        "reply",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F",
+      "description": "Forward an email",
+      "scenario": "Forward an email",
+      "language": "text",
+      "tags": [
+        "email",
+        "forward",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "E",
+      "description": "Archive an email",
+      "scenario": "Archive an email",
+      "language": "text",
+      "tags": [
+        "email",
+        "archive",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + U",
+      "description": "Mark email as read/unread",
+      "scenario": "Mark email as read/unread",
+      "language": "text",
+      "tags": [
+        "email",
+        "read",
+        "unread"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "H",
+      "description": "Snooze an email",
+      "scenario": "Snooze an email",
+      "language": "text",
+      "tags": [
+        "email",
+        "snooze",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/",
+      "description": "Search emails",
+      "scenario": "Search emails",
+      "language": "text",
+      "tags": [
+        "search",
+        "email",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + U",
+      "description": "Filter by unread",
+      "scenario": "Filter by unread",
+      "language": "text",
+      "tags": [
+        "filter",
+        "unread",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + S",
+      "description": "Filter by starred",
+      "scenario": "Filter by starred",
+      "language": "text",
+      "tags": [
+        "filter",
+        "starred",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

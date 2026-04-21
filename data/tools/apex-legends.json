@@ -1,0 +1,165 @@
+{
+  "title": "Apex Legends CLI and Configurations",
+  "slug": "apex-legends",
+  "description": "Essential CLI commands and configuration snippets for Apex Legends.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "start /high apex_legends.exe",
+      "description": "Launch Apex Legends with high priority",
+      "scenario": "Launch Apex Legends with high priority",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "priority",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steamcmd +login anonymous +app_update 1172470 validate +quit",
+      "description": "Verify game files via Steam",
+      "scenario": "Verify game files via Steam",
+      "language": "bash",
+      "tags": [
+        "steam",
+        "verify",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apex_legends.exe -windowed",
+      "description": "Launch Apex Legends in windowed mode",
+      "scenario": "Launch Apex Legends in windowed mode",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "windowed",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seta r_customwidth \"1920\"\nseta r_customheight \"1080\"",
+      "description": "Set custom resolution in config file",
+      "scenario": "Set custom resolution in config file",
+      "language": "text",
+      "tags": [
+        "resolution",
+        "config",
+        "graphics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seta con_enable \"1\"",
+      "description": "Enable developer console in config",
+      "scenario": "Enable developer console in config",
+      "language": "text",
+      "tags": [
+        "console",
+        "developer",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seta play_intro_video \"0\"",
+      "description": "Disable intro video for faster startup",
+      "scenario": "Disable intro video for faster startup",
+      "language": "text",
+      "tags": [
+        "startup",
+        "intro",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seta r_vsync \"0\"",
+      "description": "Disable V-Sync for better performance",
+      "scenario": "Disable V-Sync for better performance",
+      "language": "text",
+      "tags": [
+        "performance",
+        "vsync",
+        "optimization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seta r_texturequality \"2\"",
+      "description": "Lower texture quality for improved FPS",
+      "scenario": "Lower texture quality for improved FPS",
+      "language": "text",
+      "tags": [
+        "texture",
+        "quality",
+        "fps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seta fps_max \"60\"",
+      "description": "Cap frame rate to 60 FPS",
+      "scenario": "Cap frame rate to 60 FPS",
+      "language": "text",
+      "tags": [
+        "fps",
+        "cap",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -n 10 104.160.131.3",
+      "description": "Check latency to game server",
+      "scenario": "Check latency to game server",
+      "language": "bash",
+      "tags": [
+        "latency",
+        "ping",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tracert 104.160.131.3",
+      "description": "Trace route to game server for diagnostics",
+      "scenario": "Trace route to game server for diagnostics",
+      "language": "bash",
+      "tags": [
+        "traceroute",
+        "network",
+        "diagnostics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ipconfig /flushdns",
+      "description": "Flush DNS cache to resolve connectivity issues",
+      "scenario": "Flush DNS cache to resolve connectivity issues",
+      "language": "bash",
+      "tags": [
+        "dns",
+        "flush",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

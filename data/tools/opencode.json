@@ -1,0 +1,165 @@
+{
+  "title": "OpenCode CLI Cheat Sheet",
+  "slug": "opencode",
+  "description": "Essential OpenCode CLI commands and configurations for developers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "opencode init",
+      "description": "Initialize a new OpenCode project",
+      "scenario": "Initialize a new OpenCode project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opencode start",
+      "description": "Start the OpenCode development server",
+      "scenario": "Start the OpenCode development server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opencode build",
+      "description": "Build the OpenCode project for production",
+      "scenario": "Build the OpenCode project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opencode config set name MyProject",
+      "description": "Set the OpenCode project name",
+      "scenario": "Set the OpenCode project name",
+      "language": "bash",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opencode config set server.port 8080",
+      "description": "Configure the OpenCode server port",
+      "scenario": "Configure the OpenCode server port",
+      "language": "bash",
+      "tags": [
+        "config",
+        "server",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opencode config set logging.verbose true",
+      "description": "Enable verbose logging in OpenCode",
+      "scenario": "Enable verbose logging in OpenCode",
+      "language": "bash",
+      "tags": [
+        "config",
+        "logging",
+        "verbose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opencode deploy --remote",
+      "description": "Deploy the OpenCode project to a remote server",
+      "scenario": "Deploy the OpenCode project to a remote server",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "remote",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opencode test",
+      "description": "Run tests for the OpenCode project",
+      "scenario": "Run tests for the OpenCode project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opencode generate component MyComponent",
+      "description": "Generate a new component in OpenCode",
+      "scenario": "Generate a new component in OpenCode",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "component",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try {\n  // code\n} catch (error) {\n  console.error(error);\n}",
+      "description": "Pattern to handle errors in OpenCode",
+      "scenario": "Pattern to handle errors in OpenCode",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://api.example.com/data')\n  .then(response => response.json())\n  .then(data => console.log(data));",
+      "description": "Pattern to fetch data from an API in OpenCode",
+      "scenario": "Pattern to fetch data from an API in OpenCode",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "api",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function debounce(func, wait) {\n  let timeout;\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(this, args), wait);\n  };\n}",
+      "description": "Pattern to debounce a function in OpenCode",
+      "scenario": "Pattern to debounce a function in OpenCode",
+      "language": "javascript",
+      "tags": [
+        "debounce",
+        "function",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

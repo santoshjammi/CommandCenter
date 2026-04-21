@@ -1,0 +1,204 @@
+{
+  "title": "Veritas Cluster Cheat Sheet",
+  "slug": "veritas-cluster",
+  "description": "Essential commands and configurations for Veritas Cluster management.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "hastart",
+      "description": "Start the Veritas Cluster",
+      "scenario": "Start the Veritas Cluster",
+      "language": "bash",
+      "tags": [
+        "start",
+        "cluster",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hastop -all",
+      "description": "Stop the Veritas Cluster",
+      "scenario": "Stop the Veritas Cluster",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "cluster",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hastatus -sum",
+      "description": "Check the status of the Veritas Cluster",
+      "scenario": "Check the status of the Veritas Cluster",
+      "language": "bash",
+      "tags": [
+        "status",
+        "cluster",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hagrp -online service_group_name -sys system_name",
+      "description": "Online a service group",
+      "scenario": "Online a service group",
+      "language": "bash",
+      "tags": [
+        "service group",
+        "online",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hagrp -offline service_group_name -sys system_name",
+      "description": "Offline a service group",
+      "scenario": "Offline a service group",
+      "language": "bash",
+      "tags": [
+        "service group",
+        "offline",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hagrp -switch service_group_name -to system_name",
+      "description": "Switch a service group to another system",
+      "scenario": "Switch a service group to another system",
+      "language": "bash",
+      "tags": [
+        "service group",
+        "switch",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hares -modify resource_name Enabled 1",
+      "description": "Enable a resource",
+      "scenario": "Enable a resource",
+      "language": "bash",
+      "tags": [
+        "resource",
+        "enable",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hares -modify resource_name Enabled 0",
+      "description": "Disable a resource",
+      "scenario": "Disable a resource",
+      "language": "bash",
+      "tags": [
+        "resource",
+        "disable",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hares -state resource_name",
+      "description": "Check the status of a resource",
+      "scenario": "Check the status of a resource",
+      "language": "bash",
+      "tags": [
+        "resource",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cat /etc/VRTSvcs/conf/config/main.cf",
+      "description": "View the main Veritas Cluster configuration file",
+      "scenario": "View the main Veritas Cluster configuration file",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "file",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vi /etc/VRTSvcs/conf/config/main.cf",
+      "description": "Edit the Veritas Cluster configuration file",
+      "scenario": "Edit the Veritas Cluster configuration file",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "file",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hacf -verify /etc/VRTSvcs/conf/config",
+      "description": "Validate the Veritas Cluster configuration",
+      "scenario": "Validate the Veritas Cluster configuration",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "validate",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tail -f /var/VRTSvcs/log/engine_A.log",
+      "description": "View the Veritas Cluster engine log",
+      "scenario": "View the Veritas Cluster engine log",
+      "language": "bash",
+      "tags": [
+        "log",
+        "view",
+        "engine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vxlogmgr --rotate",
+      "description": "Rotate the Veritas Cluster logs",
+      "scenario": "Rotate the Veritas Cluster logs",
+      "language": "bash",
+      "tags": [
+        "log",
+        "rotate",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "du -sh /var/VRTSvcs/log/",
+      "description": "Check the Veritas Cluster log file size",
+      "scenario": "Check the Veritas Cluster log file size",
+      "language": "bash",
+      "tags": [
+        "log",
+        "size",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

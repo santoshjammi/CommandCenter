@@ -1,0 +1,204 @@
+{
+  "title": "Vainglory CLI and Configuration",
+  "slug": "vainglory",
+  "description": "Essential CLI commands and configuration for Vainglory development.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "vg-server start",
+      "description": "Start the Vainglory server",
+      "scenario": "Start the Vainglory server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vg-server stop",
+      "description": "Stop the Vainglory server",
+      "scenario": "Stop the Vainglory server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vg-server status",
+      "description": "Check the status of the Vainglory server",
+      "scenario": "Check the status of the Vainglory server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "status",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "server_port: 8080",
+      "description": "Set server port in configuration file",
+      "scenario": "Set server port in configuration file",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "server",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug_mode: true",
+      "description": "Enable debug mode in configuration file",
+      "scenario": "Enable debug mode in configuration file",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "debug",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "database_url: \"postgres://user:password@localhost:5432/vainglory\"",
+      "description": "Configure database connection string",
+      "scenario": "Configure database connection string",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "database",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try {\n  // server logic\n} catch (error) {\n  console.error('Server error:', error);\n}",
+      "description": "Pattern for handling server errors",
+      "scenario": "Pattern for handling server errors",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "error",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData() {\n  const response = await fetch('api/data');\n  return await response.json();\n}",
+      "description": "Pattern for asynchronous data fetching",
+      "scenario": "Pattern for asynchronous data fetching",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "async",
+        "fetch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function authenticateUser(username, password) {\n  // authentication logic\n  return isAuthenticated;\n}",
+      "description": "Pattern for user authentication",
+      "scenario": "Pattern for user authentication",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "authentication",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Character {\n  constructor(name, role) {\n    this.name = name;\n    this.role = role;\n  }\n}",
+      "description": "Define a new game character",
+      "scenario": "Define a new game character",
+      "language": "javascript",
+      "tags": [
+        "syntax",
+        "class",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const map = new Map();",
+      "description": "Create a new game map",
+      "scenario": "Create a new game map",
+      "language": "javascript",
+      "tags": [
+        "syntax",
+        "map",
+        "game"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const settings = {\n  difficulty: 'medium',\n  sound: true,\n  graphics: 'high'\n};",
+      "description": "Initialize game settings",
+      "scenario": "Initialize game settings",
+      "language": "javascript",
+      "tags": [
+        "syntax",
+        "settings",
+        "initialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vg-server start --verbose",
+      "description": "Run server in verbose mode",
+      "scenario": "Run server in verbose mode",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "verbose",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vg-server start --config /path/to/config.yaml",
+      "description": "Set custom configuration file",
+      "scenario": "Set custom configuration file",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "config",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vg-server start --maintenance",
+      "description": "Enable maintenance mode",
+      "scenario": "Enable maintenance mode",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "maintenance",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

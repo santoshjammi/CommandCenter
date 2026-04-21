@@ -1,0 +1,204 @@
+{
+  "title": "Bowler Robotics Cheat Sheet",
+  "slug": "bowler-robotics",
+  "description": "Essential commands and patterns for Bowler Robotics development",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "bowler init my_project",
+      "description": "Initialize a new Bowler Robotics project",
+      "scenario": "Initialize a new Bowler Robotics project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bowler build",
+      "description": "Build the Bowler Robotics project",
+      "scenario": "Build the Bowler Robotics project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bowler run",
+      "description": "Run the Bowler Robotics project",
+      "scenario": "Run the Bowler Robotics project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "project_name: MyBowlerProject",
+      "description": "Set the project name in the configuration file",
+      "scenario": "Set the project name in the configuration file",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "project",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "target_platform: RaspberryPi",
+      "description": "Specify the target platform for deployment",
+      "scenario": "Specify the target platform for deployment",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "platform",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug_mode: true",
+      "description": "Enable debug mode for detailed logs",
+      "scenario": "Enable debug mode for detailed logs",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "debug",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for sensor in sensors:\n    process(sensor)",
+      "description": "Loop through sensor data",
+      "scenario": "Loop through sensor data",
+      "language": "python",
+      "tags": [
+        "loop",
+        "sensor",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "motor = Motor(speed=100, direction='forward')",
+      "description": "Initialize a motor with specific parameters",
+      "scenario": "Initialize a motor with specific parameters",
+      "language": "python",
+      "tags": [
+        "motor",
+        "init",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try:\n    operate_robot()\nexcept RobotError as e:\n    handle_error(e)",
+      "description": "Handle exceptions during robot operation",
+      "scenario": "Handle exceptions during robot operation",
+      "language": "python",
+      "tags": [
+        "exception",
+        "error",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def start_robot():\n    print('Robot started')",
+      "description": "Define a function to start the robot",
+      "scenario": "Define a function to start the robot",
+      "language": "python",
+      "tags": [
+        "function",
+        "start",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class RoboticArm:\n    def __init__(self, length):\n        self.length = length",
+      "description": "Create a class for a robotic arm",
+      "scenario": "Create a class for a robotic arm",
+      "language": "python",
+      "tags": [
+        "class",
+        "robotic",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import bowler\nimport robotics",
+      "description": "Import necessary modules for robotics",
+      "scenario": "Import necessary modules for robotics",
+      "language": "python",
+      "tags": [
+        "import",
+        "modules",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bowler run --verbose",
+      "description": "Run the project in verbose mode",
+      "scenario": "Run the project in verbose mode",
+      "language": "bash",
+      "tags": [
+        "run",
+        "verbose",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bowler build --config custom_config.yaml",
+      "description": "Specify a custom configuration file",
+      "scenario": "Specify a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "build",
+        "config",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bowler --help",
+      "description": "List all available commands and options",
+      "scenario": "List all available commands and options",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

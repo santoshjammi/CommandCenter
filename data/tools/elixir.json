@@ -1,0 +1,190 @@
+{
+  "title": "Elixir Cheat Sheet",
+  "slug": "elixir",
+  "description": "Essential Elixir syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "defmodule MyModule do\n  def my_function do\n    IO.puts \"Hello, World!\"\n  end\nend",
+      "description": "Define a module with a function",
+      "scenario": "Define a module with a function",
+      "language": "elixir",
+      "tags": [
+        "module",
+        "function",
+        "hello world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{a, b} = {1, 2}\nIO.puts a # Outputs 1",
+      "description": "Pattern matching with tuples",
+      "scenario": "Pattern matching with tuples",
+      "language": "elixir",
+      "tags": [
+        "pattern matching",
+        "tuples"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"elixir\" |> String.upcase() |> IO.puts",
+      "description": "Using the pipe operator",
+      "scenario": "Using the pipe operator",
+      "language": "elixir",
+      "tags": [
+        "pipe operator",
+        "string manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if true do\n  IO.puts \"This is true\"\nelse\n  IO.puts \"This is false\"\nend",
+      "description": "Conditional logic with if",
+      "scenario": "Conditional logic with if",
+      "language": "elixir",
+      "tags": [
+        "if statement",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case {1, 2, 3} do\n  {4, 5, 6} -> \"This won't match\"\n  {1, x, 3} -> \"This will match and x is #{x}\"\nend",
+      "description": "Case statement example",
+      "scenario": "Case statement example",
+      "language": "elixir",
+      "tags": [
+        "case statement",
+        "pattern matching"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cond do\n  2 + 2 == 5 -> \"This is false\"\n  2 * 2 == 4 -> \"This is true\"\nend",
+      "description": "Using cond for multiple conditions",
+      "scenario": "Using cond for multiple conditions",
+      "language": "elixir",
+      "tags": [
+        "cond",
+        "multiple conditions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list = [1, 2, 3]\nlist = [0 | list] # Prepend 0 to the list",
+      "description": "Create and manipulate a list",
+      "scenario": "Create and manipulate a list",
+      "language": "elixir",
+      "tags": [
+        "lists",
+        "collections"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "map = %{:a => 1, :b => 2}\nmap = Map.put(map, :c, 3)",
+      "description": "Map operations example",
+      "scenario": "Map operations example",
+      "language": "elixir",
+      "tags": [
+        "maps",
+        "key-value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kw_list = [a: 1, b: 2, c: 3]\nIO.inspect kw_list[:a] # Outputs 1",
+      "description": "Using keyword lists",
+      "scenario": "Using keyword lists",
+      "language": "elixir",
+      "tags": [
+        "keyword lists",
+        "collections"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spawn(fn -> IO.puts \"Hello from a new process\" end)",
+      "description": "Spawn a new process",
+      "scenario": "Spawn a new process",
+      "language": "elixir",
+      "tags": [
+        "concurrency",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "send(self(), {:hello, \"world\"})\nreceive do\n  {:hello, msg} -> IO.puts msg\nend",
+      "description": "Send and receive messages between processes",
+      "scenario": "Send and receive messages between processes",
+      "language": "elixir",
+      "tags": [
+        "messages",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "task = Task.async(fn -> 1 + 1 end)\nresult = Task.await(task)",
+      "description": "Using Task for asynchronous work",
+      "scenario": "Using Task for asynchronous work",
+      "language": "elixir",
+      "tags": [
+        "task",
+        "asynchronous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix new my_project",
+      "description": "Create a new Mix project",
+      "scenario": "Create a new Mix project",
+      "language": "bash",
+      "tags": [
+        "mix",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix compile",
+      "description": "Compile a Mix project",
+      "scenario": "Compile a Mix project",
+      "language": "bash",
+      "tags": [
+        "mix",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "defp deps do\n  [\n    {:plug, \"~> 1.11\"}\n  ]\nend",
+      "description": "Add a dependency to mix.exs",
+      "scenario": "Add a dependency to mix.exs",
+      "language": "elixir",
+      "tags": [
+        "dependencies",
+        "mix"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

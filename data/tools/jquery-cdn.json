@@ -1,0 +1,204 @@
+{
+  "title": "jQuery CDN Cheat Sheet",
+  "slug": "jquery-cdn",
+  "description": "Quick reference for using jQuery CDN in web projects",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js\"></script>",
+      "description": "Include jQuery from Google's CDN",
+      "scenario": "Include jQuery from Google's CDN",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "cdn",
+        "google"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js\"></script>",
+      "description": "Include jQuery from Microsoft's CDN",
+      "scenario": "Include jQuery from Microsoft's CDN",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "cdn",
+        "microsoft"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>",
+      "description": "Include jQuery from jQuery's own CDN",
+      "scenario": "Include jQuery from jQuery's own CDN",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "cdn",
+        "official"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>",
+      "description": "Include specific version of jQuery",
+      "scenario": "Include specific version of jQuery",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "version",
+        "cdn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/jquery-3.6.x.min.js\"></script>",
+      "description": "Include latest patch of a minor version",
+      "scenario": "Include latest patch of a minor version",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "version",
+        "cdn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/jquery-latest.min.js\"></script>",
+      "description": "Include latest version of jQuery",
+      "scenario": "Include latest version of jQuery",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "latest",
+        "cdn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n<script>window.jQuery || document.write('<script src=\"/path/to/local/jquery.min.js\"><\\/script>')</script>",
+      "description": "Use local jQuery if CDN fails",
+      "scenario": "Use local jQuery if CDN fails",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "cdn",
+        "fallback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (typeof jQuery == 'undefined') {\n    console.log('jQuery not loaded');\n} else {\n    console.log('jQuery loaded');\n}",
+      "description": "Check if jQuery is loaded",
+      "scenario": "Check if jQuery is loaded",
+      "language": "javascript",
+      "tags": [
+        "jquery",
+        "check",
+        "cdn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n<script>\nif (typeof jQuery == 'undefined') {\n    var script = document.createElement('script');\n    script.src = '/path/to/local/jquery.min.js';\n    document.head.appendChild(script);\n}\n</script>",
+      "description": "Load jQuery from CDN with local fallback",
+      "scenario": "Load jQuery from CDN with local fallback",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "cdn",
+        "fallback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" integrity=\"sha384-HASH\" crossorigin=\"anonymous\"></script>",
+      "description": "Include jQuery with SRI and crossorigin attributes",
+      "scenario": "Include jQuery with SRI and crossorigin attributes",
+      "language": "html",
+      "tags": [
+        "jquery",
+        "sri",
+        "cdn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl dgst -sha384 -binary jquery-3.6.0.min.js | openssl base64 -A",
+      "description": "Generate SRI hash for jQuery",
+      "scenario": "Generate SRI hash for jQuery",
+      "language": "bash",
+      "tags": [
+        "sri",
+        "hash",
+        "openssl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" crossorigin=\"anonymous\"></script>",
+      "description": "Use crossorigin attribute for CDN scripts",
+      "scenario": "Use crossorigin attribute for CDN scripts",
+      "language": "html",
+      "tags": [
+        "crossorigin",
+        "cdn",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$(document).ready(function() {\n    console.log('Document is ready');\n});",
+      "description": "Document ready function in jQuery",
+      "scenario": "Document ready function in jQuery",
+      "language": "javascript",
+      "tags": [
+        "jquery",
+        "ready",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').hide();",
+      "description": "Select an element by ID",
+      "scenario": "Select an element by ID",
+      "language": "javascript",
+      "tags": [
+        "jquery",
+        "selector",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#buttonId').click(function() {\n    alert('Button clicked');\n});",
+      "description": "Attach a click event handler",
+      "scenario": "Attach a click event handler",
+      "language": "javascript",
+      "tags": [
+        "jquery",
+        "event",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

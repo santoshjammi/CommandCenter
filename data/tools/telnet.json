@@ -1,0 +1,165 @@
+{
+  "title": "Telnet Cheat Sheet",
+  "slug": "telnet",
+  "description": "Essential Telnet commands and configurations for network engineers.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "telnet <hostname> <port>",
+      "description": "Connect to a remote host using Telnet.",
+      "scenario": "Connect to a remote host using Telnet.",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "remote",
+        "host"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exit",
+      "description": "Exit the Telnet session.",
+      "scenario": "Exit the Telnet session.",
+      "language": "bash",
+      "tags": [
+        "exit",
+        "session",
+        "quit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?",
+      "description": "Display Telnet command help.",
+      "scenario": "Display Telnet command help.",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "toggle localecho",
+      "description": "Toggle local echo of characters.",
+      "scenario": "Toggle local echo of characters.",
+      "language": "bash",
+      "tags": [
+        "echo",
+        "toggle",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "send break",
+      "description": "Send a Telnet break signal.",
+      "scenario": "Send a Telnet break signal.",
+      "language": "bash",
+      "tags": [
+        "break",
+        "signal",
+        "interrupt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "status",
+      "description": "Display status of the current Telnet session.",
+      "scenario": "Display status of the current Telnet session.",
+      "language": "bash",
+      "tags": [
+        "status",
+        "session",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set term <type>",
+      "description": "Set the terminal type for the session.",
+      "scenario": "Set the terminal type for the session.",
+      "language": "bash",
+      "tags": [
+        "terminal",
+        "type",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "toggle debug",
+      "description": "Enable debugging mode for Telnet.",
+      "scenario": "Enable debugging mode for Telnet.",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "mode",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set escape <char>",
+      "description": "Set the escape character for Telnet.",
+      "scenario": "Set the escape character for Telnet.",
+      "language": "bash",
+      "tags": [
+        "escape",
+        "character",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "telnet <hostname> <port>",
+      "description": "Check if a specific port is open on a host.",
+      "scenario": "Check if a specific port is open on a host.",
+      "language": "bash",
+      "tags": [
+        "port",
+        "check",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "telnet <ip_address>",
+      "description": "Test connectivity to a remote server.",
+      "scenario": "Test connectivity to a remote server.",
+      "language": "bash",
+      "tags": [
+        "connectivity",
+        "test",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "telnet <hostname> <port> | tee output.txt",
+      "description": "Capture Telnet session output to a file.",
+      "scenario": "Capture Telnet session output to a file.",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "output",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

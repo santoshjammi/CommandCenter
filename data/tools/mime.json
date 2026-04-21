@@ -1,0 +1,204 @@
+{
+  "title": "MIME Types Cheat Sheet",
+  "slug": "mime",
+  "description": "Quick reference for common MIME types and usage.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "text/html",
+      "description": "MIME type for HTML files",
+      "scenario": "MIME type for HTML files",
+      "language": "text",
+      "tags": [
+        "html",
+        "web",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "text/plain",
+      "description": "MIME type for plain text files",
+      "scenario": "MIME type for plain text files",
+      "language": "text",
+      "tags": [
+        "text",
+        "plain",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "application/json",
+      "description": "MIME type for JSON data",
+      "scenario": "MIME type for JSON data",
+      "language": "text",
+      "tags": [
+        "json",
+        "application",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "image/jpeg",
+      "description": "MIME type for JPEG images",
+      "scenario": "MIME type for JPEG images",
+      "language": "text",
+      "tags": [
+        "jpeg",
+        "image",
+        "photo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "image/png",
+      "description": "MIME type for PNG images",
+      "scenario": "MIME type for PNG images",
+      "language": "text",
+      "tags": [
+        "png",
+        "image",
+        "photo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "image/gif",
+      "description": "MIME type for GIF images",
+      "scenario": "MIME type for GIF images",
+      "language": "text",
+      "tags": [
+        "gif",
+        "image",
+        "photo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "audio/mpeg",
+      "description": "MIME type for MP3 audio files",
+      "scenario": "MIME type for MP3 audio files",
+      "language": "text",
+      "tags": [
+        "audio",
+        "mp3",
+        "music"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "video/mp4",
+      "description": "MIME type for MP4 video files",
+      "scenario": "MIME type for MP4 video files",
+      "language": "text",
+      "tags": [
+        "video",
+        "mp4",
+        "media"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "audio/ogg",
+      "description": "MIME type for OGG audio files",
+      "scenario": "MIME type for OGG audio files",
+      "language": "text",
+      "tags": [
+        "audio",
+        "ogg",
+        "music"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "application/pdf",
+      "description": "MIME type for PDF documents",
+      "scenario": "MIME type for PDF documents",
+      "language": "text",
+      "tags": [
+        "pdf",
+        "document",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "application/zip",
+      "description": "MIME type for ZIP files",
+      "scenario": "MIME type for ZIP files",
+      "language": "text",
+      "tags": [
+        "zip",
+        "archive",
+        "compression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "application/javascript",
+      "description": "MIME type for JavaScript files",
+      "scenario": "MIME type for JavaScript files",
+      "language": "text",
+      "tags": [
+        "javascript",
+        "application",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Content-Type: application/json",
+      "description": "Set Content-Type header for JSON response",
+      "scenario": "Set Content-Type header for JSON response",
+      "language": "text",
+      "tags": [
+        "http",
+        "header",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Accept: text/html",
+      "description": "Set Accept header for HTML response",
+      "scenario": "Set Accept header for HTML response",
+      "language": "text",
+      "tags": [
+        "http",
+        "header",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Content-Type: application/x-www-form-urlencoded",
+      "description": "Set Content-Type header for form data",
+      "scenario": "Set Content-Type header for form data",
+      "language": "text",
+      "tags": [
+        "http",
+        "header",
+        "form"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

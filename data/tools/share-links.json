@@ -1,0 +1,165 @@
+{
+  "title": "Share Links Cheat Sheet",
+  "slug": "share-links",
+  "description": "Quick reference for generating and using share links in various contexts.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "https://github.com/user/repo/blob/branch/filename#L10",
+      "description": "Create a link to a specific line in a GitHub file",
+      "scenario": "Create a link to a specific line in a GitHub file",
+      "language": "text",
+      "tags": [
+        "GitHub",
+        "link",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://github.com/user/repo/commit/commit_hash",
+      "description": "Generate a permalink to a specific commit",
+      "scenario": "Generate a permalink to a specific commit",
+      "language": "text",
+      "tags": [
+        "GitHub",
+        "commit",
+        "permalink"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://github.com/user/repo/pull/123",
+      "description": "Share a link to a pull request",
+      "scenario": "Share a link to a pull request",
+      "language": "text",
+      "tags": [
+        "GitHub",
+        "pull request",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://drive.google.com/file/d/FILE_ID/view?usp=sharing",
+      "description": "Create a shareable link for a Google Drive file",
+      "scenario": "Create a shareable link for a Google Drive file",
+      "language": "text",
+      "tags": [
+        "Google Drive",
+        "share",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://drive.google.com/drive/folders/FOLDER_ID?usp=sharing",
+      "description": "Generate a link to a Google Drive folder",
+      "scenario": "Generate a link to a Google Drive folder",
+      "language": "text",
+      "tags": [
+        "Google Drive",
+        "folder",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://drive.google.com/uc?export=download&id=FILE_ID",
+      "description": "Create a link to download a Google Drive file directly",
+      "scenario": "Create a link to download a Google Drive file directly",
+      "language": "text",
+      "tags": [
+        "Google Drive",
+        "download",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://www.dropbox.com/s/FILE_ID/filename?dl=0",
+      "description": "Create a shareable link for a Dropbox file",
+      "scenario": "Create a shareable link for a Dropbox file",
+      "language": "text",
+      "tags": [
+        "Dropbox",
+        "share",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://www.dropbox.com/s/FILE_ID/filename?dl=1",
+      "description": "Generate a link to download a Dropbox file directly",
+      "scenario": "Generate a link to download a Dropbox file directly",
+      "language": "text",
+      "tags": [
+        "Dropbox",
+        "download",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://www.dropbox.com/sh/FOLDER_ID/foldername?dl=0",
+      "description": "Share a link to a Dropbox folder",
+      "scenario": "Share a link to a Dropbox folder",
+      "language": "text",
+      "tags": [
+        "Dropbox",
+        "folder",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://bitbucket.org/user/repo/src/branch/filename#lines-10",
+      "description": "Create a link to a specific line in a Bitbucket file",
+      "scenario": "Create a link to a specific line in a Bitbucket file",
+      "language": "text",
+      "tags": [
+        "Bitbucket",
+        "link",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://bitbucket.org/user/repo/commits/commit_hash",
+      "description": "Generate a permalink to a specific commit in Bitbucket",
+      "scenario": "Generate a permalink to a specific commit in Bitbucket",
+      "language": "text",
+      "tags": [
+        "Bitbucket",
+        "commit",
+        "permalink"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://bitbucket.org/user/repo/pull-requests/123",
+      "description": "Share a link to a Bitbucket pull request",
+      "scenario": "Share a link to a Bitbucket pull request",
+      "language": "text",
+      "tags": [
+        "Bitbucket",
+        "pull request",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

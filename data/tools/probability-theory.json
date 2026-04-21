@@ -1,0 +1,204 @@
+{
+  "title": "Probability Theory Cheat Sheet",
+  "slug": "probability-theory",
+  "description": "Essential probability theory concepts and formulas for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "P(A) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of outcomes}}",
+      "description": "Calculate the probability of a single event occurring.",
+      "scenario": "Calculate the probability of a single event occurring.",
+      "language": "text",
+      "tags": [
+        "probability",
+        "basic",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P(A') = 1 - P(A)",
+      "description": "Calculate the probability of the complement of an event.",
+      "scenario": "Calculate the probability of the complement of an event.",
+      "language": "text",
+      "tags": [
+        "complement",
+        "probability",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P(A \\cup B) = P(A) + P(B)",
+      "description": "Calculate the probability of either of two mutually exclusive events occurring.",
+      "scenario": "Calculate the probability of either of two mutually exclusive events occurring.",
+      "language": "text",
+      "tags": [
+        "mutually exclusive",
+        "probability",
+        "union"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P(A|B) = \\frac{P(A \\cap B)}{P(B)}",
+      "description": "Calculate the conditional probability of A given B.",
+      "scenario": "Calculate the conditional probability of A given B.",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "probability",
+        "given"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P(A|B) = \\frac{P(B|A)P(A)}{P(B)}",
+      "description": "Use Bayes' theorem to find the probability of A given B.",
+      "scenario": "Use Bayes' theorem to find the probability of A given B.",
+      "language": "text",
+      "tags": [
+        "bayes",
+        "conditional",
+        "probability"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P(A \\cap B) = P(A) \\cdot P(B)",
+      "description": "Determine if two events are independent.",
+      "scenario": "Determine if two events are independent.",
+      "language": "text",
+      "tags": [
+        "independence",
+        "probability",
+        "events"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P(X = x) = f(x)",
+      "description": "Define a discrete random variable and its probability mass function (PMF).",
+      "scenario": "Define a discrete random variable and its probability mass function (PMF).",
+      "language": "text",
+      "tags": [
+        "random variable",
+        "discrete",
+        "pmf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f(x) = \\frac{d}{dx}F(x)",
+      "description": "Define a continuous random variable and its probability density function (PDF).",
+      "scenario": "Define a continuous random variable and its probability density function (PDF).",
+      "language": "text",
+      "tags": [
+        "random variable",
+        "continuous",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "E(X) = \\sum_{i} x_i P(x_i)",
+      "description": "Calculate the expected value of a random variable.",
+      "scenario": "Calculate the expected value of a random variable.",
+      "language": "text",
+      "tags": [
+        "expected value",
+        "random variable",
+        "mean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X \\sim \\text{Binomial}(n, p)",
+      "description": "Describe the properties of a Binomial distribution.",
+      "scenario": "Describe the properties of a Binomial distribution.",
+      "language": "text",
+      "tags": [
+        "binomial",
+        "distribution",
+        "discrete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X \\sim \\mathcal{N}(\\mu, \\sigma^2)",
+      "description": "Describe the properties of a Normal distribution.",
+      "scenario": "Describe the properties of a Normal distribution.",
+      "language": "text",
+      "tags": [
+        "normal",
+        "distribution",
+        "continuous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X \\sim \\text{Poisson}(\\lambda)",
+      "description": "Describe the properties of a Poisson distribution.",
+      "scenario": "Describe the properties of a Poisson distribution.",
+      "language": "text",
+      "tags": [
+        "poisson",
+        "distribution",
+        "discrete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\text{Var}(X) = E(X^2) - [E(X)]^2",
+      "description": "Calculate the variance of a random variable.",
+      "scenario": "Calculate the variance of a random variable.",
+      "language": "text",
+      "tags": [
+        "variance",
+        "random variable",
+        "spread"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\sigma = \\sqrt{\\text{Var}(X)}",
+      "description": "Calculate the standard deviation of a random variable.",
+      "scenario": "Calculate the standard deviation of a random variable.",
+      "language": "text",
+      "tags": [
+        "standard deviation",
+        "random variable",
+        "spread"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\text{Cov}(X, Y) = E[(X - \\mu_X)(Y - \\mu_Y)]",
+      "description": "Calculate covariance between two random variables.",
+      "scenario": "Calculate covariance between two random variables.",
+      "language": "text",
+      "tags": [
+        "covariance",
+        "random variables",
+        "relationship"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

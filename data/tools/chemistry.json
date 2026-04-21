@@ -1,0 +1,126 @@
+{
+  "title": "Chemistry CLI and Scripting Cheat Sheet",
+  "slug": "chemistry",
+  "description": "Quick reference for chemistry-related CLI commands and scripts.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "obabel -:\"C6H6\" -omol -O output.mol",
+      "description": "Calculate molecular weight using Open Babel",
+      "scenario": "Calculate molecular weight using Open Babel",
+      "language": "bash",
+      "tags": [
+        "chemistry",
+        "openbabel",
+        "molecular-weight"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "obabel -:\"C6H6\" -oinchi",
+      "description": "Convert SMILES to InChI",
+      "scenario": "Convert SMILES to InChI",
+      "language": "bash",
+      "tags": [
+        "chemistry",
+        "openbabel",
+        "smiles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from rdkit import Chem\nfrom rdkit.Chem import Descriptors\nmol = Chem.MolFromSmiles('C6H6')\nweight = Descriptors.MolWt(mol)\nprint(weight)",
+      "description": "Calculate molecular weight using RDKit",
+      "scenario": "Calculate molecular weight using RDKit",
+      "language": "python",
+      "tags": [
+        "chemistry",
+        "rdkit",
+        "molecular-weight"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET \"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glucose/property/MolecularWeight,InChIKey/JSON\"",
+      "description": "Retrieve compound information from PubChem",
+      "scenario": "Retrieve compound information from PubChem",
+      "language": "bash",
+      "tags": [
+        "chemistry",
+        "pubchem",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from chempy import Substance\nwater = Substance.from_formula('H2O')\nprint(water.molar_mass())",
+      "description": "Fetch chemical properties using ChemPy",
+      "scenario": "Fetch chemical properties using ChemPy",
+      "language": "python",
+      "tags": [
+        "chemistry",
+        "chempy",
+        "properties"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET \"https://api.rsc.org/compounds/v1/records/CID/2157/details?apikey=YOUR_API_KEY\"",
+      "description": "Get compound details from ChemSpider",
+      "scenario": "Get compound details from ChemSpider",
+      "language": "bash",
+      "tags": [
+        "chemistry",
+        "chemspider",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from rdkit import Chem\nfrom rdkit.Chem import AllChem\nrxn = AllChem.ReactionFromSmarts('[C:1]=[C:2].[O:3]>>[C:1][O:3][C:2]')\nproducts = rxn.RunReactants((Chem.MolFromSmiles('C=C'), Chem.MolFromSmiles('O')))\nfor product in products:\n    print(Chem.MolToSmiles(product[0]))",
+      "description": "Simulate a reaction using RDKit",
+      "scenario": "Simulate a reaction using RDKit",
+      "language": "python",
+      "tags": [
+        "chemistry",
+        "rdkit",
+        "reaction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "obabel reactants.smi -O products.smi --rxn reaction.rxn",
+      "description": "Run a reaction simulation with Open Babel",
+      "scenario": "Run a reaction simulation with Open Babel",
+      "language": "bash",
+      "tags": [
+        "chemistry",
+        "openbabel",
+        "reaction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from chempy.kinetics.ode import get_odesys\nfrom chempy.kinetics.rates import MassAction\nfrom chempy import Reaction\nrxn = Reaction({'A': 1, 'B': 1}, {'C': 1}, MassAction(1.0))\nodesys, extra = get_odesys([rxn])\nprint(odesys)",
+      "description": "Simulate a chemical reaction using ChemPy",
+      "scenario": "Simulate a chemical reaction using ChemPy",
+      "language": "python",
+      "tags": [
+        "chemistry",
+        "chempy",
+        "reaction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

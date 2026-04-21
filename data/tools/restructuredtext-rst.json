@@ -1,0 +1,204 @@
+{
+  "title": "reStructuredText (RST) Cheat Sheet",
+  "slug": "restructuredtext-rst",
+  "description": "Quick reference for reStructuredText syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "**bold text**",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "text",
+      "tags": [
+        "bold",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*italic text*",
+      "description": "Make text italic",
+      "scenario": "Make text italic",
+      "language": "text",
+      "tags": [
+        "italic",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`link text <http://example.com>`_",
+      "description": "Create a hyperlink",
+      "scenario": "Create a hyperlink",
+      "language": "text",
+      "tags": [
+        "link",
+        "hyperlink",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n- Item 2\n- Item 3",
+      "description": "Create an unordered list",
+      "scenario": "Create an unordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "unordered",
+        "bullet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. First item\n2. Second item\n3. Third item",
+      "description": "Create an ordered list",
+      "scenario": "Create an ordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "ordered",
+        "numbered"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Term 1\n  Definition 1\n\nTerm 2\n  Definition 2",
+      "description": "Create a definition list",
+      "scenario": "Create a definition list",
+      "language": "text",
+      "tags": [
+        "list",
+        "definition",
+        "term"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Section Title\n=============",
+      "description": "Create a section with a title",
+      "scenario": "Create a section with a title",
+      "language": "text",
+      "tags": [
+        "section",
+        "header",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Subsection Title\n-----------------",
+      "description": "Create a subsection",
+      "scenario": "Create a subsection",
+      "language": "text",
+      "tags": [
+        "subsection",
+        "header",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Sub-subsection Title\n~~~~~~~~~~~~~~~~~~~~~",
+      "description": "Create a sub-subsection",
+      "scenario": "Create a sub-subsection",
+      "language": "text",
+      "tags": [
+        "sub-subsection",
+        "header",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".. image:: /path/to/image.png",
+      "description": "Include an image",
+      "scenario": "Include an image",
+      "language": "text",
+      "tags": [
+        "image",
+        "directive",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".. code-block:: python\n\n   def hello_world():\n       print(\"Hello, world!\")",
+      "description": "Create a code block",
+      "scenario": "Create a code block",
+      "language": "text",
+      "tags": [
+        "code",
+        "block",
+        "directive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "``inline code``",
+      "description": "Use a role for inline code",
+      "scenario": "Use a role for inline code",
+      "language": "text",
+      "tags": [
+        "code",
+        "inline",
+        "role"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+---------+----------+\n| Header 1 | Header 2 |\n+=========+==========+\n| Cell 1  | Cell 2   |\n+---------+----------+",
+      "description": "Create a simple table",
+      "scenario": "Create a simple table",
+      "language": "text",
+      "tags": [
+        "table",
+        "simple",
+        "grid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".. list-table::\n   :header-rows: 1\n\n   * - Header 1\n     - Header 2\n   * - Row 1, Cell 1\n     - Row 1, Cell 2",
+      "description": "Create a list table",
+      "scenario": "Create a list table",
+      "language": "text",
+      "tags": [
+        "table",
+        "list",
+        "header"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".. csv-table::\n   :header: \"Name\", \"Age\"\n\n   \"Alice\", 30\n   \"Bob\", 25",
+      "description": "Create a CSV table",
+      "scenario": "Create a CSV table",
+      "language": "text",
+      "tags": [
+        "table",
+        "csv",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

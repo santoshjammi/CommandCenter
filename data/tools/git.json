@@ -1,0 +1,204 @@
+{
+  "title": "Git Cheat Sheet",
+  "slug": "git",
+  "description": "Essential Git commands and patterns for version control.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git init",
+      "description": "Initialize a new Git repository",
+      "scenario": "Initialize a new Git repository",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "repository",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone <repository-url>",
+      "description": "Clone an existing repository",
+      "scenario": "Clone an existing repository",
+      "language": "bash",
+      "tags": [
+        "clone",
+        "repository",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git status",
+      "description": "Check the status of the repository",
+      "scenario": "Check the status of the repository",
+      "language": "bash",
+      "tags": [
+        "status",
+        "check",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch <branch-name>",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout <branch-name>",
+      "description": "Switch to a different branch",
+      "scenario": "Switch to a different branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "switch",
+        "checkout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge <branch-name>",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "branch",
+        "combine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git add <file-name>",
+      "description": "Add changes to the staging area",
+      "scenario": "Add changes to the staging area",
+      "language": "bash",
+      "tags": [
+        "add",
+        "stage",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"commit message\"",
+      "description": "Commit staged changes with a message",
+      "scenario": "Commit staged changes with a message",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "message",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit --amend",
+      "description": "Amend the last commit",
+      "scenario": "Amend the last commit",
+      "language": "bash",
+      "tags": [
+        "amend",
+        "commit",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git remote add origin <repository-url>",
+      "description": "Add a remote repository",
+      "scenario": "Add a remote repository",
+      "language": "bash",
+      "tags": [
+        "remote",
+        "add",
+        "origin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin <branch-name>",
+      "description": "Push changes to the remote repository",
+      "scenario": "Push changes to the remote repository",
+      "language": "bash",
+      "tags": [
+        "push",
+        "remote",
+        "upload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git fetch origin",
+      "description": "Fetch changes from the remote repository",
+      "scenario": "Fetch changes from the remote repository",
+      "language": "bash",
+      "tags": [
+        "fetch",
+        "remote",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git revert <commit-hash>",
+      "description": "Revert a specific commit",
+      "scenario": "Revert a specific commit",
+      "language": "bash",
+      "tags": [
+        "revert",
+        "commit",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git reset --hard <commit-hash>",
+      "description": "Reset the current branch to a previous state",
+      "scenario": "Reset the current branch to a previous state",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "branch",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clean -f",
+      "description": "Remove untracked files from the working directory",
+      "scenario": "Remove untracked files from the working directory",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "untracked",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

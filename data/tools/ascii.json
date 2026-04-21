@@ -1,0 +1,165 @@
+{
+  "title": "ASCII Cheat Sheet",
+  "slug": "ascii",
+  "description": "Quick reference for ASCII character codes and conversions.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "10",
+      "description": "ASCII code for newline",
+      "scenario": "ASCII code for newline",
+      "language": "text",
+      "tags": [
+        "ascii",
+        "newline",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "32",
+      "description": "ASCII code for space",
+      "scenario": "ASCII code for space",
+      "language": "text",
+      "tags": [
+        "ascii",
+        "space",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "65",
+      "description": "ASCII code for letter 'A'",
+      "scenario": "ASCII code for letter 'A'",
+      "language": "text",
+      "tags": [
+        "ascii",
+        "letter",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ord('A')",
+      "description": "Convert character to ASCII code in Python",
+      "scenario": "Convert character to ASCII code in Python",
+      "language": "python",
+      "tags": [
+        "ascii",
+        "python",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chr(65)",
+      "description": "Convert ASCII code to character in Python",
+      "scenario": "Convert ASCII code to character in Python",
+      "language": "python",
+      "tags": [
+        "ascii",
+        "python",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "printf '%d' \"'A'\"",
+      "description": "Convert character to ASCII code in Bash",
+      "scenario": "Convert character to ASCII code in Bash",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "bash",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in {32..126}; do printf \"%d %c\\n\" \"$i\" \"$i\"; done",
+      "description": "Print ASCII table using Bash",
+      "scenario": "Print ASCII table using Bash",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "bash",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print(''.join(chr(i) for i in range(32, 127)))",
+      "description": "Display ASCII table using Python",
+      "scenario": "Display ASCII table using Python",
+      "language": "python",
+      "tags": [
+        "ascii",
+        "python",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for(let i=32; i<=126; i++) console.log(i, String.fromCharCode(i));",
+      "description": "Generate ASCII table using JavaScript",
+      "scenario": "Generate ASCII table using JavaScript",
+      "language": "javascript",
+      "tags": [
+        "ascii",
+        "javascript",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "figlet 'Hello'",
+      "description": "Generate ASCII art from text using figlet",
+      "scenario": "Generate ASCII art from text using figlet",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "art",
+        "figlet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "toilet 'Hello'",
+      "description": "Create ASCII art with toilet",
+      "scenario": "Create ASCII art with toilet",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "art",
+        "toilet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jp2a --output=output.txt image.jpg",
+      "description": "Convert image to ASCII art using jp2a",
+      "scenario": "Convert image to ASCII art using jp2a",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "art",
+        "jp2a"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

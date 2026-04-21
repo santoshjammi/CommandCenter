@@ -1,0 +1,204 @@
+{
+  "title": "Dart Cheat Sheet",
+  "slug": "dart",
+  "description": "Essential Dart syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var name = 'John';",
+      "description": "Declare a variable with type inference",
+      "scenario": "Declare a variable with type inference",
+      "language": "dart",
+      "tags": [
+        "variables",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const pi = 3.14;",
+      "description": "Define a constant value",
+      "scenario": "Define a constant value",
+      "language": "dart",
+      "tags": [
+        "constants",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int add(int a, int b) => a + b;",
+      "description": "Create a simple function",
+      "scenario": "Create a simple function",
+      "language": "dart",
+      "tags": [
+        "functions",
+        "syntax",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (isRaining) { print('Take an umbrella'); } else { print('No need for an umbrella'); }",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "dart",
+      "tags": [
+        "control flow",
+        "if-else",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (var item in items) { print(item); }",
+      "description": "For loop to iterate over a list",
+      "scenario": "For loop to iterate over a list",
+      "language": "dart",
+      "tags": [
+        "loops",
+        "iteration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch (day) { case 'Monday': print('Start of work week'); break; default: print('Not Monday'); }",
+      "description": "Switch-case statement",
+      "scenario": "Switch-case statement",
+      "language": "dart",
+      "tags": [
+        "control flow",
+        "switch-case",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List<int> numbers = [1, 2, 3, 4, 5];",
+      "description": "Create a list of integers",
+      "scenario": "Create a list of integers",
+      "language": "dart",
+      "tags": [
+        "collections",
+        "lists",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Map<String, int> scores = {'Alice': 90, 'Bob': 85};",
+      "description": "Create a map with string keys and integer values",
+      "scenario": "Create a map with string keys and integer values",
+      "language": "dart",
+      "tags": [
+        "collections",
+        "maps",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "numbers.add(6);",
+      "description": "Add an item to a list",
+      "scenario": "Add an item to a list",
+      "language": "dart",
+      "tags": [
+        "collections",
+        "lists",
+        "methods"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Car { String make; String model; Car(this.make, this.model); }",
+      "description": "Define a simple class",
+      "scenario": "Define a simple class",
+      "language": "dart",
+      "tags": [
+        "classes",
+        "objects",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Car myCar = Car('Toyota', 'Corolla');",
+      "description": "Instantiate an object from a class",
+      "scenario": "Instantiate an object from a class",
+      "language": "dart",
+      "tags": [
+        "objects",
+        "instantiation",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Car { String make; String model; Car(this.make, this.model); void displayInfo() { print('Car: $make $model'); } }",
+      "description": "Define a method within a class",
+      "scenario": "Define a method within a class",
+      "language": "dart",
+      "tags": [
+        "methods",
+        "classes",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dart run my_program.dart",
+      "description": "Run a Dart program",
+      "scenario": "Run a Dart program",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "commands",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dart format .",
+      "description": "Format Dart code",
+      "scenario": "Format Dart code",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "formatting",
+        "commands"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dart pub get",
+      "description": "Get package dependencies",
+      "scenario": "Get package dependencies",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "packages",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

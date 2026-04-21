@@ -1,0 +1,204 @@
+{
+  "title": "Bitbucket Cheat Sheet",
+  "slug": "bitbucket",
+  "description": "Essential Bitbucket commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "git clone https://bitbucket.org/<username>/<repository>.git",
+      "description": "Clone a repository from Bitbucket",
+      "scenario": "Clone a repository from Bitbucket",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git add .",
+      "description": "Add changes to the staging area",
+      "scenario": "Add changes to the staging area",
+      "language": "bash",
+      "tags": [
+        "git",
+        "add",
+        "staging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Your commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout -b <branch-name>",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout <branch-name>",
+      "description": "Switch to an existing branch",
+      "scenario": "Switch to an existing branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge <branch-name>",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "merge"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bb repositories list --username <username>",
+      "description": "List all repositories for a user",
+      "scenario": "List all repositories for a user",
+      "language": "bash",
+      "tags": [
+        "bitbucket",
+        "cli",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bb repositories create <repository-name>",
+      "description": "Create a new repository",
+      "scenario": "Create a new repository",
+      "language": "bash",
+      "tags": [
+        "bitbucket",
+        "cli",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bb repositories delete <repository-name>",
+      "description": "Delete a repository",
+      "scenario": "Delete a repository",
+      "language": "bash",
+      "tags": [
+        "bitbucket",
+        "cli",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bb pullrequest create --source <branch> --destination <branch>",
+      "description": "Create a pull request",
+      "scenario": "Create a pull request",
+      "language": "bash",
+      "tags": [
+        "bitbucket",
+        "pullrequest",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bb pullrequest list",
+      "description": "List all pull requests",
+      "scenario": "List all pull requests",
+      "language": "bash",
+      "tags": [
+        "bitbucket",
+        "pullrequest",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bb pullrequest approve <pullrequest-id>",
+      "description": "Approve a pull request",
+      "scenario": "Approve a pull request",
+      "language": "bash",
+      "tags": [
+        "bitbucket",
+        "pullrequest",
+        "approve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git config --global user.name \"Your Name\"",
+      "description": "Configure username for Bitbucket",
+      "scenario": "Configure username for Bitbucket",
+      "language": "bash",
+      "tags": [
+        "git",
+        "config",
+        "username"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git config --global user.email \"your-email@example.com\"",
+      "description": "Configure email for Bitbucket",
+      "scenario": "Configure email for Bitbucket",
+      "language": "bash",
+      "tags": [
+        "git",
+        "config",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh-keygen -t rsa -b 4096 -C \"your-email@example.com\"",
+      "description": "Set up SSH for Bitbucket",
+      "scenario": "Set up SSH for Bitbucket",
+      "language": "bash",
+      "tags": [
+        "ssh",
+        "bitbucket",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

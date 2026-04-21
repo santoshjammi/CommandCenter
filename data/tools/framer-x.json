@@ -1,0 +1,204 @@
+{
+  "title": "Framer X Cheat Sheet",
+  "slug": "framer-x",
+  "description": "Essential commands and patterns for Framer X development",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "framerx create my-project",
+      "description": "Start a new Framer X project",
+      "scenario": "Start a new Framer X project",
+      "language": "bash",
+      "tags": [
+        "framerx",
+        "project",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "framerx start",
+      "description": "Run the Framer X development server",
+      "scenario": "Run the Framer X development server",
+      "language": "bash",
+      "tags": [
+        "framerx",
+        "server",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "framerx build",
+      "description": "Build the Framer X project for production",
+      "scenario": "Build the Framer X project for production",
+      "language": "bash",
+      "tags": [
+        "framerx",
+        "build",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export function MyComponent() { return <Frame size={100} />; }",
+      "description": "Define a simple Framer X component",
+      "scenario": "Define a simple Framer X component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "framerx",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const [count, setCount] = useState(0);",
+      "description": "Use a hook to manage state in a component",
+      "scenario": "Use a hook to manage state in a component",
+      "language": "javascript",
+      "tags": [
+        "hooks",
+        "state",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { MyComponent } from './MyComponent';",
+      "description": "Import a component from another file",
+      "scenario": "Import a component from another file",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "component",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<motion.div animate={{ x: 100 }} />",
+      "description": "Create a simple animation using Framer Motion",
+      "scenario": "Create a simple animation using Framer Motion",
+      "language": "javascript",
+      "tags": [
+        "animation",
+        "motion",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<motion.div animate={{ scale: 2 }} transition={{ type: 'spring' }} />",
+      "description": "Use a spring animation",
+      "scenario": "Use a spring animation",
+      "language": "javascript",
+      "tags": [
+        "animation",
+        "spring",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<AnimatePresence><motion.div exit={{ opacity: 0 }} /></AnimatePresence>",
+      "description": "Animate presence of a component",
+      "scenario": "Animate presence of a component",
+      "language": "javascript",
+      "tags": [
+        "animation",
+        "presence",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export const theme = { primaryColor: '#ff0000' };",
+      "description": "Set up a custom theme",
+      "scenario": "Set up a custom theme",
+      "language": "javascript",
+      "tags": [
+        "theme",
+        "configuration",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export const fonts = { body: 'Arial, sans-serif' };",
+      "description": "Configure a custom font",
+      "scenario": "Configure a custom font",
+      "language": "javascript",
+      "tags": [
+        "fonts",
+        "configuration",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export const globalStyles = { body: { margin: 0, padding: 0 } };",
+      "description": "Set global styles",
+      "scenario": "Set global styles",
+      "language": "javascript",
+      "tags": [
+        "styles",
+        "global",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export function Button({ label }) { return <button>{label}</button>; }",
+      "description": "Create a reusable button component",
+      "scenario": "Create a reusable button component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "button",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export function Card({ title, content }) { return <div><h1>{title}</h1><p>{content}</p></div>; }",
+      "description": "Use props in a component",
+      "scenario": "Use props in a component",
+      "language": "javascript",
+      "tags": [
+        "props",
+        "component",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button onClick={() => alert('Clicked!')}>Click me</button>",
+      "description": "Handle click events in a component",
+      "scenario": "Handle click events in a component",
+      "language": "javascript",
+      "tags": [
+        "events",
+        "click",
+        "framerx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

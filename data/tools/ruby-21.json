@@ -1,0 +1,204 @@
+{
+  "title": "Ruby 2.1 Cheat Sheet",
+  "slug": "ruby-21",
+  "description": "Essential Ruby 2.1 syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "class MyClass\n  def initialize(name)\n    @name = name\n  end\nend",
+      "description": "Define a class in Ruby",
+      "scenario": "Define a class in Ruby",
+      "language": "ruby",
+      "tags": [
+        "class",
+        "object-oriented",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "arr = [1, 2, 3]\narr.each do |num|\n  puts num\nend",
+      "description": "Create an array and iterate over it",
+      "scenario": "Create an array and iterate over it",
+      "language": "ruby",
+      "tags": [
+        "array",
+        "iteration",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def greet(name=\"World\")\n  \"Hello, #{name}!\"\nend",
+      "description": "Define a method with default arguments",
+      "scenario": "Define a method with default arguments",
+      "language": "ruby",
+      "tags": [
+        "method",
+        "default",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if condition\n  puts \"Condition is true\"\nelse\n  puts \"Condition is false\"\nend",
+      "description": "Use an if-else statement",
+      "scenario": "Use an if-else statement",
+      "language": "ruby",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case variable\nwhen 1\n  puts \"One\"\nwhen 2\n  puts \"Two\"\nelse\n  puts \"Other\"\nend",
+      "description": "Use a case statement",
+      "scenario": "Use a case statement",
+      "language": "ruby",
+      "tags": [
+        "case",
+        "switch",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while condition\n  puts \"Looping\"\nend",
+      "description": "Use a while loop",
+      "scenario": "Use a while loop",
+      "language": "ruby",
+      "tags": [
+        "while",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File.open('file.txt').each do |line|\n  puts line\nend",
+      "description": "Read a file line by line",
+      "scenario": "Read a file line by line",
+      "language": "ruby",
+      "tags": [
+        "file",
+        "read",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File.open('file.txt', 'w') do |file|\n  file.puts 'Hello, world!'\nend",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "ruby",
+      "tags": [
+        "file",
+        "write",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if File.exist?('file.txt')\n  puts 'File exists'\nelse\n  puts 'File does not exist'\nend",
+      "description": "Check if a file exists",
+      "scenario": "Check if a file exists",
+      "language": "ruby",
+      "tags": [
+        "file",
+        "existence",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin\n  # risky operation\nrescue StandardError => e\n  puts \"Error occurred: #{e.message}\"\nend",
+      "description": "Basic exception handling with begin-rescue",
+      "scenario": "Basic exception handling with begin-rescue",
+      "language": "ruby",
+      "tags": [
+        "exception",
+        "rescue",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin\n  # risky operation\nensure\n  puts \"This will always run\"\nend",
+      "description": "Ensure block execution",
+      "scenario": "Ensure block execution",
+      "language": "ruby",
+      "tags": [
+        "ensure",
+        "block",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "raise \"This is an error!\"",
+      "description": "Raise an exception",
+      "scenario": "Raise an exception",
+      "language": "ruby",
+      "tags": [
+        "raise",
+        "exception",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle install",
+      "description": "Install a gem using Bundler",
+      "scenario": "Install a gem using Bundler",
+      "language": "bash",
+      "tags": [
+        "gem",
+        "bundler",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem 'rails', '~> 4.2'",
+      "description": "Add a gem to the Gemfile",
+      "scenario": "Add a gem to the Gemfile",
+      "language": "ruby",
+      "tags": [
+        "gemfile",
+        "gem",
+        "dependency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem list",
+      "description": "List installed gems",
+      "scenario": "List installed gems",
+      "language": "bash",
+      "tags": [
+        "gem",
+        "list",
+        "installed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

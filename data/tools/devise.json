@@ -1,0 +1,165 @@
+{
+  "title": "Devise Cheat Sheet",
+  "slug": "devise",
+  "description": "Quick reference for Devise authentication in Rails applications",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "gem 'devise'",
+      "description": "Add Devise gem to the Gemfile",
+      "scenario": "Add Devise gem to the Gemfile",
+      "language": "ruby",
+      "tags": [
+        "gemfile",
+        "installation",
+        "devise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle install",
+      "description": "Install Devise gem",
+      "scenario": "Install Devise gem",
+      "language": "bash",
+      "tags": [
+        "bundle",
+        "install",
+        "devise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate devise:install",
+      "description": "Generate Devise configuration files",
+      "scenario": "Generate Devise configuration files",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "generate",
+        "devise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate devise User",
+      "description": "Generate Devise User model",
+      "scenario": "Generate Devise User model",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "generate",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "devise :database_authenticatable, :registerable",
+      "description": "Add Devise modules to existing model",
+      "scenario": "Add Devise modules to existing model",
+      "language": "ruby",
+      "tags": [
+        "model",
+        "devise",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails db:migrate",
+      "description": "Migrate database after generating Devise model",
+      "scenario": "Migrate database after generating Devise model",
+      "language": "bash",
+      "tags": [
+        "rails",
+        "migrate",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.mailer_sender = 'please-change-me@example.com'",
+      "description": "Configure mailer sender in Devise initializer",
+      "scenario": "Configure mailer sender in Devise initializer",
+      "language": "ruby",
+      "tags": [
+        "config",
+        "mailer",
+        "devise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "devise_for :users",
+      "description": "Set up Devise routes in routes.rb",
+      "scenario": "Set up Devise routes in routes.rb",
+      "language": "ruby",
+      "tags": [
+        "routes",
+        "devise",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "before_action :configure_permitted_parameters, if: :devise_controller?",
+      "description": "Configure strong parameters for Devise",
+      "scenario": "Configure strong parameters for Devise",
+      "language": "ruby",
+      "tags": [
+        "parameters",
+        "devise",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Users::RegistrationsController < Devise::RegistrationsController",
+      "description": "Override Devise controller",
+      "scenario": "Override Devise controller",
+      "language": "ruby",
+      "tags": [
+        "override",
+        "controller",
+        "devise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate migration AddUsernameToUsers username:string",
+      "description": "Add custom fields to Devise User model",
+      "scenario": "Add custom fields to Devise User model",
+      "language": "bash",
+      "tags": [
+        "migration",
+        "custom",
+        "fields"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def after_sign_in_path_for(resource)",
+      "description": "Redirect after sign in",
+      "scenario": "Redirect after sign in",
+      "language": "ruby",
+      "tags": [
+        "redirect",
+        "sign_in",
+        "devise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "BGP Cheat Sheet",
+  "slug": "bgp",
+  "description": "Quick reference for BGP commands and configurations",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "show ip bgp summary",
+      "description": "Show BGP summary information",
+      "scenario": "Show BGP summary information",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "summary",
+        "CLI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip bgp neighbors",
+      "description": "Display BGP neighbors",
+      "scenario": "Display BGP neighbors",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "neighbors",
+        "CLI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "clear ip bgp *",
+      "description": "Clear BGP sessions",
+      "scenario": "Clear BGP sessions",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "clear",
+        "sessions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "router bgp 65000",
+      "description": "Define a BGP router with an AS number",
+      "scenario": "Define a BGP router with an AS number",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "configuration",
+        "AS"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "neighbor 192.168.1.1 remote-as 65001",
+      "description": "Specify a BGP neighbor",
+      "scenario": "Specify a BGP neighbor",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "neighbor",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "network 10.0.0.0 mask 255.255.255.0",
+      "description": "Set the network to advertise",
+      "scenario": "Set the network to advertise",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "network",
+        "advertise"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set local-preference 200",
+      "description": "Set a local preference for a route",
+      "scenario": "Set a local preference for a route",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "route",
+        "preference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "neighbor 192.168.1.1 route-map INBOUND in",
+      "description": "Apply a route map to incoming routes",
+      "scenario": "Apply a route map to incoming routes",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "route-map",
+        "incoming"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "neighbor 192.168.1.1 route-map OUTBOUND out",
+      "description": "Apply a route map to outgoing routes",
+      "scenario": "Apply a route map to outgoing routes",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "route-map",
+        "outgoing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip bgp",
+      "description": "Check BGP route information",
+      "scenario": "Check BGP route information",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "troubleshooting",
+        "routes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "show ip bgp path",
+      "description": "Verify BGP path selection",
+      "scenario": "Verify BGP path selection",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "path",
+        "troubleshooting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug ip bgp events",
+      "description": "Debug BGP events",
+      "scenario": "Debug BGP events",
+      "language": "bash",
+      "tags": [
+        "BGP",
+        "debug",
+        "events"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

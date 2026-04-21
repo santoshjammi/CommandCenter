@@ -1,0 +1,165 @@
+{
+  "title": "Feed CLI Cheat Sheet",
+  "slug": "feed",
+  "description": "Essential commands and syntax for using the Feed CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "feed init",
+      "description": "Initialize a new feed project",
+      "scenario": "Initialize a new feed project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed start",
+      "description": "Start the feed service",
+      "scenario": "Start the feed service",
+      "language": "bash",
+      "tags": [
+        "start",
+        "service",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed stop",
+      "description": "Stop the feed service",
+      "scenario": "Stop the feed service",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "service",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed config set --file=config.yaml",
+      "description": "Set the feed configuration file",
+      "scenario": "Set the feed configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed config view",
+      "description": "View current feed configuration",
+      "scenario": "View current feed configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed config reset",
+      "description": "Reset feed configuration to default",
+      "scenario": "Reset feed configuration to default",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed start --debug",
+      "description": "Run feed in debug mode",
+      "scenario": "Run feed in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "mode",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed update",
+      "description": "Update feed to the latest version",
+      "scenario": "Update feed to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "version",
+        "latest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed status",
+      "description": "Check the status of the feed service",
+      "scenario": "Check the status of the feed service",
+      "language": "bash",
+      "tags": [
+        "status",
+        "service",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed start > output.log",
+      "description": "Pipe feed output to a file",
+      "scenario": "Pipe feed output to a file",
+      "language": "bash",
+      "tags": [
+        "pipe",
+        "output",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "feed init && feed start",
+      "description": "Chain feed commands with logical AND",
+      "scenario": "Chain feed commands with logical AND",
+      "language": "bash",
+      "tags": [
+        "chain",
+        "commands",
+        "and"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ENV_VAR=value feed start",
+      "description": "Run feed with environment variables",
+      "scenario": "Run feed with environment variables",
+      "language": "bash",
+      "tags": [
+        "env",
+        "variables",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

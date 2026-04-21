@@ -1,0 +1,204 @@
+{
+  "title": "Shopify CLI Cheat Sheet",
+  "slug": "shopify",
+  "description": "Essential commands and snippets for Shopify development.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "shopify app create",
+      "description": "Create a new Shopify app",
+      "scenario": "Create a new Shopify app",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "cli",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shopify app serve",
+      "description": "Serve a Shopify app locally",
+      "scenario": "Serve a Shopify app locally",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "cli",
+        "serve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shopify app deploy",
+      "description": "Deploy a Shopify app",
+      "scenario": "Deploy a Shopify app",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "cli",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shopify theme pull",
+      "description": "Download a theme from Shopify store",
+      "scenario": "Download a theme from Shopify store",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "theme",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shopify theme push",
+      "description": "Upload a theme to Shopify store",
+      "scenario": "Upload a theme to Shopify store",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "theme",
+        "upload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shopify theme serve",
+      "description": "Watch for local changes and sync with Shopify store",
+      "scenario": "Watch for local changes and sync with Shopify store",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "theme",
+        "sync"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ variable_name }}",
+      "description": "Output a variable in Liquid",
+      "scenario": "Output a variable in Liquid",
+      "language": "liquid",
+      "tags": [
+        "liquid",
+        "variable",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% for item in collection %} ... {% endfor %}",
+      "description": "Create a for loop in Liquid",
+      "scenario": "Create a for loop in Liquid",
+      "language": "liquid",
+      "tags": [
+        "liquid",
+        "loop",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% if condition %} ... {% endif %}",
+      "description": "Use an if statement in Liquid",
+      "scenario": "Use an if statement in Liquid",
+      "language": "liquid",
+      "tags": [
+        "liquid",
+        "conditional",
+        "if"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp .env.example .env",
+      "description": "Set up environment variables for a Shopify app",
+      "scenario": "Set up environment variables for a Shopify app",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "app",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "api_key: 'your_api_key'\napi_secret: 'your_api_secret'",
+      "description": "Configure Shopify app settings in config file",
+      "scenario": "Configure Shopify app settings in config file",
+      "language": "yaml",
+      "tags": [
+        "shopify",
+        "app",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scopes: 'read_products,write_orders'",
+      "description": "Add a new scope to Shopify app",
+      "scenario": "Add a new scope to Shopify app",
+      "language": "yaml",
+      "tags": [
+        "shopify",
+        "app",
+        "scope"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shopify version",
+      "description": "Check Shopify CLI version",
+      "scenario": "Check Shopify CLI version",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "cli",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shopify login --store your-store.myshopify.com",
+      "description": "Authenticate Shopify CLI with a store",
+      "scenario": "Authenticate Shopify CLI with a store",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "cli",
+        "auth"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shopify theme list",
+      "description": "List all available Shopify themes",
+      "scenario": "List all available Shopify themes",
+      "language": "bash",
+      "tags": [
+        "shopify",
+        "theme",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "rTorrent Cheat Sheet",
+  "slug": "rtorrent",
+  "description": "Essential rTorrent commands and configurations for efficient torrent management.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "rtorrent",
+      "description": "Start rTorrent in the terminal",
+      "scenario": "Start rTorrent in the terminal",
+      "language": "bash",
+      "tags": [
+        "start",
+        "basic",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "load.start /path/to/torrent/file.torrent",
+      "description": "Add a torrent file to rTorrent",
+      "scenario": "Add a torrent file to rTorrent",
+      "language": "text",
+      "tags": [
+        "add",
+        "torrent",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d.stop=hash",
+      "description": "Pause a torrent download",
+      "scenario": "Pause a torrent download",
+      "language": "text",
+      "tags": [
+        "pause",
+        "torrent",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "^n",
+      "description": "Move to the next torrent in the list",
+      "scenario": "Move to the next torrent in the list",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "next",
+        "torrent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "^p",
+      "description": "Move to the previous torrent in the list",
+      "scenario": "Move to the previous torrent in the list",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "previous",
+        "torrent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "^i",
+      "description": "View detailed information about a torrent",
+      "scenario": "View detailed information about a torrent",
+      "language": "text",
+      "tags": [
+        "info",
+        "details",
+        "torrent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "directory.default.set = /path/to/downloads",
+      "description": "Set download directory in .rtorrent.rc",
+      "scenario": "Set download directory in .rtorrent.rc",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "directory",
+        "downloads"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throttle.global_down.max_rate.set_kb = 100",
+      "description": "Limit download speed to 100 KB/s",
+      "scenario": "Limit download speed to 100 KB/s",
+      "language": "text",
+      "tags": [
+        "limit",
+        "speed",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throttle.global_up.max_rate.set_kb = 50",
+      "description": "Limit upload speed to 50 KB/s",
+      "scenario": "Limit upload speed to 50 KB/s",
+      "language": "text",
+      "tags": [
+        "limit",
+        "speed",
+        "upload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.path.set = /path/to/session",
+      "description": "Save session data to a specific directory",
+      "scenario": "Save session data to a specific directory",
+      "language": "text",
+      "tags": [
+        "session",
+        "save",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.save = yes",
+      "description": "Enable session saving on exit",
+      "scenario": "Enable session saving on exit",
+      "language": "text",
+      "tags": [
+        "session",
+        "save",
+        "exit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "session.load = yes",
+      "description": "Load session data on startup",
+      "scenario": "Load session data on startup",
+      "language": "text",
+      "tags": [
+        "session",
+        "load",
+        "startup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d.erase=hash",
+      "description": "Remove a torrent and its data",
+      "scenario": "Remove a torrent and its data",
+      "language": "text",
+      "tags": [
+        "remove",
+        "torrent",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d.check_hash=hash",
+      "description": "Force recheck of a torrent",
+      "scenario": "Force recheck of a torrent",
+      "language": "text",
+      "tags": [
+        "recheck",
+        "torrent",
+        "hash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d.priority.set=high",
+      "description": "Change priority of a torrent",
+      "scenario": "Change priority of a torrent",
+      "language": "text",
+      "tags": [
+        "priority",
+        "torrent",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

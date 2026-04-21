@@ -1,0 +1,204 @@
+{
+  "title": "Calculus Cheat Sheet",
+  "slug": "calculus",
+  "description": "Essential calculus commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "d/dx(c) = 0",
+      "description": "Find the derivative of a constant",
+      "scenario": "Find the derivative of a constant",
+      "language": "text",
+      "tags": [
+        "derivative",
+        "constant",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(x^n) = n*x^(n-1)",
+      "description": "Find the derivative of x raised to a power",
+      "scenario": "Find the derivative of x raised to a power",
+      "language": "text",
+      "tags": [
+        "derivative",
+        "power",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(f(x) + g(x)) = f'(x) + g'(x)",
+      "description": "Find the derivative of a sum of functions",
+      "scenario": "Find the derivative of a sum of functions",
+      "language": "text",
+      "tags": [
+        "derivative",
+        "sum",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u222b c dx = c*x + C",
+      "description": "Integrate a constant",
+      "scenario": "Integrate a constant",
+      "language": "text",
+      "tags": [
+        "integral",
+        "constant",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u222b x^n dx = (x^(n+1))/(n+1) + C",
+      "description": "Integrate x raised to a power",
+      "scenario": "Integrate x raised to a power",
+      "language": "text",
+      "tags": [
+        "integral",
+        "power",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u222b (f(x) + g(x)) dx = \u222b f(x) dx + \u222b g(x) dx",
+      "description": "Integrate a sum of functions",
+      "scenario": "Integrate a sum of functions",
+      "language": "text",
+      "tags": [
+        "integral",
+        "sum",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(f(g(x))) = f'(g(x)) * g'(x)",
+      "description": "Apply the chain rule to composite functions",
+      "scenario": "Apply the chain rule to composite functions",
+      "language": "text",
+      "tags": [
+        "chain rule",
+        "derivative",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(sin(x^2)) = cos(x^2) * 2x",
+      "description": "Differentiate a nested function",
+      "scenario": "Differentiate a nested function",
+      "language": "text",
+      "tags": [
+        "chain rule",
+        "trigonometry",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(e^(3x)) = 3e^(3x)",
+      "description": "Differentiate an exponential function",
+      "scenario": "Differentiate an exponential function",
+      "language": "text",
+      "tags": [
+        "chain rule",
+        "exponential",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(f(x) * g(x)) = f'(x) * g(x) + f(x) * g'(x)",
+      "description": "Apply the product rule to two functions",
+      "scenario": "Apply the product rule to two functions",
+      "language": "text",
+      "tags": [
+        "product rule",
+        "derivative",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx((x^2) * (x^3)) = 2x * x^3 + x^2 * 3x^2",
+      "description": "Differentiate a product of polynomials",
+      "scenario": "Differentiate a product of polynomials",
+      "language": "text",
+      "tags": [
+        "product rule",
+        "polynomial",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(x * sin(x)) = 1 * sin(x) + x * cos(x)",
+      "description": "Differentiate a product involving trigonometric functions",
+      "scenario": "Differentiate a product involving trigonometric functions",
+      "language": "text",
+      "tags": [
+        "product rule",
+        "trigonometry",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(f(x)/g(x)) = (f'(x) * g(x) - f(x) * g'(x))/(g(x))^2",
+      "description": "Apply the quotient rule to two functions",
+      "scenario": "Apply the quotient rule to two functions",
+      "language": "text",
+      "tags": [
+        "quotient rule",
+        "derivative",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx((x^2)/(x+1)) = ((2x)(x+1) - (x^2)(1))/(x+1)^2",
+      "description": "Differentiate a rational function",
+      "scenario": "Differentiate a rational function",
+      "language": "text",
+      "tags": [
+        "quotient rule",
+        "rational",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(tan(x)/x) = (sec^2(x) * x - tan(x) * 1)/x^2",
+      "description": "Differentiate a quotient involving trigonometric functions",
+      "scenario": "Differentiate a quotient involving trigonometric functions",
+      "language": "text",
+      "tags": [
+        "quotient rule",
+        "trigonometry",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

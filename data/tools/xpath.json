@@ -1,0 +1,165 @@
+{
+  "title": "XPath Cheat Sheet",
+  "slug": "xpath",
+  "description": "Quick reference for XPath syntax and expressions",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "//book",
+      "description": "Select all nodes with the name 'book'",
+      "scenario": "Select all nodes with the name 'book'",
+      "language": "text",
+      "tags": [
+        "select",
+        "nodes",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book[1]/title",
+      "description": "Select the 'title' element of the first 'book' node",
+      "scenario": "Select the 'title' element of the first 'book' node",
+      "language": "text",
+      "tags": [
+        "select",
+        "first",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book[price]",
+      "description": "Select all 'book' nodes with a 'price' child node",
+      "scenario": "Select all 'book' nodes with a 'price' child node",
+      "language": "text",
+      "tags": [
+        "select",
+        "child",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "count(//book)",
+      "description": "Count the number of 'book' nodes",
+      "scenario": "Count the number of 'book' nodes",
+      "language": "text",
+      "tags": [
+        "count",
+        "nodes",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book[price>30]",
+      "description": "Select 'book' nodes with a 'price' greater than 30",
+      "scenario": "Select 'book' nodes with a 'price' greater than 30",
+      "language": "text",
+      "tags": [
+        "select",
+        "condition",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book[contains(title, 'XPath')]",
+      "description": "Select 'book' nodes where 'title' contains 'XPath'",
+      "scenario": "Select 'book' nodes where 'title' contains 'XPath'",
+      "language": "text",
+      "tags": [
+        "select",
+        "contains",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book/ancestor::*",
+      "description": "Select all ancestor nodes of 'book'",
+      "scenario": "Select all ancestor nodes of 'book'",
+      "language": "text",
+      "tags": [
+        "select",
+        "ancestor",
+        "axes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book/descendant::*",
+      "description": "Select all descendant nodes of 'book'",
+      "scenario": "Select all descendant nodes of 'book'",
+      "language": "text",
+      "tags": [
+        "select",
+        "descendant",
+        "axes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book/following-sibling::*",
+      "description": "Select all following sibling nodes of 'book'",
+      "scenario": "Select all following sibling nodes of 'book'",
+      "language": "text",
+      "tags": [
+        "select",
+        "sibling",
+        "axes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book[2]",
+      "description": "Select the second 'book' node",
+      "scenario": "Select the second 'book' node",
+      "language": "text",
+      "tags": [
+        "select",
+        "index",
+        "predicate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book[@category='fiction']",
+      "description": "Select 'book' nodes with a 'category' attribute equal to 'fiction'",
+      "scenario": "Select 'book' nodes with a 'category' attribute equal to 'fiction'",
+      "language": "text",
+      "tags": [
+        "select",
+        "attribute",
+        "predicate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "//book[price<20]",
+      "description": "Select 'book' nodes with a 'price' less than 20",
+      "scenario": "Select 'book' nodes with a 'price' less than 20",
+      "language": "text",
+      "tags": [
+        "select",
+        "condition",
+        "predicate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Travis CI Configuration Cheat Sheet",
+  "slug": "travisyml",
+  "description": "Essential Travis CI configuration snippets for continuous integration.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "language: python",
+      "description": "Specify the programming language for the build",
+      "scenario": "Specify the programming language for the build",
+      "language": "yaml",
+      "tags": [
+        "language",
+        "setup",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "python:\n  - '3.8'\n  - '3.9'",
+      "description": "Specify the version of the language to use",
+      "scenario": "Specify the version of the language to use",
+      "language": "yaml",
+      "tags": [
+        "version",
+        "python",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "branches:\n  only:\n    - main\n    - develop",
+      "description": "Specify which branches to build",
+      "scenario": "Specify which branches to build",
+      "language": "yaml",
+      "tags": [
+        "branches",
+        "build",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "install:\n  - pip install -r requirements.txt",
+      "description": "Install dependencies before the build",
+      "scenario": "Install dependencies before the build",
+      "language": "yaml",
+      "tags": [
+        "install",
+        "dependencies",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "script:\n  - pytest tests/",
+      "description": "Run tests using a script",
+      "scenario": "Run tests using a script",
+      "language": "yaml",
+      "tags": [
+        "script",
+        "tests",
+        "pytest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deploy:\n  provider: script\n  script: bash deploy.sh\n  on:\n    branch: main",
+      "description": "Deploy to a server after a successful build",
+      "scenario": "Deploy to a server after a successful build",
+      "language": "yaml",
+      "tags": [
+        "deploy",
+        "script",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "env:\n  global:\n    - DATABASE_URL=postgres://localhost/mydb",
+      "description": "Define global environment variables",
+      "scenario": "Define global environment variables",
+      "language": "yaml",
+      "tags": [
+        "environment",
+        "variables",
+        "global"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jobs:\n  include:\n    - stage: test\n      env: NODE_ENV=test",
+      "description": "Set environment variables for specific jobs",
+      "scenario": "Set environment variables for specific jobs",
+      "language": "yaml",
+      "tags": [
+        "jobs",
+        "environment",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "env:\n  global:\n    - secure: \"encrypted_value_here\"",
+      "description": "Securely store sensitive data",
+      "scenario": "Securely store sensitive data",
+      "language": "yaml",
+      "tags": [
+        "secure",
+        "environment",
+        "encryption"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "notifications:\n  email:\n    recipients:\n      - dev@example.com\n    on_success: change\n    on_failure: always",
+      "description": "Send email notifications on build status",
+      "scenario": "Send email notifications on build status",
+      "language": "yaml",
+      "tags": [
+        "notifications",
+        "email",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "notifications:\n  slack: your-slack-webhook-url",
+      "description": "Configure Slack notifications",
+      "scenario": "Configure Slack notifications",
+      "language": "yaml",
+      "tags": [
+        "notifications",
+        "slack",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "notifications:\n  email: false",
+      "description": "Disable notifications",
+      "scenario": "Disable notifications",
+      "language": "yaml",
+      "tags": [
+        "notifications",
+        "disable",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cache:\n  directories:\n    - node_modules",
+      "description": "Cache dependencies to speed up builds",
+      "scenario": "Cache dependencies to speed up builds",
+      "language": "yaml",
+      "tags": [
+        "cache",
+        "dependencies",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cache:\n  pip: true",
+      "description": "Cache pip dependencies",
+      "scenario": "Cache pip dependencies",
+      "language": "yaml",
+      "tags": [
+        "cache",
+        "pip",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# No YAML command, use Travis CI web interface",
+      "description": "Clear cache manually from Travis CI interface",
+      "scenario": "Clear cache manually from Travis CI interface",
+      "language": "text",
+      "tags": [
+        "cache",
+        "clear",
+        "manual"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

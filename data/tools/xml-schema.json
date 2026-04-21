@@ -1,0 +1,204 @@
+{
+  "title": "XML Schema Cheat Sheet",
+  "slug": "xml-schema",
+  "description": "Quick reference for XML Schema syntax and usage",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<xs:element name=\"title\" type=\"xs:string\"/>",
+      "description": "Define a simple element with a string type",
+      "scenario": "Define a simple element with a string type",
+      "language": "xml",
+      "tags": [
+        "element",
+        "string",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:element name=\"person\" type=\"personType\"/>",
+      "description": "Define an element with a complex type",
+      "scenario": "Define an element with a complex type",
+      "language": "xml",
+      "tags": [
+        "element",
+        "complex",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:complexType name=\"personType\"><xs:sequence><xs:element name=\"firstName\" type=\"xs:string\"/><xs:element name=\"lastName\" type=\"xs:string\"/></xs:sequence></xs:complexType>",
+      "description": "Define a complex type with sequence",
+      "scenario": "Define a complex type with sequence",
+      "language": "xml",
+      "tags": [
+        "complex",
+        "sequence",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:attribute name=\"id\" type=\"xs:integer\"/>",
+      "description": "Define an attribute for an element",
+      "scenario": "Define an attribute for an element",
+      "language": "xml",
+      "tags": [
+        "attribute",
+        "element",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:attribute name=\"lang\" type=\"xs:string\" use=\"required\"/>",
+      "description": "Define a required attribute",
+      "scenario": "Define a required attribute",
+      "language": "xml",
+      "tags": [
+        "attribute",
+        "required",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:attribute name=\"country\" type=\"xs:string\" default=\"USA\"/>",
+      "description": "Define an attribute with a default value",
+      "scenario": "Define an attribute with a default value",
+      "language": "xml",
+      "tags": [
+        "attribute",
+        "default",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:simpleType name=\"colorType\"><xs:restriction base=\"xs:string\"><xs:enumeration value=\"red\"/><xs:enumeration value=\"green\"/><xs:enumeration value=\"blue\"/></xs:restriction></xs:simpleType>",
+      "description": "Restrict a string to specific values",
+      "scenario": "Restrict a string to specific values",
+      "language": "xml",
+      "tags": [
+        "restriction",
+        "enumeration",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:simpleType name=\"ageType\"><xs:restriction base=\"xs:integer\"><xs:minInclusive value=\"0\"/><xs:maxInclusive value=\"120\"/></xs:restriction></xs:simpleType>",
+      "description": "Restrict an integer to a range",
+      "scenario": "Restrict an integer to a range",
+      "language": "xml",
+      "tags": [
+        "restriction",
+        "integer",
+        "range"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:simpleType name=\"zipCodeType\"><xs:restriction base=\"xs:string\"><xs:pattern value=\"\\d{5}(-\\d{4})?\"/></xs:restriction></xs:simpleType>",
+      "description": "Restrict a string with a pattern",
+      "scenario": "Restrict a string with a pattern",
+      "language": "xml",
+      "tags": [
+        "restriction",
+        "pattern",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:schema xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:ex=\"http://example.com/schema\" targetNamespace=\"http://example.com/schema\" elementFormDefault=\"qualified\">",
+      "description": "Declare a namespace for an XML Schema",
+      "scenario": "Declare a namespace for an XML Schema",
+      "language": "xml",
+      "tags": [
+        "namespace",
+        "schema",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ex:element name=\"exampleElement\" type=\"xs:string\"/>",
+      "description": "Use a namespace prefix in an element",
+      "scenario": "Use a namespace prefix in an element",
+      "language": "xml",
+      "tags": [
+        "namespace",
+        "prefix",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:import namespace=\"http://example.com/anotherSchema\" schemaLocation=\"anotherSchema.xsd\"/>",
+      "description": "Import another XML Schema",
+      "scenario": "Import another XML Schema",
+      "language": "xml",
+      "tags": [
+        "import",
+        "namespace",
+        "schema"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:simpleType name=\"listOfIntegers\"><xs:list itemType=\"xs:integer\"/></xs:simpleType>",
+      "description": "Define a list of simple types",
+      "scenario": "Define a list of simple types",
+      "language": "xml",
+      "tags": [
+        "list",
+        "simple",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:simpleType name=\"numberOrString\"><xs:union memberTypes=\"xs:integer xs:string\"/></xs:simpleType>",
+      "description": "Define a union of different types",
+      "scenario": "Define a union of different types",
+      "language": "xml",
+      "tags": [
+        "union",
+        "types",
+        "simple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xs:complexType mixed=\"true\"><xs:sequence><xs:element name=\"text\" type=\"xs:string\"/></xs:sequence></xs:complexType>",
+      "description": "Define an element with mixed content",
+      "scenario": "Define an element with mixed content",
+      "language": "xml",
+      "tags": [
+        "mixed",
+        "content",
+        "complex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

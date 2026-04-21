@@ -1,0 +1,191 @@
+{
+  "title": "Big O Notation Cheat Sheet",
+  "slug": "big-o",
+  "description": "A quick reference for Big O notation complexities and examples.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "O(1)",
+      "description": "Constant time complexity",
+      "scenario": "Constant time complexity",
+      "language": "text",
+      "tags": [
+        "constant",
+        "complexity",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(log n)",
+      "description": "Logarithmic time complexity",
+      "scenario": "Logarithmic time complexity",
+      "language": "text",
+      "tags": [
+        "logarithmic",
+        "complexity",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n)",
+      "description": "Linear time complexity",
+      "scenario": "Linear time complexity",
+      "language": "text",
+      "tags": [
+        "linear",
+        "complexity",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n^2)",
+      "description": "Quadratic time complexity",
+      "scenario": "Quadratic time complexity",
+      "language": "text",
+      "tags": [
+        "quadratic",
+        "complexity",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n^3)",
+      "description": "Cubic time complexity",
+      "scenario": "Cubic time complexity",
+      "language": "text",
+      "tags": [
+        "cubic",
+        "complexity",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(1)",
+      "description": "Constant space complexity",
+      "scenario": "Constant space complexity",
+      "language": "text",
+      "tags": [
+        "constant",
+        "space",
+        "complexity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n)",
+      "description": "Linear space complexity",
+      "scenario": "Linear space complexity",
+      "language": "text",
+      "tags": [
+        "linear",
+        "space",
+        "complexity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n^2)",
+      "description": "Quadratic space complexity",
+      "scenario": "Quadratic space complexity",
+      "language": "text",
+      "tags": [
+        "quadratic",
+        "space",
+        "complexity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(log n)",
+      "description": "Binary search algorithm complexity",
+      "scenario": "Binary search algorithm complexity",
+      "language": "text",
+      "tags": [
+        "binary search",
+        "logarithmic",
+        "algorithm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n^2)",
+      "description": "Bubble sort algorithm complexity",
+      "scenario": "Bubble sort algorithm complexity",
+      "language": "text",
+      "tags": [
+        "bubble sort",
+        "quadratic",
+        "algorithm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n log n)",
+      "description": "Merge sort algorithm complexity",
+      "scenario": "Merge sort algorithm complexity",
+      "language": "text",
+      "tags": [
+        "merge sort",
+        "log-linear",
+        "algorithm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(2n) becomes O(n)",
+      "description": "Drop constants in Big O notation",
+      "scenario": "Drop constants in Big O notation",
+      "language": "text",
+      "tags": [
+        "constants",
+        "simplification",
+        "rules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "O(n^2 + n) becomes O(n^2)",
+      "description": "Drop non-dominant terms in Big O notation",
+      "scenario": "Drop non-dominant terms in Big O notation",
+      "language": "text",
+      "tags": [
+        "non-dominant",
+        "simplification",
+        "rules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Analyze the worst-case time complexity",
+      "description": "Focus on worst-case scenario",
+      "scenario": "Focus on worst-case scenario",
+      "language": "text",
+      "tags": [
+        "worst-case",
+        "analysis",
+        "rules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

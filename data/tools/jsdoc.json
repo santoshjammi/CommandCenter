@@ -1,0 +1,126 @@
+{
+  "title": "Jsdoc Cheat Sheet",
+  "slug": "jsdoc",
+  "description": "Quick reference for Jsdoc syntax and usage",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "/**\n * Adds two numbers.\n * @param {number} a - The first number.\n * @param {number} b - The second number.\n * @return {number} The sum of the two numbers.\n */\nfunction add(a, b) {\n  return a + b;\n}",
+      "description": "Document a function with parameters and return type",
+      "scenario": "Document a function with parameters and return type",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "parameters",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\n * Represents a book.\n * @class\n */\nclass Book {\n  /**\n   * Create a book.\n   * @param {string} title - The title of the book.\n   * @param {string} author - The author of the book.\n   */\n  constructor(title, author) {\n    this.title = title;\n    this.author = author;\n  }\n}",
+      "description": "Document a class with a constructor",
+      "scenario": "Document a class with a constructor",
+      "language": "javascript",
+      "tags": [
+        "class",
+        "constructor",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\n * The speed of light in vacuum.\n * @constant {number}\n */\nconst SPEED_OF_LIGHT = 299792458;",
+      "description": "Document a constant value",
+      "scenario": "Document a constant value",
+      "language": "javascript",
+      "tags": [
+        "constant",
+        "value",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\n * Divides two numbers.\n * @param {number} a - The dividend.\n * @param {number} b - The divisor.\n * @throws {Error} Division by zero.\n * @return {number} The quotient.\n */\nfunction divide(a, b) {\n  if (b === 0) throw new Error('Division by zero');\n  return a / b;\n}",
+      "description": "Document a function that throws an error",
+      "scenario": "Document a function that throws an error",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "throws",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\n * @deprecated since version 2.0\n * Use newMethod instead.\n */\nfunction oldMethod() {\n  // ...\n}",
+      "description": "Document a deprecated method",
+      "scenario": "Document a deprecated method",
+      "language": "javascript",
+      "tags": [
+        "deprecated",
+        "method",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\n * Fetches user data from the server.\n * @async\n * @return {Promise<Object>} The user data.\n */\nasync function fetchUserData() {\n  const response = await fetch('/user');\n  return response.json();\n}",
+      "description": "Document a function with async return type",
+      "scenario": "Document a function with async return type",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "promise",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\n * @callback requestCallback\n * @param {Error} error - The error object.\n * @param {string} response - The response body.\n */",
+      "description": "Define a custom type for a callback function",
+      "scenario": "Define a custom type for a callback function",
+      "language": "javascript",
+      "tags": [
+        "callback",
+        "type",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\n * @typedef {Object} User\n * @property {string} name - The user's name.\n * @property {number} age - The user's age.\n */",
+      "description": "Define a custom object type",
+      "scenario": "Define a custom object type",
+      "language": "javascript",
+      "tags": [
+        "typedef",
+        "object",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\n * @typedef {(number|string)} NumberOrString\n */",
+      "description": "Define a union type",
+      "scenario": "Define a union type",
+      "language": "javascript",
+      "tags": [
+        "typedef",
+        "union",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

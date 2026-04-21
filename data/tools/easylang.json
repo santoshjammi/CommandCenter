@@ -1,0 +1,204 @@
+{
+  "title": "Easylang Cheat Sheet",
+  "slug": "easylang",
+  "description": "Quick reference for Easylang syntax and commands",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let x = 10;",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "easylang",
+      "tags": [
+        "variables",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet(name) { return 'Hello ' + name; }",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "easylang",
+      "tags": [
+        "functions",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (x > 5) { console.log('x is greater than 5'); }",
+      "description": "Conditional statement",
+      "scenario": "Conditional statement",
+      "language": "easylang",
+      "tags": [
+        "conditionals",
+        "if",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (let i = 0; i < 10; i++) { console.log(i); }",
+      "description": "For loop iteration",
+      "scenario": "For loop iteration",
+      "language": "easylang",
+      "tags": [
+        "loops",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (x < 10) { x++; }",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "easylang",
+      "tags": [
+        "loops",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do { x++; } while (x < 10);",
+      "description": "Do-while loop",
+      "scenario": "Do-while loop",
+      "language": "easylang",
+      "tags": [
+        "loops",
+        "do-while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let fruits = ['apple', 'banana', 'cherry'];",
+      "description": "Create an array",
+      "scenario": "Create an array",
+      "language": "easylang",
+      "tags": [
+        "arrays",
+        "data structures",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let firstFruit = fruits[0];",
+      "description": "Access array element",
+      "scenario": "Access array element",
+      "language": "easylang",
+      "tags": [
+        "arrays",
+        "access",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let person = { name: 'John', age: 30 };",
+      "description": "Create an object",
+      "scenario": "Create an object",
+      "language": "easylang",
+      "tags": [
+        "objects",
+        "data structures",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "easylang run script.easylang",
+      "description": "Run Easylang script",
+      "scenario": "Run Easylang script",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "easylang compile source.easylang",
+      "description": "Compile Easylang file",
+      "scenario": "Compile Easylang file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "compile",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "easylang --version",
+      "description": "Check Easylang version",
+      "scenario": "Check Easylang version",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "version",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { riskyFunction(); } catch (error) { console.log(error); }",
+      "description": "Try-catch block",
+      "scenario": "Try-catch block",
+      "language": "easylang",
+      "tags": [
+        "error handling",
+        "try-catch",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw new Error('Something went wrong');",
+      "description": "Throw an error",
+      "scenario": "Throw an error",
+      "language": "easylang",
+      "tags": [
+        "error handling",
+        "throw",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { riskyFunction(); } finally { cleanup(); }",
+      "description": "Finally block",
+      "scenario": "Finally block",
+      "language": "easylang",
+      "tags": [
+        "error handling",
+        "finally",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

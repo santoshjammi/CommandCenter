@@ -1,0 +1,165 @@
+{
+  "title": "mod_include Cheat Sheet",
+  "slug": "modinclude",
+  "description": "Quick reference for Apache mod_include directives and syntax",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<!--#include file=\"header.html\" -->",
+      "description": "Include a file in the current document",
+      "scenario": "Include a file in the current document",
+      "language": "text",
+      "tags": [
+        "include",
+        "file",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--#echo var=\"DOCUMENT_NAME\" -->",
+      "description": "Echo a variable's value",
+      "scenario": "Echo a variable's value",
+      "language": "text",
+      "tags": [
+        "echo",
+        "variable",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--#set var=\"myVar\" value=\"Hello World\" -->",
+      "description": "Set a variable to a specific value",
+      "scenario": "Set a variable to a specific value",
+      "language": "text",
+      "tags": [
+        "set",
+        "variable",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--#if expr=\"${REQUEST_METHOD} = 'POST'\" -->Content<!--#endif -->",
+      "description": "Display content if a condition is true",
+      "scenario": "Display content if a condition is true",
+      "language": "text",
+      "tags": [
+        "if",
+        "condition",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--#if expr=\"${QUERY_STRING} = 'test'\" -->Test<!--#elif expr=\"${QUERY_STRING} = 'prod'\" -->Prod<!--#endif -->",
+      "description": "Display content based on multiple conditions",
+      "scenario": "Display content based on multiple conditions",
+      "language": "text",
+      "tags": [
+        "elif",
+        "condition",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--#if expr=\"${REMOTE_USER}\" -->Welcome, ${REMOTE_USER}<!--#else -->Please log in<!--#endif -->",
+      "description": "Use an else statement for conditions",
+      "scenario": "Use an else statement for conditions",
+      "language": "text",
+      "tags": [
+        "else",
+        "condition",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--#include virtual=\"/footer.html\" -->",
+      "description": "Include a virtual file path",
+      "scenario": "Include a virtual file path",
+      "language": "text",
+      "tags": [
+        "include",
+        "virtual",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--#fsize file=\"document.txt\" -->",
+      "description": "Print the size of a file",
+      "scenario": "Print the size of a file",
+      "language": "text",
+      "tags": [
+        "fsize",
+        "file",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!--#flastmod file=\"document.txt\" -->",
+      "description": "Print the last modified date of a file",
+      "scenario": "Print the last modified date of a file",
+      "language": "text",
+      "tags": [
+        "flastmod",
+        "file",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Options +Includes",
+      "description": "Enable server-side includes in Apache configuration",
+      "scenario": "Enable server-side includes in Apache configuration",
+      "language": "text",
+      "tags": [
+        "apache",
+        "configuration",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "AddType text/html .shtml\nAddOutputFilter INCLUDES .shtml",
+      "description": "Add handler for server-side includes",
+      "scenario": "Add handler for server-side includes",
+      "language": "text",
+      "tags": [
+        "handler",
+        "apache",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Directory \"/var/www/html/includes\">\n    Options +Includes\n</Directory>",
+      "description": "Restrict includes to specific directories",
+      "scenario": "Restrict includes to specific directories",
+      "language": "text",
+      "tags": [
+        "restrict",
+        "directory",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

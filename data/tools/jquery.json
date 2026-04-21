@@ -1,0 +1,204 @@
+{
+  "title": "jQuery Cheat Sheet",
+  "slug": "jquery",
+  "description": "Quick reference for common jQuery commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "$('#elementId')",
+      "description": "Select an element by ID",
+      "scenario": "Select an element by ID",
+      "language": "javascript",
+      "tags": [
+        "selectors",
+        "id",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('.className')",
+      "description": "Select elements by class",
+      "scenario": "Select elements by class",
+      "language": "javascript",
+      "tags": [
+        "selectors",
+        "class",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('p')",
+      "description": "Select all paragraph elements",
+      "scenario": "Select all paragraph elements",
+      "language": "javascript",
+      "tags": [
+        "selectors",
+        "elements",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#buttonId').click(function() { alert('Button clicked!'); });",
+      "description": "Bind a click event to a button",
+      "scenario": "Bind a click event to a button",
+      "language": "javascript",
+      "tags": [
+        "events",
+        "click",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').hover(function() { $(this).css('background-color', 'yellow'); });",
+      "description": "Bind a hover event to an element",
+      "scenario": "Bind a hover event to an element",
+      "language": "javascript",
+      "tags": [
+        "events",
+        "hover",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').off('click');",
+      "description": "Remove an event handler",
+      "scenario": "Remove an event handler",
+      "language": "javascript",
+      "tags": [
+        "events",
+        "remove",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').text('New Text');",
+      "description": "Change the text of an element",
+      "scenario": "Change the text of an element",
+      "language": "javascript",
+      "tags": [
+        "dom",
+        "text",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').addClass('newClass');",
+      "description": "Add a new class to an element",
+      "scenario": "Add a new class to an element",
+      "language": "javascript",
+      "tags": [
+        "dom",
+        "class",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').remove();",
+      "description": "Remove an element from the DOM",
+      "scenario": "Remove an element from the DOM",
+      "language": "javascript",
+      "tags": [
+        "dom",
+        "remove",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$.get('url', function(data) { console.log(data); });",
+      "description": "Perform a GET request",
+      "scenario": "Perform a GET request",
+      "language": "javascript",
+      "tags": [
+        "ajax",
+        "get",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$.post('url', { key: 'value' }, function(data) { console.log(data); });",
+      "description": "Perform a POST request",
+      "scenario": "Perform a POST request",
+      "language": "javascript",
+      "tags": [
+        "ajax",
+        "post",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').load('url');",
+      "description": "Load data from a server and place the returned HTML into the matched element",
+      "scenario": "Load data from a server and place the returned HTML into the matched element",
+      "language": "javascript",
+      "tags": [
+        "ajax",
+        "load",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').fadeOut('slow');",
+      "description": "Hide an element with a fade effect",
+      "scenario": "Hide an element with a fade effect",
+      "language": "javascript",
+      "tags": [
+        "effects",
+        "fade",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').slideDown('fast');",
+      "description": "Show an element with a slide effect",
+      "scenario": "Show an element with a slide effect",
+      "language": "javascript",
+      "tags": [
+        "effects",
+        "slide",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$('#elementId').toggle();",
+      "description": "Toggle visibility of an element",
+      "scenario": "Toggle visibility of an element",
+      "language": "javascript",
+      "tags": [
+        "effects",
+        "toggle",
+        "jquery"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

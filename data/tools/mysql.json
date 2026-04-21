@@ -1,0 +1,204 @@
+{
+  "title": "MySQL Cheat Sheet",
+  "slug": "mysql",
+  "description": "Essential MySQL commands and syntax for database management.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "mysql -u username -p",
+      "description": "Log into MySQL server",
+      "scenario": "Log into MySQL server",
+      "language": "bash",
+      "tags": [
+        "login",
+        "mysql",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SHOW DATABASES;",
+      "description": "Show all databases",
+      "scenario": "Show all databases",
+      "language": "sql",
+      "tags": [
+        "databases",
+        "list",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "USE database_name;",
+      "description": "Select a database to use",
+      "scenario": "Select a database to use",
+      "language": "sql",
+      "tags": [
+        "database",
+        "select",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE table_name (id INT, name VARCHAR(100));",
+      "description": "Create a new table",
+      "scenario": "Create a new table",
+      "language": "sql",
+      "tags": [
+        "create",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SHOW TABLES;",
+      "description": "List all tables in the current database",
+      "scenario": "List all tables in the current database",
+      "language": "sql",
+      "tags": [
+        "tables",
+        "list",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DESCRIBE table_name;",
+      "description": "Describe the structure of a table",
+      "scenario": "Describe the structure of a table",
+      "language": "sql",
+      "tags": [
+        "describe",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (id, name) VALUES (1, 'John Doe');",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET name = 'Jane Doe' WHERE id = 1;",
+      "description": "Update existing data in a table",
+      "scenario": "Update existing data in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DELETE FROM table_name WHERE id = 1;",
+      "description": "Delete data from a table",
+      "scenario": "Delete data from a table",
+      "language": "sql",
+      "tags": [
+        "delete",
+        "data",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "query",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT id, name FROM table_name;",
+      "description": "Select specific columns from a table",
+      "scenario": "Select specific columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "columns",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name WHERE name = 'John Doe';",
+      "description": "Filter results with a WHERE clause",
+      "scenario": "Filter results with a WHERE clause",
+      "language": "sql",
+      "tags": [
+        "filter",
+        "where",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';",
+      "description": "Create a new user",
+      "scenario": "Create a new user",
+      "language": "sql",
+      "tags": [
+        "create",
+        "user",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GRANT ALL PRIVILEGES ON database_name.* TO 'newuser'@'localhost';",
+      "description": "Grant privileges to a user",
+      "scenario": "Grant privileges to a user",
+      "language": "sql",
+      "tags": [
+        "grant",
+        "privileges",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP USER 'newuser'@'localhost';",
+      "description": "Remove a user",
+      "scenario": "Remove a user",
+      "language": "sql",
+      "tags": [
+        "remove",
+        "user",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

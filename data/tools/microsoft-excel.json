@@ -1,0 +1,204 @@
+{
+  "title": "Microsoft Excel Cheat Sheet",
+  "slug": "microsoft-excel",
+  "description": "Essential Excel shortcuts and workflows for non-engineers.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Tab",
+      "description": "Move to the next cell to the right",
+      "scenario": "Move to the next cell to the right",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "cell",
+        "right"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Tab",
+      "description": "Move to the previous cell to the left",
+      "scenario": "Move to the previous cell to the left",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "cell",
+        "left"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Home",
+      "description": "Move to the beginning of the row",
+      "scenario": "Move to the beginning of the row",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "row",
+        "beginning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F2",
+      "description": "Edit the active cell",
+      "scenario": "Edit the active cell",
+      "language": "text",
+      "tags": [
+        "edit",
+        "cell",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "edit",
+        "undo",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Y",
+      "description": "Redo the last undone action",
+      "scenario": "Redo the last undone action",
+      "language": "text",
+      "tags": [
+        "edit",
+        "redo",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+B",
+      "description": "Bold the selected text",
+      "scenario": "Bold the selected text",
+      "language": "text",
+      "tags": [
+        "format",
+        "text",
+        "bold"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+I",
+      "description": "Italicize the selected text",
+      "scenario": "Italicize the selected text",
+      "language": "text",
+      "tags": [
+        "format",
+        "text",
+        "italic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+U",
+      "description": "Underline the selected text",
+      "scenario": "Underline the selected text",
+      "language": "text",
+      "tags": [
+        "format",
+        "text",
+        "underline"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+S",
+      "description": "Save the current workbook",
+      "scenario": "Save the current workbook",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "workbook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+O",
+      "description": "Open an existing workbook",
+      "scenario": "Open an existing workbook",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "workbook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+N",
+      "description": "Create a new workbook",
+      "scenario": "Create a new workbook",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "workbook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Data > Sort A to Z",
+      "description": "Sort selected data in ascending order",
+      "scenario": "Sort selected data in ascending order",
+      "language": "text",
+      "tags": [
+        "data",
+        "sort",
+        "ascending"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Data > Filter",
+      "description": "Filter data based on criteria",
+      "scenario": "Filter data based on criteria",
+      "language": "text",
+      "tags": [
+        "data",
+        "filter",
+        "criteria"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Data > Remove Duplicates",
+      "description": "Remove duplicates from selected data",
+      "scenario": "Remove duplicates from selected data",
+      "language": "text",
+      "tags": [
+        "data",
+        "remove",
+        "duplicates"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

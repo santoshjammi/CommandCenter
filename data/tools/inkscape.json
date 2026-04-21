@@ -1,0 +1,204 @@
+{
+  "title": "Inkscape Cheat Sheet",
+  "slug": "inkscape",
+  "description": "Quick reference for Inkscape CLI commands and shortcuts.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "inkscape filename.svg",
+      "description": "Open a file in Inkscape",
+      "scenario": "Open a file in Inkscape",
+      "language": "bash",
+      "tags": [
+        "open",
+        "cli",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape filename.svg --export-filename=output.png",
+      "description": "Export SVG to PNG",
+      "scenario": "Export SVG to PNG",
+      "language": "bash",
+      "tags": [
+        "export",
+        "png",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape filename.svg --export-filename=output.pdf",
+      "description": "Convert SVG to PDF",
+      "scenario": "Convert SVG to PDF",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "pdf",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape filename.svg --export-dpi=300 --export-filename=output.png",
+      "description": "Export with specific DPI",
+      "scenario": "Export with specific DPI",
+      "language": "bash",
+      "tags": [
+        "export",
+        "dpi",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape filename.svg --export-area-page --export-filename=output.png",
+      "description": "Export a specific page",
+      "scenario": "Export a specific page",
+      "language": "bash",
+      "tags": [
+        "export",
+        "page",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape filename.svg --export-background=#ffffff --export-filename=output.png",
+      "description": "Export with a specific background color",
+      "scenario": "Export with a specific background color",
+      "language": "bash",
+      "tags": [
+        "export",
+        "background",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+D",
+      "description": "Duplicate selected object",
+      "scenario": "Duplicate selected object",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "duplicate",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+G",
+      "description": "Group selected objects",
+      "scenario": "Group selected objects",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "group",
+        "objects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+G",
+      "description": "Ungroup selected objects",
+      "scenario": "Ungroup selected objects",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "ungroup",
+        "objects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape --export-dpi=300",
+      "description": "Set default export resolution",
+      "scenario": "Set default export resolution",
+      "language": "bash",
+      "tags": [
+        "config",
+        "dpi",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape --units=mm",
+      "description": "Change default unit to millimeters",
+      "scenario": "Change default unit to millimeters",
+      "language": "bash",
+      "tags": [
+        "config",
+        "units",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape --export-background=#ffffff",
+      "description": "Set default background color to white",
+      "scenario": "Set default background color to white",
+      "language": "bash",
+      "tags": [
+        "config",
+        "background",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for file in *.svg; do inkscape \"$file\" --export-filename=\"${file%.svg}.png\"; done",
+      "description": "Batch convert SVG files to PNG",
+      "scenario": "Batch convert SVG files to PNG",
+      "language": "bash",
+      "tags": [
+        "batch",
+        "convert",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape filename.svg --export-id=layer1 --export-filename=output.png",
+      "description": "Export a specific layer",
+      "scenario": "Export a specific layer",
+      "language": "bash",
+      "tags": [
+        "export",
+        "layer",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "inkscape filename.svg --export-id-only --export-filename=output.png",
+      "description": "Export only selected objects",
+      "scenario": "Export only selected objects",
+      "language": "bash",
+      "tags": [
+        "export",
+        "selected",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

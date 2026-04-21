@@ -1,0 +1,204 @@
+{
+  "title": "Mercurial Cheat Sheet",
+  "slug": "mercurial",
+  "description": "Essential Mercurial commands and configurations for version control.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "hg init",
+      "description": "Initialize a new Mercurial repository",
+      "scenario": "Initialize a new Mercurial repository",
+      "language": "bash",
+      "tags": [
+        "init",
+        "repository",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg clone https://example.com/repo",
+      "description": "Clone an existing repository",
+      "scenario": "Clone an existing repository",
+      "language": "bash",
+      "tags": [
+        "clone",
+        "repository",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg status",
+      "description": "Check the status of files in the repository",
+      "scenario": "Check the status of files in the repository",
+      "language": "bash",
+      "tags": [
+        "status",
+        "files",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg add filename",
+      "description": "Add files to the staging area",
+      "scenario": "Add files to the staging area",
+      "language": "bash",
+      "tags": [
+        "add",
+        "staging",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg commit -m \"Commit message\"",
+      "description": "Commit changes to the repository",
+      "scenario": "Commit changes to the repository",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "message",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg update revision",
+      "description": "Update to a specific revision",
+      "scenario": "Update to a specific revision",
+      "language": "bash",
+      "tags": [
+        "update",
+        "revision",
+        "checkout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg branch branch_name",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg merge branch_name",
+      "description": "Merge changes from another branch",
+      "scenario": "Merge changes from another branch",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "branch",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg branches",
+      "description": "List all branches",
+      "scenario": "List all branches",
+      "language": "bash",
+      "tags": [
+        "list",
+        "branches",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg log",
+      "description": "View the commit history",
+      "scenario": "View the commit history",
+      "language": "bash",
+      "tags": [
+        "history",
+        "log",
+        "commits"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg log -r changeset",
+      "description": "Show changeset details",
+      "scenario": "Show changeset details",
+      "language": "bash",
+      "tags": [
+        "log",
+        "details",
+        "changeset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg view",
+      "description": "Display a graphical log of changes",
+      "scenario": "Display a graphical log of changes",
+      "language": "bash",
+      "tags": [
+        "graphical",
+        "log",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hg config --edit",
+      "description": "Set username for commits",
+      "scenario": "Set username for commits",
+      "language": "bash",
+      "tags": [
+        "config",
+        "username",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[ui]\ncolor = auto",
+      "description": "Enable color output in the terminal",
+      "scenario": "Enable color output in the terminal",
+      "language": "yaml",
+      "tags": [
+        "color",
+        "output",
+        "terminal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "syntax: glob\n*.log\n*.tmp",
+      "description": "Ignore files using .hgignore",
+      "scenario": "Ignore files using .hgignore",
+      "language": "text",
+      "tags": [
+        "ignore",
+        "files",
+        "hgignore"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

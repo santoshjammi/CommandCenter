@@ -1,0 +1,165 @@
+{
+  "title": "Internet Explorer Cheat Sheet",
+  "slug": "internet-explorer",
+  "description": "Essential commands and configurations for Internet Explorer.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "start iexplore",
+      "description": "Open Internet Explorer from command line",
+      "scenario": "Open Internet Explorer from command line",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "open",
+        "internet-explorer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "start iexplore \"http://www.example.com\"",
+      "description": "Open a specific URL in Internet Explorer",
+      "scenario": "Open a specific URL in Internet Explorer",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "url",
+        "internet-explorer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "start iexplore -private",
+      "description": "Run Internet Explorer in private mode",
+      "scenario": "Run Internet Explorer in private mode",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "private",
+        "internet-explorer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Set-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components\\{GUID}' -Name 'IsInstalled' -Value 0",
+      "description": "Disable Internet Explorer Enhanced Security Configuration",
+      "scenario": "Disable Internet Explorer Enhanced Security Configuration",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "security",
+        "registry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Set-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Internet Explorer\\New Windows' -Name 'PopupMgr' -Value 1",
+      "description": "Enable pop-up blocker in Internet Explorer",
+      "scenario": "Enable pop-up blocker in Internet Explorer",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "popup",
+        "registry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Set-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Internet Explorer\\Main' -Name 'Start Page' -Value 'http://www.example.com'",
+      "description": "Change the home page of Internet Explorer",
+      "scenario": "Change the home page of Internet Explorer",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "homepage",
+        "registry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RunDll32.exe InetCpl.cpl,ResetIEtoDefaults",
+      "description": "Reset Internet Explorer settings to default",
+      "scenario": "Reset Internet Explorer settings to default",
+      "language": "bash",
+      "tags": [
+        "troubleshooting",
+        "reset",
+        "internet-explorer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8",
+      "description": "Clear Internet Explorer cache",
+      "scenario": "Clear Internet Explorer cache",
+      "language": "bash",
+      "tags": [
+        "troubleshooting",
+        "cache",
+        "internet-explorer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 2",
+      "description": "Clear Internet Explorer cookies",
+      "scenario": "Clear Internet Explorer cookies",
+      "language": "bash",
+      "tags": [
+        "troubleshooting",
+        "cookies",
+        "internet-explorer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F12",
+      "description": "Open Developer Tools in Internet Explorer",
+      "scenario": "Open Developer Tools in Internet Explorer",
+      "language": "text",
+      "tags": [
+        "developer",
+        "tools",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + B",
+      "description": "Inspect Element in Internet Explorer",
+      "scenario": "Inspect Element in Internet Explorer",
+      "language": "text",
+      "tags": [
+        "inspect",
+        "element",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + `",
+      "description": "Toggle Console in Internet Explorer Developer Tools",
+      "scenario": "Toggle Console in Internet Explorer Developer Tools",
+      "language": "text",
+      "tags": [
+        "console",
+        "developer",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

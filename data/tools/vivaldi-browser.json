@@ -1,0 +1,204 @@
+{
+  "title": "Vivaldi Browser Cheat Sheet",
+  "slug": "vivaldi-browser",
+  "description": "Essential commands and configurations for Vivaldi Browser.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "vivaldi",
+      "description": "Open Vivaldi browser from the command line",
+      "scenario": "Open Vivaldi browser from the command line",
+      "language": "bash",
+      "tags": [
+        "open",
+        "cli",
+        "browser"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vivaldi https://example.com",
+      "description": "Open Vivaldi with a specific URL",
+      "scenario": "Open Vivaldi with a specific URL",
+      "language": "bash",
+      "tags": [
+        "url",
+        "cli",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vivaldi --incognito",
+      "description": "Start Vivaldi in private mode",
+      "scenario": "Start Vivaldi in private mode",
+      "language": "bash",
+      "tags": [
+        "private",
+        "cli",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vivaldi://flags/#enable-gpu-rasterization",
+      "description": "Enable hardware acceleration",
+      "scenario": "Enable hardware acceleration",
+      "language": "text",
+      "tags": [
+        "hardware",
+        "acceleration",
+        "gpu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vivaldi://flags/#smooth-scrolling",
+      "description": "Disable smooth scrolling",
+      "scenario": "Disable smooth scrolling",
+      "language": "text",
+      "tags": [
+        "scrolling",
+        "disable",
+        "flags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vivaldi://settings/tabs/",
+      "description": "Enable tab stacking",
+      "scenario": "Enable tab stacking",
+      "language": "text",
+      "tags": [
+        "tabs",
+        "stacking",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + T",
+      "description": "Open a new tab",
+      "scenario": "Open a new tab",
+      "language": "text",
+      "tags": [
+        "tab",
+        "shortcut",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + W",
+      "description": "Close the current tab",
+      "scenario": "Close the current tab",
+      "language": "text",
+      "tags": [
+        "tab",
+        "shortcut",
+        "close"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + T",
+      "description": "Reopen the last closed tab",
+      "scenario": "Reopen the last closed tab",
+      "language": "text",
+      "tags": [
+        "tab",
+        "shortcut",
+        "reopen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + D",
+      "description": "Bookmark a page",
+      "scenario": "Bookmark a page",
+      "language": "text",
+      "tags": [
+        "bookmark",
+        "page",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + J",
+      "description": "Open the downloads page",
+      "scenario": "Open the downloads page",
+      "language": "text",
+      "tags": [
+        "downloads",
+        "page",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + H",
+      "description": "Open the history page",
+      "scenario": "Open the history page",
+      "language": "text",
+      "tags": [
+        "history",
+        "page",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vivaldi --reset",
+      "description": "Reset Vivaldi settings to default",
+      "scenario": "Reset Vivaldi settings to default",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "settings",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vivaldi --clear-cache",
+      "description": "Clear cache from command line",
+      "scenario": "Clear cache from command line",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "clear",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vivaldi --disable-extensions",
+      "description": "Launch Vivaldi with extensions disabled",
+      "scenario": "Launch Vivaldi with extensions disabled",
+      "language": "bash",
+      "tags": [
+        "extensions",
+        "disable",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

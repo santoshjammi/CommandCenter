@@ -1,0 +1,165 @@
+{
+  "title": "ChatGPT CLI and API Usage",
+  "slug": "chatgpt",
+  "description": "Essential commands and code snippets for using ChatGPT via CLI and API.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "chatgpt-cli --prompt \"Hello, how can I assist you today?\"",
+      "description": "Run a ChatGPT prompt using the CLI",
+      "scenario": "Run a ChatGPT prompt using the CLI",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "chatgpt",
+        "prompt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export CHATGPT_API_KEY='your-api-key-here'",
+      "description": "Set the API key for ChatGPT CLI",
+      "scenario": "Set the API key for ChatGPT CLI",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "api-key",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chatgpt-cli --help",
+      "description": "Get help for ChatGPT CLI commands",
+      "scenario": "Get help for ChatGPT CLI commands",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "help",
+        "commands"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST https://api.openai.com/v1/engines/davinci-codex/completions -H \"Authorization: Bearer YOUR_API_KEY\" -H \"Content-Type: application/json\" -d '{\"prompt\": \"Translate the following English text to French: 'Hello, world!'\",\"max_tokens\": 60}'",
+      "description": "Send a basic prompt to ChatGPT API",
+      "scenario": "Send a basic prompt to ChatGPT API",
+      "language": "bash",
+      "tags": [
+        "api",
+        "curl",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"prompt\": \"Tell me a joke.\", \"max_tokens\": 50, \"temperature\": 0.7}",
+      "description": "Include temperature parameter in API request",
+      "scenario": "Include temperature parameter in API request",
+      "language": "json",
+      "tags": [
+        "api",
+        "temperature",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "response = requests.post(url, headers=headers, json=data)\nresult = response.json()\nprint(result['choices'][0]['text'])",
+      "description": "Handle API response in Python",
+      "scenario": "Handle API response in Python",
+      "language": "python",
+      "tags": [
+        "api",
+        "python",
+        "response"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export OPENAI_API_KEY='your-api-key'",
+      "description": "Set up environment variables for API access",
+      "scenario": "Set up environment variables for API access",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "environment",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "timeout = 10 # in seconds",
+      "description": "Configure timeout for API requests",
+      "scenario": "Configure timeout for API requests",
+      "language": "python",
+      "tags": [
+        "configuration",
+        "timeout",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "default_model = 'text-davinci-003'",
+      "description": "Set default model for API requests",
+      "scenario": "Set default model for API requests",
+      "language": "python",
+      "tags": [
+        "configuration",
+        "model",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for _ in range(3):\n    try:\n        response = requests.post(url, headers=headers, json=data)\n        response.raise_for_status()\n        break\n    except requests.exceptions.HTTPError:\n        continue",
+      "description": "Retry API request on failure",
+      "scenario": "Retry API request on failure",
+      "language": "python",
+      "tags": [
+        "pattern",
+        "retry",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while next_page:\n    response = requests.get(next_page_url, headers=headers)\n    data = response.json()\n    next_page = data.get('next_page')",
+      "description": "Paginate through large API responses",
+      "scenario": "Paginate through large API responses",
+      "language": "python",
+      "tags": [
+        "pattern",
+        "pagination",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import logging\nlogging.basicConfig(level=logging.INFO)\nlogging.info('Request: %s', data)\nlogging.info('Response: %s', response.json())",
+      "description": "Log API request and response",
+      "scenario": "Log API request and response",
+      "language": "python",
+      "tags": [
+        "pattern",
+        "logging",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

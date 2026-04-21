@@ -1,0 +1,165 @@
+{
+  "title": "Macintosh CLI and Shortcuts",
+  "slug": "macintosh",
+  "description": "Essential CLI commands and shortcuts for macOS engineers",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd ~",
+      "description": "Change directory to the home directory",
+      "scenario": "Change directory to the home directory",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "home"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt /destination/",
+      "description": "Copy a file to another directory",
+      "scenario": "Copy a file to another directory",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 700 filename",
+      "description": "Change file permissions to read, write, execute for the owner",
+      "scenario": "Change file permissions to read, write, execute for the owner",
+      "language": "bash",
+      "tags": [
+        "chmod",
+        "permissions",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo chown username filename",
+      "description": "Change file ownership to a specific user",
+      "scenario": "Change file ownership to a specific user",
+      "language": "bash",
+      "tags": [
+        "chown",
+        "ownership",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -l",
+      "description": "View file permissions in a directory",
+      "scenario": "View file permissions in a directory",
+      "language": "bash",
+      "tags": [
+        "view",
+        "permissions",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sw_vers",
+      "description": "Display current macOS version",
+      "scenario": "Display current macOS version",
+      "language": "bash",
+      "tags": [
+        "system",
+        "version",
+        "macOS"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Show current disk usage",
+      "scenario": "Show current disk usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display current network configuration",
+      "scenario": "Display current network configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "configuration",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + Space",
+      "description": "Open Spotlight search",
+      "scenario": "Open Spotlight search",
+      "language": "text",
+      "tags": [
+        "spotlight",
+        "search",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + Option + Esc",
+      "description": "Force quit an application",
+      "scenario": "Force quit an application",
+      "language": "text",
+      "tags": [
+        "force quit",
+        "application",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Command + Shift + 3",
+      "description": "Take a screenshot of the entire screen",
+      "scenario": "Take a screenshot of the entire screen",
+      "language": "text",
+      "tags": [
+        "screenshot",
+        "screen",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

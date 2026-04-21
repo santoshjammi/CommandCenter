@@ -1,0 +1,165 @@
+{
+  "title": "Drush Cheat Sheet",
+  "slug": "drush",
+  "description": "Essential Drush CLI commands for managing Drupal sites",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "drush cache-rebuild",
+      "description": "Clear all caches",
+      "scenario": "Clear all caches",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "rebuild",
+        "clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush updatedb",
+      "description": "Run database updates",
+      "scenario": "Run database updates",
+      "language": "bash",
+      "tags": [
+        "database",
+        "update",
+        "migrate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush list",
+      "description": "Display a list of available commands",
+      "scenario": "Display a list of available commands",
+      "language": "bash",
+      "tags": [
+        "commands",
+        "list",
+        "help"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush user-block username",
+      "description": "Block a user by their username",
+      "scenario": "Block a user by their username",
+      "language": "bash",
+      "tags": [
+        "user",
+        "block",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush user-unblock username",
+      "description": "Unblock a user by their username",
+      "scenario": "Unblock a user by their username",
+      "language": "bash",
+      "tags": [
+        "user",
+        "unblock",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush user-create newusername --mail=\"user@example.com\" --password=\"password\"",
+      "description": "Create a new user with a password",
+      "scenario": "Create a new user with a password",
+      "language": "bash",
+      "tags": [
+        "user",
+        "create",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush config-export",
+      "description": "Export the site configuration to files",
+      "scenario": "Export the site configuration to files",
+      "language": "bash",
+      "tags": [
+        "config",
+        "export",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush config-import",
+      "description": "Import configuration from files",
+      "scenario": "Import configuration from files",
+      "language": "bash",
+      "tags": [
+        "config",
+        "import",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush config-get system.site",
+      "description": "View a specific configuration item",
+      "scenario": "View a specific configuration item",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush en module_name",
+      "description": "Enable a module",
+      "scenario": "Enable a module",
+      "language": "bash",
+      "tags": [
+        "module",
+        "enable",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush dis module_name",
+      "description": "Disable a module",
+      "scenario": "Disable a module",
+      "language": "bash",
+      "tags": [
+        "module",
+        "disable",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drush pm-uninstall module_name",
+      "description": "Uninstall a module",
+      "scenario": "Uninstall a module",
+      "language": "bash",
+      "tags": [
+        "module",
+        "uninstall",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

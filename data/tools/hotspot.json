@@ -1,0 +1,204 @@
+{
+  "title": "HotSpot CLI Cheat Sheet",
+  "slug": "hotspot",
+  "description": "Essential commands and configurations for HotSpot JVM.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "java -jar myapp.jar",
+      "description": "Start a Java application with HotSpot JVM",
+      "scenario": "Start a Java application with HotSpot JVM",
+      "language": "bash",
+      "tags": [
+        "java",
+        "hotspot",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -version",
+      "description": "Check Java version to verify HotSpot installation",
+      "scenario": "Check Java version to verify HotSpot installation",
+      "language": "bash",
+      "tags": [
+        "java",
+        "version",
+        "hotspot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "javac MyClass.java",
+      "description": "Compile Java source code using HotSpot",
+      "scenario": "Compile Java source code using HotSpot",
+      "language": "bash",
+      "tags": [
+        "java",
+        "compile",
+        "hotspot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Xms512m",
+      "description": "Set initial heap size for JVM",
+      "scenario": "Set initial heap size for JVM",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "heap",
+        "memory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Xmx1024m",
+      "description": "Set maximum heap size for JVM",
+      "scenario": "Set maximum heap size for JVM",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "heap",
+        "memory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Xlog:gc",
+      "description": "Enable garbage collection logging",
+      "scenario": "Enable garbage collection logging",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "gc",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-server",
+      "description": "Enable server mode for better performance",
+      "scenario": "Enable server mode for better performance",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "performance",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-XX:+UseG1GC",
+      "description": "Use the G1 garbage collector",
+      "scenario": "Use the G1 garbage collector",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "gc",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Xlog:gc*:file=gc.log",
+      "description": "Print detailed GC logs for analysis",
+      "scenario": "Print detailed GC logs for analysis",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "gc",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005",
+      "description": "Enable remote debugging on port 5005",
+      "scenario": "Enable remote debugging on port 5005",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "debug",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-XX:+ShowCodeDetailsInExceptionMessages",
+      "description": "Print stack trace for all exceptions",
+      "scenario": "Print stack trace for all exceptions",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "debug",
+        "exceptions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-verbose:class",
+      "description": "Enable verbose class loading output",
+      "scenario": "Enable verbose class loading output",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "debug",
+        "classloading"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Djava.security.manager",
+      "description": "Enable Java security manager",
+      "scenario": "Enable Java security manager",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "security",
+        "manager"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Djava.security.policy=custom.policy",
+      "description": "Specify a custom security policy file",
+      "scenario": "Specify a custom security policy file",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "security",
+        "policy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Djavax.net.debug=ssl",
+      "description": "Enable SSL debugging for troubleshooting",
+      "scenario": "Enable SSL debugging for troubleshooting",
+      "language": "text",
+      "tags": [
+        "jvm",
+        "security",
+        "ssl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

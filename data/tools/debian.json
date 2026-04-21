@@ -1,0 +1,204 @@
+{
+  "title": "Debian Cheat Sheet",
+  "slug": "debian",
+  "description": "Essential commands and configurations for Debian systems",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sudo apt update",
+      "description": "Update the package list",
+      "scenario": "Update the package list",
+      "language": "bash",
+      "tags": [
+        "apt",
+        "update",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt upgrade",
+      "description": "Upgrade all installed packages",
+      "scenario": "Upgrade all installed packages",
+      "language": "bash",
+      "tags": [
+        "apt",
+        "upgrade",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt install <package-name>",
+      "description": "Install a new package",
+      "scenario": "Install a new package",
+      "language": "bash",
+      "tags": [
+        "apt",
+        "install",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Display disk usage",
+      "scenario": "Display disk usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "free -h",
+      "description": "Check memory usage",
+      "scenario": "Check memory usage",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uptime",
+      "description": "Show system uptime",
+      "scenario": "Show system uptime",
+      "language": "bash",
+      "tags": [
+        "uptime",
+        "system",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo adduser <username>",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo deluser <username>",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo passwd <username>",
+      "description": "Change a user's password",
+      "scenario": "Change a user's password",
+      "language": "bash",
+      "tags": [
+        "user",
+        "password",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip a",
+      "description": "Display network interfaces",
+      "scenario": "Display network interfaces",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interfaces",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -tuln",
+      "description": "Check current network connections",
+      "scenario": "Check current network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "netstat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 <hostname>",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ping",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo chown <user>:<group> <file>",
+      "description": "Change file ownership",
+      "scenario": "Change file ownership",
+      "language": "bash",
+      "tags": [
+        "file",
+        "ownership",
+        "permissions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 755 <file>",
+      "description": "Change file permissions",
+      "scenario": "Change file permissions",
+      "language": "bash",
+      "tags": [
+        "file",
+        "permissions",
+        "chmod"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod -R 755 <directory>",
+      "description": "Recursively change directory permissions",
+      "scenario": "Recursively change directory permissions",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "permissions",
+        "chmod"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

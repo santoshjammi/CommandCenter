@@ -1,0 +1,204 @@
+{
+  "title": "Unicode Cheat Sheet",
+  "slug": "unicode",
+  "description": "Quick reference for Unicode handling in various environments.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "text = 'hello'.encode('utf-8')",
+      "description": "Encode a string to UTF-8",
+      "scenario": "Encode a string to UTF-8",
+      "language": "python",
+      "tags": [
+        "python",
+        "unicode",
+        "encoding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "text = b'hello'.decode('utf-8')",
+      "description": "Decode a UTF-8 byte string to a regular string",
+      "scenario": "Decode a UTF-8 byte string to a regular string",
+      "language": "python",
+      "tags": [
+        "python",
+        "unicode",
+        "decoding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "isinstance(text, str)",
+      "description": "Check if a string is Unicode",
+      "scenario": "Check if a string is Unicode",
+      "language": "python",
+      "tags": [
+        "python",
+        "unicode",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "'A'.codePointAt(0)",
+      "description": "Get Unicode code point of a character",
+      "scenario": "Get Unicode code point of a character",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "unicode",
+        "codepoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "String.fromCodePoint(65)",
+      "description": "Create a character from a Unicode code point",
+      "scenario": "Create a character from a Unicode code point",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "unicode",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (let char of 'hello') { console.log(char); }",
+      "description": "Iterate over characters in a string using code points",
+      "scenario": "Iterate over characters in a string using code points",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "unicode",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo -e \"\\u263A\"",
+      "description": "Print a Unicode character using echo",
+      "scenario": "Print a Unicode character using echo",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "unicode",
+        "echo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export LC_ALL=en_US.UTF-8",
+      "description": "Set locale to UTF-8",
+      "scenario": "Set locale to UTF-8",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "unicode",
+        "locale"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "locale",
+      "description": "Check current locale settings",
+      "scenario": "Check current locale settings",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "unicode",
+        "locale"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE users (name NVARCHAR(100));",
+      "description": "Create a table with a Unicode column",
+      "scenario": "Create a table with a Unicode column",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "unicode",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO users (name) VALUES (N'Jos\u00e9');",
+      "description": "Insert Unicode data into a table",
+      "scenario": "Insert Unicode data into a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "unicode",
+        "insert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT name FROM users;",
+      "description": "Select data from a Unicode column",
+      "scenario": "Select data from a Unicode column",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "unicode",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iconv -f ISO-8859-1 -t UTF-8 input.txt -o output.txt",
+      "description": "Convert a file to UTF-8 encoding",
+      "scenario": "Convert a file to UTF-8 encoding",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "unicode",
+        "iconv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unicode -s \u2603",
+      "description": "Display Unicode character information",
+      "scenario": "Display Unicode character information",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "unicode",
+        "character"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unicode -r 2600-26FF",
+      "description": "List all Unicode characters in a range",
+      "scenario": "List all Unicode characters in a range",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "unicode",
+        "range"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

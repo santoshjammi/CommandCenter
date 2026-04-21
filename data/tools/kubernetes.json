@@ -1,0 +1,204 @@
+{
+  "title": "Kubernetes Cheat Sheet",
+  "slug": "kubernetes",
+  "description": "Essential Kubernetes commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "kubectl get pods",
+      "description": "List all pods in the default namespace",
+      "scenario": "List all pods in the default namespace",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "pods",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl describe pod <pod-name>",
+      "description": "Describe a specific pod",
+      "scenario": "Describe a specific pod",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "describe",
+        "pod"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl delete pod <pod-name>",
+      "description": "Delete a pod",
+      "scenario": "Delete a pod",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "delete",
+        "pod"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl apply -f deployment.yaml",
+      "description": "Create a deployment from a YAML file",
+      "scenario": "Create a deployment from a YAML file",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "deployment",
+        "apply"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl scale deployment <deployment-name> --replicas=3",
+      "description": "Scale a deployment to 3 replicas",
+      "scenario": "Scale a deployment to 3 replicas",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "scale",
+        "deployment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl set image deployment/<deployment-name> <container-name>=<new-image>",
+      "description": "Update the image of a deployment",
+      "scenario": "Update the image of a deployment",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "update",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl expose deployment <deployment-name> --type=LoadBalancer --port=80",
+      "description": "Expose a deployment as a service",
+      "scenario": "Expose a deployment as a service",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "service",
+        "expose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl get services",
+      "description": "List all services in the default namespace",
+      "scenario": "List all services in the default namespace",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "services",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl delete service <service-name>",
+      "description": "Delete a service",
+      "scenario": "Delete a service",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "delete",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl create configmap <config-name> --from-file=<file-path>",
+      "description": "Create a config map from a file",
+      "scenario": "Create a config map from a file",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "configmap",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl create secret generic <secret-name> --from-literal=<key>=<value>",
+      "description": "Create a secret from literal values",
+      "scenario": "Create a secret from literal values",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "secret",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl get configmap <config-name> -o yaml",
+      "description": "View a config map",
+      "scenario": "View a config map",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "configmap",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl create namespace <namespace-name>",
+      "description": "Create a new namespace",
+      "scenario": "Create a new namespace",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "namespace",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl get namespaces",
+      "description": "List all namespaces",
+      "scenario": "List all namespaces",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "namespace",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl delete namespace <namespace-name>",
+      "description": "Delete a namespace",
+      "scenario": "Delete a namespace",
+      "language": "bash",
+      "tags": [
+        "kubectl",
+        "namespace",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

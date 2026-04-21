@@ -1,0 +1,204 @@
+{
+  "title": "Ubuntu Cheat Sheet",
+  "slug": "ubuntu",
+  "description": "Essential CLI commands and configurations for Ubuntu users.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copy a file from source to destination",
+      "scenario": "Copy a file from source to destination",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv file.txt /new/location/",
+      "description": "Move a file to a new location",
+      "scenario": "Move a file to a new location",
+      "language": "bash",
+      "tags": [
+        "move",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt update",
+      "description": "Update the package list",
+      "scenario": "Update the package list",
+      "language": "bash",
+      "tags": [
+        "update",
+        "apt",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt upgrade",
+      "description": "Upgrade all installed packages",
+      "scenario": "Upgrade all installed packages",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "apt",
+        "packages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt autoremove",
+      "description": "Remove unused packages",
+      "scenario": "Remove unused packages",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "packages",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo adduser newuser",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo deluser olduser",
+      "description": "Delete an existing user",
+      "scenario": "Delete an existing user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo usermod -aG groupname username",
+      "description": "Add a user to a group",
+      "scenario": "Add a user to a group",
+      "language": "bash",
+      "tags": [
+        "user",
+        "group",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display current network configuration",
+      "scenario": "Display current network configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "configuration",
+        "ifconfig"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 example.com",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "network",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -tuln",
+      "description": "Display active network connections",
+      "scenario": "Display active network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "netstat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "ps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill 1234",
+      "description": "Kill a process by PID",
+      "scenario": "Kill a process by PID",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "pid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Display real-time process activity",
+      "scenario": "Display real-time process activity",
+      "language": "bash",
+      "tags": [
+        "process",
+        "activity",
+        "top"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

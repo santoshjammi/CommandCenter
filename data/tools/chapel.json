@@ -1,0 +1,204 @@
+{
+  "title": "Chapel Programming Language Cheat Sheet",
+  "slug": "chapel",
+  "description": "Quick reference for Chapel programming language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var x: int = 10;",
+      "description": "Declare a variable with an integer value",
+      "scenario": "Declare a variable with an integer value",
+      "language": "chapel",
+      "tags": [
+        "variable",
+        "declaration",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "proc add(a: int, b: int): int { return a + b; }",
+      "description": "Define a simple function that returns an integer",
+      "scenario": "Define a simple function that returns an integer",
+      "language": "chapel",
+      "tags": [
+        "function",
+        "integer",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 1..10 do writeln(i);",
+      "description": "Iterate over a range of numbers",
+      "scenario": "Iterate over a range of numbers",
+      "language": "chapel",
+      "tags": [
+        "loop",
+        "range",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 0 then writeln(\"Positive\"); else writeln(\"Non-positive\");",
+      "description": "Conditional statement with if-else",
+      "scenario": "Conditional statement with if-else",
+      "language": "chapel",
+      "tags": [
+        "conditional",
+        "if-else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var i = 0; while i < 5 do { writeln(i); i += 1; }",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "chapel",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "select x { when 1 do writeln(\"One\"); otherwise writeln(\"Other\"); }",
+      "description": "Select case using select statement",
+      "scenario": "Select case using select statement",
+      "language": "chapel",
+      "tags": [
+        "select",
+        "case",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var arr: [1..5] int = [1, 2, 3, 4, 5];",
+      "description": "Declare and initialize an array",
+      "scenario": "Declare and initialize an array",
+      "language": "chapel",
+      "tags": [
+        "array",
+        "declaration",
+        "initialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var t: (int, string) = (1, \"hello\");",
+      "description": "Use a tuple to store multiple values",
+      "scenario": "Use a tuple to store multiple values",
+      "language": "chapel",
+      "tags": [
+        "tuple",
+        "multiple",
+        "values"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "record Point { var x: real; var y: real; } var p = new Point(1.0, 2.0);",
+      "description": "Define a record type and create an instance",
+      "scenario": "Define a record type and create an instance",
+      "language": "chapel",
+      "tags": [
+        "record",
+        "type",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "forall i in 1..10 do writeln(i);",
+      "description": "Parallel loop using forall",
+      "scenario": "Parallel loop using forall",
+      "language": "chapel",
+      "tags": [
+        "parallel",
+        "forall",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "coforall loc in Locales do on loc do writeln(\"Hello from \", loc.name);",
+      "description": "Coforall loop for parallel execution",
+      "scenario": "Coforall loop for parallel execution",
+      "language": "chapel",
+      "tags": [
+        "coforall",
+        "parallel",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sync var counter = 0;",
+      "description": "Sync variable for synchronization",
+      "scenario": "Sync variable for synchronization",
+      "language": "chapel",
+      "tags": [
+        "sync",
+        "variable",
+        "synchronization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var f = open(\"file.txt\", iomode.r); for line in f { writeln(line); } f.close();",
+      "description": "Read from a file line by line",
+      "scenario": "Read from a file line by line",
+      "language": "chapel",
+      "tags": [
+        "file",
+        "read",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var f = open(\"output.txt\", iomode.w); f.writeln(\"Hello, World!\"); f.close();",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "chapel",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var f = open(\"log.txt\", iomode.a); f.writeln(\"New log entry\"); f.close();",
+      "description": "Append to a file",
+      "scenario": "Append to a file",
+      "language": "chapel",
+      "tags": [
+        "file",
+        "append",
+        "log"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

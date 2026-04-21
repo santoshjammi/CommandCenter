@@ -1,0 +1,204 @@
+{
+  "title": "ASP Cheat Sheet",
+  "slug": "asp",
+  "description": "Quick reference for ASP syntax and commands.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<%\nDim myVariable\nmyVariable = \"Hello, World!\"\n%>",
+      "description": "Declare a variable in ASP",
+      "scenario": "Declare a variable in ASP",
+      "language": "asp",
+      "tags": [
+        "variable",
+        "declare",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nFunction AddNumbers(a, b)\n    AddNumbers = a + b\nEnd Function\n%>",
+      "description": "Create a simple ASP function",
+      "scenario": "Create a simple ASP function",
+      "language": "asp",
+      "tags": [
+        "function",
+        "add",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nResponse.Write(\"Hello, ASP!\")\n%>",
+      "description": "Write output to the browser",
+      "scenario": "Write output to the browser",
+      "language": "asp",
+      "tags": [
+        "output",
+        "response",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nIf x > 10 Then\n    Response.Write(\"x is greater than 10\")\nElse\n    Response.Write(\"x is 10 or less\")\nEnd If\n%>",
+      "description": "If-Else statement in ASP",
+      "scenario": "If-Else statement in ASP",
+      "language": "asp",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nDim i\nFor i = 1 To 5\n    Response.Write(\"Number: \" & i & \"<br>\")\nNext\n%>",
+      "description": "For loop in ASP",
+      "scenario": "For loop in ASP",
+      "language": "asp",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nDim i\ni = 0\nWhile i < 5\n    Response.Write(\"Number: \" & i & \"<br>\")\n    i = i + 1\nWend\n%>",
+      "description": "While loop in ASP",
+      "scenario": "While loop in ASP",
+      "language": "asp",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nOn Error Resume Next\nDim result\nresult = 10 / 0\nIf Err.Number <> 0 Then\n    Response.Write(\"An error occurred: \" & Err.Description)\nEnd If\n%>",
+      "description": "Basic error handling in ASP",
+      "scenario": "Basic error handling in ASP",
+      "language": "asp",
+      "tags": [
+        "error",
+        "handling",
+        "resume"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nErr.Clear\n%>",
+      "description": "Clear error in ASP",
+      "scenario": "Clear error in ASP",
+      "language": "asp",
+      "tags": [
+        "error",
+        "clear",
+        "reset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nErr.Raise 500, \"MyASPApp\", \"Custom error message\"\n%>",
+      "description": "Raise an error manually",
+      "scenario": "Raise an error manually",
+      "language": "asp",
+      "tags": [
+        "error",
+        "raise",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nSession(\"username\") = \"JohnDoe\"\n%>",
+      "description": "Start a session in ASP",
+      "scenario": "Start a session in ASP",
+      "language": "asp",
+      "tags": [
+        "session",
+        "start",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nDim username\nusername = Session(\"username\")\nResponse.Write(\"Welcome, \" & username)\n%>",
+      "description": "Retrieve session variable",
+      "scenario": "Retrieve session variable",
+      "language": "asp",
+      "tags": [
+        "session",
+        "retrieve",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nSession.Abandon\n%>",
+      "description": "Abandon a session",
+      "scenario": "Abandon a session",
+      "language": "asp",
+      "tags": [
+        "session",
+        "abandon",
+        "end"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nDim fso, file, content\nSet fso = Server.CreateObject(\"Scripting.FileSystemObject\")\nSet file = fso.OpenTextFile(Server.MapPath(\"/path/to/file.txt\"), 1)\ncontent = file.ReadAll\nResponse.Write(content)\nfile.Close\n%>",
+      "description": "Open and read a text file",
+      "scenario": "Open and read a text file",
+      "language": "asp",
+      "tags": [
+        "file",
+        "read",
+        "fso"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nDim fso, file\nSet fso = Server.CreateObject(\"Scripting.FileSystemObject\")\nSet file = fso.OpenTextFile(Server.MapPath(\"/path/to/file.txt\"), 2, True)\nfile.WriteLine(\"Hello, ASP!\")\nfile.Close\n%>",
+      "description": "Write to a text file",
+      "scenario": "Write to a text file",
+      "language": "asp",
+      "tags": [
+        "file",
+        "write",
+        "fso"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%\nDim fso\nSet fso = Server.CreateObject(\"Scripting.FileSystemObject\")\nfso.DeleteFile(Server.MapPath(\"/path/to/file.txt\"))\n%>",
+      "description": "Delete a file",
+      "scenario": "Delete a file",
+      "language": "asp",
+      "tags": [
+        "file",
+        "delete",
+        "fso"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

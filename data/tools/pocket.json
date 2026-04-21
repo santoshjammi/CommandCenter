@@ -1,0 +1,204 @@
+{
+  "title": "Pocket CLI Cheat Sheet",
+  "slug": "pocket",
+  "description": "Essential commands and syntax for using the Pocket CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "pocket add https://example.com",
+      "description": "Add a new URL to Pocket",
+      "scenario": "Add a new URL to Pocket",
+      "language": "bash",
+      "tags": [
+        "add",
+        "url",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket list",
+      "description": "List all saved items in Pocket",
+      "scenario": "List all saved items in Pocket",
+      "language": "bash",
+      "tags": [
+        "list",
+        "items",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket remove 12345",
+      "description": "Remove an item from Pocket by ID",
+      "scenario": "Remove an item from Pocket by ID",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "id",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket auth",
+      "description": "Authenticate Pocket CLI with your account",
+      "scenario": "Authenticate Pocket CLI with your account",
+      "language": "bash",
+      "tags": [
+        "auth",
+        "setup",
+        "account"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket auth status",
+      "description": "Check current authentication status",
+      "scenario": "Check current authentication status",
+      "language": "bash",
+      "tags": [
+        "auth",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket auth logout",
+      "description": "Logout from Pocket CLI",
+      "scenario": "Logout from Pocket CLI",
+      "language": "bash",
+      "tags": [
+        "auth",
+        "logout",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket search keyword",
+      "description": "Search for items containing a specific keyword",
+      "scenario": "Search for items containing a specific keyword",
+      "language": "bash",
+      "tags": [
+        "search",
+        "filter",
+        "keyword"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket list --tag=technology",
+      "description": "Filter items by tag",
+      "scenario": "Filter items by tag",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "tag",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket list --archive",
+      "description": "List archived items",
+      "scenario": "List archived items",
+      "language": "bash",
+      "tags": [
+        "archive",
+        "list",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket tag add 12345 technology",
+      "description": "Add a tag to a specific item",
+      "scenario": "Add a tag to a specific item",
+      "language": "bash",
+      "tags": [
+        "tag",
+        "add",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket tag remove 12345 technology",
+      "description": "Remove a tag from a specific item",
+      "scenario": "Remove a tag from a specific item",
+      "language": "bash",
+      "tags": [
+        "tag",
+        "remove",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket tag list",
+      "description": "List all tags used in Pocket",
+      "scenario": "List all tags used in Pocket",
+      "language": "bash",
+      "tags": [
+        "tag",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket export --format=json --output=items.json",
+      "description": "Export all Pocket items to a JSON file",
+      "scenario": "Export all Pocket items to a JSON file",
+      "language": "bash",
+      "tags": [
+        "export",
+        "json",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket import --file=items.json",
+      "description": "Import items from a JSON file into Pocket",
+      "scenario": "Import items from a JSON file into Pocket",
+      "language": "bash",
+      "tags": [
+        "import",
+        "json",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pocket update",
+      "description": "Update Pocket CLI to the latest version",
+      "scenario": "Update Pocket CLI to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "version",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

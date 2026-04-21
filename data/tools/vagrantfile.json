@@ -1,0 +1,204 @@
+{
+  "title": "Vagrantfile Cheat Sheet",
+  "slug": "vagrantfile",
+  "description": "Essential Vagrantfile configurations and commands for Vagrant users.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.box = \"ubuntu/bionic64\"\nend",
+      "description": "Set the base box for the virtual machine",
+      "scenario": "Set the base box for the virtual machine",
+      "language": "ruby",
+      "tags": [
+        "vagrantfile",
+        "base box",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.network \"forwarded_port\", guest: 80, host: 8080\nend",
+      "description": "Forward a port from host to guest",
+      "scenario": "Forward a port from host to guest",
+      "language": "ruby",
+      "tags": [
+        "network",
+        "port forwarding",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.define \"my_vm_name\" do |vm|\n  end\nend",
+      "description": "Set a custom VM name",
+      "scenario": "Set a custom VM name",
+      "language": "ruby",
+      "tags": [
+        "vm name",
+        "configuration",
+        "customization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.provision \"shell\", path: \"script.sh\"\nend",
+      "description": "Use a shell script for provisioning",
+      "scenario": "Use a shell script for provisioning",
+      "language": "ruby",
+      "tags": [
+        "provisioning",
+        "shell",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.provision \"shell\" do |s|\n    s.inline = \"echo Hello, World!\"\n  end\nend",
+      "description": "Provision with inline shell commands",
+      "scenario": "Provision with inline shell commands",
+      "language": "ruby",
+      "tags": [
+        "provisioning",
+        "inline",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.provision \"ansible\" do |ansible|\n    ansible.playbook = \"playbook.yml\"\n  end\nend",
+      "description": "Use Ansible for provisioning",
+      "scenario": "Use Ansible for provisioning",
+      "language": "ruby",
+      "tags": [
+        "provisioning",
+        "ansible",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vagrant up",
+      "description": "Start and provision the Vagrant environment",
+      "scenario": "Start and provision the Vagrant environment",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "start",
+        "provision"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vagrant ssh",
+      "description": "SSH into the Vagrant machine",
+      "scenario": "SSH into the Vagrant machine",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "ssh",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vagrant suspend",
+      "description": "Suspend the Vagrant machine",
+      "scenario": "Suspend the Vagrant machine",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "suspend",
+        "pause"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.network \"private_network\", type: \"dhcp\"\nend",
+      "description": "Configure a private network",
+      "scenario": "Configure a private network",
+      "language": "ruby",
+      "tags": [
+        "network",
+        "private",
+        "dhcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.network \"public_network\"\nend",
+      "description": "Configure a public network",
+      "scenario": "Configure a public network",
+      "language": "ruby",
+      "tags": [
+        "network",
+        "public",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.network \"private_network\", ip: \"192.168.33.10\"\nend",
+      "description": "Set a static IP address",
+      "scenario": "Set a static IP address",
+      "language": "ruby",
+      "tags": [
+        "network",
+        "static ip",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.synced_folder \"./data\", \"/vagrant_data\"\nend",
+      "description": "Sync a folder from host to guest",
+      "scenario": "Sync a folder from host to guest",
+      "language": "ruby",
+      "tags": [
+        "synced folder",
+        "host",
+        "guest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.synced_folder \"./data\", \"/vagrant_data\", disabled: true\nend",
+      "description": "Disable synced folders",
+      "scenario": "Disable synced folders",
+      "language": "ruby",
+      "tags": [
+        "synced folder",
+        "disable",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vagrant.configure(\"2\") do |config|\n  config.vm.synced_folder \"./data\", \"/vagrant_data\", type: \"nfs\"\nend",
+      "description": "Use NFS for synced folders",
+      "scenario": "Use NFS for synced folders",
+      "language": "ruby",
+      "tags": [
+        "synced folder",
+        "nfs",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

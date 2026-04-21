@@ -1,0 +1,165 @@
+{
+  "title": "CVS Cheat Sheet",
+  "slug": "cvs",
+  "description": "Quick reference for common CVS commands and patterns",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "cvs checkout <module>",
+      "description": "Check out a module from the repository",
+      "scenario": "Check out a module from the repository",
+      "language": "bash",
+      "tags": [
+        "checkout",
+        "module",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs update",
+      "description": "Update local working directory with changes from the repository",
+      "scenario": "Update local working directory with changes from the repository",
+      "language": "bash",
+      "tags": [
+        "update",
+        "sync",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs commit -m \"Commit message\"",
+      "description": "Commit changes to the repository",
+      "scenario": "Commit changes to the repository",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "changes",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs tag -b <branch_name>",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "tag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs tag <tag_name>",
+      "description": "Tag the current state of the repository",
+      "scenario": "Tag the current state of the repository",
+      "language": "bash",
+      "tags": [
+        "tag",
+        "state",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs update -r <branch_name>",
+      "description": "Switch to a different branch",
+      "scenario": "Switch to a different branch",
+      "language": "bash",
+      "tags": [
+        "switch",
+        "branch",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs add <file>",
+      "description": "Add a new file to the repository",
+      "scenario": "Add a new file to the repository",
+      "language": "bash",
+      "tags": [
+        "add",
+        "file",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs remove <file>",
+      "description": "Remove a file from the repository",
+      "scenario": "Remove a file from the repository",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "file",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs diff <file>",
+      "description": "Show differences between local file and repository version",
+      "scenario": "Show differences between local file and repository version",
+      "language": "bash",
+      "tags": [
+        "diff",
+        "file",
+        "compare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs import -m \"Initial import\" <repository> <vendor_tag> <release_tag>",
+      "description": "Import a new project into the repository",
+      "scenario": "Import a new project into the repository",
+      "language": "bash",
+      "tags": [
+        "import",
+        "project",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs checkout -c",
+      "description": "List all modules in the repository",
+      "scenario": "List all modules in the repository",
+      "language": "bash",
+      "tags": [
+        "list",
+        "modules",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cvs log <file>",
+      "description": "Show log of changes for a file",
+      "scenario": "Show log of changes for a file",
+      "language": "bash",
+      "tags": [
+        "log",
+        "changes",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

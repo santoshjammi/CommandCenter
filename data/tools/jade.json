@@ -1,0 +1,204 @@
+{
+  "title": "Jade Cheat Sheet",
+  "slug": "jade",
+  "description": "Quick reference for Jade template syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "div",
+      "description": "Define a basic HTML element",
+      "scenario": "Define a basic HTML element",
+      "language": "jade",
+      "tags": [
+        "html",
+        "element",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div#container",
+      "description": "Add an element with an ID",
+      "scenario": "Add an element with an ID",
+      "language": "jade",
+      "tags": [
+        "id",
+        "element",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div.class-name",
+      "description": "Add an element with a class",
+      "scenario": "Add an element with a class",
+      "language": "jade",
+      "tags": [
+        "class",
+        "element",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a(href='https://example.com') Link",
+      "description": "Add an attribute to an element",
+      "scenario": "Add an attribute to an element",
+      "language": "jade",
+      "tags": [
+        "attribute",
+        "link",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "input(type='text', name='username', required)",
+      "description": "Add multiple attributes to an element",
+      "scenario": "Add multiple attributes to an element",
+      "language": "jade",
+      "tags": [
+        "attributes",
+        "input",
+        "form"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "img(src=imageUrl, alt=imageDescription)",
+      "description": "Use dynamic attributes with variables",
+      "scenario": "Use dynamic attributes with variables",
+      "language": "jade",
+      "tags": [
+        "dynamic",
+        "attributes",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if user.isAdmin\n  p Welcome, Admin!",
+      "description": "Use if statement",
+      "scenario": "Use if statement",
+      "language": "jade",
+      "tags": [
+        "if",
+        "control",
+        "flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "else if user.isGuest\n  p Welcome, Guest!",
+      "description": "Use else if statement",
+      "scenario": "Use else if statement",
+      "language": "jade",
+      "tags": [
+        "else if",
+        "control",
+        "flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "else\n  p Welcome, User!",
+      "description": "Use else statement",
+      "scenario": "Use else statement",
+      "language": "jade",
+      "tags": [
+        "else",
+        "control",
+        "flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "each item in items\n  li= item",
+      "description": "Iterate over an array",
+      "scenario": "Iterate over an array",
+      "language": "jade",
+      "tags": [
+        "loop",
+        "each",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "each val, index in items\n  li #{index}: #{val}",
+      "description": "Iterate with index",
+      "scenario": "Iterate with index",
+      "language": "jade",
+      "tags": [
+        "loop",
+        "index",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "each value, key in object\n  li #{key}: #{value}",
+      "description": "Iterate over an object",
+      "scenario": "Iterate over an object",
+      "language": "jade",
+      "tags": [
+        "loop",
+        "object",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixin list(items)\n  ul\n    each item in items\n      li= item",
+      "description": "Define a mixin",
+      "scenario": "Define a mixin",
+      "language": "jade",
+      "tags": [
+        "mixin",
+        "define",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+list(['Apple', 'Banana', 'Cherry'])",
+      "description": "Use a mixin",
+      "scenario": "Use a mixin",
+      "language": "jade",
+      "tags": [
+        "mixin",
+        "use",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mixin article(title)\n  .article\n    h1= title\n    block\n\n+article('My Article')\n  p This is the content of the article.",
+      "description": "Mixin with block content",
+      "scenario": "Mixin with block content",
+      "language": "jade",
+      "tags": [
+        "mixin",
+        "block",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

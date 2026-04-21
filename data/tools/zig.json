@@ -1,0 +1,165 @@
+{
+  "title": "Zig Cheat Sheet",
+  "slug": "zig",
+  "description": "Essential Zig commands and syntax for efficient development",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "zig init-exe",
+      "description": "Initialize a new Zig project",
+      "scenario": "Initialize a new Zig project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zig build",
+      "description": "Build a Zig project",
+      "scenario": "Build a Zig project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zig test src/main.zig",
+      "description": "Run Zig tests",
+      "scenario": "Run Zig tests",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fn add(a: i32, b: i32) i32 { return a + b; }",
+      "description": "Define a function in Zig",
+      "scenario": "Define a function in Zig",
+      "language": "zig",
+      "tags": [
+        "function",
+        "syntax",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const pi = 3.14;",
+      "description": "Declare a constant",
+      "scenario": "Declare a constant",
+      "language": "zig",
+      "tags": [
+        "constant",
+        "declare",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (array) |item| { // do something with item }",
+      "description": "Use a for loop",
+      "scenario": "Use a for loop",
+      "language": "zig",
+      "tags": [
+        "loop",
+        "iteration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zig build -Drelease-fast",
+      "description": "Enable release mode for optimizations",
+      "scenario": "Enable release mode for optimizations",
+      "language": "bash",
+      "tags": [
+        "release",
+        "optimize",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zig build -Dtarget=x86_64-linux",
+      "description": "Specify target architecture",
+      "scenario": "Specify target architecture",
+      "language": "bash",
+      "tags": [
+        "target",
+        "architecture",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zig build --prefix ./custom_build",
+      "description": "Set custom build directory",
+      "scenario": "Set custom build directory",
+      "language": "bash",
+      "tags": [
+        "build",
+        "directory",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const result = try someFunction();",
+      "description": "Error handling with try",
+      "scenario": "Error handling with try",
+      "language": "zig",
+      "tags": [
+        "error",
+        "handling",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var maybeValue: ?i32 = null;",
+      "description": "Use of optional types",
+      "scenario": "Use of optional types",
+      "language": "zig",
+      "tags": [
+        "optional",
+        "type",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const Point = struct { x: i32, y: i32 };",
+      "description": "Implementing a struct",
+      "scenario": "Implementing a struct",
+      "language": "zig",
+      "tags": [
+        "struct",
+        "pattern",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

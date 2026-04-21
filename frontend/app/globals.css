@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+/* =============================================================
+   Design tokens — Wise-inspired palette (from design.md)
+   ============================================================= */
+:root {
+  --background:     #ffffff;
+  --foreground:     #0e0f0c;  /* Near Black */
+
+  /* Brand */
+  --wise-green:     #9fe870;
+  --dark-green:     #163300;
+  --light-mint:     #e2f6d5;
+  --pastel-green:   #cdffad;
+
+  /* Semantic */
+  --positive-green: #054d28;
+  --danger-red:     #d03238;
+  --warning-yellow: #ffd11a;
+  --bright-orange:  #ffc091;
+
+  /* Neutrals */
+  --warm-dark:      #454745;
+  --muted-gray:     #868685;
+  --light-surface:  #e8ebe6;
+
+  /* Ring/elevation */
+  --ring:           rgba(14, 15, 12, 0.12);
+  --nav-hover:      rgba(211, 242, 192, 0.40);
+
+  /* Card hover tint — wise-green at 4% */
+  --card-hover-bg:  rgba(159, 232, 112, 0.06);
+}
+
+/* Tailwind v4 theme tokens — enables bg-wise-green, text-dark-green, etc. */
+@theme inline {
+  --color-background:     var(--background);
+  --color-foreground:     var(--foreground);
+  --color-wise-green:     var(--wise-green);
+  --color-dark-green:     var(--dark-green);
+  --color-light-mint:     var(--light-mint);
+  --color-pastel-green:   var(--pastel-green);
+  --color-warm-dark:      var(--warm-dark);
+  --color-muted-gray:     var(--muted-gray);
+  --color-light-surface:  var(--light-surface);
+  --color-bright-orange:  var(--bright-orange);
+  --color-positive-green: var(--positive-green);
+  --color-danger-red:     var(--danger-red);
+  --font-sans: var(--font-inter);
+}
+
+/* =============================================================
+   View Transitions API — instant cross-page navigation feel
+   ============================================================= */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root) {
+  animation: vt-fade-out 120ms ease;
+}
+
+::view-transition-new(root) {
+  animation: vt-fade-in 120ms ease;
+}
+
+@keyframes vt-fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+@keyframes vt-fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-feature-settings: "calt" 1; /* contextual alternates — mandatory per design.md */
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::-webkit-scrollbar          { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track    { background: transparent; }
+  ::-webkit-scrollbar-thumb    { background: var(--light-surface); border-radius: 9999px; }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.15s ease-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* =============================================================
+   Component utilities
+   ============================================================= */
+
+/* Buttons — pill, scale on hover/active */
+.btn-primary {
+  background: var(--wise-green);
+  color: var(--dark-green);
+  padding: 8px 20px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 120ms ease;
+}
+.btn-primary:hover        { transform: scale(1.05); }
+.btn-primary:active       { transform: scale(0.95); }
+.btn-primary:focus-visible{ box-shadow: 0 0 0 3px var(--light-mint); outline: none; }
+
+.btn-secondary {
+  background: rgba(22, 51, 0, 0.08);
+  color: var(--foreground);
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 120ms ease;
+}
+.btn-secondary:hover  { transform: scale(1.05); }
+.btn-secondary:active { transform: scale(0.95); }
+
+/* Cards — ring shadow only, no box-shadow */
+.card {
+  background: var(--background);
+  border-radius: 16px;
+  border: 1px solid var(--ring);
+}
+.card-medium { border-radius: 30px; }
+.card-large  { border-radius: 40px; }
+
+/* Tool card — pure-CSS hover, no JS event handlers needed */
+.tool-card {
+  border-radius: 16px;
+  border: 1px solid var(--ring);
+  background: var(--background);
+  transition: border-color 150ms ease, box-shadow 150ms ease, background 150ms ease;
+  /* GPU-accelerated layer for the hover repaint */
+  will-change: border-color, box-shadow;
+  /* Limit paint to this element */
+  contain: layout style;
+}
+.tool-card:hover {
+  border-color: var(--wise-green);
+  box-shadow: 0 0 0 1px var(--wise-green);
+  background: var(--card-hover-bg);
+}
+
+/* Nav item hover — green tint */
+.nav-hover:hover {
+  background: var(--nav-hover);
+  border-radius: 8px;
+}
+
+/* Badges */
+.badge-category {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  background: var(--light-surface);
+  color: var(--warm-dark);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.badge-engineer {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 9999px;
+  background: var(--light-mint);
+  color: var(--dark-green);
+  font-size: 11px;
+  font-weight: 600;
+}
+.badge-non-engineer {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 9999px;
+  background: var(--bright-orange);
+  color: #6b2a00;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Tag pills inside code snippets */
+.tag-pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: var(--light-mint);
+  color: var(--dark-green);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* Search result highlight */
+.search-result-active {
+  background: var(--light-mint);
+}
+

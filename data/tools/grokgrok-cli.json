@@ -1,0 +1,165 @@
+{
+  "title": "GrokGrok CLI Cheat Sheet",
+  "slug": "grokgrok-cli",
+  "description": "Essential commands and configurations for GrokGrok CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "grok init",
+      "description": "Initialize a new GrokGrok project",
+      "scenario": "Initialize a new GrokGrok project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok start",
+      "description": "Start the GrokGrok server",
+      "scenario": "Start the GrokGrok server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok stop",
+      "description": "Stop the GrokGrok server",
+      "scenario": "Stop the GrokGrok server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok config set --file /path/to/config.yaml",
+      "description": "Set the configuration file path",
+      "scenario": "Set the configuration file path",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok config view",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok config reset",
+      "description": "Reset configuration to default",
+      "scenario": "Reset configuration to default",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok start --debug",
+      "description": "Run GrokGrok in debug mode",
+      "scenario": "Run GrokGrok in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "mode",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok logs export --output logs.txt",
+      "description": "Export logs for troubleshooting",
+      "scenario": "Export logs for troubleshooting",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "export",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok update",
+      "description": "Update GrokGrok to the latest version",
+      "scenario": "Update GrokGrok to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "version",
+        "upgrade"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok start && grok status",
+      "description": "Chain commands with logical AND",
+      "scenario": "Chain commands with logical AND",
+      "language": "bash",
+      "tags": [
+        "chain",
+        "commands",
+        "and"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo grok start",
+      "description": "Run a command with elevated privileges",
+      "scenario": "Run a command with elevated privileges",
+      "language": "bash",
+      "tags": [
+        "sudo",
+        "privileges",
+        "elevate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grok status > status.txt",
+      "description": "Redirect output to a file",
+      "scenario": "Redirect output to a file",
+      "language": "bash",
+      "tags": [
+        "redirect",
+        "output",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Phoenix Framework Cheat Sheet",
+  "slug": "phoenix",
+  "description": "Quick reference for Phoenix framework commands and syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mix phx.new my_project",
+      "description": "Create a new Phoenix project",
+      "scenario": "Create a new Phoenix project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "project",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix phx.server",
+      "description": "Start the Phoenix server",
+      "scenario": "Start the Phoenix server",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "server",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix phx.gen.context Accounts User users name:string age:integer",
+      "description": "Generate a new context with schema",
+      "scenario": "Generate a new context with schema",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "context",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "get \"/hello\", HelloController, :world",
+      "description": "Define a basic route",
+      "scenario": "Define a basic route",
+      "language": "elixir",
+      "tags": [
+        "routing",
+        "controller",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "resources \"/users\", UserController",
+      "description": "Define a resource route",
+      "scenario": "Define a resource route",
+      "language": "elixir",
+      "tags": [
+        "routing",
+        "resource",
+        "controller"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scope \"/admin\", Admin do\n  pipe_through :browser\n  resources \"/dashboard\", DashboardController\nend",
+      "description": "Scope routes under an admin namespace",
+      "scenario": "Scope routes under an admin namespace",
+      "language": "elixir",
+      "tags": [
+        "routing",
+        "scope",
+        "namespace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def index(conn, _params) do\n  render(conn, \"index.html\")\nend",
+      "description": "Define a basic controller action",
+      "scenario": "Define a basic controller action",
+      "language": "elixir",
+      "tags": [
+        "controller",
+        "action",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "redirect(conn, to: \"/another_page\")",
+      "description": "Redirect to another page",
+      "scenario": "Redirect to another page",
+      "language": "elixir",
+      "tags": [
+        "controller",
+        "redirect",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "json(conn, %{message: \"Hello, World!\"})",
+      "description": "Send a JSON response",
+      "scenario": "Send a JSON response",
+      "language": "elixir",
+      "tags": [
+        "controller",
+        "json",
+        "response"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "render(\"index.html\", assigns)",
+      "description": "Render a template from a view",
+      "scenario": "Render a template from a view",
+      "language": "elixir",
+      "tags": [
+        "view",
+        "render",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= render_layout @view_module, @view_template, assigns %>",
+      "description": "Use a layout in a template",
+      "scenario": "Use a layout in a template",
+      "language": "elixir",
+      "tags": [
+        "template",
+        "layout",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= render \"shared/_header.html\", assigns %>",
+      "description": "Include a partial template",
+      "scenario": "Include a partial template",
+      "language": "elixir",
+      "tags": [
+        "template",
+        "partial",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mix phx.gen.context Blog Post posts title:string body:text",
+      "description": "Create a new context",
+      "scenario": "Create a new context",
+      "language": "bash",
+      "tags": [
+        "context",
+        "generate",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def list_posts do\n  Repo.all(Post)\nend",
+      "description": "Add a function to a context",
+      "scenario": "Add a function to a context",
+      "language": "elixir",
+      "tags": [
+        "context",
+        "function",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def get_post!(id) do\n  Repo.get!(Post, id)\nend",
+      "description": "Fetch a record by ID in a context",
+      "scenario": "Fetch a record by ID in a context",
+      "language": "elixir",
+      "tags": [
+        "context",
+        "fetch",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "OSL Command Line Interface",
+  "slug": "osl",
+  "description": "Essential OSL CLI commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "osl --help",
+      "description": "List all available OSL commands",
+      "scenario": "List all available OSL commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl --version",
+      "description": "Check the version of OSL installed",
+      "scenario": "Check the version of OSL installed",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl init my_project",
+      "description": "Initialize a new OSL project",
+      "scenario": "Initialize a new OSL project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl build",
+      "description": "Build the OSL project",
+      "scenario": "Build the OSL project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "project",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl test",
+      "description": "Run tests for the OSL project",
+      "scenario": "Run tests for the OSL project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "project",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl clean",
+      "description": "Clean the project build artifacts",
+      "scenario": "Clean the project build artifacts",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "artifacts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl config set key=value",
+      "description": "Set a configuration variable for OSL",
+      "scenario": "Set a configuration variable for OSL",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl config get key",
+      "description": "Get a configuration variable value",
+      "scenario": "Get a configuration variable value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl config list",
+      "description": "List all configuration variables",
+      "scenario": "List all configuration variables",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl deploy --env=production",
+      "description": "Deploy the OSL project to production",
+      "scenario": "Deploy the OSL project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl rollback",
+      "description": "Rollback the last deployment",
+      "scenario": "Rollback the last deployment",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "deploy",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osl docgen",
+      "description": "Generate documentation for the project",
+      "scenario": "Generate documentation for the project",
+      "language": "bash",
+      "tags": [
+        "documentation",
+        "generate",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

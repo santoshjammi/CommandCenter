@@ -1,0 +1,165 @@
+{
+  "title": "HTTPie Cheat Sheet",
+  "slug": "httpie",
+  "description": "Quick reference for HTTPie command-line HTTP client.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "http GET https://api.example.com",
+      "description": "Make a GET request to a URL",
+      "scenario": "Make a GET request to a URL",
+      "language": "bash",
+      "tags": [
+        "GET",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http POST https://api.example.com name=John age:=30",
+      "description": "Make a POST request with JSON data",
+      "scenario": "Make a POST request with JSON data",
+      "language": "bash",
+      "tags": [
+        "POST",
+        "json",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http DELETE https://api.example.com/resource/123",
+      "description": "Make a DELETE request to a URL",
+      "scenario": "Make a DELETE request to a URL",
+      "language": "bash",
+      "tags": [
+        "DELETE",
+        "request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http -a username:password GET https://api.example.com",
+      "description": "Basic authentication with username and password",
+      "scenario": "Basic authentication with username and password",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "basic",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http GET https://api.example.com 'Authorization:Bearer <token>'",
+      "description": "Bearer token authentication",
+      "scenario": "Bearer token authentication",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "bearer",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http GET https://api.example.com 'X-API-Key:123456'",
+      "description": "Use API key in a header",
+      "scenario": "Use API key in a header",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "api-key",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http GET https://api.example.com 'Custom-Header:Value'",
+      "description": "Include a custom header in the request",
+      "scenario": "Include a custom header in the request",
+      "language": "bash",
+      "tags": [
+        "header",
+        "custom",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http GET https://api.example.com/search query==httpie",
+      "description": "Send query parameters with a GET request",
+      "scenario": "Send query parameters with a GET request",
+      "language": "bash",
+      "tags": [
+        "query",
+        "parameters",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http --form POST https://api.example.com name=John age=30",
+      "description": "Send form data with a POST request",
+      "scenario": "Send form data with a POST request",
+      "language": "bash",
+      "tags": [
+        "form",
+        "post",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http --download GET https://api.example.com/file.zip",
+      "description": "Download a file from a URL",
+      "scenario": "Download a file from a URL",
+      "language": "bash",
+      "tags": [
+        "download",
+        "file",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http GET https://api.example.com > response.json",
+      "description": "Save response to a file",
+      "scenario": "Save response to a file",
+      "language": "bash",
+      "tags": [
+        "response",
+        "save",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http GET https://api.example.com | jq .",
+      "description": "Pretty-print JSON response",
+      "scenario": "Pretty-print JSON response",
+      "language": "bash",
+      "tags": [
+        "json",
+        "pretty-print",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

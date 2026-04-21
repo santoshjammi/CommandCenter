@@ -1,0 +1,204 @@
+{
+  "title": "HTTP Status Codes Cheat Sheet",
+  "slug": "http-status",
+  "description": "Quick reference for common HTTP status codes and their meanings.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "100 Continue",
+      "description": "Request received, continuing process",
+      "scenario": "Request received, continuing process",
+      "language": "text",
+      "tags": [
+        "informational",
+        "continue",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "101 Switching Protocols",
+      "description": "Switching to new protocol",
+      "scenario": "Switching to new protocol",
+      "language": "text",
+      "tags": [
+        "informational",
+        "protocol",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "102 Processing",
+      "description": "Processing request but no response available yet",
+      "scenario": "Processing request but no response available yet",
+      "language": "text",
+      "tags": [
+        "informational",
+        "processing",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "200 OK",
+      "description": "Request succeeded, information returned",
+      "scenario": "Request succeeded, information returned",
+      "language": "text",
+      "tags": [
+        "success",
+        "ok",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "201 Created",
+      "description": "Resource created successfully",
+      "scenario": "Resource created successfully",
+      "language": "text",
+      "tags": [
+        "success",
+        "created",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "202 Accepted",
+      "description": "Request accepted but not yet processed",
+      "scenario": "Request accepted but not yet processed",
+      "language": "text",
+      "tags": [
+        "success",
+        "accepted",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "301 Moved Permanently",
+      "description": "Resource moved permanently to a new URL",
+      "scenario": "Resource moved permanently to a new URL",
+      "language": "text",
+      "tags": [
+        "redirection",
+        "moved",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "302 Found",
+      "description": "Resource found at a different URL",
+      "scenario": "Resource found at a different URL",
+      "language": "text",
+      "tags": [
+        "redirection",
+        "found",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "304 Not Modified",
+      "description": "Resource not modified since last request",
+      "scenario": "Resource not modified since last request",
+      "language": "text",
+      "tags": [
+        "redirection",
+        "not modified",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "400 Bad Request",
+      "description": "Request cannot be fulfilled due to bad syntax",
+      "scenario": "Request cannot be fulfilled due to bad syntax",
+      "language": "text",
+      "tags": [
+        "client error",
+        "bad request",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "401 Unauthorized",
+      "description": "Authentication required for the requested resource",
+      "scenario": "Authentication required for the requested resource",
+      "language": "text",
+      "tags": [
+        "client error",
+        "unauthorized",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "404 Not Found",
+      "description": "Requested resource not found",
+      "scenario": "Requested resource not found",
+      "language": "text",
+      "tags": [
+        "client error",
+        "not found",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "500 Internal Server Error",
+      "description": "Server encountered an unexpected condition",
+      "scenario": "Server encountered an unexpected condition",
+      "language": "text",
+      "tags": [
+        "server error",
+        "internal",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "501 Not Implemented",
+      "description": "Server does not support the functionality required",
+      "scenario": "Server does not support the functionality required",
+      "language": "text",
+      "tags": [
+        "server error",
+        "not implemented",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "503 Service Unavailable",
+      "description": "Server is currently unable to handle the request",
+      "scenario": "Server is currently unable to handle the request",
+      "language": "text",
+      "tags": [
+        "server error",
+        "service unavailable",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

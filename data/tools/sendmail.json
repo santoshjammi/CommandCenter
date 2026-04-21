@@ -1,0 +1,165 @@
+{
+  "title": "Sendmail Cheat Sheet",
+  "slug": "sendmail",
+  "description": "Essential Sendmail commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sudo service sendmail start",
+      "description": "Start the Sendmail service",
+      "scenario": "Start the Sendmail service",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "service",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo service sendmail stop",
+      "description": "Stop the Sendmail service",
+      "scenario": "Stop the Sendmail service",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "service",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo service sendmail restart",
+      "description": "Restart the Sendmail service",
+      "scenario": "Restart the Sendmail service",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "service",
+        "restart"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/etc/mail/sendmail.cf",
+      "description": "Location of the main Sendmail configuration file",
+      "scenario": "Location of the main Sendmail configuration file",
+      "language": "text",
+      "tags": [
+        "sendmail",
+        "configuration",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/etc/mail/access",
+      "description": "Location of the Sendmail access control file",
+      "scenario": "Location of the Sendmail access control file",
+      "language": "text",
+      "tags": [
+        "sendmail",
+        "access",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/etc/mail/aliases",
+      "description": "Location of the Sendmail aliases file",
+      "scenario": "Location of the Sendmail aliases file",
+      "language": "text",
+      "tags": [
+        "sendmail",
+        "aliases",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mailq",
+      "description": "List the Sendmail queue",
+      "scenario": "List the Sendmail queue",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "queue",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sendmail -q",
+      "description": "Process the Sendmail queue",
+      "scenario": "Process the Sendmail queue",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "queue",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sendmail -q -v",
+      "description": "Flush the Sendmail queue",
+      "scenario": "Flush the Sendmail queue",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "queue",
+        "flush"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sendmail -C /etc/mail/sendmail.cf -d0.1 -bt < /dev/null",
+      "description": "Test Sendmail configuration for errors",
+      "scenario": "Test Sendmail configuration for errors",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "test",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'Subject: Test Email' | sendmail -v recipient@example.com",
+      "description": "Send a test email using Sendmail",
+      "scenario": "Send a test email using Sendmail",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "test",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sendmail -d0.1 -bv root",
+      "description": "Check Sendmail version",
+      "scenario": "Check Sendmail version",
+      "language": "bash",
+      "tags": [
+        "sendmail",
+        "version",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

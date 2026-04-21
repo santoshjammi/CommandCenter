@@ -1,0 +1,165 @@
+{
+  "title": "Blueprint CLI Cheat Sheet",
+  "slug": "blueprint",
+  "description": "Essential commands and syntax for using Blueprint CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "blueprint init",
+      "description": "Initialize a new Blueprint project",
+      "scenario": "Initialize a new Blueprint project",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint build",
+      "description": "Build the Blueprint project",
+      "scenario": "Build the Blueprint project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint run",
+      "description": "Run the Blueprint project",
+      "scenario": "Run the Blueprint project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint config set <key> <value>",
+      "description": "Set a configuration value",
+      "scenario": "Set a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint config get <key>",
+      "description": "Get a configuration value",
+      "scenario": "Get a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint config list",
+      "description": "List all configuration values",
+      "scenario": "List all configuration values",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint deploy --env=staging",
+      "description": "Deploy the project to the staging environment",
+      "scenario": "Deploy the project to the staging environment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "staging",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint deploy --env=production",
+      "description": "Deploy the project to the production environment",
+      "scenario": "Deploy the project to the production environment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint rollback",
+      "description": "Rollback the last deployment",
+      "scenario": "Rollback the last deployment",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "deploy",
+        "revert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint logs --tail",
+      "description": "View the latest logs",
+      "scenario": "View the latest logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "view",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint debug --verbose",
+      "description": "Debug the project with verbose output",
+      "scenario": "Debug the project with verbose output",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "verbose",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint status",
+      "description": "Check the status of the Blueprint services",
+      "scenario": "Check the status of the Blueprint services",
+      "language": "bash",
+      "tags": [
+        "status",
+        "services",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

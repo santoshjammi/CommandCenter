@@ -1,0 +1,204 @@
+{
+  "title": "Pandas Cheat Sheet",
+  "slug": "pandas",
+  "description": "Essential Pandas commands and patterns for data manipulation.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "df = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]})",
+      "description": "Create a DataFrame from a dictionary",
+      "scenario": "Create a DataFrame from a dictionary",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "creation",
+        "dictionary"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df = pd.read_csv('file.csv')",
+      "description": "Create a DataFrame from a CSV file",
+      "scenario": "Create a DataFrame from a CSV file",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "CSV",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df = pd.DataFrame([[1, 2], [3, 4]], columns=['col1', 'col2'])",
+      "description": "Create a DataFrame from a list of lists",
+      "scenario": "Create a DataFrame from a list of lists",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "creation",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df['col1']",
+      "description": "Select a column from a DataFrame",
+      "scenario": "Select a column from a DataFrame",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "selection",
+        "column"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df[['col1', 'col2']]",
+      "description": "Select multiple columns from a DataFrame",
+      "scenario": "Select multiple columns from a DataFrame",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "selection",
+        "columns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df.iloc[0]",
+      "description": "Select rows by index",
+      "scenario": "Select rows by index",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "selection",
+        "rows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df.dropna()",
+      "description": "Drop missing values",
+      "scenario": "Drop missing values",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "cleaning",
+        "missing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df.fillna(0)",
+      "description": "Fill missing values with a specific value",
+      "scenario": "Fill missing values with a specific value",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "cleaning",
+        "fill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df.drop_duplicates()",
+      "description": "Remove duplicate rows",
+      "scenario": "Remove duplicate rows",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "cleaning",
+        "duplicate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df['col1'].mean()",
+      "description": "Calculate the mean of a column",
+      "scenario": "Calculate the mean of a column",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "aggregation",
+        "mean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df.groupby('col1').sum()",
+      "description": "Group by a column and calculate sum",
+      "scenario": "Group by a column and calculate sum",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "aggregation",
+        "groupby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df.describe()",
+      "description": "Get descriptive statistics",
+      "scenario": "Get descriptive statistics",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "aggregation",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df['col1'].apply(lambda x: x * 2)",
+      "description": "Apply a function to each element of a column",
+      "scenario": "Apply a function to each element of a column",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "transformation",
+        "apply"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df.rename(columns={'old_name': 'new_name'})",
+      "description": "Rename columns",
+      "scenario": "Rename columns",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "transformation",
+        "rename"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df.sort_values('col1')",
+      "description": "Sort DataFrame by a column",
+      "scenario": "Sort DataFrame by a column",
+      "language": "python",
+      "tags": [
+        "DataFrame",
+        "transformation",
+        "sort"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

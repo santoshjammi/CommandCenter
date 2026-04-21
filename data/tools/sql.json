@@ -1,0 +1,204 @@
+{
+  "title": "SQL Cheat Sheet",
+  "slug": "sql",
+  "description": "Essential SQL commands and patterns for database management.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "query",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT column1, column2 FROM table_name;",
+      "description": "Select specific columns from a table",
+      "scenario": "Select specific columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "columns",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT DISTINCT column_name FROM table_name;",
+      "description": "Select distinct values from a column",
+      "scenario": "Select distinct values from a column",
+      "language": "sql",
+      "tags": [
+        "distinct",
+        "unique",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name WHERE condition;",
+      "description": "Filter results with a WHERE clause",
+      "scenario": "Filter results with a WHERE clause",
+      "language": "sql",
+      "tags": [
+        "filter",
+        "where",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name ORDER BY column_name ASC;",
+      "description": "Sort results in ascending order",
+      "scenario": "Sort results in ascending order",
+      "language": "sql",
+      "tags": [
+        "sort",
+        "order",
+        "ascending"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name ORDER BY column_name DESC;",
+      "description": "Sort results in descending order",
+      "scenario": "Sort results in descending order",
+      "language": "sql",
+      "tags": [
+        "sort",
+        "order",
+        "descending"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT COUNT(*) FROM table_name;",
+      "description": "Count the number of rows in a table",
+      "scenario": "Count the number of rows in a table",
+      "language": "sql",
+      "tags": [
+        "count",
+        "aggregate",
+        "rows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT MAX(column_name) FROM table_name;",
+      "description": "Find the maximum value in a column",
+      "scenario": "Find the maximum value in a column",
+      "language": "sql",
+      "tags": [
+        "max",
+        "aggregate",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT AVG(column_name) FROM table_name;",
+      "description": "Calculate the average value of a column",
+      "scenario": "Calculate the average value of a column",
+      "language": "sql",
+      "tags": [
+        "average",
+        "aggregate",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;",
+      "description": "Perform an inner join between two tables",
+      "scenario": "Perform an inner join between two tables",
+      "language": "sql",
+      "tags": [
+        "join",
+        "inner",
+        "tables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 LEFT JOIN table2 ON table1.id = table2.id;",
+      "description": "Perform a left join between two tables",
+      "scenario": "Perform a left join between two tables",
+      "language": "sql",
+      "tags": [
+        "join",
+        "left",
+        "tables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 RIGHT JOIN table2 ON table1.id = table2.id;",
+      "description": "Perform a right join between two tables",
+      "scenario": "Perform a right join between two tables",
+      "language": "sql",
+      "tags": [
+        "join",
+        "right",
+        "tables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "row",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing rows in a table",
+      "scenario": "Update existing rows in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "rows",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DELETE FROM table_name WHERE condition;",
+      "description": "Delete rows from a table",
+      "scenario": "Delete rows from a table",
+      "language": "sql",
+      "tags": [
+        "delete",
+        "rows",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

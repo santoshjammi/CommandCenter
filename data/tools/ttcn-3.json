@@ -1,0 +1,204 @@
+{
+  "title": "TTCN-3 Cheat Sheet",
+  "slug": "ttcn-3",
+  "description": "Quick reference for TTCN-3 syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "module MyModule { }",
+      "description": "Define a module in TTCN-3",
+      "scenario": "Define a module in TTCN-3",
+      "language": "text",
+      "tags": [
+        "module",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import from MyModule all;",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "text",
+      "tags": [
+        "import",
+        "module",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "testcase MyTestCase() runs on MyComponent { }",
+      "description": "Define a test case",
+      "scenario": "Define a test case",
+      "language": "text",
+      "tags": [
+        "testcase",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var integer myInt := 10;",
+      "description": "Define an integer variable",
+      "scenario": "Define an integer variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "integer",
+        "datatype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var boolean myBool := true;",
+      "description": "Define a boolean variable",
+      "scenario": "Define a boolean variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "boolean",
+        "datatype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type record MyRecord { integer a, boolean b }",
+      "description": "Define a record type",
+      "scenario": "Define a record type",
+      "language": "text",
+      "tags": [
+        "record",
+        "datatype",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) { } else { }",
+      "description": "If-else statement syntax",
+      "scenario": "If-else statement syntax",
+      "language": "text",
+      "tags": [
+        "control",
+        "if-else",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (condition) { }",
+      "description": "While loop syntax",
+      "scenario": "While loop syntax",
+      "language": "text",
+      "tags": [
+        "control",
+        "loop",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (var integer i := 0; i < 10; i := i + 1) { }",
+      "description": "For loop syntax",
+      "scenario": "For loop syntax",
+      "language": "text",
+      "tags": [
+        "control",
+        "loop",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function MyFunction() return integer { return 0; }",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "altstep MyAltStep() { }",
+      "description": "Define a procedure",
+      "scenario": "Define a procedure",
+      "language": "text",
+      "tags": [
+        "procedure",
+        "altstep",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var integer result := MyFunction();",
+      "description": "Call a function",
+      "scenario": "Call a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "call",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ttcn3_compiler MyModule.ttcn3",
+      "description": "Compile a TTCN-3 module",
+      "scenario": "Compile a TTCN-3 module",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "command",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ttcn3_executor MyTestSuite",
+      "description": "Run a TTCN-3 test suite",
+      "scenario": "Run a TTCN-3 test suite",
+      "language": "bash",
+      "tags": [
+        "execute",
+        "command",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ttcn3_docgen MyModule.ttcn3",
+      "description": "Generate TTCN-3 documentation",
+      "scenario": "Generate TTCN-3 documentation",
+      "language": "bash",
+      "tags": [
+        "documentation",
+        "command",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

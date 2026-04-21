@@ -1,0 +1,165 @@
+{
+  "title": "Flash Catalyst Cheat Sheet",
+  "slug": "flash-catalyst",
+  "description": "Essential commands and snippets for Adobe Flash Catalyst.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "File > New Project",
+      "description": "Open a new project in Flash Catalyst",
+      "scenario": "Open a new project in Flash Catalyst",
+      "language": "text",
+      "tags": [
+        "project",
+        "new",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Import > Import to Library",
+      "description": "Import assets into the project",
+      "scenario": "Import assets into the project",
+      "language": "text",
+      "tags": [
+        "import",
+        "assets",
+        "library"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Save",
+      "description": "Save the current project",
+      "scenario": "Save the current project",
+      "language": "text",
+      "tags": [
+        "save",
+        "project",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select object > Modify > Convert Artwork to Component > Button",
+      "description": "Create a new button component",
+      "scenario": "Create a new button component",
+      "language": "text",
+      "tags": [
+        "component",
+        "button",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select object > Modify > Convert Artwork to Component > Scrollbar",
+      "description": "Create a new scrollbar component",
+      "scenario": "Create a new scrollbar component",
+      "language": "text",
+      "tags": [
+        "component",
+        "scrollbar",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select object > Modify > Convert Artwork to Component > Custom",
+      "description": "Create a new custom component",
+      "scenario": "Create a new custom component",
+      "language": "text",
+      "tags": [
+        "component",
+        "custom",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select component > Interactions panel > Add Interaction",
+      "description": "Add a new interaction to a component",
+      "scenario": "Add a new interaction to a component",
+      "language": "text",
+      "tags": [
+        "interaction",
+        "add",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Timelines panel > New Animation",
+      "description": "Create a new animation sequence",
+      "scenario": "Create a new animation sequence",
+      "language": "text",
+      "tags": [
+        "animation",
+        "sequence",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Control > Test Project",
+      "description": "Preview the current animation",
+      "scenario": "Preview the current animation",
+      "language": "text",
+      "tags": [
+        "animation",
+        "preview",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Export > Export SWF",
+      "description": "Export the project as a SWF file",
+      "scenario": "Export the project as a SWF file",
+      "language": "text",
+      "tags": [
+        "export",
+        "swf",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Publish",
+      "description": "Publish the project for deployment",
+      "scenario": "Publish the project for deployment",
+      "language": "text",
+      "tags": [
+        "publish",
+        "deploy",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Export > Export FXP",
+      "description": "Export the project as an FXP file",
+      "scenario": "Export the project as an FXP file",
+      "language": "text",
+      "tags": [
+        "export",
+        "fxp",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

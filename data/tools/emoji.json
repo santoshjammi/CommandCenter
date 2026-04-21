@@ -1,0 +1,165 @@
+{
+  "title": "Emoji Cheat Sheet",
+  "slug": "emoji",
+  "description": "Quick reference for using emojis in code and CLI",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "git commit -m \"Initial commit \ud83d\ude80\"",
+      "description": "Add an emoji to a git commit message",
+      "scenario": "Add an emoji to a git commit message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Fix login bug \ud83d\udc1b\"",
+      "description": "Use emoji to indicate a bug fix in a commit",
+      "scenario": "Use emoji to indicate a bug fix in a commit",
+      "language": "bash",
+      "tags": [
+        "git",
+        "bug",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Update README \ud83d\udcda\"",
+      "description": "Mark a commit as a documentation update",
+      "scenario": "Mark a commit as a documentation update",
+      "language": "bash",
+      "tags": [
+        "git",
+        "documentation",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const greeting = \"Hello, world! \ud83c\udf0d\";",
+      "description": "Include an emoji in a JavaScript string",
+      "scenario": "Include an emoji in a JavaScript string",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "string",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let message = \"Success\" + \" \u2705\";",
+      "description": "Concatenate a string with an emoji",
+      "scenario": "Concatenate a string with an emoji",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "concatenation",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let status = `Deployment complete \ud83d\ude80`;",
+      "description": "Use an emoji in a template literal",
+      "scenario": "Use an emoji in a template literal",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "template",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print(\"Hello, world! \ud83c\udf0d\")",
+      "description": "Print a string with an emoji in Python",
+      "scenario": "Print a string with an emoji in Python",
+      "language": "python",
+      "tags": [
+        "python",
+        "print",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "status = \"success\"\nprint(f\"Deployment {status} \ud83d\ude80\")",
+      "description": "Use an emoji in a Python f-string",
+      "scenario": "Use an emoji in a Python f-string",
+      "language": "python",
+      "tags": [
+        "python",
+        "f-string",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "message = \"Success\" + \" \u2705\"",
+      "description": "Concatenate a string with an emoji in Python",
+      "scenario": "Concatenate a string with an emoji in Python",
+      "language": "python",
+      "tags": [
+        "python",
+        "concatenation",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "status: \"Running smoothly \ud83d\ude80\"",
+      "description": "Include an emoji in a YAML file",
+      "scenario": "Include an emoji in a YAML file",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "configuration",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "health: \"Good \ud83d\udc4d\"",
+      "description": "Use emojis to indicate status in YAML",
+      "scenario": "Use emojis to indicate status in YAML",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "status",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# This is a comment with an emoji \ud83d\udcdd",
+      "description": "Add an emoji to a YAML comment",
+      "scenario": "Add an emoji to a YAML comment",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "comment",
+        "emoji"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

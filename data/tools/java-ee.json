@@ -1,0 +1,204 @@
+{
+  "title": "Java EE Cheat Sheet",
+  "slug": "java-ee",
+  "description": "Essential Java EE commands and patterns for developers",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mvn clean",
+      "description": "Clean the Maven project",
+      "scenario": "Clean the Maven project",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "clean",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn compile",
+      "description": "Compile the Maven project",
+      "scenario": "Compile the Maven project",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "compile",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn package",
+      "description": "Package the Maven project into a JAR",
+      "scenario": "Package the Maven project into a JAR",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "package",
+        "jar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Entity\npublic class User { }",
+      "description": "Define a JPA entity",
+      "scenario": "Define a JPA entity",
+      "language": "java",
+      "tags": [
+        "jpa",
+        "entity",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Id\nprivate Long id;",
+      "description": "Specify the primary key of an entity",
+      "scenario": "Specify the primary key of an entity",
+      "language": "java",
+      "tags": [
+        "jpa",
+        "primary key",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Column(name=\"username\")\nprivate String username;",
+      "description": "Map a field to a database column",
+      "scenario": "Map a field to a database column",
+      "language": "java",
+      "tags": [
+        "jpa",
+        "column",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Stateless\npublic class UserService { }",
+      "description": "Define a stateless session bean",
+      "scenario": "Define a stateless session bean",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "stateless",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Stateful\npublic class ShoppingCart { }",
+      "description": "Define a stateful session bean",
+      "scenario": "Define a stateful session bean",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "stateful",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@EJB\nprivate UserService userService;",
+      "description": "Inject a dependency into a bean",
+      "scenario": "Inject a dependency into a bean",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "dependency injection",
+        "annotations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Singleton\npublic class ConfigurationManager { }",
+      "description": "Singleton pattern implementation",
+      "scenario": "Singleton pattern implementation",
+      "language": "java",
+      "tags": [
+        "patterns",
+        "singleton",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public interface Product { }\npublic class ConcreteProduct implements Product { }",
+      "description": "Factory method pattern example",
+      "scenario": "Factory method pattern example",
+      "language": "java",
+      "tags": [
+        "patterns",
+        "factory",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public interface Observer { void update(); }\npublic class ConcreteObserver implements Observer { }",
+      "description": "Observer pattern implementation",
+      "scenario": "Observer pattern implementation",
+      "language": "java",
+      "tags": [
+        "patterns",
+        "observer",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<persistence>\n  <persistence-unit name=\"myUnit\">\n    <jta-data-source>java:/MyDS</jta-data-source>\n  </persistence-unit>\n</persistence>",
+      "description": "Define a data source in persistence.xml",
+      "scenario": "Define a data source in persistence.xml",
+      "language": "xml",
+      "tags": [
+        "jpa",
+        "datasource",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<web-app>\n  <servlet>\n    <servlet-name>myServlet</servlet-name>\n    <servlet-class>com.example.MyServlet</servlet-class>\n  </servlet>\n</web-app>",
+      "description": "Configure a servlet in web.xml",
+      "scenario": "Configure a servlet in web.xml",
+      "language": "xml",
+      "tags": [
+        "servlet",
+        "configuration",
+        "web.xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<resources>\n  <admin-object-resource enabled=\"true\" jndi-name=\"jms/Queue\" res-type=\"javax.jms.Queue\" />\n</resources>",
+      "description": "Set up a JMS queue in glassfish-resources.xml",
+      "scenario": "Set up a JMS queue in glassfish-resources.xml",
+      "language": "xml",
+      "tags": [
+        "jms",
+        "queue",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

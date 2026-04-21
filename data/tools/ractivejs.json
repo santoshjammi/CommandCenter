@@ -1,0 +1,204 @@
+{
+  "title": "Ractive.js Cheat Sheet",
+  "slug": "ractivejs",
+  "description": "Quick reference for Ractive.js CLI commands and syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npx degit ractivejs/template my-project",
+      "description": "Initialize a new Ractive.js project",
+      "scenario": "Initialize a new Ractive.js project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run dev",
+      "description": "Run the Ractive.js development server",
+      "scenario": "Run the Ractive.js development server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "development",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run build",
+      "description": "Build the Ractive.js project for production",
+      "scenario": "Build the Ractive.js project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const MyComponent = Ractive.extend({ template: '<p>Hello, {{name}}!</p>' });",
+      "description": "Define a new Ractive component",
+      "scenario": "Define a new Ractive component",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "define",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ractive.components.MyComponent = MyComponent;",
+      "description": "Register a component globally",
+      "scenario": "Register a component globally",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "register",
+        "global"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<MyComponent name='World'/>",
+      "description": "Use a component in a template",
+      "scenario": "Use a component in a template",
+      "language": "html",
+      "tags": [
+        "component",
+        "use",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const ractive = new Ractive({ el: '#container', template: '#template', data: { name: 'World' } });",
+      "description": "Bind data to a Ractive instance",
+      "scenario": "Bind data to a Ractive instance",
+      "language": "javascript",
+      "tags": [
+        "data",
+        "binding",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ractive.set('name', 'Ractive.js');",
+      "description": "Update data in a Ractive instance",
+      "scenario": "Update data in a Ractive instance",
+      "language": "javascript",
+      "tags": [
+        "data",
+        "update",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ractive.observe('name', function(newValue, oldValue) { console.log('Name changed from', oldValue, 'to', newValue); });",
+      "description": "Observe changes to data",
+      "scenario": "Observe changes to data",
+      "language": "javascript",
+      "tags": [
+        "data",
+        "observe",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button on-click='handleClick'>Click me</button>",
+      "description": "Handle a click event in a template",
+      "scenario": "Handle a click event in a template",
+      "language": "html",
+      "tags": [
+        "event",
+        "click",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const ractive = new Ractive({ el: '#container', template: '#template', on: { handleClick: function(event) { alert('Button clicked!'); } } });",
+      "description": "Define an event handler in a Ractive instance",
+      "scenario": "Define an event handler in a Ractive instance",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "handler",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ractive.fire('customEvent', { detail: 'example' });",
+      "description": "Fire a custom event",
+      "scenario": "Fire a custom event",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "custom",
+        "fire"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const ractive = new Ractive({ delimiters: ['[[', ']]'] });",
+      "description": "Set up Ractive with a custom delimiter",
+      "scenario": "Set up Ractive with a custom delimiter",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "delimiter",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const ractive = new Ractive({ el: '#new-root' });",
+      "description": "Configure Ractive to use a different root element",
+      "scenario": "Configure Ractive to use a different root element",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "root",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ractive.DEBUG = true;",
+      "description": "Enable debug mode in Ractive",
+      "scenario": "Enable debug mode in Ractive",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "debug",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

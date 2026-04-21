@@ -1,0 +1,165 @@
+{
+  "title": "Quarkus Cheat Sheet",
+  "slug": "quarkus",
+  "description": "Essential Quarkus CLI and configuration snippets for developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mvn io.quarkus:quarkus-maven-plugin:create",
+      "description": "Create a new Quarkus project",
+      "scenario": "Create a new Quarkus project",
+      "language": "bash",
+      "tags": [
+        "quarkus",
+        "cli",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./mvnw compile quarkus:dev",
+      "description": "Run the Quarkus application in development mode",
+      "scenario": "Run the Quarkus application in development mode",
+      "language": "bash",
+      "tags": [
+        "quarkus",
+        "dev",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./mvnw package -Pnative",
+      "description": "Build a native executable of the Quarkus application",
+      "scenario": "Build a native executable of the Quarkus application",
+      "language": "bash",
+      "tags": [
+        "quarkus",
+        "native",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quarkus.http.port=8081",
+      "description": "Configure the HTTP port for Quarkus",
+      "scenario": "Configure the HTTP port for Quarkus",
+      "language": "yaml",
+      "tags": [
+        "quarkus",
+        "configuration",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quarkus.http.cors=true",
+      "description": "Enable CORS in Quarkus",
+      "scenario": "Enable CORS in Quarkus",
+      "language": "yaml",
+      "tags": [
+        "quarkus",
+        "cors",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quarkus.datasource.jdbc.url=jdbc:postgresql://localhost:5432/mydb",
+      "description": "Set the datasource URL for Quarkus",
+      "scenario": "Set the datasource URL for Quarkus",
+      "language": "yaml",
+      "tags": [
+        "quarkus",
+        "datasource",
+        "jdbc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Inject MyService myService;",
+      "description": "Inject a service into a Quarkus application",
+      "scenario": "Inject a service into a Quarkus application",
+      "language": "java",
+      "tags": [
+        "quarkus",
+        "inject",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@GET\n@Path(\"/hello\")\npublic String hello() {\n    return \"Hello, World!\";\n}",
+      "description": "Define a REST endpoint in Quarkus",
+      "scenario": "Define a REST endpoint in Quarkus",
+      "language": "java",
+      "tags": [
+        "quarkus",
+        "rest",
+        "endpoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Scheduled(every=\"10s\")\nvoid myTask() {\n    // Task logic\n}",
+      "description": "Configure a scheduled task in Quarkus",
+      "scenario": "Configure a scheduled task in Quarkus",
+      "language": "java",
+      "tags": [
+        "quarkus",
+        "scheduled",
+        "task"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Provider\npublic class MyExceptionMapper implements ExceptionMapper<Exception> {\n    public Response toResponse(Exception exception) {\n        return Response.status(500).entity(\"Error occurred\").build();\n    }\n}",
+      "description": "Handle exceptions globally in Quarkus",
+      "scenario": "Handle exceptions globally in Quarkus",
+      "language": "java",
+      "tags": [
+        "quarkus",
+        "exception",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Produces\npublic MyBean produceMyBean() {\n    return new MyBean();\n}",
+      "description": "Use CDI to produce a bean in Quarkus",
+      "scenario": "Use CDI to produce a bean in Quarkus",
+      "language": "java",
+      "tags": [
+        "quarkus",
+        "cdi",
+        "bean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@ApplicationScoped\npublic class MyHealthCheck implements HealthCheck {\n    public HealthCheckResponse call() {\n        return HealthCheckResponse.up(\"MyService\");\n    }\n}",
+      "description": "Configure a custom health check in Quarkus",
+      "scenario": "Configure a custom health check in Quarkus",
+      "language": "java",
+      "tags": [
+        "quarkus",
+        "health",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

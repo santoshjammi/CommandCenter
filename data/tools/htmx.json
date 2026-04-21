@@ -1,0 +1,165 @@
+{
+  "title": "HTMX Cheat Sheet",
+  "slug": "htmx",
+  "description": "Quick reference for HTMX commands and patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<button hx-get=\"/endpoint\">Click Me</button>",
+      "description": "Trigger a request on click",
+      "scenario": "Trigger a request on click",
+      "language": "html",
+      "tags": [
+        "htmx",
+        "attributes",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div hx-swap=\"innerHTML\">Content</div>",
+      "description": "Swap content of a div with response",
+      "scenario": "Swap content of a div with response",
+      "language": "html",
+      "tags": [
+        "htmx",
+        "swap",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<form hx-post=\"/submit\"></form>",
+      "description": "Trigger a request on form submission",
+      "scenario": "Trigger a request on form submission",
+      "language": "html",
+      "tags": [
+        "htmx",
+        "form",
+        "submit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div hx-trigger=\"mouseover from:body\">Hover over me</div>",
+      "description": "Trigger request on hover",
+      "scenario": "Trigger request on hover",
+      "language": "html",
+      "tags": [
+        "htmx",
+        "trigger",
+        "hover"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div hx-headers='{\"X-CSRFToken\": \"{{ csrf_token }}\"}'></div>",
+      "description": "Include additional headers in request",
+      "scenario": "Include additional headers in request",
+      "language": "html",
+      "tags": [
+        "htmx",
+        "headers",
+        "csrf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button hx-trigger=\"customEvent\">Trigger</button>",
+      "description": "Use a custom event to trigger a request",
+      "scenario": "Use a custom event to trigger a request",
+      "language": "html",
+      "tags": [
+        "htmx",
+        "custom",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script>htmx.config.defaultSwapStyle = 'innerHTML';</script>",
+      "description": "Set default swap style globally",
+      "scenario": "Set default swap style globally",
+      "language": "javascript",
+      "tags": [
+        "htmx",
+        "configuration",
+        "swap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script>htmx.config.historyEnabled = false;</script>",
+      "description": "Disable history for all requests",
+      "scenario": "Disable history for all requests",
+      "language": "javascript",
+      "tags": [
+        "htmx",
+        "configuration",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script>htmx.config.timeout = 10000;</script>",
+      "description": "Change the default request timeout",
+      "scenario": "Change the default request timeout",
+      "language": "javascript",
+      "tags": [
+        "htmx",
+        "configuration",
+        "timeout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.body.addEventListener('htmx:beforeRequest', function(evt) { console.log('Request about to be made!'); });",
+      "description": "Listen for htmx:beforeRequest event",
+      "scenario": "Listen for htmx:beforeRequest event",
+      "language": "javascript",
+      "tags": [
+        "htmx",
+        "event",
+        "beforeRequest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.body.addEventListener('htmx:afterSwap', function(evt) { console.log('Content swapped!'); });",
+      "description": "Handle htmx:afterSwap event",
+      "scenario": "Handle htmx:afterSwap event",
+      "language": "javascript",
+      "tags": [
+        "htmx",
+        "event",
+        "afterSwap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.body.addEventListener('htmx:configRequest', function(evt) { evt.detail.headers['X-My-Header'] = 'value'; });",
+      "description": "Respond to htmx:configRequest event",
+      "scenario": "Respond to htmx:configRequest event",
+      "language": "javascript",
+      "tags": [
+        "htmx",
+        "event",
+        "configRequest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

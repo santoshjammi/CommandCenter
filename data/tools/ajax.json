@@ -1,0 +1,126 @@
+{
+  "title": "AJAX Cheat Sheet",
+  "slug": "ajax",
+  "description": "Quick reference for AJAX syntax and patterns in JavaScript.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "var xhr = new XMLHttpRequest();\nxhr.open('GET', '/api/data', true);\nxhr.send();",
+      "description": "Perform a GET request using XMLHttpRequest",
+      "scenario": "Perform a GET request using XMLHttpRequest",
+      "language": "javascript",
+      "tags": [
+        "GET",
+        "XMLHttpRequest",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var xhr = new XMLHttpRequest();\nxhr.open('POST', '/api/data', true);\nxhr.setRequestHeader('Content-Type', 'application/json');\nxhr.send(JSON.stringify({key: 'value'}));",
+      "description": "Perform a POST request using XMLHttpRequest",
+      "scenario": "Perform a POST request using XMLHttpRequest",
+      "language": "javascript",
+      "tags": [
+        "POST",
+        "XMLHttpRequest",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 && xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};",
+      "description": "Handle response from an AJAX request",
+      "scenario": "Handle response from an AJAX request",
+      "language": "javascript",
+      "tags": [
+        "response",
+        "XMLHttpRequest",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('/api/data')\n  .then(response => response.json())\n  .then(data => console.log(data));",
+      "description": "Perform a GET request using Fetch API",
+      "scenario": "Perform a GET request using Fetch API",
+      "language": "javascript",
+      "tags": [
+        "GET",
+        "fetch",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('/api/data', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({key: 'value'})\n})\n.then(response => response.json())\n.then(data => console.log(data));",
+      "description": "Perform a POST request using Fetch API",
+      "scenario": "Perform a POST request using Fetch API",
+      "language": "javascript",
+      "tags": [
+        "POST",
+        "fetch",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('/api/data')\n  .then(response => {\n    if (!response.ok) {\n      throw new Error('Network response was not ok');\n    }\n    return response.json();\n  })\n  .catch(error => console.error('Fetch error:', error));",
+      "description": "Handle errors in Fetch API",
+      "scenario": "Handle errors in Fetch API",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "fetch",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xhr.timeout = 2000; // time in milliseconds\nxhr.ontimeout = function () {\n  console.error('Request timed out');\n};",
+      "description": "Set a timeout for an XMLHttpRequest",
+      "scenario": "Set a timeout for an XMLHttpRequest",
+      "language": "javascript",
+      "tags": [
+        "timeout",
+        "XMLHttpRequest",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var xhr = new XMLHttpRequest();\nxhr.open('GET', '/api/data', true);\nxhr.send();\n// Abort the request\nxhr.abort();",
+      "description": "Abort an XMLHttpRequest",
+      "scenario": "Abort an XMLHttpRequest",
+      "language": "javascript",
+      "tags": [
+        "abort",
+        "XMLHttpRequest",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData() {\n  try {\n    let response = await fetch('/api/data');\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Error:', error);\n  }\n}",
+      "description": "Use async/await with Fetch API",
+      "scenario": "Use async/await with Fetch API",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "await",
+        "fetch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

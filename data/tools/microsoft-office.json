@@ -1,0 +1,204 @@
+{
+  "title": "Microsoft Office Cheat Sheet",
+  "slug": "microsoft-office",
+  "description": "Essential shortcuts and workflows for Microsoft Office users.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "action",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Y",
+      "description": "Redo the last undone action",
+      "scenario": "Redo the last undone action",
+      "language": "text",
+      "tags": [
+        "redo",
+        "action",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+S",
+      "description": "Save the current document",
+      "scenario": "Save the current document",
+      "language": "text",
+      "tags": [
+        "save",
+        "document",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+N",
+      "description": "Open a new document",
+      "scenario": "Open a new document",
+      "language": "text",
+      "tags": [
+        "new",
+        "document",
+        "word"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+F",
+      "description": "Find text in the document",
+      "scenario": "Find text in the document",
+      "language": "text",
+      "tags": [
+        "find",
+        "text",
+        "word"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Home > Font Size",
+      "description": "Change the font size",
+      "scenario": "Change the font size",
+      "language": "text",
+      "tags": [
+        "font",
+        "size",
+        "word"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+N",
+      "description": "Create a new spreadsheet",
+      "scenario": "Create a new spreadsheet",
+      "language": "text",
+      "tags": [
+        "new",
+        "spreadsheet",
+        "excel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Home > Insert > Insert Sheet Rows",
+      "description": "Insert a new row",
+      "scenario": "Insert a new row",
+      "language": "text",
+      "tags": [
+        "insert",
+        "row",
+        "excel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Data > Filter",
+      "description": "Apply a filter to data",
+      "scenario": "Apply a filter to data",
+      "language": "text",
+      "tags": [
+        "filter",
+        "data",
+        "excel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+N",
+      "description": "Start a new presentation",
+      "scenario": "Start a new presentation",
+      "language": "text",
+      "tags": [
+        "new",
+        "presentation",
+        "powerpoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Home > New Slide",
+      "description": "Add a new slide",
+      "scenario": "Add a new slide",
+      "language": "text",
+      "tags": [
+        "new",
+        "slide",
+        "powerpoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F5",
+      "description": "Start slideshow from beginning",
+      "scenario": "Start slideshow from beginning",
+      "language": "text",
+      "tags": [
+        "slideshow",
+        "start",
+        "powerpoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+N",
+      "description": "Create a new email",
+      "scenario": "Create a new email",
+      "language": "text",
+      "tags": [
+        "new",
+        "email",
+        "outlook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Enter",
+      "description": "Send the current email",
+      "scenario": "Send the current email",
+      "language": "text",
+      "tags": [
+        "send",
+        "email",
+        "outlook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+R",
+      "description": "Reply to an email",
+      "scenario": "Reply to an email",
+      "language": "text",
+      "tags": [
+        "reply",
+        "email",
+        "outlook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

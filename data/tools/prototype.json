@@ -1,0 +1,165 @@
+{
+  "title": "Prototype Cheat Sheet",
+  "slug": "prototype",
+  "description": "Quick reference for JavaScript prototype usage and manipulation.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "Object.create(proto)",
+      "description": "Create a new object with a specified prototype",
+      "scenario": "Create a new object with a specified prototype",
+      "language": "javascript",
+      "tags": [
+        "prototype",
+        "object",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Constructor.prototype.methodName = function() { /*...*/ };",
+      "description": "Add a method to a constructor's prototype",
+      "scenario": "Add a method to a constructor's prototype",
+      "language": "javascript",
+      "tags": [
+        "prototype",
+        "method",
+        "constructor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Object.prototype.isPrototypeOf(object)",
+      "description": "Check if an object is in another object's prototype chain",
+      "scenario": "Check if an object is in another object's prototype chain",
+      "language": "javascript",
+      "tags": [
+        "prototype",
+        "chain",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Child.prototype = Object.create(Parent.prototype);",
+      "description": "Set up inheritance between two constructor functions",
+      "scenario": "Set up inheritance between two constructor functions",
+      "language": "javascript",
+      "tags": [
+        "inheritance",
+        "prototype",
+        "constructor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Child.prototype.constructor = Child;",
+      "description": "Reset constructor property after inheritance",
+      "scenario": "Reset constructor property after inheritance",
+      "language": "javascript",
+      "tags": [
+        "constructor",
+        "inheritance",
+        "reset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Parent.prototype.methodName.call(this, args);",
+      "description": "Call a parent method from a child method",
+      "scenario": "Call a parent method from a child method",
+      "language": "javascript",
+      "tags": [
+        "inheritance",
+        "method",
+        "call"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (let key in object) { console.log(key); }",
+      "description": "List all properties of an object, including inherited ones",
+      "scenario": "List all properties of an object, including inherited ones",
+      "language": "javascript",
+      "tags": [
+        "properties",
+        "list",
+        "inherited"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "object.hasOwnProperty('propertyName')",
+      "description": "Check if a property is an object's own property",
+      "scenario": "Check if a property is an object's own property",
+      "language": "javascript",
+      "tags": [
+        "property",
+        "check",
+        "own"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Object.getPrototypeOf(object)",
+      "description": "Get the prototype of an object",
+      "scenario": "Get the prototype of an object",
+      "language": "javascript",
+      "tags": [
+        "prototype",
+        "get",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Constructor.prototype.newMethod = function() { /*...*/ };",
+      "description": "Add a method to all instances of a constructor",
+      "scenario": "Add a method to all instances of a constructor",
+      "language": "javascript",
+      "tags": [
+        "method",
+        "prototype",
+        "instances"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Child.prototype.methodName = function() { /*...*/ };",
+      "description": "Override a method in a child class",
+      "scenario": "Override a method in a child class",
+      "language": "javascript",
+      "tags": [
+        "override",
+        "method",
+        "child"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Constructor.prototype.methodName.call(instance, args);",
+      "description": "Use a prototype method directly",
+      "scenario": "Use a prototype method directly",
+      "language": "javascript",
+      "tags": [
+        "prototype",
+        "method",
+        "call"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

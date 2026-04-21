@@ -1,0 +1,165 @@
+{
+  "title": "IEEE 802.11 Cheat Sheet",
+  "slug": "ieee-80211",
+  "description": "Quick reference for IEEE 802.11 wireless networking commands and concepts.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "iwconfig",
+      "description": "Display wireless interfaces",
+      "scenario": "Display wireless interfaces",
+      "language": "bash",
+      "tags": [
+        "wireless",
+        "interface",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo iwlist wlan0 scan",
+      "description": "Scan for available Wi-Fi networks",
+      "scenario": "Scan for available Wi-Fi networks",
+      "language": "bash",
+      "tags": [
+        "scan",
+        "networks",
+        "wifi"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmcli dev wifi connect 'SSID_NAME' password 'PASSWORD'",
+      "description": "Connect to a Wi-Fi network",
+      "scenario": "Connect to a Wi-Fi network",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "wifi",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "network={\n    ssid=\"SSID_NAME\"\n    psk=\"PASSWORD\"\n}",
+      "description": "Configure WPA supplicant for network connection",
+      "scenario": "Configure WPA supplicant for network connection",
+      "language": "text",
+      "tags": [
+        "wpa",
+        "configuration",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iface wlan0 inet static\n    address 192.168.1.100\n    netmask 255.255.255.0\n    gateway 192.168.1.1",
+      "description": "Set static IP configuration",
+      "scenario": "Set static IP configuration",
+      "language": "text",
+      "tags": [
+        "static",
+        "ip",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iface wlan0 inet dhcp",
+      "description": "Configure DHCP for wireless interface",
+      "scenario": "Configure DHCP for wireless interface",
+      "language": "text",
+      "tags": [
+        "dhcp",
+        "configuration",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmcli radio wifi",
+      "description": "Check current Wi-Fi status",
+      "scenario": "Check current Wi-Fi status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "wifi",
+        "radio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl restart NetworkManager",
+      "description": "Restart network manager service",
+      "scenario": "Restart network manager service",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "service",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmcli radio wifi on",
+      "description": "Enable Wi-Fi radio",
+      "scenario": "Enable Wi-Fi radio",
+      "language": "bash",
+      "tags": [
+        "enable",
+        "wifi",
+        "radio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "journalctl -u NetworkManager",
+      "description": "Check wireless connection logs",
+      "scenario": "Check wireless connection logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "network",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iw dev wlan0 link",
+      "description": "Display detailed wireless device status",
+      "scenario": "Display detailed wireless device status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "device",
+        "wireless"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ip link set wlan0 down && sudo ip link set wlan0 up",
+      "description": "Reset wireless interface",
+      "scenario": "Reset wireless interface",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "interface",
+        "wireless"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

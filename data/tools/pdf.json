@@ -1,0 +1,204 @@
+{
+  "title": "PDF Manipulation Cheat Sheet",
+  "slug": "pdf",
+  "description": "Essential commands and snippets for PDF manipulation",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "pdfunite file1.pdf file2.pdf output.pdf",
+      "description": "Merge multiple PDF files into one",
+      "scenario": "Merge multiple PDF files into one",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "merge",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pdftk input.pdf burst",
+      "description": "Split a PDF into individual pages",
+      "scenario": "Split a PDF into individual pages",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "split",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pdftotext input.pdf output.txt",
+      "description": "Extract text from a PDF",
+      "scenario": "Extract text from a PDF",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "extract",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pdfinfo file.pdf",
+      "description": "View PDF metadata",
+      "scenario": "View PDF metadata",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "metadata",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exiftool -Title='New Title' file.pdf",
+      "description": "Set PDF metadata",
+      "scenario": "Set PDF metadata",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "metadata",
+        "exiftool"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exiftool -all= file.pdf",
+      "description": "Remove all metadata from a PDF",
+      "scenario": "Remove all metadata from a PDF",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "metadata",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qpdf --encrypt user-password owner-password 40 -- input.pdf output.pdf",
+      "description": "Encrypt a PDF with a password",
+      "scenario": "Encrypt a PDF with a password",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "encrypt",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qpdf --decrypt --password=password input.pdf output.pdf",
+      "description": "Decrypt a PDF with a password",
+      "scenario": "Decrypt a PDF with a password",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "decrypt",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pdftk input.pdf background watermark.pdf output watermarked.pdf",
+      "description": "Add a watermark to a PDF",
+      "scenario": "Add a watermark to a PDF",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "watermark",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf",
+      "description": "Compress a PDF file",
+      "scenario": "Compress a PDF file",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "compress",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf",
+      "description": "Reduce PDF file size using Ghostscript",
+      "scenario": "Reduce PDF file size using Ghostscript",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "reduce",
+        "ghostscript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps2pdf input.pdf output.pdf",
+      "description": "Optimize PDF for web viewing",
+      "scenario": "Optimize PDF for web viewing",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "optimize",
+        "web"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mupdf file.pdf",
+      "description": "View a PDF file in the terminal",
+      "scenario": "View a PDF file in the terminal",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "view",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "libreoffice --writer file.pdf",
+      "description": "Edit a PDF file using a GUI tool",
+      "scenario": "Edit a PDF file using a GUI tool",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "edit",
+        "gui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xournal file.pdf",
+      "description": "Annotate a PDF file",
+      "scenario": "Annotate a PDF file",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "annotate",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

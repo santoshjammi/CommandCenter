@@ -1,0 +1,204 @@
+{
+  "title": "JavaScript Cheat Sheet",
+  "slug": "javascript",
+  "description": "Essential JavaScript syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var name = 'John';",
+      "description": "Declare a variable with var",
+      "scenario": "Declare a variable with var",
+      "language": "javascript",
+      "tags": [
+        "variable",
+        "declaration",
+        "var"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let age = 30;",
+      "description": "Declare a variable with let",
+      "scenario": "Declare a variable with let",
+      "language": "javascript",
+      "tags": [
+        "variable",
+        "declaration",
+        "let"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const pi = 3.14;",
+      "description": "Declare a constant with const",
+      "scenario": "Declare a constant with const",
+      "language": "javascript",
+      "tags": [
+        "constant",
+        "declaration",
+        "const"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet() { console.log('Hello!'); }",
+      "description": "Define a function using function keyword",
+      "scenario": "Define a function using function keyword",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "declaration",
+        "keyword"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const add = (a, b) => a + b;",
+      "description": "Define an arrow function",
+      "scenario": "Define an arrow function",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "arrow",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(function() { console.log('IIFE'); })();",
+      "description": "Immediately Invoked Function Expression (IIFE)",
+      "scenario": "Immediately Invoked Function Expression (IIFE)",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "iife",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) { /* code */ } else { /* code */ }",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "javascript",
+      "tags": [
+        "control",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (let i = 0; i < 5; i++) { console.log(i); }",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "javascript",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch(expression) { case x: /* code */ break; default: /* code */ }",
+      "description": "Switch statement",
+      "scenario": "Switch statement",
+      "language": "javascript",
+      "tags": [
+        "control",
+        "switch",
+        "case"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const squares = [1, 2, 3].map(x => x * x);",
+      "description": "Map over an array",
+      "scenario": "Map over an array",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "map",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const evens = [1, 2, 3, 4].filter(x => x % 2 === 0);",
+      "description": "Filter an array",
+      "scenario": "Filter an array",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "filter",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const sum = [1, 2, 3].reduce((acc, x) => acc + x, 0);",
+      "description": "Reduce an array to a single value",
+      "scenario": "Reduce an array to a single value",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "reduce",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const person = { name: 'Alice' }; console.log(person.name);",
+      "description": "Access object properties using dot notation",
+      "scenario": "Access object properties using dot notation",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "access",
+        "dot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const person = { name: 'Alice' }; console.log(person['name']);",
+      "description": "Access object properties using bracket notation",
+      "scenario": "Access object properties using bracket notation",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "access",
+        "bracket"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const { name, age } = { name: 'Alice', age: 25 };",
+      "description": "Destructure an object",
+      "scenario": "Destructure an object",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "destructure",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

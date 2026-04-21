@@ -1,0 +1,204 @@
+{
+  "title": "PyTorch Cheat Sheet",
+  "slug": "pytorch-iconpytorch",
+  "description": "Essential PyTorch commands and patterns for deep learning.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "torch.zeros(3, 3)",
+      "description": "Create a tensor filled with zeros",
+      "scenario": "Create a tensor filled with zeros",
+      "language": "python",
+      "tags": [
+        "tensor",
+        "zeros",
+        "initialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "torch.tensor([1, 2, 3])",
+      "description": "Create a tensor from a list",
+      "scenario": "Create a tensor from a list",
+      "language": "python",
+      "tags": [
+        "tensor",
+        "list",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "torch.add(tensor1, tensor2)",
+      "description": "Perform element-wise addition of two tensors",
+      "scenario": "Perform element-wise addition of two tensors",
+      "language": "python",
+      "tags": [
+        "addition",
+        "element-wise",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class SimpleNN(torch.nn.Module):\n    def __init__(self):\n        super(SimpleNN, self).__init__()\n        self.fc = torch.nn.Linear(10, 1)\n    def forward(self, x):\n        return self.fc(x)",
+      "description": "Define a simple neural network model",
+      "scenario": "Define a simple neural network model",
+      "language": "python",
+      "tags": [
+        "model",
+        "neural network",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def init_weights(m):\n    if isinstance(m, torch.nn.Linear):\n        torch.nn.init.xavier_uniform_(m.weight)",
+      "description": "Initialize model weights",
+      "scenario": "Initialize model weights",
+      "language": "python",
+      "tags": [
+        "weights",
+        "initialization",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from torchsummary import summary\nsummary(model, input_size=(1, 10))",
+      "description": "Print model summary",
+      "scenario": "Print model summary",
+      "language": "python",
+      "tags": [
+        "summary",
+        "model",
+        "inspection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for epoch in range(num_epochs):\n    for data, target in train_loader:\n        optimizer.zero_grad()\n        output = model(data)\n        loss = criterion(output, target)\n        loss.backward()\n        optimizer.step()",
+      "description": "Basic training loop structure",
+      "scenario": "Basic training loop structure",
+      "language": "python",
+      "tags": [
+        "training",
+        "loop",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.train()",
+      "description": "Set model to training mode",
+      "scenario": "Set model to training mode",
+      "language": "python",
+      "tags": [
+        "training",
+        "mode",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.eval()",
+      "description": "Set model to evaluation mode",
+      "scenario": "Set model to evaluation mode",
+      "language": "python",
+      "tags": [
+        "evaluation",
+        "mode",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "torch.cuda.is_available()",
+      "description": "Check if CUDA is available",
+      "scenario": "Check if CUDA is available",
+      "language": "python",
+      "tags": [
+        "cuda",
+        "check",
+        "availability"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tensor = tensor.to('cuda')",
+      "description": "Move tensor to GPU",
+      "scenario": "Move tensor to GPU",
+      "language": "python",
+      "tags": [
+        "cuda",
+        "gpu",
+        "tensor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "model.to('cuda')",
+      "description": "Move model to GPU",
+      "scenario": "Move model to GPU",
+      "language": "python",
+      "tags": [
+        "cuda",
+        "gpu",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "train_loader = torch.utils.data.DataLoader(dataset, batch_size=64, shuffle=True)",
+      "description": "Load dataset using DataLoader",
+      "scenario": "Load dataset using DataLoader",
+      "language": "python",
+      "tags": [
+        "dataloader",
+        "dataset",
+        "loading"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class CustomDataset(torch.utils.data.Dataset):\n    def __init__(self, data, targets):\n        self.data = data\n        self.targets = targets\n    def __len__(self):\n        return len(self.data)\n    def __getitem__(self, index):\n        return self.data[index], self.targets[index]",
+      "description": "Define a custom dataset",
+      "scenario": "Define a custom dataset",
+      "language": "python",
+      "tags": [
+        "dataset",
+        "custom",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transform = transforms.Compose([\n    transforms.ToTensor(),\n    transforms.Normalize((0.5,), (0.5,))\n])",
+      "description": "Transform dataset with normalization",
+      "scenario": "Transform dataset with normalization",
+      "language": "python",
+      "tags": [
+        "transform",
+        "normalization",
+        "dataset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

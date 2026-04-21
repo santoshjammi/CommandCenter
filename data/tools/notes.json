@@ -1,0 +1,165 @@
+{
+  "title": "Notes Cheat Sheet",
+  "slug": "notes",
+  "description": "Essential commands and syntax for note-taking and management.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "# Heading 1",
+      "description": "Create a heading",
+      "scenario": "Create a heading",
+      "language": "text",
+      "tags": [
+        "markdown",
+        "heading",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n- Item 2\n- Item 3",
+      "description": "Create a bullet list",
+      "scenario": "Create a bullet list",
+      "language": "text",
+      "tags": [
+        "markdown",
+        "list",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[Link Text](http://example.com)",
+      "description": "Add a hyperlink",
+      "scenario": "Add a hyperlink",
+      "language": "text",
+      "tags": [
+        "markdown",
+        "link",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "touch note.txt",
+      "description": "Create a new note file",
+      "scenario": "Create a new note file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "file",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls *.txt",
+      "description": "List all note files",
+      "scenario": "List all note files",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "list",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'keyword' *.txt",
+      "description": "Search for a keyword in notes",
+      "scenario": "Search for a keyword in notes",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "search",
+        "grep"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "YYYY-MM-DD_note_title.txt",
+      "description": "Organize notes by date",
+      "scenario": "Organize notes by date",
+      "language": "text",
+      "tags": [
+        "organization",
+        "date",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#tag1 #tag2",
+      "description": "Use tags for quick search",
+      "scenario": "Use tags for quick search",
+      "language": "text",
+      "tags": [
+        "tags",
+        "search",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "---",
+      "description": "Separate sections with horizontal rules",
+      "scenario": "Separate sections with horizontal rules",
+      "language": "text",
+      "tags": [
+        "markdown",
+        "section",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + S",
+      "description": "Save current note",
+      "scenario": "Save current note",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "save",
+        "keyboard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + N",
+      "description": "Open a new note",
+      "scenario": "Open a new note",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "new",
+        "keyboard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + W",
+      "description": "Close current note",
+      "scenario": "Close current note",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "close",
+        "keyboard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "VMware Cheat Sheet",
+  "slug": "vmware",
+  "description": "Essential VMware CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "vim-cmd vmsvc/getallvms",
+      "description": "List all virtual machines on the ESXi host",
+      "scenario": "List all virtual machines on the ESXi host",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vim-cmd vmsvc/power.on <vmid>",
+      "description": "Power on a specific virtual machine",
+      "scenario": "Power on a specific virtual machine",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "power"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vim-cmd vmsvc/power.shutdown <vmid>",
+      "description": "Shutdown a specific virtual machine",
+      "scenario": "Shutdown a specific virtual machine",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "esxcli storage filesystem list",
+      "description": "List all datastores in vSphere",
+      "scenario": "List all datastores in vSphere",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "vsphere",
+        "datastore"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "esxcli network ip interface ipv4 get",
+      "description": "Get network information of the ESXi host",
+      "scenario": "Get network information of the ESXi host",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "vsphere",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vmware -v",
+      "description": "Show the current ESXi version",
+      "scenario": "Show the current ESXi version",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "vsphere",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Connect-VIServer -Server <vcenter_server>",
+      "description": "Connect to a vCenter server",
+      "scenario": "Connect to a vCenter server",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "powercli",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-VM",
+      "description": "Get a list of all VMs in vCenter",
+      "scenario": "Get a list of all VMs in vCenter",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "powercli",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "New-VM -Name <vm_name> -Template <template_name> -VMHost <host_name>",
+      "description": "Create a new VM from a template",
+      "scenario": "Create a new VM from a template",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "powercli",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "esxcli network firewall ruleset set -e true -r ntpClient\nesxcli network firewall refresh\nesxcli hardware clock set --year 2023 --month 10 --day 10 --hour 12 --minute 0 --second 0\nesxcli system ntp set -s <ntp_server>\nesxcli system ntp start",
+      "description": "Configure NTP settings on an ESXi host",
+      "scenario": "Configure NTP settings on an ESXi host",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "ntp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vim-cmd hostsvc/enable_ssh",
+      "description": "Enable SSH on an ESXi host",
+      "scenario": "Enable SSH on an ESXi host",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "ssh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "esxcli system hostname set --host=<hostname>",
+      "description": "Set the hostname of an ESXi host",
+      "scenario": "Set the hostname of an ESXi host",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "hostname"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "esxcli hardware status get",
+      "description": "Check the health status of an ESXi host",
+      "scenario": "Check the health status of an ESXi host",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "health"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vim-cmd vmsvc/snapshot.create <vmid> <snapshot_name>",
+      "description": "Create a snapshot of a virtual machine",
+      "scenario": "Create a snapshot of a virtual machine",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "snapshot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vim-cmd vmsvc/snapshot.remove <vmid> <snapshot_id>",
+      "description": "Remove a snapshot from a virtual machine",
+      "scenario": "Remove a snapshot from a virtual machine",
+      "language": "bash",
+      "tags": [
+        "vmware",
+        "esxi",
+        "snapshot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

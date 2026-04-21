@@ -1,0 +1,165 @@
+{
+  "title": "Composer Cheat Sheet",
+  "slug": "composer",
+  "description": "Essential commands and patterns for using Composer in PHP projects.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "composer install",
+      "description": "Install project dependencies defined in composer.json",
+      "scenario": "Install project dependencies defined in composer.json",
+      "language": "bash",
+      "tags": [
+        "install",
+        "dependencies",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer update",
+      "description": "Update project dependencies to the latest versions allowed by composer.json",
+      "scenario": "Update project dependencies to the latest versions allowed by composer.json",
+      "language": "bash",
+      "tags": [
+        "update",
+        "dependencies",
+        "upgrade"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer create-project vendor/package",
+      "description": "Create a new Composer project with a specified package",
+      "scenario": "Create a new Composer project with a specified package",
+      "language": "bash",
+      "tags": [
+        "create",
+        "project",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer require vendor/package",
+      "description": "Require a new package and add it to composer.json",
+      "scenario": "Require a new package and add it to composer.json",
+      "language": "bash",
+      "tags": [
+        "require",
+        "package",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer remove vendor/package",
+      "description": "Remove a package and update composer.json",
+      "scenario": "Remove a package and update composer.json",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "package",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer show vendor/package",
+      "description": "Show information about a specific package",
+      "scenario": "Show information about a specific package",
+      "language": "bash",
+      "tags": [
+        "show",
+        "info",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer config key value",
+      "description": "Set a configuration value in the composer.json file",
+      "scenario": "Set a configuration value in the composer.json file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer run-script script-name",
+      "description": "Run a script defined in composer.json",
+      "scenario": "Run a script defined in composer.json",
+      "language": "bash",
+      "tags": [
+        "script",
+        "run",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer run-script --list",
+      "description": "List all available scripts defined in composer.json",
+      "scenario": "List all available scripts defined in composer.json",
+      "language": "bash",
+      "tags": [
+        "list",
+        "scripts",
+        "available"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer dump-autoload -o",
+      "description": "Dump the autoloader to optimize performance",
+      "scenario": "Dump the autoloader to optimize performance",
+      "language": "bash",
+      "tags": [
+        "autoload",
+        "optimize",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer dump-autoload",
+      "description": "Regenerate the autoloader files",
+      "scenario": "Regenerate the autoloader files",
+      "language": "bash",
+      "tags": [
+        "autoload",
+        "regenerate",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "composer dump-autoload --classmap-authoritative",
+      "description": "Include a classmap autoloading for specific directories",
+      "scenario": "Include a classmap autoloading for specific directories",
+      "language": "bash",
+      "tags": [
+        "autoload",
+        "classmap",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

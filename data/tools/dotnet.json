@@ -1,0 +1,204 @@
+{
+  "title": ".NET Cheat Sheet",
+  "slug": "dotnet",
+  "description": "Essential .NET CLI commands and code snippets for developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "dotnet new console -n MyConsoleApp",
+      "description": "Create a new .NET console application.",
+      "scenario": "Create a new .NET console application.",
+      "language": "bash",
+      "tags": [
+        "dotnet",
+        "cli",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet build",
+      "description": "Build a .NET project.",
+      "scenario": "Build a .NET project.",
+      "language": "bash",
+      "tags": [
+        "dotnet",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet run",
+      "description": "Run a .NET application.",
+      "scenario": "Run a .NET application.",
+      "language": "bash",
+      "tags": [
+        "dotnet",
+        "cli",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet add package Newtonsoft.Json",
+      "description": "Add a package to a .NET project.",
+      "scenario": "Add a package to a .NET project.",
+      "language": "bash",
+      "tags": [
+        "dotnet",
+        "cli",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet list package",
+      "description": "List installed packages in a .NET project.",
+      "scenario": "List installed packages in a .NET project.",
+      "language": "bash",
+      "tags": [
+        "dotnet",
+        "cli",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet remove package Newtonsoft.Json",
+      "description": "Remove a package from a .NET project.",
+      "scenario": "Remove a package from a .NET project.",
+      "language": "bash",
+      "tags": [
+        "dotnet",
+        "cli",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"Logging\": {\n    \"LogLevel\": {\n      \"Default\": \"Information\",\n      \"Microsoft\": \"Warning\"\n    }\n  }\n}",
+      "description": "Sample appsettings.json configuration for a .NET app.",
+      "scenario": "Sample appsettings.json configuration for a .NET app.",
+      "language": "json",
+      "tags": [
+        "dotnet",
+        "configuration",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"ConnectionStrings\": {\n    \"DefaultConnection\": \"Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;\"\n  }\n}",
+      "description": "Configure a connection string in appsettings.json.",
+      "scenario": "Configure a connection string in appsettings.json.",
+      "language": "json",
+      "tags": [
+        "dotnet",
+        "configuration",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"DetailedErrors\": true\n}",
+      "description": "Enable detailed errors in appsettings.json.",
+      "scenario": "Enable detailed errors in appsettings.json.",
+      "language": "json",
+      "tags": [
+        "dotnet",
+        "configuration",
+        "errors"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public sealed class Singleton {\n    private static readonly Singleton instance = new Singleton();\n    private Singleton() {}\n    public static Singleton Instance {\n        get {\n            return instance;\n        }\n    }\n}",
+      "description": "Singleton pattern in C#.",
+      "scenario": "Singleton pattern in C#.",
+      "language": "csharp",
+      "tags": [
+        "csharp",
+        "pattern",
+        "singleton"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public interface IRepository<T> {\n    IEnumerable<T> GetAll();\n    T GetById(int id);\n    void Add(T entity);\n    void Delete(int id);\n}",
+      "description": "Repository pattern interface in C#.",
+      "scenario": "Repository pattern interface in C#.",
+      "language": "csharp",
+      "tags": [
+        "csharp",
+        "pattern",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public async Task<int> FetchDataAsync() {\n    HttpClient client = new HttpClient();\n    string result = await client.GetStringAsync(\"http://example.com\");\n    return result.Length;\n}",
+      "description": "Basic async/await pattern in C#.",
+      "scenario": "Basic async/await pattern in C#.",
+      "language": "csharp",
+      "tags": [
+        "csharp",
+        "async",
+        "await"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet new xunit -n MyTests",
+      "description": "Create a new xUnit test project.",
+      "scenario": "Create a new xUnit test project.",
+      "language": "bash",
+      "tags": [
+        "dotnet",
+        "xunit",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet test",
+      "description": "Run tests in a .NET project using xUnit.",
+      "scenario": "Run tests in a .NET project using xUnit.",
+      "language": "bash",
+      "tags": [
+        "dotnet",
+        "xunit",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class MyTests {\n    [Fact]\n    public void Test1() {\n        Assert.Equal(4, 2 + 2);\n    }\n}",
+      "description": "Write a simple xUnit test method.",
+      "scenario": "Write a simple xUnit test method.",
+      "language": "csharp",
+      "tags": [
+        "xunit",
+        "test",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

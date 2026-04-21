@@ -1,0 +1,204 @@
+{
+  "title": "Minitest Cheat Sheet",
+  "slug": "minitest",
+  "description": "Quick reference for Minitest commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "assert_equal expected, actual",
+      "description": "Assert that two values are equal",
+      "scenario": "Assert that two values are equal",
+      "language": "ruby",
+      "tags": [
+        "assert",
+        "equality",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert condition",
+      "description": "Assert that a condition is true",
+      "scenario": "Assert that a condition is true",
+      "language": "ruby",
+      "tags": [
+        "assert",
+        "boolean",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert_nil object",
+      "description": "Assert that an object is nil",
+      "scenario": "Assert that an object is nil",
+      "language": "ruby",
+      "tags": [
+        "assert",
+        "nil",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ruby -Ilib:test test/test_file.rb",
+      "description": "Run all tests in a file",
+      "scenario": "Run all tests in a file",
+      "language": "bash",
+      "tags": [
+        "run",
+        "test",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ruby -Ilib:test test/test_file.rb --name /test_name/",
+      "description": "Run tests with a specific name",
+      "scenario": "Run tests with a specific name",
+      "language": "bash",
+      "tags": [
+        "run",
+        "test",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ruby -Ilib:test test/test_file.rb -v",
+      "description": "Run tests with verbose output",
+      "scenario": "Run tests with verbose output",
+      "language": "bash",
+      "tags": [
+        "run",
+        "verbose",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "object.stub(:method_name, return_value) do\n  # test code\nend",
+      "description": "Stub a method to return a specific value",
+      "scenario": "Stub a method to return a specific value",
+      "language": "ruby",
+      "tags": [
+        "stub",
+        "method",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mock_object.expect(:method_name, return_value, [args])",
+      "description": "Mock a method call expectation",
+      "scenario": "Mock a method call expectation",
+      "language": "ruby",
+      "tags": [
+        "mock",
+        "expectation",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mock_object.verify",
+      "description": "Verify that all expectations were met",
+      "scenario": "Verify that all expectations were met",
+      "language": "ruby",
+      "tags": [
+        "verify",
+        "expectation",
+        "mock"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def setup\n  # setup code\nend",
+      "description": "Define code to run before each test",
+      "scenario": "Define code to run before each test",
+      "language": "ruby",
+      "tags": [
+        "setup",
+        "test",
+        "before"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def teardown\n  # teardown code\nend",
+      "description": "Define code to run after each test",
+      "scenario": "Define code to run after each test",
+      "language": "ruby",
+      "tags": [
+        "teardown",
+        "test",
+        "after"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyTest < Minitest::Test\n  def before_setup\n    super\n    # setup code\n  end\n\n  def after_teardown\n    # teardown code\n    super\n  end\nend",
+      "description": "Use before and after hooks for setup and teardown",
+      "scenario": "Use before and after hooks for setup and teardown",
+      "language": "ruby",
+      "tags": [
+        "hooks",
+        "setup",
+        "teardown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert_instance_of ClassName, object",
+      "description": "Assert that an object is an instance of a class",
+      "scenario": "Assert that an object is an instance of a class",
+      "language": "ruby",
+      "tags": [
+        "assert",
+        "instance",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert_includes collection, object",
+      "description": "Assert that a collection includes an object",
+      "scenario": "Assert that a collection includes an object",
+      "language": "ruby",
+      "tags": [
+        "assert",
+        "includes",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert_raises(ExpectedException) { code }",
+      "description": "Assert that an exception is raised",
+      "scenario": "Assert that an exception is raised",
+      "language": "ruby",
+      "tags": [
+        "assert",
+        "exception",
+        "raises"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

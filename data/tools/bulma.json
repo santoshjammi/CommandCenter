@@ -1,0 +1,204 @@
+{
+  "title": "Bulma Cheat Sheet",
+  "slug": "bulma",
+  "description": "Quick reference for Bulma CSS framework classes and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<div class=\"container\">...</div>",
+      "description": "Create a container for responsive layout",
+      "scenario": "Create a container for responsive layout",
+      "language": "html",
+      "tags": [
+        "layout",
+        "container",
+        "responsive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<section class=\"section\">...</section>",
+      "description": "Create a full-width section",
+      "scenario": "Create a full-width section",
+      "language": "html",
+      "tags": [
+        "layout",
+        "section",
+        "full-width"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"columns\"><div class=\"column\">...</div></div>",
+      "description": "Create a responsive column layout",
+      "scenario": "Create a responsive column layout",
+      "language": "html",
+      "tags": [
+        "layout",
+        "columns",
+        "responsive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h1 class=\"title\">Title</h1>",
+      "description": "Apply title style to text",
+      "scenario": "Apply title style to text",
+      "language": "html",
+      "tags": [
+        "typography",
+        "title",
+        "heading"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h2 class=\"subtitle\">Subtitle</h2>",
+      "description": "Apply subtitle style to text",
+      "scenario": "Apply subtitle style to text",
+      "language": "html",
+      "tags": [
+        "typography",
+        "subtitle",
+        "heading"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p class=\"has-text-weight-bold\">Bold text</p>",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "html",
+      "tags": [
+        "typography",
+        "bold",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input class=\"input\" type=\"text\" placeholder=\"Text input\">",
+      "description": "Create a basic input field",
+      "scenario": "Create a basic input field",
+      "language": "html",
+      "tags": [
+        "form",
+        "input",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button class=\"button\">Button</button>",
+      "description": "Create a basic button",
+      "scenario": "Create a basic button",
+      "language": "html",
+      "tags": [
+        "form",
+        "button",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<label class=\"checkbox\"><input type=\"checkbox\"> Check me</label>",
+      "description": "Create a checkbox",
+      "scenario": "Create a checkbox",
+      "language": "html",
+      "tags": [
+        "form",
+        "checkbox",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"card\"><div class=\"card-content\">Content</div></div>",
+      "description": "Create a basic card component",
+      "scenario": "Create a basic card component",
+      "language": "html",
+      "tags": [
+        "component",
+        "card",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<nav class=\"navbar\"><div class=\"navbar-brand\">Brand</div></nav>",
+      "description": "Create a basic navbar",
+      "scenario": "Create a basic navbar",
+      "language": "html",
+      "tags": [
+        "component",
+        "navbar",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"modal\"><div class=\"modal-content\">Content</div></div>",
+      "description": "Create a basic modal",
+      "scenario": "Create a basic modal",
+      "language": "html",
+      "tags": [
+        "component",
+        "modal",
+        "popup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p class=\"has-text-centered\">Centered text</p>",
+      "description": "Center text",
+      "scenario": "Center text",
+      "language": "html",
+      "tags": [
+        "helper",
+        "text",
+        "center"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p class=\"is-uppercase\">Uppercase text</p>",
+      "description": "Make text uppercase",
+      "scenario": "Make text uppercase",
+      "language": "html",
+      "tags": [
+        "helper",
+        "text",
+        "uppercase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"mt-5\">Margin top</div>",
+      "description": "Add margin to element",
+      "scenario": "Add margin to element",
+      "language": "html",
+      "tags": [
+        "helper",
+        "margin",
+        "spacing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

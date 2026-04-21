@@ -1,0 +1,204 @@
+{
+  "title": "Fortnite Development Cheat Sheet",
+  "slug": "fortnite",
+  "description": "Essential commands and snippets for Fortnite development.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "FortniteClient-Win64-Shipping.exe -log",
+      "description": "Launch Fortnite with specific configuration",
+      "scenario": "Launch Fortnite with specific configuration",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "cli",
+        "fortnite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GenerateProjectFiles.bat",
+      "description": "Build project files for Fortnite",
+      "scenario": "Build project files for Fortnite",
+      "language": "bash",
+      "tags": [
+        "build",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FortniteServer.exe -log",
+      "description": "Run Fortnite server",
+      "scenario": "Run Fortnite server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "cli",
+        "fortnite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class AMyWeapon : public AWeapon { /*...*/ };",
+      "description": "Define a new Fortnite weapon class",
+      "scenario": "Define a new Fortnite weapon class",
+      "language": "cpp",
+      "tags": [
+        "weapon",
+        "class",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "virtual void Jump() override;",
+      "description": "Override a function in a Fortnite character class",
+      "scenario": "Override a function in a Fortnite character class",
+      "language": "cpp",
+      "tags": [
+        "override",
+        "function",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#include \"FortniteGame/FortniteGame.h\"",
+      "description": "Include a Fortnite-specific header file",
+      "scenario": "Include a Fortnite-specific header file",
+      "language": "cpp",
+      "tags": [
+        "include",
+        "header",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[/Script/FortniteGame.FortGameMode] DefaultPawnClass=MyPawnClass",
+      "description": "Set default game mode in configuration",
+      "scenario": "Set default game mode in configuration",
+      "language": "ini",
+      "tags": [
+        "config",
+        "game mode",
+        "ini"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[/Script/FortniteGame.FortGameMode] ServerTickRate=30",
+      "description": "Configure server tick rate",
+      "scenario": "Configure server tick rate",
+      "language": "ini",
+      "tags": [
+        "server",
+        "config",
+        "tick rate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[/Script/FortniteGame.FortGameMode] bAllowCheats=true",
+      "description": "Enable developer cheats in configuration",
+      "scenario": "Enable developer cheats in configuration",
+      "language": "ini",
+      "tags": [
+        "cheats",
+        "config",
+        "ini"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) { /*...*/ }",
+      "description": "Pattern for handling player input",
+      "scenario": "Pattern for handling player input",
+      "language": "cpp",
+      "tags": [
+        "input",
+        "pattern",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GetWorld()->SpawnActor<AMyActor>(Location, Rotation);",
+      "description": "Pattern for spawning an actor in the world",
+      "scenario": "Pattern for spawning an actor in the world",
+      "language": "cpp",
+      "tags": [
+        "spawn",
+        "actor",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MyDelegate.BindUFunction(this, FName(\"MyFunction\"));",
+      "description": "Pattern for binding a delegate to an event",
+      "scenario": "Pattern for binding a delegate to an event",
+      "language": "cpp",
+      "tags": [
+        "delegate",
+        "event",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GLog->SetVerbosity(ELogVerbosity::Verbose);",
+      "description": "Enable verbose logging for debugging",
+      "scenario": "Enable verbose logging for debugging",
+      "language": "cpp",
+      "tags": [
+        "debug",
+        "logging",
+        "cpp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Set breakpoints by clicking in the margin next to the line numbers.",
+      "description": "Use breakpoints effectively in Visual Studio",
+      "scenario": "Use breakpoints effectively in Visual Studio",
+      "language": "text",
+      "tags": [
+        "debug",
+        "breakpoints",
+        "visual studio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stat memory",
+      "description": "Check memory usage during runtime",
+      "scenario": "Check memory usage during runtime",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "memory",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

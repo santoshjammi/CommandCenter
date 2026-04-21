@@ -1,0 +1,165 @@
+{
+  "title": "Ansible Cheat Sheet",
+  "slug": "ansible",
+  "description": "Quick reference for Ansible commands and configurations",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "ansible-playbook playbook.yml",
+      "description": "Run an Ansible playbook",
+      "scenario": "Run an Ansible playbook",
+      "language": "bash",
+      "tags": [
+        "playbook",
+        "execution",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ansible all -m ping",
+      "description": "Ping all hosts to check connectivity",
+      "scenario": "Ping all hosts to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "connectivity",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ansible-doc -l",
+      "description": "List all available Ansible modules",
+      "scenario": "List all available Ansible modules",
+      "language": "bash",
+      "tags": [
+        "modules",
+        "documentation",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- hosts: all\n  tasks:\n    - name: Ensure Apache is installed\n      yum:\n        name: httpd\n        state: present",
+      "description": "Define a play targeting all hosts",
+      "scenario": "Define a play targeting all hosts",
+      "language": "yaml",
+      "tags": [
+        "playbook",
+        "hosts",
+        "tasks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- hosts: webservers\n  vars:\n    http_port: 80\n  tasks:\n    - name: Ensure Apache is running\n      service:\n        name: httpd\n        state: started",
+      "description": "Use variables in a playbook",
+      "scenario": "Use variables in a playbook",
+      "language": "yaml",
+      "tags": [
+        "variables",
+        "playbook",
+        "tasks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- import_playbook: common.yml",
+      "description": "Include another playbook",
+      "scenario": "Include another playbook",
+      "language": "yaml",
+      "tags": [
+        "include",
+        "playbook",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[webservers]\nweb1.example.com\nweb2.example.com",
+      "description": "Define a static inventory file",
+      "scenario": "Define a static inventory file",
+      "language": "ini",
+      "tags": [
+        "inventory",
+        "static",
+        "hosts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ansible all -i my_dynamic_inventory.py -m ping",
+      "description": "Use a dynamic inventory script",
+      "scenario": "Use a dynamic inventory script",
+      "language": "bash",
+      "tags": [
+        "dynamic",
+        "inventory",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ansible-playbook -i /path/to/inventory playbook.yml",
+      "description": "Specify inventory file location",
+      "scenario": "Specify inventory file location",
+      "language": "bash",
+      "tags": [
+        "inventory",
+        "file",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- name: Install multiple packages\n  yum:\n    name: \"{{ item }}\"\n    state: present\n  loop:\n    - httpd\n    - memcached",
+      "description": "Use a loop to iterate over a list",
+      "scenario": "Use a loop to iterate over a list",
+      "language": "yaml",
+      "tags": [
+        "loop",
+        "tasks",
+        "playbook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- name: Ensure Apache is configured\n  template:\n    src: /srv/httpd.j2\n    dest: /etc/httpd.conf\n  notify:\n    - Restart Apache\n\nhandlers:\n  - name: Restart Apache\n    service:\n      name: httpd\n      state: restarted",
+      "description": "Notify handlers to restart a service",
+      "scenario": "Notify handlers to restart a service",
+      "language": "yaml",
+      "tags": [
+        "handlers",
+        "notify",
+        "playbook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- name: Install Apache on RedHat\n  yum:\n    name: httpd\n    state: present\n  when: ansible_os_family == 'RedHat'",
+      "description": "Use conditionals in tasks",
+      "scenario": "Use conditionals in tasks",
+      "language": "yaml",
+      "tags": [
+        "conditionals",
+        "tasks",
+        "playbook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

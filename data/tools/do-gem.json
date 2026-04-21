@@ -1,0 +1,165 @@
+{
+  "title": "Do Gem Cheat Sheet",
+  "slug": "do-gem",
+  "description": "Essential commands and patterns for using the Do gem in Ruby.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "gem install do",
+      "description": "Install the Do gem",
+      "scenario": "Install the Do gem",
+      "language": "bash",
+      "tags": [
+        "install",
+        "gem",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "require 'do'",
+      "description": "Require the Do gem in a Ruby script",
+      "scenario": "Require the Do gem in a Ruby script",
+      "language": "ruby",
+      "tags": [
+        "require",
+        "ruby",
+        "gem"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem list do",
+      "description": "Check the version of the Do gem installed",
+      "scenario": "Check the version of the Do gem installed",
+      "language": "bash",
+      "tags": [
+        "version",
+        "gem",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Do.task :example do\n  puts 'This is a task'\nend",
+      "description": "Define a simple task",
+      "scenario": "Define a simple task",
+      "language": "ruby",
+      "tags": [
+        "task",
+        "define",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do example",
+      "description": "Run a specific task",
+      "scenario": "Run a specific task",
+      "language": "bash",
+      "tags": [
+        "run",
+        "task",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do -T",
+      "description": "List all available tasks",
+      "scenario": "List all available tasks",
+      "language": "bash",
+      "tags": [
+        "list",
+        "tasks",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Do.configure do |config|\n  config.option = 'value'\nend",
+      "description": "Set a configuration option",
+      "scenario": "Set a configuration option",
+      "language": "ruby",
+      "tags": [
+        "configure",
+        "option",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Do.load_config('config/do.yml')",
+      "description": "Load a configuration file",
+      "scenario": "Load a configuration file",
+      "language": "ruby",
+      "tags": [
+        "load",
+        "config",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "puts Do.configuration.inspect",
+      "description": "Check current configuration settings",
+      "scenario": "Check current configuration settings",
+      "language": "ruby",
+      "tags": [
+        "inspect",
+        "config",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Do.task :dependent_task => [:task1, :task2] do\n  puts 'This task depends on task1 and task2'\nend",
+      "description": "Define a task with dependencies",
+      "scenario": "Define a task with dependencies",
+      "language": "ruby",
+      "tags": [
+        "dependencies",
+        "task",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DO_ENV=production do example",
+      "description": "Run a task in a specific environment",
+      "scenario": "Run a task in a specific environment",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "run",
+        "task"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do -f custom_tasks.rb",
+      "description": "Use a custom task file",
+      "scenario": "Use a custom task file",
+      "language": "bash",
+      "tags": [
+        "custom",
+        "task",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

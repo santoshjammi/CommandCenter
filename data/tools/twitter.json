@@ -1,0 +1,165 @@
+{
+  "title": "Twitter API Cheat Sheet",
+  "slug": "twitter",
+  "description": "Quick reference for Twitter API usage and CLI commands.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "curl -u 'API_KEY:API_SECRET_KEY' --data 'grant_type=client_credentials' 'https://api.twitter.com/oauth2/token'",
+      "description": "Generate Bearer Token for API access",
+      "scenario": "Generate Bearer Token for API access",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "api",
+        "bearer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST 'https://api.twitter.com/oauth2/invalidate_token' --header 'Authorization: Bearer YOUR_BEARER_TOKEN'",
+      "description": "Revoke Bearer Token",
+      "scenario": "Revoke Bearer Token",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "api",
+        "revoke"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://api.twitter.com/oauth/authenticate?oauth_token=REQUEST_TOKEN",
+      "description": "OAuth 1.0a User Authentication",
+      "scenario": "OAuth 1.0a User Authentication",
+      "language": "text",
+      "tags": [
+        "oauth",
+        "authentication",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --request POST 'https://api.twitter.com/2/tweets' --header 'Authorization: Bearer YOUR_BEARER_TOKEN' --header 'Content-Type: application/json' --data '{\"text\":\"Hello World!\"}'",
+      "description": "Post a new tweet",
+      "scenario": "Post a new tweet",
+      "language": "bash",
+      "tags": [
+        "tweet",
+        "post",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --request DELETE 'https://api.twitter.com/2/tweets/TWEET_ID' --header 'Authorization: Bearer YOUR_BEARER_TOKEN'",
+      "description": "Delete a tweet",
+      "scenario": "Delete a tweet",
+      "language": "bash",
+      "tags": [
+        "tweet",
+        "delete",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'https://api.twitter.com/2/tweets/TWEET_ID' --header 'Authorization: Bearer YOUR_BEARER_TOKEN'",
+      "description": "Retrieve a tweet by ID",
+      "scenario": "Retrieve a tweet by ID",
+      "language": "bash",
+      "tags": [
+        "tweet",
+        "retrieve",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'https://api.twitter.com/2/users/by/username/USERNAME' --header 'Authorization: Bearer YOUR_BEARER_TOKEN'",
+      "description": "Get user details by username",
+      "scenario": "Get user details by username",
+      "language": "bash",
+      "tags": [
+        "user",
+        "details",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --request POST 'https://api.twitter.com/2/users/YOUR_USER_ID/following' --header 'Authorization: Bearer YOUR_BEARER_TOKEN' --header 'Content-Type: application/json' --data '{\"target_user_id\":\"TARGET_USER_ID\"}'",
+      "description": "Follow a user",
+      "scenario": "Follow a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "follow",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --request DELETE 'https://api.twitter.com/2/users/YOUR_USER_ID/following/TARGET_USER_ID' --header 'Authorization: Bearer YOUR_BEARER_TOKEN'",
+      "description": "Unfollow a user",
+      "scenario": "Unfollow a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "unfollow",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'https://api.twitter.com/1.1/application/rate_limit_status.json' --header 'Authorization: Bearer YOUR_BEARER_TOKEN'",
+      "description": "Check rate limit status",
+      "scenario": "Check rate limit status",
+      "language": "bash",
+      "tags": [
+        "rate limit",
+        "status",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if response.status_code == 429: time.sleep(15 * 60)",
+      "description": "Handle rate limit exceeded error",
+      "scenario": "Handle rate limit exceeded error",
+      "language": "python",
+      "tags": [
+        "rate limit",
+        "error",
+        "handle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "X-Rate-Limit-Limit: 15\nX-Rate-Limit-Remaining: 14\nX-Rate-Limit-Reset: 1377013266",
+      "description": "Understand rate limit headers",
+      "scenario": "Understand rate limit headers",
+      "language": "text",
+      "tags": [
+        "rate limit",
+        "headers",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

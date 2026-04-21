@@ -1,0 +1,204 @@
+{
+  "title": "Datalog Cheat Sheet",
+  "slug": "datalog",
+  "description": "Essential Datalog syntax and commands for engineers",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "parent(john, doe).",
+      "description": "Define a simple fact in Datalog",
+      "scenario": "Define a simple fact in Datalog",
+      "language": "text",
+      "tags": [
+        "fact",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ancestor(X, Y) :- parent(X, Y).",
+      "description": "Define a rule with a single condition",
+      "scenario": "Define a rule with a single condition",
+      "language": "text",
+      "tags": [
+        "rule",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ancestor(X, Y) :- parent(X, Z), ancestor(Z, Y).",
+      "description": "Define a rule with multiple conditions",
+      "scenario": "Define a rule with multiple conditions",
+      "language": "text",
+      "tags": [
+        "rule",
+        "syntax",
+        "conditions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?- parent(X, doe).",
+      "description": "Query for all parents of 'doe'",
+      "scenario": "Query for all parents of 'doe'",
+      "language": "text",
+      "tags": [
+        "query",
+        "parent",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?- ancestor(X, doe).",
+      "description": "Query for all ancestors of 'doe'",
+      "scenario": "Query for all ancestors of 'doe'",
+      "language": "text",
+      "tags": [
+        "query",
+        "ancestor",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?- parent(john, Y).",
+      "description": "Query with a variable condition",
+      "scenario": "Query with a variable condition",
+      "language": "text",
+      "tags": [
+        "query",
+        "variable",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "reachable(X, Y) :- edge(X, Y). reachable(X, Y) :- edge(X, Z), reachable(Z, Y).",
+      "description": "Define a recursive rule",
+      "scenario": "Define a recursive rule",
+      "language": "text",
+      "tags": [
+        "recursive",
+        "rule",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "not_parent(X, Y) :- \\+ parent(X, Y).",
+      "description": "Use negation in a rule",
+      "scenario": "Use negation in a rule",
+      "language": "text",
+      "tags": [
+        "negation",
+        "rule",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sibling(X, Y) :- parent(Z, X), parent(Z, Y), X \\= Y.",
+      "description": "Define a rule with disjunction",
+      "scenario": "Define a rule with disjunction",
+      "language": "text",
+      "tags": [
+        "disjunction",
+        "rule",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?- \\+ parent(john, doe).",
+      "description": "Use the 'not' operator in a query",
+      "scenario": "Use the 'not' operator in a query",
+      "language": "text",
+      "tags": [
+        "not",
+        "query",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?- X = Y, parent(X, doe).",
+      "description": "Check for equality in a query",
+      "scenario": "Check for equality in a query",
+      "language": "text",
+      "tags": [
+        "equality",
+        "query",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "age_difference(X, Y, D) :- age(X, A1), age(Y, A2), D is A1 - A2.",
+      "description": "Use arithmetic in a rule",
+      "scenario": "Use arithmetic in a rule",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "rule",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":- index(parent/2).",
+      "description": "Use indexing to speed up queries",
+      "scenario": "Use indexing to speed up queries",
+      "language": "text",
+      "tags": [
+        "indexing",
+        "optimization",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "% Use positive logic where possible to optimize performance",
+      "description": "Avoid using negation in large datasets",
+      "scenario": "Avoid using negation in large datasets",
+      "language": "text",
+      "tags": [
+        "negation",
+        "optimization",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "% Break complex rules into simpler sub-rules for clarity and performance",
+      "description": "Simplify rules by breaking them into smaller parts",
+      "scenario": "Simplify rules by breaking them into smaller parts",
+      "language": "text",
+      "tags": [
+        "simplification",
+        "optimization",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

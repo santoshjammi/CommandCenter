@@ -1,0 +1,204 @@
+{
+  "title": "PhpStorm Cheat Sheet",
+  "slug": "phpstorm",
+  "description": "Quick reference for PhpStorm shortcuts and configurations.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl + Shift + N",
+      "description": "Open a file by name",
+      "scenario": "Open a file by name",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "file",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + N",
+      "description": "Navigate to a class",
+      "scenario": "Navigate to a class",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "class",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + Alt + N",
+      "description": "Navigate to a symbol",
+      "scenario": "Navigate to a symbol",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "symbol",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + D",
+      "description": "Duplicate a line or selection",
+      "scenario": "Duplicate a line or selection",
+      "language": "text",
+      "tags": [
+        "editing",
+        "duplicate",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Y",
+      "description": "Delete a line",
+      "scenario": "Delete a line",
+      "language": "text",
+      "tags": [
+        "editing",
+        "delete",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + /",
+      "description": "Comment or uncomment a line",
+      "scenario": "Comment or uncomment a line",
+      "language": "text",
+      "tags": [
+        "editing",
+        "comment",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F6",
+      "description": "Rename a symbol",
+      "scenario": "Rename a symbol",
+      "language": "text",
+      "tags": [
+        "refactoring",
+        "rename",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + M",
+      "description": "Extract a method",
+      "scenario": "Extract a method",
+      "language": "text",
+      "tags": [
+        "refactoring",
+        "extract",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + N",
+      "description": "Inline a variable",
+      "scenario": "Inline a variable",
+      "language": "text",
+      "tags": [
+        "refactoring",
+        "inline",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + K",
+      "description": "Commit changes",
+      "scenario": "Commit changes",
+      "language": "text",
+      "tags": [
+        "vcs",
+        "commit",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + T",
+      "description": "Update project from VCS",
+      "scenario": "Update project from VCS",
+      "language": "text",
+      "tags": [
+        "vcs",
+        "update",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + 9",
+      "description": "View VCS log",
+      "scenario": "View VCS log",
+      "language": "text",
+      "tags": [
+        "vcs",
+        "log",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F10",
+      "description": "Run a configuration",
+      "scenario": "Run a configuration",
+      "language": "text",
+      "tags": [
+        "run",
+        "debug",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F9",
+      "description": "Debug a configuration",
+      "scenario": "Debug a configuration",
+      "language": "text",
+      "tags": [
+        "debug",
+        "run",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F8",
+      "description": "Step over during debugging",
+      "scenario": "Step over during debugging",
+      "language": "text",
+      "tags": [
+        "debug",
+        "step",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

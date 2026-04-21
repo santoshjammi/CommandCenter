@@ -1,0 +1,204 @@
+{
+  "title": "Play Framework Cheat Sheet",
+  "slug": "play-framework",
+  "description": "Quick reference for Play Framework CLI commands and code snippets.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "sbt new playframework/play-scala-seed.g8",
+      "description": "Create a new Play Framework application",
+      "scenario": "Create a new Play Framework application",
+      "language": "bash",
+      "tags": [
+        "play",
+        "cli",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbt run",
+      "description": "Run the Play application in development mode",
+      "scenario": "Run the Play application in development mode",
+      "language": "bash",
+      "tags": [
+        "play",
+        "cli",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbt compile",
+      "description": "Compile the Play application",
+      "scenario": "Compile the Play application",
+      "language": "bash",
+      "tags": [
+        "play",
+        "cli",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "play.http.secret.key=\"changeme\"",
+      "description": "Set application secret in application.conf",
+      "scenario": "Set application secret in application.conf",
+      "language": "yaml",
+      "tags": [
+        "play",
+        "config",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "play.server.http.port=9000",
+      "description": "Configure HTTP port in application.conf",
+      "scenario": "Configure HTTP port in application.conf",
+      "language": "yaml",
+      "tags": [
+        "play",
+        "config",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "play.server.https.port=9443",
+      "description": "Enable HTTPS in application.conf",
+      "scenario": "Enable HTTPS in application.conf",
+      "language": "yaml",
+      "tags": [
+        "play",
+        "config",
+        "https"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET     /home        controllers.HomeController.index",
+      "description": "Define a GET route in the routes file",
+      "scenario": "Define a GET route in the routes file",
+      "language": "text",
+      "tags": [
+        "play",
+        "routes",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST    /submit      controllers.FormController.submit",
+      "description": "Define a POST route in the routes file",
+      "scenario": "Define a POST route in the routes file",
+      "language": "text",
+      "tags": [
+        "play",
+        "routes",
+        "post"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET     /user/:id    controllers.UserController.show(id: Long)",
+      "description": "Define a route with a parameter in the routes file",
+      "scenario": "Define a route with a parameter in the routes file",
+      "language": "text",
+      "tags": [
+        "play",
+        "routes",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def index = Action { implicit request: Request[AnyContent] => Ok(views.html.index()) }",
+      "description": "Render a view from a controller action",
+      "scenario": "Render a view from a controller action",
+      "language": "scala",
+      "tags": [
+        "play",
+        "controller",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def submit = Action { implicit request: Request[AnyContent] => Ok(\"Form submitted\") }",
+      "description": "Handle form submission in a controller",
+      "scenario": "Handle form submission in a controller",
+      "language": "scala",
+      "tags": [
+        "play",
+        "controller",
+        "form"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def redirectToHome = Action { Redirect(routes.HomeController.index()) }",
+      "description": "Redirect to another page from a controller action",
+      "scenario": "Redirect to another page from a controller action",
+      "language": "scala",
+      "tags": [
+        "play",
+        "controller",
+        "redirect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbt test",
+      "description": "Run tests for the Play application",
+      "scenario": "Run tests for the Play application",
+      "language": "bash",
+      "tags": [
+        "play",
+        "testing",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"should return OK\" in { val home = route(app, FakeRequest(GET, \"/\")).get status(home) mustBe OK }",
+      "description": "Write a basic test case in Play Framework",
+      "scenario": "Write a basic test case in Play Framework",
+      "language": "scala",
+      "tags": [
+        "play",
+        "testing",
+        "unit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"should respond to the index action\" in { running(TestServer(9000)) { await(wsUrl(\"/\").get()).status mustBe OK } }",
+      "description": "Use a test server in Play Framework tests",
+      "scenario": "Use a test server in Play Framework tests",
+      "language": "scala",
+      "tags": [
+        "play",
+        "testing",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

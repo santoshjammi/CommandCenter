@@ -1,0 +1,204 @@
+{
+  "title": "Hardware CLI and Configuration",
+  "slug": "hardware",
+  "description": "Essential CLI commands and configurations for hardware management.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "lsblk",
+      "description": "List all disk partitions",
+      "scenario": "List all disk partitions",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "partition",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Check disk usage",
+      "scenario": "Check disk usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo mkfs.ext4 /dev/sdX1",
+      "description": "Format a disk partition to ext4",
+      "scenario": "Format a disk partition to ext4",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "format",
+        "ext4"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip a",
+      "description": "Display network interfaces",
+      "scenario": "Display network interfaces",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interfaces",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ip link set dev eth0 up",
+      "description": "Bring a network interface up",
+      "scenario": "Bring a network interface up",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interface",
+        "up"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo ip addr add 192.168.1.10/24 dev eth0",
+      "description": "Assign IP address to an interface",
+      "scenario": "Assign IP address to an interface",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ip",
+        "assign"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Display system processes",
+      "scenario": "Display system processes",
+      "language": "bash",
+      "tags": [
+        "system",
+        "processes",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "free -h",
+      "description": "Check memory usage",
+      "scenario": "Check memory usage",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "usage",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iotop",
+      "description": "Monitor real-time disk I/O",
+      "scenario": "Monitor real-time disk I/O",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "io",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo shutdown now",
+      "description": "Shutdown the system",
+      "scenario": "Shutdown the system",
+      "language": "bash",
+      "tags": [
+        "power",
+        "shutdown",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo reboot",
+      "description": "Reboot the system",
+      "scenario": "Reboot the system",
+      "language": "bash",
+      "tags": [
+        "power",
+        "reboot",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systemctl suspend",
+      "description": "Suspend the system",
+      "scenario": "Suspend the system",
+      "language": "bash",
+      "tags": [
+        "power",
+        "suspend",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lscpu",
+      "description": "Display CPU information",
+      "scenario": "Display CPU information",
+      "language": "bash",
+      "tags": [
+        "cpu",
+        "information",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsusb",
+      "description": "List USB devices",
+      "scenario": "List USB devices",
+      "language": "bash",
+      "tags": [
+        "usb",
+        "devices",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lspci",
+      "description": "Show PCI devices",
+      "scenario": "Show PCI devices",
+      "language": "bash",
+      "tags": [
+        "pci",
+        "devices",
+        "show"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

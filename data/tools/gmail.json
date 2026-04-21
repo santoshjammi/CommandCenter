@@ -1,0 +1,165 @@
+{
+  "title": "Gmail Cheat Sheet",
+  "slug": "gmail",
+  "description": "Essential shortcuts and commands for efficient Gmail usage.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "c",
+      "description": "Compose a new email",
+      "scenario": "Compose a new email",
+      "language": "text",
+      "tags": [
+        "compose",
+        "email",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "r",
+      "description": "Reply to an email",
+      "scenario": "Reply to an email",
+      "language": "text",
+      "tags": [
+        "reply",
+        "email",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f",
+      "description": "Forward an email",
+      "scenario": "Forward an email",
+      "language": "text",
+      "tags": [
+        "forward",
+        "email",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from:example@example.com",
+      "description": "Find emails from a specific sender",
+      "scenario": "Find emails from a specific sender",
+      "language": "text",
+      "tags": [
+        "search",
+        "email",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "subject:meeting",
+      "description": "Find emails with a specific subject",
+      "scenario": "Find emails with a specific subject",
+      "language": "text",
+      "tags": [
+        "search",
+        "subject",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "to:recipient@example.com",
+      "description": "Find emails sent to a specific recipient",
+      "scenario": "Find emails sent to a specific recipient",
+      "language": "text",
+      "tags": [
+        "search",
+        "recipient",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Settings > Filters and Blocked Addresses > Create a new filter",
+      "description": "Create a filter for specific emails",
+      "scenario": "Create a filter for specific emails",
+      "language": "text",
+      "tags": [
+        "filter",
+        "email",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "l",
+      "description": "Apply a label to an email",
+      "scenario": "Apply a label to an email",
+      "language": "text",
+      "tags": [
+        "label",
+        "email",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "v",
+      "description": "Move email to a specific label",
+      "scenario": "Move email to a specific label",
+      "language": "text",
+      "tags": [
+        "move",
+        "label",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Settings > General > Keyboard shortcuts: On",
+      "description": "Enable keyboard shortcuts",
+      "scenario": "Enable keyboard shortcuts",
+      "language": "text",
+      "tags": [
+        "settings",
+        "keyboard",
+        "shortcuts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Settings > General > Default reply behavior: Reply all",
+      "description": "Change default reply behavior",
+      "scenario": "Change default reply behavior",
+      "language": "text",
+      "tags": [
+        "settings",
+        "reply",
+        "behavior"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Settings > General > Vacation responder: On",
+      "description": "Set vacation responder",
+      "scenario": "Set vacation responder",
+      "language": "text",
+      "tags": [
+        "settings",
+        "vacation",
+        "responder"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

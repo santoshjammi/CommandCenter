@@ -1,0 +1,204 @@
+{
+  "title": "Rollup.js Cheat Sheet",
+  "slug": "rollupjs",
+  "description": "Quick reference for Rollup.js commands, syntax, and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npx rollup --init",
+      "description": "Initialize a new Rollup configuration file",
+      "scenario": "Initialize a new Rollup configuration file",
+      "language": "bash",
+      "tags": [
+        "init",
+        "cli",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx rollup -c",
+      "description": "Build the project using Rollup",
+      "scenario": "Build the project using Rollup",
+      "language": "bash",
+      "tags": [
+        "build",
+        "cli",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx rollup -c -w",
+      "description": "Watch files for changes and rebuild automatically",
+      "scenario": "Watch files for changes and rebuild automatically",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export default { input: 'src/index.js', output: { file: 'dist/bundle.js', format: 'cjs' } };",
+      "description": "Basic configuration for input and output",
+      "scenario": "Basic configuration for input and output",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "input",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { terser } from 'rollup-plugin-terser';\nexport default { input: 'src/index.js', plugins: [terser()] };",
+      "description": "Add a plugin to the configuration",
+      "scenario": "Add a plugin to the configuration",
+      "language": "javascript",
+      "tags": [
+        "plugin",
+        "terser",
+        "minify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export default { input: 'src/index.js', output: [{ file: 'dist/bundle.cjs.js', format: 'cjs' }, { file: 'dist/bundle.esm.js', format: 'esm' }] };",
+      "description": "Configure multiple output formats",
+      "scenario": "Configure multiple output formats",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "output",
+        "formats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import babel from '@rollup/plugin-babel';\nexport default { input: 'src/index.js', plugins: [babel({ babelHelpers: 'bundled' })] };",
+      "description": "Using Babel with Rollup",
+      "scenario": "Using Babel with Rollup",
+      "language": "javascript",
+      "tags": [
+        "babel",
+        "plugin",
+        "transpile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export default { input: 'src/index.js', external: ['lodash'], output: { file: 'dist/bundle.js', format: 'cjs' } };",
+      "description": "External dependencies configuration",
+      "scenario": "External dependencies configuration",
+      "language": "javascript",
+      "tags": [
+        "external",
+        "dependencies",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export default { input: 'src/index.js', output: { dir: 'dist', format: 'esm' }, preserveModules: true };",
+      "description": "Dynamic imports in Rollup",
+      "scenario": "Dynamic imports in Rollup",
+      "language": "javascript",
+      "tags": [
+        "dynamic",
+        "imports",
+        "modules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NODE_ENV=production npx rollup -c",
+      "description": "Generate a bundle with a specific environment variable",
+      "scenario": "Generate a bundle with a specific environment variable",
+      "language": "bash",
+      "tags": [
+        "env",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx rollup -c rollup.custom.config.js",
+      "description": "Use a different configuration file",
+      "scenario": "Use a different configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "cli",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx rollup -c --bundleConfigAsCjs",
+      "description": "Analyze the bundle size and contents",
+      "scenario": "Analyze the bundle size and contents",
+      "language": "bash",
+      "tags": [
+        "analyze",
+        "bundle",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ensure all necessary plugins (e.g., Babel) are configured correctly.",
+      "description": "Resolve 'Unexpected token' error",
+      "scenario": "Resolve 'Unexpected token' error",
+      "language": "text",
+      "tags": [
+        "error",
+        "token",
+        "plugin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Check module imports for circular references and refactor code.",
+      "description": "Fix 'Circular dependency' warnings",
+      "scenario": "Fix 'Circular dependency' warnings",
+      "language": "text",
+      "tags": [
+        "circular",
+        "dependency",
+        "warning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Verify plugin installation and compatibility with Rollup version.",
+      "description": "Address 'Plugin load failed' issues",
+      "scenario": "Address 'Plugin load failed' issues",
+      "language": "text",
+      "tags": [
+        "plugin",
+        "load",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

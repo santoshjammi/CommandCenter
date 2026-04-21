@@ -1,0 +1,168 @@
+{
+  "title": "Brave Browser Cheat Sheet",
+  "slug": "brave-browser",
+  "description": "Essential CLI commands and configurations for Brave Browser.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "sudo apt install apt-transport-https curl && sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg && echo \"deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main\" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list && sudo apt update && sudo apt install brave-browser",
+      "description": "Install Brave Browser on Ubuntu",
+      "scenario": "Install Brave Browser on Ubuntu",
+      "language": "bash",
+      "tags": [
+        "install",
+        "ubuntu",
+        "apt",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt update && sudo apt upgrade brave-browser",
+      "description": "Update Brave Browser on Ubuntu",
+      "scenario": "Update Brave Browser on Ubuntu",
+      "language": "bash",
+      "tags": [
+        "update",
+        "ubuntu",
+        "apt",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew install --cask brave-browser",
+      "description": "Install Brave Browser on macOS using Homebrew",
+      "scenario": "Install Brave Browser on macOS using Homebrew",
+      "language": "bash",
+      "tags": [
+        "install",
+        "macos",
+        "homebrew",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --incognito",
+      "description": "Start Brave Browser in incognito mode",
+      "scenario": "Start Brave Browser in incognito mode",
+      "language": "bash",
+      "tags": [
+        "incognito",
+        "cli",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --profile-directory=\"Profile 1\"",
+      "description": "Start Brave Browser with a specific profile",
+      "scenario": "Start Brave Browser with a specific profile",
+      "language": "bash",
+      "tags": [
+        "profile",
+        "cli",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --disable-gpu",
+      "description": "Disable GPU hardware acceleration",
+      "scenario": "Disable GPU hardware acceleration",
+      "language": "bash",
+      "tags": [
+        "gpu",
+        "cli",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave://settings/",
+      "description": "Open Brave Browser settings page",
+      "scenario": "Open Brave Browser settings page",
+      "language": "text",
+      "tags": [
+        "settings",
+        "configuration",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave://extensions/",
+      "description": "Access Brave Browser extensions page",
+      "scenario": "Access Brave Browser extensions page",
+      "language": "text",
+      "tags": [
+        "extensions",
+        "configuration",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave://rewards/",
+      "description": "Enable Brave Rewards",
+      "scenario": "Enable Brave Rewards",
+      "language": "text",
+      "tags": [
+        "rewards",
+        "configuration",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --clear-browsing-data",
+      "description": "Clear browsing data via CLI",
+      "scenario": "Clear browsing data via CLI",
+      "language": "bash",
+      "tags": [
+        "privacy",
+        "cli",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --shields-up",
+      "description": "Run Brave Browser with shields up",
+      "scenario": "Run Brave Browser with shields up",
+      "language": "bash",
+      "tags": [
+        "security",
+        "cli",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brave://settings/security",
+      "description": "Open Brave Browser security settings",
+      "scenario": "Open Brave Browser security settings",
+      "language": "text",
+      "tags": [
+        "security",
+        "settings",
+        "brave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

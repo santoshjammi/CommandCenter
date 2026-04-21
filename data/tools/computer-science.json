@@ -1,0 +1,204 @@
+{
+  "title": "Computer Science Cheat Sheet",
+  "slug": "computer-science",
+  "description": "Essential computer science commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "git init",
+      "description": "Initialize a new Git repository",
+      "scenario": "Initialize a new Git repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "version control",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone an existing repository",
+      "scenario": "Clone an existing repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "version control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_function(param1, param2):\n    return param1 + param2",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "python",
+      "tags": [
+        "python",
+        "function",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squares = [x**2 for x in range(10)]",
+      "description": "Create a list comprehension",
+      "scenario": "Create a list comprehension",
+      "language": "python",
+      "tags": [
+        "python",
+        "list",
+        "comprehension"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('file.txt', 'r') as file:\n    content = file.read()",
+      "description": "Open and read a file",
+      "scenario": "Open and read a file",
+      "language": "python",
+      "tags": [
+        "python",
+        "file",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "select",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "insert",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "update",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo \"Hello, World!\"",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "echo",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -la",
+      "description": "List files in a directory",
+      "scenario": "List files in a directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "list",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -r \"search_text\" /path/to/directory",
+      "description": "Find files containing a specific text",
+      "scenario": "Find files containing a specific text",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "grep",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let x = 10;",
+      "description": "Declare a variable using let",
+      "scenario": "Declare a variable using let",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "variable",
+        "let"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const add = function(a, b) {\n    return a + b;\n};",
+      "description": "Create a function expression",
+      "scenario": "Create a function expression",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "function",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "document.getElementById('myButton').addEventListener('click', function() {\n    alert('Button clicked!');\n});",
+      "description": "Add an event listener to a button",
+      "scenario": "Add an event listener to a button",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "event",
+        "listener"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

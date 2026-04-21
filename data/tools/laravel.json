@@ -1,0 +1,204 @@
+{
+  "title": "Laravel Cheat Sheet",
+  "slug": "laravel",
+  "description": "Quick reference for common Laravel commands and code patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "composer create-project --prefer-dist laravel/laravel blog",
+      "description": "Create a new Laravel project",
+      "scenario": "Create a new Laravel project",
+      "language": "bash",
+      "tags": [
+        "laravel",
+        "artisan",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php artisan serve",
+      "description": "Run the Laravel development server",
+      "scenario": "Run the Laravel development server",
+      "language": "bash",
+      "tags": [
+        "laravel",
+        "artisan",
+        "serve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php artisan make:controller UserController",
+      "description": "Generate a new controller",
+      "scenario": "Generate a new controller",
+      "language": "bash",
+      "tags": [
+        "laravel",
+        "artisan",
+        "controller"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Route::get('/users', [UserController::class, 'index']);",
+      "description": "Define a basic GET route",
+      "scenario": "Define a basic GET route",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "routing",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Route::get('/user/{id}', [UserController::class, 'show']);",
+      "description": "Define a route with a parameter",
+      "scenario": "Define a route with a parameter",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "routing",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Route::post('/user', [UserController::class, 'store']);",
+      "description": "Define a POST route",
+      "scenario": "Define a POST route",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "routing",
+        "post"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$users = User::all();",
+      "description": "Retrieve all records from a table",
+      "scenario": "Retrieve all records from a table",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "eloquent",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$user = User::find(1);",
+      "description": "Find a record by primary key",
+      "scenario": "Find a record by primary key",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "eloquent",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User::create(['name' => 'John Doe', 'email' => 'john@example.com']);",
+      "description": "Create a new record",
+      "scenario": "Create a new record",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "eloquent",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ $name }}",
+      "description": "Echo a variable",
+      "scenario": "Echo a variable",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "blade",
+        "echo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@include('partials.header')",
+      "description": "Include another Blade view",
+      "scenario": "Include another Blade view",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "blade",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@if($user) Welcome, {{ $user->name }}! @endif",
+      "description": "Display data conditionally",
+      "scenario": "Display data conditionally",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "blade",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "APP_ENV=local",
+      "description": "Set the application environment",
+      "scenario": "Set the application environment",
+      "language": "text",
+      "tags": [
+        "laravel",
+        "configuration",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "APP_DEBUG=true",
+      "description": "Set the application debug mode",
+      "scenario": "Set the application debug mode",
+      "language": "text",
+      "tags": [
+        "laravel",
+        "configuration",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB_CONNECTION=mysql",
+      "description": "Set the database connection",
+      "scenario": "Set the database connection",
+      "language": "text",
+      "tags": [
+        "laravel",
+        "configuration",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

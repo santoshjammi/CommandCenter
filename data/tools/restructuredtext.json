@@ -1,0 +1,204 @@
+{
+  "title": "ReStructuredText Cheat Sheet",
+  "slug": "restructuredtext",
+  "description": "Essential ReStructuredText syntax and commands for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "**bold text**",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "text",
+      "tags": [
+        "bold",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*italic text*",
+      "description": "Make text italic",
+      "scenario": "Make text italic",
+      "language": "text",
+      "tags": [
+        "italic",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`link text <http://example.com>`_",
+      "description": "Create a hyperlink",
+      "scenario": "Create a hyperlink",
+      "language": "text",
+      "tags": [
+        "hyperlink",
+        "text",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n- Item 2\n- Item 3",
+      "description": "Create an unordered list",
+      "scenario": "Create an unordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "unordered",
+        "bullet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. First item\n2. Second item\n3. Third item",
+      "description": "Create an ordered list",
+      "scenario": "Create an ordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "ordered",
+        "numbered"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n  - Subitem 1\n  - Subitem 2\n- Item 2",
+      "description": "Create a nested list",
+      "scenario": "Create a nested list",
+      "language": "text",
+      "tags": [
+        "list",
+        "nested",
+        "sublist"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Section Title\n=============",
+      "description": "Create a section title with underline",
+      "scenario": "Create a section title with underline",
+      "language": "text",
+      "tags": [
+        "section",
+        "header",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Subsection Title\n----------------",
+      "description": "Create a subsection title with underline",
+      "scenario": "Create a subsection title with underline",
+      "language": "text",
+      "tags": [
+        "subsection",
+        "header",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "************\nTitle\n************",
+      "description": "Create a title with overline and underline",
+      "scenario": "Create a title with overline and underline",
+      "language": "text",
+      "tags": [
+        "title",
+        "overline",
+        "underline"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "``inline code``",
+      "description": "Create an inline code block",
+      "scenario": "Create an inline code block",
+      "language": "text",
+      "tags": [
+        "code",
+        "inline",
+        "block"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "::\n\n  This is a literal block.",
+      "description": "Create a literal block",
+      "scenario": "Create a literal block",
+      "language": "text",
+      "tags": [
+        "literal",
+        "block",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".. code:: python\n\n  def hello():\n      print(\"Hello, World!\")",
+      "description": "Create a code block with syntax highlighting",
+      "scenario": "Create a code block with syntax highlighting",
+      "language": "text",
+      "tags": [
+        "code",
+        "block",
+        "highlighting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".. image:: /path/to/image.png",
+      "description": "Use an image directive",
+      "scenario": "Use an image directive",
+      "language": "text",
+      "tags": [
+        "image",
+        "directive",
+        "media"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".. note::\n\n  This is a note.",
+      "description": "Use a note directive",
+      "scenario": "Use a note directive",
+      "language": "text",
+      "tags": [
+        "note",
+        "directive",
+        "annotation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":custom-role:`text`",
+      "description": "Use a custom role",
+      "scenario": "Use a custom role",
+      "language": "text",
+      "tags": [
+        "role",
+        "custom",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

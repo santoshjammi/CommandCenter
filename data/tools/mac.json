@@ -1,0 +1,204 @@
+{
+  "title": "Mac Command Line Cheat Sheet",
+  "slug": "mac",
+  "description": "Essential macOS terminal commands for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "files",
+        "list",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination/",
+      "description": "Copy a file to another location",
+      "scenario": "Copy a file to another location",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv file.txt /new/location/",
+      "description": "Move a file to another location",
+      "scenario": "Move a file to another location",
+      "language": "bash",
+      "tags": [
+        "move",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Display current disk usage",
+      "scenario": "Display current disk usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vm_stat",
+      "description": "Show current memory usage",
+      "scenario": "Show current memory usage",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uptime",
+      "description": "Display system uptime",
+      "scenario": "Display system uptime",
+      "language": "bash",
+      "tags": [
+        "uptime",
+        "system",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display current network configuration",
+      "scenario": "Display current network configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "config",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 example.com",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "network",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -an",
+      "description": "Display active network connections",
+      "scenario": "Display active network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "running"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill 1234",
+      "description": "Kill a process by its ID",
+      "scenario": "Kill a process by its ID",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pgrep -fl processname",
+      "description": "Find a process by name",
+      "scenario": "Find a process by name",
+      "language": "bash",
+      "tags": [
+        "find",
+        "process",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew install package-name",
+      "description": "Install a package using Homebrew",
+      "scenario": "Install a package using Homebrew",
+      "language": "bash",
+      "tags": [
+        "homebrew",
+        "install",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew update && brew upgrade",
+      "description": "Update all installed packages",
+      "scenario": "Update all installed packages",
+      "language": "bash",
+      "tags": [
+        "homebrew",
+        "update",
+        "upgrade"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew uninstall package-name",
+      "description": "Remove a package using Homebrew",
+      "scenario": "Remove a package using Homebrew",
+      "language": "bash",
+      "tags": [
+        "homebrew",
+        "uninstall",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

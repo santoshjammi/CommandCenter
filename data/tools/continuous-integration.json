@@ -1,0 +1,204 @@
+{
+  "title": "Continuous Integration Cheat Sheet",
+  "slug": "continuous-integration",
+  "description": "Essential commands and configurations for Continuous Integration.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone a repository from a remote server",
+      "scenario": "Clone a repository from a remote server",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout -b new-branch",
+      "description": "Create a new branch and switch to it",
+      "scenario": "Create a new branch and switch to it",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "checkout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge feature-branch",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "merge",
+        "branch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker build -t my-image:latest .",
+      "description": "Build a Docker image from a Dockerfile",
+      "scenario": "Build a Docker image from a Dockerfile",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "build",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d -p 80:80 my-image:latest",
+      "description": "Run a Docker container from an image",
+      "scenario": "Run a Docker container from an image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "run",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List all running Docker containers",
+      "scenario": "List all running Docker containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "list",
+        "containers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ build my-job",
+      "description": "Start a Jenkins job",
+      "scenario": "Start a Jenkins job",
+      "language": "bash",
+      "tags": [
+        "jenkins",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ console my-job",
+      "description": "Get the console output of a Jenkins job",
+      "scenario": "Get the console output of a Jenkins job",
+      "language": "bash",
+      "tags": [
+        "jenkins",
+        "cli",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ list-jobs",
+      "description": "List all Jenkins jobs",
+      "scenario": "List all Jenkins jobs",
+      "language": "bash",
+      "tags": [
+        "jenkins",
+        "cli",
+        "jobs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "language: node_js\nnode_js:\n  - '14'\nscript:\n  - npm test",
+      "description": "Basic Travis CI configuration for a Node.js project",
+      "scenario": "Basic Travis CI configuration for a Node.js project",
+      "language": "yaml",
+      "tags": [
+        "travis",
+        "ci",
+        "nodejs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "version: 2.1\njobs:\n  build:\n    docker:\n      - image: circleci/python:3.8\n    steps:\n      - checkout\n      - run: python -m unittest discover",
+      "description": "CircleCI configuration for a Python project",
+      "scenario": "CircleCI configuration for a Python project",
+      "language": "yaml",
+      "tags": [
+        "circleci",
+        "python",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "name: Java CI\non: [push]\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v2\n      - name: Set up JDK 11\n        uses: actions/setup-java@v1\n        with:\n          java-version: '11'\n      - run: mvn -B package --file pom.xml",
+      "description": "GitHub Actions workflow for a Java project",
+      "scenario": "GitHub Actions workflow for a Java project",
+      "language": "yaml",
+      "tags": [
+        "github",
+        "actions",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steps:\n  - run: npm install\n  - run: npm test\n  - run: npm run deploy",
+      "description": "Pattern for running tests before deployment",
+      "scenario": "Pattern for running tests before deployment",
+      "language": "yaml",
+      "tags": [
+        "ci",
+        "test",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cache:\n  paths:\n    - node_modules\n    - ~/.m2/repository",
+      "description": "Pattern for caching dependencies in CI",
+      "scenario": "Pattern for caching dependencies in CI",
+      "language": "yaml",
+      "tags": [
+        "ci",
+        "cache",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jobs:\n  build:\n    parallelism: 2\n    steps:\n      - run: npm install\n      - run: npm test",
+      "description": "Pattern for parallelizing jobs in CI",
+      "scenario": "Pattern for parallelizing jobs in CI",
+      "language": "yaml",
+      "tags": [
+        "ci",
+        "parallel",
+        "jobs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Apache Maven Cheat Sheet",
+  "slug": "apache-maven",
+  "description": "Essential commands and configurations for Apache Maven.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "mvn compile",
+      "description": "Compile the source code of the project",
+      "scenario": "Compile the source code of the project",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "build",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn clean",
+      "description": "Clean the target directory",
+      "scenario": "Clean the target directory",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn package",
+      "description": "Package the compiled code into a JAR file",
+      "scenario": "Package the compiled code into a JAR file",
+      "language": "bash",
+      "tags": [
+        "package",
+        "build",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<dependency>\\n  <groupId>com.example</groupId>\\n  <artifactId>example-artifact</artifactId>\\n  <version>1.0.0</version>\\n</dependency>",
+      "description": "Add a dependency to the POM file",
+      "scenario": "Add a dependency to the POM file",
+      "language": "xml",
+      "tags": [
+        "dependency",
+        "pom",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn dependency:list",
+      "description": "List all dependencies of the project",
+      "scenario": "List all dependencies of the project",
+      "language": "bash",
+      "tags": [
+        "dependency",
+        "list",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn dependency:tree",
+      "description": "Analyze and display dependency tree",
+      "scenario": "Analyze and display dependency tree",
+      "language": "bash",
+      "tags": [
+        "dependency",
+        "tree",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn help:effective-pom",
+      "description": "Display project information",
+      "scenario": "Display project information",
+      "language": "bash",
+      "tags": [
+        "project",
+        "info",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn help:effective-settings",
+      "description": "Show the effective settings for the project",
+      "scenario": "Show the effective settings for the project",
+      "language": "bash",
+      "tags": [
+        "settings",
+        "project",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn help:describe -Dcmd=compile",
+      "description": "Display a list of available goals",
+      "scenario": "Display a list of available goals",
+      "language": "bash",
+      "tags": [
+        "goals",
+        "describe",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn validate",
+      "description": "Run the validate phase",
+      "scenario": "Run the validate phase",
+      "language": "bash",
+      "tags": [
+        "validate",
+        "phase",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn test",
+      "description": "Run the test phase",
+      "scenario": "Run the test phase",
+      "language": "bash",
+      "tags": [
+        "test",
+        "phase",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn install",
+      "description": "Run the install phase",
+      "scenario": "Run the install phase",
+      "language": "bash",
+      "tags": [
+        "install",
+        "phase",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<properties>\\n  <maven.compiler.source>1.8</maven.compiler.source>\\n  <maven.compiler.target>1.8</maven.compiler.target>\\n</properties>",
+      "description": "Configure the Java version for the project",
+      "scenario": "Configure the Java version for the project",
+      "language": "xml",
+      "tags": [
+        "java",
+        "version",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<build>\\n  <plugins>\\n    <plugin>\\n      <groupId>org.apache.maven.plugins</groupId>\\n      <artifactId>maven-jar-plugin</artifactId>\\n      <version>3.1.0</version>\\n      <configuration>\\n        <archive>\\n          <manifest>\\n            <mainClass>com.example.Main</mainClass>\\n          </manifest>\\n        </archive>\\n      </configuration>\\n    </plugin>\\n  </plugins>\\n</build>",
+      "description": "Set the main class for the application",
+      "scenario": "Set the main class for the application",
+      "language": "xml",
+      "tags": [
+        "main",
+        "class",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<repositories>\\n  <repository>\\n    <id>central</id>\\n    <url>http://repo.maven.apache.org/maven2</url>\\n  </repository>\\n</repositories>",
+      "description": "Configure a custom repository",
+      "scenario": "Configure a custom repository",
+      "language": "xml",
+      "tags": [
+        "repository",
+        "custom",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

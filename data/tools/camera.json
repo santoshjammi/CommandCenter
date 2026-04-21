@@ -1,0 +1,165 @@
+{
+  "title": "Camera CLI and Configuration",
+  "slug": "camera",
+  "description": "Essential commands and configurations for camera management",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "v4l2-ctl --list-devices",
+      "description": "List all connected cameras",
+      "scenario": "List all connected cameras",
+      "language": "bash",
+      "tags": [
+        "camera",
+        "list",
+        "devices"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fswebcam image.jpg",
+      "description": "Capture an image from the camera",
+      "scenario": "Capture an image from the camera",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "image",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -f v4l2 -i /dev/video0 output.mp4",
+      "description": "Record video from the camera",
+      "scenario": "Record video from the camera",
+      "language": "bash",
+      "tags": [
+        "record",
+        "video",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "v4l2-ctl --set-fmt-video=width=1280,height=720",
+      "description": "Set camera resolution to 1280x720",
+      "scenario": "Set camera resolution to 1280x720",
+      "language": "bash",
+      "tags": [
+        "resolution",
+        "camera",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "v4l2-ctl --set-ctrl=brightness=128",
+      "description": "Adjust camera brightness",
+      "scenario": "Adjust camera brightness",
+      "language": "bash",
+      "tags": [
+        "brightness",
+        "camera",
+        "adjust"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "v4l2-ctl --set-parm=30",
+      "description": "Change camera frame rate to 30 fps",
+      "scenario": "Change camera frame rate to 30 fps",
+      "language": "bash",
+      "tags": [
+        "frame rate",
+        "camera",
+        "fps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -f v4l2 -i /dev/video0 -f mpegts udp://192.168.1.100:1234",
+      "description": "Stream camera feed over network",
+      "scenario": "Stream camera feed over network",
+      "language": "bash",
+      "tags": [
+        "stream",
+        "network",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fswebcam -d /dev/video1 image.jpg",
+      "description": "Capture image with specific device",
+      "scenario": "Capture image with specific device",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "device",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mplayer tv://",
+      "description": "Display camera feed in real-time",
+      "scenario": "Display camera feed in real-time",
+      "language": "bash",
+      "tags": [
+        "display",
+        "real-time",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -l /dev/video*",
+      "description": "Check camera device permissions",
+      "scenario": "Check camera device permissions",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "camera",
+        "device"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cheese",
+      "description": "Test camera functionality",
+      "scenario": "Test camera functionality",
+      "language": "bash",
+      "tags": [
+        "test",
+        "functionality",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "v4l2-ctl --default",
+      "description": "Reset camera settings to default",
+      "scenario": "Reset camera settings to default",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "default",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

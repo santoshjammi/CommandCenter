@@ -1,0 +1,204 @@
+{
+  "title": "Git Tricks Cheat Sheet",
+  "slug": "git-tricks",
+  "description": "Advanced Git commands and tricks for efficient version control",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git checkout -b new-branch-name",
+      "description": "Create and switch to a new branch",
+      "scenario": "Create and switch to a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch -d branch-name",
+      "description": "Delete a local branch",
+      "scenario": "Delete a local branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "delete",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch -m new-branch-name",
+      "description": "Rename the current branch",
+      "scenario": "Rename the current branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "rename",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git rebase branch-name",
+      "description": "Rebase current branch onto another branch",
+      "scenario": "Rebase current branch onto another branch",
+      "language": "bash",
+      "tags": [
+        "rebase",
+        "branch",
+        "onto"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git rebase --continue",
+      "description": "Continue rebase after resolving conflicts",
+      "scenario": "Continue rebase after resolving conflicts",
+      "language": "bash",
+      "tags": [
+        "rebase",
+        "continue",
+        "conflict"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git rebase --abort",
+      "description": "Abort a rebase in progress",
+      "scenario": "Abort a rebase in progress",
+      "language": "bash",
+      "tags": [
+        "rebase",
+        "abort",
+        "cancel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git stash",
+      "description": "Stash changes in a dirty working directory",
+      "scenario": "Stash changes in a dirty working directory",
+      "language": "bash",
+      "tags": [
+        "stash",
+        "changes",
+        "save"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git stash apply",
+      "description": "Apply the most recent stash",
+      "scenario": "Apply the most recent stash",
+      "language": "bash",
+      "tags": [
+        "stash",
+        "apply",
+        "recent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git stash list",
+      "description": "List all stashes",
+      "scenario": "List all stashes",
+      "language": "bash",
+      "tags": [
+        "stash",
+        "list",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git reset --hard commit-hash",
+      "description": "Reset current HEAD to the specified state",
+      "scenario": "Reset current HEAD to the specified state",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "hard",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git reset HEAD .",
+      "description": "Unstage all files that have been added",
+      "scenario": "Unstage all files that have been added",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "unstage",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout -- file-name",
+      "description": "Reset a single file to the last commit",
+      "scenario": "Reset a single file to the last commit",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "file",
+        "checkout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log -p",
+      "description": "Show commit history with changes",
+      "scenario": "Show commit history with changes",
+      "language": "bash",
+      "tags": [
+        "log",
+        "history",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --graph --oneline",
+      "description": "Show a graph of commits",
+      "scenario": "Show a graph of commits",
+      "language": "bash",
+      "tags": [
+        "log",
+        "graph",
+        "commits"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --grep='keyword'",
+      "description": "Search commit messages for a keyword",
+      "scenario": "Search commit messages for a keyword",
+      "language": "bash",
+      "tags": [
+        "log",
+        "search",
+        "keyword"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

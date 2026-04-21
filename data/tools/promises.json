@@ -1,0 +1,165 @@
+{
+  "title": "JavaScript Promises Cheat Sheet",
+  "slug": "promises",
+  "description": "Quick reference for JavaScript Promises syntax and patterns",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "const promise = new Promise((resolve, reject) => { resolve('Success'); });",
+      "description": "Create a new promise that resolves",
+      "scenario": "Create a new promise that resolves",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "resolve",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const promise = new Promise((resolve, reject) => { reject('Error'); });",
+      "description": "Create a new promise that rejects",
+      "scenario": "Create a new promise that rejects",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "reject",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const promise = Promise.resolve('Resolved Value');",
+      "description": "Create a promise using Promise.resolve",
+      "scenario": "Create a promise using Promise.resolve",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "resolve",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.then(value => { console.log(value); });",
+      "description": "Handle a resolved promise with .then()",
+      "scenario": "Handle a resolved promise with .then()",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "then",
+        "resolve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.catch(error => { console.error(error); });",
+      "description": "Handle a rejected promise with .catch()",
+      "scenario": "Handle a rejected promise with .catch()",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "catch",
+        "reject"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.then(value => { console.log(value); }).catch(error => { console.error(error); });",
+      "description": "Handle both resolved and rejected states",
+      "scenario": "Handle both resolved and rejected states",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "then",
+        "catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.then(value => { return value + '1'; }).then(value => { console.log(value); });",
+      "description": "Chain multiple .then() calls",
+      "scenario": "Chain multiple .then() calls",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "chain",
+        "then"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.then(value => { throw new Error('Oops'); }).catch(error => { console.error(error); });",
+      "description": "Chain .then() and .catch()",
+      "scenario": "Chain .then() and .catch()",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "chain",
+        "catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "promise.then(value => { console.log(value); }).catch(error => { console.error(error); }).finally(() => { console.log('Done'); });",
+      "description": "Use .finally() after .then() and .catch()",
+      "scenario": "Use .finally() after .then() and .catch()",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "finally",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.all([promise1, promise2]).then(values => { console.log(values); });",
+      "description": "Wait for multiple promises with Promise.all",
+      "scenario": "Wait for multiple promises with Promise.all",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "all",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.race([promise1, promise2]).then(value => { console.log(value); });",
+      "description": "Handle the first resolved promise with Promise.race",
+      "scenario": "Handle the first resolved promise with Promise.race",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "race",
+        "first"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.allSettled([promise1, promise2]).then(results => { console.log(results); });",
+      "description": "Handle all promises, regardless of outcome, with Promise.allSettled",
+      "scenario": "Handle all promises, regardless of outcome, with Promise.allSettled",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "allSettled",
+        "outcome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "VSCode Cheat Sheet",
+  "slug": "vscode",
+  "description": "Essential VSCode shortcuts and commands for efficient coding.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl+N",
+      "description": "Open a new file",
+      "scenario": "Open a new file",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "file",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+S",
+      "description": "Save the current file",
+      "scenario": "Save the current file",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "file",
+        "save"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+P",
+      "description": "Open the command palette",
+      "scenario": "Open the command palette",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "command",
+        "palette"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+P",
+      "description": "Go to file",
+      "scenario": "Go to file",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "file",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+`",
+      "description": "Toggle terminal",
+      "scenario": "Toggle terminal",
+      "language": "text",
+      "tags": [
+        "terminal",
+        "toggle",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+G",
+      "description": "Go to line",
+      "scenario": "Go to line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "jump"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Alt+Down",
+      "description": "Copy line down",
+      "scenario": "Copy line down",
+      "language": "text",
+      "tags": [
+        "editing",
+        "copy",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+Up",
+      "description": "Move line up",
+      "scenario": "Move line up",
+      "language": "text",
+      "tags": [
+        "editing",
+        "move",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+/",
+      "description": "Toggle comment",
+      "scenario": "Toggle comment",
+      "language": "text",
+      "tags": [
+        "editing",
+        "comment",
+        "toggle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+F",
+      "description": "Find in files",
+      "scenario": "Find in files",
+      "language": "text",
+      "tags": [
+        "search",
+        "find",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+H",
+      "description": "Replace in files",
+      "scenario": "Replace in files",
+      "language": "text",
+      "tags": [
+        "replace",
+        "files",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F3",
+      "description": "Find next",
+      "scenario": "Find next",
+      "language": "text",
+      "tags": [
+        "search",
+        "find",
+        "next"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+\\",
+      "description": "Split editor",
+      "scenario": "Split editor",
+      "language": "text",
+      "tags": [
+        "view",
+        "split",
+        "editor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+B",
+      "description": "Toggle sidebar visibility",
+      "scenario": "Toggle sidebar visibility",
+      "language": "text",
+      "tags": [
+        "view",
+        "sidebar",
+        "toggle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+=",
+      "description": "Zoom in",
+      "scenario": "Zoom in",
+      "language": "text",
+      "tags": [
+        "view",
+        "zoom",
+        "in"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

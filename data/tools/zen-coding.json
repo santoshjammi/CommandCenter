@@ -1,0 +1,204 @@
+{
+  "title": "Zen Coding Cheat Sheet",
+  "slug": "zen-coding",
+  "description": "Quick reference for Zen Coding syntax and shortcuts.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "html:5",
+      "description": "Create a basic HTML document structure",
+      "scenario": "Create a basic HTML document structure",
+      "language": "text",
+      "tags": [
+        "html",
+        "template",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div.classname",
+      "description": "Create a div with a class",
+      "scenario": "Create a div with a class",
+      "language": "text",
+      "tags": [
+        "html",
+        "div",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ul>li*3",
+      "description": "Create an unordered list with list items",
+      "scenario": "Create an unordered list with list items",
+      "language": "text",
+      "tags": [
+        "html",
+        "list",
+        "ul"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".classname{}",
+      "description": "Create a CSS rule for a class",
+      "scenario": "Create a CSS rule for a class",
+      "language": "text",
+      "tags": [
+        "css",
+        "class",
+        "rule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#idname{}",
+      "description": "Create a CSS rule for an ID",
+      "scenario": "Create a CSS rule for an ID",
+      "language": "text",
+      "tags": [
+        "css",
+        "id",
+        "rule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "parent>child{}",
+      "description": "Create a CSS rule with a child selector",
+      "scenario": "Create a CSS rule with a child selector",
+      "language": "text",
+      "tags": [
+        "css",
+        "child",
+        "selector"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "table>tr*2>td*3",
+      "description": "Create a table with rows and cells",
+      "scenario": "Create a table with rows and cells",
+      "language": "text",
+      "tags": [
+        "html",
+        "table",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "form>input:text+input:password+input:submit",
+      "description": "Create a form with input fields",
+      "scenario": "Create a form with input fields",
+      "language": "text",
+      "tags": [
+        "html",
+        "form",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nav>ul>li*3>a",
+      "description": "Create a navigation bar with links",
+      "scenario": "Create a navigation bar with links",
+      "language": "text",
+      "tags": [
+        "html",
+        "nav",
+        "links"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div>(header>h1)+footer",
+      "description": "Create nested elements using parentheses",
+      "scenario": "Create nested elements using parentheses",
+      "language": "text",
+      "tags": [
+        "html",
+        "nested",
+        "group"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(header>nav>ul>li*2)+footer",
+      "description": "Create multiple elements with grouping",
+      "scenario": "Create multiple elements with grouping",
+      "language": "text",
+      "tags": [
+        "html",
+        "group",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "section>(article+aside)",
+      "description": "Create a section with article and aside",
+      "scenario": "Create a section with article and aside",
+      "language": "text",
+      "tags": [
+        "html",
+        "section",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a[href='#']",
+      "description": "Add an attribute to an element",
+      "scenario": "Add an attribute to an element",
+      "language": "text",
+      "tags": [
+        "html",
+        "attribute",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p{Hello World}",
+      "description": "Add text content to an element",
+      "scenario": "Add text content to an element",
+      "language": "text",
+      "tags": [
+        "html",
+        "content",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "input[type='text'][name='username']",
+      "description": "Add multiple attributes to an element",
+      "scenario": "Add multiple attributes to an element",
+      "language": "text",
+      "tags": [
+        "html",
+        "attributes",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

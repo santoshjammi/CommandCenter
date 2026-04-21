@@ -1,0 +1,204 @@
+{
+  "title": "TablePlus Cheat Sheet",
+  "slug": "tableplus",
+  "description": "Quick reference for TablePlus CLI commands and shortcuts.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "tableplus connect <database-url>",
+      "description": "Connect to a database using a URL",
+      "scenario": "Connect to a database using a URL",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "database",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tableplus list",
+      "description": "List all connections",
+      "scenario": "List all connections",
+      "language": "bash",
+      "tags": [
+        "list",
+        "connections",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tableplus open <connection-name>",
+      "description": "Open a specific connection by name",
+      "scenario": "Open a specific connection by name",
+      "language": "bash",
+      "tags": [
+        "open",
+        "connection",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "query",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "sql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "sql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + T",
+      "description": "Open a new tab",
+      "scenario": "Open a new tab",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "tab",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + R",
+      "description": "Run current query",
+      "scenario": "Run current query",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "query",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Shift + ]",
+      "description": "Switch between tabs",
+      "scenario": "Switch between tabs",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "tab",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"theme\": \"dark\"}",
+      "description": "Set a custom theme",
+      "scenario": "Set a custom theme",
+      "language": "json",
+      "tags": [
+        "theme",
+        "configuration",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"autocomplete\": true}",
+      "description": "Enable auto-completion",
+      "scenario": "Enable auto-completion",
+      "language": "json",
+      "tags": [
+        "autocomplete",
+        "configuration",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"queryTimeout\": 30}",
+      "description": "Configure query timeout",
+      "scenario": "Configure query timeout",
+      "language": "json",
+      "tags": [
+        "timeout",
+        "configuration",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pg_dump -U username dbname > backup.sql",
+      "description": "Backup a database",
+      "scenario": "Backup a database",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "database",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "psql -U username dbname < backup.sql",
+      "description": "Restore a database from a backup",
+      "scenario": "Restore a database from a backup",
+      "language": "bash",
+      "tags": [
+        "restore",
+        "database",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "COPY table_name TO '/path/to/file.csv' DELIMITER ',' CSV HEADER;",
+      "description": "Export a table to CSV",
+      "scenario": "Export a table to CSV",
+      "language": "sql",
+      "tags": [
+        "export",
+        "csv",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

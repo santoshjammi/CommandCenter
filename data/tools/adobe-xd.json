@@ -1,0 +1,204 @@
+{
+  "title": "Adobe XD Cheat Sheet",
+  "slug": "adobe-xd",
+  "description": "Quick reference for Adobe XD keyboard shortcuts and workflows.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl++",
+      "description": "Zoom in on the design canvas",
+      "scenario": "Zoom in on the design canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+-",
+      "description": "Zoom out of the design canvas",
+      "scenario": "Zoom out of the design canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+0",
+      "description": "Fit the design to the window",
+      "scenario": "Fit the design to the window",
+      "language": "text",
+      "tags": [
+        "fit",
+        "navigation",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > New",
+      "description": "Create a new project",
+      "scenario": "Create a new project",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Save",
+      "description": "Save the current project",
+      "scenario": "Save the current project",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Export",
+      "description": "Export the design",
+      "scenario": "Export the design",
+      "language": "text",
+      "tags": [
+        "file",
+        "export",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "R",
+      "description": "Select the Rectangle tool",
+      "scenario": "Select the Rectangle tool",
+      "language": "text",
+      "tags": [
+        "design",
+        "rectangle",
+        "tool"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "E",
+      "description": "Select the Ellipse tool",
+      "scenario": "Select the Ellipse tool",
+      "language": "text",
+      "tags": [
+        "design",
+        "ellipse",
+        "tool"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "T",
+      "description": "Select the Text tool",
+      "scenario": "Select the Text tool",
+      "language": "text",
+      "tags": [
+        "design",
+        "text",
+        "tool"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "edit",
+        "undo",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+Z",
+      "description": "Redo the last undone action",
+      "scenario": "Redo the last undone action",
+      "language": "text",
+      "tags": [
+        "edit",
+        "redo",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+G",
+      "description": "Group selected objects",
+      "scenario": "Group selected objects",
+      "language": "text",
+      "tags": [
+        "edit",
+        "group",
+        "objects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Desktop Preview",
+      "description": "Preview the prototype",
+      "scenario": "Preview the prototype",
+      "language": "text",
+      "tags": [
+        "prototype",
+        "preview",
+        "desktop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Share > Share for Review",
+      "description": "Share the prototype",
+      "scenario": "Share the prototype",
+      "language": "text",
+      "tags": [
+        "prototype",
+        "share",
+        "review"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Prototype > Add Interaction",
+      "description": "Add an interaction",
+      "scenario": "Add an interaction",
+      "language": "text",
+      "tags": [
+        "prototype",
+        "interaction",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

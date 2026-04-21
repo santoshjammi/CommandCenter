@@ -1,0 +1,204 @@
+{
+  "title": "Process Management Cheat Sheet",
+  "slug": "process",
+  "description": "Essential commands and snippets for managing processes in Unix-like systems.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ps aux",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "monitoring",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Display real-time process information",
+      "scenario": "Display real-time process information",
+      "language": "bash",
+      "tags": [
+        "process",
+        "real-time",
+        "monitoring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pstree",
+      "description": "Display processes in a tree format",
+      "scenario": "Display processes in a tree format",
+      "language": "bash",
+      "tags": [
+        "process",
+        "tree",
+        "hierarchy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill <PID>",
+      "description": "Kill a process by PID",
+      "scenario": "Kill a process by PID",
+      "language": "bash",
+      "tags": [
+        "process",
+        "kill",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pkill <process_name>",
+      "description": "Kill a process by name",
+      "scenario": "Kill a process by name",
+      "language": "bash",
+      "tags": [
+        "process",
+        "kill",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill -STOP <PID>",
+      "description": "Send a STOP signal to a process",
+      "scenario": "Send a STOP signal to a process",
+      "language": "bash",
+      "tags": [
+        "process",
+        "stop",
+        "signal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nice -n 10 <command>",
+      "description": "Start a process with a lower priority",
+      "scenario": "Start a process with a lower priority",
+      "language": "bash",
+      "tags": [
+        "process",
+        "priority",
+        "nice"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "renice -n 5 -p <PID>",
+      "description": "Change the priority of an existing process",
+      "scenario": "Change the priority of an existing process",
+      "language": "bash",
+      "tags": [
+        "process",
+        "priority",
+        "renice"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps -o pid,ni,comm -p <PID>",
+      "description": "View the priority of a running process",
+      "scenario": "View the priority of a running process",
+      "language": "bash",
+      "tags": [
+        "process",
+        "priority",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<command> &",
+      "description": "Run a command in the background",
+      "scenario": "Run a command in the background",
+      "language": "bash",
+      "tags": [
+        "process",
+        "background",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fg <job_id>",
+      "description": "Bring a background process to the foreground",
+      "scenario": "Bring a background process to the foreground",
+      "language": "bash",
+      "tags": [
+        "process",
+        "foreground",
+        "job"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jobs",
+      "description": "List all background jobs",
+      "scenario": "List all background jobs",
+      "language": "bash",
+      "tags": [
+        "process",
+        "background",
+        "jobs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill -l",
+      "description": "List all available signals",
+      "scenario": "List all available signals",
+      "language": "bash",
+      "tags": [
+        "process",
+        "signals",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill -s SIGUSR1 <PID>",
+      "description": "Send a custom signal to a process",
+      "scenario": "Send a custom signal to a process",
+      "language": "bash",
+      "tags": [
+        "process",
+        "signal",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill -TERM <PID>",
+      "description": "Send a TERM signal to gracefully terminate a process",
+      "scenario": "Send a TERM signal to gracefully terminate a process",
+      "language": "bash",
+      "tags": [
+        "process",
+        "terminate",
+        "graceful"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

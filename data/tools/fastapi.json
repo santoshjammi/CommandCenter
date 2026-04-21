@@ -1,0 +1,204 @@
+{
+  "title": "FastAPI Cheat Sheet",
+  "slug": "fastapi",
+  "description": "Quick reference for FastAPI commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\"Hello\": \"World\"}",
+      "description": "Create a basic FastAPI app",
+      "scenario": "Create a basic FastAPI app",
+      "language": "python",
+      "tags": [
+        "setup",
+        "basic",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uvicorn main:app --reload",
+      "description": "Run FastAPI app with uvicorn",
+      "scenario": "Run FastAPI app with uvicorn",
+      "language": "bash",
+      "tags": [
+        "run",
+        "uvicorn",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pip install fastapi uvicorn",
+      "description": "Install FastAPI and Uvicorn",
+      "scenario": "Install FastAPI and Uvicorn",
+      "language": "bash",
+      "tags": [
+        "install",
+        "dependencies",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.get('/items/{item_id}')\ndef read_item(item_id: int):\n    return {\"item_id\": item_id}",
+      "description": "Define a path parameter",
+      "scenario": "Define a path parameter",
+      "language": "python",
+      "tags": [
+        "path",
+        "parameter",
+        "route"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.get('/items/')\ndef read_item(skip: int = 0, limit: int = 10):\n    return {\"skip\": skip, \"limit\": limit}",
+      "description": "Use query parameters",
+      "scenario": "Use query parameters",
+      "language": "python",
+      "tags": [
+        "query",
+        "parameters",
+        "route"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.get('/users/')\ndef read_user(name: str = \"John\"):\n    return {\"name\": name}",
+      "description": "Optional query parameter with default value",
+      "scenario": "Optional query parameter with default value",
+      "language": "python",
+      "tags": [
+        "query",
+        "optional",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from pydantic import BaseModel\n\nclass Item(BaseModel):\n    name: str\n    price: float\n\n@app.post('/items/')\ndef create_item(item: Item):\n    return item",
+      "description": "Define a request body using Pydantic model",
+      "scenario": "Define a request body using Pydantic model",
+      "language": "python",
+      "tags": [
+        "request",
+        "body",
+        "pydantic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@app.get('/items/{item_id}', response_model=Item)\ndef read_item(item_id: int):\n    return {\"name\": \"Item Name\", \"price\": 10.5}",
+      "description": "Set a response model",
+      "scenario": "Set a response model",
+      "language": "python",
+      "tags": [
+        "response",
+        "model",
+        "pydantic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Item(BaseModel):\n    name: str\n    price: float\n\n@app.get('/items/{item_id}', response_model=Item, response_model_exclude_unset=True)\ndef read_item(item_id: int):\n    return {\"name\": \"Item Name\", \"price\": 10.5}",
+      "description": "Use response model with alias",
+      "scenario": "Use response model with alias",
+      "language": "python",
+      "tags": [
+        "response",
+        "alias",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from fastapi import Depends\n\ndef common_parameters(q: str = None):\n    return {\"q\": q}\n\n@app.get('/items/')\ndef read_items(commons: dict = Depends(common_parameters)):\n    return commons",
+      "description": "Define a dependency",
+      "scenario": "Define a dependency",
+      "language": "python",
+      "tags": [
+        "dependency",
+        "injection",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class CommonQueryParams:\n    def __init__(self, q: str = None):\n        self.q = q\n\n@app.get('/items/')\ndef read_items(commons: CommonQueryParams = Depends()):\n    return {\"q\": commons.q}",
+      "description": "Use class as dependency",
+      "scenario": "Use class as dependency",
+      "language": "python",
+      "tags": [
+        "class",
+        "dependency",
+        "injection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def query_extractor(q: str = None):\n    return q\n\ndef query_or_cookie_extractor(q: str = Depends(query_extractor), last_query: str = None):\n    if not q:\n        return last_query\n    return q\n\n@app.get('/items/')\ndef read_query(query_or_default: str = Depends(query_or_cookie_extractor)):\n    return {\"q_or_cookie\": query_or_default}",
+      "description": "Sub-dependencies example",
+      "scenario": "Sub-dependencies example",
+      "language": "python",
+      "tags": [
+        "sub-dependency",
+        "injection",
+        "example"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from fastapi import HTTPException\n\n@app.exception_handler(HTTPException)\nasync def custom_http_exception_handler(request, exc):\n    return JSONResponse(status_code=exc.status_code, content={\"message\": \"Oops! Something went wrong.\"})",
+      "description": "Add custom exception handler",
+      "scenario": "Add custom exception handler",
+      "language": "python",
+      "tags": [
+        "error",
+        "exception",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from starlette.middleware.base import BaseHTTPMiddleware\n\nclass CustomMiddleware(BaseHTTPMiddleware):\n    async def dispatch(self, request, call_next):\n        response = await call_next(request)\n        response.headers['X-Custom-Header'] = 'Value'\n        return response\n\napp.add_middleware(CustomMiddleware)",
+      "description": "Create a middleware",
+      "scenario": "Create a middleware",
+      "language": "python",
+      "tags": [
+        "middleware",
+        "custom",
+        "header"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from fastapi.responses import PlainTextResponse\n\n@app.exception_handler(404)\nasync def not_found_handler(request, exc):\n    return PlainTextResponse(\"Custom 404: Not Found\", status_code=404)",
+      "description": "Handle 404 errors with custom message",
+      "scenario": "Handle 404 errors with custom message",
+      "language": "python",
+      "tags": [
+        "404",
+        "error",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Git Log Cheat Sheet",
+  "slug": "git-log",
+  "description": "Essential git log commands for viewing commit history",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git log --oneline",
+      "description": "Show commit history with one line per commit",
+      "scenario": "Show commit history with one line per commit",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log -3",
+      "description": "Show the last 3 commits",
+      "scenario": "Show the last 3 commits",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "commits"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --graph",
+      "description": "Show commit history with graphical representation",
+      "scenario": "Show commit history with graphical representation",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "graph"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --pretty=format:'%h - %an, %ar : %s'",
+      "description": "Show commit history with pretty format",
+      "scenario": "Show commit history with pretty format",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --stat",
+      "description": "Show commit history with stat summary",
+      "scenario": "Show commit history with stat summary",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "stat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log -p",
+      "description": "Show commit history with patch details",
+      "scenario": "Show commit history with patch details",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "patch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --author='Author Name'",
+      "description": "Show commits by a specific author",
+      "scenario": "Show commits by a specific author",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "author"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --grep='keyword'",
+      "description": "Show commits containing a specific keyword",
+      "scenario": "Show commits containing a specific keyword",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "grep"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log -- filename",
+      "description": "Show commits that modified a specific file",
+      "scenario": "Show commits that modified a specific file",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --since='2023-01-01'",
+      "description": "Show commits after a specific date",
+      "scenario": "Show commits after a specific date",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --until='2023-01-01'",
+      "description": "Show commits before a specific date",
+      "scenario": "Show commits before a specific date",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git log --since='2023-01-01' --until='2023-12-31'",
+      "description": "Show commits within a date range",
+      "scenario": "Show commits within a date range",
+      "language": "bash",
+      "tags": [
+        "git",
+        "log",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

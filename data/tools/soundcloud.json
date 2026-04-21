@@ -1,0 +1,204 @@
+{
+  "title": "SoundCloud API Cheat Sheet",
+  "slug": "soundcloud",
+  "description": "Essential commands and code snippets for working with the SoundCloud API.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "curl -X POST \"https://api.soundcloud.com/oauth2/token\" -d \"client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&grant_type=client_credentials\"",
+      "description": "Get OAuth token using client credentials",
+      "scenario": "Get OAuth token using client credentials",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "oauth",
+        "token"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST \"https://api.soundcloud.com/oauth2/token\" -d \"client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&grant_type=refresh_token&refresh_token=YOUR_REFRESH_TOKEN\"",
+      "description": "Refresh OAuth token",
+      "scenario": "Refresh OAuth token",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "oauth",
+        "refresh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST \"https://api.soundcloud.com/oauth2/revoke\" -d \"token=YOUR_ACCESS_TOKEN\"",
+      "description": "Revoke OAuth token",
+      "scenario": "Revoke OAuth token",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "oauth",
+        "revoke"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST \"https://api.soundcloud.com/tracks\" -F \"track[title]=Track Title\" -F \"track[asset_data]=@/path/to/track.mp3\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Upload a new track",
+      "scenario": "Upload a new track",
+      "language": "bash",
+      "tags": [
+        "tracks",
+        "upload",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X PUT \"https://api.soundcloud.com/tracks/TRACK_ID\" -d \"track[title]=New Title\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Update track details",
+      "scenario": "Update track details",
+      "language": "bash",
+      "tags": [
+        "tracks",
+        "update",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X DELETE \"https://api.soundcloud.com/tracks/TRACK_ID\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Delete a track",
+      "scenario": "Delete a track",
+      "language": "bash",
+      "tags": [
+        "tracks",
+        "delete",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET \"https://api.soundcloud.com/users/USER_ID\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Get user details",
+      "scenario": "Get user details",
+      "language": "bash",
+      "tags": [
+        "users",
+        "details",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X PUT \"https://api.soundcloud.com/me/followings/USER_ID\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Follow a user",
+      "scenario": "Follow a user",
+      "language": "bash",
+      "tags": [
+        "users",
+        "follow",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X DELETE \"https://api.soundcloud.com/me/followings/USER_ID\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Unfollow a user",
+      "scenario": "Unfollow a user",
+      "language": "bash",
+      "tags": [
+        "users",
+        "unfollow",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST \"https://api.soundcloud.com/playlists\" -d \"playlist[title]=Playlist Title\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Create a new playlist",
+      "scenario": "Create a new playlist",
+      "language": "bash",
+      "tags": [
+        "playlists",
+        "create",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X PUT \"https://api.soundcloud.com/playlists/PLAYLIST_ID\" -d \"playlist[tracks][][id]=TRACK_ID\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Add a track to a playlist",
+      "scenario": "Add a track to a playlist",
+      "language": "bash",
+      "tags": [
+        "playlists",
+        "add",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X PUT \"https://api.soundcloud.com/playlists/PLAYLIST_ID\" -d \"playlist[tracks]=[]\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Remove a track from a playlist",
+      "scenario": "Remove a track from a playlist",
+      "language": "bash",
+      "tags": [
+        "playlists",
+        "remove",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST \"https://api.soundcloud.com/tracks/TRACK_ID/comments\" -d \"comment[body]=Great track!\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Post a comment on a track",
+      "scenario": "Post a comment on a track",
+      "language": "bash",
+      "tags": [
+        "comments",
+        "post",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET \"https://api.soundcloud.com/tracks/TRACK_ID/comments\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Get comments on a track",
+      "scenario": "Get comments on a track",
+      "language": "bash",
+      "tags": [
+        "comments",
+        "get",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X DELETE \"https://api.soundcloud.com/comments/COMMENT_ID\" -H \"Authorization: OAuth YOUR_ACCESS_TOKEN\"",
+      "description": "Delete a comment",
+      "scenario": "Delete a comment",
+      "language": "bash",
+      "tags": [
+        "comments",
+        "delete",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

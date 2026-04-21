@@ -1,0 +1,204 @@
+{
+  "title": "Bootstrap Cheat Sheet",
+  "slug": "bootstrap",
+  "description": "Quick reference for Bootstrap CLI commands, syntax, and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm install bootstrap",
+      "description": "Install Bootstrap via npm",
+      "scenario": "Install Bootstrap via npm",
+      "language": "bash",
+      "tags": [
+        "install",
+        "npm",
+        "bootstrap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn add bootstrap",
+      "description": "Install Bootstrap via yarn",
+      "scenario": "Install Bootstrap via yarn",
+      "language": "bash",
+      "tags": [
+        "install",
+        "yarn",
+        "bootstrap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx create-bootstrap-project my-project",
+      "description": "Initialize a new Bootstrap project",
+      "scenario": "Initialize a new Bootstrap project",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "bootstrap",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"row\">\n  <div class=\"col-md-6\">Column 1</div>\n  <div class=\"col-md-6\">Column 2</div>\n</div>",
+      "description": "Create a responsive grid with two columns",
+      "scenario": "Create a responsive grid with two columns",
+      "language": "html",
+      "tags": [
+        "grid",
+        "responsive",
+        "columns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"container-fluid\">\n  <!-- Content here -->\n</div>",
+      "description": "Create a full-width container",
+      "scenario": "Create a full-width container",
+      "language": "html",
+      "tags": [
+        "container",
+        "fluid",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"col-md-3 offset-md-3\">Offset Column</div>",
+      "description": "Offset a column by 3",
+      "scenario": "Offset a column by 3",
+      "language": "html",
+      "tags": [
+        "offset",
+        "grid",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button type=\"button\" class=\"btn btn-primary\">Primary</button>",
+      "description": "Create a primary button",
+      "scenario": "Create a primary button",
+      "language": "html",
+      "tags": [
+        "button",
+        "primary",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button type=\"button\" class=\"btn btn-outline-secondary\">Outline</button>",
+      "description": "Create a button with an outline style",
+      "scenario": "Create a button with an outline style",
+      "language": "html",
+      "tags": [
+        "button",
+        "outline",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button type=\"button\" class=\"btn btn-primary btn-block\">Block Button</button>",
+      "description": "Create a block-level button",
+      "scenario": "Create a block-level button",
+      "language": "html",
+      "tags": [
+        "button",
+        "block",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"m-3\">Margin</div>",
+      "description": "Add margin to an element",
+      "scenario": "Add margin to an element",
+      "language": "html",
+      "tags": [
+        "margin",
+        "spacing",
+        "utility"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"p-3\">Padding</div>",
+      "description": "Add padding to an element",
+      "scenario": "Add padding to an element",
+      "language": "html",
+      "tags": [
+        "padding",
+        "spacing",
+        "utility"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"text-center\">Centered Text</div>",
+      "description": "Center an element text",
+      "scenario": "Center an element text",
+      "language": "html",
+      "tags": [
+        "text",
+        "center",
+        "utility"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p class=\"lead\">This is a lead paragraph.</p>",
+      "description": "Create a lead paragraph",
+      "scenario": "Create a lead paragraph",
+      "language": "html",
+      "tags": [
+        "typography",
+        "lead",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<span class=\"text-uppercase\">Uppercase Text</span>",
+      "description": "Make text uppercase",
+      "scenario": "Make text uppercase",
+      "language": "html",
+      "tags": [
+        "text",
+        "uppercase",
+        "typography"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p class=\"text-muted\">Muted Text</p>",
+      "description": "Apply muted text style",
+      "scenario": "Apply muted text style",
+      "language": "html",
+      "tags": [
+        "text",
+        "muted",
+        "typography"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Siege CLI Cheat Sheet",
+  "slug": "siege",
+  "description": "Quick reference for Siege load testing tool commands and configurations.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "siege -u http://example.com",
+      "description": "Run a basic load test on a single URL",
+      "scenario": "Run a basic load test on a single URL",
+      "language": "bash",
+      "tags": [
+        "load testing",
+        "basic",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "siege -c 50 -u http://example.com",
+      "description": "Run a load test with a specific number of concurrent users",
+      "scenario": "Run a load test with a specific number of concurrent users",
+      "language": "bash",
+      "tags": [
+        "concurrent",
+        "users",
+        "load test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "siege -t 1M -u http://example.com",
+      "description": "Run a load test for a specified duration",
+      "scenario": "Run a load test for a specified duration",
+      "language": "bash",
+      "tags": [
+        "duration",
+        "time",
+        "load test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "siege -d 2 -u http://example.com",
+      "description": "Run a load test with a delay between requests",
+      "scenario": "Run a load test with a delay between requests",
+      "language": "bash",
+      "tags": [
+        "delay",
+        "requests",
+        "timing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "siege -m POST -u http://example.com",
+      "description": "Run a load test with a specific HTTP method",
+      "scenario": "Run a load test with a specific HTTP method",
+      "language": "bash",
+      "tags": [
+        "http method",
+        "post",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "siege -f urls.txt",
+      "description": "Run a load test using a configuration file",
+      "scenario": "Run a load test using a configuration file",
+      "language": "bash",
+      "tags": [
+        "config file",
+        "urls",
+        "batch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "concurrent = 25",
+      "description": "Set default number of concurrent users in .siegerc",
+      "scenario": "Set default number of concurrent users in .siegerc",
+      "language": "text",
+      "tags": [
+        "config",
+        "concurrent",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "delay = 3",
+      "description": "Set default delay between requests in .siegerc",
+      "scenario": "Set default delay between requests in .siegerc",
+      "language": "text",
+      "tags": [
+        "config",
+        "delay",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "time = 30S",
+      "description": "Set default time limit for tests in .siegerc",
+      "scenario": "Set default time limit for tests in .siegerc",
+      "language": "text",
+      "tags": [
+        "config",
+        "time",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "siege -f urls.txt",
+      "description": "Test multiple URLs from a file",
+      "scenario": "Test multiple URLs from a file",
+      "language": "bash",
+      "tags": [
+        "multiple urls",
+        "file",
+        "batch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "siege -i -u http://example.com",
+      "description": "Run a stress test with increasing load",
+      "scenario": "Run a stress test with increasing load",
+      "language": "bash",
+      "tags": [
+        "stress test",
+        "incremental",
+        "load"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "siege -v -u http://example.com",
+      "description": "Run a test with verbose output",
+      "scenario": "Run a test with verbose output",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "output",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

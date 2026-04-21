@@ -1,0 +1,204 @@
+{
+  "title": "Vim Scripting Cheat Sheet",
+  "slug": "vim-scripting",
+  "description": "Essential Vim scripting commands and patterns for efficient editing.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "vim filename.txt",
+      "description": "Open a file in Vim",
+      "scenario": "Open a file in Vim",
+      "language": "bash",
+      "tags": [
+        "open",
+        "file",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":wq",
+      "description": "Save changes and exit Vim",
+      "scenario": "Save changes and exit Vim",
+      "language": "text",
+      "tags": [
+        "save",
+        "exit",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":q!",
+      "description": "Quit Vim without saving changes",
+      "scenario": "Quit Vim without saving changes",
+      "language": "text",
+      "tags": [
+        "quit",
+        "discard",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function! MyFunction()\n  echo \"Hello, Vim!\"\nendfunction",
+      "description": "Define a simple Vim function",
+      "scenario": "Define a simple Vim function",
+      "language": "vim",
+      "tags": [
+        "function",
+        "define",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":call MyFunction()",
+      "description": "Call a Vim function",
+      "scenario": "Call a Vim function",
+      "language": "text",
+      "tags": [
+        "call",
+        "function",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":let myvar = 42",
+      "description": "Set a Vim variable",
+      "scenario": "Set a Vim variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "set",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":nnoremap <F5> :w<CR>",
+      "description": "Map a key to a command in normal mode",
+      "scenario": "Map a key to a command in normal mode",
+      "language": "text",
+      "tags": [
+        "map",
+        "key",
+        "normal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":iabbrev btw by the way",
+      "description": "Create an abbreviation for insert mode",
+      "scenario": "Create an abbreviation for insert mode",
+      "language": "text",
+      "tags": [
+        "abbreviation",
+        "insert",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":vunmap <F5>",
+      "description": "Unmap a key in visual mode",
+      "scenario": "Unmap a key in visual mode",
+      "language": "text",
+      "tags": [
+        "unmap",
+        "key",
+        "visual"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if myvar == 42\n  echo \"The answer is correct.\"\nelse\n  echo \"Try again.\"\nendif",
+      "description": "If-else statement in Vim script",
+      "scenario": "If-else statement in Vim script",
+      "language": "vim",
+      "tags": [
+        "conditional",
+        "if-else",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if filereadable('filename.txt')\n  echo \"File exists.\"\nendif",
+      "description": "Check if a file exists",
+      "scenario": "Check if a file exists",
+      "language": "vim",
+      "tags": [
+        "file",
+        "exists",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let i = 0\nwhile i < 5\n  echo i\n  let i += 1\nendwhile",
+      "description": "Use a while loop in Vim script",
+      "scenario": "Use a while loop in Vim script",
+      "language": "vim",
+      "tags": [
+        "loop",
+        "while",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":autocmd BufReadPost *.txt echo \"Text file opened\"",
+      "description": "Run a command when a file is opened",
+      "scenario": "Run a command when a file is opened",
+      "language": "text",
+      "tags": [
+        "autocmd",
+        "open",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":autocmd FileType python setlocal tabstop=4",
+      "description": "Set file type specific settings",
+      "scenario": "Set file type specific settings",
+      "language": "text",
+      "tags": [
+        "autocmd",
+        "filetype",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":autocmd! MyGroup",
+      "description": "Remove all autocommands for a group",
+      "scenario": "Remove all autocommands for a group",
+      "language": "text",
+      "tags": [
+        "autocmd",
+        "remove",
+        "group"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "PostgreSQL Cheat Sheet",
+  "slug": "postgresql",
+  "description": "Essential PostgreSQL commands and syntax for database management.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "select",
+        "query",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "insert",
+        "sql",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "update",
+        "sql",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE DATABASE database_name;",
+      "description": "Create a new database",
+      "scenario": "Create a new database",
+      "language": "sql",
+      "tags": [
+        "create",
+        "database",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP DATABASE database_name;",
+      "description": "Delete an existing database",
+      "scenario": "Delete an existing database",
+      "language": "sql",
+      "tags": [
+        "drop",
+        "database",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\c database_name",
+      "description": "Connect to a specific database",
+      "scenario": "Connect to a specific database",
+      "language": "sql",
+      "tags": [
+        "connect",
+        "database",
+        "psql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE USER username WITH PASSWORD 'password';",
+      "description": "Create a new user with a password",
+      "scenario": "Create a new user with a password",
+      "language": "sql",
+      "tags": [
+        "create",
+        "user",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GRANT ALL PRIVILEGES ON DATABASE database_name TO username;",
+      "description": "Grant privileges to a user on a database",
+      "scenario": "Grant privileges to a user on a database",
+      "language": "sql",
+      "tags": [
+        "grant",
+        "privileges",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "REVOKE ALL PRIVILEGES ON DATABASE database_name FROM username;",
+      "description": "Revoke privileges from a user",
+      "scenario": "Revoke privileges from a user",
+      "language": "sql",
+      "tags": [
+        "revoke",
+        "privileges",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE TABLE table_name (column1 datatype, column2 datatype);",
+      "description": "Create a new table with columns",
+      "scenario": "Create a new table with columns",
+      "language": "sql",
+      "tags": [
+        "create",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALTER TABLE table_name ADD column_name datatype;",
+      "description": "Add a new column to an existing table",
+      "scenario": "Add a new column to an existing table",
+      "language": "sql",
+      "tags": [
+        "alter",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP TABLE table_name;",
+      "description": "Delete a table from the database",
+      "scenario": "Delete a table from the database",
+      "language": "sql",
+      "tags": [
+        "drop",
+        "table",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE INDEX index_name ON table_name (column_name);",
+      "description": "Create an index on a table column",
+      "scenario": "Create an index on a table column",
+      "language": "sql",
+      "tags": [
+        "index",
+        "performance",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ANALYZE table_name;",
+      "description": "Analyze a table to update statistics",
+      "scenario": "Analyze a table to update statistics",
+      "language": "sql",
+      "tags": [
+        "analyze",
+        "performance",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VACUUM table_name;",
+      "description": "Vacuum a table to reclaim storage",
+      "scenario": "Vacuum a table to reclaim storage",
+      "language": "sql",
+      "tags": [
+        "vacuum",
+        "maintenance",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

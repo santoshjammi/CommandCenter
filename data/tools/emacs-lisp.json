@@ -1,0 +1,204 @@
+{
+  "title": "Emacs Lisp Cheat Sheet",
+  "slug": "emacs-lisp",
+  "description": "Quick reference for Emacs Lisp commands and syntax",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(defun my-function (arg) \"Documentation.\" (interactive \"p\") (message \"Hello, %d times!\" arg))",
+      "description": "Define a new function",
+      "scenario": "Define a new function",
+      "language": "lisp",
+      "tags": [
+        "function",
+        "define",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(setq my-variable \"Hello, World!\")",
+      "description": "Set a variable",
+      "scenario": "Set a variable",
+      "language": "lisp",
+      "tags": [
+        "variable",
+        "set",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if (> 3 2) (message \"3 is greater than 2\") (message \"3 is not greater than 2\"))",
+      "description": "Conditional statement",
+      "scenario": "Conditional statement",
+      "language": "lisp",
+      "tags": [
+        "conditional",
+        "if",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(setq my-list '(1 2 3 4))",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "create",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(setq my-list (cons 0 my-list))",
+      "description": "Add an element to a list",
+      "scenario": "Add an element to a list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "add",
+        "cons"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(car my-list)",
+      "description": "Get the first element of a list",
+      "scenario": "Get the first element of a list",
+      "language": "lisp",
+      "tags": [
+        "list",
+        "car",
+        "first"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(while (< i 10) (setq i (1+ i)) (message \"i is %d\" i))",
+      "description": "Loop with while",
+      "scenario": "Loop with while",
+      "language": "lisp",
+      "tags": [
+        "loop",
+        "while",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(dolist (element my-list) (message \"Element: %d\" element))",
+      "description": "Loop with dolist",
+      "scenario": "Loop with dolist",
+      "language": "lisp",
+      "tags": [
+        "loop",
+        "dolist",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(dotimes (i 5) (message \"Iteration %d\" i))",
+      "description": "Loop with dotimes",
+      "scenario": "Loop with dotimes",
+      "language": "lisp",
+      "tags": [
+        "loop",
+        "dotimes",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(concat \"Hello, \" \"World!\")",
+      "description": "Concatenate strings",
+      "scenario": "Concatenate strings",
+      "language": "lisp",
+      "tags": [
+        "string",
+        "concatenate",
+        "concat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(substring \"Hello, World!\" 0 5)",
+      "description": "Substring extraction",
+      "scenario": "Substring extraction",
+      "language": "lisp",
+      "tags": [
+        "string",
+        "substring",
+        "extract"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(length \"Hello, World!\")",
+      "description": "String length",
+      "scenario": "String length",
+      "language": "lisp",
+      "tags": [
+        "string",
+        "length",
+        "measure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-temp-buffer (insert-file-contents \"file.txt\") (buffer-string))",
+      "description": "Read a file",
+      "scenario": "Read a file",
+      "language": "lisp",
+      "tags": [
+        "file",
+        "read",
+        "buffer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-temp-file \"file.txt\" (insert \"Hello, World!\"))",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "lisp",
+      "tags": [
+        "file",
+        "write",
+        "insert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(append-to-file \"Hello, World!\" nil \"file.txt\")",
+      "description": "Append to a file",
+      "scenario": "Append to a file",
+      "language": "lisp",
+      "tags": [
+        "file",
+        "append",
+        "insert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

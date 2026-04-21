@@ -1,0 +1,204 @@
+{
+  "title": "Julia Cheat Sheet",
+  "slug": "julia",
+  "description": "Quick reference for Julia programming language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "function add(x, y)\n    return x + y\nend",
+      "description": "Define a function in Julia",
+      "scenario": "Define a function in Julia",
+      "language": "julia",
+      "tags": [
+        "function",
+        "syntax",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 1:5\n    println(i)\nend",
+      "description": "Create a for loop",
+      "scenario": "Create a for loop",
+      "language": "julia",
+      "tags": [
+        "loop",
+        "iteration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 0\n    println(\"Positive\")\nelseif x < 0\n    println(\"Negative\")\nelse\n    println(\"Zero\")\nend",
+      "description": "Conditional statement example",
+      "scenario": "Conditional statement example",
+      "language": "julia",
+      "tags": [
+        "conditional",
+        "if-else",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "arr = [1, 2, 3, 4, 5]",
+      "description": "Define an array",
+      "scenario": "Define an array",
+      "language": "julia",
+      "tags": [
+        "array",
+        "data structure",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dict = Dict(\"a\" => 1, \"b\" => 2)",
+      "description": "Create a dictionary",
+      "scenario": "Create a dictionary",
+      "language": "julia",
+      "tags": [
+        "dictionary",
+        "hashmap",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tup = (1, \"apple\", 3.5)",
+      "description": "Tuple creation example",
+      "scenario": "Tuple creation example",
+      "language": "julia",
+      "tags": [
+        "tuple",
+        "data structure",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "using Pkg\nPkg.add(\"ExamplePackage\")",
+      "description": "Add a package using Julia's package manager",
+      "scenario": "Add a package using Julia's package manager",
+      "language": "julia",
+      "tags": [
+        "package",
+        "management",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "using Pkg\nPkg.update()",
+      "description": "Update all installed packages",
+      "scenario": "Update all installed packages",
+      "language": "julia",
+      "tags": [
+        "package",
+        "update",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "using Pkg\nPkg.rm(\"ExamplePackage\")",
+      "description": "Remove a package",
+      "scenario": "Remove a package",
+      "language": "julia",
+      "tags": [
+        "package",
+        "remove",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open(\"file.txt\", \"r\") do file\n    for line in eachline(file)\n        println(line)\n    end\nend",
+      "description": "Read from a file",
+      "scenario": "Read from a file",
+      "language": "julia",
+      "tags": [
+        "file",
+        "read",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open(\"file.txt\", \"w\") do file\n    write(file, \"Hello, World!\")\nend",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "julia",
+      "tags": [
+        "file",
+        "write",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open(\"file.txt\", \"a\") do file\n    write(file, \"Appending this line.\")\nend",
+      "description": "Append data to a file",
+      "scenario": "Append data to a file",
+      "language": "julia",
+      "tags": [
+        "file",
+        "append",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squares = [x^2 for x in 1:10]",
+      "description": "List comprehension example",
+      "scenario": "List comprehension example",
+      "language": "julia",
+      "tags": [
+        "list comprehension",
+        "pattern",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squared = map(x -> x^2, [1, 2, 3, 4])",
+      "description": "Using map function",
+      "scenario": "Using map function",
+      "language": "julia",
+      "tags": [
+        "map",
+        "function",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "evens = filter(x -> x % 2 == 0, [1, 2, 3, 4, 5])",
+      "description": "Filter elements in an array",
+      "scenario": "Filter elements in an array",
+      "language": "julia",
+      "tags": [
+        "filter",
+        "array",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

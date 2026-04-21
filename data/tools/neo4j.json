@@ -1,0 +1,165 @@
+{
+  "title": "Neo4j Cheat Sheet",
+  "slug": "neo4j",
+  "description": "Quick reference for Neo4j commands and Cypher syntax.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "CREATE (n:Person {name: 'Alice', age: 30})",
+      "description": "Create a node with a label and properties",
+      "scenario": "Create a node with a label and properties",
+      "language": "cypher",
+      "tags": [
+        "cypher",
+        "create",
+        "node"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (n:Person) RETURN n",
+      "description": "Match and return all nodes with a specific label",
+      "scenario": "Match and return all nodes with a specific label",
+      "language": "cypher",
+      "tags": [
+        "cypher",
+        "match",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (n:Person {name: 'Alice'}) SET n.age = 31",
+      "description": "Update a property of a node",
+      "scenario": "Update a property of a node",
+      "language": "cypher",
+      "tags": [
+        "cypher",
+        "update",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "neo4j start",
+      "description": "Start the Neo4j server",
+      "scenario": "Start the Neo4j server",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "server",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "neo4j stop",
+      "description": "Stop the Neo4j server",
+      "scenario": "Stop the Neo4j server",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "server",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "neo4j status",
+      "description": "Check the status of the Neo4j server",
+      "scenario": "Check the status of the Neo4j server",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "server",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (a:Person {name: 'Alice'}), (b:Person {name: 'Bob'}) CREATE (a)-[:FRIENDS_WITH]->(b)",
+      "description": "Create a relationship between two nodes",
+      "scenario": "Create a relationship between two nodes",
+      "language": "cypher",
+      "tags": [
+        "cypher",
+        "relationship",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (n:Person {name: 'Alice'}) DETACH DELETE n",
+      "description": "Delete a node and its relationships",
+      "scenario": "Delete a node and its relationships",
+      "language": "cypher",
+      "tags": [
+        "cypher",
+        "delete",
+        "node"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (a)-[:FRIENDS_WITH]->(b) RETURN a, b",
+      "description": "Return nodes with a specific relationship",
+      "scenario": "Return nodes with a specific relationship",
+      "language": "cypher",
+      "tags": [
+        "cypher",
+        "relationship",
+        "match"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbms.memory.heap.initial_size=512m\ndbms.memory.heap.max_size=1G",
+      "description": "Set Neo4j database memory allocation",
+      "scenario": "Set Neo4j database memory allocation",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "memory",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbms.default_listen_address=0.0.0.0",
+      "description": "Enable remote connections to Neo4j",
+      "scenario": "Enable remote connections to Neo4j",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "network",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbms.security.auth_enabled=true",
+      "description": "Configure Neo4j authentication",
+      "scenario": "Configure Neo4j authentication",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "security",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

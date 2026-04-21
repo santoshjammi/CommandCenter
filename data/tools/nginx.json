@@ -1,0 +1,204 @@
+{
+  "title": "Nginx Cheat Sheet",
+  "slug": "nginx",
+  "description": "Essential Nginx commands and configuration snippets.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "sudo systemctl start nginx",
+      "description": "Start Nginx service",
+      "scenario": "Start Nginx service",
+      "language": "bash",
+      "tags": [
+        "start",
+        "service",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl stop nginx",
+      "description": "Stop Nginx service",
+      "scenario": "Stop Nginx service",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "service",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl restart nginx",
+      "description": "Restart Nginx service",
+      "scenario": "Restart Nginx service",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "service",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "server {\n    listen 80;\n    server_name example.com;\n    location / {\n        root /var/www/html;\n        index index.html;\n    }\n}",
+      "description": "Basic server block configuration",
+      "scenario": "Basic server block configuration",
+      "language": "nginx",
+      "tags": [
+        "server",
+        "block",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "server {\n    listen 80;\n    server_name example.com;\n    return 301 https://$server_name$request_uri;\n}",
+      "description": "Redirect HTTP to HTTPS",
+      "scenario": "Redirect HTTP to HTTPS",
+      "language": "nginx",
+      "tags": [
+        "redirect",
+        "https",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gzip on;\ngzip_types text/plain application/xml;\n",
+      "description": "Enable gzip compression",
+      "scenario": "Enable gzip compression",
+      "language": "nginx",
+      "tags": [
+        "gzip",
+        "compression",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log_format main '$remote_addr - $remote_user [$time_local] \"$request\" '\n                  '$status $body_bytes_sent \"$http_referer\" '\n                  '\"$http_user_agent\" \"$http_x_forwarded_for\"';",
+      "description": "Set custom log format",
+      "scenario": "Set custom log format",
+      "language": "nginx",
+      "tags": [
+        "log",
+        "format",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "access_log /var/log/nginx/access.log main;",
+      "description": "Change access log location",
+      "scenario": "Change access log location",
+      "language": "nginx",
+      "tags": [
+        "log",
+        "access",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "access_log off;",
+      "description": "Disable access logs",
+      "scenario": "Disable access logs",
+      "language": "nginx",
+      "tags": [
+        "log",
+        "disable",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "limit_req_zone $binary_remote_addr zone=mylimit:10m rate=1r/s;",
+      "description": "Limit request rate",
+      "scenario": "Limit request rate",
+      "language": "nginx",
+      "tags": [
+        "security",
+        "limit",
+        "rate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deny 192.168.1.1;",
+      "description": "Block specific IP address",
+      "scenario": "Block specific IP address",
+      "language": "nginx",
+      "tags": [
+        "security",
+        "block",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "server {\n    listen 443 ssl;\n    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;\n    ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;\n}",
+      "description": "Enable SSL with a self-signed certificate",
+      "scenario": "Enable SSL with a self-signed certificate",
+      "language": "nginx",
+      "tags": [
+        "ssl",
+        "self-signed",
+        "certificate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "location / {\n    proxy_pass http://localhost:3000;\n    proxy_set_header Host $host;\n    proxy_set_header X-Real-IP $remote_addr;\n}",
+      "description": "Reverse proxy configuration",
+      "scenario": "Reverse proxy configuration",
+      "language": "nginx",
+      "tags": [
+        "reverse",
+        "proxy",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "location /static/ {\n    alias /var/www/static/;\n}",
+      "description": "Serve static files",
+      "scenario": "Serve static files",
+      "language": "nginx",
+      "tags": [
+        "static",
+        "files",
+        "serve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "location / {\n    auth_basic \"Restricted Content\";\n    auth_basic_user_file /etc/nginx/.htpasswd;\n}",
+      "description": "Basic authentication setup",
+      "scenario": "Basic authentication setup",
+      "language": "nginx",
+      "tags": [
+        "authentication",
+        "basic",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

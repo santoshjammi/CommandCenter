@@ -1,0 +1,204 @@
+{
+  "title": "MVVM Cheat Sheet",
+  "slug": "mvvm",
+  "description": "Essential MVVM patterns and commands for software engineers",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "class UserModel {\n  constructor(name, age) {\n    this.name = name;\n    this.age = age;\n  }\n}",
+      "description": "Define a simple data model class",
+      "scenario": "Define a simple data model class",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "class",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class UserModel {\n  constructor() {\n    this.name = ko.observable('');\n    this.age = ko.observable(0);\n  }\n}",
+      "description": "Create a model with observable properties",
+      "scenario": "Create a model with observable properties",
+      "language": "javascript",
+      "tags": [
+        "knockout",
+        "observable",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class ProductModel {\n  constructor() {\n    this.name = ko.observable('Default Product');\n    this.price = ko.observable(0.0);\n  }\n}",
+      "description": "Initialize a model with default values",
+      "scenario": "Initialize a model with default values",
+      "language": "javascript",
+      "tags": [
+        "default",
+        "model",
+        "observable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class UserViewModel {\n  constructor() {\n    this.userName = ko.observable('');\n    this.userAge = ko.observable(0);\n  }\n}",
+      "description": "Define a basic ViewModel",
+      "scenario": "Define a basic ViewModel",
+      "language": "javascript",
+      "tags": [
+        "viewmodel",
+        "knockout",
+        "observable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class UserViewModel {\n  constructor(userModel) {\n    this.userName = userModel.name;\n    this.userAge = userModel.age;\n  }\n}",
+      "description": "Bind ViewModel to a model",
+      "scenario": "Bind ViewModel to a model",
+      "language": "javascript",
+      "tags": [
+        "binding",
+        "viewmodel",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class UserViewModel {\n  constructor() {\n    this.userName = ko.observable('');\n    this.updateName = function(newName) {\n      this.userName(newName);\n    };\n  }\n}",
+      "description": "Handle user input in ViewModel",
+      "scenario": "Handle user input in ViewModel",
+      "language": "javascript",
+      "tags": [
+        "input",
+        "viewmodel",
+        "knockout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div>\n  <input data-bind=\"value: userName\" />\n  <span data-bind=\"text: userName\"></span>\n</div>",
+      "description": "Basic HTML binding with Knockout",
+      "scenario": "Basic HTML binding with Knockout",
+      "language": "html",
+      "tags": [
+        "html",
+        "knockout",
+        "binding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ul data-bind=\"foreach: items\">\n  <li data-bind=\"text: $data\"></li>\n</ul>",
+      "description": "Use Knockout to bind a list",
+      "scenario": "Use Knockout to bind a list",
+      "language": "html",
+      "tags": [
+        "list",
+        "knockout",
+        "binding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div data-bind=\"if: isVisible\">\n  <p>Content is visible</p>\n</div>",
+      "description": "Conditional binding in Knockout",
+      "scenario": "Conditional binding in Knockout",
+      "language": "html",
+      "tags": [
+        "conditional",
+        "knockout",
+        "binding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input data-bind=\"value: userName, valueUpdate: 'input'\" />",
+      "description": "Two-way data binding with Knockout",
+      "scenario": "Two-way data binding with Knockout",
+      "language": "html",
+      "tags": [
+        "two-way",
+        "binding",
+        "knockout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class UserViewModel {\n  constructor() {\n    this.firstName = ko.observable('John');\n    this.lastName = ko.observable('Doe');\n    this.fullName = ko.computed(() => {\n      return this.firstName() + ' ' + this.lastName();\n    });\n  }\n}",
+      "description": "Bind a computed observable",
+      "scenario": "Bind a computed observable",
+      "language": "javascript",
+      "tags": [
+        "computed",
+        "observable",
+        "knockout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div data-bind=\"css: { active: isActive }\">Content</div>",
+      "description": "Bind to a CSS class dynamically",
+      "scenario": "Bind to a CSS class dynamically",
+      "language": "html",
+      "tags": [
+        "css",
+        "binding",
+        "knockout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Command {\n  constructor(execute, canExecute) {\n    this.execute = execute;\n    this.canExecute = canExecute;\n  }\n}",
+      "description": "Implement a simple command pattern",
+      "scenario": "Implement a simple command pattern",
+      "language": "javascript",
+      "tags": [
+        "command",
+        "pattern",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class ServiceLocator {\n  constructor() {\n    this.services = {};\n  }\n  register(name, instance) {\n    this.services[name] = instance;\n  }\n  get(name) {\n    return this.services[name];\n  }\n}",
+      "description": "Use a service locator for dependency injection",
+      "scenario": "Use a service locator for dependency injection",
+      "language": "javascript",
+      "tags": [
+        "service",
+        "locator",
+        "dependency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class PubSub {\n  constructor() {\n    this.events = {};\n  }\n  subscribe(event, callback) {\n    if (!this.events[event]) this.events[event] = [];\n    this.events[event].push(callback);\n  }\n  publish(event, data) {\n    if (this.events[event]) {\n      this.events[event].forEach(callback => callback(data));\n    }\n  }\n}",
+      "description": "Implement a simple pub-sub pattern",
+      "scenario": "Implement a simple pub-sub pattern",
+      "language": "javascript",
+      "tags": [
+        "pub-sub",
+        "pattern",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

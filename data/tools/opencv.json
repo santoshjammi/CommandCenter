@@ -1,0 +1,204 @@
+{
+  "title": "OpenCV Cheat Sheet",
+  "slug": "opencv",
+  "description": "Quick reference for OpenCV CLI commands and Python code snippets.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "img = cv2.imread('image.jpg')",
+      "description": "Read an image from a file",
+      "scenario": "Read an image from a file",
+      "language": "python",
+      "tags": [
+        "image",
+        "read",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)",
+      "description": "Convert an image to grayscale",
+      "scenario": "Convert an image to grayscale",
+      "language": "python",
+      "tags": [
+        "convert",
+        "grayscale",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cv2.imwrite('output.jpg', img)",
+      "description": "Save an image to a file",
+      "scenario": "Save an image to a file",
+      "language": "python",
+      "tags": [
+        "save",
+        "file",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cap = cv2.VideoCapture(0)",
+      "description": "Open a video capture from the default camera",
+      "scenario": "Open a video capture from the default camera",
+      "language": "python",
+      "tags": [
+        "video",
+        "capture",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret, frame = cap.read()",
+      "description": "Read a frame from the video capture",
+      "scenario": "Read a frame from the video capture",
+      "language": "python",
+      "tags": [
+        "video",
+        "frame",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cap.release()",
+      "description": "Release the video capture object",
+      "scenario": "Release the video capture object",
+      "language": "python",
+      "tags": [
+        "video",
+        "release",
+        "capture"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cv2.line(img, (0, 0), (511, 511), (255, 0, 0), 5)",
+      "description": "Draw a line on an image",
+      "scenario": "Draw a line on an image",
+      "language": "python",
+      "tags": [
+        "draw",
+        "line",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cv2.rectangle(img, (384, 0), (510, 128), (0, 255, 0), 3)",
+      "description": "Draw a rectangle on an image",
+      "scenario": "Draw a rectangle on an image",
+      "language": "python",
+      "tags": [
+        "draw",
+        "rectangle",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cv2.circle(img, (447, 63), 63, (0, 0, 255), -1)",
+      "description": "Draw a circle on an image",
+      "scenario": "Draw a circle on an image",
+      "language": "python",
+      "tags": [
+        "draw",
+        "circle",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "python -c \"import cv2; print(cv2.__version__)\"",
+      "description": "Display OpenCV version",
+      "scenario": "Display OpenCV version",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "version",
+        "opencv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pip install opencv-python",
+      "description": "Install OpenCV using pip",
+      "scenario": "Install OpenCV using pip",
+      "language": "bash",
+      "tags": [
+        "install",
+        "pip",
+        "opencv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pip install opencv-contrib-python",
+      "description": "Install OpenCV with extra modules",
+      "scenario": "Install OpenCV with extra modules",
+      "language": "bash",
+      "tags": [
+        "install",
+        "modules",
+        "opencv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)",
+      "description": "Set video frame width",
+      "scenario": "Set video frame width",
+      "language": "python",
+      "tags": [
+        "video",
+        "frame",
+        "width"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)",
+      "description": "Set video frame height",
+      "scenario": "Set video frame height",
+      "language": "python",
+      "tags": [
+        "video",
+        "frame",
+        "height"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cap.set(cv2.CAP_PROP_FPS, 30)",
+      "description": "Set video frames per second",
+      "scenario": "Set video frames per second",
+      "language": "python",
+      "tags": [
+        "video",
+        "fps",
+        "frames"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

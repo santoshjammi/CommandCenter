@@ -1,0 +1,204 @@
+{
+  "title": "Agda Cheat Sheet",
+  "slug": "agda",
+  "description": "Essential commands and syntax for Agda programming language.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "agda --type-check MyFile.agda",
+      "description": "Type check an Agda file",
+      "scenario": "Type check an Agda file",
+      "language": "bash",
+      "tags": [
+        "type-check",
+        "cli",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "agda --latex MyFile.agda",
+      "description": "Generate LaTeX from an Agda file",
+      "scenario": "Generate LaTeX from an Agda file",
+      "language": "bash",
+      "tags": [
+        "latex",
+        "cli",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "agda --version",
+      "description": "Display version of Agda installed",
+      "scenario": "Display version of Agda installed",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add : Nat -> Nat -> Nat\nadd zero n = n\nadd (suc m) n = suc (add m n)",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "agda",
+      "tags": [
+        "function",
+        "definition",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data Nat : Set where\n  zero : Nat\n  suc  : Nat -> Nat",
+      "description": "Define a data type for natural numbers",
+      "scenario": "Define a data type for natural numbers",
+      "language": "agda",
+      "tags": [
+        "data",
+        "type",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "record Sigma (A : Set) (B : A -> Set) : Set where\n  constructor _,_\n  field\n    fst : A\n    snd : B fst",
+      "description": "Define a dependent pair type",
+      "scenario": "Define a dependent pair type",
+      "language": "agda",
+      "tags": [
+        "dependent",
+        "pair",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "isZero : Nat -> Bool\nisZero zero = true\nisZero (suc _) = false",
+      "description": "Pattern match on natural numbers",
+      "scenario": "Pattern match on natural numbers",
+      "language": "agda",
+      "tags": [
+        "pattern",
+        "match",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data Bool : Set where\n  true  : Bool\n  false : Bool\n\nnot : Bool -> Bool\nnot true  = false\nnot false = true",
+      "description": "Pattern match with multiple clauses",
+      "scenario": "Pattern match with multiple clauses",
+      "language": "agda",
+      "tags": [
+        "pattern",
+        "match",
+        "clauses"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "and : Bool -> Bool -> Bool\nand true true = true\nand _ _ = false",
+      "description": "Use pattern matching in a function definition",
+      "scenario": "Use pattern matching in a function definition",
+      "language": "agda",
+      "tags": [
+        "pattern",
+        "function",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open import Data.Nat",
+      "description": "Open a module",
+      "scenario": "Open a module",
+      "language": "agda",
+      "tags": [
+        "module",
+        "import",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module MyModule where\n\n  data MyData : Set where\n    myConstructor : MyData",
+      "description": "Define a module",
+      "scenario": "Define a module",
+      "language": "agda",
+      "tags": [
+        "module",
+        "definition",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open import Data.Bool renaming (true to yes; false to no)",
+      "description": "Import a module with renaming",
+      "scenario": "Import a module with renaming",
+      "language": "agda",
+      "tags": [
+        "import",
+        "rename",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":l MyFile.agda",
+      "description": "Load a file in Agda interactive mode",
+      "scenario": "Load a file in Agda interactive mode",
+      "language": "text",
+      "tags": [
+        "interactive",
+        "load",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":?",
+      "description": "Show all goals in the current file",
+      "scenario": "Show all goals in the current file",
+      "language": "text",
+      "tags": [
+        "interactive",
+        "goals",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":r",
+      "description": "Refine a goal in interactive mode",
+      "scenario": "Refine a goal in interactive mode",
+      "language": "text",
+      "tags": [
+        "interactive",
+        "refine",
+        "agda"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

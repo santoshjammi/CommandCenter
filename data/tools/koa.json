@@ -1,0 +1,204 @@
+{
+  "title": "Koa.js Cheat Sheet",
+  "slug": "koa",
+  "description": "Quick reference for Koa.js server setup and middleware usage.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const Koa = require('koa');\nconst app = new Koa();\napp.use(ctx => { ctx.body = 'Hello World'; });\napp.listen(3000);",
+      "description": "Create a basic Koa server",
+      "scenario": "Create a basic Koa server",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "server",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.listen(3000, () => console.log('Server running on port 3000'));",
+      "description": "Listen on a specific port",
+      "scenario": "Listen on a specific port",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "port",
+        "listen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(ctx => { ctx.type = 'application/json'; ctx.body = { message: 'Hello World' }; });",
+      "description": "Set response type to JSON",
+      "scenario": "Set response type to JSON",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "response",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(async (ctx, next) => { await next(); console.log('Middleware executed'); });",
+      "description": "Use async middleware",
+      "scenario": "Use async middleware",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "middleware",
+        "async"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(async (ctx, next) => { try { await next(); } catch (err) { ctx.status = err.status || 500; ctx.body = err.message; ctx.app.emit('error', err, ctx); } });",
+      "description": "Error handling middleware",
+      "scenario": "Error handling middleware",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "error",
+        "middleware"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(async (ctx, next) => { const start = Date.now(); await next(); const ms = Date.now() - start; console.log(`${ctx.method} ${ctx.url} - ${ms}ms`); });",
+      "description": "Logging middleware",
+      "scenario": "Logging middleware",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "logging",
+        "middleware"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const Router = require('@koa/router');\nconst router = new Router();\nrouter.get('/', ctx => { ctx.body = 'Home Page'; });\napp.use(router.routes()).use(router.allowedMethods());",
+      "description": "Basic routing with Koa-router",
+      "scenario": "Basic routing with Koa-router",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "routing",
+        "router"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "router.get('/user/:id', ctx => { ctx.body = `User ID: ${ctx.params.id}`; });",
+      "description": "Route with URL parameters",
+      "scenario": "Route with URL parameters",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "routing",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "router.get('/search', ctx => { ctx.body = `Query: ${ctx.query.q}`; });",
+      "description": "Route with query parameters",
+      "scenario": "Route with query parameters",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "routing",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(ctx => { ctx.customProperty = 'Custom Value'; ctx.body = ctx.customProperty; });",
+      "description": "Set a custom property on context",
+      "scenario": "Set a custom property on context",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "context",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(ctx => { ctx.body = ctx.headers['user-agent']; });",
+      "description": "Access request headers",
+      "scenario": "Access request headers",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "context",
+        "headers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(async (ctx, next) => { ctx.state.user = 'John Doe'; await next(); });\napp.use(ctx => { ctx.body = `User: ${ctx.state.user}`; });",
+      "description": "Set and get state",
+      "scenario": "Set and get state",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "state",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.on('error', (err, ctx) => { console.error('server error', err, ctx); });",
+      "description": "Emit an error event",
+      "scenario": "Emit an error event",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "error",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(ctx => { ctx.throw(400, 'Bad Request'); });",
+      "description": "Throw an error in middleware",
+      "scenario": "Throw an error in middleware",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "error",
+        "throw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(async (ctx, next) => { try { await next(); } catch (err) { ctx.status = err.status || 500; ctx.body = { message: 'Custom Error Message' }; } });",
+      "description": "Custom error response",
+      "scenario": "Custom error response",
+      "language": "javascript",
+      "tags": [
+        "koa",
+        "error",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Gift CLI Cheat Sheet",
+  "slug": "gift",
+  "description": "Essential commands and patterns for the Gift CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "gift init",
+      "description": "Initialize a new Gift repository",
+      "scenario": "Initialize a new Gift repository",
+      "language": "bash",
+      "tags": [
+        "init",
+        "repository",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift clone https://example.com/repo.git",
+      "description": "Clone an existing Gift repository",
+      "scenario": "Clone an existing Gift repository",
+      "language": "bash",
+      "tags": [
+        "clone",
+        "repository",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift status",
+      "description": "Check the status of the current repository",
+      "scenario": "Check the status of the current repository",
+      "language": "bash",
+      "tags": [
+        "status",
+        "repository",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift add .",
+      "description": "Add all changes to the staging area",
+      "scenario": "Add all changes to the staging area",
+      "language": "bash",
+      "tags": [
+        "add",
+        "staging",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift commit -m \"Commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "message",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift commit --amend",
+      "description": "Amend the last commit",
+      "scenario": "Amend the last commit",
+      "language": "bash",
+      "tags": [
+        "amend",
+        "commit",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift branch new-branch",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift checkout other-branch",
+      "description": "Switch to another branch",
+      "scenario": "Switch to another branch",
+      "language": "bash",
+      "tags": [
+        "checkout",
+        "branch",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift merge feature-branch",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "branch",
+        "integrate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift remote add origin https://example.com/repo.git",
+      "description": "Add a remote repository",
+      "scenario": "Add a remote repository",
+      "language": "bash",
+      "tags": [
+        "remote",
+        "add",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift fetch origin",
+      "description": "Fetch changes from the remote repository",
+      "scenario": "Fetch changes from the remote repository",
+      "language": "bash",
+      "tags": [
+        "fetch",
+        "remote",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift push origin main",
+      "description": "Push changes to the remote repository",
+      "scenario": "Push changes to the remote repository",
+      "language": "bash",
+      "tags": [
+        "push",
+        "remote",
+        "upload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift config --global user.name \"Your Name\"",
+      "description": "Set user name for commits",
+      "scenario": "Set user name for commits",
+      "language": "bash",
+      "tags": [
+        "config",
+        "user",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift config --global user.email \"you@example.com\"",
+      "description": "Set user email for commits",
+      "scenario": "Set user email for commits",
+      "language": "bash",
+      "tags": [
+        "config",
+        "user",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gift config --list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

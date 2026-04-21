@@ -1,0 +1,204 @@
+{
+  "title": "Spotify CLI and API Cheat Sheet",
+  "slug": "spotify",
+  "description": "Essential commands and code snippets for Spotify API and CLI tools.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "spotify login",
+      "description": "Log in to Spotify account via CLI",
+      "scenario": "Log in to Spotify account via CLI",
+      "language": "bash",
+      "tags": [
+        "login",
+        "authentication",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spotify play spotify:track:6rqhFgbbKwnb9MLmUQDhG6",
+      "description": "Play a specific track by URI",
+      "scenario": "Play a specific track by URI",
+      "language": "bash",
+      "tags": [
+        "play",
+        "track",
+        "uri"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spotify search track 'Bohemian Rhapsody'",
+      "description": "Search for a track by name",
+      "scenario": "Search for a track by name",
+      "language": "bash",
+      "tags": [
+        "search",
+        "track",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -H \"Authorization: Basic <base64 encoded client_id:client_secret>\" -d grant_type=client_credentials https://accounts.spotify.com/api/token",
+      "description": "Obtain an access token using client credentials flow",
+      "scenario": "Obtain an access token using client credentials flow",
+      "language": "bash",
+      "tags": [
+        "api",
+        "authentication",
+        "token"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://example.com/callback",
+      "description": "Set up redirect URI for authorization code flow",
+      "scenario": "Set up redirect URI for authorization code flow",
+      "language": "text",
+      "tags": [
+        "redirect",
+        "uri",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -H \"Authorization: Basic <base64 encoded client_id:client_secret>\" -d grant_type=refresh_token -d refresh_token=<refresh_token> https://accounts.spotify.com/api/token",
+      "description": "Refresh an expired access token",
+      "scenario": "Refresh an expired access token",
+      "language": "bash",
+      "tags": [
+        "api",
+        "token",
+        "refresh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://api.spotify.com/v1/me",
+      "description": "Get information about the current user",
+      "scenario": "Get information about the current user",
+      "language": "text",
+      "tags": [
+        "api",
+        "user",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://api.spotify.com/v1/browse/new-releases",
+      "description": "Get a list of new releases",
+      "scenario": "Get a list of new releases",
+      "language": "text",
+      "tags": [
+        "api",
+        "releases",
+        "browse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET https://api.spotify.com/v1/audio-features/{id}",
+      "description": "Get audio features for a track",
+      "scenario": "Get audio features for a track",
+      "language": "text",
+      "tags": [
+        "api",
+        "audio",
+        "features"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const SpotifyWebApi = require('spotify-web-api-node');\nconst spotifyApi = new SpotifyWebApi();\nspotifyApi.getUserPlaylists('user_id').then(data => console.log(data.body));",
+      "description": "Node.js example to get user's playlists",
+      "scenario": "Node.js example to get user's playlists",
+      "language": "javascript",
+      "tags": [
+        "nodejs",
+        "playlists",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import spotipy\nfrom spotipy.oauth2 import SpotifyClientCredentials\nsp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())\nresults = sp.search(q='artist:Queen', type='artist')\nprint(results)",
+      "description": "Python example to search for an artist",
+      "scenario": "Python example to search for an artist",
+      "language": "python",
+      "tags": [
+        "python",
+        "search",
+        "artist"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET \"https://api.spotify.com/v1/tracks/{id}\" -H \"Authorization: Bearer {access_token}\"",
+      "description": "Curl example to get track details",
+      "scenario": "Curl example to get track details",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "track",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export SPOTIPY_CLIENT_ID='your_client_id'\nexport SPOTIPY_CLIENT_SECRET='your_client_secret'",
+      "description": "Set environment variables for API credentials",
+      "scenario": "Set environment variables for API credentials",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "credentials"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Redirect URI: https://yourapp.com/callback",
+      "description": "Configure redirect URI in Spotify developer dashboard",
+      "scenario": "Configure redirect URI in Spotify developer dashboard",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "redirect",
+        "uri"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const SpotifyWebApi = require('spotify-web-api-node');\nconst spotifyApi = new SpotifyWebApi({\n  clientId: 'your_client_id',\n  clientSecret: 'your_client_secret',\n  redirectUri: 'https://yourapp.com/callback'\n});",
+      "description": "Set up Spotify API client in Node.js",
+      "scenario": "Set up Spotify API client in Node.js",
+      "language": "javascript",
+      "tags": [
+        "nodejs",
+        "api",
+        "client"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "HOCON Cheat Sheet",
+  "slug": "hocon",
+  "description": "Quick reference for HOCON configuration syntax and patterns",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "key = value",
+      "description": "Define a simple key-value pair",
+      "scenario": "Define a simple key-value pair",
+      "language": "yaml",
+      "tags": [
+        "syntax",
+        "key-value",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "description = \"\"\"\n  This is a multi-line\n  string\n\"\"\"",
+      "description": "Use a multi-line string",
+      "scenario": "Use a multi-line string",
+      "language": "yaml",
+      "tags": [
+        "string",
+        "multi-line",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "include \"path/to/file.conf\"",
+      "description": "Include a file",
+      "scenario": "Include a file",
+      "language": "yaml",
+      "tags": [
+        "include",
+        "file",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "database {\n  host = \"localhost\"\n  port = 5432\n}",
+      "description": "Define an object with nested keys",
+      "scenario": "Define an object with nested keys",
+      "language": "yaml",
+      "tags": [
+        "object",
+        "nested",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "servers = [\"192.168.1.1\", \"192.168.1.2\"]",
+      "description": "Define a list of values",
+      "scenario": "Define a list of values",
+      "language": "yaml",
+      "tags": [
+        "list",
+        "array",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "defaults = { host = \"localhost\" }\ncustom = ${defaults} { port = 8080 }",
+      "description": "Merge objects using substitution",
+      "scenario": "Merge objects using substitution",
+      "language": "yaml",
+      "tags": [
+        "merge",
+        "substitution",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "optionalValue = ${?nonexistent.key}",
+      "description": "Use optional substitution",
+      "scenario": "Use optional substitution",
+      "language": "yaml",
+      "tags": [
+        "substitution",
+        "optional",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fullName = firstName + \" \" + lastName",
+      "description": "Concatenate strings",
+      "scenario": "Concatenate strings",
+      "language": "yaml",
+      "tags": [
+        "concatenation",
+        "string",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "path = \"/usr/local/bin\"\nfullPath = ${path}/myapp",
+      "description": "Use self-referential substitution",
+      "scenario": "Use self-referential substitution",
+      "language": "yaml",
+      "tags": [
+        "self-reference",
+        "substitution",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// This is a single-line comment",
+      "description": "Add a single-line comment",
+      "scenario": "Add a single-line comment",
+      "language": "yaml",
+      "tags": [
+        "comment",
+        "single-line",
+        "whitespace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/*\n  This is a\n  multi-line comment\n*/",
+      "description": "Add a multi-line comment",
+      "scenario": "Add a multi-line comment",
+      "language": "yaml",
+      "tags": [
+        "comment",
+        "multi-line",
+        "whitespace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "key = value\n\nanotherKey = anotherValue",
+      "description": "Use whitespace for readability",
+      "scenario": "Use whitespace for readability",
+      "language": "yaml",
+      "tags": [
+        "whitespace",
+        "readability",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

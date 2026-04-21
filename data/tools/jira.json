@@ -1,0 +1,204 @@
+{
+  "title": "Jira Cheat Sheet",
+  "slug": "jira",
+  "description": "Essential Jira shortcuts and workflows for non-engineers.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "C",
+      "description": "Create a new issue quickly",
+      "scenario": "Create a new issue quickly",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "issue",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/",
+      "description": "Open search bar to find issues",
+      "scenario": "Open search bar to find issues",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "search",
+        "issues"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "G + I",
+      "description": "Open the 'Advanced Issue Search' page",
+      "scenario": "Open the 'Advanced Issue Search' page",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "search",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the issue key",
+      "description": "View an issue's details",
+      "scenario": "View an issue's details",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "issue",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click 'Edit' button on the issue page",
+      "description": "Edit an issue's fields",
+      "scenario": "Edit an issue's fields",
+      "language": "text",
+      "tags": [
+        "edit",
+        "issue",
+        "fields"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click 'Workflow' button and select next status",
+      "description": "Transition an issue to the next status",
+      "scenario": "Transition an issue to the next status",
+      "language": "text",
+      "tags": [
+        "workflow",
+        "status",
+        "transition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Projects > Create project",
+      "description": "Create a new project",
+      "scenario": "Create a new project",
+      "language": "text",
+      "tags": [
+        "project",
+        "create",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Projects > Select project > Project settings",
+      "description": "Access project settings",
+      "scenario": "Access project settings",
+      "language": "text",
+      "tags": [
+        "project",
+        "settings",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Projects > View all projects",
+      "description": "View all projects",
+      "scenario": "View all projects",
+      "language": "text",
+      "tags": [
+        "project",
+        "view",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Issues > Search for issues > Save as filter",
+      "description": "Create a new filter",
+      "scenario": "Create a new filter",
+      "language": "text",
+      "tags": [
+        "filter",
+        "create",
+        "issues"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Issues > Manage filters",
+      "description": "Access saved filters",
+      "scenario": "Access saved filters",
+      "language": "text",
+      "tags": [
+        "filter",
+        "manage",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Dashboards > Create dashboard",
+      "description": "Create a new dashboard",
+      "scenario": "Create a new dashboard",
+      "language": "text",
+      "tags": [
+        "dashboard",
+        "create",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Type '@' followed by the username",
+      "description": "Mention a user in a comment",
+      "scenario": "Mention a user in a comment",
+      "language": "text",
+      "tags": [
+        "mention",
+        "user",
+        "comment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the bell icon in the top navigation bar",
+      "description": "Check notifications",
+      "scenario": "Check notifications",
+      "language": "text",
+      "tags": [
+        "notifications",
+        "check",
+        "alerts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Profile > Personal settings > Email notifications",
+      "description": "Adjust notification settings",
+      "scenario": "Adjust notification settings",
+      "language": "text",
+      "tags": [
+        "notifications",
+        "settings",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

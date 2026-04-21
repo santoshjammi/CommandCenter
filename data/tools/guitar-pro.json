@@ -1,0 +1,204 @@
+{
+  "title": "Guitar Pro Cheat Sheet",
+  "slug": "guitar-pro",
+  "description": "Essential commands and shortcuts for Guitar Pro users.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl + N",
+      "description": "Open a new file",
+      "scenario": "Open a new file",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "file",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + O",
+      "description": "Open an existing file",
+      "scenario": "Open an existing file",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "file",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + S",
+      "description": "Save the current file",
+      "scenario": "Save the current file",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "file",
+        "save"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "edit",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Y",
+      "description": "Redo the last undone action",
+      "scenario": "Redo the last undone action",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "edit",
+        "redo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + C",
+      "description": "Copy selected notes or measures",
+      "scenario": "Copy selected notes or measures",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "edit",
+        "copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Space",
+      "description": "Start or pause playback",
+      "scenario": "Start or pause playback",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "playback",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Enter",
+      "description": "Stop playback",
+      "scenario": "Stop playback",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "playback",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + L",
+      "description": "Loop the selected section",
+      "scenario": "Loop the selected section",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "playback",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "N",
+      "description": "Insert a note",
+      "scenario": "Insert a note",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "notation",
+        "insert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+",
+      "description": "Increase note duration",
+      "scenario": "Increase note duration",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "notation",
+        "duration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-",
+      "description": "Decrease note duration",
+      "scenario": "Decrease note duration",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "notation",
+        "duration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Mouse Wheel Up",
+      "description": "Zoom in",
+      "scenario": "Zoom in",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "view",
+        "zoom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Mouse Wheel Down",
+      "description": "Zoom out",
+      "scenario": "Zoom out",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "view",
+        "zoom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F11",
+      "description": "Toggle full screen mode",
+      "scenario": "Toggle full screen mode",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "view",
+        "fullscreen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

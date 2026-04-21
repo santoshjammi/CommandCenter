@@ -1,0 +1,204 @@
+{
+  "title": "QML Cheat Sheet",
+  "slug": "qml",
+  "description": "Quick reference for QML syntax and common patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "Rectangle {\n    width: 100\n    height: 100\n    color: \"red\"\n}",
+      "description": "Define a simple Rectangle element",
+      "scenario": "Define a simple Rectangle element",
+      "language": "qml",
+      "tags": [
+        "Rectangle",
+        "element",
+        "UI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Text {\n    text: \"Hello, World!\"\n    font.pointSize: 20\n    anchors.centerIn: parent\n}",
+      "description": "Create a Text element with properties",
+      "scenario": "Create a Text element with properties",
+      "language": "qml",
+      "tags": [
+        "Text",
+        "properties",
+        "UI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 200\n    height: 200\n    color: \"blue\"\n    Rectangle {\n        width: 100\n        height: 100\n        color: \"green\"\n        anchors.centerIn: parent\n    }\n}",
+      "description": "Use anchors to position elements",
+      "scenario": "Use anchors to position elements",
+      "language": "qml",
+      "tags": [
+        "anchors",
+        "position",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Button {\n    text: \"Click me\"\n    onClicked: console.log(\"Button clicked!\")\n}",
+      "description": "Connect a signal to a slot",
+      "scenario": "Connect a signal to a slot",
+      "language": "qml",
+      "tags": [
+        "signals",
+        "slots",
+        "Button"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Item {\n    signal mySignal(string message)\n    Component.onCompleted: mySignal(\"Hello\")\n}",
+      "description": "Define a custom signal",
+      "scenario": "Define a custom signal",
+      "language": "qml",
+      "tags": [
+        "custom signal",
+        "Item",
+        "Component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 100\n    height: 100\n    signal clicked()\n    MouseArea {\n        anchors.fill: parent\n        onClicked: parent.clicked()\n    }\n    onClicked: console.log(\"Rectangle clicked\")\n}",
+      "description": "Handle a signal with a JavaScript function",
+      "scenario": "Handle a signal with a JavaScript function",
+      "language": "qml",
+      "tags": [
+        "MouseArea",
+        "signal",
+        "JavaScript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 100\n    height: 100\n    color: \"red\"\n    Rectangle {\n        width: parent.width / 2\n        height: parent.height / 2\n        color: \"green\"\n    }\n}",
+      "description": "Bind properties between elements",
+      "scenario": "Bind properties between elements",
+      "language": "qml",
+      "tags": [
+        "bindings",
+        "properties",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 100\n    height: 100\n    property int counter: 0\n    Text {\n        text: \"Counter: \" + parent.counter\n    }\n}",
+      "description": "Use JavaScript expressions in bindings",
+      "scenario": "Use JavaScript expressions in bindings",
+      "language": "qml",
+      "tags": [
+        "JavaScript",
+        "bindings",
+        "Text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 100\n    height: 100\n    color: \"red\"\n    SequentialAnimation {\n        NumberAnimation { target: parent; property: \"width\"; to: 200; duration: 1000 }\n        NumberAnimation { target: parent; property: \"width\"; to: 100; duration: 1000 }\n    }\n}",
+      "description": "Change a property with animation",
+      "scenario": "Change a property with animation",
+      "language": "qml",
+      "tags": [
+        "animation",
+        "property",
+        "SequentialAnimation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Row {\n    spacing: 10\n    Rectangle { width: 50; height: 50; color: \"red\" }\n    Rectangle { width: 50; height: 50; color: \"green\" }\n}",
+      "description": "Use Row layout to arrange items horizontally",
+      "scenario": "Use Row layout to arrange items horizontally",
+      "language": "qml",
+      "tags": [
+        "Row",
+        "layout",
+        "horizontal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Column {\n    spacing: 10\n    Rectangle { width: 50; height: 50; color: \"blue\" }\n    Rectangle { width: 50; height: 50; color: \"yellow\" }\n}",
+      "description": "Use Column layout to arrange items vertically",
+      "scenario": "Use Column layout to arrange items vertically",
+      "language": "qml",
+      "tags": [
+        "Column",
+        "layout",
+        "vertical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 200\n    height: 200\n    color: \"lightgray\"\n    Rectangle {\n        width: 100\n        height: 100\n        color: \"purple\"\n        anchors.centerIn: parent\n    }\n}",
+      "description": "Center an item within a parent using anchors",
+      "scenario": "Center an item within a parent using anchors",
+      "language": "qml",
+      "tags": [
+        "anchors",
+        "center",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 100\n    height: 100\n    color: \"red\"\n    states: [\n        State {\n            name: \"greenState\"\n            PropertyChanges { target: rectangle; color: \"green\" }\n        }\n    ]\n    MouseArea {\n        anchors.fill: parent\n        onClicked: rectangle.state = \"greenState\"\n    }\n}",
+      "description": "Define and switch between states",
+      "scenario": "Define and switch between states",
+      "language": "qml",
+      "tags": [
+        "states",
+        "PropertyChanges",
+        "MouseArea"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 100\n    height: 100\n    color: \"red\"\n    states: State {\n        name: \"expanded\"\n        PropertyChanges { target: rectangle; width: 200 }\n    }\n    transitions: Transition {\n        NumberAnimation { properties: \"width\"; duration: 500 }\n    }\n}",
+      "description": "Use transitions between states",
+      "scenario": "Use transitions between states",
+      "language": "qml",
+      "tags": [
+        "transitions",
+        "NumberAnimation",
+        "states"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rectangle {\n    width: 100\n    height: 100\n    color: \"red\"\n    MouseArea {\n        anchors.fill: parent\n        onClicked: {\n            rectangle.state = (rectangle.state === \"\") ? \"expanded\" : \"\"\n        }\n    }\n}",
+      "description": "Conditional state changes with JavaScript",
+      "scenario": "Conditional state changes with JavaScript",
+      "language": "qml",
+      "tags": [
+        "conditional",
+        "JavaScript",
+        "MouseArea"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Nostos CLI Cheat Sheet",
+  "slug": "nostos",
+  "description": "Essential Nostos CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "nostos init",
+      "description": "Initialize a new Nostos project",
+      "scenario": "Initialize a new Nostos project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos build",
+      "description": "Build the current Nostos project",
+      "scenario": "Build the current Nostos project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos run",
+      "description": "Run the Nostos project",
+      "scenario": "Run the Nostos project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos config set --path /path/to/config",
+      "description": "Set the configuration file path",
+      "scenario": "Set the configuration file path",
+      "language": "bash",
+      "tags": [
+        "config",
+        "path",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos config get",
+      "description": "Get the current configuration settings",
+      "scenario": "Get the current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos list projects",
+      "description": "List all available Nostos projects",
+      "scenario": "List all available Nostos projects",
+      "language": "bash",
+      "tags": [
+        "list",
+        "projects",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos delete project <project-name>",
+      "description": "Delete a Nostos project",
+      "scenario": "Delete a Nostos project",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "project",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos rename project <old-name> <new-name>",
+      "description": "Rename a Nostos project",
+      "scenario": "Rename a Nostos project",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "project",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos run --verbose",
+      "description": "Run Nostos in verbose mode for detailed logs",
+      "scenario": "Run Nostos in verbose mode for detailed logs",
+      "language": "bash",
+      "tags": [
+        "run",
+        "verbose",
+        "logs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos debug enable",
+      "description": "Enable debugging mode in Nostos",
+      "scenario": "Enable debugging mode in Nostos",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "enable",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nostos debug disable",
+      "description": "Disable debugging mode in Nostos",
+      "scenario": "Disable debugging mode in Nostos",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "disable",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

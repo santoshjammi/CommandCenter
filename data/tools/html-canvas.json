@@ -1,0 +1,204 @@
+{
+  "title": "HTML Canvas Cheat Sheet",
+  "slug": "html-canvas",
+  "description": "Quick guide to using HTML Canvas for drawing and animations.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "<canvas id=\"myCanvas\" width=\"200\" height=\"100\"></canvas>",
+      "description": "Create a basic HTML canvas element",
+      "scenario": "Create a basic HTML canvas element",
+      "language": "text",
+      "tags": [
+        "HTML",
+        "Canvas",
+        "Setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var canvas = document.getElementById('myCanvas');",
+      "description": "Access the canvas element in JavaScript",
+      "scenario": "Access the canvas element in JavaScript",
+      "language": "text",
+      "tags": [
+        "JavaScript",
+        "Canvas",
+        "Access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var ctx = canvas.getContext('2d');",
+      "description": "Get the drawing context for the canvas",
+      "scenario": "Get the drawing context for the canvas",
+      "language": "text",
+      "tags": [
+        "JavaScript",
+        "Canvas",
+        "Context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.fillRect(20, 20, 150, 100);",
+      "description": "Draw a rectangle on the canvas",
+      "scenario": "Draw a rectangle on the canvas",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Drawing",
+        "Rectangle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.moveTo(0, 0);\nctx.lineTo(200, 100);\nctx.stroke();",
+      "description": "Draw a line on the canvas",
+      "scenario": "Draw a line on the canvas",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Drawing",
+        "Line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.beginPath();\nctx.arc(95, 50, 40, 0, 2 * Math.PI);\nctx.stroke();",
+      "description": "Draw a circle on the canvas",
+      "scenario": "Draw a circle on the canvas",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Drawing",
+        "Circle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.font = '30px Arial';",
+      "description": "Set the font for canvas text",
+      "scenario": "Set the font for canvas text",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Text",
+        "Font"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.fillText('Hello World', 10, 50);",
+      "description": "Draw filled text on the canvas",
+      "scenario": "Draw filled text on the canvas",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Text",
+        "Fill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.strokeText('Hello World', 10, 50);",
+      "description": "Draw stroked text on the canvas",
+      "scenario": "Draw stroked text on the canvas",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Text",
+        "Stroke"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.translate(50, 50);",
+      "description": "Translate the canvas origin",
+      "scenario": "Translate the canvas origin",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Transform",
+        "Translate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.rotate(20 * Math.PI / 180);",
+      "description": "Rotate the canvas",
+      "scenario": "Rotate the canvas",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Transform",
+        "Rotate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.scale(2, 2);",
+      "description": "Scale the canvas",
+      "scenario": "Scale the canvas",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Transform",
+        "Scale"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ctx.clearRect(0, 0, canvas.width, canvas.height);",
+      "description": "Clear the canvas for redrawing",
+      "scenario": "Clear the canvas for redrawing",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Animation",
+        "Clear"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function draw() {\n  ctx.clearRect(0, 0, canvas.width, canvas.height);\n  // Drawing code here\n  requestAnimationFrame(draw);\n}\ndraw();",
+      "description": "Create a simple animation loop",
+      "scenario": "Create a simple animation loop",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Animation",
+        "Loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var x = 0;\nfunction animate() {\n  ctx.clearRect(0, 0, canvas.width, canvas.height);\n  ctx.fillRect(x, 20, 50, 50);\n  x += 1;\n  requestAnimationFrame(animate);\n}\nanimate();",
+      "description": "Move a shape across the canvas",
+      "scenario": "Move a shape across the canvas",
+      "language": "text",
+      "tags": [
+        "Canvas",
+        "Animation",
+        "Move"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

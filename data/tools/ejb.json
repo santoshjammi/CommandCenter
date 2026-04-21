@@ -1,0 +1,165 @@
+{
+  "title": "EJB Cheat Sheet",
+  "slug": "ejb",
+  "description": "Essential EJB commands and patterns for Java developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mvn archetype:generate -DgroupId=com.example -DartifactId=ejb-example -DarchetypeArtifactId=maven-archetype-webapp",
+      "description": "Create a new EJB project using Maven",
+      "scenario": "Create a new EJB project using Maven",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "ejb",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn clean install",
+      "description": "Compile EJB project",
+      "scenario": "Compile EJB project",
+      "language": "bash",
+      "tags": [
+        "maven",
+        "compile",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn wildfly:deploy",
+      "description": "Deploy EJB to WildFly server",
+      "scenario": "Deploy EJB to WildFly server",
+      "language": "bash",
+      "tags": [
+        "wildfly",
+        "deploy",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Stateless\npublic class ExampleBean { }",
+      "description": "Define a stateless session bean",
+      "scenario": "Define a stateless session bean",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "stateless",
+        "bean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@EJB\nprivate ExampleBean exampleBean;",
+      "description": "Inject an EJB into another bean",
+      "scenario": "Inject an EJB into another bean",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "inject",
+        "dependency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Local\npublic interface ExampleLocal { }",
+      "description": "Define a local interface for an EJB",
+      "scenario": "Define a local interface for an EJB",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "interface",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<persistence>\n  <persistence-unit name=\"examplePU\">\n    <jta-data-source>java:/ExampleDS</jta-data-source>\n  </persistence-unit>\n</persistence>",
+      "description": "Define a datasource in persistence.xml",
+      "scenario": "Define a datasource in persistence.xml",
+      "language": "xml",
+      "tags": [
+        "ejb",
+        "datasource",
+        "persistence"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<assembly-descriptor>\n  <container-transaction>\n    <method>\n      <ejb-name>ExampleBean</ejb-name>\n      <method-name>*</method-name>\n    </method>\n    <trans-attribute>Required</trans-attribute>\n  </container-transaction>\n</assembly-descriptor>",
+      "description": "Configure transaction management in ejb-jar.xml",
+      "scenario": "Configure transaction management in ejb-jar.xml",
+      "language": "xml",
+      "tags": [
+        "ejb",
+        "transaction",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<enterprise-beans>\n  <message-driven>\n    <ejb-name>ExampleMDB</ejb-name>\n    <destination-type>javax.jms.Queue</destination-type>\n  </message-driven>\n</enterprise-beans>",
+      "description": "Set up a message-driven bean in ejb-jar.xml",
+      "scenario": "Set up a message-driven bean in ejb-jar.xml",
+      "language": "xml",
+      "tags": [
+        "ejb",
+        "message-driven",
+        "bean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Singleton\npublic class SingletonBean { }",
+      "description": "Implement a Singleton Bean",
+      "scenario": "Implement a Singleton Bean",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "singleton",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Schedule(hour=\"0\", minute=\"0\", second=\"0\", persistent=false)\npublic void scheduledTimeout() { }",
+      "description": "Create a Timer Service in EJB",
+      "scenario": "Create a Timer Service in EJB",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "timer",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class ServiceLocator {\n  public static ExampleBean getExampleBean() {\n    Context context = new InitialContext();\n    return (ExampleBean) context.lookup(\"java:module/ExampleBean\");\n  }\n}",
+      "description": "Implement a Service Locator pattern",
+      "scenario": "Implement a Service Locator pattern",
+      "language": "java",
+      "tags": [
+        "ejb",
+        "service",
+        "locator"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

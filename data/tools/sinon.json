@@ -1,0 +1,204 @@
+{
+  "title": "Sinon.js Cheat Sheet",
+  "slug": "sinon",
+  "description": "Quick reference for Sinon.js, a JavaScript testing utility library.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const spy = sinon.spy(object, 'method');",
+      "description": "Create a spy on an existing method",
+      "scenario": "Create a spy on an existing method",
+      "language": "javascript",
+      "tags": [
+        "spy",
+        "method",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.log(spy.called);",
+      "description": "Check if a spy was called",
+      "scenario": "Check if a spy was called",
+      "language": "javascript",
+      "tags": [
+        "spy",
+        "called",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spy.restore();",
+      "description": "Restore original method after spying",
+      "scenario": "Restore original method after spying",
+      "language": "javascript",
+      "tags": [
+        "spy",
+        "restore",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const stub = sinon.stub(object, 'method');",
+      "description": "Create a stub for a function",
+      "scenario": "Create a stub for a function",
+      "language": "javascript",
+      "tags": [
+        "stub",
+        "function",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stub.returns('value');",
+      "description": "Make a stub return a specific value",
+      "scenario": "Make a stub return a specific value",
+      "language": "javascript",
+      "tags": [
+        "stub",
+        "returns",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stub.restore();",
+      "description": "Restore original method after stubbing",
+      "scenario": "Restore original method after stubbing",
+      "language": "javascript",
+      "tags": [
+        "stub",
+        "restore",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const mock = sinon.mock(object);",
+      "description": "Create a mock for an object",
+      "scenario": "Create a mock for an object",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "object",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mock.expects('method').once();",
+      "description": "Set expectation on a mock method",
+      "scenario": "Set expectation on a mock method",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "expects",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mock.verify();",
+      "description": "Verify all expectations on a mock",
+      "scenario": "Verify all expectations on a mock",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "verify",
+        "expectations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const clock = sinon.useFakeTimers();",
+      "description": "Use fake timers to control time",
+      "scenario": "Use fake timers to control time",
+      "language": "javascript",
+      "tags": [
+        "fake",
+        "timers",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "clock.tick(1000);",
+      "description": "Advance fake timers by a specific time",
+      "scenario": "Advance fake timers by a specific time",
+      "language": "javascript",
+      "tags": [
+        "fake",
+        "timers",
+        "advance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "clock.restore();",
+      "description": "Restore real timers after using fake ones",
+      "scenario": "Restore real timers after using fake ones",
+      "language": "javascript",
+      "tags": [
+        "fake",
+        "timers",
+        "restore"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sinon.assert.calledOnce(spy);",
+      "description": "Assert a spy was called once",
+      "scenario": "Assert a spy was called once",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "spy",
+        "calledOnce"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sinon.assert.calledWith(stub, 'arg1', 'arg2');",
+      "description": "Assert a stub was called with specific arguments",
+      "scenario": "Assert a stub was called with specific arguments",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "stub",
+        "calledWith"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mock.expects('method').twice();",
+      "description": "Assert a mock method was called exactly twice",
+      "scenario": "Assert a mock method was called exactly twice",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "mock",
+        "twice"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

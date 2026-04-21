@@ -1,0 +1,165 @@
+{
+  "title": "ColorScreen CLI Cheat Sheet",
+  "slug": "colorscreen",
+  "description": "Quick reference for ColorScreen CLI commands and configurations.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "colorscreen init",
+      "description": "Initialize a new ColorScreen project",
+      "scenario": "Initialize a new ColorScreen project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen start",
+      "description": "Start the ColorScreen application",
+      "scenario": "Start the ColorScreen application",
+      "language": "bash",
+      "tags": [
+        "start",
+        "run",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen stop",
+      "description": "Stop the ColorScreen application",
+      "scenario": "Stop the ColorScreen application",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "shutdown",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen config set default-scheme dark",
+      "description": "Set the default color scheme",
+      "scenario": "Set the default color scheme",
+      "language": "bash",
+      "tags": [
+        "config",
+        "color",
+        "scheme"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen config list-schemes",
+      "description": "List all available color schemes",
+      "scenario": "List all available color schemes",
+      "language": "bash",
+      "tags": [
+        "list",
+        "color",
+        "schemes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "config",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen --verbose",
+      "description": "Enable verbose logging",
+      "scenario": "Enable verbose logging",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "logging",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen --dev",
+      "description": "Run ColorScreen in development mode",
+      "scenario": "Run ColorScreen in development mode",
+      "language": "bash",
+      "tags": [
+        "development",
+        "mode",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen --version",
+      "description": "Check the current version of ColorScreen",
+      "scenario": "Check the current version of ColorScreen",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen update",
+      "description": "Update ColorScreen to the latest version",
+      "scenario": "Update ColorScreen to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "upgrade",
+        "latest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen help <command>",
+      "description": "View help information for a specific command",
+      "scenario": "View help information for a specific command",
+      "language": "bash",
+      "tags": [
+        "help",
+        "command",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen --config /path/to/config.yaml",
+      "description": "Run ColorScreen with a specific configuration file",
+      "scenario": "Run ColorScreen with a specific configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

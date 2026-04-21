@@ -1,0 +1,126 @@
+{
+  "title": "Color Picker CLI",
+  "slug": "color-picker",
+  "description": "Quick reference for using color picker CLI tools and libraries.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "color-picker",
+      "description": "Launch color picker interface",
+      "scenario": "Launch color picker interface",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "cli",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --copy-hex",
+      "description": "Pick a color and copy its HEX value to clipboard",
+      "scenario": "Pick a color and copy its HEX value to clipboard",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "hex",
+        "clipboard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --show-rgb",
+      "description": "Display the RGB value of the selected color",
+      "scenario": "Display the RGB value of the selected color",
+      "language": "bash",
+      "tags": [
+        "rgb",
+        "display",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --set-default-format hex",
+      "description": "Set default color format to HEX",
+      "scenario": "Set default color format to HEX",
+      "language": "bash",
+      "tags": [
+        "config",
+        "hex",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --verbose",
+      "description": "Enable verbose mode for detailed output",
+      "scenario": "Enable verbose mode for detailed output",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "output",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --output-file colors.txt",
+      "description": "Specify output file for color values",
+      "scenario": "Specify output file for color values",
+      "language": "bash",
+      "tags": [
+        "output",
+        "file",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --copy-hex | tee colors.txt",
+      "description": "Chain commands to pick a color and save to file",
+      "scenario": "Chain commands to pick a color and save to file",
+      "language": "bash",
+      "tags": [
+        "chain",
+        "file",
+        "save"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --palette solarized",
+      "description": "Use color picker with a specific color palette",
+      "scenario": "Use color picker with a specific color palette",
+      "language": "bash",
+      "tags": [
+        "palette",
+        "solarized",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#!/bin/bash\ncolor=$(color-picker --copy-hex)\necho \"Selected color is $color\"",
+      "description": "Integrate color picker with a script for automation",
+      "scenario": "Integrate color picker with a script for automation",
+      "language": "bash",
+      "tags": [
+        "script",
+        "automation",
+        "integration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

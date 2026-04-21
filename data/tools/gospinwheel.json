@@ -1,0 +1,165 @@
+{
+  "title": "GoSpinWheel CLI Cheat Sheet",
+  "slug": "gospinwheel",
+  "description": "Essential commands and configurations for GoSpinWheel CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "gospinwheel init",
+      "description": "Initialize a new GoSpinWheel project",
+      "scenario": "Initialize a new GoSpinWheel project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel start",
+      "description": "Start the GoSpinWheel service",
+      "scenario": "Start the GoSpinWheel service",
+      "language": "bash",
+      "tags": [
+        "start",
+        "service",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel stop",
+      "description": "Stop the GoSpinWheel service",
+      "scenario": "Stop the GoSpinWheel service",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "service",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel config set <key> <value>",
+      "description": "Set configuration for GoSpinWheel",
+      "scenario": "Set configuration for GoSpinWheel",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "key-value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel config get <key>",
+      "description": "Get current configuration value",
+      "scenario": "Get current configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel start --debug",
+      "description": "Run GoSpinWheel in debug mode",
+      "scenario": "Run GoSpinWheel in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "mode",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel status",
+      "description": "Check the status of GoSpinWheel service",
+      "scenario": "Check the status of GoSpinWheel service",
+      "language": "bash",
+      "tags": [
+        "status",
+        "service",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel restart",
+      "description": "Restart the GoSpinWheel service",
+      "scenario": "Restart the GoSpinWheel service",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "service",
+        "refresh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel logs tail",
+      "description": "View recent logs",
+      "scenario": "View recent logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "view",
+        "recent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel logs clear",
+      "description": "Clear all logs",
+      "scenario": "Clear all logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "clear",
+        "reset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gospinwheel logs export --output=logs.txt",
+      "description": "Export logs to a file",
+      "scenario": "Export logs to a file",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "export",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

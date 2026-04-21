@@ -1,0 +1,204 @@
+{
+  "title": "Semantic Versioning Cheat Sheet",
+  "slug": "semver",
+  "description": "Quick reference for Semantic Versioning (Semver) principles and CLI commands.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "1.0.0 -> 2.0.0",
+      "description": "Major version increment for incompatible changes",
+      "scenario": "Major version increment for incompatible changes",
+      "language": "text",
+      "tags": [
+        "major",
+        "versioning",
+        "breaking"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1.0.0 -> 1.1.0",
+      "description": "Minor version increment for backward-compatible features",
+      "scenario": "Minor version increment for backward-compatible features",
+      "language": "text",
+      "tags": [
+        "minor",
+        "versioning",
+        "feature"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1.0.0 -> 1.0.1",
+      "description": "Patch version increment for backward-compatible bug fixes",
+      "scenario": "Patch version increment for backward-compatible bug fixes",
+      "language": "text",
+      "tags": [
+        "patch",
+        "versioning",
+        "bugfix"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1.0.0-alpha",
+      "description": "Pre-release version for alpha stage",
+      "scenario": "Pre-release version for alpha stage",
+      "language": "text",
+      "tags": [
+        "pre-release",
+        "alpha",
+        "versioning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1.0.0-beta",
+      "description": "Pre-release version for beta stage",
+      "scenario": "Pre-release version for beta stage",
+      "language": "text",
+      "tags": [
+        "pre-release",
+        "beta",
+        "versioning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1.0.0-rc.1",
+      "description": "Pre-release version for release candidate",
+      "scenario": "Pre-release version for release candidate",
+      "language": "text",
+      "tags": [
+        "pre-release",
+        "rc",
+        "versioning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1.0.0+20130313144700",
+      "description": "Add build metadata to version",
+      "scenario": "Add build metadata to version",
+      "language": "text",
+      "tags": [
+        "build",
+        "metadata",
+        "versioning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1.0.0+exp.sha.5114f85",
+      "description": "Add build metadata with commit hash",
+      "scenario": "Add build metadata with commit hash",
+      "language": "text",
+      "tags": [
+        "build",
+        "metadata",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1.0.0+ci.2023.10.15",
+      "description": "Use build metadata for continuous integration",
+      "scenario": "Use build metadata for continuous integration",
+      "language": "text",
+      "tags": [
+        "ci",
+        "build",
+        "metadata"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install package@1.0.0",
+      "description": "Install npm package with specific version",
+      "scenario": "Install npm package with specific version",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "install",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm update package --save",
+      "description": "Update npm package to latest minor version",
+      "scenario": "Update npm package to latest minor version",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "update",
+        "minor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm outdated",
+      "description": "List outdated npm packages",
+      "scenario": "List outdated npm packages",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "outdated",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "^1.0.0",
+      "description": "Use caret (^) for compatible version updates",
+      "scenario": "Use caret (^) for compatible version updates",
+      "language": "text",
+      "tags": [
+        "caret",
+        "version",
+        "compatible"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "~1.0.0",
+      "description": "Use tilde (~) for patch version updates",
+      "scenario": "Use tilde (~) for patch version updates",
+      "language": "text",
+      "tags": [
+        "tilde",
+        "version",
+        "patch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*",
+      "description": "Use wildcard (*) for any version",
+      "scenario": "Use wildcard (*) for any version",
+      "language": "text",
+      "tags": [
+        "wildcard",
+        "version",
+        "any"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

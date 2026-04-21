@@ -1,0 +1,165 @@
+{
+  "title": "PlantUML Cheat Sheet",
+  "slug": "plantuml",
+  "description": "Quick reference for PlantUML syntax and commands.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "@startuml\nclass Example {\n  +int id\n  +String name\n}\n@enduml",
+      "description": "Create a simple class diagram",
+      "scenario": "Create a simple class diagram",
+      "language": "text",
+      "tags": [
+        "class",
+        "diagram",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@startuml\nactor User\nusecase \"Login\" as UC1\nUser -> UC1\n@enduml",
+      "description": "Define a use case diagram",
+      "scenario": "Define a use case diagram",
+      "language": "text",
+      "tags": [
+        "use case",
+        "actor",
+        "diagram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@startuml\nAlice -> Bob: Hello\nBob --> Alice: Hi\n@enduml",
+      "description": "Draw a sequence diagram",
+      "scenario": "Draw a sequence diagram",
+      "language": "text",
+      "tags": [
+        "sequence",
+        "interaction",
+        "diagram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@startuml\npackage \"Example Package\" {\n  [Component1]\n  [Component2]\n}\n@enduml",
+      "description": "Create a component diagram",
+      "scenario": "Create a component diagram",
+      "language": "text",
+      "tags": [
+        "component",
+        "package",
+        "diagram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@startuml\n[*] --> State1\nState1 --> [*]\n@enduml",
+      "description": "Define a state diagram",
+      "scenario": "Define a state diagram",
+      "language": "text",
+      "tags": [
+        "state",
+        "transition",
+        "diagram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@startuml\ndeployment_node \"Server\" {\n  component \"WebApp\"\n}\n@enduml",
+      "description": "Generate a deployment diagram",
+      "scenario": "Generate a deployment diagram",
+      "language": "text",
+      "tags": [
+        "deployment",
+        "node",
+        "diagram"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plantuml -tpng diagram.uml",
+      "description": "Generate PNG from UML file",
+      "scenario": "Generate PNG from UML file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "png",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plantuml -tsvg diagram.uml",
+      "description": "Generate SVG from UML file",
+      "scenario": "Generate SVG from UML file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "svg",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plantuml -monitor directory/",
+      "description": "Watch a directory for changes and regenerate diagrams",
+      "scenario": "Watch a directory for changes and regenerate diagrams",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "monitor",
+        "watch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plantuml -o output_directory/ diagram.uml",
+      "description": "Set output directory for generated files",
+      "scenario": "Set output directory for generated files",
+      "language": "bash",
+      "tags": [
+        "output",
+        "directory",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@startuml\nskinparam defaultFontName Courier\n@enduml",
+      "description": "Change default skin for diagrams",
+      "scenario": "Change default skin for diagrams",
+      "language": "text",
+      "tags": [
+        "skin",
+        "style",
+        "font"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@startuml\n!include style.puml\n@enduml",
+      "description": "Include external style file",
+      "scenario": "Include external style file",
+      "language": "text",
+      "tags": [
+        "include",
+        "style",
+        "external"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Man Command Cheat Sheet",
+  "slug": "man",
+  "description": "Quick reference for using the 'man' command in Unix/Linux systems.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "man ls",
+      "description": "Open the manual page for a command",
+      "scenario": "Open the manual page for a command",
+      "language": "bash",
+      "tags": [
+        "man",
+        "manual",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "man -k keyword",
+      "description": "Search for a keyword in all manual pages",
+      "scenario": "Search for a keyword in all manual pages",
+      "language": "bash",
+      "tags": [
+        "search",
+        "keyword",
+        "manual"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "whatis ls",
+      "description": "Display a short description of a command",
+      "scenario": "Display a short description of a command",
+      "language": "bash",
+      "tags": [
+        "description",
+        "whatis",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Space>",
+      "description": "Move to the next page in the manual",
+      "scenario": "Move to the next page in the manual",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "next",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "b",
+      "description": "Move to the previous page in the manual",
+      "scenario": "Move to the previous page in the manual",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "previous",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/pattern",
+      "description": "Search forward for a pattern",
+      "scenario": "Search forward for a pattern",
+      "language": "text",
+      "tags": [
+        "search",
+        "pattern",
+        "forward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "man 5 passwd",
+      "description": "View a specific section of a manual",
+      "scenario": "View a specific section of a manual",
+      "language": "bash",
+      "tags": [
+        "section",
+        "manual",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "man -P cat ls",
+      "description": "Format and display the manual page without using a pager",
+      "scenario": "Format and display the manual page without using a pager",
+      "language": "bash",
+      "tags": [
+        "format",
+        "display",
+        "pager"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "man -f ls",
+      "description": "Find all available manual sections for a command",
+      "scenario": "Find all available manual sections for a command",
+      "language": "bash",
+      "tags": [
+        "sections",
+        "manual",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export MANPAGER=less",
+      "description": "Set the default pager for man pages",
+      "scenario": "Set the default pager for man pages",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "pager",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export MANPATH=/custom/path",
+      "description": "Specify a custom path for man pages",
+      "scenario": "Specify a custom path for man pages",
+      "language": "bash",
+      "tags": [
+        "path",
+        "custom",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "man --no-color ls",
+      "description": "Disable color in man pages",
+      "scenario": "Disable color in man pages",
+      "language": "bash",
+      "tags": [
+        "color",
+        "disable",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

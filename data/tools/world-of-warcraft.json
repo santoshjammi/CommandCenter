@@ -1,0 +1,204 @@
+{
+  "title": "World of Warcraft CLI and Scripting",
+  "slug": "world-of-warcraft",
+  "description": "A cheat sheet for World of Warcraft CLI commands and scripting.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "start wow.exe",
+      "description": "Launch World of Warcraft from the command line",
+      "scenario": "Launch World of Warcraft from the command line",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "cli",
+        "windows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wow.exe --version",
+      "description": "Check World of Warcraft version",
+      "scenario": "Check World of Warcraft version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wow.exe --repair",
+      "description": "Repair World of Warcraft installation",
+      "scenario": "Repair World of Warcraft installation",
+      "language": "bash",
+      "tags": [
+        "repair",
+        "cli",
+        "maintenance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print('Hello, Azeroth!')",
+      "description": "Create a simple Lua script to print a message",
+      "scenario": "Create a simple Lua script to print a message",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "scripting",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet(name)\\n  print('Hello, ' .. name)\\nend",
+      "description": "Define a function in Lua",
+      "scenario": "Define a function in Lua",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "function",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if playerHealth < 20 then\\n  print('Low health!')\\nend",
+      "description": "Use an if statement in Lua",
+      "scenario": "Use an if statement in Lua",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "conditional",
+        "if"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MyAddon/\\n  \u251c\u2500\u2500 MyAddon.toc\\n  \u251c\u2500\u2500 MyAddon.lua\\n  \u2514\u2500\u2500 MyAddon.xml",
+      "description": "Create a basic AddOn folder structure",
+      "scenario": "Create a basic AddOn folder structure",
+      "language": "text",
+      "tags": [
+        "addon",
+        "structure",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "## Interface: 90200\\n## Title: MyAddon\\n## Notes: My first addon\\nMyAddon.lua",
+      "description": "Define an AddOn in a TOC file",
+      "scenario": "Define an AddOn in a TOC file",
+      "language": "text",
+      "tags": [
+        "toc",
+        "addon",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "local frame = CreateFrame('Frame')\\nframe:RegisterEvent('PLAYER_LOGIN')\\nframe:SetScript('OnEvent', function(self, event, ...)\\n  print('Player logged in!')\\nend)",
+      "description": "Register an event in Lua for an AddOn",
+      "scenario": "Register an event in Lua for an AddOn",
+      "language": "lua",
+      "tags": [
+        "event",
+        "register",
+        "addon"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/cast Fireball",
+      "description": "Create a macro to cast a spell",
+      "scenario": "Create a macro to cast a spell",
+      "language": "text",
+      "tags": [
+        "macro",
+        "spell",
+        "cast"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/targetenemy\\n/cast Attack",
+      "description": "Create a macro to target and attack",
+      "scenario": "Create a macro to target and attack",
+      "language": "text",
+      "tags": [
+        "macro",
+        "target",
+        "attack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/use Health Potion",
+      "description": "Create a macro to use an item",
+      "scenario": "Create a macro to use an item",
+      "language": "text",
+      "tags": [
+        "macro",
+        "item",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i, v in ipairs(myTable) do\\n  print(i, v)\\nend",
+      "description": "Create a loop in Lua to iterate over a table",
+      "scenario": "Create a loop in Lua to iterate over a table",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "loop",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "local status, err = pcall(function()\\n  error('An error occurred!')\\nend)\\nif not status then\\n  print('Error:', err)\\nend",
+      "description": "Handle errors in Lua with pcall",
+      "scenario": "Handle errors in Lua with pcall",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "error",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "local t = {}\\nlocal mt = { __index = function() return 'default' end }\\nsetmetatable(t, mt)\\nprint(t.someKey)",
+      "description": "Use metatables in Lua",
+      "scenario": "Use metatables in Lua",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "metatable",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

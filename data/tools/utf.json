@@ -1,0 +1,165 @@
+{
+  "title": "UTF Cheat Sheet",
+  "slug": "utf",
+  "description": "Quick reference for UTF encoding and decoding operations",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "b = 'example'.encode('utf-8')",
+      "description": "Encode a string to UTF-8 bytes",
+      "scenario": "Encode a string to UTF-8 bytes",
+      "language": "python",
+      "tags": [
+        "utf-8",
+        "encoding",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "s = b.decode('utf-8')",
+      "description": "Decode UTF-8 bytes to a string",
+      "scenario": "Decode UTF-8 bytes to a string",
+      "language": "python",
+      "tags": [
+        "utf-8",
+        "decoding",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('file.txt', encoding='utf-8') as f: data = f.read()",
+      "description": "Read a UTF-8 encoded file",
+      "scenario": "Read a UTF-8 encoded file",
+      "language": "python",
+      "tags": [
+        "utf-8",
+        "file",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let encoder = new TextEncoder();\nlet bytes = encoder.encode('example');",
+      "description": "Encode a string to UTF-8",
+      "scenario": "Encode a string to UTF-8",
+      "language": "javascript",
+      "tags": [
+        "utf-8",
+        "encoding",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let decoder = new TextDecoder('utf-8');\nlet string = decoder.decode(bytes);",
+      "description": "Decode UTF-8 bytes to a string",
+      "scenario": "Decode UTF-8 bytes to a string",
+      "language": "javascript",
+      "tags": [
+        "utf-8",
+        "decoding",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let utf8String = new TextDecoder().decode(new TextEncoder().encode('example'));",
+      "description": "Convert a string to UTF-8 and back",
+      "scenario": "Convert a string to UTF-8 and back",
+      "language": "javascript",
+      "tags": [
+        "utf-8",
+        "conversion",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file -i filename.txt",
+      "description": "Check file encoding",
+      "scenario": "Check file encoding",
+      "language": "bash",
+      "tags": [
+        "utf-8",
+        "encoding",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iconv -f ISO-8859-1 -t UTF-8 input.txt -o output.txt",
+      "description": "Convert file to UTF-8",
+      "scenario": "Convert file to UTF-8",
+      "language": "bash",
+      "tags": [
+        "utf-8",
+        "conversion",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo -e '\\u00A9'",
+      "description": "Display UTF-8 characters in terminal",
+      "scenario": "Display UTF-8 characters in terminal",
+      "language": "bash",
+      "tags": [
+        "utf-8",
+        "terminal",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT CONVERT(column USING utf8) FROM table;",
+      "description": "Select UTF-8 encoded data",
+      "scenario": "Select UTF-8 encoded data",
+      "language": "sql",
+      "tags": [
+        "utf-8",
+        "sql",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table (column) VALUES (CONVERT('example' USING utf8));",
+      "description": "Insert UTF-8 data into a table",
+      "scenario": "Insert UTF-8 data into a table",
+      "language": "sql",
+      "tags": [
+        "utf-8",
+        "sql",
+        "insert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ALTER TABLE table_name CONVERT TO CHARACTER SET utf8;",
+      "description": "Alter table to use UTF-8",
+      "scenario": "Alter table to use UTF-8",
+      "language": "sql",
+      "tags": [
+        "utf-8",
+        "sql",
+        "alter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

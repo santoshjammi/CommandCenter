@@ -1,0 +1,204 @@
+{
+  "title": "JSHint Cheat Sheet",
+  "slug": "jshint",
+  "description": "Essential JSHint commands and configuration for JavaScript linting.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "jshint filename.js",
+      "description": "Run JSHint on a single file",
+      "scenario": "Run JSHint on a single file",
+      "language": "bash",
+      "tags": [
+        "lint",
+        "cli",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jshint .",
+      "description": "Run JSHint on all JavaScript files in a directory",
+      "scenario": "Run JSHint on all JavaScript files in a directory",
+      "language": "bash",
+      "tags": [
+        "lint",
+        "cli",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jshint --help",
+      "description": "Display help information for JSHint",
+      "scenario": "Display help information for JSHint",
+      "language": "bash",
+      "tags": [
+        "help",
+        "cli",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"esversion\": 6}",
+      "description": "Set ECMAScript version to 6",
+      "scenario": "Set ECMAScript version to 6",
+      "language": "json",
+      "tags": [
+        "config",
+        "es6",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"strict\": \"global\"}",
+      "description": "Enable strict mode globally",
+      "scenario": "Enable strict mode globally",
+      "language": "json",
+      "tags": [
+        "config",
+        "strict",
+        "global"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"devel\": true}",
+      "description": "Allow console statements",
+      "scenario": "Allow console statements",
+      "language": "json",
+      "tags": [
+        "config",
+        "console",
+        "allow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jshint filename.js --ignore-warnings W033",
+      "description": "Ignore specific warnings by their code",
+      "scenario": "Ignore specific warnings by their code",
+      "language": "bash",
+      "tags": [
+        "ignore",
+        "warnings",
+        "flags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jshint --config path/to/.jshintrc",
+      "description": "Specify a custom configuration file",
+      "scenario": "Specify a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "custom",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jshint --verbose filename.js",
+      "description": "Enable verbose output",
+      "scenario": "Enable verbose output",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "output",
+        "flags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// jshint ignore:filename.js",
+      "description": "Ignore a specific file in the project",
+      "scenario": "Ignore a specific file in the project",
+      "language": "javascript",
+      "tags": [
+        "ignore",
+        "file",
+        "directive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "// jshint ignore:line",
+      "description": "Ignore a specific line in a file",
+      "scenario": "Ignore a specific line in a file",
+      "language": "javascript",
+      "tags": [
+        "ignore",
+        "line",
+        "directive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/* jshint ignore:start */\n// code\n/* jshint ignore:end */",
+      "description": "Ignore all warnings in a file",
+      "scenario": "Ignore all warnings in a file",
+      "language": "javascript",
+      "tags": [
+        "ignore",
+        "warnings",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const gulp = require('gulp');\nconst jshint = require('gulp-jshint');\ngulp.task('lint', function() {\n  return gulp.src('src/*.js')\n    .pipe(jshint())\n    .pipe(jshint.reporter('default'));\n});",
+      "description": "Use JSHint with Gulp",
+      "scenario": "Use JSHint with Gulp",
+      "language": "javascript",
+      "tags": [
+        "gulp",
+        "integration",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grunt.initConfig({\n  jshint: {\n    files: ['Gruntfile.js', 'src/**/*.js'],\n    options: {\n      globals: {\n        jQuery: true\n      }\n    }\n  }\n});\ngrunt.loadNpmTasks('grunt-contrib-jshint');\ngrunt.registerTask('default', ['jshint']);",
+      "description": "Use JSHint with Grunt",
+      "scenario": "Use JSHint with Grunt",
+      "language": "javascript",
+      "tags": [
+        "grunt",
+        "integration",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.js$/,\n        exclude: /node_modules/,\n        use: ['jshint-loader']\n      }\n    ]\n  }\n};",
+      "description": "Use JSHint with Webpack",
+      "scenario": "Use JSHint with Webpack",
+      "language": "javascript",
+      "tags": [
+        "webpack",
+        "integration",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

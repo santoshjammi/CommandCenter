@@ -1,0 +1,165 @@
+{
+  "title": "Sequel Cheat Sheet",
+  "slug": "sequel",
+  "description": "Essential Sequel commands and patterns for database management.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "DB = Sequel.connect('postgres://user:password@localhost/mydb')",
+      "description": "Connect to a database",
+      "scenario": "Connect to a database",
+      "language": "ruby",
+      "tags": [
+        "connect",
+        "database",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB.create_table :items do\n  primary_key :id\n  String :name\n  Float :price\nend",
+      "description": "Create a new table",
+      "scenario": "Create a new table",
+      "language": "ruby",
+      "tags": [
+        "create",
+        "table",
+        "schema"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB[:items].insert(name: 'Apple', price: 0.5)",
+      "description": "Insert a record into a table",
+      "scenario": "Insert a record into a table",
+      "language": "ruby",
+      "tags": [
+        "insert",
+        "record",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB[:items].all",
+      "description": "Select all records from a table",
+      "scenario": "Select all records from a table",
+      "language": "ruby",
+      "tags": [
+        "select",
+        "query",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB[:items].where(price: 0.5).all",
+      "description": "Select records with a condition",
+      "scenario": "Select records with a condition",
+      "language": "ruby",
+      "tags": [
+        "select",
+        "where",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB[:items].order(:price).all",
+      "description": "Order records by a column",
+      "scenario": "Order records by a column",
+      "language": "ruby",
+      "tags": [
+        "order",
+        "sort",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB[:items].where(name: 'Apple').update(price: 0.6)",
+      "description": "Update records in a table",
+      "scenario": "Update records in a table",
+      "language": "ruby",
+      "tags": [
+        "update",
+        "modify",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB[:items].where(name: 'Apple').delete",
+      "description": "Delete records from a table",
+      "scenario": "Delete records from a table",
+      "language": "ruby",
+      "tags": [
+        "delete",
+        "remove",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB[:items].truncate",
+      "description": "Truncate a table",
+      "scenario": "Truncate a table",
+      "language": "ruby",
+      "tags": [
+        "truncate",
+        "clear",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB[:items].join(:categories, id: :category_id).all",
+      "description": "Join two tables",
+      "scenario": "Join two tables",
+      "language": "ruby",
+      "tags": [
+        "join",
+        "tables",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB.transaction do\n  # operations\nend",
+      "description": "Use a transaction block",
+      "scenario": "Use a transaction block",
+      "language": "ruby",
+      "tags": [
+        "transaction",
+        "block",
+        "atomic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DB.add_index :items, :name",
+      "description": "Add an index to a table",
+      "scenario": "Add an index to a table",
+      "language": "ruby",
+      "tags": [
+        "index",
+        "optimize",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

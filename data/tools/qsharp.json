@@ -1,0 +1,204 @@
+{
+  "title": "Q# Cheat Sheet",
+  "slug": "qsharp",
+  "description": "Essential Q# commands and syntax for quantum programming.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "operation MyOperation() : Unit { // code here }",
+      "description": "Define a Q# operation",
+      "scenario": "Define a Q# operation",
+      "language": "qsharp",
+      "tags": [
+        "operation",
+        "syntax",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function MyFunction(x : Int) : Int { return x + 1; }",
+      "description": "Define a Q# function",
+      "scenario": "Define a Q# function",
+      "language": "qsharp",
+      "tags": [
+        "function",
+        "syntax",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mutable count = 0;",
+      "description": "Use a mutable variable",
+      "scenario": "Use a mutable variable",
+      "language": "qsharp",
+      "tags": [
+        "variable",
+        "mutable",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "H(qubit);",
+      "description": "Apply a Hadamard gate",
+      "scenario": "Apply a Hadamard gate",
+      "language": "qsharp",
+      "tags": [
+        "quantum",
+        "gate",
+        "hadamard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let result = M(qubit);",
+      "description": "Measure a qubit",
+      "scenario": "Measure a qubit",
+      "language": "qsharp",
+      "tags": [
+        "quantum",
+        "measurement",
+        "qubit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CNOT(control, target);",
+      "description": "Apply a CNOT gate",
+      "scenario": "Apply a CNOT gate",
+      "language": "qsharp",
+      "tags": [
+        "quantum",
+        "gate",
+        "cnot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) { // code } else { // code }",
+      "description": "If-else statement in Q#",
+      "scenario": "If-else statement in Q#",
+      "language": "qsharp",
+      "tags": [
+        "control",
+        "flow",
+        "if-else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i in 1..n) { // code }",
+      "description": "For loop in Q#",
+      "scenario": "For loop in Q#",
+      "language": "qsharp",
+      "tags": [
+        "control",
+        "flow",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (condition) { // code }",
+      "description": "While loop in Q#",
+      "scenario": "While loop in Q#",
+      "language": "qsharp",
+      "tags": [
+        "control",
+        "flow",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet run",
+      "description": "Run a Q# project",
+      "scenario": "Run a Q# project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet new console -lang Q#",
+      "description": "Create a new Q# project",
+      "scenario": "Create a new Q# project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "create",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet tool install -g Microsoft.Quantum.IQSharp",
+      "description": "Install Q# command line tools",
+      "scenario": "Install Q# command line tools",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "install",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "operation MyOperation() : Unit { use (q = Qubit()) { // code } }",
+      "description": "Set target machine to quantum simulator",
+      "scenario": "Set target machine to quantum simulator",
+      "language": "qsharp",
+      "tags": [
+        "configuration",
+        "simulator",
+        "target"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Project Sdk=\"Microsoft.Quantum.Sdk/0.15.2101125895\"> <PropertyGroup> <OutputType>Exe</OutputType> <TargetFramework>netcoreapp3.1</TargetFramework> </PropertyGroup> </Project>",
+      "description": "Configure project for Q#",
+      "scenario": "Configure project for Q#",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<PackageReference Include=\"Microsoft.Quantum.Standard\" Version=\"0.15.2101125895\" />",
+      "description": "Specify Q# version in project file",
+      "scenario": "Specify Q# version in project file",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "version",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

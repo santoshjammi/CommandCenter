@@ -1,0 +1,165 @@
+{
+  "title": "Slim Framework Cheat Sheet",
+  "slug": "slim",
+  "description": "Quick reference for Slim Framework CLI and code syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "$app->get('/hello/{name}', function ($request, $response, $args) {\n    return $response->write(\"Hello \" . $args['name']);\n});",
+      "description": "Define a basic GET route",
+      "scenario": "Define a basic GET route",
+      "language": "php",
+      "tags": [
+        "routing",
+        "get",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$app->post('/data', function ($request, $response, $args) {\n    $data = $request->getParsedBody();\n    return $response->withJson($data);\n});",
+      "description": "Define a basic POST route",
+      "scenario": "Define a basic POST route",
+      "language": "php",
+      "tags": [
+        "routing",
+        "post",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$app->get('/dashboard', function ($request, $response, $args) {\n    return $response->write('Dashboard');\n})->add($middleware);",
+      "description": "Define a route with middleware",
+      "scenario": "Define a route with middleware",
+      "language": "php",
+      "tags": [
+        "routing",
+        "middleware",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$app->add(function ($request, $response, $next) {\n    $response->getBody()->write('BEFORE');\n    $response = $next($request, $response);\n    $response->getBody()->write('AFTER');\n    return $response;\n});",
+      "description": "Add middleware to the application",
+      "scenario": "Add middleware to the application",
+      "language": "php",
+      "tags": [
+        "middleware",
+        "application",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$middleware = function ($request, $response, $next) {\n    $response->getBody()->write('MIDDLEWARE');\n    return $next($request, $response);\n};",
+      "description": "Create a simple middleware function",
+      "scenario": "Create a simple middleware function",
+      "language": "php",
+      "tags": [
+        "middleware",
+        "function",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$app->get('/profile', function ($request, $response, $args) {\n    return $response->write('Profile');\n})->add($middleware);",
+      "description": "Apply middleware to a specific route",
+      "scenario": "Apply middleware to a specific route",
+      "language": "php",
+      "tags": [
+        "middleware",
+        "route",
+        "apply"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$container['service'] = function ($c) {\n    return new Service();\n};",
+      "description": "Add a service to the container",
+      "scenario": "Add a service to the container",
+      "language": "php",
+      "tags": [
+        "di",
+        "service",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$service = $container->get('service');",
+      "description": "Retrieve a service from the container",
+      "scenario": "Retrieve a service from the container",
+      "language": "php",
+      "tags": [
+        "di",
+        "service",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$app->get('/service', function ($request, $response, $args) use ($container) {\n    $service = $container->get('service');\n    return $response->write($service->doSomething());\n});",
+      "description": "Use a service in a route",
+      "scenario": "Use a service in a route",
+      "language": "php",
+      "tags": [
+        "di",
+        "service",
+        "route"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$container['errorHandler'] = function ($c) {\n    return function ($request, $response, $exception) use ($c) {\n        return $response->withStatus(500)\n                        ->withHeader('Content-Type', 'text/html')\n                        ->write('Something went wrong!');\n    };\n};",
+      "description": "Set a custom error handler",
+      "scenario": "Set a custom error handler",
+      "language": "php",
+      "tags": [
+        "error",
+        "handler",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$container['notFoundHandler'] = function ($c) {\n    return function ($request, $response) use ($c) {\n        return $response->withStatus(404)\n                        ->withHeader('Content-Type', 'text/html')\n                        ->write('Page not found');\n    };\n};",
+      "description": "Handle 404 errors",
+      "scenario": "Handle 404 errors",
+      "language": "php",
+      "tags": [
+        "error",
+        "404",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$container['notAllowedHandler'] = function ($c) {\n    return function ($request, $response, $methods) use ($c) {\n        return $response->withStatus(405)\n                        ->withHeader('Allow', implode(', ', $methods))\n                        ->withHeader('Content-type', 'text/html')\n                        ->write('Method must be one of: ' . implode(', ', $methods));\n    };\n};",
+      "description": "Handle 405 errors",
+      "scenario": "Handle 405 errors",
+      "language": "php",
+      "tags": [
+        "error",
+        "405",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

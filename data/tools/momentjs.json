@@ -1,0 +1,204 @@
+{
+  "title": "Moment.js Cheat Sheet",
+  "slug": "momentjs",
+  "description": "Quick reference for common Moment.js date manipulation tasks.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "moment()",
+      "description": "Create a moment object for the current date and time",
+      "scenario": "Create a moment object for the current date and time",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "current",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment('2023-10-01')",
+      "description": "Create a moment object for a specific date",
+      "scenario": "Create a moment object for a specific date",
+      "language": "javascript",
+      "tags": [
+        "date",
+        "specific",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment.unix(1633036800)",
+      "description": "Create a moment object from a Unix timestamp",
+      "scenario": "Create a moment object from a Unix timestamp",
+      "language": "javascript",
+      "tags": [
+        "timestamp",
+        "unix",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment().format('YYYY-MM-DD')",
+      "description": "Format a date as 'YYYY-MM-DD'",
+      "scenario": "Format a date as 'YYYY-MM-DD'",
+      "language": "javascript",
+      "tags": [
+        "format",
+        "date",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment().format('MMMM Do YYYY, h:mm:ss a')",
+      "description": "Format a date as 'MMMM Do YYYY, h:mm:ss a'",
+      "scenario": "Format a date as 'MMMM Do YYYY, h:mm:ss a'",
+      "language": "javascript",
+      "tags": [
+        "format",
+        "readable",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment().toISOString()",
+      "description": "Format a date in ISO 8601 format",
+      "scenario": "Format a date in ISO 8601 format",
+      "language": "javascript",
+      "tags": [
+        "format",
+        "ISO",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment().add(7, 'days')",
+      "description": "Add 7 days to the current date",
+      "scenario": "Add 7 days to the current date",
+      "language": "javascript",
+      "tags": [
+        "add",
+        "days",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment().subtract(3, 'months')",
+      "description": "Subtract 3 months from the current date",
+      "scenario": "Subtract 3 months from the current date",
+      "language": "javascript",
+      "tags": [
+        "subtract",
+        "months",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment().startOf('month')",
+      "description": "Start of the current month",
+      "scenario": "Start of the current month",
+      "language": "javascript",
+      "tags": [
+        "start",
+        "month",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment('2023-10-01').isBefore('2023-12-01')",
+      "description": "Check if a date is before another date",
+      "scenario": "Check if a date is before another date",
+      "language": "javascript",
+      "tags": [
+        "compare",
+        "before",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment('2023-10-01').isAfter('2023-01-01')",
+      "description": "Check if a date is after another date",
+      "scenario": "Check if a date is after another date",
+      "language": "javascript",
+      "tags": [
+        "compare",
+        "after",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment('2023-10-01').isSame('2023-10-01')",
+      "description": "Check if two dates are the same",
+      "scenario": "Check if two dates are the same",
+      "language": "javascript",
+      "tags": [
+        "compare",
+        "same",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment('12-25-2023', 'MM-DD-YYYY')",
+      "description": "Parse a date with a specific format",
+      "scenario": "Parse a date with a specific format",
+      "language": "javascript",
+      "tags": [
+        "parse",
+        "format",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment([2023, 9, 25])",
+      "description": "Parse a date from an array",
+      "scenario": "Parse a date from an array",
+      "language": "javascript",
+      "tags": [
+        "parse",
+        "array",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "moment({ year:2023, month:9, day:25 })",
+      "description": "Parse a date from an object",
+      "scenario": "Parse a date from an object",
+      "language": "javascript",
+      "tags": [
+        "parse",
+        "object",
+        "moment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

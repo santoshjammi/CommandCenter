@@ -1,0 +1,165 @@
+{
+  "title": "Meow CLI Cheat Sheet",
+  "slug": "meow",
+  "description": "Essential commands and patterns for using the Meow CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "meow --version",
+      "description": "Display the version of Meow CLI",
+      "scenario": "Display the version of Meow CLI",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow --help",
+      "description": "Get help information for Meow CLI commands",
+      "scenario": "Get help information for Meow CLI commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "cli",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow run",
+      "description": "Run a basic meow command with default settings",
+      "scenario": "Run a basic meow command with default settings",
+      "language": "bash",
+      "tags": [
+        "run",
+        "cli",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow config set <key> <value>",
+      "description": "Set a configuration option for Meow CLI",
+      "scenario": "Set a configuration option for Meow CLI",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow config list",
+      "description": "View the current configuration settings",
+      "scenario": "View the current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow run --verbose",
+      "description": "Run a meow command with verbose output",
+      "scenario": "Run a meow command with verbose output",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "cli",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow run --debug",
+      "description": "Execute a meow command in debug mode",
+      "scenario": "Execute a meow command in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "cli",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow run --config /path/to/config",
+      "description": "Run a meow command with a specific configuration file",
+      "scenario": "Run a meow command with a specific configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow run && meow status",
+      "description": "Chain multiple meow commands together",
+      "scenario": "Chain multiple meow commands together",
+      "language": "bash",
+      "tags": [
+        "chain",
+        "cli",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MEOW_ENV=production meow run",
+      "description": "Use meow with environment variables",
+      "scenario": "Use meow with environment variables",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "meow run > output.txt",
+      "description": "Redirect meow output to a file",
+      "scenario": "Redirect meow output to a file",
+      "language": "bash",
+      "tags": [
+        "redirect",
+        "output",
+        "meow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

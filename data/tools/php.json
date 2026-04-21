@@ -1,0 +1,204 @@
+{
+  "title": "PHP Cheat Sheet",
+  "slug": "php",
+  "description": "Essential PHP commands and syntax for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "$variable = 'Hello, World!';",
+      "description": "Define a PHP variable",
+      "scenario": "Define a PHP variable",
+      "language": "php",
+      "tags": [
+        "variable",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'Hello, World!';",
+      "description": "Echo a string to the output",
+      "scenario": "Echo a string to the output",
+      "language": "php",
+      "tags": [
+        "output",
+        "string",
+        "echo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if ($condition) {\n    // code to execute\n}",
+      "description": "Create a simple if statement",
+      "scenario": "Create a simple if statement",
+      "language": "php",
+      "tags": [
+        "conditional",
+        "if",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$array = array('Apple', 'Banana', 'Cherry');",
+      "description": "Create an indexed array",
+      "scenario": "Create an indexed array",
+      "language": "php",
+      "tags": [
+        "array",
+        "indexed",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$assocArray = array('first' => 'John', 'last' => 'Doe');",
+      "description": "Create an associative array",
+      "scenario": "Create an associative array",
+      "language": "php",
+      "tags": [
+        "array",
+        "associative",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "foreach ($array as $value) {\n    echo $value;\n}",
+      "description": "Loop through an array with foreach",
+      "scenario": "Loop through an array with foreach",
+      "language": "php",
+      "tags": [
+        "loop",
+        "foreach",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet($name) {\n    return \"Hello, $name!\";\n}",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "php",
+      "tags": [
+        "function",
+        "define",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo greet('Alice');",
+      "description": "Call a function with arguments",
+      "scenario": "Call a function with arguments",
+      "language": "php",
+      "tags": [
+        "function",
+        "call",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet($name = 'Guest') {\n    return \"Hello, $name!\";\n}",
+      "description": "Define a function with default parameters",
+      "scenario": "Define a function with default parameters",
+      "language": "php",
+      "tags": [
+        "function",
+        "default",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php script.php",
+      "description": "Run a PHP script from the command line",
+      "scenario": "Run a PHP script from the command line",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php -v",
+      "description": "Check the PHP version installed",
+      "scenario": "Check the PHP version installed",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "version",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php -S localhost:8000",
+      "description": "Start a PHP built-in server",
+      "scenario": "Start a PHP built-in server",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "server",
+        "built-in"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Car {\n    public $color;\n    public function __construct($color) {\n        $this->color = $color;\n    }\n}",
+      "description": "Define a simple class",
+      "scenario": "Define a simple class",
+      "language": "php",
+      "tags": [
+        "class",
+        "oop",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$myCar = new Car('red');",
+      "description": "Create an object from a class",
+      "scenario": "Create an object from a class",
+      "language": "php",
+      "tags": [
+        "object",
+        "instantiate",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo $myCar->color;",
+      "description": "Access a property of an object",
+      "scenario": "Access a property of an object",
+      "language": "php",
+      "tags": [
+        "object",
+        "property",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

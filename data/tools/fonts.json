@@ -1,0 +1,165 @@
+{
+  "title": "Fonts Cheat Sheet",
+  "slug": "fonts",
+  "description": "Quick reference for font management and usage in web and design.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "font-family: 'Arial', sans-serif;",
+      "description": "Set the font family for an element",
+      "scenario": "Set the font family for an element",
+      "language": "css",
+      "tags": [
+        "css",
+        "font",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "font-size: 16px;",
+      "description": "Set the font size for an element",
+      "scenario": "Set the font size for an element",
+      "language": "css",
+      "tags": [
+        "css",
+        "font",
+        "size"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "font-weight: bold;",
+      "description": "Set the font weight for an element",
+      "scenario": "Set the font weight for an element",
+      "language": "css",
+      "tags": [
+        "css",
+        "font",
+        "weight"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\" rel=\"stylesheet\">",
+      "description": "Link a Google Font in HTML",
+      "scenario": "Link a Google Font in HTML",
+      "language": "html",
+      "tags": [
+        "html",
+        "google fonts",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');",
+      "description": "Import a Google Font in CSS",
+      "scenario": "Import a Google Font in CSS",
+      "language": "css",
+      "tags": [
+        "css",
+        "google fonts",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "font-family: 'Roboto', sans-serif;",
+      "description": "Use a web font in CSS",
+      "scenario": "Use a web font in CSS",
+      "language": "css",
+      "tags": [
+        "css",
+        "web fonts",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "system_profiler SPFontsDataType",
+      "description": "List installed fonts on macOS",
+      "scenario": "List installed fonts on macOS",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "fonts",
+        "macos"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew install --cask font-fira-code",
+      "description": "Install a font using Homebrew on macOS",
+      "scenario": "Install a font using Homebrew on macOS",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "fonts",
+        "homebrew"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fc-list : family",
+      "description": "List installed fonts on Linux",
+      "scenario": "List installed fonts on Linux",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "fonts",
+        "linux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".ttf",
+      "description": "TrueType Font format",
+      "scenario": "TrueType Font format",
+      "language": "text",
+      "tags": [
+        "fonts",
+        "format",
+        "truetype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".otf",
+      "description": "OpenType Font format",
+      "scenario": "OpenType Font format",
+      "language": "text",
+      "tags": [
+        "fonts",
+        "format",
+        "opentype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".woff",
+      "description": "Web Open Font Format",
+      "scenario": "Web Open Font Format",
+      "language": "text",
+      "tags": [
+        "fonts",
+        "format",
+        "woff"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

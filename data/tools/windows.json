@@ -1,0 +1,204 @@
+{
+  "title": "Windows Command Line Cheat Sheet",
+  "slug": "windows",
+  "description": "Essential Windows CLI commands and shortcuts for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "dir",
+      "description": "List files and directories",
+      "scenario": "List files and directories",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd path\\to\\directory",
+      "description": "Change directory",
+      "scenario": "Change directory",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "navigate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "copy source.txt destination.txt",
+      "description": "Copy files",
+      "scenario": "Copy files",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "files",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systeminfo",
+      "description": "Display system information",
+      "scenario": "Display system information",
+      "language": "bash",
+      "tags": [
+        "system",
+        "information",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wmic logicaldisk get size,freespace,caption",
+      "description": "Check disk space usage",
+      "scenario": "Check disk space usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "space",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ipconfig",
+      "description": "View network configuration",
+      "scenario": "View network configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "configuration",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tasklist",
+      "description": "List running processes",
+      "scenario": "List running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "running"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskkill /IM processname.exe /F",
+      "description": "Kill a process by name",
+      "scenario": "Kill a process by name",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "taskkill /PID 1234 /F",
+      "description": "Kill a process by PID",
+      "scenario": "Kill a process by PID",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "pid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "net user",
+      "description": "List all users",
+      "scenario": "List all users",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "net user username password /add",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "add",
+        "user",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "net user username /delete",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "user",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping example.com",
+      "description": "Ping a host",
+      "scenario": "Ping a host",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "network",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tracert example.com",
+      "description": "Trace route to a host",
+      "scenario": "Trace route to a host",
+      "language": "bash",
+      "tags": [
+        "trace",
+        "route",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -an",
+      "description": "Display active connections",
+      "scenario": "Display active connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

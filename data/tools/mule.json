@@ -1,0 +1,204 @@
+{
+  "title": "MuleSoft CLI Cheat Sheet",
+  "slug": "mule",
+  "description": "Essential commands and patterns for MuleSoft CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "mule login",
+      "description": "Log in to Anypoint Platform",
+      "scenario": "Log in to Anypoint Platform",
+      "language": "bash",
+      "tags": [
+        "login",
+        "authentication",
+        "anypoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule logout",
+      "description": "Log out from Anypoint Platform",
+      "scenario": "Log out from Anypoint Platform",
+      "language": "bash",
+      "tags": [
+        "logout",
+        "authentication",
+        "anypoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule --version",
+      "description": "Display MuleSoft CLI version",
+      "scenario": "Display MuleSoft CLI version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule deploy application --app <app-name> --environment <env-name>",
+      "description": "Deploy an application to CloudHub",
+      "scenario": "Deploy an application to CloudHub",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "cloudhub",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule undeploy application --app <app-name> --environment <env-name>",
+      "description": "Undeploy an application from CloudHub",
+      "scenario": "Undeploy an application from CloudHub",
+      "language": "bash",
+      "tags": [
+        "undeploy",
+        "cloudhub",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule list applications --environment <env-name>",
+      "description": "List all applications in an environment",
+      "scenario": "List all applications in an environment",
+      "language": "bash",
+      "tags": [
+        "list",
+        "applications",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule list environments",
+      "description": "List all environments",
+      "scenario": "List all environments",
+      "language": "bash",
+      "tags": [
+        "list",
+        "environments",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule switch environment --name <env-name>",
+      "description": "Switch to a different environment",
+      "scenario": "Switch to a different environment",
+      "language": "bash",
+      "tags": [
+        "switch",
+        "environment",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule create environment --name <env-name> --type <type>",
+      "description": "Create a new environment",
+      "scenario": "Create a new environment",
+      "language": "bash",
+      "tags": [
+        "create",
+        "environment",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule list apis --environment <env-name>",
+      "description": "List all APIs in an environment",
+      "scenario": "List all APIs in an environment",
+      "language": "bash",
+      "tags": [
+        "list",
+        "apis",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule deploy api --api <api-name> --environment <env-name>",
+      "description": "Deploy an API to API Manager",
+      "scenario": "Deploy an API to API Manager",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "api",
+        "manager"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule undeploy api --api <api-name> --environment <env-name>",
+      "description": "Undeploy an API from API Manager",
+      "scenario": "Undeploy an API from API Manager",
+      "language": "bash",
+      "tags": [
+        "undeploy",
+        "api",
+        "manager"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule list runtimes",
+      "description": "List all runtimes available",
+      "scenario": "List all runtimes available",
+      "language": "bash",
+      "tags": [
+        "list",
+        "runtimes",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule install runtime --version <version>",
+      "description": "Install a specific Mule runtime",
+      "scenario": "Install a specific Mule runtime",
+      "language": "bash",
+      "tags": [
+        "install",
+        "runtime",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mule uninstall runtime --version <version>",
+      "description": "Uninstall a specific Mule runtime",
+      "scenario": "Uninstall a specific Mule runtime",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "runtime",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

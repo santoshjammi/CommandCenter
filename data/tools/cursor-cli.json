@@ -1,0 +1,165 @@
+{
+  "title": "Cursor CLI Cheat Sheet",
+  "slug": "cursor-cli",
+  "description": "Quick reference for Cursor CLI commands and usage patterns.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "cursor init",
+      "description": "Initialize a new Cursor project",
+      "scenario": "Initialize a new Cursor project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor add <filename>",
+      "description": "Add a new file to the Cursor project",
+      "scenario": "Add a new file to the Cursor project",
+      "language": "bash",
+      "tags": [
+        "add",
+        "file",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor remove <filename>",
+      "description": "Remove a file from the Cursor project",
+      "scenario": "Remove a file from the Cursor project",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "file",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor config set <key> <value>",
+      "description": "Set a configuration value",
+      "scenario": "Set a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor config get <key>",
+      "description": "Get a configuration value",
+      "scenario": "Get a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor run <script-name>",
+      "description": "Run a custom script within the Cursor environment",
+      "scenario": "Run a custom script within the Cursor environment",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor build",
+      "description": "Build the Cursor project",
+      "scenario": "Build the Cursor project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "project",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor deploy",
+      "description": "Deploy the Cursor project",
+      "scenario": "Deploy the Cursor project",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "project",
+        "release"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor debug start",
+      "description": "Start a debugging session",
+      "scenario": "Start a debugging session",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "start",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor debug stop",
+      "description": "Stop a debugging session",
+      "scenario": "Stop a debugging session",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "stop",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cursor debug list",
+      "description": "List active debugging sessions",
+      "scenario": "List active debugging sessions",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "list",
+        "sessions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Tapestry Cheat Sheet",
+  "slug": "tapestry",
+  "description": "Quick reference for Apache Tapestry CLI and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mvn archetype:generate -DarchetypeGroupId=org.apache.tapestry -DarchetypeArtifactId=quickstart",
+      "description": "Create a new Tapestry project",
+      "scenario": "Create a new Tapestry project",
+      "language": "bash",
+      "tags": [
+        "tapestry",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn jetty:run",
+      "description": "Run the Tapestry application",
+      "scenario": "Run the Tapestry application",
+      "language": "bash",
+      "tags": [
+        "tapestry",
+        "run",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn clean install",
+      "description": "Clean and build the Tapestry project",
+      "scenario": "Clean and build the Tapestry project",
+      "language": "bash",
+      "tags": [
+        "tapestry",
+        "build",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public static void contributeApplicationDefaults(MappedConfiguration<String, Object> configuration) {\n    configuration.add(SymbolConstants.PRODUCTION_MODE, false);\n}",
+      "description": "Define a Tapestry symbol in AppModule.java",
+      "scenario": "Define a Tapestry symbol in AppModule.java",
+      "language": "java",
+      "tags": [
+        "tapestry",
+        "configuration",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public static void bind(ServiceBinder binder) {\n    binder.bind(MyService.class, MyServiceImpl.class);\n}",
+      "description": "Configure a service in AppModule.java",
+      "scenario": "Configure a service in AppModule.java",
+      "language": "java",
+      "tags": [
+        "tapestry",
+        "service",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<filter>\n    <filter-name>app</filter-name>\n    <filter-class>org.apache.tapestry5.TapestryFilter</filter-class>\n</filter>",
+      "description": "Set up a Tapestry filter in web.xml",
+      "scenario": "Set up a Tapestry filter in web.xml",
+      "language": "xml",
+      "tags": [
+        "tapestry",
+        "filter",
+        "web.xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class MyPage {\n    @Inject\n    private MyService myService;\n}",
+      "description": "Create a Tapestry page class",
+      "scenario": "Create a Tapestry page class",
+      "language": "java",
+      "tags": [
+        "tapestry",
+        "page",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Import(stylesheet=\"context:css/mystyle.css\")\npublic class MyComponent {\n}",
+      "description": "Define a Tapestry component",
+      "scenario": "Define a Tapestry component",
+      "language": "java",
+      "tags": [
+        "tapestry",
+        "component",
+        "import"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Parameter\nprivate String myParameter;",
+      "description": "Use a Tapestry parameter in a component",
+      "scenario": "Use a Tapestry parameter in a component",
+      "language": "java",
+      "tags": [
+        "tapestry",
+        "parameter",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Inject\nprivate MyService myService;",
+      "description": "Inject a service into a Tapestry page or component",
+      "scenario": "Inject a service into a Tapestry page or component",
+      "language": "java",
+      "tags": [
+        "tapestry",
+        "inject",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@OnEvent(EventConstants.ACTIVATE)\nvoid onActivate() {\n    // handler code\n}",
+      "description": "Define a Tapestry event handler method",
+      "scenario": "Define a Tapestry event handler method",
+      "language": "java",
+      "tags": [
+        "tapestry",
+        "event",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@PageActivationContext\nprivate MyEntity myEntity;",
+      "description": "Mark a method as a Tapestry page activation context",
+      "scenario": "Mark a method as a Tapestry page activation context",
+      "language": "java",
+      "tags": [
+        "tapestry",
+        "activation",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<t:block id=\"myBlock\">\n    <!-- Block content -->\n</t:block>",
+      "description": "Create a Tapestry block in HTML template",
+      "scenario": "Create a Tapestry block in HTML template",
+      "language": "html",
+      "tags": [
+        "tapestry",
+        "block",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<t:myComponent myParameter=\"value\" />",
+      "description": "Use a Tapestry component in HTML template",
+      "scenario": "Use a Tapestry component in HTML template",
+      "language": "html",
+      "tags": [
+        "tapestry",
+        "component",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<t:parameter name=\"myParameter\">\n    <!-- Parameter content -->\n</t:parameter>",
+      "description": "Define a Tapestry parameter in HTML template",
+      "scenario": "Define a Tapestry parameter in HTML template",
+      "language": "html",
+      "tags": [
+        "tapestry",
+        "parameter",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Canvas Cheat Sheet",
+  "slug": "canvas",
+  "description": "Quick reference for using Canvas effectively.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Home > Dashboard",
+      "description": "Go to the Dashboard",
+      "scenario": "Go to the Dashboard",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "dashboard",
+        "home"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Calendar",
+      "description": "Access the Calendar",
+      "scenario": "Access the Calendar",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "calendar",
+        "schedule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Inbox",
+      "description": "View Inbox messages",
+      "scenario": "View Inbox messages",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "messages",
+        "inbox"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Courses > Select Course > Settings",
+      "description": "Access course settings",
+      "scenario": "Access course settings",
+      "language": "text",
+      "tags": [
+        "courses",
+        "settings",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Courses > Select Course > Grades",
+      "description": "View course grades",
+      "scenario": "View course grades",
+      "language": "text",
+      "tags": [
+        "courses",
+        "grades",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Courses > All Courses > Browse More Courses",
+      "description": "Enroll in a new course",
+      "scenario": "Enroll in a new course",
+      "language": "text",
+      "tags": [
+        "courses",
+        "enrollment",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Courses > Select Course > Assignments > Submit Assignment",
+      "description": "Submit an assignment",
+      "scenario": "Submit an assignment",
+      "language": "text",
+      "tags": [
+        "assignments",
+        "submit",
+        "course"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Courses > Select Course > Grades > Click on Assignment",
+      "description": "View assignment feedback",
+      "scenario": "View assignment feedback",
+      "language": "text",
+      "tags": [
+        "assignments",
+        "feedback",
+        "grades"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Courses > Select Course > Assignments > Click on Assignment > Download",
+      "description": "Download assignment files",
+      "scenario": "Download assignment files",
+      "language": "text",
+      "tags": [
+        "assignments",
+        "download",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Inbox > Compose a new message",
+      "description": "Send a message to a classmate",
+      "scenario": "Send a message to a classmate",
+      "language": "text",
+      "tags": [
+        "communication",
+        "message",
+        "inbox"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Courses > Select Course > Discussions > Click on Discussion",
+      "description": "Join a discussion",
+      "scenario": "Join a discussion",
+      "language": "text",
+      "tags": [
+        "communication",
+        "discussion",
+        "participate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Account > Notifications",
+      "description": "Set notification preferences",
+      "scenario": "Set notification preferences",
+      "language": "text",
+      "tags": [
+        "communication",
+        "notifications",
+        "preferences"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Account > Profile > Edit Profile > Change Picture",
+      "description": "Update profile picture",
+      "scenario": "Update profile picture",
+      "language": "text",
+      "tags": [
+        "profile",
+        "settings",
+        "picture"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Account > Settings > Edit Settings > Change Password",
+      "description": "Change password",
+      "scenario": "Change password",
+      "language": "text",
+      "tags": [
+        "profile",
+        "settings",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Account > Settings > Edit Settings > Time Zone",
+      "description": "Adjust time zone settings",
+      "scenario": "Adjust time zone settings",
+      "language": "text",
+      "tags": [
+        "profile",
+        "settings",
+        "timezone"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

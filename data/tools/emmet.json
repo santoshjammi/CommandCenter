@@ -1,0 +1,204 @@
+{
+  "title": "Emmet Cheat Sheet",
+  "slug": "emmet",
+  "description": "Quick reference for Emmet syntax and commands.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "!",
+      "description": "Create a basic HTML document structure",
+      "scenario": "Create a basic HTML document structure",
+      "language": "text",
+      "tags": [
+        "html",
+        "boilerplate",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div.classname",
+      "description": "Create a div with a class",
+      "scenario": "Create a div with a class",
+      "language": "text",
+      "tags": [
+        "html",
+        "div",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ul>li*3",
+      "description": "Create an unordered list with list items",
+      "scenario": "Create an unordered list with list items",
+      "language": "text",
+      "tags": [
+        "html",
+        "list",
+        "items"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".classname { }",
+      "description": "Create a CSS rule with a class selector",
+      "scenario": "Create a CSS rule with a class selector",
+      "language": "text",
+      "tags": [
+        "css",
+        "class",
+        "selector"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#idname { }",
+      "description": "Create a CSS rule with an ID selector",
+      "scenario": "Create a CSS rule with an ID selector",
+      "language": "text",
+      "tags": [
+        "css",
+        "id",
+        "selector"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a:hover { }",
+      "description": "Create a CSS rule with a pseudo-class",
+      "scenario": "Create a CSS rule with a pseudo-class",
+      "language": "text",
+      "tags": [
+        "css",
+        "pseudo-class",
+        "hover"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "table>tr*2>td*3",
+      "description": "Create a table with rows and columns",
+      "scenario": "Create a table with rows and columns",
+      "language": "text",
+      "tags": [
+        "html",
+        "table",
+        "rows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "form>input:text*2+input:submit",
+      "description": "Create a form with input fields",
+      "scenario": "Create a form with input fields",
+      "language": "text",
+      "tags": [
+        "html",
+        "form",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nav>ul>li*3>a",
+      "description": "Create a navigation bar with links",
+      "scenario": "Create a navigation bar with links",
+      "language": "text",
+      "tags": [
+        "html",
+        "navigation",
+        "links"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "div.wrapper>header.header+main.content+footer.footer",
+      "description": "Create nested elements with classes",
+      "scenario": "Create nested elements with classes",
+      "language": "text",
+      "tags": [
+        "html",
+        "nested",
+        "classes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ul>li.item$*3>span",
+      "description": "Create a list with nested items",
+      "scenario": "Create a list with nested items",
+      "language": "text",
+      "tags": [
+        "html",
+        "list",
+        "nested"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "section>article+aside",
+      "description": "Create a section with article and aside",
+      "scenario": "Create a section with article and aside",
+      "language": "text",
+      "tags": [
+        "html",
+        "section",
+        "article"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "a[href='https://example.com']",
+      "description": "Add custom attributes to an element",
+      "scenario": "Add custom attributes to an element",
+      "language": "text",
+      "tags": [
+        "html",
+        "attributes",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "img[src='image.jpg' alt='Description']",
+      "description": "Create an image with alt text",
+      "scenario": "Create an image with alt text",
+      "language": "text",
+      "tags": [
+        "html",
+        "image",
+        "alt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "script[src='app.js']",
+      "description": "Create a script tag with a source",
+      "scenario": "Create a script tag with a source",
+      "language": "text",
+      "tags": [
+        "html",
+        "script",
+        "source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

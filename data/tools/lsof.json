@@ -1,0 +1,165 @@
+{
+  "title": "Lsof Cheat Sheet",
+  "slug": "lsof",
+  "description": "Quick reference for using lsof to list open files and network connections.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "lsof",
+      "description": "List all open files",
+      "scenario": "List all open files",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -u username",
+      "description": "List all open files by a specific user",
+      "scenario": "List all open files by a specific user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "files",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -p 1234",
+      "description": "List all open files for a specific process ID",
+      "scenario": "List all open files for a specific process ID",
+      "language": "bash",
+      "tags": [
+        "process",
+        "files",
+        "pid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -i",
+      "description": "List all open network connections",
+      "scenario": "List all open network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -i TCP",
+      "description": "List all open TCP connections",
+      "scenario": "List all open TCP connections",
+      "language": "bash",
+      "tags": [
+        "tcp",
+        "connections",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -i UDP",
+      "description": "List all open UDP connections",
+      "scenario": "List all open UDP connections",
+      "language": "bash",
+      "tags": [
+        "udp",
+        "connections",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof /path/to/file",
+      "description": "List open files with a specific filename pattern",
+      "scenario": "List open files with a specific filename pattern",
+      "language": "bash",
+      "tags": [
+        "files",
+        "pattern",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -i :80",
+      "description": "List open files on a specific port",
+      "scenario": "List open files on a specific port",
+      "language": "bash",
+      "tags": [
+        "port",
+        "network",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof +D /path/to/directory",
+      "description": "List open files with detailed output",
+      "scenario": "List open files with detailed output",
+      "language": "bash",
+      "tags": [
+        "detailed",
+        "directory",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -u ^username",
+      "description": "List open files excluding a specific user",
+      "scenario": "List open files excluding a specific user",
+      "language": "bash",
+      "tags": [
+        "exclude",
+        "user",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -n | sort -k4",
+      "description": "List open files and sort by file descriptor",
+      "scenario": "List open files and sort by file descriptor",
+      "language": "bash",
+      "tags": [
+        "sort",
+        "descriptor",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -c commandname",
+      "description": "List open files and filter by command name",
+      "scenario": "List open files and filter by command name",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "command",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

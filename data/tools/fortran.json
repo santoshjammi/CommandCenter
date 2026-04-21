@@ -1,0 +1,204 @@
+{
+  "title": "Fortran Cheat Sheet",
+  "slug": "fortran",
+  "description": "Essential Fortran commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "integer :: i",
+      "description": "Declare an integer variable",
+      "scenario": "Declare an integer variable",
+      "language": "fortran",
+      "tags": [
+        "declaration",
+        "integer",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print *, 'Hello, World!'",
+      "description": "Print a string to the console",
+      "scenario": "Print a string to the console",
+      "language": "fortran",
+      "tags": [
+        "print",
+        "output",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do i = 1, 10\n  print *, i\nend do",
+      "description": "Define a simple loop from 1 to 10",
+      "scenario": "Define a simple loop from 1 to 10",
+      "language": "fortran",
+      "tags": [
+        "loop",
+        "iteration",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (x > 0) then\n  print *, 'Positive'\nelse\n  print *, 'Non-positive'\nend if",
+      "description": "If-else statement example",
+      "scenario": "If-else statement example",
+      "language": "fortran",
+      "tags": [
+        "conditional",
+        "if-else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "select case(n)\n  case(1)\n    print *, 'One'\n  case(2)\n    print *, 'Two'\n  case default\n    print *, 'Other'\nend select",
+      "description": "Select case structure",
+      "scenario": "Select case structure",
+      "language": "fortran",
+      "tags": [
+        "switch",
+        "case",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do while (x < 10)\n  x = x + 1\nend do",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "fortran",
+      "tags": [
+        "loop",
+        "while",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function square(x)\n  real :: square, x\n  square = x * x\nend function square",
+      "description": "Define a function that returns the square of a number",
+      "scenario": "Define a function that returns the square of a number",
+      "language": "fortran",
+      "tags": [
+        "function",
+        "return",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "call mySubroutine(a, b)",
+      "description": "Call a subroutine with arguments",
+      "scenario": "Call a subroutine with arguments",
+      "language": "fortran",
+      "tags": [
+        "subroutine",
+        "call",
+        "procedure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "subroutine printMessage()\n  print *, 'This is a subroutine'\nend subroutine printMessage",
+      "description": "Define a subroutine that prints a message",
+      "scenario": "Define a subroutine that prints a message",
+      "language": "fortran",
+      "tags": [
+        "subroutine",
+        "print",
+        "procedure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "integer, dimension(10) :: arr",
+      "description": "Declare a one-dimensional array of integers",
+      "scenario": "Declare a one-dimensional array of integers",
+      "language": "fortran",
+      "tags": [
+        "array",
+        "declaration",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print *, arr(3)",
+      "description": "Access the third element of an array",
+      "scenario": "Access the third element of an array",
+      "language": "fortran",
+      "tags": [
+        "array",
+        "access",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "integer, dimension(3) :: arr = (/1, 2, 3/)",
+      "description": "Initialize an array with specific values",
+      "scenario": "Initialize an array with specific values",
+      "language": "fortran",
+      "tags": [
+        "array",
+        "initialization",
+        "values"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open(unit=10, file='output.txt', status='unknown')",
+      "description": "Open a file for writing",
+      "scenario": "Open a file for writing",
+      "language": "fortran",
+      "tags": [
+        "file",
+        "open",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "write(10, *) 'Hello, File!'",
+      "description": "Write data to a file",
+      "scenario": "Write data to a file",
+      "language": "fortran",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "close(10)",
+      "description": "Close a file after operations",
+      "scenario": "Close a file after operations",
+      "language": "fortran",
+      "tags": [
+        "file",
+        "close",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

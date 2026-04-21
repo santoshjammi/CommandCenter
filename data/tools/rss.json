@@ -1,0 +1,126 @@
+{
+  "title": "RSS Cheat Sheet",
+  "slug": "rss",
+  "description": "Essential commands and patterns for working with RSS feeds.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "<rss version=\"2.0\">\n  <channel>\n    <title>Example RSS Feed</title>\n    <link>http://www.example.com</link>\n    <description>This is an example RSS feed</description>\n    <item>\n      <title>Example Item</title>\n      <link>http://www.example.com/example-item</link>\n      <description>This is an example item description</description>\n    </item>\n  </channel>\n</rss>",
+      "description": "Define an RSS feed with a channel and items",
+      "scenario": "Define an RSS feed with a channel and items",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "feed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<item>\n  <title>Example Item</title>\n  <link>http://www.example.com/example-item</link>\n  <description>This is an example item description</description>\n  <pubDate>Mon, 06 Sep 2021 16:45:00 +0000</pubDate>\n</item>",
+      "description": "Include a publication date in an RSS item",
+      "scenario": "Include a publication date in an RSS item",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<item>\n  <title>Example Item</title>\n  <link>http://www.example.com/example-item</link>\n  <description>This is an example item description</description>\n  <guid>http://www.example.com/example-item</guid>\n</item>",
+      "description": "Add a GUID to an RSS item for unique identification",
+      "scenario": "Add a GUID to an RSS item for unique identification",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "guid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<channel>\n  <title>Example RSS Feed</title>\n  <link>http://www.example.com</link>\n  <description>This is an example RSS feed</description>\n  <language>en-us</language>\n</channel>",
+      "description": "Set the language of the RSS feed",
+      "scenario": "Set the language of the RSS feed",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "language"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<channel>\n  <title>Example RSS Feed</title>\n  <link>http://www.example.com</link>\n  <description>This is an example RSS feed</description>\n  <lastBuildDate>Mon, 06 Sep 2021 16:45:00 +0000</lastBuildDate>\n</channel>",
+      "description": "Specify the last build date of the RSS feed",
+      "scenario": "Specify the last build date of the RSS feed",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<channel>\n  <title>Example RSS Feed</title>\n  <link>http://www.example.com</link>\n  <description>This is an example RSS feed</description>\n  <managingEditor>editor@example.com</managingEditor>\n</channel>",
+      "description": "Define the managing editor of the RSS feed",
+      "scenario": "Define the managing editor of the RSS feed",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "editor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<item>\n  <title>Example Item</title>\n  <link>http://www.example.com/example-item</link>\n  <description>This is an example item description</description>\n  <media:thumbnail url=\"http://www.example.com/image.jpg\" />\n</item>",
+      "description": "Add a media thumbnail to an RSS item",
+      "scenario": "Add a media thumbnail to an RSS item",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "media"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<item>\n  <title>Example Item</title>\n  <link>http://www.example.com/example-item</link>\n  <description>This is an example item description</description>\n  <enclosure url=\"http://www.example.com/audio.mp3\" length=\"12345\" type=\"audio/mpeg\" />\n</item>",
+      "description": "Include an enclosure for audio or video in an RSS item",
+      "scenario": "Include an enclosure for audio or video in an RSS item",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "enclosure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<item>\n  <title>Example Item</title>\n  <link>http://www.example.com/example-item</link>\n  <description>This is an example item description</description>\n  <category>Technology</category>\n  <category>News</category>\n</item>",
+      "description": "Add categories to an RSS item",
+      "scenario": "Add categories to an RSS item",
+      "language": "xml",
+      "tags": [
+        "rss",
+        "xml",
+        "category"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

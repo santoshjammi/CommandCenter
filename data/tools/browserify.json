@@ -1,0 +1,204 @@
+{
+  "title": "Browserify Cheat Sheet",
+  "slug": "browserify",
+  "description": "Essential CLI commands and configuration for Browserify.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "browserify main.js -o bundle.js",
+      "description": "Bundle a single entry file",
+      "scenario": "Bundle a single entry file",
+      "language": "bash",
+      "tags": [
+        "bundle",
+        "entry",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watchify main.js -o bundle.js",
+      "description": "Watch files for changes and rebundle automatically",
+      "scenario": "Watch files for changes and rebundle automatically",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "rebundle",
+        "automate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js --debug -o bundle.js",
+      "description": "Generate a source map for easier debugging",
+      "scenario": "Generate a source map for easier debugging",
+      "language": "bash",
+      "tags": [
+        "source map",
+        "debug",
+        "bundle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js -o bundle.js -t [ babelify --presets [ @babel/preset-env ] ]",
+      "description": "Use Babel to transpile ES6 to ES5",
+      "scenario": "Use Babel to transpile ES6 to ES5",
+      "language": "bash",
+      "tags": [
+        "babel",
+        "transpile",
+        "es6"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js -o bundle.js -t custom-transform",
+      "description": "Apply a custom transform module",
+      "scenario": "Apply a custom transform module",
+      "language": "bash",
+      "tags": [
+        "transform",
+        "custom",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js -o bundle.js --exclude module_name",
+      "description": "Exclude a module from the bundle",
+      "scenario": "Exclude a module from the bundle",
+      "language": "bash",
+      "tags": [
+        "exclude",
+        "module",
+        "bundle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js -o bundle.js -p [ minifyify --map bundle.map.json --output bundle.map.json ]",
+      "description": "Use a plugin to minify the bundle",
+      "scenario": "Use a plugin to minify the bundle",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "minify",
+        "bundle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js -o bundle.js -p live-reload",
+      "description": "Apply a plugin for live reloading",
+      "scenario": "Apply a plugin for live reloading",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "live reload",
+        "bundle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js -o bundle.js -p incremental-build",
+      "description": "Add a plugin for incremental builds",
+      "scenario": "Add a plugin for incremental builds",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "incremental",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"scripts\": {\n    \"build\": \"browserify src/index.js -o dist/bundle.js\"\n  }\n}",
+      "description": "Basic package.json configuration for Browserify",
+      "scenario": "Basic package.json configuration for Browserify",
+      "language": "json",
+      "tags": [
+        "package.json",
+        "configuration",
+        "scripts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"browserify\": {\n    \"transform\": [\"babelify\"]\n  }\n}",
+      "description": "Add Browserify transform in package.json",
+      "scenario": "Add Browserify transform in package.json",
+      "language": "json",
+      "tags": [
+        "package.json",
+        "transform",
+        "babelify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"browserify\": {\n    \"plugin\": [\"minifyify\"]\n  }\n}",
+      "description": "Configure Browserify with a plugin in package.json",
+      "scenario": "Configure Browserify with a plugin in package.json",
+      "language": "json",
+      "tags": [
+        "package.json",
+        "plugin",
+        "minifyify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify entry1.js entry2.js -o bundle.js",
+      "description": "Bundle multiple entry points",
+      "scenario": "Bundle multiple entry points",
+      "language": "bash",
+      "tags": [
+        "multiple",
+        "entry points",
+        "bundle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js -o bundle.js --ignore module_name",
+      "description": "Ignore a module in the bundle",
+      "scenario": "Ignore a module in the bundle",
+      "language": "bash",
+      "tags": [
+        "ignore",
+        "module",
+        "bundle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gulp.task('scripts', function() {\n  return browserify('src/index.js')\n    .bundle()\n    .pipe(source('bundle.js'))\n    .pipe(gulp.dest('dist'));\n});",
+      "description": "Use Browserify with Gulp for task automation",
+      "scenario": "Use Browserify with Gulp for task automation",
+      "language": "javascript",
+      "tags": [
+        "gulp",
+        "automation",
+        "task"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

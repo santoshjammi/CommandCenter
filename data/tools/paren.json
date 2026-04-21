@@ -1,0 +1,165 @@
+{
+  "title": "Paren Cheat Sheet",
+  "slug": "paren",
+  "description": "Essential commands and syntax for Paren CLI tool",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "paren init myProject",
+      "description": "Initialize a new Paren project",
+      "scenario": "Initialize a new Paren project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren build",
+      "description": "Build the current Paren project",
+      "scenario": "Build the current Paren project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "project",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren run",
+      "description": "Run the Paren project",
+      "scenario": "Run the Paren project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren config set outputDir ./dist",
+      "description": "Set the output directory for builds",
+      "scenario": "Set the output directory for builds",
+      "language": "bash",
+      "tags": [
+        "config",
+        "output",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren config set verbose true",
+      "description": "Enable verbose logging",
+      "scenario": "Enable verbose logging",
+      "language": "bash",
+      "tags": [
+        "config",
+        "logging",
+        "verbose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren watch",
+      "description": "Watch files and rebuild on changes",
+      "scenario": "Watch files and rebuild on changes",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "rebuild",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren clean",
+      "description": "Clean the build directory",
+      "scenario": "Clean the build directory",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren deploy",
+      "description": "Deploy the Paren project",
+      "scenario": "Deploy the Paren project",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "project",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren --version",
+      "description": "Check the version of Paren installed",
+      "scenario": "Check the version of Paren installed",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "paren"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren help",
+      "description": "Get help for Paren commands",
+      "scenario": "Get help for Paren commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "paren run --debug",
+      "description": "Run Paren in debug mode",
+      "scenario": "Run Paren in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "run",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

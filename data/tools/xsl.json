@@ -1,0 +1,204 @@
+{
+  "title": "XSL Cheat Sheet",
+  "slug": "xsl",
+  "description": "Quick reference for XSL transformations and syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<xsl:stylesheet xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" version=\"1.0\">...</xsl:stylesheet>",
+      "description": "Define the root element for an XSLT document",
+      "scenario": "Define the root element for an XSLT document",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "root",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:template match=\"/\">...</xsl:template>",
+      "description": "Match the root element of the XML document",
+      "scenario": "Match the root element of the XML document",
+      "language": "xml",
+      "tags": [
+        "template",
+        "root",
+        "match"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:apply-templates select=\"node\"/>",
+      "description": "Apply templates to child nodes",
+      "scenario": "Apply templates to child nodes",
+      "language": "xml",
+      "tags": [
+        "apply-templates",
+        "select",
+        "nodes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:value-of select=\"elementName\"/>",
+      "description": "Output a value of an XML element",
+      "scenario": "Output a value of an XML element",
+      "language": "xml",
+      "tags": [
+        "value-of",
+        "output",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:for-each select=\"elementName\">...</xsl:for-each>",
+      "description": "Create a loop over XML elements",
+      "scenario": "Create a loop over XML elements",
+      "language": "xml",
+      "tags": [
+        "for-each",
+        "loop",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:if test=\"condition\">...</xsl:if>",
+      "description": "Conditional logic in XSLT",
+      "scenario": "Conditional logic in XSLT",
+      "language": "xml",
+      "tags": [
+        "if",
+        "condition",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:value-of select=\"concat('Hello', ' ', 'World')\"/>",
+      "description": "Concatenate strings in XSLT",
+      "scenario": "Concatenate strings in XSLT",
+      "language": "xml",
+      "tags": [
+        "concat",
+        "strings",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:value-of select=\"count(nodeSet)\"/>",
+      "description": "Count the number of nodes",
+      "scenario": "Count the number of nodes",
+      "language": "xml",
+      "tags": [
+        "count",
+        "nodes",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:if test=\"not(nodeSet)\">...</xsl:if>",
+      "description": "Check if a node set is empty",
+      "scenario": "Check if a node set is empty",
+      "language": "xml",
+      "tags": [
+        "empty",
+        "node-set",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:sort select=\"childElementName\"/>",
+      "description": "Sort elements by a child element",
+      "scenario": "Sort elements by a child element",
+      "language": "xml",
+      "tags": [
+        "sort",
+        "elements",
+        "child"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:apply-templates select=\"element[@attribute='value']\"/>",
+      "description": "Filter elements with a specific attribute",
+      "scenario": "Filter elements with a specific attribute",
+      "language": "xml",
+      "tags": [
+        "filter",
+        "attribute",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:sort select=\"elementName\" order=\"descending\"/>",
+      "description": "Sort elements in descending order",
+      "scenario": "Sort elements in descending order",
+      "language": "xml",
+      "tags": [
+        "sort",
+        "descending",
+        "order"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:output method=\"xml\"/>",
+      "description": "Set the output method to XML",
+      "scenario": "Set the output method to XML",
+      "language": "xml",
+      "tags": [
+        "output",
+        "method",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:output method=\"html\"/>",
+      "description": "Set the output method to HTML",
+      "scenario": "Set the output method to HTML",
+      "language": "xml",
+      "tags": [
+        "output",
+        "method",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:output method=\"text\"/>",
+      "description": "Set the output method to text",
+      "scenario": "Set the output method to text",
+      "language": "xml",
+      "tags": [
+        "output",
+        "method",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

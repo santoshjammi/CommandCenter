@@ -1,0 +1,204 @@
+{
+  "title": "HBase Cheat Sheet",
+  "slug": "hbase",
+  "description": "Quick reference for HBase CLI commands and configurations.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "hbase shell",
+      "description": "Start the HBase shell",
+      "scenario": "Start the HBase shell",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "shell",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list",
+      "description": "List all tables in HBase",
+      "scenario": "List all tables in HBase",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "tables",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "describe 'table_name'",
+      "description": "Describe a specific table",
+      "scenario": "Describe a specific table",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "describe",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "create 'table_name', 'column_family'",
+      "description": "Create a new table with a column family",
+      "scenario": "Create a new table with a column family",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "create",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "disable 'table_name'",
+      "description": "Disable a table before deleting or altering",
+      "scenario": "Disable a table before deleting or altering",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "disable",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drop 'table_name'",
+      "description": "Drop a table after disabling it",
+      "scenario": "Drop a table after disabling it",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "drop",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "put 'table_name', 'row_key', 'column_family:column', 'value'",
+      "description": "Insert data into a table",
+      "scenario": "Insert data into a table",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "put",
+        "insert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "get 'table_name', 'row_key'",
+      "description": "Get data from a table",
+      "scenario": "Get data from a table",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "get",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scan 'table_name'",
+      "description": "Scan a table for all data",
+      "scenario": "Scan a table for all data",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "scan",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export HBASE_HOME=/path/to/hbase",
+      "description": "Set HBase home environment variable",
+      "scenario": "Set HBase home environment variable",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "config",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property><name>hbase.zookeeper.quorum</name><value>zk1,zk2,zk3</value></property>",
+      "description": "Configure HBase to use a specific ZooKeeper quorum",
+      "scenario": "Configure HBase to use a specific ZooKeeper quorum",
+      "language": "xml",
+      "tags": [
+        "hbase",
+        "zookeeper",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property><name>hbase.client.retries.number</name><value>35</value></property>",
+      "description": "Set the maximum number of client retries",
+      "scenario": "Set the maximum number of client retries",
+      "language": "xml",
+      "tags": [
+        "hbase",
+        "client",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "status 'simple'",
+      "description": "Check the status of the HBase cluster",
+      "scenario": "Check the status of the HBase cluster",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "status",
+        "cluster"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stop-hbase.sh",
+      "description": "Stop the HBase cluster",
+      "scenario": "Stop the HBase cluster",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "stop",
+        "cluster"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "start-hbase.sh",
+      "description": "Start the HBase cluster",
+      "scenario": "Start the HBase cluster",
+      "language": "bash",
+      "tags": [
+        "hbase",
+        "start",
+        "cluster"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

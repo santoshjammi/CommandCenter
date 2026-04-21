@@ -1,0 +1,204 @@
+{
+  "title": "Textile Cheat Sheet",
+  "slug": "textile",
+  "description": "Quick reference for Textile markup syntax and usage.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "*bold*",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "text",
+      "tags": [
+        "bold",
+        "formatting",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_italic_",
+      "description": "Italicize text",
+      "scenario": "Italicize text",
+      "language": "text",
+      "tags": [
+        "italic",
+        "formatting",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-strikethrough-",
+      "description": "Create a strikethrough text",
+      "scenario": "Create a strikethrough text",
+      "language": "text",
+      "tags": [
+        "strikethrough",
+        "formatting",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "* Item 1\n* Item 2\n* Item 3",
+      "description": "Create an unordered list",
+      "scenario": "Create an unordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "unordered",
+        "bullet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Item 1\n# Item 2\n# Item 3",
+      "description": "Create an ordered list",
+      "scenario": "Create an ordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "ordered",
+        "numbered"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "* Item 1\n** Subitem 1\n** Subitem 2\n* Item 2",
+      "description": "Create a nested list",
+      "scenario": "Create a nested list",
+      "language": "text",
+      "tags": [
+        "list",
+        "nested",
+        "hierarchy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"Link text\":http://example.com",
+      "description": "Create a hyperlink",
+      "scenario": "Create a hyperlink",
+      "language": "text",
+      "tags": [
+        "link",
+        "hyperlink",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!http://example.com/image.jpg!",
+      "description": "Add an image",
+      "scenario": "Add an image",
+      "language": "text",
+      "tags": [
+        "image",
+        "embed",
+        "media"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!http://example.com/image.jpg!:http://example.com",
+      "description": "Link an image",
+      "scenario": "Link an image",
+      "language": "text",
+      "tags": [
+        "image",
+        "link",
+        "embed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "|_. Header 1 |_. Header 2 |\n| Cell 1 | Cell 2 |\n| Cell 3 | Cell 4 |",
+      "description": "Create a simple table",
+      "scenario": "Create a simple table",
+      "language": "text",
+      "tags": [
+        "table",
+        "grid",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "|<. Left |>. Right |\n|<. Align left |>. Align right |",
+      "description": "Align table cells",
+      "scenario": "Align table cells",
+      "language": "text",
+      "tags": [
+        "table",
+        "alignment",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "|=. Caption |\n| Header 1 | Header 2 |\n| Cell 1 | Cell 2 |",
+      "description": "Add a table caption",
+      "scenario": "Add a table caption",
+      "language": "text",
+      "tags": [
+        "table",
+        "caption",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@code@",
+      "description": "Display inline code",
+      "scenario": "Display inline code",
+      "language": "text",
+      "tags": [
+        "code",
+        "inline",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pre. \nThis is preformatted text.",
+      "description": "Create a block of preformatted text",
+      "scenario": "Create a block of preformatted text",
+      "language": "text",
+      "tags": [
+        "preformatted",
+        "block",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bc. \nprint('Hello, World!')",
+      "description": "Highlight code block",
+      "scenario": "Highlight code block",
+      "language": "text",
+      "tags": [
+        "code",
+        "block",
+        "highlight"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

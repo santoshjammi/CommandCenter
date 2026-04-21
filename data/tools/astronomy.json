@@ -1,0 +1,165 @@
+{
+  "title": "Astronomy CLI and Scripting Cheat Sheet",
+  "slug": "astronomy",
+  "description": "Essential CLI commands and scripts for astronomy data analysis.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "ls *.fits",
+      "description": "List all FITS files in the current directory",
+      "scenario": "List all FITS files in the current directory",
+      "language": "bash",
+      "tags": [
+        "FITS",
+        "files",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fits2csv input.fits output.csv",
+      "description": "Convert a FITS file to a CSV file using astropy",
+      "scenario": "Convert a FITS file to a CSV file using astropy",
+      "language": "bash",
+      "tags": [
+        "FITS",
+        "CSV",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fitsheader file.fits",
+      "description": "Display header information of a FITS file",
+      "scenario": "Display header information of a FITS file",
+      "language": "bash",
+      "tags": [
+        "FITS",
+        "header",
+        "metadata"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from astropy.io import fits\nhdul = fits.open('file.fits')",
+      "description": "Read a FITS file using Astropy",
+      "scenario": "Read a FITS file using Astropy",
+      "language": "python",
+      "tags": [
+        "FITS",
+        "Astropy",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from astropy.wcs import WCS\nwcs = WCS(hdul[0].header)",
+      "description": "Get WCS information from a FITS file",
+      "scenario": "Get WCS information from a FITS file",
+      "language": "python",
+      "tags": [
+        "WCS",
+        "FITS",
+        "Astropy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import matplotlib.pyplot as plt\nplt.imshow(hdul[0].data, cmap='gray')\nplt.show()",
+      "description": "Plot a FITS image using Matplotlib",
+      "scenario": "Plot a FITS image using Matplotlib",
+      "language": "python",
+      "tags": [
+        "FITS",
+        "plot",
+        "Matplotlib"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM stars WHERE magnitude < 5;",
+      "description": "Select all stars with magnitude less than 5",
+      "scenario": "Select all stars with magnitude less than 5",
+      "language": "sql",
+      "tags": [
+        "SQL",
+        "stars",
+        "magnitude"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT COUNT(*) FROM galaxies;",
+      "description": "Count the number of galaxies in the database",
+      "scenario": "Count the number of galaxies in the database",
+      "language": "sql",
+      "tags": [
+        "SQL",
+        "galaxies",
+        "count"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT name FROM constellations;",
+      "description": "Retrieve the names of all constellations",
+      "scenario": "Retrieve the names of all constellations",
+      "language": "sql",
+      "tags": [
+        "SQL",
+        "constellations",
+        "names"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "location:\n  latitude: 34.0522\n  longitude: -118.2437",
+      "description": "Set telescope location coordinates",
+      "scenario": "Set telescope location coordinates",
+      "language": "yaml",
+      "tags": [
+        "telescope",
+        "location",
+        "coordinates"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "schedule:\n  - target: 'Mars'\n    start: '2023-10-01T22:00:00'\n    end: '2023-10-01T23:00:00'",
+      "description": "Define observation schedule",
+      "scenario": "Define observation schedule",
+      "language": "yaml",
+      "tags": [
+        "observation",
+        "schedule",
+        "telescope"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camera:\n  exposure_time: 30\n  gain: 1.5",
+      "description": "Configure camera settings for observation",
+      "scenario": "Configure camera settings for observation",
+      "language": "yaml",
+      "tags": [
+        "camera",
+        "settings",
+        "observation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

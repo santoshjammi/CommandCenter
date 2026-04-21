@@ -1,0 +1,165 @@
+{
+  "title": "Symfony2 Cheat Sheet",
+  "slug": "symfony2",
+  "description": "Quick reference for Symfony2 CLI commands and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "php app/console cache:clear --env=dev",
+      "description": "Clear the cache for the development environment",
+      "scenario": "Clear the cache for the development environment",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "cli",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php app/console server:run",
+      "description": "Run the Symfony2 built-in server",
+      "scenario": "Run the Symfony2 built-in server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "cli",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "php app/console generate:bundle",
+      "description": "Generate a new bundle",
+      "scenario": "Generate a new bundle",
+      "language": "bash",
+      "tags": [
+        "bundle",
+        "cli",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "parameters:\\n    database_host: 127.0.0.1\\n    database_port: null\\n    database_name: symfony\\n    database_user: root\\n    database_password: null",
+      "description": "Configure database connection in parameters.yml",
+      "scenario": "Configure database connection in parameters.yml",
+      "language": "yaml",
+      "tags": [
+        "database",
+        "configuration",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app_homepage:\\n    path:     /\\n    defaults: { _controller: AppBundle:Default:index }",
+      "description": "Set up routing in routing.yml",
+      "scenario": "Set up routing in routing.yml",
+      "language": "yaml",
+      "tags": [
+        "routing",
+        "configuration",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "services:\\n    app.mailer:\\n        class: AppBundle\\Mailer\\Mailer\\n        arguments: ['@mailer']",
+      "description": "Configure services in services.yml",
+      "scenario": "Configure services in services.yml",
+      "language": "yaml",
+      "tags": [
+        "services",
+        "configuration",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public function indexAction()\\n{\\n    return $this->render('default/index.html.twig');\\n}",
+      "description": "Define a controller action",
+      "scenario": "Define a controller action",
+      "language": "php",
+      "tags": [
+        "controller",
+        "action",
+        "php"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/**\\n * @ORM\\Entity\\n * @ORM\\Table(name=\"product\")\\n */\\nclass Product\\n{\\n    /**\\n     * @ORM\\Column(type=\"string\")\\n     */\\n    private $name;\\n}",
+      "description": "Create a Doctrine entity",
+      "scenario": "Create a Doctrine entity",
+      "language": "php",
+      "tags": [
+        "doctrine",
+        "entity",
+        "php"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ render(controller('AppBundle:Default:index')) }}",
+      "description": "Render a Twig template",
+      "scenario": "Render a Twig template",
+      "language": "twig",
+      "tags": [
+        "twig",
+        "template",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "return $this->redirectToRoute('homepage');",
+      "description": "Redirect to a route in a controller",
+      "scenario": "Redirect to a route in a controller",
+      "language": "php",
+      "tags": [
+        "redirect",
+        "route",
+        "controller"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$form = $this->createFormBuilder($task)\\n    ->add('task', TextType::class)\\n    ->add('dueDate', DateType::class)\\n    ->getForm();",
+      "description": "Add a form to a controller",
+      "scenario": "Add a form to a controller",
+      "language": "php",
+      "tags": [
+        "form",
+        "controller",
+        "php"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$mailer = $this->get('app.mailer');\\n$mailer->sendEmail();",
+      "description": "Use a service in a controller",
+      "scenario": "Use a service in a controller",
+      "language": "php",
+      "tags": [
+        "service",
+        "controller",
+        "php"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

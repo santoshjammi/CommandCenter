@@ -1,0 +1,191 @@
+{
+  "title": "Less Command Cheat Sheet",
+  "slug": "less",
+  "description": "Quick reference for using the 'less' command in the terminal.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "j",
+      "description": "Move forward one line",
+      "scenario": "Move forward one line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "forward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "k",
+      "description": "Move backward one line",
+      "scenario": "Move backward one line",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "backward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f",
+      "description": "Move forward one page",
+      "scenario": "Move forward one page",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "page",
+        "forward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "b",
+      "description": "Move backward one page",
+      "scenario": "Move backward one page",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "page",
+        "backward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/pattern",
+      "description": "Search forward for a pattern",
+      "scenario": "Search forward for a pattern",
+      "language": "text",
+      "tags": [
+        "search",
+        "forward",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?pattern",
+      "description": "Search backward for a pattern",
+      "scenario": "Search backward for a pattern",
+      "language": "text",
+      "tags": [
+        "search",
+        "backward",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "n",
+      "description": "Repeat last search forward",
+      "scenario": "Repeat last search forward",
+      "language": "text",
+      "tags": [
+        "search",
+        "repeat",
+        "forward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "N",
+      "description": "Repeat last search backward",
+      "scenario": "Repeat last search backward",
+      "language": "text",
+      "tags": [
+        "search",
+        "repeat",
+        "backward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "q",
+      "description": "Exit less",
+      "scenario": "Exit less",
+      "language": "text",
+      "tags": [
+        "exit",
+        "quit",
+        "close"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "h",
+      "description": "Display help screen",
+      "scenario": "Display help screen",
+      "language": "text",
+      "tags": [
+        "help",
+        "screen",
+        "manual"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+R",
+      "description": "Refresh the display",
+      "scenario": "Refresh the display",
+      "language": "text",
+      "tags": [
+        "refresh",
+        "display",
+        "screen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":e filename",
+      "description": "Open a new file",
+      "scenario": "Open a new file",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":n",
+      "description": "View a list of open files",
+      "scenario": "View a list of open files",
+      "language": "text",
+      "tags": [
+        "file",
+        "list",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":p",
+      "description": "Switch to the next file",
+      "scenario": "Switch to the next file",
+      "language": "text",
+      "tags": [
+        "file",
+        "switch",
+        "next"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Tailspin CLI Cheat Sheet",
+  "slug": "tailspin",
+  "description": "Essential commands and patterns for the Tailspin CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "tailspin init my-project",
+      "description": "Initialize a new Tailspin project",
+      "scenario": "Initialize a new Tailspin project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin build",
+      "description": "Build the Tailspin project",
+      "scenario": "Build the Tailspin project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin run",
+      "description": "Run the Tailspin project",
+      "scenario": "Run the Tailspin project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin config set --file config.yaml",
+      "description": "Set the configuration file for the project",
+      "scenario": "Set the configuration file for the project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin config get key",
+      "description": "Get a specific configuration value",
+      "scenario": "Get a specific configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin watch",
+      "description": "Watch files for changes and rebuild automatically",
+      "scenario": "Watch files for changes and rebuild automatically",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "rebuild",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin deploy --env production",
+      "description": "Deploy the Tailspin project to production",
+      "scenario": "Deploy the Tailspin project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin clean",
+      "description": "Clean the build artifacts",
+      "scenario": "Clean the build artifacts",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "artifacts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin debug",
+      "description": "Run the project in debug mode",
+      "scenario": "Run the project in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "mode",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin logs --level debug",
+      "description": "Show detailed logs for debugging",
+      "scenario": "Show detailed logs for debugging",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "debug",
+        "detailed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin attach --pid 1234",
+      "description": "Attach a debugger to a running process",
+      "scenario": "Attach a debugger to a running process",
+      "language": "bash",
+      "tags": [
+        "debugger",
+        "attach",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export TAILSPIN_ENV=development && tailspin run",
+      "description": "Use environment variables in Tailspin",
+      "scenario": "Use environment variables in Tailspin",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin run > output.log",
+      "description": "Redirect output to a file",
+      "scenario": "Redirect output to a file",
+      "language": "bash",
+      "tags": [
+        "output",
+        "redirect",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tailspin build && tailspin run",
+      "description": "Chain commands with logical AND",
+      "scenario": "Chain commands with logical AND",
+      "language": "bash",
+      "tags": [
+        "chain",
+        "commands",
+        "logical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

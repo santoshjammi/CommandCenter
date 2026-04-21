@@ -1,0 +1,165 @@
+{
+  "title": "Rubygems Cheat Sheet",
+  "slug": "rubygems",
+  "description": "Essential commands and patterns for managing Ruby gems",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "gem install <gem_name>",
+      "description": "Install a gem",
+      "scenario": "Install a gem",
+      "language": "bash",
+      "tags": [
+        "install",
+        "gem",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem uninstall <gem_name>",
+      "description": "Uninstall a gem",
+      "scenario": "Uninstall a gem",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "gem",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem list",
+      "description": "List all installed gems",
+      "scenario": "List all installed gems",
+      "language": "bash",
+      "tags": [
+        "list",
+        "gem",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem update <gem_name>",
+      "description": "Update a specific gem",
+      "scenario": "Update a specific gem",
+      "language": "bash",
+      "tags": [
+        "update",
+        "gem",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem outdated",
+      "description": "Check outdated gems",
+      "scenario": "Check outdated gems",
+      "language": "bash",
+      "tags": [
+        "outdated",
+        "gem",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem update",
+      "description": "Update all gems",
+      "scenario": "Update all gems",
+      "language": "bash",
+      "tags": [
+        "update",
+        "all",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem environment",
+      "description": "Display gem environment information",
+      "scenario": "Display gem environment information",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "info",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem install <gem_name> --install-dir <directory>",
+      "description": "Specify a different gem home",
+      "scenario": "Specify a different gem home",
+      "language": "bash",
+      "tags": [
+        "install",
+        "directory",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem sources --list",
+      "description": "View gem sources",
+      "scenario": "View gem sources",
+      "language": "bash",
+      "tags": [
+        "sources",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle install",
+      "description": "Install gems from a Gemfile",
+      "scenario": "Install gems from a Gemfile",
+      "language": "bash",
+      "tags": [
+        "bundle",
+        "install",
+        "gemfile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bundle update",
+      "description": "Update gems in a Gemfile",
+      "scenario": "Update gems in a Gemfile",
+      "language": "bash",
+      "tags": [
+        "bundle",
+        "update",
+        "gemfile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gem '<gem_name>', '~> <version>'",
+      "description": "Add a gem to a Gemfile",
+      "scenario": "Add a gem to a Gemfile",
+      "language": "ruby",
+      "tags": [
+        "gemfile",
+        "add",
+        "ruby"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Perl Cheat Sheet",
+  "slug": "perl",
+  "description": "Quick reference for Perl CLI commands, syntax, and common patterns.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "print \"Hello, World!\\n\";",
+      "description": "Print a string to the console",
+      "scenario": "Print a string to the console",
+      "language": "perl",
+      "tags": [
+        "print",
+        "string",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my $variable = 42;",
+      "description": "Declare a scalar variable",
+      "scenario": "Declare a scalar variable",
+      "language": "perl",
+      "tags": [
+        "variable",
+        "scalar",
+        "declare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my @array = (1, 2, 3);\nmy $first = $array[0];",
+      "description": "Create an array and access elements",
+      "scenario": "Create an array and access elements",
+      "language": "perl",
+      "tags": [
+        "array",
+        "elements",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if ($condition) {\n    print \"True\";\n} else {\n    print \"False\";\n}",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "perl",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (my $i = 0; $i < 10; $i++) {\n    print \"$i\\n\";\n}",
+      "description": "For loop iteration",
+      "scenario": "For loop iteration",
+      "language": "perl",
+      "tags": [
+        "loop",
+        "iteration",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while ($condition) {\n    print \"Looping\";\n}",
+      "description": "While loop with condition",
+      "scenario": "While loop with condition",
+      "language": "perl",
+      "tags": [
+        "while",
+        "loop",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open(my $fh, '<', 'filename.txt') or die \"Cannot open file: $!\";",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "perl",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (my $line = <$fh>) {\n    print $line;\n}",
+      "description": "Read a file line by line",
+      "scenario": "Read a file line by line",
+      "language": "perl",
+      "tags": [
+        "file",
+        "read",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "close($fh);",
+      "description": "Close a file handle",
+      "scenario": "Close a file handle",
+      "language": "perl",
+      "tags": [
+        "file",
+        "close",
+        "handle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if ($string =~ /pattern/) {\n    print \"Match found\";\n}",
+      "description": "Match a pattern in a string",
+      "scenario": "Match a pattern in a string",
+      "language": "perl",
+      "tags": [
+        "regex",
+        "match",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$string =~ s/pattern/replacement/;",
+      "description": "Substitute a pattern in a string",
+      "scenario": "Substitute a pattern in a string",
+      "language": "perl",
+      "tags": [
+        "regex",
+        "substitute",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$string =~ s/pattern/replacement/g;",
+      "description": "Global substitution in a string",
+      "scenario": "Global substitution in a string",
+      "language": "perl",
+      "tags": [
+        "regex",
+        "global",
+        "substitution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl script.pl",
+      "description": "Run a Perl script from the command line",
+      "scenario": "Run a Perl script from the command line",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -e 'print \"Hello, World!\\n\";'",
+      "description": "Execute a one-liner Perl command",
+      "scenario": "Execute a one-liner Perl command",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "one-liner",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -Mmodule -e 'module::function();'",
+      "description": "Use a Perl module from the command line",
+      "scenario": "Use a Perl module from the command line",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "module",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

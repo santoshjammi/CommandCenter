@@ -1,0 +1,165 @@
+{
+  "title": "Mathematics Cheat Sheet",
+  "slug": "mathematics",
+  "description": "Quick reference for mathematical operations and functions in Python.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "result = 5 + 3",
+      "description": "Addition of two numbers",
+      "scenario": "Addition of two numbers",
+      "language": "python",
+      "tags": [
+        "addition",
+        "arithmetic",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "result = 10 - 2",
+      "description": "Subtraction of two numbers",
+      "scenario": "Subtraction of two numbers",
+      "language": "python",
+      "tags": [
+        "subtraction",
+        "arithmetic",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "result = 4 * 7",
+      "description": "Multiplication of two numbers",
+      "scenario": "Multiplication of two numbers",
+      "language": "python",
+      "tags": [
+        "multiplication",
+        "arithmetic",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nresult = math.sqrt(16)",
+      "description": "Calculate the square root of a number",
+      "scenario": "Calculate the square root of a number",
+      "language": "python",
+      "tags": [
+        "sqrt",
+        "math",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "result = pow(2, 3)",
+      "description": "Calculate the power of a number",
+      "scenario": "Calculate the power of a number",
+      "language": "python",
+      "tags": [
+        "power",
+        "exponentiation",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nresult = math.sin(math.pi/2)",
+      "description": "Calculate the sine of an angle in radians",
+      "scenario": "Calculate the sine of an angle in radians",
+      "language": "python",
+      "tags": [
+        "sine",
+        "trigonometry",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import statistics\nresult = statistics.mean([1, 2, 3, 4, 5])",
+      "description": "Calculate the mean of a list of numbers",
+      "scenario": "Calculate the mean of a list of numbers",
+      "language": "python",
+      "tags": [
+        "mean",
+        "statistics",
+        "average"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import statistics\nresult = statistics.median([1, 2, 3, 4, 5])",
+      "description": "Calculate the median of a list of numbers",
+      "scenario": "Calculate the median of a list of numbers",
+      "language": "python",
+      "tags": [
+        "median",
+        "statistics",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import statistics\nresult = statistics.stdev([1, 2, 3, 4, 5])",
+      "description": "Calculate the standard deviation of a list of numbers",
+      "scenario": "Calculate the standard deviation of a list of numbers",
+      "language": "python",
+      "tags": [
+        "standard deviation",
+        "statistics",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True",
+      "description": "Check if a number is prime",
+      "scenario": "Check if a number is prime",
+      "language": "python",
+      "tags": [
+        "prime",
+        "number theory",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\ngcd = math.gcd(48, 18)",
+      "description": "Find the greatest common divisor of two numbers",
+      "scenario": "Find the greatest common divisor of two numbers",
+      "language": "python",
+      "tags": [
+        "gcd",
+        "number theory",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nresult = math.factorial(5)",
+      "description": "Calculate the factorial of a number",
+      "scenario": "Calculate the factorial of a number",
+      "language": "python",
+      "tags": [
+        "factorial",
+        "number theory",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

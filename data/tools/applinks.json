@@ -1,0 +1,165 @@
+{
+  "title": "Applinks Cheat Sheet",
+  "slug": "applinks",
+  "description": "Quick reference for applinks configuration and troubleshooting.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "applinks list",
+      "description": "List all applinks configurations",
+      "scenario": "List all applinks configurations",
+      "language": "bash",
+      "tags": [
+        "list",
+        "applinks",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "applinks add --name MyAppLink --url https://example.com",
+      "description": "Add a new applink",
+      "scenario": "Add a new applink",
+      "language": "bash",
+      "tags": [
+        "add",
+        "applinks",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "applinks remove --name MyAppLink",
+      "description": "Remove an existing applink",
+      "scenario": "Remove an existing applink",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "applinks",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"applinks\": {\n    \"apps\": [],\n    \"details\": [{\n      \"appID\": \"ABCDE12345.com.example.app\",\n      \"paths\": [\"/path/to/resource\"]\n    }]\n  }\n}",
+      "description": "Basic applink configuration example",
+      "scenario": "Basic applink configuration example",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "json",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"applinks\": {\n    \"apps\": [],\n    \"details\": [{\n      \"appID\": \"ABCDE12345.com.example.app\",\n      \"paths\": [\"/*\"]\n    }]\n  }\n}",
+      "description": "Wildcard applink path configuration",
+      "scenario": "Wildcard applink path configuration",
+      "language": "json",
+      "tags": [
+        "wildcard",
+        "configuration",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"applinks\": {\n    \"apps\": [],\n    \"details\": [\n      {\n        \"appID\": \"ABCDE12345.com.example.app1\",\n        \"paths\": [\"/path1\"]\n      },\n      {\n        \"appID\": \"FGHIJ67890.com.example.app2\",\n        \"paths\": [\"/path2\"]\n      }\n    ]\n  }\n}",
+      "description": "Multiple applinks configuration",
+      "scenario": "Multiple applinks configuration",
+      "language": "json",
+      "tags": [
+        "multiple",
+        "configuration",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "applinks status --name MyAppLink",
+      "description": "Check applink status",
+      "scenario": "Check applink status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "troubleshoot",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "applinks validate --config applinks.json",
+      "description": "Validate applink configuration",
+      "scenario": "Validate applink configuration",
+      "language": "bash",
+      "tags": [
+        "validate",
+        "troubleshoot",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "applinks debug --name MyAppLink",
+      "description": "Debug applink issues",
+      "scenario": "Debug applink issues",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "troubleshoot",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"applinks\": {\n    \"apps\": [],\n    \"details\": [{\n      \"appID\": \"ABCDE12345.com.example.app\",\n      \"paths\": [\"/path1\", \"/path2\"]\n    }]\n  }\n}",
+      "description": "Pattern for handling multiple paths",
+      "scenario": "Pattern for handling multiple paths",
+      "language": "json",
+      "tags": [
+        "patterns",
+        "multiple",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"applinks\": {\n    \"apps\": [],\n    \"details\": [{\n      \"appID\": \"ABCDE12345.com.example.app\",\n      \"paths\": [\"NOT /excluded\"]\n    }]\n  }\n}",
+      "description": "Pattern for excluding paths",
+      "scenario": "Pattern for excluding paths",
+      "language": "json",
+      "tags": [
+        "patterns",
+        "exclude",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"applinks\": {\n    \"apps\": [],\n    \"details\": [{\n      \"appID\": \"ABCDE12345.com.example.app\",\n      \"paths\": [\"/subdomain/*\"]\n    }]\n  }\n}",
+      "description": "Pattern for subdomain applinks",
+      "scenario": "Pattern for subdomain applinks",
+      "language": "json",
+      "tags": [
+        "patterns",
+        "subdomain",
+        "applinks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

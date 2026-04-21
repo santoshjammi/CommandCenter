@@ -1,0 +1,204 @@
+{
+  "title": "db4o Cheat Sheet",
+  "slug": "db4o",
+  "description": "Quick reference for db4o database operations and configurations.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "db.store(myObject);",
+      "description": "Store an object in the database",
+      "scenario": "Store an object in the database",
+      "language": "java",
+      "tags": [
+        "store",
+        "object",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List<MyClass> result = db.query(MyClass.class);",
+      "description": "Retrieve all objects of a class",
+      "scenario": "Retrieve all objects of a class",
+      "language": "java",
+      "tags": [
+        "query",
+        "retrieve",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.delete(myObject);",
+      "description": "Delete an object from the database",
+      "scenario": "Delete an object from the database",
+      "language": "java",
+      "tags": [
+        "delete",
+        "object",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "EmbeddedConfiguration config = Db4oEmbedded.newConfiguration();\nconfig.common().objectClass(MyClass.class).updateDepth(Integer.MAX_VALUE);",
+      "description": "Enable automatic schema updates",
+      "scenario": "Enable automatic schema updates",
+      "language": "java",
+      "tags": [
+        "configuration",
+        "schema",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Db4oEmbedded.openFile(Db4oEmbedded.newConfiguration(), \"databaseFile.db4o\");",
+      "description": "Configure database file path",
+      "scenario": "Configure database file path",
+      "language": "java",
+      "tags": [
+        "configuration",
+        "file",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.common().activationDepth(5);",
+      "description": "Set activation depth",
+      "scenario": "Set activation depth",
+      "language": "java",
+      "tags": [
+        "configuration",
+        "activation",
+        "depth"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List<MyClass> result = db.query(new Predicate<MyClass>() {\n    public boolean match(MyClass obj) {\n        return obj.getField() > 10;\n    }\n});",
+      "description": "Query with a predicate",
+      "scenario": "Query with a predicate",
+      "language": "java",
+      "tags": [
+        "query",
+        "predicate",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List<MyClass> result = db.query(new Predicate<MyClass>() {\n    public boolean match(MyClass obj) {\n        return obj.isActive();\n    }\n});",
+      "description": "Use native query to find objects",
+      "scenario": "Use native query to find objects",
+      "language": "java",
+      "tags": [
+        "query",
+        "native",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List<MyClass> result = db.query(new Predicate<MyClass>() {\n    public boolean match(MyClass obj) {\n        return obj.isActive();\n    }\n}, new Comparator<MyClass>() {\n    public int compare(MyClass o1, MyClass o2) {\n        return o1.getName().compareTo(o2.getName());\n    }\n});",
+      "description": "Sort query results",
+      "scenario": "Sort query results",
+      "language": "java",
+      "tags": [
+        "query",
+        "sort",
+        "results"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.ext().store();",
+      "description": "Begin a transaction",
+      "scenario": "Begin a transaction",
+      "language": "java",
+      "tags": [
+        "transaction",
+        "begin",
+        "store"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.commit();",
+      "description": "Commit a transaction",
+      "scenario": "Commit a transaction",
+      "language": "java",
+      "tags": [
+        "transaction",
+        "commit",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.rollback();",
+      "description": "Rollback a transaction",
+      "scenario": "Rollback a transaction",
+      "language": "java",
+      "tags": [
+        "transaction",
+        "rollback",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.activate(myObject, 5);",
+      "description": "Activate an object",
+      "scenario": "Activate an object",
+      "language": "java",
+      "tags": [
+        "activate",
+        "object",
+        "depth"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db.deactivate(myObject, 5);",
+      "description": "Deactivate an object",
+      "scenario": "Deactivate an object",
+      "language": "java",
+      "tags": [
+        "deactivate",
+        "object",
+        "depth"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Defragment.defrag(new DefragmentConfig(\"databaseFile.db4o\"));",
+      "description": "Defragment the database file",
+      "scenario": "Defragment the database file",
+      "language": "java",
+      "tags": [
+        "defragment",
+        "database",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

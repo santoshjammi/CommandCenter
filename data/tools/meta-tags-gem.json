@@ -1,0 +1,165 @@
+{
+  "title": "Meta-tags Gem Cheat Sheet",
+  "slug": "meta-tags-gem",
+  "description": "Quick reference for using the Meta-tags gem in Rails applications.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<%= display_meta_tags %>",
+      "description": "Add meta-tags to a Rails view",
+      "scenario": "Add meta-tags to a Rails view",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "meta-tags",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set_meta_tags title: 'My Title', description: 'My Description'",
+      "description": "Set title and description in a controller",
+      "scenario": "Set title and description in a controller",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "controller",
+        "meta-tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= display_meta_tags site: 'My Site', reverse: true %>",
+      "description": "Set default meta-tags in application layout",
+      "scenario": "Set default meta-tags in application layout",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "layout",
+        "meta-tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set_meta_tags og: { title: 'Title', type: 'website', url: request.url }",
+      "description": "Add Open Graph meta-tags",
+      "scenario": "Add Open Graph meta-tags",
+      "language": "ruby",
+      "tags": [
+        "open-graph",
+        "meta-tags",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set_meta_tags twitter: { card: 'summary', site: '@site_account' }",
+      "description": "Add Twitter card meta-tags",
+      "scenario": "Add Twitter card meta-tags",
+      "language": "ruby",
+      "tags": [
+        "twitter",
+        "meta-tags",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set_meta_tags title: @post.title if @post",
+      "description": "Use conditional meta-tags",
+      "scenario": "Use conditional meta-tags",
+      "language": "ruby",
+      "tags": [
+        "conditional",
+        "meta-tags",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# config/initializers/meta_tags.rb\nMetaTags.configure do |c|\n  c.title_limit = 70\n  c.description_limit = 160\nend",
+      "description": "Configure default meta-tags in an initializer",
+      "scenario": "Configure default meta-tags in an initializer",
+      "language": "ruby",
+      "tags": [
+        "configuration",
+        "initializer",
+        "meta-tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class ApplicationController < ActionController::Base\n  before_action :set_default_meta_tags\n\n  private\n\n  def set_default_meta_tags\n    set_meta_tags site: 'My Site'\n  end\nend",
+      "description": "Set default meta-tags for all controllers",
+      "scenario": "Set default meta-tags for all controllers",
+      "language": "ruby",
+      "tags": [
+        "controller",
+        "default",
+        "meta-tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class PostsController < ApplicationController\n  def show\n    set_meta_tags title: @post.title, description: @post.summary\n  end\nend",
+      "description": "Override default meta-tags in a specific controller",
+      "scenario": "Override default meta-tags in a specific controller",
+      "language": "ruby",
+      "tags": [
+        "override",
+        "controller",
+        "meta-tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(view).to receive(:display_meta_tags).with(hash_including(title: 'My Title'))",
+      "description": "Test meta-tags in a Rails view spec",
+      "scenario": "Test meta-tags in a Rails view spec",
+      "language": "ruby",
+      "tags": [
+        "testing",
+        "rspec",
+        "meta-tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(controller).to set_meta_tags(title: 'My Title')",
+      "description": "Check meta-tags in a controller spec",
+      "scenario": "Check meta-tags in a controller spec",
+      "language": "ruby",
+      "tags": [
+        "testing",
+        "controller",
+        "meta-tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(page).to have_selector('meta[name=\"description\"][content=\"My Description\"]', visible: false)",
+      "description": "Use Capybara to verify meta-tags in feature specs",
+      "scenario": "Use Capybara to verify meta-tags in feature specs",
+      "language": "ruby",
+      "tags": [
+        "capybara",
+        "feature",
+        "meta-tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

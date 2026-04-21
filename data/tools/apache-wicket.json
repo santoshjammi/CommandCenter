@@ -1,0 +1,204 @@
+{
+  "title": "Apache Wicket Cheat Sheet",
+  "slug": "apache-wicket",
+  "description": "Quick reference for Apache Wicket web framework commands and syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "Label label = new Label(\"labelId\", \"Hello World\");",
+      "description": "Create a basic label component",
+      "scenario": "Create a basic label component",
+      "language": "java",
+      "tags": [
+        "label",
+        "component",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add(new Label(\"labelId\", \"Hello World\"));",
+      "description": "Add a component to a Wicket page",
+      "scenario": "Add a component to a Wicket page",
+      "language": "java",
+      "tags": [
+        "add",
+        "component",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Form<?> form = new Form<Void>(\"formId\");\nTextField<String> textField = new TextField<>(\"textFieldId\", Model.of(\"\"));\nform.add(textField);",
+      "description": "Create a form with a text field",
+      "scenario": "Create a form with a text field",
+      "language": "java",
+      "tags": [
+        "form",
+        "text field",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Button button = new Button(\"buttonId\") {\n    @Override\n    public void onSubmit() {\n        // Handle button click\n    }\n};",
+      "description": "Add a button with an onClick event",
+      "scenario": "Add a button with an onClick event",
+      "language": "java",
+      "tags": [
+        "button",
+        "event",
+        "onclick"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Form<?> form = new Form<Void>(\"formId\") {\n    @Override\n    protected void onSubmit() {\n        // Handle form submission\n    }\n};",
+      "description": "Handle form submission",
+      "scenario": "Handle form submission",
+      "language": "java",
+      "tags": [
+        "form",
+        "submit",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "component.add(new AjaxEventBehavior(\"click\") {\n    @Override\n    protected void onEvent(AjaxRequestTarget target) {\n        // Handle Ajax event\n    }\n});",
+      "description": "Add an Ajax event behavior",
+      "scenario": "Add an Ajax event behavior",
+      "language": "java",
+      "tags": [
+        "ajax",
+        "event",
+        "behavior"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "TextField<String> textField = new TextField<>(\"textFieldId\", new PropertyModel<>(object, \"propertyName\"));",
+      "description": "Bind a property model to a component",
+      "scenario": "Bind a property model to a component",
+      "language": "java",
+      "tags": [
+        "model",
+        "binding",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CompoundPropertyModel<MyObject> model = new CompoundPropertyModel<>(myObject);",
+      "description": "Use a compound property model",
+      "scenario": "Use a compound property model",
+      "language": "java",
+      "tags": [
+        "compound",
+        "property",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ListView<String> listView = new ListView<String>(\"listViewId\", new ListModel<>(myList)) {\n    @Override\n    protected void populateItem(ListItem<String> item) {\n        item.add(new Label(\"labelId\", item.getModel()));\n    }\n};",
+      "description": "Bind a list model to a component",
+      "scenario": "Bind a list model to a component",
+      "language": "java",
+      "tags": [
+        "list",
+        "model",
+        "binding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setResponsePage(AnotherPage.class);",
+      "description": "Redirect to another page",
+      "scenario": "Redirect to another page",
+      "language": "java",
+      "tags": [
+        "navigation",
+        "redirect",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PageParameters parameters = new PageParameters();\nparameters.add(\"paramName\", \"value\");\nsetResponsePage(AnotherPage.class, parameters);",
+      "description": "Pass parameters to another page",
+      "scenario": "Pass parameters to another page",
+      "language": "java",
+      "tags": [
+        "parameters",
+        "page",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "BookmarkablePageLink<Void> link = new BookmarkablePageLink<>(\"linkId\", AnotherPage.class);",
+      "description": "Bookmarkable page link",
+      "scenario": "Bookmarkable page link",
+      "language": "java",
+      "tags": [
+        "link",
+        "bookmarkable",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class MyApplication extends WebApplication {\n    @Override\n    protected void init() {\n        getMarkupSettings().setStripWicketTags(true);\n    }\n}",
+      "description": "Configure application settings in Wicket",
+      "scenario": "Configure application settings in Wicket",
+      "language": "java",
+      "tags": [
+        "configuration",
+        "settings",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Override\npublic Class<? extends Page> getHomePage() {\n    return HomePage.class;\n}",
+      "description": "Set home page for the application",
+      "scenario": "Set home page for the application",
+      "language": "java",
+      "tags": [
+        "home",
+        "page",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Override\npublic RuntimeConfigurationType getConfigurationType() {\n    return RuntimeConfigurationType.DEVELOPMENT;\n}",
+      "description": "Enable development mode",
+      "scenario": "Enable development mode",
+      "language": "java",
+      "tags": [
+        "development",
+        "mode",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

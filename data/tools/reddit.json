@@ -1,0 +1,165 @@
+{
+  "title": "Reddit CLI and API Cheat Sheet",
+  "slug": "reddit",
+  "description": "Quick reference for Reddit CLI commands and API usage",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "reddit-cli login",
+      "description": "Log in to Reddit using the CLI",
+      "scenario": "Log in to Reddit using the CLI",
+      "language": "bash",
+      "tags": [
+        "login",
+        "authentication",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "reddit-cli post --subreddit=example --title=\"Hello World\" --text=\"This is a test post\"",
+      "description": "Post a new submission to a subreddit",
+      "scenario": "Post a new submission to a subreddit",
+      "language": "bash",
+      "tags": [
+        "post",
+        "submission",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "reddit-cli fetch --subreddit=example --sort=top --limit=10",
+      "description": "Fetch the top posts from a subreddit",
+      "scenario": "Fetch the top posts from a subreddit",
+      "language": "bash",
+      "tags": [
+        "fetch",
+        "top posts",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -d 'grant_type=password&username=USERNAME&password=PASSWORD' --user 'CLIENT_ID:SECRET' https://www.reddit.com/api/v1/access_token",
+      "description": "Get OAuth2 token for API access",
+      "scenario": "Get OAuth2 token for API access",
+      "language": "bash",
+      "tags": [
+        "oauth2",
+        "api",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H \"Authorization: Bearer ACCESS_TOKEN\" https://oauth.reddit.com/user/USERNAME/saved",
+      "description": "Retrieve user's saved posts using API",
+      "scenario": "Retrieve user's saved posts using API",
+      "language": "bash",
+      "tags": [
+        "api",
+        "saved posts",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -H \"Authorization: Bearer ACCESS_TOKEN\" -d 'api_type=json&text=COMMENT_TEXT&thing_id=t3_POST_ID' https://oauth.reddit.com/api/comment",
+      "description": "Submit a comment to a post via API",
+      "scenario": "Submit a comment to a post via API",
+      "language": "bash",
+      "tags": [
+        "api",
+        "comment",
+        "post"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"username\": \"your_username\",\n  \"password\": \"your_password\",\n  \"client_id\": \"your_client_id\",\n  \"client_secret\": \"your_client_secret\"\n}",
+      "description": "Sample Reddit CLI configuration file",
+      "scenario": "Sample Reddit CLI configuration file",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "cli",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export REDDIT_CLIENT_ID=your_client_id\nexport REDDIT_SECRET=your_client_secret\nexport REDDIT_USER_AGENT='your_user_agent'",
+      "description": "Set environment variables for Reddit API",
+      "scenario": "Set environment variables for Reddit API",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "variables",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"rate_limit\": {\n    \"max_requests\": 60,\n    \"time_window\": 60000\n  }\n}",
+      "description": "Configure API rate limit handling",
+      "scenario": "Configure API rate limit handling",
+      "language": "json",
+      "tags": [
+        "rate limit",
+        "configuration",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while next_page:\n    response = fetch_page(next_page)\n    process_response(response)\n    next_page = response.get('after')",
+      "description": "Pattern for handling API pagination",
+      "scenario": "Pattern for handling API pagination",
+      "language": "python",
+      "tags": [
+        "pagination",
+        "api",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try:\n    response = api_request()\n    response.raise_for_status()\nexcept requests.exceptions.HTTPError as err:\n    handle_error(err)",
+      "description": "Error handling pattern for API requests",
+      "scenario": "Error handling pattern for API requests",
+      "language": "python",
+      "tags": [
+        "error handling",
+        "api",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if token_expired():\n    refresh_token()\n    save_new_token()",
+      "description": "Pattern for refreshing OAuth2 token",
+      "scenario": "Pattern for refreshing OAuth2 token",
+      "language": "python",
+      "tags": [
+        "oauth2",
+        "token",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

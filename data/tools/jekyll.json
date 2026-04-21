@@ -1,0 +1,204 @@
+{
+  "title": "Jekyll Cheat Sheet",
+  "slug": "jekyll",
+  "description": "Essential Jekyll commands and configuration for static site generation.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "jekyll new my-awesome-site",
+      "description": "Create a new Jekyll site",
+      "scenario": "Create a new Jekyll site",
+      "language": "bash",
+      "tags": [
+        "create",
+        "site",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jekyll serve",
+      "description": "Build the site and serve it locally",
+      "scenario": "Build the site and serve it locally",
+      "language": "bash",
+      "tags": [
+        "build",
+        "serve",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jekyll build",
+      "description": "Build the site without serving",
+      "scenario": "Build the site without serving",
+      "language": "bash",
+      "tags": [
+        "build",
+        "static",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "baseurl: \"/my-awesome-site\"",
+      "description": "Set the base URL for the site",
+      "scenario": "Set the base URL for the site",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "baseurl",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "destination: \"_site\"",
+      "description": "Specify the destination folder for the build",
+      "scenario": "Specify the destination folder for the build",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "destination",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "exclude: [\"README.md\", \"node_modules\"]",
+      "description": "Exclude specific files or directories from the build",
+      "scenario": "Exclude specific files or directories from the build",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "exclude",
+        "ignore"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "---\ntitle: \"My Page Title\"\n---",
+      "description": "Define a page title in front matter",
+      "scenario": "Define a page title in front matter",
+      "language": "yaml",
+      "tags": [
+        "frontmatter",
+        "title",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "---\nlayout: \"post\"\n---",
+      "description": "Set a layout for a page",
+      "scenario": "Set a layout for a page",
+      "language": "yaml",
+      "tags": [
+        "frontmatter",
+        "layout",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "---\ncategories: [\"jekyll\", \"tutorial\"]\n---",
+      "description": "Add categories to a post",
+      "scenario": "Add categories to a post",
+      "language": "yaml",
+      "tags": [
+        "frontmatter",
+        "categories",
+        "post"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{ site.title }}",
+      "description": "Output a variable in Liquid",
+      "scenario": "Output a variable in Liquid",
+      "language": "text",
+      "tags": [
+        "liquid",
+        "variable",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% for post in site.posts %}\n  {{ post.title }}\n{% endfor %}",
+      "description": "Use a for loop in Liquid",
+      "scenario": "Use a for loop in Liquid",
+      "language": "text",
+      "tags": [
+        "liquid",
+        "loop",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{% include header.html %}",
+      "description": "Include another file in a template",
+      "scenario": "Include another file in a template",
+      "language": "text",
+      "tags": [
+        "liquid",
+        "include",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[My Post]({{ site.baseurl }}{% post_url 2023-01-01-my-post %})",
+      "description": "Link to a post",
+      "scenario": "Link to a post",
+      "language": "text",
+      "tags": [
+        "link",
+        "post",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "![Alt text]({{ '/assets/img/pic.jpg' | relative_url }})",
+      "description": "Add an image with a path",
+      "scenario": "Add an image with a path",
+      "language": "text",
+      "tags": [
+        "image",
+        "path",
+        "asset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ul>\n  {% for page in site.pages %}\n    <li><a href=\"{{ page.url }}\">{{ page.title }}</a></li>\n  {% endfor %}\n</ul>",
+      "description": "Create a navigation list",
+      "scenario": "Create a navigation list",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "list",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

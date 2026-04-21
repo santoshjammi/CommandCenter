@@ -1,0 +1,204 @@
+{
+  "title": "ANSI Codes Cheat Sheet",
+  "slug": "ansi-codes",
+  "description": "Quick reference for ANSI escape codes for terminal text formatting.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "\\033[1mYour Text\\033[0m",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "text",
+      "tags": [
+        "bold",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[4mYour Text\\033[0m",
+      "description": "Underline text",
+      "scenario": "Underline text",
+      "language": "text",
+      "tags": [
+        "underline",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[0m",
+      "description": "Reset all text formatting",
+      "scenario": "Reset all text formatting",
+      "language": "text",
+      "tags": [
+        "reset",
+        "text",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[31mYour Text\\033[0m",
+      "description": "Set text color to red",
+      "scenario": "Set text color to red",
+      "language": "text",
+      "tags": [
+        "red",
+        "color",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[32mYour Text\\033[0m",
+      "description": "Set text color to green",
+      "scenario": "Set text color to green",
+      "language": "text",
+      "tags": [
+        "green",
+        "color",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[34mYour Text\\033[0m",
+      "description": "Set text color to blue",
+      "scenario": "Set text color to blue",
+      "language": "text",
+      "tags": [
+        "blue",
+        "color",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[41mYour Text\\033[0m",
+      "description": "Set background color to red",
+      "scenario": "Set background color to red",
+      "language": "text",
+      "tags": [
+        "red",
+        "background",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[42mYour Text\\033[0m",
+      "description": "Set background color to green",
+      "scenario": "Set background color to green",
+      "language": "text",
+      "tags": [
+        "green",
+        "background",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[44mYour Text\\033[0m",
+      "description": "Set background color to blue",
+      "scenario": "Set background color to blue",
+      "language": "text",
+      "tags": [
+        "blue",
+        "background",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[5A",
+      "description": "Move cursor up by 5 lines",
+      "scenario": "Move cursor up by 5 lines",
+      "language": "text",
+      "tags": [
+        "cursor",
+        "movement",
+        "up"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[3B",
+      "description": "Move cursor down by 3 lines",
+      "scenario": "Move cursor down by 3 lines",
+      "language": "text",
+      "tags": [
+        "cursor",
+        "movement",
+        "down"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[10G",
+      "description": "Move cursor to column 10",
+      "scenario": "Move cursor to column 10",
+      "language": "text",
+      "tags": [
+        "cursor",
+        "movement",
+        "column"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[2J",
+      "description": "Clear the screen",
+      "scenario": "Clear the screen",
+      "language": "text",
+      "tags": [
+        "clear",
+        "screen",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[s",
+      "description": "Save cursor position",
+      "scenario": "Save cursor position",
+      "language": "text",
+      "tags": [
+        "cursor",
+        "save",
+        "position"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[u",
+      "description": "Restore cursor position",
+      "scenario": "Restore cursor position",
+      "language": "text",
+      "tags": [
+        "cursor",
+        "restore",
+        "position"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

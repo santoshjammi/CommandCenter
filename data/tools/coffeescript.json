@@ -1,0 +1,204 @@
+{
+  "title": "CoffeeScript Cheat Sheet",
+  "slug": "coffeescript",
+  "description": "Quick reference for CoffeeScript syntax and patterns",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "name = 'CoffeeScript'",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "coffeescript",
+      "tags": [
+        "variable",
+        "assignment",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "square = (x) -> x * x",
+      "description": "Create a function",
+      "scenario": "Create a function",
+      "language": "coffeescript",
+      "tags": [
+        "function",
+        "basic",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if sunny\n  console.log 'Go outside!'",
+      "description": "Conditional statement",
+      "scenario": "Conditional statement",
+      "language": "coffeescript",
+      "tags": [
+        "conditional",
+        "if",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for item in list\n  console.log item",
+      "description": "For loop over an array",
+      "scenario": "For loop over an array",
+      "language": "coffeescript",
+      "tags": [
+        "loop",
+        "iteration",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while n < 10\n  n += 1",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "coffeescript",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in [0..10]\n  console.log i",
+      "description": "Loop with range",
+      "scenario": "Loop with range",
+      "language": "coffeescript",
+      "tags": [
+        "loop",
+        "range",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Animal\n  constructor: (@name) ->",
+      "description": "Define a class",
+      "scenario": "Define a class",
+      "language": "coffeescript",
+      "tags": [
+        "class",
+        "object",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dog = new Animal('Dog')",
+      "description": "Create an instance of a class",
+      "scenario": "Create an instance of a class",
+      "language": "coffeescript",
+      "tags": [
+        "instance",
+        "class",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Animal\n  speak: -> console.log 'Woof!'",
+      "description": "Add a method to a class",
+      "scenario": "Add a method to a class",
+      "language": "coffeescript",
+      "tags": [
+        "method",
+        "class",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squares = (x * x for x in [1..5])",
+      "description": "Map over an array",
+      "scenario": "Map over an array",
+      "language": "coffeescript",
+      "tags": [
+        "array",
+        "comprehension",
+        "map"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "evens = (x for x in [1..10] when x % 2 is 0)",
+      "description": "Filter an array",
+      "scenario": "Filter an array",
+      "language": "coffeescript",
+      "tags": [
+        "array",
+        "comprehension",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ages = {name: age for name, age of people}",
+      "description": "Object comprehension",
+      "scenario": "Object comprehension",
+      "language": "coffeescript",
+      "tags": [
+        "object",
+        "comprehension",
+        "map"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[first, second] = [1, 2]",
+      "description": "Destructure an array",
+      "scenario": "Destructure an array",
+      "language": "coffeescript",
+      "tags": [
+        "destructuring",
+        "array",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{name, age} = person",
+      "description": "Destructure an object",
+      "scenario": "Destructure an object",
+      "language": "coffeescript",
+      "tags": [
+        "destructuring",
+        "object",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "newArray = [0, ...oldArray, 3]",
+      "description": "Spread operator in arrays",
+      "scenario": "Spread operator in arrays",
+      "language": "coffeescript",
+      "tags": [
+        "spread",
+        "array",
+        "operator"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

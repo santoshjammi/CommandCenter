@@ -1,0 +1,204 @@
+{
+  "title": "Haskell Cheat Sheet",
+  "slug": "haskell",
+  "description": "Essential Haskell syntax, commands, and patterns for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "add x y = x + y",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "haskell",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "numbers = [1, 2, 3, 4, 5]",
+      "description": "Define a list",
+      "scenario": "Define a list",
+      "language": "haskell",
+      "tags": [
+        "list",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fst (x, _) = x",
+      "description": "Pattern matching with tuples",
+      "scenario": "Pattern matching with tuples",
+      "language": "haskell",
+      "tags": [
+        "pattern matching",
+        "tuples",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ghc MyProgram.hs",
+      "description": "Compile a Haskell file",
+      "scenario": "Compile a Haskell file",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "ghc",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "runhaskell MyScript.hs",
+      "description": "Run a Haskell script",
+      "scenario": "Run a Haskell script",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ghci",
+      "description": "Start GHCi interactive environment",
+      "scenario": "Start GHCi interactive environment",
+      "language": "bash",
+      "tags": [
+        "ghci",
+        "interactive",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "data Shape = Circle Float | Rectangle Float Float",
+      "description": "Define a custom data type",
+      "scenario": "Define a custom data type",
+      "language": "haskell",
+      "tags": [
+        "data type",
+        "custom",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squares = [x^2 | x <- [1..10]]",
+      "description": "Create a list comprehension",
+      "scenario": "Create a list comprehension",
+      "language": "haskell",
+      "tags": [
+        "list comprehension",
+        "squares",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "safeHead :: [a] -> Maybe a\nsafeHead [] = Nothing\nsafeHead (x:_) = Just x",
+      "description": "Use Maybe type for optional values",
+      "scenario": "Use Maybe type for optional values",
+      "language": "haskell",
+      "tags": [
+        "maybe",
+        "optional",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import Data.List",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "haskell",
+      "tags": [
+        "import",
+        "module",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import Data.List (sort, nub)",
+      "description": "Import specific functions from a module",
+      "scenario": "Import specific functions from a module",
+      "language": "haskell",
+      "tags": [
+        "import",
+        "specific",
+        "functions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module MyModule (myFunction) where\n\nmyFunction :: Int -> Int\nmyFunction x = x + 1",
+      "description": "Create a module",
+      "scenario": "Create a module",
+      "language": "haskell",
+      "tags": [
+        "module",
+        "create",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "map (+1) [1, 2, 3]",
+      "description": "Use map to apply a function to a list",
+      "scenario": "Use map to apply a function to a list",
+      "language": "haskell",
+      "tags": [
+        "map",
+        "function",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "filter even [1, 2, 3, 4, 5]",
+      "description": "Filter a list with a predicate",
+      "scenario": "Filter a list with a predicate",
+      "language": "haskell",
+      "tags": [
+        "filter",
+        "predicate",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "foldl (+) 0 [1, 2, 3, 4]",
+      "description": "Use foldl to reduce a list",
+      "scenario": "Use foldl to reduce a list",
+      "language": "haskell",
+      "tags": [
+        "foldl",
+        "reduce",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

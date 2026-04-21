@@ -1,0 +1,164 @@
+{
+  "title": "Cypher Cheat Sheet",
+  "slug": "cypher",
+  "description": "Essential Cypher commands and patterns for Neo4j graph databases.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "MATCH (n:Person) RETURN n",
+      "description": "Retrieve all nodes with a specific label",
+      "scenario": "Retrieve all nodes with a specific label",
+      "language": "cypher",
+      "tags": [
+        "query",
+        "nodes",
+        "label"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE (n:Person {name: 'Alice', age: 30})",
+      "description": "Create a new node with properties",
+      "scenario": "Create a new node with properties",
+      "language": "cypher",
+      "tags": [
+        "create",
+        "node",
+        "properties"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (n:Person {name: 'Alice'}) DETACH DELETE n",
+      "description": "Delete a node and its relationships",
+      "scenario": "Delete a node and its relationships",
+      "language": "cypher",
+      "tags": [
+        "delete",
+        "node",
+        "relationships"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (a:Person {name: 'Alice'}), (b:Person {name: 'Bob'}) CREATE (a)-[:FRIENDS_WITH]->(b)",
+      "description": "Create a relationship between two nodes",
+      "scenario": "Create a relationship between two nodes",
+      "language": "cypher",
+      "tags": [
+        "create",
+        "relationship",
+        "nodes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (a)-[:FRIENDS_WITH]->(b) RETURN a, b",
+      "description": "Find nodes connected by a specific relationship",
+      "scenario": "Find nodes connected by a specific relationship",
+      "language": "cypher",
+      "tags": [
+        "query",
+        "relationship",
+        "nodes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (a)-[r:FRIENDS_WITH]->(b) DELETE r",
+      "description": "Delete a specific relationship",
+      "scenario": "Delete a specific relationship",
+      "language": "cypher",
+      "tags": [
+        "delete",
+        "relationship"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH p=shortestPath((a:Person {name: 'Alice'})-[*]-(b:Person {name: 'Bob'})) RETURN p",
+      "description": "Find shortest path between two nodes",
+      "scenario": "Find shortest path between two nodes",
+      "language": "cypher",
+      "tags": [
+        "query",
+        "path",
+        "shortest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (n:Person) RETURN count(n)",
+      "description": "Aggregate function to count nodes",
+      "scenario": "Aggregate function to count nodes",
+      "language": "cypher",
+      "tags": [
+        "aggregate",
+        "count",
+        "nodes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (n:Person) WHERE n.age > 25 RETURN n",
+      "description": "Use WHERE clause for filtering",
+      "scenario": "Use WHERE clause for filtering",
+      "language": "cypher",
+      "tags": [
+        "filter",
+        "where",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE INDEX FOR (n:Person) ON (n.name)",
+      "description": "Create an index on a property",
+      "scenario": "Create an index on a property",
+      "language": "cypher",
+      "tags": [
+        "index",
+        "property",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CREATE CONSTRAINT ON (n:Person) ASSERT n.email IS UNIQUE",
+      "description": "Create a unique constraint on a property",
+      "scenario": "Create a unique constraint on a property",
+      "language": "cypher",
+      "tags": [
+        "constraint",
+        "unique",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DROP INDEX ON :Person(name)",
+      "description": "Drop an existing index",
+      "scenario": "Drop an existing index",
+      "language": "cypher",
+      "tags": [
+        "index",
+        "drop",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

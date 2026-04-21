@@ -1,0 +1,204 @@
+{
+  "title": "PowerShell Cheat Sheet",
+  "slug": "powershell",
+  "description": "Quick reference for essential PowerShell commands and syntax.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "Get-ChildItem",
+      "description": "List all files and directories in the current directory",
+      "scenario": "List all files and directories in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-Content -Path 'filename.txt'",
+      "description": "Display the content of a file",
+      "scenario": "Display the content of a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "content",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Copy-Item -Path 'source.txt' -Destination 'destination.txt'",
+      "description": "Copy a file to a new location",
+      "scenario": "Copy a file to a new location",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "move"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-ComputerInfo",
+      "description": "Get system information",
+      "scenario": "Get system information",
+      "language": "bash",
+      "tags": [
+        "system",
+        "info",
+        "computer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$PSVersionTable.PSVersion",
+      "description": "Check the PowerShell version",
+      "scenario": "Check the PowerShell version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "powershell",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-Date",
+      "description": "Get the current date and time",
+      "scenario": "Get the current date and time",
+      "language": "bash",
+      "tags": [
+        "date",
+        "time",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-Process",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "running"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Stop-Process -Name 'processname'",
+      "description": "Stop a process by name",
+      "scenario": "Stop a process by name",
+      "language": "bash",
+      "tags": [
+        "process",
+        "stop",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Start-Process 'notepad.exe'",
+      "description": "Start a new process",
+      "scenario": "Start a new process",
+      "language": "bash",
+      "tags": [
+        "process",
+        "start",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[System.Security.Principal.WindowsIdentity]::GetCurrent().Name",
+      "description": "Get the current user",
+      "scenario": "Get the current user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "current",
+        "identity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-LocalUser",
+      "description": "List all users on the system",
+      "scenario": "List all users on the system",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "New-LocalUser -Name 'username' -Description 'User description'",
+      "description": "Create a new local user",
+      "scenario": "Create a new local user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "create",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-NetIPConfiguration",
+      "description": "Display network adapter configuration",
+      "scenario": "Display network adapter configuration",
+      "language": "bash",
+      "tags": [
+        "network",
+        "adapter",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Test-Connection -ComputerName 'hostname'",
+      "description": "Test network connection to a host",
+      "scenario": "Test network connection to a host",
+      "language": "bash",
+      "tags": [
+        "network",
+        "test",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(Get-NetIPAddress).IPAddress",
+      "description": "Get the IP address of the local machine",
+      "scenario": "Get the IP address of the local machine",
+      "language": "bash",
+      "tags": [
+        "network",
+        "ip",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

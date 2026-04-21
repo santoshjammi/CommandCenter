@@ -1,0 +1,204 @@
+{
+  "title": "Apache Camel Cheat Sheet",
+  "slug": "apache-camel",
+  "description": "Quick reference for Apache Camel CLI commands and code patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "camel run my-route.yaml",
+      "description": "Run a Camel route from a directory",
+      "scenario": "Run a Camel route from a directory",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "route"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camel catalog component list",
+      "description": "List all Camel components",
+      "scenario": "List all Camel components",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "components",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camel catalog component describe timer",
+      "description": "Get details of a specific Camel component",
+      "scenario": "Get details of a specific Camel component",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "components",
+        "describe"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from('file:input').to('log:output')",
+      "description": "Define a simple route from a file endpoint to a log endpoint",
+      "scenario": "Define a simple route from a file endpoint to a log endpoint",
+      "language": "javascript",
+      "tags": [
+        "route",
+        "file",
+        "log"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from('file:input').filter().xpath('/order').to('log:output')",
+      "description": "Route with a filter to process only XML files",
+      "scenario": "Route with a filter to process only XML files",
+      "language": "javascript",
+      "tags": [
+        "route",
+        "filter",
+        "xpath"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from('direct:start').choice().when(header('foo').isEqualTo('bar')).to('log:foo').otherwise().to('log:other')",
+      "description": "Route with a choice block for conditional routing",
+      "scenario": "Route with a choice block for conditional routing",
+      "language": "javascript",
+      "tags": [
+        "route",
+        "choice",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from('direct:start').choice().when(header('type').isEqualTo('A')).to('direct:typeA').when(header('type').isEqualTo('B')).to('direct:typeB')",
+      "description": "Implement a Content-Based Router pattern",
+      "scenario": "Implement a Content-Based Router pattern",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "content-based",
+        "router"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from('direct:start').split(body().tokenize(','))",
+      "description": "Implement a Splitter pattern to split messages",
+      "scenario": "Implement a Splitter pattern to split messages",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "splitter",
+        "messages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from('direct:start').filter(header('foo').isNotNull()).to('log:filtered')",
+      "description": "Implement a Message Filter pattern",
+      "scenario": "Implement a Message Filter pattern",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "filter",
+        "messages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<camelContext xmlns=\"http://camel.apache.org/schema/spring\">\n    <component name=\"myComponent\" class=\"com.example.MyComponent\"/>\n</camelContext>",
+      "description": "Set up a Camel context with a custom component",
+      "scenario": "Set up a Camel context with a custom component",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "context",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<camelContext xmlns=\"http://camel.apache.org/schema/spring\">\n    <propertyPlaceholder location=\"classpath:camel.properties\"/>\n</camelContext>",
+      "description": "Define a Camel property placeholder",
+      "scenario": "Define a Camel property placeholder",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "property",
+        "placeholder"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<camelContext xmlns=\"http://camel.apache.org/schema/spring\">\n    <route>\n        <from uri=\"direct:start\"/>\n        <doTry>\n            <to uri=\"mock:result\"/>\n            <doCatch>\n                <exception>java.lang.Exception</exception>\n                <to uri=\"mock:error\"/>\n            </doCatch>\n        </doTry>\n    </route>\n</camelContext>",
+      "description": "Configure a route with error handling",
+      "scenario": "Configure a route with error handling",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "route",
+        "error-handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camel.main.tracing=true",
+      "description": "Enable tracing for a Camel context",
+      "scenario": "Enable tracing for a Camel context",
+      "language": "yaml",
+      "tags": [
+        "flags",
+        "tracing",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camel.component.jms.maximumRedeliveries=5",
+      "description": "Set the maximum number of redelivery attempts",
+      "scenario": "Set the maximum number of redelivery attempts",
+      "language": "yaml",
+      "tags": [
+        "flags",
+        "redelivery",
+        "jms"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "camel.main.loggingLevel=INFO",
+      "description": "Configure the logging level for Camel",
+      "scenario": "Configure the logging level for Camel",
+      "language": "yaml",
+      "tags": [
+        "flags",
+        "logging",
+        "level"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

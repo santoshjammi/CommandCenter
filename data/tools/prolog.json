@@ -1,0 +1,204 @@
+{
+  "title": "Prolog Cheat Sheet",
+  "slug": "prolog",
+  "description": "Essential Prolog syntax and commands for logic programming.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "cat(tom).",
+      "description": "Define a simple fact in Prolog.",
+      "scenario": "Define a simple fact in Prolog.",
+      "language": "text",
+      "tags": [
+        "fact",
+        "syntax",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "animal(X) :- cat(X).",
+      "description": "Define a simple rule in Prolog.",
+      "scenario": "Define a simple rule in Prolog.",
+      "language": "text",
+      "tags": [
+        "rule",
+        "syntax",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?- cat(tom).",
+      "description": "Query a fact or rule in Prolog.",
+      "scenario": "Query a fact or rule in Prolog.",
+      "language": "text",
+      "tags": [
+        "query",
+        "syntax",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "is_empty([]).",
+      "description": "Check if a list is empty.",
+      "scenario": "Check if a list is empty.",
+      "language": "text",
+      "tags": [
+        "list",
+        "check",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "append([1,2,3],[4,5,6],Result).",
+      "description": "Concatenate two lists.",
+      "scenario": "Concatenate two lists.",
+      "language": "text",
+      "tags": [
+        "list",
+        "concatenate",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[Head|Tail] = [1,2,3].",
+      "description": "Find the head and tail of a list.",
+      "scenario": "Find the head and tail of a list.",
+      "language": "text",
+      "tags": [
+        "list",
+        "head",
+        "tail"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(Condition -> ThenClause ; ElseClause).",
+      "description": "Use an if-then-else construct in Prolog.",
+      "scenario": "Use an if-then-else construct in Prolog.",
+      "language": "text",
+      "tags": [
+        "control",
+        "if-then-else",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fail.",
+      "description": "Use a fail predicate to force backtracking.",
+      "scenario": "Use a fail predicate to force backtracking.",
+      "language": "text",
+      "tags": [
+        "control",
+        "backtracking",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!.",
+      "description": "Use the cut operator to prevent backtracking.",
+      "scenario": "Use the cut operator to prevent backtracking.",
+      "language": "text",
+      "tags": [
+        "control",
+        "cut",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Sum is 2 + 3.",
+      "description": "Perform addition in Prolog.",
+      "scenario": "Perform addition in Prolog.",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "addition",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Product is 4 * 5.",
+      "description": "Perform multiplication in Prolog.",
+      "scenario": "Perform multiplication in Prolog.",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "multiplication",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "5 > 3.",
+      "description": "Compare two numbers using greater than.",
+      "scenario": "Compare two numbers using greater than.",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "comparison",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open('file.txt', read, Stream).",
+      "description": "Open a file for reading in Prolog.",
+      "scenario": "Open a file for reading in Prolog.",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "read_line_to_string(Stream, Line).",
+      "description": "Read a line from a file in Prolog.",
+      "scenario": "Read a line from a file in Prolog.",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "close(Stream).",
+      "description": "Close a file stream in Prolog.",
+      "scenario": "Close a file stream in Prolog.",
+      "language": "text",
+      "tags": [
+        "file",
+        "close",
+        "prolog"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

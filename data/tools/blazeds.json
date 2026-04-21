@@ -1,0 +1,165 @@
+{
+  "title": "BlazeDS Cheat Sheet",
+  "slug": "blazeds",
+  "description": "Quick reference for BlazeDS configuration and usage.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "./blazeds-server start",
+      "description": "Start the BlazeDS server",
+      "scenario": "Start the BlazeDS server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "blazeds"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./blazeds-server stop",
+      "description": "Stop the BlazeDS server",
+      "scenario": "Stop the BlazeDS server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "blazeds"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./blazeds-server status",
+      "description": "Check BlazeDS server status",
+      "scenario": "Check BlazeDS server status",
+      "language": "bash",
+      "tags": [
+        "server",
+        "status",
+        "blazeds"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<destination id=\"myDestination\"><properties><network><url>http://localhost:8400/myapp</url></network></properties></destination>",
+      "description": "Define a new destination in services-config.xml",
+      "scenario": "Define a new destination in services-config.xml",
+      "language": "xml",
+      "tags": [
+        "destination",
+        "configuration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<default-channels><channel ref=\"my-amf\"/></default-channels>",
+      "description": "Set the default channel in services-config.xml",
+      "scenario": "Set the default channel in services-config.xml",
+      "language": "xml",
+      "tags": [
+        "channel",
+        "default",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<logging><target class=\"flex.messaging.log.ConsoleTarget\" level=\"Debug\"/></logging>",
+      "description": "Configure logging in logging-config.xml",
+      "scenario": "Configure logging in logging-config.xml",
+      "language": "xml",
+      "tags": [
+        "logging",
+        "configuration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class MyService { public String sayHello(String name) { return \"Hello, \" + name; } }",
+      "description": "Create a Java service for BlazeDS",
+      "scenario": "Create a Java service for BlazeDS",
+      "language": "java",
+      "tags": [
+        "java",
+        "service",
+        "blazeds"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<destination id=\"myService\"><properties><source>com.example.MyService</source></properties></destination>",
+      "description": "Expose a Java method to BlazeDS",
+      "scenario": "Expose a Java method to BlazeDS",
+      "language": "xml",
+      "tags": [
+        "java",
+        "expose",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "remoteObject.sayHello.addEventListener(ResultEvent.RESULT, resultHandler);",
+      "description": "Invoke a Java method from Flex",
+      "scenario": "Invoke a Java method from Flex",
+      "language": "actionscript",
+      "tags": [
+        "flex",
+        "java",
+        "invoke"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { // code } catch (Exception e) { log.error(\"Error occurred\", e); }",
+      "description": "Handling errors in BlazeDS",
+      "scenario": "Handling errors in BlazeDS",
+      "language": "java",
+      "tags": [
+        "error",
+        "handling",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<bean id=\"messageBroker\" class=\"org.springframework.flex.messaging.MessageBrokerFactoryBean\"> <property name=\"servicesConfigPath\" value=\"/WEB-INF/flex/services-config.xml\"/></bean>",
+      "description": "Using BlazeDS with Spring",
+      "scenario": "Using BlazeDS with Spring",
+      "language": "xml",
+      "tags": [
+        "spring",
+        "integration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<security><login-command class=\"flex.messaging.security.TomcatLoginCommand\"/></security>",
+      "description": "Configuring security in BlazeDS",
+      "scenario": "Configuring security in BlazeDS",
+      "language": "xml",
+      "tags": [
+        "security",
+        "configuration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

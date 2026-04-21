@@ -1,0 +1,204 @@
+{
+  "title": "Heroku CLI Cheat Sheet",
+  "slug": "heroku",
+  "description": "Essential Heroku CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "heroku login",
+      "description": "Login to Heroku account",
+      "scenario": "Login to Heroku account",
+      "language": "bash",
+      "tags": [
+        "login",
+        "authentication",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku create my-app",
+      "description": "Create a new Heroku app",
+      "scenario": "Create a new Heroku app",
+      "language": "bash",
+      "tags": [
+        "create",
+        "app",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku apps",
+      "description": "List all Heroku apps",
+      "scenario": "List all Heroku apps",
+      "language": "bash",
+      "tags": [
+        "list",
+        "apps",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push heroku main",
+      "description": "Deploy code to Heroku",
+      "scenario": "Deploy code to Heroku",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "git",
+        "push"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku rollback",
+      "description": "Rollback to previous release",
+      "scenario": "Rollback to previous release",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "release",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku open",
+      "description": "Open the app in the browser",
+      "scenario": "Open the app in the browser",
+      "language": "bash",
+      "tags": [
+        "open",
+        "browser",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku config:set VAR_NAME=value",
+      "description": "Set a config variable",
+      "scenario": "Set a config variable",
+      "language": "bash",
+      "tags": [
+        "config",
+        "environment",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku config:unset VAR_NAME",
+      "description": "Unset a config variable",
+      "scenario": "Unset a config variable",
+      "language": "bash",
+      "tags": [
+        "config",
+        "environment",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku config",
+      "description": "View all config variables",
+      "scenario": "View all config variables",
+      "language": "bash",
+      "tags": [
+        "config",
+        "environment",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku logs --tail",
+      "description": "View real-time logs",
+      "scenario": "View real-time logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "monitoring",
+        "realtime"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku logs",
+      "description": "View recent logs",
+      "scenario": "View recent logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "monitoring",
+        "recent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku labs:enable log-runtime-metrics",
+      "description": "Enable log runtime metrics",
+      "scenario": "Enable log runtime metrics",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "metrics",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku ps:scale web=2",
+      "description": "Scale the number of dynos",
+      "scenario": "Scale the number of dynos",
+      "language": "bash",
+      "tags": [
+        "scale",
+        "dynos",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku restart",
+      "description": "Restart all dynos",
+      "scenario": "Restart all dynos",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "dynos",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "heroku run bash",
+      "description": "Run a one-off dyno",
+      "scenario": "Run a one-off dyno",
+      "language": "bash",
+      "tags": [
+        "run",
+        "dyno",
+        "one-off"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

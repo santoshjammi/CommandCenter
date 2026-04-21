@@ -1,0 +1,204 @@
+{
+  "title": "Tcl/Tk Cheat Sheet",
+  "slug": "tcltk",
+  "description": "Essential Tcl/Tk commands and patterns for efficient scripting.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "puts \"Hello, World!\"",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "tcl",
+      "tags": [
+        "print",
+        "output",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set myVar \"Hello, Tcl!\"",
+      "description": "Set a variable with a string value",
+      "scenario": "Set a variable with a string value",
+      "language": "tcl",
+      "tags": [
+        "variable",
+        "assignment",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for {set i 1} {$i <= 5} {incr i} { puts $i }",
+      "description": "Create a simple loop from 1 to 5",
+      "scenario": "Create a simple loop from 1 to 5",
+      "language": "tcl",
+      "tags": [
+        "loop",
+        "iteration",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "package require Tk\nwm title . \"My Window\"\nbutton .b -text \"Click Me\" -command {puts \"Button Clicked\"}\npack .b",
+      "description": "Create a basic Tk window",
+      "scenario": "Create a basic Tk window",
+      "language": "tcl",
+      "tags": [
+        "gui",
+        "window",
+        "button"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "label .l -text \"Hello, Tk!\"\npack .l",
+      "description": "Add a label to a Tk window",
+      "scenario": "Add a label to a Tk window",
+      "language": "tcl",
+      "tags": [
+        "label",
+        "gui",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "entry .e\npack .e",
+      "description": "Create an entry widget for text input",
+      "scenario": "Create an entry widget for text input",
+      "language": "tcl",
+      "tags": [
+        "entry",
+        "input",
+        "widget"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set file [open \"myfile.txt\" r]\nwhile {[gets $file line] >= 0} {\n    puts $line\n}\nclose $file",
+      "description": "Read a file line by line",
+      "scenario": "Read a file line by line",
+      "language": "tcl",
+      "tags": [
+        "file",
+        "read",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set file [open \"output.txt\" w]\nputs $file \"Hello, File!\"\nclose $file",
+      "description": "Write a string to a file",
+      "scenario": "Write a string to a file",
+      "language": "tcl",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set file [open \"output.txt\" a]\nputs $file \"Appending this line.\"\nclose $file",
+      "description": "Append to a file",
+      "scenario": "Append to a file",
+      "language": "tcl",
+      "tags": [
+        "file",
+        "append",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if {$x > 10} {\n    puts \"x is greater than 10\"\n} else {\n    puts \"x is 10 or less\"\n}",
+      "description": "If-else conditional statement",
+      "scenario": "If-else conditional statement",
+      "language": "tcl",
+      "tags": [
+        "conditional",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch $value {\n    1 {puts \"Value is 1\"}\n    2 {puts \"Value is 2\"}\n    default {puts \"Value is unknown\"}\n}",
+      "description": "Switch case statement",
+      "scenario": "Switch case statement",
+      "language": "tcl",
+      "tags": [
+        "switch",
+        "case",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set i 0\nwhile {$i < 5} {\n    puts $i\n    incr i\n}",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "tcl",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "proc greet {name} {\n    puts \"Hello, $name!\"\n}",
+      "description": "Define a simple procedure",
+      "scenario": "Define a simple procedure",
+      "language": "tcl",
+      "tags": [
+        "procedure",
+        "function",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "greet \"World\"",
+      "description": "Call a procedure with an argument",
+      "scenario": "Call a procedure with an argument",
+      "language": "tcl",
+      "tags": [
+        "procedure",
+        "call",
+        "argument"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "proc add {a b} {\n    return [expr {$a + $b}]\n}",
+      "description": "Return a value from a procedure",
+      "scenario": "Return a value from a procedure",
+      "language": "tcl",
+      "tags": [
+        "procedure",
+        "return",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

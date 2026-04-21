@@ -1,0 +1,204 @@
+{
+  "title": "Compojure Cheat Sheet",
+  "slug": "compojure",
+  "description": "Quick reference for Compojure, a routing library for Clojure web applications.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "(GET \"/hello\" [] \"Hello World\")",
+      "description": "Define a basic GET route",
+      "scenario": "Define a basic GET route",
+      "language": "clojure",
+      "tags": [
+        "routing",
+        "GET",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(POST \"/submit\" [] (str \"Submitted\"))",
+      "description": "Define a basic POST route",
+      "scenario": "Define a basic POST route",
+      "language": "clojure",
+      "tags": [
+        "routing",
+        "POST",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(GET \"/hello/:name\" [name] (str \"Hello \" name))",
+      "description": "Define a route with a parameter",
+      "scenario": "Define a route with a parameter",
+      "language": "clojure",
+      "tags": [
+        "routing",
+        "parameter",
+        "GET"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(ANY \"/path\" [] \"Any method\")",
+      "description": "Match any method with a wildcard",
+      "scenario": "Match any method with a wildcard",
+      "language": "clojure",
+      "tags": [
+        "routing",
+        "wildcard",
+        "ANY"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(GET [\"/user/:id\" :id #\"\\d+\"] [id] (str \"User ID: \" id))",
+      "description": "Use regex for route matching",
+      "scenario": "Use regex for route matching",
+      "language": "clojure",
+      "tags": [
+        "routing",
+        "regex",
+        "GET"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defroutes app\n  (GET \"/\" [] \"GET request\")\n  (POST \"/\" [] \"POST request\"))",
+      "description": "Define a route with multiple methods",
+      "scenario": "Define a route with multiple methods",
+      "language": "clojure",
+      "tags": [
+        "routing",
+        "multiple",
+        "methods"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(def app\n  (-> handler\n      (wrap-json-response)\n      (wrap-json-body)))",
+      "description": "Add middleware to a route",
+      "scenario": "Add middleware to a route",
+      "language": "clojure",
+      "tags": [
+        "middleware",
+        "json",
+        "wrap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(def app\n  (wrap-params handler))",
+      "description": "Use wrap-params middleware",
+      "scenario": "Use wrap-params middleware",
+      "language": "clojure",
+      "tags": [
+        "middleware",
+        "params",
+        "wrap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(def app\n  (wrap-session handler))",
+      "description": "Use wrap-session middleware",
+      "scenario": "Use wrap-session middleware",
+      "language": "clojure",
+      "tags": [
+        "middleware",
+        "session",
+        "wrap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(GET \"/json\" []\n  {:status 200\n   :headers {\"Content-Type\" \"application/json\"}\n   :body (json/write-str {:message \"Hello, JSON!\"})})",
+      "description": "Return a JSON response",
+      "scenario": "Return a JSON response",
+      "language": "clojure",
+      "tags": [
+        "response",
+        "json",
+        "GET"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(GET \"/not-found\" []\n  {:status 404\n   :body \"Not Found\"})",
+      "description": "Return a custom status code",
+      "scenario": "Return a custom status code",
+      "language": "clojure",
+      "tags": [
+        "response",
+        "status",
+        "404"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(GET \"/redirect\" []\n  (redirect \"/target\"))",
+      "description": "Redirect to another route",
+      "scenario": "Redirect to another route",
+      "language": "clojure",
+      "tags": [
+        "response",
+        "redirect",
+        "GET"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defn error-handler [request]\n  {:status 500\n   :body \"Internal Server Error\"})",
+      "description": "Define a custom error handler",
+      "scenario": "Define a custom error handler",
+      "language": "clojure",
+      "tags": [
+        "error",
+        "handler",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(GET \"/safe\" []\n  (try\n    (/ 1 0)\n    (catch Exception e \"Error occurred\")))",
+      "description": "Use try-catch for error handling",
+      "scenario": "Use try-catch for error handling",
+      "language": "clojure",
+      "tags": [
+        "error",
+        "try-catch",
+        "GET"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(defroutes app\n  (route/not-found \"Page not found\"))",
+      "description": "Handle 404 errors with a custom route",
+      "scenario": "Handle 404 errors with a custom route",
+      "language": "clojure",
+      "tags": [
+        "error",
+        "404",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

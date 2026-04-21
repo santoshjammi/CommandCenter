@@ -1,0 +1,204 @@
+{
+  "title": "GitHub CLI Cheat Sheet",
+  "slug": "github",
+  "description": "Essential GitHub CLI commands for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone a repository to your local machine",
+      "scenario": "Clone a repository to your local machine",
+      "language": "bash",
+      "tags": [
+        "clone",
+        "repository",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git init",
+      "description": "Initialize a new Git repository",
+      "scenario": "Initialize a new Git repository",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "repository",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git remote add origin https://github.com/user/repo.git",
+      "description": "Add a remote repository",
+      "scenario": "Add a remote repository",
+      "language": "bash",
+      "tags": [
+        "remote",
+        "repository",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch new-branch",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout branch-name",
+      "description": "Switch to a different branch",
+      "scenario": "Switch to a different branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "switch",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge branch-name",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "merge",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git add .",
+      "description": "Stage changes for commit",
+      "scenario": "Stage changes for commit",
+      "language": "bash",
+      "tags": [
+        "stage",
+        "commit",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Commit message\"",
+      "description": "Commit staged changes with a message",
+      "scenario": "Commit staged changes with a message",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "message",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit --amend",
+      "description": "Amend the last commit",
+      "scenario": "Amend the last commit",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "amend",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git pull origin main",
+      "description": "Pull latest changes from the remote repository",
+      "scenario": "Pull latest changes from the remote repository",
+      "language": "bash",
+      "tags": [
+        "pull",
+        "remote",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin main",
+      "description": "Push local changes to the remote repository",
+      "scenario": "Push local changes to the remote repository",
+      "language": "bash",
+      "tags": [
+        "push",
+        "remote",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin main --force",
+      "description": "Force push changes to the remote repository",
+      "scenario": "Force push changes to the remote repository",
+      "language": "bash",
+      "tags": [
+        "push",
+        "force",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git tag v1.0.0",
+      "description": "Create a new tag",
+      "scenario": "Create a new tag",
+      "language": "bash",
+      "tags": [
+        "tag",
+        "create",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin v1.0.0",
+      "description": "Push a tag to the remote repository",
+      "scenario": "Push a tag to the remote repository",
+      "language": "bash",
+      "tags": [
+        "tag",
+        "push",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git tag -d v1.0.0 && git push origin :refs/tags/v1.0.0",
+      "description": "Delete a tag locally and remotely",
+      "scenario": "Delete a tag locally and remotely",
+      "language": "bash",
+      "tags": [
+        "tag",
+        "delete",
+        "git"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

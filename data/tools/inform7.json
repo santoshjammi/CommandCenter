@@ -1,0 +1,204 @@
+{
+  "title": "Inform7 Cheat Sheet",
+  "slug": "inform7",
+  "description": "Quick reference for Inform7 syntax and commands",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "The Kitchen is a room.",
+      "description": "Define a room in the game",
+      "scenario": "Define a room in the game",
+      "language": "text",
+      "tags": [
+        "room",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "The apple is in the Kitchen.",
+      "description": "Create an object in a room",
+      "scenario": "Create an object in a room",
+      "language": "text",
+      "tags": [
+        "object",
+        "room",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "The description of the Kitchen is \"A cozy, well-lit room.\"",
+      "description": "Set a description for a room",
+      "scenario": "Set a description for a room",
+      "language": "text",
+      "tags": [
+        "description",
+        "room",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Eating is an action applying to one thing.",
+      "description": "Define a new action",
+      "scenario": "Define a new action",
+      "language": "text",
+      "tags": [
+        "action",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Instead of eating the apple: say \"The apple is delicious.\"",
+      "description": "Create a rule for an action",
+      "scenario": "Create a rule for an action",
+      "language": "text",
+      "tags": [
+        "rule",
+        "action",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Check eating: if the noun is not edible, say \"You can't eat that!\" instead.",
+      "description": "Check rule for an action",
+      "scenario": "Check rule for an action",
+      "language": "text",
+      "tags": [
+        "check",
+        "rule",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "If the player is in the Kitchen, say \"You are in the Kitchen.\"",
+      "description": "Use a condition in a rule",
+      "scenario": "Use a condition in a rule",
+      "language": "text",
+      "tags": [
+        "condition",
+        "logic",
+        "rule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "If the apple is in the Kitchen, now the apple is in the Living Room.",
+      "description": "Create a conditional statement",
+      "scenario": "Create a conditional statement",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "statement",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "If the player is in the Kitchen, say \"You are in the Kitchen.\" Otherwise, say \"You are not in the Kitchen.\"",
+      "description": "Use 'otherwise' in a rule",
+      "scenario": "Use 'otherwise' in a rule",
+      "language": "text",
+      "tags": [
+        "otherwise",
+        "condition",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A person has a number called age.",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "definition",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "The apple can be eaten.",
+      "description": "Set a property for an object",
+      "scenario": "Set a property for an object",
+      "language": "text",
+      "tags": [
+        "property",
+        "object",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "If the apple is eaten, say \"The apple is no more.\"",
+      "description": "Check a property of an object",
+      "scenario": "Check a property of an object",
+      "language": "text",
+      "tags": [
+        "check",
+        "property",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A fruit is a kind of thing.",
+      "description": "Create a new kind of object",
+      "scenario": "Create a new kind of object",
+      "language": "text",
+      "tags": [
+        "kind",
+        "object",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Friendship relates one person to another.",
+      "description": "Define a relation between objects",
+      "scenario": "Define a relation between objects",
+      "language": "text",
+      "tags": [
+        "relation",
+        "objects",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Table of Fruits\nfruit\ntype\napple\nbanana",
+      "description": "Use a table to define data",
+      "scenario": "Use a table to define data",
+      "language": "text",
+      "tags": [
+        "table",
+        "data",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "GitHub CLI Cheat Sheet",
+  "slug": "github-cli",
+  "description": "Essential commands and patterns for using GitHub CLI efficiently.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "gh repo clone <owner>/<repo>",
+      "description": "Clone a GitHub repository",
+      "scenario": "Clone a GitHub repository",
+      "language": "bash",
+      "tags": [
+        "clone",
+        "repository",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh repo create <repo-name> --public",
+      "description": "Create a new repository on GitHub",
+      "scenario": "Create a new repository on GitHub",
+      "language": "bash",
+      "tags": [
+        "create",
+        "repository",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh repo fork <owner>/<repo>",
+      "description": "Fork a repository on GitHub",
+      "scenario": "Fork a repository on GitHub",
+      "language": "bash",
+      "tags": [
+        "fork",
+        "repository",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh issue list",
+      "description": "List all issues in a repository",
+      "scenario": "List all issues in a repository",
+      "language": "bash",
+      "tags": [
+        "issues",
+        "list",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh issue create --title \"Issue title\" --body \"Issue description\"",
+      "description": "Create a new issue in a repository",
+      "scenario": "Create a new issue in a repository",
+      "language": "bash",
+      "tags": [
+        "create",
+        "issue",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh issue view <issue-number>",
+      "description": "View a specific issue by number",
+      "scenario": "View a specific issue by number",
+      "language": "bash",
+      "tags": [
+        "view",
+        "issue",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh pr list",
+      "description": "List all pull requests in a repository",
+      "scenario": "List all pull requests in a repository",
+      "language": "bash",
+      "tags": [
+        "pull request",
+        "list",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh pr create --title \"PR title\" --body \"PR description\" --base main",
+      "description": "Create a new pull request",
+      "scenario": "Create a new pull request",
+      "language": "bash",
+      "tags": [
+        "create",
+        "pull request",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh pr merge <pr-number>",
+      "description": "Merge a pull request",
+      "scenario": "Merge a pull request",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "pull request",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh auth login",
+      "description": "Authenticate GitHub CLI with your GitHub account",
+      "scenario": "Authenticate GitHub CLI with your GitHub account",
+      "language": "bash",
+      "tags": [
+        "authenticate",
+        "login",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh auth status",
+      "description": "Check the current authentication status",
+      "scenario": "Check the current authentication status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "authenticate",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh config set git_protocol https",
+      "description": "Set a default GitHub host",
+      "scenario": "Set a default GitHub host",
+      "language": "bash",
+      "tags": [
+        "config",
+        "host",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh workflow run <workflow-id>",
+      "description": "Run a workflow manually",
+      "scenario": "Run a workflow manually",
+      "language": "bash",
+      "tags": [
+        "workflow",
+        "run",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh run view <run-id>",
+      "description": "View the status of a workflow run",
+      "scenario": "View the status of a workflow run",
+      "language": "bash",
+      "tags": [
+        "workflow",
+        "status",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gh run list",
+      "description": "List all workflow runs",
+      "scenario": "List all workflow runs",
+      "language": "bash",
+      "tags": [
+        "workflow",
+        "list",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

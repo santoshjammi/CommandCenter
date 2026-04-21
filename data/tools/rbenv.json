@@ -1,0 +1,165 @@
+{
+  "title": "rbenv Cheat Sheet",
+  "slug": "rbenv",
+  "description": "Essential rbenv commands and configurations for Ruby version management.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "eval \"$(rbenv init -)\"",
+      "description": "Initialize rbenv in your shell",
+      "scenario": "Initialize rbenv in your shell",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "shell",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rbenv install 2.7.2",
+      "description": "Install a specific Ruby version",
+      "scenario": "Install a specific Ruby version",
+      "language": "bash",
+      "tags": [
+        "install",
+        "ruby",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rbenv global 2.7.2",
+      "description": "Set a global Ruby version",
+      "scenario": "Set a global Ruby version",
+      "language": "bash",
+      "tags": [
+        "global",
+        "version",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rbenv versions",
+      "description": "List all installed Ruby versions",
+      "scenario": "List all installed Ruby versions",
+      "language": "bash",
+      "tags": [
+        "list",
+        "installed",
+        "versions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rbenv uninstall 2.6.5",
+      "description": "Uninstall a specific Ruby version",
+      "scenario": "Uninstall a specific Ruby version",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "remove",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rbenv local 2.7.2",
+      "description": "Set a local Ruby version for a directory",
+      "scenario": "Set a local Ruby version for a directory",
+      "language": "bash",
+      "tags": [
+        "local",
+        "directory",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone https://github.com/rkh/rbenv-update.git $(rbenv root)/plugins/rbenv-update",
+      "description": "Install rbenv-update plugin",
+      "scenario": "Install rbenv-update plugin",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "update",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rbenv update",
+      "description": "Update rbenv and all installed plugins",
+      "scenario": "Update rbenv and all installed plugins",
+      "language": "bash",
+      "tags": [
+        "update",
+        "plugins",
+        "rbenv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone https://github.com/rbenv/ruby-build.git $(rbenv root)/plugins/ruby-build",
+      "description": "Install ruby-build as an rbenv plugin",
+      "scenario": "Install ruby-build as an rbenv plugin",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "ruby-build",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export PATH=\"$HOME/.rbenv/bin:$PATH\"",
+      "description": "Add rbenv to your PATH",
+      "scenario": "Add rbenv to your PATH",
+      "language": "bash",
+      "tags": [
+        "path",
+        "configuration",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rbenv rehash",
+      "description": "Rehash rbenv shims",
+      "scenario": "Rehash rbenv shims",
+      "language": "bash",
+      "tags": [
+        "rehash",
+        "shims",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash",
+      "description": "Check rbenv installation",
+      "scenario": "Check rbenv installation",
+      "language": "bash",
+      "tags": [
+        "check",
+        "installation",
+        "diagnostic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Statistical Computing with Python",
+  "slug": "statistical-computing-with-python",
+  "description": "Essential commands and patterns for statistical computing using Python.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "import pandas as pd\ndf = pd.read_csv('data.csv')",
+      "description": "Load a CSV file into a DataFrame",
+      "scenario": "Load a CSV file into a DataFrame",
+      "language": "python",
+      "tags": [
+        "pandas",
+        "dataframe",
+        "csv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print(df.head())",
+      "description": "Display the first 5 rows of a DataFrame",
+      "scenario": "Display the first 5 rows of a DataFrame",
+      "language": "python",
+      "tags": [
+        "pandas",
+        "dataframe",
+        "head"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "filtered_df = df[df['column_name'] > 10]",
+      "description": "Filter DataFrame rows based on a condition",
+      "scenario": "Filter DataFrame rows based on a condition",
+      "language": "python",
+      "tags": [
+        "pandas",
+        "filter",
+        "dataframe"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from scipy import stats\nresult = stats.ttest_ind(sample1, sample2)",
+      "description": "Perform a t-test on two independent samples",
+      "scenario": "Perform a t-test on two independent samples",
+      "language": "python",
+      "tags": [
+        "scipy",
+        "t-test",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "correlation, p_value = stats.pearsonr(x, y)",
+      "description": "Calculate the Pearson correlation coefficient",
+      "scenario": "Calculate the Pearson correlation coefficient",
+      "language": "python",
+      "tags": [
+        "scipy",
+        "correlation",
+        "pearson"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chi2, p, dof, expected = stats.chi2_contingency(observed)",
+      "description": "Conduct a chi-square test for independence",
+      "scenario": "Conduct a chi-square test for independence",
+      "language": "python",
+      "tags": [
+        "scipy",
+        "chi-square",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import matplotlib.pyplot as plt\nplt.plot(x, y)\nplt.show()",
+      "description": "Create a simple line plot",
+      "scenario": "Create a simple line plot",
+      "language": "python",
+      "tags": [
+        "matplotlib",
+        "plot",
+        "visualization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.hist(data, bins=10)\nplt.show()",
+      "description": "Generate a histogram of data",
+      "scenario": "Generate a histogram of data",
+      "language": "python",
+      "tags": [
+        "matplotlib",
+        "histogram",
+        "visualization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "plt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Title')",
+      "description": "Add labels and title to a plot",
+      "scenario": "Add labels and title to a plot",
+      "language": "python",
+      "tags": [
+        "matplotlib",
+        "labels",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "samples = np.random.normal(loc=0, scale=1, size=1000)",
+      "description": "Generate random samples from a normal distribution",
+      "scenario": "Generate random samples from a normal distribution",
+      "language": "python",
+      "tags": [
+        "numpy",
+        "random",
+        "normal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mean_value = np.mean(array)",
+      "description": "Calculate the mean of an array",
+      "scenario": "Calculate the mean of an array",
+      "language": "python",
+      "tags": [
+        "numpy",
+        "mean",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "std_dev = np.std(array)",
+      "description": "Compute the standard deviation of an array",
+      "scenario": "Compute the standard deviation of an array",
+      "language": "python",
+      "tags": [
+        "numpy",
+        "std",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from sklearn.linear_model import LinearRegression\nmodel = LinearRegression().fit(X_train, y_train)",
+      "description": "Train a linear regression model",
+      "scenario": "Train a linear regression model",
+      "language": "python",
+      "tags": [
+        "scikit-learn",
+        "linear regression",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "predictions = model.predict(X_test)",
+      "description": "Make predictions with a trained model",
+      "scenario": "Make predictions with a trained model",
+      "language": "python",
+      "tags": [
+        "scikit-learn",
+        "predict",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from sklearn.metrics import r2_score\nscore = r2_score(y_test, predictions)",
+      "description": "Evaluate model accuracy using R^2 score",
+      "scenario": "Evaluate model accuracy using R^2 score",
+      "language": "python",
+      "tags": [
+        "scikit-learn",
+        "r2 score",
+        "evaluation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "TCP Cheat Sheet",
+  "slug": "tcp",
+  "description": "Essential TCP commands and patterns for networking engineers",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "netstat -tuln",
+      "description": "Check TCP connections and listening ports",
+      "scenario": "Check TCP connections and listening ports",
+      "language": "bash",
+      "tags": [
+        "netstat",
+        "tcp",
+        "connections"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ss -t",
+      "description": "Display active TCP connections",
+      "scenario": "Display active TCP connections",
+      "language": "bash",
+      "tags": [
+        "ss",
+        "tcp",
+        "connections"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -i eth0 tcp",
+      "description": "Capture TCP packets on a specific interface",
+      "scenario": "Capture TCP packets on a specific interface",
+      "language": "bash",
+      "tags": [
+        "tcpdump",
+        "tcp",
+        "packets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "telnet example.com 80",
+      "description": "Establish a TCP connection using telnet",
+      "scenario": "Establish a TCP connection using telnet",
+      "language": "bash",
+      "tags": [
+        "telnet",
+        "tcp",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc -zv example.com 80",
+      "description": "Test TCP connectivity with nc (netcat)",
+      "scenario": "Test TCP connectivity with nc (netcat)",
+      "language": "bash",
+      "tags": [
+        "netcat",
+        "tcp",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill -9 $(lsof -i tcp:80 -t)",
+      "description": "Close a TCP connection forcefully",
+      "scenario": "Close a TCP connection forcefully",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "tcp",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ulimit -n 4096",
+      "description": "Increase the maximum number of open file descriptors",
+      "scenario": "Increase the maximum number of open file descriptors",
+      "language": "bash",
+      "tags": [
+        "ulimit",
+        "tcp",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 600 > /proc/sys/net/ipv4/tcp_keepalive_time",
+      "description": "Modify TCP keepalive time",
+      "scenario": "Modify TCP keepalive time",
+      "language": "bash",
+      "tags": [
+        "keepalive",
+        "tcp",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 1 > /proc/sys/net/ipv4/tcp_syncookies",
+      "description": "Enable TCP SYN cookies",
+      "scenario": "Enable TCP SYN cookies",
+      "language": "bash",
+      "tags": [
+        "syncookies",
+        "tcp",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "traceroute example.com",
+      "description": "Diagnose network issues with traceroute",
+      "scenario": "Diagnose network issues with traceroute",
+      "language": "bash",
+      "tags": [
+        "traceroute",
+        "tcp",
+        "troubleshooting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 example.com",
+      "description": "Check for packet loss with ping",
+      "scenario": "Check for packet loss with ping",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "tcp",
+        "packet loss"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iftop -i eth0",
+      "description": "Monitor network traffic with iftop",
+      "scenario": "Monitor network traffic with iftop",
+      "language": "bash",
+      "tags": [
+        "iftop",
+        "tcp",
+        "traffic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nc -l 1234",
+      "description": "Simulate a TCP server with netcat",
+      "scenario": "Simulate a TCP server with netcat",
+      "language": "bash",
+      "tags": [
+        "netcat",
+        "tcp",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iperf -c example.com -p 5001",
+      "description": "Use iperf to measure TCP bandwidth",
+      "scenario": "Use iperf to measure TCP bandwidth",
+      "language": "bash",
+      "tags": [
+        "iperf",
+        "tcp",
+        "bandwidth"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wireshark -k -i eth0",
+      "description": "Analyze TCP traffic with Wireshark",
+      "scenario": "Analyze TCP traffic with Wireshark",
+      "language": "bash",
+      "tags": [
+        "wireshark",
+        "tcp",
+        "analysis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

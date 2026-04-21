@@ -1,0 +1,204 @@
+{
+  "title": "Resolutions Cheat Sheet",
+  "slug": "resolutions",
+  "description": "Quick reference for setting and managing resolutions in various contexts.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "convert input.jpg -resize 1920x1080 output.jpg",
+      "description": "Resize an image to 1920x1080 using ImageMagick",
+      "scenario": "Resize an image to 1920x1080 using ImageMagick",
+      "language": "bash",
+      "tags": [
+        "image",
+        "resize",
+        "imagemagick"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "convert input.jpg -density 300 output.jpg",
+      "description": "Change image resolution to 300 DPI",
+      "scenario": "Change image resolution to 300 DPI",
+      "language": "bash",
+      "tags": [
+        "dpi",
+        "imagemagick",
+        "resolution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "identify -format \"%wx%h\" input.jpg",
+      "description": "Get image resolution details using identify",
+      "scenario": "Get image resolution details using identify",
+      "language": "bash",
+      "tags": [
+        "image",
+        "resolution",
+        "identify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xrandr --output HDMI-1 --mode 1920x1080",
+      "description": "Set screen resolution to 1920x1080 on Linux",
+      "scenario": "Set screen resolution to 1920x1080 on Linux",
+      "language": "bash",
+      "tags": [
+        "screen",
+        "resolution",
+        "linux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xrandr -q",
+      "description": "List all available screen resolutions",
+      "scenario": "List all available screen resolutions",
+      "language": "bash",
+      "tags": [
+        "screen",
+        "resolution",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.Screen]::AllScreens",
+      "description": "Change screen resolution on Windows using PowerShell",
+      "scenario": "Change screen resolution on Windows using PowerShell",
+      "language": "bash",
+      "tags": [
+        "screen",
+        "resolution",
+        "windows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -vf scale=1920:1080 output.mp4",
+      "description": "Convert video to 1080p resolution using FFmpeg",
+      "scenario": "Convert video to 1080p resolution using FFmpeg",
+      "language": "bash",
+      "tags": [
+        "video",
+        "ffmpeg",
+        "resolution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 2>&1 | grep Video:",
+      "description": "Extract video resolution using FFmpeg",
+      "scenario": "Extract video resolution using FFmpeg",
+      "language": "bash",
+      "tags": [
+        "video",
+        "ffmpeg",
+        "resolution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -i input.mp4 -vf scale=1280:720 output.mp4",
+      "description": "Change video resolution to 720p",
+      "scenario": "Change video resolution to 720p",
+      "language": "bash",
+      "tags": [
+        "video",
+        "ffmpeg",
+        "resolution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "system_profiler SPDisplaysDataType",
+      "description": "Set display resolution on macOS",
+      "scenario": "Set display resolution on macOS",
+      "language": "bash",
+      "tags": [
+        "display",
+        "resolution",
+        "macos"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-CimInstance -Namespace root\\wmi -ClassName WmiMonitorBasicDisplayParams",
+      "description": "Check current display resolution on Windows",
+      "scenario": "Check current display resolution on Windows",
+      "language": "bash",
+      "tags": [
+        "display",
+        "resolution",
+        "windows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xrandr --output eDP-1 --mode 1366x768",
+      "description": "Change display resolution using xrandr",
+      "scenario": "Change display resolution using xrandr",
+      "language": "bash",
+      "tags": [
+        "display",
+        "resolution",
+        "xrandr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920); cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)",
+      "description": "Set resolution in a Python script using OpenCV",
+      "scenario": "Set resolution in a Python script using OpenCV",
+      "language": "python",
+      "tags": [
+        "opencv",
+        "resolution",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "canvas.width = 1920; canvas.height = 1080;",
+      "description": "Change resolution in a JavaScript canvas",
+      "scenario": "Change resolution in a JavaScript canvas",
+      "language": "javascript",
+      "tags": [
+        "canvas",
+        "resolution",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Screen.SetResolution(1920, 1080, FullScreenMode.Windowed);",
+      "description": "Set resolution in a Unity game",
+      "scenario": "Set resolution in a Unity game",
+      "language": "csharp",
+      "tags": [
+        "unity",
+        "resolution",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

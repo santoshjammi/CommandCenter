@@ -1,0 +1,204 @@
+{
+  "title": "OpenCL Cheat Sheet",
+  "slug": "opencl",
+  "description": "Essential OpenCL commands and syntax for efficient parallel programming.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "cl_uint numPlatforms; clGetPlatformIDs(0, NULL, &numPlatforms);",
+      "description": "Get the number of platforms available",
+      "scenario": "Get the number of platforms available",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "platform",
+        "initialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cl_platform_id platforms[numPlatforms]; clGetPlatformIDs(numPlatforms, platforms, NULL);",
+      "description": "Get the platform IDs",
+      "scenario": "Get the platform IDs",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "platform",
+        "ID"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cl_context context = clCreateContext(NULL, 1, &device_id, NULL, NULL, &ret);",
+      "description": "Create an OpenCL context",
+      "scenario": "Create an OpenCL context",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "context",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cl_program program = clCreateProgramWithSource(context, 1, (const char **)&source_str, (const size_t *)&source_size, &ret);",
+      "description": "Create a program from source",
+      "scenario": "Create a program from source",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "program",
+        "source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret = clBuildProgram(program, 1, &device_id, NULL, NULL, NULL);",
+      "description": "Build the OpenCL program",
+      "scenario": "Build the OpenCL program",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "build",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cl_kernel kernel = clCreateKernel(program, \"kernel_function_name\", &ret);",
+      "description": "Create a kernel from the program",
+      "scenario": "Create a kernel from the program",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "kernel",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cl_mem buffer = clCreateBuffer(context, CL_MEM_READ_WRITE, buffer_size, NULL, &ret);",
+      "description": "Create a buffer object",
+      "scenario": "Create a buffer object",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "buffer",
+        "memory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret = clEnqueueWriteBuffer(command_queue, buffer, CL_TRUE, 0, buffer_size, host_ptr, 0, NULL, NULL);",
+      "description": "Write data to a buffer",
+      "scenario": "Write data to a buffer",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "buffer",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret = clEnqueueReadBuffer(command_queue, buffer, CL_TRUE, 0, buffer_size, host_ptr, 0, NULL, NULL);",
+      "description": "Read data from a buffer",
+      "scenario": "Read data from a buffer",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "buffer",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cl_command_queue command_queue = clCreateCommandQueue(context, device_id, 0, &ret);",
+      "description": "Create a command queue",
+      "scenario": "Create a command queue",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "command queue",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret = clFlush(command_queue);",
+      "description": "Flush a command queue",
+      "scenario": "Flush a command queue",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "command queue",
+        "flush"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret = clFinish(command_queue);",
+      "description": "Finish a command queue",
+      "scenario": "Finish a command queue",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "command queue",
+        "finish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret = clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *)&buffer);",
+      "description": "Set kernel arguments",
+      "scenario": "Set kernel arguments",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "kernel",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret = clEnqueueNDRangeKernel(command_queue, kernel, 1, NULL, &global_work_size, &local_work_size, 0, NULL, NULL);",
+      "description": "Execute the kernel",
+      "scenario": "Execute the kernel",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "kernel",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ret = clFinish(command_queue);",
+      "description": "Wait for all commands to complete",
+      "scenario": "Wait for all commands to complete",
+      "language": "c",
+      "tags": [
+        "OpenCL",
+        "synchronization",
+        "finish"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

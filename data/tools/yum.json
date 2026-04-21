@@ -1,0 +1,204 @@
+{
+  "title": "Yum Package Manager Cheat Sheet",
+  "slug": "yum",
+  "description": "Quick reference for Yum package management commands and configurations.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "yum install <package-name>",
+      "description": "Install a package",
+      "scenario": "Install a package",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum remove <package-name>",
+      "description": "Remove a package",
+      "scenario": "Remove a package",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "package",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum update",
+      "description": "Update all packages",
+      "scenario": "Update all packages",
+      "language": "bash",
+      "tags": [
+        "update",
+        "all",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum list installed",
+      "description": "List all installed packages",
+      "scenario": "List all installed packages",
+      "language": "bash",
+      "tags": [
+        "list",
+        "installed",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum search <package-name>",
+      "description": "Search for a package",
+      "scenario": "Search for a package",
+      "language": "bash",
+      "tags": [
+        "search",
+        "package",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum info <package-name>",
+      "description": "Get package information",
+      "scenario": "Get package information",
+      "language": "bash",
+      "tags": [
+        "info",
+        "package",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum repolist",
+      "description": "List all enabled repositories",
+      "scenario": "List all enabled repositories",
+      "language": "bash",
+      "tags": [
+        "list",
+        "repositories",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum-config-manager --enable <repo-id>",
+      "description": "Enable a repository",
+      "scenario": "Enable a repository",
+      "language": "bash",
+      "tags": [
+        "enable",
+        "repository",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum-config-manager --disable <repo-id>",
+      "description": "Disable a repository",
+      "scenario": "Disable a repository",
+      "language": "bash",
+      "tags": [
+        "disable",
+        "repository",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum clean all",
+      "description": "Clear all cached files",
+      "scenario": "Clear all cached files",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "cache",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum clean packages",
+      "description": "Remove cached packages",
+      "scenario": "Remove cached packages",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "packages",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum clean metadata",
+      "description": "Remove metadata cache",
+      "scenario": "Remove metadata cache",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "metadata",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum install --downloadonly <package-name>",
+      "description": "Download a package without installing",
+      "scenario": "Download a package without installing",
+      "language": "bash",
+      "tags": [
+        "download",
+        "package",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum deplist <package-name>",
+      "description": "List package dependencies",
+      "scenario": "List package dependencies",
+      "language": "bash",
+      "tags": [
+        "dependencies",
+        "list",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yum check-update",
+      "description": "Check for available package updates",
+      "scenario": "Check for available package updates",
+      "language": "bash",
+      "tags": [
+        "check",
+        "updates",
+        "yum"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

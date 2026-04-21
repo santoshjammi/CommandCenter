@@ -1,0 +1,204 @@
+{
+  "title": "Vimdiff Cheat Sheet",
+  "slug": "vimdiff",
+  "description": "Quick reference for using Vimdiff to compare files",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "vimdiff file1.txt file2.txt",
+      "description": "Open two files side by side for comparison",
+      "scenario": "Open two files side by side for comparison",
+      "language": "bash",
+      "tags": [
+        "vimdiff",
+        "compare",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "]c",
+      "description": "Move to the next difference",
+      "scenario": "Move to the next difference",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "difference",
+        "next"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[c",
+      "description": "Move to the previous difference",
+      "scenario": "Move to the previous difference",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "difference",
+        "previous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-w w",
+      "description": "Switch to the next window",
+      "scenario": "Switch to the next window",
+      "language": "text",
+      "tags": [
+        "window",
+        "switch",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":q",
+      "description": "Close the current window",
+      "scenario": "Close the current window",
+      "language": "text",
+      "tags": [
+        "window",
+        "close",
+        "quit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-w =",
+      "description": "Equalize window sizes",
+      "scenario": "Equalize window sizes",
+      "language": "text",
+      "tags": [
+        "window",
+        "resize",
+        "equalize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dp",
+      "description": "Copy the difference from the other file to the current file",
+      "scenario": "Copy the difference from the other file to the current file",
+      "language": "text",
+      "tags": [
+        "edit",
+        "copy",
+        "difference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do",
+      "description": "Put the difference from the current file to the other file",
+      "scenario": "Put the difference from the current file to the other file",
+      "language": "text",
+      "tags": [
+        "edit",
+        "put",
+        "difference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "u",
+      "description": "Undo last change",
+      "scenario": "Undo last change",
+      "language": "text",
+      "tags": [
+        "edit",
+        "undo",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":diffoff",
+      "description": "Turn off diff highlighting",
+      "scenario": "Turn off diff highlighting",
+      "language": "text",
+      "tags": [
+        "diff",
+        "highlight",
+        "off"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":diffupdate",
+      "description": "Rescan the files for differences",
+      "scenario": "Rescan the files for differences",
+      "language": "text",
+      "tags": [
+        "diff",
+        "rescan",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":set diffopt+=algorithm:minimal",
+      "description": "Set the diff algorithm to minimal",
+      "scenario": "Set the diff algorithm to minimal",
+      "language": "text",
+      "tags": [
+        "diff",
+        "algorithm",
+        "minimal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[c",
+      "description": "Jump to the first difference",
+      "scenario": "Jump to the first difference",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "first",
+        "difference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "]c",
+      "description": "Jump to the last difference",
+      "scenario": "Jump to the last difference",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "last",
+        "difference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-w Ctrl-w",
+      "description": "Scroll the windows together",
+      "scenario": "Scroll the windows together",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "scroll",
+        "sync"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "IPv4 Multicast Cheat Sheet",
+  "slug": "ipv4-multicast",
+  "description": "Quick reference for IPv4 multicast commands and configurations.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "224.0.0.0 to 239.255.255.255",
+      "description": "Identify the range of IPv4 multicast addresses.",
+      "scenario": "Identify the range of IPv4 multicast addresses.",
+      "language": "text",
+      "tags": [
+        "multicast",
+        "addressing",
+        "range"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "224.0.0.0 to 224.0.0.255",
+      "description": "Local Network Control Block (reserved for network protocols).",
+      "scenario": "Local Network Control Block (reserved for network protocols).",
+      "language": "text",
+      "tags": [
+        "local",
+        "network",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "224.0.1.0 to 238.255.255.255",
+      "description": "Globally scoped multicast addresses.",
+      "scenario": "Globally scoped multicast addresses.",
+      "language": "text",
+      "tags": [
+        "global",
+        "scope",
+        "multicast"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip mroute show",
+      "description": "Display multicast routing table on a Linux system.",
+      "scenario": "Display multicast routing table on a Linux system.",
+      "language": "bash",
+      "tags": [
+        "multicast",
+        "routing",
+        "linux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip route add 224.0.0.0/4 dev eth0",
+      "description": "Add a static multicast route.",
+      "scenario": "Add a static multicast route.",
+      "language": "bash",
+      "tags": [
+        "multicast",
+        "route",
+        "static"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -g",
+      "description": "Show multicast group memberships on a Linux system.",
+      "scenario": "Show multicast group memberships on a Linux system.",
+      "language": "bash",
+      "tags": [
+        "multicast",
+        "group",
+        "membership"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip multicast-routing",
+      "description": "Enable multicast routing on a Cisco router.",
+      "scenario": "Enable multicast routing on a Cisco router.",
+      "language": "text",
+      "tags": [
+        "cisco",
+        "multicast",
+        "routing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip multicast boundary 10",
+      "description": "Configure a multicast boundary on a Cisco interface.",
+      "scenario": "Configure a multicast boundary on a Cisco interface.",
+      "language": "text",
+      "tags": [
+        "cisco",
+        "multicast",
+        "boundary"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip maddr add 224.0.0.1 dev eth0",
+      "description": "Join a multicast group on a Linux interface.",
+      "scenario": "Join a multicast group on a Linux interface.",
+      "language": "bash",
+      "tags": [
+        "multicast",
+        "group",
+        "join"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig eth0 | grep MULTICAST",
+      "description": "Pattern for checking multicast group membership.",
+      "scenario": "Pattern for checking multicast group membership.",
+      "language": "bash",
+      "tags": [
+        "multicast",
+        "membership",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tcpdump -i eth0 multicast",
+      "description": "Pattern for verifying multicast traffic with tcpdump.",
+      "scenario": "Pattern for verifying multicast traffic with tcpdump.",
+      "language": "bash",
+      "tags": [
+        "tcpdump",
+        "multicast",
+        "traffic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in {224..239}; do ip route add $i.0.0.0/8 dev eth0; done",
+      "description": "Pattern for adding multiple multicast routes.",
+      "scenario": "Pattern for adding multiple multicast routes.",
+      "language": "bash",
+      "tags": [
+        "multicast",
+        "routes",
+        "batch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "MATLAB Cheat Sheet",
+  "slug": "matlab",
+  "description": "Essential MATLAB commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "clear all",
+      "description": "Clear all variables from the workspace",
+      "scenario": "Clear all variables from the workspace",
+      "language": "text",
+      "tags": [
+        "clear",
+        "workspace",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Display the current directory",
+      "scenario": "Display the current directory",
+      "language": "text",
+      "tags": [
+        "directory",
+        "path",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dir",
+      "description": "List all files in the current directory",
+      "scenario": "List all files in the current directory",
+      "language": "text",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "eye(3)",
+      "description": "Create a 3x3 identity matrix",
+      "scenario": "Create a 3x3 identity matrix",
+      "language": "text",
+      "tags": [
+        "matrix",
+        "identity",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A'",
+      "description": "Transpose a matrix",
+      "scenario": "Transpose a matrix",
+      "language": "text",
+      "tags": [
+        "transpose",
+        "matrix",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C = A * B",
+      "description": "Multiply two matrices A and B",
+      "scenario": "Multiply two matrices A and B",
+      "language": "text",
+      "tags": [
+        "multiply",
+        "matrices",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x = 0:0.01:2*pi; y = sin(x); plot(x, y)",
+      "description": "Plot a sine wave",
+      "scenario": "Plot a sine wave",
+      "language": "text",
+      "tags": [
+        "plot",
+        "sine",
+        "wave"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "title('My Plot')",
+      "description": "Add a title to a plot",
+      "scenario": "Add a title to a plot",
+      "language": "text",
+      "tags": [
+        "plot",
+        "title",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "xlabel('Time (s)')",
+      "description": "Label the x-axis of a plot",
+      "scenario": "Label the x-axis of a plot",
+      "language": "text",
+      "tags": [
+        "plot",
+        "x-axis",
+        "label"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 0\n    disp('Positive')\nelse\n    disp('Non-positive')\nend",
+      "description": "If-else statement example",
+      "scenario": "If-else statement example",
+      "language": "text",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i = 1:10\n    disp(i)\nend",
+      "description": "For loop example",
+      "scenario": "For loop example",
+      "language": "text",
+      "tags": [
+        "for",
+        "loop",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while x < 10\n    x = x + 1;\nend",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "text",
+      "tags": [
+        "while",
+        "loop",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function y = square(x)\n    y = x^2;\nend",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "text",
+      "tags": [
+        "function",
+        "define",
+        "simple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "result = square(5)",
+      "description": "Call a function with arguments",
+      "scenario": "Call a function with arguments",
+      "language": "text",
+      "tags": [
+        "function",
+        "call",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f = @(x) x^2;",
+      "description": "Anonymous function example",
+      "scenario": "Anonymous function example",
+      "language": "text",
+      "tags": [
+        "anonymous",
+        "function",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

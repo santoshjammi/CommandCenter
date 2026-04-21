@@ -1,0 +1,165 @@
+{
+  "title": "Grep Cheat Sheet",
+  "slug": "grep",
+  "description": "Essential grep commands and patterns for text searching",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "grep 'search_string' filename.txt",
+      "description": "Search for a string in a file",
+      "scenario": "Search for a string in a file",
+      "language": "bash",
+      "tags": [
+        "search",
+        "string",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -r 'search_string' /path/to/directory",
+      "description": "Search recursively in directories",
+      "scenario": "Search recursively in directories",
+      "language": "bash",
+      "tags": [
+        "recursive",
+        "directory",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -i 'search_string' filename.txt",
+      "description": "Ignore case while searching",
+      "scenario": "Ignore case while searching",
+      "language": "bash",
+      "tags": [
+        "ignore",
+        "case",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -n 'search_string' filename.txt",
+      "description": "Show line numbers with output",
+      "scenario": "Show line numbers with output",
+      "language": "bash",
+      "tags": [
+        "line",
+        "numbers",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -w 'search_string' filename.txt",
+      "description": "Search for whole words only",
+      "scenario": "Search for whole words only",
+      "language": "bash",
+      "tags": [
+        "whole",
+        "words",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -v 'search_string' filename.txt",
+      "description": "Invert match to show non-matching lines",
+      "scenario": "Invert match to show non-matching lines",
+      "language": "bash",
+      "tags": [
+        "invert",
+        "match",
+        "non-matching"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -E 'pattern' filename.txt",
+      "description": "Use extended regular expressions",
+      "scenario": "Use extended regular expressions",
+      "language": "bash",
+      "tags": [
+        "extended",
+        "regex",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep '^pattern' filename.txt",
+      "description": "Match lines starting with a pattern",
+      "scenario": "Match lines starting with a pattern",
+      "language": "bash",
+      "tags": [
+        "start",
+        "line",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'pattern$' filename.txt",
+      "description": "Match lines ending with a pattern",
+      "scenario": "Match lines ending with a pattern",
+      "language": "bash",
+      "tags": [
+        "end",
+        "line",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -m 3 'search_string' filename.txt",
+      "description": "Limit output to a specific number of lines",
+      "scenario": "Limit output to a specific number of lines",
+      "language": "bash",
+      "tags": [
+        "limit",
+        "output",
+        "lines"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -l 'search_string' *.txt",
+      "description": "Print only filenames with matches",
+      "scenario": "Print only filenames with matches",
+      "language": "bash",
+      "tags": [
+        "filenames",
+        "matches",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep -s 'search_string' filename.txt",
+      "description": "Suppress error messages",
+      "scenario": "Suppress error messages",
+      "language": "bash",
+      "tags": [
+        "suppress",
+        "errors",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

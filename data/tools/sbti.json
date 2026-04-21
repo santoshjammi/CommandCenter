@@ -1,0 +1,204 @@
+{
+  "title": "SBTI Cheat Sheet",
+  "slug": "sbti",
+  "description": "Essential commands and patterns for using SBTI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sbti init",
+      "description": "Initialize a new SBTI project",
+      "scenario": "Initialize a new SBTI project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti run",
+      "description": "Run the SBTI project",
+      "scenario": "Run the SBTI project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti compile",
+      "description": "Compile the SBTI project",
+      "scenario": "Compile the SBTI project",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "build",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "libraryDependencies += \"org.example\" %% \"example-lib\" % \"1.0.0\"",
+      "description": "Add a new dependency to the project",
+      "scenario": "Add a new dependency to the project",
+      "language": "scala",
+      "tags": [
+        "dependencies",
+        "library",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti update",
+      "description": "Update project dependencies",
+      "scenario": "Update project dependencies",
+      "language": "bash",
+      "tags": [
+        "update",
+        "dependencies",
+        "refresh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti show libraryDependencies",
+      "description": "List all project dependencies",
+      "scenario": "List all project dependencies",
+      "language": "bash",
+      "tags": [
+        "list",
+        "dependencies",
+        "show"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti test",
+      "description": "Run all tests in the project",
+      "scenario": "Run all tests in the project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti \"testOnly com.example.MyTestSuite\"",
+      "description": "Run a specific test suite",
+      "scenario": "Run a specific test suite",
+      "language": "bash",
+      "tags": [
+        "test",
+        "specific",
+        "suite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti clean",
+      "description": "Clean test results",
+      "scenario": "Clean test results",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "test",
+        "results"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scalaVersion := \"2.13.6\"",
+      "description": "Set the Scala version for the project",
+      "scenario": "Set the Scala version for the project",
+      "language": "scala",
+      "tags": [
+        "scala",
+        "version",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lazy val myTask = taskKey[Unit](\"My custom task\")",
+      "description": "Define a custom task in SBTI",
+      "scenario": "Define a custom task in SBTI",
+      "language": "scala",
+      "tags": [
+        "task",
+        "custom",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "settings := Seq(name := \"MyProject\", version := \"0.1.0\")",
+      "description": "Configure project settings",
+      "scenario": "Configure project settings",
+      "language": "scala",
+      "tags": [
+        "settings",
+        "configure",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti publishLocal",
+      "description": "Publish the project to a local repository",
+      "scenario": "Publish the project to a local repository",
+      "language": "bash",
+      "tags": [
+        "publish",
+        "local",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti shell",
+      "description": "Run SBTI in interactive mode",
+      "scenario": "Run SBTI in interactive mode",
+      "language": "bash",
+      "tags": [
+        "interactive",
+        "shell",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sbti doc",
+      "description": "Generate project documentation",
+      "scenario": "Generate project documentation",
+      "language": "bash",
+      "tags": [
+        "documentation",
+        "generate",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

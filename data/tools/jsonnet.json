@@ -1,0 +1,165 @@
+{
+  "title": "Jsonnet Cheat Sheet",
+  "slug": "jsonnet",
+  "description": "Essential Jsonnet syntax and CLI commands for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "{\n  name: \"John Doe\",\n  age: 30\n}",
+      "description": "Define a simple Jsonnet object",
+      "scenario": "Define a simple Jsonnet object",
+      "language": "jsonnet",
+      "tags": [
+        "object",
+        "syntax",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "local greeting = \"Hello\";\n{\n  message: greeting + \", World!\"\n}",
+      "description": "Use a local variable in Jsonnet",
+      "scenario": "Use a local variable in Jsonnet",
+      "language": "jsonnet",
+      "tags": [
+        "local",
+        "variable",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[\n  \"apple\",\n  \"banana\",\n  \"cherry\"\n]",
+      "description": "Create a Jsonnet array",
+      "scenario": "Create a Jsonnet array",
+      "language": "jsonnet",
+      "tags": [
+        "array",
+        "syntax",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jsonnet myfile.jsonnet",
+      "description": "Evaluate a Jsonnet file",
+      "scenario": "Evaluate a Jsonnet file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "evaluate",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jsonnet myfile.jsonnet -o output.json",
+      "description": "Output Jsonnet evaluation to a file",
+      "scenario": "Output Jsonnet evaluation to a file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "output",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jsonnetfmt -i myfile.jsonnet",
+      "description": "Format a Jsonnet file",
+      "scenario": "Format a Jsonnet file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "format",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "local add = function(x, y) x + y;\n{\n  sum: add(5, 10)\n}",
+      "description": "Use a function in Jsonnet",
+      "scenario": "Use a function in Jsonnet",
+      "language": "jsonnet",
+      "tags": [
+        "function",
+        "advanced",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "local config = import 'config.jsonnet';\n{\n  settings: config\n}",
+      "description": "Import another Jsonnet file",
+      "scenario": "Import another Jsonnet file",
+      "language": "jsonnet",
+      "tags": [
+        "import",
+        "file",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  isAdult: if age >= 18 then true else false\n}",
+      "description": "Conditional logic in Jsonnet",
+      "scenario": "Conditional logic in Jsonnet",
+      "language": "jsonnet",
+      "tags": [
+        "conditional",
+        "logic",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "local person = {\n  name: null,\n  age: null\n};\n\n{\n  john: person + { name: \"John\", age: 30 }\n}",
+      "description": "Define a reusable mixin",
+      "scenario": "Define a reusable mixin",
+      "language": "jsonnet",
+      "tags": [
+        "mixin",
+        "pattern",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  person:: {\n    name: self.name,\n    age: self.age\n  },\n  john: $.person { name: \"John\", age: 30 }\n}",
+      "description": "Use self in Jsonnet for recursive objects",
+      "scenario": "Use self in Jsonnet for recursive objects",
+      "language": "jsonnet",
+      "tags": [
+        "self",
+        "recursive",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "local base = { name: \"Unknown\" };\n\n{\n  person: base + { age: 25 }\n}",
+      "description": "Extend an object with additional fields",
+      "scenario": "Extend an object with additional fields",
+      "language": "jsonnet",
+      "tags": [
+        "extend",
+        "object",
+        "jsonnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

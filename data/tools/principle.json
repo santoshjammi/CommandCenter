@@ -1,0 +1,165 @@
+{
+  "title": "Principle CLI Cheat Sheet",
+  "slug": "principle",
+  "description": "Essential commands and patterns for using Principle CLI efficiently.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "principle init",
+      "description": "Initialize a new Principle project",
+      "scenario": "Initialize a new Principle project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "principle serve",
+      "description": "Start the Principle development server",
+      "scenario": "Start the Principle development server",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "development",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "principle build",
+      "description": "Build the project for production",
+      "scenario": "Build the project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "principle config set projectName MyProject",
+      "description": "Set the project name in configuration",
+      "scenario": "Set the project name in configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "principle config get projectName",
+      "description": "Get the current configuration value for a key",
+      "scenario": "Get the current configuration value for a key",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "principle config list",
+      "description": "List all configuration settings",
+      "scenario": "List all configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "principle test",
+      "description": "Run tests in the Principle project",
+      "scenario": "Run tests in the Principle project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "principle deploy --env production",
+      "description": "Deploy the project to a specified environment",
+      "scenario": "Deploy the project to a specified environment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "environment",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "principle generate component MyComponent",
+      "description": "Generate a new component",
+      "scenario": "Generate a new component",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "component",
+        "scaffold"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try {\n  // code that might throw\n} catch (error) {\n  console.error(error);\n}",
+      "description": "Pattern for handling errors in Principle",
+      "scenario": "Pattern for handling errors in Principle",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData() {\n  const response = await fetch(url);\n  const data = await response.json();\n  return data;\n}",
+      "description": "Pattern for asynchronous data fetching",
+      "scenario": "Pattern for asynchronous data fetching",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "fetch",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const [state, setState] = useState(initialState);",
+      "description": "Pattern for state management using hooks",
+      "scenario": "Pattern for state management using hooks",
+      "language": "javascript",
+      "tags": [
+        "state",
+        "hooks",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

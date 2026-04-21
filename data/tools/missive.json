@@ -1,0 +1,165 @@
+{
+  "title": "Missive CLI Cheat Sheet",
+  "slug": "missive",
+  "description": "Essential Missive CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "missive init",
+      "description": "Initialize a new Missive project",
+      "scenario": "Initialize a new Missive project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive start",
+      "description": "Start the Missive server",
+      "scenario": "Start the Missive server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive stop",
+      "description": "Stop the Missive server",
+      "scenario": "Stop the Missive server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive config set port 8080",
+      "description": "Set the Missive server port",
+      "scenario": "Set the Missive server port",
+      "language": "bash",
+      "tags": [
+        "config",
+        "port",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive config set logLevel verbose",
+      "description": "Enable verbose logging",
+      "scenario": "Enable verbose logging",
+      "language": "bash",
+      "tags": [
+        "config",
+        "logging",
+        "verbose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive config list",
+      "description": "View current configuration",
+      "scenario": "View current configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive user add --name \"John Doe\" --email \"john@example.com\"",
+      "description": "Add a new user to Missive",
+      "scenario": "Add a new user to Missive",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive user remove --email \"john@example.com\"",
+      "description": "Remove a user from Missive",
+      "scenario": "Remove a user from Missive",
+      "language": "bash",
+      "tags": [
+        "user",
+        "remove",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive user list",
+      "description": "List all users",
+      "scenario": "List all users",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive start --debug",
+      "description": "Run Missive in debug mode",
+      "scenario": "Run Missive in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "start",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive logs export --output logs.txt",
+      "description": "Export Missive logs",
+      "scenario": "Export Missive logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "export",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "missive status",
+      "description": "Check Missive server status",
+      "scenario": "Check Missive server status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "server",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

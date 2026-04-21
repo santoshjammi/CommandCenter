@@ -1,0 +1,204 @@
+{
+  "title": "Arduino IDE Cheat Sheet",
+  "slug": "arduino-ide",
+  "description": "Quick reference for Arduino IDE commands and syntax.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "void setup() {\n  // initialization code here\n}",
+      "description": "Define setup function for initializations",
+      "scenario": "Define setup function for initializations",
+      "language": "cpp",
+      "tags": [
+        "setup",
+        "initialization",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void loop() {\n  // main code here\n}",
+      "description": "Define loop function for main code execution",
+      "scenario": "Define loop function for main code execution",
+      "language": "cpp",
+      "tags": [
+        "loop",
+        "execution",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#include <LibraryName.h>",
+      "description": "Include a library in your sketch",
+      "scenario": "Include a library in your sketch",
+      "language": "cpp",
+      "tags": [
+        "library",
+        "include",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pinMode(pin, MODE);",
+      "description": "Set a pin as input or output",
+      "scenario": "Set a pin as input or output",
+      "language": "cpp",
+      "tags": [
+        "pinMode",
+        "pin",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int sensorValue = digitalRead(pin);",
+      "description": "Read the value from a digital pin",
+      "scenario": "Read the value from a digital pin",
+      "language": "cpp",
+      "tags": [
+        "digitalRead",
+        "pin",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "digitalWrite(pin, VALUE);",
+      "description": "Write a value to a digital pin",
+      "scenario": "Write a value to a digital pin",
+      "language": "cpp",
+      "tags": [
+        "digitalWrite",
+        "pin",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Serial.begin(9600);",
+      "description": "Initialize serial communication at a specific baud rate",
+      "scenario": "Initialize serial communication at a specific baud rate",
+      "language": "cpp",
+      "tags": [
+        "serial",
+        "begin",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Serial.print(\"Hello, World!\");",
+      "description": "Send data to the serial port",
+      "scenario": "Send data to the serial port",
+      "language": "cpp",
+      "tags": [
+        "serial",
+        "print",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (Serial.available() > 0) {\n  int data = Serial.read();\n}",
+      "description": "Read incoming serial data",
+      "scenario": "Read incoming serial data",
+      "language": "cpp",
+      "tags": [
+        "serial",
+        "read",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int sensorValue = analogRead(pin);",
+      "description": "Read an analog value from a pin",
+      "scenario": "Read an analog value from a pin",
+      "language": "cpp",
+      "tags": [
+        "analogRead",
+        "analog",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "analogWrite(pin, value);",
+      "description": "Write an analog value to a pin (PWM)",
+      "scenario": "Write an analog value to a pin (PWM)",
+      "language": "cpp",
+      "tags": [
+        "analogWrite",
+        "pwm",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "long mappedValue = map(value, fromLow, fromHigh, toLow, toHigh);",
+      "description": "Map a number from one range to another",
+      "scenario": "Map a number from one range to another",
+      "language": "cpp",
+      "tags": [
+        "map",
+        "range",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tools -> Board -> Select your board",
+      "description": "Set board type in Arduino IDE",
+      "scenario": "Set board type in Arduino IDE",
+      "language": "text",
+      "tags": [
+        "board",
+        "settings",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tools -> Port -> Select your port",
+      "description": "Select the correct port for your Arduino",
+      "scenario": "Select the correct port for your Arduino",
+      "language": "text",
+      "tags": [
+        "port",
+        "settings",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Sketch -> Upload",
+      "description": "Upload a sketch to the Arduino board",
+      "scenario": "Upload a sketch to the Arduino board",
+      "language": "text",
+      "tags": [
+        "upload",
+        "sketch",
+        "arduino"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

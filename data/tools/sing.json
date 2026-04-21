@@ -1,0 +1,165 @@
+{
+  "title": "Sing CLI Cheat Sheet",
+  "slug": "sing",
+  "description": "Essential commands and patterns for using Sing CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sing init my_project",
+      "description": "Initialize a new Sing project",
+      "scenario": "Initialize a new Sing project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing run",
+      "description": "Run a Sing project",
+      "scenario": "Run a Sing project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing build",
+      "description": "Build a Sing project",
+      "scenario": "Build a Sing project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing config set path /path/to/config",
+      "description": "Set the configuration file path",
+      "scenario": "Set the configuration file path",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing config view",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing config reset",
+      "description": "Reset configuration to default",
+      "scenario": "Reset configuration to default",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing task run task_name",
+      "description": "Run a specific task within a Sing project",
+      "scenario": "Run a specific task within a Sing project",
+      "language": "bash",
+      "tags": [
+        "task",
+        "run",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing task list",
+      "description": "List all available tasks in a project",
+      "scenario": "List all available tasks in a project",
+      "language": "bash",
+      "tags": [
+        "task",
+        "list",
+        "available"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing debug",
+      "description": "Debug a Sing project",
+      "scenario": "Debug a Sing project",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "project",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing env set VAR_NAME=value",
+      "description": "Set environment variables for a Sing project",
+      "scenario": "Set environment variables for a Sing project",
+      "language": "bash",
+      "tags": [
+        "env",
+        "set",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing env list",
+      "description": "List all environment variables",
+      "scenario": "List all environment variables",
+      "language": "bash",
+      "tags": [
+        "env",
+        "list",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sing env unset VAR_NAME",
+      "description": "Remove an environment variable",
+      "scenario": "Remove an environment variable",
+      "language": "bash",
+      "tags": [
+        "env",
+        "unset",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

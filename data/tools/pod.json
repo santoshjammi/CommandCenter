@@ -1,0 +1,165 @@
+{
+  "title": "Pod CLI Cheat Sheet",
+  "slug": "pod",
+  "description": "Essential commands and configurations for managing Pods in Kubernetes.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "kubectl apply -f pod-definition.yaml",
+      "description": "Create a new Pod using a YAML file",
+      "scenario": "Create a new Pod using a YAML file",
+      "language": "bash",
+      "tags": [
+        "create",
+        "pod",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl get pods",
+      "description": "Get a list of all Pods in the current namespace",
+      "scenario": "Get a list of all Pods in the current namespace",
+      "language": "bash",
+      "tags": [
+        "list",
+        "pods",
+        "namespace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl delete pod my-pod",
+      "description": "Delete a specific Pod by name",
+      "scenario": "Delete a specific Pod by name",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "pod",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiVersion: v1\nkind: Pod\nmetadata:\n  name: my-pod\nspec:\n  containers:\n  - name: my-container\n    image: nginx",
+      "description": "Define a Pod with a single container in YAML",
+      "scenario": "Define a Pod with a single container in YAML",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "pod",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "containers:\n- name: my-container\n  image: nginx\n  env:\n  - name: ENV_VAR_NAME\n    value: \"value\"",
+      "description": "Add environment variables to a Pod's container",
+      "scenario": "Add environment variables to a Pod's container",
+      "language": "yaml",
+      "tags": [
+        "environment",
+        "variables",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "containers:\n- name: my-container\n  image: nginx\n  resources:\n    limits:\n      memory: \"128Mi\"\n      cpu: \"500m\"",
+      "description": "Set resource limits for a Pod's container",
+      "scenario": "Set resource limits for a Pod's container",
+      "language": "yaml",
+      "tags": [
+        "resources",
+        "limits",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl describe pod my-pod",
+      "description": "Describe a Pod to get detailed information",
+      "scenario": "Describe a Pod to get detailed information",
+      "language": "bash",
+      "tags": [
+        "describe",
+        "pod",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl logs my-pod",
+      "description": "View logs of a specific Pod",
+      "scenario": "View logs of a specific Pod",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "pod",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl exec -it my-pod -- /bin/bash",
+      "description": "Execute a command inside a running Pod",
+      "scenario": "Execute a command inside a running Pod",
+      "language": "bash",
+      "tags": [
+        "exec",
+        "pod",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl scale deployment my-deployment --replicas=3",
+      "description": "Scale a Deployment to manage the number of Pods",
+      "scenario": "Scale a Deployment to manage the number of Pods",
+      "language": "bash",
+      "tags": [
+        "scale",
+        "deployment",
+        "pods"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl patch pod my-pod -p '{\"spec\":{\"containers\":[{\"name\":\"my-container\",\"image\":\"nginx:latest\"}]}}'",
+      "description": "Patch a Pod to update its configuration",
+      "scenario": "Patch a Pod to update its configuration",
+      "language": "bash",
+      "tags": [
+        "patch",
+        "pod",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl rollout restart deployment my-deployment",
+      "description": "Apply a rolling update to a Deployment",
+      "scenario": "Apply a rolling update to a Deployment",
+      "language": "bash",
+      "tags": [
+        "rolling",
+        "update",
+        "deployment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

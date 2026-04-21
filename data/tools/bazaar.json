@@ -1,0 +1,165 @@
+{
+  "title": "Bazaar Version Control Cheat Sheet",
+  "slug": "bazaar",
+  "description": "Essential Bazaar commands and patterns for version control.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "bzr init",
+      "description": "Initialize a new Bazaar repository",
+      "scenario": "Initialize a new Bazaar repository",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "repository",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr add <file>",
+      "description": "Add files to the repository",
+      "scenario": "Add files to the repository",
+      "language": "bash",
+      "tags": [
+        "add",
+        "files",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr commit -m \"Commit message\"",
+      "description": "Commit changes to the repository",
+      "scenario": "Commit changes to the repository",
+      "language": "bash",
+      "tags": [
+        "commit",
+        "changes",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr branch <source> <destination>",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr merge <branch>",
+      "description": "Merge changes from another branch",
+      "scenario": "Merge changes from another branch",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "changes",
+        "branch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr resolve <file>",
+      "description": "Resolve merge conflicts",
+      "scenario": "Resolve merge conflicts",
+      "language": "bash",
+      "tags": [
+        "resolve",
+        "conflicts",
+        "merge"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr status",
+      "description": "Show changes in the working directory",
+      "scenario": "Show changes in the working directory",
+      "language": "bash",
+      "tags": [
+        "status",
+        "changes",
+        "working directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr log",
+      "description": "View the log of changes",
+      "scenario": "View the log of changes",
+      "language": "bash",
+      "tags": [
+        "log",
+        "history",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr diff",
+      "description": "Display differences between revisions",
+      "scenario": "Display differences between revisions",
+      "language": "bash",
+      "tags": [
+        "diff",
+        "revisions",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr whoami \"Name <email@example.com>\"",
+      "description": "Set the default email for commits",
+      "scenario": "Set the default email for commits",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "email",
+        "identity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo '*.log' >> .bzrignore",
+      "description": "Ignore files using a pattern",
+      "scenario": "Ignore files using a pattern",
+      "language": "bash",
+      "tags": [
+        "ignore",
+        "files",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bzr push --remember <location>",
+      "description": "Configure a default push location",
+      "scenario": "Configure a default push location",
+      "language": "bash",
+      "tags": [
+        "push",
+        "default",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

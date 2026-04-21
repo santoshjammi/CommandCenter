@@ -1,0 +1,204 @@
+{
+  "title": "Sequelize Cheat Sheet",
+  "slug": "sequelize",
+  "description": "Quick reference for Sequelize ORM commands and patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const User = sequelize.define('User', { name: Sequelize.STRING, age: Sequelize.INTEGER });",
+      "description": "Define a new Sequelize model for a User",
+      "scenario": "Define a new Sequelize model for a User",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "define",
+        "sequelize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const User = sequelize.define('User', { email: { type: Sequelize.STRING, unique: true } });",
+      "description": "Add a unique constraint to a model attribute",
+      "scenario": "Add a unique constraint to a model attribute",
+      "language": "javascript",
+      "tags": [
+        "constraint",
+        "unique",
+        "attribute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const Post = sequelize.define('Post', { title: Sequelize.STRING, userId: { type: Sequelize.INTEGER, references: { model: 'Users', key: 'id' } } });",
+      "description": "Define a model with a foreign key",
+      "scenario": "Define a model with a foreign key",
+      "language": "javascript",
+      "tags": [
+        "foreign key",
+        "association",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.findAll({ where: { age: 21 } });",
+      "description": "Find all users with a specific attribute",
+      "scenario": "Find all users with a specific attribute",
+      "language": "javascript",
+      "tags": [
+        "query",
+        "find",
+        "where"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.findByPk(1);",
+      "description": "Find a single user by primary key",
+      "scenario": "Find a single user by primary key",
+      "language": "javascript",
+      "tags": [
+        "query",
+        "primary key",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.count();",
+      "description": "Count the number of users",
+      "scenario": "Count the number of users",
+      "language": "javascript",
+      "tags": [
+        "count",
+        "query",
+        "aggregate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.hasMany(Post);",
+      "description": "Define a one-to-many association",
+      "scenario": "Define a one-to-many association",
+      "language": "javascript",
+      "tags": [
+        "association",
+        "one-to-many",
+        "relationship"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.belongsToMany(Role, { through: 'UserRoles' });",
+      "description": "Define a many-to-many association",
+      "scenario": "Define a many-to-many association",
+      "language": "javascript",
+      "tags": [
+        "association",
+        "many-to-many",
+        "relationship"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User.findAll({ include: [Post] });",
+      "description": "Include associated models in a query",
+      "scenario": "Include associated models in a query",
+      "language": "javascript",
+      "tags": [
+        "association",
+        "include",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx sequelize-cli migration:generate --name migration_name",
+      "description": "Generate a new migration file",
+      "scenario": "Generate a new migration file",
+      "language": "bash",
+      "tags": [
+        "migration",
+        "generate",
+        "sequelize-cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx sequelize-cli db:migrate",
+      "description": "Run all pending migrations",
+      "scenario": "Run all pending migrations",
+      "language": "bash",
+      "tags": [
+        "migration",
+        "run",
+        "sequelize-cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx sequelize-cli db:migrate:undo",
+      "description": "Undo the last migration",
+      "scenario": "Undo the last migration",
+      "language": "bash",
+      "tags": [
+        "migration",
+        "undo",
+        "sequelize-cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sequelize.transaction(async (t) => { await User.create({ name: 'Alice' }, { transaction: t }); await t.commit(); }).catch(err => t.rollback());",
+      "description": "Perform a transaction with commit and rollback",
+      "scenario": "Perform a transaction with commit and rollback",
+      "language": "javascript",
+      "tags": [
+        "transaction",
+        "commit",
+        "rollback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sequelize.transaction(async (t) => { const user = await User.create({ name: 'Bob' }, { transaction: t }); return user; });",
+      "description": "Use managed transactions",
+      "scenario": "Use managed transactions",
+      "language": "javascript",
+      "tags": [
+        "transaction",
+        "managed",
+        "sequelize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sequelize.transaction({ isolationLevel: Sequelize.Transaction.ISOLATION_LEVELS.SERIALIZABLE }, async (t) => { /* transaction logic */ });",
+      "description": "Set isolation level for a transaction",
+      "scenario": "Set isolation level for a transaction",
+      "language": "javascript",
+      "tags": [
+        "transaction",
+        "isolation",
+        "level"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

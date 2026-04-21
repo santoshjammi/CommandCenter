@@ -1,0 +1,204 @@
+{
+  "title": "Nocode Cheat Sheet",
+  "slug": "nocode",
+  "description": "Essential commands and patterns for Nocode platforms.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "nocode create project-name",
+      "description": "Create a new project in Nocode platform",
+      "scenario": "Create a new project in Nocode platform",
+      "language": "bash",
+      "tags": [
+        "create",
+        "project",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode list projects",
+      "description": "List all projects in Nocode platform",
+      "scenario": "List all projects in Nocode platform",
+      "language": "bash",
+      "tags": [
+        "list",
+        "projects",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode delete project-name",
+      "description": "Delete a project in Nocode platform",
+      "scenario": "Delete a project in Nocode platform",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "project",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode user add username project-name",
+      "description": "Add a new user to a project",
+      "scenario": "Add a new user to a project",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode user remove username project-name",
+      "description": "Remove a user from a project",
+      "scenario": "Remove a user from a project",
+      "language": "bash",
+      "tags": [
+        "user",
+        "remove",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode user list project-name",
+      "description": "List all users in a project",
+      "scenario": "List all users in a project",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode deploy project-name --env=production",
+      "description": "Deploy a project to production",
+      "scenario": "Deploy a project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode rollback project-name",
+      "description": "Rollback a deployment",
+      "scenario": "Rollback a deployment",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "deploy",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode status project-name",
+      "description": "Check deployment status",
+      "scenario": "Check deployment status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "deploy",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode config set project-name key=value",
+      "description": "Set a configuration variable for a project",
+      "scenario": "Set a configuration variable for a project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode config get project-name key",
+      "description": "Get a configuration variable for a project",
+      "scenario": "Get a configuration variable for a project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode config list project-name",
+      "description": "List all configuration variables for a project",
+      "scenario": "List all configuration variables for a project",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode branch create feature-branch-name",
+      "description": "Pattern for creating a new feature branch",
+      "scenario": "Pattern for creating a new feature branch",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "create",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode branch merge feature-branch-name main",
+      "description": "Merge a feature branch into main",
+      "scenario": "Merge a feature branch into main",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "merge",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nocode branch delete feature-branch-name",
+      "description": "Delete a feature branch after merge",
+      "scenario": "Delete a feature branch after merge",
+      "language": "bash",
+      "tags": [
+        "branch",
+        "delete",
+        "nocode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

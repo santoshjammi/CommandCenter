@@ -1,0 +1,204 @@
+{
+  "title": "Android Studio Cheat Sheet",
+  "slug": "android-studio",
+  "description": "Quick reference for Android Studio shortcuts and commands.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl + Alt + Shift + S",
+      "description": "Open the project structure dialog",
+      "scenario": "Open the project structure dialog",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "project",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + R",
+      "description": "Find and replace in the project",
+      "scenario": "Find and replace in the project",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "find",
+        "replace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F10",
+      "description": "Run the current application",
+      "scenario": "Run the current application",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "run",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./gradlew build",
+      "description": "Build the project",
+      "scenario": "Build the project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "gradle",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./gradlew clean",
+      "description": "Clean the project",
+      "scenario": "Clean the project",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "gradle",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "./gradlew installDebug",
+      "description": "Run the application on a connected device",
+      "scenario": "Run the application on a connected device",
+      "language": "bash",
+      "tags": [
+        "run",
+        "device",
+        "gradle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "minSdkVersion 21",
+      "description": "Set the minimum SDK version",
+      "scenario": "Set the minimum SDK version",
+      "language": "yaml",
+      "tags": [
+        "gradle",
+        "sdk",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "implementation 'com.android.support:appcompat-v7:28.0.0'",
+      "description": "Add a dependency to the project",
+      "scenario": "Add a dependency to the project",
+      "language": "yaml",
+      "tags": [
+        "dependency",
+        "gradle",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dataBinding { enabled = true }",
+      "description": "Enable data binding in the project",
+      "scenario": "Enable data binding in the project",
+      "language": "yaml",
+      "tags": [
+        "data binding",
+        "gradle",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "adb start-server",
+      "description": "Start the Android Debug Bridge (ADB)",
+      "scenario": "Start the Android Debug Bridge (ADB)",
+      "language": "bash",
+      "tags": [
+        "adb",
+        "debug",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "adb devices",
+      "description": "List all connected devices",
+      "scenario": "List all connected devices",
+      "language": "bash",
+      "tags": [
+        "adb",
+        "devices",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "adb logcat -s MyAppTag",
+      "description": "Logcat command to filter logs by tag",
+      "scenario": "Logcat command to filter logs by tag",
+      "language": "bash",
+      "tags": [
+        "logcat",
+        "logs",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m 'Your commit message'",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "version control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin main",
+      "description": "Push changes to the remote repository",
+      "scenario": "Push changes to the remote repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "push",
+        "version control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git pull origin main",
+      "description": "Pull the latest changes from the remote repository",
+      "scenario": "Pull the latest changes from the remote repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "pull",
+        "version control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

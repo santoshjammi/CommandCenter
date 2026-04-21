@@ -1,0 +1,204 @@
+{
+  "title": "Factor Programming Language Cheat Sheet",
+  "slug": "factor",
+  "description": "Essential commands and patterns for Factor programming.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": ": square ( n -- n^2 ) dup * ;",
+      "description": "Define a new word",
+      "scenario": "Define a new word",
+      "language": "text",
+      "tags": [
+        "define",
+        "word",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "USING: kernel ; IN: my-vocab",
+      "description": "Create a new vocabulary",
+      "scenario": "Create a new vocabulary",
+      "language": "text",
+      "tags": [
+        "vocabulary",
+        "namespace",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"Hello, World!\" print",
+      "description": "Print a string to the console",
+      "scenario": "Print a string to the console",
+      "language": "text",
+      "tags": [
+        "print",
+        "output",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ 5 10 } 5 < [ \"Less\" print ] [ \"More\" print ] if",
+      "description": "Conditional execution with if",
+      "scenario": "Conditional execution with if",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "if",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "10 [ \"Hello\" print ] times",
+      "description": "Loop with times",
+      "scenario": "Loop with times",
+      "language": "text",
+      "tags": [
+        "loop",
+        "iteration",
+        "times"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ 1 2 3 } [ dup . ] each",
+      "description": "Execute a loop with each",
+      "scenario": "Execute a loop with each",
+      "language": "text",
+      "tags": [
+        "loop",
+        "each",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ 1 2 3 4 5 }",
+      "description": "Create a sequence",
+      "scenario": "Create a sequence",
+      "language": "text",
+      "tags": [
+        "sequence",
+        "list",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "H{ { \"key1\" \"value1\" } { \"key2\" \"value2\" } }",
+      "description": "Create a hashtable",
+      "scenario": "Create a hashtable",
+      "language": "text",
+      "tags": [
+        "hashtable",
+        "map",
+        "dictionary"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ 10 20 30 } 1 nth .",
+      "description": "Access an element in a sequence",
+      "scenario": "Access an element in a sequence",
+      "language": "text",
+      "tags": [
+        "access",
+        "sequence",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"file.txt\" utf8 file-contents .",
+      "description": "Read a file's contents",
+      "scenario": "Read a file's contents",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "contents"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"output.txt\" \"Hello, Factor!\" utf8 file-write",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "write",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"file.txt\" file? .",
+      "description": "Check if a file exists",
+      "scenario": "Check if a file exists",
+      "language": "text",
+      "tags": [
+        "file",
+        "exists",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[ 1 0 / ] [ \"Error caught\" print ] recover",
+      "description": "Catch an error and handle it",
+      "scenario": "Catch an error and handle it",
+      "language": "text",
+      "tags": [
+        "error",
+        "catch",
+        "recover"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"An error occurred\" throw",
+      "description": "Throw an error",
+      "scenario": "Throw an error",
+      "language": "text",
+      "tags": [
+        "error",
+        "throw",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ERROR: my-error \"Custom error message\" ;",
+      "description": "Define a custom error",
+      "scenario": "Define a custom error",
+      "language": "text",
+      "tags": [
+        "error",
+        "custom",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

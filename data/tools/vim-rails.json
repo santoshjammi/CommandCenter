@@ -1,0 +1,204 @@
+{
+  "title": "Vim-Rails Cheat Sheet",
+  "slug": "vim-rails",
+  "description": "Essential Vim-Rails commands and shortcuts for efficient Rails development.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": ":Econtroller",
+      "description": "Navigate to the model file related to the current file",
+      "scenario": "Navigate to the model file related to the current file",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "rails",
+        "controller"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":A",
+      "description": "Open the related test file",
+      "scenario": "Open the related test file",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "test",
+        "alternate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Rschema",
+      "description": "Switch between model and schema",
+      "scenario": "Switch between model and schema",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "model",
+        "schema"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Vsplit",
+      "description": "Open the current file in a vertical split",
+      "scenario": "Open the current file in a vertical split",
+      "language": "text",
+      "tags": [
+        "file",
+        "split",
+        "vertical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Split",
+      "description": "Open the current file in a horizontal split",
+      "scenario": "Open the current file in a horizontal split",
+      "language": "text",
+      "tags": [
+        "file",
+        "split",
+        "horizontal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Tabedit",
+      "description": "Open the current file in a new tab",
+      "scenario": "Open the current file in a new tab",
+      "language": "text",
+      "tags": [
+        "file",
+        "tab",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Rails generate model User",
+      "description": "Run a Rails generator",
+      "scenario": "Run a Rails generator",
+      "language": "text",
+      "tags": [
+        "rails",
+        "command",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Rails db:migrate",
+      "description": "Run a Rails migration",
+      "scenario": "Run a Rails migration",
+      "language": "text",
+      "tags": [
+        "rails",
+        "command",
+        "migrate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Rails server",
+      "description": "Start the Rails server",
+      "scenario": "Start the Rails server",
+      "language": "text",
+      "tags": [
+        "rails",
+        "command",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Ag pattern",
+      "description": "Search for a pattern in the project",
+      "scenario": "Search for a pattern in the project",
+      "language": "text",
+      "tags": [
+        "search",
+        "ag",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":%s/old/new/g",
+      "description": "Replace a pattern in the current file",
+      "scenario": "Replace a pattern in the current file",
+      "language": "text",
+      "tags": [
+        "replace",
+        "pattern",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/pattern",
+      "description": "Search for a pattern in the current file",
+      "scenario": "Search for a pattern in the current file",
+      "language": "text",
+      "tags": [
+        "search",
+        "pattern",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcc",
+      "description": "Comment out a line of code",
+      "scenario": "Comment out a line of code",
+      "language": "text",
+      "tags": [
+        "edit",
+        "comment",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yyp",
+      "description": "Duplicate a line of code",
+      "scenario": "Duplicate a line of code",
+      "language": "text",
+      "tags": [
+        "edit",
+        "duplicate",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ">>",
+      "description": "Indent a line of code",
+      "scenario": "Indent a line of code",
+      "language": "text",
+      "tags": [
+        "edit",
+        "indent",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

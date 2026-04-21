@@ -1,0 +1,204 @@
+{
+  "title": "JBoss CLI Cheat Sheet",
+  "slug": "jboss",
+  "description": "Essential JBoss CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "connect",
+      "description": "Connect to a JBoss server instance",
+      "scenario": "Connect to a JBoss server instance",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/deployment=*:read-resource",
+      "description": "List all deployed applications",
+      "scenario": "List all deployed applications",
+      "language": "bash",
+      "tags": [
+        "deployment",
+        "list",
+        "applications"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shutdown",
+      "description": "Shutdown the JBoss server",
+      "scenario": "Shutdown the JBoss server",
+      "language": "bash",
+      "tags": [
+        "shutdown",
+        "server",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "deploy /path/to/application.war",
+      "description": "Deploy an application to the server",
+      "scenario": "Deploy an application to the server",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "application",
+        "war"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "undeploy application.war",
+      "description": "Undeploy an application from the server",
+      "scenario": "Undeploy an application from the server",
+      "language": "bash",
+      "tags": [
+        "undeploy",
+        "remove",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "redeploy application.war",
+      "description": "Redeploy an application",
+      "scenario": "Redeploy an application",
+      "language": "bash",
+      "tags": [
+        "redeploy",
+        "application",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/subsystem=logging:read-resource",
+      "description": "View server configuration",
+      "scenario": "View server configuration",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "logging",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/system-property=propertyName:add(value=value)",
+      "description": "Change a system property",
+      "scenario": "Change a system property",
+      "language": "bash",
+      "tags": [
+        "system",
+        "property",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/subsystem=logging/logger=com.example:write-attribute(name=level,value=DEBUG)",
+      "description": "Enable a specific logging level",
+      "scenario": "Enable a specific logging level",
+      "language": "bash",
+      "tags": [
+        "logging",
+        "level",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add-user.sh -u username -p password",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/core-service=management/security-realm=ApplicationRealm/authentication=local/default-user=USERNAME:remove",
+      "description": "Remove an existing user",
+      "scenario": "Remove an existing user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "remove",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/core-service=management/security-realm=ApplicationRealm/authentication=local:read-children-names(child-type=user)",
+      "description": "List all users",
+      "scenario": "List all users",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/core-service=platform-mbean/type=memory:read-resource",
+      "description": "Check server memory usage",
+      "scenario": "Check server memory usage",
+      "language": "bash",
+      "tags": [
+        "performance",
+        "memory",
+        "monitoring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/core-service=platform-mbean/type=threading:read-resource",
+      "description": "View active threads",
+      "scenario": "View active threads",
+      "language": "bash",
+      "tags": [
+        "threads",
+        "active",
+        "monitoring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/subsystem=datasources/data-source=ExampleDS/statistics=pool:read-resource",
+      "description": "Monitor data source statistics",
+      "scenario": "Monitor data source statistics",
+      "language": "bash",
+      "tags": [
+        "datasource",
+        "statistics",
+        "monitoring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

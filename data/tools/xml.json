@@ -1,0 +1,204 @@
+{
+  "title": "XML Cheat Sheet",
+  "slug": "xml",
+  "description": "Quick reference for XML syntax, commands, and patterns.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "description": "Define an XML declaration",
+      "scenario": "Define an XML declaration",
+      "language": "xml",
+      "tags": [
+        "declaration",
+        "xml",
+        "encoding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<note>Remember to buy milk</note>",
+      "description": "Create a simple XML element",
+      "scenario": "Create a simple XML element",
+      "language": "xml",
+      "tags": [
+        "element",
+        "xml",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<note date=\"2023-10-01\">Remember to buy milk</note>",
+      "description": "Define an XML element with attributes",
+      "scenario": "Define an XML element with attributes",
+      "language": "xml",
+      "tags": [
+        "attributes",
+        "xml",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!-- This is a comment -->",
+      "description": "Add a comment in XML",
+      "scenario": "Add a comment in XML",
+      "language": "xml",
+      "tags": [
+        "comment",
+        "xml",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<![CDATA[<sender>John Doe</sender>]]>",
+      "description": "Use CDATA to include raw text",
+      "scenario": "Use CDATA to include raw text",
+      "language": "xml",
+      "tags": [
+        "cdata",
+        "xml",
+        "raw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!-- <note>Remember to buy milk</note> -->",
+      "description": "Comment out a section of XML",
+      "scenario": "Comment out a section of XML",
+      "language": "xml",
+      "tags": [
+        "comment",
+        "xml",
+        "section"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<note xmlns=\"http://www.example.com/ns\">...</note>",
+      "description": "Declare a default namespace",
+      "scenario": "Declare a default namespace",
+      "language": "xml",
+      "tags": [
+        "namespace",
+        "xml",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<x:note xmlns:x=\"http://www.example.com/ns\">...</x:note>",
+      "description": "Declare a prefixed namespace",
+      "scenario": "Declare a prefixed namespace",
+      "language": "xml",
+      "tags": [
+        "namespace",
+        "xml",
+        "prefix"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<root xmlns:h=\"http://www.w3.org/TR/html4/\" xmlns:f=\"https://www.w3schools.com/furniture\">...</root>",
+      "description": "Use multiple namespaces in XML",
+      "scenario": "Use multiple namespaces in XML",
+      "language": "xml",
+      "tags": [
+        "namespace",
+        "xml",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE note [<!ELEMENT note (to,from,heading,body)>]>",
+      "description": "Define a simple DTD",
+      "scenario": "Define a simple DTD",
+      "language": "xml",
+      "tags": [
+        "dtd",
+        "xml",
+        "validation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE note SYSTEM \"note.dtd\">",
+      "description": "Reference an external DTD",
+      "scenario": "Reference an external DTD",
+      "language": "xml",
+      "tags": [
+        "dtd",
+        "xml",
+        "external"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<note xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"note.xsd\">...</note>",
+      "description": "Use an XML Schema (XSD)",
+      "scenario": "Use an XML Schema (XSD)",
+      "language": "xml",
+      "tags": [
+        "xsd",
+        "xml",
+        "schema"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">...</xsl:stylesheet>",
+      "description": "Basic XSLT structure",
+      "scenario": "Basic XSLT structure",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "xml",
+        "transformation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:template match=\"/\">...</xsl:template>",
+      "description": "Match and transform XML elements",
+      "scenario": "Match and transform XML elements",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "xml",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:apply-templates/>",
+      "description": "Apply templates in XSLT",
+      "scenario": "Apply templates in XSLT",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "xml",
+        "apply"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

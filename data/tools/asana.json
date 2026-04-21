@@ -1,0 +1,204 @@
+{
+  "title": "Asana Cheat Sheet",
+  "slug": "asana",
+  "description": "Quick reference for Asana keyboard shortcuts and workflows.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "keyboard",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tab+Q",
+      "description": "Create a new task",
+      "scenario": "Create a new task",
+      "language": "text",
+      "tags": [
+        "task",
+        "create",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tab+Space",
+      "description": "Mark task as complete",
+      "scenario": "Mark task as complete",
+      "language": "text",
+      "tags": [
+        "complete",
+        "task",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tab+M",
+      "description": "Open My Tasks",
+      "scenario": "Open My Tasks",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "tasks",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Tab+I",
+      "description": "Open Inbox",
+      "scenario": "Open Inbox",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "inbox",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+K",
+      "description": "Search for tasks or projects",
+      "scenario": "Search for tasks or projects",
+      "language": "text",
+      "tags": [
+        "search",
+        "navigation",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on 'Assignee' field and type name",
+      "description": "Assign a task to someone",
+      "scenario": "Assign a task to someone",
+      "language": "text",
+      "tags": [
+        "assign",
+        "task",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on 'Due Date' field and select date",
+      "description": "Set a due date for a task",
+      "scenario": "Set a due date for a task",
+      "language": "text",
+      "tags": [
+        "due date",
+        "task",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on 'Comment' box and type message",
+      "description": "Add a comment to a task",
+      "scenario": "Add a comment to a task",
+      "language": "text",
+      "tags": [
+        "comment",
+        "task",
+        "communication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on 'New Project' button and follow prompts",
+      "description": "Create a new project",
+      "scenario": "Create a new project",
+      "language": "text",
+      "tags": [
+        "project",
+        "create",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Open project and click 'Add Task'",
+      "description": "Add tasks to a project",
+      "scenario": "Add tasks to a project",
+      "language": "text",
+      "tags": [
+        "task",
+        "project",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on 'Timeline' tab within project",
+      "description": "View project timeline",
+      "scenario": "View project timeline",
+      "language": "text",
+      "tags": [
+        "timeline",
+        "project",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click 'Share' button and enter email addresses",
+      "description": "Invite team members to a project",
+      "scenario": "Invite team members to a project",
+      "language": "text",
+      "tags": [
+        "invite",
+        "team",
+        "collaboration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click 'Share' button on task and enter email",
+      "description": "Share a task with a team member",
+      "scenario": "Share a task with a team member",
+      "language": "text",
+      "tags": [
+        "share",
+        "task",
+        "collaboration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click 'Conversations' tab and start new topic",
+      "description": "Start a conversation in a project",
+      "scenario": "Start a conversation in a project",
+      "language": "text",
+      "tags": [
+        "conversation",
+        "project",
+        "communication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Adobe Photoshop Cheat Sheet",
+  "slug": "adobe-photoshop",
+  "description": "Quick reference for Adobe Photoshop keyboard shortcuts and workflows.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "edit",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+S",
+      "description": "Save the current document",
+      "scenario": "Save the current document",
+      "language": "text",
+      "tags": [
+        "save",
+        "document",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+O",
+      "description": "Open a new document",
+      "scenario": "Open a new document",
+      "language": "text",
+      "tags": [
+        "open",
+        "document",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+N",
+      "description": "Create a new layer",
+      "scenario": "Create a new layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "new",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+E",
+      "description": "Merge selected layers",
+      "scenario": "Merge selected layers",
+      "language": "text",
+      "tags": [
+        "merge",
+        "layers",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+J",
+      "description": "Duplicate a layer",
+      "scenario": "Duplicate a layer",
+      "language": "text",
+      "tags": [
+        "duplicate",
+        "layer",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+A",
+      "description": "Select all content in the layer",
+      "scenario": "Select all content in the layer",
+      "language": "text",
+      "tags": [
+        "select",
+        "all",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+D",
+      "description": "Deselect the current selection",
+      "scenario": "Deselect the current selection",
+      "language": "text",
+      "tags": [
+        "deselect",
+        "selection",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+I",
+      "description": "Inverse the current selection",
+      "scenario": "Inverse the current selection",
+      "language": "text",
+      "tags": [
+        "inverse",
+        "selection",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+L",
+      "description": "Open the Levels adjustment window",
+      "scenario": "Open the Levels adjustment window",
+      "language": "text",
+      "tags": [
+        "levels",
+        "adjustment",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+U",
+      "description": "Open the Hue/Saturation adjustment window",
+      "scenario": "Open the Hue/Saturation adjustment window",
+      "language": "text",
+      "tags": [
+        "hue",
+        "saturation",
+        "adjustment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+B",
+      "description": "Open the Color Balance adjustment window",
+      "scenario": "Open the Color Balance adjustment window",
+      "language": "text",
+      "tags": [
+        "color",
+        "balance",
+        "adjustment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > New",
+      "description": "Create a new file",
+      "scenario": "Create a new file",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Export > Export As",
+      "description": "Export the file as a different format",
+      "scenario": "Export the file as a different format",
+      "language": "text",
+      "tags": [
+        "export",
+        "format",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Close",
+      "description": "Close the current file",
+      "scenario": "Close the current file",
+      "language": "text",
+      "tags": [
+        "close",
+        "file",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

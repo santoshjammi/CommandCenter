@@ -1,0 +1,204 @@
+{
+  "title": "Seam",
+  "slug": "seam",
+  "description": "Essential CLI commands and configuration for Seam framework.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "seam new my_project",
+      "description": "Create a new Seam project",
+      "scenario": "Create a new Seam project",
+      "language": "bash",
+      "tags": [
+        "create",
+        "project",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seam run",
+      "description": "Run the Seam application",
+      "scenario": "Run the Seam application",
+      "language": "bash",
+      "tags": [
+        "run",
+        "start",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seam build --prod",
+      "description": "Build the Seam project for production",
+      "scenario": "Build the Seam project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "database.url=jdbc:mysql://localhost:3306/mydb",
+      "description": "Set the database connection string",
+      "scenario": "Set the database connection string",
+      "language": "yaml",
+      "tags": [
+        "database",
+        "configuration",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "logging.level=DEBUG",
+      "description": "Configure logging level to debug",
+      "scenario": "Configure logging level to debug",
+      "language": "yaml",
+      "tags": [
+        "logging",
+        "debug",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cors.enabled=true\ncors.allowed-origins=*",
+      "description": "Enable CORS for all origins",
+      "scenario": "Enable CORS for all origins",
+      "language": "yaml",
+      "tags": [
+        "cors",
+        "configuration",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Entity\npublic class User {\n    @Id\n    private Long id;\n    private String name;\n}",
+      "description": "Define a basic Seam entity",
+      "scenario": "Define a basic Seam entity",
+      "language": "java",
+      "tags": [
+        "entity",
+        "jpa",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Inject\nprivate UserService userService;",
+      "description": "Inject a Seam service into a component",
+      "scenario": "Inject a Seam service into a component",
+      "language": "java",
+      "tags": [
+        "dependency",
+        "injection",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@GET\n@Path(\"/users/{id}\")\npublic Response getUser(@PathParam(\"id\") Long id) {\n    return Response.ok(userService.findById(id)).build();\n}",
+      "description": "Handle a REST request in Seam",
+      "scenario": "Handle a REST request in Seam",
+      "language": "java",
+      "tags": [
+        "rest",
+        "endpoint",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seam test",
+      "description": "Run Seam tests",
+      "scenario": "Run Seam tests",
+      "language": "bash",
+      "tags": [
+        "test",
+        "unit",
+        "integration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seam generate component MyComponent",
+      "description": "Generate a Seam component",
+      "scenario": "Generate a Seam component",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "component",
+        "scaffold"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seam clean",
+      "description": "Clean the Seam project build artifacts",
+      "scenario": "Clean the Seam project build artifacts",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "artifacts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seam env set production",
+      "description": "Set environment to production",
+      "scenario": "Set environment to production",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "production",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seam deploy --server myserver.com",
+      "description": "Deploy Seam application to server",
+      "scenario": "Deploy Seam application to server",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "server",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "seam rollback",
+      "description": "Rollback to previous deployment",
+      "scenario": "Rollback to previous deployment",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "deploy",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

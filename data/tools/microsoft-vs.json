@@ -1,0 +1,204 @@
+{
+  "title": "Microsoft Visual Studio Cheat Sheet",
+  "slug": "microsoft-vs",
+  "description": "Essential shortcuts and commands for Microsoft Visual Studio.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl + N",
+      "description": "Open a new file",
+      "scenario": "Open a new file",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "navigation",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + S",
+      "description": "Save current file",
+      "scenario": "Save current file",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "save",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + F4",
+      "description": "Close current document",
+      "scenario": "Close current document",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "close",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F12",
+      "description": "Go to definition",
+      "scenario": "Go to definition",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "definition",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F12",
+      "description": "Find all references",
+      "scenario": "Find all references",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "references",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + -",
+      "description": "Navigate backward",
+      "scenario": "Navigate backward",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "backward",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F5",
+      "description": "Start debugging",
+      "scenario": "Start debugging",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F11",
+      "description": "Step into function",
+      "scenario": "Step into function",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "step",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F9",
+      "description": "Toggle breakpoint",
+      "scenario": "Toggle breakpoint",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "breakpoint",
+        "toggle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + R, Ctrl + R",
+      "description": "Rename symbol",
+      "scenario": "Rename symbol",
+      "language": "text",
+      "tags": [
+        "refactoring",
+        "rename",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + R, Ctrl + M",
+      "description": "Extract method",
+      "scenario": "Extract method",
+      "language": "text",
+      "tags": [
+        "refactoring",
+        "extract",
+        "method"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + R, Ctrl + G",
+      "description": "Remove unused usings",
+      "scenario": "Remove unused usings",
+      "language": "text",
+      "tags": [
+        "refactoring",
+        "remove",
+        "usings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + B",
+      "description": "Build solution",
+      "scenario": "Build solution",
+      "language": "text",
+      "tags": [
+        "build",
+        "solution",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + F5",
+      "description": "Run without debugging",
+      "scenario": "Run without debugging",
+      "language": "text",
+      "tags": [
+        "run",
+        "execute",
+        "debugging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Break",
+      "description": "Cancel build",
+      "scenario": "Cancel build",
+      "language": "text",
+      "tags": [
+        "build",
+        "cancel",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

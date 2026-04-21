@@ -1,0 +1,204 @@
+{
+  "title": "Docker Cheat Sheet",
+  "slug": "docker",
+  "description": "Essential Docker CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "docker ps -a",
+      "description": "List all Docker containers",
+      "scenario": "List all Docker containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "containers",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker start <container_id>",
+      "description": "Start a Docker container",
+      "scenario": "Start a Docker container",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "start",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker stop <container_id>",
+      "description": "Stop a Docker container",
+      "scenario": "Stop a Docker container",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "stop",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker images",
+      "description": "List all Docker images",
+      "scenario": "List all Docker images",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "images",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker rmi <image_id>",
+      "description": "Remove a Docker image",
+      "scenario": "Remove a Docker image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "remove",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker pull <image_name>",
+      "description": "Pull a Docker image from a registry",
+      "scenario": "Pull a Docker image from a registry",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "pull",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FROM ubuntu:latest",
+      "description": "Set the base image for a Dockerfile",
+      "scenario": "Set the base image for a Dockerfile",
+      "language": "text",
+      "tags": [
+        "dockerfile",
+        "base",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "COPY . /app",
+      "description": "Copy files from host to container",
+      "scenario": "Copy files from host to container",
+      "language": "text",
+      "tags": [
+        "dockerfile",
+        "copy",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "RUN apt-get update && apt-get install -y python3",
+      "description": "Run a command in the container",
+      "scenario": "Run a command in the container",
+      "language": "text",
+      "tags": [
+        "dockerfile",
+        "run",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker network ls",
+      "description": "List all Docker networks",
+      "scenario": "List all Docker networks",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "network",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker network create <network_name>",
+      "description": "Create a new Docker network",
+      "scenario": "Create a new Docker network",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "network",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker network connect <network_name> <container_id>",
+      "description": "Connect a container to a network",
+      "scenario": "Connect a container to a network",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "network",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker volume ls",
+      "description": "List all Docker volumes",
+      "scenario": "List all Docker volumes",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "volume",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker volume create <volume_name>",
+      "description": "Create a new Docker volume",
+      "scenario": "Create a new Docker volume",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "volume",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker volume rm <volume_name>",
+      "description": "Remove a Docker volume",
+      "scenario": "Remove a Docker volume",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "volume",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

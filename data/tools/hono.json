@@ -1,0 +1,204 @@
+{
+  "title": "Hono Cheat Sheet",
+  "slug": "hono",
+  "description": "A quick reference guide for Hono CLI commands and code syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "hono init my-project",
+      "description": "Initialize a new Hono project",
+      "scenario": "Initialize a new Hono project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hono dev",
+      "description": "Start the Hono development server",
+      "scenario": "Start the Hono development server",
+      "language": "bash",
+      "tags": [
+        "dev",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hono build",
+      "description": "Build the Hono project for production",
+      "scenario": "Build the Hono project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.get('/hello', (c) => c.text('Hello World'))",
+      "description": "Define a GET route",
+      "scenario": "Define a GET route",
+      "language": "javascript",
+      "tags": [
+        "routing",
+        "get",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.post('/submit', (c) => c.json({ success: true }))",
+      "description": "Define a POST route",
+      "scenario": "Define a POST route",
+      "language": "javascript",
+      "tags": [
+        "routing",
+        "post",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.get('/user/:id', (c) => c.text(`User ID: ${c.req.param('id')}`))",
+      "description": "Use a route parameter",
+      "scenario": "Use a route parameter",
+      "language": "javascript",
+      "tags": [
+        "routing",
+        "parameters",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use((c, next) => { console.log(c.req.method); return next(); })",
+      "description": "Apply middleware globally",
+      "scenario": "Apply middleware globally",
+      "language": "javascript",
+      "tags": [
+        "middleware",
+        "global",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.get('/secure', authMiddleware, (c) => c.text('Secure'))",
+      "description": "Apply middleware to a specific route",
+      "scenario": "Apply middleware to a specific route",
+      "language": "javascript",
+      "tags": [
+        "middleware",
+        "route",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(async (c, next) => { await someAsyncTask(); return next(); })",
+      "description": "Use async middleware",
+      "scenario": "Use async middleware",
+      "language": "javascript",
+      "tags": [
+        "middleware",
+        "async",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.listen({ port: 8080 })",
+      "description": "Set a custom port for the server",
+      "scenario": "Set a custom port for the server",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "port",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(cors())",
+      "description": "Enable CORS for all routes",
+      "scenario": "Enable CORS for all routes",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "cors",
+        "routes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(bodyParser.json())",
+      "description": "Configure JSON body parsing",
+      "scenario": "Configure JSON body parsing",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "json",
+        "body"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.onError((err, c) => { console.error(err); c.text('Internal Server Error', 500); })",
+      "description": "Catch all errors globally",
+      "scenario": "Catch all errors globally",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "global",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.notFound((c) => c.text('Not Found', 404))",
+      "description": "Handle 404 errors",
+      "scenario": "Handle 404 errors",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "404",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.get('/error', (c) => { throw new Error('Oops!'); }).onError((err, c) => c.text('Custom Error', 500))",
+      "description": "Custom error handler for a route",
+      "scenario": "Custom error handler for a route",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "custom",
+        "route"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

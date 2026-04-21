@@ -1,0 +1,165 @@
+{
+  "title": "Google Search Cheat Sheet",
+  "slug": "google-search",
+  "description": "Essential Google Search tips and tricks for engineers.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "\"exact phrase\"",
+      "description": "Search for an exact phrase",
+      "scenario": "Search for an exact phrase",
+      "language": "text",
+      "tags": [
+        "search",
+        "exact",
+        "phrase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-excluded_term",
+      "description": "Exclude a term from search results",
+      "scenario": "Exclude a term from search results",
+      "language": "text",
+      "tags": [
+        "search",
+        "exclude",
+        "term"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "site:example.com",
+      "description": "Search within a specific website",
+      "scenario": "Search within a specific website",
+      "language": "text",
+      "tags": [
+        "search",
+        "site",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "filetype:pdf",
+      "description": "Search for pages with a specific file type",
+      "scenario": "Search for pages with a specific file type",
+      "language": "text",
+      "tags": [
+        "search",
+        "filetype",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "intitle:\"page title\"",
+      "description": "Search for pages with a specific title",
+      "scenario": "Search for pages with a specific title",
+      "language": "text",
+      "tags": [
+        "search",
+        "title",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "related:example.com",
+      "description": "Search for related websites",
+      "scenario": "Search for related websites",
+      "language": "text",
+      "tags": [
+        "search",
+        "related",
+        "websites"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "time city_name",
+      "description": "Get the current time in a city",
+      "scenario": "Get the current time in a city",
+      "language": "text",
+      "tags": [
+        "search",
+        "time",
+        "city"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "100 USD to EUR",
+      "description": "Convert currency or units",
+      "scenario": "Convert currency or units",
+      "language": "text",
+      "tags": [
+        "search",
+        "convert",
+        "currency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "5 * 20",
+      "description": "Get a quick calculation",
+      "scenario": "Get a quick calculation",
+      "language": "text",
+      "tags": [
+        "search",
+        "calculate",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "term1 OR term2",
+      "description": "Use OR to combine searches",
+      "scenario": "Use OR to combine searches",
+      "language": "text",
+      "tags": [
+        "search",
+        "combine",
+        "or"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"best * of 2023\"",
+      "description": "Use an asterisk (*) as a wildcard",
+      "scenario": "Use an asterisk (*) as a wildcard",
+      "language": "text",
+      "tags": [
+        "search",
+        "wildcard",
+        "asterisk"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "number1..number2",
+      "description": "Search for a range of numbers",
+      "scenario": "Search for a range of numbers",
+      "language": "text",
+      "tags": [
+        "search",
+        "range",
+        "numbers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

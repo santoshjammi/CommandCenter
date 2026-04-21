@@ -1,0 +1,204 @@
+{
+  "title": "Modella Cheat Sheet",
+  "slug": "modella",
+  "description": "Quick reference for Modella CLI commands and configuration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "modella init",
+      "description": "Initialize a new Modella project",
+      "scenario": "Initialize a new Modella project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modella serve",
+      "description": "Run the Modella server",
+      "scenario": "Run the Modella server",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "server",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modella build",
+      "description": "Build the Modella project",
+      "scenario": "Build the Modella project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "project_name: MyModellaProject",
+      "description": "Set the project name in configuration",
+      "scenario": "Set the project name in configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug: true",
+      "description": "Enable debugging mode",
+      "scenario": "Enable debugging mode",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "debug",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output_dir: /path/to/output",
+      "description": "Specify the output directory for builds",
+      "scenario": "Specify the output directory for builds",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "output",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modella deploy",
+      "description": "Deploy the Modella project",
+      "scenario": "Deploy the Modella project",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "project",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modella test",
+      "description": "Run tests for the Modella project",
+      "scenario": "Run tests for the Modella project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modella clean",
+      "description": "Clean the build artifacts",
+      "scenario": "Clean the build artifacts",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "artifacts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { /* code */ } catch (error) { /* handle error */ }",
+      "description": "Pattern to handle errors in Modella",
+      "scenario": "Pattern to handle errors in Modella",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "error",
+        "handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData() { const data = await getData(); return data; }",
+      "description": "Pattern for asynchronous operations",
+      "scenario": "Pattern for asynchronous operations",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "async",
+        "await"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (validate(data)) { /* process data */ } else { /* handle invalid data */ }",
+      "description": "Pattern for data validation",
+      "scenario": "Pattern for data validation",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "validation",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modella serve --verbose",
+      "description": "Run in verbose mode",
+      "scenario": "Run in verbose mode",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "verbose",
+        "serve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modella build --config custom-config.yaml",
+      "description": "Specify a custom configuration file",
+      "scenario": "Specify a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "config",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "modella build --force",
+      "description": "Force rebuild of the project",
+      "scenario": "Force rebuild of the project",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "force",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

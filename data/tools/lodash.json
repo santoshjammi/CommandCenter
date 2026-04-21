@@ -1,0 +1,204 @@
+{
+  "title": "Lodash Cheat Sheet",
+  "slug": "lodash",
+  "description": "Essential Lodash functions for JavaScript developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "_.compact([0, 1, false, 2, '', 3]); // [1, 2, 3]",
+      "description": "Create a new array with all falsey values removed",
+      "scenario": "Create a new array with all falsey values removed",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "filter",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.flatten([1, [2, [3, [4]], 5]]); // [1, 2, [3, [4]], 5]",
+      "description": "Flatten an array a single level deep",
+      "scenario": "Flatten an array a single level deep",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "flatten",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.head([1, 2, 3]); // 1",
+      "description": "Get the first element of an array",
+      "scenario": "Get the first element of an array",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "first",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.pick({ 'a': 1, 'b': '2', 'c': 3 }, ['a', 'c']); // { 'a': 1, 'c': 3 }",
+      "description": "Create an object composed of the picked object properties",
+      "scenario": "Create an object composed of the picked object properties",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "pick",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.omit({ 'a': 1, 'b': '2', 'c': 3 }, ['a', 'c']); // { 'b': '2' }",
+      "description": "Create an object composed of the own and inherited enumerable property paths of object that are not omitted",
+      "scenario": "Create an object composed of the own and inherited enumerable property paths of object that are not omitted",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "omit",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.merge({ 'a': 1 }, { 'b': 2, 'a': 3 }); // { 'a': 3, 'b': 2 }",
+      "description": "Merge two objects deeply",
+      "scenario": "Merge two objects deeply",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "merge",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.forEach([1, 2], function(value) { console.log(value); }); // Logs 1 then 2",
+      "description": "Iterate over elements of a collection and invoke a function for each element",
+      "scenario": "Iterate over elements of a collection and invoke a function for each element",
+      "language": "javascript",
+      "tags": [
+        "collection",
+        "iterate",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.map([4, 8], function(n) { return n * n; }); // [16, 64]",
+      "description": "Create an array of values by running each element in collection through iteratee",
+      "scenario": "Create an array of values by running each element in collection through iteratee",
+      "language": "javascript",
+      "tags": [
+        "collection",
+        "map",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.reduce([1, 2], function(sum, n) { return sum + n; }, 0); // 3",
+      "description": "Reduce a collection to a value which is the accumulated result",
+      "scenario": "Reduce a collection to a value which is the accumulated result",
+      "language": "javascript",
+      "tags": [
+        "collection",
+        "reduce",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.camelCase('Foo Bar'); // 'fooBar'",
+      "description": "Convert a string to camel case",
+      "scenario": "Convert a string to camel case",
+      "language": "javascript",
+      "tags": [
+        "string",
+        "camelcase",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.kebabCase('Foo Bar'); // 'foo-bar'",
+      "description": "Convert a string to kebab case",
+      "scenario": "Convert a string to kebab case",
+      "language": "javascript",
+      "tags": [
+        "string",
+        "kebabcase",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.capitalize('FRED'); // 'Fred'",
+      "description": "Capitalize the first character of a string",
+      "scenario": "Capitalize the first character of a string",
+      "language": "javascript",
+      "tags": [
+        "string",
+        "capitalize",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.negate(Boolean);",
+      "description": "Create a function that negates the result of the predicate function",
+      "scenario": "Create a function that negates the result of the predicate function",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "negate",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var initialize = _.once(createApplication);",
+      "description": "Create a function that is restricted to invoking func once",
+      "scenario": "Create a function that is restricted to invoking func once",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "once",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.debounce(function() { console.log('Hello'); }, 1000);",
+      "description": "Create a function that delays invoking func until after wait milliseconds",
+      "scenario": "Create a function that delays invoking func until after wait milliseconds",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "debounce",
+        "lodash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

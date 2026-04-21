@@ -1,0 +1,204 @@
+{
+  "title": "Windows Communication Foundation Cheat Sheet",
+  "slug": "windows-communication-foundation",
+  "description": "Quick reference for WCF commands, syntax, and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<system.serviceModel>\n  <services>\n    <service name=\"MyNamespace.MyService\">\n      <endpoint address=\"\" binding=\"basicHttpBinding\" contract=\"MyNamespace.IMyService\" />\n    </service>\n  </services>\n</system.serviceModel>",
+      "description": "Define a basic WCF service configuration",
+      "scenario": "Define a basic WCF service configuration",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "service",
+        "endpoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<system.serviceModel>\n  <bindings>\n    <netTcpBinding>\n      <binding name=\"tcpBindingConfig\" maxReceivedMessageSize=\"65536\" />\n    </netTcpBinding>\n  </bindings>\n</system.serviceModel>",
+      "description": "Set up a netTcpBinding for a service",
+      "scenario": "Set up a netTcpBinding for a service",
+      "language": "xml",
+      "tags": [
+        "netTcpBinding",
+        "binding",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<system.serviceModel>\n  <behaviors>\n    <serviceBehaviors>\n      <behavior>\n        <serviceMetadata httpGetEnabled=\"true\" />\n      </behavior>\n    </serviceBehaviors>\n  </behaviors>\n</system.serviceModel>",
+      "description": "Enable metadata exchange for a service",
+      "scenario": "Enable metadata exchange for a service",
+      "language": "xml",
+      "tags": [
+        "metadata",
+        "service",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    string GetData(int value);\n}",
+      "description": "Implement a simple WCF service contract",
+      "scenario": "Implement a simple WCF service contract",
+      "language": "csharp",
+      "tags": [
+        "service",
+        "contract",
+        "implementation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class MyService : IMyService\n{\n    public string GetData(int value)\n    {\n        return string.Format(\"You entered: {0}\", value);\n    }\n}",
+      "description": "Implement a WCF service class",
+      "scenario": "Implement a WCF service class",
+      "language": "csharp",
+      "tags": [
+        "service",
+        "implementation",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "using (ServiceHost host = new ServiceHost(typeof(MyService)))\n{\n    host.Open();\n    Console.WriteLine(\"Service is running...\");\n    Console.ReadLine();\n}",
+      "description": "Host a WCF service in a console application",
+      "scenario": "Host a WCF service in a console application",
+      "language": "csharp",
+      "tags": [
+        "hosting",
+        "console",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<system.serviceModel>\n  <client>\n    <endpoint address=\"http://localhost:8080/MyService\" binding=\"basicHttpBinding\" contract=\"MyNamespace.IMyService\" />\n  </client>\n</system.serviceModel>",
+      "description": "Configure a basicHttpBinding for a client",
+      "scenario": "Configure a basicHttpBinding for a client",
+      "language": "xml",
+      "tags": [
+        "client",
+        "configuration",
+        "basicHttpBinding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<system.serviceModel>\n  <client>\n    <endpoint address=\"net.tcp://localhost:8080/MyService\" binding=\"netTcpBinding\" contract=\"MyNamespace.IMyService\" />\n  </client>\n</system.serviceModel>",
+      "description": "Set up a client with netTcpBinding",
+      "scenario": "Set up a client with netTcpBinding",
+      "language": "xml",
+      "tags": [
+        "client",
+        "netTcpBinding",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<system.serviceModel>\n  <bindings>\n    <basicHttpBinding>\n      <binding>\n        <security mode=\"Transport\">\n          <transport clientCredentialType=\"None\" />\n        </security>\n      </binding>\n    </basicHttpBinding>\n  </bindings>\n</system.serviceModel>",
+      "description": "Enable client credential type for security",
+      "scenario": "Enable client credential type for security",
+      "language": "xml",
+      "tags": [
+        "security",
+        "client",
+        "credential"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[DataContract]\npublic class MyData\n{\n    [DataMember]\n    public int Value { get; set; }\n\n    [DataMember]\n    public string Name { get; set; }\n}",
+      "description": "Define a simple data contract",
+      "scenario": "Define a simple data contract",
+      "language": "csharp",
+      "tags": [
+        "data",
+        "contract",
+        "datamember"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[DataContract]\n[KnownType(typeof(DerivedClass))]\npublic class BaseClass\n{\n    [DataMember]\n    public string BaseProperty { get; set; }\n}",
+      "description": "Use KnownType attribute for polymorphism",
+      "scenario": "Use KnownType attribute for polymorphism",
+      "language": "csharp",
+      "tags": [
+        "polymorphism",
+        "knowntype",
+        "datacontract"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[CollectionDataContract]\npublic class MyCollection : List<MyData>\n{\n}",
+      "description": "Implement a collection data contract",
+      "scenario": "Implement a collection data contract",
+      "language": "csharp",
+      "tags": [
+        "collection",
+        "datacontract",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    [FaultContract(typeof(MyFault))]\n    string GetData(int value);\n}",
+      "description": "Implement a custom fault contract",
+      "scenario": "Implement a custom fault contract",
+      "language": "csharp",
+      "tags": [
+        "fault",
+        "contract",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[DataContract]\npublic class MyFault\n{\n    [DataMember]\n    public string FaultMessage { get; set; }\n}",
+      "description": "Define a fault contract class",
+      "scenario": "Define a fault contract class",
+      "language": "csharp",
+      "tags": [
+        "fault",
+        "datacontract",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public string GetData(int value)\n{\n    if (value < 0)\n    {\n        throw new FaultException<MyFault>(new MyFault { FaultMessage = \"Negative value not allowed.\" });\n    }\n    return string.Format(\"You entered: {0}\", value);\n}",
+      "description": "Throw a FaultException in a service method",
+      "scenario": "Throw a FaultException in a service method",
+      "language": "csharp",
+      "tags": [
+        "exception",
+        "fault",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

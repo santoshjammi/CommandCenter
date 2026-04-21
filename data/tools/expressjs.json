@@ -1,0 +1,204 @@
+{
+  "title": "Express.js Cheat Sheet",
+  "slug": "expressjs",
+  "description": "Quick reference for Express.js CLI commands and code patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm init -y",
+      "description": "Initialize a new Node.js project",
+      "scenario": "Initialize a new Node.js project",
+      "language": "bash",
+      "tags": [
+        "nodejs",
+        "npm",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install express",
+      "description": "Install Express.js",
+      "scenario": "Install Express.js",
+      "language": "bash",
+      "tags": [
+        "express",
+        "npm",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const express = require('express');",
+      "description": "Require Express in a Node.js file",
+      "scenario": "Require Express in a Node.js file",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "require",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const app = express();",
+      "description": "Create an Express application",
+      "scenario": "Create an Express application",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "app",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.listen(3000, () => console.log('Server running on port 3000'));",
+      "description": "Set up a basic server listening on port 3000",
+      "scenario": "Set up a basic server listening on port 3000",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "server",
+        "listen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.get('/', (req, res) => res.send('Hello World!'));",
+      "description": "Define a basic GET route",
+      "scenario": "Define a basic GET route",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "route",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use(express.static('public'));",
+      "description": "Use built-in middleware to serve static files",
+      "scenario": "Use built-in middleware to serve static files",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "middleware",
+        "static"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const bodyParser = require('body-parser');\napp.use(bodyParser.json());",
+      "description": "Use a third-party middleware, like body-parser",
+      "scenario": "Use a third-party middleware, like body-parser",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "middleware",
+        "body-parser"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use((req, res, next) => {\n  console.log('Request URL:', req.originalUrl);\n  next();\n});",
+      "description": "Create custom middleware",
+      "scenario": "Create custom middleware",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "middleware",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.get('/user/:id', (req, res) => {\n  res.send(`User ID: ${req.params.id}`);\n});",
+      "description": "Define a route with URL parameters",
+      "scenario": "Define a route with URL parameters",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "route",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const router = express.Router();\nrouter.get('/', (req, res) => res.send('Home Page'));\napp.use('/home', router);",
+      "description": "Use express.Router for modular routes",
+      "scenario": "Use express.Router for modular routes",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "router",
+        "modular"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use((req, res) => {\n  res.status(404).send('404 Not Found');\n});",
+      "description": "Handle 404 errors with a catch-all route",
+      "scenario": "Handle 404 errors with a catch-all route",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "error",
+        "404"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.use((err, req, res, next) => {\n  console.error(err.stack);\n  res.status(500).send('Something broke!');\n});",
+      "description": "Basic error-handling middleware",
+      "scenario": "Basic error-handling middleware",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "error",
+        "middleware"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.get('/error', (req, res) => {\n  throw new Error('BROKEN');\n});",
+      "description": "Throw an error in a route",
+      "scenario": "Throw an error in a route",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "error",
+        "route"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.get('/next-error', (req, res, next) => {\n  const err = new Error('Something went wrong');\n  next(err);\n});",
+      "description": "Pass an error to the next function",
+      "scenario": "Pass an error to the next function",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "error",
+        "next"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

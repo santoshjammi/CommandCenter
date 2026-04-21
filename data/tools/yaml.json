@@ -1,0 +1,165 @@
+{
+  "title": "YAML Cheat Sheet",
+  "slug": "yaml",
+  "description": "Essential YAML syntax and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "key: value",
+      "description": "Define a simple key-value pair",
+      "scenario": "Define a simple key-value pair",
+      "language": "yaml",
+      "tags": [
+        "syntax",
+        "key-value",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- item1\n- item2\n- item3",
+      "description": "Create a list of items",
+      "scenario": "Create a list of items",
+      "language": "yaml",
+      "tags": [
+        "list",
+        "sequence",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "parent:\n  child: value",
+      "description": "Define a nested structure",
+      "scenario": "Define a nested structure",
+      "language": "yaml",
+      "tags": [
+        "nested",
+        "structure",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "default: &default\n  name: John Doe\n\nperson:\n  <<: *default\n  age: 30",
+      "description": "Use anchors and aliases to reuse content",
+      "scenario": "Use anchors and aliases to reuse content",
+      "language": "yaml",
+      "tags": [
+        "anchors",
+        "aliases",
+        "reuse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "defaults: &defaults\n  adapter: postgres\n  host: localhost\n\ndevelopment:\n  <<: *defaults\n  database: dev_db",
+      "description": "Merge multiple maps",
+      "scenario": "Merge multiple maps",
+      "language": "yaml",
+      "tags": [
+        "merge",
+        "maps",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "description: |\n  This is a multi-line\n  string example.",
+      "description": "Define a multi-line string",
+      "scenario": "Define a multi-line string",
+      "language": "yaml",
+      "tags": [
+        "multi-line",
+        "string",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "is_active: true",
+      "description": "Define a boolean value",
+      "scenario": "Define a boolean value",
+      "language": "yaml",
+      "tags": [
+        "boolean",
+        "data type",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "age: 25",
+      "description": "Define an integer value",
+      "scenario": "Define an integer value",
+      "language": "yaml",
+      "tags": [
+        "integer",
+        "data type",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "price: 19.99",
+      "description": "Define a float value",
+      "scenario": "Define a float value",
+      "language": "yaml",
+      "tags": [
+        "float",
+        "data type",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# This is a comment\nkey: value",
+      "description": "Use comments for clarity",
+      "scenario": "Use comments for clarity",
+      "language": "yaml",
+      "tags": [
+        "comments",
+        "clarity",
+        "best practices"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "key:\n  subkey: value",
+      "description": "Avoid tab characters, use spaces",
+      "scenario": "Avoid tab characters, use spaces",
+      "language": "yaml",
+      "tags": [
+        "indentation",
+        "spaces",
+        "best practices"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list:\n  - item1\n  - item2",
+      "description": "Keep consistent indentation",
+      "scenario": "Keep consistent indentation",
+      "language": "yaml",
+      "tags": [
+        "indentation",
+        "consistency",
+        "best practices"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Cocoa Cheat Sheet",
+  "slug": "cocoa",
+  "description": "Quick reference for Cocoa development in Objective-C.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "@interface MyClass : NSObject\n@end",
+      "description": "Define a new class in Objective-C",
+      "scenario": "Define a new class in Objective-C",
+      "language": "objective-c",
+      "tags": [
+        "class",
+        "definition",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- (void)myMethod {\n    // method implementation\n}",
+      "description": "Implement a method in Objective-C",
+      "scenario": "Implement a method in Objective-C",
+      "language": "objective-c",
+      "tags": [
+        "method",
+        "implementation",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[myObject doSomething];",
+      "description": "Send a message to an object",
+      "scenario": "Send a message to an object",
+      "language": "objective-c",
+      "tags": [
+        "message",
+        "object",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@autoreleasepool {\n    // code that uses autorelease\n}",
+      "description": "Create an autorelease pool",
+      "scenario": "Create an autorelease pool",
+      "language": "objective-c",
+      "tags": [
+        "memory",
+        "autorelease",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[myObject retain];",
+      "description": "Retain an object",
+      "scenario": "Retain an object",
+      "language": "objective-c",
+      "tags": [
+        "retain",
+        "memory",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[myObject release];",
+      "description": "Release an object",
+      "scenario": "Release an object",
+      "language": "objective-c",
+      "tags": [
+        "release",
+        "memory",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NSButton *button = [[NSButton alloc] initWithFrame:NSMakeRect(0, 0, 100, 50)];",
+      "description": "Create a new button programmatically",
+      "scenario": "Create a new button programmatically",
+      "language": "objective-c",
+      "tags": [
+        "ui",
+        "button",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[button setTitle:@\"Click Me\"];",
+      "description": "Set a button's title",
+      "scenario": "Set a button's title",
+      "language": "objective-c",
+      "tags": [
+        "ui",
+        "button",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[self.view addSubview:button];",
+      "description": "Add a button to a view",
+      "scenario": "Add a button to a view",
+      "language": "objective-c",
+      "tags": [
+        "ui",
+        "view",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@\"http://example.com\"]];",
+      "description": "Create a URL request",
+      "scenario": "Create a URL request",
+      "language": "objective-c",
+      "tags": [
+        "network",
+        "url",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];",
+      "description": "Send a synchronous URL request",
+      "scenario": "Send a synchronous URL request",
+      "language": "objective-c",
+      "tags": [
+        "network",
+        "request",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {\n    // handle response\n}",
+      "description": "Handle URL connection delegate methods",
+      "scenario": "Handle URL connection delegate methods",
+      "language": "objective-c",
+      "tags": [
+        "network",
+        "delegate",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[NSUserDefaults standardUserDefaults] setObject:@\"value\" forKey:@\"key\"];",
+      "description": "Save data to UserDefaults",
+      "scenario": "Save data to UserDefaults",
+      "language": "objective-c",
+      "tags": [
+        "data",
+        "userdefaults",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NSString *value = [[NSUserDefaults standardUserDefaults] stringForKey:@\"key\"];",
+      "description": "Retrieve data from UserDefaults",
+      "scenario": "Retrieve data from UserDefaults",
+      "language": "objective-c",
+      "tags": [
+        "data",
+        "userdefaults",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[NSUserDefaults standardUserDefaults] removeObjectForKey:@\"key\"];",
+      "description": "Remove data from UserDefaults",
+      "scenario": "Remove data from UserDefaults",
+      "language": "objective-c",
+      "tags": [
+        "data",
+        "userdefaults",
+        "objective-c"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Freeware Tools Cheat Sheet",
+  "slug": "freeware",
+  "description": "Essential CLI commands and configurations for popular freeware tools.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone a repository from GitHub",
+      "scenario": "Clone a repository from GitHub",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Your commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin main",
+      "description": "Push changes to the remote repository",
+      "scenario": "Push changes to the remote repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "push",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":wq",
+      "description": "Save and exit Vim",
+      "scenario": "Save and exit Vim",
+      "language": "text",
+      "tags": [
+        "vim",
+        "save",
+        "exit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "u",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "vim",
+        "undo",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/pattern",
+      "description": "Search for a pattern in the file",
+      "scenario": "Search for a pattern in the file",
+      "language": "text",
+      "tags": [
+        "vim",
+        "search",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List all running containers",
+      "scenario": "List all running containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "list",
+        "containers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker stop container_id",
+      "description": "Stop a running container",
+      "scenario": "Stop a running container",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "stop",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker rmi image_name",
+      "description": "Remove a Docker image",
+      "scenario": "Remove a Docker image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "remove",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl http://example.com",
+      "description": "Fetch a web page content",
+      "scenario": "Fetch a web page content",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "http",
+        "fetch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -O http://example.com/file.zip",
+      "description": "Download a file from a URL",
+      "scenario": "Download a file from a URL",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "download",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -d \"param1=value1&param2=value2\" -X POST http://example.com/resource",
+      "description": "Send a POST request with data",
+      "scenario": "Send a POST request with data",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "post",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh user@hostname",
+      "description": "Connect to a remote server via SSH",
+      "scenario": "Connect to a remote server via SSH",
+      "language": "bash",
+      "tags": [
+        "ssh",
+        "connect",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp localfile user@hostname:/path/to/destination",
+      "description": "Copy files from local to remote server",
+      "scenario": "Copy files from local to remote server",
+      "language": "bash",
+      "tags": [
+        "ssh",
+        "scp",
+        "copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"",
+      "description": "Generate a new SSH key pair",
+      "scenario": "Generate a new SSH key pair",
+      "language": "bash",
+      "tags": [
+        "ssh",
+        "keygen",
+        "rsa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

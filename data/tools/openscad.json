@@ -1,0 +1,204 @@
+{
+  "title": "OpenSCAD Cheat Sheet",
+  "slug": "openscad",
+  "description": "Quick reference for OpenSCAD commands and syntax.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "cube([width, depth, height]);",
+      "description": "Create a cube with specified dimensions",
+      "scenario": "Create a cube with specified dimensions",
+      "language": "text",
+      "tags": [
+        "cube",
+        "shape",
+        "3d"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sphere(r=radius);",
+      "description": "Create a sphere with a specific radius",
+      "scenario": "Create a sphere with a specific radius",
+      "language": "text",
+      "tags": [
+        "sphere",
+        "shape",
+        "3d"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cylinder(h=height, r=radius);",
+      "description": "Create a cylinder with specified radius and height",
+      "scenario": "Create a cylinder with specified radius and height",
+      "language": "text",
+      "tags": [
+        "cylinder",
+        "shape",
+        "3d"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "translate([x, y, z]) { object(); }",
+      "description": "Translate an object by a vector",
+      "scenario": "Translate an object by a vector",
+      "language": "text",
+      "tags": [
+        "translate",
+        "move",
+        "transform"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rotate([x, y, z]) { object(); }",
+      "description": "Rotate an object around an axis",
+      "scenario": "Rotate an object around an axis",
+      "language": "text",
+      "tags": [
+        "rotate",
+        "transform",
+        "axis"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scale([x, y, z]) { object(); }",
+      "description": "Scale an object by a factor",
+      "scenario": "Scale an object by a factor",
+      "language": "text",
+      "tags": [
+        "scale",
+        "transform",
+        "resize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "union() { object1(); object2(); }",
+      "description": "Union of two or more objects",
+      "scenario": "Union of two or more objects",
+      "language": "text",
+      "tags": [
+        "union",
+        "boolean",
+        "combine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "difference() { object1(); object2(); }",
+      "description": "Difference of two or more objects",
+      "scenario": "Difference of two or more objects",
+      "language": "text",
+      "tags": [
+        "difference",
+        "boolean",
+        "subtract"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "intersection() { object1(); object2(); }",
+      "description": "Intersection of two or more objects",
+      "scenario": "Intersection of two or more objects",
+      "language": "text",
+      "tags": [
+        "intersection",
+        "boolean",
+        "common"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module name() { // code }",
+      "description": "Define a module for reusable code",
+      "scenario": "Define a module for reusable code",
+      "language": "text",
+      "tags": [
+        "module",
+        "reusable",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function name() = expression;",
+      "description": "Create a function to return a value",
+      "scenario": "Create a function to return a value",
+      "language": "text",
+      "tags": [
+        "function",
+        "return",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "name(param1, param2);",
+      "description": "Use a module with parameters",
+      "scenario": "Use a module with parameters",
+      "language": "text",
+      "tags": [
+        "module",
+        "parameters",
+        "reuse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) { // code } else { // code }",
+      "description": "Use an if-else statement for conditional logic",
+      "scenario": "Use an if-else statement for conditional logic",
+      "language": "text",
+      "tags": [
+        "if",
+        "else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i = [start:step:end]) { // code }",
+      "description": "Loop through a range of values",
+      "scenario": "Loop through a range of values",
+      "language": "text",
+      "tags": [
+        "for",
+        "loop",
+        "range"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch (expression) { case value1: // code; case value2: // code; }",
+      "description": "Use a switch-case structure for multiple conditions",
+      "scenario": "Use a switch-case structure for multiple conditions",
+      "language": "text",
+      "tags": [
+        "switch",
+        "case",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Bolt Quickstart",
+  "slug": "bolt-quickstart",
+  "description": "Quickstart guide for using Bolt CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "bolt init",
+      "description": "Initialize a new Bolt project",
+      "scenario": "Initialize a new Bolt project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt task run <task_name>",
+      "description": "Run a Bolt task",
+      "scenario": "Run a Bolt task",
+      "language": "bash",
+      "tags": [
+        "task",
+        "run",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt package install <package_name>",
+      "description": "Install a package using Bolt",
+      "scenario": "Install a package using Bolt",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "dependency"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export BOLT_CONFIG=<path_to_config>",
+      "description": "Set the Bolt configuration file path",
+      "scenario": "Set the Bolt configuration file path",
+      "language": "bash",
+      "tags": [
+        "config",
+        "path",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt config show",
+      "description": "View the current Bolt configuration",
+      "scenario": "View the current Bolt configuration",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "show"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano ~/.bolt/config.yaml",
+      "description": "Edit the Bolt configuration file",
+      "scenario": "Edit the Bolt configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "edit",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt task show",
+      "description": "List all available tasks",
+      "scenario": "List all available tasks",
+      "language": "bash",
+      "tags": [
+        "task",
+        "list",
+        "show"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt task create <task_name>",
+      "description": "Create a new task",
+      "scenario": "Create a new task",
+      "language": "bash",
+      "tags": [
+        "task",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt task delete <task_name>",
+      "description": "Delete a task",
+      "scenario": "Delete a task",
+      "language": "bash",
+      "tags": [
+        "task",
+        "delete",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt <command> --verbose",
+      "description": "Run a Bolt command in verbose mode",
+      "scenario": "Run a Bolt command in verbose mode",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "flag",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt <command> --targets <target>",
+      "description": "Specify a target for a Bolt command",
+      "scenario": "Specify a target for a Bolt command",
+      "language": "bash",
+      "tags": [
+        "target",
+        "option",
+        "specify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bolt <command> --concurrency <number>",
+      "description": "Run a Bolt command with a specific concurrency level",
+      "scenario": "Run a Bolt command with a specific concurrency level",
+      "language": "bash",
+      "tags": [
+        "concurrency",
+        "performance",
+        "option"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

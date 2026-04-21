@@ -1,0 +1,204 @@
+{
+  "title": "NMAP Cheat Sheet",
+  "slug": "nmap",
+  "description": "Essential NMAP commands and options for network scanning and security auditing.",
+  "audience": "engineer",
+  "category": "Security",
+  "commands": [
+    {
+      "command": "nmap 192.168.1.1",
+      "description": "Scan a single IP address",
+      "scenario": "Scan a single IP address",
+      "language": "bash",
+      "tags": [
+        "scan",
+        "ip",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap 192.168.1.1-100",
+      "description": "Scan a range of IP addresses",
+      "scenario": "Scan a range of IP addresses",
+      "language": "bash",
+      "tags": [
+        "scan",
+        "range",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap 192.168.1.0/24",
+      "description": "Scan a subnet",
+      "scenario": "Scan a subnet",
+      "language": "bash",
+      "tags": [
+        "scan",
+        "subnet",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sS 192.168.1.1",
+      "description": "Perform a TCP SYN scan",
+      "scenario": "Perform a TCP SYN scan",
+      "language": "bash",
+      "tags": [
+        "tcp",
+        "syn",
+        "scan"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sU 192.168.1.1",
+      "description": "Perform a UDP scan",
+      "scenario": "Perform a UDP scan",
+      "language": "bash",
+      "tags": [
+        "udp",
+        "scan",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -O 192.168.1.1",
+      "description": "Scan with OS detection",
+      "scenario": "Scan with OS detection",
+      "language": "bash",
+      "tags": [
+        "os",
+        "detection",
+        "scan"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sV 192.168.1.1",
+      "description": "Detect service versions",
+      "scenario": "Detect service versions",
+      "language": "bash",
+      "tags": [
+        "service",
+        "version",
+        "detection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -A 192.168.1.1",
+      "description": "Aggressive scan with OS and version detection",
+      "scenario": "Aggressive scan with OS and version detection",
+      "language": "bash",
+      "tags": [
+        "aggressive",
+        "os",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sC 192.168.1.1",
+      "description": "Scan with default scripts",
+      "scenario": "Scan with default scripts",
+      "language": "bash",
+      "tags": [
+        "scripts",
+        "default",
+        "scan"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -oN output.txt 192.168.1.1",
+      "description": "Save output to a file in normal format",
+      "scenario": "Save output to a file in normal format",
+      "language": "bash",
+      "tags": [
+        "output",
+        "file",
+        "normal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -oX output.xml 192.168.1.1",
+      "description": "Save output to a file in XML format",
+      "scenario": "Save output to a file in XML format",
+      "language": "bash",
+      "tags": [
+        "output",
+        "file",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -oG output.grep 192.168.1.1",
+      "description": "Save output to a file in grepable format",
+      "scenario": "Save output to a file in grepable format",
+      "language": "bash",
+      "tags": [
+        "output",
+        "file",
+        "grepable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -T4 192.168.1.1",
+      "description": "Scan with faster timing template",
+      "scenario": "Scan with faster timing template",
+      "language": "bash",
+      "tags": [
+        "performance",
+        "timing",
+        "fast"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -T2 192.168.1.1",
+      "description": "Scan with slower timing template for stealth",
+      "scenario": "Scan with slower timing template for stealth",
+      "language": "bash",
+      "tags": [
+        "performance",
+        "timing",
+        "stealth"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap --max-parallelism 100 192.168.1.1",
+      "description": "Scan with maximum parallelism",
+      "scenario": "Scan with maximum parallelism",
+      "language": "bash",
+      "tags": [
+        "performance",
+        "parallelism",
+        "max"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

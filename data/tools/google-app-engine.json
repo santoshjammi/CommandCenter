@@ -1,0 +1,204 @@
+{
+  "title": "Google App Engine Cheat Sheet",
+  "slug": "google-app-engine",
+  "description": "Essential commands and configurations for Google App Engine.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "gcloud app deploy",
+      "description": "Deploy the app to Google App Engine",
+      "scenario": "Deploy the app to Google App Engine",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "gcloud",
+        "app-engine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app deploy --version=v1",
+      "description": "Deploy a specific version of the app",
+      "scenario": "Deploy a specific version of the app",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "version",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app deploy app.yaml",
+      "description": "Deploy with a specific configuration file",
+      "scenario": "Deploy with a specific configuration file",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "config",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app services list",
+      "description": "List all services in the project",
+      "scenario": "List all services in the project",
+      "language": "bash",
+      "tags": [
+        "services",
+        "list",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app services delete SERVICE_NAME",
+      "description": "Delete a specific service",
+      "scenario": "Delete a specific service",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "service",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app services describe SERVICE_NAME",
+      "description": "Describe a specific service",
+      "scenario": "Describe a specific service",
+      "language": "bash",
+      "tags": [
+        "describe",
+        "service",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app versions list",
+      "description": "List all versions of a service",
+      "scenario": "List all versions of a service",
+      "language": "bash",
+      "tags": [
+        "versions",
+        "list",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app services set-traffic SERVICE_NAME --splits VERSION=1",
+      "description": "Migrate traffic to a new version",
+      "scenario": "Migrate traffic to a new version",
+      "language": "bash",
+      "tags": [
+        "traffic",
+        "version",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app versions delete VERSION_ID",
+      "description": "Delete a specific version",
+      "scenario": "Delete a specific version",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "version",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "runtime: python38\nentrypoint: gunicorn -b :$PORT main:app",
+      "description": "Basic app.yaml configuration for Python",
+      "scenario": "Basic app.yaml configuration for Python",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "yaml",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "env_variables:\n  VAR_NAME: 'value'",
+      "description": "Set environment variables in app.yaml",
+      "scenario": "Set environment variables in app.yaml",
+      "language": "yaml",
+      "tags": [
+        "env",
+        "variables",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "automatic_scaling:\n  min_instances: 1\n  max_instances: 5",
+      "description": "Configure automatic scaling in app.yaml",
+      "scenario": "Configure automatic scaling in app.yaml",
+      "language": "yaml",
+      "tags": [
+        "scaling",
+        "config",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud config get-value project",
+      "description": "Check the current project ID",
+      "scenario": "Check the current project ID",
+      "language": "bash",
+      "tags": [
+        "project",
+        "gcloud",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud config set app/region REGION",
+      "description": "Set the default region for App Engine",
+      "scenario": "Set the default region for App Engine",
+      "language": "bash",
+      "tags": [
+        "region",
+        "config",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud app logs tail -s default",
+      "description": "View logs for the deployed app",
+      "scenario": "View logs for the deployed app",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "app-engine",
+        "gcloud"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

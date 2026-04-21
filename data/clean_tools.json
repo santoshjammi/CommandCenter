@@ -1,0 +1,4372 @@
+[
+  {
+    "name": ".NET",
+    "slug": "dotnet",
+    "audience": "engineer"
+  },
+  {
+    "name": "1Password",
+    "slug": "1password",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "ActionScript",
+    "slug": "actionscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "ActiveAdmin",
+    "slug": "activeadmin",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ada",
+    "slug": "ada",
+    "audience": "engineer"
+  },
+  {
+    "name": "ADO.NET",
+    "slug": "adodotnet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe Acrobat",
+    "slug": "adobe-acrobat",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe ColdFusion",
+    "slug": "adobe-coldfusion",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe Illustrator",
+    "slug": "adobe-illustrator",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Adobe Lightroom CC",
+    "slug": "adobe-lightroom-cc",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "slug": "adobe-photoshop",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Adobe XD",
+    "slug": "adobe-xd",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Affinity Designer",
+    "slug": "affinity-designer",
+    "audience": "engineer"
+  },
+  {
+    "name": "Affinity Photo",
+    "slug": "affinity-photo",
+    "audience": "engineer"
+  },
+  {
+    "name": "Agda",
+    "slug": "agda",
+    "audience": "engineer"
+  },
+  {
+    "name": "Airtable",
+    "slug": "airtable",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "AJAX",
+    "slug": "ajax",
+    "audience": "engineer"
+  },
+  {
+    "name": "Alan AI",
+    "slug": "alan-ai",
+    "audience": "engineer"
+  },
+  {
+    "name": "Algebra",
+    "slug": "algebra",
+    "audience": "engineer"
+  },
+  {
+    "name": "Alpine Linux",
+    "slug": "alpine-linux",
+    "audience": "engineer"
+  },
+  {
+    "name": "Alpine.js",
+    "slug": "alpinejs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Amazon Web Services",
+    "slug": "amazon-web-services",
+    "audience": "engineer"
+  },
+  {
+    "name": "AMD",
+    "slug": "amd",
+    "audience": "engineer"
+  },
+  {
+    "name": "Android",
+    "slug": "android",
+    "audience": "engineer"
+  },
+  {
+    "name": "Android Studio",
+    "slug": "android-studio",
+    "audience": "engineer"
+  },
+  {
+    "name": "Angular",
+    "slug": "angular",
+    "audience": "engineer"
+  },
+  {
+    "name": "Angular.js",
+    "slug": "angularjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "AngularJS",
+    "slug": "angularjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ansi codes",
+    "slug": "ansi-codes",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ansible",
+    "slug": "ansible",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache",
+    "slug": "apache",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Ant",
+    "slug": "apache-ant",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Camel",
+    "slug": "apache-camel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Cassandra",
+    "slug": "apache-cassandra",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Cordova",
+    "slug": "apache-cordova",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Hadoop",
+    "slug": "apache-hadoop",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache HBase",
+    "slug": "apache-hbase",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Maven",
+    "slug": "apache-maven",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache ServiceMix",
+    "slug": "apache-servicemix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Solr",
+    "slug": "apache-solr",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Wicket",
+    "slug": "apache-wicket",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apex Legends",
+    "slug": "apex-legends",
+    "audience": "engineer"
+  },
+  {
+    "name": "apiOmat",
+    "slug": "apiomat",
+    "audience": "engineer"
+  },
+  {
+    "name": "APL",
+    "slug": "apl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Appcache",
+    "slug": "appcache",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apple Music",
+    "slug": "apple-music",
+    "audience": "engineer"
+  },
+  {
+    "name": "AppleScript",
+    "slug": "applescript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Applinks",
+    "slug": "applinks",
+    "audience": "engineer"
+  },
+  {
+    "name": "APT",
+    "slug": "apt",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arduino",
+    "slug": "arduino",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arduino IDE",
+    "slug": "arduino-ide",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arduino Programming",
+    "slug": "arduino-programming",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arel",
+    "slug": "arel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arturo",
+    "slug": "arturo",
+    "audience": "engineer"
+  },
+  {
+    "name": "Asana",
+    "slug": "asana",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "ASCII",
+    "slug": "ascii",
+    "audience": "engineer"
+  },
+  {
+    "name": "ASCII Code",
+    "slug": "ascii-code",
+    "audience": "engineer"
+  },
+  {
+    "name": "AsciiDoc",
+    "slug": "asciidoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "ASP",
+    "slug": "asp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Aspect Ratio",
+    "slug": "aspect-ratio",
+    "audience": "engineer"
+  },
+  {
+    "name": "Assembly Language",
+    "slug": "assembly-language",
+    "audience": "engineer"
+  },
+  {
+    "name": "AssemblyScript",
+    "slug": "assemblyscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "assert",
+    "slug": "assert",
+    "audience": "engineer"
+  },
+  {
+    "name": "Astro",
+    "slug": "astro",
+    "audience": "engineer"
+  },
+  {
+    "name": "Astronomy",
+    "slug": "astronomy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Asymptotic Notation",
+    "slug": "asymptotic-notation",
+    "audience": "engineer"
+  },
+  {
+    "name": "ATS",
+    "slug": "ats",
+    "audience": "engineer"
+  },
+  {
+    "name": "Audacity",
+    "slug": "audacity",
+    "audience": "engineer"
+  },
+  {
+    "name": "AWK",
+    "slug": "awk",
+    "audience": "engineer"
+  },
+  {
+    "name": "AWS",
+    "slug": "aws",
+    "audience": "engineer"
+  },
+  {
+    "name": "AWS CLI",
+    "slug": "aws-cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "Azure",
+    "slug": "azure",
+    "audience": "engineer"
+  },
+  {
+    "name": "Backbone.js",
+    "slug": "backbonejs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ballerina",
+    "slug": "ballerina",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bash",
+    "slug": "bash",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bash scripting",
+    "slug": "bash-scripting",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bazaar",
+    "slug": "bazaar",
+    "audience": "engineer"
+  },
+  {
+    "name": "BDB",
+    "slug": "bdb",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bear",
+    "slug": "bear",
+    "audience": "engineer"
+  },
+  {
+    "name": "Berkeley DB",
+    "slug": "berkeley-db",
+    "audience": "engineer"
+  },
+  {
+    "name": "BGP",
+    "slug": "bgp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Big O",
+    "slug": "big-o",
+    "audience": "engineer"
+  },
+  {
+    "name": "BIRT",
+    "slug": "birt",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bitbucket",
+    "slug": "bitbucket",
+    "audience": "engineer"
+  },
+  {
+    "name": "BlazeDS",
+    "slug": "blazeds",
+    "audience": "engineer"
+  },
+  {
+    "name": "Blender",
+    "slug": "blender",
+    "audience": "engineer"
+  },
+  {
+    "name": "Blessed",
+    "slug": "blessed",
+    "audience": "engineer"
+  },
+  {
+    "name": "Blogger",
+    "slug": "blogger",
+    "audience": "engineer"
+  },
+  {
+    "name": "bluebird.js",
+    "slug": "bluebirdjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Blueprint",
+    "slug": "blueprint",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bolt Quickstart",
+    "slug": "bolt-quickstart",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bookshelf.js",
+    "slug": "bookshelfjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bootstrap",
+    "slug": "bootstrap",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bowler Robotics",
+    "slug": "bowler-robotics",
+    "audience": "engineer"
+  },
+  {
+    "name": "BPEL",
+    "slug": "bpel",
+    "audience": "engineer"
+  },
+  {
+    "name": "BPM",
+    "slug": "bpm",
+    "audience": "engineer"
+  },
+  {
+    "name": "BPML",
+    "slug": "bpml",
+    "audience": "engineer"
+  },
+  {
+    "name": "BQN",
+    "slug": "bqn",
+    "audience": "engineer"
+  },
+  {
+    "name": "Brave Browser",
+    "slug": "brave-browser",
+    "audience": "engineer"
+  },
+  {
+    "name": "Browse All Sheets",
+    "slug": "browse-all-sheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "Browserify",
+    "slug": "browserify",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bulma",
+    "slug": "bulma",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bun",
+    "slug": "bun",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bundler",
+    "slug": "bundler",
+    "audience": "engineer"
+  },
+  {
+    "name": "Business Process Modeling",
+    "slug": "business-process-modeling",
+    "audience": "engineer"
+  },
+  {
+    "name": "C#",
+    "slug": "csharp",
+    "audience": "engineer"
+  },
+  {
+    "name": "C# 7",
+    "slug": "csharp-7",
+    "audience": "engineer"
+  },
+  {
+    "name": "C++",
+    "slug": "cpp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Calculus",
+    "slug": "calculus",
+    "audience": "engineer"
+  },
+  {
+    "name": "Camera",
+    "slug": "camera",
+    "audience": "engineer"
+  },
+  {
+    "name": "Camp",
+    "slug": "camp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Canvas",
+    "slug": "canvas",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Capybara",
+    "slug": "capybara",
+    "audience": "engineer"
+  },
+  {
+    "name": "Catalyst",
+    "slug": "catalyst",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chai.js",
+    "slug": "chaijs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chapel",
+    "slug": "chapel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Characters",
+    "slug": "characters",
+    "audience": "engineer"
+  },
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "audience": "engineer"
+  },
+  {
+    "name": "CheatSheets",
+    "slug": "cheatsheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "cheatsheets.zip",
+    "slug": "cheatsheetszip",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chef",
+    "slug": "chef",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chemistry",
+    "slug": "chemistry",
+    "audience": "engineer"
+  },
+  {
+    "name": "CHICKEN",
+    "slug": "chicken",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chmod",
+    "slug": "chmod",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chunky PNG",
+    "slug": "chunky-png",
+    "audience": "engineer"
+  },
+  {
+    "name": "CIDR",
+    "slug": "cidr",
+    "audience": "engineer"
+  },
+  {
+    "name": "CircleCI",
+    "slug": "circleci",
+    "audience": "engineer"
+  },
+  {
+    "name": "citron",
+    "slug": "citron",
+    "audience": "engineer"
+  },
+  {
+    "name": "Claude Code",
+    "slug": "claude-code",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cli",
+    "slug": "cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "Clojure",
+    "slug": "clojure",
+    "audience": "engineer"
+  },
+  {
+    "name": "Clojure macros",
+    "slug": "clojure-macros",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cloud Computing",
+    "slug": "cloud-computing",
+    "audience": "engineer"
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake",
+    "audience": "engineer"
+  },
+  {
+    "name": "COBOL",
+    "slug": "cobol",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cocoa",
+    "slug": "cocoa",
+    "audience": "engineer"
+  },
+  {
+    "name": "Code Editor for iOS",
+    "slug": "code-editor-for-ios",
+    "audience": "engineer"
+  },
+  {
+    "name": "Code House.",
+    "slug": "code-house",
+    "audience": "engineer"
+  },
+  {
+    "name": "Codex CLI",
+    "slug": "codex-cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "CoffeeScript",
+    "slug": "coffeescript",
+    "audience": "engineer"
+  },
+  {
+    "name": "ColdFusion",
+    "slug": "coldfusion",
+    "audience": "engineer"
+  },
+  {
+    "name": "Color Picker",
+    "slug": "color-picker",
+    "audience": "engineer"
+  },
+  {
+    "name": "ColorScreen",
+    "slug": "colorscreen",
+    "audience": "engineer"
+  },
+  {
+    "name": "Colour",
+    "slug": "colour",
+    "audience": "engineer"
+  },
+  {
+    "name": "Common Lisp",
+    "slug": "common-lisp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Common Ports",
+    "slug": "common-ports",
+    "audience": "engineer"
+  },
+  {
+    "name": "CommonMark",
+    "slug": "commonmark",
+    "audience": "engineer"
+  },
+  {
+    "name": "Compojure",
+    "slug": "compojure",
+    "audience": "engineer"
+  },
+  {
+    "name": "Composer",
+    "slug": "composer",
+    "audience": "engineer"
+  },
+  {
+    "name": "Computer Science",
+    "slug": "computer-science",
+    "audience": "engineer"
+  },
+  {
+    "name": "Continuous Integration",
+    "slug": "continuous-integration",
+    "audience": "engineer"
+  },
+  {
+    "name": "Coq",
+    "slug": "coq",
+    "audience": "engineer"
+  },
+  {
+    "name": "Countries",
+    "slug": "countries",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cron",
+    "slug": "cron",
+    "audience": "engineer"
+  },
+  {
+    "name": "Crystal",
+    "slug": "crystal",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSS",
+    "slug": "css",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSS 3",
+    "slug": "css-3",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSS flexbox",
+    "slug": "css-flexbox",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSS Grid",
+    "slug": "css-grid",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSS tricks",
+    "slug": "css-tricks",
+    "audience": "engineer"
+  },
+  {
+    "name": "cssnext",
+    "slug": "cssnext",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSV",
+    "slug": "csv",
+    "audience": "engineer"
+  },
+  {
+    "name": "CUE",
+    "slug": "cue",
+    "audience": "engineer"
+  },
+  {
+    "name": "Curl",
+    "slug": "curl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cursor CLI",
+    "slug": "cursor-cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "CVS",
+    "slug": "cvs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cypher",
+    "slug": "cypher",
+    "audience": "engineer"
+  },
+  {
+    "name": "Dart",
+    "slug": "dart",
+    "audience": "engineer"
+  },
+  {
+    "name": "Datalog",
+    "slug": "datalog",
+    "audience": "engineer"
+  },
+  {
+    "name": "Db2",
+    "slug": "db2",
+    "audience": "engineer"
+  },
+  {
+    "name": "db4o",
+    "slug": "db4o",
+    "audience": "engineer"
+  },
+  {
+    "name": "DDD",
+    "slug": "ddd",
+    "audience": "engineer"
+  },
+  {
+    "name": "Debian",
+    "slug": "debian",
+    "audience": "engineer"
+  },
+  {
+    "name": "Deis",
+    "slug": "deis",
+    "audience": "engineer"
+  },
+  {
+    "name": "Deku v1",
+    "slug": "deku-v1",
+    "audience": "engineer"
+  },
+  {
+    "name": "Deku v2",
+    "slug": "deku-v2",
+    "audience": "engineer"
+  },
+  {
+    "name": "Delphi",
+    "slug": "delphi",
+    "audience": "engineer"
+  },
+  {
+    "name": "Design Pattern",
+    "slug": "design-pattern",
+    "audience": "engineer"
+  },
+  {
+    "name": "Developer Tools >>",
+    "slug": "developer-tools",
+    "audience": "engineer"
+  },
+  {
+    "name": "Devhints.io",
+    "slug": "devhintsio",
+    "audience": "engineer"
+  },
+  {
+    "name": "Devise",
+    "slug": "devise",
+    "audience": "engineer"
+  },
+  {
+    "name": "DevSheets",
+    "slug": "devsheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "Dhall",
+    "slug": "dhall",
+    "audience": "engineer"
+  },
+  {
+    "name": "DirectX 9",
+    "slug": "directx-9",
+    "audience": "engineer"
+  },
+  {
+    "name": "Divshot",
+    "slug": "divshot",
+    "audience": "engineer"
+  },
+  {
+    "name": "Django",
+    "slug": "django",
+    "audience": "engineer"
+  },
+  {
+    "name": "Djot",
+    "slug": "djot",
+    "audience": "engineer"
+  },
+  {
+    "name": "Do gem",
+    "slug": "do-gem",
+    "audience": "engineer"
+  },
+  {
+    "name": "Docker",
+    "slug": "docker",
+    "audience": "engineer"
+  },
+  {
+    "name": "Docker CLI",
+    "slug": "docker-cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "Dockerfile",
+    "slug": "dockerfile",
+    "audience": "engineer"
+  },
+  {
+    "name": "Doctrine",
+    "slug": "doctrine",
+    "audience": "engineer"
+  },
+  {
+    "name": "Doctypes",
+    "slug": "doctypes",
+    "audience": "engineer"
+  },
+  {
+    "name": "DOM",
+    "slug": "dom",
+    "audience": "engineer"
+  },
+  {
+    "name": "DOM Range",
+    "slug": "dom-range",
+    "audience": "engineer"
+  },
+  {
+    "name": "Domain-Driven Design",
+    "slug": "domain-driven-design",
+    "audience": "engineer"
+  },
+  {
+    "name": "DOT language",
+    "slug": "dot-language",
+    "audience": "engineer"
+  },
+  {
+    "name": "Drizzle ORM",
+    "slug": "drizzle-orm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Drupal",
+    "slug": "drupal",
+    "audience": "engineer"
+  },
+  {
+    "name": "Drush",
+    "slug": "drush",
+    "audience": "engineer"
+  },
+  {
+    "name": "DTD",
+    "slug": "dtd",
+    "audience": "engineer"
+  },
+  {
+    "name": "Dynamic Programming",
+    "slug": "dynamic-programming",
+    "audience": "engineer"
+  },
+  {
+    "name": "Easylang",
+    "slug": "easylang",
+    "audience": "engineer"
+  },
+  {
+    "name": "Eclipse",
+    "slug": "eclipse",
+    "audience": "engineer"
+  },
+  {
+    "name": "EDN",
+    "slug": "edn",
+    "audience": "engineer"
+  },
+  {
+    "name": "EIGRP",
+    "slug": "eigrp",
+    "audience": "engineer"
+  },
+  {
+    "name": "EJB",
+    "slug": "ejb",
+    "audience": "engineer"
+  },
+  {
+    "name": "EJS",
+    "slug": "ejs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir",
+    "audience": "engineer"
+  },
+  {
+    "name": "Elm",
+    "slug": "elm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emacs",
+    "slug": "emacs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emacs Lisp",
+    "slug": "emacs-lisp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ember.js",
+    "slug": "emberjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emmet",
+    "slug": "emmet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emoji",
+    "slug": "emoji",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emoticon",
+    "slug": "emoticon",
+    "audience": "engineer"
+  },
+  {
+    "name": "Encoding",
+    "slug": "encoding",
+    "audience": "engineer"
+  },
+  {
+    "name": "Enzyme",
+    "slug": "enzyme",
+    "audience": "engineer"
+  },
+  {
+    "name": "Enzyme v2",
+    "slug": "enzyme-v2",
+    "audience": "engineer"
+  },
+  {
+    "name": "Erlang",
+    "slug": "erlang",
+    "audience": "engineer"
+  },
+  {
+    "name": "Erlang ETS",
+    "slug": "erlang-ets",
+    "audience": "engineer"
+  },
+  {
+    "name": "ES2015+",
+    "slug": "es2015",
+    "audience": "engineer"
+  },
+  {
+    "name": "ES6",
+    "slug": "es6",
+    "audience": "engineer"
+  },
+  {
+    "name": "expect.js",
+    "slug": "expectjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Express",
+    "slug": "express",
+    "audience": "engineer"
+  },
+  {
+    "name": "Express.js",
+    "slug": "expressjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "ExUnit",
+    "slug": "exunit",
+    "audience": "engineer"
+  },
+  {
+    "name": "F#",
+    "slug": "fsharp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Facebook",
+    "slug": "facebook",
+    "audience": "engineer"
+  },
+  {
+    "name": "Factor",
+    "slug": "factor",
+    "audience": "engineer"
+  },
+  {
+    "name": "Factory Bot",
+    "slug": "factory-bot",
+    "audience": "engineer"
+  },
+  {
+    "name": "FastAPI",
+    "slug": "fastapi",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fastify",
+    "slug": "fastify",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fedora",
+    "slug": "fedora",
+    "audience": "engineer"
+  },
+  {
+    "name": "Feed",
+    "slug": "feed",
+    "audience": "engineer"
+  },
+  {
+    "name": "Feedly",
+    "slug": "feedly",
+    "audience": "engineer"
+  },
+  {
+    "name": "fetch()",
+    "slug": "fetch",
+    "audience": "engineer"
+  },
+  {
+    "name": "FFaker",
+    "slug": "ffaker",
+    "audience": "engineer"
+  },
+  {
+    "name": "ffmpeg",
+    "slug": "ffmpeg",
+    "audience": "engineer"
+  },
+  {
+    "name": "Figlet",
+    "slug": "figlet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "File",
+    "slug": "file",
+    "audience": "engineer"
+  },
+  {
+    "name": "FileZilla",
+    "slug": "filezilla",
+    "audience": "engineer"
+  },
+  {
+    "name": "Find",
+    "slug": "find",
+    "audience": "engineer"
+  },
+  {
+    "name": "Finder",
+    "slug": "finder",
+    "audience": "engineer"
+  },
+  {
+    "name": "Firebase",
+    "slug": "firebase",
+    "audience": "engineer"
+  },
+  {
+    "name": "Firebug",
+    "slug": "firebug",
+    "audience": "engineer"
+  },
+  {
+    "name": "Firefox",
+    "slug": "firefox",
+    "audience": "engineer"
+  },
+  {
+    "name": "Firefox Add-ons",
+    "slug": "firefox-add-ons",
+    "audience": "engineer"
+  },
+  {
+    "name": "fish",
+    "slug": "fish",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fish shell",
+    "slug": "fish-shell",
+    "audience": "engineer"
+  },
+  {
+    "name": "FitNesse",
+    "slug": "fitnesse",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flash",
+    "slug": "flash",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flash Catalyst",
+    "slug": "flash-catalyst",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flashlight",
+    "slug": "flashlight",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flask",
+    "slug": "flask",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flex",
+    "slug": "flex",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flow",
+    "slug": "flow",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flux architecture",
+    "slug": "flux-architecture",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flynn",
+    "slug": "flynn",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fonts",
+    "slug": "fonts",
+    "audience": "engineer"
+  },
+  {
+    "name": "Forth",
+    "slug": "forth",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fortnite",
+    "slug": "fortnite",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fortran",
+    "slug": "fortran",
+    "audience": "engineer"
+  },
+  {
+    "name": "Framer X",
+    "slug": "framer-x",
+    "audience": "engineer"
+  },
+  {
+    "name": "Freenode",
+    "slug": "freenode",
+    "audience": "engineer"
+  },
+  {
+    "name": "Freeware",
+    "slug": "freeware",
+    "audience": "engineer"
+  },
+  {
+    "name": "Friends",
+    "slug": "friends",
+    "audience": "engineer"
+  },
+  {
+    "name": "FTP",
+    "slug": "ftp",
+    "audience": "engineer"
+  },
+  {
+    "name": "GDB",
+    "slug": "gdb",
+    "audience": "engineer"
+  },
+  {
+    "name": "GDScript",
+    "slug": "gdscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gemini CLI",
+    "slug": "gemini-cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gemma 4",
+    "slug": "gemma-4",
+    "audience": "engineer"
+  },
+  {
+    "name": "Geometry",
+    "slug": "geometry",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gift",
+    "slug": "gift",
+    "audience": "engineer"
+  },
+  {
+    "name": "GIMP",
+    "slug": "gimp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git",
+    "slug": "git",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git Branches",
+    "slug": "git-branches",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git extras",
+    "slug": "git-extras",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git Flow Next",
+    "slug": "git-flow-next",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git For Svn",
+    "slug": "git-for-svn",
+    "audience": "engineer"
+  },
+  {
+    "name": "git log",
+    "slug": "git-log",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git tricks",
+    "slug": "git-tricks",
+    "audience": "engineer"
+  },
+  {
+    "name": "Github",
+    "slug": "github",
+    "audience": "engineer"
+  },
+  {
+    "name": "Github Actions",
+    "slug": "github-actions",
+    "audience": "engineer"
+  },
+  {
+    "name": "Github CLI",
+    "slug": "github-cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "GitHub pages",
+    "slug": "github-pages",
+    "audience": "engineer"
+  },
+  {
+    "name": "GitLab",
+    "slug": "gitlab",
+    "audience": "engineer"
+  },
+  {
+    "name": "GlassFish",
+    "slug": "glassfish",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gleam",
+    "slug": "gleam",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gmail",
+    "slug": "gmail",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gnome Desktop",
+    "slug": "gnome-desktop",
+    "audience": "engineer"
+  },
+  {
+    "name": "GNU grep",
+    "slug": "gnu-grep",
+    "audience": "engineer"
+  },
+  {
+    "name": "GnuPG",
+    "slug": "gnupg",
+    "audience": "engineer"
+  },
+  {
+    "name": "Go (Golang)",
+    "slug": "go-golang",
+    "audience": "engineer"
+  },
+  {
+    "name": "Goby",
+    "slug": "goby",
+    "audience": "engineer"
+  },
+  {
+    "name": "GoF",
+    "slug": "gof",
+    "audience": "engineer"
+  },
+  {
+    "name": "GolfScript",
+    "slug": "golfscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google App Engine",
+    "slug": "google-app-engine",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Chrome",
+    "slug": "google-chrome",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Drive",
+    "slug": "google-drive",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Maps",
+    "slug": "google-maps",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Search",
+    "slug": "google-search",
+    "audience": "engineer"
+  },
+  {
+    "name": "GoSpinWheel",
+    "slug": "gospinwheel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Grails",
+    "slug": "grails",
+    "audience": "engineer"
+  },
+  {
+    "name": "GraphQL",
+    "slug": "graphql",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gremlins.js",
+    "slug": "gremlinsjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Grep",
+    "slug": "grep",
+    "audience": "engineer"
+  },
+  {
+    "name": "Griffon",
+    "slug": "griffon",
+    "audience": "engineer"
+  },
+  {
+    "name": "GrokGrok CLI",
+    "slug": "grokgrok-cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "Groovy",
+    "slug": "groovy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Guitar",
+    "slug": "guitar",
+    "audience": "engineer"
+  },
+  {
+    "name": "Guitar Pro",
+    "slug": "guitar-pro",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gulp",
+    "slug": "gulp",
+    "audience": "engineer"
+  },
+  {
+    "name": "GWT",
+    "slug": "gwt",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hack",
+    "slug": "hack",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hadoop",
+    "slug": "hadoop",
+    "audience": "engineer"
+  },
+  {
+    "name": "Haml",
+    "slug": "haml",
+    "audience": "engineer"
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hardware",
+    "slug": "hardware",
+    "audience": "engineer"
+  },
+  {
+    "name": "Harvey.js",
+    "slug": "harveyjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Haskell",
+    "slug": "haskell",
+    "audience": "engineer"
+  },
+  {
+    "name": "Haxe",
+    "slug": "haxe",
+    "audience": "engineer"
+  },
+  {
+    "name": "HBase",
+    "slug": "hbase",
+    "audience": "engineer"
+  },
+  {
+    "name": "HCL",
+    "slug": "hcl",
+    "audience": "engineer"
+  },
+  {
+    "name": "HDL",
+    "slug": "hdl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Heroku",
+    "slug": "heroku",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hibernate",
+    "slug": "hibernate",
+    "audience": "engineer"
+  },
+  {
+    "name": "High Availability",
+    "slug": "high-availability",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hjson",
+    "slug": "hjson",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hledger",
+    "slug": "hledger",
+    "audience": "engineer"
+  },
+  {
+    "name": "HOCON",
+    "slug": "hocon",
+    "audience": "engineer"
+  },
+  {
+    "name": "Homebrew",
+    "slug": "homebrew",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hono",
+    "slug": "hono",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hook",
+    "slug": "hook",
+    "audience": "engineer"
+  },
+  {
+    "name": "HotSpot",
+    "slug": "hotspot",
+    "audience": "engineer"
+  },
+  {
+    "name": "How it works",
+    "slug": "how-it-works",
+    "audience": "engineer"
+  },
+  {
+    "name": "HQ9+",
+    "slug": "hq9",
+    "audience": "engineer"
+  },
+  {
+    "name": "htaccess",
+    "slug": "htaccess",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTML",
+    "slug": "html",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTML Canvas",
+    "slug": "html-canvas",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "HTML emails",
+    "slug": "html-emails",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTML-DOM",
+    "slug": "html-dom",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTMX",
+    "slug": "htmx",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTTP",
+    "slug": "http",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTTP Status",
+    "slug": "http-status",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTTP Status Code",
+    "slug": "http-status-code",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTTPie",
+    "slug": "httpie",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hugo",
+    "slug": "hugo",
+    "audience": "engineer"
+  },
+  {
+    "name": "Icons",
+    "slug": "icons",
+    "audience": "engineer"
+  },
+  {
+    "name": "IEEE 802.11",
+    "slug": "ieee-80211",
+    "audience": "engineer"
+  },
+  {
+    "name": "IEEE 802.1X",
+    "slug": "ieee-8021x",
+    "audience": "engineer"
+  },
+  {
+    "name": "Illustrator",
+    "slug": "illustrator",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Image",
+    "slug": "image",
+    "audience": "engineer"
+  },
+  {
+    "name": "Imagemagick",
+    "slug": "imagemagick",
+    "audience": "engineer"
+  },
+  {
+    "name": "InDesign",
+    "slug": "indesign",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Inform7",
+    "slug": "inform7",
+    "audience": "engineer"
+  },
+  {
+    "name": "InfrontJS",
+    "slug": "infrontjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "INI",
+    "slug": "ini",
+    "audience": "engineer"
+  },
+  {
+    "name": "Inkscape",
+    "slug": "inkscape",
+    "audience": "engineer"
+  },
+  {
+    "name": "Input tag",
+    "slug": "input-tag",
+    "audience": "engineer"
+  },
+  {
+    "name": "IntelliJ IDEA",
+    "slug": "intellij-idea",
+    "audience": "engineer"
+  },
+  {
+    "name": "International Phonetic Alphabet",
+    "slug": "international-phonetic-alphabet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Internet Explorer",
+    "slug": "internet-explorer",
+    "audience": "engineer"
+  },
+  {
+    "name": "IPsec",
+    "slug": "ipsec",
+    "audience": "engineer"
+  },
+  {
+    "name": "IPv4 Multicast",
+    "slug": "ipv4-multicast",
+    "audience": "engineer"
+  },
+  {
+    "name": "IPv6",
+    "slug": "ipv6",
+    "audience": "engineer"
+  },
+  {
+    "name": "IRC",
+    "slug": "irc",
+    "audience": "engineer"
+  },
+  {
+    "name": "IVR",
+    "slug": "ivr",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jade",
+    "slug": "jade",
+    "audience": "engineer"
+  },
+  {
+    "name": "Janet",
+    "slug": "janet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jasmine",
+    "slug": "jasmine",
+    "audience": "engineer"
+  },
+  {
+    "name": "Java",
+    "slug": "java",
+    "audience": "engineer"
+  },
+  {
+    "name": "Java EE",
+    "slug": "java-ee",
+    "audience": "engineer"
+  },
+  {
+    "name": "Java HotSpot VM",
+    "slug": "java-hotspot-vm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Java Persistence API",
+    "slug": "java-persistence-api",
+    "audience": "engineer"
+  },
+  {
+    "name": "JavaFX",
+    "slug": "javafx",
+    "audience": "engineer"
+  },
+  {
+    "name": "JavaScript",
+    "slug": "javascript",
+    "audience": "engineer"
+  },
+  {
+    "name": "JavaScript Date",
+    "slug": "javascript-date",
+    "audience": "engineer"
+  },
+  {
+    "name": "JavaServer Faces",
+    "slug": "javaserver-faces",
+    "audience": "engineer"
+  },
+  {
+    "name": "JBoss",
+    "slug": "jboss",
+    "audience": "engineer"
+  },
+  {
+    "name": "JDBC",
+    "slug": "jdbc",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jekyll",
+    "slug": "jekyll",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jest",
+    "slug": "jest",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jetty",
+    "slug": "jetty",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jinja",
+    "slug": "jinja",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jira",
+    "slug": "jira",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "jQuery",
+    "slug": "jquery",
+    "audience": "engineer"
+  },
+  {
+    "name": "jQuery CDN",
+    "slug": "jquery-cdn",
+    "audience": "engineer"
+  },
+  {
+    "name": "js-model",
+    "slug": "js-model",
+    "audience": "engineer"
+  },
+  {
+    "name": "jscoverage",
+    "slug": "jscoverage",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jsdoc",
+    "slug": "jsdoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "JSF",
+    "slug": "jsf",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jshint",
+    "slug": "jshint",
+    "audience": "engineer"
+  },
+  {
+    "name": "JSON",
+    "slug": "json",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jsonnet",
+    "slug": "jsonnet",
+    "audience": "engineer"
+  },
+  {
+    "name": "JSP",
+    "slug": "jsp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Julia",
+    "slug": "julia",
+    "audience": "engineer"
+  },
+  {
+    "name": "JUnit",
+    "slug": "junit",
+    "audience": "engineer"
+  },
+  {
+    "name": "KanbanMail",
+    "slug": "kanbanmail",
+    "audience": "engineer"
+  },
+  {
+    "name": "kdb+",
+    "slug": "kdb",
+    "audience": "engineer"
+  },
+  {
+    "name": "Knex",
+    "slug": "knex",
+    "audience": "engineer"
+  },
+  {
+    "name": "Koa",
+    "slug": "koa",
+    "audience": "engineer"
+  },
+  {
+    "name": "Kotlin",
+    "slug": "kotlin",
+    "audience": "engineer"
+  },
+  {
+    "name": "Kramdown",
+    "slug": "kramdown",
+    "audience": "engineer"
+  },
+  {
+    "name": "Kubernetes",
+    "slug": "kubernetes",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lambda Calculus",
+    "slug": "lambda-calculus",
+    "audience": "engineer"
+  },
+  {
+    "name": "Languages",
+    "slug": "languages",
+    "audience": "engineer"
+  },
+  {
+    "name": "Laravel",
+    "slug": "laravel",
+    "audience": "engineer"
+  },
+  {
+    "name": "LaTeX",
+    "slug": "latex",
+    "audience": "engineer"
+  },
+  {
+    "name": "LaTeX-Suite",
+    "slug": "latex-suite",
+    "audience": "engineer"
+  },
+  {
+    "name": "LB Stanza",
+    "slug": "lb-stanza",
+    "audience": "engineer"
+  },
+  {
+    "name": "LDPL",
+    "slug": "ldpl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lean 4",
+    "slug": "lean-4",
+    "audience": "engineer"
+  },
+  {
+    "name": "LeCoupa",
+    "slug": "lecoupa",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ledger CLI",
+    "slug": "ledger-cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "Legacy IE bugs",
+    "slug": "legacy-ie-bugs",
+    "audience": "engineer"
+  },
+  {
+    "name": "less",
+    "slug": "less",
+    "audience": "engineer"
+  },
+  {
+    "name": "Less.js",
+    "slug": "lessjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Licenses",
+    "slug": "licenses",
+    "audience": "engineer"
+  },
+  {
+    "name": "Linker script",
+    "slug": "linker-script",
+    "audience": "engineer"
+  },
+  {
+    "name": "Linux",
+    "slug": "linux",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lisp",
+    "slug": "lisp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lisp Flavoured Erlang (LFE)",
+    "slug": "lisp-flavoured-erlang-lfe",
+    "audience": "engineer"
+  },
+  {
+    "name": "LiveScript",
+    "slug": "livescript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lodash",
+    "slug": "lodash",
+    "audience": "engineer"
+  },
+  {
+    "name": "Logic",
+    "slug": "logic",
+    "audience": "engineer"
+  },
+  {
+    "name": "Logtalk",
+    "slug": "logtalk",
+    "audience": "engineer"
+  },
+  {
+    "name": "LOLCODE",
+    "slug": "lolcode",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lotus Domino",
+    "slug": "lotus-domino",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lsof",
+    "slug": "lsof",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lua",
+    "slug": "lua",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lucene",
+    "slug": "lucene",
+    "audience": "engineer"
+  },
+  {
+    "name": "M (MUMPS)",
+    "slug": "m-mumps",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mac",
+    "slug": "mac",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mac OS X",
+    "slug": "mac-os-x",
+    "audience": "engineer"
+  },
+  {
+    "name": "Machine Learning",
+    "slug": "machine-learning",
+    "audience": "engineer"
+  },
+  {
+    "name": "Machinist",
+    "slug": "machinist",
+    "audience": "engineer"
+  },
+  {
+    "name": "Macintosh",
+    "slug": "macintosh",
+    "audience": "engineer"
+  },
+  {
+    "name": "Make",
+    "slug": "make",
+    "audience": "engineer"
+  },
+  {
+    "name": "Makefile",
+    "slug": "makefile",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mako",
+    "slug": "mako",
+    "audience": "engineer"
+  },
+  {
+    "name": "MakrellPy",
+    "slug": "makrellpy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Man",
+    "slug": "man",
+    "audience": "engineer"
+  },
+  {
+    "name": "Maple",
+    "slug": "maple",
+    "audience": "engineer"
+  },
+  {
+    "name": "Markdown",
+    "slug": "markdown",
+    "audience": "engineer"
+  },
+  {
+    "name": "Math",
+    "slug": "math",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mathematica",
+    "slug": "mathematica",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mathematics",
+    "slug": "mathematics",
+    "audience": "engineer"
+  },
+  {
+    "name": "MathML",
+    "slug": "mathml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mathomatic",
+    "slug": "mathomatic",
+    "audience": "engineer"
+  },
+  {
+    "name": "MATLAB",
+    "slug": "matlab",
+    "audience": "engineer"
+  },
+  {
+    "name": "Matplotlib",
+    "slug": "matplotlib",
+    "audience": "engineer"
+  },
+  {
+    "name": "Maven",
+    "slug": "maven",
+    "audience": "engineer"
+  },
+  {
+    "name": "Maxima",
+    "slug": "maxima",
+    "audience": "engineer"
+  },
+  {
+    "name": "MediaWiki",
+    "slug": "mediawiki",
+    "audience": "engineer"
+  },
+  {
+    "name": "Meow",
+    "slug": "meow",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mercurial",
+    "slug": "mercurial",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mercury",
+    "slug": "mercury",
+    "audience": "engineer"
+  },
+  {
+    "name": "MessagePack",
+    "slug": "messagepack",
+    "audience": "engineer"
+  },
+  {
+    "name": "Meta-tags gem",
+    "slug": "meta-tags-gem",
+    "audience": "engineer"
+  },
+  {
+    "name": "MFC",
+    "slug": "mfc",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microformats",
+    "slug": "microformats",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Excel",
+    "slug": "microsoft-excel",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Microsoft Office",
+    "slug": "microsoft-office",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Microsoft Outlook",
+    "slug": "microsoft-outlook",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Microsoft Project",
+    "slug": "microsoft-project",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Project (MSP)",
+    "slug": "microsoft-project-msp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Teams",
+    "slug": "microsoft-teams",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Microsoft Visual Studio",
+    "slug": "microsoft-visual-studio",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft VS",
+    "slug": "microsoft-vs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Middleman 3",
+    "slug": "middleman-3",
+    "audience": "engineer"
+  },
+  {
+    "name": "MIME",
+    "slug": "mime",
+    "audience": "engineer"
+  },
+  {
+    "name": "MIME types",
+    "slug": "mime-types",
+    "audience": "engineer"
+  },
+  {
+    "name": "minimist",
+    "slug": "minimist",
+    "audience": "engineer"
+  },
+  {
+    "name": "MiniScript",
+    "slug": "miniscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Minitest",
+    "slug": "minitest",
+    "audience": "engineer"
+  },
+  {
+    "name": "MIPS Assembly",
+    "slug": "mips-assembly",
+    "audience": "engineer"
+  },
+  {
+    "name": "Missive",
+    "slug": "missive",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mitmproxy",
+    "slug": "mitmproxy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mixpanel",
+    "slug": "mixpanel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mobx",
+    "slug": "mobx",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mocha HTML",
+    "slug": "mocha-html",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mocha.js",
+    "slug": "mochajs",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_include",
+    "slug": "modinclude",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_perl",
+    "slug": "modperl",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_rewrite",
+    "slug": "modrewrite",
+    "audience": "engineer"
+  },
+  {
+    "name": "Modella",
+    "slug": "modella",
+    "audience": "engineer"
+  },
+  {
+    "name": "Modernizr",
+    "slug": "modernizr",
+    "audience": "engineer"
+  },
+  {
+    "name": "Moment.js",
+    "slug": "momentjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Monday.com",
+    "slug": "mondaycom",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mongo Shell",
+    "slug": "mongo-shell",
+    "audience": "engineer"
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "audience": "engineer"
+  },
+  {
+    "name": "MoonScript",
+    "slug": "moonscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "MooTools",
+    "slug": "mootools",
+    "audience": "engineer"
+  },
+  {
+    "name": "MSP",
+    "slug": "msp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mule",
+    "slug": "mule",
+    "audience": "engineer"
+  },
+  {
+    "name": "Music",
+    "slug": "music",
+    "audience": "engineer"
+  },
+  {
+    "name": "MVVM",
+    "slug": "mvvm",
+    "audience": "engineer"
+  },
+  {
+    "name": "MySQL",
+    "slug": "mysql",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nano",
+    "slug": "nano",
+    "audience": "engineer"
+  },
+  {
+    "name": "ncftp",
+    "slug": "ncftp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Neo4j",
+    "slug": "neo4j",
+    "audience": "engineer"
+  },
+  {
+    "name": "NetBeans",
+    "slug": "netbeans",
+    "audience": "engineer"
+  },
+  {
+    "name": "Netcat",
+    "slug": "netcat",
+    "audience": "engineer"
+  },
+  {
+    "name": "Netstat",
+    "slug": "netstat",
+    "audience": "engineer"
+  },
+  {
+    "name": "NetworkPorts",
+    "slug": "networkports",
+    "audience": "engineer"
+  },
+  {
+    "name": "Neural Network",
+    "slug": "neural-network",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nginx",
+    "slug": "nginx",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nim",
+    "slug": "nim",
+    "audience": "engineer"
+  },
+  {
+    "name": "niva",
+    "slug": "niva",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nix",
+    "slug": "nix",
+    "audience": "engineer"
+  },
+  {
+    "name": "NMAP",
+    "slug": "nmap",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nock",
+    "slug": "nock",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nocode",
+    "slug": "nocode",
+    "audience": "engineer"
+  },
+  {
+    "name": "Node.js",
+    "slug": "nodejs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Node.js API",
+    "slug": "nodejs-api",
+    "audience": "engineer"
+  },
+  {
+    "name": "NodeJS",
+    "slug": "nodejs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nopt",
+    "slug": "nopt",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nostos",
+    "slug": "nostos",
+    "audience": "engineer"
+  },
+  {
+    "name": "Notepad++",
+    "slug": "notepad",
+    "audience": "engineer"
+  },
+  {
+    "name": "Notes",
+    "slug": "notes",
+    "audience": "engineer"
+  },
+  {
+    "name": "Notifications",
+    "slug": "notifications",
+    "audience": "engineer"
+  },
+  {
+    "name": "npm",
+    "slug": "npm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Numbers",
+    "slug": "numbers",
+    "audience": "engineer"
+  },
+  {
+    "name": "Numpy",
+    "slug": "numpy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Objective-C",
+    "slug": "objective-c",
+    "audience": "engineer"
+  },
+  {
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "audience": "engineer"
+  },
+  {
+    "name": "OCaml",
+    "slug": "ocaml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Odin",
+    "slug": "odin",
+    "audience": "engineer"
+  },
+  {
+    "name": "Open Graph",
+    "slug": "open-graph",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenCL",
+    "slug": "opencl",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenClaw",
+    "slug": "openclaw",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenCode",
+    "slug": "opencode",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenCV",
+    "slug": "opencv",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenGL",
+    "slug": "opengl",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenMP",
+    "slug": "openmp",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenSCAD",
+    "slug": "openscad",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenSearch",
+    "slug": "opensearch",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenSSH",
+    "slug": "openssh",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenSSL",
+    "slug": "openssl",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenVZ",
+    "slug": "openvz",
+    "audience": "engineer"
+  },
+  {
+    "name": "Oracle",
+    "slug": "oracle",
+    "audience": "engineer"
+  },
+  {
+    "name": "Org Mode",
+    "slug": "org-mode",
+    "audience": "engineer"
+  },
+  {
+    "name": "org-mode",
+    "slug": "org-mode",
+    "audience": "engineer"
+  },
+  {
+    "name": "Origami Studio",
+    "slug": "origami-studio",
+    "audience": "engineer"
+  },
+  {
+    "name": "OS X",
+    "slug": "os-x",
+    "audience": "engineer"
+  },
+  {
+    "name": "OSL",
+    "slug": "osl",
+    "audience": "engineer"
+  },
+  {
+    "name": "OSPF",
+    "slug": "ospf",
+    "audience": "engineer"
+  },
+  {
+    "name": "p5.js",
+    "slug": "p5js",
+    "audience": "engineer"
+  },
+  {
+    "name": "Packs (ruby)",
+    "slug": "packs-ruby",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pacman",
+    "slug": "pacman",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pandas",
+    "slug": "pandas",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pandoc",
+    "slug": "pandoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "Paren",
+    "slug": "paren",
+    "audience": "engineer"
+  },
+  {
+    "name": "PARI/GP",
+    "slug": "parigp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Parsimmon",
+    "slug": "parsimmon",
+    "audience": "engineer"
+  },
+  {
+    "name": "Parsley.js",
+    "slug": "parsleyjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pascal",
+    "slug": "pascal",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pass",
+    "slug": "pass",
+    "audience": "engineer"
+  },
+  {
+    "name": "PCRE",
+    "slug": "pcre",
+    "audience": "engineer"
+  },
+  {
+    "name": "PDF",
+    "slug": "pdf",
+    "audience": "engineer"
+  },
+  {
+    "name": "Perforce",
+    "slug": "perforce",
+    "audience": "engineer"
+  },
+  {
+    "name": "Perl",
+    "slug": "perl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Perl-pie",
+    "slug": "perl-pie",
+    "audience": "engineer"
+  },
+  {
+    "name": "Phel",
+    "slug": "phel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Phix",
+    "slug": "phix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Phoenix 1.2",
+    "slug": "phoenix-12",
+    "audience": "engineer"
+  },
+  {
+    "name": "Photoshop",
+    "slug": "photoshop",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "PHP",
+    "slug": "php",
+    "audience": "engineer"
+  },
+  {
+    "name": "PHP Frameworks",
+    "slug": "php-frameworks",
+    "audience": "engineer"
+  },
+  {
+    "name": "PhpStorm",
+    "slug": "phpstorm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Physics",
+    "slug": "physics",
+    "audience": "engineer"
+  },
+  {
+    "name": "PlantUML",
+    "slug": "plantuml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Play Framework",
+    "slug": "play-framework",
+    "audience": "engineer"
+  },
+  {
+    "name": "PM2",
+    "slug": "pm2",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pocket",
+    "slug": "pocket",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pod",
+    "slug": "pod",
+    "audience": "engineer"
+  },
+  {
+    "name": "Polyfill.io",
+    "slug": "polyfillio",
+    "audience": "engineer"
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "audience": "engineer"
+  },
+  {
+    "name": "Postman",
+    "slug": "postman",
+    "audience": "engineer"
+  },
+  {
+    "name": "PowerShell",
+    "slug": "powershell",
+    "audience": "engineer"
+  },
+  {
+    "name": "PPP",
+    "slug": "ppp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Premailer",
+    "slug": "premailer",
+    "audience": "engineer"
+  },
+  {
+    "name": "Principle",
+    "slug": "principle",
+    "audience": "engineer"
+  },
+  {
+    "name": "Probability Theory",
+    "slug": "probability-theory",
+    "audience": "engineer"
+  },
+  {
+    "name": "process",
+    "slug": "process",
+    "audience": "engineer"
+  },
+  {
+    "name": "Processing",
+    "slug": "processing",
+    "audience": "engineer"
+  },
+  {
+    "name": "Prolog",
+    "slug": "prolog",
+    "audience": "engineer"
+  },
+  {
+    "name": "Promises",
+    "slug": "promises",
+    "audience": "engineer"
+  },
+  {
+    "name": "Proto.io",
+    "slug": "protoio",
+    "audience": "engineer"
+  },
+  {
+    "name": "Protocol Buffers",
+    "slug": "protocol-buffers",
+    "audience": "engineer"
+  },
+  {
+    "name": "Prototype",
+    "slug": "prototype",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pry",
+    "slug": "pry",
+    "audience": "engineer"
+  },
+  {
+    "name": "PSD.rb",
+    "slug": "psdrb",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pug",
+    "slug": "pug",
+    "audience": "engineer"
+  },
+  {
+    "name": "PureScript",
+    "slug": "purescript",
+    "audience": "engineer"
+  },
+  {
+    "name": "PuTTy",
+    "slug": "putty",
+    "audience": "engineer"
+  },
+  {
+    "name": "PyQt",
+    "slug": "pyqt",
+    "audience": "engineer"
+  },
+  {
+    "name": "Python",
+    "slug": "python",
+    "audience": "engineer"
+  },
+  {
+    "name": "PyTorch iconPyTorch",
+    "slug": "pytorch-iconpytorch",
+    "audience": "engineer"
+  },
+  {
+    "name": "Q#",
+    "slug": "qsharp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Q.js",
+    "slug": "qjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "QML",
+    "slug": "qml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Quarkus",
+    "slug": "quarkus",
+    "audience": "engineer"
+  },
+  {
+    "name": "QuickRef",
+    "slug": "quickref",
+    "audience": "engineer"
+  },
+  {
+    "name": "QuickRef.ME",
+    "slug": "quickrefme",
+    "audience": "engineer"
+  },
+  {
+    "name": "Quicksilver",
+    "slug": "quicksilver",
+    "audience": "engineer"
+  },
+  {
+    "name": "Quip.com",
+    "slug": "quipcom",
+    "audience": "engineer"
+  },
+  {
+    "name": "Qunit",
+    "slug": "qunit",
+    "audience": "engineer"
+  },
+  {
+    "name": "rack-test",
+    "slug": "rack-test",
+    "audience": "engineer"
+  },
+  {
+    "name": "Racket",
+    "slug": "racket",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ractive.js",
+    "slug": "ractivejs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rails",
+    "slug": "rails",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rails i18n",
+    "slug": "rails-i18n",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rake",
+    "slug": "rake",
+    "audience": "engineer"
+  },
+  {
+    "name": "Raku",
+    "slug": "raku",
+    "audience": "engineer"
+  },
+  {
+    "name": "raylib",
+    "slug": "raylib",
+    "audience": "engineer"
+  },
+  {
+    "name": "rbenv",
+    "slug": "rbenv",
+    "audience": "engineer"
+  },
+  {
+    "name": "rclone",
+    "slug": "rclone",
+    "audience": "engineer"
+  },
+  {
+    "name": "RDF",
+    "slug": "rdf",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rdoc",
+    "slug": "rdoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "React",
+    "slug": "react",
+    "audience": "engineer"
+  },
+  {
+    "name": "React.js",
+    "slug": "reactjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Reason",
+    "slug": "reason",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rebol",
+    "slug": "rebol",
+    "audience": "engineer"
+  },
+  {
+    "name": "Red",
+    "slug": "red",
+    "audience": "engineer"
+  },
+  {
+    "name": "Red Hat",
+    "slug": "red-hat",
+    "audience": "engineer"
+  },
+  {
+    "name": "Reddit",
+    "slug": "reddit",
+    "audience": "engineer"
+  },
+  {
+    "name": "Redis",
+    "slug": "redis",
+    "audience": "engineer"
+  },
+  {
+    "name": "Redux",
+    "slug": "redux",
+    "audience": "engineer"
+  },
+  {
+    "name": "RegEX",
+    "slug": "regex",
+    "audience": "engineer"
+  },
+  {
+    "name": "RegExp",
+    "slug": "regexp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Regular Expressions",
+    "slug": "regular-expressions",
+    "audience": "engineer"
+  },
+  {
+    "name": "Religion",
+    "slug": "religion",
+    "audience": "engineer"
+  },
+  {
+    "name": "rename",
+    "slug": "rename",
+    "audience": "engineer"
+  },
+  {
+    "name": "ReScript",
+    "slug": "rescript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Resolutions",
+    "slug": "resolutions",
+    "audience": "engineer"
+  },
+  {
+    "name": "REST",
+    "slug": "rest",
+    "audience": "engineer"
+  },
+  {
+    "name": "RESTful API",
+    "slug": "restful-api",
+    "audience": "engineer"
+  },
+  {
+    "name": "ReStructuredText",
+    "slug": "restructuredtext",
+    "audience": "engineer"
+  },
+  {
+    "name": "reStructuredText (RST)",
+    "slug": "restructuredtext-rst",
+    "audience": "engineer"
+  },
+  {
+    "name": "RichFaces",
+    "slug": "richfaces",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rink",
+    "slug": "rink",
+    "audience": "engineer"
+  },
+  {
+    "name": "Riot.js",
+    "slug": "riotjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "RIP",
+    "slug": "rip",
+    "audience": "engineer"
+  },
+  {
+    "name": "Roam Research",
+    "slug": "roam-research",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rollup.js",
+    "slug": "rollupjs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ronn",
+    "slug": "ronn",
+    "audience": "engineer"
+  },
+  {
+    "name": "Routes",
+    "slug": "routes",
+    "audience": "engineer"
+  },
+  {
+    "name": "rpm",
+    "slug": "rpm",
+    "audience": "engineer"
+  },
+  {
+    "name": "RSpec",
+    "slug": "rspec",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rspec-rails",
+    "slug": "rspec-rails",
+    "audience": "engineer"
+  },
+  {
+    "name": "RSS",
+    "slug": "rss",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rsync",
+    "slug": "rsync",
+    "audience": "engineer"
+  },
+  {
+    "name": "rTorrent",
+    "slug": "rtorrent",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ruby",
+    "slug": "ruby",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ruby 2.1",
+    "slug": "ruby-21",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ruby ecosystem",
+    "slug": "ruby-ecosystem",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ruby on Rails",
+    "slug": "ruby-on-rails",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rubygems",
+    "slug": "rubygems",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rust",
+    "slug": "rust",
+    "audience": "engineer"
+  },
+  {
+    "name": "SageMath",
+    "slug": "sagemath",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sandcastle",
+    "slug": "sandcastle",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sass",
+    "slug": "sass",
+    "audience": "engineer"
+  },
+  {
+    "name": "Saucelabs",
+    "slug": "saucelabs",
+    "audience": "engineer"
+  },
+  {
+    "name": "SBTI",
+    "slug": "sbti",
+    "audience": "engineer"
+  },
+  {
+    "name": "Scala",
+    "slug": "scala",
+    "audience": "engineer"
+  },
+  {
+    "name": "Scalability",
+    "slug": "scalability",
+    "audience": "engineer"
+  },
+  {
+    "name": "Scalability and High Availability",
+    "slug": "scalability-and-high-availability",
+    "audience": "engineer"
+  },
+  {
+    "name": "Scapy",
+    "slug": "scapy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Science",
+    "slug": "science",
+    "audience": "engineer"
+  },
+  {
+    "name": "scp",
+    "slug": "scp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Screen",
+    "slug": "screen",
+    "audience": "engineer"
+  },
+  {
+    "name": "SDKMAN!",
+    "slug": "sdkman",
+    "audience": "engineer"
+  },
+  {
+    "name": "Seam",
+    "slug": "seam",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sed",
+    "slug": "sed",
+    "audience": "engineer"
+  },
+  {
+    "name": "Selenium",
+    "slug": "selenium",
+    "audience": "engineer"
+  },
+  {
+    "name": "Self",
+    "slug": "self",
+    "audience": "engineer"
+  },
+  {
+    "name": "Semver",
+    "slug": "semver",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sendmail",
+    "slug": "sendmail",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sequel",
+    "slug": "sequel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sequel Pro",
+    "slug": "sequel-pro",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sequelize",
+    "slug": "sequelize",
+    "audience": "engineer"
+  },
+  {
+    "name": "ServiceMix",
+    "slug": "servicemix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Set theory",
+    "slug": "set-theory",
+    "audience": "engineer"
+  },
+  {
+    "name": "Share links",
+    "slug": "share-links",
+    "audience": "engineer"
+  },
+  {
+    "name": "Shell Script",
+    "slug": "shell-script",
+    "audience": "engineer"
+  },
+  {
+    "name": "Shell scripting",
+    "slug": "shell-scripting",
+    "audience": "engineer"
+  },
+  {
+    "name": "Shell.js",
+    "slug": "shelljs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Shopify",
+    "slug": "shopify",
+    "audience": "engineer"
+  },
+  {
+    "name": "ShutIt",
+    "slug": "shutit",
+    "audience": "engineer"
+  },
+  {
+    "name": "Siege",
+    "slug": "siege",
+    "audience": "engineer"
+  },
+  {
+    "name": "Silverlight",
+    "slug": "silverlight",
+    "audience": "engineer"
+  },
+  {
+    "name": "SimpleForm",
+    "slug": "simpleform",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sing",
+    "slug": "sing",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sinon",
+    "slug": "sinon",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sinon-chai",
+    "slug": "sinon-chai",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sketch",
+    "slug": "sketch",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "SketchUp Pro",
+    "slug": "sketchup-pro",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Skype",
+    "slug": "skype",
+    "audience": "engineer"
+  },
+  {
+    "name": "Slack",
+    "slug": "slack",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Slim",
+    "slug": "slim",
+    "audience": "engineer"
+  },
+  {
+    "name": "SmallBASIC",
+    "slug": "smallbasic",
+    "audience": "engineer"
+  },
+  {
+    "name": "Smalltalk",
+    "slug": "smalltalk",
+    "audience": "engineer"
+  },
+  {
+    "name": "Smile",
+    "slug": "smile",
+    "audience": "engineer"
+  },
+  {
+    "name": "SNOBOL",
+    "slug": "snobol",
+    "audience": "engineer"
+  },
+  {
+    "name": "Social Bookmarks",
+    "slug": "social-bookmarks",
+    "audience": "engineer"
+  },
+  {
+    "name": "Social media",
+    "slug": "social-media",
+    "audience": "engineer"
+  },
+  {
+    "name": "Socket io",
+    "slug": "socket-io",
+    "audience": "engineer"
+  },
+  {
+    "name": "Solaris",
+    "slug": "solaris",
+    "audience": "engineer"
+  },
+  {
+    "name": "Solidity",
+    "slug": "solidity",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sorbet",
+    "slug": "sorbet",
+    "audience": "engineer"
+  },
+  {
+    "name": "SoundCloud",
+    "slug": "soundcloud",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spacemacs",
+    "slug": "spacemacs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spanning Tree",
+    "slug": "spanning-tree",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spine",
+    "slug": "spine",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spotify",
+    "slug": "spotify",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spring Framework",
+    "slug": "spring-framework",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spring Roo",
+    "slug": "spring-roo",
+    "audience": "engineer"
+  },
+  {
+    "name": "SQL",
+    "slug": "sql",
+    "audience": "engineer"
+  },
+  {
+    "name": "SQL joins",
+    "slug": "sql-joins",
+    "audience": "engineer"
+  },
+  {
+    "name": "SQL Server",
+    "slug": "sql-server",
+    "audience": "engineer"
+  },
+  {
+    "name": "SQLite",
+    "slug": "sqlite",
+    "audience": "engineer"
+  },
+  {
+    "name": "SSH",
+    "slug": "ssh",
+    "audience": "engineer"
+  },
+  {
+    "name": "SSI",
+    "slug": "ssi",
+    "audience": "engineer"
+  },
+  {
+    "name": "SSL",
+    "slug": "ssl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Standard ML",
+    "slug": "standard-ml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Statistical computing with Python",
+    "slug": "statistical-computing-with-python",
+    "audience": "engineer"
+  },
+  {
+    "name": "Statistics",
+    "slug": "statistics",
+    "audience": "engineer"
+  },
+  {
+    "name": "Stencil",
+    "slug": "stencil",
+    "audience": "engineer"
+  },
+  {
+    "name": "Stylus",
+    "slug": "stylus",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sublime Text",
+    "slug": "sublime-text",
+    "audience": "engineer"
+  },
+  {
+    "name": "Superagent",
+    "slug": "superagent",
+    "audience": "engineer"
+  },
+  {
+    "name": "Superhuman",
+    "slug": "superhuman",
+    "audience": "engineer"
+  },
+  {
+    "name": "Svelte",
+    "slug": "svelte",
+    "audience": "engineer"
+  },
+  {
+    "name": "SVG",
+    "slug": "svg",
+    "audience": "engineer"
+  },
+  {
+    "name": "SVN",
+    "slug": "svn",
+    "audience": "engineer"
+  },
+  {
+    "name": "Swift",
+    "slug": "swift",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sybase",
+    "slug": "sybase",
+    "audience": "engineer"
+  },
+  {
+    "name": "Symfony",
+    "slug": "symfony",
+    "audience": "engineer"
+  },
+  {
+    "name": "Symfony2",
+    "slug": "symfony2",
+    "audience": "engineer"
+  },
+  {
+    "name": "Systemd",
+    "slug": "systemd",
+    "audience": "engineer"
+  },
+  {
+    "name": "TablePlus",
+    "slug": "tableplus",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tabular",
+    "slug": "tabular",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tailspin",
+    "slug": "tailspin",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tape",
+    "slug": "tape",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tapestry",
+    "slug": "tapestry",
+    "audience": "engineer"
+  },
+  {
+    "name": "tar",
+    "slug": "tar",
+    "audience": "engineer"
+  },
+  {
+    "name": "Taskset",
+    "slug": "taskset",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tcl",
+    "slug": "tcl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tcl/Tk",
+    "slug": "tcltk",
+    "audience": "engineer"
+  },
+  {
+    "name": "TCP",
+    "slug": "tcp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tcpdump",
+    "slug": "tcpdump",
+    "audience": "engineer"
+  },
+  {
+    "name": "tcsh",
+    "slug": "tcsh",
+    "audience": "engineer"
+  },
+  {
+    "name": "Telegram Desktop",
+    "slug": "telegram-desktop",
+    "audience": "engineer"
+  },
+  {
+    "name": "Telnet",
+    "slug": "telnet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tensorflow",
+    "slug": "tensorflow",
+    "audience": "engineer"
+  },
+  {
+    "name": "Terraform",
+    "slug": "terraform",
+    "audience": "engineer"
+  },
+  {
+    "name": "TeX",
+    "slug": "tex",
+    "audience": "engineer"
+  },
+  {
+    "name": "Texinfo",
+    "slug": "texinfo",
+    "audience": "engineer"
+  },
+  {
+    "name": "Textile",
+    "slug": "textile",
+    "audience": "engineer"
+  },
+  {
+    "name": "The only one you need",
+    "slug": "the-only-one-you-need",
+    "audience": "engineer"
+  },
+  {
+    "name": "Thunderbird",
+    "slug": "thunderbird",
+    "audience": "engineer"
+  },
+  {
+    "name": "TickTick",
+    "slug": "ticktick",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tig",
+    "slug": "tig",
+    "audience": "engineer"
+  },
+  {
+    "name": "TLDs",
+    "slug": "tlds",
+    "audience": "engineer"
+  },
+  {
+    "name": "TLS",
+    "slug": "tls",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tmux",
+    "slug": "tmux",
+    "audience": "engineer"
+  },
+  {
+    "name": "Todoist",
+    "slug": "todoist",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tomdoc",
+    "slug": "tomdoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "TOML",
+    "slug": "toml",
+    "audience": "engineer"
+  },
+  {
+    "name": "top",
+    "slug": "top",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tower",
+    "slug": "tower",
+    "audience": "engineer"
+  },
+  {
+    "name": "Transmit",
+    "slug": "transmit",
+    "audience": "engineer"
+  },
+  {
+    "name": "Travis.yml",
+    "slug": "travisyml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Trello",
+    "slug": "trello",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Trigonometry",
+    "slug": "trigonometry",
+    "audience": "engineer"
+  },
+  {
+    "name": "TTCN-3",
+    "slug": "ttcn-3",
+    "audience": "engineer"
+  },
+  {
+    "name": "Twitter",
+    "slug": "twitter",
+    "audience": "engineer"
+  },
+  {
+    "name": "TypeScript",
+    "slug": "typescript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ubuntu",
+    "slug": "ubuntu",
+    "audience": "engineer"
+  },
+  {
+    "name": "UML",
+    "slug": "uml",
+    "audience": "engineer"
+  },
+  {
+    "name": "UnderscoreJS",
+    "slug": "underscorejs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unicode",
+    "slug": "unicode",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unicode symbols",
+    "slug": "unicode-symbols",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unity 3D",
+    "slug": "unity-3d",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unity Shader Graph",
+    "slug": "unity-shader-graph",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unix",
+    "slug": "unix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unreal Engine",
+    "slug": "unreal-engine",
+    "audience": "engineer"
+  },
+  {
+    "name": "UTF",
+    "slug": "utf",
+    "audience": "engineer"
+  },
+  {
+    "name": "Uxntal",
+    "slug": "uxntal",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vaadin",
+    "slug": "vaadin",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vagrant",
+    "slug": "vagrant",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vagrantfile",
+    "slug": "vagrantfile",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vainglory",
+    "slug": "vainglory",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vala",
+    "slug": "vala",
+    "audience": "engineer"
+  },
+  {
+    "name": "VBA",
+    "slug": "vba",
+    "audience": "engineer"
+  },
+  {
+    "name": "VBScript",
+    "slug": "vbscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vcs Workflow",
+    "slug": "vcs-workflow",
+    "audience": "engineer"
+  },
+  {
+    "name": "Verilog",
+    "slug": "verilog",
+    "audience": "engineer"
+  },
+  {
+    "name": "Veritas Cluster",
+    "slug": "veritas-cluster",
+    "audience": "engineer"
+  },
+  {
+    "name": "VHDL",
+    "slug": "vhdl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vim",
+    "slug": "vim",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vim helpfiles",
+    "slug": "vim-helpfiles",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vim scripting",
+    "slug": "vim-scripting",
+    "audience": "engineer"
+  },
+  {
+    "name": "VIM-LaTeX",
+    "slug": "vim-latex",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vim-rails",
+    "slug": "vim-rails",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vim-Unite",
+    "slug": "vim-unite",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vim9 script",
+    "slug": "vim9-script",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vimdiff",
+    "slug": "vimdiff",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vimscript",
+    "slug": "vimscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Virtual-dom",
+    "slug": "virtual-dom",
+    "audience": "engineer"
+  },
+  {
+    "name": "Virtualization",
+    "slug": "virtualization",
+    "audience": "engineer"
+  },
+  {
+    "name": "Visual Basic",
+    "slug": "visual-basic",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vivaldi Browser",
+    "slug": "vivaldi-browser",
+    "audience": "engineer"
+  },
+  {
+    "name": "VLC Player",
+    "slug": "vlc-player",
+    "audience": "engineer"
+  },
+  {
+    "name": "VMware",
+    "slug": "vmware",
+    "audience": "engineer"
+  },
+  {
+    "name": "VoiceXML",
+    "slug": "voicexml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vows",
+    "slug": "vows",
+    "audience": "engineer"
+  },
+  {
+    "name": "VSCode",
+    "slug": "vscode",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vue",
+    "slug": "vue",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vue.js",
+    "slug": "vuejs",
+    "audience": "engineer"
+  },
+  {
+    "name": "vvvv",
+    "slug": "vvvv",
+    "audience": "engineer"
+  },
+  {
+    "name": "Watchexec",
+    "slug": "watchexec",
+    "audience": "engineer"
+  },
+  {
+    "name": "Watchman",
+    "slug": "watchman",
+    "audience": "engineer"
+  },
+  {
+    "name": "Web workers",
+    "slug": "web-workers",
+    "audience": "engineer"
+  },
+  {
+    "name": "WebAssembly",
+    "slug": "webassembly",
+    "audience": "engineer"
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "audience": "engineer"
+  },
+  {
+    "name": "WebGL",
+    "slug": "webgl",
+    "audience": "engineer"
+  },
+  {
+    "name": "WebMatrix",
+    "slug": "webmatrix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Webpack",
+    "slug": "webpack",
+    "audience": "engineer"
+  },
+  {
+    "name": "Website Optimization",
+    "slug": "website-optimization",
+    "audience": "engineer"
+  },
+  {
+    "name": "WebStorm",
+    "slug": "webstorm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Weechat",
+    "slug": "weechat",
+    "audience": "engineer"
+  },
+  {
+    "name": "Weinre",
+    "slug": "weinre",
+    "audience": "engineer"
+  },
+  {
+    "name": "Wicket",
+    "slug": "wicket",
+    "audience": "engineer"
+  },
+  {
+    "name": "Wikipedia",
+    "slug": "wikipedia",
+    "audience": "engineer"
+  },
+  {
+    "name": "Wikitext",
+    "slug": "wikitext",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows",
+    "slug": "windows",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows Azure",
+    "slug": "windows-azure",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows Cmd",
+    "slug": "windows-cmd",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows Communication Foundation",
+    "slug": "windows-communication-foundation",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows PowerShell",
+    "slug": "windows-powershell",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows Presentation Foundation",
+    "slug": "windows-presentation-foundation",
+    "audience": "engineer"
+  },
+  {
+    "name": "Wolfram",
+    "slug": "wolfram",
+    "audience": "engineer"
+  },
+  {
+    "name": "WordPress",
+    "slug": "wordpress",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "World of Warcraft",
+    "slug": "world-of-warcraft",
+    "audience": "engineer"
+  },
+  {
+    "name": "WS-BPEL",
+    "slug": "ws-bpel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Xcode",
+    "slug": "xcode",
+    "audience": "engineer"
+  },
+  {
+    "name": "XHTML",
+    "slug": "xhtml",
+    "audience": "engineer"
+  },
+  {
+    "name": "XML",
+    "slug": "xml",
+    "audience": "engineer"
+  },
+  {
+    "name": "XML Schema",
+    "slug": "xml-schema",
+    "audience": "engineer"
+  },
+  {
+    "name": "XPath",
+    "slug": "xpath",
+    "audience": "engineer"
+  },
+  {
+    "name": "XSL",
+    "slug": "xsl",
+    "audience": "engineer"
+  },
+  {
+    "name": "XSLT",
+    "slug": "xslt",
+    "audience": "engineer"
+  },
+  {
+    "name": "XSS",
+    "slug": "xss",
+    "audience": "engineer"
+  },
+  {
+    "name": "Yahoo",
+    "slug": "yahoo",
+    "audience": "engineer"
+  },
+  {
+    "name": "YAML",
+    "slug": "yaml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Yargs",
+    "slug": "yargs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Yarn",
+    "slug": "yarn",
+    "audience": "engineer"
+  },
+  {
+    "name": "YouTube",
+    "slug": "youtube",
+    "audience": "engineer"
+  },
+  {
+    "name": "Yum",
+    "slug": "yum",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zed",
+    "slug": "zed",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zen Coding",
+    "slug": "zen-coding",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zen Coding (Emmet)",
+    "slug": "zen-coding-emmet",
+    "audience": "engineer"
+  },
+  {
+    "name": "ZFS",
+    "slug": "zfs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zig",
+    "slug": "zig",
+    "audience": "engineer"
+  },
+  {
+    "name": "ZNC bouncer",
+    "slug": "znc-bouncer",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zombie",
+    "slug": "zombie",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zoom",
+    "slug": "zoom",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "zsh",
+    "slug": "zsh",
+    "audience": "engineer"
+  },
+  {
+    "name": "\u00e4\u00b8\u00ad\u00e6\u0096\u0087\u00e7\u0089\u0088",
+    "slug": "unknown",
+    "audience": "engineer"
+  }
+]

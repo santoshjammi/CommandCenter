@@ -1,0 +1,204 @@
+{
+  "title": "Hugo Cheat Sheet",
+  "slug": "hugo",
+  "description": "Quick reference for Hugo static site generator commands and configurations.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "hugo new site mysite",
+      "description": "Create a new Hugo site",
+      "scenario": "Create a new Hugo site",
+      "language": "bash",
+      "tags": [
+        "create",
+        "site",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hugo server -D",
+      "description": "Start the Hugo server with live reload",
+      "scenario": "Start the Hugo server with live reload",
+      "language": "bash",
+      "tags": [
+        "server",
+        "live",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hugo",
+      "description": "Build the site for production",
+      "scenario": "Build the site for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hugo new posts/my-first-post.md",
+      "description": "Create a new post",
+      "scenario": "Create a new post",
+      "language": "bash",
+      "tags": [
+        "post",
+        "create",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hugo list drafts",
+      "description": "List all drafts",
+      "scenario": "List all drafts",
+      "language": "bash",
+      "tags": [
+        "drafts",
+        "list",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hugo convert toYAML",
+      "description": "Convert content to different formats",
+      "scenario": "Convert content to different formats",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "content",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "baseURL = \"https://example.com/\"",
+      "description": "Set base URL in config file",
+      "scenario": "Set base URL in config file",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "baseURL",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "googleAnalytics = \"UA-XXXXXXXX-X\"",
+      "description": "Enable Google Analytics",
+      "scenario": "Enable Google Analytics",
+      "language": "yaml",
+      "tags": [
+        "analytics",
+        "config",
+        "tracking"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "theme = \"ananke\"",
+      "description": "Set theme for the site",
+      "scenario": "Set theme for the site",
+      "language": "yaml",
+      "tags": [
+        "theme",
+        "config",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hugo && git add . && git commit -m \"Build site\" && git push origin main",
+      "description": "Deploy to GitHub Pages",
+      "scenario": "Deploy to GitHub Pages",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "github",
+        "pages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netlify deploy --prod",
+      "description": "Deploy to Netlify",
+      "scenario": "Deploy to Netlify",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "netlify",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 sync public/ s3://your-bucket-name --delete",
+      "description": "Deploy to Amazon S3",
+      "scenario": "Deploy to Amazon S3",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "s3",
+        "aws"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hugo list themes",
+      "description": "List all installed themes",
+      "scenario": "List all installed themes",
+      "language": "bash",
+      "tags": [
+        "themes",
+        "list",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hugo new theme mytheme",
+      "description": "Create a new theme",
+      "scenario": "Create a new theme",
+      "language": "bash",
+      "tags": [
+        "theme",
+        "create",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke",
+      "description": "Use a theme from a Git repository",
+      "scenario": "Use a theme from a Git repository",
+      "language": "bash",
+      "tags": [
+        "theme",
+        "git",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

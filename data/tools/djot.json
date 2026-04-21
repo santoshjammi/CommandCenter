@@ -1,0 +1,204 @@
+{
+  "title": "Djot Cheat Sheet",
+  "slug": "djot",
+  "description": "Quick reference for Djot syntax and usage.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "**bold text**",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "bold",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*italic text*",
+      "description": "Make text italic",
+      "scenario": "Make text italic",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "italic",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "~~strikethrough~~",
+      "description": "Create a strikethrough text",
+      "scenario": "Create a strikethrough text",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "strikethrough",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n- Item 2\n- Item 3",
+      "description": "Create an unordered list",
+      "scenario": "Create an unordered list",
+      "language": "text",
+      "tags": [
+        "lists",
+        "unordered",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. First item\n2. Second item\n3. Third item",
+      "description": "Create an ordered list",
+      "scenario": "Create an ordered list",
+      "language": "text",
+      "tags": [
+        "lists",
+        "ordered",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n  - Subitem 1\n  - Subitem 2\n- Item 2",
+      "description": "Create a nested list",
+      "scenario": "Create a nested list",
+      "language": "text",
+      "tags": [
+        "lists",
+        "nested",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[link text](https://example.com)",
+      "description": "Create a hyperlink",
+      "scenario": "Create a hyperlink",
+      "language": "text",
+      "tags": [
+        "links",
+        "hyperlink",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "![alt text](https://example.com/image.jpg)",
+      "description": "Insert an image",
+      "scenario": "Insert an image",
+      "language": "text",
+      "tags": [
+        "images",
+        "insert",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[link text][1]\n\n[1]: https://example.com",
+      "description": "Create a reference-style link",
+      "scenario": "Create a reference-style link",
+      "language": "text",
+      "tags": [
+        "links",
+        "reference",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`inline code`",
+      "description": "Create an inline code block",
+      "scenario": "Create an inline code block",
+      "language": "text",
+      "tags": [
+        "code",
+        "inline",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "```\ncode block\n```",
+      "description": "Create a fenced code block",
+      "scenario": "Create a fenced code block",
+      "language": "text",
+      "tags": [
+        "code",
+        "block",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "```python\nprint(\"Hello, World!\")\n```",
+      "description": "Specify language for code block",
+      "scenario": "Specify language for code block",
+      "language": "text",
+      "tags": [
+        "code",
+        "language",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "| Header 1 | Header 2 |\n|----------|----------|\n| Cell 1   | Cell 2   |",
+      "description": "Create a simple table",
+      "scenario": "Create a simple table",
+      "language": "text",
+      "tags": [
+        "tables",
+        "simple",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "| Header 1 | Header 2 |\n|:--------:|---------:|\n| Centered | Right    |",
+      "description": "Align table columns",
+      "scenario": "Align table columns",
+      "language": "text",
+      "tags": [
+        "tables",
+        "alignment",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "| Header 1 | Header 2 |\n|----------|----------|\n| Row 1    | Data 1   |\n| Row 2    | Data 2   |",
+      "description": "Add a table with multiple rows",
+      "scenario": "Add a table with multiple rows",
+      "language": "text",
+      "tags": [
+        "tables",
+        "rows",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

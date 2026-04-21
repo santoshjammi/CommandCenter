@@ -1,0 +1,204 @@
+{
+  "title": "Zsh Cheat Sheet",
+  "slug": "zsh",
+  "description": "Essential Zsh commands and configurations for efficient shell usage.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd ~",
+      "description": "Change directory to the home directory",
+      "scenario": "Change directory to the home directory",
+      "language": "bash",
+      "tags": [
+        "change",
+        "directory",
+        "home"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pwd",
+      "description": "Display the current working directory",
+      "scenario": "Display the current working directory",
+      "language": "bash",
+      "tags": [
+        "print",
+        "working",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nano ~/.zshrc",
+      "description": "Open Zsh configuration file in nano editor",
+      "scenario": "Open Zsh configuration file in nano editor",
+      "language": "bash",
+      "tags": [
+        "edit",
+        "configuration",
+        "zshrc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "source ~/.zshrc",
+      "description": "Apply changes made in the Zsh configuration file",
+      "scenario": "Apply changes made in the Zsh configuration file",
+      "language": "bash",
+      "tags": [
+        "apply",
+        "changes",
+        "source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chsh -s $(which zsh)",
+      "description": "Set Zsh as the default shell",
+      "scenario": "Set Zsh as the default shell",
+      "language": "bash",
+      "tags": [
+        "default",
+        "shell",
+        "zsh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setopt CORRECT",
+      "description": "Enable command auto-correction",
+      "scenario": "Enable command auto-correction",
+      "language": "bash",
+      "tags": [
+        "auto-correct",
+        "commands",
+        "feature"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setopt EXTENDED_GLOB",
+      "description": "Enable extended globbing",
+      "scenario": "Enable extended globbing",
+      "language": "bash",
+      "tags": [
+        "globbing",
+        "patterns",
+        "feature"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "setopt SHARE_HISTORY",
+      "description": "Enable sharing of command history across all sessions",
+      "scenario": "Enable sharing of command history across all sessions",
+      "language": "bash",
+      "tags": [
+        "history",
+        "sessions",
+        "share"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alias la='ls -a'",
+      "description": "Create an alias for listing all files including hidden ones",
+      "scenario": "Create an alias for listing all files including hidden ones",
+      "language": "bash",
+      "tags": [
+        "alias",
+        "list",
+        "hidden"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alias back='cd -'",
+      "description": "Create an alias for navigating to the previous directory",
+      "scenario": "Create an alias for navigating to the previous directory",
+      "language": "bash",
+      "tags": [
+        "alias",
+        "navigate",
+        "previous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alias update='sudo apt update'",
+      "description": "Create an alias for updating the package list on Debian-based systems",
+      "scenario": "Create an alias for updating the package list on Debian-based systems",
+      "language": "bash",
+      "tags": [
+        "alias",
+        "update",
+        "packages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + A",
+      "description": "Move to the beginning of the line",
+      "scenario": "Move to the beginning of the line",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "navigation",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + E",
+      "description": "Move to the end of the line",
+      "scenario": "Move to the end of the line",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "navigation",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + L",
+      "description": "Clear the terminal screen",
+      "scenario": "Clear the terminal screen",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "clear",
+        "screen"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

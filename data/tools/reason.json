@@ -1,0 +1,204 @@
+{
+  "title": "ReasonML Cheat Sheet",
+  "slug": "reason",
+  "description": "Essential ReasonML syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let name = \"Reason\";",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "reason",
+      "tags": [
+        "variable",
+        "declaration",
+        "let"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let add = (x, y) => x + y;",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "reason",
+      "tags": [
+        "function",
+        "declaration",
+        "arrow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let rec sum = (list) => switch (list) { | [] => 0 | [x, ...xs] => x + sum(xs) };",
+      "description": "Pattern matching on a list",
+      "scenario": "Pattern matching on a list",
+      "language": "reason",
+      "tags": [
+        "pattern matching",
+        "list",
+        "recursion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let numbers = [1, 2, 3, 4];",
+      "description": "Define a list",
+      "scenario": "Define a list",
+      "language": "reason",
+      "tags": [
+        "list",
+        "data structure",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let person = (\"Alice\", 30);",
+      "description": "Define a tuple",
+      "scenario": "Define a tuple",
+      "language": "reason",
+      "tags": [
+        "tuple",
+        "data structure",
+        "pair"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type person = {name: string, age: int};\nlet alice = {name: \"Alice\", age: 30};",
+      "description": "Define a record",
+      "scenario": "Define a record",
+      "language": "reason",
+      "tags": [
+        "record",
+        "data structure",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module Math = { let pi = 3.14; let square = x => x * x; };",
+      "description": "Define a module",
+      "scenario": "Define a module",
+      "language": "reason",
+      "tags": [
+        "module",
+        "definition",
+        "scope"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open Math;",
+      "description": "Open a module",
+      "scenario": "Open a module",
+      "language": "reason",
+      "tags": [
+        "module",
+        "open",
+        "scope"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module Circle = { let area = r => Math.pi *. r *. r; };",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "reason",
+      "tags": [
+        "module",
+        "import",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let isEven = (x) => if (x mod 2 == 0) { true } else { false };",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "reason",
+      "tags": [
+        "if",
+        "else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let getDay = (day) => switch (day) { | 0 => \"Sunday\" | 1 => \"Monday\" | _ => \"Other\" };",
+      "description": "Switch statement",
+      "scenario": "Switch statement",
+      "language": "reason",
+      "tags": [
+        "switch",
+        "pattern matching",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i in 0 to 10) { Js.log(i); };",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "reason",
+      "tags": [
+        "for",
+        "loop",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[@bs.val] external alert : string => unit = \"alert\";",
+      "description": "External binding to JavaScript function",
+      "scenario": "External binding to JavaScript function",
+      "language": "reason",
+      "tags": [
+        "interop",
+        "javascript",
+        "external"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let greet = (name) => Js.log(\"Hello \" ++ name);",
+      "description": "Call a JavaScript function",
+      "scenario": "Call a JavaScript function",
+      "language": "reason",
+      "tags": [
+        "interop",
+        "javascript",
+        "call"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[@bs.deriving abstract] type person = {name: string, age: int};\nlet alice = person(~name=\"Alice\", ~age=30);",
+      "description": "Use JavaScript object",
+      "scenario": "Use JavaScript object",
+      "language": "reason",
+      "tags": [
+        "interop",
+        "javascript",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

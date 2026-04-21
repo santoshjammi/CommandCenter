@@ -1,0 +1,204 @@
+{
+  "title": "Goby CLI Cheat Sheet",
+  "slug": "goby",
+  "description": "Essential commands and patterns for using Goby CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "goby init my_project",
+      "description": "Initialize a new Goby project",
+      "scenario": "Initialize a new Goby project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "goby run script.gb",
+      "description": "Run a Goby script",
+      "scenario": "Run a Goby script",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "goby build",
+      "description": "Build a Goby project",
+      "scenario": "Build a Goby project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export GOBY_ENV=development",
+      "description": "Set Goby environment to development",
+      "scenario": "Set Goby environment to development",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "development",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "export GOBY_ENV=production",
+      "description": "Set Goby environment to production",
+      "scenario": "Set Goby environment to production",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "production",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo $GOBY_ENV",
+      "description": "Check current Goby environment",
+      "scenario": "Check current Goby environment",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "check",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyClass\n  def initialize\n    # initialization code\n  end\nend",
+      "description": "Define a Goby class",
+      "scenario": "Define a Goby class",
+      "language": "goby",
+      "tags": [
+        "class",
+        "define",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module MyModule\n  def my_method\n    # method code\n  end\nend",
+      "description": "Create a Goby module",
+      "scenario": "Create a Goby module",
+      "language": "goby",
+      "tags": [
+        "module",
+        "define",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin\n  # code that might raise an error\nrescue => e\n  puts e.message\nend",
+      "description": "Error handling in Goby",
+      "scenario": "Error handling in Goby",
+      "language": "goby",
+      "tags": [
+        "error",
+        "handling",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File.read('path/to/file.txt')",
+      "description": "Read a file in Goby",
+      "scenario": "Read a file in Goby",
+      "language": "goby",
+      "tags": [
+        "file",
+        "read",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File.write('path/to/file.txt', 'content')",
+      "description": "Write to a file in Goby",
+      "scenario": "Write to a file in Goby",
+      "language": "goby",
+      "tags": [
+        "file",
+        "write",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File.append('path/to/file.txt', 'more content')",
+      "description": "Append to a file in Goby",
+      "scenario": "Append to a file in Goby",
+      "language": "goby",
+      "tags": [
+        "file",
+        "append",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "goby package install package_name",
+      "description": "Install a Goby package",
+      "scenario": "Install a Goby package",
+      "language": "bash",
+      "tags": [
+        "package",
+        "install",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "goby package list",
+      "description": "List installed Goby packages",
+      "scenario": "List installed Goby packages",
+      "language": "bash",
+      "tags": [
+        "package",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "goby package remove package_name",
+      "description": "Remove a Goby package",
+      "scenario": "Remove a Goby package",
+      "language": "bash",
+      "tags": [
+        "package",
+        "remove",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

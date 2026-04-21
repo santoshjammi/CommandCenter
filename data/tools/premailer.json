@@ -1,0 +1,165 @@
+{
+  "title": "Premailer Cheat Sheet",
+  "slug": "premailer",
+  "description": "Essential commands and configurations for using Premailer CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "premailer input.html > output.html",
+      "description": "Run Premailer on a local HTML file",
+      "scenario": "Run Premailer on a local HTML file",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "cli",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer --verbose input.html > output.html",
+      "description": "Run Premailer with verbose output",
+      "scenario": "Run Premailer with verbose output",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "verbose",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer --preserve-style input.html > output.html",
+      "description": "Run Premailer and preserve the original style",
+      "scenario": "Run Premailer and preserve the original style",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "style",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer --remove-classes input.html > output.html",
+      "description": "Remove classes from the output",
+      "scenario": "Remove classes from the output",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "classes",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer --base-url http://example.com input.html > output.html",
+      "description": "Specify base URL for relative links",
+      "scenario": "Specify base URL for relative links",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "url",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer --disable-basic-attributes input.html > output.html",
+      "description": "Disable the inclusion of CSS properties",
+      "scenario": "Disable the inclusion of CSS properties",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "css",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer --css custom.css input.html > output.html",
+      "description": "Run Premailer with custom CSS file",
+      "scenario": "Run Premailer with custom CSS file",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "css",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer --line-breaks input.html > output.html",
+      "description": "Inline CSS and add line breaks",
+      "scenario": "Inline CSS and add line breaks",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "css",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer --user-agent 'Mozilla/5.0' input.html > output.html",
+      "description": "Run Premailer with a specific user agent",
+      "scenario": "Run Premailer with a specific user agent",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "user-agent",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cat input.html | premailer --remove-classes | gzip > output.html.gz",
+      "description": "Chain Premailer with other CLI tools",
+      "scenario": "Chain Premailer with other CLI tools",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "cli",
+        "chain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#!/bin/bash\npremailer input.html > output.html",
+      "description": "Use Premailer in a shell script",
+      "scenario": "Use Premailer in a shell script",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "script",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "premailer input.html > output.html && echo 'Premailer processing complete'",
+      "description": "Integrate Premailer with a build system",
+      "scenario": "Integrate Premailer with a build system",
+      "language": "bash",
+      "tags": [
+        "premailer",
+        "build",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

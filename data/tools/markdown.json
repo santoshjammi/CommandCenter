@@ -1,0 +1,204 @@
+{
+  "title": "Markdown Cheat Sheet",
+  "slug": "markdown",
+  "description": "Quick reference for Markdown syntax and usage",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "# Header 1",
+      "description": "Create a level 1 header",
+      "scenario": "Create a level 1 header",
+      "language": "text",
+      "tags": [
+        "header",
+        "title",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "## Header 2",
+      "description": "Create a level 2 header",
+      "scenario": "Create a level 2 header",
+      "language": "text",
+      "tags": [
+        "header",
+        "title",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "### Header 3",
+      "description": "Create a level 3 header",
+      "scenario": "Create a level 3 header",
+      "language": "text",
+      "tags": [
+        "header",
+        "title",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*italic* or _italic_",
+      "description": "Italicize text",
+      "scenario": "Italicize text",
+      "language": "text",
+      "tags": [
+        "italic",
+        "emphasis",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "**bold** or __bold__",
+      "description": "Bold text",
+      "scenario": "Bold text",
+      "language": "text",
+      "tags": [
+        "bold",
+        "emphasis",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "~~strikethrough~~",
+      "description": "Strikethrough text",
+      "scenario": "Strikethrough text",
+      "language": "text",
+      "tags": [
+        "strikethrough",
+        "emphasis",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n- Item 2\n- Item 3",
+      "description": "Create an unordered list",
+      "scenario": "Create an unordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "unordered",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. First item\n2. Second item\n3. Third item",
+      "description": "Create an ordered list",
+      "scenario": "Create an ordered list",
+      "language": "text",
+      "tags": [
+        "list",
+        "ordered",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n  - Subitem 1\n  - Subitem 2",
+      "description": "Create a nested list",
+      "scenario": "Create a nested list",
+      "language": "text",
+      "tags": [
+        "list",
+        "nested",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[Link text](http://example.com)",
+      "description": "Create a hyperlink",
+      "scenario": "Create a hyperlink",
+      "language": "text",
+      "tags": [
+        "link",
+        "hyperlink",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "![Alt text](image.jpg)",
+      "description": "Add an image",
+      "scenario": "Add an image",
+      "language": "text",
+      "tags": [
+        "image",
+        "embed",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[Link text][1]\n\n[1]: http://example.com",
+      "description": "Create a reference-style link",
+      "scenario": "Create a reference-style link",
+      "language": "text",
+      "tags": [
+        "link",
+        "reference",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "`inline code`",
+      "description": "Inline code",
+      "scenario": "Inline code",
+      "language": "text",
+      "tags": [
+        "code",
+        "inline",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "```\ncode block\n```",
+      "description": "Block of code",
+      "scenario": "Block of code",
+      "language": "text",
+      "tags": [
+        "code",
+        "block",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "> This is a blockquote",
+      "description": "Blockquote",
+      "scenario": "Blockquote",
+      "language": "text",
+      "tags": [
+        "quote",
+        "blockquote",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

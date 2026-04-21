@@ -1,0 +1,204 @@
+{
+  "title": "Shell.js Cheat Sheet",
+  "slug": "shelljs",
+  "description": "Essential Shell.js commands and patterns for Node.js scripting.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "shell.exec('ls -la')",
+      "description": "Execute a shell command",
+      "scenario": "Execute a shell command",
+      "language": "javascript",
+      "tags": [
+        "exec",
+        "shell",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.cd('/path/to/directory')",
+      "description": "Change the current directory",
+      "scenario": "Change the current directory",
+      "language": "javascript",
+      "tags": [
+        "cd",
+        "directory",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.cp('-R', 'source', 'destination')",
+      "description": "Copy files or directories",
+      "scenario": "Copy files or directories",
+      "language": "javascript",
+      "tags": [
+        "copy",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.mkdir('-p', '/path/to/new/dir')",
+      "description": "Create a new directory",
+      "scenario": "Create a new directory",
+      "language": "javascript",
+      "tags": [
+        "mkdir",
+        "directory",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.rm('-rf', '/path/to/remove')",
+      "description": "Remove files or directories",
+      "scenario": "Remove files or directories",
+      "language": "javascript",
+      "tags": [
+        "remove",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.mv('source', 'destination')",
+      "description": "Move files or directories",
+      "scenario": "Move files or directories",
+      "language": "javascript",
+      "tags": [
+        "move",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const path = shell.env['PATH']",
+      "description": "Get an environment variable",
+      "scenario": "Get an environment variable",
+      "language": "javascript",
+      "tags": [
+        "env",
+        "variables",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.env['NODE_ENV'] = 'production'",
+      "description": "Set an environment variable",
+      "scenario": "Set an environment variable",
+      "language": "javascript",
+      "tags": [
+        "env",
+        "variables",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.log(shell.env)",
+      "description": "List all environment variables",
+      "scenario": "List all environment variables",
+      "language": "javascript",
+      "tags": [
+        "env",
+        "variables",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (shell.exec('command').code !== 0) { shell.exit(1); }",
+      "description": "Check if a command failed",
+      "scenario": "Check if a command failed",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handling",
+        "exit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.exec('command', {silent:true}).stderr",
+      "description": "Throw an error if a command fails",
+      "scenario": "Throw an error if a command fails",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "throw",
+        "stderr"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (shell.error()) { console.error('Error occurred'); }",
+      "description": "Log error messages",
+      "scenario": "Log error messages",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "log",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.exec('command', {silent:true})",
+      "description": "Run a command silently",
+      "scenario": "Run a command silently",
+      "language": "javascript",
+      "tags": [
+        "silent",
+        "exec",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.exec('cat file.txt | grep searchTerm')",
+      "description": "Pipe commands",
+      "scenario": "Pipe commands",
+      "language": "javascript",
+      "tags": [
+        "pipe",
+        "commands",
+        "grep"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "shell.find('src').filter(function(file) { return file.match(/\\.js$/); })",
+      "description": "Find files with a pattern",
+      "scenario": "Find files with a pattern",
+      "language": "javascript",
+      "tags": [
+        "find",
+        "files",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

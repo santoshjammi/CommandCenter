@@ -1,0 +1,204 @@
+{
+  "title": "Gnome Desktop Cheat Sheet",
+  "slug": "gnome-desktop",
+  "description": "Essential commands and shortcuts for Gnome Desktop management.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "gnome-shell --replace &",
+      "description": "Restart the Gnome Shell without logging out",
+      "scenario": "Restart the Gnome Shell without logging out",
+      "language": "bash",
+      "tags": [
+        "gnome",
+        "restart",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gnome-control-center",
+      "description": "Open Gnome Control Center",
+      "scenario": "Open Gnome Control Center",
+      "language": "bash",
+      "tags": [
+        "settings",
+        "control",
+        "center"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gnome-extensions list",
+      "description": "List all Gnome Shell extensions",
+      "scenario": "List all Gnome Shell extensions",
+      "language": "bash",
+      "tags": [
+        "extensions",
+        "list",
+        "gnome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dconf-editor",
+      "description": "Edit Gnome settings using dconf",
+      "scenario": "Edit Gnome settings using dconf",
+      "language": "bash",
+      "tags": [
+        "dconf",
+        "settings",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dconf dump / > gnome-settings-backup.txt",
+      "description": "Backup Gnome settings",
+      "scenario": "Backup Gnome settings",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "dconf",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dconf load / < gnome-settings-backup.txt",
+      "description": "Restore Gnome settings from backup",
+      "scenario": "Restore Gnome settings from backup",
+      "language": "bash",
+      "tags": [
+        "restore",
+        "dconf",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Super",
+      "description": "Open Activities Overview",
+      "scenario": "Open Activities Overview",
+      "language": "text",
+      "tags": [
+        "activities",
+        "overview",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Tab",
+      "description": "Switch between windows",
+      "scenario": "Switch between windows",
+      "language": "text",
+      "tags": [
+        "switch",
+        "windows",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Super + L",
+      "description": "Lock the screen",
+      "scenario": "Lock the screen",
+      "language": "text",
+      "tags": [
+        "lock",
+        "screen",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gnome-extensions enable <extension-name>",
+      "description": "Enable a Gnome extension",
+      "scenario": "Enable a Gnome extension",
+      "language": "bash",
+      "tags": [
+        "extensions",
+        "enable",
+        "gnome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gnome-extensions disable <extension-name>",
+      "description": "Disable a Gnome extension",
+      "scenario": "Disable a Gnome extension",
+      "language": "bash",
+      "tags": [
+        "extensions",
+        "disable",
+        "gnome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gnome-extensions uninstall <extension-name>",
+      "description": "Uninstall a Gnome extension",
+      "scenario": "Uninstall a Gnome extension",
+      "language": "bash",
+      "tags": [
+        "extensions",
+        "uninstall",
+        "gnome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gnome-shell --version",
+      "description": "Check Gnome Shell version",
+      "scenario": "Check Gnome Shell version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "gnome",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "journalctl /usr/bin/gnome-shell",
+      "description": "View Gnome Shell logs",
+      "scenario": "View Gnome Shell logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "gnome",
+        "shell"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dconf reset -f /org/gnome/",
+      "description": "Reset Gnome settings to default",
+      "scenario": "Reset Gnome settings to default",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "settings",
+        "gnome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

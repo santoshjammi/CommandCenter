@@ -1,0 +1,204 @@
+{
+  "title": "Trello Cheat Sheet",
+  "slug": "trello",
+  "description": "Quick guide to using Trello efficiently with keyboard shortcuts and workflows.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo last action",
+      "scenario": "Undo last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "shortcut",
+        "keyboard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "N",
+      "description": "Create a new card",
+      "scenario": "Create a new card",
+      "language": "text",
+      "tags": [
+        "new card",
+        "shortcut",
+        "keyboard"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "E",
+      "description": "Edit selected card",
+      "scenario": "Edit selected card",
+      "language": "text",
+      "tags": [
+        "edit",
+        "card",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Board Menu > Show Menu",
+      "description": "Access board menu",
+      "scenario": "Access board menu",
+      "language": "text",
+      "tags": [
+        "menu",
+        "board",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Board Menu > Change Background",
+      "description": "Change board background",
+      "scenario": "Change board background",
+      "language": "text",
+      "tags": [
+        "background",
+        "customization",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Board Menu > More > Archived Items",
+      "description": "View archived items",
+      "scenario": "View archived items",
+      "language": "text",
+      "tags": [
+        "archive",
+        "menu",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Drag and drop the card to the desired list",
+      "description": "Move card to another list",
+      "scenario": "Move card to another list",
+      "language": "text",
+      "tags": [
+        "move",
+        "card",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the card > Due Date > Set Date",
+      "description": "Add a due date to a card",
+      "scenario": "Add a due date to a card",
+      "language": "text",
+      "tags": [
+        "due date",
+        "card",
+        "deadline"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the card > Members > Select Member",
+      "description": "Assign a member to a card",
+      "scenario": "Assign a member to a card",
+      "language": "text",
+      "tags": [
+        "assign",
+        "member",
+        "card"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click 'Add a list' and enter list name",
+      "description": "Create a new list",
+      "scenario": "Create a new list",
+      "language": "text",
+      "tags": [
+        "new list",
+        "create",
+        "board"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the list name > Edit > Enter new name",
+      "description": "Rename a list",
+      "scenario": "Rename a list",
+      "language": "text",
+      "tags": [
+        "rename",
+        "list",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click on the list menu > Archive This List",
+      "description": "Archive a list",
+      "scenario": "Archive a list",
+      "language": "text",
+      "tags": [
+        "archive",
+        "list",
+        "menu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Board Menu > More > Settings > Rename Board",
+      "description": "Rename a board",
+      "scenario": "Rename a board",
+      "language": "text",
+      "tags": [
+        "rename",
+        "board",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Board Menu > More > Close Board",
+      "description": "Close a board",
+      "scenario": "Close a board",
+      "language": "text",
+      "tags": [
+        "close",
+        "board",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Board Menu > Change Visibility > Select Option",
+      "description": "Change board visibility",
+      "scenario": "Change board visibility",
+      "language": "text",
+      "tags": [
+        "visibility",
+        "board",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

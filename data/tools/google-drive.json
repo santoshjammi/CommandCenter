@@ -1,0 +1,165 @@
+{
+  "title": "Google Drive CLI and API Cheat Sheet",
+  "slug": "google-drive",
+  "description": "Essential commands and code snippets for Google Drive API and CLI usage.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "gdrive list",
+      "description": "List files in Google Drive",
+      "scenario": "List files in Google Drive",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "gdrive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gdrive upload myfile.txt",
+      "description": "Upload a file to Google Drive",
+      "scenario": "Upload a file to Google Drive",
+      "language": "bash",
+      "tags": [
+        "upload",
+        "file",
+        "gdrive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gdrive download <file_id>",
+      "description": "Download a file from Google Drive",
+      "scenario": "Download a file from Google Drive",
+      "language": "bash",
+      "tags": [
+        "download",
+        "file",
+        "gdrive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://console.developers.google.com/apis/credentials",
+      "description": "Generate OAuth 2.0 credentials",
+      "scenario": "Generate OAuth 2.0 credentials",
+      "language": "text",
+      "tags": [
+        "oauth",
+        "credentials",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pip install --upgrade google-api-python-client",
+      "description": "Install Google Client Library for Python",
+      "scenario": "Install Google Client Library for Python",
+      "language": "bash",
+      "tags": [
+        "install",
+        "python",
+        "client"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from google_auth_oauthlib.flow import InstalledAppFlow\nflow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)\ncreds = flow.run_local_server(port=0)",
+      "description": "Authenticate using OAuth 2.0 in Python",
+      "scenario": "Authenticate using OAuth 2.0 in Python",
+      "language": "python",
+      "tags": [
+        "oauth",
+        "python",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "results = service.files().list(pageSize=10, fields=\"nextPageToken, files(id, name)\").execute()\nitems = results.get('files', [])",
+      "description": "List files using Google Drive API in Python",
+      "scenario": "List files using Google Drive API in Python",
+      "language": "python",
+      "tags": [
+        "list",
+        "files",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file_metadata = {'name': 'myfile.txt'}\nmedia = MediaFileUpload('myfile.txt', mimetype='text/plain')\nfile = service.files().create(body=file_metadata, media_body=media, fields='id').execute()",
+      "description": "Upload a file using Google Drive API in Python",
+      "scenario": "Upload a file using Google Drive API in Python",
+      "language": "python",
+      "tags": [
+        "upload",
+        "file",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "request = service.files().get_media(fileId=file_id)\nfh = io.BytesIO()\ndownloader = MediaIoBaseDownload(fh, request)\ndone = False\nwhile done is False:\n    status, done = downloader.next_chunk()",
+      "description": "Download a file using Google Drive API in Python",
+      "scenario": "Download a file using Google Drive API in Python",
+      "language": "python",
+      "tags": [
+        "download",
+        "file",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Enable Google Drive API in Google Cloud Console and create OAuth credentials.",
+      "description": "Set up Google Drive API project",
+      "scenario": "Set up Google Drive API project",
+      "language": "text",
+      "tags": [
+        "setup",
+        "api",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Implement exponential backoff strategy to handle rate limits in API requests.",
+      "description": "Handle API rate limits",
+      "scenario": "Handle API rate limits",
+      "language": "text",
+      "tags": [
+        "rate limit",
+        "api",
+        "backoff"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Create a service account in Google Cloud Console and download the JSON key file.",
+      "description": "Use service accounts for server-to-server interactions",
+      "scenario": "Use service accounts for server-to-server interactions",
+      "language": "text",
+      "tags": [
+        "service account",
+        "server",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

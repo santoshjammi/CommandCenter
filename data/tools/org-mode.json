@@ -1,0 +1,204 @@
+{
+  "title": "Org-mode Cheat Sheet",
+  "slug": "org-mode",
+  "description": "Essential commands and syntax for Emacs Org-mode.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "emacs myfile.org",
+      "description": "Open an Org-mode file",
+      "scenario": "Open an Org-mode file",
+      "language": "bash",
+      "tags": [
+        "org-mode",
+        "emacs",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-x C-s",
+      "description": "Save current buffer",
+      "scenario": "Save current buffer",
+      "language": "text",
+      "tags": [
+        "save",
+        "buffer",
+        "emacs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "M-x org-mode",
+      "description": "Switch to Org-mode in current buffer",
+      "scenario": "Switch to Org-mode in current buffer",
+      "language": "text",
+      "tags": [
+        "mode",
+        "switch",
+        "emacs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "* Heading 1",
+      "description": "Create a new heading",
+      "scenario": "Create a new heading",
+      "language": "text",
+      "tags": [
+        "heading",
+        "structure",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "M-right",
+      "description": "Demote heading",
+      "scenario": "Demote heading",
+      "language": "text",
+      "tags": [
+        "heading",
+        "demote",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "M-left",
+      "description": "Promote heading",
+      "scenario": "Promote heading",
+      "language": "text",
+      "tags": [
+        "heading",
+        "promote",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c C-t TODO",
+      "description": "Mark task as TODO",
+      "scenario": "Mark task as TODO",
+      "language": "text",
+      "tags": [
+        "task",
+        "todo",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c C-t DONE",
+      "description": "Mark task as DONE",
+      "scenario": "Mark task as DONE",
+      "language": "text",
+      "tags": [
+        "task",
+        "done",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c C-s",
+      "description": "Schedule a task",
+      "scenario": "Schedule a task",
+      "language": "text",
+      "tags": [
+        "task",
+        "schedule",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c C-l",
+      "description": "Insert a link",
+      "scenario": "Insert a link",
+      "language": "text",
+      "tags": [
+        "link",
+        "insert",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c C-o",
+      "description": "Follow a link",
+      "scenario": "Follow a link",
+      "language": "text",
+      "tags": [
+        "link",
+        "follow",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c l",
+      "description": "Store a link",
+      "scenario": "Store a link",
+      "language": "text",
+      "tags": [
+        "link",
+        "store",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c C-e h o",
+      "description": "Export to HTML",
+      "scenario": "Export to HTML",
+      "language": "text",
+      "tags": [
+        "export",
+        "html",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c C-e l p",
+      "description": "Export to PDF via LaTeX",
+      "scenario": "Export to PDF via LaTeX",
+      "language": "text",
+      "tags": [
+        "export",
+        "pdf",
+        "latex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C-c C-e t",
+      "description": "Export to plain text",
+      "scenario": "Export to plain text",
+      "language": "text",
+      "tags": [
+        "export",
+        "text",
+        "org-mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

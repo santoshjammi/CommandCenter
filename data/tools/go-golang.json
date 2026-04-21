@@ -1,0 +1,204 @@
+{
+  "title": "Go (Golang) Cheat Sheet",
+  "slug": "go-golang",
+  "description": "Essential Go (Golang) commands and syntax for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "go mod init <module-name>",
+      "description": "Initialize a new Go module",
+      "scenario": "Initialize a new Go module",
+      "language": "bash",
+      "tags": [
+        "module",
+        "init",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go run main.go",
+      "description": "Run a Go program",
+      "scenario": "Run a Go program",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go build",
+      "description": "Build a Go executable",
+      "scenario": "Build a Go executable",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "executable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go mod tidy",
+      "description": "Download dependencies",
+      "scenario": "Download dependencies",
+      "language": "bash",
+      "tags": [
+        "dependencies",
+        "modules",
+        "tidy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go list -m all",
+      "description": "List all dependencies",
+      "scenario": "List all dependencies",
+      "language": "bash",
+      "tags": [
+        "list",
+        "dependencies",
+        "modules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go get <package>@<version>",
+      "description": "Update a specific dependency",
+      "scenario": "Update a specific dependency",
+      "language": "bash",
+      "tags": [
+        "update",
+        "dependencies",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go test",
+      "description": "Run all tests in the current package",
+      "scenario": "Run all tests in the current package",
+      "language": "bash",
+      "tags": [
+        "test",
+        "unittest",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go test -v",
+      "description": "Run tests with verbose output",
+      "scenario": "Run tests with verbose output",
+      "language": "bash",
+      "tags": [
+        "test",
+        "verbose",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go test -run <pattern>",
+      "description": "Run tests with a specific pattern",
+      "scenario": "Run tests with a specific pattern",
+      "language": "bash",
+      "tags": [
+        "test",
+        "pattern",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "func add(a int, b int) int {\n    return a + b\n}",
+      "description": "Define a function in Go",
+      "scenario": "Define a function in Go",
+      "language": "go",
+      "tags": [
+        "function",
+        "define",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var name string = \"Gopher\"",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "go",
+      "tags": [
+        "variable",
+        "declare",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type Person struct {\n    Name string\n    Age  int\n}",
+      "description": "Create a struct",
+      "scenario": "Create a struct",
+      "language": "go",
+      "tags": [
+        "struct",
+        "declare",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "go func() {\n    fmt.Println(\"Hello from a goroutine\")\n}()",
+      "description": "Start a goroutine",
+      "scenario": "Start a goroutine",
+      "language": "go",
+      "tags": [
+        "goroutine",
+        "concurrency",
+        "parallel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ch := make(chan int)",
+      "description": "Create a channel",
+      "scenario": "Create a channel",
+      "language": "go",
+      "tags": [
+        "channel",
+        "concurrency",
+        "communication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ch <- 42",
+      "description": "Send a value to a channel",
+      "scenario": "Send a value to a channel",
+      "language": "go",
+      "tags": [
+        "channel",
+        "send",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

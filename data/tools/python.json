@@ -1,0 +1,204 @@
+{
+  "title": "Python Cheat Sheet",
+  "slug": "python",
+  "description": "Essential Python syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "print(\"Hello, World!\")",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "python",
+      "tags": [
+        "print",
+        "output",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def square(x):\n    return x * x",
+      "description": "Define a function that returns the square of a number",
+      "scenario": "Define a function that returns the square of a number",
+      "language": "python",
+      "tags": [
+        "function",
+        "return",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "numbers = [1, 2, 3, 4, 5]",
+      "description": "Create a list of numbers from 1 to 5",
+      "scenario": "Create a list of numbers from 1 to 5",
+      "language": "python",
+      "tags": [
+        "list",
+        "array",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 0:\n    print(\"Positive\")\nelse:\n    print(\"Non-positive\")",
+      "description": "If-else statement example",
+      "scenario": "If-else statement example",
+      "language": "python",
+      "tags": [
+        "if",
+        "else",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for num in numbers:\n    print(num)",
+      "description": "For loop iterating over a list",
+      "scenario": "For loop iterating over a list",
+      "language": "python",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while counter > 0:\n    print(counter)\n    counter -= 1",
+      "description": "While loop that decrements a counter",
+      "scenario": "While loop that decrements a counter",
+      "language": "python",
+      "tags": [
+        "while",
+        "loop",
+        "decrement"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('file.txt', 'r') as file:\n    content = file.read()",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "python",
+      "tags": [
+        "file",
+        "read",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('file.txt', 'w') as file:\n    file.write('Hello, World!')",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "python",
+      "tags": [
+        "file",
+        "write",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('file.txt', 'a') as file:\n    file.write('\\nAppended text')",
+      "description": "Append to a file",
+      "scenario": "Append to a file",
+      "language": "python",
+      "tags": [
+        "file",
+        "append",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try:\n    result = 10 / 0\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero\")",
+      "description": "Try-except block for handling exceptions",
+      "scenario": "Try-except block for handling exceptions",
+      "language": "python",
+      "tags": [
+        "try",
+        "except",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "raise ValueError(\"Invalid input\")",
+      "description": "Raise an exception with a custom message",
+      "scenario": "Raise an exception with a custom message",
+      "language": "python",
+      "tags": [
+        "raise",
+        "exception",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try:\n    result = 10 / 0\nfinally:\n    print(\"Execution complete\")",
+      "description": "Finally block that executes no matter what",
+      "scenario": "Finally block that executes no matter what",
+      "language": "python",
+      "tags": [
+        "finally",
+        "try",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import math\nresult = math.sqrt(16)",
+      "description": "Import the math library and use sqrt function",
+      "scenario": "Import the math library and use sqrt function",
+      "language": "python",
+      "tags": [
+        "math",
+        "import",
+        "sqrt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from datetime import datetime\nnow = datetime.now()",
+      "description": "Use datetime to get the current date and time",
+      "scenario": "Use datetime to get the current date and time",
+      "language": "python",
+      "tags": [
+        "datetime",
+        "import",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import requests\nresponse = requests.get('https://api.example.com')",
+      "description": "Use requests library to make a GET request",
+      "scenario": "Use requests library to make a GET request",
+      "language": "python",
+      "tags": [
+        "requests",
+        "http",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

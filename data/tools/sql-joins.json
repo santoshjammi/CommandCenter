@@ -1,0 +1,165 @@
+{
+  "title": "SQL Joins Cheat Sheet",
+  "slug": "sql-joins",
+  "description": "Quick reference for SQL join operations and syntax.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;",
+      "description": "Select records with matching values in both tables.",
+      "scenario": "Select records with matching values in both tables.",
+      "language": "sql",
+      "tags": [
+        "inner join",
+        "sql",
+        "databases"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id WHERE table1.status = 'active';",
+      "description": "Inner join with additional conditions.",
+      "scenario": "Inner join with additional conditions.",
+      "language": "sql",
+      "tags": [
+        "inner join",
+        "conditions",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT a.name, b.salary FROM employees AS a INNER JOIN salaries AS b ON a.id = b.employee_id;",
+      "description": "Using aliases in an inner join.",
+      "scenario": "Using aliases in an inner join.",
+      "language": "sql",
+      "tags": [
+        "inner join",
+        "aliases",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 LEFT JOIN table2 ON table1.id = table2.id;",
+      "description": "Select all records from the left table and matched records from the right table.",
+      "scenario": "Select all records from the left table and matched records from the right table.",
+      "language": "sql",
+      "tags": [
+        "left join",
+        "sql",
+        "databases"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 LEFT JOIN table2 ON table1.id = table2.id WHERE table2.status IS NULL;",
+      "description": "Left join with a condition on the right table.",
+      "scenario": "Left join with a condition on the right table.",
+      "language": "sql",
+      "tags": [
+        "left join",
+        "conditions",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 LEFT JOIN table2 ON table1.id = table2.id WHERE table2.id IS NULL;",
+      "description": "Using left join to find unmatched records.",
+      "scenario": "Using left join to find unmatched records.",
+      "language": "sql",
+      "tags": [
+        "left join",
+        "unmatched",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 RIGHT JOIN table2 ON table1.id = table2.id;",
+      "description": "Select all records from the right table and matched records from the left table.",
+      "scenario": "Select all records from the right table and matched records from the left table.",
+      "language": "sql",
+      "tags": [
+        "right join",
+        "sql",
+        "databases"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 RIGHT JOIN table2 ON table1.id = table2.id WHERE table1.status IS NULL;",
+      "description": "Right join with a condition on the left table.",
+      "scenario": "Right join with a condition on the left table.",
+      "language": "sql",
+      "tags": [
+        "right join",
+        "conditions",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 RIGHT JOIN table2 ON table1.id = table2.id WHERE table1.id IS NULL;",
+      "description": "Using right join to find unmatched records.",
+      "scenario": "Using right join to find unmatched records.",
+      "language": "sql",
+      "tags": [
+        "right join",
+        "unmatched",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 FULL OUTER JOIN table2 ON table1.id = table2.id;",
+      "description": "Select all records when there is a match in either left or right table records.",
+      "scenario": "Select all records when there is a match in either left or right table records.",
+      "language": "sql",
+      "tags": [
+        "full outer join",
+        "sql",
+        "databases"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 FULL OUTER JOIN table2 ON table1.id = table2.id WHERE table1.id IS NULL OR table2.id IS NULL;",
+      "description": "Full outer join to find all unmatched records.",
+      "scenario": "Full outer join to find all unmatched records.",
+      "language": "sql",
+      "tags": [
+        "full outer join",
+        "unmatched",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table1 FULL OUTER JOIN table2 ON table1.id = table2.id WHERE table1.status = 'active' OR table2.status = 'active';",
+      "description": "Full outer join with additional filtering conditions.",
+      "scenario": "Full outer join with additional filtering conditions.",
+      "language": "sql",
+      "tags": [
+        "full outer join",
+        "conditions",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "title": "HQ9+ Cheat Sheet",
+  "slug": "hq9",
+  "description": "Quick reference for HQ9+ esolang commands and behavior.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "H",
+      "description": "Print 'Hello, World!' to the console",
+      "scenario": "Print 'Hello, World!' to the console",
+      "language": "text",
+      "tags": [
+        "hello world",
+        "output",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Q",
+      "description": "Print the source code of the program",
+      "scenario": "Print the source code of the program",
+      "language": "text",
+      "tags": [
+        "quine",
+        "source code",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "9",
+      "description": "Print the lyrics to '99 Bottles of Beer'",
+      "scenario": "Print the lyrics to '99 Bottles of Beer'",
+      "language": "text",
+      "tags": [
+        "lyrics",
+        "output",
+        "song"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+",
+      "description": "Increment the accumulator",
+      "scenario": "Increment the accumulator",
+      "language": "text",
+      "tags": [
+        "increment",
+        "accumulator",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Any other character",
+      "description": "No operation, does nothing",
+      "scenario": "No operation, does nothing",
+      "language": "text",
+      "tags": [
+        "noop",
+        "ignore",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "HQ9+",
+      "description": "Combine all commands in a single program",
+      "scenario": "Combine all commands in a single program",
+      "language": "text",
+      "tags": [
+        "combine",
+        "all commands",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "H",
+      "description": "Create a simple Hello World program",
+      "scenario": "Create a simple Hello World program",
+      "language": "text",
+      "tags": [
+        "hello world",
+        "simple",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Q",
+      "description": "Write a quine program",
+      "scenario": "Write a quine program",
+      "language": "text",
+      "tags": [
+        "quine",
+        "self-replicating",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "9",
+      "description": "Generate '99 Bottles of Beer' lyrics",
+      "scenario": "Generate '99 Bottles of Beer' lyrics",
+      "language": "text",
+      "tags": [
+        "lyrics",
+        "beer",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Feedly CLI Cheat Sheet",
+  "slug": "feedly",
+  "description": "Essential CLI commands and configurations for Feedly API integration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "curl -X POST -d 'client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&grant_type=client_credentials' https://cloud.feedly.com/v3/auth/token",
+      "description": "Obtain an access token using client credentials",
+      "scenario": "Obtain an access token using client credentials",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "token",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -d 'refresh_token=YOUR_REFRESH_TOKEN&client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&grant_type=refresh_token' https://cloud.feedly.com/v3/auth/token",
+      "description": "Refresh an expired access token",
+      "scenario": "Refresh an expired access token",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "refresh",
+        "token"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -d 'token=YOUR_ACCESS_TOKEN' https://cloud.feedly.com/v3/auth/token/revoke",
+      "description": "Revoke an access token",
+      "scenario": "Revoke an access token",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "revoke",
+        "token"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H 'Authorization: OAuth YOUR_ACCESS_TOKEN' https://cloud.feedly.com/v3/categories",
+      "description": "Get a list of categories",
+      "scenario": "Get a list of categories",
+      "language": "bash",
+      "tags": [
+        "feeds",
+        "categories",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H 'Authorization: OAuth YOUR_ACCESS_TOKEN' https://cloud.feedly.com/v3/streams/contents?streamId=feed%2Fhttp%3A%2F%2Fexample.com%2Frss",
+      "description": "Fetch articles from a specific feed",
+      "scenario": "Fetch articles from a specific feed",
+      "language": "bash",
+      "tags": [
+        "feeds",
+        "articles",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H 'Authorization: OAuth YOUR_ACCESS_TOKEN' https://cloud.feedly.com/v3/markers/counts",
+      "description": "Get unread counts for all feeds",
+      "scenario": "Get unread counts for all feeds",
+      "language": "bash",
+      "tags": [
+        "feeds",
+        "unread",
+        "counts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -H 'Authorization: OAuth YOUR_ACCESS_TOKEN' -H 'Content-Type: application/json' -d '{\"id\":\"feed/http://example.com/rss\",\"title\":\"Example Feed\"}' https://cloud.feedly.com/v3/subscriptions",
+      "description": "Subscribe to a new feed",
+      "scenario": "Subscribe to a new feed",
+      "language": "bash",
+      "tags": [
+        "subscriptions",
+        "add",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X DELETE -H 'Authorization: OAuth YOUR_ACCESS_TOKEN' https://cloud.feedly.com/v3/subscriptions/feed%2Fhttp%3A%2F%2Fexample.com%2Frss",
+      "description": "Unsubscribe from a feed",
+      "scenario": "Unsubscribe from a feed",
+      "language": "bash",
+      "tags": [
+        "subscriptions",
+        "remove",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H 'Authorization: OAuth YOUR_ACCESS_TOKEN' https://cloud.feedly.com/v3/subscriptions",
+      "description": "List all subscriptions",
+      "scenario": "List all subscriptions",
+      "language": "bash",
+      "tags": [
+        "subscriptions",
+        "list",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FEEDLY_CLIENT_ID=your_client_id\nFEEDLY_CLIENT_SECRET=your_client_secret\nFEEDLY_ACCESS_TOKEN=your_access_token",
+      "description": "Set up a basic .env file for Feedly API",
+      "scenario": "Set up a basic .env file for Feedly API",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "env",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cat > ~/.feedly_curl_config <<EOL\n--header \"Authorization: OAuth YOUR_ACCESS_TOKEN\"\nEOL",
+      "description": "Configure curl for Feedly API with a config file",
+      "scenario": "Configure curl for Feedly API with a config file",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "curl",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"id\": \"feed/http://example.com/rss\",\n  \"title\": \"Example Feed\"\n}",
+      "description": "Basic JSON structure for a new subscription",
+      "scenario": "Basic JSON structure for a new subscription",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "json",
+        "subscription"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

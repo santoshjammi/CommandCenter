@@ -1,0 +1,204 @@
+{
+  "title": "CLI Cheat Sheet",
+  "slug": "cli",
+  "description": "Essential CLI commands for engineers",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -la",
+      "description": "List files in the current directory",
+      "scenario": "List files in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination/",
+      "description": "Copy a file to another location",
+      "scenario": "Copy a file to another location",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv file.txt destination/",
+      "description": "Move a file to another location",
+      "scenario": "Move a file to another location",
+      "language": "bash",
+      "tags": [
+        "move",
+        "file",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "list",
+        "running"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill 1234",
+      "description": "Kill a process by its ID",
+      "scenario": "Kill a process by its ID",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "process",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pgrep processname",
+      "description": "Find a process by name",
+      "scenario": "Find a process by name",
+      "language": "bash",
+      "tags": [
+        "find",
+        "process",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display network interfaces and IP addresses",
+      "scenario": "Display network interfaces and IP addresses",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interfaces",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 example.com",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "host",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -tuln",
+      "description": "Display current network connections",
+      "scenario": "Display current network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Display disk usage statistics",
+      "scenario": "Display disk usage statistics",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "statistics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "free -m",
+      "description": "Show memory usage",
+      "scenario": "Show memory usage",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uptime",
+      "description": "Display system uptime",
+      "scenario": "Display system uptime",
+      "language": "bash",
+      "tags": [
+        "system",
+        "uptime",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo adduser newuser",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo deluser olduser",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "passwd username",
+      "description": "Change a user's password",
+      "scenario": "Change a user's password",
+      "language": "bash",
+      "tags": [
+        "user",
+        "password",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

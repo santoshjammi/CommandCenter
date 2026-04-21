@@ -1,0 +1,204 @@
+{
+  "title": "Guitar Cheat Sheet",
+  "slug": "guitar",
+  "description": "Essential guitar commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "G",
+      "description": "Play a G major chord",
+      "scenario": "Play a G major chord",
+      "language": "text",
+      "tags": [
+        "chord",
+        "basic",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C",
+      "description": "Play a C major chord",
+      "scenario": "Play a C major chord",
+      "language": "text",
+      "tags": [
+        "chord",
+        "basic",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D",
+      "description": "Play a D major chord",
+      "scenario": "Play a D major chord",
+      "language": "text",
+      "tags": [
+        "chord",
+        "basic",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C D E F G A B C",
+      "description": "Play a C major scale",
+      "scenario": "Play a C major scale",
+      "language": "text",
+      "tags": [
+        "scale",
+        "major",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "G A B C D E F# G",
+      "description": "Play a G major scale",
+      "scenario": "Play a G major scale",
+      "language": "text",
+      "tags": [
+        "scale",
+        "major",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A B C D E F G A",
+      "description": "Play an A minor scale",
+      "scenario": "Play an A minor scale",
+      "language": "text",
+      "tags": [
+        "scale",
+        "minor",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "E A D G B e",
+      "description": "Standard tuning for guitar",
+      "scenario": "Standard tuning for guitar",
+      "language": "text",
+      "tags": [
+        "tuning",
+        "standard",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D A D G B e",
+      "description": "Drop D tuning for guitar",
+      "scenario": "Drop D tuning for guitar",
+      "language": "text",
+      "tags": [
+        "tuning",
+        "drop D",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D G D G B D",
+      "description": "Open G tuning for guitar",
+      "scenario": "Open G tuning for guitar",
+      "language": "text",
+      "tags": [
+        "tuning",
+        "open G",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D U D U D U D U",
+      "description": "Basic down-up strumming pattern",
+      "scenario": "Basic down-up strumming pattern",
+      "language": "text",
+      "tags": [
+        "strumming",
+        "pattern",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D D U U D U",
+      "description": "Down-down-up-up-down-up strumming pattern",
+      "scenario": "Down-down-up-up-down-up strumming pattern",
+      "language": "text",
+      "tags": [
+        "strumming",
+        "pattern",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "D U D U D U",
+      "description": "Down-up-down-up-down-up strumming pattern",
+      "scenario": "Down-up-down-up-down-up strumming pattern",
+      "language": "text",
+      "tags": [
+        "strumming",
+        "pattern",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P I M A M I",
+      "description": "Basic fingerpicking pattern",
+      "scenario": "Basic fingerpicking pattern",
+      "language": "text",
+      "tags": [
+        "fingerpicking",
+        "pattern",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P A M I P A M I",
+      "description": "Travis picking pattern",
+      "scenario": "Travis picking pattern",
+      "language": "text",
+      "tags": [
+        "fingerpicking",
+        "travis",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "P I M A I M",
+      "description": "Arpeggio picking pattern",
+      "scenario": "Arpeggio picking pattern",
+      "language": "text",
+      "tags": [
+        "fingerpicking",
+        "arpeggio",
+        "guitar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

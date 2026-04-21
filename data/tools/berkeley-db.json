@@ -1,0 +1,204 @@
+{
+  "title": "Berkeley DB Cheat Sheet",
+  "slug": "berkeley-db",
+  "description": "Quick reference for Berkeley DB commands and configurations.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "db_env_create(&dbenv, 0);",
+      "description": "Open a Berkeley DB environment",
+      "scenario": "Open a Berkeley DB environment",
+      "language": "c",
+      "tags": [
+        "open",
+        "environment",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->close(dbenv, 0);",
+      "description": "Close a Berkeley DB environment",
+      "scenario": "Close a Berkeley DB environment",
+      "language": "c",
+      "tags": [
+        "close",
+        "environment",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->remove(dbenv, \"./mydb\", 0);",
+      "description": "Remove a Berkeley DB environment",
+      "scenario": "Remove a Berkeley DB environment",
+      "language": "c",
+      "tags": [
+        "remove",
+        "environment",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db_create(&dbp, dbenv, 0);",
+      "description": "Open a database in Berkeley DB",
+      "scenario": "Open a database in Berkeley DB",
+      "language": "c",
+      "tags": [
+        "open",
+        "database",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbp->put(dbp, NULL, &key, &data, 0);",
+      "description": "Put a key-value pair into the database",
+      "scenario": "Put a key-value pair into the database",
+      "language": "c",
+      "tags": [
+        "put",
+        "key-value",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbp->get(dbp, NULL, &key, &data, 0);",
+      "description": "Get a value by key from the database",
+      "scenario": "Get a value by key from the database",
+      "language": "c",
+      "tags": [
+        "get",
+        "key-value",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->set_cachesize(dbenv, 0, 10485760, 1);",
+      "description": "Set cache size for the environment",
+      "scenario": "Set cache size for the environment",
+      "language": "c",
+      "tags": [
+        "cache",
+        "configuration",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->log_set_config(dbenv, DB_LOG_AUTO_REMOVE, 1);",
+      "description": "Enable logging in the environment",
+      "scenario": "Enable logging in the environment",
+      "language": "c",
+      "tags": [
+        "logging",
+        "configuration",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbp->set_flags(dbp, DB_READ_UNCOMMITTED);",
+      "description": "Configure the database for read-uncommitted isolation",
+      "scenario": "Configure the database for read-uncommitted isolation",
+      "language": "c",
+      "tags": [
+        "isolation",
+        "configuration",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "db_strerror(ret);",
+      "description": "Get error message for a return code",
+      "scenario": "Get error message for a return code",
+      "language": "c",
+      "tags": [
+        "error",
+        "message",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->set_errpfx(dbenv, \"MyDB\");",
+      "description": "Set error prefix for the environment",
+      "scenario": "Set error prefix for the environment",
+      "language": "c",
+      "tags": [
+        "error",
+        "prefix",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->set_errfile(dbenv, fopen(\"error.log\", \"w\"));",
+      "description": "Set error file for logging errors",
+      "scenario": "Set error file for logging errors",
+      "language": "c",
+      "tags": [
+        "error",
+        "logging",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dbenv->txn_begin(dbenv, NULL, &tid, 0);",
+      "description": "Begin a transaction in Berkeley DB",
+      "scenario": "Begin a transaction in Berkeley DB",
+      "language": "c",
+      "tags": [
+        "transaction",
+        "begin",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tid->commit(tid, 0);",
+      "description": "Commit a transaction",
+      "scenario": "Commit a transaction",
+      "language": "c",
+      "tags": [
+        "transaction",
+        "commit",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tid->abort(tid);",
+      "description": "Abort a transaction",
+      "scenario": "Abort a transaction",
+      "language": "c",
+      "tags": [
+        "transaction",
+        "abort",
+        "db"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Logic Cheat Sheet",
+  "slug": "logic",
+  "description": "Essential logic syntax and commands for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "A && B",
+      "description": "Logical AND operation",
+      "scenario": "Logical AND operation",
+      "language": "text",
+      "tags": [
+        "AND",
+        "boolean",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A || B",
+      "description": "Logical OR operation",
+      "scenario": "Logical OR operation",
+      "language": "text",
+      "tags": [
+        "OR",
+        "boolean",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "!A",
+      "description": "Logical NOT operation",
+      "scenario": "Logical NOT operation",
+      "language": "text",
+      "tags": [
+        "NOT",
+        "boolean",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) { /* code */ }",
+      "description": "If statement syntax",
+      "scenario": "If statement syntax",
+      "language": "javascript",
+      "tags": [
+        "if",
+        "conditional",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) { /* code */ } else { /* code */ }",
+      "description": "If-else statement syntax",
+      "scenario": "If-else statement syntax",
+      "language": "javascript",
+      "tags": [
+        "if-else",
+        "conditional",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch(expression) { case x: /* code */ break; default: /* code */ }",
+      "description": "Switch statement syntax",
+      "scenario": "Switch statement syntax",
+      "language": "javascript",
+      "tags": [
+        "switch",
+        "conditional",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (let i = 0; i < 10; i++) { /* code */ }",
+      "description": "For loop syntax",
+      "scenario": "For loop syntax",
+      "language": "javascript",
+      "tags": [
+        "for",
+        "loop",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (condition) { /* code */ }",
+      "description": "While loop syntax",
+      "scenario": "While loop syntax",
+      "language": "javascript",
+      "tags": [
+        "while",
+        "loop",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do { /* code */ } while (condition);",
+      "description": "Do-while loop syntax",
+      "scenario": "Do-while loop syntax",
+      "language": "javascript",
+      "tags": [
+        "do-while",
+        "loop",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \u222a B",
+      "description": "Union of two sets",
+      "scenario": "Union of two sets",
+      "language": "text",
+      "tags": [
+        "union",
+        "set",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \u2229 B",
+      "description": "Intersection of two sets",
+      "scenario": "Intersection of two sets",
+      "language": "text",
+      "tags": [
+        "intersection",
+        "set",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \\ B",
+      "description": "Difference of two sets",
+      "scenario": "Difference of two sets",
+      "language": "text",
+      "tags": [
+        "difference",
+        "set",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \u2192 B",
+      "description": "Implication (if A then B)",
+      "scenario": "Implication (if A then B)",
+      "language": "text",
+      "tags": [
+        "implication",
+        "propositional",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \u2194 B",
+      "description": "Biconditional (A if and only if B)",
+      "scenario": "Biconditional (A if and only if B)",
+      "language": "text",
+      "tags": [
+        "biconditional",
+        "propositional",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \u2227 \u00acA",
+      "description": "Contradiction example",
+      "scenario": "Contradiction example",
+      "language": "text",
+      "tags": [
+        "contradiction",
+        "propositional",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Encoding Cheat Sheet",
+  "slug": "encoding",
+  "description": "Quick reference for encoding and decoding operations",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "echo -n 'Hello World' | base64",
+      "description": "Encode a string to Base64",
+      "scenario": "Encode a string to Base64",
+      "language": "bash",
+      "tags": [
+        "base64",
+        "encode",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo -n 'SGVsbG8gV29ybGQ=' | base64 --decode",
+      "description": "Decode a Base64 string",
+      "scenario": "Decode a Base64 string",
+      "language": "bash",
+      "tags": [
+        "base64",
+        "decode",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import base64\nencoded = base64.b64encode(b'Hello World')\nprint(encoded)",
+      "description": "Encode a string to Base64 in Python",
+      "scenario": "Encode a string to Base64 in Python",
+      "language": "python",
+      "tags": [
+        "base64",
+        "encode",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "encodeURIComponent('Hello World!')",
+      "description": "Encode a URL component in JavaScript",
+      "scenario": "Encode a URL component in JavaScript",
+      "language": "javascript",
+      "tags": [
+        "url",
+        "encode",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "decodeURIComponent('Hello%20World%21')",
+      "description": "Decode a URL component in JavaScript",
+      "scenario": "Decode a URL component in JavaScript",
+      "language": "javascript",
+      "tags": [
+        "url",
+        "decode",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import urllib.parse\nencoded = urllib.parse.quote('Hello World!')\nprint(encoded)",
+      "description": "Encode a URL in Python",
+      "scenario": "Encode a URL in Python",
+      "language": "python",
+      "tags": [
+        "url",
+        "encode",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "encoded = 'Hello World'.encode('utf-8').hex()\nprint(encoded)",
+      "description": "Encode a string to hexadecimal in Python",
+      "scenario": "Encode a string to hexadecimal in Python",
+      "language": "python",
+      "tags": [
+        "hex",
+        "encode",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "decoded = bytes.fromhex('48656c6c6f20576f726c64').decode('utf-8')\nprint(decoded)",
+      "description": "Decode a hexadecimal string in Python",
+      "scenario": "Decode a hexadecimal string in Python",
+      "language": "python",
+      "tags": [
+        "hex",
+        "decode",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo -n 'Hello World' | xxd -p",
+      "description": "Convert a string to hexadecimal using xxd",
+      "scenario": "Convert a string to hexadecimal using xxd",
+      "language": "bash",
+      "tags": [
+        "hex",
+        "encode",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import json\njson_str = json.dumps({'key': 'value'})\nprint(json_str)",
+      "description": "Encode a Python object to JSON",
+      "scenario": "Encode a Python object to JSON",
+      "language": "python",
+      "tags": [
+        "json",
+        "encode",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import json\nobj = json.loads('{\"key\": \"value\"}')\nprint(obj)",
+      "description": "Decode a JSON string to a Python object",
+      "scenario": "Decode a JSON string to a Python object",
+      "language": "python",
+      "tags": [
+        "json",
+        "decode",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo '{\"key\":\"value\"}' | jq '.'",
+      "description": "Pretty-print a JSON string in the terminal",
+      "scenario": "Pretty-print a JSON string in the terminal",
+      "language": "bash",
+      "tags": [
+        "json",
+        "pretty-print",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "iconv -f ISO-8859-1 -t UTF-8 input.txt -o output.txt",
+      "description": "Convert a file from ISO-8859-1 to UTF-8",
+      "scenario": "Convert a file from ISO-8859-1 to UTF-8",
+      "language": "bash",
+      "tags": [
+        "character",
+        "convert",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "file -i filename.txt",
+      "description": "Check file encoding with file command",
+      "scenario": "Check file encoding with file command",
+      "language": "bash",
+      "tags": [
+        "character",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('file.txt', encoding='utf-8') as f:\n    content = f.read()",
+      "description": "Read a file with specific encoding in Python",
+      "scenario": "Read a file with specific encoding in Python",
+      "language": "python",
+      "tags": [
+        "character",
+        "read",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "title": "scp Command Cheat Sheet",
+  "slug": "scp",
+  "description": "Quick reference for using the scp command to securely copy files over SSH.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "scp /local/file.txt user@remote:/path/to/destination",
+      "description": "Copy a file from local to remote server",
+      "scenario": "Copy a file from local to remote server",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "remote",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp user@remote:/path/to/file.txt /local/destination",
+      "description": "Copy a file from remote server to local machine",
+      "scenario": "Copy a file from remote server to local machine",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "local",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp -r /local/directory user@remote:/path/to/destination",
+      "description": "Copy a directory recursively from local to remote server",
+      "scenario": "Copy a directory recursively from local to remote server",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "directory",
+        "recursive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp -P 2222 /local/file.txt user@remote:/path/to/destination",
+      "description": "Use a specific port for the connection",
+      "scenario": "Use a specific port for the connection",
+      "language": "bash",
+      "tags": [
+        "port",
+        "connection",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp -l 1000 /local/file.txt user@remote:/path/to/destination",
+      "description": "Limit the bandwidth used by scp",
+      "scenario": "Limit the bandwidth used by scp",
+      "language": "bash",
+      "tags": [
+        "bandwidth",
+        "limit",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp -p /local/file.txt user@remote:/path/to/destination",
+      "description": "Preserve file attributes during transfer",
+      "scenario": "Preserve file attributes during transfer",
+      "language": "bash",
+      "tags": [
+        "attributes",
+        "preserve",
+        "transfer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp -i /path/to/private_key /local/file.txt user@remote:/path/to/destination",
+      "description": "Use a specific identity file (private key) for authentication",
+      "scenario": "Use a specific identity file (private key) for authentication",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "key",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp -v /local/file.txt user@remote:/path/to/destination",
+      "description": "Enable verbose mode to debug connection issues",
+      "scenario": "Enable verbose mode to debug connection issues",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "debug",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "scp -A /local/file.txt user@remote:/path/to/destination",
+      "description": "Use SSH agent forwarding with scp",
+      "scenario": "Use SSH agent forwarding with scp",
+      "language": "bash",
+      "tags": [
+        "ssh",
+        "agent",
+        "forwarding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

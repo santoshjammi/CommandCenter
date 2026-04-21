@@ -1,0 +1,204 @@
+{
+  "title": "Verilog Cheat Sheet",
+  "slug": "verilog",
+  "description": "Quick reference for Verilog syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "module my_module(input a, output b);",
+      "description": "Declare a module",
+      "scenario": "Declare a module",
+      "language": "verilog",
+      "tags": [
+        "module",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "endmodule",
+      "description": "End a module",
+      "scenario": "End a module",
+      "language": "verilog",
+      "tags": [
+        "module",
+        "end",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assign b = a & c;",
+      "description": "Assign a value to a wire",
+      "scenario": "Assign a value to a wire",
+      "language": "verilog",
+      "tags": [
+        "assign",
+        "wire",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wire my_wire;",
+      "description": "Declare a wire",
+      "scenario": "Declare a wire",
+      "language": "verilog",
+      "tags": [
+        "wire",
+        "declaration",
+        "datatype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "reg my_reg;",
+      "description": "Declare a register",
+      "scenario": "Declare a register",
+      "language": "verilog",
+      "tags": [
+        "register",
+        "declaration",
+        "datatype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "parameter WIDTH = 8;",
+      "description": "Declare a parameter",
+      "scenario": "Declare a parameter",
+      "language": "verilog",
+      "tags": [
+        "parameter",
+        "declaration",
+        "datatype"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (a == 1) begin\n  // statements\nend else begin\n  // statements\nend",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "verilog",
+      "tags": [
+        "if",
+        "else",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case (state)\n  0: // statements\n  1: // statements\nendcase",
+      "description": "Case statement",
+      "scenario": "Case statement",
+      "language": "verilog",
+      "tags": [
+        "case",
+        "switch",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i = 0; i < 10; i = i + 1) begin\n  // statements\nend",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "verilog",
+      "tags": [
+        "for",
+        "loop",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "initial begin\n  // statements\nend",
+      "description": "Initialize simulation time",
+      "scenario": "Initialize simulation time",
+      "language": "verilog",
+      "tags": [
+        "initial",
+        "simulation",
+        "time"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$monitor(\"a=%b, b=%b\", a, b);",
+      "description": "Monitor signal values",
+      "scenario": "Monitor signal values",
+      "language": "verilog",
+      "tags": [
+        "monitor",
+        "simulation",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$display(\"Hello, Verilog!\");",
+      "description": "Display a message",
+      "scenario": "Display a message",
+      "language": "verilog",
+      "tags": [
+        "display",
+        "message",
+        "simulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "always @(posedge clk) begin\n  q <= d;\nend",
+      "description": "Define a flip-flop",
+      "scenario": "Define a flip-flop",
+      "language": "verilog",
+      "tags": [
+        "flip-flop",
+        "sequential",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assign y = sel ? a : b;",
+      "description": "Define a multiplexer",
+      "scenario": "Define a multiplexer",
+      "language": "verilog",
+      "tags": [
+        "multiplexer",
+        "mux",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "always @(posedge clk) begin\n  count <= count + 1;\nend",
+      "description": "Define a simple counter",
+      "scenario": "Define a simple counter",
+      "language": "verilog",
+      "tags": [
+        "counter",
+        "sequential",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

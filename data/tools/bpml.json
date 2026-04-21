@@ -1,0 +1,204 @@
+{
+  "title": "BPML Cheat Sheet",
+  "slug": "bpml",
+  "description": "A quick reference for BPML syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<process name=\"MyProcess\">...</process>",
+      "description": "Define a process",
+      "scenario": "Define a process",
+      "language": "xml",
+      "tags": [
+        "process",
+        "definition",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<start>...</start>",
+      "description": "Start a process",
+      "scenario": "Start a process",
+      "language": "xml",
+      "tags": [
+        "start",
+        "process",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<end>...</end>",
+      "description": "End a process",
+      "scenario": "End a process",
+      "language": "xml",
+      "tags": [
+        "end",
+        "process",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<sequence>...</sequence>",
+      "description": "Define a sequence",
+      "scenario": "Define a sequence",
+      "language": "xml",
+      "tags": [
+        "sequence",
+        "flow",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<choice>...</choice>",
+      "description": "Define a choice",
+      "scenario": "Define a choice",
+      "language": "xml",
+      "tags": [
+        "choice",
+        "conditional",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<loop>...</loop>",
+      "description": "Define a loop",
+      "scenario": "Define a loop",
+      "language": "xml",
+      "tags": [
+        "loop",
+        "iteration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<variable name=\"varName\" type=\"string\"/>",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "xml",
+      "tags": [
+        "variable",
+        "data",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<assign variable=\"varName\">value</assign>",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "xml",
+      "tags": [
+        "assign",
+        "variable",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<get variable=\"varName\"/>",
+      "description": "Access a variable",
+      "scenario": "Access a variable",
+      "language": "xml",
+      "tags": [
+        "access",
+        "variable",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<try>...</try>",
+      "description": "Define a try block",
+      "scenario": "Define a try block",
+      "language": "xml",
+      "tags": [
+        "try",
+        "error",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<catch>...</catch>",
+      "description": "Define a catch block",
+      "scenario": "Define a catch block",
+      "language": "xml",
+      "tags": [
+        "catch",
+        "error",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<throw>...</throw>",
+      "description": "Throw an error",
+      "scenario": "Throw an error",
+      "language": "xml",
+      "tags": [
+        "throw",
+        "error",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<invoke service=\"MyService\">...</invoke>",
+      "description": "Invoke a web service",
+      "scenario": "Invoke a web service",
+      "language": "xml",
+      "tags": [
+        "invoke",
+        "service",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<receive>...</receive>",
+      "description": "Receive a message",
+      "scenario": "Receive a message",
+      "language": "xml",
+      "tags": [
+        "receive",
+        "message",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<send>...</send>",
+      "description": "Send a message",
+      "scenario": "Send a message",
+      "language": "xml",
+      "tags": [
+        "send",
+        "message",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

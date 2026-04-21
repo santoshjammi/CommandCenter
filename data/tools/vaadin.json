@@ -1,0 +1,204 @@
+{
+  "title": "Vaadin Cheat Sheet",
+  "slug": "vaadin",
+  "description": "Quick reference for Vaadin framework commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mvn -B archetype:generate -DgroupId=com.example -DartifactId=my-app -DarchetypeArtifactId=vaadin-archetype-application",
+      "description": "Create a new Vaadin project",
+      "scenario": "Create a new Vaadin project",
+      "language": "bash",
+      "tags": [
+        "vaadin",
+        "maven",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn spring-boot:run",
+      "description": "Run the Vaadin application",
+      "scenario": "Run the Vaadin application",
+      "language": "bash",
+      "tags": [
+        "vaadin",
+        "run",
+        "spring-boot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn clean install",
+      "description": "Build the Vaadin project",
+      "scenario": "Build the Vaadin project",
+      "language": "bash",
+      "tags": [
+        "vaadin",
+        "build",
+        "maven"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Button button = new Button(\"Click me\", event -> Notification.show(\"Clicked!\"));",
+      "description": "Create a Vaadin button",
+      "scenario": "Create a Vaadin button",
+      "language": "java",
+      "tags": [
+        "vaadin",
+        "button",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "TextField textField = new TextField(\"Your name\");\nlayout.add(textField);",
+      "description": "Add a text field to a layout",
+      "scenario": "Add a text field to a layout",
+      "language": "java",
+      "tags": [
+        "vaadin",
+        "textfield",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VerticalLayout layout = new VerticalLayout();\nlayout.add(new Button(\"Button\"));",
+      "description": "Create a Vaadin vertical layout",
+      "scenario": "Create a Vaadin vertical layout",
+      "language": "java",
+      "tags": [
+        "vaadin",
+        "layout",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Binder<Person> binder = new Binder<>(Person.class);\nbinder.bind(nameField, Person::getName, Person::setName);",
+      "description": "Bind a text field to a bean property",
+      "scenario": "Bind a text field to a bean property",
+      "language": "java",
+      "tags": [
+        "vaadin",
+        "binder",
+        "databinding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UI.getCurrent().navigate(\"another-view\");",
+      "description": "Navigate to another view",
+      "scenario": "Navigate to another view",
+      "language": "java",
+      "tags": [
+        "vaadin",
+        "navigation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "button.addClickListener(e -> Notification.show(\"Button clicked!\"));",
+      "description": "Add a click listener to a button",
+      "scenario": "Add a click listener to a button",
+      "language": "java",
+      "tags": [
+        "vaadin",
+        "button",
+        "listener"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vaadin.productionMode=true",
+      "description": "Set Vaadin production mode in application.properties",
+      "scenario": "Set Vaadin production mode in application.properties",
+      "language": "text",
+      "tags": [
+        "vaadin",
+        "configuration",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Theme(value = \"mytheme\")\npublic class MainView extends VerticalLayout { }",
+      "description": "Configure a custom theme",
+      "scenario": "Configure a custom theme",
+      "language": "java",
+      "tags": [
+        "vaadin",
+        "theme",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@Push\npublic class MainView extends VerticalLayout { }",
+      "description": "Enable push support",
+      "scenario": "Enable push support",
+      "language": "java",
+      "tags": [
+        "vaadin",
+        "push",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Dvaadin.debug=true",
+      "description": "Enable Vaadin debug mode",
+      "scenario": "Enable Vaadin debug mode",
+      "language": "bash",
+      "tags": [
+        "vaadin",
+        "debug",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Dvaadin.compatibilityMode=true",
+      "description": "Set Vaadin compatibility mode",
+      "scenario": "Set Vaadin compatibility mode",
+      "language": "bash",
+      "tags": [
+        "vaadin",
+        "compatibility",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-Pproduction",
+      "description": "Specify Vaadin production mode in Maven",
+      "scenario": "Specify Vaadin production mode in Maven",
+      "language": "bash",
+      "tags": [
+        "vaadin",
+        "maven",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

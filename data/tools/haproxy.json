@@ -1,0 +1,204 @@
+{
+  "title": "HAProxy Cheat Sheet",
+  "slug": "haproxy",
+  "description": "Quick reference for HAProxy configuration and commands",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "sudo systemctl start haproxy",
+      "description": "Start HAProxy service",
+      "scenario": "Start HAProxy service",
+      "language": "bash",
+      "tags": [
+        "start",
+        "service",
+        "systemctl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl stop haproxy",
+      "description": "Stop HAProxy service",
+      "scenario": "Stop HAProxy service",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "service",
+        "systemctl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl status haproxy",
+      "description": "Check HAProxy status",
+      "scenario": "Check HAProxy status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "service",
+        "systemctl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "frontend http_front\n    bind *:80\n    default_backend servers",
+      "description": "Define a frontend in HAProxy",
+      "scenario": "Define a frontend in HAProxy",
+      "language": "yaml",
+      "tags": [
+        "frontend",
+        "configuration",
+        "bind"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "backend servers\n    server server1 192.168.1.1:80 check",
+      "description": "Define a backend in HAProxy",
+      "scenario": "Define a backend in HAProxy",
+      "language": "yaml",
+      "tags": [
+        "backend",
+        "configuration",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "balance roundrobin",
+      "description": "Set up a load balancing algorithm",
+      "scenario": "Set up a load balancing algorithm",
+      "language": "yaml",
+      "tags": [
+        "load balancing",
+        "algorithm",
+        "roundrobin"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "http-request redirect scheme https if !{ ssl_fc }",
+      "description": "Redirect HTTP to HTTPS",
+      "scenario": "Redirect HTTP to HTTPS",
+      "language": "yaml",
+      "tags": [
+        "redirect",
+        "http",
+        "https"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "maxconn 100",
+      "description": "Set maximum connections per server",
+      "scenario": "Set maximum connections per server",
+      "language": "yaml",
+      "tags": [
+        "maxconn",
+        "connections",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log 127.0.0.1 local0",
+      "description": "Enable logging in HAProxy",
+      "scenario": "Enable logging in HAProxy",
+      "language": "yaml",
+      "tags": [
+        "logging",
+        "configuration",
+        "local0"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl reload haproxy",
+      "description": "Reload HAProxy configuration without downtime",
+      "scenario": "Reload HAProxy configuration without downtime",
+      "language": "bash",
+      "tags": [
+        "reload",
+        "configuration",
+        "systemctl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl enable haproxy",
+      "description": "Enable HAProxy at startup",
+      "scenario": "Enable HAProxy at startup",
+      "language": "bash",
+      "tags": [
+        "enable",
+        "startup",
+        "systemctl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo systemctl disable haproxy",
+      "description": "Disable HAProxy at startup",
+      "scenario": "Disable HAProxy at startup",
+      "language": "bash",
+      "tags": [
+        "disable",
+        "startup",
+        "systemctl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "listen stats\n    bind *:8404\n    stats enable\n    stats uri /haproxy?stats",
+      "description": "Enable HAProxy stats page",
+      "scenario": "Enable HAProxy stats page",
+      "language": "yaml",
+      "tags": [
+        "stats",
+        "monitoring",
+        "uri"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "haproxy -v",
+      "description": "Check HAProxy version",
+      "scenario": "Check HAProxy version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "haproxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "haproxy -h",
+      "description": "Display HAProxy help",
+      "scenario": "Display HAProxy help",
+      "language": "bash",
+      "tags": [
+        "help",
+        "command",
+        "haproxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

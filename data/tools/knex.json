@@ -1,0 +1,204 @@
+{
+  "title": "Knex.js Cheat Sheet",
+  "slug": "knex",
+  "description": "Quick reference for Knex.js CLI commands and query syntax.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "npx knex init",
+      "description": "Initialize a new Knex project",
+      "scenario": "Initialize a new Knex project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx knex migrate:make migration_name",
+      "description": "Create a new migration file",
+      "scenario": "Create a new migration file",
+      "language": "bash",
+      "tags": [
+        "migration",
+        "create",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx knex migrate:latest",
+      "description": "Run all pending migrations",
+      "scenario": "Run all pending migrations",
+      "language": "bash",
+      "tags": [
+        "migrate",
+        "run",
+        "latest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knex('users').select('*')",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "javascript",
+      "tags": [
+        "select",
+        "query",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knex('users').insert({name: 'John', age: 30})",
+      "description": "Insert a new record into a table",
+      "scenario": "Insert a new record into a table",
+      "language": "javascript",
+      "tags": [
+        "insert",
+        "record",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knex('users').where('id', 1).update({name: 'Jane'})",
+      "description": "Update records in a table",
+      "scenario": "Update records in a table",
+      "language": "javascript",
+      "tags": [
+        "update",
+        "record",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const knex = require('knex')({ client: 'pg', connection: { host : '127.0.0.1', user : 'your_database_user', password : 'your_database_password', database : 'myapp_test' } });",
+      "description": "Basic configuration for a PostgreSQL database",
+      "scenario": "Basic configuration for a PostgreSQL database",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "postgresql",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const knex = require('knex')({ client: 'sqlite3', connection: { filename: './mydb.sqlite' } });",
+      "description": "Set up a SQLite3 database",
+      "scenario": "Set up a SQLite3 database",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "sqlite3",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const knex = require('knex')({ client: 'pg', connection: { host : '127.0.0.1', user : 'your_database_user', password : 'your_database_password', database : 'myapp_test' }, debug: true });",
+      "description": "Enable debug mode for queries",
+      "scenario": "Enable debug mode for queries",
+      "language": "javascript",
+      "tags": [
+        "debug",
+        "config",
+        "queries"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knex.transaction(trx => { return trx.insert({name: 'John'}).into('users').then(trx.commit).catch(trx.rollback); })",
+      "description": "Using transactions for multiple queries",
+      "scenario": "Using transactions for multiple queries",
+      "language": "javascript",
+      "tags": [
+        "transaction",
+        "queries",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knex.batchInsert('users', [{name: 'John'}, {name: 'Jane'}], 100)",
+      "description": "Batch insert records",
+      "scenario": "Batch insert records",
+      "language": "javascript",
+      "tags": [
+        "batch",
+        "insert",
+        "records"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "knex('users').join('contacts', 'users.id', '=', 'contacts.user_id').select('users.*', 'contacts.phone')",
+      "description": "Join two tables",
+      "scenario": "Join two tables",
+      "language": "javascript",
+      "tags": [
+        "join",
+        "tables",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx knex migrate:rollback",
+      "description": "Rollback the last batch of migrations",
+      "scenario": "Rollback the last batch of migrations",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "migrations",
+        "batch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx knex migrate:list",
+      "description": "List all migrations that have been run",
+      "scenario": "List all migrations that have been run",
+      "language": "bash",
+      "tags": [
+        "list",
+        "migrations",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx knex seed:make seed_name",
+      "description": "Create a new seed file",
+      "scenario": "Create a new seed file",
+      "language": "bash",
+      "tags": [
+        "seed",
+        "create",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

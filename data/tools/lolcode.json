@@ -1,0 +1,204 @@
+{
+  "title": "LOLCODE Cheat Sheet",
+  "slug": "lolcode",
+  "description": "Quick reference for LOLCODE syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "I HAS A var",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "declaration",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VISIBLE \"Hello, World!\"",
+      "description": "Print a message to the console",
+      "scenario": "Print a message to the console",
+      "language": "text",
+      "tags": [
+        "output",
+        "console",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I HAS A var ITZ 5",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "assignment",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "BOTH SAEM var AN 5, O RLY? YA RLY VISIBLE \"Equal\" NO WAI VISIBLE \"Not Equal\" OIC",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "text",
+      "tags": [
+        "control flow",
+        "conditional",
+        "if-else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IM IN YR loop UPPIN YR var TIL BOTH SAEM var AN 10 IM OUTTA YR loop",
+      "description": "Loop with a condition",
+      "scenario": "Loop with a condition",
+      "language": "text",
+      "tags": [
+        "loop",
+        "iteration",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OMG var OMGWTF VISIBLE \"Default case\" OIC",
+      "description": "Switch case statement",
+      "scenario": "Switch case statement",
+      "language": "text",
+      "tags": [
+        "control flow",
+        "switch",
+        "case"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "HOW IZ I functionName YR arg1 AN YR arg2\n    FOUND YR result\nIF U SAY SO",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "text",
+      "tags": [
+        "functions",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I IZ functionName YR arg1 AN YR arg2 MKAY",
+      "description": "Call a function",
+      "scenario": "Call a function",
+      "language": "text",
+      "tags": [
+        "functions",
+        "call",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FOUND YR result",
+      "description": "Return a value from a function",
+      "scenario": "Return a value from a function",
+      "language": "text",
+      "tags": [
+        "functions",
+        "return",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I HAS A var ITZ \"Hello\"",
+      "description": "Declare a string",
+      "scenario": "Declare a string",
+      "language": "text",
+      "tags": [
+        "data types",
+        "string",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I HAS A var ITZ 10",
+      "description": "Declare a number",
+      "scenario": "Declare a number",
+      "language": "text",
+      "tags": [
+        "data types",
+        "number",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I HAS A var ITZ WIN",
+      "description": "Declare a boolean",
+      "scenario": "Declare a boolean",
+      "language": "text",
+      "tags": [
+        "data types",
+        "boolean",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "BTW This is a comment",
+      "description": "Single line comment",
+      "scenario": "Single line comment",
+      "language": "text",
+      "tags": [
+        "comments",
+        "single line",
+        "documentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OBTW\nThis is a multi-line comment\nTLDR",
+      "description": "Multi-line comment",
+      "scenario": "Multi-line comment",
+      "language": "text",
+      "tags": [
+        "comments",
+        "multi-line",
+        "documentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VISIBLE \"Hello\" BTW This is an inline comment",
+      "description": "Inline comment",
+      "scenario": "Inline comment",
+      "language": "text",
+      "tags": [
+        "comments",
+        "inline",
+        "documentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "LaTeX Cheat Sheet",
+  "slug": "latex",
+  "description": "Quick reference for common LaTeX commands and environments.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "\\documentclass{article}\n\\begin{document}\nHello, World!\n\\end{document}",
+      "description": "Start a basic LaTeX document",
+      "scenario": "Start a basic LaTeX document",
+      "language": "latex",
+      "tags": [
+        "document",
+        "basic",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\title{My Title}\n\\author{Author Name}\n\\date{\\today}\n\\maketitle",
+      "description": "Add a title, author, and date",
+      "scenario": "Add a title, author, and date",
+      "language": "latex",
+      "tags": [
+        "title",
+        "author",
+        "date"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\section{Main Section}\n\\subsection{Subsection}",
+      "description": "Create a section with a subsection",
+      "scenario": "Create a section with a subsection",
+      "language": "latex",
+      "tags": [
+        "section",
+        "subsection",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\textbf{Bold Text}",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "latex",
+      "tags": [
+        "text",
+        "bold",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\textit{Italic Text}",
+      "description": "Italicize text",
+      "scenario": "Italicize text",
+      "language": "latex",
+      "tags": [
+        "text",
+        "italic",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\underline{Underlined Text}",
+      "description": "Underline text",
+      "scenario": "Underline text",
+      "language": "latex",
+      "tags": [
+        "text",
+        "underline",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{itemize}\n  \\item First item\n  \\item Second item\n\\end{itemize}",
+      "description": "Create an itemized list",
+      "scenario": "Create an itemized list",
+      "language": "latex",
+      "tags": [
+        "list",
+        "itemize",
+        "bullets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{enumerate}\n  \\item First item\n  \\item Second item\n\\end{enumerate}",
+      "description": "Create an enumerated list",
+      "scenario": "Create an enumerated list",
+      "language": "latex",
+      "tags": [
+        "list",
+        "enumerate",
+        "numbered"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{description}\n  \\item[First] Description of first item\n  \\item[Second] Description of second item\n\\end{description}",
+      "description": "Create a description list",
+      "scenario": "Create a description list",
+      "language": "latex",
+      "tags": [
+        "list",
+        "description",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$a^2 + b^2 = c^2$",
+      "description": "Inline math mode",
+      "scenario": "Inline math mode",
+      "language": "latex",
+      "tags": [
+        "math",
+        "inline",
+        "equation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\[ a^2 + b^2 = c^2 \\]",
+      "description": "Display math mode",
+      "scenario": "Display math mode",
+      "language": "latex",
+      "tags": [
+        "math",
+        "display",
+        "equation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{align}\n  a + b &= c \\\\\n  d + e &= f\n\\end{align}",
+      "description": "Align equations",
+      "scenario": "Align equations",
+      "language": "latex",
+      "tags": [
+        "math",
+        "align",
+        "equations"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{tabular}{|c|c|}\n\\hline\nCell 1 & Cell 2 \\\\\n\\hline\nCell 3 & Cell 4 \\\\\n\\hline\n\\end{tabular}",
+      "description": "Create a simple table",
+      "scenario": "Create a simple table",
+      "language": "latex",
+      "tags": [
+        "table",
+        "simple",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{table}\n\\centering\n\\begin{tabular}{|c|c|}\n\\hline\nCell 1 & Cell 2 \\\\\n\\hline\nCell 3 & Cell 4 \\\\\n\\hline\n\\end{tabular}\n\\caption{Sample Table}\n\\end{table}",
+      "description": "Add a caption to a table",
+      "scenario": "Add a caption to a table",
+      "language": "latex",
+      "tags": [
+        "table",
+        "caption",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\begin{tabular}{|c|c|}\n\\hline\n\\multicolumn{2}{|c|}{Merged Cell} \\\\\n\\hline\nCell 3 & Cell 4 \\\\\n\\hline\n\\end{tabular}",
+      "description": "Merge cells horizontally",
+      "scenario": "Merge cells horizontally",
+      "language": "latex",
+      "tags": [
+        "table",
+        "merge",
+        "cells"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

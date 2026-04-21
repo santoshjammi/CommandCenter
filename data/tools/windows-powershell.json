@@ -1,0 +1,204 @@
+{
+  "title": "Windows PowerShell Cheat Sheet",
+  "slug": "windows-powershell",
+  "description": "Essential PowerShell commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "Get-ChildItem",
+      "description": "List all files and directories in the current directory",
+      "scenario": "List all files and directories in the current directory",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directories"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-Location",
+      "description": "Display the current directory path",
+      "scenario": "Display the current directory path",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "path",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Copy-Item -Path 'source.txt' -Destination 'C:\\destination\\'",
+      "description": "Copy a file from one location to another",
+      "scenario": "Copy a file from one location to another",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "destination"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-ComputerInfo",
+      "description": "Get system information about the computer",
+      "scenario": "Get system information about the computer",
+      "language": "bash",
+      "tags": [
+        "system",
+        "information",
+        "computer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-Service -Name 'wuauserv'",
+      "description": "Check the status of a service",
+      "scenario": "Check the status of a service",
+      "language": "bash",
+      "tags": [
+        "service",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-Process",
+      "description": "List all running processes",
+      "scenario": "List all running processes",
+      "language": "bash",
+      "tags": [
+        "process",
+        "running",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "New-LocalUser -Name 'NewUser' -Description 'New User Account'",
+      "description": "Create a new local user account",
+      "scenario": "Create a new local user account",
+      "language": "bash",
+      "tags": [
+        "user",
+        "create",
+        "account"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Add-LocalGroupMember -Group 'Administrators' -Member 'NewUser'",
+      "description": "Add a user to a group",
+      "scenario": "Add a user to a group",
+      "language": "bash",
+      "tags": [
+        "user",
+        "group",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Remove-LocalUser -Name 'OldUser'",
+      "description": "Remove a user account",
+      "scenario": "Remove a user account",
+      "language": "bash",
+      "tags": [
+        "user",
+        "remove",
+        "account"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Remove-Item -Path 'C:\\path\\to\\file.txt'",
+      "description": "Delete a file",
+      "scenario": "Delete a file",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "file",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Move-Item -Path 'C:\\source\\file.txt' -Destination 'C:\\destination\\'",
+      "description": "Move a file to a new location",
+      "scenario": "Move a file to a new location",
+      "language": "bash",
+      "tags": [
+        "move",
+        "file",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rename-Item -Path 'C:\\path\\to\\file.txt' -NewName 'newfile.txt'",
+      "description": "Rename a file",
+      "scenario": "Rename a file",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "file",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Get-NetIPConfiguration",
+      "description": "Display network configuration details",
+      "scenario": "Display network configuration details",
+      "language": "bash",
+      "tags": [
+        "network",
+        "configuration",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Test-Connection -ComputerName 'google.com'",
+      "description": "Test network connectivity to a host",
+      "scenario": "Test network connectivity to a host",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connectivity",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(Get-NetIPAddress).IPAddress",
+      "description": "Get the IP address of the local machine",
+      "scenario": "Get the IP address of the local machine",
+      "language": "bash",
+      "tags": [
+        "ip",
+        "address",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

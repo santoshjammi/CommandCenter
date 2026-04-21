@@ -1,0 +1,165 @@
+{
+  "title": "Flashlight CLI Cheat Sheet",
+  "slug": "flashlight",
+  "description": "Essential commands and syntax for using Flashlight CLI efficiently.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "flashlight init myProject",
+      "description": "Initialize a new Flashlight project",
+      "scenario": "Initialize a new Flashlight project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight start",
+      "description": "Start the Flashlight server",
+      "scenario": "Start the Flashlight server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight stop",
+      "description": "Stop the Flashlight server",
+      "scenario": "Stop the Flashlight server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight config set --path /path/to/config",
+      "description": "Set the configuration file path",
+      "scenario": "Set the configuration file path",
+      "language": "bash",
+      "tags": [
+        "config",
+        "path",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight config view",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight config reset",
+      "description": "Reset configuration to default",
+      "scenario": "Reset configuration to default",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight projects list",
+      "description": "List all projects",
+      "scenario": "List all projects",
+      "language": "bash",
+      "tags": [
+        "projects",
+        "list",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight projects delete myProject",
+      "description": "Delete a specific project",
+      "scenario": "Delete a specific project",
+      "language": "bash",
+      "tags": [
+        "projects",
+        "delete",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight projects rename oldName newName",
+      "description": "Rename a project",
+      "scenario": "Rename a project",
+      "language": "bash",
+      "tags": [
+        "projects",
+        "rename",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight logs view",
+      "description": "View server logs",
+      "scenario": "View server logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "view",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight logs clear",
+      "description": "Clear all logs",
+      "scenario": "Clear all logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "clear",
+        "reset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "flashlight debug enable",
+      "description": "Enable debug mode",
+      "scenario": "Enable debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "enable",
+        "mode"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

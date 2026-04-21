@@ -1,0 +1,165 @@
+{
+  "title": "Code House Cheat Sheet",
+  "slug": "code-house",
+  "description": "Essential commands and snippets for Code House CLI and configuration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "codehouse init my-project",
+      "description": "Initialize a new Code House project",
+      "scenario": "Initialize a new Code House project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse add component MyComponent",
+      "description": "Add a new component to the project",
+      "scenario": "Add a new component to the project",
+      "language": "bash",
+      "tags": [
+        "add",
+        "component",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse build",
+      "description": "Build the current project",
+      "scenario": "Build the current project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "project:\n  name: MyProject",
+      "description": "Set the project name in configuration",
+      "scenario": "Set the project name in configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "project",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "env:\n  NODE_ENV: production\n  API_URL: https://api.example.com",
+      "description": "Define environment variables",
+      "scenario": "Define environment variables",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "env",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "build:\n  output: dist\n  minify: true",
+      "description": "Specify build options",
+      "scenario": "Specify build options",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "build",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse test",
+      "description": "Run tests for the project",
+      "scenario": "Run tests for the project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse deploy --env staging",
+      "description": "Deploy the project to a staging environment",
+      "scenario": "Deploy the project to a staging environment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "staging",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse help",
+      "description": "List all available commands and options",
+      "scenario": "List all available commands and options",
+      "language": "bash",
+      "tags": [
+        "help",
+        "cli",
+        "commands"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse add service MyService",
+      "description": "Pattern for creating a new service",
+      "scenario": "Pattern for creating a new service",
+      "language": "bash",
+      "tags": [
+        "service",
+        "pattern",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse remove component MyComponent",
+      "description": "Pattern for removing a component",
+      "scenario": "Pattern for removing a component",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "component",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse update dependencies",
+      "description": "Pattern for updating dependencies",
+      "scenario": "Pattern for updating dependencies",
+      "language": "bash",
+      "tags": [
+        "update",
+        "dependencies",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

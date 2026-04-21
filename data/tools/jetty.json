@@ -1,0 +1,165 @@
+{
+  "title": "Jetty Cheat Sheet",
+  "slug": "jetty",
+  "description": "Essential Jetty commands and configuration snippets for engineers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "java -jar start.jar",
+      "description": "Start Jetty server",
+      "scenario": "Start Jetty server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "java -jar stop.jar",
+      "description": "Stop Jetty server",
+      "scenario": "Stop Jetty server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "server",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl http://localhost:8080/status",
+      "description": "Check Jetty server status",
+      "scenario": "Check Jetty server status",
+      "language": "bash",
+      "tags": [
+        "status",
+        "server",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Set name=\"port\">8080</Set>",
+      "description": "Configure Jetty port",
+      "scenario": "Configure Jetty port",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "port",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Configure id=\"sslContextFactory\" class=\"org.eclipse.jetty.util.ssl.SslContextFactory\">...</Configure>",
+      "description": "Enable SSL in Jetty",
+      "scenario": "Enable SSL in Jetty",
+      "language": "xml",
+      "tags": [
+        "ssl",
+        "configuration",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Set name=\"maxThreads\">200</Set>",
+      "description": "Set Jetty thread pool size",
+      "scenario": "Set Jetty thread pool size",
+      "language": "xml",
+      "tags": [
+        "threads",
+        "configuration",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp myapp.war $JETTY_HOME/webapps/",
+      "description": "Deploy a WAR file to Jetty",
+      "scenario": "Deploy a WAR file to Jetty",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "war",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rm $JETTY_HOME/webapps/myapp.war",
+      "description": "Undeploy a WAR file from Jetty",
+      "scenario": "Undeploy a WAR file from Jetty",
+      "language": "bash",
+      "tags": [
+        "undeploy",
+        "war",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "touch $JETTY_HOME/webapps/myapp.war",
+      "description": "Reload Jetty web application",
+      "scenario": "Reload Jetty web application",
+      "language": "bash",
+      "tags": [
+        "reload",
+        "war",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Set name=\"level\">INFO</Set>",
+      "description": "Configure Jetty logging level",
+      "scenario": "Configure Jetty logging level",
+      "language": "xml",
+      "tags": [
+        "logging",
+        "configuration",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tail -f $JETTY_HOME/logs/jetty.log",
+      "description": "View Jetty logs",
+      "scenario": "View Jetty logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "view",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<New id=\"RequestLog\" class=\"org.eclipse.jetty.server.NCSARequestLog\">...</New>",
+      "description": "Rotate Jetty logs",
+      "scenario": "Rotate Jetty logs",
+      "language": "xml",
+      "tags": [
+        "logs",
+        "rotate",
+        "jetty"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

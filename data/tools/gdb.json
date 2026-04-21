@@ -1,0 +1,204 @@
+{
+  "title": "GDB Cheat Sheet",
+  "slug": "gdb",
+  "description": "Essential GDB commands for debugging C/C++ programs",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "gdb ./my_program",
+      "description": "Start GDB with an executable",
+      "scenario": "Start GDB with an executable",
+      "language": "bash",
+      "tags": [
+        "start",
+        "executable",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "run",
+      "description": "Run the program inside GDB",
+      "scenario": "Run the program inside GDB",
+      "language": "text",
+      "tags": [
+        "run",
+        "execute",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "quit",
+      "description": "Quit GDB",
+      "scenario": "Quit GDB",
+      "language": "text",
+      "tags": [
+        "exit",
+        "quit",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "break main",
+      "description": "Set a breakpoint at the beginning of main function",
+      "scenario": "Set a breakpoint at the beginning of main function",
+      "language": "text",
+      "tags": [
+        "breakpoint",
+        "main",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "break 42",
+      "description": "Set a breakpoint at a specific line number",
+      "scenario": "Set a breakpoint at a specific line number",
+      "language": "text",
+      "tags": [
+        "breakpoint",
+        "line",
+        "specific"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "delete",
+      "description": "Delete all breakpoints",
+      "scenario": "Delete all breakpoints",
+      "language": "text",
+      "tags": [
+        "breakpoint",
+        "delete",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "print variable_name",
+      "description": "Print the value of a variable",
+      "scenario": "Print the value of a variable",
+      "language": "text",
+      "tags": [
+        "inspect",
+        "variable",
+        "print"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list",
+      "description": "List source code around the current line",
+      "scenario": "List source code around the current line",
+      "language": "text",
+      "tags": [
+        "source",
+        "code",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "backtrace",
+      "description": "Display the current call stack",
+      "scenario": "Display the current call stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "trace",
+        "call"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "continue",
+      "description": "Continue running the program until the next breakpoint",
+      "scenario": "Continue running the program until the next breakpoint",
+      "language": "text",
+      "tags": [
+        "continue",
+        "breakpoint",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "step",
+      "description": "Step through the program line by line",
+      "scenario": "Step through the program line by line",
+      "language": "text",
+      "tags": [
+        "step",
+        "line",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "next",
+      "description": "Advance to the next line in the current function",
+      "scenario": "Advance to the next line in the current function",
+      "language": "text",
+      "tags": [
+        "next",
+        "line",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watch variable_name",
+      "description": "Watch a variable for changes",
+      "scenario": "Watch a variable for changes",
+      "language": "text",
+      "tags": [
+        "watch",
+        "variable",
+        "changes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "attach 1234",
+      "description": "Attach GDB to a running process by PID",
+      "scenario": "Attach GDB to a running process by PID",
+      "language": "text",
+      "tags": [
+        "attach",
+        "process",
+        "pid"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set variable variable_name = value",
+      "description": "Change the value of a variable",
+      "scenario": "Change the value of a variable",
+      "language": "text",
+      "tags": [
+        "set",
+        "variable",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

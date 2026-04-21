@@ -1,0 +1,204 @@
+{
+  "title": "Processing",
+  "slug": "processing",
+  "description": "Quick reference for Processing language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "line(30, 20, 85, 75);",
+      "description": "Draw a line from point (30, 20) to (85, 75).",
+      "scenario": "Draw a line from point (30, 20) to (85, 75).",
+      "language": "javascript",
+      "tags": [
+        "drawing",
+        "line",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rect(30, 20, 55, 55);",
+      "description": "Draw a rectangle at (30, 20) with width 55 and height 55.",
+      "scenario": "Draw a rectangle at (30, 20) with width 55 and height 55.",
+      "language": "javascript",
+      "tags": [
+        "drawing",
+        "rectangle",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ellipse(50, 50, 80, 80);",
+      "description": "Draw an ellipse at (50, 50) with width 80 and height 80.",
+      "scenario": "Draw an ellipse at (50, 50) with width 80 and height 80.",
+      "language": "javascript",
+      "tags": [
+        "drawing",
+        "ellipse",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fill(255, 0, 0);",
+      "description": "Set the fill color to red.",
+      "scenario": "Set the fill color to red.",
+      "language": "javascript",
+      "tags": [
+        "color",
+        "fill",
+        "red"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stroke(0, 0, 255);",
+      "description": "Set the stroke color to blue.",
+      "scenario": "Set the stroke color to blue.",
+      "language": "javascript",
+      "tags": [
+        "color",
+        "stroke",
+        "blue"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "noStroke();",
+      "description": "Disable the stroke for shapes.",
+      "scenario": "Disable the stroke for shapes.",
+      "language": "javascript",
+      "tags": [
+        "color",
+        "stroke",
+        "disable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (int i = 0; i < 10; i++) {\n  // code to execute\n}",
+      "description": "Create a for loop that iterates 10 times.",
+      "scenario": "Create a for loop that iterates 10 times.",
+      "language": "javascript",
+      "tags": [
+        "control",
+        "loop",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (variable > 10) {\n  // code to execute\n}",
+      "description": "Use an if statement to check if a variable is greater than 10.",
+      "scenario": "Use an if statement to check if a variable is greater than 10.",
+      "language": "javascript",
+      "tags": [
+        "control",
+        "conditional",
+        "if"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while (condition) {\n  // code to execute\n}",
+      "description": "Create a while loop that runs while a condition is true.",
+      "scenario": "Create a while loop that runs while a condition is true.",
+      "language": "javascript",
+      "tags": [
+        "control",
+        "loop",
+        "while"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int square(int n) {\n  return n * n;\n}",
+      "description": "Define a function that returns the square of a number.",
+      "scenario": "Define a function that returns the square of a number.",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "define",
+        "square"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "drawCircle();",
+      "description": "Call a function named 'drawCircle'.",
+      "scenario": "Call a function named 'drawCircle'.",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "call",
+        "circle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void myFunction() {\n  // code to execute\n}",
+      "description": "Create a function with no return value.",
+      "scenario": "Create a function with no return value.",
+      "language": "javascript",
+      "tags": [
+        "function",
+        "void",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void mousePressed() {\n  // code to execute\n}",
+      "description": "Execute code when the mouse is pressed.",
+      "scenario": "Execute code when the mouse is pressed.",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "mouse",
+        "pressed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void keyPressed() {\n  // code to execute\n}",
+      "description": "Execute code when a key is pressed.",
+      "scenario": "Execute code when a key is pressed.",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "key",
+        "pressed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void draw() {\n  // code to execute\n}",
+      "description": "Execute code continuously while the program is running.",
+      "scenario": "Execute code continuously while the program is running.",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "draw",
+        "continuous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

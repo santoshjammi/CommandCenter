@@ -1,0 +1,204 @@
+{
+  "title": "vvvv Cheat Sheet",
+  "slug": "vvvv",
+  "description": "Quick reference for vvvv CLI commands and code patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "vvvv.exe /gui",
+      "description": "Start vvvv in GUI mode",
+      "scenario": "Start vvvv in GUI mode",
+      "language": "bash",
+      "tags": [
+        "start",
+        "gui",
+        "vvvv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vvvv.exe /o myPatch.v4p",
+      "description": "Start vvvv in a specific patch",
+      "scenario": "Start vvvv in a specific patch",
+      "language": "bash",
+      "tags": [
+        "start",
+        "patch",
+        "vvvv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vvvv.exe /fullscreen",
+      "description": "Run vvvv in fullscreen mode",
+      "scenario": "Run vvvv in fullscreen mode",
+      "language": "bash",
+      "tags": [
+        "fullscreen",
+        "vvvv",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Renderer> <Type>DirectX11</Type> </Renderer>",
+      "description": "Set default renderer to DirectX 11",
+      "scenario": "Set default renderer to DirectX 11",
+      "language": "xml",
+      "tags": [
+        "config",
+        "renderer",
+        "directx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<PluginPath> C:\\vvvv\\plugins </PluginPath>",
+      "description": "Configure vvvv to use a specific plugin path",
+      "scenario": "Configure vvvv to use a specific plugin path",
+      "language": "xml",
+      "tags": [
+        "config",
+        "plugin",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Logging> <Enabled>true</Enabled> </Logging>",
+      "description": "Enable logging for debugging",
+      "scenario": "Enable logging for debugging",
+      "language": "xml",
+      "tags": [
+        "logging",
+        "debug",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Node> <Type>Add</Type> <Input>5</Input> <Input>3</Input> </Node>",
+      "description": "Create a simple arithmetic operation node",
+      "scenario": "Create a simple arithmetic operation node",
+      "language": "xml",
+      "tags": [
+        "node",
+        "arithmetic",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Node> <Type>Conditional</Type> <Condition>Input1 > Input2</Condition> </Node>",
+      "description": "Define a conditional node",
+      "scenario": "Define a conditional node",
+      "language": "xml",
+      "tags": [
+        "node",
+        "conditional",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Node> <Type>Transform</Type> <Translate>X:10 Y:20</Translate> </Node>",
+      "description": "Setup a transformation node",
+      "scenario": "Setup a transformation node",
+      "language": "xml",
+      "tags": [
+        "node",
+        "transform",
+        "translate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vvvv.exe /nologo",
+      "description": "Run vvvv without opening the startup patch",
+      "scenario": "Run vvvv without opening the startup patch",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "startup",
+        "nologo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vvvv.exe /noerror",
+      "description": "Suppress all error dialogs",
+      "scenario": "Suppress all error dialogs",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "error",
+        "suppress"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vvvv.exe /lang en-US",
+      "description": "Force vvvv to use a specific language",
+      "scenario": "Force vvvv to use a specific language",
+      "language": "bash",
+      "tags": [
+        "flag",
+        "language",
+        "force"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vvvv.exe /reset",
+      "description": "Reset vvvv settings to default",
+      "scenario": "Reset vvvv settings to default",
+      "language": "bash",
+      "tags": [
+        "reset",
+        "settings",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vvvv.exe /version",
+      "description": "Check vvvv version",
+      "scenario": "Check vvvv version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "vvvv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vvvv.exe /safe",
+      "description": "Run vvvv in safe mode",
+      "scenario": "Run vvvv in safe mode",
+      "language": "bash",
+      "tags": [
+        "safe mode",
+        "troubleshoot",
+        "vvvv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

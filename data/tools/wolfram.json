@@ -1,0 +1,204 @@
+{
+  "title": "Wolfram Language Cheat Sheet",
+  "slug": "wolfram",
+  "description": "Quick reference for Wolfram Language syntax and commands",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "2 + 3",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "wolfram",
+      "tags": [
+        "arithmetic",
+        "addition",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "4 * 5",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "wolfram",
+      "tags": [
+        "arithmetic",
+        "multiplication",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "10 / 2",
+      "description": "Divide two numbers",
+      "scenario": "Divide two numbers",
+      "language": "wolfram",
+      "tags": [
+        "arithmetic",
+        "division",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{1, 2, 3, 4, 5}",
+      "description": "Create a list of numbers",
+      "scenario": "Create a list of numbers",
+      "language": "wolfram",
+      "tags": [
+        "list",
+        "create",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "list[[1]]",
+      "description": "Access the first element of a list",
+      "scenario": "Access the first element of a list",
+      "language": "wolfram",
+      "tags": [
+        "list",
+        "access",
+        "index"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Append[list, 6]",
+      "description": "Append an element to a list",
+      "scenario": "Append an element to a list",
+      "language": "wolfram",
+      "tags": [
+        "list",
+        "append",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f[x_] := x^2",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "wolfram",
+      "tags": [
+        "function",
+        "define",
+        "square"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f /@ {1, 2, 3}",
+      "description": "Apply a function to a list",
+      "scenario": "Apply a function to a list",
+      "language": "wolfram",
+      "tags": [
+        "function",
+        "apply",
+        "map"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "factorial[n_] := n * factorial[n - 1] /; n > 1; factorial[1] = 1;",
+      "description": "Define a recursive function",
+      "scenario": "Define a recursive function",
+      "language": "wolfram",
+      "tags": [
+        "function",
+        "recursive",
+        "factorial"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Plot[Sin[x], {x, 0, 2*Pi}]",
+      "description": "Plot a simple function",
+      "scenario": "Plot a simple function",
+      "language": "wolfram",
+      "tags": [
+        "plot",
+        "graph",
+        "visualization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Plot[{Sin[x], Cos[x]}, {x, 0, 2*Pi}]",
+      "description": "Plot multiple functions",
+      "scenario": "Plot multiple functions",
+      "language": "wolfram",
+      "tags": [
+        "plot",
+        "multiple",
+        "graph"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Plot[Sin[x], {x, 0, 2*Pi}, AxesLabel -> {\"x\", \"Sin[x]\"}]",
+      "description": "Add labels to a plot",
+      "scenario": "Add labels to a plot",
+      "language": "wolfram",
+      "tags": [
+        "plot",
+        "label",
+        "axes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{1, 2}, {3, 4}}",
+      "description": "Create a matrix",
+      "scenario": "Create a matrix",
+      "language": "wolfram",
+      "tags": [
+        "matrix",
+        "create",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{{1, 2}, {3, 4}} . {{5, 6}, {7, 8}}",
+      "description": "Matrix multiplication",
+      "scenario": "Matrix multiplication",
+      "language": "wolfram",
+      "tags": [
+        "matrix",
+        "multiplication",
+        "dot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Transpose[{{1, 2}, {3, 4}}]",
+      "description": "Transpose a matrix",
+      "scenario": "Transpose a matrix",
+      "language": "wolfram",
+      "tags": [
+        "matrix",
+        "transpose",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

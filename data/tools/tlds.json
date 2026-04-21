@@ -1,0 +1,165 @@
+{
+  "title": "Top-Level Domains (TLDs) Cheat Sheet",
+  "slug": "tlds",
+  "description": "Quick reference for managing and querying top-level domains.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": ".com",
+      "description": "Identify the TLD for commercial entities",
+      "scenario": "Identify the TLD for commercial entities",
+      "language": "text",
+      "tags": [
+        "tld",
+        "commercial",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".net",
+      "description": "Identify the TLD for network organizations",
+      "scenario": "Identify the TLD for network organizations",
+      "language": "text",
+      "tags": [
+        "tld",
+        "network",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".edu",
+      "description": "Identify the TLD for educational institutions",
+      "scenario": "Identify the TLD for educational institutions",
+      "language": "text",
+      "tags": [
+        "tld",
+        "education",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".uk",
+      "description": "Identify the TLD for the United Kingdom",
+      "scenario": "Identify the TLD for the United Kingdom",
+      "language": "text",
+      "tags": [
+        "tld",
+        "country",
+        "uk"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".de",
+      "description": "Identify the TLD for Germany",
+      "scenario": "Identify the TLD for Germany",
+      "language": "text",
+      "tags": [
+        "tld",
+        "country",
+        "germany"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".ca",
+      "description": "Identify the TLD for Canada",
+      "scenario": "Identify the TLD for Canada",
+      "language": "text",
+      "tags": [
+        "tld",
+        "country",
+        "canada"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "whois example.com",
+      "description": "Use WHOIS to query domain information",
+      "scenario": "Use WHOIS to query domain information",
+      "language": "bash",
+      "tags": [
+        "whois",
+        "domain",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dig example.com",
+      "description": "Check DNS records for a domain",
+      "scenario": "Check DNS records for a domain",
+      "language": "bash",
+      "tags": [
+        "dns",
+        "dig",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping example.com",
+      "description": "Ping a domain to check its reachability",
+      "scenario": "Ping a domain to check its reachability",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "domain",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "namecheap-cli register example.com",
+      "description": "Register a domain using Namecheap CLI",
+      "scenario": "Register a domain using Namecheap CLI",
+      "language": "bash",
+      "tags": [
+        "namecheap",
+        "domain",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "godaddy domains available example.com",
+      "description": "Check domain availability using GoDaddy CLI",
+      "scenario": "Check domain availability using GoDaddy CLI",
+      "language": "bash",
+      "tags": [
+        "godaddy",
+        "domain",
+        "availability"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transfer-domain example.com",
+      "description": "Transfer a domain to another registrar",
+      "scenario": "Transfer a domain to another registrar",
+      "language": "bash",
+      "tags": [
+        "transfer",
+        "domain",
+        "registrar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

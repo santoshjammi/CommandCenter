@@ -1,0 +1,165 @@
+{
+  "title": "Spring Roo Cheat Sheet",
+  "slug": "spring-roo",
+  "description": "Quick reference for Spring Roo CLI commands and configurations.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "roo create project --topLevelPackage com.example.project",
+      "description": "Create a new Spring Roo project",
+      "scenario": "Create a new Spring Roo project",
+      "language": "bash",
+      "tags": [
+        "create",
+        "project",
+        "spring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "roo entity jpa --class ~.domain.EntityName",
+      "description": "Add a new entity to the project",
+      "scenario": "Add a new entity to the project",
+      "language": "bash",
+      "tags": [
+        "entity",
+        "jpa",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "roo",
+      "description": "Start the Roo shell",
+      "scenario": "Start the Roo shell",
+      "language": "bash",
+      "tags": [
+        "shell",
+        "start",
+        "roo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "database configure --database MYSQL --hostName localhost --databaseName mydb --userName root --password password",
+      "description": "Configure a MySQL database",
+      "scenario": "Configure a MySQL database",
+      "language": "bash",
+      "tags": [
+        "database",
+        "mysql",
+        "configure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "database driver list",
+      "description": "List all database drivers",
+      "scenario": "List all database drivers",
+      "language": "bash",
+      "tags": [
+        "database",
+        "drivers",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "database driver install --driverName H2",
+      "description": "Install a specific database driver",
+      "scenario": "Install a specific database driver",
+      "language": "bash",
+      "tags": [
+        "database",
+        "driver",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "web mvc controller --entity ~.domain.EntityName",
+      "description": "Generate a new controller for an entity",
+      "scenario": "Generate a new controller for an entity",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "controller",
+        "mvc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "service --entity ~.domain.EntityName",
+      "description": "Generate a service for an entity",
+      "scenario": "Generate a service for an entity",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "service",
+        "entity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "repository jpa --entity ~.domain.EntityName",
+      "description": "Generate a repository for an entity",
+      "scenario": "Generate a repository for an entity",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "repository",
+        "jpa"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dependency add --groupId org.springframework --artifactId spring-context --version 5.3.8",
+      "description": "Add a dependency to the project",
+      "scenario": "Add a dependency to the project",
+      "language": "bash",
+      "tags": [
+        "dependency",
+        "add",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "addon list",
+      "description": "View all installed add-ons",
+      "scenario": "View all installed add-ons",
+      "language": "bash",
+      "tags": [
+        "addons",
+        "list",
+        "installed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "addon remove --addonSymbolicName org.springframework.roo.addon.web.mvc.controller",
+      "description": "Remove an add-on from the project",
+      "scenario": "Remove an add-on from the project",
+      "language": "bash",
+      "tags": [
+        "addon",
+        "remove",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

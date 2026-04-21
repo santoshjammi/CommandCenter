@@ -1,0 +1,204 @@
+{
+  "title": "Vagrant Cheat Sheet",
+  "slug": "vagrant",
+  "description": "Essential Vagrant commands and configuration snippets for engineers.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "vagrant init",
+      "description": "Initialize a new Vagrant environment",
+      "scenario": "Initialize a new Vagrant environment",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vagrant up",
+      "description": "Start and provision the Vagrant environment",
+      "scenario": "Start and provision the Vagrant environment",
+      "language": "bash",
+      "tags": [
+        "start",
+        "provision",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vagrant halt",
+      "description": "Stop the running Vagrant environment",
+      "scenario": "Stop the running Vagrant environment",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "shutdown",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vagrant box add <box-name> <url>",
+      "description": "Add a new Vagrant box from a URL",
+      "scenario": "Add a new Vagrant box from a URL",
+      "language": "bash",
+      "tags": [
+        "box",
+        "add",
+        "url"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vagrant box list",
+      "description": "List all available Vagrant boxes",
+      "scenario": "List all available Vagrant boxes",
+      "language": "bash",
+      "tags": [
+        "box",
+        "list",
+        "available"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "vagrant box remove <box-name>",
+      "description": "Remove a Vagrant box",
+      "scenario": "Remove a Vagrant box",
+      "language": "bash",
+      "tags": [
+        "box",
+        "remove",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.network \"forwarded_port\", guest: 80, host: 8080",
+      "description": "Forward a port from guest to host",
+      "scenario": "Forward a port from guest to host",
+      "language": "yaml",
+      "tags": [
+        "network",
+        "port",
+        "forward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.network \"private_network\", type: \"dhcp\"",
+      "description": "Configure a private network",
+      "scenario": "Configure a private network",
+      "language": "yaml",
+      "tags": [
+        "network",
+        "private",
+        "dhcp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.network \"public_network\"",
+      "description": "Set up a public network",
+      "scenario": "Set up a public network",
+      "language": "yaml",
+      "tags": [
+        "network",
+        "public",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.provision \"shell\", path: \"script.sh\"",
+      "description": "Use a shell script for provisioning",
+      "scenario": "Use a shell script for provisioning",
+      "language": "yaml",
+      "tags": [
+        "provision",
+        "shell",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.provision \"ansible\" do |ansible|\n  ansible.playbook = \"playbook.yml\"\nend",
+      "description": "Provision with Ansible",
+      "scenario": "Provision with Ansible",
+      "language": "yaml",
+      "tags": [
+        "provision",
+        "ansible",
+        "playbook"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.provision \"puppet\" do |puppet|\n  puppet.manifest_file = \"default.pp\"\nend",
+      "description": "Provision with Puppet",
+      "scenario": "Provision with Puppet",
+      "language": "yaml",
+      "tags": [
+        "provision",
+        "puppet",
+        "manifest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.synced_folder \"./data\", \"/vagrant_data\"",
+      "description": "Sync a folder from host to guest",
+      "scenario": "Sync a folder from host to guest",
+      "language": "yaml",
+      "tags": [
+        "sync",
+        "folder",
+        "host"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.synced_folder \"./\", \"/vagrant\", disabled: true",
+      "description": "Disable default synced folder",
+      "scenario": "Disable default synced folder",
+      "language": "yaml",
+      "tags": [
+        "sync",
+        "disable",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "config.vm.synced_folder \"./data\", \"/vagrant_data\", type: \"nfs\"",
+      "description": "Sync with NFS for performance",
+      "scenario": "Sync with NFS for performance",
+      "language": "yaml",
+      "tags": [
+        "sync",
+        "nfs",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

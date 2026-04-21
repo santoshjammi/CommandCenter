@@ -1,0 +1,165 @@
+{
+  "title": "Self",
+  "slug": "self",
+  "description": "Essential commands and patterns for the Self programming language.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(defineMethod \"greet\" () \"Hello, World!\")",
+      "description": "Define a simple method",
+      "scenario": "Define a simple method",
+      "language": "text",
+      "tags": [
+        "method",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(| parent* = traits clonable |)",
+      "description": "Create a new object",
+      "scenario": "Create a new object",
+      "language": "text",
+      "tags": [
+        "object",
+        "creation",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "objectName messageName",
+      "description": "Send a message to an object",
+      "scenario": "Send a message to an object",
+      "language": "text",
+      "tags": [
+        "message",
+        "send",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if: condition True: [doSomething] False: [doSomethingElse])",
+      "description": "Conditional statement",
+      "scenario": "Conditional statement",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "control",
+        "if"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(collection do: [| each | each printLine])",
+      "description": "Loop through a collection",
+      "scenario": "Loop through a collection",
+      "language": "text",
+      "tags": [
+        "loop",
+        "collection",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(try: [doSomething] Catch: [error | handleError])",
+      "description": "Handle errors",
+      "scenario": "Handle errors",
+      "language": "text",
+      "tags": [
+        "error",
+        "handling",
+        "try-catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(original clone)",
+      "description": "Clone an object",
+      "scenario": "Clone an object",
+      "language": "text",
+      "tags": [
+        "clone",
+        "object",
+        "copy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(object addSlot: 'slotName' = defaultValue)",
+      "description": "Add a slot to an object",
+      "scenario": "Add a slot to an object",
+      "language": "text",
+      "tags": [
+        "slot",
+        "object",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(object removeSlot: 'slotName')",
+      "description": "Remove a slot from an object",
+      "scenario": "Remove a slot from an object",
+      "language": "text",
+      "tags": [
+        "slot",
+        "object",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(| parent* = traits clonable |)",
+      "description": "Define a trait",
+      "scenario": "Define a trait",
+      "language": "text",
+      "tags": [
+        "trait",
+        "define",
+        "inheritance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(object addTrait: traitName)",
+      "description": "Add a trait to an object",
+      "scenario": "Add a trait to an object",
+      "language": "text",
+      "tags": [
+        "trait",
+        "add",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(object removeTrait: traitName)",
+      "description": "Remove a trait from an object",
+      "scenario": "Remove a trait from an object",
+      "language": "text",
+      "tags": [
+        "trait",
+        "remove",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

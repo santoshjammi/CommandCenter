@@ -1,0 +1,204 @@
+{
+  "title": "HTTP Cheat Sheet",
+  "slug": "http",
+  "description": "Quick reference for HTTP methods, status codes, and headers.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "GET /resource HTTP/1.1",
+      "description": "Retrieve data from the server",
+      "scenario": "Retrieve data from the server",
+      "language": "text",
+      "tags": [
+        "GET",
+        "HTTP",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /resource HTTP/1.1\nContent-Type: application/json\n\n{\"key\":\"value\"}",
+      "description": "Submit data to be processed to a specified resource",
+      "scenario": "Submit data to be processed to a specified resource",
+      "language": "text",
+      "tags": [
+        "POST",
+        "HTTP",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PUT /resource/1 HTTP/1.1\nContent-Type: application/json\n\n{\"key\":\"new value\"}",
+      "description": "Update an existing resource on the server",
+      "scenario": "Update an existing resource on the server",
+      "language": "text",
+      "tags": [
+        "PUT",
+        "HTTP",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "200 OK",
+      "description": "Request succeeded, and the server returned the requested resource",
+      "scenario": "Request succeeded, and the server returned the requested resource",
+      "language": "text",
+      "tags": [
+        "200",
+        "status",
+        "success"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "404 Not Found",
+      "description": "The requested resource could not be found",
+      "scenario": "The requested resource could not be found",
+      "language": "text",
+      "tags": [
+        "404",
+        "status",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "500 Internal Server Error",
+      "description": "The server encountered an unexpected condition",
+      "scenario": "The server encountered an unexpected condition",
+      "language": "text",
+      "tags": [
+        "500",
+        "status",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Content-Type: application/json",
+      "description": "Specify the media type of the resource",
+      "scenario": "Specify the media type of the resource",
+      "language": "text",
+      "tags": [
+        "header",
+        "content-type",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "User-Agent: Mozilla/5.0",
+      "description": "Indicate the client software initiating the request",
+      "scenario": "Indicate the client software initiating the request",
+      "language": "text",
+      "tags": [
+        "header",
+        "user-agent",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Access-Control-Allow-Origin: *",
+      "description": "Specify the domain that is allowed to access the resource",
+      "scenario": "Specify the domain that is allowed to access the resource",
+      "language": "text",
+      "tags": [
+        "header",
+        "CORS",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET http://example.com",
+      "description": "Send a GET request to a URL",
+      "scenario": "Send a GET request to a URL",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "GET",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST http://example.com -H \"Content-Type: application/json\" -d '{\"key\":\"value\"}'",
+      "description": "Send a POST request with JSON data",
+      "scenario": "Send a POST request with JSON data",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "POST",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -i http://example.com",
+      "description": "Include headers in the output",
+      "scenario": "Include headers in the output",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "headers",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Authorization: Basic dXNlcjpwYXNzd29yZA==",
+      "description": "Basic authentication with username and password",
+      "scenario": "Basic authentication with username and password",
+      "language": "text",
+      "tags": [
+        "authentication",
+        "basic",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Authorization: Bearer your_token_here",
+      "description": "Bearer token authentication",
+      "scenario": "Bearer token authentication",
+      "language": "text",
+      "tags": [
+        "authentication",
+        "bearer",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cookie: sessionId=abc123",
+      "description": "Send a request with a cookie for session management",
+      "scenario": "Send a request with a cookie for session management",
+      "language": "text",
+      "tags": [
+        "authentication",
+        "cookie",
+        "HTTP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

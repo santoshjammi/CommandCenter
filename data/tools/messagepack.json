@@ -1,0 +1,165 @@
+{
+  "title": "MessagePack Cheat Sheet",
+  "slug": "messagepack",
+  "description": "Quick reference for MessagePack CLI commands and code syntax.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "import msgpack\npacked = msgpack.packb({'key': 'value'})",
+      "description": "Serialize a Python object to MessagePack format",
+      "scenario": "Serialize a Python object to MessagePack format",
+      "language": "python",
+      "tags": [
+        "serialize",
+        "python",
+        "messagepack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import msgpack\nunpacked = msgpack.unpackb(packed)",
+      "description": "Deserialize MessagePack data to a Python object",
+      "scenario": "Deserialize MessagePack data to a Python object",
+      "language": "python",
+      "tags": [
+        "deserialize",
+        "python",
+        "messagepack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packed = msgpack.packb(data, use_bin_type=True)",
+      "description": "Use MessagePack with custom options",
+      "scenario": "Use MessagePack with custom options",
+      "language": "python",
+      "tags": [
+        "options",
+        "custom",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const msgpack = require('msgpack-lite');\nconst buffer = msgpack.encode({ key: 'value' });",
+      "description": "Encode a JavaScript object to MessagePack format",
+      "scenario": "Encode a JavaScript object to MessagePack format",
+      "language": "javascript",
+      "tags": [
+        "encode",
+        "javascript",
+        "messagepack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const decoded = msgpack.decode(buffer);",
+      "description": "Decode MessagePack data to a JavaScript object",
+      "scenario": "Decode MessagePack data to a JavaScript object",
+      "language": "javascript",
+      "tags": [
+        "decode",
+        "javascript",
+        "messagepack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const codec = msgpack.createCodec({binarraybuffer: true});\nconst buffer = msgpack.encode({key: 'value'}, {codec});",
+      "description": "Use MessagePack with custom codec",
+      "scenario": "Use MessagePack with custom codec",
+      "language": "javascript",
+      "tags": [
+        "codec",
+        "custom",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pip install msgpack",
+      "description": "Install MessagePack for Python",
+      "scenario": "Install MessagePack for Python",
+      "language": "bash",
+      "tags": [
+        "install",
+        "python",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install msgpack-lite",
+      "description": "Install MessagePack for Node.js",
+      "scenario": "Install MessagePack for Node.js",
+      "language": "bash",
+      "tags": [
+        "install",
+        "nodejs",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pip show msgpack",
+      "description": "Check installed version of MessagePack in Python",
+      "scenario": "Check installed version of MessagePack in Python",
+      "language": "bash",
+      "tags": [
+        "version",
+        "python",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "packed = msgpack.packb(data, default=msgpack.ExtType(1, b'\\x00'))",
+      "description": "Configure MessagePack to handle datetime objects in Python",
+      "scenario": "Configure MessagePack to handle datetime objects in Python",
+      "language": "python",
+      "tags": [
+        "datetime",
+        "config",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const customType = { type: 0x42, encode: (obj) => Buffer.from(obj), decode: (data) => data.toString() };\nconst codec = msgpack.createCodec({ useraw: true });\ncodec.addExtPacker(customType.type, customType.encode);\ncodec.addExtUnpacker(customType.type, customType.decode);",
+      "description": "Set up MessagePack to handle custom types in JavaScript",
+      "scenario": "Set up MessagePack to handle custom types in JavaScript",
+      "language": "javascript",
+      "tags": [
+        "custom",
+        "types",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "unpacked = msgpack.unpackb(packed, raw=False, max_buffer_size=1024)",
+      "description": "Configure MessagePack with a custom buffer size in Python",
+      "scenario": "Configure MessagePack with a custom buffer size in Python",
+      "language": "python",
+      "tags": [
+        "buffer",
+        "config",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

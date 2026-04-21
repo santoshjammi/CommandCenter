@@ -1,0 +1,165 @@
+{
+  "title": "GitHub Actions Cheat Sheet",
+  "slug": "github-actions",
+  "description": "Quick reference for GitHub Actions commands and syntax.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "name: CI Workflow\non: [push]\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - uses: actions/checkout@v2\n    - name: Run a one-line script\n      run: echo Hello, world!",
+      "description": "Define a basic workflow",
+      "scenario": "Define a basic workflow",
+      "language": "yaml",
+      "tags": [
+        "workflow",
+        "yaml",
+        "github"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "on:\n  pull_request:\n    branches:\n      - main",
+      "description": "Trigger workflow on pull request",
+      "scenario": "Trigger workflow on pull request",
+      "language": "yaml",
+      "tags": [
+        "trigger",
+        "pull_request",
+        "branches"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "env:\n  NODE_ENV: production\n  DEBUG: true",
+      "description": "Set environment variables",
+      "scenario": "Set environment variables",
+      "language": "yaml",
+      "tags": [
+        "environment",
+        "variables",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jobs:\n  build:\n    runs-on: ubuntu-latest",
+      "description": "Specify a job running on Ubuntu",
+      "scenario": "Specify a job running on Ubuntu",
+      "language": "yaml",
+      "tags": [
+        "jobs",
+        "ubuntu",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steps:\n  - uses: actions/setup-node@v2\n    with:\n      node-version: '14'",
+      "description": "Use a specific version of Node.js",
+      "scenario": "Use a specific version of Node.js",
+      "language": "yaml",
+      "tags": [
+        "node.js",
+        "version",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jobs:\n  test:\n    runs-on: ubuntu-latest\n    needs: build",
+      "description": "Add a job dependency",
+      "scenario": "Add a job dependency",
+      "language": "yaml",
+      "tags": [
+        "dependency",
+        "jobs",
+        "workflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steps:\n  - name: Checkout code\n    uses: actions/checkout@v2",
+      "description": "Checkout code using an action",
+      "scenario": "Checkout code using an action",
+      "language": "yaml",
+      "tags": [
+        "checkout",
+        "actions",
+        "steps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steps:\n  - name: Run custom script\n    run: |\n      echo \"Starting script\"\n      npm install\n      npm test",
+      "description": "Run a custom script",
+      "scenario": "Run a custom script",
+      "language": "yaml",
+      "tags": [
+        "script",
+        "run",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steps:\n  - name: Run Docker action\n    uses: docker://alpine:3.8\n    with:\n      args: echo Hello from Docker",
+      "description": "Use a Docker container action",
+      "scenario": "Use a Docker container action",
+      "language": "yaml",
+      "tags": [
+        "docker",
+        "container",
+        "actions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steps:\n  - name: Access secret\n    env:\n      MY_SECRET: ${{ secrets.MY_SECRET }}\n    run: echo $MY_SECRET",
+      "description": "Access a secret in a workflow",
+      "scenario": "Access a secret in a workflow",
+      "language": "yaml",
+      "tags": [
+        "secrets",
+        "security",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Navigate to your repository on GitHub > Settings > Secrets > New repository secret",
+      "description": "Store a secret in GitHub",
+      "scenario": "Store a secret in GitHub",
+      "language": "text",
+      "tags": [
+        "store",
+        "github",
+        "secrets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "steps:\n  - name: Use PAT\n    env:\n      TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}\n    run: curl -H \"Authorization: token $TOKEN\" https://api.github.com/user/repos",
+      "description": "Use a personal access token",
+      "scenario": "Use a personal access token",
+      "language": "yaml",
+      "tags": [
+        "token",
+        "access",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

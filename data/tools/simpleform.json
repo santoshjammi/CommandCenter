@@ -1,0 +1,165 @@
+{
+  "title": "SimpleForm Cheat Sheet",
+  "slug": "simpleform",
+  "description": "Quick reference for SimpleForm usage in Rails applications",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "gem 'simple_form'",
+      "description": "Add SimpleForm gem to your Gemfile",
+      "scenario": "Add SimpleForm gem to your Gemfile",
+      "language": "ruby",
+      "tags": [
+        "gemfile",
+        "setup",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate simple_form:install --bootstrap",
+      "description": "Install SimpleForm with default bootstrap configuration",
+      "scenario": "Install SimpleForm with default bootstrap configuration",
+      "language": "bash",
+      "tags": [
+        "install",
+        "bootstrap",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rails generate simple_form:install",
+      "description": "Generate SimpleForm configuration files",
+      "scenario": "Generate SimpleForm configuration files",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "setup",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= simple_form_for @user do |f| %>\n  <%= f.input :username %>\n  <%= f.input :email %>\n  <%= f.button :submit %>\n<% end %>",
+      "description": "Create a simple form for a User model",
+      "scenario": "Create a simple form for a User model",
+      "language": "ruby",
+      "tags": [
+        "form",
+        "user",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= f.input :password, as: :password %>",
+      "description": "Add a password field to a form",
+      "scenario": "Add a password field to a form",
+      "language": "ruby",
+      "tags": [
+        "form",
+        "password",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= simple_form_for @user, html: { class: 'custom-class' } do |f| %>\n  ...\n<% end %>",
+      "description": "Create a form with a custom CSS class",
+      "scenario": "Create a form with a custom CSS class",
+      "language": "ruby",
+      "tags": [
+        "css",
+        "form",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= f.input :username, placeholder: 'Enter your username' %>",
+      "description": "Add a placeholder to an input field",
+      "scenario": "Add a placeholder to an input field",
+      "language": "ruby",
+      "tags": [
+        "placeholder",
+        "form",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= f.input :email, label: 'Email Address' %>",
+      "description": "Set a label for an input field",
+      "scenario": "Set a label for an input field",
+      "language": "ruby",
+      "tags": [
+        "label",
+        "form",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= f.input :username, disabled: true %>",
+      "description": "Disable an input field",
+      "scenario": "Disable an input field",
+      "language": "ruby",
+      "tags": [
+        "disable",
+        "form",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= f.input :country, collection: ['USA', 'Canada', 'Mexico'] %>",
+      "description": "Use a collection for a select input",
+      "scenario": "Use a collection for a select input",
+      "language": "ruby",
+      "tags": [
+        "select",
+        "collection",
+        "form"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<%= f.input :email, error: 'Invalid email format' %>",
+      "description": "Add a custom error message to a field",
+      "scenario": "Add a custom error message to a field",
+      "language": "ruby",
+      "tags": [
+        "error",
+        "validation",
+        "form"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "en:\n  simple_form:\n    labels:\n      user:\n        email: 'Your Email'\n    placeholders:\n      user:\n        email: 'example@example.com'",
+      "description": "Use i18n for form labels and placeholders",
+      "scenario": "Use i18n for form labels and placeholders",
+      "language": "yaml",
+      "tags": [
+        "i18n",
+        "localization",
+        "form"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Set Theory Cheat Sheet",
+  "slug": "set-theory",
+  "description": "Essential set theory operations and syntax for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "A = {1, 2, 3, 4}",
+      "description": "Create a set with unique elements",
+      "scenario": "Create a set with unique elements",
+      "language": "python",
+      "tags": [
+        "create",
+        "set",
+        "unique"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A | B",
+      "description": "Union of two sets",
+      "scenario": "Union of two sets",
+      "language": "python",
+      "tags": [
+        "union",
+        "sets",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A & B",
+      "description": "Intersection of two sets",
+      "scenario": "Intersection of two sets",
+      "language": "python",
+      "tags": [
+        "intersection",
+        "sets",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A.add(5)",
+      "description": "Add an element to a set",
+      "scenario": "Add an element to a set",
+      "language": "python",
+      "tags": [
+        "add",
+        "set",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A.remove(3)",
+      "description": "Remove an element from a set",
+      "scenario": "Remove an element from a set",
+      "language": "python",
+      "tags": [
+        "remove",
+        "set",
+        "element"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "3 in A",
+      "description": "Check if an element is in a set",
+      "scenario": "Check if an element is in a set",
+      "language": "python",
+      "tags": [
+        "check",
+        "set",
+        "membership"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT DISTINCT column_name FROM table_name;",
+      "description": "Select distinct values from a column",
+      "scenario": "Select distinct values from a column",
+      "language": "sql",
+      "tags": [
+        "distinct",
+        "sql",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT column_name FROM table1 INTERSECT SELECT column_name FROM table2;",
+      "description": "Find common elements between two queries",
+      "scenario": "Find common elements between two queries",
+      "language": "sql",
+      "tags": [
+        "intersect",
+        "sql",
+        "common"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT column_name FROM table1 EXCEPT SELECT column_name FROM table2;",
+      "description": "Find elements in the first query but not in the second",
+      "scenario": "Find elements in the first query but not in the second",
+      "language": "sql",
+      "tags": [
+        "except",
+        "sql",
+        "difference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \u222a B",
+      "description": "Symbol for union of sets",
+      "scenario": "Symbol for union of sets",
+      "language": "text",
+      "tags": [
+        "union",
+        "notation",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \u2229 B",
+      "description": "Symbol for intersection of sets",
+      "scenario": "Symbol for intersection of sets",
+      "language": "text",
+      "tags": [
+        "intersection",
+        "notation",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A \\ B",
+      "description": "Symbol for set difference",
+      "scenario": "Symbol for set difference",
+      "language": "text",
+      "tags": [
+        "difference",
+        "notation",
+        "symbol"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

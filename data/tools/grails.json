@@ -1,0 +1,204 @@
+{
+  "title": "Grails Cheat Sheet",
+  "slug": "grails",
+  "description": "Essential Grails commands and code snippets for efficient development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "grails create-app myapp",
+      "description": "Create a new Grails application",
+      "scenario": "Create a new Grails application",
+      "language": "bash",
+      "tags": [
+        "create",
+        "app",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grails run-app",
+      "description": "Run the Grails application",
+      "scenario": "Run the Grails application",
+      "language": "bash",
+      "tags": [
+        "run",
+        "server",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grails create-controller myController",
+      "description": "Create a new controller",
+      "scenario": "Create a new controller",
+      "language": "bash",
+      "tags": [
+        "create",
+        "controller",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dataSource {\n    dbCreate = 'update'\n    url = 'jdbc:mysql://localhost:3306/mydb'\n    driverClassName = 'com.mysql.jdbc.Driver'\n    username = 'root'\n    password = 'password'\n}",
+      "description": "Set the default datasource to MySQL",
+      "scenario": "Set the default datasource to MySQL",
+      "language": "groovy",
+      "tags": [
+        "configuration",
+        "datasource",
+        "mysql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log4j = {\n    appenders {\n        file name:'file', file:'/path/to/logfile.log'\n    }\n    root {\n        info 'stdout', 'file'\n    }\n}",
+      "description": "Configure logging to log to a file",
+      "scenario": "Configure logging to log to a file",
+      "language": "groovy",
+      "tags": [
+        "logging",
+        "configuration",
+        "log4j"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grails {\n    cors {\n        enabled = true\n        mappings = [\n            '/**': [\n                allowedOrigins: '*'\n            ]\n        ]\n    }\n}",
+      "description": "Enable CORS for all origins",
+      "scenario": "Enable CORS for all origins",
+      "language": "groovy",
+      "tags": [
+        "cors",
+        "configuration",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Book {\n    String title\n    String author\n    Date releaseDate\n}",
+      "description": "Define a domain class",
+      "scenario": "Define a domain class",
+      "language": "groovy",
+      "tags": [
+        "domain",
+        "class",
+        "groovy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class BookService {\n    def listBooks() {\n        Book.list()\n    }\n}",
+      "description": "Create a simple service",
+      "scenario": "Create a simple service",
+      "language": "groovy",
+      "tags": [
+        "service",
+        "groovy",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class BookController {\n    def list() {\n        render Book.list() as JSON\n    }\n}",
+      "description": "Render JSON response in a controller",
+      "scenario": "Render JSON response in a controller",
+      "language": "groovy",
+      "tags": [
+        "controller",
+        "json",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class BookService {\n    def bookRepository\n\n    def findBook(Long id) {\n        bookRepository.findById(id)\n    }\n}",
+      "description": "Dependency injection in a service",
+      "scenario": "Dependency injection in a service",
+      "language": "groovy",
+      "tags": [
+        "dependency",
+        "injection",
+        "service"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Book {\n    static constraints = {\n        title blank: false\n    }\n\n    static mapping = {\n        table 'books'\n    }\n}",
+      "description": "Using GORM for database operations",
+      "scenario": "Using GORM for database operations",
+      "language": "groovy",
+      "tags": [
+        "gorm",
+        "database",
+        "mapping"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class UrlMappings {\n    static mappings = {\n        \"/$controller/$action?/$id?\"(parseRequest:true)\n        \"/\"(controller: 'book', action: 'list')\n    }\n}",
+      "description": "Define URL mappings",
+      "scenario": "Define URL mappings",
+      "language": "groovy",
+      "tags": [
+        "url",
+        "mappings",
+        "routing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grails run-app --debug-jvm",
+      "description": "Run Grails application with debugging enabled",
+      "scenario": "Run Grails application with debugging enabled",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "run",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grails create-app myapp --profile=web",
+      "description": "Create a Grails application with a specific profile",
+      "scenario": "Create a Grails application with a specific profile",
+      "language": "bash",
+      "tags": [
+        "profile",
+        "create",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grails console",
+      "description": "Run Grails interactive console",
+      "scenario": "Run Grails interactive console",
+      "language": "bash",
+      "tags": [
+        "console",
+        "interactive",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

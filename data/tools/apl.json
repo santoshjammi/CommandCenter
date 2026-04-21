@@ -1,0 +1,204 @@
+{
+  "title": "APL Cheat Sheet",
+  "slug": "apl",
+  "description": "Essential APL syntax and commands for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "2 + 3",
+      "description": "Addition of two numbers",
+      "scenario": "Addition of two numbers",
+      "language": "apl",
+      "tags": [
+        "addition",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "4 \u00d7 5",
+      "description": "Multiplication of two numbers",
+      "scenario": "Multiplication of two numbers",
+      "language": "apl",
+      "tags": [
+        "multiplication",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "10 \u00f7 2",
+      "description": "Division of two numbers",
+      "scenario": "Division of two numbers",
+      "language": "apl",
+      "tags": [
+        "division",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u23735",
+      "description": "Create a vector of numbers from 1 to 5",
+      "scenario": "Create a vector of numbers from 1 to 5",
+      "language": "apl",
+      "tags": [
+        "array",
+        "vector",
+        "sequence"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u233d1 2 3 4 5",
+      "description": "Reverse an array",
+      "scenario": "Reverse an array",
+      "language": "apl",
+      "tags": [
+        "reverse",
+        "array",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "2 3\u23741 2 3 4 5 6",
+      "description": "Reshape an array into a 2x3 matrix",
+      "scenario": "Reshape an array into a 2x3 matrix",
+      "language": "apl",
+      "tags": [
+        "reshape",
+        "matrix",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1 \u2227 0",
+      "description": "Logical AND operation",
+      "scenario": "Logical AND operation",
+      "language": "apl",
+      "tags": [
+        "logical",
+        "and",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1 \u2228 0",
+      "description": "Logical OR operation",
+      "scenario": "Logical OR operation",
+      "language": "apl",
+      "tags": [
+        "logical",
+        "or",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "~1",
+      "description": "Logical NOT operation",
+      "scenario": "Logical NOT operation",
+      "language": "apl",
+      "tags": [
+        "logical",
+        "not",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+\u233f1 2 3 4 5",
+      "description": "Sum of elements in an array",
+      "scenario": "Sum of elements in an array",
+      "language": "apl",
+      "tags": [
+        "sum",
+        "reduction",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u00d7\u233f1 2 3 4 5",
+      "description": "Product of elements in an array",
+      "scenario": "Product of elements in an array",
+      "language": "apl",
+      "tags": [
+        "product",
+        "reduction",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+\\1 2 3 4 5",
+      "description": "Cumulative sum of elements in an array",
+      "scenario": "Cumulative sum of elements in an array",
+      "language": "apl",
+      "tags": [
+        "cumulative",
+        "sum",
+        "scan"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?1",
+      "description": "Generate a random number between 0 and 1",
+      "scenario": "Generate a random number between 0 and 1",
+      "language": "apl",
+      "tags": [
+        "random",
+        "number",
+        "miscellaneous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u23492 2\u23741 2 3 4",
+      "description": "Transpose a matrix",
+      "scenario": "Transpose a matrix",
+      "language": "apl",
+      "tags": [
+        "transpose",
+        "matrix",
+        "miscellaneous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\u2308/1 2 3 4 5",
+      "description": "Find the maximum of an array",
+      "scenario": "Find the maximum of an array",
+      "language": "apl",
+      "tags": [
+        "maximum",
+        "array",
+        "miscellaneous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

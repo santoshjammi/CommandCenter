@@ -1,0 +1,204 @@
+{
+  "title": "Socket.io Cheat Sheet",
+  "slug": "socket-io",
+  "description": "Quick reference for Socket.io commands and patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm install socket.io",
+      "description": "Install Socket.io via npm",
+      "scenario": "Install Socket.io via npm",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "install",
+        "socket.io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const io = require('socket.io')(3000);",
+      "description": "Initialize a Socket.io server",
+      "scenario": "Initialize a Socket.io server",
+      "language": "javascript",
+      "tags": [
+        "server",
+        "initialize",
+        "socket.io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const socket = io('http://localhost:3000');",
+      "description": "Connect to a Socket.io server from client",
+      "scenario": "Connect to a Socket.io server from client",
+      "language": "javascript",
+      "tags": [
+        "client",
+        "connect",
+        "socket.io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "io.on('connection', (socket) => {\n  console.log('a user connected');\n});",
+      "description": "Listen for a connection event",
+      "scenario": "Listen for a connection event",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "connection",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "socket.emit('message', 'Hello World');",
+      "description": "Emit an event from server to client",
+      "scenario": "Emit an event from server to client",
+      "language": "javascript",
+      "tags": [
+        "emit",
+        "event",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "socket.on('message', (msg) => {\n  console.log(msg);\n});",
+      "description": "Listen for an event on the client",
+      "scenario": "Listen for an event on the client",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "listen",
+        "client"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const nsp = io.of('/my-namespace');",
+      "description": "Create a namespace",
+      "scenario": "Create a namespace",
+      "language": "javascript",
+      "tags": [
+        "namespace",
+        "create",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "socket.join('room1');",
+      "description": "Join a room",
+      "scenario": "Join a room",
+      "language": "javascript",
+      "tags": [
+        "room",
+        "join",
+        "client"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "io.to('room1').emit('event', 'data');",
+      "description": "Emit to a specific room",
+      "scenario": "Emit to a specific room",
+      "language": "javascript",
+      "tags": [
+        "room",
+        "emit",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "io.on('connect_error', (err) => {\n  console.log(`connect_error: ${err.message}`);\n});",
+      "description": "Handle connection errors",
+      "scenario": "Handle connection errors",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "connection",
+        "handle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "socket.on('disconnect', () => {\n  console.log('user disconnected');\n});",
+      "description": "Handle disconnection",
+      "scenario": "Handle disconnection",
+      "language": "javascript",
+      "tags": [
+        "disconnect",
+        "handle",
+        "client"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "io.on('reconnect_attempt', () => {\n  console.log('Attempting to reconnect');\n});",
+      "description": "Handle reconnection attempts",
+      "scenario": "Handle reconnection attempts",
+      "language": "javascript",
+      "tags": [
+        "reconnect",
+        "attempt",
+        "handle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "io.use((socket, next) => {\n  const token = socket.handshake.auth.token;\n  if (isValidToken(token)) {\n    next();\n  } else {\n    next(new Error('authentication error'));\n  }\n});",
+      "description": "Use middleware for authentication",
+      "scenario": "Use middleware for authentication",
+      "language": "javascript",
+      "tags": [
+        "middleware",
+        "authentication",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "socket.broadcast.emit('event', 'data');",
+      "description": "Broadcast to all clients except sender",
+      "scenario": "Broadcast to all clients except sender",
+      "language": "javascript",
+      "tags": [
+        "broadcast",
+        "exclude",
+        "sender"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "socket.on('binary', (data) => {\n  // handle binary data\n});",
+      "description": "Set up binary data transfer",
+      "scenario": "Set up binary data transfer",
+      "language": "javascript",
+      "tags": [
+        "binary",
+        "data",
+        "transfer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

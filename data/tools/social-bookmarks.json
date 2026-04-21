@@ -1,0 +1,165 @@
+{
+  "title": "Social Bookmarks Cheat Sheet",
+  "slug": "social-bookmarks",
+  "description": "CLI commands and code snippets for managing social bookmarks.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "bookmark add --title \"My Bookmark\" --url \"https://example.com\"",
+      "description": "Add a new bookmark with a title and URL",
+      "scenario": "Add a new bookmark with a title and URL",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "add",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookmark list",
+      "description": "List all bookmarks",
+      "scenario": "List all bookmarks",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookmark remove --id 123",
+      "description": "Remove a bookmark by its ID",
+      "scenario": "Remove a bookmark by its ID",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "remove",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"title\": \"My Bookmark\", \"url\": \"https://example.com\"}",
+      "description": "Define a basic bookmark object in JSON",
+      "scenario": "Define a basic bookmark object in JSON",
+      "language": "json",
+      "tags": [
+        "bookmark",
+        "json",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"title\": \"My Bookmark\", \"url\": \"https://example.com\", \"tags\": [\"example\", \"tutorial\"]}",
+      "description": "Add tags to a bookmark object",
+      "scenario": "Add tags to a bookmark object",
+      "language": "json",
+      "tags": [
+        "bookmark",
+        "tags",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"title\": \"My Bookmark\", \"url\": \"https://example.com\", \"description\": \"A useful example site.\"}",
+      "description": "Include a description in a bookmark object",
+      "scenario": "Include a description in a bookmark object",
+      "language": "json",
+      "tags": [
+        "bookmark",
+        "description",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookmark search --title \"example\"",
+      "description": "Search bookmarks by title keyword",
+      "scenario": "Search bookmarks by title keyword",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "search",
+        "title"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookmark search --tag \"tutorial\"",
+      "description": "Search bookmarks by tag",
+      "scenario": "Search bookmarks by tag",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "search",
+        "tag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookmark search --domain \"example.com\"",
+      "description": "Search bookmarks by URL domain",
+      "scenario": "Search bookmarks by URL domain",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "search",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookmark export --format json --output bookmarks.json",
+      "description": "Export bookmarks to a JSON file",
+      "scenario": "Export bookmarks to a JSON file",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "export",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookmark import --file bookmarks.json",
+      "description": "Import bookmarks from a JSON file",
+      "scenario": "Import bookmarks from a JSON file",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "import",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bookmark export --format csv --output bookmarks.csv",
+      "description": "Export bookmarks to a CSV file",
+      "scenario": "Export bookmarks to a CSV file",
+      "language": "bash",
+      "tags": [
+        "bookmark",
+        "export",
+        "csv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

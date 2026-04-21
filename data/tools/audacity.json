@@ -1,0 +1,204 @@
+{
+  "title": "Audacity Cheat Sheet",
+  "slug": "audacity",
+  "description": "Quick reference for Audacity CLI and common tasks",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "audacity",
+      "description": "Open Audacity from the terminal",
+      "scenario": "Open Audacity from the terminal",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "open",
+        "audacity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "audacity /path/to/file.wav",
+      "description": "Open a specific audio file in Audacity",
+      "scenario": "Open a specific audio file in Audacity",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "open",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "audacity --version",
+      "description": "Check the version of Audacity installed",
+      "scenario": "Check the version of Audacity installed",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "version",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Import > Audio...",
+      "description": "Import an audio file into Audacity",
+      "scenario": "Import an audio file into Audacity",
+      "language": "text",
+      "tags": [
+        "import",
+        "audio",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Export > Export as MP3...",
+      "description": "Export audio as MP3",
+      "scenario": "Export audio as MP3",
+      "language": "text",
+      "tags": [
+        "export",
+        "mp3",
+        "audio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Export > Export Selected Audio...",
+      "description": "Export selected audio as WAV",
+      "scenario": "Export selected audio as WAV",
+      "language": "text",
+      "tags": [
+        "export",
+        "wav",
+        "selected"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Cut",
+      "description": "Cut selected audio",
+      "scenario": "Cut selected audio",
+      "language": "text",
+      "tags": [
+        "edit",
+        "cut",
+        "audio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Copy",
+      "description": "Copy selected audio",
+      "scenario": "Copy selected audio",
+      "language": "text",
+      "tags": [
+        "edit",
+        "copy",
+        "audio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Paste",
+      "description": "Paste audio at cursor position",
+      "scenario": "Paste audio at cursor position",
+      "language": "text",
+      "tags": [
+        "edit",
+        "paste",
+        "audio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Effect > Fade In",
+      "description": "Apply a fade-in effect to selected audio",
+      "scenario": "Apply a fade-in effect to selected audio",
+      "language": "text",
+      "tags": [
+        "effect",
+        "fade",
+        "audio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Effect > Normalize...",
+      "description": "Normalize audio to a standard level",
+      "scenario": "Normalize audio to a standard level",
+      "language": "text",
+      "tags": [
+        "effect",
+        "normalize",
+        "audio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Effect > Noise Reduction...",
+      "description": "Remove noise from audio",
+      "scenario": "Remove noise from audio",
+      "language": "text",
+      "tags": [
+        "effect",
+        "noise",
+        "reduction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Preferences > Quality",
+      "description": "Change audio quality settings",
+      "scenario": "Change audio quality settings",
+      "language": "text",
+      "tags": [
+        "preferences",
+        "quality",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Preferences > Devices > Default Sample Rate",
+      "description": "Set default sample rate",
+      "scenario": "Set default sample rate",
+      "language": "text",
+      "tags": [
+        "preferences",
+        "sample rate",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Preferences > Keyboard",
+      "description": "Configure keyboard shortcuts",
+      "scenario": "Configure keyboard shortcuts",
+      "language": "text",
+      "tags": [
+        "preferences",
+        "keyboard",
+        "shortcuts"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

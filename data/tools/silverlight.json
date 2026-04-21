@@ -1,0 +1,165 @@
+{
+  "title": "Silverlight Cheat Sheet",
+  "slug": "silverlight",
+  "description": "Essential commands and patterns for Silverlight development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<Button Content=\"Click Me\" Width=\"100\" Height=\"50\" />",
+      "description": "Define a simple button in XAML",
+      "scenario": "Define a simple button in XAML",
+      "language": "xml",
+      "tags": [
+        "xaml",
+        "button",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<TextBlock Text=\"{Binding Path=Name}\" />",
+      "description": "Create a text block with binding",
+      "scenario": "Create a text block with binding",
+      "language": "xml",
+      "tags": [
+        "xaml",
+        "binding",
+        "textblock"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Grid>\n  <Grid.RowDefinitions>\n    <RowDefinition Height=\"*\" />\n    <RowDefinition Height=\"2*\" />\n  </Grid.RowDefinitions>\n  <Grid.ColumnDefinitions>\n    <ColumnDefinition Width=\"Auto\" />\n    <ColumnDefinition Width=\"*\" />\n  </Grid.ColumnDefinitions>\n</Grid>",
+      "description": "Define a grid with two rows and two columns",
+      "scenario": "Define a grid with two rows and two columns",
+      "language": "xml",
+      "tags": [
+        "xaml",
+        "grid",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "private void Button_Click(object sender, RoutedEventArgs e)\n{\n    MessageBox.Show(\"Button clicked!\");\n}",
+      "description": "Handle a button click event",
+      "scenario": "Handle a button click event",
+      "language": "csharp",
+      "tags": [
+        "csharp",
+        "event",
+        "button"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.DataContext = new ViewModel();",
+      "description": "Set data context for data binding",
+      "scenario": "Set data context for data binding",
+      "language": "csharp",
+      "tags": [
+        "csharp",
+        "databinding",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.NavigationService.Navigate(new Uri(\"/AnotherPage.xaml\", UriKind.Relative));",
+      "description": "Navigate to another page",
+      "scenario": "Navigate to another page",
+      "language": "csharp",
+      "tags": [
+        "csharp",
+        "navigation",
+        "page"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msbuild MySilverlightProject.csproj",
+      "description": "Build a Silverlight project using MSBuild",
+      "scenario": "Build a Silverlight project using MSBuild",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "build",
+        "msbuild"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "msbuild MySilverlightProject.csproj /t:Clean",
+      "description": "Clean a Silverlight project",
+      "scenario": "Clean a Silverlight project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "clean",
+        "msbuild"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nuget restore MySilverlightProject.sln",
+      "description": "Restore NuGet packages for a Silverlight project",
+      "scenario": "Restore NuGet packages for a Silverlight project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "nuget",
+        "restore"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<OutOfBrowserSettings>\n  <ShortName>MyApp</ShortName>\n  <EnableGPUAcceleration>true</EnableGPUAcceleration>\n</OutOfBrowserSettings>",
+      "description": "Enable Out-of-Browser settings in AppManifest.xml",
+      "scenario": "Enable Out-of-Browser settings in AppManifest.xml",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "out-of-browser",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Application x:Class=\"MyApp.App\"\n             xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\n             StartupUri=\"MainPage.xaml\">\n</Application>",
+      "description": "Set startup object in App.xaml",
+      "scenario": "Set startup object in App.xaml",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "startup",
+        "xaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[assembly: AssemblyTitle(\"My Silverlight App\")]\n[assembly: AssemblyDescription(\"Description of my app\")]\n[assembly: AssemblyVersion(\"1.0.0.0\")]",
+      "description": "Configure assembly information in AssemblyInfo.cs",
+      "scenario": "Configure assembly information in AssemblyInfo.cs",
+      "language": "csharp",
+      "tags": [
+        "configuration",
+        "assembly",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

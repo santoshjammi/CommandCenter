@@ -1,0 +1,204 @@
+{
+  "title": "ActionScript Cheat Sheet",
+  "slug": "actionscript",
+  "description": "Quick reference for ActionScript syntax and patterns",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "var myVar:int = 10;",
+      "description": "Declare a variable with a specific type",
+      "scenario": "Declare a variable with a specific type",
+      "language": "actionscript",
+      "tags": [
+        "variable",
+        "declaration",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function add(a:int, b:int):int { return a + b; }",
+      "description": "Define a function with parameters and return type",
+      "scenario": "Define a function with parameters and return type",
+      "language": "actionscript",
+      "tags": [
+        "function",
+        "parameters",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (var i:int = 0; i < 10; i++) { trace(i); }",
+      "description": "Create a simple for loop",
+      "scenario": "Create a simple for loop",
+      "language": "actionscript",
+      "tags": [
+        "loop",
+        "iteration",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Person { public var name:String; public function Person(name:String) { this.name = name; } }",
+      "description": "Define a class with a constructor",
+      "scenario": "Define a class with a constructor",
+      "language": "actionscript",
+      "tags": [
+        "class",
+        "constructor",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var person:Person = new Person(\"John\");",
+      "description": "Create an instance of a class",
+      "scenario": "Create an instance of a class",
+      "language": "actionscript",
+      "tags": [
+        "instance",
+        "object",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Student extends Person { override public function toString():String { return \"Student: \" + name; } }",
+      "description": "Extend a class and override a method",
+      "scenario": "Extend a class and override a method",
+      "language": "actionscript",
+      "tags": [
+        "inheritance",
+        "override",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "button.addEventListener(MouseEvent.CLICK, handleClick);",
+      "description": "Add an event listener to a button",
+      "scenario": "Add an event listener to a button",
+      "language": "actionscript",
+      "tags": [
+        "event",
+        "listener",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function handleClick(event:MouseEvent):void { trace(\"Button clicked\"); }",
+      "description": "Define an event handler function",
+      "scenario": "Define an event handler function",
+      "language": "actionscript",
+      "tags": [
+        "event",
+        "handler",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "button.removeEventListener(MouseEvent.CLICK, handleClick);",
+      "description": "Remove an event listener",
+      "scenario": "Remove an event listener",
+      "language": "actionscript",
+      "tags": [
+        "event",
+        "listener",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { // code that may throw an error } catch (error:Error) { trace(error.message); }",
+      "description": "Use try-catch for error handling",
+      "scenario": "Use try-catch for error handling",
+      "language": "actionscript",
+      "tags": [
+        "error",
+        "try-catch",
+        "exception"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw new Error(\"Custom error message\");",
+      "description": "Throw a custom error",
+      "scenario": "Throw a custom error",
+      "language": "actionscript",
+      "tags": [
+        "error",
+        "throw",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class CustomError extends Error { public function CustomError(message:String) { super(message); } }",
+      "description": "Define a custom error class",
+      "scenario": "Define a custom error class",
+      "language": "actionscript",
+      "tags": [
+        "error",
+        "custom",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Singleton { private static var instance:Singleton; public static function getInstance():Singleton { if (!instance) { instance = new Singleton(); } return instance; } }",
+      "description": "Singleton pattern implementation",
+      "scenario": "Singleton pattern implementation",
+      "language": "actionscript",
+      "tags": [
+        "singleton",
+        "pattern",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Subject extends EventDispatcher { public function notify():void { dispatchEvent(new Event(\"update\")); } }",
+      "description": "Observer pattern using events",
+      "scenario": "Observer pattern using events",
+      "language": "actionscript",
+      "tags": [
+        "observer",
+        "pattern",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class ShapeFactory { public function createShape(type:String):Shape { if (type == \"circle\") return new Circle(); else if (type == \"square\") return new Square(); return null; } }",
+      "description": "Factory pattern for object creation",
+      "scenario": "Factory pattern for object creation",
+      "language": "actionscript",
+      "tags": [
+        "factory",
+        "pattern",
+        "creation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

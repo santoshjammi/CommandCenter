@@ -1,0 +1,165 @@
+{
+  "title": "JavaFX Cheat Sheet",
+  "slug": "javafx",
+  "description": "Quick reference for JavaFX CLI commands and code syntax.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "java -jar MyApp.jar",
+      "description": "Run a JavaFX application from the command line",
+      "scenario": "Run a JavaFX application from the command line",
+      "language": "bash",
+      "tags": [
+        "run",
+        "cli",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "javac --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml MyApp.java",
+      "description": "Compile JavaFX application with modules",
+      "scenario": "Compile JavaFX application with modules",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "modules",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jar --create --file MyApp.jar --main-class=com.example.Main -C out/ .",
+      "description": "Package JavaFX application into a JAR file",
+      "scenario": "Package JavaFX application into a JAR file",
+      "language": "bash",
+      "tags": [
+        "package",
+        "jar",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class MyApp extends Application { @Override public void start(Stage primaryStage) { primaryStage.setTitle(\"Hello World\"); primaryStage.show(); } public static void main(String[] args) { launch(args); } }",
+      "description": "Create a basic JavaFX application",
+      "scenario": "Create a basic JavaFX application",
+      "language": "java",
+      "tags": [
+        "application",
+        "basic",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FXMLLoader loader = new FXMLLoader(getClass().getResource(\"MyView.fxml\")); Parent root = loader.load();",
+      "description": "Load an FXML file in JavaFX",
+      "scenario": "Load an FXML file in JavaFX",
+      "language": "java",
+      "tags": [
+        "fxml",
+        "load",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Scene scene = new Scene(root, 800, 600); primaryStage.setScene(scene);",
+      "description": "Set a scene in JavaFX",
+      "scenario": "Set a scene in JavaFX",
+      "language": "java",
+      "tags": [
+        "scene",
+        "set",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Button text=\"Click Me\" onAction=\"#handleButtonClick\"/>",
+      "description": "Define a button in FXML",
+      "scenario": "Define a button in FXML",
+      "language": "xml",
+      "tags": [
+        "button",
+        "fxml",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<VBox spacing=\"10\" alignment=\"CENTER\"> <children> <!-- Add children here --> </children> </VBox>",
+      "description": "Configure a VBox layout in FXML",
+      "scenario": "Configure a VBox layout in FXML",
+      "language": "xml",
+      "tags": [
+        "vbox",
+        "layout",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "button { -fx-background-color: #ff0000; }",
+      "description": "Set a CSS style for JavaFX",
+      "scenario": "Set a CSS style for JavaFX",
+      "language": "css",
+      "tags": [
+        "css",
+        "style",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class MyController { private static MyController instance; private MyController() {} public static MyController getInstance() { if (instance == null) { instance = new MyController(); } return instance; } }",
+      "description": "Singleton pattern for JavaFX controllers",
+      "scenario": "Singleton pattern for JavaFX controllers",
+      "language": "java",
+      "tags": [
+        "singleton",
+        "pattern",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "StringProperty name = new SimpleStringProperty(); name.addListener((observable, oldValue, newValue) -> { System.out.println(\"Name changed to \" + newValue); });",
+      "description": "Observer pattern for JavaFX properties",
+      "scenario": "Observer pattern for JavaFX properties",
+      "language": "java",
+      "tags": [
+        "observer",
+        "pattern",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class NodeFactory { public static Button createButton(String text) { Button button = new Button(text); // Additional configuration return button; } }",
+      "description": "Factory pattern for creating JavaFX nodes",
+      "scenario": "Factory pattern for creating JavaFX nodes",
+      "language": "java",
+      "tags": [
+        "factory",
+        "pattern",
+        "javafx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

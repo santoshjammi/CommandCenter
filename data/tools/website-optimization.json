@@ -1,0 +1,204 @@
+{
+  "title": "Website Optimization Cheat Sheet",
+  "slug": "website-optimization",
+  "description": "Key commands and snippets for optimizing website performance",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "jpegoptim --max=80 image.jpg",
+      "description": "Compress JPEG images using jpegoptim",
+      "scenario": "Compress JPEG images using jpegoptim",
+      "language": "bash",
+      "tags": [
+        "image",
+        "compression",
+        "jpeg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "optipng -o7 image.png",
+      "description": "Optimize PNG images using optipng",
+      "scenario": "Optimize PNG images using optipng",
+      "language": "bash",
+      "tags": [
+        "image",
+        "compression",
+        "png"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cwebp -q 80 image.png -o image.webp",
+      "description": "Convert images to WebP format using cwebp",
+      "scenario": "Convert images to WebP format using cwebp",
+      "language": "bash",
+      "tags": [
+        "image",
+        "webp",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx cssnano styles.css styles.min.css",
+      "description": "Minify a CSS file using cssnano",
+      "scenario": "Minify a CSS file using cssnano",
+      "language": "bash",
+      "tags": [
+        "css",
+        "minification",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "terser script.js -o script.min.js",
+      "description": "Minify a JavaScript file using terser",
+      "scenario": "Minify a JavaScript file using terser",
+      "language": "bash",
+      "tags": [
+        "javascript",
+        "minification",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "uglifyjs script.js -o script.min.js -c -m",
+      "description": "Use UglifyJS to minify JavaScript",
+      "scenario": "Use UglifyJS to minify JavaScript",
+      "language": "bash",
+      "tags": [
+        "javascript",
+        "uglifyjs",
+        "minification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<IfModule mod_headers.c>\n    <FilesMatch \"\\.(jpg|jpeg|png|gif|js|css|swf)$\">\n        Header set Cache-Control \"max-age=31536000, public\"\n    </FilesMatch>\n</IfModule>",
+      "description": "Set cache control headers in Apache",
+      "scenario": "Set cache control headers in Apache",
+      "language": "text",
+      "tags": [
+        "caching",
+        "apache",
+        "headers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "location ~* \\.(jpg|jpeg|png|gif|js|css|swf)$ {\n    expires 1y;\n    add_header Cache-Control \"public, no-transform\";\n}",
+      "description": "Set cache control headers in Nginx",
+      "scenario": "Set cache control headers in Nginx",
+      "language": "text",
+      "tags": [
+        "caching",
+        "nginx",
+        "headers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<IfModule mod_expires.c>\n    ExpiresActive On\n    ExpiresByType image/jpg \"access plus 1 year\"\n    ExpiresByType image/jpeg \"access plus 1 year\"\n</IfModule>",
+      "description": "Implement browser caching in .htaccess",
+      "scenario": "Implement browser caching in .htaccess",
+      "language": "text",
+      "tags": [
+        "caching",
+        "htaccess",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img src=\"image.jpg\" loading=\"lazy\" alt=\"Description\">",
+      "description": "Add lazy loading attribute to images in HTML",
+      "scenario": "Add lazy loading attribute to images in HTML",
+      "language": "html",
+      "tags": [
+        "lazy loading",
+        "images",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const images = document.querySelectorAll('img');\nconst observer = new IntersectionObserver((entries, observer) => {\n  entries.forEach(entry => {\n    if (entry.isIntersecting) {\n      const img = entry.target;\n      img.src = img.dataset.src;\n      observer.unobserve(img);\n    }\n  });\n});\nimages.forEach(img => {\n  observer.observe(img);\n});",
+      "description": "Implement lazy loading using Intersection Observer API",
+      "scenario": "Implement lazy loading using Intersection Observer API",
+      "language": "javascript",
+      "tags": [
+        "lazy loading",
+        "javascript",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$(function() {\n  $('img.lazy').lazyload();\n});",
+      "description": "Use a jQuery plugin for lazy loading",
+      "scenario": "Use a jQuery plugin for lazy loading",
+      "language": "javascript",
+      "tags": [
+        "lazy loading",
+        "jquery",
+        "images"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. Sign up for Cloudflare\n2. Add your site to Cloudflare\n3. Update your DNS nameservers to Cloudflare's\n4. Configure settings in Cloudflare dashboard",
+      "description": "Configure Cloudflare CDN for a website",
+      "scenario": "Configure Cloudflare CDN for a website",
+      "language": "text",
+      "tags": [
+        "cdn",
+        "cloudflare",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "1. Go to AWS CloudFront console\n2. Create a new distribution\n3. Select the origin domain\n4. Configure cache behavior and settings\n5. Deploy and update DNS settings",
+      "description": "Set up AWS CloudFront for a website",
+      "scenario": "Set up AWS CloudFront for a website",
+      "language": "text",
+      "tags": [
+        "cdn",
+        "aws",
+        "cloudfront"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "location / {\n    proxy_pass http://cdn.example.com;\n    proxy_set_header Host $host;\n    proxy_cache_bypass $http_upgrade;\n}",
+      "description": "Use a CDN with Nginx",
+      "scenario": "Use a CDN with Nginx",
+      "language": "text",
+      "tags": [
+        "cdn",
+        "nginx",
+        "proxy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

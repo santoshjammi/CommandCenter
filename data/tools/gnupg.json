@@ -1,0 +1,204 @@
+{
+  "title": "GnuPG Cheat Sheet",
+  "slug": "gnupg",
+  "description": "Essential GnuPG commands for encryption, decryption, and key management.",
+  "audience": "engineer",
+  "category": "Security",
+  "commands": [
+    {
+      "command": "gpg --full-generate-key",
+      "description": "Generate a new GPG key pair",
+      "scenario": "Generate a new GPG key pair",
+      "language": "bash",
+      "tags": [
+        "key",
+        "generate",
+        "gpg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --list-keys",
+      "description": "List all GPG keys in your keyring",
+      "scenario": "List all GPG keys in your keyring",
+      "language": "bash",
+      "tags": [
+        "key",
+        "list",
+        "gpg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --export -a 'user@example.com' > public.key",
+      "description": "Export a public key to a file",
+      "scenario": "Export a public key to a file",
+      "language": "bash",
+      "tags": [
+        "key",
+        "export",
+        "public"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --encrypt --recipient 'user@example.com' file.txt",
+      "description": "Encrypt a file with a recipient's public key",
+      "scenario": "Encrypt a file with a recipient's public key",
+      "language": "bash",
+      "tags": [
+        "encrypt",
+        "file",
+        "public"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --symmetric file.txt",
+      "description": "Encrypt a file symmetrically with a passphrase",
+      "scenario": "Encrypt a file symmetrically with a passphrase",
+      "language": "bash",
+      "tags": [
+        "encrypt",
+        "symmetric",
+        "passphrase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --encrypt --sign --recipient 'user@example.com' file.txt",
+      "description": "Encrypt a file and sign it with your private key",
+      "scenario": "Encrypt a file and sign it with your private key",
+      "language": "bash",
+      "tags": [
+        "encrypt",
+        "sign",
+        "private"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --decrypt file.txt.gpg",
+      "description": "Decrypt a file with your private key",
+      "scenario": "Decrypt a file with your private key",
+      "language": "bash",
+      "tags": [
+        "decrypt",
+        "file",
+        "private"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --decrypt file.txt.gpg",
+      "description": "Decrypt a symmetrically encrypted file",
+      "scenario": "Decrypt a symmetrically encrypted file",
+      "language": "bash",
+      "tags": [
+        "decrypt",
+        "symmetric",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --verify file.sig file.txt",
+      "description": "Verify a file's signature",
+      "scenario": "Verify a file's signature",
+      "language": "bash",
+      "tags": [
+        "verify",
+        "signature",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --sign file.txt",
+      "description": "Sign a file with your private key",
+      "scenario": "Sign a file with your private key",
+      "language": "bash",
+      "tags": [
+        "sign",
+        "file",
+        "private"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --detach-sign file.txt",
+      "description": "Create a detached signature for a file",
+      "scenario": "Create a detached signature for a file",
+      "language": "bash",
+      "tags": [
+        "sign",
+        "detached",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --clearsign file.txt",
+      "description": "Sign a file with a cleartext signature",
+      "scenario": "Sign a file with a cleartext signature",
+      "language": "bash",
+      "tags": [
+        "sign",
+        "cleartext",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --import public.key",
+      "description": "Import a public key from a file",
+      "scenario": "Import a public key from a file",
+      "language": "bash",
+      "tags": [
+        "import",
+        "key",
+        "public"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --export-secret-keys -a 'user@example.com' > private.key",
+      "description": "Export a private key to a file",
+      "scenario": "Export a private key to a file",
+      "language": "bash",
+      "tags": [
+        "export",
+        "key",
+        "private"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --recv-keys KEYID",
+      "description": "Receive a key from a keyserver",
+      "scenario": "Receive a key from a keyserver",
+      "language": "bash",
+      "tags": [
+        "receive",
+        "key",
+        "keyserver"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

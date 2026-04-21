@@ -1,0 +1,165 @@
+{
+  "title": "ATS Cheat Sheet",
+  "slug": "ats",
+  "description": "Quick reference guide for ATS CLI commands and configuration.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ats init my_project",
+      "description": "Initialize a new ATS project",
+      "scenario": "Initialize a new ATS project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ats build",
+      "description": "Build the ATS project",
+      "scenario": "Build the ATS project",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ats run",
+      "description": "Run the ATS project",
+      "scenario": "Run the ATS project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "project_name: my_ats_project",
+      "description": "Set the project name in ATS config",
+      "scenario": "Set the project name in ATS config",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ats_version: 1.2.3",
+      "description": "Specify the ATS version to use",
+      "scenario": "Specify the ATS version to use",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "version",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "output_dir: ./build",
+      "description": "Define build output directory",
+      "scenario": "Define build output directory",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "build",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ats clean",
+      "description": "Clean the build directory",
+      "scenario": "Clean the build directory",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "build",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ats watch",
+      "description": "Watch for file changes and rebuild",
+      "scenario": "Watch for file changes and rebuild",
+      "language": "bash",
+      "tags": [
+        "watch",
+        "rebuild",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ats test",
+      "description": "Run tests for the ATS project",
+      "scenario": "Run tests for the ATS project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fun add(x: int, y: int): int = x + y",
+      "description": "Pattern for defining a function in ATS",
+      "scenario": "Pattern for defining a function in ATS",
+      "language": "text",
+      "tags": [
+        "function",
+        "pattern",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for i in 0..10 do println(i)",
+      "description": "Pattern for a simple loop in ATS",
+      "scenario": "Pattern for a simple loop in ATS",
+      "language": "text",
+      "tags": [
+        "loop",
+        "iteration",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 0 then println(\"Positive\") else println(\"Non-positive\")",
+      "description": "Pattern for conditional statements in ATS",
+      "scenario": "Pattern for conditional statements in ATS",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "pattern",
+        "if-else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

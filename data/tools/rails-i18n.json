@@ -1,0 +1,165 @@
+{
+  "title": "Rails i18n Cheat Sheet",
+  "slug": "rails-i18n",
+  "description": "Quick reference for Rails internationalization (i18n) tasks.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "I18n.t('hello')",
+      "description": "Translate a string using the default locale",
+      "scenario": "Translate a string using the default locale",
+      "language": "ruby",
+      "tags": [
+        "translate",
+        "i18n",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I18n.locale = :fr",
+      "description": "Set the locale to French",
+      "scenario": "Set the locale to French",
+      "language": "ruby",
+      "tags": [
+        "locale",
+        "i18n",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I18n.locale",
+      "description": "Get the current locale",
+      "scenario": "Get the current locale",
+      "language": "ruby",
+      "tags": [
+        "locale",
+        "current",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "en:\n  hello: \"Hello\"",
+      "description": "Define a translation for a greeting in English",
+      "scenario": "Define a translation for a greeting in English",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "locale",
+        "translation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fr:\n  hello: \"Bonjour\"",
+      "description": "Define a translation for a greeting in French",
+      "scenario": "Define a translation for a greeting in French",
+      "language": "yaml",
+      "tags": [
+        "yaml",
+        "locale",
+        "translation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "en:\n  greetings:\n    morning: \"Good morning\"\n    evening: \"Good evening\"",
+      "description": "Organize translations under a namespace",
+      "scenario": "Organize translations under a namespace",
+      "language": "yaml",
+      "tags": [
+        "namespace",
+        "yaml",
+        "translation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I18n.t('greeting', name: 'John')",
+      "description": "Translate with a variable placeholder",
+      "scenario": "Translate with a variable placeholder",
+      "language": "ruby",
+      "tags": [
+        "interpolation",
+        "variables",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "en:\n  greeting: \"Hello, %{name}\"",
+      "description": "Define a translation with a variable",
+      "scenario": "Define a translation with a variable",
+      "language": "yaml",
+      "tags": [
+        "interpolation",
+        "yaml",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I18n.t('welcome', name: 'John', city: 'Paris')",
+      "description": "Translate with multiple variables",
+      "scenario": "Translate with multiple variables",
+      "language": "ruby",
+      "tags": [
+        "interpolation",
+        "variables",
+        "rails"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "en:\n  apple:\n    one: \"1 apple\"\n    other: \"%{count} apples\"",
+      "description": "Define pluralization rules in a locale file",
+      "scenario": "Define pluralization rules in a locale file",
+      "language": "yaml",
+      "tags": [
+        "pluralization",
+        "yaml",
+        "rules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "I18n.t('apple', count: 3)",
+      "description": "Translate with pluralization",
+      "scenario": "Translate with pluralization",
+      "language": "ruby",
+      "tags": [
+        "pluralization",
+        "rails",
+        "count"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "en:\n  apple:\n    zero: \"No apples\"\n    one: \"1 apple\"\n    other: \"%{count} apples\"",
+      "description": "Handle zero count in pluralization",
+      "scenario": "Handle zero count in pluralization",
+      "language": "yaml",
+      "tags": [
+        "pluralization",
+        "zero",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

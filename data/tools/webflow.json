@@ -1,0 +1,165 @@
+{
+  "title": "Webflow Cheat Sheet",
+  "slug": "webflow",
+  "description": "Quick reference for Webflow CLI commands and configuration",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "webflow init",
+      "description": "Initialize a new Webflow project",
+      "scenario": "Initialize a new Webflow project",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "webflow deploy",
+      "description": "Deploy the current project to Webflow",
+      "scenario": "Deploy the current project to Webflow",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "project",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "webflow serve",
+      "description": "Serve the project locally for development",
+      "scenario": "Serve the project locally for development",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "local",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Create a new collection and define fields in the CMS panel",
+      "description": "Create a new collection in Webflow CMS",
+      "scenario": "Create a new collection in Webflow CMS",
+      "language": "text",
+      "tags": [
+        "cms",
+        "collection",
+        "webflow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Insert an Embed element and paste custom HTML/JS",
+      "description": "Add a custom code block to a page",
+      "scenario": "Add a custom code block to a page",
+      "language": "text",
+      "tags": [
+        "custom",
+        "code",
+        "embed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select element > Interactions panel > Add animation",
+      "description": "Use interactions to animate elements",
+      "scenario": "Use interactions to animate elements",
+      "language": "text",
+      "tags": [
+        "interactions",
+        "animation",
+        "ui"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Go to Project Settings > Hosting > Add Custom Domain",
+      "description": "Set up a custom domain",
+      "scenario": "Set up a custom domain",
+      "language": "text",
+      "tags": [
+        "domain",
+        "custom",
+        "hosting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Project Settings > Hosting > Enable SSL",
+      "description": "Enable SSL for a project",
+      "scenario": "Enable SSL for a project",
+      "language": "text",
+      "tags": [
+        "ssl",
+        "security",
+        "hosting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Project Settings > Hosting > 301 Redirects > Add Redirect",
+      "description": "Configure 301 redirects",
+      "scenario": "Configure 301 redirects",
+      "language": "text",
+      "tags": [
+        "redirect",
+        "301",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<style>.custom-class { color: red; }</style>",
+      "description": "Add custom CSS to a page",
+      "scenario": "Add custom CSS to a page",
+      "language": "html",
+      "tags": [
+        "css",
+        "custom",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<iframe src=\"https://www.youtube.com/embed/VIDEO_ID\" frameborder=\"0\" allowfullscreen></iframe>",
+      "description": "Embed a YouTube video",
+      "scenario": "Embed a YouTube video",
+      "language": "html",
+      "tags": [
+        "embed",
+        "youtube",
+        "video"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID\"></script>",
+      "description": "Insert Google Analytics tracking code",
+      "scenario": "Insert Google Analytics tracking code",
+      "language": "html",
+      "tags": [
+        "analytics",
+        "tracking",
+        "google"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

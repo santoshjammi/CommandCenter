@@ -1,0 +1,165 @@
+{
+  "title": "Standard ML Cheat Sheet",
+  "slug": "standard-ml",
+  "description": "Essential Standard ML syntax and commands for functional programming.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "val x = 5;",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fun add (a, b) = a + b;",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "text",
+      "tags": [
+        "function",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if x > 0 then \"positive\" else \"non-positive\"",
+      "description": "Conditional expression",
+      "scenario": "Conditional expression",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "expression",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val numbers = [1, 2, 3, 4, 5];",
+      "description": "Define a list",
+      "scenario": "Define a list",
+      "language": "text",
+      "tags": [
+        "list",
+        "data type",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "val point = (10, 20);",
+      "description": "Define a tuple",
+      "scenario": "Define a tuple",
+      "language": "text",
+      "tags": [
+        "tuple",
+        "data type",
+        "pair"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fun isZero (0) = true | isZero (_) = false;",
+      "description": "Pattern matching with data types",
+      "scenario": "Pattern matching with data types",
+      "language": "text",
+      "tags": [
+        "pattern matching",
+        "data type",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "structure Math = struct val pi = 3.14 end;",
+      "description": "Define a structure",
+      "scenario": "Define a structure",
+      "language": "text",
+      "tags": [
+        "structure",
+        "module",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Math.pi",
+      "description": "Access a structure member",
+      "scenario": "Access a structure member",
+      "language": "text",
+      "tags": [
+        "structure",
+        "access",
+        "member"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open Math;",
+      "description": "Open a structure",
+      "scenario": "Open a structure",
+      "language": "text",
+      "tags": [
+        "structure",
+        "open",
+        "namespace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "while not (done()) do (process());",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "control",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fun repeat (n, f) = if n <= 0 then () else (f(); repeat(n-1, f));",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "control",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case x of 0 => \"zero\" | _ => \"non-zero\"",
+      "description": "Case expression",
+      "scenario": "Case expression",
+      "language": "text",
+      "tags": [
+        "case",
+        "control",
+        "expression"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

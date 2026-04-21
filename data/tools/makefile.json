@@ -1,0 +1,204 @@
+{
+  "title": "Makefile Cheat Sheet",
+  "slug": "makefile",
+  "description": "Essential commands and patterns for Makefile usage.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "make",
+      "description": "Run the default target in the Makefile",
+      "scenario": "Run the default target in the Makefile",
+      "language": "bash",
+      "tags": [
+        "make",
+        "default",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "make target_name",
+      "description": "Run a specific target in the Makefile",
+      "scenario": "Run a specific target in the Makefile",
+      "language": "bash",
+      "tags": [
+        "make",
+        "target",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "make help",
+      "description": "Display all available targets in the Makefile",
+      "scenario": "Display all available targets in the Makefile",
+      "language": "bash",
+      "tags": [
+        "make",
+        "help",
+        "targets"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CC=gcc",
+      "description": "Define a simple variable",
+      "scenario": "Define a simple variable",
+      "language": "text",
+      "tags": [
+        "variable",
+        "define",
+        "simple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$(CC) -o output source.c",
+      "description": "Use a variable in a command",
+      "scenario": "Use a variable in a command",
+      "language": "text",
+      "tags": [
+        "variable",
+        "use",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "make CC=clang",
+      "description": "Override a variable from the command line",
+      "scenario": "Override a variable from the command line",
+      "language": "bash",
+      "tags": [
+        "variable",
+        "override",
+        "command-line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "%.o: %.c\n\t$(CC) -c $< -o $@",
+      "description": "Define a pattern rule for compiling .c files to .o files",
+      "scenario": "Define a pattern rule for compiling .c files to .o files",
+      "language": "text",
+      "tags": [
+        "pattern",
+        "rule",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$<, $@, $^",
+      "description": "Use automatic variables in a pattern rule",
+      "scenario": "Use automatic variables in a pattern rule",
+      "language": "text",
+      "tags": [
+        "automatic",
+        "variables",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "clean:\n\trm -f *.o",
+      "description": "Define a pattern rule for cleaning up object files",
+      "scenario": "Define a pattern rule for cleaning up object files",
+      "language": "text",
+      "tags": [
+        "pattern",
+        "rule",
+        "clean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".PHONY: clean",
+      "description": "Declare a phony target to avoid conflicts with file names",
+      "scenario": "Declare a phony target to avoid conflicts with file names",
+      "language": "text",
+      "tags": [
+        "phony",
+        "target",
+        "declare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".PHONY: docs\n\ndocs:\n\tgenerate-docs",
+      "description": "Use a phony target for documentation generation",
+      "scenario": "Use a phony target for documentation generation",
+      "language": "text",
+      "tags": [
+        "phony",
+        "docs",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".PHONY: clean install",
+      "description": "Declare multiple phony targets",
+      "scenario": "Declare multiple phony targets",
+      "language": "text",
+      "tags": [
+        "phony",
+        "multiple",
+        "declare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifeq ($(CC),gcc)\n\tCC_FLAGS += -Wall\nendif",
+      "description": "Use ifeq for conditional execution",
+      "scenario": "Use ifeq for conditional execution",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "ifeq",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifneq ($(DEBUG),)\n\tCC_FLAGS += -g\nendif",
+      "description": "Use ifneq for conditional execution",
+      "scenario": "Use ifneq for conditional execution",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "ifneq",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifeq ($(OS),Windows_NT)\n\tRM = del\nelse\n\tRM = rm -f\nendif",
+      "description": "Use else in conditional execution",
+      "scenario": "Use else in conditional execution",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "else",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Jest Cheat Sheet",
+  "slug": "jest",
+  "description": "Quick reference for Jest testing framework commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "jest",
+      "description": "Run all tests",
+      "scenario": "Run all tests",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "test",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jest --coverage",
+      "description": "Run tests with coverage report",
+      "scenario": "Run tests with coverage report",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "coverage",
+        "report"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jest --watch",
+      "description": "Run tests in watch mode",
+      "scenario": "Run tests in watch mode",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "watch",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"jest\": {\n    \"testEnvironment\": \"node\"\n  }\n}",
+      "description": "Basic Jest configuration in package.json",
+      "scenario": "Basic Jest configuration in package.json",
+      "language": "json",
+      "tags": [
+        "config",
+        "package.json",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = {\n  testEnvironment: 'node',\n  verbose: true\n};",
+      "description": "Jest configuration file example",
+      "scenario": "Jest configuration file example",
+      "language": "javascript",
+      "tags": [
+        "config",
+        "file",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"jest\": {\n    \"transform\": {\n      \"^.+\\\\.jsx?$\": \"babel-jest\"\n    }\n  }\n}",
+      "description": "Configure Jest to transform ES6 modules",
+      "scenario": "Configure Jest to transform ES6 modules",
+      "language": "json",
+      "tags": [
+        "config",
+        "transform",
+        "babel"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jest.mock('moduleName');",
+      "description": "Mock a module",
+      "scenario": "Mock a module",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "module",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "beforeEach(() => {\n  // setup code\n});",
+      "description": "Use beforeEach to set up tests",
+      "scenario": "Use beforeEach to set up tests",
+      "language": "javascript",
+      "tags": [
+        "setup",
+        "beforeEach",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "test('async test', async () => {\n  const data = await asyncFunction();\n  expect(data).toBe('expected');\n});",
+      "description": "Test asynchronous code with async/await",
+      "scenario": "Test asynchronous code with async/await",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "await",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).toBe(expected);",
+      "description": "Basic equality assertion",
+      "scenario": "Basic equality assertion",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "equality",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(array).toContain(item);",
+      "description": "Check if array contains an item",
+      "scenario": "Check if array contains an item",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "array",
+        "contain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(() => function()).toThrow(Error);",
+      "description": "Assert that a function throws an error",
+      "scenario": "Assert that a function throws an error",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "error",
+        "throw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(component).toMatchSnapshot();",
+      "description": "Create a snapshot",
+      "scenario": "Create a snapshot",
+      "language": "javascript",
+      "tags": [
+        "snapshot",
+        "test",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jest --updateSnapshot",
+      "description": "Update all snapshots",
+      "scenario": "Update all snapshots",
+      "language": "bash",
+      "tags": [
+        "snapshot",
+        "update",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(component).toMatchInlineSnapshot();",
+      "description": "Test a component with inline snapshots",
+      "scenario": "Test a component with inline snapshots",
+      "language": "javascript",
+      "tags": [
+        "snapshot",
+        "inline",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

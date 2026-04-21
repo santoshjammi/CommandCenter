@@ -1,0 +1,165 @@
+{
+  "title": "ncftp Cheat Sheet",
+  "slug": "ncftp",
+  "description": "Quick reference for ncftp CLI commands and usage patterns.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ncftp ftp.example.com",
+      "description": "Open an FTP session to a remote host",
+      "scenario": "Open an FTP session to a remote host",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "ftp",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "get remote-file.txt",
+      "description": "Download a file from the remote server",
+      "scenario": "Download a file from the remote server",
+      "language": "bash",
+      "tags": [
+        "download",
+        "file",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "put local-file.txt",
+      "description": "Upload a file to the remote server",
+      "scenario": "Upload a file to the remote server",
+      "language": "bash",
+      "tags": [
+        "upload",
+        "file",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd /path/to/directory",
+      "description": "Change the current directory on the remote server",
+      "scenario": "Change the current directory on the remote server",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "change",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls",
+      "description": "List files in the current directory on the remote server",
+      "scenario": "List files in the current directory on the remote server",
+      "language": "bash",
+      "tags": [
+        "list",
+        "directory",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mkdir new-directory",
+      "description": "Create a new directory on the remote server",
+      "scenario": "Create a new directory on the remote server",
+      "language": "bash",
+      "tags": [
+        "create",
+        "directory",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "delete remote-file.txt",
+      "description": "Delete a file from the remote server",
+      "scenario": "Delete a file from the remote server",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "file",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rename oldname.txt newname.txt",
+      "description": "Rename a file on the remote server",
+      "scenario": "Rename a file on the remote server",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "file",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "size remote-file.txt",
+      "description": "Check the size of a file on the remote server",
+      "scenario": "Check the size of a file on the remote server",
+      "language": "bash",
+      "tags": [
+        "size",
+        "file",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set passive on",
+      "description": "Use passive mode for data transfers",
+      "scenario": "Use passive mode for data transfers",
+      "language": "bash",
+      "tags": [
+        "passive",
+        "mode",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set verbose on",
+      "description": "Enable verbose mode for detailed output",
+      "scenario": "Enable verbose mode for detailed output",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "output",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set type binary",
+      "description": "Set the transfer type to binary",
+      "scenario": "Set the transfer type to binary",
+      "language": "bash",
+      "tags": [
+        "binary",
+        "transfer",
+        "ftp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

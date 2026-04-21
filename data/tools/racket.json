@@ -1,0 +1,204 @@
+{
+  "title": "Racket Cheat Sheet",
+  "slug": "racket",
+  "description": "Essential Racket commands and syntax for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(define x 10)",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "racket",
+      "tags": [
+        "define",
+        "variable",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(define (square x) (* x x))",
+      "description": "Create a function",
+      "scenario": "Create a function",
+      "language": "racket",
+      "tags": [
+        "function",
+        "define",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(if (> x 5) \"Greater\" \"Lesser\")",
+      "description": "Conditional expression",
+      "scenario": "Conditional expression",
+      "language": "racket",
+      "tags": [
+        "conditional",
+        "if",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(define my-list '(1 2 3 4))",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "racket",
+      "tags": [
+        "list",
+        "define",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(car my-list)",
+      "description": "Get the first element of a list",
+      "scenario": "Get the first element of a list",
+      "language": "racket",
+      "tags": [
+        "list",
+        "car",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(cdr my-list)",
+      "description": "Get the rest of the list",
+      "scenario": "Get the rest of the list",
+      "language": "racket",
+      "tags": [
+        "list",
+        "cdr",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(for ([i (in-range 5)]) (displayln i))",
+      "description": "Simple for loop",
+      "scenario": "Simple for loop",
+      "language": "racket",
+      "tags": [
+        "loop",
+        "for",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(let loop ((i 0)) (when (< i 5) (displayln i) (loop (+ i 1))))",
+      "description": "While loop equivalent",
+      "scenario": "While loop equivalent",
+      "language": "racket",
+      "tags": [
+        "loop",
+        "while",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(map (lambda (x) (* x x)) '(1 2 3 4))",
+      "description": "Map over a list",
+      "scenario": "Map over a list",
+      "language": "racket",
+      "tags": [
+        "map",
+        "list",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-input-from-file \"file.txt\" (lambda () (read)))",
+      "description": "Read from a file",
+      "scenario": "Read from a file",
+      "language": "racket",
+      "tags": [
+        "file",
+        "read",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-output-to-file \"file.txt\" (lambda () (display \"Hello World\")))",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "racket",
+      "tags": [
+        "file",
+        "write",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(file-exists? \"file.txt\")",
+      "description": "Check if a file exists",
+      "scenario": "Check if a file exists",
+      "language": "racket",
+      "tags": [
+        "file",
+        "exists",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-handlers ([exn:fail? (lambda (e) (displayln (exn-message e)))]) (error \"An error occurred\"))",
+      "description": "Basic error handling with `with-handlers`",
+      "scenario": "Basic error handling with `with-handlers`",
+      "language": "racket",
+      "tags": [
+        "error",
+        "handling",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(error \"This is an error message\")",
+      "description": "Raise an error",
+      "scenario": "Raise an error",
+      "language": "racket",
+      "tags": [
+        "error",
+        "raise",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "(with-handlers ([exn:fail:contract? (lambda (e) (displayln \"Contract error\"))]) (error \"Contract error\"))",
+      "description": "Catch specific exceptions",
+      "scenario": "Catch specific exceptions",
+      "language": "racket",
+      "tags": [
+        "error",
+        "exception",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

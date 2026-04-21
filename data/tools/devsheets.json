@@ -1,0 +1,204 @@
+{
+  "title": "DevSheets",
+  "slug": "devsheets",
+  "description": "Essential CLI commands and code snippets for developers",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git clone https://github.com/user/repo.git",
+      "description": "Clone a repository from GitHub",
+      "scenario": "Clone a repository from GitHub",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git add .",
+      "description": "Stage all changes for commit",
+      "scenario": "Stage all changes for commit",
+      "language": "bash",
+      "tags": [
+        "git",
+        "stage",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Your commit message\"",
+      "description": "Commit changes with a message",
+      "scenario": "Commit changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker build -t my-image:latest .",
+      "description": "Build a Docker image from a Dockerfile",
+      "scenario": "Build a Docker image from a Dockerfile",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "build",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker run -d -p 80:80 my-image:latest",
+      "description": "Run a Docker container from an image",
+      "scenario": "Run a Docker container from an image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "run",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker ps",
+      "description": "List all running Docker containers",
+      "scenario": "List all running Docker containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "list",
+        "containers"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_function(param1, param2):\n    return param1 + param2",
+      "description": "Define a function in Python",
+      "scenario": "Define a function in Python",
+      "language": "python",
+      "tags": [
+        "python",
+        "function",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "squared_numbers = [x**2 for x in range(10)]",
+      "description": "Create a list comprehension",
+      "scenario": "Create a list comprehension",
+      "language": "python",
+      "tags": [
+        "python",
+        "list",
+        "comprehension"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "with open('file.txt', 'r') as file:\n    content = file.read()",
+      "description": "Open and read a file",
+      "scenario": "Open and read a file",
+      "language": "python",
+      "tags": [
+        "python",
+        "file",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM table_name;",
+      "description": "Select all columns from a table",
+      "scenario": "Select all columns from a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "select",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+      "description": "Insert a new row into a table",
+      "scenario": "Insert a new row into a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "insert",
+        "row"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "UPDATE table_name SET column1 = value1 WHERE condition;",
+      "description": "Update existing records in a table",
+      "scenario": "Update existing records in a table",
+      "language": "sql",
+      "tags": [
+        "sql",
+        "update",
+        "records"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cd -",
+      "description": "Navigate to the previous directory",
+      "scenario": "Navigate to the previous directory",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "navigate",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ls -la",
+      "description": "List files with detailed information",
+      "scenario": "List files with detailed information",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "list",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find . -name \"filename\"",
+      "description": "Find files by name",
+      "scenario": "Find files by name",
+      "language": "bash",
+      "tags": [
+        "bash",
+        "find",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

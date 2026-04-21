@@ -1,0 +1,204 @@
+{
+  "title": "ReScript Cheat Sheet",
+  "slug": "rescript",
+  "description": "Quick reference for ReScript syntax and commands",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let add = (a, b) => a + b",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "rescript",
+      "tags": [
+        "function",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let name = \"ReScript\"",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "rescript",
+      "tags": [
+        "variable",
+        "declare",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch myValue {\n| Some(x) => x\n| None => 0\n}",
+      "description": "Pattern matching example",
+      "scenario": "Pattern matching example",
+      "language": "rescript",
+      "tags": [
+        "pattern matching",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let myList = [1, 2, 3, 4]",
+      "description": "Define a list",
+      "scenario": "Define a list",
+      "language": "rescript",
+      "tags": [
+        "list",
+        "data structure",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let myTuple = (\"hello\", 42)",
+      "description": "Define a tuple",
+      "scenario": "Define a tuple",
+      "language": "rescript",
+      "tags": [
+        "tuple",
+        "data structure",
+        "pair"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "type person = {name: string, age: int}\nlet john = {name: \"John\", age: 30}",
+      "description": "Define a record",
+      "scenario": "Define a record",
+      "language": "rescript",
+      "tags": [
+        "record",
+        "data structure",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (x > 10) {\n  \"Greater\"\n} else {\n  \"Smaller\"\n}",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "rescript",
+      "tags": [
+        "control flow",
+        "if-else",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i in 0 to 10) {\n  Js.log(i)\n}",
+      "description": "For loop example",
+      "scenario": "For loop example",
+      "language": "rescript",
+      "tags": [
+        "loop",
+        "iteration",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let rec loop = (n) => {\n  if (n > 0) {\n    Js.log(n)\n    loop(n - 1)\n  }\n}",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "rescript",
+      "tags": [
+        "loop",
+        "recursion",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module Math = {\n  let add = (x, y) => x + y\n}",
+      "description": "Define a module",
+      "scenario": "Define a module",
+      "language": "rescript",
+      "tags": [
+        "module",
+        "define",
+        "namespace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "open Math\nlet result = add(2, 3)",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "rescript",
+      "tags": [
+        "module",
+        "import",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "module.exports = {\n  add\n}",
+      "description": "Export a module",
+      "scenario": "Export a module",
+      "language": "rescript",
+      "tags": [
+        "module",
+        "export",
+        "namespace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx rescript init",
+      "description": "Initialize a new ReScript project",
+      "scenario": "Initialize a new ReScript project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "initialize",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx rescript build",
+      "description": "Build ReScript files",
+      "scenario": "Build ReScript files",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "build",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx rescript build -w",
+      "description": "Watch files for changes and rebuild",
+      "scenario": "Watch files for changes and rebuild",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "watch",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

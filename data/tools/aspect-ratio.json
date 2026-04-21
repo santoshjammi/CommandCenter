@@ -1,0 +1,165 @@
+{
+  "title": "Aspect Ratio Cheat Sheet",
+  "slug": "aspect-ratio",
+  "description": "Quick reference for handling aspect ratios in CSS and HTML.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "element { aspect-ratio: 16 / 9; }",
+      "description": "Set aspect ratio using the aspect-ratio property",
+      "scenario": "Set aspect ratio using the aspect-ratio property",
+      "language": "css",
+      "tags": [
+        "css",
+        "aspect-ratio",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".aspect-ratio-box { position: relative; width: 100%; padding-top: 56.25%; }",
+      "description": "Maintain aspect ratio with padding hack",
+      "scenario": "Maintain aspect ratio with padding hack",
+      "language": "css",
+      "tags": [
+        "css",
+        "aspect-ratio",
+        "padding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".grid-item { aspect-ratio: 1 / 1; }",
+      "description": "Use aspect-ratio with grid items",
+      "scenario": "Use aspect-ratio with grid items",
+      "language": "css",
+      "tags": [
+        "css",
+        "grid",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<iframe src=\"video.mp4\" style=\"aspect-ratio: 16/9;\"></iframe>",
+      "description": "Set aspect ratio for an iframe",
+      "scenario": "Set aspect ratio for an iframe",
+      "language": "html",
+      "tags": [
+        "html",
+        "iframe",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img src=\"image.jpg\" style=\"aspect-ratio: 4/3; width: 100%;\">",
+      "description": "Maintain aspect ratio for images",
+      "scenario": "Maintain aspect ratio for images",
+      "language": "html",
+      "tags": [
+        "html",
+        "image",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<video style=\"aspect-ratio: 16/9;\" controls><source src=\"movie.mp4\" type=\"video/mp4\"></video>",
+      "description": "Use aspect ratio in a video tag",
+      "scenario": "Use aspect ratio in a video tag",
+      "language": "html",
+      "tags": [
+        "html",
+        "video",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const aspectRatio = element.offsetWidth / element.offsetHeight;",
+      "description": "Calculate aspect ratio of an element",
+      "scenario": "Calculate aspect ratio of an element",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "aspect-ratio",
+        "calculation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.style.aspectRatio = `${width} / ${height}`;",
+      "description": "Set aspect ratio dynamically",
+      "scenario": "Set aspect ratio dynamically",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "dynamic",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.style.height = `${element.offsetWidth / aspectRatio}px`;",
+      "description": "Adjust element size maintaining aspect ratio",
+      "scenario": "Adjust element size maintaining aspect ratio",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "resize",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img src=\"image.jpg\" style=\"width: 100%; aspect-ratio: 16/9;\">",
+      "description": "Responsive image with aspect ratio",
+      "scenario": "Responsive image with aspect ratio",
+      "language": "html",
+      "tags": [
+        "responsive",
+        "image",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<video style=\"width: 100%; aspect-ratio: 4/3;\" controls><source src=\"video.mp4\" type=\"video/mp4\"></video>",
+      "description": "Responsive video with aspect ratio",
+      "scenario": "Responsive video with aspect ratio",
+      "language": "html",
+      "tags": [
+        "responsive",
+        "video",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".responsive-div { width: 100%; aspect-ratio: 1 / 1; }",
+      "description": "Responsive div with aspect ratio",
+      "scenario": "Responsive div with aspect ratio",
+      "language": "css",
+      "tags": [
+        "responsive",
+        "div",
+        "aspect-ratio"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

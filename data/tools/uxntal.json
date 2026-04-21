@@ -1,0 +1,204 @@
+{
+  "title": "Uxntal Cheat Sheet",
+  "slug": "uxntal",
+  "description": "Essential Uxntal commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "@label",
+      "description": "Define a label in Uxntal",
+      "scenario": "Define a label in Uxntal",
+      "language": "text",
+      "tags": [
+        "label",
+        "definition",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LIT2 0x10",
+      "description": "Push a literal value onto the stack",
+      "scenario": "Push a literal value onto the stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "literal",
+        "push"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "JNZ @label",
+      "description": "Jump to a label if the top of the stack is zero",
+      "scenario": "Jump to a label if the top of the stack is zero",
+      "language": "text",
+      "tags": [
+        "jump",
+        "conditional",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SWP",
+      "description": "Swap the top two items on the stack",
+      "scenario": "Swap the top two items on the stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "swap",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DUP",
+      "description": "Duplicate the top item on the stack",
+      "scenario": "Duplicate the top item on the stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "duplicate",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POP",
+      "description": "Drop the top item from the stack",
+      "scenario": "Drop the top item from the stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "drop",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ADD",
+      "description": "Add the top two items on the stack",
+      "scenario": "Add the top two items on the stack",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "add",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SUB",
+      "description": "Subtract the top item from the second item on the stack",
+      "scenario": "Subtract the top item from the second item on the stack",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "subtract",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MUL",
+      "description": "Multiply the top two items on the stack",
+      "scenario": "Multiply the top two items on the stack",
+      "language": "text",
+      "tags": [
+        "arithmetic",
+        "multiply",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "AND",
+      "description": "Logical AND the top two items on the stack",
+      "scenario": "Logical AND the top two items on the stack",
+      "language": "text",
+      "tags": [
+        "logical",
+        "and",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OR",
+      "description": "Logical OR the top two items on the stack",
+      "scenario": "Logical OR the top two items on the stack",
+      "language": "text",
+      "tags": [
+        "logical",
+        "or",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "NOT",
+      "description": "Logical NOT the top item on the stack",
+      "scenario": "Logical NOT the top item on the stack",
+      "language": "text",
+      "tags": [
+        "logical",
+        "not",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LDA",
+      "description": "Load a value from memory into the stack",
+      "scenario": "Load a value from memory into the stack",
+      "language": "text",
+      "tags": [
+        "memory",
+        "load",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "STA",
+      "description": "Store the top stack value into memory",
+      "scenario": "Store the top stack value into memory",
+      "language": "text",
+      "tags": [
+        "memory",
+        "store",
+        "stack"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "INC",
+      "description": "Increment a memory address",
+      "scenario": "Increment a memory address",
+      "language": "text",
+      "tags": [
+        "memory",
+        "increment",
+        "address"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

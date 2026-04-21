@@ -1,0 +1,165 @@
+{
+  "title": "Bun CLI Cheat Sheet",
+  "slug": "bun",
+  "description": "Essential commands and patterns for using Bun, the fast JavaScript runtime.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "bun init",
+      "description": "Initialize a new Bun project",
+      "scenario": "Initialize a new Bun project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun run <file>.js",
+      "description": "Run a JavaScript file with Bun",
+      "scenario": "Run a JavaScript file with Bun",
+      "language": "bash",
+      "tags": [
+        "run",
+        "javascript",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun install",
+      "description": "Install dependencies from package.json",
+      "scenario": "Install dependencies from package.json",
+      "language": "bash",
+      "tags": [
+        "install",
+        "dependencies",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun add <package-name>",
+      "description": "Add a new package to the project",
+      "scenario": "Add a new package to the project",
+      "language": "bash",
+      "tags": [
+        "add",
+        "package",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun remove <package-name>",
+      "description": "Remove a package from the project",
+      "scenario": "Remove a package from the project",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "package",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun upgrade",
+      "description": "Upgrade all packages to their latest versions",
+      "scenario": "Upgrade all packages to their latest versions",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "packages",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun config set <key> <value>",
+      "description": "Set a configuration option for Bun",
+      "scenario": "Set a configuration option for Bun",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "option"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun config get <key>",
+      "description": "Get the value of a Bun configuration option",
+      "scenario": "Get the value of a Bun configuration option",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "option"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun config delete <key>",
+      "description": "Delete a configuration option in Bun",
+      "scenario": "Delete a configuration option in Bun",
+      "language": "bash",
+      "tags": [
+        "config",
+        "delete",
+        "option"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun dev",
+      "description": "Start a development server with Bun",
+      "scenario": "Start a development server with Bun",
+      "language": "bash",
+      "tags": [
+        "dev",
+        "server",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun test",
+      "description": "Run tests using Bun",
+      "scenario": "Run tests using Bun",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bun build",
+      "description": "Build the project for production",
+      "scenario": "Build the project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

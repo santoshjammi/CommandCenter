@@ -1,0 +1,165 @@
+{
+  "title": "Forth Cheat Sheet",
+  "slug": "forth",
+  "description": "Essential Forth commands and syntax for quick reference.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "5",
+      "description": "Push a number onto the stack",
+      "scenario": "Push a number onto the stack",
+      "language": "forth",
+      "tags": [
+        "stack",
+        "push",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "+",
+      "description": "Add the top two numbers on the stack",
+      "scenario": "Add the top two numbers on the stack",
+      "language": "forth",
+      "tags": [
+        "stack",
+        "addition",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "swap",
+      "description": "Swap the top two numbers on the stack",
+      "scenario": "Swap the top two numbers on the stack",
+      "language": "forth",
+      "tags": [
+        "stack",
+        "swap",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ": square dup * ;",
+      "description": "Define a new word",
+      "scenario": "Define a new word",
+      "language": "forth",
+      "tags": [
+        "definition",
+        "word",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ": hello .\" Hello, World!\" ;",
+      "description": "Define a word that prints 'Hello, World!'",
+      "scenario": "Define a word that prints 'Hello, World!'",
+      "language": "forth",
+      "tags": [
+        "definition",
+        "print",
+        "hello world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ": factorial dup 1 <= if drop 1 else dup 1 - recurse * then ;",
+      "description": "Define a word that calculates the factorial",
+      "scenario": "Define a word that calculates the factorial",
+      "language": "forth",
+      "tags": [
+        "definition",
+        "factorial",
+        "recursion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if ... else ... then",
+      "description": "Conditional execution with if-else",
+      "scenario": "Conditional execution with if-else",
+      "language": "forth",
+      "tags": [
+        "conditional",
+        "control",
+        "if-else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "do ... loop",
+      "description": "Loop with a fixed number of iterations",
+      "scenario": "Loop with a fixed number of iterations",
+      "language": "forth",
+      "tags": [
+        "loop",
+        "iteration",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "begin ... until",
+      "description": "Begin a loop that continues until a condition is met",
+      "scenario": "Begin a loop that continues until a condition is met",
+      "language": "forth",
+      "tags": [
+        "loop",
+        "conditional",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "variable x 10 x !",
+      "description": "Store a value in a variable",
+      "scenario": "Store a value in a variable",
+      "language": "forth",
+      "tags": [
+        "memory",
+        "store",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x @",
+      "description": "Fetch a value from a variable",
+      "scenario": "Fetch a value from a variable",
+      "language": "forth",
+      "tags": [
+        "memory",
+        "fetch",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "create array 10 cells allot",
+      "description": "Allocate memory for an array",
+      "scenario": "Allocate memory for an array",
+      "language": "forth",
+      "tags": [
+        "memory",
+        "array",
+        "allocation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

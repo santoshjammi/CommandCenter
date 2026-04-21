@@ -1,0 +1,165 @@
+{
+  "title": "Zombie Process Management",
+  "slug": "zombie",
+  "description": "Manage and handle zombie processes in Unix-like systems.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ps aux | grep 'Z'",
+      "description": "List all zombie processes on the system.",
+      "scenario": "List all zombie processes on the system.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "process",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Display process status including zombie processes.",
+      "scenario": "Display process status including zombie processes.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "process",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ps -el | grep 'Z'",
+      "description": "Find zombie processes using their state code.",
+      "scenario": "Find zombie processes using their state code.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "process",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill -s SIGCHLD <parent_pid>",
+      "description": "Send SIGCHLD signal to parent process to clean up zombies.",
+      "scenario": "Send SIGCHLD signal to parent process to clean up zombies.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "signal",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "kill -9 <parent_pid>",
+      "description": "Forcefully terminate the parent process of zombies.",
+      "scenario": "Forcefully terminate the parent process of zombies.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "terminate",
+        "parent"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wait <child_pid>",
+      "description": "Use 'wait' command in a script to handle child processes.",
+      "scenario": "Use 'wait' command in a script to handle child processes.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "wait",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "signal(SIGCHLD, SIG_IGN);",
+      "description": "Use signal handler in C to reap child processes.",
+      "scenario": "Use signal handler in C to reap child processes.",
+      "language": "c",
+      "tags": [
+        "zombie",
+        "signal",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (fork() == 0) { if (fork() > 0) exit(0); /* child code */ }",
+      "description": "Use double-fork technique to prevent zombies.",
+      "scenario": "Use double-fork technique to prevent zombies.",
+      "language": "c",
+      "tags": [
+        "zombie",
+        "fork",
+        "child"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "os.setpgrp()",
+      "description": "Set child process to be reaped automatically in Python.",
+      "scenario": "Set child process to be reaped automatically in Python.",
+      "language": "python",
+      "tags": [
+        "zombie",
+        "python",
+        "reap"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "htop",
+      "description": "Use 'htop' to visually monitor processes including zombies.",
+      "scenario": "Use 'htop' to visually monitor processes including zombies.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "monitor",
+        "htop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dmesg | grep zombie",
+      "description": "Check system logs for zombie process information.",
+      "scenario": "Check system logs for zombie process information.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "logs",
+        "dmesg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watch -n 2 'ps aux | grep Z'",
+      "description": "Use 'watch' to repeatedly execute a command to monitor zombies.",
+      "scenario": "Use 'watch' to repeatedly execute a command to monitor zombies.",
+      "language": "bash",
+      "tags": [
+        "zombie",
+        "watch",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

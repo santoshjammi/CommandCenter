@@ -1,0 +1,165 @@
+{
+  "title": "Q.js Cheat Sheet",
+  "slug": "qjs",
+  "description": "Essential Q.js commands and patterns for efficient development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "qjs init myProject",
+      "description": "Initialize a new Q.js project",
+      "scenario": "Initialize a new Q.js project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qjs serve",
+      "description": "Run the Q.js development server",
+      "scenario": "Run the Q.js development server",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "development",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qjs build",
+      "description": "Build the Q.js project for production",
+      "scenario": "Build the Q.js project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "apiEndpoint: 'https://api.example.com'",
+      "description": "Set the API endpoint in Q.js config",
+      "scenario": "Set the API endpoint in Q.js config",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "api",
+        "endpoint"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "debug: true",
+      "description": "Enable debug mode in Q.js",
+      "scenario": "Enable debug mode in Q.js",
+      "language": "yaml",
+      "tags": [
+        "debug",
+        "config",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "port: 8080",
+      "description": "Specify the port for the Q.js server",
+      "scenario": "Specify the port for the Q.js server",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "server",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qjs create component MyComponent",
+      "description": "Create a new Q.js component",
+      "scenario": "Create a new Q.js component",
+      "language": "bash",
+      "tags": [
+        "component",
+        "create",
+        "scaffold"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const [state, setState] = useQHook(initialValue);",
+      "description": "Use a Q.js hook in a component",
+      "scenario": "Use a Q.js hook in a component",
+      "language": "javascript",
+      "tags": [
+        "hook",
+        "state",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dispatch({ type: 'ACTION_TYPE', payload: data });",
+      "description": "Dispatch an action in Q.js",
+      "scenario": "Dispatch an action in Q.js",
+      "language": "javascript",
+      "tags": [
+        "action",
+        "dispatch",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qjs serve --verbose",
+      "description": "Run Q.js server with verbose logging",
+      "scenario": "Run Q.js server with verbose logging",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "logging",
+        "serve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qjs build --minify",
+      "description": "Build Q.js project with minification",
+      "scenario": "Build Q.js project with minification",
+      "language": "bash",
+      "tags": [
+        "build",
+        "minify",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "qjs serve --host 0.0.0.0",
+      "description": "Start Q.js server on a custom host",
+      "scenario": "Start Q.js server on a custom host",
+      "language": "bash",
+      "tags": [
+        "host",
+        "serve",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

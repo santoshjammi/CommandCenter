@@ -1,0 +1,204 @@
+{
+  "title": "Vue.js Cheat Sheet",
+  "slug": "vue",
+  "description": "Essential Vue.js commands, syntax, and patterns for developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "vue create my-project",
+      "description": "Create a new Vue.js project using Vue CLI",
+      "scenario": "Create a new Vue.js project using Vue CLI",
+      "language": "bash",
+      "tags": [
+        "vue",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run serve",
+      "description": "Serve a Vue.js project locally",
+      "scenario": "Serve a Vue.js project locally",
+      "language": "bash",
+      "tags": [
+        "vue",
+        "serve",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run build",
+      "description": "Build a Vue.js project for production",
+      "scenario": "Build a Vue.js project for production",
+      "language": "bash",
+      "tags": [
+        "vue",
+        "build",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Vue.component('my-component', { template: '<div>Hello World</div>' })",
+      "description": "Define a new Vue component",
+      "scenario": "Define a new Vue component",
+      "language": "javascript",
+      "tags": [
+        "vue",
+        "component",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new Vue({ components: { 'my-component': MyComponent } })",
+      "description": "Register a local component in a Vue instance",
+      "scenario": "Register a local component in a Vue instance",
+      "language": "javascript",
+      "tags": [
+        "vue",
+        "component",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<my-component></my-component>",
+      "description": "Use a component in a template",
+      "scenario": "Use a component in a template",
+      "language": "html",
+      "tags": [
+        "vue",
+        "component",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div v-if=\"isVisible\">Visible Content</div>",
+      "description": "Use v-if directive for conditional rendering",
+      "scenario": "Use v-if directive for conditional rendering",
+      "language": "html",
+      "tags": [
+        "vue",
+        "directive",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<li v-for=\"item in items\" :key=\"item.id\">{{ item.name }}</li>",
+      "description": "Use v-for directive for list rendering",
+      "scenario": "Use v-for directive for list rendering",
+      "language": "html",
+      "tags": [
+        "vue",
+        "directive",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img v-bind:src=\"imageSrc\" alt=\"Image\">",
+      "description": "Use v-bind directive to bind attributes",
+      "scenario": "Use v-bind directive to bind attributes",
+      "language": "html",
+      "tags": [
+        "vue",
+        "directive",
+        "bind"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button v-on:click=\"handleClick\">Click Me</button>",
+      "description": "Attach a click event handler using v-on",
+      "scenario": "Attach a click event handler using v-on",
+      "language": "html",
+      "tags": [
+        "vue",
+        "event",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button @click=\"handleClick\">Click Me</button>",
+      "description": "Shorthand for v-on using @ symbol",
+      "scenario": "Shorthand for v-on using @ symbol",
+      "language": "html",
+      "tags": [
+        "vue",
+        "event",
+        "shorthand"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button @click=\"handleClick($event)\">Click Me</button>",
+      "description": "Pass event object to a method",
+      "scenario": "Pass event object to a method",
+      "language": "html",
+      "tags": [
+        "vue",
+        "event",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "computed: { fullName() { return this.firstName + ' ' + this.lastName; } }",
+      "description": "Define a computed property in a Vue instance",
+      "scenario": "Define a computed property in a Vue instance",
+      "language": "javascript",
+      "tags": [
+        "vue",
+        "computed",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p>{{ fullName }}</p>",
+      "description": "Use a computed property in a template",
+      "scenario": "Use a computed property in a template",
+      "language": "html",
+      "tags": [
+        "vue",
+        "computed",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watch: { fullName(newValue, oldValue) { console.log(newValue); } }",
+      "description": "Watch a computed property for changes",
+      "scenario": "Watch a computed property for changes",
+      "language": "javascript",
+      "tags": [
+        "vue",
+        "computed",
+        "watch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

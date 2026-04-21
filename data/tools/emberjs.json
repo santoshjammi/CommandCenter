@@ -1,0 +1,204 @@
+{
+  "title": "Ember.js Cheat Sheet",
+  "slug": "emberjs",
+  "description": "Quick reference for Ember.js CLI commands and code patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "ember new my-app",
+      "description": "Create a new Ember.js application",
+      "scenario": "Create a new Ember.js application",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "create",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ember serve",
+      "description": "Serve the application locally",
+      "scenario": "Serve the application locally",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "serve",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ember generate component my-component",
+      "description": "Generate a new component",
+      "scenario": "Generate a new component",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "generate",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.route('about');",
+      "description": "Define a basic route",
+      "scenario": "Define a basic route",
+      "language": "javascript",
+      "tags": [
+        "routing",
+        "define",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.transitionTo('home');",
+      "description": "Redirect from one route to another",
+      "scenario": "Redirect from one route to another",
+      "language": "javascript",
+      "tags": [
+        "routing",
+        "redirect",
+        "transition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.route('post', { path: '/post/:post_id' });",
+      "description": "Define a dynamic segment in a route",
+      "scenario": "Define a dynamic segment in a route",
+      "language": "javascript",
+      "tags": [
+        "routing",
+        "dynamic",
+        "segment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<h1>Hello, {{@name}}!</h1>",
+      "description": "Create a basic component template",
+      "scenario": "Create a basic component template",
+      "language": "html",
+      "tags": [
+        "component",
+        "template",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<MyComponent @name=\"World\" />",
+      "description": "Pass arguments to a component",
+      "scenario": "Pass arguments to a component",
+      "language": "html",
+      "tags": [
+        "component",
+        "arguments",
+        "pass"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import Component from '@glimmer/component';\n\nexport default class MyComponent extends Component {\n  // component logic\n}",
+      "description": "Define a component class",
+      "scenario": "Define a component class",
+      "language": "javascript",
+      "tags": [
+        "component",
+        "class",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@service myService;",
+      "description": "Inject a service into a component",
+      "scenario": "Inject a service into a component",
+      "language": "javascript",
+      "tags": [
+        "service",
+        "inject",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ember generate service my-service",
+      "description": "Define a new service",
+      "scenario": "Define a new service",
+      "language": "bash",
+      "tags": [
+        "service",
+        "generate",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.myService.someMethod();",
+      "description": "Access a service in a route",
+      "scenario": "Access a service in a route",
+      "language": "javascript",
+      "tags": [
+        "service",
+        "access",
+        "route"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import Model, { attr } from '@ember-data/model';\n\nexport default class PostModel extends Model {\n  @attr title;\n  @attr content;\n}",
+      "description": "Define a model with attributes",
+      "scenario": "Define a model with attributes",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "define",
+        "attributes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.store.findRecord('post', 1);",
+      "description": "Find a record by ID",
+      "scenario": "Find a record by ID",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "find",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let newPost = this.store.createRecord('post', {\n  title: 'New Post',\n  content: 'Content of the new post'\n});\nnewPost.save();",
+      "description": "Save a new record",
+      "scenario": "Save a new record",
+      "language": "javascript",
+      "tags": [
+        "model",
+        "save",
+        "record"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

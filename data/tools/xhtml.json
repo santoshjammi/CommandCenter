@@ -1,0 +1,204 @@
+{
+  "title": "XHTML Cheat Sheet",
+  "slug": "xhtml",
+  "description": "Quick reference for XHTML syntax and patterns",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">",
+      "description": "Defines the document type for XHTML 1.0 Strict",
+      "scenario": "Defines the document type for XHTML 1.0 Strict",
+      "language": "html",
+      "tags": [
+        "doctype",
+        "xhtml",
+        "strict"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n  <head>\n    <title>Title of the document</title>\n  </head>\n  <body>\n    <p>Hello, World!</p>\n  </body>\n</html>",
+      "description": "Basic XHTML document structure",
+      "scenario": "Basic XHTML document structure",
+      "language": "html",
+      "tags": [
+        "structure",
+        "html",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<img src=\"image.jpg\" alt=\"Description\" />",
+      "description": "Self-closing tag example in XHTML",
+      "scenario": "Self-closing tag example in XHTML",
+      "language": "html",
+      "tags": [
+        "self-closing",
+        "tags",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+      "description": "Set character encoding to UTF-8",
+      "scenario": "Set character encoding to UTF-8",
+      "language": "html",
+      "tags": [
+        "meta",
+        "charset",
+        "encoding"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "&amp;",
+      "description": "Use special character entity for ampersand",
+      "scenario": "Use special character entity for ampersand",
+      "language": "html",
+      "tags": [
+        "character",
+        "entity",
+        "ampersand"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "&lt;",
+      "description": "Use special character entity for less-than sign",
+      "scenario": "Use special character entity for less-than sign",
+      "language": "html",
+      "tags": [
+        "character",
+        "entity",
+        "less-than"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<form action=\"submit.html\" method=\"post\">\n  <label for=\"name\">Name:</label>\n  <input type=\"text\" id=\"name\" name=\"name\" />\n  <input type=\"submit\" value=\"Submit\" />\n</form>",
+      "description": "Create a basic form with text input",
+      "scenario": "Create a basic form with text input",
+      "language": "html",
+      "tags": [
+        "form",
+        "input",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"checkbox\" id=\"subscribe\" name=\"subscribe\" value=\"newsletter\" />\n<label for=\"subscribe\">Subscribe to newsletter</label>",
+      "description": "Checkbox input example",
+      "scenario": "Checkbox input example",
+      "language": "html",
+      "tags": [
+        "checkbox",
+        "input",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input type=\"radio\" id=\"male\" name=\"gender\" value=\"male\" />\n<label for=\"male\">Male</label>\n<input type=\"radio\" id=\"female\" name=\"gender\" value=\"female\" />\n<label for=\"female\">Female</label>",
+      "description": "Radio button input example",
+      "scenario": "Radio button input example",
+      "language": "html",
+      "tags": [
+        "radio",
+        "input",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a href=\"https://www.example.com\">Visit Example</a>",
+      "description": "Create a hyperlink to another page",
+      "scenario": "Create a hyperlink to another page",
+      "language": "html",
+      "tags": [
+        "link",
+        "anchor",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a href=\"https://www.example.com\" target=\"_blank\">Visit Example</a>",
+      "description": "Open link in a new tab",
+      "scenario": "Open link in a new tab",
+      "language": "html",
+      "tags": [
+        "link",
+        "new tab",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a href=\"#section1\">Go to Section 1</a>\n...\n<h2 id=\"section1\">Section 1</h2>",
+      "description": "Link to an anchor within the same page",
+      "scenario": "Link to an anchor within the same page",
+      "language": "html",
+      "tags": [
+        "anchor",
+        "link",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ul>\n  <li>Item 1</li>\n  <li>Item 2</li>\n  <li>Item 3</li>\n</ul>",
+      "description": "Create an unordered list",
+      "scenario": "Create an unordered list",
+      "language": "html",
+      "tags": [
+        "list",
+        "unordered",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ol>\n  <li>First item</li>\n  <li>Second item</li>\n  <li>Third item</li>\n</ol>",
+      "description": "Create an ordered list",
+      "scenario": "Create an ordered list",
+      "language": "html",
+      "tags": [
+        "list",
+        "ordered",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ul>\n  <li>Item 1\n    <ul>\n      <li>Subitem 1a</li>\n      <li>Subitem 1b</li>\n    </ul>\n  </li>\n  <li>Item 2</li>\n</ul>",
+      "description": "Nested lists example",
+      "scenario": "Nested lists example",
+      "language": "html",
+      "tags": [
+        "nested",
+        "list",
+        "xhtml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

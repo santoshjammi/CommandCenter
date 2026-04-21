@@ -1,0 +1,204 @@
+{
+  "title": "C# Cheat Sheet",
+  "slug": "csharp",
+  "description": "Quick reference for C# syntax and common patterns.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "int number = 10;",
+      "description": "Declare a variable with a specific type",
+      "scenario": "Declare a variable with a specific type",
+      "language": "csharp",
+      "tags": [
+        "variables",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (int i = 0; i < 10; i++) { Console.WriteLine(i); }",
+      "description": "Create a simple for loop",
+      "scenario": "Create a simple for loop",
+      "language": "csharp",
+      "tags": [
+        "loops",
+        "iteration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void PrintMessage(string message) { Console.WriteLine(message); }",
+      "description": "Define a basic function",
+      "scenario": "Define a basic function",
+      "language": "csharp",
+      "tags": [
+        "functions",
+        "methods",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Car { public string Model; public Car(string model) { Model = model; } }",
+      "description": "Define a class with a constructor",
+      "scenario": "Define a class with a constructor",
+      "language": "csharp",
+      "tags": [
+        "classes",
+        "constructors",
+        "oop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface IVehicle { void Drive(); }",
+      "description": "Create an interface",
+      "scenario": "Create an interface",
+      "language": "csharp",
+      "tags": [
+        "interfaces",
+        "oop",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class ElectricCar : Car { public int BatteryCapacity; }",
+      "description": "Implement inheritance",
+      "scenario": "Implement inheritance",
+      "language": "csharp",
+      "tags": [
+        "inheritance",
+        "oop",
+        "classes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var results = numbers.Where(n => n > 5);",
+      "description": "Use LINQ to filter a list",
+      "scenario": "Use LINQ to filter a list",
+      "language": "csharp",
+      "tags": [
+        "linq",
+        "filter",
+        "queries"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var names = people.Select(p => p.Name);",
+      "description": "Select specific fields from a collection",
+      "scenario": "Select specific fields from a collection",
+      "language": "csharp",
+      "tags": [
+        "linq",
+        "select",
+        "queries"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var sorted = people.OrderBy(p => p.Age);",
+      "description": "Order a collection by a property",
+      "scenario": "Order a collection by a property",
+      "language": "csharp",
+      "tags": [
+        "linq",
+        "order",
+        "queries"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { int.Parse(\"abc\"); } catch (FormatException e) { Console.WriteLine(e.Message); }",
+      "description": "Basic try-catch block",
+      "scenario": "Basic try-catch block",
+      "language": "csharp",
+      "tags": [
+        "exceptions",
+        "error handling",
+        "try-catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw new InvalidOperationException(\"Invalid operation\");",
+      "description": "Throw an exception",
+      "scenario": "Throw an exception",
+      "language": "csharp",
+      "tags": [
+        "exceptions",
+        "throw",
+        "error handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try { /* code */ } finally { Console.WriteLine(\"Cleanup\"); }",
+      "description": "Finally block usage",
+      "scenario": "Finally block usage",
+      "language": "csharp",
+      "tags": [
+        "exceptions",
+        "finally",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async Task<int> FetchDataAsync() { return await Task.Run(() => 42); }",
+      "description": "Define an async method",
+      "scenario": "Define an async method",
+      "language": "csharp",
+      "tags": [
+        "async",
+        "await",
+        "tasks"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int result = await FetchDataAsync();",
+      "description": "Await a task",
+      "scenario": "Await a task",
+      "language": "csharp",
+      "tags": [
+        "await",
+        "tasks",
+        "async"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Task.Run(() => { /* background work */ });",
+      "description": "Use Task.Run for background work",
+      "scenario": "Use Task.Run for background work",
+      "language": "csharp",
+      "tags": [
+        "tasks",
+        "background",
+        "async"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

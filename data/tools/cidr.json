@@ -1,0 +1,165 @@
+{
+  "title": "CIDR Cheat Sheet",
+  "slug": "cidr",
+  "description": "Quick reference for CIDR notation and subnetting.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "192.168.1.1/32",
+      "description": "Understand the CIDR notation for a single IP address",
+      "scenario": "Understand the CIDR notation for a single IP address",
+      "language": "text",
+      "tags": [
+        "CIDR",
+        "IP",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "192.168.1.0/24",
+      "description": "CIDR notation for a subnet with 256 addresses",
+      "scenario": "CIDR notation for a subnet with 256 addresses",
+      "language": "text",
+      "tags": [
+        "CIDR",
+        "subnet",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "192.168.1.0/28",
+      "description": "CIDR notation for a subnet with 16 addresses",
+      "scenario": "CIDR notation for a subnet with 16 addresses",
+      "language": "text",
+      "tags": [
+        "CIDR",
+        "subnet",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ipcalc 192.168.1.0/24",
+      "description": "Calculate subnet information for a given CIDR",
+      "scenario": "Calculate subnet information for a given CIDR",
+      "language": "bash",
+      "tags": [
+        "subnet",
+        "calculation",
+        "CIDR"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sL 192.168.1.0/24",
+      "description": "List all IPs in a CIDR range",
+      "scenario": "List all IPs in a CIDR range",
+      "language": "bash",
+      "tags": [
+        "nmap",
+        "CIDR",
+        "IP"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ipcalc -m 192.168.1.0/24",
+      "description": "Display network mask for a CIDR",
+      "scenario": "Display network mask for a CIDR",
+      "language": "bash",
+      "tags": [
+        "network",
+        "mask",
+        "CIDR"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "255.255.255.0",
+      "description": "Convert /24 CIDR to netmask",
+      "scenario": "Convert /24 CIDR to netmask",
+      "language": "text",
+      "tags": [
+        "CIDR",
+        "netmask",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "255.255.0.0",
+      "description": "Convert /16 CIDR to netmask",
+      "scenario": "Convert /16 CIDR to netmask",
+      "language": "text",
+      "tags": [
+        "CIDR",
+        "netmask",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "255.0.0.0",
+      "description": "Convert /8 CIDR to netmask",
+      "scenario": "Convert /8 CIDR to netmask",
+      "language": "text",
+      "tags": [
+        "CIDR",
+        "netmask",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "2001:db8::/128",
+      "description": "CIDR notation for a single IPv6 address",
+      "scenario": "CIDR notation for a single IPv6 address",
+      "language": "text",
+      "tags": [
+        "IPv6",
+        "CIDR",
+        "address"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "2001:db8::/64",
+      "description": "CIDR notation for a /64 IPv6 subnet",
+      "scenario": "CIDR notation for a /64 IPv6 subnet",
+      "language": "text",
+      "tags": [
+        "IPv6",
+        "CIDR",
+        "subnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "2001:db8::/48",
+      "description": "CIDR notation for a /48 IPv6 subnet",
+      "scenario": "CIDR notation for a /48 IPv6 subnet",
+      "language": "text",
+      "tags": [
+        "IPv6",
+        "CIDR",
+        "subnet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "WebGL Cheat Sheet",
+  "slug": "webgl",
+  "description": "Essential WebGL commands and patterns for 3D graphics rendering.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const gl = canvas.getContext('webgl');",
+      "description": "Get the WebGL rendering context from a canvas element",
+      "scenario": "Get the WebGL rendering context from a canvas element",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "context",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (!gl) { console.error('WebGL not supported'); }",
+      "description": "Check if WebGL is supported",
+      "scenario": "Check if WebGL is supported",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "support",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.viewport(0, 0, canvas.width, canvas.height);",
+      "description": "Set the viewport to match the canvas size",
+      "scenario": "Set the viewport to match the canvas size",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "viewport",
+        "canvas"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const shader = gl.createShader(gl.VERTEX_SHADER);",
+      "description": "Create a shader object",
+      "scenario": "Create a shader object",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "shader",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.shaderSource(shader, shaderSource);",
+      "description": "Attach shader source code",
+      "scenario": "Attach shader source code",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "shader",
+        "source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.compileShader(shader);",
+      "description": "Compile the shader",
+      "scenario": "Compile the shader",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "shader",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const buffer = gl.createBuffer();",
+      "description": "Create a buffer object",
+      "scenario": "Create a buffer object",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "buffer",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.bindBuffer(gl.ARRAY_BUFFER, buffer);",
+      "description": "Bind a buffer to a target",
+      "scenario": "Bind a buffer to a target",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "buffer",
+        "bind"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);",
+      "description": "Send data to the buffer",
+      "scenario": "Send data to the buffer",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "buffer",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.clear(gl.COLOR_BUFFER_BIT);",
+      "description": "Clear the color buffer",
+      "scenario": "Clear the color buffer",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "clear",
+        "buffer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.drawArrays(gl.TRIANGLES, 0, vertexCount);",
+      "description": "Draw triangles from the buffer",
+      "scenario": "Draw triangles from the buffer",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "draw",
+        "triangles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.enableVertexAttribArray(attributeLocation);",
+      "description": "Enable a vertex attribute array",
+      "scenario": "Enable a vertex attribute array",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "vertex",
+        "attribute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const texture = gl.createTexture();",
+      "description": "Create a texture object",
+      "scenario": "Create a texture object",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "texture",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.bindTexture(gl.TEXTURE_2D, texture);",
+      "description": "Bind a texture to a target",
+      "scenario": "Bind a texture to a target",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "texture",
+        "bind"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);",
+      "description": "Set texture parameters",
+      "scenario": "Set texture parameters",
+      "language": "javascript",
+      "tags": [
+        "webgl",
+        "texture",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

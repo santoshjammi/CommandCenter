@@ -1,0 +1,204 @@
+{
+  "title": "Origami Studio Cheat Sheet",
+  "slug": "origami-studio",
+  "description": "Quick reference for Origami Studio commands and patterns",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "File > New",
+      "description": "Open a new project",
+      "scenario": "Open a new project",
+      "language": "text",
+      "tags": [
+        "new",
+        "project",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Save",
+      "description": "Save the current project",
+      "scenario": "Save the current project",
+      "language": "text",
+      "tags": [
+        "save",
+        "project",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Undo",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "edit",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Layer > New Layer",
+      "description": "Add a new layer",
+      "scenario": "Add a new layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "add",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Layer > Group",
+      "description": "Group selected layers",
+      "scenario": "Group selected layers",
+      "language": "text",
+      "tags": [
+        "layer",
+        "group",
+        "selected"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Right-click layer > Rename",
+      "description": "Rename a layer",
+      "scenario": "Rename a layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "rename",
+        "right-click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Patch > New Patch",
+      "description": "Add a new patch",
+      "scenario": "Add a new patch",
+      "language": "text",
+      "tags": [
+        "patch",
+        "add",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Drag from output to input",
+      "description": "Connect patches",
+      "scenario": "Connect patches",
+      "language": "text",
+      "tags": [
+        "patch",
+        "connect",
+        "drag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Select patch > Delete",
+      "description": "Delete a patch",
+      "scenario": "Delete a patch",
+      "language": "text",
+      "tags": [
+        "patch",
+        "delete",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View > Preview",
+      "description": "Preview the prototype",
+      "scenario": "Preview the prototype",
+      "language": "text",
+      "tags": [
+        "preview",
+        "prototype",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Record",
+      "description": "Record a prototype interaction",
+      "scenario": "Record a prototype interaction",
+      "language": "text",
+      "tags": [
+        "record",
+        "prototype",
+        "interaction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Share",
+      "description": "Share the prototype",
+      "scenario": "Share the prototype",
+      "language": "text",
+      "tags": [
+        "share",
+        "prototype",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + D",
+      "description": "Duplicate a layer",
+      "scenario": "Duplicate a layer",
+      "language": "text",
+      "tags": [
+        "duplicate",
+        "layer",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + +",
+      "description": "Zoom in on canvas",
+      "scenario": "Zoom in on canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "canvas",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + -",
+      "description": "Zoom out on canvas",
+      "scenario": "Zoom out on canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "canvas",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

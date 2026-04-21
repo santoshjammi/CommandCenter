@@ -1,0 +1,126 @@
+{
+  "title": "Dynamic Programming Cheat Sheet",
+  "slug": "dynamic-programming",
+  "description": "Key patterns and techniques for dynamic programming problems.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 2:\n        return 1\n    memo[n] = fib(n-1, memo) + fib(n-2, memo)\n    return memo[n]",
+      "description": "Find the nth Fibonacci number using memoization",
+      "scenario": "Find the nth Fibonacci number using memoization",
+      "language": "python",
+      "tags": [
+        "fibonacci",
+        "memoization",
+        "recursion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def knapsack(weights, values, capacity):\n    n = len(values)\n    dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]\n    for i in range(1, n + 1):\n        for w in range(1, capacity + 1):\n            if weights[i-1] <= w:\n                dp[i][w] = max(values[i-1] + dp[i-1][w-weights[i-1]], dp[i-1][w])\n            else:\n                dp[i][w] = dp[i-1][w]\n    return dp[n][capacity]",
+      "description": "Solve the knapsack problem using dynamic programming",
+      "scenario": "Solve the knapsack problem using dynamic programming",
+      "language": "python",
+      "tags": [
+        "knapsack",
+        "dp",
+        "optimization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def min_edit_distance(str1, str2):\n    m, n = len(str1), len(str2)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(m + 1):\n        for j in range(n + 1):\n            if i == 0:\n                dp[i][j] = j\n            elif j == 0:\n                dp[i][j] = i\n            elif str1[i-1] == str2[j-1]:\n                dp[i][j] = dp[i-1][j-1]\n            else:\n                dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])\n    return dp[m][n]",
+      "description": "Calculate the minimum edit distance between two strings",
+      "scenario": "Calculate the minimum edit distance between two strings",
+      "language": "python",
+      "tags": [
+        "edit-distance",
+        "strings",
+        "dp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from functools import lru_cache\n\n@lru_cache(maxsize=None)\ndef factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)",
+      "description": "Use a decorator to memoize function results",
+      "scenario": "Use a decorator to memoize function results",
+      "language": "python",
+      "tags": [
+        "memoization",
+        "decorator",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def climb_stairs(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 2:\n        return n\n    memo[n] = climb_stairs(n-1, memo) + climb_stairs(n-2, memo)\n    return memo[n]",
+      "description": "Implement memoization manually with a dictionary",
+      "scenario": "Implement memoization manually with a dictionary",
+      "language": "python",
+      "tags": [
+        "stairs",
+        "memoization",
+        "recursion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Memoize:\n    def __init__(self, func):\n        self.func = func\n        self.memo = {}\n\n    def __call__(self, *args):\n        if args not in self.memo:\n            self.memo[args] = self.func(*args)\n        return self.memo[args]\n\n@Memoize\ndef factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)",
+      "description": "Memoize a recursive function using a class",
+      "scenario": "Memoize a recursive function using a class",
+      "language": "python",
+      "tags": [
+        "class",
+        "memoization",
+        "recursion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def coin_change(coins, amount):\n    dp = [float('inf')] * (amount + 1)\n    dp[0] = 0\n    for coin in coins:\n        for x in range(coin, amount + 1):\n            dp[x] = min(dp[x], dp[x - coin] + 1)\n    return dp[amount] if dp[amount] != float('inf') else -1",
+      "description": "Solve the coin change problem using tabulation",
+      "scenario": "Solve the coin change problem using tabulation",
+      "language": "python",
+      "tags": [
+        "coin-change",
+        "tabulation",
+        "dp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def lis(arr):\n    n = len(arr)\n    lis = [1] * n\n    for i in range(1, n):\n        for j in range(0, i):\n            if arr[i] > arr[j] and lis[i] < lis[j] + 1:\n                lis[i] = lis[j] + 1\n    return max(lis)",
+      "description": "Calculate the longest increasing subsequence using tabulation",
+      "scenario": "Calculate the longest increasing subsequence using tabulation",
+      "language": "python",
+      "tags": [
+        "lis",
+        "tabulation",
+        "dp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def max_subarray_sum(arr):\n    max_ending_here = max_so_far = arr[0]\n    for x in arr[1:]:\n        max_ending_here = max(x, max_ending_here + x)\n        max_so_far = max(max_so_far, max_ending_here)\n    return max_so_far",
+      "description": "Find the maximum sum of a subarray using tabulation",
+      "scenario": "Find the maximum sum of a subarray using tabulation",
+      "language": "python",
+      "tags": [
+        "subarray",
+        "tabulation",
+        "dp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

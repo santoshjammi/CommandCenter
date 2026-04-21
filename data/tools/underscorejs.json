@@ -1,0 +1,165 @@
+{
+  "title": "UnderscoreJS Cheat Sheet",
+  "slug": "underscorejs",
+  "description": "Quick reference for common UnderscoreJS functions and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "_.each([1, 2, 3], function(num){ console.log(num); });",
+      "description": "Iterate over a list of elements, yielding each in turn to an iteratee function.",
+      "scenario": "Iterate over a list of elements, yielding each in turn to an iteratee function.",
+      "language": "javascript",
+      "tags": [
+        "iteration",
+        "collection",
+        "each"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.map([1, 2, 3], function(num){ return num * 3; });",
+      "description": "Return a new array of values by mapping each value in list through a transformation function.",
+      "scenario": "Return a new array of values by mapping each value in list through a transformation function.",
+      "language": "javascript",
+      "tags": [
+        "map",
+        "transformation",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.reduce([1, 2, 3], function(memo, num){ return memo + num; }, 0);",
+      "description": "Reduce a list of values down to a single value by iteratively combining each value.",
+      "scenario": "Reduce a list of values down to a single value by iteratively combining each value.",
+      "language": "javascript",
+      "tags": [
+        "reduce",
+        "accumulate",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.first([5, 4, 3, 2, 1]);",
+      "description": "Return the first element of an array. Passing n will return the first n elements.",
+      "scenario": "Return the first element of an array. Passing n will return the first n elements.",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "first",
+        "elements"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.rest([5, 4, 3, 2, 1], 2);",
+      "description": "Return the rest of the elements in an array. Pass an index to return the values from that index onward.",
+      "scenario": "Return the rest of the elements in an array. Pass an index to return the values from that index onward.",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "rest",
+        "elements"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.flatten([1, [2], [3, [[4]]]]);",
+      "description": "Flatten a nested array (the nesting can be to any depth).",
+      "scenario": "Flatten a nested array (the nesting can be to any depth).",
+      "language": "javascript",
+      "tags": [
+        "array",
+        "flatten",
+        "nested"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.keys({one: 1, two: 2, three: 3});",
+      "description": "Retrieve all the names of the object's own enumerable properties.",
+      "scenario": "Retrieve all the names of the object's own enumerable properties.",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "keys",
+        "properties"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.pick({name: 'moe', age: 50, userid: 'moe1'}, 'name', 'age');",
+      "description": "Return a copy of the object, filtered to only have values for the whitelisted keys.",
+      "scenario": "Return a copy of the object, filtered to only have values for the whitelisted keys.",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "pick",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_.omit({name: 'moe', age: 50, userid: 'moe1'}, 'userid');",
+      "description": "Return a copy of the object, filtered to omit the blacklisted keys.",
+      "scenario": "Return a copy of the object, filtered to omit the blacklisted keys.",
+      "language": "javascript",
+      "tags": [
+        "object",
+        "omit",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var afterCalled = _.after(3, function(){ console.log('called!'); });",
+      "description": "Return a function that will only be executed after being called n times.",
+      "scenario": "Return a function that will only be executed after being called n times.",
+      "language": "javascript",
+      "tags": [
+        "utility",
+        "after",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var bound = _.bind(func, object, 'arg1', 'arg2');",
+      "description": "Bind a function to an object, meaning that whenever the function is called, the value of this will be the object.",
+      "scenario": "Bind a function to an object, meaning that whenever the function is called, the value of this will be the object.",
+      "language": "javascript",
+      "tags": [
+        "utility",
+        "bind",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var initialize = _.once(createApplication);",
+      "description": "Return a function that can be called at most one time. Subsequent calls will return the result of the first call.",
+      "scenario": "Return a function that can be called at most one time. Subsequent calls will return the result of the first call.",
+      "language": "javascript",
+      "tags": [
+        "utility",
+        "once",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

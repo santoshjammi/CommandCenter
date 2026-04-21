@@ -1,0 +1,165 @@
+{
+  "title": "Vim-Unite Cheat Sheet",
+  "slug": "vim-unite",
+  "description": "Essential commands and patterns for using Vim-Unite plugin effectively.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": ":Unite file",
+      "description": "Open Unite file search",
+      "scenario": "Open Unite file search",
+      "language": "text",
+      "tags": [
+        "search",
+        "files",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Unite buffer",
+      "description": "Search for a buffer",
+      "scenario": "Search for a buffer",
+      "language": "text",
+      "tags": [
+        "search",
+        "buffer",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Unite help",
+      "description": "Search for a help topic",
+      "scenario": "Search for a help topic",
+      "language": "text",
+      "tags": [
+        "search",
+        "help",
+        "documentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Unite -start-insert file_rec:/path/to/dir",
+      "description": "Search with a specific directory",
+      "scenario": "Search with a specific directory",
+      "language": "text",
+      "tags": [
+        "search",
+        "directory",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Unite grep",
+      "description": "Use Unite with grep for content search",
+      "scenario": "Use Unite with grep for content search",
+      "language": "text",
+      "tags": [
+        "search",
+        "grep",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Unite -buffer-name=custom source",
+      "description": "Open Unite with a custom source",
+      "scenario": "Open Unite with a custom source",
+      "language": "text",
+      "tags": [
+        "custom",
+        "source",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:unite_default_mappings = 1",
+      "description": "Set default mappings for Unite",
+      "scenario": "Set default mappings for Unite",
+      "language": "vim",
+      "tags": [
+        "configuration",
+        "mappings",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:unite_ignore_files = '*.o,*.pyc'",
+      "description": "Configure Unite to ignore certain files",
+      "scenario": "Configure Unite to ignore certain files",
+      "language": "vim",
+      "tags": [
+        "configuration",
+        "ignore",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:unite_window_height = 20",
+      "description": "Set Unite window height",
+      "scenario": "Set Unite window height",
+      "language": "vim",
+      "tags": [
+        "configuration",
+        "window",
+        "height"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Unite buffer -start-insert",
+      "description": "Quickly switch buffers with Unite",
+      "scenario": "Quickly switch buffers with Unite",
+      "language": "text",
+      "tags": [
+        "switch",
+        "buffers",
+        "quick"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Unite file_mru",
+      "description": "Find and open recent files",
+      "scenario": "Find and open recent files",
+      "language": "text",
+      "tags": [
+        "recent",
+        "files",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":Unite -buffer-name=search_and_replace grep",
+      "description": "Search and replace text in project",
+      "scenario": "Search and replace text in project",
+      "language": "text",
+      "tags": [
+        "search",
+        "replace",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

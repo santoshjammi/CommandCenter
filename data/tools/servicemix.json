@@ -1,0 +1,204 @@
+{
+  "title": "ServiceMix Cheat Sheet",
+  "slug": "servicemix",
+  "description": "Essential commands and configurations for Apache ServiceMix.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "bin/servicemix start",
+      "description": "Start the ServiceMix server",
+      "scenario": "Start the ServiceMix server",
+      "language": "bash",
+      "tags": [
+        "start",
+        "server",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bin/servicemix stop",
+      "description": "Stop the ServiceMix server",
+      "scenario": "Stop the ServiceMix server",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "server",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bin/servicemix status",
+      "description": "Check the status of the ServiceMix server",
+      "scenario": "Check the status of the ServiceMix server",
+      "language": "bash",
+      "tags": [
+        "status",
+        "server",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/' debug='false'>\n  <appender name='console' class='org.apache.log4j.ConsoleAppender'>\n    <layout class='org.apache.log4j.PatternLayout'>\n      <param name='ConversionPattern' value='%d{ISO8601} [%t] %-5p %c %x - %m%n'/>\n    </layout>\n  </appender>\n  <root>\n    <priority value='info'/>\n    <appender-ref ref='console'/>\n  </root>\n</log4j:configuration>",
+      "description": "Configure the ServiceMix logging level",
+      "scenario": "Configure the ServiceMix logging level",
+      "language": "xml",
+      "tags": [
+        "logging",
+        "configuration",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<Connector port=\"8080\" protocol=\"HTTP/1.1\"\n           connectionTimeout=\"20000\"\n           redirectPort=\"8443\" />",
+      "description": "Set the ServiceMix HTTP port",
+      "scenario": "Set the ServiceMix HTTP port",
+      "language": "xml",
+      "tags": [
+        "http",
+        "port",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "features:addurl mvn:org.apache.servicemix/apache-servicemix/4.5.3/xml/features",
+      "description": "Define a new ServiceMix feature repository",
+      "scenario": "Define a new ServiceMix feature repository",
+      "language": "bash",
+      "tags": [
+        "features",
+        "repository",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osgi:install -s mvn:com.example/my-bundle/1.0.0",
+      "description": "Deploy a new bundle to ServiceMix",
+      "scenario": "Deploy a new bundle to ServiceMix",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "bundle",
+        "osgi"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osgi:list",
+      "description": "List all installed bundles in ServiceMix",
+      "scenario": "List all installed bundles in ServiceMix",
+      "language": "bash",
+      "tags": [
+        "list",
+        "bundles",
+        "osgi"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osgi:uninstall <bundle-id>",
+      "description": "Uninstall a bundle from ServiceMix",
+      "scenario": "Uninstall a bundle from ServiceMix",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "bundle",
+        "osgi"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "bin/client",
+      "description": "Access the ServiceMix shell",
+      "scenario": "Access the ServiceMix shell",
+      "language": "bash",
+      "tags": [
+        "shell",
+        "access",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "help",
+      "description": "Display help for ServiceMix shell commands",
+      "scenario": "Display help for ServiceMix shell commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "shell",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "logout",
+      "description": "Exit the ServiceMix shell",
+      "scenario": "Exit the ServiceMix shell",
+      "language": "bash",
+      "tags": [
+        "exit",
+        "shell",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osgi:restart <bundle-id>",
+      "description": "Restart a specific ServiceMix bundle",
+      "scenario": "Restart a specific ServiceMix bundle",
+      "language": "bash",
+      "tags": [
+        "restart",
+        "bundle",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osgi:update <bundle-id>",
+      "description": "Update a specific ServiceMix bundle",
+      "scenario": "Update a specific ServiceMix bundle",
+      "language": "bash",
+      "tags": [
+        "update",
+        "bundle",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osgi:info <bundle-id>",
+      "description": "View detailed information about a ServiceMix bundle",
+      "scenario": "View detailed information about a ServiceMix bundle",
+      "language": "bash",
+      "tags": [
+        "info",
+        "bundle",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

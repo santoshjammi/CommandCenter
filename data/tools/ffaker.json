@@ -1,0 +1,165 @@
+{
+  "title": "FFaker Cheat Sheet",
+  "slug": "ffaker",
+  "description": "Quick reference for using FFaker to generate fake data in Ruby.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "FFaker::Name.name",
+      "description": "Generate a random name",
+      "scenario": "Generate a random name",
+      "language": "ruby",
+      "tags": [
+        "name",
+        "random",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::Internet.email",
+      "description": "Generate a random email address",
+      "scenario": "Generate a random email address",
+      "language": "ruby",
+      "tags": [
+        "email",
+        "random",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::PhoneNumber.phone_number",
+      "description": "Generate a random phone number",
+      "scenario": "Generate a random phone number",
+      "language": "ruby",
+      "tags": [
+        "phone",
+        "random",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::NameFR.name",
+      "description": "Generate a random French name",
+      "scenario": "Generate a random French name",
+      "language": "ruby",
+      "tags": [
+        "name",
+        "french",
+        "locale"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::AddressJA.address",
+      "description": "Generate a random Japanese address",
+      "scenario": "Generate a random Japanese address",
+      "language": "ruby",
+      "tags": [
+        "address",
+        "japanese",
+        "locale"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::CompanyDE.name",
+      "description": "Generate a random German company name",
+      "scenario": "Generate a random German company name",
+      "language": "ruby",
+      "tags": [
+        "company",
+        "german",
+        "locale"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::Lorem.sentence",
+      "description": "Generate a random sentence",
+      "scenario": "Generate a random sentence",
+      "language": "ruby",
+      "tags": [
+        "sentence",
+        "lorem",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::Lorem.paragraph",
+      "description": "Generate a random paragraph",
+      "scenario": "Generate a random paragraph",
+      "language": "ruby",
+      "tags": [
+        "paragraph",
+        "lorem",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::Lorem.characters(10)",
+      "description": "Generate a random alphanumeric string",
+      "scenario": "Generate a random alphanumeric string",
+      "language": "ruby",
+      "tags": [
+        "string",
+        "alphanumeric",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::Internet.ip_v4_address",
+      "description": "Generate a random IPv4 address",
+      "scenario": "Generate a random IPv4 address",
+      "language": "ruby",
+      "tags": [
+        "ip",
+        "internet",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::Internet.mac",
+      "description": "Generate a random MAC address",
+      "scenario": "Generate a random MAC address",
+      "language": "ruby",
+      "tags": [
+        "mac",
+        "internet",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FFaker::UUID.uuid",
+      "description": "Generate a random UUID",
+      "scenario": "Generate a random UUID",
+      "language": "ruby",
+      "tags": [
+        "uuid",
+        "unique",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

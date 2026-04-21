@@ -1,0 +1,204 @@
+{
+  "title": "CSS 3 Cheat Sheet",
+  "slug": "css-3",
+  "description": "Essential CSS 3 syntax and patterns for web developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "element { /* styles */ }",
+      "description": "Select all elements of a specific type",
+      "scenario": "Select all elements of a specific type",
+      "language": "css",
+      "tags": [
+        "selectors",
+        "elements",
+        "types"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".class-name { /* styles */ }",
+      "description": "Select elements with a specific class",
+      "scenario": "Select elements with a specific class",
+      "language": "css",
+      "tags": [
+        "selectors",
+        "class",
+        "styles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#id-name { /* styles */ }",
+      "description": "Select elements with a specific ID",
+      "scenario": "Select elements with a specific ID",
+      "language": "css",
+      "tags": [
+        "selectors",
+        "id",
+        "styles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "padding: 10px;",
+      "description": "Set padding for all sides of an element",
+      "scenario": "Set padding for all sides of an element",
+      "language": "css",
+      "tags": [
+        "box model",
+        "padding",
+        "spacing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "margin: 10px 5px;",
+      "description": "Set margin for top and bottom, left and right",
+      "scenario": "Set margin for top and bottom, left and right",
+      "language": "css",
+      "tags": [
+        "box model",
+        "margin",
+        "spacing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "border: 1px solid #000;",
+      "description": "Define border with width, style, and color",
+      "scenario": "Define border with width, style, and color",
+      "language": "css",
+      "tags": [
+        "box model",
+        "border",
+        "styles"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: flex;",
+      "description": "Create a flex container",
+      "scenario": "Create a flex container",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "layout",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "align-items: center;",
+      "description": "Align items to the center of the flex container",
+      "scenario": "Align items to the center of the flex container",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "alignment",
+        "center"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "justify-content: space-between;",
+      "description": "Distribute space between items",
+      "scenario": "Distribute space between items",
+      "language": "css",
+      "tags": [
+        "flexbox",
+        "spacing",
+        "distribution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "display: grid;",
+      "description": "Define a grid container",
+      "scenario": "Define a grid container",
+      "language": "css",
+      "tags": [
+        "grid",
+        "layout",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-template-columns: repeat(3, 1fr);",
+      "description": "Set the number of columns in a grid",
+      "scenario": "Set the number of columns in a grid",
+      "language": "css",
+      "tags": [
+        "grid",
+        "columns",
+        "layout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grid-gap: 10px;",
+      "description": "Set the gap between grid items",
+      "scenario": "Set the gap between grid items",
+      "language": "css",
+      "tags": [
+        "grid",
+        "gap",
+        "spacing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transition: all 0.3s ease;",
+      "description": "Create a transition effect on hover",
+      "scenario": "Create a transition effect on hover",
+      "language": "css",
+      "tags": [
+        "transitions",
+        "hover",
+        "effects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@keyframes slide { from { left: 0; } to { left: 100px; } }",
+      "description": "Define a keyframe animation",
+      "scenario": "Define a keyframe animation",
+      "language": "css",
+      "tags": [
+        "animations",
+        "keyframes",
+        "movement"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "animation: slide 2s infinite;",
+      "description": "Apply an animation to an element",
+      "scenario": "Apply an animation to an element",
+      "language": "css",
+      "tags": [
+        "animations",
+        "apply",
+        "effects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

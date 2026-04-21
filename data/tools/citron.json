@@ -1,0 +1,165 @@
+{
+  "title": "Citron CLI Cheat Sheet",
+  "slug": "citron",
+  "description": "Essential commands and syntax for Citron CLI usage.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "citron init my-project",
+      "description": "Initialize a new Citron project",
+      "scenario": "Initialize a new Citron project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron start",
+      "description": "Start the Citron server",
+      "scenario": "Start the Citron server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron build",
+      "description": "Build the Citron project for production",
+      "scenario": "Build the Citron project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron config set env development",
+      "description": "Set the environment to development",
+      "scenario": "Set the environment to development",
+      "language": "bash",
+      "tags": [
+        "config",
+        "environment",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron config list",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "settings",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron add component MyComponent",
+      "description": "Add a new component to the project",
+      "scenario": "Add a new component to the project",
+      "language": "bash",
+      "tags": [
+        "component",
+        "add",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron remove component MyComponent",
+      "description": "Remove a component from the project",
+      "scenario": "Remove a component from the project",
+      "language": "bash",
+      "tags": [
+        "component",
+        "remove",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron list components",
+      "description": "List all components in the project",
+      "scenario": "List all components in the project",
+      "language": "bash",
+      "tags": [
+        "component",
+        "list",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron test",
+      "description": "Run tests for the Citron project",
+      "scenario": "Run tests for the Citron project",
+      "language": "bash",
+      "tags": [
+        "test",
+        "run",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron deploy --server my-server",
+      "description": "Deploy the Citron project to a server",
+      "scenario": "Deploy the Citron project to a server",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "server",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "citron doc generate",
+      "description": "Generate documentation for the project",
+      "scenario": "Generate documentation for the project",
+      "language": "bash",
+      "tags": [
+        "documentation",
+        "generate",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

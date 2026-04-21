@@ -1,0 +1,126 @@
+{
+  "title": "Assert Cheat Sheet",
+  "slug": "assert",
+  "description": "Quick reference for using assert statements in Python and JavaScript.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "assert a == b, 'a and b should be equal'",
+      "description": "Basic assert statement to check equality",
+      "scenario": "Basic assert statement to check equality",
+      "language": "python",
+      "tags": [
+        "assert",
+        "python",
+        "equality"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert len(items) > 0, 'Items list should not be empty'",
+      "description": "Assert with a condition and custom message",
+      "scenario": "Assert with a condition and custom message",
+      "language": "python",
+      "tags": [
+        "assert",
+        "python",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "assert isinstance(obj, MyClass), 'Object must be of type MyClass'",
+      "description": "Using assert to check types",
+      "scenario": "Using assert to check types",
+      "language": "python",
+      "tags": [
+        "assert",
+        "python",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.assert(x > 0, 'x should be positive');",
+      "description": "Using console.assert to check a condition",
+      "scenario": "Using console.assert to check a condition",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "javascript",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.assert(a === b, 'a and b should be strictly equal');",
+      "description": "Assert equality with console.assert",
+      "scenario": "Assert equality with console.assert",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "javascript",
+        "equality"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "console.assert(Array.isArray(arr), 'arr should be an array');",
+      "description": "Assert with a custom error message",
+      "scenario": "Assert with a custom error message",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "javascript",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for item in items: assert item is not None, 'Item should not be None'",
+      "description": "Assert in a loop to validate each element",
+      "scenario": "Assert in a loop to validate each element",
+      "language": "python",
+      "tags": [
+        "assert",
+        "python",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def process(data): assert isinstance(data, dict), 'Data must be a dictionary'",
+      "description": "Using assert for input validation",
+      "scenario": "Using assert for input validation",
+      "language": "python",
+      "tags": [
+        "assert",
+        "python",
+        "validation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function getNumber() { let num = calculate(); console.assert(typeof num === 'number', 'Return value should be a number'); return num; }",
+      "description": "Assert in a function to ensure return type",
+      "scenario": "Assert in a function to ensure return type",
+      "language": "javascript",
+      "tags": [
+        "assert",
+        "javascript",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

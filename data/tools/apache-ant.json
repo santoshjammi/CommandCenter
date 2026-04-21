@@ -1,0 +1,204 @@
+{
+  "title": "Apache Ant Cheat Sheet",
+  "slug": "apache-ant",
+  "description": "Essential commands and patterns for Apache Ant build automation.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ant",
+      "description": "Run the default target in the build file",
+      "scenario": "Run the default target in the build file",
+      "language": "bash",
+      "tags": [
+        "build",
+        "default",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ant <target-name>",
+      "description": "Run a specific target in the build file",
+      "scenario": "Run a specific target in the build file",
+      "language": "bash",
+      "tags": [
+        "build",
+        "target",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ant -help",
+      "description": "Display help information for Ant commands",
+      "scenario": "Display help information for Ant commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ant -verbose",
+      "description": "Run Ant in verbose mode to see detailed output",
+      "scenario": "Run Ant in verbose mode to see detailed output",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "output",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ant -f <buildfile>",
+      "description": "Specify a different build file to use",
+      "scenario": "Specify a different build file to use",
+      "language": "bash",
+      "tags": [
+        "buildfile",
+        "custom",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ant -version",
+      "description": "Print the Ant version being used",
+      "scenario": "Print the Ant version being used",
+      "language": "bash",
+      "tags": [
+        "version",
+        "info",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<project name=\"myproject\" default=\"mytarget\">...</project>",
+      "description": "Define a project with a default target",
+      "scenario": "Define a project with a default target",
+      "language": "xml",
+      "tags": [
+        "project",
+        "default",
+        "target"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<target name=\"compile\" description=\"Compile source code\">...</target>",
+      "description": "Define a target with a description",
+      "scenario": "Define a target with a description",
+      "language": "xml",
+      "tags": [
+        "target",
+        "description",
+        "compile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property name=\"src.dir\" value=\"src\"/>",
+      "description": "Set a property value",
+      "scenario": "Set a property value",
+      "language": "xml",
+      "tags": [
+        "property",
+        "set",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<javac srcdir=\"${src.dir}\" destdir=\"${build.dir}\"/>",
+      "description": "Compile Java source files",
+      "scenario": "Compile Java source files",
+      "language": "xml",
+      "tags": [
+        "javac",
+        "compile",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<copy todir=\"${dist.dir}\"><fileset dir=\"${build.dir}\"/></copy>",
+      "description": "Copy files from one directory to another",
+      "scenario": "Copy files from one directory to another",
+      "language": "xml",
+      "tags": [
+        "copy",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<delete dir=\"${build.dir}\"/>",
+      "description": "Delete a directory and its contents",
+      "scenario": "Delete a directory and its contents",
+      "language": "xml",
+      "tags": [
+        "delete",
+        "directory",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property file=\"build.properties\"/>",
+      "description": "Include an external properties file",
+      "scenario": "Include an external properties file",
+      "language": "xml",
+      "tags": [
+        "property",
+        "external",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<path id=\"classpath\"><fileset dir=\"lib\" includes=\"*.jar\"/></path>",
+      "description": "Define a path for classpath usage",
+      "scenario": "Define a path for classpath usage",
+      "language": "xml",
+      "tags": [
+        "classpath",
+        "path",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<echo message=\"Build successful!\"/>",
+      "description": "Echo a message during the build process",
+      "scenario": "Echo a message during the build process",
+      "language": "xml",
+      "tags": [
+        "echo",
+        "message",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

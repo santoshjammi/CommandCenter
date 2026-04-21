@@ -1,0 +1,165 @@
+{
+  "title": "RDF Cheat Sheet",
+  "slug": "rdf",
+  "description": "Quick reference for RDF syntax and commands",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "<http://example.org/subject> <http://example.org/predicate> <http://example.org/object> .",
+      "description": "Define a simple RDF triple",
+      "scenario": "Define a simple RDF triple",
+      "language": "text",
+      "tags": [
+        "rdf",
+        "syntax",
+        "triple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@prefix ex: <http://example.org/> .",
+      "description": "Define a namespace prefix",
+      "scenario": "Define a namespace prefix",
+      "language": "text",
+      "tags": [
+        "rdf",
+        "namespace",
+        "prefix"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "_:bnode <http://example.org/predicate> <http://example.org/object> .",
+      "description": "Use a blank node in RDF",
+      "scenario": "Use a blank node in RDF",
+      "language": "text",
+      "tags": [
+        "rdf",
+        "blank node",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT ?s WHERE { ?s ?p ?o . }",
+      "description": "Select all subjects in a dataset",
+      "scenario": "Select all subjects in a dataset",
+      "language": "sql",
+      "tags": [
+        "sparql",
+        "query",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT ?s WHERE { ?s <http://example.org/predicate> ?o . }",
+      "description": "Filter results with a specific predicate",
+      "scenario": "Filter results with a specific predicate",
+      "language": "sql",
+      "tags": [
+        "sparql",
+        "filter",
+        "predicate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT (COUNT(DISTINCT ?s) AS ?count) WHERE { ?s ?p ?o . }",
+      "description": "Count all unique subjects",
+      "scenario": "Count all unique subjects",
+      "language": "sql",
+      "tags": [
+        "sparql",
+        "count",
+        "distinct"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>...</rdf:RDF>",
+      "description": "Example of RDF/XML format",
+      "scenario": "Example of RDF/XML format",
+      "language": "xml",
+      "tags": [
+        "rdf",
+        "xml",
+        "serialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@prefix ex: <http://example.org/> .\nex:subject ex:predicate ex:object .",
+      "description": "Example of Turtle format",
+      "scenario": "Example of Turtle format",
+      "language": "text",
+      "tags": [
+        "rdf",
+        "turtle",
+        "serialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"@context\": {\"ex\": \"http://example.org/\"}, \"@id\": \"ex:subject\", \"ex:predicate\": \"ex:object\"}",
+      "description": "Example of JSON-LD format",
+      "scenario": "Example of JSON-LD format",
+      "language": "json",
+      "tags": [
+        "rdf",
+        "json-ld",
+        "serialization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "riot --output=TURTLE input.rdf > output.ttl",
+      "description": "Use Apache Jena to convert RDF formats",
+      "scenario": "Use Apache Jena to convert RDF formats",
+      "language": "bash",
+      "tags": [
+        "jena",
+        "rdf",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "arq --query=query.rq --data=data.rdf",
+      "description": "Query RDF data with Apache Jena's ARQ",
+      "scenario": "Query RDF data with Apache Jena's ARQ",
+      "language": "bash",
+      "tags": [
+        "jena",
+        "sparql",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rdf-validate --input=data.rdf",
+      "description": "Validate RDF data with RDF Validator",
+      "scenario": "Validate RDF data with RDF Validator",
+      "language": "bash",
+      "tags": [
+        "rdf",
+        "validation",
+        "tool"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

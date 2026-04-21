@@ -1,0 +1,165 @@
+{
+  "title": "Protocol Buffers Cheat Sheet",
+  "slug": "protocol-buffers",
+  "description": "Quick reference for Protocol Buffers syntax and CLI commands",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "message Person {\n  required string name = 1;\n  optional int32 id = 2;\n}",
+      "description": "Define a simple message with two fields",
+      "scenario": "Define a simple message with two fields",
+      "language": "text",
+      "tags": [
+        "syntax",
+        "message",
+        "fields"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "enum PhoneType {\n  MOBILE = 0;\n  HOME = 1;\n  WORK = 2;\n}",
+      "description": "Define an enumeration",
+      "scenario": "Define an enumeration",
+      "language": "text",
+      "tags": [
+        "enum",
+        "syntax",
+        "definition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import \"other.proto\";",
+      "description": "Import another proto file",
+      "scenario": "Import another proto file",
+      "language": "text",
+      "tags": [
+        "import",
+        "syntax",
+        "proto"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "protoc --python_out=. addressbook.proto",
+      "description": "Compile a .proto file to Python",
+      "scenario": "Compile a .proto file to Python",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "python",
+        "protoc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "protoc --java_out=. addressbook.proto",
+      "description": "Compile a .proto file to Java",
+      "scenario": "Compile a .proto file to Java",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "java",
+        "protoc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "protoc --cpp_out=. addressbook.proto",
+      "description": "Compile a .proto file to C++",
+      "scenario": "Compile a .proto file to C++",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "cpp",
+        "protoc"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "required string name = 1;",
+      "description": "Define a required field",
+      "scenario": "Define a required field",
+      "language": "text",
+      "tags": [
+        "required",
+        "field",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "optional int32 age = 2;",
+      "description": "Define an optional field",
+      "scenario": "Define an optional field",
+      "language": "text",
+      "tags": [
+        "optional",
+        "field",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "repeated string email = 3;",
+      "description": "Define a repeated field",
+      "scenario": "Define a repeated field",
+      "language": "text",
+      "tags": [
+        "repeated",
+        "field",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "message Outer {\n  message Inner {\n    required int64 id = 1;\n  }\n  required Inner inner_message = 2;\n}",
+      "description": "Define a nested message",
+      "scenario": "Define a nested message",
+      "language": "text",
+      "tags": [
+        "nested",
+        "message",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "message Sample {\n  oneof test_oneof {\n    string name = 4;\n    SubMessage sub_message = 9;\n  }\n}",
+      "description": "Use oneof to define a field that can hold one of several types",
+      "scenario": "Use oneof to define a field that can hold one of several types",
+      "language": "text",
+      "tags": [
+        "oneof",
+        "field",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "map<string, Project> projects = 3;",
+      "description": "Define a map field",
+      "scenario": "Define a map field",
+      "language": "text",
+      "tags": [
+        "map",
+        "field",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

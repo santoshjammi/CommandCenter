@@ -1,0 +1,204 @@
+{
+  "title": "Obsidian Cheat Sheet",
+  "slug": "obsidian",
+  "description": "Essential commands and tips for using Obsidian effectively.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl+N",
+      "description": "Open a new note",
+      "scenario": "Open a new note",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "note",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+P",
+      "description": "Open command palette",
+      "scenario": "Open command palette",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "command",
+        "palette"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+E",
+      "description": "Toggle sidebar",
+      "scenario": "Toggle sidebar",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "sidebar",
+        "toggle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# Heading 1",
+      "description": "Create a heading",
+      "scenario": "Create a heading",
+      "language": "markdown",
+      "tags": [
+        "markdown",
+        "heading",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- Item 1\n- Item 2",
+      "description": "Create a bullet list",
+      "scenario": "Create a bullet list",
+      "language": "markdown",
+      "tags": [
+        "markdown",
+        "list",
+        "bullet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[Link text](http://example.com)",
+      "description": "Add a link",
+      "scenario": "Add a link",
+      "language": "markdown",
+      "tags": [
+        "markdown",
+        "link",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"vimMode\": true",
+      "description": "Enable Vim key bindings",
+      "scenario": "Enable Vim key bindings",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "vim",
+        "keybindings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"theme\": \"obsidian-dark\"",
+      "description": "Change theme to dark",
+      "scenario": "Change theme to dark",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "theme",
+        "dark"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"defaultNoteFolder\": \"Notes\"",
+      "description": "Set default note folder",
+      "scenario": "Set default note folder",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "folder",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[Note Title]]",
+      "description": "Link to another note",
+      "scenario": "Link to another note",
+      "language": "markdown",
+      "tags": [
+        "link",
+        "note",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "![[Note Title]]",
+      "description": "Embed a note",
+      "scenario": "Embed a note",
+      "language": "markdown",
+      "tags": [
+        "embed",
+        "note",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "- [ ] Task 1\n- [x] Task 2",
+      "description": "Create a task list",
+      "scenario": "Create a task list",
+      "language": "markdown",
+      "tags": [
+        "task",
+        "list",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+G",
+      "description": "Open graph view",
+      "scenario": "Open graph view",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "graph",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+F",
+      "description": "Search in all notes",
+      "scenario": "Search in all notes",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "search",
+        "notes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+,",
+      "description": "Open settings",
+      "scenario": "Open settings",
+      "language": "text",
+      "tags": [
+        "shortcut",
+        "settings",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

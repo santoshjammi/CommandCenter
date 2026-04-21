@@ -1,0 +1,204 @@
+{
+  "title": "LDPL Cheat Sheet",
+  "slug": "ldpl",
+  "description": "Quick reference for LDPL programming language syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "DATA: myNumber IS NUMBER",
+      "description": "Declare a numeric variable",
+      "scenario": "Declare a numeric variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "declaration",
+        "numeric"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DATA: myText IS TEXT",
+      "description": "Declare a text variable",
+      "scenario": "Declare a text variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "declaration",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "STORE 5 IN myNumber",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "assignment",
+        "numeric"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "IF myNumber > 10 THEN\n  DISPLAY \"Greater\"\nELSE\n  DISPLAY \"Lesser\"\nEND IF",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "text",
+      "tags": [
+        "control",
+        "if",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "WHILE myNumber < 10 DO\n  DISPLAY \"Looping\"\n  ADD 1 TO myNumber\nEND WHILE",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "while",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FOR myNumber FROM 1 TO 5 DO\n  DISPLAY myNumber\nEND FOR",
+      "description": "For loop",
+      "scenario": "For loop",
+      "language": "text",
+      "tags": [
+        "loop",
+        "for",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DISPLAY \"Hello, World!\"",
+      "description": "Display a message",
+      "scenario": "Display a message",
+      "language": "text",
+      "tags": [
+        "output",
+        "display",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ACCEPT myText",
+      "description": "Read input from user",
+      "scenario": "Read input from user",
+      "language": "text",
+      "tags": [
+        "input",
+        "user",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DISPLAY myNumber",
+      "description": "Display variable value",
+      "scenario": "Display variable value",
+      "language": "text",
+      "tags": [
+        "output",
+        "display",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "OPEN FILE \"example.txt\" AS \"myFile\"",
+      "description": "Open a file for reading",
+      "scenario": "Open a file for reading",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "read"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "READ LINE FROM \"myFile\" INTO myText",
+      "description": "Read a line from a file",
+      "scenario": "Read a line from a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "read",
+        "line"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CLOSE FILE \"myFile\"",
+      "description": "Close a file",
+      "scenario": "Close a file",
+      "language": "text",
+      "tags": [
+        "file",
+        "close",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PROCEDURE myProcedure\n  DISPLAY \"In Procedure\"\nEND PROCEDURE",
+      "description": "Define a sub-procedure",
+      "scenario": "Define a sub-procedure",
+      "language": "text",
+      "tags": [
+        "procedure",
+        "define",
+        "subroutine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "CALL myProcedure",
+      "description": "Call a sub-procedure",
+      "scenario": "Call a sub-procedure",
+      "language": "text",
+      "tags": [
+        "procedure",
+        "call",
+        "subroutine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PROCEDURE myProcedure WITH myParam IS NUMBER\n  DISPLAY myParam\nEND PROCEDURE",
+      "description": "Pass parameters to a sub-procedure",
+      "scenario": "Pass parameters to a sub-procedure",
+      "language": "text",
+      "tags": [
+        "procedure",
+        "parameters",
+        "subroutine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Notifications Cheat Sheet",
+  "slug": "notifications",
+  "description": "Quick reference for managing notifications in various environments",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "notify-send 'Title' 'Message'",
+      "description": "Send a desktop notification on Linux",
+      "scenario": "Send a desktop notification on Linux",
+      "language": "bash",
+      "tags": [
+        "linux",
+        "cli",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "osascript -e 'display notification \"Message\" with title \"Title\"'",
+      "description": "Send a notification on macOS using AppleScript",
+      "scenario": "Send a notification on macOS using AppleScript",
+      "language": "bash",
+      "tags": [
+        "macos",
+        "cli",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "New-BurntToastNotification -Text \"Title\", \"Message\"",
+      "description": "Send a notification on Windows using PowerShell",
+      "scenario": "Send a notification on Windows using PowerShell",
+      "language": "bash",
+      "tags": [
+        "windows",
+        "cli",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Notification.requestPermission().then(function(permission) { console.log(permission); });",
+      "description": "Request permission to send notifications",
+      "scenario": "Request permission to send notifications",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "web",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "new Notification('Title', { body: 'Message' });",
+      "description": "Send a simple notification",
+      "scenario": "Send a simple notification",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "web",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if ('Notification' in window) { console.log('Notifications supported'); }",
+      "description": "Check if notifications are supported",
+      "scenario": "Check if notifications are supported",
+      "language": "javascript",
+      "tags": [
+        "javascript",
+        "web",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from plyer import notification\nnotification.notify(title='Title', message='Message')",
+      "description": "Send a push notification using plyer",
+      "scenario": "Send a push notification using plyer",
+      "language": "python",
+      "tags": [
+        "python",
+        "notification",
+        "push"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from win10toast import ToastNotifier\ntoaster = ToastNotifier()\ntoaster.show_toast(\"Title\", \"Message\")",
+      "description": "Send a notification using win10toast",
+      "scenario": "Send a notification using win10toast",
+      "language": "python",
+      "tags": [
+        "python",
+        "notification",
+        "windows"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from pync import Notifier\nNotifier.notify('Message', title='Title')",
+      "description": "Send a notification using pync on macOS",
+      "scenario": "Send a notification using pync on macOS",
+      "language": "python",
+      "tags": [
+        "python",
+        "notification",
+        "macos"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import smtplib\nserver = smtplib.SMTP('smtp.example.com', 587)\nserver.starttls()\nserver.login('user@example.com', 'password')\nserver.sendmail('from@example.com', 'to@example.com', 'Subject: Title\\n\\nMessage')\nserver.quit()",
+      "description": "Send an email notification using Python smtplib",
+      "scenario": "Send an email notification using Python smtplib",
+      "language": "python",
+      "tags": [
+        "python",
+        "email",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'Message' | mail -s 'Title' user@example.com",
+      "description": "Send an email using mail command in Linux",
+      "scenario": "Send an email using mail command in Linux",
+      "language": "bash",
+      "tags": [
+        "linux",
+        "email",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo -e 'Subject: Title\\n\\nMessage' | sendmail user@example.com",
+      "description": "Send an email using sendmail in Linux",
+      "scenario": "Send an email using sendmail in Linux",
+      "language": "bash",
+      "tags": [
+        "linux",
+        "email",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -H \"Authorization: key=YOUR_SERVER_KEY\" -H \"Content-Type: application/json\" -d '{\"to\":\"DEVICE_TOKEN\",\"notification\":{\"title\":\"Title\",\"body\":\"Message\"}}' https://fcm.googleapis.com/fcm/send",
+      "description": "Send a push notification using Firebase Cloud Messaging",
+      "scenario": "Send a push notification using Firebase Cloud Messaging",
+      "language": "bash",
+      "tags": [
+        "firebase",
+        "push",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl --include --request POST --header \"Content-Type: application/json\" --header \"Authorization: Basic YOUR_REST_API_KEY\" --data-binary '{\"app_id\": \"YOUR_APP_ID\",\"contents\": {\"en\": \"Message\"},\"included_segments\": [\"All\"]}' https://onesignal.com/api/v1/notifications",
+      "description": "Send a push notification using OneSignal API",
+      "scenario": "Send a push notification using OneSignal API",
+      "language": "bash",
+      "tags": [
+        "onesignal",
+        "push",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pusher push interests --interests \"hello\" --publish-body '{\"apns\": {\"aps\": {\"alert\": \"Message\"}}, \"fcm\": {\"notification\": {\"title\": \"Title\", \"body\": \"Message\"}}}'",
+      "description": "Send a push notification using Pusher Beams",
+      "scenario": "Send a push notification using Pusher Beams",
+      "language": "bash",
+      "tags": [
+        "pusher",
+        "push",
+        "notification"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

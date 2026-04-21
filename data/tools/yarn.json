@@ -1,0 +1,204 @@
+{
+  "title": "Yarn Cheat Sheet",
+  "slug": "yarn",
+  "description": "Essential Yarn CLI commands and patterns for package management.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "yarn init",
+      "description": "Initialize a new Yarn project",
+      "scenario": "Initialize a new Yarn project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn install",
+      "description": "Install all dependencies from package.json",
+      "scenario": "Install all dependencies from package.json",
+      "language": "bash",
+      "tags": [
+        "install",
+        "dependencies",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn add <package-name>",
+      "description": "Add a new package to the project",
+      "scenario": "Add a new package to the project",
+      "language": "bash",
+      "tags": [
+        "add",
+        "package",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn remove <package-name>",
+      "description": "Remove a package from the project",
+      "scenario": "Remove a package from the project",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "package",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn upgrade <package-name>",
+      "description": "Upgrade a package to the latest version",
+      "scenario": "Upgrade a package to the latest version",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "package",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn list",
+      "description": "List all installed packages",
+      "scenario": "List all installed packages",
+      "language": "bash",
+      "tags": [
+        "list",
+        "packages",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn run <script-name>",
+      "description": "Run a script defined in package.json",
+      "scenario": "Run a script defined in package.json",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn run <script-name> --watch",
+      "description": "Run a script in watch mode",
+      "scenario": "Run a script in watch mode",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "watch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "VAR=value yarn run <script-name>",
+      "description": "Run a script with environment variables",
+      "scenario": "Run a script with environment variables",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn cache clean",
+      "description": "Clear Yarn's global cache",
+      "scenario": "Clear Yarn's global cache",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "clean",
+        "global"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn cache list",
+      "description": "List all cached packages",
+      "scenario": "List all cached packages",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "list",
+        "packages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn cache dir",
+      "description": "Get the path to Yarn's global cache",
+      "scenario": "Get the path to Yarn's global cache",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "path",
+        "global"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn init -w",
+      "description": "Enable Yarn workspaces in a project",
+      "scenario": "Enable Yarn workspaces in a project",
+      "language": "bash",
+      "tags": [
+        "workspaces",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn workspace <workspace-name> add <package-name>",
+      "description": "Add a package to a specific workspace",
+      "scenario": "Add a package to a specific workspace",
+      "language": "bash",
+      "tags": [
+        "workspaces",
+        "add",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn workspace <workspace-name> <command>",
+      "description": "Run a command in a specific workspace",
+      "scenario": "Run a command in a specific workspace",
+      "language": "bash",
+      "tags": [
+        "workspaces",
+        "run",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

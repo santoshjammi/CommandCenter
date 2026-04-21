@@ -1,0 +1,204 @@
+{
+  "title": "GolfScript Cheat Sheet",
+  "slug": "golfscript",
+  "description": "Essential GolfScript commands and syntax for quick reference.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "3 5 +",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "text",
+      "tags": [
+        "addition",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "10 4 -",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "text",
+      "tags": [
+        "subtraction",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "6 7 *",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "text",
+      "tags": [
+        "multiplication",
+        "math",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dup",
+      "description": "Duplicate the top item on the stack",
+      "scenario": "Duplicate the top item on the stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "duplicate",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "swap",
+      "description": "Swap the top two items on the stack",
+      "scenario": "Swap the top two items on the stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "swap",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pop",
+      "description": "Drop the top item from the stack",
+      "scenario": "Drop the top item from the stack",
+      "language": "text",
+      "tags": [
+        "stack",
+        "drop",
+        "manipulation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ code } if",
+      "description": "Execute a block if a condition is true",
+      "scenario": "Execute a block if a condition is true",
+      "language": "text",
+      "tags": [
+        "control",
+        "conditional",
+        "if"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ code } { condition } while",
+      "description": "Execute a block while a condition is true",
+      "scenario": "Execute a block while a condition is true",
+      "language": "text",
+      "tags": [
+        "control",
+        "loop",
+        "while"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[1 2 3] { code } each",
+      "description": "Execute a block for each item in a list",
+      "scenario": "Execute a block for each item in a list",
+      "language": "text",
+      "tags": [
+        "control",
+        "loop",
+        "each"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"Hello\" \"World\" +",
+      "description": "Concatenate two strings",
+      "scenario": "Concatenate two strings",
+      "language": "text",
+      "tags": [
+        "string",
+        "concatenate",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"Hello\" size",
+      "description": "Get the length of a string",
+      "scenario": "Get the length of a string",
+      "language": "text",
+      "tags": [
+        "string",
+        "length",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"Hello\" reverse",
+      "description": "Reverse a string",
+      "scenario": "Reverse a string",
+      "language": "text",
+      "tags": [
+        "string",
+        "reverse",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[1 2 3 4] +",
+      "description": "Sum all elements in an array",
+      "scenario": "Sum all elements in an array",
+      "language": "text",
+      "tags": [
+        "array",
+        "sum",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[1 2 3 4] max",
+      "description": "Get the maximum element in an array",
+      "scenario": "Get the maximum element in an array",
+      "language": "text",
+      "tags": [
+        "array",
+        "maximum",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[3 1 4 2] sort",
+      "description": "Sort an array",
+      "scenario": "Sort an array",
+      "language": "text",
+      "tags": [
+        "array",
+        "sort",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

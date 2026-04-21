@@ -1,0 +1,126 @@
+{
+  "title": "Factory Bot Cheat Sheet",
+  "slug": "factory-bot",
+  "description": "Quick reference for Factory Bot usage in Ruby on Rails.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "FactoryBot.define do\n  factory :user do\n    name { \"John Doe\" }\n    email { \"john.doe@example.com\" }\n  end\nend",
+      "description": "Define a basic factory for a User model",
+      "scenario": "Define a basic factory for a User model",
+      "language": "ruby",
+      "tags": [
+        "factory",
+        "definition",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FactoryBot.define do\n  factory :user do\n    sequence(:email) { |n| \"user#{n}@example.com\" }\n  end\nend",
+      "description": "Define a sequence for unique email addresses",
+      "scenario": "Define a sequence for unique email addresses",
+      "language": "ruby",
+      "tags": [
+        "sequence",
+        "email",
+        "unique"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FactoryBot.define do\n  factory :user do\n    name { \"John Doe\" }\n\n    trait :admin do\n      admin { true }\n    end\n  end\nend",
+      "description": "Define a factory with traits",
+      "scenario": "Define a factory with traits",
+      "language": "ruby",
+      "tags": [
+        "traits",
+        "admin",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let(:user) { create(:user) }",
+      "description": "Create a user instance in a test",
+      "scenario": "Create a user instance in a test",
+      "language": "ruby",
+      "tags": [
+        "create",
+        "test",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let(:user) { build(:user) }",
+      "description": "Build a user instance without saving to the database",
+      "scenario": "Build a user instance without saving to the database",
+      "language": "ruby",
+      "tags": [
+        "build",
+        "test",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let(:users) { create_list(:user, 5) }",
+      "description": "Create a list of user instances",
+      "scenario": "Create a list of user instances",
+      "language": "ruby",
+      "tags": [
+        "create_list",
+        "multiple",
+        "instances"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FactoryBot.define do\n  factory :post do\n    title { \"Sample Post\" }\n    association :user\n  end\nend",
+      "description": "Define a factory with associations",
+      "scenario": "Define a factory with associations",
+      "language": "ruby",
+      "tags": [
+        "association",
+        "post",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FactoryBot.define do\n  factory :user do\n    transient do\n      upcased false\n    end\n\n    after(:create) do |user, evaluator|\n      user.name.upcase! if evaluator.upcased\n    end\n  end\nend",
+      "description": "Use transient attributes in a factory",
+      "scenario": "Use transient attributes in a factory",
+      "language": "ruby",
+      "tags": [
+        "transient",
+        "attributes",
+        "upcased"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let(:user) { create(:user, name: \"Jane Doe\") }",
+      "description": "Override attributes when creating an instance",
+      "scenario": "Override attributes when creating an instance",
+      "language": "ruby",
+      "tags": [
+        "override",
+        "attributes",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "AMD Command Line Interface",
+  "slug": "amd",
+  "description": "Essential CLI commands for AMD processors and tools.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "lscpu",
+      "description": "Display detailed CPU information",
+      "scenario": "Display detailed CPU information",
+      "language": "bash",
+      "tags": [
+        "cpu",
+        "info",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cat /proc/cpuinfo | grep 'MHz'",
+      "description": "Check the current CPU frequency",
+      "scenario": "Check the current CPU frequency",
+      "language": "bash",
+      "tags": [
+        "cpu",
+        "frequency",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lspci | grep -i 'amd'",
+      "description": "List all PCI devices including AMD GPUs",
+      "scenario": "List all PCI devices including AMD GPUs",
+      "language": "bash",
+      "tags": [
+        "pci",
+        "gpu",
+        "devices"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watch -n 1 sensors",
+      "description": "Monitor CPU temperature",
+      "scenario": "Monitor CPU temperature",
+      "language": "bash",
+      "tags": [
+        "temperature",
+        "monitor",
+        "cpu"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Check CPU usage in real-time",
+      "scenario": "Check CPU usage in real-time",
+      "language": "bash",
+      "tags": [
+        "cpu",
+        "usage",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "watch -n 1 radeontop",
+      "description": "Display GPU usage statistics",
+      "scenario": "Display GPU usage statistics",
+      "language": "bash",
+      "tags": [
+        "gpu",
+        "usage",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt install amdgpu-pro",
+      "description": "Install AMD GPU drivers on Ubuntu",
+      "scenario": "Install AMD GPU drivers on Ubuntu",
+      "language": "bash",
+      "tags": [
+        "drivers",
+        "gpu",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dpkg -l | grep amdgpu",
+      "description": "Check installed AMD driver version",
+      "scenario": "Check installed AMD driver version",
+      "language": "bash",
+      "tags": [
+        "drivers",
+        "version",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt remove --purge amdgpu-pro",
+      "description": "Remove AMD GPU drivers",
+      "scenario": "Remove AMD GPU drivers",
+      "language": "bash",
+      "tags": [
+        "drivers",
+        "gpu",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo amdconfig --od-enable",
+      "description": "Configure power management for AMD GPUs",
+      "scenario": "Configure power management for AMD GPUs",
+      "language": "bash",
+      "tags": [
+        "gpu",
+        "power",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo amdconfig --odsc=high",
+      "description": "Set GPU performance level to high",
+      "scenario": "Set GPU performance level to high",
+      "language": "bash",
+      "tags": [
+        "gpu",
+        "performance",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'low' > /sys/class/drm/card0/device/power_dpm_state",
+      "description": "Enable dynamic power management for AMD GPUs",
+      "scenario": "Enable dynamic power management for AMD GPUs",
+      "language": "bash",
+      "tags": [
+        "gpu",
+        "power",
+        "dynamic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dmesg | grep -i 'amd'",
+      "description": "Check dmesg for AMD-related errors",
+      "scenario": "Check dmesg for AMD-related errors",
+      "language": "bash",
+      "tags": [
+        "troubleshoot",
+        "errors",
+        "dmesg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glxinfo | grep 'OpenGL renderer'",
+      "description": "Verify GPU is recognized by the system",
+      "scenario": "Verify GPU is recognized by the system",
+      "language": "bash",
+      "tags": [
+        "gpu",
+        "verify",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "glmark2",
+      "description": "Test GPU performance with a benchmark",
+      "scenario": "Test GPU performance with a benchmark",
+      "language": "bash",
+      "tags": [
+        "gpu",
+        "benchmark",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

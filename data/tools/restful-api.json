@@ -1,0 +1,230 @@
+{
+  "title": "RESTful API Cheat Sheet",
+  "slug": "restful-api",
+  "description": "Essential commands and patterns for working with RESTful APIs.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "GET /resource",
+      "description": "Retrieve data from the server",
+      "scenario": "Retrieve data from the server",
+      "language": "text",
+      "tags": [
+        "GET",
+        "HTTP",
+        "retrieve"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /resource",
+      "description": "Submit data to be processed to the server",
+      "scenario": "Submit data to be processed to the server",
+      "language": "text",
+      "tags": [
+        "POST",
+        "HTTP",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PUT /resource/{id}",
+      "description": "Update existing data on the server",
+      "scenario": "Update existing data on the server",
+      "language": "text",
+      "tags": [
+        "PUT",
+        "HTTP",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DELETE /resource/{id}",
+      "description": "Delete data from the server",
+      "scenario": "Delete data from the server",
+      "language": "text",
+      "tags": [
+        "DELETE",
+        "HTTP",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "200 OK",
+      "description": "Request succeeded and resource is returned",
+      "scenario": "Request succeeded and resource is returned",
+      "language": "text",
+      "tags": [
+        "HTTP",
+        "status",
+        "success"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "201 Created",
+      "description": "Resource created successfully",
+      "scenario": "Resource created successfully",
+      "language": "text",
+      "tags": [
+        "HTTP",
+        "status",
+        "created"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "202 Accepted",
+      "description": "Request accepted but not yet processed",
+      "scenario": "Request accepted but not yet processed",
+      "language": "text",
+      "tags": [
+        "HTTP",
+        "status",
+        "accepted"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "404 Not Found",
+      "description": "Resource not found",
+      "scenario": "Resource not found",
+      "language": "text",
+      "tags": [
+        "HTTP",
+        "status",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X GET https://api.example.com/resource",
+      "description": "Send a GET request to a URL",
+      "scenario": "Send a GET request to a URL",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "GET",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST -H \"Content-Type: application/json\" -d '{\"key\":\"value\"}' https://api.example.com/resource",
+      "description": "Send a POST request with JSON data",
+      "scenario": "Send a POST request with JSON data",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "POST",
+        "JSON"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X DELETE https://api.example.com/resource/1",
+      "description": "Send a DELETE request to a URL",
+      "scenario": "Send a DELETE request to a URL",
+      "language": "bash",
+      "tags": [
+        "curl",
+        "DELETE",
+        "request"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "curl -u username:password https://api.example.com/resource",
+      "description": "Basic Authentication using cURL",
+      "scenario": "Basic Authentication using cURL",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "basic",
+        "curl"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Authorization: Bearer {token}",
+      "description": "Bearer Token Authentication in HTTP header",
+      "scenario": "Bearer Token Authentication in HTTP header",
+      "language": "text",
+      "tags": [
+        "authentication",
+        "bearer",
+        "token"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://authorization-server.com/auth?response_type=code&client_id=CLIENT_ID&redirect_uri=CALLBACK_URL",
+      "description": "OAuth 2.0 Authorization Code Flow",
+      "scenario": "OAuth 2.0 Authorization Code Flow",
+      "language": "text",
+      "tags": [
+        "OAuth",
+        "authorization",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('https://api.example.com/resource').then(response => response.json()).then(data => console.log(data));",
+      "description": "Parse JSON response in JavaScript",
+      "scenario": "Parse JSON response in JavaScript",
+      "language": "javascript",
+      "tags": [
+        "JSON",
+        "JavaScript",
+        "fetch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let value = jsonResponse.fieldName;",
+      "description": "Access a specific field in a JSON response",
+      "scenario": "Access a specific field in a JSON response",
+      "language": "javascript",
+      "tags": [
+        "JSON",
+        "JavaScript",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "JSON.stringify({ key: 'value' });",
+      "description": "Convert JavaScript object to JSON string",
+      "scenario": "Convert JavaScript object to JSON string",
+      "language": "javascript",
+      "tags": [
+        "JSON",
+        "JavaScript",
+        "stringify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

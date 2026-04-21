@@ -1,0 +1,204 @@
+{
+  "title": "Svelte Cheat Sheet",
+  "slug": "svelte",
+  "description": "Quick reference for Svelte CLI commands, syntax, and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npx degit sveltejs/template my-svelte-project",
+      "description": "Create a new Svelte project",
+      "scenario": "Create a new Svelte project",
+      "language": "bash",
+      "tags": [
+        "svelte",
+        "cli",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run dev",
+      "description": "Run the Svelte development server",
+      "scenario": "Run the Svelte development server",
+      "language": "bash",
+      "tags": [
+        "svelte",
+        "cli",
+        "dev-server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run build",
+      "description": "Build the Svelte project for production",
+      "scenario": "Build the Svelte project for production",
+      "language": "bash",
+      "tags": [
+        "svelte",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<script>let name = 'world';</script>\n\n<style>h1 { color: purple; }</style>\n\n<h1>Hello {name}!</h1>",
+      "description": "Define a Svelte component with a script, style, and markup",
+      "scenario": "Define a Svelte component with a script, style, and markup",
+      "language": "svelte",
+      "tags": [
+        "svelte",
+        "component",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "$: doubled = count * 2;",
+      "description": "Use reactive statements in Svelte",
+      "scenario": "Use reactive statements in Svelte",
+      "language": "svelte",
+      "tags": [
+        "svelte",
+        "reactive",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input bind:value={name}>",
+      "description": "Bind an input value to a variable",
+      "scenario": "Bind an input value to a variable",
+      "language": "svelte",
+      "tags": [
+        "svelte",
+        "binding",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{#if condition}\n  <p>Condition is true</p>\n{:else}\n  <p>Condition is false</p>\n{/if}",
+      "description": "Conditional rendering with if block",
+      "scenario": "Conditional rendering with if block",
+      "language": "svelte",
+      "tags": [
+        "svelte",
+        "conditional",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{#each items as item}\n  <p>{item}</p>\n{/each}",
+      "description": "Loop through an array with each block",
+      "scenario": "Loop through an array with each block",
+      "language": "svelte",
+      "tags": [
+        "svelte",
+        "loop",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { writable } from 'svelte/store';\n\nconst count = writable(0);\n\ncount.subscribe(value => {\n  console.log(value);\n});",
+      "description": "Create a reactive store and subscribe to it",
+      "scenario": "Create a reactive store and subscribe to it",
+      "language": "javascript",
+      "tags": [
+        "svelte",
+        "store",
+        "reactive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button on:click={handleClick}>Click me</button>",
+      "description": "Handle a click event on a button",
+      "scenario": "Handle a click event on a button",
+      "language": "svelte",
+      "tags": [
+        "svelte",
+        "event",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<form on:submit|preventDefault={handleSubmit}>",
+      "description": "Prevent default behavior in an event",
+      "scenario": "Prevent default behavior in an event",
+      "language": "svelte",
+      "tags": [
+        "svelte",
+        "event",
+        "preventDefault"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<input on:input={event => handleInput(event.target.value)}>",
+      "description": "Pass event data to a handler",
+      "scenario": "Pass event data to a handler",
+      "language": "svelte",
+      "tags": [
+        "svelte",
+        "event",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import sveltePreprocess from 'svelte-preprocess';\n\nexport default {\n  preprocess: sveltePreprocess(),\n};",
+      "description": "Add a custom preprocess step in svelte.config.js",
+      "scenario": "Add a custom preprocess step in svelte.config.js",
+      "language": "javascript",
+      "tags": [
+        "svelte",
+        "config",
+        "preprocess"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx svelte-add@latest typescript",
+      "description": "Configure a Svelte project to use TypeScript",
+      "scenario": "Configure a Svelte project to use TypeScript",
+      "language": "bash",
+      "tags": [
+        "svelte",
+        "typescript",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npx svelte-add@latest tailwindcss",
+      "description": "Set up a Svelte project with Tailwind CSS",
+      "scenario": "Set up a Svelte project with Tailwind CSS",
+      "language": "bash",
+      "tags": [
+        "svelte",
+        "tailwind",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

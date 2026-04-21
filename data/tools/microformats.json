@@ -1,0 +1,126 @@
+{
+  "title": "Microformats Cheat Sheet",
+  "slug": "microformats",
+  "description": "Quick reference for implementing microformats in HTML.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "<div class=\"h-card\">\n  <p class=\"p-name\">John Doe</p>\n  <a class=\"u-url\" href=\"http://johndoe.com\">johndoe.com</a>\n</div>",
+      "description": "Define a person with h-card microformat",
+      "scenario": "Define a person with h-card microformat",
+      "language": "html",
+      "tags": [
+        "h-card",
+        "person",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"h-event\">\n  <p class=\"p-name\">Birthday Party</p>\n  <time class=\"dt-start\" datetime=\"2023-10-01T19:00\">October 1st, 7:00 PM</time>\n</div>",
+      "description": "Create an event using h-event microformat",
+      "scenario": "Create an event using h-event microformat",
+      "language": "html",
+      "tags": [
+        "h-event",
+        "event",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"h-card\">\n  <p class=\"p-org\">Acme Corporation</p>\n  <p class=\"p-tel\">+1-800-555-0199</p>\n</div>",
+      "description": "Mark up an organization with h-card",
+      "scenario": "Mark up an organization with h-card",
+      "language": "html",
+      "tags": [
+        "h-card",
+        "organization",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"h-card\">\n  <p class=\"p-name\">Central Park</p>\n  <span class=\"p-geo\">\n    <data class=\"p-latitude\" value=\"40.785091\"></data>\n    <data class=\"p-longitude\" value=\"-73.968285\"></data>\n  </span>\n</div>",
+      "description": "Include a location with geo microformat",
+      "scenario": "Include a location with geo microformat",
+      "language": "html",
+      "tags": [
+        "geo",
+        "location",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"h-review\">\n  <p class=\"p-item\">The Great Gatsby</p>\n  <p class=\"p-rating\">5 stars</p>\n  <p class=\"p-reviewer\">Jane Smith</p>\n</div>",
+      "description": "Embed a review using h-review microformat",
+      "scenario": "Embed a review using h-review microformat",
+      "language": "html",
+      "tags": [
+        "h-review",
+        "review",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"h-product\">\n  <p class=\"p-name\">Smartphone</p>\n  <p class=\"p-price\">$299</p>\n</div>",
+      "description": "Add a product with h-product microformat",
+      "scenario": "Add a product with h-product microformat",
+      "language": "html",
+      "tags": [
+        "h-product",
+        "product",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<span class=\"p-name\">Example Name</span>",
+      "description": "Use class names to define properties",
+      "scenario": "Use class names to define properties",
+      "language": "html",
+      "tags": [
+        "syntax",
+        "class",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"h-card\">\n  <p class=\"p-name\">John Doe</p>\n  <div class=\"h-org\">\n    <p class=\"p-name\">Acme Corp</p>\n  </div>\n</div>",
+      "description": "Nest microformats for complex data",
+      "scenario": "Nest microformats for complex data",
+      "language": "html",
+      "tags": [
+        "nesting",
+        "complex",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a class=\"u-url\" rel=\"me\" href=\"http://example.com\">My Profile</a>",
+      "description": "Use rel attribute for relationships",
+      "scenario": "Use rel attribute for relationships",
+      "language": "html",
+      "tags": [
+        "rel",
+        "attribute",
+        "microformats"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

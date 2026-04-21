@@ -1,0 +1,126 @@
+{
+  "title": "Nopt CLI Cheat Sheet",
+  "slug": "nopt",
+  "description": "Quick reference for using Nopt to parse command-line options in Node.js applications.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "const nopt = require('nopt');",
+      "description": "Import Nopt module in your Node.js script",
+      "scenario": "Import Nopt module in your Node.js script",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "require",
+        "nodejs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const knownOpts = { 'debug': Boolean, 'port': Number }; const shortHands = { 'd': ['--debug'], 'p': ['--port'] };",
+      "description": "Define known options and shorthands",
+      "scenario": "Define known options and shorthands",
+      "language": "javascript",
+      "tags": [
+        "options",
+        "shorthands",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const parsed = nopt(knownOpts, shortHands, process.argv, 2);",
+      "description": "Parse command-line arguments",
+      "scenario": "Parse command-line arguments",
+      "language": "javascript",
+      "tags": [
+        "parse",
+        "arguments",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (parsed.debug) { console.log('Debugging is enabled'); }",
+      "description": "Check if a flag is set",
+      "scenario": "Check if a flag is set",
+      "language": "javascript",
+      "tags": [
+        "flag",
+        "check",
+        "debug"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const port = parsed.port || 8080;",
+      "description": "Set a default value for an option",
+      "scenario": "Set a default value for an option",
+      "language": "javascript",
+      "tags": [
+        "default",
+        "value",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const parsed = nopt(knownOpts, shortHands, process.argv, 2); if (parsed.unknown) { console.warn('Unknown option detected'); }",
+      "description": "Handle unknown options gracefully",
+      "scenario": "Handle unknown options gracefully",
+      "language": "javascript",
+      "tags": [
+        "unknown",
+        "options",
+        "warning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const knownOpts = { 'file': require('path') };",
+      "description": "Use a custom type for an option",
+      "scenario": "Use a custom type for an option",
+      "language": "javascript",
+      "tags": [
+        "custom",
+        "type",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const parsed = nopt(knownOpts, shortHands, process.argv, 2, { 'port': 3000 });",
+      "description": "Parse arguments with defaults",
+      "scenario": "Parse arguments with defaults",
+      "language": "javascript",
+      "tags": [
+        "defaults",
+        "parse",
+        "arguments"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const knownOpts = { 'files': [String, Array] }; const parsed = nopt(knownOpts, shortHands, process.argv, 2);",
+      "description": "Handle multiple values for an option",
+      "scenario": "Handle multiple values for an option",
+      "language": "javascript",
+      "tags": [
+        "multiple",
+        "values",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

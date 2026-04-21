@@ -1,0 +1,165 @@
+{
+  "title": "Nock Cheat Sheet",
+  "slug": "nock",
+  "description": "Quick reference for mocking HTTP requests with Nock in Node.js.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const nock = require('nock');",
+      "description": "Import Nock into your Node.js project",
+      "scenario": "Import Nock into your Node.js project",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "setup",
+        "nock"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock.disableNetConnect();",
+      "description": "Disable all real network requests",
+      "scenario": "Disable all real network requests",
+      "language": "javascript",
+      "tags": [
+        "network",
+        "disable",
+        "requests"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock.enableNetConnect('example.com');",
+      "description": "Enable real network requests for a specific domain",
+      "scenario": "Enable real network requests for a specific domain",
+      "language": "javascript",
+      "tags": [
+        "network",
+        "enable",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock('https://api.example.com').get('/resource').reply(200, { success: true });",
+      "description": "Mock a GET request to a specific URL",
+      "scenario": "Mock a GET request to a specific URL",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "get",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock('https://api.example.com').post('/resource', { id: 1 }).reply(201, { success: true });",
+      "description": "Mock a POST request with a request body",
+      "scenario": "Mock a POST request with a request body",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "post",
+        "body"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock('https://api.example.com').get('/resource').query({ id: 1 }).reply(200, { success: true });",
+      "description": "Mock a request with query parameters",
+      "scenario": "Mock a request with query parameters",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "query",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock('https://api.example.com').get('/resource').delay(2000).reply(200, { success: true });",
+      "description": "Mock a request with a delay in response",
+      "scenario": "Mock a request with a delay in response",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "delay",
+        "response"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock('https://api.example.com').get('/resource').reply(200, { success: true }).persist();",
+      "description": "Persist a mock to be used multiple times",
+      "scenario": "Persist a mock to be used multiple times",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "persist",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock('https://api.example.com').get('/resource').matchHeader('Authorization', 'Bearer token').reply(200, { success: true });",
+      "description": "Mock a request with a specific header",
+      "scenario": "Mock a request with a specific header",
+      "language": "javascript",
+      "tags": [
+        "mock",
+        "header",
+        "authorization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock.isDone();",
+      "description": "Check if all defined mocks are used",
+      "scenario": "Check if all defined mocks are used",
+      "language": "javascript",
+      "tags": [
+        "check",
+        "mocks",
+        "used"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock.cleanAll();",
+      "description": "Clean all defined mocks",
+      "scenario": "Clean all defined mocks",
+      "language": "javascript",
+      "tags": [
+        "clean",
+        "mocks",
+        "reset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nock.recorder.rec();",
+      "description": "Log all HTTP requests to the console",
+      "scenario": "Log all HTTP requests to the console",
+      "language": "javascript",
+      "tags": [
+        "log",
+        "http",
+        "requests"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

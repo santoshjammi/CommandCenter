@@ -1,0 +1,165 @@
+{
+  "title": "Ledger CLI Cheat Sheet",
+  "slug": "ledger-cli",
+  "description": "Essential commands and patterns for using Ledger CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ledger add \"2023/10/01 * Coffee Shop Expenses:Food $5.00\"",
+      "description": "Add a new transaction to the ledger",
+      "scenario": "Add a new transaction to the ledger",
+      "language": "bash",
+      "tags": [
+        "transaction",
+        "add",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger balance",
+      "description": "Print the current balance of all accounts",
+      "scenario": "Print the current balance of all accounts",
+      "language": "bash",
+      "tags": [
+        "balance",
+        "accounts",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger register",
+      "description": "Register all transactions in the ledger",
+      "scenario": "Register all transactions in the ledger",
+      "language": "bash",
+      "tags": [
+        "register",
+        "transactions",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger balance Expenses:Food",
+      "description": "Show balance for a specific account",
+      "scenario": "Show balance for a specific account",
+      "language": "bash",
+      "tags": [
+        "balance",
+        "filter",
+        "report"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger register --period \"last month\"",
+      "description": "Generate a report for transactions in a specific month",
+      "scenario": "Generate a report for transactions in a specific month",
+      "language": "bash",
+      "tags": [
+        "report",
+        "monthly",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger register --payee \"Coffee Shop\"",
+      "description": "Filter transactions by a specific payee",
+      "scenario": "Filter transactions by a specific payee",
+      "language": "bash",
+      "tags": [
+        "filter",
+        "payee",
+        "report"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger csv > transactions.csv",
+      "description": "Export ledger data to CSV format",
+      "scenario": "Export ledger data to CSV format",
+      "language": "bash",
+      "tags": [
+        "export",
+        "csv",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger -f my_ledger.dat balance",
+      "description": "Use a custom ledger file instead of the default",
+      "scenario": "Use a custom ledger file instead of the default",
+      "language": "bash",
+      "tags": [
+        "custom",
+        "file",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger register --pending",
+      "description": "Display a detailed report with cleared and pending transactions",
+      "scenario": "Display a detailed report with cleared and pending transactions",
+      "language": "bash",
+      "tags": [
+        "detailed",
+        "pending",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "DOLLAR_SYMBOL=\"$\"",
+      "description": "Set a default currency for transactions",
+      "scenario": "Set a default currency for transactions",
+      "language": "bash",
+      "tags": [
+        "currency",
+        "default",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alias lbal='ledger balance'",
+      "description": "Define a custom alias for frequent commands",
+      "scenario": "Define a custom alias for frequent commands",
+      "language": "bash",
+      "tags": [
+        "alias",
+        "custom",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ledger -f my_ledger.dat --init-file my_config.conf balance",
+      "description": "Include a configuration file for ledger settings",
+      "scenario": "Include a configuration file for ledger settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Proto.io Cheat Sheet",
+  "slug": "protoio",
+  "description": "Quick reference for Proto.io commands and configuration.",
+  "audience": "engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "protoio create my-new-project",
+      "description": "Start a new Proto.io project",
+      "scenario": "Start a new Proto.io project",
+      "language": "bash",
+      "tags": [
+        "project",
+        "create",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "protoio serve",
+      "description": "Run the Proto.io project locally",
+      "scenario": "Run the Proto.io project locally",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "local",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "protoio build",
+      "description": "Build the Proto.io project for production",
+      "scenario": "Build the Proto.io project for production",
+      "language": "bash",
+      "tags": [
+        "build",
+        "production",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "component MyComponent {\n  // Component code here\n}",
+      "description": "Define a new component in Proto.io",
+      "scenario": "Define a new component in Proto.io",
+      "language": "text",
+      "tags": [
+        "component",
+        "define",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MyComponent.on('click', function() {\n  // Event handling code here\n});",
+      "description": "Add an event listener to a component",
+      "scenario": "Add an event listener to a component",
+      "language": "text",
+      "tags": [
+        "event",
+        "listener",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MyComponent.setProperty('propertyName', 'value');",
+      "description": "Set a property on a Proto.io component",
+      "scenario": "Set a property on a Proto.io component",
+      "language": "text",
+      "tags": [
+        "property",
+        "set",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "protoio serve --verbose",
+      "description": "Enable verbose logging",
+      "scenario": "Enable verbose logging",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "logging",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "protoio build --skip-tests",
+      "description": "Skip tests during build",
+      "scenario": "Skip tests during build",
+      "language": "bash",
+      "tags": [
+        "build",
+        "tests",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "protoio serve --config custom-config.json",
+      "description": "Specify a custom configuration file",
+      "scenario": "Specify a custom configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "custom",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"name\": \"my-new-project\",\n  \"version\": \"1.0.0\"\n}",
+      "description": "Basic project configuration",
+      "scenario": "Basic project configuration",
+      "language": "json",
+      "tags": [
+        "configuration",
+        "project",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"env\": {\n    \"API_KEY\": \"your-api-key\"\n  }\n}",
+      "description": "Add a new environment variable",
+      "scenario": "Add a new environment variable",
+      "language": "json",
+      "tags": [
+        "environment",
+        "variable",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"build\": {\n    \"outputDir\": \"dist\"\n  }\n}",
+      "description": "Configure build output directory",
+      "scenario": "Configure build output directory",
+      "language": "json",
+      "tags": [
+        "build",
+        "output",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function createComponent(name, options) {\n  return new Component(name, options);\n}",
+      "description": "Pattern for creating reusable components",
+      "scenario": "Pattern for creating reusable components",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "component",
+        "reusable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "async function fetchData(url) {\n  const response = await fetch(url);\n  return response.json();\n}",
+      "description": "Pattern for handling asynchronous data",
+      "scenario": "Pattern for handling asynchronous data",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "async",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const state = {\n  currentState: 'initial',\n  setState(newState) {\n    this.currentState = newState;\n  }\n};",
+      "description": "Pattern for state management",
+      "scenario": "Pattern for state management",
+      "language": "javascript",
+      "tags": [
+        "pattern",
+        "state",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

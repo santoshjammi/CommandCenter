@@ -1,0 +1,204 @@
+{
+  "title": "Haxe Cheat Sheet",
+  "slug": "haxe",
+  "description": "Essential Haxe syntax and CLI commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "class Main {\n  static function main() {\n    trace('Hello, World!');\n  }\n}",
+      "description": "Define a class in Haxe",
+      "scenario": "Define a class in Haxe",
+      "language": "haxe",
+      "tags": [
+        "class",
+        "syntax",
+        "hello world"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var name = \"Haxe\";",
+      "description": "Declare a variable with type inference",
+      "scenario": "Declare a variable with type inference",
+      "language": "haxe",
+      "tags": [
+        "variable",
+        "type inference",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet(name:String):Void {\n  trace('Hello, ' + name);\n}",
+      "description": "Create a function with parameters",
+      "scenario": "Create a function with parameters",
+      "language": "haxe",
+      "tags": [
+        "function",
+        "parameters",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (condition) {\n  trace('Condition is true');\n} else {\n  trace('Condition is false');\n}",
+      "description": "If-else statement in Haxe",
+      "scenario": "If-else statement in Haxe",
+      "language": "haxe",
+      "tags": [
+        "if",
+        "else",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (i in 0...10) {\n  trace(i);\n}",
+      "description": "For loop in Haxe",
+      "scenario": "For loop in Haxe",
+      "language": "haxe",
+      "tags": [
+        "for loop",
+        "iteration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "switch (value) {\n  case 1:\n    trace('One');\n  case 2:\n    trace('Two');\n  default:\n    trace('Other');\n}",
+      "description": "Switch case statement",
+      "scenario": "Switch case statement",
+      "language": "haxe",
+      "tags": [
+        "switch",
+        "case",
+        "control flow"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var numbers:Array<Int> = [1, 2, 3, 4, 5];",
+      "description": "Define an array in Haxe",
+      "scenario": "Define an array in Haxe",
+      "language": "haxe",
+      "tags": [
+        "array",
+        "data structure",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "var map:Map<String, Int> = new Map();\nmap.set('one', 1);",
+      "description": "Create a map in Haxe",
+      "scenario": "Create a map in Haxe",
+      "language": "haxe",
+      "tags": [
+        "map",
+        "data structure",
+        "key-value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "enum Color {\n  Red;\n  Green;\n  Blue;\n}",
+      "description": "Define an enum in Haxe",
+      "scenario": "Define an enum in Haxe",
+      "language": "haxe",
+      "tags": [
+        "enum",
+        "data structure",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "haxe -main Main -js main.js",
+      "description": "Compile a Haxe program to JavaScript",
+      "scenario": "Compile a Haxe program to JavaScript",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "javascript",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "haxe -main Main -cpp cpp_output",
+      "description": "Compile a Haxe program to C++",
+      "scenario": "Compile a Haxe program to C++",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "cpp",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "haxe -version",
+      "description": "Display Haxe version",
+      "scenario": "Display Haxe version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try {\n  // code that may throw an error\n} catch(e:Dynamic) {\n  trace('Error: ' + e);\n}",
+      "description": "Try-catch block in Haxe",
+      "scenario": "Try-catch block in Haxe",
+      "language": "haxe",
+      "tags": [
+        "try",
+        "catch",
+        "error handling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw 'An error occurred';",
+      "description": "Throw an exception in Haxe",
+      "scenario": "Throw an exception in Haxe",
+      "language": "haxe",
+      "tags": [
+        "throw",
+        "exception",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try {\n  // code\n} catch(e:Dynamic) {\n  // handle error\n} finally {\n  trace('Cleanup');\n}",
+      "description": "Use finally block in Haxe",
+      "scenario": "Use finally block in Haxe",
+      "language": "haxe",
+      "tags": [
+        "finally",
+        "error handling",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

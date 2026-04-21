@@ -1,0 +1,165 @@
+{
+  "title": "Tape.js Testing Framework Cheat Sheet",
+  "slug": "tape",
+  "description": "Quick reference for using Tape.js for testing in JavaScript.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "const test = require('tape');\n\ntest('Example test', function (t) {\n  t.equal(1 + 1, 2, 'One plus one should equal two');\n  t.end();\n});",
+      "description": "Define a basic test case with Tape",
+      "scenario": "Define a basic test case with Tape",
+      "language": "javascript",
+      "tags": [
+        "tape",
+        "testing",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "test('Deep equality test', function (t) {\n  t.deepEqual({a: 1}, {a: 1}, 'Objects should be deeply equal');\n  t.end();\n});",
+      "description": "Test for deep equality of objects",
+      "scenario": "Test for deep equality of objects",
+      "language": "javascript",
+      "tags": [
+        "deepEqual",
+        "objects",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "test('Failing test', function (t) {\n  t.fail('This test fails intentionally');\n  t.end();\n});",
+      "description": "Fail a test explicitly",
+      "scenario": "Fail a test explicitly",
+      "language": "javascript",
+      "tags": [
+        "fail",
+        "testing",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tape test/*.js",
+      "description": "Run tests with Tape from the command line",
+      "scenario": "Run tests with Tape from the command line",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "run",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tape test/*.js | tap-spec",
+      "description": "Run tests with Tape and output in TAP format",
+      "scenario": "Run tests with Tape and output in TAP format",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "tap",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nyc tape test/*.js",
+      "description": "Run tests and generate a coverage report with nyc",
+      "scenario": "Run tests and generate a coverage report with nyc",
+      "language": "bash",
+      "tags": [
+        "coverage",
+        "nyc",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "t.ok(value, 'Value should be truthy');",
+      "description": "Check if a value is truthy",
+      "scenario": "Check if a value is truthy",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "truthy",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "t.notOk(value, 'Value should be falsy');",
+      "description": "Check if a value is falsy",
+      "scenario": "Check if a value is falsy",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "falsy",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "t.equal(actual, expected, 'Values should be strictly equal');",
+      "description": "Compare two values for strict equality",
+      "scenario": "Compare two values for strict equality",
+      "language": "javascript",
+      "tags": [
+        "equal",
+        "strict",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "test('Planned test', function (t) {\n  t.plan(2);\n  t.equal(1 + 1, 2);\n  t.equal(2 + 2, 4);\n});",
+      "description": "Create a test with a plan",
+      "scenario": "Create a test with a plan",
+      "language": "javascript",
+      "tags": [
+        "plan",
+        "testing",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "test.skip('Skipped test', function (t) {\n  t.fail('This should not run');\n});",
+      "description": "Skip a test",
+      "scenario": "Skip a test",
+      "language": "javascript",
+      "tags": [
+        "skip",
+        "testing",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "test('Async test', function (t) {\n  setTimeout(function () {\n    t.pass('Async code executed');\n    t.end();\n  }, 1000);\n});",
+      "description": "Test asynchronous code",
+      "scenario": "Test asynchronous code",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "testing",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

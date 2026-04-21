@@ -1,0 +1,165 @@
+{
+  "title": "IPv6 Cheat Sheet",
+  "slug": "ipv6",
+  "description": "Essential commands and configurations for IPv6 networking.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "ip -6 addr show",
+      "description": "Display IPv6 address configuration on a Linux system",
+      "scenario": "Display IPv6 address configuration on a Linux system",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "address",
+        "linux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping6 2001:0db8::1",
+      "description": "Ping an IPv6 address to check connectivity",
+      "scenario": "Ping an IPv6 address to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "ping",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip -6 addr add 2001:0db8::1/64 dev eth0",
+      "description": "Add an IPv6 address to a network interface",
+      "scenario": "Add an IPv6 address to a network interface",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "address",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo 1 > /proc/sys/net/ipv6/conf/all/forwarding",
+      "description": "Enable IPv6 forwarding on Linux",
+      "scenario": "Enable IPv6 forwarding on Linux",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "forwarding",
+        "linux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "auto eth0\niface eth0 inet6 static\n  address 2001:0db8::1\n  netmask 64\n  gateway 2001:0db8::fffe",
+      "description": "Configure a static IPv6 address in /etc/network/interfaces",
+      "scenario": "Configure a static IPv6 address in /etc/network/interfaces",
+      "language": "text",
+      "tags": [
+        "ipv6",
+        "static",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sysctl -w net.ipv6.conf.eth0.disable_ipv6=1",
+      "description": "Disable IPv6 on a specific interface",
+      "scenario": "Disable IPv6 on a specific interface",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "disable",
+        "interface"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip -6 route show",
+      "description": "Check IPv6 routing table",
+      "scenario": "Check IPv6 routing table",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "routing",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ss -6",
+      "description": "Display active IPv6 connections",
+      "scenario": "Display active IPv6 connections",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "connections",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dig AAAA example.com",
+      "description": "Test DNS resolution over IPv6",
+      "scenario": "Test DNS resolution over IPv6",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "dns",
+        "resolution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip6tables -A INPUT -s ::/0 -j DROP",
+      "description": "Block incoming IPv6 traffic using ip6tables",
+      "scenario": "Block incoming IPv6 traffic using ip6tables",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "security",
+        "firewall"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip6tables -A INPUT -p tcp --dport 22 -j ACCEPT",
+      "description": "Allow SSH over IPv6 using ip6tables",
+      "scenario": "Allow SSH over IPv6 using ip6tables",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "ssh",
+        "firewall"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip6tables -L",
+      "description": "List all ip6tables rules",
+      "scenario": "List all ip6tables rules",
+      "language": "bash",
+      "tags": [
+        "ipv6",
+        "firewall",
+        "rules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

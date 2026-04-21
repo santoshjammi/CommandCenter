@@ -1,0 +1,165 @@
+{
+  "title": "Selenium Cheat Sheet",
+  "slug": "selenium",
+  "description": "Quick reference for Selenium WebDriver commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "driver = webdriver.Chrome()",
+      "description": "Open a new browser window",
+      "scenario": "Open a new browser window",
+      "language": "python",
+      "tags": [
+        "webdriver",
+        "browser",
+        "chrome"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "driver.get('https://example.com')",
+      "description": "Navigate to a URL",
+      "scenario": "Navigate to a URL",
+      "language": "python",
+      "tags": [
+        "navigation",
+        "url",
+        "webdriver"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "driver.quit()",
+      "description": "Close the browser window",
+      "scenario": "Close the browser window",
+      "language": "python",
+      "tags": [
+        "browser",
+        "close",
+        "webdriver"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element = driver.find_element(By.ID, 'element_id')",
+      "description": "Find an element by ID",
+      "scenario": "Find an element by ID",
+      "language": "python",
+      "tags": [
+        "element",
+        "find",
+        "id"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.click()",
+      "description": "Click an element",
+      "scenario": "Click an element",
+      "language": "python",
+      "tags": [
+        "element",
+        "click",
+        "interaction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "element.send_keys('text')",
+      "description": "Enter text into a text field",
+      "scenario": "Enter text into a text field",
+      "language": "python",
+      "tags": [
+        "text",
+        "input",
+        "send_keys"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "driver.implicitly_wait(10)",
+      "description": "Implicit wait for elements",
+      "scenario": "Implicit wait for elements",
+      "language": "python",
+      "tags": [
+        "wait",
+        "implicit",
+        "synchronization"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'element_id')))",
+      "description": "Explicit wait for a specific condition",
+      "scenario": "Explicit wait for a specific condition",
+      "language": "python",
+      "tags": [
+        "wait",
+        "explicit",
+        "condition"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wait = WebDriverWait(driver, 10, poll_frequency=1, ignored_exceptions=[NoSuchElementException])",
+      "description": "Fluent wait with polling",
+      "scenario": "Fluent wait with polling",
+      "language": "python",
+      "tags": [
+        "wait",
+        "fluent",
+        "polling"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "driver.switch_to.window(driver.window_handles[1])",
+      "description": "Switch to a new window or tab",
+      "scenario": "Switch to a new window or tab",
+      "language": "python",
+      "tags": [
+        "window",
+        "tab",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "driver.execute_script('return document.title;')",
+      "description": "Execute JavaScript in the browser",
+      "scenario": "Execute JavaScript in the browser",
+      "language": "python",
+      "tags": [
+        "javascript",
+        "execute",
+        "webdriver"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "driver.save_screenshot('screenshot.png')",
+      "description": "Take a screenshot of the current window",
+      "scenario": "Take a screenshot of the current window",
+      "language": "python",
+      "tags": [
+        "screenshot",
+        "image",
+        "webdriver"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

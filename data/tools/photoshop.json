@@ -1,0 +1,204 @@
+{
+  "title": "Photoshop Cheat Sheet",
+  "slug": "photoshop",
+  "description": "Essential shortcuts and workflows for Adobe Photoshop users.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl++",
+      "description": "Zoom in on the canvas",
+      "scenario": "Zoom in on the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+-",
+      "description": "Zoom out of the canvas",
+      "scenario": "Zoom out of the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+0",
+      "description": "Fit the canvas to the screen",
+      "scenario": "Fit the canvas to the screen",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > New",
+      "description": "Create a new file",
+      "scenario": "Create a new file",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Open",
+      "description": "Open an existing file",
+      "scenario": "Open an existing file",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "existing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Save",
+      "description": "Save the current file",
+      "scenario": "Save the current file",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+N",
+      "description": "Create a new layer",
+      "scenario": "Create a new layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "new",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+E",
+      "description": "Merge selected layers",
+      "scenario": "Merge selected layers",
+      "language": "text",
+      "tags": [
+        "layer",
+        "merge",
+        "selected"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+J",
+      "description": "Duplicate the current layer",
+      "scenario": "Duplicate the current layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "duplicate",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+A",
+      "description": "Select all contents on a layer",
+      "scenario": "Select all contents on a layer",
+      "language": "text",
+      "tags": [
+        "select",
+        "all",
+        "layer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+D",
+      "description": "Deselect the current selection",
+      "scenario": "Deselect the current selection",
+      "language": "text",
+      "tags": [
+        "select",
+        "deselect",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+I",
+      "description": "Inverse the current selection",
+      "scenario": "Inverse the current selection",
+      "language": "text",
+      "tags": [
+        "select",
+        "inverse",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "edit",
+        "undo",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+Z",
+      "description": "Redo the last undone action",
+      "scenario": "Redo the last undone action",
+      "language": "text",
+      "tags": [
+        "edit",
+        "redo",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+Backspace",
+      "description": "Fill a selection with the foreground color",
+      "scenario": "Fill a selection with the foreground color",
+      "language": "text",
+      "tags": [
+        "edit",
+        "fill",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

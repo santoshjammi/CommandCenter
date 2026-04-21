@@ -1,0 +1,204 @@
+{
+  "title": "npm Cheat Sheet",
+  "slug": "npm",
+  "description": "Essential npm commands and patterns for managing Node.js packages.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "npm init",
+      "description": "Initialize a new npm project",
+      "scenario": "Initialize a new npm project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install package-name",
+      "description": "Install a package locally",
+      "scenario": "Install a package locally",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm install -g package-name",
+      "description": "Install a package globally",
+      "scenario": "Install a package globally",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "global"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm update",
+      "description": "Update all packages to the latest version",
+      "scenario": "Update all packages to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "packages",
+        "latest"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm uninstall package-name",
+      "description": "Uninstall a package",
+      "scenario": "Uninstall a package",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "remove",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm list",
+      "description": "List installed packages",
+      "scenario": "List installed packages",
+      "language": "bash",
+      "tags": [
+        "list",
+        "installed",
+        "packages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run script-name",
+      "description": "Run a script defined in package.json",
+      "scenario": "Run a script defined in package.json",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "package.json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"scripts\": { \"start\": \"node app.js\" }",
+      "description": "Add a start script to package.json",
+      "scenario": "Add a start script to package.json",
+      "language": "json",
+      "tags": [
+        "scripts",
+        "start",
+        "package.json"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm config set key value",
+      "description": "Set a configuration property",
+      "scenario": "Set a configuration property",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm version patch",
+      "description": "Bump the package version",
+      "scenario": "Bump the package version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "bump",
+        "patch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm publish",
+      "description": "Publish a package to npm registry",
+      "scenario": "Publish a package to npm registry",
+      "language": "bash",
+      "tags": [
+        "publish",
+        "package",
+        "registry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm outdated",
+      "description": "Check for outdated packages",
+      "scenario": "Check for outdated packages",
+      "language": "bash",
+      "tags": [
+        "outdated",
+        "packages",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm cache clean --force",
+      "description": "Clear npm cache",
+      "scenario": "Clear npm cache",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "clear",
+        "clean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm log",
+      "description": "View npm logs",
+      "scenario": "View npm logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "view",
+        "npm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm config get cache",
+      "description": "Get npm cache path",
+      "scenario": "Get npm cache path",
+      "language": "bash",
+      "tags": [
+        "cache",
+        "path",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

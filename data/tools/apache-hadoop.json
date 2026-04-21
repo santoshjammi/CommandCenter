@@ -1,0 +1,204 @@
+{
+  "title": "Apache Hadoop Cheat Sheet",
+  "slug": "apache-hadoop",
+  "description": "Essential commands and configurations for Apache Hadoop.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "hdfs dfs -ls /path/to/directory",
+      "description": "List files in HDFS directory",
+      "scenario": "List files in HDFS directory",
+      "language": "bash",
+      "tags": [
+        "hdfs",
+        "list",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hdfs dfs -put localfile.txt /hdfs/directory/",
+      "description": "Copy a file from local to HDFS",
+      "scenario": "Copy a file from local to HDFS",
+      "language": "bash",
+      "tags": [
+        "hdfs",
+        "copy",
+        "upload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hdfs dfs -rm /hdfs/directory/file.txt",
+      "description": "Remove a file from HDFS",
+      "scenario": "Remove a file from HDFS",
+      "language": "bash",
+      "tags": [
+        "hdfs",
+        "remove",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hadoop jar myjob.jar com.example.MyJob /input /output",
+      "description": "Run a MapReduce job",
+      "scenario": "Run a MapReduce job",
+      "language": "bash",
+      "tags": [
+        "mapreduce",
+        "job",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hadoop job -status job_1234567890123_0001",
+      "description": "Check status of a MapReduce job",
+      "scenario": "Check status of a MapReduce job",
+      "language": "bash",
+      "tags": [
+        "mapreduce",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hadoop job -kill job_1234567890123_0001",
+      "description": "Kill a running MapReduce job",
+      "scenario": "Kill a running MapReduce job",
+      "language": "bash",
+      "tags": [
+        "mapreduce",
+        "kill",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn application -list",
+      "description": "List all running applications",
+      "scenario": "List all running applications",
+      "language": "bash",
+      "tags": [
+        "yarn",
+        "applications",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn application -kill application_1234567890123_0001",
+      "description": "Kill a YARN application",
+      "scenario": "Kill a YARN application",
+      "language": "bash",
+      "tags": [
+        "yarn",
+        "kill",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "yarn application -status application_1234567890123_0001",
+      "description": "Check YARN application status",
+      "scenario": "Check YARN application status",
+      "language": "bash",
+      "tags": [
+        "yarn",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property>\\n  <name>dfs.replication</name>\\n  <value>3</value>\\n</property>",
+      "description": "Set replication factor in hdfs-site.xml",
+      "scenario": "Set replication factor in hdfs-site.xml",
+      "language": "xml",
+      "tags": [
+        "hdfs",
+        "configuration",
+        "replication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property>\\n  <name>yarn.nodemanager.resource.memory-mb</name>\\n  <value>8192</value>\\n</property>",
+      "description": "Configure YARN memory in yarn-site.xml",
+      "scenario": "Configure YARN memory in yarn-site.xml",
+      "language": "xml",
+      "tags": [
+        "yarn",
+        "configuration",
+        "memory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<property>\\n  <name>dfs.blocksize</name>\\n  <value>134217728</value>\\n</property>",
+      "description": "Set HDFS block size in hdfs-site.xml",
+      "scenario": "Set HDFS block size in hdfs-site.xml",
+      "language": "xml",
+      "tags": [
+        "hdfs",
+        "configuration",
+        "blocksize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hdfs dfs -du -h /hdfs/directory/",
+      "description": "Check HDFS disk usage",
+      "scenario": "Check HDFS disk usage",
+      "language": "bash",
+      "tags": [
+        "hdfs",
+        "disk",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hdfs dfs -cat /hdfs/directory/file.txt",
+      "description": "View HDFS file content",
+      "scenario": "View HDFS file content",
+      "language": "bash",
+      "tags": [
+        "hdfs",
+        "view",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hdfs dfs -count /hdfs/directory/",
+      "description": "Count number of files in HDFS directory",
+      "scenario": "Count number of files in HDFS directory",
+      "language": "bash",
+      "tags": [
+        "hdfs",
+        "count",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

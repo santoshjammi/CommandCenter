@@ -1,0 +1,204 @@
+{
+  "title": "Fedora Cheat Sheet",
+  "slug": "fedora",
+  "description": "Essential Fedora CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sudo dnf install package-name",
+      "description": "Install a package using DNF",
+      "scenario": "Install a package using DNF",
+      "language": "bash",
+      "tags": [
+        "dnf",
+        "install",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo dnf update",
+      "description": "Update all installed packages",
+      "scenario": "Update all installed packages",
+      "language": "bash",
+      "tags": [
+        "dnf",
+        "update",
+        "packages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo dnf remove package-name",
+      "description": "Remove a package",
+      "scenario": "Remove a package",
+      "language": "bash",
+      "tags": [
+        "dnf",
+        "remove",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "systemctl status",
+      "description": "Check system status",
+      "scenario": "Check system status",
+      "language": "bash",
+      "tags": [
+        "systemctl",
+        "status",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo reboot",
+      "description": "Reboot the system",
+      "scenario": "Reboot the system",
+      "language": "bash",
+      "tags": [
+        "reboot",
+        "system",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "View disk usage",
+      "scenario": "View disk usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "usage",
+        "df"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ip addr show",
+      "description": "Display all network interfaces",
+      "scenario": "Display all network interfaces",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interfaces",
+        "ip"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 example.com",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "network",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ss -tuln",
+      "description": "Display current network connections",
+      "scenario": "Display current network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "ss"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo useradd username",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo passwd username",
+      "description": "Change a user's password",
+      "scenario": "Change a user's password",
+      "language": "bash",
+      "tags": [
+        "user",
+        "password",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo userdel username",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copy a file",
+      "scenario": "Copy a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "copy",
+        "cp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv oldname.txt newname.txt",
+      "description": "Move a file",
+      "scenario": "Move a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "move",
+        "mv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rm file.txt",
+      "description": "Remove a file",
+      "scenario": "Remove a file",
+      "language": "bash",
+      "tags": [
+        "file",
+        "remove",
+        "rm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

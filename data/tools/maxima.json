@@ -1,0 +1,204 @@
+{
+  "title": "Maxima Cheat Sheet",
+  "slug": "maxima",
+  "description": "Quick reference for Maxima CLI commands and syntax.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "1 + 2;",
+      "description": "Add two numbers",
+      "scenario": "Add two numbers",
+      "language": "text",
+      "tags": [
+        "addition",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "5 - 3;",
+      "description": "Subtract two numbers",
+      "scenario": "Subtract two numbers",
+      "language": "text",
+      "tags": [
+        "subtraction",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "4 * 7;",
+      "description": "Multiply two numbers",
+      "scenario": "Multiply two numbers",
+      "language": "text",
+      "tags": [
+        "multiplication",
+        "arithmetic",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x: 10;",
+      "description": "Assign a value to a variable",
+      "scenario": "Assign a value to a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "assignment",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "y: x^2 + 3*x + 2;",
+      "description": "Assign an expression to a variable",
+      "scenario": "Assign an expression to a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "expression",
+        "assignment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "x;",
+      "description": "Access the value of a variable",
+      "scenario": "Access the value of a variable",
+      "language": "text",
+      "tags": [
+        "variables",
+        "access",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f(x) := x^2 + 2*x + 1;",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "text",
+      "tags": [
+        "functions",
+        "definition",
+        "expressions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f(3);",
+      "description": "Evaluate a function at a point",
+      "scenario": "Evaluate a function at a point",
+      "language": "text",
+      "tags": [
+        "functions",
+        "evaluation",
+        "expressions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expand((x + 1)^2);",
+      "description": "Simplify an expression",
+      "scenario": "Simplify an expression",
+      "language": "text",
+      "tags": [
+        "simplification",
+        "expressions",
+        "algebra"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "diff(x^3, x);",
+      "description": "Differentiate an expression",
+      "scenario": "Differentiate an expression",
+      "language": "text",
+      "tags": [
+        "calculus",
+        "differentiation",
+        "derivative"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "integrate(x^2, x);",
+      "description": "Integrate an expression",
+      "scenario": "Integrate an expression",
+      "language": "text",
+      "tags": [
+        "calculus",
+        "integration",
+        "integral"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "integrate(x^2, x, 0, 1);",
+      "description": "Calculate a definite integral",
+      "scenario": "Calculate a definite integral",
+      "language": "text",
+      "tags": [
+        "calculus",
+        "definite integral",
+        "integration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "A: matrix([1, 2], [3, 4]);",
+      "description": "Define a matrix",
+      "scenario": "Define a matrix",
+      "language": "text",
+      "tags": [
+        "matrix",
+        "definition",
+        "linear algebra"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "B: matrix([5, 6], [7, 8]); A . B;",
+      "description": "Matrix multiplication",
+      "scenario": "Matrix multiplication",
+      "language": "text",
+      "tags": [
+        "matrix",
+        "multiplication",
+        "linear algebra"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "determinant(A);",
+      "description": "Calculate the determinant of a matrix",
+      "scenario": "Calculate the determinant of a matrix",
+      "language": "text",
+      "tags": [
+        "matrix",
+        "determinant",
+        "linear algebra"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

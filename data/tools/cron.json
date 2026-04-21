@@ -1,0 +1,204 @@
+{
+  "title": "Cron Job Cheat Sheet",
+  "slug": "cron",
+  "description": "Quick reference for creating and managing cron jobs",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "* * * * * /path/to/command",
+      "description": "Run a command every minute",
+      "scenario": "Run a command every minute",
+      "language": "text",
+      "tags": [
+        "cron",
+        "schedule",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "30 14 * * * /path/to/command",
+      "description": "Run a command at 2:30 PM every day",
+      "scenario": "Run a command at 2:30 PM every day",
+      "language": "text",
+      "tags": [
+        "cron",
+        "daily",
+        "time"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "0 0 * * 0 /path/to/command",
+      "description": "Run a command every Sunday at midnight",
+      "scenario": "Run a command every Sunday at midnight",
+      "language": "text",
+      "tags": [
+        "cron",
+        "weekly",
+        "schedule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "*/5 * * * * /path/to/command",
+      "description": "Run a command every 5 minutes",
+      "scenario": "Run a command every 5 minutes",
+      "language": "text",
+      "tags": [
+        "cron",
+        "interval",
+        "minutes"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "0 * * * 1-5 /path/to/command",
+      "description": "Run a command every hour on weekdays",
+      "scenario": "Run a command every hour on weekdays",
+      "language": "text",
+      "tags": [
+        "cron",
+        "hourly",
+        "weekdays"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "0 0 1 * * /path/to/command",
+      "description": "Run a command on the first day of every month",
+      "scenario": "Run a command on the first day of every month",
+      "language": "text",
+      "tags": [
+        "cron",
+        "monthly",
+        "schedule"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@reboot /path/to/command",
+      "description": "Run a command at reboot",
+      "scenario": "Run a command at reboot",
+      "language": "text",
+      "tags": [
+        "cron",
+        "reboot",
+        "special"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@daily /path/to/command",
+      "description": "Run a command daily at midnight",
+      "scenario": "Run a command daily at midnight",
+      "language": "text",
+      "tags": [
+        "cron",
+        "daily",
+        "special"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@weekly /path/to/command",
+      "description": "Run a command weekly at midnight on Sunday",
+      "scenario": "Run a command weekly at midnight on Sunday",
+      "language": "text",
+      "tags": [
+        "cron",
+        "weekly",
+        "special"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "crontab -l",
+      "description": "List all cron jobs for the current user",
+      "scenario": "List all cron jobs for the current user",
+      "language": "bash",
+      "tags": [
+        "cron",
+        "list",
+        "jobs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "crontab -e",
+      "description": "Edit cron jobs for the current user",
+      "scenario": "Edit cron jobs for the current user",
+      "language": "bash",
+      "tags": [
+        "cron",
+        "edit",
+        "jobs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "crontab -r",
+      "description": "Remove all cron jobs for the current user",
+      "scenario": "Remove all cron jobs for the current user",
+      "language": "bash",
+      "tags": [
+        "cron",
+        "remove",
+        "jobs"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "PATH=/usr/local/bin:/usr/bin:/bin",
+      "description": "Set the PATH variable for a cron job",
+      "scenario": "Set the PATH variable for a cron job",
+      "language": "text",
+      "tags": [
+        "cron",
+        "environment",
+        "path"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MAILTO=user@example.com",
+      "description": "Set the MAILTO variable to receive email notifications",
+      "scenario": "Set the MAILTO variable to receive email notifications",
+      "language": "text",
+      "tags": [
+        "cron",
+        "email",
+        "notifications"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SHELL=/bin/bash",
+      "description": "Set the SHELL variable to specify the shell to use",
+      "scenario": "Set the SHELL variable to specify the shell to use",
+      "language": "text",
+      "tags": [
+        "cron",
+        "shell",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

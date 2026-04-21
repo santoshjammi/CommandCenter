@@ -1,0 +1,204 @@
+{
+  "title": "Amazon Web Services Cheat Sheet",
+  "slug": "amazon-web-services",
+  "description": "Essential AWS CLI commands and configuration snippets for engineers.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "aws configure",
+      "description": "Configure AWS CLI with access key and secret",
+      "scenario": "Configure AWS CLI with access key and secret",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "cli",
+        "configure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 ls",
+      "description": "List all S3 buckets",
+      "scenario": "List all S3 buckets",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "s3",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws configure list",
+      "description": "Check current AWS CLI configuration",
+      "scenario": "Check current AWS CLI configuration",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "cli",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 start-instances --instance-ids i-1234567890abcdef0",
+      "description": "Start an EC2 instance",
+      "scenario": "Start an EC2 instance",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "ec2",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 stop-instances --instance-ids i-1234567890abcdef0",
+      "description": "Stop an EC2 instance",
+      "scenario": "Stop an EC2 instance",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "ec2",
+        "stop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 describe-instances",
+      "description": "Describe all EC2 instances",
+      "scenario": "Describe all EC2 instances",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "ec2",
+        "describe"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 cp file.txt s3://mybucket/file.txt",
+      "description": "Upload a file to an S3 bucket",
+      "scenario": "Upload a file to an S3 bucket",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "s3",
+        "upload"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 cp s3://mybucket/file.txt file.txt",
+      "description": "Download a file from an S3 bucket",
+      "scenario": "Download a file from an S3 bucket",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "s3",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3 rm s3://mybucket/file.txt",
+      "description": "Delete a file from an S3 bucket",
+      "scenario": "Delete a file from an S3 bucket",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "s3",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws iam create-user --user-name newuser",
+      "description": "Create a new IAM user",
+      "scenario": "Create a new IAM user",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "iam",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws iam attach-user-policy --user-name newuser --policy-arn arn:aws:iam::aws:policy/ReadOnlyAccess",
+      "description": "Attach a policy to an IAM user",
+      "scenario": "Attach a policy to an IAM user",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "iam",
+        "policy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws iam list-users",
+      "description": "List IAM users",
+      "scenario": "List IAM users",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "iam",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws cloudwatch describe-alarms",
+      "description": "List CloudWatch alarms",
+      "scenario": "List CloudWatch alarms",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "cloudwatch",
+        "alarms"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws cloudwatch enable-alarm-actions --alarm-names my-alarm",
+      "description": "Enable a CloudWatch alarm",
+      "scenario": "Enable a CloudWatch alarm",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "cloudwatch",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "aws cloudwatch disable-alarm-actions --alarm-names my-alarm",
+      "description": "Disable a CloudWatch alarm",
+      "scenario": "Disable a CloudWatch alarm",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "cloudwatch",
+        "disable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

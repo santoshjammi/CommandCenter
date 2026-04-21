@@ -1,0 +1,3930 @@
+[
+  {
+    "name": "#Notes",
+    "audience": "engineer"
+  },
+  {
+    "name": ".NET",
+    "audience": "engineer"
+  },
+  {
+    "name": ".pdf version",
+    "audience": "engineer"
+  },
+  {
+    "name": "101  101",
+    "audience": "engineer"
+  },
+  {
+    "name": "1Password",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "ADO.NET",
+    "audience": "engineer"
+  },
+  {
+    "name": "AGENTS  AGENTS",
+    "audience": "engineer"
+  },
+  {
+    "name": "AI",
+    "audience": "engineer"
+  },
+  {
+    "name": "AI Directory",
+    "audience": "engineer"
+  },
+  {
+    "name": "AJAX",
+    "audience": "engineer"
+  },
+  {
+    "name": "AMD",
+    "audience": "engineer"
+  },
+  {
+    "name": "APL",
+    "audience": "engineer"
+  },
+  {
+    "name": "APT",
+    "audience": "engineer"
+  },
+  {
+    "name": "ASCII",
+    "audience": "engineer"
+  },
+  {
+    "name": "ASCII Code",
+    "audience": "engineer"
+  },
+  {
+    "name": "ASP",
+    "audience": "engineer"
+  },
+  {
+    "name": "ATS",
+    "audience": "engineer"
+  },
+  {
+    "name": "AWK",
+    "audience": "engineer"
+  },
+  {
+    "name": "AWS",
+    "audience": "engineer"
+  },
+  {
+    "name": "About",
+    "audience": "engineer"
+  },
+  {
+    "name": "ActionScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ada",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe Acrobat",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe ColdFusion",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe Illustrator",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Adobe Lightroom CC",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Adobe Systems",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe XD",
+    "audience": "engineer"
+  },
+  {
+    "name": "Advanced Search",
+    "audience": "engineer"
+  },
+  {
+    "name": "Affinity Designer",
+    "audience": "engineer"
+  },
+  {
+    "name": "Affinity Photo",
+    "audience": "engineer"
+  },
+  {
+    "name": "After",
+    "audience": "engineer"
+  },
+  {
+    "name": "Agda",
+    "audience": "engineer"
+  },
+  {
+    "name": "Airtable",
+    "audience": "engineer"
+  },
+  {
+    "name": "Alan AI",
+    "audience": "engineer"
+  },
+  {
+    "name": "Algebra",
+    "audience": "engineer"
+  },
+  {
+    "name": "All Sheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "Alpine Linux",
+    "audience": "engineer"
+  },
+  {
+    "name": "Alpine.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "Amazon Web Services",
+    "audience": "engineer"
+  },
+  {
+    "name": "Android",
+    "audience": "engineer"
+  },
+  {
+    "name": "Android Studio",
+    "audience": "engineer"
+  },
+  {
+    "name": "Angular",
+    "audience": "engineer"
+  },
+  {
+    "name": "AngularJS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ansible",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Ant",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Camel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Cassandra",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache HBase",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Hadoop",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Maven",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache ServiceMix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Solr",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apache Wicket",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apex Legends",
+    "audience": "engineer"
+  },
+  {
+    "name": "Apple Music",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arduino",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arduino IDE",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arduino Programming",
+    "audience": "engineer"
+  },
+  {
+    "name": "Arturo",
+    "audience": "engineer"
+  },
+  {
+    "name": "Asana",
+    "audience": "engineer"
+  },
+  {
+    "name": "AsciiDoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "Aspect Ratio",
+    "audience": "engineer"
+  },
+  {
+    "name": "Assembly Language",
+    "audience": "engineer"
+  },
+  {
+    "name": "AssemblyScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Astro",
+    "audience": "engineer"
+  },
+  {
+    "name": "Astronomy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Asymptotic Notation",
+    "audience": "engineer"
+  },
+  {
+    "name": "Atom",
+    "audience": "engineer"
+  },
+  {
+    "name": "Audacity",
+    "audience": "engineer"
+  },
+  {
+    "name": "Awk",
+    "audience": "engineer"
+  },
+  {
+    "name": "Azure",
+    "audience": "engineer"
+  },
+  {
+    "name": "BDB",
+    "audience": "engineer"
+  },
+  {
+    "name": "BF",
+    "audience": "engineer"
+  },
+  {
+    "name": "BGP",
+    "audience": "engineer"
+  },
+  {
+    "name": "BIRT",
+    "audience": "engineer"
+  },
+  {
+    "name": "BPEL",
+    "audience": "engineer"
+  },
+  {
+    "name": "BPM",
+    "audience": "engineer"
+  },
+  {
+    "name": "BPML",
+    "audience": "engineer"
+  },
+  {
+    "name": "BQN",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ballerina",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bash",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bazaar",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bear",
+    "audience": "engineer"
+  },
+  {
+    "name": "Berkeley DB",
+    "audience": "engineer"
+  },
+  {
+    "name": "Big O",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bitbucket",
+    "audience": "engineer"
+  },
+  {
+    "name": "BlazeDS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Blender",
+    "audience": "engineer"
+  },
+  {
+    "name": "Blogger",
+    "audience": "engineer"
+  },
+  {
+    "name": "Blueprint",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bookmarks",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bootstrap",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bowler Robotics",
+    "audience": "engineer"
+  },
+  {
+    "name": "Brave Browser",
+    "audience": "engineer"
+  },
+  {
+    "name": "Browse All Sheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "Browse all sheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bun",
+    "audience": "engineer"
+  },
+  {
+    "name": "Business Process Modeling",
+    "audience": "engineer"
+  },
+  {
+    "name": "Buy Me a Coffee",
+    "audience": "engineer"
+  },
+  {
+    "name": "C",
+    "audience": "engineer"
+  },
+  {
+    "name": "C#",
+    "audience": "engineer"
+  },
+  {
+    "name": "C++",
+    "audience": "engineer"
+  },
+  {
+    "name": "CHICKEN",
+    "audience": "engineer"
+  },
+  {
+    "name": "CMake",
+    "audience": "engineer"
+  },
+  {
+    "name": "COBOL",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSS",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSS 3",
+    "audience": "engineer"
+  },
+  {
+    "name": "CSV",
+    "audience": "engineer"
+  },
+  {
+    "name": "CUE",
+    "audience": "engineer"
+  },
+  {
+    "name": "CVS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Calculus",
+    "audience": "engineer"
+  },
+  {
+    "name": "Camera",
+    "audience": "engineer"
+  },
+  {
+    "name": "Catalyst",
+    "audience": "engineer"
+  },
+  {
+    "name": "Categories",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chapel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Characters",
+    "audience": "engineer"
+  },
+  {
+    "name": "ChatGPT",
+    "audience": "engineer"
+  },
+  {
+    "name": "CheatSheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chef",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chemistry",
+    "audience": "engineer"
+  },
+  {
+    "name": "Chmod",
+    "audience": "engineer"
+  },
+  {
+    "name": "Claude Code",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cli",
+    "audience": "engineer"
+  },
+  {
+    "name": "Clojure",
+    "audience": "engineer"
+  },
+  {
+    "name": "Clojure macros",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cloud Computing",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cocoa",
+    "audience": "engineer"
+  },
+  {
+    "name": "Code Editor for iOS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Code House.",
+    "audience": "engineer"
+  },
+  {
+    "name": "Codex CLI",
+    "audience": "engineer"
+  },
+  {
+    "name": "CoffeeScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "ColdFusion",
+    "audience": "engineer"
+  },
+  {
+    "name": "Collections",
+    "audience": "engineer"
+  },
+  {
+    "name": "Color Picker",
+    "audience": "engineer"
+  },
+  {
+    "name": "ColorScreen",
+    "audience": "engineer"
+  },
+  {
+    "name": "Colour",
+    "audience": "engineer"
+  },
+  {
+    "name": "Common Lisp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Common Ports",
+    "audience": "engineer"
+  },
+  {
+    "name": "CommonMark",
+    "audience": "engineer"
+  },
+  {
+    "name": "Compojure",
+    "audience": "engineer"
+  },
+  {
+    "name": "Composer",
+    "audience": "engineer"
+  },
+  {
+    "name": "Computer Science",
+    "audience": "engineer"
+  },
+  {
+    "name": "Continuous Integration",
+    "audience": "engineer"
+  },
+  {
+    "name": "Contributors",
+    "audience": "engineer"
+  },
+  {
+    "name": "Coq",
+    "audience": "engineer"
+  },
+  {
+    "name": "Countries",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cron",
+    "audience": "engineer"
+  },
+  {
+    "name": "Crystal",
+    "audience": "engineer"
+  },
+  {
+    "name": "Curl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cursor CLI",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cypher",
+    "audience": "engineer"
+  },
+  {
+    "name": "D",
+    "audience": "engineer"
+  },
+  {
+    "name": "DDD",
+    "audience": "engineer"
+  },
+  {
+    "name": "DOM",
+    "audience": "engineer"
+  },
+  {
+    "name": "DOT language",
+    "audience": "engineer"
+  },
+  {
+    "name": "DTD",
+    "audience": "engineer"
+  },
+  {
+    "name": "Dart",
+    "audience": "engineer"
+  },
+  {
+    "name": "Datalog",
+    "audience": "engineer"
+  },
+  {
+    "name": "Db2",
+    "audience": "engineer"
+  },
+  {
+    "name": "Debian",
+    "audience": "engineer"
+  },
+  {
+    "name": "Delphi",
+    "audience": "engineer"
+  },
+  {
+    "name": "Design Pattern",
+    "audience": "engineer"
+  },
+  {
+    "name": "DevSheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "Developer Tools >>",
+    "audience": "engineer"
+  },
+  {
+    "name": "Devhints.io",
+    "audience": "engineer"
+  },
+  {
+    "name": "Dhall",
+    "audience": "engineer"
+  },
+  {
+    "name": "DirectX 9",
+    "audience": "engineer"
+  },
+  {
+    "name": "Django",
+    "audience": "engineer"
+  },
+  {
+    "name": "Djot",
+    "audience": "engineer"
+  },
+  {
+    "name": "Docker",
+    "audience": "engineer"
+  },
+  {
+    "name": "Doctrine",
+    "audience": "engineer"
+  },
+  {
+    "name": "Doctypes",
+    "audience": "engineer"
+  },
+  {
+    "name": "Domain-Driven Design",
+    "audience": "engineer"
+  },
+  {
+    "name": "Drizzle ORM",
+    "audience": "engineer"
+  },
+  {
+    "name": "Drupal",
+    "audience": "engineer"
+  },
+  {
+    "name": "Drush",
+    "audience": "engineer"
+  },
+  {
+    "name": "Dynamic Programming",
+    "audience": "engineer"
+  },
+  {
+    "name": "EDN",
+    "audience": "engineer"
+  },
+  {
+    "name": "EIGRP",
+    "audience": "engineer"
+  },
+  {
+    "name": "EJB",
+    "audience": "engineer"
+  },
+  {
+    "name": "EJS",
+    "audience": "engineer"
+  },
+  {
+    "name": "ES6",
+    "audience": "engineer"
+  },
+  {
+    "name": "Easylang",
+    "audience": "engineer"
+  },
+  {
+    "name": "Eclipse",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ed",
+    "audience": "engineer"
+  },
+  {
+    "name": "Elixir",
+    "audience": "engineer"
+  },
+  {
+    "name": "Elm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emacs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emacs Lisp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emmet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emoji",
+    "audience": "engineer"
+  },
+  {
+    "name": "Emoticon",
+    "audience": "engineer"
+  },
+  {
+    "name": "Encoding",
+    "audience": "engineer"
+  },
+  {
+    "name": "Erlang",
+    "audience": "engineer"
+  },
+  {
+    "name": "Express",
+    "audience": "engineer"
+  },
+  {
+    "name": "F#",
+    "audience": "engineer"
+  },
+  {
+    "name": "FTP",
+    "audience": "engineer"
+  },
+  {
+    "name": "Facebook",
+    "audience": "engineer"
+  },
+  {
+    "name": "Factor",
+    "audience": "engineer"
+  },
+  {
+    "name": "FastAPI",
+    "audience": "engineer"
+  },
+  {
+    "name": "Feature Requests",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fedora",
+    "audience": "engineer"
+  },
+  {
+    "name": "Feed",
+    "audience": "engineer"
+  },
+  {
+    "name": "Feedly",
+    "audience": "engineer"
+  },
+  {
+    "name": "Figma",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "File",
+    "audience": "engineer"
+  },
+  {
+    "name": "FileZilla",
+    "audience": "engineer"
+  },
+  {
+    "name": "Find",
+    "audience": "engineer"
+  },
+  {
+    "name": "Finder",
+    "audience": "engineer"
+  },
+  {
+    "name": "Firebug",
+    "audience": "engineer"
+  },
+  {
+    "name": "Firefox",
+    "audience": "engineer"
+  },
+  {
+    "name": "Firefox Add-ons",
+    "audience": "engineer"
+  },
+  {
+    "name": "FitNesse",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flash",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flash Catalyst",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flask",
+    "audience": "engineer"
+  },
+  {
+    "name": "Flex",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fonts",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fork\n    6.7k",
+    "audience": "engineer"
+  },
+  {
+    "name": "Forth",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fortnite",
+    "audience": "engineer"
+  },
+  {
+    "name": "Fortran",
+    "audience": "engineer"
+  },
+  {
+    "name": "Framer X",
+    "audience": "engineer"
+  },
+  {
+    "name": "Freeware",
+    "audience": "engineer"
+  },
+  {
+    "name": "Friends",
+    "audience": "engineer"
+  },
+  {
+    "name": "GDB",
+    "audience": "engineer"
+  },
+  {
+    "name": "GDScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "GIMP",
+    "audience": "engineer"
+  },
+  {
+    "name": "GWT",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gemini CLI",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gemma 4",
+    "audience": "engineer"
+  },
+  {
+    "name": "Geometry",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gift",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gimp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git Branches",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git Flow Next",
+    "audience": "engineer"
+  },
+  {
+    "name": "Git For Svn",
+    "audience": "engineer"
+  },
+  {
+    "name": "GitLab",
+    "audience": "engineer"
+  },
+  {
+    "name": "Github",
+    "audience": "engineer"
+  },
+  {
+    "name": "Github Actions",
+    "audience": "engineer"
+  },
+  {
+    "name": "Github CLI",
+    "audience": "engineer"
+  },
+  {
+    "name": "GlassFish",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gleam",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gmail",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gnome Desktop",
+    "audience": "engineer"
+  },
+  {
+    "name": "GnuPG",
+    "audience": "engineer"
+  },
+  {
+    "name": "Go",
+    "audience": "engineer"
+  },
+  {
+    "name": "Go (Golang)",
+    "audience": "engineer"
+  },
+  {
+    "name": "GoF",
+    "audience": "engineer"
+  },
+  {
+    "name": "GoSpinWheel",
+    "audience": "engineer"
+  },
+  {
+    "name": "GolfScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google App Engine",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Chrome",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Drive",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Maps",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Search",
+    "audience": "engineer"
+  },
+  {
+    "name": "Grails",
+    "audience": "engineer"
+  },
+  {
+    "name": "GraphQL",
+    "audience": "engineer"
+  },
+  {
+    "name": "Grep",
+    "audience": "engineer"
+  },
+  {
+    "name": "Griffon",
+    "audience": "engineer"
+  },
+  {
+    "name": "GrokGrok CLI",
+    "audience": "engineer"
+  },
+  {
+    "name": "Groovy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Guitar",
+    "audience": "engineer"
+  },
+  {
+    "name": "Guitar Pro",
+    "audience": "engineer"
+  },
+  {
+    "name": "HAProxy",
+    "audience": "engineer"
+  },
+  {
+    "name": "HBase",
+    "audience": "engineer"
+  },
+  {
+    "name": "HCL",
+    "audience": "engineer"
+  },
+  {
+    "name": "HDL",
+    "audience": "engineer"
+  },
+  {
+    "name": "HOCON",
+    "audience": "engineer"
+  },
+  {
+    "name": "HQ9+",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTML",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTML Canvas",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTML Cheat Sheet",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTML-DOM",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTMX",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTTP",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTTP Status Code",
+    "audience": "engineer"
+  },
+  {
+    "name": "HTTPie",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hack",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hadoop",
+    "audience": "engineer"
+  },
+  {
+    "name": "Haml",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hardware",
+    "audience": "engineer"
+  },
+  {
+    "name": "Haskell",
+    "audience": "engineer"
+  },
+  {
+    "name": "Haxe",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hibernate",
+    "audience": "engineer"
+  },
+  {
+    "name": "High Availability",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hjson",
+    "audience": "engineer"
+  },
+  {
+    "name": "Home",
+    "audience": "engineer"
+  },
+  {
+    "name": "Homebrew",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hono",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hook",
+    "audience": "engineer"
+  },
+  {
+    "name": "HotSpot",
+    "audience": "engineer"
+  },
+  {
+    "name": "How it works",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hugo",
+    "audience": "engineer"
+  },
+  {
+    "name": "Hy",
+    "audience": "engineer"
+  },
+  {
+    "name": "IEEE 802.11",
+    "audience": "engineer"
+  },
+  {
+    "name": "IEEE 802.1X",
+    "audience": "engineer"
+  },
+  {
+    "name": "INI",
+    "audience": "engineer"
+  },
+  {
+    "name": "IPsec",
+    "audience": "engineer"
+  },
+  {
+    "name": "IPv4 Multicast",
+    "audience": "engineer"
+  },
+  {
+    "name": "IPv6",
+    "audience": "engineer"
+  },
+  {
+    "name": "IRC",
+    "audience": "engineer"
+  },
+  {
+    "name": "IS-IS",
+    "audience": "engineer"
+  },
+  {
+    "name": "IVR",
+    "audience": "engineer"
+  },
+  {
+    "name": "Icons",
+    "audience": "engineer"
+  },
+  {
+    "name": "Illustrator",
+    "audience": "engineer"
+  },
+  {
+    "name": "Illustrator",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Image",
+    "audience": "engineer"
+  },
+  {
+    "name": "InDesign",
+    "audience": "engineer"
+  },
+  {
+    "name": "Inform7",
+    "audience": "engineer"
+  },
+  {
+    "name": "InfrontJS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Inkscape",
+    "audience": "engineer"
+  },
+  {
+    "name": "IntelliJ IDEA",
+    "audience": "engineer"
+  },
+  {
+    "name": "International Phonetic Alphabet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Internet Explorer",
+    "audience": "engineer"
+  },
+  {
+    "name": "JBoss",
+    "audience": "engineer"
+  },
+  {
+    "name": "JDBC",
+    "audience": "engineer"
+  },
+  {
+    "name": "JSF",
+    "audience": "engineer"
+  },
+  {
+    "name": "JSON",
+    "audience": "engineer"
+  },
+  {
+    "name": "JSP",
+    "audience": "engineer"
+  },
+  {
+    "name": "JUnit",
+    "audience": "engineer"
+  },
+  {
+    "name": "Janet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Java",
+    "audience": "engineer"
+  },
+  {
+    "name": "Java EE",
+    "audience": "engineer"
+  },
+  {
+    "name": "Java HotSpot VM",
+    "audience": "engineer"
+  },
+  {
+    "name": "Java Persistence API",
+    "audience": "engineer"
+  },
+  {
+    "name": "JavaFX",
+    "audience": "engineer"
+  },
+  {
+    "name": "JavaScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "JavaServer Faces",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jetty",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jinja",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jira",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Jsonnet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Julia",
+    "audience": "engineer"
+  },
+  {
+    "name": "KanbanMail",
+    "audience": "engineer"
+  },
+  {
+    "name": "Kotlin",
+    "audience": "engineer"
+  },
+  {
+    "name": "Kubernetes",
+    "audience": "engineer"
+  },
+  {
+    "name": "LB Stanza",
+    "audience": "engineer"
+  },
+  {
+    "name": "LDPL",
+    "audience": "engineer"
+  },
+  {
+    "name": "LOLCODE",
+    "audience": "engineer"
+  },
+  {
+    "name": "LaTeX",
+    "audience": "engineer"
+  },
+  {
+    "name": "LaTeX-Suite",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lambda Calculus",
+    "audience": "engineer"
+  },
+  {
+    "name": "Languages",
+    "audience": "engineer"
+  },
+  {
+    "name": "Laravel",
+    "audience": "engineer"
+  },
+  {
+    "name": "LeCoupa",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lean 4",
+    "audience": "engineer"
+  },
+  {
+    "name": "Linker script",
+    "audience": "engineer"
+  },
+  {
+    "name": "Linux",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lisp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lisp Flavoured Erlang (LFE)",
+    "audience": "engineer"
+  },
+  {
+    "name": "LiveScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Logic",
+    "audience": "engineer"
+  },
+  {
+    "name": "Logtalk",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lotus Domino",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lsof",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lua",
+    "audience": "engineer"
+  },
+  {
+    "name": "Lucene",
+    "audience": "engineer"
+  },
+  {
+    "name": "M (MUMPS)",
+    "audience": "engineer"
+  },
+  {
+    "name": "MATLAB",
+    "audience": "engineer"
+  },
+  {
+    "name": "MFC",
+    "audience": "engineer"
+  },
+  {
+    "name": "MIME",
+    "audience": "engineer"
+  },
+  {
+    "name": "MIME types",
+    "audience": "engineer"
+  },
+  {
+    "name": "MIPS Assembly",
+    "audience": "engineer"
+  },
+  {
+    "name": "MSP",
+    "audience": "engineer"
+  },
+  {
+    "name": "MVVM",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mac",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mac OS X",
+    "audience": "engineer"
+  },
+  {
+    "name": "Machine Learning",
+    "audience": "engineer"
+  },
+  {
+    "name": "Macintosh",
+    "audience": "engineer"
+  },
+  {
+    "name": "Make",
+    "audience": "engineer"
+  },
+  {
+    "name": "MakrellPy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Maple",
+    "audience": "engineer"
+  },
+  {
+    "name": "Markdown",
+    "audience": "engineer"
+  },
+  {
+    "name": "Math",
+    "audience": "engineer"
+  },
+  {
+    "name": "MathML",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mathematica",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mathematics",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mathomatic",
+    "audience": "engineer"
+  },
+  {
+    "name": "Matplotlib",
+    "audience": "engineer"
+  },
+  {
+    "name": "Maven",
+    "audience": "engineer"
+  },
+  {
+    "name": "Maxima",
+    "audience": "engineer"
+  },
+  {
+    "name": "MediaWiki",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mercurial",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mercury",
+    "audience": "engineer"
+  },
+  {
+    "name": "MessagePack",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microformats",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Excel",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Microsoft Office",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Outlook",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Project",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Project (MSP)",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Teams",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft VS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Visual Studio",
+    "audience": "engineer"
+  },
+  {
+    "name": "MiniScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Missive",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mitmproxy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Monday.com",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mongo Shell",
+    "audience": "engineer"
+  },
+  {
+    "name": "MongoDB",
+    "audience": "engineer"
+  },
+  {
+    "name": "MooTools",
+    "audience": "engineer"
+  },
+  {
+    "name": "MoonScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Mule",
+    "audience": "engineer"
+  },
+  {
+    "name": "Music",
+    "audience": "engineer"
+  },
+  {
+    "name": "MySQL",
+    "audience": "engineer"
+  },
+  {
+    "name": "NMAP",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nano",
+    "audience": "engineer"
+  },
+  {
+    "name": "Neo4j",
+    "audience": "engineer"
+  },
+  {
+    "name": "NetBeans",
+    "audience": "engineer"
+  },
+  {
+    "name": "Netcat",
+    "audience": "engineer"
+  },
+  {
+    "name": "Netstat",
+    "audience": "engineer"
+  },
+  {
+    "name": "NetworkPorts",
+    "audience": "engineer"
+  },
+  {
+    "name": "Neural Network",
+    "audience": "engineer"
+  },
+  {
+    "name": "New CheatSheet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nginx",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nim",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nmap",
+    "audience": "engineer"
+  },
+  {
+    "name": "Node.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "NodeJS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nostos",
+    "audience": "engineer"
+  },
+  {
+    "name": "Notepad++",
+    "audience": "engineer"
+  },
+  {
+    "name": "Notes",
+    "audience": "engineer"
+  },
+  {
+    "name": "Notifications",
+    "audience": "engineer"
+  },
+  {
+    "name": "Numbers",
+    "audience": "engineer"
+  },
+  {
+    "name": "Numpy",
+    "audience": "engineer"
+  },
+  {
+    "name": "OCaml",
+    "audience": "engineer"
+  },
+  {
+    "name": "OS X",
+    "audience": "engineer"
+  },
+  {
+    "name": "OSL",
+    "audience": "engineer"
+  },
+  {
+    "name": "OSPF",
+    "audience": "engineer"
+  },
+  {
+    "name": "Objective-C",
+    "audience": "engineer"
+  },
+  {
+    "name": "Obsidian",
+    "audience": "engineer"
+  },
+  {
+    "name": "Odin",
+    "audience": "engineer"
+  },
+  {
+    "name": "On Review",
+    "audience": "engineer"
+  },
+  {
+    "name": "Open Graph",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenCL",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenCV",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenClaw",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenCode",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenGL",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenMP",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenSCAD",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenSSH",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenSSL",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenSearch",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenVZ",
+    "audience": "engineer"
+  },
+  {
+    "name": "Oracle",
+    "audience": "engineer"
+  },
+  {
+    "name": "Origami Studio",
+    "audience": "engineer"
+  },
+  {
+    "name": "PARI/GP",
+    "audience": "engineer"
+  },
+  {
+    "name": "PCRE",
+    "audience": "engineer"
+  },
+  {
+    "name": "PDF",
+    "audience": "engineer"
+  },
+  {
+    "name": "PHP",
+    "audience": "engineer"
+  },
+  {
+    "name": "PHP Frameworks",
+    "audience": "engineer"
+  },
+  {
+    "name": "PM2",
+    "audience": "engineer"
+  },
+  {
+    "name": "PPP",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pandas",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pandoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "Paren",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pascal",
+    "audience": "engineer"
+  },
+  {
+    "name": "Perforce",
+    "audience": "engineer"
+  },
+  {
+    "name": "Perl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Phel",
+    "audience": "engineer"
+  },
+  {
+    "name": "Phix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Photoshop",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "PhpStorm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Physics",
+    "audience": "engineer"
+  },
+  {
+    "name": "Play Framework",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pocket",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pod",
+    "audience": "engineer"
+  },
+  {
+    "name": "PostgreSQL",
+    "audience": "engineer"
+  },
+  {
+    "name": "Postman",
+    "audience": "engineer"
+  },
+  {
+    "name": "PowerShell",
+    "audience": "engineer"
+  },
+  {
+    "name": "Principle",
+    "audience": "engineer"
+  },
+  {
+    "name": "Probability Theory",
+    "audience": "engineer"
+  },
+  {
+    "name": "Processing",
+    "audience": "engineer"
+  },
+  {
+    "name": "Prolog",
+    "audience": "engineer"
+  },
+  {
+    "name": "Proto.io",
+    "audience": "engineer"
+  },
+  {
+    "name": "Protocol Buffers",
+    "audience": "engineer"
+  },
+  {
+    "name": "Prototype",
+    "audience": "engineer"
+  },
+  {
+    "name": "PuTTy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pug",
+    "audience": "engineer"
+  },
+  {
+    "name": "PureScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "PyQt",
+    "audience": "engineer"
+  },
+  {
+    "name": "PyTorch iconPyTorch",
+    "audience": "engineer"
+  },
+  {
+    "name": "Python",
+    "audience": "engineer"
+  },
+  {
+    "name": "Q#",
+    "audience": "engineer"
+  },
+  {
+    "name": "QML",
+    "audience": "engineer"
+  },
+  {
+    "name": "Qt",
+    "audience": "engineer"
+  },
+  {
+    "name": "Quarkus",
+    "audience": "engineer"
+  },
+  {
+    "name": "QuickRef",
+    "audience": "engineer"
+  },
+  {
+    "name": "QuickRef.ME",
+    "audience": "engineer"
+  },
+  {
+    "name": "Quicksilver",
+    "audience": "engineer"
+  },
+  {
+    "name": "Quip.com",
+    "audience": "engineer"
+  },
+  {
+    "name": "R",
+    "audience": "engineer"
+  },
+  {
+    "name": "RDF",
+    "audience": "engineer"
+  },
+  {
+    "name": "REST",
+    "audience": "engineer"
+  },
+  {
+    "name": "RIP",
+    "audience": "engineer"
+  },
+  {
+    "name": "RSS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Racket",
+    "audience": "engineer"
+  },
+  {
+    "name": "Raku",
+    "audience": "engineer"
+  },
+  {
+    "name": "ReScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "React",
+    "audience": "engineer"
+  },
+  {
+    "name": "Reason",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rebol",
+    "audience": "engineer"
+  },
+  {
+    "name": "Red",
+    "audience": "engineer"
+  },
+  {
+    "name": "Red Hat",
+    "audience": "engineer"
+  },
+  {
+    "name": "Reddit",
+    "audience": "engineer"
+  },
+  {
+    "name": "Redis",
+    "audience": "engineer"
+  },
+  {
+    "name": "RegEX",
+    "audience": "engineer"
+  },
+  {
+    "name": "RegExp",
+    "audience": "engineer"
+  },
+  {
+    "name": "Regular Expressions",
+    "audience": "engineer"
+  },
+  {
+    "name": "Religion",
+    "audience": "engineer"
+  },
+  {
+    "name": "Resolutions",
+    "audience": "engineer"
+  },
+  {
+    "name": "RichFaces",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rink",
+    "audience": "engineer"
+  },
+  {
+    "name": "Roam Research",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ruby",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ruby ecosystem",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ruby on Rails",
+    "audience": "engineer"
+  },
+  {
+    "name": "Rust",
+    "audience": "engineer"
+  },
+  {
+    "name": "SBTI",
+    "audience": "engineer"
+  },
+  {
+    "name": "SDKMAN!",
+    "audience": "engineer"
+  },
+  {
+    "name": "SNOBOL",
+    "audience": "engineer"
+  },
+  {
+    "name": "SQL",
+    "audience": "engineer"
+  },
+  {
+    "name": "SQL Server",
+    "audience": "engineer"
+  },
+  {
+    "name": "SQLite",
+    "audience": "engineer"
+  },
+  {
+    "name": "SSH",
+    "audience": "engineer"
+  },
+  {
+    "name": "SSI",
+    "audience": "engineer"
+  },
+  {
+    "name": "SSL",
+    "audience": "engineer"
+  },
+  {
+    "name": "SVG",
+    "audience": "engineer"
+  },
+  {
+    "name": "SVN",
+    "audience": "engineer"
+  },
+  {
+    "name": "SageMath",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sandcastle",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sass",
+    "audience": "engineer"
+  },
+  {
+    "name": "Scala",
+    "audience": "engineer"
+  },
+  {
+    "name": "Scalability",
+    "audience": "engineer"
+  },
+  {
+    "name": "Scalability and High Availability",
+    "audience": "engineer"
+  },
+  {
+    "name": "Scapy",
+    "audience": "engineer"
+  },
+  {
+    "name": "Science",
+    "audience": "engineer"
+  },
+  {
+    "name": "Screen",
+    "audience": "engineer"
+  },
+  {
+    "name": "Seam",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sed",
+    "audience": "engineer"
+  },
+  {
+    "name": "Selenium",
+    "audience": "engineer"
+  },
+  {
+    "name": "Self",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sendmail",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sequel Pro",
+    "audience": "engineer"
+  },
+  {
+    "name": "ServiceMix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Set theory",
+    "audience": "engineer"
+  },
+  {
+    "name": "Shell Script",
+    "audience": "engineer"
+  },
+  {
+    "name": "Shopify",
+    "audience": "engineer"
+  },
+  {
+    "name": "ShutIt",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sign in",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sign up",
+    "audience": "engineer"
+  },
+  {
+    "name": "Silverlight",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sing",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sketch",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sketch",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "SketchUp Pro",
+    "audience": "engineer"
+  },
+  {
+    "name": "SketchUp Pro",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Skype",
+    "audience": "engineer"
+  },
+  {
+    "name": "Slack",
+    "audience": "engineer"
+  },
+  {
+    "name": "SmallBASIC",
+    "audience": "engineer"
+  },
+  {
+    "name": "Smalltalk",
+    "audience": "engineer"
+  },
+  {
+    "name": "Smile",
+    "audience": "engineer"
+  },
+  {
+    "name": "Social Bookmarks",
+    "audience": "engineer"
+  },
+  {
+    "name": "Social media",
+    "audience": "engineer"
+  },
+  {
+    "name": "Socket io",
+    "audience": "engineer"
+  },
+  {
+    "name": "Solaris",
+    "audience": "engineer"
+  },
+  {
+    "name": "Solidity",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sorbet",
+    "audience": "engineer"
+  },
+  {
+    "name": "SoundCloud",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spanning Tree",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spotify",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spring Framework",
+    "audience": "engineer"
+  },
+  {
+    "name": "Spring Roo",
+    "audience": "engineer"
+  },
+  {
+    "name": "Standard ML",
+    "audience": "engineer"
+  },
+  {
+    "name": "Star\n 45.7k",
+    "audience": "engineer"
+  },
+  {
+    "name": "Statistical computing with Python",
+    "audience": "engineer"
+  },
+  {
+    "name": "Statistics",
+    "audience": "engineer"
+  },
+  {
+    "name": "Stylus",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sublime Text",
+    "audience": "engineer"
+  },
+  {
+    "name": "Superhuman",
+    "audience": "engineer"
+  },
+  {
+    "name": "Support",
+    "audience": "engineer"
+  },
+  {
+    "name": "Svelte",
+    "audience": "engineer"
+  },
+  {
+    "name": "Swift",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sybase",
+    "audience": "engineer"
+  },
+  {
+    "name": "Symfony",
+    "audience": "engineer"
+  },
+  {
+    "name": "Symfony2",
+    "audience": "engineer"
+  },
+  {
+    "name": "Systemd",
+    "audience": "engineer"
+  },
+  {
+    "name": "TCP",
+    "audience": "engineer"
+  },
+  {
+    "name": "TLDs",
+    "audience": "engineer"
+  },
+  {
+    "name": "TLS",
+    "audience": "engineer"
+  },
+  {
+    "name": "TOML",
+    "audience": "engineer"
+  },
+  {
+    "name": "TTCN-3",
+    "audience": "engineer"
+  },
+  {
+    "name": "TablePlus",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tailspin",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tapestry",
+    "audience": "engineer"
+  },
+  {
+    "name": "Taskset",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tcl",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tcl/Tk",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tcpdump",
+    "audience": "engineer"
+  },
+  {
+    "name": "TeX",
+    "audience": "engineer"
+  },
+  {
+    "name": "Telegram Desktop",
+    "audience": "engineer"
+  },
+  {
+    "name": "Telnet",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tensorflow",
+    "audience": "engineer"
+  },
+  {
+    "name": "Terraform",
+    "audience": "engineer"
+  },
+  {
+    "name": "Texinfo",
+    "audience": "engineer"
+  },
+  {
+    "name": "Textile",
+    "audience": "engineer"
+  },
+  {
+    "name": "The only one you need",
+    "audience": "engineer"
+  },
+  {
+    "name": "Thunderbird",
+    "audience": "engineer"
+  },
+  {
+    "name": "TickTick",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tmux",
+    "audience": "engineer"
+  },
+  {
+    "name": "Todoist",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tower",
+    "audience": "engineer"
+  },
+  {
+    "name": "Transmit",
+    "audience": "engineer"
+  },
+  {
+    "name": "Trello",
+    "audience": "engineer"
+  },
+  {
+    "name": "Trigonometry",
+    "audience": "engineer"
+  },
+  {
+    "name": "Try Now!",
+    "audience": "engineer"
+  },
+  {
+    "name": "Twitter",
+    "audience": "engineer"
+  },
+  {
+    "name": "TypeScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "UML",
+    "audience": "engineer"
+  },
+  {
+    "name": "UTF",
+    "audience": "engineer"
+  },
+  {
+    "name": "Ubuntu",
+    "audience": "engineer"
+  },
+  {
+    "name": "UnderscoreJS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unicode",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unity 3D",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unity Shader Graph",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unix",
+    "audience": "engineer"
+  },
+  {
+    "name": "Unreal Engine",
+    "audience": "engineer"
+  },
+  {
+    "name": "Uxntal",
+    "audience": "engineer"
+  },
+  {
+    "name": "V",
+    "audience": "engineer"
+  },
+  {
+    "name": "VB",
+    "audience": "engineer"
+  },
+  {
+    "name": "VBA",
+    "audience": "engineer"
+  },
+  {
+    "name": "VBScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "VHDL",
+    "audience": "engineer"
+  },
+  {
+    "name": "VIM-LaTeX",
+    "audience": "engineer"
+  },
+  {
+    "name": "VLC Player",
+    "audience": "engineer"
+  },
+  {
+    "name": "VMware",
+    "audience": "engineer"
+  },
+  {
+    "name": "VSCode",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vaadin",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vala",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vcs Workflow",
+    "audience": "engineer"
+  },
+  {
+    "name": "Verilog",
+    "audience": "engineer"
+  },
+  {
+    "name": "Veritas Cluster",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vi",
+    "audience": "engineer"
+  },
+  {
+    "name": "View all sheets",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vim",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vim9 script",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vimscript",
+    "audience": "engineer"
+  },
+  {
+    "name": "Virtualization",
+    "audience": "engineer"
+  },
+  {
+    "name": "Visual Basic",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vivaldi Browser",
+    "audience": "engineer"
+  },
+  {
+    "name": "VoiceXML",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vue",
+    "audience": "engineer"
+  },
+  {
+    "name": "WS-BPEL",
+    "audience": "engineer"
+  },
+  {
+    "name": "WebAssembly",
+    "audience": "engineer"
+  },
+  {
+    "name": "WebGL",
+    "audience": "engineer"
+  },
+  {
+    "name": "WebMatrix",
+    "audience": "engineer"
+  },
+  {
+    "name": "WebStorm",
+    "audience": "engineer"
+  },
+  {
+    "name": "Webflow",
+    "audience": "engineer"
+  },
+  {
+    "name": "Website Optimization",
+    "audience": "engineer"
+  },
+  {
+    "name": "Wicket",
+    "audience": "engineer"
+  },
+  {
+    "name": "Wikipedia",
+    "audience": "engineer"
+  },
+  {
+    "name": "Wikitext",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows Azure",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows Cmd",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows Communication Foundation",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows PowerShell",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windows Presentation Foundation",
+    "audience": "engineer"
+  },
+  {
+    "name": "Wolfram",
+    "audience": "engineer"
+  },
+  {
+    "name": "WordPress",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "World of Warcraft",
+    "audience": "engineer"
+  },
+  {
+    "name": "XHTML",
+    "audience": "engineer"
+  },
+  {
+    "name": "XML",
+    "audience": "engineer"
+  },
+  {
+    "name": "XML Schema",
+    "audience": "engineer"
+  },
+  {
+    "name": "XPath",
+    "audience": "engineer"
+  },
+  {
+    "name": "XSL",
+    "audience": "engineer"
+  },
+  {
+    "name": "XSLT",
+    "audience": "engineer"
+  },
+  {
+    "name": "XSS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Xcode",
+    "audience": "engineer"
+  },
+  {
+    "name": "YAML",
+    "audience": "engineer"
+  },
+  {
+    "name": "Yahoo",
+    "audience": "engineer"
+  },
+  {
+    "name": "YouTube",
+    "audience": "engineer"
+  },
+  {
+    "name": "Yum",
+    "audience": "engineer"
+  },
+  {
+    "name": "ZFS",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zed",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zen Coding",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zen Coding (Emmet)",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zig",
+    "audience": "engineer"
+  },
+  {
+    "name": "Zoom",
+    "audience": "engineer"
+  },
+  {
+    "name": "^",
+    "audience": "engineer"
+  },
+  {
+    "name": "activeadmin  ActiveAdmin",
+    "audience": "engineer"
+  },
+  {
+    "name": "angularjs  Angular.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "ansi  Ansi codes",
+    "audience": "engineer"
+  },
+  {
+    "name": "ansible  Ansible",
+    "audience": "engineer"
+  },
+  {
+    "name": "apiOmat",
+    "audience": "engineer"
+  },
+  {
+    "name": "appcache  Appcache",
+    "audience": "engineer"
+  },
+  {
+    "name": "applescript  AppleScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "applinks  Applinks",
+    "audience": "engineer"
+  },
+  {
+    "name": "arel  Arel",
+    "audience": "engineer"
+  },
+  {
+    "name": "atom  Atom",
+    "audience": "engineer"
+  },
+  {
+    "name": "awscli  AWS CLI",
+    "audience": "engineer"
+  },
+  {
+    "name": "backbone  Backbone.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "bash  Bash scripting",
+    "audience": "engineer"
+  },
+  {
+    "name": "blessed  Blessed",
+    "audience": "engineer"
+  },
+  {
+    "name": "bluebird  bluebird.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "bolt  Bolt Quickstart",
+    "audience": "engineer"
+  },
+  {
+    "name": "bookshelf  Bookshelf.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "bootstrap  Bootstrap",
+    "audience": "engineer"
+  },
+  {
+    "name": "browserify  Browserify",
+    "audience": "engineer"
+  },
+  {
+    "name": "bulma  Bulma",
+    "audience": "engineer"
+  },
+  {
+    "name": "bundler  Bundler",
+    "audience": "engineer"
+  },
+  {
+    "name": "camp  Camp",
+    "audience": "engineer"
+  },
+  {
+    "name": "canvas  Canvas",
+    "audience": "engineer"
+  },
+  {
+    "name": "capybara  Capybara",
+    "audience": "engineer"
+  },
+  {
+    "name": "chai  Chai.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "cheatsheets.zip",
+    "audience": "engineer"
+  },
+  {
+    "name": "chef  Chef",
+    "audience": "engineer"
+  },
+  {
+    "name": "chmod",
+    "audience": "engineer"
+  },
+  {
+    "name": "chunky_png  Chunky PNG",
+    "audience": "engineer"
+  },
+  {
+    "name": "cidr  CIDR",
+    "audience": "engineer"
+  },
+  {
+    "name": "circle  CircleCI",
+    "audience": "engineer"
+  },
+  {
+    "name": "citron",
+    "audience": "engineer"
+  },
+  {
+    "name": "claude-code  Claude Code",
+    "audience": "engineer"
+  },
+  {
+    "name": "co  co",
+    "audience": "engineer"
+  },
+  {
+    "name": "composer  composer",
+    "audience": "engineer"
+  },
+  {
+    "name": "cordova  Apache Cordova",
+    "audience": "engineer"
+  },
+  {
+    "name": "cron  Cron",
+    "audience": "engineer"
+  },
+  {
+    "name": "csharp7  C# 7",
+    "audience": "engineer"
+  },
+  {
+    "name": "css  CSS",
+    "audience": "engineer"
+  },
+  {
+    "name": "css-flexbox  CSS flexbox",
+    "audience": "engineer"
+  },
+  {
+    "name": "css-grid  CSS Grid",
+    "audience": "engineer"
+  },
+  {
+    "name": "css-tricks  CSS tricks",
+    "audience": "engineer"
+  },
+  {
+    "name": "cssnext  cssnext",
+    "audience": "engineer"
+  },
+  {
+    "name": "curl  Curl",
+    "audience": "engineer"
+  },
+  {
+    "name": "db4o",
+    "audience": "engineer"
+  },
+  {
+    "name": "deis  Deis",
+    "audience": "engineer"
+  },
+  {
+    "name": "deku  Deku v2",
+    "audience": "engineer"
+  },
+  {
+    "name": "deku@1  Deku v1",
+    "audience": "engineer"
+  },
+  {
+    "name": "devise  Devise",
+    "audience": "engineer"
+  },
+  {
+    "name": "divshot  Divshot",
+    "audience": "engineer"
+  },
+  {
+    "name": "do  Do gem",
+    "audience": "engineer"
+  },
+  {
+    "name": "docker  Docker CLI",
+    "audience": "engineer"
+  },
+  {
+    "name": "dockerfile  Dockerfile",
+    "audience": "engineer"
+  },
+  {
+    "name": "dom-range  DOM Range",
+    "audience": "engineer"
+  },
+  {
+    "name": "elixir  Elixir",
+    "audience": "engineer"
+  },
+  {
+    "name": "emacs  Emacs",
+    "audience": "engineer"
+  },
+  {
+    "name": "ember  Ember.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "emmet  Emmet",
+    "audience": "engineer"
+  },
+  {
+    "name": "enzyme  Enzyme",
+    "audience": "engineer"
+  },
+  {
+    "name": "enzyme@2  Enzyme v2",
+    "audience": "engineer"
+  },
+  {
+    "name": "es6  ES2015+",
+    "audience": "engineer"
+  },
+  {
+    "name": "ets  Erlang ETS",
+    "audience": "engineer"
+  },
+  {
+    "name": "expectjs  expect.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "express  Express.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "exunit  ExUnit",
+    "audience": "engineer"
+  },
+  {
+    "name": "factory_bot  Factory Bot",
+    "audience": "engineer"
+  },
+  {
+    "name": "fastify  Fastify",
+    "audience": "engineer"
+  },
+  {
+    "name": "ffaker  FFaker",
+    "audience": "engineer"
+  },
+  {
+    "name": "ffmpeg  ffmpeg",
+    "audience": "engineer"
+  },
+  {
+    "name": "figlet  Figlet",
+    "audience": "engineer"
+  },
+  {
+    "name": "find  Find",
+    "audience": "engineer"
+  },
+  {
+    "name": "firebase  Firebase",
+    "audience": "engineer"
+  },
+  {
+    "name": "firefox  Firefox",
+    "audience": "engineer"
+  },
+  {
+    "name": "fish",
+    "audience": "engineer"
+  },
+  {
+    "name": "fish-shell  Fish shell",
+    "audience": "engineer"
+  },
+  {
+    "name": "flashlight  Flashlight",
+    "audience": "engineer"
+  },
+  {
+    "name": "flow  Flow",
+    "audience": "engineer"
+  },
+  {
+    "name": "flux  Flux architecture",
+    "audience": "engineer"
+  },
+  {
+    "name": "flynn  Flynn",
+    "audience": "engineer"
+  },
+  {
+    "name": "freenode  Freenode",
+    "audience": "engineer"
+  },
+  {
+    "name": "gh-pages  GitHub pages",
+    "audience": "engineer"
+  },
+  {
+    "name": "git-branch  Git branches",
+    "audience": "engineer"
+  },
+  {
+    "name": "git-extras  Git extras",
+    "audience": "engineer"
+  },
+  {
+    "name": "git-log  git log",
+    "audience": "engineer"
+  },
+  {
+    "name": "git-tricks  Git tricks",
+    "audience": "engineer"
+  },
+  {
+    "name": "gnupg  GnuPG",
+    "audience": "engineer"
+  },
+  {
+    "name": "go  Go",
+    "audience": "engineer"
+  },
+  {
+    "name": "goby  Goby",
+    "audience": "engineer"
+  },
+  {
+    "name": "graphql  GraphQL",
+    "audience": "engineer"
+  },
+  {
+    "name": "gremlins  Gremlins.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "grep  GNU grep",
+    "audience": "engineer"
+  },
+  {
+    "name": "gulp  Gulp",
+    "audience": "engineer"
+  },
+  {
+    "name": "haml  Haml",
+    "audience": "engineer"
+  },
+  {
+    "name": "harvey.js  Harvey.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "heroku  Heroku",
+    "audience": "engineer"
+  },
+  {
+    "name": "hledger  Hledger",
+    "audience": "engineer"
+  },
+  {
+    "name": "homebrew  Homebrew",
+    "audience": "engineer"
+  },
+  {
+    "name": "htaccess",
+    "audience": "engineer"
+  },
+  {
+    "name": "html  HTML",
+    "audience": "engineer"
+  },
+  {
+    "name": "html-email  HTML emails",
+    "audience": "engineer"
+  },
+  {
+    "name": "html-input  Input tag",
+    "audience": "engineer"
+  },
+  {
+    "name": "html-share  Share links",
+    "audience": "engineer"
+  },
+  {
+    "name": "http-status  HTTP Status",
+    "audience": "engineer"
+  },
+  {
+    "name": "httpie  httpie",
+    "audience": "engineer"
+  },
+  {
+    "name": "ie  Internet Explorer",
+    "audience": "engineer"
+  },
+  {
+    "name": "ie_bugs  Legacy IE bugs",
+    "audience": "engineer"
+  },
+  {
+    "name": "imagemagick  Imagemagick",
+    "audience": "engineer"
+  },
+  {
+    "name": "inkscape  Inkscape",
+    "audience": "engineer"
+  },
+  {
+    "name": "jQuery",
+    "audience": "engineer"
+  },
+  {
+    "name": "jade  Jade",
+    "audience": "engineer"
+  },
+  {
+    "name": "jasmine  Jasmine",
+    "audience": "engineer"
+  },
+  {
+    "name": "jekyll  Jekyll",
+    "audience": "engineer"
+  },
+  {
+    "name": "jest  Jest",
+    "audience": "engineer"
+  },
+  {
+    "name": "jinja  Jinja",
+    "audience": "engineer"
+  },
+  {
+    "name": "jinja2  jinja",
+    "audience": "engineer"
+  },
+  {
+    "name": "jquery  jQuery",
+    "audience": "engineer"
+  },
+  {
+    "name": "jquery-cdn  jQuery CDN",
+    "audience": "engineer"
+  },
+  {
+    "name": "js-date  JavaScript Date",
+    "audience": "engineer"
+  },
+  {
+    "name": "js-fetch  fetch()",
+    "audience": "engineer"
+  },
+  {
+    "name": "js-model  js-model",
+    "audience": "engineer"
+  },
+  {
+    "name": "jscoverage  jscoverage",
+    "audience": "engineer"
+  },
+  {
+    "name": "jsdoc  Jsdoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "jshint  Jshint",
+    "audience": "engineer"
+  },
+  {
+    "name": "kdb+",
+    "audience": "engineer"
+  },
+  {
+    "name": "knex  Knex",
+    "audience": "engineer"
+  },
+  {
+    "name": "koa  Koa",
+    "audience": "engineer"
+  },
+  {
+    "name": "kotlin  Kotlin",
+    "audience": "engineer"
+  },
+  {
+    "name": "kramdown  Kramdown",
+    "audience": "engineer"
+  },
+  {
+    "name": "ledger  Ledger CLI",
+    "audience": "engineer"
+  },
+  {
+    "name": "less",
+    "audience": "engineer"
+  },
+  {
+    "name": "less  Less.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "licenses  Licenses",
+    "audience": "engineer"
+  },
+  {
+    "name": "linux  Linux",
+    "audience": "engineer"
+  },
+  {
+    "name": "lodash  Lodash",
+    "audience": "engineer"
+  },
+  {
+    "name": "lua  Lua",
+    "audience": "engineer"
+  },
+  {
+    "name": "machinist  Machinist",
+    "audience": "engineer"
+  },
+  {
+    "name": "makefile  Makefile",
+    "audience": "engineer"
+  },
+  {
+    "name": "mako  Mako",
+    "audience": "engineer"
+  },
+  {
+    "name": "man  Man",
+    "audience": "engineer"
+  },
+  {
+    "name": "markdown  Markdown",
+    "audience": "engineer"
+  },
+  {
+    "name": "meow  Meow",
+    "audience": "engineer"
+  },
+  {
+    "name": "meta-tags  Meta-tags gem",
+    "audience": "engineer"
+  },
+  {
+    "name": "middleman  Middleman 3",
+    "audience": "engineer"
+  },
+  {
+    "name": "minimist  minimist",
+    "audience": "engineer"
+  },
+  {
+    "name": "minitest  Minitest",
+    "audience": "engineer"
+  },
+  {
+    "name": "mixpanel  Mixpanel",
+    "audience": "engineer"
+  },
+  {
+    "name": "mobx  Mobx",
+    "audience": "engineer"
+  },
+  {
+    "name": "mocha  Mocha.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "mocha-html  Mocha HTML",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_include",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_perl",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_rewrite",
+    "audience": "engineer"
+  },
+  {
+    "name": "modella  Modella",
+    "audience": "engineer"
+  },
+  {
+    "name": "modernizr  Modernizr",
+    "audience": "engineer"
+  },
+  {
+    "name": "moment  Moment.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "mysql  MySQL",
+    "audience": "engineer"
+  },
+  {
+    "name": "ncftp  ncftp",
+    "audience": "engineer"
+  },
+  {
+    "name": "niva",
+    "audience": "engineer"
+  },
+  {
+    "name": "nock  Nock",
+    "audience": "engineer"
+  },
+  {
+    "name": "nocode  Nocode",
+    "audience": "engineer"
+  },
+  {
+    "name": "nodejs  Node.js API",
+    "audience": "engineer"
+  },
+  {
+    "name": "nodejs-assert  assert",
+    "audience": "engineer"
+  },
+  {
+    "name": "nodejs-fs  fs",
+    "audience": "engineer"
+  },
+  {
+    "name": "nodejs-process  process",
+    "audience": "engineer"
+  },
+  {
+    "name": "nopt  Nopt",
+    "audience": "engineer"
+  },
+  {
+    "name": "npm",
+    "audience": "engineer"
+  },
+  {
+    "name": "npm  npm",
+    "audience": "engineer"
+  },
+  {
+    "name": "org-mode",
+    "audience": "engineer"
+  },
+  {
+    "name": "org-mode  Org Mode",
+    "audience": "engineer"
+  },
+  {
+    "name": "osx  OS X",
+    "audience": "engineer"
+  },
+  {
+    "name": "p5.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "packs  Packs (ruby)",
+    "audience": "engineer"
+  },
+  {
+    "name": "pacman  Pacman",
+    "audience": "engineer"
+  },
+  {
+    "name": "parsimmon  Parsimmon",
+    "audience": "engineer"
+  },
+  {
+    "name": "parsley  Parsley.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "pass  Pass",
+    "audience": "engineer"
+  },
+  {
+    "name": "perl-pie  Perl-pie",
+    "audience": "engineer"
+  },
+  {
+    "name": "phoenix  Phoenix",
+    "audience": "engineer"
+  },
+  {
+    "name": "phoenix@1.2  Phoenix 1.2",
+    "audience": "engineer"
+  },
+  {
+    "name": "plantuml  PlantUML",
+    "audience": "engineer"
+  },
+  {
+    "name": "pm2  pm2",
+    "audience": "engineer"
+  },
+  {
+    "name": "polyfill.io  Polyfill.io",
+    "audience": "engineer"
+  },
+  {
+    "name": "postgresql  PostgreSQL",
+    "audience": "engineer"
+  },
+  {
+    "name": "premailer  Premailer",
+    "audience": "engineer"
+  },
+  {
+    "name": "promise  Promises",
+    "audience": "engineer"
+  },
+  {
+    "name": "pry  Pry",
+    "audience": "engineer"
+  },
+  {
+    "name": "psdrb  PSD.rb",
+    "audience": "engineer"
+  },
+  {
+    "name": "pug  Pug",
+    "audience": "engineer"
+  },
+  {
+    "name": "python  Python",
+    "audience": "engineer"
+  },
+  {
+    "name": "qjs  Q.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "qunit  Qunit",
+    "audience": "engineer"
+  },
+  {
+    "name": "rack-test  rack-test",
+    "audience": "engineer"
+  },
+  {
+    "name": "ractive  Ractive.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "rails  Rails",
+    "audience": "engineer"
+  },
+  {
+    "name": "rails-i18n  Rails i18n",
+    "audience": "engineer"
+  },
+  {
+    "name": "rails-routes  Routes",
+    "audience": "engineer"
+  },
+  {
+    "name": "rake  Rake",
+    "audience": "engineer"
+  },
+  {
+    "name": "raylib",
+    "audience": "engineer"
+  },
+  {
+    "name": "rbenv  rbenv",
+    "audience": "engineer"
+  },
+  {
+    "name": "rclone  rclone",
+    "audience": "engineer"
+  },
+  {
+    "name": "rdoc  Rdoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "reStructuredText (RST)",
+    "audience": "engineer"
+  },
+  {
+    "name": "react  React.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "redux  Redux",
+    "audience": "engineer"
+  },
+  {
+    "name": "regexp  regexp",
+    "audience": "engineer"
+  },
+  {
+    "name": "rename  rename",
+    "audience": "engineer"
+  },
+  {
+    "name": "rest-api  RESTful API",
+    "audience": "engineer"
+  },
+  {
+    "name": "riot  Riot.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "rollup  Rollup.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "ronn  Ronn",
+    "audience": "engineer"
+  },
+  {
+    "name": "rpm",
+    "audience": "engineer"
+  },
+  {
+    "name": "rspec  RSpec",
+    "audience": "engineer"
+  },
+  {
+    "name": "rspec-rails  Rspec-rails",
+    "audience": "engineer"
+  },
+  {
+    "name": "rst  ReStructuredText",
+    "audience": "engineer"
+  },
+  {
+    "name": "rsync  Rsync",
+    "audience": "engineer"
+  },
+  {
+    "name": "rtorrent  rTorrent",
+    "audience": "engineer"
+  },
+  {
+    "name": "ruby  Ruby",
+    "audience": "engineer"
+  },
+  {
+    "name": "ruby21  Ruby 2.1",
+    "audience": "engineer"
+  },
+  {
+    "name": "rubygems  Rubygems",
+    "audience": "engineer"
+  },
+  {
+    "name": "sass  Sass",
+    "audience": "engineer"
+  },
+  {
+    "name": "saucelabs  Saucelabs",
+    "audience": "engineer"
+  },
+  {
+    "name": "scp  scp",
+    "audience": "engineer"
+  },
+  {
+    "name": "screen  Screen",
+    "audience": "engineer"
+  },
+  {
+    "name": "sed  sed",
+    "audience": "engineer"
+  },
+  {
+    "name": "semver  Semver",
+    "audience": "engineer"
+  },
+  {
+    "name": "sequel  Sequel",
+    "audience": "engineer"
+  },
+  {
+    "name": "sequelize  Sequelize",
+    "audience": "engineer"
+  },
+  {
+    "name": "sh  Shell scripting",
+    "audience": "engineer"
+  },
+  {
+    "name": "shelljs  Shell.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "siege  Siege",
+    "audience": "engineer"
+  },
+  {
+    "name": "simple_form  SimpleForm",
+    "audience": "engineer"
+  },
+  {
+    "name": "sinon  Sinon",
+    "audience": "engineer"
+  },
+  {
+    "name": "sinon-chai  Sinon-chai",
+    "audience": "engineer"
+  },
+  {
+    "name": "sketch  Sketch",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "slim  Slim",
+    "audience": "engineer"
+  },
+  {
+    "name": "spacemacs  Spacemacs",
+    "audience": "engineer"
+  },
+  {
+    "name": "spine  Spine",
+    "audience": "engineer"
+  },
+  {
+    "name": "sql-join  SQL joins",
+    "audience": "engineer"
+  },
+  {
+    "name": "stencil  Stencil",
+    "audience": "engineer"
+  },
+  {
+    "name": "stylus  Stylus",
+    "audience": "engineer"
+  },
+  {
+    "name": "superagent  Superagent",
+    "audience": "engineer"
+  },
+  {
+    "name": "tabular  Tabular",
+    "audience": "engineer"
+  },
+  {
+    "name": "tape  Tape",
+    "audience": "engineer"
+  },
+  {
+    "name": "tar  tar",
+    "audience": "engineer"
+  },
+  {
+    "name": "tcsh",
+    "audience": "engineer"
+  },
+  {
+    "name": "textile  Textile",
+    "audience": "engineer"
+  },
+  {
+    "name": "tig  Tig",
+    "audience": "engineer"
+  },
+  {
+    "name": "tmux  tmux",
+    "audience": "engineer"
+  },
+  {
+    "name": "tomdoc  Tomdoc",
+    "audience": "engineer"
+  },
+  {
+    "name": "top  top",
+    "audience": "engineer"
+  },
+  {
+    "name": "travis  Travis.yml",
+    "audience": "engineer"
+  },
+  {
+    "name": "typescript  TypeScript",
+    "audience": "engineer"
+  },
+  {
+    "name": "ubuntu  Ubuntu",
+    "audience": "engineer"
+  },
+  {
+    "name": "unicode  Unicode symbols",
+    "audience": "engineer"
+  },
+  {
+    "name": "vagrant  Vagrant",
+    "audience": "engineer"
+  },
+  {
+    "name": "vagrantfile  Vagrantfile",
+    "audience": "engineer"
+  },
+  {
+    "name": "vainglory  Vainglory",
+    "audience": "engineer"
+  },
+  {
+    "name": "vim  Vim",
+    "audience": "engineer"
+  },
+  {
+    "name": "vim-diff  Vimdiff",
+    "audience": "engineer"
+  },
+  {
+    "name": "vim-help  Vim helpfiles",
+    "audience": "engineer"
+  },
+  {
+    "name": "vim-rails  Vim-rails",
+    "audience": "engineer"
+  },
+  {
+    "name": "vim-unite  Vim-Unite",
+    "audience": "engineer"
+  },
+  {
+    "name": "vimscript  Vim scripting",
+    "audience": "engineer"
+  },
+  {
+    "name": "virtual-dom  Virtual-dom",
+    "audience": "engineer"
+  },
+  {
+    "name": "vows  Vows",
+    "audience": "engineer"
+  },
+  {
+    "name": "vue  Vue.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "vvvv",
+    "audience": "engineer"
+  },
+  {
+    "name": "watchexec  Watchexec",
+    "audience": "engineer"
+  },
+  {
+    "name": "watchman  Watchman",
+    "audience": "engineer"
+  },
+  {
+    "name": "web-workers  Web workers",
+    "audience": "engineer"
+  },
+  {
+    "name": "webpack  Webpack",
+    "audience": "engineer"
+  },
+  {
+    "name": "weechat  Weechat",
+    "audience": "engineer"
+  },
+  {
+    "name": "weinre  Weinre",
+    "audience": "engineer"
+  },
+  {
+    "name": "wip/php  PHP",
+    "audience": "engineer"
+  },
+  {
+    "name": "xpath  Xpath",
+    "audience": "engineer"
+  },
+  {
+    "name": "yaml  Yaml",
+    "audience": "engineer"
+  },
+  {
+    "name": "yargs  Yargs",
+    "audience": "engineer"
+  },
+  {
+    "name": "yarn  Yarn",
+    "audience": "engineer"
+  },
+  {
+    "name": "yum  YUM",
+    "audience": "engineer"
+  },
+  {
+    "name": "znc  ZNC bouncer",
+    "audience": "engineer"
+  },
+  {
+    "name": "zombie  Zombie",
+    "audience": "engineer"
+  },
+  {
+    "name": "zsh  zsh",
+    "audience": "engineer"
+  },
+  {
+    "name": "\u00e4\u00b8\u00ad\u00e6\u0096\u0087\u00e7\u0089\u0088",
+    "audience": "engineer"
+  }
+]

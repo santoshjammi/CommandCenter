@@ -1,0 +1,204 @@
+{
+  "title": "AppleScript Cheat Sheet",
+  "slug": "applescript",
+  "description": "Essential AppleScript commands and syntax for automation.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "display dialog \"Hello, World!\"",
+      "description": "Display a dialog box with a message",
+      "scenario": "Display a dialog box with a message",
+      "language": "applescript",
+      "tags": [
+        "dialog",
+        "message",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set currentDate to (current date)",
+      "description": "Get the current date and time",
+      "scenario": "Get the current date and time",
+      "language": "applescript",
+      "tags": [
+        "date",
+        "time",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tell application \"Safari\" to activate",
+      "description": "Open a specific application",
+      "scenario": "Open a specific application",
+      "language": "applescript",
+      "tags": [
+        "application",
+        "open",
+        "activate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set myString to \"Hello, AppleScript!\"",
+      "description": "Declare a string variable",
+      "scenario": "Declare a string variable",
+      "language": "applescript",
+      "tags": [
+        "variable",
+        "string",
+        "declare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set myNumber to 42",
+      "description": "Declare a number variable",
+      "scenario": "Declare a number variable",
+      "language": "applescript",
+      "tags": [
+        "variable",
+        "number",
+        "declare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set myList to {\"Apple\", \"Banana\", \"Cherry\"}",
+      "description": "Declare a list variable",
+      "scenario": "Declare a list variable",
+      "language": "applescript",
+      "tags": [
+        "variable",
+        "list",
+        "declare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if myNumber > 10 then\n    display dialog \"Number is greater than 10\"\nelse\n    display dialog \"Number is 10 or less\"\nend if",
+      "description": "If-else conditional statement",
+      "scenario": "If-else conditional statement",
+      "language": "applescript",
+      "tags": [
+        "conditional",
+        "if",
+        "else"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "repeat with i from 1 to 5\n    display dialog \"Iteration \" & i\nend repeat",
+      "description": "Repeat loop with a counter",
+      "scenario": "Repeat loop with a counter",
+      "language": "applescript",
+      "tags": [
+        "loop",
+        "repeat",
+        "counter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set i to 1\nrepeat while i \u2264 5\n    display dialog \"Iteration \" & i\n    set i to i + 1\nend repeat",
+      "description": "While loop",
+      "scenario": "While loop",
+      "language": "applescript",
+      "tags": [
+        "loop",
+        "while",
+        "repeat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set myFile to (open for access file \"Macintosh HD:Users:username:Desktop:myfile.txt\" with write permission)\nwrite \"Hello, World!\" to myFile\nclose access myFile",
+      "description": "Create a new file",
+      "scenario": "Create a new file",
+      "language": "applescript",
+      "tags": [
+        "file",
+        "create",
+        "write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set myFile to (open for access file \"Macintosh HD:Users:username:Desktop:myfile.txt\")\nset fileContents to read myFile\nclose access myFile",
+      "description": "Read from a file",
+      "scenario": "Read from a file",
+      "language": "applescript",
+      "tags": [
+        "file",
+        "read",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tell application \"Finder\"\n    delete file \"Macintosh HD:Users:username:Desktop:myfile.txt\"\nend tell",
+      "description": "Delete a file",
+      "scenario": "Delete a file",
+      "language": "applescript",
+      "tags": [
+        "file",
+        "delete",
+        "finder"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tell application \"System Events\"\n    set frontApp to name of first application process whose frontmost is true\nend tell",
+      "description": "Get the name of the frontmost application",
+      "scenario": "Get the name of the frontmost application",
+      "language": "applescript",
+      "tags": [
+        "application",
+        "frontmost",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tell application \"System Events\"\n    keystroke \"a\" using {command down}\nend tell",
+      "description": "Send keystrokes to an application",
+      "scenario": "Send keystrokes to an application",
+      "language": "applescript",
+      "tags": [
+        "keystroke",
+        "application",
+        "send"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tell application \"Safari\"\n    set currentURL to URL of front document\nend tell",
+      "description": "Get the URL of the current Safari tab",
+      "scenario": "Get the URL of the current Safari tab",
+      "language": "applescript",
+      "tags": [
+        "safari",
+        "url",
+        "tab"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

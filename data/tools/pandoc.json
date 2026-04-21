@@ -1,0 +1,165 @@
+{
+  "title": "Pandoc Cheat Sheet",
+  "slug": "pandoc",
+  "description": "Essential Pandoc commands and options for document conversion.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "pandoc input.md -o output.pdf",
+      "description": "Convert a Markdown file to PDF",
+      "scenario": "Convert a Markdown file to PDF",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "markdown",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.docx -o output.md",
+      "description": "Convert a Word document to Markdown",
+      "scenario": "Convert a Word document to Markdown",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "word",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.html -t plain -o output.txt",
+      "description": "Convert HTML to plain text",
+      "scenario": "Convert HTML to plain text",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "html",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.md -t pdf -o output.pdf",
+      "description": "Specify the output format explicitly",
+      "scenario": "Specify the output format explicitly",
+      "language": "bash",
+      "tags": [
+        "output",
+        "format",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.md --toc -o output.pdf",
+      "description": "Include a table of contents in the output",
+      "scenario": "Include a table of contents in the output",
+      "language": "bash",
+      "tags": [
+        "toc",
+        "table of contents",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.md -o output.pdf -V papersize:a4",
+      "description": "Set the PDF page size to A4",
+      "scenario": "Set the PDF page size to A4",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "page size",
+        "flag"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc chapter1.md chapter2.md -o book.pdf",
+      "description": "Convert multiple Markdown files into a single PDF",
+      "scenario": "Convert multiple Markdown files into a single PDF",
+      "language": "bash",
+      "tags": [
+        "multiple files",
+        "merge",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.md --template=custom.latex -o output.pdf",
+      "description": "Apply a custom LaTeX template for PDF output",
+      "scenario": "Apply a custom LaTeX template for PDF output",
+      "language": "bash",
+      "tags": [
+        "template",
+        "latex",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.md -o output.pdf --pdf-engine=xelatex -V mainfont='Arial'",
+      "description": "Embed fonts in the output PDF",
+      "scenario": "Embed fonts in the output PDF",
+      "language": "bash",
+      "tags": [
+        "fonts",
+        "embed",
+        "pdf"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc --defaults=defaults.yaml input.md -o output.pdf",
+      "description": "Set a default metadata file for all conversions",
+      "scenario": "Set a default metadata file for all conversions",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "defaults",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.md --defaults=options.yaml -o output.pdf",
+      "description": "Use a YAML file to specify multiple options",
+      "scenario": "Use a YAML file to specify multiple options",
+      "language": "bash",
+      "tags": [
+        "yaml",
+        "options",
+        "config"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pandoc input.md --bibliography=references.bib -o output.pdf",
+      "description": "Specify a bibliography file for citations",
+      "scenario": "Specify a bibliography file for citations",
+      "language": "bash",
+      "tags": [
+        "bibliography",
+        "citations",
+        "references"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

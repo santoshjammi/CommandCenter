@@ -1,0 +1,204 @@
+{
+  "title": "Codex CLI Cheat Sheet",
+  "slug": "codex-cli",
+  "description": "Essential commands and configurations for Codex CLI usage",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "codex init my-project",
+      "description": "Initialize a new Codex project",
+      "scenario": "Initialize a new Codex project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex interactive",
+      "description": "Run the Codex CLI in interactive mode",
+      "scenario": "Run the Codex CLI in interactive mode",
+      "language": "bash",
+      "tags": [
+        "interactive",
+        "mode",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex --version",
+      "description": "Display the current version of Codex CLI",
+      "scenario": "Display the current version of Codex CLI",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex config set api_key YOUR_API_KEY",
+      "description": "Set the API key for Codex CLI",
+      "scenario": "Set the API key for Codex CLI",
+      "language": "bash",
+      "tags": [
+        "config",
+        "api",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex config list",
+      "description": "View the current configuration settings",
+      "scenario": "View the current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "list",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex add file.js",
+      "description": "Add a new file to the Codex project",
+      "scenario": "Add a new file to the Codex project",
+      "language": "bash",
+      "tags": [
+        "project",
+        "add",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex remove file.js",
+      "description": "Remove a file from the Codex project",
+      "scenario": "Remove a file from the Codex project",
+      "language": "bash",
+      "tags": [
+        "project",
+        "remove",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex list",
+      "description": "List all files in the Codex project",
+      "scenario": "List all files in the Codex project",
+      "language": "bash",
+      "tags": [
+        "project",
+        "list",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex deploy --env production",
+      "description": "Deploy the Codex project to production",
+      "scenario": "Deploy the Codex project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "env"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex deploy status",
+      "description": "Check the status of the last deployment",
+      "scenario": "Check the status of the last deployment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "status",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex deploy rollback",
+      "description": "Rollback the last deployment",
+      "scenario": "Rollback the last deployment",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "rollback",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex --verbose",
+      "description": "Enable verbose logging for debugging",
+      "scenario": "Enable verbose logging for debugging",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "verbose",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex logs --errors",
+      "description": "Check the logs for errors",
+      "scenario": "Check the logs for errors",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "errors",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "codex support --diagnostic",
+      "description": "Contact support with a diagnostic report",
+      "scenario": "Contact support with a diagnostic report",
+      "language": "bash",
+      "tags": [
+        "support",
+        "diagnostic",
+        "report"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

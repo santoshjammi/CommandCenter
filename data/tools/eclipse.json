@@ -1,0 +1,204 @@
+{
+  "title": "Eclipse IDE Cheat Sheet",
+  "slug": "eclipse",
+  "description": "Quick reference for Eclipse IDE commands and shortcuts.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl + 3",
+      "description": "Open the Quick Access search bar",
+      "scenario": "Open the Quick Access search bar",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "search",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + F6",
+      "description": "Switch between open editors",
+      "scenario": "Switch between open editors",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "editors",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + T",
+      "description": "Open a type in the workspace",
+      "scenario": "Open a type in the workspace",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "type",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + F",
+      "description": "Format the selected code",
+      "scenario": "Format the selected code",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Shift + R",
+      "description": "Rename a variable or method",
+      "scenario": "Rename a variable or method",
+      "language": "text",
+      "tags": [
+        "refactor",
+        "rename",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + M",
+      "description": "Add a new import statement",
+      "scenario": "Add a new import statement",
+      "language": "text",
+      "tags": [
+        "import",
+        "code",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + B",
+      "description": "Toggle breakpoint on the current line",
+      "scenario": "Toggle breakpoint on the current line",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "breakpoint",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F5",
+      "description": "Step into the next method call",
+      "scenario": "Step into the next method call",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "step",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F8",
+      "description": "Resume program execution",
+      "scenario": "Resume program execution",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "resume",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + B",
+      "description": "Build the current project",
+      "scenario": "Build the current project",
+      "language": "text",
+      "tags": [
+        "build",
+        "project",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Shift + Q, P",
+      "description": "Open the Project Explorer view",
+      "scenario": "Open the Project Explorer view",
+      "language": "text",
+      "tags": [
+        "project",
+        "explorer",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F5",
+      "description": "Refresh the project to reflect external changes",
+      "scenario": "Refresh the project to reflect external changes",
+      "language": "text",
+      "tags": [
+        "refresh",
+        "project",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Team > Commit",
+      "description": "Commit changes to the repository",
+      "scenario": "Commit changes to the repository",
+      "language": "text",
+      "tags": [
+        "version control",
+        "commit",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Team > Update",
+      "description": "Update the project from the repository",
+      "scenario": "Update the project from the repository",
+      "language": "text",
+      "tags": [
+        "version control",
+        "update",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Team > Show History",
+      "description": "Show the history of a file",
+      "scenario": "Show the history of a file",
+      "language": "text",
+      "tags": [
+        "version control",
+        "history",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

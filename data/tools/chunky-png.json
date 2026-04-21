@@ -1,0 +1,165 @@
+{
+  "title": "Chunky PNG Cheat Sheet",
+  "slug": "chunky-png",
+  "description": "Quick reference for using the Chunky PNG Ruby library.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "image = ChunkyPNG::Image.from_file('path/to/image.png')",
+      "description": "Load a PNG image from a file",
+      "scenario": "Load a PNG image from a file",
+      "language": "ruby",
+      "tags": [
+        "load",
+        "image",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "image.save('path/to/output.png')",
+      "description": "Save a PNG image to a file",
+      "scenario": "Save a PNG image to a file",
+      "language": "ruby",
+      "tags": [
+        "save",
+        "image",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "image = ChunkyPNG::Image.new(100, 100, ChunkyPNG::Color::WHITE)",
+      "description": "Create a blank image with specific dimensions",
+      "scenario": "Create a blank image with specific dimensions",
+      "language": "ruby",
+      "tags": [
+        "create",
+        "blank",
+        "dimensions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "image[x, y] = ChunkyPNG::Color.rgb(255, 0, 0)",
+      "description": "Set a pixel to a specific color",
+      "scenario": "Set a pixel to a specific color",
+      "language": "ruby",
+      "tags": [
+        "pixel",
+        "color",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "color = image[x, y]",
+      "description": "Get the color of a specific pixel",
+      "scenario": "Get the color of a specific pixel",
+      "language": "ruby",
+      "tags": [
+        "pixel",
+        "color",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "image.rect(10, 10, 50, 50, ChunkyPNG::Color::BLACK, ChunkyPNG::Color::BLACK)",
+      "description": "Fill a rectangle with a specific color",
+      "scenario": "Fill a rectangle with a specific color",
+      "language": "ruby",
+      "tags": [
+        "rectangle",
+        "fill",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gray_color = ChunkyPNG::Color.grayscale(ChunkyPNG::Color.rgb(100, 150, 200))",
+      "description": "Convert a color to grayscale",
+      "scenario": "Convert a color to grayscale",
+      "language": "ruby",
+      "tags": [
+        "color",
+        "grayscale",
+        "convert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "blended_color = ChunkyPNG::Color.blend(ChunkyPNG::Color::RED, ChunkyPNG::Color::BLUE)",
+      "description": "Blend two colors together",
+      "scenario": "Blend two colors together",
+      "language": "ruby",
+      "tags": [
+        "color",
+        "blend",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alpha = ChunkyPNG::Color.a(ChunkyPNG::Color.rgba(100, 150, 200, 128))",
+      "description": "Extract the alpha channel from a color",
+      "scenario": "Extract the alpha channel from a color",
+      "language": "ruby",
+      "tags": [
+        "color",
+        "alpha",
+        "extract"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "difference = image1.difference(image2)",
+      "description": "Calculate the difference between two images",
+      "scenario": "Calculate the difference between two images",
+      "language": "ruby",
+      "tags": [
+        "difference",
+        "images",
+        "compare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "opaque_count = image.pixels.count { |pixel| ChunkyPNG::Color.a(pixel) == 255 }",
+      "description": "Count the number of opaque pixels",
+      "scenario": "Count the number of opaque pixels",
+      "language": "ruby",
+      "tags": [
+        "opaque",
+        "pixels",
+        "count"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "identical = image1 == image2",
+      "description": "Check if two images are identical",
+      "scenario": "Check if two images are identical",
+      "language": "ruby",
+      "tags": [
+        "compare",
+        "images",
+        "identical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

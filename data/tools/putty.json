@@ -1,0 +1,165 @@
+{
+  "title": "PuTTY Cheat Sheet",
+  "slug": "putty",
+  "description": "Essential PuTTY commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "putty.exe -ssh user@hostname -P 22",
+      "description": "Connect to a remote server via SSH",
+      "scenario": "Connect to a remote server via SSH",
+      "language": "bash",
+      "tags": [
+        "ssh",
+        "connect",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "putty.exe -load \"session_name\"",
+      "description": "Open PuTTY with a specific session",
+      "scenario": "Open PuTTY with a specific session",
+      "language": "bash",
+      "tags": [
+        "session",
+        "load",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "putty.exe -load \"session_name\" -save -f \"session.reg\"",
+      "description": "Export session settings to a file",
+      "scenario": "Export session settings to a file",
+      "language": "bash",
+      "tags": [
+        "export",
+        "session",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Connection > Data > Auto-login username: your_username",
+      "description": "Set default username for SSH connections",
+      "scenario": "Set default username for SSH connections",
+      "language": "text",
+      "tags": [
+        "configuration",
+        "username",
+        "ssh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Connection > Seconds between keepalives: 60",
+      "description": "Enable keepalives to prevent disconnection",
+      "scenario": "Enable keepalives to prevent disconnection",
+      "language": "text",
+      "tags": [
+        "keepalive",
+        "connection",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Connection > Data > Terminal-type string: xterm",
+      "description": "Change default terminal type string",
+      "scenario": "Change default terminal type string",
+      "language": "text",
+      "tags": [
+        "terminal",
+        "type",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Session > Enter hostname > Save",
+      "description": "Save session settings for future use",
+      "scenario": "Save session settings for future use",
+      "language": "text",
+      "tags": [
+        "session",
+        "save",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Window > Behaviour > Window title: MyTitle",
+      "description": "Change PuTTY window title",
+      "scenario": "Change PuTTY window title",
+      "language": "text",
+      "tags": [
+        "window",
+        "title",
+        "customize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Session > Logging > All session output > Browse: log.txt",
+      "description": "Log all session output to a file",
+      "scenario": "Log all session output to a file",
+      "language": "text",
+      "tags": [
+        "log",
+        "session",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "putty.exe -ssh user@hostname -i privatekey.ppk",
+      "description": "Connect using a private key file",
+      "scenario": "Connect using a private key file",
+      "language": "bash",
+      "tags": [
+        "ssh",
+        "private key",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "putty.exe -raw hostname -P 1234",
+      "description": "Start a raw connection to a server",
+      "scenario": "Start a raw connection to a server",
+      "language": "bash",
+      "tags": [
+        "raw",
+        "connection",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "putty.exe -proxycmd \"nc -X connect -x proxyhost:proxyport %host %port\" user@hostname",
+      "description": "Connect through a proxy",
+      "scenario": "Connect through a proxy",
+      "language": "bash",
+      "tags": [
+        "proxy",
+        "connect",
+        "ssh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

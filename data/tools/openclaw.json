@@ -1,0 +1,204 @@
+{
+  "title": "OpenClaw CLI Cheat Sheet",
+  "slug": "openclaw",
+  "description": "Essential OpenClaw CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "openclaw init",
+      "description": "Initialize a new OpenClaw project",
+      "scenario": "Initialize a new OpenClaw project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw start",
+      "description": "Start the OpenClaw server",
+      "scenario": "Start the OpenClaw server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw stop",
+      "description": "Stop the OpenClaw server",
+      "scenario": "Stop the OpenClaw server",
+      "language": "bash",
+      "tags": [
+        "server",
+        "stop",
+        "shutdown"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw config view",
+      "description": "View current configuration settings",
+      "scenario": "View current configuration settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "view",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw config set <key> <value>",
+      "description": "Set a configuration parameter",
+      "scenario": "Set a configuration parameter",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw config reset",
+      "description": "Reset configuration to default settings",
+      "scenario": "Reset configuration to default settings",
+      "language": "bash",
+      "tags": [
+        "config",
+        "reset",
+        "default"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw deploy",
+      "description": "Deploy the current project to production",
+      "scenario": "Deploy the current project to production",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "production",
+        "release"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw rollback",
+      "description": "Rollback the last deployment",
+      "scenario": "Rollback the last deployment",
+      "language": "bash",
+      "tags": [
+        "rollback",
+        "deploy",
+        "undo"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw deploy list",
+      "description": "List all deployments",
+      "scenario": "List all deployments",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "list",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw logs tail",
+      "description": "View real-time server logs",
+      "scenario": "View real-time server logs",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "tail",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw logs search <term>",
+      "description": "Search logs for a specific term",
+      "scenario": "Search logs for a specific term",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "search",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw logs clear",
+      "description": "Clear all log files",
+      "scenario": "Clear all log files",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "clear",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw user add <username>",
+      "description": "Add a new user to the project",
+      "scenario": "Add a new user to the project",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw user remove <username>",
+      "description": "Remove a user from the project",
+      "scenario": "Remove a user from the project",
+      "language": "bash",
+      "tags": [
+        "user",
+        "remove",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openclaw user list",
+      "description": "List all users in the project",
+      "scenario": "List all users in the project",
+      "language": "bash",
+      "tags": [
+        "user",
+        "list",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

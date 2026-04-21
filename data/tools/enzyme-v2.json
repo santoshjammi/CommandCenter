@@ -1,0 +1,204 @@
+{
+  "title": "Enzyme v2 Cheat Sheet",
+  "slug": "enzyme-v2",
+  "description": "Quick reference for Enzyme v2 testing library commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm install --save enzyme enzyme-adapter-react-16",
+      "description": "Install Enzyme and its adapter for React 16",
+      "scenario": "Install Enzyme and its adapter for React 16",
+      "language": "bash",
+      "tags": [
+        "installation",
+        "setup",
+        "npm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { configure } from 'enzyme';\nimport Adapter from 'enzyme-adapter-react-16';\n\nconfigure({ adapter: new Adapter() });",
+      "description": "Configure Enzyme with React 16 adapter",
+      "scenario": "Configure Enzyme with React 16 adapter",
+      "language": "javascript",
+      "tags": [
+        "configuration",
+        "setup",
+        "react"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import { shallow, mount, render } from 'enzyme';",
+      "description": "Import Enzyme methods for testing",
+      "scenario": "Import Enzyme methods for testing",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "testing",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const wrapper = shallow(<MyComponent />);",
+      "description": "Shallow render a React component",
+      "scenario": "Shallow render a React component",
+      "language": "javascript",
+      "tags": [
+        "shallow",
+        "render",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const wrapper = mount(<MyComponent />);",
+      "description": "Full DOM render a React component",
+      "scenario": "Full DOM render a React component",
+      "language": "javascript",
+      "tags": [
+        "mount",
+        "render",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const wrapper = render(<MyComponent />);",
+      "description": "Static render a React component",
+      "scenario": "Static render a React component",
+      "language": "javascript",
+      "tags": [
+        "render",
+        "static",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wrapper.find('.my-class')",
+      "description": "Find an element by class name",
+      "scenario": "Find an element by class name",
+      "language": "javascript",
+      "tags": [
+        "find",
+        "element",
+        "class"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wrapper.find(MyComponent)",
+      "description": "Find an element by component type",
+      "scenario": "Find an element by component type",
+      "language": "javascript",
+      "tags": [
+        "find",
+        "element",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wrapper.find('[data-test=\"my-attribute\"]')",
+      "description": "Find an element by attribute",
+      "scenario": "Find an element by attribute",
+      "language": "javascript",
+      "tags": [
+        "find",
+        "element",
+        "attribute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wrapper.find('button').simulate('click');",
+      "description": "Simulate a click event on a button",
+      "scenario": "Simulate a click event on a button",
+      "language": "javascript",
+      "tags": [
+        "simulate",
+        "event",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wrapper.find('input').simulate('change', { target: { value: 'new value' } });",
+      "description": "Simulate a change event on an input",
+      "scenario": "Simulate a change event on an input",
+      "language": "javascript",
+      "tags": [
+        "simulate",
+        "event",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wrapper.find('form').simulate('submit');",
+      "description": "Simulate a form submit event",
+      "scenario": "Simulate a form submit event",
+      "language": "javascript",
+      "tags": [
+        "simulate",
+        "event",
+        "submit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(wrapper.text()).toContain('expected text');",
+      "description": "Check if component contains specific text",
+      "scenario": "Check if component contains specific text",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "text",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(wrapper.props().myProp).toEqual('expected value');",
+      "description": "Check if component has a specific prop",
+      "scenario": "Check if component has a specific prop",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "prop",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(wrapper.state('myState')).toEqual('expected value');",
+      "description": "Check if component state matches expected",
+      "scenario": "Check if component state matches expected",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "state",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

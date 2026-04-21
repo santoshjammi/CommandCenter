@@ -1,0 +1,165 @@
+{
+  "title": "Alan AI Cheat Sheet",
+  "slug": "alan-ai",
+  "description": "Quick reference for Alan AI CLI and scripting",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "alan init",
+      "description": "Initialize a new Alan AI project",
+      "scenario": "Initialize a new Alan AI project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alan run",
+      "description": "Run the Alan AI project",
+      "scenario": "Run the Alan AI project",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alan deploy",
+      "description": "Deploy the Alan AI project",
+      "scenario": "Deploy the Alan AI project",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "project",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "intent('Hello World', p => {\n  p.play('Hello, User!');\n});",
+      "description": "Define a voice command",
+      "scenario": "Define a voice command",
+      "language": "javascript",
+      "tags": [
+        "intent",
+        "voice",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "intent('Search for *query', p => {\n  let query = p.query;\n  // Handle query\n});",
+      "description": "Capture user input",
+      "scenario": "Capture user input",
+      "language": "javascript",
+      "tags": [
+        "input",
+        "capture",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "p.play('Here is your response.');",
+      "description": "Play audio response",
+      "scenario": "Play audio response",
+      "language": "javascript",
+      "tags": [
+        "audio",
+        "response",
+        "play"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"name\": \"my-alan-project\"\n}",
+      "description": "Set project name in config",
+      "scenario": "Set project name in config",
+      "language": "json",
+      "tags": [
+        "config",
+        "project",
+        "name"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"apiKey\": \"your-api-key\"\n}",
+      "description": "Configure API keys",
+      "scenario": "Configure API keys",
+      "language": "json",
+      "tags": [
+        "config",
+        "api",
+        "keys"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\n  \"language\": \"en-US\"\n}",
+      "description": "Specify language settings",
+      "scenario": "Specify language settings",
+      "language": "json",
+      "tags": [
+        "config",
+        "language",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "intent('Default Fallback Intent', p => {\n  p.play('Sorry, I didn\u2019t understand that.');\n});",
+      "description": "Handle fallback intents",
+      "scenario": "Handle fallback intents",
+      "language": "javascript",
+      "tags": [
+        "fallback",
+        "intent",
+        "error"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "intent('Order *item', p => {\n  let item = p.item.value;\n  p.play(`Ordering ${item}`);\n});",
+      "description": "Use slots for dynamic content",
+      "scenario": "Use slots for dynamic content",
+      "language": "javascript",
+      "tags": [
+        "slots",
+        "dynamic",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "intent('Start *action', p => {\n  p.play(`Starting ${p.action.value}`);\n  // Chain next intent\n});",
+      "description": "Chain multiple intents",
+      "scenario": "Chain multiple intents",
+      "language": "javascript",
+      "tags": [
+        "chain",
+        "intents",
+        "sequence"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

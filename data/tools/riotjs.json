@@ -1,0 +1,204 @@
+{
+  "title": "Riot.js Cheat Sheet",
+  "slug": "riotjs",
+  "description": "Essential commands and patterns for Riot.js development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm init riot",
+      "description": "Create a new Riot.js project",
+      "scenario": "Create a new Riot.js project",
+      "language": "bash",
+      "tags": [
+        "riotjs",
+        "cli",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm start",
+      "description": "Run the Riot.js development server",
+      "scenario": "Run the Riot.js development server",
+      "language": "bash",
+      "tags": [
+        "riotjs",
+        "cli",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "npm run build",
+      "description": "Build the Riot.js project for production",
+      "scenario": "Build the Riot.js project for production",
+      "language": "bash",
+      "tags": [
+        "riotjs",
+        "cli",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<my-component>\n  <p>{ opts.message }</p>\n</my-component>",
+      "description": "Define a simple Riot.js component",
+      "scenario": "Define a simple Riot.js component",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "component",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "riot.mount('my-component', { message: 'Hello, Riot!' })",
+      "description": "Mount a Riot.js component to a DOM element",
+      "scenario": "Mount a Riot.js component to a DOM element",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "component",
+        "mount"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<ul>\n  <li each={ item in items }>{ item }</li>\n</ul>",
+      "description": "Use a loop in a Riot.js template",
+      "scenario": "Use a loop in a Riot.js template",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "loop",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button onclick={ handleClick }>Click me</button>",
+      "description": "Handle a click event in Riot.js",
+      "scenario": "Handle a click event in Riot.js",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "event",
+        "click"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "handleClick() {\n  console.log('Button clicked!')\n}",
+      "description": "Define an event handler in a Riot.js component",
+      "scenario": "Define an event handler in a Riot.js component",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "event",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<button onclick={ e => handleClick(e) }>Click me</button>",
+      "description": "Pass event data to a handler",
+      "scenario": "Pass event data to a handler",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "event",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.state = { count: 0 }",
+      "description": "Initialize state in a Riot.js component",
+      "scenario": "Initialize state in a Riot.js component",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "state",
+        "initialize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "this.update({ count: this.state.count + 1 })",
+      "description": "Update state in a Riot.js component",
+      "scenario": "Update state in a Riot.js component",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "state",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<p>Count: { state.count }</p>",
+      "description": "Access state in a Riot.js template",
+      "scenario": "Access state in a Riot.js template",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "state",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "onMounted() {\n  console.log('Component mounted!')\n}",
+      "description": "Use the 'onMounted' lifecycle method",
+      "scenario": "Use the 'onMounted' lifecycle method",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "lifecycle",
+        "mounted"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "onBeforeUnmount() {\n  console.log('Component will unmount!')\n}",
+      "description": "Use the 'onBeforeUnmount' lifecycle method",
+      "scenario": "Use the 'onBeforeUnmount' lifecycle method",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "lifecycle",
+        "unmount"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "onUpdated() {\n  console.log('Component updated!')\n}",
+      "description": "Use the 'onUpdated' lifecycle method",
+      "scenario": "Use the 'onUpdated' lifecycle method",
+      "language": "javascript",
+      "tags": [
+        "riotjs",
+        "lifecycle",
+        "updated"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

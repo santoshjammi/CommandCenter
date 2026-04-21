@@ -1,0 +1,204 @@
+{
+  "title": "Chai.js Cheat Sheet",
+  "slug": "chaijs",
+  "description": "A quick reference for using Chai.js assertions in JavaScript testing.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "expect(value).to.be.true;",
+      "description": "Check if a value is true",
+      "scenario": "Check if a value is true",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "boolean",
+        "chai"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(actual).to.equal(expected);",
+      "description": "Assert equality of two values",
+      "scenario": "Assert equality of two values",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "equality",
+        "chai"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to.be.null;",
+      "description": "Check if a value is null",
+      "scenario": "Check if a value is null",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "null",
+        "chai"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(obj1).to.deep.equal(obj2);",
+      "description": "Assert deep equality of objects",
+      "scenario": "Assert deep equality of objects",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "deep",
+        "equality"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(obj).to.have.deep.property('property', value);",
+      "description": "Check deep property value",
+      "scenario": "Check deep property value",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "deep",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(obj).to.have.nested.property('nested.property', value);",
+      "description": "Assert nested property value",
+      "scenario": "Assert nested property value",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "nested",
+        "property"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to.be.a('string');",
+      "description": "Check if a value is a string",
+      "scenario": "Check if a value is a string",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "type",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to.be.an('array');",
+      "description": "Assert that a value is an array",
+      "scenario": "Assert that a value is an array",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "type",
+        "array"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(value).to.be.an('object');",
+      "description": "Check if a value is an object",
+      "scenario": "Check if a value is an object",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "type",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(fn).to.throw(Error);",
+      "description": "Assert that a function throws an error",
+      "scenario": "Assert that a function throws an error",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "error",
+        "throw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(fn).to.throw(Error, 'message');",
+      "description": "Check for specific error message",
+      "scenario": "Check for specific error message",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "error",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(fn).to.not.throw();",
+      "description": "Assert no error is thrown",
+      "scenario": "Assert no error is thrown",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "error",
+        "not"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "await expect(promise).to.be.fulfilled;",
+      "description": "Assert promise resolves",
+      "scenario": "Assert promise resolves",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "promise",
+        "fulfilled"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "await expect(promise).to.be.rejected;",
+      "description": "Check promise rejection",
+      "scenario": "Check promise rejection",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "promise",
+        "rejected"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "await expect(promise).to.eventually.equal(value);",
+      "description": "Assert promise resolves with value",
+      "scenario": "Assert promise resolves with value",
+      "language": "javascript",
+      "tags": [
+        "assertion",
+        "promise",
+        "resolved"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

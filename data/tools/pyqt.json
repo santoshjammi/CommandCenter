@@ -1,0 +1,165 @@
+{
+  "title": "PyQt Cheat Sheet",
+  "slug": "pyqt",
+  "description": "Quick reference for PyQt GUI development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "from PyQt5.QtWidgets import QApplication, QWidget",
+      "description": "Import PyQt5 modules",
+      "scenario": "Import PyQt5 modules",
+      "language": "python",
+      "tags": [
+        "import",
+        "setup",
+        "modules"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app = QApplication([])\nwindow = QWidget()\nwindow.show()\napp.exec_()",
+      "description": "Create a basic PyQt application",
+      "scenario": "Create a basic PyQt application",
+      "language": "python",
+      "tags": [
+        "application",
+        "setup",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "window.setWindowTitle('My App')\nwindow.resize(800, 600)",
+      "description": "Set window title and size",
+      "scenario": "Set window title and size",
+      "language": "python",
+      "tags": [
+        "window",
+        "title",
+        "resize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from PyQt5.QtWidgets import QPushButton\nbutton = QPushButton('Click Me')",
+      "description": "Create a button widget",
+      "scenario": "Create a button widget",
+      "language": "python",
+      "tags": [
+        "button",
+        "widget",
+        "UI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from PyQt5.QtWidgets import QVBoxLayout\nlayout = QVBoxLayout()\nlayout.addWidget(button)\nwindow.setLayout(layout)",
+      "description": "Create a vertical box layout",
+      "scenario": "Create a vertical box layout",
+      "language": "python",
+      "tags": [
+        "layout",
+        "vertical",
+        "UI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from PyQt5.QtWidgets import QLabel\nlabel = QLabel('Hello, PyQt!')\nlayout.addWidget(label)",
+      "description": "Add a label to the window",
+      "scenario": "Add a label to the window",
+      "language": "python",
+      "tags": [
+        "label",
+        "widget",
+        "UI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "button.clicked.connect(my_function)",
+      "description": "Connect a button click to a function",
+      "scenario": "Connect a button click to a function",
+      "language": "python",
+      "tags": [
+        "signal",
+        "slot",
+        "button"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def my_function():\n    print('Button clicked!')",
+      "description": "Define a slot function",
+      "scenario": "Define a slot function",
+      "language": "python",
+      "tags": [
+        "function",
+        "slot",
+        "define"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "button.clicked.disconnect()",
+      "description": "Disconnect a signal from a slot",
+      "scenario": "Disconnect a signal from a slot",
+      "language": "python",
+      "tags": [
+        "signal",
+        "disconnect",
+        "slot"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from PyQt5.QtWidgets import QMainWindow\nmain_window = QMainWindow()\nmain_window.setCentralWidget(window)",
+      "description": "Use QMainWindow for more complex UIs",
+      "scenario": "Use QMainWindow for more complex UIs",
+      "language": "python",
+      "tags": [
+        "QMainWindow",
+        "complex",
+        "UI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "from PyQt5.uic import loadUi\nloadUi('design.ui', self)",
+      "description": "Load a UI file created with Qt Designer",
+      "scenario": "Load a UI file created with Qt Designer",
+      "language": "python",
+      "tags": [
+        "UI",
+        "load",
+        "Qt Designer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.setStyleSheet('QPushButton { background-color: red; }')",
+      "description": "Apply a stylesheet to the application",
+      "scenario": "Apply a stylesheet to the application",
+      "language": "python",
+      "tags": [
+        "stylesheet",
+        "style",
+        "UI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

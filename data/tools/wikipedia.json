@@ -1,0 +1,165 @@
+{
+  "title": "Wikipedia CLI and API Cheat Sheet",
+  "slug": "wikipedia",
+  "description": "Essential commands and code snippets for interacting with Wikipedia via CLI and API.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "wikit Python",
+      "description": "Search Wikipedia for a specific term",
+      "scenario": "Search Wikipedia for a specific term",
+      "language": "bash",
+      "tags": [
+        "search",
+        "cli",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wikit -r",
+      "description": "Get a random Wikipedia article",
+      "scenario": "Get a random Wikipedia article",
+      "language": "bash",
+      "tags": [
+        "random",
+        "cli",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wikit -s 'Albert Einstein'",
+      "description": "Fetch the summary of a Wikipedia article",
+      "scenario": "Fetch the summary of a Wikipedia article",
+      "language": "bash",
+      "tags": [
+        "summary",
+        "cli",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://en.wikipedia.org/api/rest_v1/page/summary/Albert_Einstein",
+      "description": "Get the summary of a Wikipedia article using API",
+      "scenario": "Get the summary of a Wikipedia article using API",
+      "language": "text",
+      "tags": [
+        "api",
+        "summary",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Python&format=json",
+      "description": "Search for pages with a specific term using API",
+      "scenario": "Search for pages with a specific term using API",
+      "language": "text",
+      "tags": [
+        "api",
+        "search",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://en.wikipedia.org/w/api.php?action=parse&page=Albert_Einstein&format=json",
+      "description": "Get the content of a Wikipedia article in JSON format",
+      "scenario": "Get the content of a Wikipedia article in JSON format",
+      "language": "text",
+      "tags": [
+        "api",
+        "content",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST https://en.wikipedia.org/w/api.php?action=login&lgname=YourUsername&lgpassword=YourPassword",
+      "description": "Log in to Wikipedia API using POST request",
+      "scenario": "Log in to Wikipedia API using POST request",
+      "language": "text",
+      "tags": [
+        "api",
+        "authentication",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://en.wikipedia.org/w/api.php?action=query&meta=tokens&type=login&format=json",
+      "description": "Get a login token for Wikipedia API",
+      "scenario": "Get a login token for Wikipedia API",
+      "language": "text",
+      "tags": [
+        "api",
+        "token",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST https://en.wikipedia.org/w/api.php?action=clientlogin&username=YourUsername&password=YourPassword&logintoken=YourToken",
+      "description": "Confirm login with token",
+      "scenario": "Confirm login with token",
+      "language": "text",
+      "tags": [
+        "api",
+        "login",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://en.wikipedia.org/w/api.php?action=query&prop=categories&titles=Albert_Einstein&format=json",
+      "description": "Use API to get a list of all categories for a page",
+      "scenario": "Use API to get a list of all categories for a page",
+      "language": "text",
+      "tags": [
+        "api",
+        "categories",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://en.wikipedia.org/w/api.php?action=query&prop=links&titles=Albert_Einstein&format=json",
+      "description": "Retrieve all links from a Wikipedia page using API",
+      "scenario": "Retrieve all links from a Wikipedia page using API",
+      "language": "text",
+      "tags": [
+        "api",
+        "links",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://en.wikipedia.org/w/api.php?action=query&prop=images&titles=Albert_Einstein&format=json",
+      "description": "Get all images from a Wikipedia page using API",
+      "scenario": "Get all images from a Wikipedia page using API",
+      "language": "text",
+      "tags": [
+        "api",
+        "images",
+        "wikipedia"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

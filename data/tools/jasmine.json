@@ -1,0 +1,204 @@
+{
+  "title": "Jasmine Testing Framework",
+  "slug": "jasmine",
+  "description": "Essential Jasmine commands and patterns for testing JavaScript applications.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "describe('Array', function() { /* specs */ });",
+      "description": "Define a test suite",
+      "scenario": "Define a test suite",
+      "language": "javascript",
+      "tags": [
+        "describe",
+        "suite",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "it('should return -1 when the value is not present', function() { expect([1,2,3].indexOf(4)).toBe(-1); });",
+      "description": "Define a test spec",
+      "scenario": "Define a test spec",
+      "language": "javascript",
+      "tags": [
+        "it",
+        "spec",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(actual).toBe(expected);",
+      "description": "Expect a value to be equal",
+      "scenario": "Expect a value to be equal",
+      "language": "javascript",
+      "tags": [
+        "expect",
+        "assertion",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(a).toEqual(b);",
+      "description": "Check if a value is equal",
+      "scenario": "Check if a value is equal",
+      "language": "javascript",
+      "tags": [
+        "matchers",
+        "equal",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(a).toBeTrue();",
+      "description": "Check if a value is true",
+      "scenario": "Check if a value is true",
+      "language": "javascript",
+      "tags": [
+        "matchers",
+        "boolean",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(a).toBeDefined();",
+      "description": "Check if a value is defined",
+      "scenario": "Check if a value is defined",
+      "language": "javascript",
+      "tags": [
+        "matchers",
+        "defined",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "beforeEach(function() { /* setup code */ });",
+      "description": "Run before each spec",
+      "scenario": "Run before each spec",
+      "language": "javascript",
+      "tags": [
+        "setup",
+        "beforeEach",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "afterEach(function() { /* teardown code */ });",
+      "description": "Run after each spec",
+      "scenario": "Run after each spec",
+      "language": "javascript",
+      "tags": [
+        "teardown",
+        "afterEach",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "beforeAll(function() { /* setup code */ });",
+      "description": "Run once before all specs",
+      "scenario": "Run once before all specs",
+      "language": "javascript",
+      "tags": [
+        "setup",
+        "beforeAll",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "spyOn(object, 'method');",
+      "description": "Create a spy on a method",
+      "scenario": "Create a spy on a method",
+      "language": "javascript",
+      "tags": [
+        "spy",
+        "method",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(object.method).toHaveBeenCalled();",
+      "description": "Check if a method was called",
+      "scenario": "Check if a method was called",
+      "language": "javascript",
+      "tags": [
+        "spy",
+        "called",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "expect(object.method).toHaveBeenCalledWith(arg1, arg2);",
+      "description": "Check if a method was called with specific arguments",
+      "scenario": "Check if a method was called with specific arguments",
+      "language": "javascript",
+      "tags": [
+        "spy",
+        "arguments",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "it('should call the callback', function(done) { asyncFunction(done); });",
+      "description": "Test asynchronous code with done",
+      "scenario": "Test asynchronous code with done",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "done",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;",
+      "description": "Set a timeout for async tests",
+      "scenario": "Set a timeout for async tests",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "timeout",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "it('should resolve', async function() { await asyncFunction(); });",
+      "description": "Use async/await in tests",
+      "scenario": "Use async/await in tests",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "await",
+        "jasmine"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Tig Cheat Sheet",
+  "slug": "tig",
+  "description": "A concise guide to using Tig for Git repository management.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "tig",
+      "description": "Open Tig in the current repository",
+      "scenario": "Open Tig in the current repository",
+      "language": "bash",
+      "tags": [
+        "navigation",
+        "basic",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "j",
+      "description": "Navigate to the next commit",
+      "scenario": "Navigate to the next commit",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "commit",
+        "next"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "k",
+      "description": "Navigate to the previous commit",
+      "scenario": "Navigate to the previous commit",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "commit",
+        "previous"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Enter",
+      "description": "View changes for the selected commit",
+      "scenario": "View changes for the selected commit",
+      "language": "text",
+      "tags": [
+        "view",
+        "changes",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d",
+      "description": "Toggle between diff and commit view",
+      "scenario": "Toggle between diff and commit view",
+      "language": "text",
+      "tags": [
+        "toggle",
+        "diff",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "f",
+      "description": "Show file changes for a specific commit",
+      "scenario": "Show file changes for a specific commit",
+      "language": "text",
+      "tags": [
+        "file",
+        "changes",
+        "commit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "/",
+      "description": "Search for a commit message",
+      "scenario": "Search for a commit message",
+      "language": "text",
+      "tags": [
+        "search",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "n",
+      "description": "Repeat the last search",
+      "scenario": "Repeat the last search",
+      "language": "text",
+      "tags": [
+        "search",
+        "repeat",
+        "next"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "?",
+      "description": "Search backward for a commit message",
+      "scenario": "Search backward for a commit message",
+      "language": "text",
+      "tags": [
+        "search",
+        "commit",
+        "backward"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "B",
+      "description": "Show all branches",
+      "scenario": "Show all branches",
+      "language": "text",
+      "tags": [
+        "branch",
+        "show",
+        "all"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "b",
+      "description": "Checkout a branch",
+      "scenario": "Checkout a branch",
+      "language": "text",
+      "tags": [
+        "branch",
+        "checkout",
+        "switch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "N",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "text",
+      "tags": [
+        "branch",
+        "create",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "q",
+      "description": "Exit Tig",
+      "scenario": "Exit Tig",
+      "language": "text",
+      "tags": [
+        "exit",
+        "quit",
+        "close"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "h",
+      "description": "Open the help menu",
+      "scenario": "Open the help menu",
+      "language": "text",
+      "tags": [
+        "help",
+        "menu",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "R",
+      "description": "Refresh the view",
+      "scenario": "Refresh the view",
+      "language": "text",
+      "tags": [
+        "refresh",
+        "view",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

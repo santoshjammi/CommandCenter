@@ -1,0 +1,204 @@
+{
+  "title": "Lean 4 Cheat Sheet",
+  "slug": "lean-4",
+  "description": "Essential Lean 4 commands and syntax for theorem proving.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "lean --version",
+      "description": "Check the version of Lean 4 installed",
+      "scenario": "Check the version of Lean 4 installed",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lean --make myfile.lean",
+      "description": "Compile a Lean 4 file",
+      "scenario": "Compile a Lean 4 file",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "lean",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lean --repl",
+      "description": "Run Lean 4 REPL",
+      "scenario": "Run Lean 4 REPL",
+      "language": "bash",
+      "tags": [
+        "repl",
+        "interactive",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def add (x : Nat) (y : Nat) : Nat := x + y",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "text",
+      "tags": [
+        "function",
+        "syntax",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "theorem add_zero (n : Nat) : n + 0 = n := by rfl",
+      "description": "Define a theorem and its proof",
+      "scenario": "Define a theorem and its proof",
+      "language": "text",
+      "tags": [
+        "theorem",
+        "proof",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import Mathlib.Data.Nat.Basic",
+      "description": "Import a module",
+      "scenario": "Import a module",
+      "language": "text",
+      "tags": [
+        "import",
+        "module",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "lake init myproject",
+      "description": "Set up a Lean 4 project",
+      "scenario": "Set up a Lean 4 project",
+      "language": "bash",
+      "tags": [
+        "project",
+        "setup",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "require mathlib from git \"https://github.com/leanprover-community/mathlib4.git\"",
+      "description": "Add a dependency in Lean 4",
+      "scenario": "Add a dependency in Lean 4",
+      "language": "text",
+      "tags": [
+        "dependency",
+        "configuration",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set_option pp.all true",
+      "description": "Configure Lean 4 environment",
+      "scenario": "Configure Lean 4 environment",
+      "language": "text",
+      "tags": [
+        "environment",
+        "configuration",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def head (xs : List \u03b1) : Option \u03b1 := match xs with | [] => none | x::_ => some x",
+      "description": "Pattern match on a list",
+      "scenario": "Pattern match on a list",
+      "language": "text",
+      "tags": [
+        "pattern",
+        "list",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def increment : Nat \u2192 Nat := fun x => x + 1",
+      "description": "Use a lambda function",
+      "scenario": "Use a lambda function",
+      "language": "text",
+      "tags": [
+        "lambda",
+        "function",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "def factorial : Nat \u2192 Nat | 0 => 1 | n+1 => (n+1) * factorial n",
+      "description": "Define a recursive function",
+      "scenario": "Define a recursive function",
+      "language": "text",
+      "tags": [
+        "recursive",
+        "function",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "elan toolchain install leanprover/lean4:nightly",
+      "description": "Install Lean 4 using elan",
+      "scenario": "Install Lean 4 using elan",
+      "language": "bash",
+      "tags": [
+        "install",
+        "elan",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "elan default leanprover/lean4:stable",
+      "description": "Switch to a specific Lean 4 version",
+      "scenario": "Switch to a specific Lean 4 version",
+      "language": "bash",
+      "tags": [
+        "version",
+        "switch",
+        "elan"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "elan update",
+      "description": "Update Lean 4 to the latest version",
+      "scenario": "Update Lean 4 to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "elan",
+        "lean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

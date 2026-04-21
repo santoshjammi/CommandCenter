@@ -1,0 +1,204 @@
+{
+  "title": "Microsoft Visual Studio Cheat Sheet",
+  "slug": "microsoft-visual-studio",
+  "description": "Essential shortcuts and commands for Microsoft Visual Studio.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl + Alt + L",
+      "description": "Open the Solution Explorer",
+      "scenario": "Open the Solution Explorer",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "navigation",
+        "explorer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + K, Ctrl + C",
+      "description": "Toggle Comment on selected lines",
+      "scenario": "Toggle Comment on selected lines",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "comment",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + F12",
+      "description": "Find all references of a symbol",
+      "scenario": "Find all references of a symbol",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "references",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F5",
+      "description": "Start debugging the application",
+      "scenario": "Start debugging the application",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "start",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F10",
+      "description": "Step over a function during debugging",
+      "scenario": "Step over a function during debugging",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "step",
+        "over"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "F9",
+      "description": "Toggle a breakpoint on the current line",
+      "scenario": "Toggle a breakpoint on the current line",
+      "language": "text",
+      "tags": [
+        "debugging",
+        "breakpoint",
+        "toggle"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class MyClass\n{\n    // Class members\n}",
+      "description": "Create a new class",
+      "scenario": "Create a new class",
+      "language": "csharp",
+      "tags": [
+        "code",
+        "class",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "void MyMethod()\n{\n    // Method code\n}",
+      "description": "Define a new method",
+      "scenario": "Define a new method",
+      "language": "csharp",
+      "tags": [
+        "code",
+        "method",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for (int i = 0; i < length; i++)\n{\n    // Loop code\n}",
+      "description": "Create a for loop",
+      "scenario": "Create a for loop",
+      "language": "csharp",
+      "tags": [
+        "code",
+        "loop",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<appSettings>\n  <add key=\"SettingName\" value=\"SettingValue\"/>\n</appSettings>",
+      "description": "Add a new app setting in app.config",
+      "scenario": "Add a new app setting in app.config",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "settings",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<system.diagnostics>\n  <trace autoflush=\"true\"/>\n</system.diagnostics>",
+      "description": "Configure logging in web.config",
+      "scenario": "Configure logging in web.config",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "logging",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<connectionStrings>\n  <add name=\"MyDB\" connectionString=\"Data Source=server;Initial Catalog=db;User ID=user;Password=pass\"/>\n</connectionStrings>",
+      "description": "Set up connection strings in app.config",
+      "scenario": "Set up connection strings in app.config",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "database",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class Singleton\n{\n    private static Singleton instance;\n    private Singleton() {}\n    public static Singleton Instance\n    {\n        get\n        {\n            if (instance == null)\n                instance = new Singleton();\n            return instance;\n        }\n    }\n}",
+      "description": "Singleton pattern implementation",
+      "scenario": "Singleton pattern implementation",
+      "language": "csharp",
+      "tags": [
+        "pattern",
+        "singleton",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public interface IProduct\n{\n    void DoSomething();\n}\n\npublic class ConcreteProduct : IProduct\n{\n    public void DoSomething() {}\n}\n\npublic class ProductFactory\n{\n    public IProduct CreateProduct()\n    {\n        return new ConcreteProduct();\n    }\n}",
+      "description": "Factory method pattern",
+      "scenario": "Factory method pattern",
+      "language": "csharp",
+      "tags": [
+        "pattern",
+        "factory",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public interface IObserver\n{\n    void Update();\n}\n\npublic class ConcreteObserver : IObserver\n{\n    public void Update() {}\n}\n\npublic class Subject\n{\n    private List<IObserver> observers = new List<IObserver>();\n    public void Attach(IObserver observer) { observers.Add(observer); }\n    public void Notify() { foreach (var observer in observers) observer.Update(); }\n}",
+      "description": "Observer pattern example",
+      "scenario": "Observer pattern example",
+      "language": "csharp",
+      "tags": [
+        "pattern",
+        "observer",
+        "csharp"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

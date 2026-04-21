@@ -1,0 +1,165 @@
+{
+  "title": "Homebrew Cheat Sheet",
+  "slug": "homebrew",
+  "description": "Essential Homebrew commands for macOS package management.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"",
+      "description": "Install Homebrew on macOS",
+      "scenario": "Install Homebrew on macOS",
+      "language": "bash",
+      "tags": [
+        "install",
+        "setup",
+        "macos"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew doctor",
+      "description": "Verify Homebrew installation",
+      "scenario": "Verify Homebrew installation",
+      "language": "bash",
+      "tags": [
+        "verify",
+        "diagnostics",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew update",
+      "description": "Update Homebrew to the latest version",
+      "scenario": "Update Homebrew to the latest version",
+      "language": "bash",
+      "tags": [
+        "update",
+        "upgrade",
+        "maintenance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew search <package_name>",
+      "description": "Search for a package",
+      "scenario": "Search for a package",
+      "language": "bash",
+      "tags": [
+        "search",
+        "package",
+        "find"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew install <package_name>",
+      "description": "Install a package",
+      "scenario": "Install a package",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "add"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew uninstall <package_name>",
+      "description": "Uninstall a package",
+      "scenario": "Uninstall a package",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "remove",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew upgrade",
+      "description": "Upgrade all installed packages",
+      "scenario": "Upgrade all installed packages",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "update",
+        "maintenance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew cleanup",
+      "description": "Remove outdated versions of installed packages",
+      "scenario": "Remove outdated versions of installed packages",
+      "language": "bash",
+      "tags": [
+        "cleanup",
+        "maintenance",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew list",
+      "description": "List all installed packages",
+      "scenario": "List all installed packages",
+      "language": "bash",
+      "tags": [
+        "list",
+        "packages",
+        "installed"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew doctor",
+      "description": "Check for potential problems",
+      "scenario": "Check for potential problems",
+      "language": "bash",
+      "tags": [
+        "diagnostics",
+        "troubleshoot",
+        "problems"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew info <package_name>",
+      "description": "Get detailed information about a package",
+      "scenario": "Get detailed information about a package",
+      "language": "bash",
+      "tags": [
+        "info",
+        "details",
+        "package"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "brew log <package_name>",
+      "description": "View logs for troubleshooting",
+      "scenario": "View logs for troubleshooting",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "troubleshoot",
+        "history"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

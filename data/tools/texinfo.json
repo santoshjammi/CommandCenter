@@ -1,0 +1,204 @@
+{
+  "title": "Texinfo Cheat Sheet",
+  "slug": "texinfo",
+  "description": "Essential commands and syntax for Texinfo documentation.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "@documentlanguage en",
+      "description": "Start a Texinfo document",
+      "scenario": "Start a Texinfo document",
+      "language": "text",
+      "tags": [
+        "document",
+        "setup",
+        "language"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@section Introduction",
+      "description": "Define a new section",
+      "scenario": "Define a new section",
+      "language": "text",
+      "tags": [
+        "section",
+        "structure",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@bye",
+      "description": "End a Texinfo document",
+      "scenario": "End a Texinfo document",
+      "language": "text",
+      "tags": [
+        "document",
+        "end",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@strong{bold text}",
+      "description": "Make text bold",
+      "scenario": "Make text bold",
+      "language": "text",
+      "tags": [
+        "format",
+        "text",
+        "bold"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@emph{italic text}",
+      "description": "Make text italic",
+      "scenario": "Make text italic",
+      "language": "text",
+      "tags": [
+        "format",
+        "text",
+        "italic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@itemize @bullet\n@item First item\n@item Second item\n@end itemize",
+      "description": "Create a bullet list",
+      "scenario": "Create a bullet list",
+      "language": "text",
+      "tags": [
+        "list",
+        "bullet",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@node NodeName",
+      "description": "Create a node for cross-reference",
+      "scenario": "Create a node for cross-reference",
+      "language": "text",
+      "tags": [
+        "node",
+        "cross-reference",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@xref{NodeName}",
+      "description": "Reference another node",
+      "scenario": "Reference another node",
+      "language": "text",
+      "tags": [
+        "reference",
+        "node",
+        "cross-reference"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@menu\n* NodeName:: Description\n@end menu",
+      "description": "Create a menu for navigation",
+      "scenario": "Create a menu for navigation",
+      "language": "text",
+      "tags": [
+        "menu",
+        "navigation",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@cindex topic",
+      "description": "Add an entry to the index",
+      "scenario": "Add an entry to the index",
+      "language": "text",
+      "tags": [
+        "index",
+        "entry",
+        "topic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@findex function-name",
+      "description": "Add a function to the function index",
+      "scenario": "Add a function to the function index",
+      "language": "text",
+      "tags": [
+        "index",
+        "function",
+        "entry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@vindex variable-name",
+      "description": "Add a variable to the variable index",
+      "scenario": "Add a variable to the variable index",
+      "language": "text",
+      "tags": [
+        "index",
+        "variable",
+        "entry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@include filename.texi",
+      "description": "Include another Texinfo file",
+      "scenario": "Include another Texinfo file",
+      "language": "text",
+      "tags": [
+        "include",
+        "file",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@tex\nTeX commands\n@end tex",
+      "description": "Include raw TeX commands",
+      "scenario": "Include raw TeX commands",
+      "language": "text",
+      "tags": [
+        "include",
+        "tex",
+        "raw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@verbatim\nVerbatim text\n@end verbatim",
+      "description": "Include verbatim text",
+      "scenario": "Include verbatim text",
+      "language": "text",
+      "tags": [
+        "verbatim",
+        "text",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

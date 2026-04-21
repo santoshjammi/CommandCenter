@@ -1,0 +1,165 @@
+{
+  "title": "Griffon CLI Cheat Sheet",
+  "slug": "griffon",
+  "description": "Essential Griffon CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "griffon create-app myApp",
+      "description": "Initialize a new Griffon project",
+      "scenario": "Initialize a new Griffon project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "griffon run-app",
+      "description": "Run the Griffon application",
+      "scenario": "Run the Griffon application",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "griffon package",
+      "description": "Package the application into a JAR file",
+      "scenario": "Package the application into a JAR file",
+      "language": "bash",
+      "tags": [
+        "package",
+        "jar",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app.version='1.0.0'",
+      "description": "Set application version in configuration",
+      "scenario": "Set application version in configuration",
+      "language": "yaml",
+      "tags": [
+        "config",
+        "version",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dependencies { compile 'org.codehaus.griffon:griffon-core:2.17.0' }",
+      "description": "Define application dependencies",
+      "scenario": "Define application dependencies",
+      "language": "yaml",
+      "tags": [
+        "dependencies",
+        "config",
+        "library"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log4j.rootLogger=INFO, stdout",
+      "description": "Configure logging level",
+      "scenario": "Configure logging level",
+      "language": "yaml",
+      "tags": [
+        "logging",
+        "config",
+        "level"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "griffon create-mvc myGroup",
+      "description": "Create a new MVC group",
+      "scenario": "Create a new MVC group",
+      "language": "bash",
+      "tags": [
+        "mvc",
+        "create",
+        "group"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "griffon create-service myService",
+      "description": "Add a new service to the application",
+      "scenario": "Add a new service to the application",
+      "language": "bash",
+      "tags": [
+        "service",
+        "create",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "griffon create-model myModel",
+      "description": "Generate a new model",
+      "scenario": "Generate a new model",
+      "language": "bash",
+      "tags": [
+        "model",
+        "create",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "griffon run-app --debug",
+      "description": "Run application with debugging enabled",
+      "scenario": "Run application with debugging enabled",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "run",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "griffon create-plugin myPlugin",
+      "description": "Create a new Griffon plugin",
+      "scenario": "Create a new Griffon plugin",
+      "language": "bash",
+      "tags": [
+        "plugin",
+        "create",
+        "extend"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "griffon help",
+      "description": "List all available Griffon commands",
+      "scenario": "List all available Griffon commands",
+      "language": "bash",
+      "tags": [
+        "help",
+        "commands",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

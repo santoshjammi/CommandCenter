@@ -1,0 +1,204 @@
+{
+  "title": "VIM-LaTeX Cheat Sheet",
+  "slug": "vim-latex",
+  "description": "Essential commands and shortcuts for using LaTeX in VIM.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "vim myfile.tex",
+      "description": "Open a LaTeX file in VIM",
+      "scenario": "Open a LaTeX file in VIM",
+      "language": "bash",
+      "tags": [
+        "open",
+        "file",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":VimtexCompile",
+      "description": "Compile LaTeX document",
+      "scenario": "Compile LaTeX document",
+      "language": "text",
+      "tags": [
+        "compile",
+        "latex",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":VimtexView",
+      "description": "View compiled PDF",
+      "scenario": "View compiled PDF",
+      "language": "text",
+      "tags": [
+        "view",
+        "pdf",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "]]",
+      "description": "Jump to next section",
+      "scenario": "Jump to next section",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "section",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[",
+      "description": "Jump to previous section",
+      "scenario": "Jump to previous section",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "section",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "%",
+      "description": "Go to matching environment",
+      "scenario": "Go to matching environment",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "environment",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\section{Section Title}",
+      "description": "Insert a new section",
+      "scenario": "Insert a new section",
+      "language": "text",
+      "tags": [
+        "insert",
+        "section",
+        "latex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\\textbf{selected text}",
+      "description": "Surround text with \\textbf{}",
+      "scenario": "Surround text with \\textbf{}",
+      "language": "text",
+      "tags": [
+        "bold",
+        "text",
+        "latex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcc",
+      "description": "Comment out a line",
+      "scenario": "Comment out a line",
+      "language": "text",
+      "tags": [
+        "comment",
+        "line",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":cwindow",
+      "description": "Toggle quickfix window for errors",
+      "scenario": "Toggle quickfix window for errors",
+      "language": "text",
+      "tags": [
+        "errors",
+        "quickfix",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":cnext",
+      "description": "Move to next error",
+      "scenario": "Move to next error",
+      "language": "text",
+      "tags": [
+        "errors",
+        "navigation",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":cprev",
+      "description": "Move to previous error",
+      "scenario": "Move to previous error",
+      "language": "text",
+      "tags": [
+        "errors",
+        "navigation",
+        "vim"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:vimtex_view_method = 'zathura'",
+      "description": "Set PDF viewer in .vimrc",
+      "scenario": "Set PDF viewer in .vimrc",
+      "language": "vim",
+      "tags": [
+        "configuration",
+        "pdf",
+        "viewer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:vimtex_compiler_latexmk = {'continuous': 1}",
+      "description": "Enable continuous compilation",
+      "scenario": "Enable continuous compilation",
+      "language": "vim",
+      "tags": [
+        "configuration",
+        "compilation",
+        "latex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let g:vimtex_compiler_latexmk_engines = {'_':'-pdf'}",
+      "description": "Define custom LaTeX command",
+      "scenario": "Define custom LaTeX command",
+      "language": "vim",
+      "tags": [
+        "configuration",
+        "latex",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

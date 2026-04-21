@@ -1,0 +1,204 @@
+{
+  "title": "ZFS Cheat Sheet",
+  "slug": "zfs",
+  "description": "Essential ZFS commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "zpool create mypool /dev/sda",
+      "description": "Create a new ZFS pool",
+      "scenario": "Create a new ZFS pool",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "pool",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zpool list",
+      "description": "List all ZFS pools",
+      "scenario": "List all ZFS pools",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "pool",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zpool destroy mypool",
+      "description": "Destroy a ZFS pool",
+      "scenario": "Destroy a ZFS pool",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "pool",
+        "destroy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zfs create mypool/mydataset",
+      "description": "Create a new ZFS dataset",
+      "scenario": "Create a new ZFS dataset",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "dataset",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zfs list",
+      "description": "List all ZFS datasets",
+      "scenario": "List all ZFS datasets",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "dataset",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zfs destroy mypool/mydataset",
+      "description": "Destroy a ZFS dataset",
+      "scenario": "Destroy a ZFS dataset",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "dataset",
+        "destroy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zfs snapshot mypool/mydataset@snap1",
+      "description": "Create a ZFS snapshot",
+      "scenario": "Create a ZFS snapshot",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "snapshot",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zfs list -t snapshot",
+      "description": "List ZFS snapshots",
+      "scenario": "List ZFS snapshots",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "snapshot",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zfs destroy mypool/mydataset@snap1",
+      "description": "Destroy a ZFS snapshot",
+      "scenario": "Destroy a ZFS snapshot",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "snapshot",
+        "destroy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zpool status mypool",
+      "description": "Check the status of a ZFS pool",
+      "scenario": "Check the status of a ZFS pool",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "pool",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zpool status",
+      "description": "Check the health of all ZFS pools",
+      "scenario": "Check the health of all ZFS pools",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "pool",
+        "health"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zpool scrub mypool",
+      "description": "Scrub a ZFS pool",
+      "scenario": "Scrub a ZFS pool",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "pool",
+        "scrub"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zfs set compression=on mypool/mydataset",
+      "description": "Set a property on a ZFS dataset",
+      "scenario": "Set a property on a ZFS dataset",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "dataset",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zfs get all mypool/mydataset",
+      "description": "Get properties of a ZFS dataset",
+      "scenario": "Get properties of a ZFS dataset",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "dataset",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "zpool set feature@async_destroy=enabled mypool",
+      "description": "Set a property on a ZFS pool",
+      "scenario": "Set a property on a ZFS pool",
+      "language": "bash",
+      "tags": [
+        "zfs",
+        "pool",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Rclone Cheat Sheet",
+  "slug": "rclone",
+  "description": "Essential commands and configurations for using rclone effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "rclone listremotes",
+      "description": "List all available remotes",
+      "scenario": "List all available remotes",
+      "language": "bash",
+      "tags": [
+        "list",
+        "remotes",
+        "basics"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone copy source:path dest:path",
+      "description": "Copy files from source to destination",
+      "scenario": "Copy files from source to destination",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "files",
+        "transfer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone sync source:path dest:path",
+      "description": "Sync files between source and destination",
+      "scenario": "Sync files between source and destination",
+      "language": "bash",
+      "tags": [
+        "sync",
+        "files",
+        "transfer"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone config",
+      "description": "Configure a new remote",
+      "scenario": "Configure a new remote",
+      "language": "bash",
+      "tags": [
+        "configure",
+        "remote",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone config file",
+      "description": "Show the configuration file location",
+      "scenario": "Show the configuration file location",
+      "language": "bash",
+      "tags": [
+        "config",
+        "file",
+        "location"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone config edit",
+      "description": "Edit the rclone configuration file",
+      "scenario": "Edit the rclone configuration file",
+      "language": "bash",
+      "tags": [
+        "edit",
+        "config",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone check source:path dest:path",
+      "description": "Check the differences between source and destination",
+      "scenario": "Check the differences between source and destination",
+      "language": "bash",
+      "tags": [
+        "check",
+        "differences",
+        "compare"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone mount remote:path /path/to/mountpoint",
+      "description": "Mount a remote as a file system",
+      "scenario": "Mount a remote as a file system",
+      "language": "bash",
+      "tags": [
+        "mount",
+        "filesystem",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone serve http remote:path",
+      "description": "Serve a remote over HTTP",
+      "scenario": "Serve a remote over HTTP",
+      "language": "bash",
+      "tags": [
+        "serve",
+        "http",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--progress",
+      "description": "Show progress during operations",
+      "scenario": "Show progress during operations",
+      "language": "text",
+      "tags": [
+        "progress",
+        "flag",
+        "options"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--bwlimit 10M",
+      "description": "Limit the bandwidth used by rclone",
+      "scenario": "Limit the bandwidth used by rclone",
+      "language": "text",
+      "tags": [
+        "bandwidth",
+        "limit",
+        "options"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--log-file=rclone.log",
+      "description": "Log all output to a file",
+      "scenario": "Log all output to a file",
+      "language": "text",
+      "tags": [
+        "log",
+        "file",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone copy source:path dest:path --exclude \"*.tmp\"",
+      "description": "Exclude files from operations",
+      "scenario": "Exclude files from operations",
+      "language": "bash",
+      "tags": [
+        "exclude",
+        "files",
+        "patterns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone sync source:path dest:path --include \"*.jpg\"",
+      "description": "Include only specific files in operations",
+      "scenario": "Include only specific files in operations",
+      "language": "bash",
+      "tags": [
+        "include",
+        "files",
+        "patterns"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "rclone sync source:path dest:path --delete-excluded",
+      "description": "Delete files in destination that are not in source",
+      "scenario": "Delete files in destination that are not in source",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "files",
+        "sync"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Hook CLI Cheat Sheet",
+  "slug": "hook",
+  "description": "Essential commands and patterns for using Hook CLI effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "hook init",
+      "description": "Initialize a new Hook project",
+      "scenario": "Initialize a new Hook project",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook run <task-name>",
+      "description": "Run a Hook task",
+      "scenario": "Run a Hook task",
+      "language": "bash",
+      "tags": [
+        "run",
+        "task",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook list",
+      "description": "List all available Hook tasks",
+      "scenario": "List all available Hook tasks",
+      "language": "bash",
+      "tags": [
+        "list",
+        "tasks",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook config set <key> <value>",
+      "description": "Set a configuration value",
+      "scenario": "Set a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook config get <key>",
+      "description": "Get a configuration value",
+      "scenario": "Get a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook config unset <key>",
+      "description": "Remove a configuration value",
+      "scenario": "Remove a configuration value",
+      "language": "bash",
+      "tags": [
+        "config",
+        "unset",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook run <task-name> --env <environment>",
+      "description": "Run a Hook task with a specific environment",
+      "scenario": "Run a Hook task with a specific environment",
+      "language": "bash",
+      "tags": [
+        "run",
+        "task",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook run <task-name> --debug",
+      "description": "Run a Hook task in debug mode",
+      "scenario": "Run a Hook task in debug mode",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "task",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook run <task-name> --verbose",
+      "description": "Run a Hook task with verbose output",
+      "scenario": "Run a Hook task with verbose output",
+      "language": "bash",
+      "tags": [
+        "verbose",
+        "task",
+        "output"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook task add <task-name>",
+      "description": "Add a new Hook task",
+      "scenario": "Add a new Hook task",
+      "language": "bash",
+      "tags": [
+        "task",
+        "add",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook task remove <task-name>",
+      "description": "Remove an existing Hook task",
+      "scenario": "Remove an existing Hook task",
+      "language": "bash",
+      "tags": [
+        "task",
+        "remove",
+        "delete"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "hook task update <task-name>",
+      "description": "Update an existing Hook task",
+      "scenario": "Update an existing Hook task",
+      "language": "bash",
+      "tags": [
+        "task",
+        "update",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

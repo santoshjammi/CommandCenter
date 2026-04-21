@@ -1,0 +1,165 @@
+{
+  "title": "EDN Cheat Sheet",
+  "slug": "edn",
+  "description": "Essential EDN syntax and usage for engineers.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "{:name \"John Doe\" :age 30}",
+      "description": "Define a simple EDN map",
+      "scenario": "Define a simple EDN map",
+      "language": "text",
+      "tags": [
+        "map",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[1 2 3 4 5]",
+      "description": "Define an EDN list",
+      "scenario": "Define an EDN list",
+      "language": "text",
+      "tags": [
+        "list",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#{:apple :banana :cherry}",
+      "description": "Define an EDN set",
+      "scenario": "Define an EDN set",
+      "language": "text",
+      "tags": [
+        "set",
+        "syntax",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{:user {:name \"Jane\" :email \"jane@example.com\"}}",
+      "description": "Define a nested EDN map",
+      "scenario": "Define a nested EDN map",
+      "language": "text",
+      "tags": [
+        "nested",
+        "map",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[\"string\" 42 true :keyword]",
+      "description": "Define an EDN vector with mixed types",
+      "scenario": "Define an EDN vector with mixed types",
+      "language": "text",
+      "tags": [
+        "vector",
+        "mixed",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "#inst \"2023-10-01T12:00:00Z\"",
+      "description": "Define an EDN tagged element",
+      "scenario": "Define an EDN tagged element",
+      "language": "text",
+      "tags": [
+        "tagged",
+        "element",
+        "advanced"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ":keyword",
+      "description": "Define an EDN keyword",
+      "scenario": "Define an EDN keyword",
+      "language": "text",
+      "tags": [
+        "keyword",
+        "symbol",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "symbol-name",
+      "description": "Define an EDN symbol",
+      "scenario": "Define an EDN symbol",
+      "language": "text",
+      "tags": [
+        "symbol",
+        "identifier",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{:key1 \"value1\" :key2 \"value2\"}",
+      "description": "Use keywords as map keys",
+      "scenario": "Use keywords as map keys",
+      "language": "text",
+      "tags": [
+        "map",
+        "keys",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"This is a string\"",
+      "description": "Define an EDN string",
+      "scenario": "Define an EDN string",
+      "language": "text",
+      "tags": [
+        "string",
+        "datatype",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "42",
+      "description": "Define an EDN integer",
+      "scenario": "Define an EDN integer",
+      "language": "text",
+      "tags": [
+        "integer",
+        "datatype",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "true",
+      "description": "Define an EDN boolean",
+      "scenario": "Define an EDN boolean",
+      "language": "text",
+      "tags": [
+        "boolean",
+        "datatype",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

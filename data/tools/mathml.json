@@ -1,0 +1,204 @@
+{
+  "title": "MathML Cheat Sheet",
+  "slug": "mathml",
+  "description": "Quick reference for MathML syntax and usage",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<mfrac><mi>a</mi><mi>b</mi></mfrac>",
+      "description": "Define a fraction",
+      "scenario": "Define a fraction",
+      "language": "xml",
+      "tags": [
+        "fraction",
+        "mathml",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<msqrt><mi>x</mi></msqrt>",
+      "description": "Define a square root",
+      "scenario": "Define a square root",
+      "language": "xml",
+      "tags": [
+        "sqrt",
+        "mathml",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<msup><mi>x</mi><mn>2</mn></msup>",
+      "description": "Define a superscript",
+      "scenario": "Define a superscript",
+      "language": "xml",
+      "tags": [
+        "superscript",
+        "mathml",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mo>+</mo>",
+      "description": "Addition operator",
+      "scenario": "Addition operator",
+      "language": "xml",
+      "tags": [
+        "operator",
+        "addition",
+        "mathml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mo>&#x2264;</mo>",
+      "description": "Less than or equal to relation",
+      "scenario": "Less than or equal to relation",
+      "language": "xml",
+      "tags": [
+        "relation",
+        "mathml",
+        "comparison"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mo>&#x00D7;</mo>",
+      "description": "Multiplication operator",
+      "scenario": "Multiplication operator",
+      "language": "xml",
+      "tags": [
+        "operator",
+        "multiplication",
+        "mathml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mtable><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mi>d</mi></mtd></mtr></mtable>",
+      "description": "Define a matrix",
+      "scenario": "Define a matrix",
+      "language": "xml",
+      "tags": [
+        "matrix",
+        "mathml",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<piecewise><piece><mi>x</mi><cn>0</cn></piece><piece><mi>-x</mi><cn>otherwise</cn></piece></piecewise>",
+      "description": "Define a piecewise function",
+      "scenario": "Define a piecewise function",
+      "language": "xml",
+      "tags": [
+        "piecewise",
+        "function",
+        "mathml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mrow><mo>&int;</mo><mi>x</mi><mo>dx</mo></mrow>",
+      "description": "Define an integral",
+      "scenario": "Define an integral",
+      "language": "xml",
+      "tags": [
+        "integral",
+        "mathml",
+        "calculus"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mtext>This is a text annotation</mtext>",
+      "description": "Add a text annotation",
+      "scenario": "Add a text annotation",
+      "language": "xml",
+      "tags": [
+        "text",
+        "annotation",
+        "mathml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mlabeledtr><mtd><mi>x</mi></mtd><mtd><mtext>Label</mtext></mtd></mlabeledtr>",
+      "description": "Add a label to a formula",
+      "scenario": "Add a label to a formula",
+      "language": "xml",
+      "tags": [
+        "label",
+        "mathml",
+        "annotation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<!-- This is a comment -->",
+      "description": "Include a comment",
+      "scenario": "Include a comment",
+      "language": "xml",
+      "tags": [
+        "comment",
+        "mathml",
+        "annotation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mstyle mathcolor='red'><mi>x</mi></mstyle>",
+      "description": "Apply color to an element",
+      "scenario": "Apply color to an element",
+      "language": "xml",
+      "tags": [
+        "style",
+        "color",
+        "mathml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mstyle fontsize='20px'><mi>x</mi></mstyle>",
+      "description": "Change font size",
+      "scenario": "Change font size",
+      "language": "xml",
+      "tags": [
+        "style",
+        "font",
+        "mathml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<mstyle mathbackground='yellow'><mi>x</mi></mstyle>",
+      "description": "Apply background color",
+      "scenario": "Apply background color",
+      "language": "xml",
+      "tags": [
+        "style",
+        "background",
+        "mathml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

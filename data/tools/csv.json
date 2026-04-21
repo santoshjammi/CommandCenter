@@ -1,0 +1,204 @@
+{
+  "title": "CSV Cheat Sheet",
+  "slug": "csv",
+  "description": "Quick reference for handling CSV files in various environments.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "wc -l file.csv",
+      "description": "Count the number of lines in a CSV file",
+      "scenario": "Count the number of lines in a CSV file",
+      "language": "bash",
+      "tags": [
+        "count",
+        "lines",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "head -n 10 file.csv",
+      "description": "Display the first 10 lines of a CSV file",
+      "scenario": "Display the first 10 lines of a CSV file",
+      "language": "bash",
+      "tags": [
+        "preview",
+        "head",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tail -n 10 file.csv",
+      "description": "Display the last 10 lines of a CSV file",
+      "scenario": "Display the last 10 lines of a CSV file",
+      "language": "bash",
+      "tags": [
+        "preview",
+        "tail",
+        "bash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import csv\nwith open('file.csv', mode='r') as file:\n    reader = csv.DictReader(file)\n    data = [row for row in reader]",
+      "description": "Read a CSV file into a list of dictionaries",
+      "scenario": "Read a CSV file into a list of dictionaries",
+      "language": "python",
+      "tags": [
+        "read",
+        "csv",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import csv\nwith open('file.csv', mode='w', newline='') as file:\n    writer = csv.DictWriter(file, fieldnames=['field1', 'field2'])\n    writer.writeheader()\n    writer.writerows(data)",
+      "description": "Write a list of dictionaries to a CSV file",
+      "scenario": "Write a list of dictionaries to a CSV file",
+      "language": "python",
+      "tags": [
+        "write",
+        "csv",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "import pandas as pd\ndf = pd.read_csv('file.csv')",
+      "description": "Read a CSV file into a Pandas DataFrame",
+      "scenario": "Read a CSV file into a Pandas DataFrame",
+      "language": "python",
+      "tags": [
+        "pandas",
+        "read",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Papa.parse(csvString, {\n    header: true,\n    complete: function(results) {\n        console.log(results.data);\n    }\n});",
+      "description": "Parse CSV string into an array of objects using PapaParse",
+      "scenario": "Parse CSV string into an array of objects using PapaParse",
+      "language": "javascript",
+      "tags": [
+        "parse",
+        "csv",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const { parse } = require('json2csv');\nconst csv = parse(data);",
+      "description": "Convert an array of objects to CSV string using json2csv",
+      "scenario": "Convert an array of objects to CSV string using json2csv",
+      "language": "javascript",
+      "tags": [
+        "convert",
+        "csv",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fetch('file.csv')\n    .then(response => response.text())\n    .then(data => {\n        const parsedData = Papa.parse(data, { header: true }).data;\n        console.log(parsedData);\n    });",
+      "description": "Fetch and parse a CSV file from a URL",
+      "scenario": "Fetch and parse a CSV file from a URL",
+      "language": "javascript",
+      "tags": [
+        "fetch",
+        "parse",
+        "javascript"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LOAD DATA INFILE 'file.csv'\nINTO TABLE tablename\nFIELDS TERMINATED BY ','\nENCLOSED BY '\"'\nLINES TERMINATED BY '\\n'\nIGNORE 1 ROWS;",
+      "description": "Import CSV file into a SQL table",
+      "scenario": "Import CSV file into a SQL table",
+      "language": "sql",
+      "tags": [
+        "import",
+        "csv",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT * FROM tablename\nINTO OUTFILE '/path/to/file.csv'\nFIELDS TERMINATED BY ','\nENCLOSED BY '\"'\nLINES TERMINATED BY '\\n';",
+      "description": "Export SQL query results to a CSV file",
+      "scenario": "Export SQL query results to a CSV file",
+      "language": "sql",
+      "tags": [
+        "export",
+        "csv",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".mode csv\n.import file.csv tablename",
+      "description": "Use SQLite to import CSV data",
+      "scenario": "Use SQLite to import CSV data",
+      "language": "sql",
+      "tags": [
+        "sqlite",
+        "import",
+        "csv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Double-click the CSV file or use File > Open in Excel.",
+      "description": "Open a CSV file in Excel",
+      "scenario": "Open a CSV file in Excel",
+      "language": "text",
+      "tags": [
+        "excel",
+        "open",
+        "csv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Save As > Choose CSV (Comma delimited) (*.csv)",
+      "description": "Save an Excel sheet as a CSV file",
+      "scenario": "Save an Excel sheet as a CSV file",
+      "language": "text",
+      "tags": [
+        "excel",
+        "save",
+        "csv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Open Excel > Data > Get External Data > From Text > Choose CSV > Set File Origin to UTF-8",
+      "description": "Handle CSV import with UTF-8 encoding in Excel",
+      "scenario": "Handle CSV import with UTF-8 encoding in Excel",
+      "language": "text",
+      "tags": [
+        "excel",
+        "utf-8",
+        "csv"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

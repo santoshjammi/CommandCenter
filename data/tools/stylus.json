@@ -1,0 +1,165 @@
+{
+  "title": "Stylus Cheat Sheet",
+  "slug": "stylus",
+  "description": "Quick reference for Stylus syntax and commands.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "color = #333",
+      "description": "Define a variable",
+      "scenario": "Define a variable",
+      "language": "stylus",
+      "tags": [
+        "variable",
+        "definition",
+        "color"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "nav\n  ul\n    margin 0\n    padding 0",
+      "description": "Nested selectors example",
+      "scenario": "Nested selectors example",
+      "language": "stylus",
+      "tags": [
+        "nesting",
+        "selectors",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "border-radius(n)\n  -webkit-border-radius n\n  -moz-border-radius n\n  border-radius n\n\nbutton\n  border-radius(5px)",
+      "description": "Mixin definition and usage",
+      "scenario": "Mixin definition and usage",
+      "language": "stylus",
+      "tags": [
+        "mixin",
+        "function",
+        "css"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "is-blue = true\n\nbody\n  if is-blue\n    color: blue\n  else\n    color: red",
+      "description": "If-else statement",
+      "scenario": "If-else statement",
+      "language": "stylus",
+      "tags": [
+        "conditional",
+        "if-else",
+        "logic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for num in 1..5\n  .item-{num}\n    width: num * 10px",
+      "description": "For loop example",
+      "scenario": "For loop example",
+      "language": "stylus",
+      "tags": [
+        "loop",
+        "iteration",
+        "for"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "i = 0\n\nwhile i < 3\n  .item-{i}\n    width: i * 10px\n  i++",
+      "description": "Using a while loop",
+      "scenario": "Using a while loop",
+      "language": "stylus",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "add(a, b)\n  a + b\n\nresult = add(5, 10)",
+      "description": "Define a function with parameters",
+      "scenario": "Define a function with parameters",
+      "language": "stylus",
+      "tags": [
+        "function",
+        "parameters",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "width = 10px + 5px",
+      "description": "Using arithmetic operations",
+      "scenario": "Using arithmetic operations",
+      "language": "stylus",
+      "tags": [
+        "arithmetic",
+        "operations",
+        "math"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "name = 'world'\n\nhello = 'Hello, {name}!'",
+      "description": "String interpolation example",
+      "scenario": "String interpolation example",
+      "language": "stylus",
+      "tags": [
+        "string",
+        "interpolation",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "@import 'variables'",
+      "description": "Import another Stylus file",
+      "scenario": "Import another Stylus file",
+      "language": "stylus",
+      "tags": [
+        "import",
+        "file",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": ".button\n  color: blue\n\n.primary-button\n  @extend .button\n  font-weight: bold",
+      "description": "Extend a selector",
+      "scenario": "Extend a selector",
+      "language": "stylus",
+      "tags": [
+        "extend",
+        "inheritance",
+        "selector"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "border-radius()\n  border-radius: 5px\n\n.box\n  border-radius()",
+      "description": "Include a mixin",
+      "scenario": "Include a mixin",
+      "language": "stylus",
+      "tags": [
+        "mixin",
+        "include",
+        "reuse"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

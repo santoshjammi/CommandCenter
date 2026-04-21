@@ -1,0 +1,204 @@
+{
+  "title": "LeCoupa Cheat Sheet",
+  "slug": "lecoupa",
+  "description": "Essential CLI commands and code snippets for engineers.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls -al",
+      "description": "List files in a directory with detailed information",
+      "scenario": "List files in a directory with detailed information",
+      "language": "bash",
+      "tags": [
+        "list",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "cp source.txt destination.txt",
+      "description": "Copy a file to another location",
+      "scenario": "Copy a file to another location",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "file",
+        "command"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mv oldname.txt newname.txt",
+      "description": "Move a file to another location",
+      "scenario": "Move a file to another location",
+      "language": "bash",
+      "tags": [
+        "move",
+        "rename",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "netstat -tuln",
+      "description": "Display all active network connections",
+      "scenario": "Display all active network connections",
+      "language": "bash",
+      "tags": [
+        "network",
+        "connections",
+        "active"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ping -c 4 example.com",
+      "description": "Ping a host to check connectivity",
+      "scenario": "Ping a host to check connectivity",
+      "language": "bash",
+      "tags": [
+        "ping",
+        "network",
+        "connectivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ifconfig",
+      "description": "Display network interface information",
+      "scenario": "Display network interface information",
+      "language": "bash",
+      "tags": [
+        "network",
+        "interface",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top",
+      "description": "Display current system processes",
+      "scenario": "Display current system processes",
+      "language": "bash",
+      "tags": [
+        "processes",
+        "system",
+        "monitoring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "df -h",
+      "description": "Check disk space usage",
+      "scenario": "Check disk space usage",
+      "language": "bash",
+      "tags": [
+        "disk",
+        "space",
+        "usage"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "free -m",
+      "description": "Display memory usage",
+      "scenario": "Display memory usage",
+      "language": "bash",
+      "tags": [
+        "memory",
+        "usage",
+        "system"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "grep 'pattern' filename.txt",
+      "description": "Search for a pattern in a file",
+      "scenario": "Search for a pattern in a file",
+      "language": "bash",
+      "tags": [
+        "search",
+        "pattern",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sort filename.txt",
+      "description": "Sort lines in a file",
+      "scenario": "Sort lines in a file",
+      "language": "bash",
+      "tags": [
+        "sort",
+        "lines",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "wc filename.txt",
+      "description": "Count lines, words, and characters in a file",
+      "scenario": "Count lines, words, and characters in a file",
+      "language": "bash",
+      "tags": [
+        "count",
+        "lines",
+        "words"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo adduser newusername",
+      "description": "Add a new user",
+      "scenario": "Add a new user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "add",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo deluser username",
+      "description": "Delete a user",
+      "scenario": "Delete a user",
+      "language": "bash",
+      "tags": [
+        "user",
+        "delete",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "passwd username",
+      "description": "Change a user's password",
+      "scenario": "Change a user's password",
+      "language": "bash",
+      "tags": [
+        "user",
+        "password",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

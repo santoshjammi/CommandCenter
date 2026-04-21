@@ -1,0 +1,165 @@
+{
+  "title": "Fastify Cheat Sheet",
+  "slug": "fastify",
+  "description": "Quick reference for Fastify CLI commands and code patterns",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "fastify generate my-project",
+      "description": "Initialize a new Fastify project",
+      "scenario": "Initialize a new Fastify project",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify start server.js",
+      "description": "Start the Fastify server",
+      "scenario": "Start the Fastify server",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "start",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify start -c config.js",
+      "description": "Run Fastify with a specific configuration file",
+      "scenario": "Run Fastify with a specific configuration file",
+      "language": "bash",
+      "tags": [
+        "cli",
+        "config",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const fastify = require('fastify')({ logger: true });",
+      "description": "Create a basic Fastify server",
+      "scenario": "Create a basic Fastify server",
+      "language": "javascript",
+      "tags": [
+        "server",
+        "setup",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify.get('/route', async (request, reply) => { return { hello: 'world' }; });",
+      "description": "Register a route in Fastify",
+      "scenario": "Register a route in Fastify",
+      "language": "javascript",
+      "tags": [
+        "route",
+        "get",
+        "register"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify.listen(3000, err => { if (err) throw err; console.log('Server listening on http://localhost:3000'); });",
+      "description": "Start the Fastify server on a specific port",
+      "scenario": "Start the Fastify server on a specific port",
+      "language": "javascript",
+      "tags": [
+        "server",
+        "listen",
+        "port"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify.register(require('fastify-plugin'), { options: true });",
+      "description": "Set up a Fastify plugin",
+      "scenario": "Set up a Fastify plugin",
+      "language": "javascript",
+      "tags": [
+        "plugin",
+        "setup",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const fastify = require('fastify')({ logger: { level: 'info' } });",
+      "description": "Configure Fastify to use a logger",
+      "scenario": "Configure Fastify to use a logger",
+      "language": "javascript",
+      "tags": [
+        "logger",
+        "config",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify.setErrorHandler((error, request, reply) => { reply.send({ error: 'Custom error message' }); });",
+      "description": "Add a custom error handler",
+      "scenario": "Add a custom error handler",
+      "language": "javascript",
+      "tags": [
+        "error",
+        "handler",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify.get('/async', async (request, reply) => { const data = await getData(); return data; });",
+      "description": "Use async/await in route handlers",
+      "scenario": "Use async/await in route handlers",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "await",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify.register((instance, opts, done) => { instance.get('/route1', handler1); instance.get('/route2', handler2); done(); });",
+      "description": "Register multiple routes using a plugin",
+      "scenario": "Register multiple routes using a plugin",
+      "language": "javascript",
+      "tags": [
+        "plugin",
+        "routes",
+        "multiple"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "fastify.get('/secure', { preHandler: checkAuth }, async (request, reply) => { return { secure: true }; });",
+      "description": "Add a preHandler to a route",
+      "scenario": "Add a preHandler to a route",
+      "language": "javascript",
+      "tags": [
+        "prehandler",
+        "middleware",
+        "auth"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

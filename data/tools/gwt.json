@@ -1,0 +1,165 @@
+{
+  "title": "GWT Cheat Sheet",
+  "slug": "gwt",
+  "description": "Quick reference for GWT commands and configurations.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mvn gwt:compile",
+      "description": "Compile GWT project",
+      "scenario": "Compile GWT project",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "maven",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn gwt:devmode",
+      "description": "Run GWT development mode",
+      "scenario": "Run GWT development mode",
+      "language": "bash",
+      "tags": [
+        "devmode",
+        "maven",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mvn archetype:generate -DarchetypeGroupId=org.codehaus.mojo -DarchetypeArtifactId=gwt-maven-plugin",
+      "description": "Generate GWT project structure",
+      "scenario": "Generate GWT project structure",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "maven",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class MyApp implements EntryPoint { public void onModuleLoad() { // Entry point code } }",
+      "description": "Define a GWT Entry Point",
+      "scenario": "Define a GWT Entry Point",
+      "language": "java",
+      "tags": [
+        "entrypoint",
+        "gwt",
+        "java"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Button button = new Button(\"Click me\");",
+      "description": "Create a GWT Button",
+      "scenario": "Create a GWT Button",
+      "language": "java",
+      "tags": [
+        "button",
+        "widget",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "button.addClickHandler(new ClickHandler() { public void onClick(ClickEvent event) { Window.alert(\"Button clicked!\"); } });",
+      "description": "Add ClickHandler to a Button",
+      "scenario": "Add ClickHandler to a Button",
+      "language": "java",
+      "tags": [
+        "clickhandler",
+        "button",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<module rename-to='myapp'><inherits name='com.google.gwt.user.User'/></module>",
+      "description": "Configure GWT module XML",
+      "scenario": "Configure GWT module XML",
+      "language": "xml",
+      "tags": [
+        "module",
+        "xml",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<set-property name='gwt.logging.level' value='INFO'/>",
+      "description": "Set GWT logging level",
+      "scenario": "Set GWT logging level",
+      "language": "xml",
+      "tags": [
+        "logging",
+        "xml",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<stylesheet src='myapp.css'/>",
+      "description": "Add GWT style sheet",
+      "scenario": "Add GWT style sheet",
+      "language": "xml",
+      "tags": [
+        "stylesheet",
+        "css",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "public class Singleton { private static Singleton instance; private Singleton() {} public static Singleton getInstance() { if (instance == null) { instance = new Singleton(); } return instance; } }",
+      "description": "Implement Singleton pattern in GWT",
+      "scenario": "Implement Singleton pattern in GWT",
+      "language": "java",
+      "tags": [
+        "singleton",
+        "pattern",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "MyServiceAsync myService = GWT.create(MyService.class);",
+      "description": "Use GWT RPC for server communication",
+      "scenario": "Use GWT RPC for server communication",
+      "language": "java",
+      "tags": [
+        "rpc",
+        "server",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ListBox listBox = new ListBox(); listBox.addItem(\"Item 1\"); listBox.addItem(\"Item 2\");",
+      "description": "Bind a ListBox to a data source",
+      "scenario": "Bind a ListBox to a data source",
+      "language": "java",
+      "tags": [
+        "listbox",
+        "binding",
+        "gwt"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

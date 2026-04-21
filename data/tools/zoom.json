@@ -1,0 +1,204 @@
+{
+  "title": "Zoom Cheat Sheet",
+  "slug": "zoom",
+  "description": "Essential shortcuts and workflows for using Zoom effectively.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Windows: Start Menu > Zoom; Mac: Finder > Applications > Zoom",
+      "description": "Open the Zoom app",
+      "scenario": "Open the Zoom app",
+      "language": "text",
+      "tags": [
+        "open",
+        "app",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Click the meeting link provided in the invitation email or calendar event",
+      "description": "Join a meeting using a link",
+      "scenario": "Join a meeting using a link",
+      "language": "text",
+      "tags": [
+        "join",
+        "meeting",
+        "link"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Home > Schedule > Fill in details > Save",
+      "description": "Schedule a new meeting",
+      "scenario": "Schedule a new meeting",
+      "language": "text",
+      "tags": [
+        "schedule",
+        "meeting",
+        "new"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+A (Windows) or Cmd+Shift+A (Mac)",
+      "description": "Mute or unmute your microphone",
+      "scenario": "Mute or unmute your microphone",
+      "language": "text",
+      "tags": [
+        "audio",
+        "microphone",
+        "mute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+V (Windows) or Cmd+Shift+V (Mac)",
+      "description": "Start or stop video",
+      "scenario": "Start or stop video",
+      "language": "text",
+      "tags": [
+        "video",
+        "camera",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+S (Windows) or Cmd+Shift+S (Mac)",
+      "description": "Share your screen",
+      "scenario": "Share your screen",
+      "language": "text",
+      "tags": [
+        "share",
+        "screen",
+        "presentation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+U (Windows) or Cmd+U (Mac)",
+      "description": "Open the participants panel",
+      "scenario": "Open the participants panel",
+      "language": "text",
+      "tags": [
+        "participants",
+        "panel",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Participants Panel > Admit",
+      "description": "Admit participants from the waiting room",
+      "scenario": "Admit participants from the waiting room",
+      "language": "text",
+      "tags": [
+        "admit",
+        "waiting room",
+        "participants"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Participants Panel > Hover over name > More > Remove",
+      "description": "Remove a participant from the meeting",
+      "scenario": "Remove a participant from the meeting",
+      "language": "text",
+      "tags": [
+        "remove",
+        "participant",
+        "meeting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+H (Windows) or Cmd+Shift+H (Mac)",
+      "description": "Open the chat panel",
+      "scenario": "Open the chat panel",
+      "language": "text",
+      "tags": [
+        "chat",
+        "panel",
+        "open"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Reactions > Thumbs Up",
+      "description": "Send a thumbs up reaction",
+      "scenario": "Send a thumbs up reaction",
+      "language": "text",
+      "tags": [
+        "reaction",
+        "thumbs up",
+        "send"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Chat Panel > More > Save Chat",
+      "description": "Save the chat",
+      "scenario": "Save the chat",
+      "language": "text",
+      "tags": [
+        "chat",
+        "save",
+        "download"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+R (Windows) or Cmd+Shift+R (Mac)",
+      "description": "Start or stop recording the meeting",
+      "scenario": "Start or stop recording the meeting",
+      "language": "text",
+      "tags": [
+        "record",
+        "meeting",
+        "start"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Security > Lock Meeting",
+      "description": "Lock the meeting to prevent new participants",
+      "scenario": "Lock the meeting to prevent new participants",
+      "language": "text",
+      "tags": [
+        "lock",
+        "security",
+        "meeting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Security > Enable Waiting Room",
+      "description": "Enable waiting room for added security",
+      "scenario": "Enable waiting room for added security",
+      "language": "text",
+      "tags": [
+        "waiting room",
+        "security",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

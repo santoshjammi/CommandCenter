@@ -1,0 +1,165 @@
+{
+  "title": "TOML Cheat Sheet",
+  "slug": "toml",
+  "description": "Quick reference for TOML syntax and patterns",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "title = \"TOML Example\"",
+      "description": "Define a simple key-value pair",
+      "scenario": "Define a simple key-value pair",
+      "language": "toml",
+      "tags": [
+        "key-value",
+        "basic",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "age = 25",
+      "description": "Define an integer value",
+      "scenario": "Define an integer value",
+      "language": "toml",
+      "tags": [
+        "integer",
+        "basic",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "height = 5.9",
+      "description": "Define a float value",
+      "scenario": "Define a float value",
+      "language": "toml",
+      "tags": [
+        "float",
+        "basic",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "colors = [\"red\", \"green\", \"blue\"]",
+      "description": "Define an array of strings",
+      "scenario": "Define an array of strings",
+      "language": "toml",
+      "tags": [
+        "array",
+        "string",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[owner]\nname = \"Tom\"\nage = 45",
+      "description": "Define a table with nested values",
+      "scenario": "Define a table with nested values",
+      "language": "toml",
+      "tags": [
+        "table",
+        "nested",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[[products]]\nname = \"Book\"\nprice = 12.99\n\n[[products]]\nname = \"Pen\"\nprice = 1.99",
+      "description": "Define an array of tables",
+      "scenario": "Define an array of tables",
+      "language": "toml",
+      "tags": [
+        "array",
+        "table",
+        "nested"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "dob = 1987-07-05T17:45:00",
+      "description": "Define a local date-time",
+      "scenario": "Define a local date-time",
+      "language": "toml",
+      "tags": [
+        "date",
+        "time",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "start_date = 2023-10-01",
+      "description": "Define a date",
+      "scenario": "Define a date",
+      "language": "toml",
+      "tags": [
+        "date",
+        "basic",
+        "calendar"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "start_time = 14:30:00",
+      "description": "Define a time",
+      "scenario": "Define a time",
+      "language": "toml",
+      "tags": [
+        "time",
+        "basic",
+        "clock"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "# This is a comment",
+      "description": "Add a comment",
+      "scenario": "Add a comment",
+      "language": "toml",
+      "tags": [
+        "comment",
+        "basic",
+        "annotation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "description = \"\"\"\nThis is a multiline\nstring example.\n\"\"\"",
+      "description": "Define a multiline string",
+      "scenario": "Define a multiline string",
+      "language": "toml",
+      "tags": [
+        "multiline",
+        "string",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "long_string = \"This is a \\\nlong string split \\\ninto multiple lines.\"",
+      "description": "Use a backslash for multiline",
+      "scenario": "Use a backslash for multiline",
+      "language": "toml",
+      "tags": [
+        "multiline",
+        "string",
+        "backslash"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

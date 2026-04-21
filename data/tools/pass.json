@@ -1,0 +1,165 @@
+{
+  "title": "Pass CLI Cheat Sheet",
+  "slug": "pass",
+  "description": "Essential commands and patterns for the Pass CLI tool.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "pass init GPG_ID",
+      "description": "Initialize a new password store",
+      "scenario": "Initialize a new password store",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "setup",
+        "gpg"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass insert my/secret/path",
+      "description": "Add a new password",
+      "scenario": "Add a new password",
+      "language": "bash",
+      "tags": [
+        "add",
+        "insert",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass show my/secret/path",
+      "description": "Retrieve a password",
+      "scenario": "Retrieve a password",
+      "language": "bash",
+      "tags": [
+        "retrieve",
+        "show",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass generate my/secret/path 16",
+      "description": "Generate a new password and store it",
+      "scenario": "Generate a new password and store it",
+      "language": "bash",
+      "tags": [
+        "generate",
+        "password",
+        "store"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass edit my/secret/path",
+      "description": "Edit an existing password",
+      "scenario": "Edit an existing password",
+      "language": "bash",
+      "tags": [
+        "edit",
+        "update",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass rm my/secret/path",
+      "description": "Remove a password",
+      "scenario": "Remove a password",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "delete",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gpg --list-keys",
+      "description": "List all GPG keys",
+      "scenario": "List all GPG keys",
+      "language": "bash",
+      "tags": [
+        "gpg",
+        "list",
+        "keys"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass init new-GPG_ID",
+      "description": "Add a new GPG key to the password store",
+      "scenario": "Add a new GPG key to the password store",
+      "language": "bash",
+      "tags": [
+        "add",
+        "gpg",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass init --path my/secret/path old-GPG_ID",
+      "description": "Remove a GPG key from the password store",
+      "scenario": "Remove a GPG key from the password store",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "gpg",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass -c my/secret/path",
+      "description": "Copy a password to clipboard",
+      "scenario": "Copy a password to clipboard",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "clipboard",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass git push",
+      "description": "Synchronize password store with Git",
+      "scenario": "Synchronize password store with Git",
+      "language": "bash",
+      "tags": [
+        "sync",
+        "git",
+        "push"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pass find search-term",
+      "description": "Search for a password entry",
+      "scenario": "Search for a password entry",
+      "language": "bash",
+      "tags": [
+        "search",
+        "find",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

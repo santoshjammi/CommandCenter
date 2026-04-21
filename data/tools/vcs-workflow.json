@@ -1,0 +1,204 @@
+{
+  "title": "VCS Workflow Cheat Sheet",
+  "slug": "vcs-workflow",
+  "description": "Essential commands and patterns for version control systems.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git init",
+      "description": "Initialize a new Git repository",
+      "scenario": "Initialize a new Git repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "repository",
+        "initialize"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git clone <repository-url>",
+      "description": "Clone a repository from a remote source",
+      "scenario": "Clone a repository from a remote source",
+      "language": "bash",
+      "tags": [
+        "git",
+        "clone",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git status",
+      "description": "Check the status of your working directory",
+      "scenario": "Check the status of your working directory",
+      "language": "bash",
+      "tags": [
+        "git",
+        "status",
+        "working-directory"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git branch <branch-name>",
+      "description": "Create a new branch",
+      "scenario": "Create a new branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git checkout <branch-name>",
+      "description": "Switch to a different branch",
+      "scenario": "Switch to a different branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "checkout"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git merge <branch-name>",
+      "description": "Merge a branch into the current branch",
+      "scenario": "Merge a branch into the current branch",
+      "language": "bash",
+      "tags": [
+        "git",
+        "branch",
+        "merge"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git add <file-or-directory>",
+      "description": "Add changes to the staging area",
+      "scenario": "Add changes to the staging area",
+      "language": "bash",
+      "tags": [
+        "git",
+        "add",
+        "staging"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m \"Commit message\"",
+      "description": "Commit staged changes with a message",
+      "scenario": "Commit staged changes with a message",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "message"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git commit --amend",
+      "description": "Amend the last commit",
+      "scenario": "Amend the last commit",
+      "language": "bash",
+      "tags": [
+        "git",
+        "commit",
+        "amend"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin <branch-name>",
+      "description": "Push changes to a remote repository",
+      "scenario": "Push changes to a remote repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "push",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git fetch origin",
+      "description": "Fetch changes from a remote repository",
+      "scenario": "Fetch changes from a remote repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "fetch",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git pull origin <branch-name>",
+      "description": "Pull changes from a remote repository and merge",
+      "scenario": "Pull changes from a remote repository and merge",
+      "language": "bash",
+      "tags": [
+        "git",
+        "pull",
+        "merge"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git tag <tag-name>",
+      "description": "Create a new tag",
+      "scenario": "Create a new tag",
+      "language": "bash",
+      "tags": [
+        "git",
+        "tag",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git push origin --tags",
+      "description": "Push tags to a remote repository",
+      "scenario": "Push tags to a remote repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "push",
+        "tags"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "git tag",
+      "description": "List all tags in the repository",
+      "scenario": "List all tags in the repository",
+      "language": "bash",
+      "tags": [
+        "git",
+        "tag",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

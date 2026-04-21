@@ -1,0 +1,204 @@
+{
+  "title": "Tmux Cheat Sheet",
+  "slug": "tmux",
+  "description": "Essential Tmux commands and shortcuts for efficient terminal multiplexing.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "tmux new-session -s my_session",
+      "description": "Create a new tmux session named 'my_session'.",
+      "scenario": "Create a new tmux session named 'my_session'.",
+      "language": "bash",
+      "tags": [
+        "session",
+        "create",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tmux ls",
+      "description": "List all active tmux sessions.",
+      "scenario": "List all active tmux sessions.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "sessions",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tmux attach-session -t my_session",
+      "description": "Attach to an existing tmux session named 'my_session'.",
+      "scenario": "Attach to an existing tmux session named 'my_session'.",
+      "language": "bash",
+      "tags": [
+        "attach",
+        "session",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-b c",
+      "description": "Create a new window in the current session.",
+      "scenario": "Create a new window in the current session.",
+      "language": "text",
+      "tags": [
+        "window",
+        "create",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-b n",
+      "description": "Switch to the next window.",
+      "scenario": "Switch to the next window.",
+      "language": "text",
+      "tags": [
+        "window",
+        "next",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-b , new_name",
+      "description": "Rename the current window to 'new_name'.",
+      "scenario": "Rename the current window to 'new_name'.",
+      "language": "text",
+      "tags": [
+        "window",
+        "rename",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-b %",
+      "description": "Split the current pane horizontally.",
+      "scenario": "Split the current pane horizontally.",
+      "language": "text",
+      "tags": [
+        "pane",
+        "split",
+        "horizontal"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-b \"",
+      "description": "Split the current pane vertically.",
+      "scenario": "Split the current pane vertically.",
+      "language": "text",
+      "tags": [
+        "pane",
+        "split",
+        "vertical"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-b o",
+      "description": "Switch to the next pane.",
+      "scenario": "Switch to the next pane.",
+      "language": "text",
+      "tags": [
+        "pane",
+        "switch",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set-option -g prefix C-a",
+      "description": "Set prefix key to Ctrl-a instead of default Ctrl-b.",
+      "scenario": "Set prefix key to Ctrl-a instead of default Ctrl-b.",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "prefix",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set-option -g mouse on",
+      "description": "Enable mouse support in tmux.",
+      "scenario": "Enable mouse support in tmux.",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "mouse",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "set-option -g default-terminal \"screen-256color\"",
+      "description": "Set the default terminal to 256 colors.",
+      "scenario": "Set the default terminal to 256 colors.",
+      "language": "yaml",
+      "tags": [
+        "configuration",
+        "colors",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl-b d",
+      "description": "Detach from the current session.",
+      "scenario": "Detach from the current session.",
+      "language": "text",
+      "tags": [
+        "detach",
+        "session",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tmux kill-session -t my_session",
+      "description": "Kill a specific tmux session named 'my_session'.",
+      "scenario": "Kill a specific tmux session named 'my_session'.",
+      "language": "bash",
+      "tags": [
+        "kill",
+        "session",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "tmux source-file ~/.tmux.conf",
+      "description": "Reload tmux configuration file.",
+      "scenario": "Reload tmux configuration file.",
+      "language": "bash",
+      "tags": [
+        "reload",
+        "configuration",
+        "tmux"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

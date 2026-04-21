@@ -1,0 +1,204 @@
+{
+  "title": "OpenSSL Cheat Sheet",
+  "slug": "openssl",
+  "description": "Essential OpenSSL commands for managing SSL/TLS certificates and keys.",
+  "audience": "engineer",
+  "category": "Security",
+  "commands": [
+    {
+      "command": "openssl req -new -newkey rsa:2048 -nodes -keyout mykey.key -out myrequest.csr",
+      "description": "Generate a new private key and CSR",
+      "scenario": "Generate a new private key and CSR",
+      "language": "bash",
+      "tags": [
+        "certificate",
+        "CSR",
+        "key"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl x509 -req -days 365 -in myrequest.csr -signkey mykey.key -out mycert.crt",
+      "description": "Self-sign a certificate",
+      "scenario": "Self-sign a certificate",
+      "language": "bash",
+      "tags": [
+        "certificate",
+        "self-sign",
+        "x509"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl x509 -in mycert.crt -out mycert.pem -outform PEM",
+      "description": "Convert a certificate to PEM format",
+      "scenario": "Convert a certificate to PEM format",
+      "language": "bash",
+      "tags": [
+        "certificate",
+        "convert",
+        "PEM"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl genrsa -out myprivate.key 2048",
+      "description": "Generate a new RSA private key",
+      "scenario": "Generate a new RSA private key",
+      "language": "bash",
+      "tags": [
+        "key",
+        "RSA",
+        "generate"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl pkcs8 -topk8 -inform PEM -outform PEM -in myprivate.key -out myprivate-pkcs8.key -nocrypt",
+      "description": "Convert a private key to PKCS#8 format",
+      "scenario": "Convert a private key to PKCS#8 format",
+      "language": "bash",
+      "tags": [
+        "key",
+        "PKCS#8",
+        "convert"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl rsa -in myprivate.key -pubout -out mypublic.key",
+      "description": "Extract public key from a private key",
+      "scenario": "Extract public key from a private key",
+      "language": "bash",
+      "tags": [
+        "key",
+        "public",
+        "extract"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl verify -CAfile ca-cert.pem mycert.crt",
+      "description": "Verify a certificate against a CA certificate",
+      "scenario": "Verify a certificate against a CA certificate",
+      "language": "bash",
+      "tags": [
+        "certificate",
+        "verify",
+        "CA"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl x509 -enddate -noout -in mycert.crt",
+      "description": "Check the expiration date of a certificate",
+      "scenario": "Check the expiration date of a certificate",
+      "language": "bash",
+      "tags": [
+        "certificate",
+        "expiration",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl x509 -in mycert.crt -text -noout",
+      "description": "Display certificate details",
+      "scenario": "Display certificate details",
+      "language": "bash",
+      "tags": [
+        "certificate",
+        "details",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl enc -aes-256-cbc -salt -in plaintext.txt -out encrypted.txt",
+      "description": "Encrypt a file using AES-256",
+      "scenario": "Encrypt a file using AES-256",
+      "language": "bash",
+      "tags": [
+        "encryption",
+        "AES",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl enc -d -aes-256-cbc -in encrypted.txt -out decrypted.txt",
+      "description": "Decrypt a file using AES-256",
+      "scenario": "Decrypt a file using AES-256",
+      "language": "bash",
+      "tags": [
+        "decryption",
+        "AES",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl rsautl -encrypt -inkey public.pem -pubin -in plaintext.txt -out encrypted.bin",
+      "description": "Encrypt a file with a public key",
+      "scenario": "Encrypt a file with a public key",
+      "language": "bash",
+      "tags": [
+        "encryption",
+        "public key",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl dgst -sha256 -out hash.txt file.txt",
+      "description": "Generate an SHA256 hash of a file",
+      "scenario": "Generate an SHA256 hash of a file",
+      "language": "bash",
+      "tags": [
+        "hash",
+        "SHA256",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "echo -n 'mystring' | openssl dgst -md5",
+      "description": "Generate an MD5 hash of a string",
+      "scenario": "Generate an MD5 hash of a string",
+      "language": "bash",
+      "tags": [
+        "hash",
+        "MD5",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "openssl dgst -sha256 -verify pubkey.pem -signature file.sig file.txt",
+      "description": "Verify a file's SHA256 hash",
+      "scenario": "Verify a file's SHA256 hash",
+      "language": "bash",
+      "tags": [
+        "hash",
+        "verify",
+        "SHA256"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

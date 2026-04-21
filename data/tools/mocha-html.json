@@ -1,0 +1,165 @@
+{
+  "title": "Mocha HTML Cheat Sheet",
+  "slug": "mocha-html",
+  "description": "Quick reference for Mocha HTML reporter usage and configuration",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "mocha --reporter html",
+      "description": "Run tests with Mocha using the HTML reporter",
+      "scenario": "Run tests with Mocha using the HTML reporter",
+      "language": "bash",
+      "tags": [
+        "mocha",
+        "cli",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha test/myTestFile.js --reporter html",
+      "description": "Run Mocha tests in a specific file",
+      "scenario": "Run Mocha tests in a specific file",
+      "language": "bash",
+      "tags": [
+        "mocha",
+        "cli",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --timeout 5000 --reporter html",
+      "description": "Run Mocha tests with a timeout of 5000ms",
+      "scenario": "Run Mocha tests with a timeout of 5000ms",
+      "language": "bash",
+      "tags": [
+        "mocha",
+        "timeout",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"reporter\": \"html\"}",
+      "description": "Set Mocha to use the HTML reporter in a configuration file",
+      "scenario": "Set Mocha to use the HTML reporter in a configuration file",
+      "language": "json",
+      "tags": [
+        "mocha",
+        "configuration",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"reporter\": \"html\", \"reporterOptions\": {\"output\": \"report.html\"}}",
+      "description": "Configure Mocha to output HTML report to a specific file",
+      "scenario": "Configure Mocha to output HTML report to a specific file",
+      "language": "json",
+      "tags": [
+        "mocha",
+        "output",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"reporter\": \"html\", \"reporterOptions\": {\"title\": \"My Test Report\"}}",
+      "description": "Use Mocha with HTML reporter and custom title",
+      "scenario": "Use Mocha with HTML reporter and custom title",
+      "language": "json",
+      "tags": [
+        "mocha",
+        "title",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "describe('Array', function() { /* tests */ });",
+      "description": "Describe a test suite using Mocha",
+      "scenario": "Describe a test suite using Mocha",
+      "language": "javascript",
+      "tags": [
+        "mocha",
+        "describe",
+        "suite"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "it('should return -1 when the value is not present', function() { /* test */ });",
+      "description": "Define a test case in Mocha",
+      "scenario": "Define a test case in Mocha",
+      "language": "javascript",
+      "tags": [
+        "mocha",
+        "it",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "beforeEach(function() { /* setup code */ });",
+      "description": "Use beforeEach to set up preconditions for tests",
+      "scenario": "Use beforeEach to set up preconditions for tests",
+      "language": "javascript",
+      "tags": [
+        "mocha",
+        "beforeEach",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --full-trace",
+      "description": "Run Mocha tests with full stack traces",
+      "scenario": "Run Mocha tests with full stack traces",
+      "language": "bash",
+      "tags": [
+        "mocha",
+        "cli",
+        "trace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --recursive",
+      "description": "Enable recursive directory search for test files",
+      "scenario": "Enable recursive directory search for test files",
+      "language": "bash",
+      "tags": [
+        "mocha",
+        "cli",
+        "recursive"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "mocha --watch",
+      "description": "Run Mocha in watch mode to rerun tests on file changes",
+      "scenario": "Run Mocha in watch mode to rerun tests on file changes",
+      "language": "bash",
+      "tags": [
+        "mocha",
+        "cli",
+        "watch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

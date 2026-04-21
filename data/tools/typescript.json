@@ -1,0 +1,204 @@
+{
+  "title": "TypeScript Cheat Sheet",
+  "slug": "typescript",
+  "description": "Essential TypeScript syntax and commands for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let name: string = 'John';",
+      "description": "Declare a string variable",
+      "scenario": "Declare a string variable",
+      "language": "typescript",
+      "tags": [
+        "types",
+        "variables",
+        "string"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let age: number = 30;",
+      "description": "Declare a number variable",
+      "scenario": "Declare a number variable",
+      "language": "typescript",
+      "tags": [
+        "types",
+        "variables",
+        "number"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let isActive: boolean = true;",
+      "description": "Declare a boolean variable",
+      "scenario": "Declare a boolean variable",
+      "language": "typescript",
+      "tags": [
+        "types",
+        "variables",
+        "boolean"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function add(a: number, b: number): number { return a + b; }",
+      "description": "Declare a function with typed parameters and return type",
+      "scenario": "Declare a function with typed parameters and return type",
+      "language": "typescript",
+      "tags": [
+        "functions",
+        "parameters",
+        "return"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "const multiply = (x: number, y: number): number => x * y;",
+      "description": "Declare an arrow function",
+      "scenario": "Declare an arrow function",
+      "language": "typescript",
+      "tags": [
+        "functions",
+        "arrow",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function greet(name: string, greeting?: string): string { return `${greeting || 'Hello'}, ${name}`; }",
+      "description": "Function with optional parameter",
+      "scenario": "Function with optional parameter",
+      "language": "typescript",
+      "tags": [
+        "functions",
+        "optional",
+        "parameters"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface User { name: string; age: number; }",
+      "description": "Define a basic interface",
+      "scenario": "Define a basic interface",
+      "language": "typescript",
+      "tags": [
+        "interfaces",
+        "types",
+        "structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class Employee implements User { name: string; age: number; constructor(name: string, age: number) { this.name = name; this.age = age; } }",
+      "description": "Implement an interface in a class",
+      "scenario": "Implement an interface in a class",
+      "language": "typescript",
+      "tags": [
+        "interfaces",
+        "classes",
+        "implementation"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface Admin extends User { role: string; }",
+      "description": "Extend an interface",
+      "scenario": "Extend an interface",
+      "language": "typescript",
+      "tags": [
+        "interfaces",
+        "extend",
+        "inheritance"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function identity<T>(arg: T): T { return arg; }",
+      "description": "Create a generic function",
+      "scenario": "Create a generic function",
+      "language": "typescript",
+      "tags": [
+        "generics",
+        "functions",
+        "types"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "interface Box<T> { contents: T; }",
+      "description": "Generic interface example",
+      "scenario": "Generic interface example",
+      "language": "typescript",
+      "tags": [
+        "generics",
+        "interfaces",
+        "types"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "class DataHolder<T> { private data: T; constructor(value: T) { this.data = value; } getData(): T { return this.data; } }",
+      "description": "Generic class example",
+      "scenario": "Generic class example",
+      "language": "typescript",
+      "tags": [
+        "generics",
+        "classes",
+        "types"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let someValue: any = 'this is a string';\nlet strLength: number = (<string>someValue).length;",
+      "description": "Type assertion using angle-bracket syntax",
+      "scenario": "Type assertion using angle-bracket syntax",
+      "language": "typescript",
+      "tags": [
+        "type",
+        "assertion",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let someValue: any = 'this is a string';\nlet strLength: number = (someValue as string).length;",
+      "description": "Type assertion using 'as' syntax",
+      "scenario": "Type assertion using 'as' syntax",
+      "language": "typescript",
+      "tags": [
+        "type",
+        "assertion",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "let inputElement = <HTMLInputElement>document.getElementById('myInput');",
+      "description": "Type assertion with DOM elements",
+      "scenario": "Type assertion with DOM elements",
+      "language": "typescript",
+      "tags": [
+        "type",
+        "assertion",
+        "DOM"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

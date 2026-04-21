@@ -1,0 +1,204 @@
+{
+  "title": "RichFaces Cheat Sheet",
+  "slug": "richfaces",
+  "description": "Quick reference for RichFaces components and configuration.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<a4j:commandButton value=\"Click Me\" action=\"#{bean.action}\" />",
+      "description": "Create a RichFaces button component",
+      "scenario": "Create a RichFaces button component",
+      "language": "xml",
+      "tags": [
+        "button",
+        "component",
+        "action"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a4j:inputText value=\"#{bean.inputValue}\" />",
+      "description": "Create a RichFaces input component",
+      "scenario": "Create a RichFaces input component",
+      "language": "xml",
+      "tags": [
+        "input",
+        "component",
+        "value"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<rich:dataTable value=\"#{bean.items}\" var=\"item\">\n  <rich:column>\n    <f:facet name=\"header\">Name</f:facet>\n    #{item.name}\n  </rich:column>\n</rich:dataTable>",
+      "description": "Create a RichFaces data table component",
+      "scenario": "Create a RichFaces data table component",
+      "language": "xml",
+      "tags": [
+        "datatable",
+        "component",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a4j:commandButton value=\"Submit\" action=\"#{bean.submit}\" reRender=\"output\" />",
+      "description": "Use AJAX to update a component",
+      "scenario": "Use AJAX to update a component",
+      "language": "xml",
+      "tags": [
+        "ajax",
+        "update",
+        "rerender"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a4j:poll interval=\"10000\" action=\"#{bean.refresh}\" reRender=\"data\" />",
+      "description": "AJAX poll component to refresh data",
+      "scenario": "AJAX poll component to refresh data",
+      "language": "xml",
+      "tags": [
+        "ajax",
+        "poll",
+        "refresh"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a4j:support event=\"onchange\" reRender=\"output\" />",
+      "description": "AJAX support for input change",
+      "scenario": "AJAX support for input change",
+      "language": "xml",
+      "tags": [
+        "ajax",
+        "support",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<context-param>\n  <param-name>org.richfaces.skin</param-name>\n  <param-value>blueSky</param-value>\n</context-param>",
+      "description": "Apply a skin to a RichFaces application",
+      "scenario": "Apply a skin to a RichFaces application",
+      "language": "xml",
+      "tags": [
+        "skin",
+        "theme",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<context-param>\n  <param-name>org.richfaces.theme</param-name>\n  <param-value>simple</param-value>\n</context-param>",
+      "description": "Set a default theme for RichFaces",
+      "scenario": "Set a default theme for RichFaces",
+      "language": "xml",
+      "tags": [
+        "theme",
+        "default",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a4j:commandButton value=\"Change Skin\" action=\"#{skinBean.changeSkin}\" reRender=\"@all\" />",
+      "description": "Switch RichFaces skin dynamically",
+      "scenario": "Switch RichFaces skin dynamically",
+      "language": "xml",
+      "tags": [
+        "skin",
+        "dynamic",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a4j:inputText value=\"#{bean.value}\">\n  <f:validator validatorId=\"customValidator\" />\n</a4j:inputText>",
+      "description": "Add a validator to a RichFaces input",
+      "scenario": "Add a validator to a RichFaces input",
+      "language": "xml",
+      "tags": [
+        "validation",
+        "input",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<a4j:inputText value=\"#{bean.date}\">\n  <f:convertDateTime pattern=\"MM/dd/yyyy\" />\n</a4j:inputText>",
+      "description": "Use a converter for a RichFaces component",
+      "scenario": "Use a converter for a RichFaces component",
+      "language": "xml",
+      "tags": [
+        "converter",
+        "date",
+        "input"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<rich:message for=\"inputId\" />",
+      "description": "Add a message component for validation feedback",
+      "scenario": "Add a message component for validation feedback",
+      "language": "xml",
+      "tags": [
+        "validation",
+        "message",
+        "feedback"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<filter>\n  <filter-name>RichFaces Filter</filter-name>\n  <filter-class>org.ajax4jsf.Filter</filter-class>\n</filter>\n<filter-mapping>\n  <filter-name>RichFaces Filter</filter-name>\n  <servlet-name>Faces Servlet</servlet-name>\n</filter-mapping>",
+      "description": "Configure RichFaces filter in web.xml",
+      "scenario": "Configure RichFaces filter in web.xml",
+      "language": "xml",
+      "tags": [
+        "configuration",
+        "filter",
+        "web.xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<context-param>\n  <param-name>org.richfaces.enableControlSkinning</param-name>\n  <param-value>true</param-value>\n</context-param>",
+      "description": "Enable RichFaces development mode",
+      "scenario": "Enable RichFaces development mode",
+      "language": "xml",
+      "tags": [
+        "development",
+        "mode",
+        "skinning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<context-param>\n  <param-name>org.richfaces.resourceOptimization</param-name>\n  <param-value>true</param-value>\n</context-param>",
+      "description": "Set RichFaces resource optimization",
+      "scenario": "Set RichFaces resource optimization",
+      "language": "xml",
+      "tags": [
+        "resource",
+        "optimization",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

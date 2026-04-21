@@ -1,0 +1,204 @@
+{
+  "title": "Raku Cheat Sheet",
+  "slug": "raku",
+  "description": "Quick reference for Raku programming language essentials.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "my $variable = 'Hello, Raku!';",
+      "description": "Declare a variable",
+      "scenario": "Declare a variable",
+      "language": "raku",
+      "tags": [
+        "variable",
+        "declaration",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sub greet($name) { say \"Hello, $name!\"; }",
+      "description": "Define a simple function",
+      "scenario": "Define a simple function",
+      "language": "raku",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if $age >= 18 { say 'Adult'; } else { say 'Minor'; }",
+      "description": "Conditional statement example",
+      "scenario": "Conditional statement example",
+      "language": "raku",
+      "tags": [
+        "conditional",
+        "if-else",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my @fruits = <apple banana cherry>;",
+      "description": "Create a list",
+      "scenario": "Create a list",
+      "language": "raku",
+      "tags": [
+        "list",
+        "array",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my %ages = 'Alice' => 30, 'Bob' => 25;",
+      "description": "Create a hash",
+      "scenario": "Create a hash",
+      "language": "raku",
+      "tags": [
+        "hash",
+        "dictionary",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "say %ages{'Alice'}; # Outputs: 30",
+      "description": "Access hash element",
+      "scenario": "Access hash element",
+      "language": "raku",
+      "tags": [
+        "hash",
+        "access",
+        "data structure"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for 1..5 -> $i { say $i; }",
+      "description": "Simple for loop",
+      "scenario": "Simple for loop",
+      "language": "raku",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my $count = 0; while $count < 5 { say $count; $count++; }",
+      "description": "While loop example",
+      "scenario": "While loop example",
+      "language": "raku",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for @fruits -> $fruit { say $fruit; }",
+      "description": "Loop over a list",
+      "scenario": "Loop over a list",
+      "language": "raku",
+      "tags": [
+        "loop",
+        "list",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "for 'file.txt'.IO.lines -> $line { say $line; }",
+      "description": "Read a file line by line",
+      "scenario": "Read a file line by line",
+      "language": "raku",
+      "tags": [
+        "file",
+        "read",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "'output.txt'.IO.spurt: 'Hello, Raku!';",
+      "description": "Write to a file",
+      "scenario": "Write to a file",
+      "language": "raku",
+      "tags": [
+        "file",
+        "write",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "'output.txt'.IO.append: 'More text';",
+      "description": "Append to a file",
+      "scenario": "Append to a file",
+      "language": "raku",
+      "tags": [
+        "file",
+        "append",
+        "io"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if 'Raku' ~~ /Rak/ { say 'Match found'; }",
+      "description": "Simple regex match",
+      "scenario": "Simple regex match",
+      "language": "raku",
+      "tags": [
+        "regex",
+        "match",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if 'RakuLang' ~~ / (\\w+) 'Lang' / { say $0; }",
+      "description": "Capture groups in regex",
+      "scenario": "Capture groups in regex",
+      "language": "raku",
+      "tags": [
+        "regex",
+        "capture",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "my $text = 'Hello, World!'; $text ~~ s/World/Raku/; say $text;",
+      "description": "Substitution with regex",
+      "scenario": "Substitution with regex",
+      "language": "raku",
+      "tags": [
+        "regex",
+        "substitution",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

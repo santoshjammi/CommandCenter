@@ -1,0 +1,204 @@
+{
+  "title": "XSLT Cheat Sheet",
+  "slug": "xslt",
+  "description": "Quick reference for XSLT syntax and patterns",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "<?xml version=\"1.0\"?>\n<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">",
+      "description": "Declare an XSLT stylesheet",
+      "scenario": "Declare an XSLT stylesheet",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "stylesheet",
+        "declaration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:template match=\"/\">",
+      "description": "Match the root element",
+      "scenario": "Match the root element",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "template",
+        "root"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:apply-templates/>",
+      "description": "Apply templates to child nodes",
+      "scenario": "Apply templates to child nodes",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "apply",
+        "templates"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:value-of select=\"elementName\"/>",
+      "description": "Value-of to extract text",
+      "scenario": "Value-of to extract text",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "value-of",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:for-each select=\"elementName\">\n  <!-- Process each element -->\n</xsl:for-each>",
+      "description": "For-each loop over elements",
+      "scenario": "For-each loop over elements",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "for-each",
+        "loop"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:choose>\n  <xsl:when test=\"condition\">\n    <!-- Do something -->\n  </xsl:when>\n  <xsl:otherwise>\n    <!-- Do something else -->\n  </xsl:otherwise>\n</xsl:choose>",
+      "description": "Conditional logic with choose",
+      "scenario": "Conditional logic with choose",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "conditional",
+        "choose"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:value-of select=\"concat('Hello', ' ', 'World')\"/>",
+      "description": "Concatenate strings",
+      "scenario": "Concatenate strings",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "function",
+        "concat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:value-of select=\"string-length('example')\"/>",
+      "description": "String length",
+      "scenario": "String length",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "function",
+        "string-length"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:value-of select=\"substring('example', 1, 3)\"/>",
+      "description": "Substring function",
+      "scenario": "Substring function",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "function",
+        "substring"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:output method=\"xml\"/>",
+      "description": "Output as XML",
+      "scenario": "Output as XML",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "output",
+        "xml"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:output method=\"html\"/>",
+      "description": "Output as HTML",
+      "scenario": "Output as HTML",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "output",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:output method=\"text\"/>",
+      "description": "Output as plain text",
+      "scenario": "Output as plain text",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "output",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:import href=\"other-stylesheet.xsl\"/>",
+      "description": "Import another stylesheet",
+      "scenario": "Import another stylesheet",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "import",
+        "stylesheet"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:template name=\"templateName\">\n  <!-- Template content -->\n</xsl:template>",
+      "description": "Use a named template",
+      "scenario": "Use a named template",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "template",
+        "named"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "<xsl:call-template name=\"templateName\"/>",
+      "description": "Call a named template",
+      "scenario": "Call a named template",
+      "language": "xml",
+      "tags": [
+        "xslt",
+        "call",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

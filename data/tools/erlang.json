@@ -1,0 +1,204 @@
+{
+  "title": "Erlang Cheat Sheet",
+  "slug": "erlang",
+  "description": "Essential Erlang commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "-module(module_name).",
+      "description": "Define a module",
+      "scenario": "Define a module",
+      "language": "erlang",
+      "tags": [
+        "module",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "-export([function_name/arity]).",
+      "description": "Export functions",
+      "scenario": "Export functions",
+      "language": "erlang",
+      "tags": [
+        "export",
+        "functions",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "function_name(Arg1, Arg2) -> Expression.",
+      "description": "Define a function",
+      "scenario": "Define a function",
+      "language": "erlang",
+      "tags": [
+        "function",
+        "definition",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{ok, Value} = some_function().",
+      "description": "Pattern matching with tuples",
+      "scenario": "Pattern matching with tuples",
+      "language": "erlang",
+      "tags": [
+        "pattern",
+        "matching",
+        "tuples"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "case Expression of\n    Pattern1 -> Result1;\n    Pattern2 -> Result2\nend.",
+      "description": "Using case expressions",
+      "scenario": "Using case expressions",
+      "language": "erlang",
+      "tags": [
+        "case",
+        "expressions",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[X || X <- List, X > 10].",
+      "description": "List comprehensions",
+      "scenario": "List comprehensions",
+      "language": "erlang",
+      "tags": [
+        "list",
+        "comprehensions",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Pid = spawn(Module, Function, [Arg1, Arg2]).",
+      "description": "Spawn a new process",
+      "scenario": "Spawn a new process",
+      "language": "erlang",
+      "tags": [
+        "concurrency",
+        "process",
+        "spawn"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Pid ! Message.",
+      "description": "Send a message to a process",
+      "scenario": "Send a message to a process",
+      "language": "erlang",
+      "tags": [
+        "concurrency",
+        "message",
+        "send"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "receive\n    Pattern1 -> Action1;\n    Pattern2 -> Action2\nend.",
+      "description": "Receive messages in a process",
+      "scenario": "Receive messages in a process",
+      "language": "erlang",
+      "tags": [
+        "concurrency",
+        "receive",
+        "messages"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try Expression of\n    Pattern -> Result\ncatch\n    Class:Reason -> Handler\nend.",
+      "description": "Try-catch block",
+      "scenario": "Try-catch block",
+      "language": "erlang",
+      "tags": [
+        "error",
+        "handling",
+        "try-catch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "throw(Reason).",
+      "description": "Throw an exception",
+      "scenario": "Throw an exception",
+      "language": "erlang",
+      "tags": [
+        "error",
+        "exception",
+        "throw"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "try Expression\nafter\n    CleanupAction\nend.",
+      "description": "Use after clause for cleanup",
+      "scenario": "Use after clause for cleanup",
+      "language": "erlang",
+      "tags": [
+        "error",
+        "cleanup",
+        "after"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "c(module_name).",
+      "description": "Compile a module",
+      "scenario": "Compile a module",
+      "language": "erlang",
+      "tags": [
+        "shell",
+        "compile",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "l(module_name).",
+      "description": "Load a module",
+      "scenario": "Load a module",
+      "language": "erlang",
+      "tags": [
+        "shell",
+        "load",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "code:all_loaded().",
+      "description": "Check loaded modules",
+      "scenario": "Check loaded modules",
+      "language": "erlang",
+      "tags": [
+        "shell",
+        "modules",
+        "loaded"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

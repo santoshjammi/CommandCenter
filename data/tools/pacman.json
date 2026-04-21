@@ -1,0 +1,165 @@
+{
+  "title": "Pacman Cheat Sheet",
+  "slug": "pacman",
+  "description": "Essential Pacman commands for package management on Arch Linux.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "sudo pacman -S package_name",
+      "description": "Install a package",
+      "scenario": "Install a package",
+      "language": "bash",
+      "tags": [
+        "install",
+        "package",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo pacman -R package_name",
+      "description": "Remove a package",
+      "scenario": "Remove a package",
+      "language": "bash",
+      "tags": [
+        "remove",
+        "package",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo pacman -Syu",
+      "description": "Update all packages",
+      "scenario": "Update all packages",
+      "language": "bash",
+      "tags": [
+        "update",
+        "upgrade",
+        "basic"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pacman -Ss search_term",
+      "description": "Search for a package in the repositories",
+      "scenario": "Search for a package in the repositories",
+      "language": "bash",
+      "tags": [
+        "search",
+        "query",
+        "repository"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pacman -Q",
+      "description": "List all installed packages",
+      "scenario": "List all installed packages",
+      "language": "bash",
+      "tags": [
+        "list",
+        "installed",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "pacman -Qi package_name",
+      "description": "Get information about an installed package",
+      "scenario": "Get information about an installed package",
+      "language": "bash",
+      "tags": [
+        "info",
+        "installed",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo pacman -Rns $(pacman -Qtdq)",
+      "description": "Remove unused packages (orphans)",
+      "scenario": "Remove unused packages (orphans)",
+      "language": "bash",
+      "tags": [
+        "cleanup",
+        "orphans",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo pacman -Sc",
+      "description": "Clean package cache",
+      "scenario": "Clean package cache",
+      "language": "bash",
+      "tags": [
+        "cleanup",
+        "cache",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo pacman -Scc",
+      "description": "Remove all cached packages",
+      "scenario": "Remove all cached packages",
+      "language": "bash",
+      "tags": [
+        "cleanup",
+        "cache",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "sudo nano /etc/pacman.conf",
+      "description": "Edit Pacman configuration file",
+      "scenario": "Edit Pacman configuration file",
+      "language": "bash",
+      "tags": [
+        "config",
+        "edit",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[multilib]\nInclude = /etc/pacman.d/mirrorlist",
+      "description": "Enable multilib repository",
+      "scenario": "Enable multilib repository",
+      "language": "text",
+      "tags": [
+        "config",
+        "repository",
+        "multilib"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "[customrepo]\nServer = http://custom.repo/$arch",
+      "description": "Add a custom repository",
+      "scenario": "Add a custom repository",
+      "language": "text",
+      "tags": [
+        "config",
+        "repository",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "SketchUp Pro Cheat Sheet",
+  "slug": "sketchup-pro",
+  "description": "Essential shortcuts and workflows for SketchUp Pro users.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Middle Mouse Button + Drag",
+      "description": "Orbit around the model",
+      "scenario": "Orbit around the model",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "orbit",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + Middle Mouse Button + Drag",
+      "description": "Pan the view",
+      "scenario": "Pan the view",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "pan",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Scroll Mouse Wheel",
+      "description": "Zoom in and out",
+      "scenario": "Zoom in and out",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "zoom",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Spacebar",
+      "description": "Select an object",
+      "scenario": "Select an object",
+      "language": "text",
+      "tags": [
+        "selection",
+        "tools",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + T",
+      "description": "Deselect all",
+      "scenario": "Deselect all",
+      "language": "text",
+      "tags": [
+        "selection",
+        "deselect",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + Click",
+      "description": "Select multiple objects",
+      "scenario": "Select multiple objects",
+      "language": "text",
+      "tags": [
+        "selection",
+        "multiple",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "L",
+      "description": "Draw a line",
+      "scenario": "Draw a line",
+      "language": "text",
+      "tags": [
+        "drawing",
+        "line",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "R",
+      "description": "Draw a rectangle",
+      "scenario": "Draw a rectangle",
+      "language": "text",
+      "tags": [
+        "drawing",
+        "rectangle",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "C",
+      "description": "Draw a circle",
+      "scenario": "Draw a circle",
+      "language": "text",
+      "tags": [
+        "drawing",
+        "circle",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > New",
+      "description": "Create a new file",
+      "scenario": "Create a new file",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + S",
+      "description": "Save the current file",
+      "scenario": "Save the current file",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Open",
+      "description": "Open an existing file",
+      "scenario": "Open an existing file",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View > Shadows",
+      "description": "Toggle visibility of shadows",
+      "scenario": "Toggle visibility of shadows",
+      "language": "text",
+      "tags": [
+        "view",
+        "shadows",
+        "visibility"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "View > Hidden Geometry",
+      "description": "Toggle visibility of hidden geometry",
+      "scenario": "Toggle visibility of hidden geometry",
+      "language": "text",
+      "tags": [
+        "view",
+        "hidden",
+        "geometry"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Camera > Perspective",
+      "description": "Switch to perspective view",
+      "scenario": "Switch to perspective view",
+      "language": "text",
+      "tags": [
+        "view",
+        "perspective",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

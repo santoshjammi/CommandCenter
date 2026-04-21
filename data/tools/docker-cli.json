@@ -1,0 +1,204 @@
+{
+  "title": "Docker CLI Cheat Sheet",
+  "slug": "docker-cli",
+  "description": "Essential Docker CLI commands for container management.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "docker ps",
+      "description": "List all running containers",
+      "scenario": "List all running containers",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "containers",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker start <container_id>",
+      "description": "Start a stopped container",
+      "scenario": "Start a stopped container",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "start",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker stop <container_id>",
+      "description": "Stop a running container",
+      "scenario": "Stop a running container",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "stop",
+        "container"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker images",
+      "description": "List all Docker images",
+      "scenario": "List all Docker images",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "images",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker rmi <image_id>",
+      "description": "Remove a Docker image",
+      "scenario": "Remove a Docker image",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "remove",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker pull <image_name>",
+      "description": "Pull an image from Docker Hub",
+      "scenario": "Pull an image from Docker Hub",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "pull",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker network ls",
+      "description": "List all Docker networks",
+      "scenario": "List all Docker networks",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "network",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker network create <network_name>",
+      "description": "Create a new Docker network",
+      "scenario": "Create a new Docker network",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "network",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker network connect <network_name> <container_id>",
+      "description": "Connect a container to a network",
+      "scenario": "Connect a container to a network",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "network",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker volume ls",
+      "description": "List all Docker volumes",
+      "scenario": "List all Docker volumes",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "volume",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker volume create <volume_name>",
+      "description": "Create a new Docker volume",
+      "scenario": "Create a new Docker volume",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "volume",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker volume rm <volume_name>",
+      "description": "Remove a Docker volume",
+      "scenario": "Remove a Docker volume",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "volume",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker-compose up",
+      "description": "Start services defined in docker-compose.yml",
+      "scenario": "Start services defined in docker-compose.yml",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "compose",
+        "up"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker-compose down",
+      "description": "Stop services defined in docker-compose.yml",
+      "scenario": "Stop services defined in docker-compose.yml",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "compose",
+        "down"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "docker-compose build",
+      "description": "Build or rebuild services",
+      "scenario": "Build or rebuild services",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "compose",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

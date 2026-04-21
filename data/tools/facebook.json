@@ -1,0 +1,204 @@
+{
+  "title": "Facebook Developer Tools",
+  "slug": "facebook",
+  "description": "Essential tools and commands for Facebook developers",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "GET /me?fields=id,name,email",
+      "description": "Get user profile information",
+      "scenario": "Get user profile information",
+      "language": "text",
+      "tags": [
+        "Graph API",
+        "user",
+        "profile"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "POST /me/feed?message=Hello+World",
+      "description": "Post a status update",
+      "scenario": "Post a status update",
+      "language": "text",
+      "tags": [
+        "Graph API",
+        "post",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "GET /me/friends",
+      "description": "Retrieve user's friends list",
+      "scenario": "Retrieve user's friends list",
+      "language": "text",
+      "tags": [
+        "Graph API",
+        "friends",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "facebook-cli login",
+      "description": "Login to Facebook CLI",
+      "scenario": "Login to Facebook CLI",
+      "language": "bash",
+      "tags": [
+        "CLI",
+        "login",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "facebook-cli create-app --name MyApp",
+      "description": "Create a new Facebook app",
+      "scenario": "Create a new Facebook app",
+      "language": "bash",
+      "tags": [
+        "CLI",
+        "app",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "facebook-cli list-apps",
+      "description": "List all Facebook apps",
+      "scenario": "List all Facebook apps",
+      "language": "bash",
+      "tags": [
+        "CLI",
+        "list",
+        "apps"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FB.init({appId: 'your-app-id', cookie: true, xfbml: true, version: 'v10.0'});",
+      "description": "Initialize Facebook SDK for JavaScript",
+      "scenario": "Initialize Facebook SDK for JavaScript",
+      "language": "javascript",
+      "tags": [
+        "SDK",
+        "JavaScript",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "FacebookSdk.sdkInitialize(getApplicationContext());",
+      "description": "Initialize Facebook SDK for Android",
+      "scenario": "Initialize Facebook SDK for Android",
+      "language": "java",
+      "tags": [
+        "SDK",
+        "Android",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)",
+      "description": "Initialize Facebook SDK for iOS",
+      "scenario": "Initialize Facebook SDK for iOS",
+      "language": "swift",
+      "tags": [
+        "SDK",
+        "iOS",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "permissions: ['email', 'public_profile']",
+      "description": "Set app permissions for user data",
+      "scenario": "Set app permissions for user data",
+      "language": "yaml",
+      "tags": [
+        "permissions",
+        "config",
+        "user"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "app_domains: ['example.com', 'anotherdomain.com']",
+      "description": "Configure app domains",
+      "scenario": "Configure app domains",
+      "language": "yaml",
+      "tags": [
+        "domains",
+        "config",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "facebook_login: true",
+      "description": "Enable Facebook Login",
+      "scenario": "Enable Facebook Login",
+      "language": "yaml",
+      "tags": [
+        "login",
+        "config",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://developers.facebook.com/tools/explorer/",
+      "description": "Debug a Graph API request",
+      "scenario": "Debug a Graph API request",
+      "language": "text",
+      "tags": [
+        "debug",
+        "Graph API",
+        "tools"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://developers.facebook.com/apps/{app-id}/review-status/",
+      "description": "Check app review status",
+      "scenario": "Check app review status",
+      "language": "text",
+      "tags": [
+        "review",
+        "status",
+        "app"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "https://developers.facebook.com/apps/{app-id}/dashboard/",
+      "description": "Access Facebook App Dashboard",
+      "scenario": "Access Facebook App Dashboard",
+      "language": "text",
+      "tags": [
+        "dashboard",
+        "app",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

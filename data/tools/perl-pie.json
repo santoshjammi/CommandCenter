@@ -1,0 +1,165 @@
+{
+  "title": "Perl-pie Cheat Sheet",
+  "slug": "perl-pie",
+  "description": "Quick reference for using Perl-pie for text processing in CLI.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "perl -pi -e 's/foo/bar/g' filename.txt",
+      "description": "Replace 'foo' with 'bar' in a file",
+      "scenario": "Replace 'foo' with 'bar' in a file",
+      "language": "bash",
+      "tags": [
+        "replace",
+        "text",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -ni -e 'print unless /foo/' filename.txt",
+      "description": "Delete lines containing 'foo'",
+      "scenario": "Delete lines containing 'foo'",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "lines",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 's/^/PREFIX: /' filename.txt",
+      "description": "Add a prefix to each line in a file",
+      "scenario": "Add a prefix to each line in a file",
+      "language": "bash",
+      "tags": [
+        "prefix",
+        "lines",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi.bak -e 's/foo/bar/g' filename.txt",
+      "description": "Backup original file before modifying",
+      "scenario": "Backup original file before modifying",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "modify",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 's/(pattern)/$1 appended_text/' filename.txt",
+      "description": "Append text to lines matching a pattern",
+      "scenario": "Append text to lines matching a pattern",
+      "language": "bash",
+      "tags": [
+        "append",
+        "pattern",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 'print \"new line\\n\" if $. == 3' filename.txt",
+      "description": "Insert text after a specific line number",
+      "scenario": "Insert text after a specific line number",
+      "language": "bash",
+      "tags": [
+        "insert",
+        "line number",
+        "modify"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 's/\\bfoo\\b/bar/g' filename.txt",
+      "description": "Replace only whole words",
+      "scenario": "Replace only whole words",
+      "language": "bash",
+      "tags": [
+        "regex",
+        "whole word",
+        "replace"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 's/foo/bar/gi' filename.txt",
+      "description": "Case insensitive replacement",
+      "scenario": "Case insensitive replacement",
+      "language": "bash",
+      "tags": [
+        "case insensitive",
+        "replace",
+        "regex"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 's/\\s+$//' filename.txt",
+      "description": "Remove trailing whitespace from each line",
+      "scenario": "Remove trailing whitespace from each line",
+      "language": "bash",
+      "tags": [
+        "whitespace",
+        "regex",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 's/foo/bar/g' *.txt",
+      "description": "Process multiple files at once",
+      "scenario": "Process multiple files at once",
+      "language": "bash",
+      "tags": [
+        "multiple files",
+        "replace",
+        "batch"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 's#foo#bar#g' filename.txt",
+      "description": "Use a different delimiter for search and replace",
+      "scenario": "Use a different delimiter for search and replace",
+      "language": "bash",
+      "tags": [
+        "delimiter",
+        "replace",
+        "custom"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "perl -pi -e 's/foo/bar/g' filename.txt",
+      "description": "Edit files in place without backup",
+      "scenario": "Edit files in place without backup",
+      "language": "bash",
+      "tags": [
+        "in-place",
+        "edit",
+        "no backup"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

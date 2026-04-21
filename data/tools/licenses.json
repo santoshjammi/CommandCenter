@@ -1,0 +1,204 @@
+{
+  "title": "Licenses Cheat Sheet",
+  "slug": "licenses",
+  "description": "Quick reference for common software licenses and their usage",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "Permission is hereby granted, free of charge, to any person obtaining a copy...",
+      "description": "Basic structure of an MIT License",
+      "scenario": "Basic structure of an MIT License",
+      "language": "text",
+      "tags": [
+        "MIT",
+        "license",
+        "open-source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "COPYING or LICENSE file with full MIT text",
+      "description": "Include MIT License in a project",
+      "scenario": "Include MIT License in a project",
+      "language": "text",
+      "tags": [
+        "MIT",
+        "license",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "You can modify, distribute, and sublicense the software.",
+      "description": "MIT License allows modification and distribution",
+      "scenario": "MIT License allows modification and distribution",
+      "language": "text",
+      "tags": [
+        "MIT",
+        "modification",
+        "distribution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "This program is free software: you can redistribute it and/or modify...",
+      "description": "Basic structure of a GPL License",
+      "scenario": "Basic structure of a GPL License",
+      "language": "text",
+      "tags": [
+        "GPL",
+        "license",
+        "open-source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "COPYING or LICENSE file with full GPL text",
+      "description": "Include GPL License in a project",
+      "scenario": "Include GPL License in a project",
+      "language": "text",
+      "tags": [
+        "GPL",
+        "license",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Any derivative work must also be distributed under the GPL.",
+      "description": "GPL License requires derivative works to be open-source",
+      "scenario": "GPL License requires derivative works to be open-source",
+      "language": "text",
+      "tags": [
+        "GPL",
+        "derivative",
+        "open-source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.",
+      "description": "Basic structure of an Apache License",
+      "scenario": "Basic structure of an Apache License",
+      "language": "text",
+      "tags": [
+        "Apache",
+        "license",
+        "open-source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LICENSE file with full Apache License 2.0 text",
+      "description": "Include Apache License in a project",
+      "scenario": "Include Apache License in a project",
+      "language": "text",
+      "tags": [
+        "Apache",
+        "license",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "The license includes a provision for patent rights.",
+      "description": "Apache License allows patent use",
+      "scenario": "Apache License allows patent use",
+      "language": "text",
+      "tags": [
+        "Apache",
+        "patent",
+        "rights"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+      "description": "Basic structure of a Creative Commons License",
+      "scenario": "Basic structure of a Creative Commons License",
+      "language": "text",
+      "tags": [
+        "Creative Commons",
+        "license",
+        "attribution"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LICENSE file or text in README with specific CC license details",
+      "description": "Include Creative Commons License in a project",
+      "scenario": "Include Creative Commons License in a project",
+      "language": "text",
+      "tags": [
+        "Creative Commons",
+        "license",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Some CC licenses include non-commercial clauses.",
+      "description": "Creative Commons licenses can restrict commercial use",
+      "scenario": "Creative Commons licenses can restrict commercial use",
+      "language": "text",
+      "tags": [
+        "Creative Commons",
+        "non-commercial",
+        "restriction"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+      "description": "Basic structure of a BSD License",
+      "scenario": "Basic structure of a BSD License",
+      "language": "text",
+      "tags": [
+        "BSD",
+        "license",
+        "open-source"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "LICENSE file with full BSD license text",
+      "description": "Include BSD License in a project",
+      "scenario": "Include BSD License in a project",
+      "language": "text",
+      "tags": [
+        "BSD",
+        "license",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "BSD licenses permit proprietary use of the software.",
+      "description": "BSD License allows proprietary use",
+      "scenario": "BSD License allows proprietary use",
+      "language": "text",
+      "tags": [
+        "BSD",
+        "proprietary",
+        "use"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

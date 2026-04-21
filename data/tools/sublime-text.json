@@ -1,0 +1,204 @@
+{
+  "title": "Sublime Text Cheat Sheet",
+  "slug": "sublime-text",
+  "description": "Quick reference for Sublime Text keyboard shortcuts and commands.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "Ctrl+Shift+P",
+      "description": "Open the command palette",
+      "scenario": "Open the command palette",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "command-palette",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+G",
+      "description": "Go to a specific line number",
+      "scenario": "Go to a specific line number",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "line",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+O",
+      "description": "Open a file",
+      "scenario": "Open a file",
+      "language": "text",
+      "tags": [
+        "navigation",
+        "file",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+D",
+      "description": "Duplicate the current line",
+      "scenario": "Duplicate the current line",
+      "language": "text",
+      "tags": [
+        "editing",
+        "duplicate",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+K",
+      "description": "Delete the current line",
+      "scenario": "Delete the current line",
+      "language": "text",
+      "tags": [
+        "editing",
+        "delete",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+/",
+      "description": "Comment or uncomment a line",
+      "scenario": "Comment or uncomment a line",
+      "language": "text",
+      "tags": [
+        "editing",
+        "comment",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+D",
+      "description": "Select all occurrences of the current word",
+      "scenario": "Select all occurrences of the current word",
+      "language": "text",
+      "tags": [
+        "selection",
+        "word",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+M",
+      "description": "Select everything between brackets",
+      "scenario": "Select everything between brackets",
+      "language": "text",
+      "tags": [
+        "selection",
+        "brackets",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+L",
+      "description": "Expand selection to line",
+      "scenario": "Expand selection to line",
+      "language": "text",
+      "tags": [
+        "selection",
+        "line",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+F",
+      "description": "Find a string in the file",
+      "scenario": "Find a string in the file",
+      "language": "text",
+      "tags": [
+        "find",
+        "string",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+H",
+      "description": "Find and replace a string",
+      "scenario": "Find and replace a string",
+      "language": "text",
+      "tags": [
+        "replace",
+        "string",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+F",
+      "description": "Find a string in all files",
+      "scenario": "Find a string in all files",
+      "language": "text",
+      "tags": [
+        "find",
+        "files",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Alt+Shift+2",
+      "description": "Split window into two columns",
+      "scenario": "Split window into two columns",
+      "language": "text",
+      "tags": [
+        "window",
+        "split",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Shift+N",
+      "description": "Move file to a new tab",
+      "scenario": "Move file to a new tab",
+      "language": "text",
+      "tags": [
+        "tab",
+        "move",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Tab",
+      "description": "Switch between tabs",
+      "scenario": "Switch between tabs",
+      "language": "text",
+      "tags": [
+        "tab",
+        "switch",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

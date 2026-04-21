@@ -1,0 +1,204 @@
+{
+  "title": "ADO.NET Cheat Sheet",
+  "slug": "adodotnet",
+  "description": "Quick reference for ADO.NET commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;",
+      "description": "Define a SQL Server connection string",
+      "scenario": "Define a SQL Server connection string",
+      "language": "text",
+      "tags": [
+        "connection",
+        "sql server",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Server=myServerAddress;Database=myDataBase;Trusted_Connection=True;",
+      "description": "Define a connection string for Windows Authentication",
+      "scenario": "Define a connection string for Windows Authentication",
+      "language": "text",
+      "tags": [
+        "windows authentication",
+        "connection",
+        "trusted"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;",
+      "description": "Define a connection string for MySQL",
+      "scenario": "Define a connection string for MySQL",
+      "language": "text",
+      "tags": [
+        "mysql",
+        "connection",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "using (SqlCommand command = new SqlCommand(queryString, connection)) {\n    command.ExecuteNonQuery();\n}",
+      "description": "Execute a SQL command using SqlCommand",
+      "scenario": "Execute a SQL command using SqlCommand",
+      "language": "csharp",
+      "tags": [
+        "sqlcommand",
+        "execute",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "using (SqlDataReader reader = command.ExecuteReader()) {\n    while (reader.Read()) {\n        Console.WriteLine(String.Format(\"{0}\", reader[0]));\n    }\n}",
+      "description": "Read data using SqlDataReader",
+      "scenario": "Read data using SqlDataReader",
+      "language": "csharp",
+      "tags": [
+        "sqldatareader",
+        "read",
+        "database"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "using (SqlCommand command = new SqlCommand(query, connection)) {\n    command.Parameters.AddWithValue(\"@param1\", value1);\n    command.ExecuteNonQuery();\n}",
+      "description": "Insert data using parameterized query",
+      "scenario": "Insert data using parameterized query",
+      "language": "csharp",
+      "tags": [
+        "insert",
+        "parameterized",
+        "sqlcommand"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SqlDataAdapter adapter = new SqlDataAdapter(queryString, connection);\nDataSet dataSet = new DataSet();\nadapter.Fill(dataSet);",
+      "description": "Fill a DataSet using SqlDataAdapter",
+      "scenario": "Fill a DataSet using SqlDataAdapter",
+      "language": "csharp",
+      "tags": [
+        "sqldataadapter",
+        "dataset",
+        "fill"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SqlDataAdapter adapter = new SqlDataAdapter(selectCommand, connection);\nSqlCommandBuilder builder = new SqlCommandBuilder(adapter);\nadapter.Update(dataSet);",
+      "description": "Update a DataSet using SqlDataAdapter",
+      "scenario": "Update a DataSet using SqlDataAdapter",
+      "language": "csharp",
+      "tags": [
+        "update",
+        "sqldataadapter",
+        "dataset"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "adapter.InsertCommand = new SqlCommand(insertCommandText, connection);\nadapter.InsertCommand.Parameters.Add(\"@param1\", SqlDbType.VarChar, 50, \"Column1\");",
+      "description": "Configure SqlDataAdapter with InsertCommand",
+      "scenario": "Configure SqlDataAdapter with InsertCommand",
+      "language": "csharp",
+      "tags": [
+        "insertcommand",
+        "sqldataadapter",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SqlTransaction transaction = connection.BeginTransaction();",
+      "description": "Begin a SQL transaction",
+      "scenario": "Begin a SQL transaction",
+      "language": "csharp",
+      "tags": [
+        "transaction",
+        "begin",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transaction.Commit();",
+      "description": "Commit a transaction",
+      "scenario": "Commit a transaction",
+      "language": "csharp",
+      "tags": [
+        "transaction",
+        "commit",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "transaction.Rollback();",
+      "description": "Rollback a transaction",
+      "scenario": "Rollback a transaction",
+      "language": "csharp",
+      "tags": [
+        "transaction",
+        "rollback",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "connection.Open();",
+      "description": "Open a SQL connection",
+      "scenario": "Open a SQL connection",
+      "language": "csharp",
+      "tags": [
+        "connection",
+        "open",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "connection.Close();",
+      "description": "Close a SQL connection",
+      "scenario": "Close a SQL connection",
+      "language": "csharp",
+      "tags": [
+        "connection",
+        "close",
+        "sql"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "if (connection.State == ConnectionState.Open) {\n    // Connection is open\n}",
+      "description": "Check if a connection is open",
+      "scenario": "Check if a connection is open",
+      "language": "csharp",
+      "tags": [
+        "connection",
+        "state",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

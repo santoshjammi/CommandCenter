@@ -1,0 +1,204 @@
+{
+  "title": "Illustrator Cheat Sheet",
+  "slug": "illustrator",
+  "description": "Essential shortcuts and workflows for Adobe Illustrator.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "Undo the last action",
+      "language": "text",
+      "tags": [
+        "undo",
+        "navigation",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+Z",
+      "description": "Redo the last undone action",
+      "scenario": "Redo the last undone action",
+      "language": "text",
+      "tags": [
+        "redo",
+        "navigation",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl++",
+      "description": "Zoom in on the canvas",
+      "scenario": "Zoom in on the canvas",
+      "language": "text",
+      "tags": [
+        "zoom",
+        "navigation",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > New",
+      "description": "Create a new document",
+      "scenario": "Create a new document",
+      "language": "text",
+      "tags": [
+        "file",
+        "new",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Open",
+      "description": "Open an existing document",
+      "scenario": "Open an existing document",
+      "language": "text",
+      "tags": [
+        "file",
+        "open",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "File > Save",
+      "description": "Save the current document",
+      "scenario": "Save the current document",
+      "language": "text",
+      "tags": [
+        "file",
+        "save",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+A",
+      "description": "Select all objects on the canvas",
+      "scenario": "Select all objects on the canvas",
+      "language": "text",
+      "tags": [
+        "select",
+        "all",
+        "objects"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+A",
+      "description": "Deselect all selected objects",
+      "scenario": "Deselect all selected objects",
+      "language": "text",
+      "tags": [
+        "deselect",
+        "objects",
+        "selection"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl+Alt+[",
+      "description": "Select the next object behind the current selection",
+      "scenario": "Select the next object behind the current selection",
+      "language": "text",
+      "tags": [
+        "select",
+        "object",
+        "behind"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Layer > New > Layer",
+      "description": "Create a new layer",
+      "scenario": "Create a new layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "new",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Layer > Lock",
+      "description": "Lock the selected layer",
+      "scenario": "Lock the selected layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "lock",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Layer > Hide",
+      "description": "Hide the selected layer",
+      "scenario": "Hide the selected layer",
+      "language": "text",
+      "tags": [
+        "layer",
+        "hide",
+        "visibility"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Type > Create Outlines",
+      "description": "Create a new text box",
+      "scenario": "Create a new text box",
+      "language": "text",
+      "tags": [
+        "text",
+        "create",
+        "box"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+>",
+      "description": "Increase font size of selected text",
+      "scenario": "Increase font size of selected text",
+      "language": "text",
+      "tags": [
+        "text",
+        "font",
+        "increase"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Shift+Ctrl+<",
+      "description": "Decrease font size of selected text",
+      "scenario": "Decrease font size of selected text",
+      "language": "text",
+      "tags": [
+        "text",
+        "font",
+        "decrease"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}

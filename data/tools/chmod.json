@@ -1,0 +1,165 @@
+{
+  "title": "Chmod Cheat Sheet",
+  "slug": "chmod",
+  "description": "Essential chmod commands for managing file permissions.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "chmod u+rwx filename",
+      "description": "Change file permissions to read, write, and execute for owner",
+      "scenario": "Change file permissions to read, write, and execute for owner",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "owner",
+        "rwx"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod g-x filename",
+      "description": "Remove execute permission for group",
+      "scenario": "Remove execute permission for group",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "group",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod o=rw filename",
+      "description": "Set read and write permissions for others",
+      "scenario": "Set read and write permissions for others",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "others",
+        "read-write"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 755 filename",
+      "description": "Set permissions to 755 (rwxr-xr-x)",
+      "scenario": "Set permissions to 755 (rwxr-xr-x)",
+      "language": "bash",
+      "tags": [
+        "numeric",
+        "permissions",
+        "755"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 644 filename",
+      "description": "Set permissions to 644 (rw-r--r--)",
+      "scenario": "Set permissions to 644 (rw-r--r--)",
+      "language": "bash",
+      "tags": [
+        "numeric",
+        "permissions",
+        "644"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 700 filename",
+      "description": "Set permissions to 700 (rwx------)",
+      "scenario": "Set permissions to 700 (rwx------)",
+      "language": "bash",
+      "tags": [
+        "numeric",
+        "permissions",
+        "700"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod -R u+X directory",
+      "description": "Recursively add execute permission for directories",
+      "scenario": "Recursively add execute permission for directories",
+      "language": "bash",
+      "tags": [
+        "recursive",
+        "directories",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find directory -type f -exec chmod 600 {} \\;",
+      "description": "Recursively set permissions to 600 for all files",
+      "scenario": "Recursively set permissions to 600 for all files",
+      "language": "bash",
+      "tags": [
+        "recursive",
+        "files",
+        "permissions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "find directory -type d -exec chmod 755 {} \\;",
+      "description": "Recursively set permissions to 755 for all directories",
+      "scenario": "Recursively set permissions to 755 for all directories",
+      "language": "bash",
+      "tags": [
+        "recursive",
+        "directories",
+        "permissions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod u+s filename",
+      "description": "Set the setuid bit",
+      "scenario": "Set the setuid bit",
+      "language": "bash",
+      "tags": [
+        "special",
+        "setuid",
+        "permissions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod g+s directory",
+      "description": "Set the setgid bit",
+      "scenario": "Set the setgid bit",
+      "language": "bash",
+      "tags": [
+        "special",
+        "setgid",
+        "permissions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "chmod +t directory",
+      "description": "Set the sticky bit",
+      "scenario": "Set the sticky bit",
+      "language": "bash",
+      "tags": [
+        "special",
+        "sticky",
+        "permissions"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    }
+  ]
+}
