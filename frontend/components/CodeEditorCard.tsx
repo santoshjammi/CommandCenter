@@ -133,8 +133,7 @@ export function CodeEditorCard({
 
   // ── Shared action-button classes ─────────────────────────────────────────
   const btnBase =
-    "inline-flex items-center gap-1.5 h-[26px] px-2.5 rounded-lg " +
-    "text-[11px] font-semibold tracking-wide " +
+    "inline-flex items-center justify-center h-[28px] w-[28px] rounded-lg " +
     "border transition-all duration-100 " +
     "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9fe870] focus-visible:ring-offset-1 focus-visible:ring-offset-[#1a1a1c] " +
     "active:scale-95 select-none";
@@ -235,7 +234,6 @@ export function CodeEditorCard({
             className={copied ? btnSuccess : btnIdle}
           >
             {copied ? <IconCheck /> : <IconCopy />}
-            {copied ? "Copied" : "Copy"}
           </button>
 
           {/* Docs button / link */}
@@ -248,7 +246,6 @@ export function CodeEditorCard({
               className={btnIdle}
             >
               <IconExternalLink />
-              Docs
             </a>
           ) : (
             <button
@@ -259,7 +256,6 @@ export function CodeEditorCard({
               className={btnDisabled}
             >
               <IconExternalLink />
-              Docs
             </button>
           )}
         </div>
