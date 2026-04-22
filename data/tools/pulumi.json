@@ -1,0 +1,165 @@
+{
+  "title": "Pulumi Cheat Sheet",
+  "slug": "pulumi",
+  "description": "Essential Pulumi CLI commands for infrastructure as code.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "pulumi new aws-python",
+      "description": "Create a new Pulumi project with AWS Python template",
+      "scenario": "Use when starting a new infrastructure project on AWS using Python.",
+      "language": "bash",
+      "tags": [
+        "pulumi",
+        "aws",
+        "python"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_new/"
+    },
+    {
+      "command": "pulumi up",
+      "description": "Deploy the infrastructure defined in the Pulumi program",
+      "scenario": "Use to apply changes to your cloud infrastructure.",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "infrastructure",
+        "cloud"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_up/"
+    },
+    {
+      "command": "pulumi destroy",
+      "description": "Tear down all resources in the current stack",
+      "scenario": "Use to clean up resources and avoid costs when they are no longer needed.",
+      "language": "bash",
+      "tags": [
+        "destroy",
+        "cleanup",
+        "resources"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_destroy/"
+    },
+    {
+      "command": "pulumi stack select dev",
+      "description": "Select the 'dev' stack for operations",
+      "scenario": "Use to switch between different deployment environments like dev, test, and prod.",
+      "language": "bash",
+      "tags": [
+        "stack",
+        "environment",
+        "select"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_stack_select/"
+    },
+    {
+      "command": "pulumi config set aws:region us-west-2",
+      "description": "Set the AWS region for the current stack",
+      "scenario": "Use to specify the AWS region for resource deployment.",
+      "language": "bash",
+      "tags": [
+        "config",
+        "aws",
+        "region"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_config_set/"
+    },
+    {
+      "command": "pulumi preview",
+      "description": "Preview changes to be applied to the infrastructure",
+      "scenario": "Use to see what changes will be made before deploying them.",
+      "language": "bash",
+      "tags": [
+        "preview",
+        "changes",
+        "infrastructure"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_preview/"
+    },
+    {
+      "command": "pulumi login",
+      "description": "Log in to the Pulumi service",
+      "scenario": "Use to authenticate with the Pulumi service to manage stacks and resources.",
+      "language": "bash",
+      "tags": [
+        "login",
+        "authenticate",
+        "pulumi"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_login/"
+    },
+    {
+      "command": "pulumi stack init dev",
+      "description": "Initialize a new stack named 'dev'",
+      "scenario": "Use to create a new stack for managing separate environments.",
+      "language": "bash",
+      "tags": [
+        "stack",
+        "init",
+        "environment"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_stack_init/"
+    },
+    {
+      "command": "pulumi config",
+      "description": "View the current configuration settings",
+      "scenario": "Use to list all configuration settings for the current stack.",
+      "language": "bash",
+      "tags": [
+        "config",
+        "settings",
+        "view"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_config/"
+    },
+    {
+      "command": "pulumi refresh",
+      "description": "Refresh the state of the stack's resources",
+      "scenario": "Use to update the Pulumi stack with the current state of the cloud resources.",
+      "language": "bash",
+      "tags": [
+        "refresh",
+        "state",
+        "resources"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_refresh/"
+    },
+    {
+      "command": "pulumi cancel",
+      "description": "Cancel an ongoing update operation",
+      "scenario": "Use to stop a running update if something goes wrong.",
+      "language": "bash",
+      "tags": [
+        "cancel",
+        "update",
+        "operation"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_cancel/"
+    },
+    {
+      "command": "pulumi logs",
+      "description": "Show logs for the current stack",
+      "scenario": "Use to view logs related to the stack's operations and resources.",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "stack",
+        "view"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.pulumi.com/docs/reference/cli/pulumi_logs/"
+    }
+  ]
+}

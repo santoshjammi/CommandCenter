@@ -1,0 +1,165 @@
+{
+  "title": "mod_include Cheat Sheet",
+  "slug": "mod-include",
+  "description": "Essential commands and configurations for using mod_include in Apache.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "LoadModule include_module modules/mod_include.so",
+      "description": "Load the mod_include module in Apache configuration.",
+      "scenario": "Use when enabling server-side includes (SSI) in Apache.",
+      "language": "text",
+      "tags": [
+        "apache",
+        "ssi",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_include.html"
+    },
+    {
+      "command": "Options +Includes",
+      "description": "Enable server-side includes in a directory.",
+      "scenario": "Use in a directory's .htaccess or Apache config to allow SSI.",
+      "language": "text",
+      "tags": [
+        "apache",
+        "ssi",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/core.html#options"
+    },
+    {
+      "command": "AddType text/html .shtml",
+      "description": "Set the MIME type for .shtml files to text/html.",
+      "scenario": "Use to ensure .shtml files are processed as HTML for SSI.",
+      "language": "text",
+      "tags": [
+        "apache",
+        "ssi",
+        "mime"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_mime.html#addtype"
+    },
+    {
+      "command": "AddOutputFilter INCLUDES .shtml",
+      "description": "Apply the INCLUDES filter to .shtml files for SSI processing.",
+      "scenario": "Use to enable SSI processing on .shtml files.",
+      "language": "text",
+      "tags": [
+        "apache",
+        "ssi",
+        "filter"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_include.html#addoutputfilter"
+    },
+    {
+      "command": "<Directory \"/var/www/html\">\n    Options +Includes\n    AllowOverride None\n    Require all granted\n</Directory>",
+      "description": "Example Apache configuration to enable SSI in a specific directory.",
+      "scenario": "Use to configure SSI for a specific directory in Apache.",
+      "language": "text",
+      "tags": [
+        "apache",
+        "ssi",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/core.html#directory"
+    },
+    {
+      "command": "<!--#include virtual=\"/footer.html\" -->",
+      "description": "Include another file within an SSI-enabled HTML file.",
+      "scenario": "Use to include common elements like footers or headers in HTML files.",
+      "language": "text",
+      "tags": [
+        "ssi",
+        "html",
+        "include"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_include.html"
+    },
+    {
+      "command": "<!--#echo var=\"DATE_LOCAL\" -->",
+      "description": "Echo the current local date and time in an SSI-enabled file.",
+      "scenario": "Use to display dynamic date and time in HTML files.",
+      "language": "text",
+      "tags": [
+        "ssi",
+        "date",
+        "echo"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_include.html"
+    },
+    {
+      "command": "<!--#set var=\"name\" value=\"world\" -->",
+      "description": "Set a variable in an SSI-enabled file.",
+      "scenario": "Use to define variables for use within SSI-enabled HTML.",
+      "language": "text",
+      "tags": [
+        "ssi",
+        "variable",
+        "set"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_include.html"
+    },
+    {
+      "command": "<!--#if expr=\"${REQUEST_METHOD} = 'POST'\" -->\nContent for POST requests\n<!--#endif -->",
+      "description": "Conditional SSI to display content based on request method.",
+      "scenario": "Use to serve different content based on HTTP request method.",
+      "language": "text",
+      "tags": [
+        "ssi",
+        "conditional",
+        "http"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_include.html"
+    },
+    {
+      "command": "IncludeOptional conf.d/*.conf",
+      "description": "Include configuration files from a directory if they exist.",
+      "scenario": "Use to modularize Apache configuration files.",
+      "language": "text",
+      "tags": [
+        "apache",
+        "configuration",
+        "include"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/core.html#includeoptional"
+    },
+    {
+      "command": "<IfModule mod_include.c>\n    AddType text/html .shtml\n    AddOutputFilter INCLUDES .shtml\n</IfModule>",
+      "description": "Conditional configuration for SSI if mod_include is available.",
+      "scenario": "Use to conditionally apply SSI settings if mod_include is loaded.",
+      "language": "text",
+      "tags": [
+        "apache",
+        "conditional",
+        "ssi"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/core.html#ifmodule"
+    },
+    {
+      "command": "<!--#config timefmt=\"%A, %d-%b-%Y %H:%M:%S %Z\" -->",
+      "description": "Set the time format for SSI date output.",
+      "scenario": "Use to customize the display format of dates in SSI.",
+      "language": "text",
+      "tags": [
+        "ssi",
+        "time",
+        "format"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_include.html"
+    }
+  ]
+}

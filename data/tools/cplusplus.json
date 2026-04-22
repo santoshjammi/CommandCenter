@@ -1,0 +1,178 @@
+{
+  "title": "C++ Cheat Sheet",
+  "slug": "cplusplus",
+  "description": "Essential C++ commands and syntax for software engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "g++ -o output source.cpp",
+      "description": "Compile a C++ source file into an executable.",
+      "scenario": "Use when you need to compile a C++ program from source code.",
+      "language": "bash",
+      "tags": [
+        "compile",
+        "g++",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": "https://gcc.gnu.org/onlinedocs/gcc/Invoking-G++.html"
+    },
+    {
+      "command": "./output",
+      "description": "Run the compiled C++ executable.",
+      "scenario": "Use after compiling your C++ program to execute it.",
+      "language": "bash",
+      "tags": [
+        "execute",
+        "run",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "int main() { return 0; }",
+      "description": "Basic structure of a C++ program.",
+      "scenario": "Use as a starting point for any C++ application.",
+      "language": "cpp",
+      "tags": [
+        "main",
+        "structure",
+        "program"
+      ],
+      "is_curated": true,
+      "man_page": "https://en.cppreference.com/w/cpp/language/main_function"
+    },
+    {
+      "command": "std::cout << \"Hello, World!\" << std::endl;",
+      "description": "Print a message to the console.",
+      "scenario": "Use to output text to the console in a C++ program.",
+      "language": "cpp",
+      "tags": [
+        "output",
+        "print",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": "https://en.cppreference.com/w/cpp/io/cout"
+    },
+    {
+      "command": "std::vector<int> numbers;",
+      "description": "Declare a vector of integers.",
+      "scenario": "Use when you need a dynamic array to store integers.",
+      "language": "cpp",
+      "tags": [
+        "vector",
+        "container",
+        "dynamic"
+      ],
+      "is_curated": true,
+      "man_page": "https://en.cppreference.com/w/cpp/container/vector"
+    },
+    {
+      "command": "std::sort(numbers.begin(), numbers.end());",
+      "description": "Sort a vector in ascending order.",
+      "scenario": "Use to sort elements in a vector.",
+      "language": "cpp",
+      "tags": [
+        "sort",
+        "algorithm",
+        "vector"
+      ],
+      "is_curated": true,
+      "man_page": "https://en.cppreference.com/w/cpp/algorithm/sort"
+    },
+    {
+      "command": "std::string name = \"John\";",
+      "description": "Declare and initialize a string variable.",
+      "scenario": "Use to store and manipulate text in C++.",
+      "language": "cpp",
+      "tags": [
+        "string",
+        "variable",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": "https://en.cppreference.com/w/cpp/string/basic_string"
+    },
+    {
+      "command": "for (int i = 0; i < 10; ++i) { std::cout << i << std::endl; }",
+      "description": "Loop from 0 to 9 and print each number.",
+      "scenario": "Use to iterate over a range of numbers.",
+      "language": "cpp",
+      "tags": [
+        "loop",
+        "iteration",
+        "for"
+      ],
+      "is_curated": false,
+      "man_page": "https://en.cppreference.com/w/cpp/language/for"
+    },
+    {
+      "command": "std::map<std::string, int> ageMap;",
+      "description": "Declare a map with string keys and integer values.",
+      "scenario": "Use to associate keys with values for quick lookup.",
+      "language": "cpp",
+      "tags": [
+        "map",
+        "associative",
+        "container"
+      ],
+      "is_curated": false,
+      "man_page": "https://en.cppreference.com/w/cpp/container/map"
+    },
+    {
+      "command": "ageMap[\"Alice\"] = 30;",
+      "description": "Insert a key-value pair into a map.",
+      "scenario": "Use to add or update entries in a map.",
+      "language": "cpp",
+      "tags": [
+        "map",
+        "insert",
+        "key-value"
+      ],
+      "is_curated": false,
+      "man_page": "https://en.cppreference.com/w/cpp/container/map/operator_at"
+    },
+    {
+      "command": "std::ifstream file(\"data.txt\");",
+      "description": "Open a file for reading.",
+      "scenario": "Use to read data from a file.",
+      "language": "cpp",
+      "tags": [
+        "file",
+        "read",
+        "ifstream"
+      ],
+      "is_curated": false,
+      "man_page": "https://en.cppreference.com/w/cpp/io/basic_ifstream"
+    },
+    {
+      "command": "std::getline(file, line);",
+      "description": "Read a line from a file into a string.",
+      "scenario": "Use to read text line-by-line from a file.",
+      "language": "cpp",
+      "tags": [
+        "file",
+        "read",
+        "getline"
+      ],
+      "is_curated": false,
+      "man_page": "https://en.cppreference.com/w/cpp/string/basic_string/getline"
+    },
+    {
+      "command": "try { /* code */ } catch (const std::exception& e) { std::cerr << e.what() << std::endl; }",
+      "description": "Basic exception handling structure.",
+      "scenario": "Use to handle exceptions and errors gracefully.",
+      "language": "cpp",
+      "tags": [
+        "exception",
+        "try-catch",
+        "error"
+      ],
+      "is_curated": false,
+      "man_page": "https://en.cppreference.com/w/cpp/language/try_catch"
+    }
+  ]
+}

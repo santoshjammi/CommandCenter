@@ -1,0 +1,165 @@
+{
+  "title": "mod_perl Cheat Sheet",
+  "slug": "mod-perl",
+  "description": "Essential commands and configurations for mod_perl usage.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "sudo a2enmod perl",
+      "description": "Enable mod_perl module in Apache",
+      "scenario": "Use when you need to activate mod_perl for your Apache server.",
+      "language": "bash",
+      "tags": [
+        "apache",
+        "mod_perl",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/2.4/mod/mod_perl.html"
+    },
+    {
+      "command": "sudo systemctl restart apache2",
+      "description": "Restart Apache server",
+      "scenario": "Use after enabling mod_perl to apply changes.",
+      "language": "bash",
+      "tags": [
+        "apache",
+        "restart",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": "https://manpages.ubuntu.com/manpages/bionic/man8/systemctl.8.html"
+    },
+    {
+      "command": "<Location /perl>\n    SetHandler perl-script\n    PerlResponseHandler My::Perl::Module\n</Location>",
+      "description": "Configure a Perl handler for a specific location",
+      "scenario": "Use to define a Perl script handler for a specific URL path.",
+      "language": "apache",
+      "tags": [
+        "apache",
+        "mod_perl",
+        "handler"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/http.html"
+    },
+    {
+      "command": "PerlSwitches -wT",
+      "description": "Enable warnings and taint mode for Perl scripts",
+      "scenario": "Use to enforce safe coding practices in your Perl scripts.",
+      "language": "apache",
+      "tags": [
+        "perl",
+        "warnings",
+        "security"
+      ],
+      "is_curated": false,
+      "man_page": "https://perldoc.perl.org/perlrun#-T"
+    },
+    {
+      "command": "PerlModule My::Perl::Module",
+      "description": "Load a Perl module at server startup",
+      "scenario": "Use to preload a Perl module for performance optimization.",
+      "language": "apache",
+      "tags": [
+        "perl",
+        "module",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlModule_"
+    },
+    {
+      "command": "PerlRequire /path/to/startup.pl",
+      "description": "Execute a Perl script at server startup",
+      "scenario": "Use to run initialization code when the server starts.",
+      "language": "apache",
+      "tags": [
+        "perl",
+        "startup",
+        "initialization"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlRequire_"
+    },
+    {
+      "command": "PerlSetVar MyVar 'value'",
+      "description": "Set a Perl variable for use in scripts",
+      "scenario": "Use to define custom variables accessible in your Perl scripts.",
+      "language": "apache",
+      "tags": [
+        "perl",
+        "variable",
+        "configuration"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlSetVar_"
+    },
+    {
+      "command": "PerlResponseHandler Apache2::Registry",
+      "description": "Run Perl scripts under mod_perl's Registry mode",
+      "scenario": "Use to execute Perl scripts with mod_perl's Registry handler for faster execution.",
+      "language": "apache",
+      "tags": [
+        "perl",
+        "registry",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/http.html#C_Apache2__Registry_"
+    },
+    {
+      "command": "<FilesMatch \\.pl$>\n    SetHandler perl-script\n    PerlResponseHandler ModPerl::Registry\n    Options +ExecCGI\n    PerlOptions +ParseHeaders\n</FilesMatch>",
+      "description": "Configure mod_perl to handle .pl files",
+      "scenario": "Use to ensure .pl files are executed by mod_perl.",
+      "language": "apache",
+      "tags": [
+        "perl",
+        "files",
+        "execution"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/http.html#C_ModPerl__Registry_"
+    },
+    {
+      "command": "PerlOptions +Parent",
+      "description": "Enable parent-child process model for mod_perl",
+      "scenario": "Use to improve performance by sharing memory between processes.",
+      "language": "apache",
+      "tags": [
+        "performance",
+        "process",
+        "mod_perl"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlOptions_"
+    },
+    {
+      "command": "PerlCleanupHandler My::Cleanup::Module",
+      "description": "Set a cleanup handler to run after requests",
+      "scenario": "Use to perform cleanup tasks after a request is processed.",
+      "language": "apache",
+      "tags": [
+        "cleanup",
+        "handler",
+        "mod_perl"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/http.html#C_PerlCleanupHandler_"
+    },
+    {
+      "command": "PerlPostReadRequestHandler My::PostRead::Module",
+      "description": "Set a handler to run after the request is read",
+      "scenario": "Use to process data immediately after a request is read.",
+      "language": "apache",
+      "tags": [
+        "handler",
+        "request",
+        "mod_perl"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/http.html#C_PerlPostReadRequestHandler_"
+    }
+  ]
+}

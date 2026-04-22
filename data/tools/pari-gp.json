@@ -1,0 +1,191 @@
+{
+  "title": "PARI/GP Cheat Sheet",
+  "slug": "pari-gp",
+  "description": "Essential commands for using PARI/GP effectively.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "\\p 28",
+      "description": "Set the precision to 28 significant digits",
+      "scenario": "Use when you need more precision in your calculations.",
+      "language": "text",
+      "tags": [
+        "precision",
+        "settings",
+        "digits"
+      ],
+      "is_curated": true,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/General_functions.html#precision"
+    },
+    {
+      "command": "factor(123456)",
+      "description": "Factorize an integer",
+      "scenario": "Use when you need to find the prime factors of a number.",
+      "language": "text",
+      "tags": [
+        "factorization",
+        "math",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/Arithmetic_functions.html#factor"
+    },
+    {
+      "command": "solve(x=0, 1, x^2 - 2)",
+      "description": "Solve an equation numerically",
+      "scenario": "Use when you need to find numerical solutions to equations.",
+      "language": "text",
+      "tags": [
+        "solve",
+        "equation",
+        "numerical"
+      ],
+      "is_curated": true,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/General_functions.html#solve"
+    },
+    {
+      "command": "plot(x=-2, 2, sin(x))",
+      "description": "Plot a function over a range",
+      "scenario": "Use when you need to visualize a function.",
+      "language": "text",
+      "tags": [
+        "plot",
+        "visualization",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/General_functions.html#plot"
+    },
+    {
+      "command": "\\r myscript.gp",
+      "description": "Read and execute a script file",
+      "scenario": "Use when you need to run a predefined set of commands.",
+      "language": "text",
+      "tags": [
+        "script",
+        "execute",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/GP_Commands.html#r"
+    },
+    {
+      "command": "polroots(x^3 - 2*x + 1)",
+      "description": "Find roots of a polynomial",
+      "scenario": "Use when you need to find the roots of a polynomial equation.",
+      "language": "text",
+      "tags": [
+        "roots",
+        "polynomial",
+        "equation"
+      ],
+      "is_curated": true,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/Polynomials.html#polroots"
+    },
+    {
+      "command": "\\q",
+      "description": "Quit the PARI/GP session",
+      "scenario": "Use when you need to exit the PARI/GP environment.",
+      "language": "text",
+      "tags": [
+        "quit",
+        "exit",
+        "session"
+      ],
+      "is_curated": true,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/GP_Commands.html#q"
+    },
+    {
+      "command": "\\g 5",
+      "description": "Set the default print precision to 5 digits",
+      "scenario": "Use when you want to limit the output precision for readability.",
+      "language": "text",
+      "tags": [
+        "precision",
+        "output",
+        "settings"
+      ],
+      "is_curated": false,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/General_functions.html#precision"
+    },
+    {
+      "command": "ellinit([0,0,0,-1,0])",
+      "description": "Initialize an elliptic curve",
+      "scenario": "Use when you need to perform operations on an elliptic curve.",
+      "language": "text",
+      "tags": [
+        "elliptic",
+        "curve",
+        "math"
+      ],
+      "is_curated": false,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/Elliptic_curves.html#ellinit"
+    },
+    {
+      "command": "\\l myscript.gp",
+      "description": "Load a script file",
+      "scenario": "Use when you need to load and execute commands from a file.",
+      "language": "text",
+      "tags": [
+        "load",
+        "script",
+        "file"
+      ],
+      "is_curated": false,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/GP_Commands.html#l"
+    },
+    {
+      "command": "default(realprecision, 38)",
+      "description": "Set the default real precision to 38 digits",
+      "scenario": "Use when you need higher precision for real number calculations.",
+      "language": "text",
+      "tags": [
+        "precision",
+        "real",
+        "settings"
+      ],
+      "is_curated": false,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/General_functions.html#default"
+    },
+    {
+      "command": "\\v",
+      "description": "Display the version of PARI/GP",
+      "scenario": "Use when you need to check the installed version of PARI/GP.",
+      "language": "text",
+      "tags": [
+        "version",
+        "check",
+        "info"
+      ],
+      "is_curated": false,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/GP_Commands.html#v"
+    },
+    {
+      "command": "matdet([1,2;3,4])",
+      "description": "Calculate the determinant of a matrix",
+      "scenario": "Use when you need to compute the determinant of a matrix.",
+      "language": "text",
+      "tags": [
+        "matrix",
+        "determinant",
+        "math"
+      ],
+      "is_curated": false,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/Linear_algebra.html#matdet"
+    },
+    {
+      "command": "\\?",
+      "description": "Access help for PARI/GP commands",
+      "scenario": "Use when you need help or documentation on commands.",
+      "language": "text",
+      "tags": [
+        "help",
+        "documentation",
+        "commands"
+      ],
+      "is_curated": true,
+      "man_page": "https://pari.math.u-bordeaux.fr/dochtml/html/GP_Commands.html#question"
+    }
+  ]
+}

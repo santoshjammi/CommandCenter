@@ -1,0 +1,191 @@
+{
+  "title": "Node.js Cheat Sheet",
+  "slug": "node-js",
+  "description": "Essential Node.js CLI commands and code snippets for developers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "node -v",
+      "description": "Displays the installed Node.js version",
+      "scenario": "Use to verify the installed version of Node.js on your system.",
+      "language": "bash",
+      "tags": [
+        "version",
+        "node",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://nodejs.org/api/cli.html#cli_node_v"
+    },
+    {
+      "command": "npm init -y",
+      "description": "Initializes a new Node.js project with default settings",
+      "scenario": "Quickly set up a new Node.js project with a package.json file.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-init"
+    },
+    {
+      "command": "node app.js",
+      "description": "Runs a Node.js application",
+      "scenario": "Execute your Node.js script or application.",
+      "language": "bash",
+      "tags": [
+        "run",
+        "script",
+        "node"
+      ],
+      "is_curated": true,
+      "man_page": "https://nodejs.org/api/cli.html#cli_node"
+    },
+    {
+      "command": "npm install express",
+      "description": "Installs the Express framework",
+      "scenario": "Add Express to your Node.js project for building web applications.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "express",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/starter/installing.html"
+    },
+    {
+      "command": "npm start",
+      "description": "Runs the start script defined in package.json",
+      "scenario": "Start your Node.js application using the predefined start script.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "start",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-start"
+    },
+    {
+      "command": "npm install",
+      "description": "Installs all dependencies listed in package.json",
+      "scenario": "Set up your project by installing all required dependencies.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "install",
+        "dependencies"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-install"
+    },
+    {
+      "command": "npm install -g nodemon",
+      "description": "Globally installs Nodemon for monitoring changes",
+      "scenario": "Use Nodemon to automatically restart your Node.js application on file changes.",
+      "language": "bash",
+      "tags": [
+        "nodemon",
+        "monitor",
+        "global"
+      ],
+      "is_curated": false,
+      "man_page": "https://nodemon.io/"
+    },
+    {
+      "command": "node --inspect app.js",
+      "description": "Runs a Node.js app with debugging enabled",
+      "scenario": "Debug your Node.js application using Chrome DevTools.",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "inspect",
+        "node"
+      ],
+      "is_curated": false,
+      "man_page": "https://nodejs.org/en/docs/guides/debugging-getting-started/"
+    },
+    {
+      "command": "npm run build",
+      "description": "Runs the build script defined in package.json",
+      "scenario": "Build your Node.js project using a custom build script.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "build",
+        "script"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-run-script"
+    },
+    {
+      "command": "npm outdated",
+      "description": "Lists outdated packages in your project",
+      "scenario": "Check which dependencies need to be updated in your Node.js project.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "outdated",
+        "dependencies"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-outdated"
+    },
+    {
+      "command": "npm update",
+      "description": "Updates all packages to the latest version",
+      "scenario": "Upgrade your project's dependencies to their latest versions.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "update",
+        "dependencies"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-update"
+    },
+    {
+      "command": "npm uninstall package-name",
+      "description": "Removes a package from your project",
+      "scenario": "Delete a package and its dependencies from your Node.js project.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "uninstall",
+        "remove"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-uninstall"
+    },
+    {
+      "command": "npm list",
+      "description": "Lists installed packages and their dependencies",
+      "scenario": "View all installed packages and their dependency tree in your project.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "list",
+        "dependencies"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-list"
+    },
+    {
+      "command": "node -e \"console.log('Hello, World!')\"",
+      "description": "Executes a Node.js script from the command line",
+      "scenario": "Quickly run a small Node.js script without creating a file.",
+      "language": "bash",
+      "tags": [
+        "node",
+        "script",
+        "cli"
+      ],
+      "is_curated": false,
+      "man_page": "https://nodejs.org/api/cli.html#cli_node_e_code"
+    }
+  ]
+}

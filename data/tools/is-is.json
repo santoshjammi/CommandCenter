@@ -1,0 +1,165 @@
+{
+  "title": "IS-IS Cheat Sheet",
+  "slug": "is-is",
+  "description": "Essential IS-IS commands for network configuration and troubleshooting.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "show isis adjacency",
+      "description": "Displays IS-IS adjacency information.",
+      "scenario": "Use to verify IS-IS neighbor relationships.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "adjacency",
+        "network"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s1.html#wp1037139"
+    },
+    {
+      "command": "show isis database",
+      "description": "Shows the IS-IS link-state database.",
+      "scenario": "Use to check the IS-IS topology database for inconsistencies.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "database",
+        "topology"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s1.html#wp1037142"
+    },
+    {
+      "command": "show clns neighbors",
+      "description": "Displays CLNS neighbors for IS-IS.",
+      "scenario": "Use to view connected IS-IS CLNS neighbors.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "CLNS",
+        "neighbors"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s1.html#wp1037136"
+    },
+    {
+      "command": "show isis spf-log",
+      "description": "Shows IS-IS SPF calculation log.",
+      "scenario": "Use to troubleshoot IS-IS SPF issues.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "SPF",
+        "log"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s1.html#wp1037151"
+    },
+    {
+      "command": "show isis interface",
+      "description": "Displays IS-IS interface information.",
+      "scenario": "Use to verify IS-IS interface settings and status.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "interface",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s1.html#wp1037145"
+    },
+    {
+      "command": "show isis route",
+      "description": "Displays the IS-IS routing table.",
+      "scenario": "Use to verify IS-IS routes in the routing table.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "route",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s1.html#wp1037148"
+    },
+    {
+      "command": "debug isis adjacencies",
+      "description": "Debugs IS-IS adjacency formation.",
+      "scenario": "Use to troubleshoot issues with IS-IS neighbor formation.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "debug",
+        "adjacency"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s2.html#wp1037174"
+    },
+    {
+      "command": "debug isis packets",
+      "description": "Debugs IS-IS packet processing.",
+      "scenario": "Use to troubleshoot IS-IS packet-related issues.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "debug",
+        "packets"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s2.html#wp1037177"
+    },
+    {
+      "command": "clear isis counters",
+      "description": "Clears IS-IS counters.",
+      "scenario": "Use to reset IS-IS counters for accurate troubleshooting.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "clear",
+        "counters"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/command/irs-cr-book/irs-s2.html#wp1037168"
+    },
+    {
+      "command": "isis metric-style wide",
+      "description": "Configures IS-IS to use wide metrics.",
+      "scenario": "Use to enable wide metrics for IS-IS to support larger networks.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "metric",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/configuration/xe-16/irs-xe-16-book/irs-config-isis.html#wp1040188"
+    },
+    {
+      "command": "isis authentication mode md5",
+      "description": "Enables MD5 authentication for IS-IS.",
+      "scenario": "Use to secure IS-IS routing updates with MD5 authentication.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "authentication",
+        "security"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/configuration/xe-16/irs-xe-16-book/irs-config-isis.html#wp1040194"
+    },
+    {
+      "command": "isis hello-interval 10",
+      "description": "Sets the IS-IS hello interval to 10 seconds.",
+      "scenario": "Use to adjust the frequency of IS-IS hello packets for faster convergence.",
+      "language": "bash",
+      "tags": [
+        "IS-IS",
+        "hello",
+        "interval"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_isis/configuration/xe-16/irs-xe-16-book/irs-config-isis.html#wp1040200"
+    }
+  ]
+}

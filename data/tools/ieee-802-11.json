@@ -1,0 +1,178 @@
+{
+  "title": "IEEE 802.11 Cheat Sheet",
+  "slug": "ieee-802-11",
+  "description": "Essential commands and configurations for IEEE 802.11 wireless networking.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "iwconfig",
+      "description": "Display or configure wireless network interface parameters.",
+      "scenario": "Use when you need to view or change wireless settings on Linux.",
+      "language": "bash",
+      "tags": [
+        "wireless",
+        "network",
+        "linux"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man8/iwconfig.8.html"
+    },
+    {
+      "command": "iwlist scanning",
+      "description": "Scan for available wireless networks.",
+      "scenario": "Use to find nearby Wi-Fi networks and their details.",
+      "language": "bash",
+      "tags": [
+        "scan",
+        "network",
+        "wifi"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man8/iwlist.8.html"
+    },
+    {
+      "command": "nmcli device wifi list",
+      "description": "List available Wi-Fi networks using NetworkManager.",
+      "scenario": "Use to view Wi-Fi networks when using NetworkManager on Linux.",
+      "language": "bash",
+      "tags": [
+        "networkmanager",
+        "wifi",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.gnome.org/NetworkManager/stable/nmcli.html"
+    },
+    {
+      "command": "wpa_passphrase 'SSID' 'passphrase'",
+      "description": "Generate a WPA PSK from an SSID and passphrase.",
+      "scenario": "Use to configure WPA/WPA2 PSK for a network in wpa_supplicant.",
+      "language": "bash",
+      "tags": [
+        "wpa",
+        "security",
+        "psk"
+      ],
+      "is_curated": false,
+      "man_page": "https://linux.die.net/man/8/wpa_passphrase"
+    },
+    {
+      "command": "wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf",
+      "description": "Connect to a wireless network using wpa_supplicant.",
+      "scenario": "Use to manually connect to a Wi-Fi network on Linux.",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "wifi",
+        "linux"
+      ],
+      "is_curated": true,
+      "man_page": "https://linux.die.net/man/8/wpa_supplicant"
+    },
+    {
+      "command": "ifconfig wlan0 up",
+      "description": "Bring up a wireless network interface.",
+      "scenario": "Use to enable a wireless interface that is down.",
+      "language": "bash",
+      "tags": [
+        "interface",
+        "network",
+        "enable"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man8/ifconfig.8.html"
+    },
+    {
+      "command": "iw dev wlan0 link",
+      "description": "Display information about the current wireless connection.",
+      "scenario": "Use to check the status of your current Wi-Fi connection.",
+      "language": "bash",
+      "tags": [
+        "status",
+        "wifi",
+        "connection"
+      ],
+      "is_curated": true,
+      "man_page": "https://wireless.wiki.kernel.org/en/users/documentation/iw"
+    },
+    {
+      "command": "iw reg set US",
+      "description": "Set the regulatory domain for wireless devices.",
+      "scenario": "Use to comply with local wireless regulations.",
+      "language": "bash",
+      "tags": [
+        "regulatory",
+        "domain",
+        "wireless"
+      ],
+      "is_curated": false,
+      "man_page": "https://wireless.wiki.kernel.org/en/users/documentation/iw"
+    },
+    {
+      "command": "airmon-ng start wlan0",
+      "description": "Enable monitor mode on a wireless interface.",
+      "scenario": "Use to capture all packets on a Wi-Fi network for analysis.",
+      "language": "bash",
+      "tags": [
+        "monitor",
+        "capture",
+        "packets"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.aircrack-ng.org/doku.php?id=airmon-ng"
+    },
+    {
+      "command": "tcpdump -i wlan0",
+      "description": "Capture packets on a wireless interface.",
+      "scenario": "Use to analyze network traffic on a Wi-Fi network.",
+      "language": "bash",
+      "tags": [
+        "capture",
+        "packets",
+        "analysis"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tcpdump.org/manpages/tcpdump.1.html"
+    },
+    {
+      "command": "hostapd /etc/hostapd/hostapd.conf",
+      "description": "Start a software access point with hostapd.",
+      "scenario": "Use to create a Wi-Fi hotspot on a Linux device.",
+      "language": "bash",
+      "tags": [
+        "access point",
+        "hotspot",
+        "wifi"
+      ],
+      "is_curated": false,
+      "man_page": "https://w1.fi/hostapd/hostapd.conf"
+    },
+    {
+      "command": "rfkill unblock wifi",
+      "description": "Unblock a wireless device that is soft-blocked.",
+      "scenario": "Use to enable Wi-Fi if it has been disabled by rfkill.",
+      "language": "bash",
+      "tags": [
+        "unblock",
+        "wifi",
+        "rfkill"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/rfkill.1.html"
+    },
+    {
+      "command": "iw phy phy0 info",
+      "description": "Display capabilities of a wireless device.",
+      "scenario": "Use to check the features supported by your wireless hardware.",
+      "language": "bash",
+      "tags": [
+        "capabilities",
+        "hardware",
+        "info"
+      ],
+      "is_curated": false,
+      "man_page": "https://wireless.wiki.kernel.org/en/users/documentation/iw"
+    }
+  ]
+}

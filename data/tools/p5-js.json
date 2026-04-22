@@ -1,0 +1,191 @@
+{
+  "title": "p5.js Cheat Sheet",
+  "slug": "p5-js",
+  "description": "Essential p5.js commands and patterns for creative coding.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "function setup() { createCanvas(400, 400); }",
+      "description": "Sets up the canvas with a width and height of 400 pixels.",
+      "scenario": "Use when you need to initialize the drawing canvas for your sketch.",
+      "language": "javascript",
+      "tags": [
+        "canvas",
+        "setup",
+        "initialize"
+      ],
+      "is_curated": true,
+      "man_page": "https://p5js.org/reference/#/p5/setup"
+    },
+    {
+      "command": "function draw() { background(220); }",
+      "description": "Continuously executes the code within it, clearing the canvas each frame.",
+      "scenario": "Use when you need to refresh the canvas with a background color every frame.",
+      "language": "javascript",
+      "tags": [
+        "draw",
+        "loop",
+        "refresh"
+      ],
+      "is_curated": true,
+      "man_page": "https://p5js.org/reference/#/p5/draw"
+    },
+    {
+      "command": "ellipse(50, 50, 80, 80);",
+      "description": "Draws an ellipse at position (50, 50) with width and height of 80.",
+      "scenario": "Use when you need to draw a basic ellipse shape on the canvas.",
+      "language": "javascript",
+      "tags": [
+        "shape",
+        "ellipse",
+        "draw"
+      ],
+      "is_curated": true,
+      "man_page": "https://p5js.org/reference/#/p5/ellipse"
+    },
+    {
+      "command": "rect(30, 20, 55, 55);",
+      "description": "Draws a rectangle at position (30, 20) with width and height of 55.",
+      "scenario": "Use when you need to draw a rectangle on the canvas.",
+      "language": "javascript",
+      "tags": [
+        "shape",
+        "rectangle",
+        "draw"
+      ],
+      "is_curated": true,
+      "man_page": "https://p5js.org/reference/#/p5/rect"
+    },
+    {
+      "command": "line(30, 20, 85, 75);",
+      "description": "Draws a line from (30, 20) to (85, 75).",
+      "scenario": "Use when you need to draw a straight line between two points.",
+      "language": "javascript",
+      "tags": [
+        "shape",
+        "line",
+        "draw"
+      ],
+      "is_curated": false,
+      "man_page": "https://p5js.org/reference/#/p5/line"
+    },
+    {
+      "command": "fill(255, 0, 0);",
+      "description": "Sets the color used to fill shapes to red.",
+      "scenario": "Use when you need to change the fill color for shapes.",
+      "language": "javascript",
+      "tags": [
+        "color",
+        "fill",
+        "style"
+      ],
+      "is_curated": true,
+      "man_page": "https://p5js.org/reference/#/p5/fill"
+    },
+    {
+      "command": "stroke(0, 0, 255);",
+      "description": "Sets the color used to draw lines and borders to blue.",
+      "scenario": "Use when you need to change the stroke color for shapes.",
+      "language": "javascript",
+      "tags": [
+        "color",
+        "stroke",
+        "style"
+      ],
+      "is_curated": false,
+      "man_page": "https://p5js.org/reference/#/p5/stroke"
+    },
+    {
+      "command": "noLoop();",
+      "description": "Stops the draw function from continuously executing.",
+      "scenario": "Use when you need to stop the draw loop for static sketches.",
+      "language": "javascript",
+      "tags": [
+        "control",
+        "loop",
+        "stop"
+      ],
+      "is_curated": false,
+      "man_page": "https://p5js.org/reference/#/p5/noLoop"
+    },
+    {
+      "command": "mousePressed = function() { console.log('Mouse is pressed'); }",
+      "description": "Logs a message to the console when the mouse is pressed.",
+      "scenario": "Use when you need to trigger actions based on mouse input.",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "mouse",
+        "interaction"
+      ],
+      "is_curated": true,
+      "man_page": "https://p5js.org/reference/#/p5/mousePressed"
+    },
+    {
+      "command": "keyPressed = function() { console.log('Key is pressed'); }",
+      "description": "Logs a message to the console when a key is pressed.",
+      "scenario": "Use when you need to trigger actions based on keyboard input.",
+      "language": "javascript",
+      "tags": [
+        "event",
+        "keyboard",
+        "interaction"
+      ],
+      "is_curated": false,
+      "man_page": "https://p5js.org/reference/#/p5/keyPressed"
+    },
+    {
+      "command": "loadImage('path/to/image.jpg', img => image(img, 0, 0));",
+      "description": "Loads an image and displays it at the top-left corner of the canvas.",
+      "scenario": "Use when you need to display images in your sketch.",
+      "language": "javascript",
+      "tags": [
+        "image",
+        "load",
+        "display"
+      ],
+      "is_curated": true,
+      "man_page": "https://p5js.org/reference/#/p5/loadImage"
+    },
+    {
+      "command": "let myFont; function preload() { myFont = loadFont('assets/inconsolata.otf'); }",
+      "description": "Preloads a font for use in the sketch.",
+      "scenario": "Use when you need to load custom fonts before the sketch starts.",
+      "language": "javascript",
+      "tags": [
+        "font",
+        "preload",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://p5js.org/reference/#/p5/loadFont"
+    },
+    {
+      "command": "text('Hello, world!', 10, 30);",
+      "description": "Displays text at the specified coordinates.",
+      "scenario": "Use when you need to display text on the canvas.",
+      "language": "javascript",
+      "tags": [
+        "text",
+        "display",
+        "draw"
+      ],
+      "is_curated": true,
+      "man_page": "https://p5js.org/reference/#/p5/text"
+    },
+    {
+      "command": "saveCanvas('myCanvas', 'jpg');",
+      "description": "Saves the current canvas as a JPG file.",
+      "scenario": "Use when you need to export your canvas as an image file.",
+      "language": "javascript",
+      "tags": [
+        "export",
+        "canvas",
+        "save"
+      ],
+      "is_curated": false,
+      "man_page": "https://p5js.org/reference/#/p5/saveCanvas"
+    }
+  ]
+}

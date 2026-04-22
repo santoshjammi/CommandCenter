@@ -4410,5 +4410,117 @@
     "category": "DevOps",
     "description": "Application deployment and lifecycle management across any platform",
     "audience": "engineer"
+  },
+  {
+    "name": "Pulumi",
+    "slug": "pulumi",
+    "category": "DevOps",
+    "description": "Infrastructure as code using real languages",
+    "audience": "engineer"
+  },
+  {
+    "name": "Alpine.js",
+    "slug": "alpine-js",
+    "category": "Other",
+    "description": "Alpine.js cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "Atom",
+    "slug": "atom",
+    "category": "Other",
+    "description": "Atom cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "C++",
+    "slug": "cplusplus",
+    "category": "Other",
+    "description": "C++ cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "IEEE 802.11",
+    "slug": "ieee-802-11",
+    "category": "Other",
+    "description": "IEEE 802.11 cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "IEEE 802.1X",
+    "slug": "ieee-802-1x",
+    "category": "Other",
+    "description": "IEEE 802.1X cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "IS-IS",
+    "slug": "is-is",
+    "category": "Other",
+    "description": "IS-IS cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "Monday.com",
+    "slug": "monday-com",
+    "category": "Other",
+    "description": "Monday.com cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "Node.js",
+    "slug": "node-js",
+    "category": "Other",
+    "description": "Node.js cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "PARI/GP",
+    "slug": "pari-gp",
+    "category": "Other",
+    "description": "PARI/GP cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "Quip.com",
+    "slug": "quip-com",
+    "category": "Other",
+    "description": "Quip.com cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tcl/Tk",
+    "slug": "tcl-tk",
+    "category": "Other",
+    "description": "Tcl/Tk cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_include",
+    "slug": "mod-include",
+    "category": "Other",
+    "description": "mod_include cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_perl",
+    "slug": "mod-perl",
+    "category": "Other",
+    "description": "mod_perl cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "mod_rewrite",
+    "slug": "mod-rewrite",
+    "category": "Other",
+    "description": "mod_rewrite cheat sheet.",
+    "audience": "engineer"
+  },
+  {
+    "name": "p5.js",
+    "slug": "p5-js",
+    "category": "Other",
+    "description": "p5.js cheat sheet.",
+    "audience": "engineer"
   }
 ]

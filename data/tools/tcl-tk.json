@@ -1,0 +1,178 @@
+{
+  "title": "Tcl/Tk Cheat Sheet",
+  "slug": "tcl-tk",
+  "description": "Essential Tcl/Tk commands and patterns for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "puts \"Hello, World!\"",
+      "description": "Prints a string to the console.",
+      "scenario": "Use when you need to output text to the console for debugging or display.",
+      "language": "tcl",
+      "tags": [
+        "output",
+        "debugging",
+        "console"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/puts.htm"
+    },
+    {
+      "command": "set varName \"value\"",
+      "description": "Assigns a value to a variable.",
+      "scenario": "Use when you need to store data in a variable for later use.",
+      "language": "tcl",
+      "tags": [
+        "variables",
+        "assignment",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/set.htm"
+    },
+    {
+      "command": "if {$condition} { # commands }",
+      "description": "Executes commands based on a condition.",
+      "scenario": "Use when you need to perform conditional logic in your script.",
+      "language": "tcl",
+      "tags": [
+        "conditional",
+        "logic",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/if.htm"
+    },
+    {
+      "command": "proc myProc {arg1 arg2} { # commands }",
+      "description": "Defines a new procedure with arguments.",
+      "scenario": "Use when you need to create reusable blocks of code with parameters.",
+      "language": "tcl",
+      "tags": [
+        "functions",
+        "procedures",
+        "reusability"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/proc.htm"
+    },
+    {
+      "command": "while {$condition} { # commands }",
+      "description": "Executes commands repeatedly while a condition is true.",
+      "scenario": "Use when you need to loop through code until a condition changes.",
+      "language": "tcl",
+      "tags": [
+        "loop",
+        "iteration",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/while.htm"
+    },
+    {
+      "command": "foreach item $list { # commands }",
+      "description": "Iterates over each element in a list.",
+      "scenario": "Use when you need to process each item in a list individually.",
+      "language": "tcl",
+      "tags": [
+        "loop",
+        "list",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/foreach.htm"
+    },
+    {
+      "command": "button .b -text \"Click Me\" -command {puts \"Button clicked!\"}",
+      "description": "Creates a button widget in a Tk application.",
+      "scenario": "Use when you need to add interactive buttons to a GUI application.",
+      "language": "tcl",
+      "tags": [
+        "gui",
+        "widgets",
+        "interaction"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TkCmd/button.htm"
+    },
+    {
+      "command": "pack .b",
+      "description": "Packs a widget into the window in a Tk application.",
+      "scenario": "Use when you need to arrange widgets in a Tk window.",
+      "language": "tcl",
+      "tags": [
+        "gui",
+        "layout",
+        "widgets"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TkCmd/pack.htm"
+    },
+    {
+      "command": "list item1 item2 item3",
+      "description": "Creates a list from given elements.",
+      "scenario": "Use when you need to group multiple values into a single list.",
+      "language": "tcl",
+      "tags": [
+        "list",
+        "data",
+        "collection"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/list.htm"
+    },
+    {
+      "command": "expr {$a + $b}",
+      "description": "Evaluates an expression and returns the result.",
+      "scenario": "Use when you need to perform arithmetic operations or evaluations.",
+      "language": "tcl",
+      "tags": [
+        "math",
+        "evaluation",
+        "expression"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/expr.htm"
+    },
+    {
+      "command": "file exists filename",
+      "description": "Checks if a file exists.",
+      "scenario": "Use when you need to verify the existence of a file before processing it.",
+      "language": "tcl",
+      "tags": [
+        "file",
+        "check",
+        "existence"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/file.htm"
+    },
+    {
+      "command": "after 1000 {puts \"1 second passed\"}",
+      "description": "Executes a command after a delay.",
+      "scenario": "Use when you need to schedule a command to run after a certain time.",
+      "language": "tcl",
+      "tags": [
+        "timing",
+        "delay",
+        "scheduling"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/after.htm"
+    },
+    {
+      "command": "catch { # commands } errVar",
+      "description": "Catches errors in a block of code and stores the error message.",
+      "scenario": "Use when you need to handle errors gracefully in your script.",
+      "language": "tcl",
+      "tags": [
+        "error",
+        "handling",
+        "exceptions"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcl.tk/man/tcl8.6/TclCmd/catch.htm"
+    }
+  ]
+}

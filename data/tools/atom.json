@@ -1,0 +1,165 @@
+{
+  "title": "Atom Editor Cheat Sheet",
+  "slug": "atom",
+  "description": "Essential commands and shortcuts for Atom Editor users.",
+  "audience": "engineer",
+  "category": "Editors",
+  "commands": [
+    {
+      "command": "apm install package-name",
+      "description": "Install an Atom package via command line.",
+      "scenario": "Use when you need to add new functionality to Atom by installing a package.",
+      "language": "bash",
+      "tags": [
+        "atom",
+        "package",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": "https://flight-manual.atom.io/using-atom/sections/atom-packages/"
+    },
+    {
+      "command": "apm uninstall package-name",
+      "description": "Uninstall an Atom package via command line.",
+      "scenario": "Use when you need to remove a package that is no longer needed.",
+      "language": "bash",
+      "tags": [
+        "atom",
+        "package",
+        "uninstall"
+      ],
+      "is_curated": false,
+      "man_page": "https://flight-manual.atom.io/using-atom/sections/atom-packages/"
+    },
+    {
+      "command": "apm list --installed",
+      "description": "List all installed Atom packages.",
+      "scenario": "Use to review which packages are currently installed in your Atom editor.",
+      "language": "bash",
+      "tags": [
+        "atom",
+        "package",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": "https://flight-manual.atom.io/using-atom/sections/atom-packages/"
+    },
+    {
+      "command": "atom --safe",
+      "description": "Start Atom in safe mode, disabling all packages.",
+      "scenario": "Use when troubleshooting issues in Atom to determine if a package is causing problems.",
+      "language": "bash",
+      "tags": [
+        "atom",
+        "safe mode",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": "https://flight-manual.atom.io/getting-started/sections/installing-atom/"
+    },
+    {
+      "command": "atom .",
+      "description": "Open the current directory in Atom.",
+      "scenario": "Use to quickly open a project folder in Atom from the terminal.",
+      "language": "bash",
+      "tags": [
+        "atom",
+        "open",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": "https://flight-manual.atom.io/getting-started/sections/installing-atom/"
+    },
+    {
+      "command": "Ctrl + \\",
+      "description": "Toggle the tree view in Atom.",
+      "scenario": "Use to show or hide the file tree view in Atom for better focus or navigation.",
+      "language": "text",
+      "tags": [
+        "atom",
+        "tree view",
+        "toggle"
+      ],
+      "is_curated": false,
+      "man_page": "https://flight-manual.atom.io/getting-started/sections/atom-basics/"
+    },
+    {
+      "command": "Ctrl + Shift + P",
+      "description": "Open the command palette in Atom.",
+      "scenario": "Use to access all available commands in Atom quickly.",
+      "language": "text",
+      "tags": [
+        "atom",
+        "command palette",
+        "shortcut"
+      ],
+      "is_curated": true,
+      "man_page": "https://flight-manual.atom.io/getting-started/sections/atom-basics/"
+    },
+    {
+      "command": "Ctrl + ,",
+      "description": "Open the settings view in Atom.",
+      "scenario": "Use to adjust settings and preferences in Atom.",
+      "language": "text",
+      "tags": [
+        "atom",
+        "settings",
+        "preferences"
+      ],
+      "is_curated": false,
+      "man_page": "https://flight-manual.atom.io/getting-started/sections/atom-basics/"
+    },
+    {
+      "command": "Ctrl + Alt + I",
+      "description": "Open the developer tools in Atom.",
+      "scenario": "Use when you need to debug Atom itself or a package.",
+      "language": "text",
+      "tags": [
+        "atom",
+        "developer tools",
+        "debug"
+      ],
+      "is_curated": false,
+      "man_page": "https://flight-manual.atom.io/hacking-atom/sections/debugging/"
+    },
+    {
+      "command": "apm update",
+      "description": "Update all installed Atom packages.",
+      "scenario": "Use to ensure all your Atom packages are up to date with the latest versions.",
+      "language": "bash",
+      "tags": [
+        "atom",
+        "package",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": "https://flight-manual.atom.io/using-atom/sections/atom-packages/"
+    },
+    {
+      "command": "apm upgrade",
+      "description": "Upgrade Atom to the latest version.",
+      "scenario": "Use to get the latest features and fixes in Atom.",
+      "language": "bash",
+      "tags": [
+        "atom",
+        "upgrade",
+        "version"
+      ],
+      "is_curated": false,
+      "man_page": "https://flight-manual.atom.io/getting-started/sections/installing-atom/"
+    },
+    {
+      "command": "Ctrl + Shift + M",
+      "description": "Toggle the markdown preview in Atom.",
+      "scenario": "Use to preview markdown files directly within Atom.",
+      "language": "text",
+      "tags": [
+        "atom",
+        "markdown",
+        "preview"
+      ],
+      "is_curated": true,
+      "man_page": "https://flight-manual.atom.io/using-atom/sections/writing-in-atom/"
+    }
+  ]
+}

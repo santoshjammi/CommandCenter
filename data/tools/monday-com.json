@@ -1,0 +1,165 @@
+{
+  "title": "Monday.com Cheat Sheet",
+  "slug": "monday-com",
+  "description": "Essential commands and patterns for using Monday.com effectively.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "curl -X POST https://api.monday.com/v2 -H \"Authorization: YOUR_API_KEY\" -H \"Content-Type: application/json\" --data '{\"query\":\"{ boards { id name } }\"}'",
+      "description": "Fetch all boards from your Monday.com account.",
+      "scenario": "Use when you need to retrieve a list of all boards for management or analysis.",
+      "language": "bash",
+      "tags": [
+        "API",
+        "boards",
+        "fetch"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.developer.monday.com/docs/getting-started"
+    },
+    {
+      "command": "mutation { create_item (board_id: 123456789, item_name: \"New Task\") { id } }",
+      "description": "Create a new item on a specific board.",
+      "scenario": "Use when you need to add a new task or item to a project board.",
+      "language": "text",
+      "tags": [
+        "mutation",
+        "create",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.developer.monday.com/docs/items-queries#create-an-item"
+    },
+    {
+      "command": "query { items_by_column_values (board_id: 123456789, column_id: \"status\", column_value: \"Done\") { id name } }",
+      "description": "Query items by column values, such as status.",
+      "scenario": "Use to filter tasks that are marked as 'Done' on a board.",
+      "language": "text",
+      "tags": [
+        "query",
+        "filter",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.developer.monday.com/docs/items-queries#query-items-by-column-values"
+    },
+    {
+      "command": "mutation { change_column_value (board_id: 123456789, item_id: 987654321, column_id: \"status\", value: \"{\\\"label\\\":\\\"In Progress\\\"}\") { id } }",
+      "description": "Change the value of a column for a specific item.",
+      "scenario": "Use to update the status of a task to 'In Progress'.",
+      "language": "text",
+      "tags": [
+        "mutation",
+        "update",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.developer.monday.com/docs/items-queries#change-a-column-value-for-a-specific-item"
+    },
+    {
+      "command": "mutation { delete_item (item_id: 987654321) { id } }",
+      "description": "Delete an item from a board.",
+      "scenario": "Use when you need to remove a completed or obsolete task from a board.",
+      "language": "text",
+      "tags": [
+        "mutation",
+        "delete",
+        "item"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.developer.monday.com/docs/items-queries#delete-an-item"
+    },
+    {
+      "command": "curl -X POST https://api.monday.com/v2 -H \"Authorization: YOUR_API_KEY\" -H \"Content-Type: application/json\" --data '{\"query\":\"{ users { id name email } }\"}'",
+      "description": "Fetch all users from your Monday.com account.",
+      "scenario": "Use to retrieve a list of all users for team management.",
+      "language": "bash",
+      "tags": [
+        "API",
+        "users",
+        "fetch"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.developer.monday.com/docs/users-queries"
+    },
+    {
+      "command": "mutation { create_board (board_name: \"New Project\", board_kind: public) { id } }",
+      "description": "Create a new board in Monday.com.",
+      "scenario": "Use when starting a new project and needing a dedicated board.",
+      "language": "text",
+      "tags": [
+        "mutation",
+        "create",
+        "board"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.developer.monday.com/docs/boards-queries#create-a-board"
+    },
+    {
+      "command": "query { me { id name email } }",
+      "description": "Retrieve information about the authenticated user.",
+      "scenario": "Use to verify the identity and details of the current API user.",
+      "language": "text",
+      "tags": [
+        "query",
+        "user",
+        "info"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.developer.monday.com/docs/users-queries#query-me"
+    },
+    {
+      "command": "mutation { duplicate_board (board_id: 123456789, duplicate_type: duplicate_with_structure) { id } }",
+      "description": "Duplicate an existing board with its structure.",
+      "scenario": "Use to create a template board for recurring projects.",
+      "language": "text",
+      "tags": [
+        "mutation",
+        "duplicate",
+        "board"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.developer.monday.com/docs/boards-queries#duplicate-a-board"
+    },
+    {
+      "command": "mutation { archive_board (board_id: 123456789) { id } }",
+      "description": "Archive a board in Monday.com.",
+      "scenario": "Use when a project is completed and you want to archive the board.",
+      "language": "text",
+      "tags": [
+        "mutation",
+        "archive",
+        "board"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.developer.monday.com/docs/boards-queries#archive-a-board"
+    },
+    {
+      "command": "mutation { add_subscriber_to_board (board_id: 123456789, user_id: 987654321) { id } }",
+      "description": "Add a subscriber to a board.",
+      "scenario": "Use to grant a team member access to a project board.",
+      "language": "text",
+      "tags": [
+        "mutation",
+        "add",
+        "subscriber"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.developer.monday.com/docs/boards-queries#add-subscriber-to-board"
+    },
+    {
+      "command": "mutation { remove_subscriber_from_board (board_id: 123456789, user_id: 987654321) { id } }",
+      "description": "Remove a subscriber from a board.",
+      "scenario": "Use to revoke access from a team member no longer involved in a project.",
+      "language": "text",
+      "tags": [
+        "mutation",
+        "remove",
+        "subscriber"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.developer.monday.com/docs/boards-queries#remove-subscriber-from-board"
+    }
+  ]
+}

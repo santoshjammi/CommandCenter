@@ -1,0 +1,165 @@
+{
+  "title": "IEEE 802.1X Cheat Sheet",
+  "slug": "ieee-802-1x",
+  "description": "Essential commands and configurations for IEEE 802.1X network authentication.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf",
+      "description": "Start wpa_supplicant for 802.1X authentication on wlan0 interface",
+      "scenario": "Use when you need to authenticate a wireless client using 802.1X.",
+      "language": "bash",
+      "tags": [
+        "wpa_supplicant",
+        "authentication",
+        "wireless"
+      ],
+      "is_curated": true,
+      "man_page": "https://w1.fi/wpa_supplicant/"
+    },
+    {
+      "command": "eapol_test -c eapol_test.conf -a 192.168.1.1 -s testing123",
+      "description": "Test 802.1X authentication with a RADIUS server",
+      "scenario": "Use to verify 802.1X authentication setup with a RADIUS server.",
+      "language": "bash",
+      "tags": [
+        "eapol_test",
+        "RADIUS",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": "https://w1.fi/cgit/hostap/plain/wpa_supplicant/eapol_test.c"
+    },
+    {
+      "command": "radiusd -X",
+      "description": "Run FreeRADIUS in debug mode",
+      "scenario": "Use when troubleshooting 802.1X authentication issues with FreeRADIUS.",
+      "language": "bash",
+      "tags": [
+        "FreeRADIUS",
+        "debug",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": "https://freeradius.org/radiusd/man/radiusd.html"
+    },
+    {
+      "command": "show dot1x all",
+      "description": "Display 802.1X status on Cisco devices",
+      "scenario": "Use to check the 802.1X status and statistics on Cisco network equipment.",
+      "language": "bash",
+      "tags": [
+        "Cisco",
+        "dot1x",
+        "status"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_8021x/configuration/15-mt/sec-usr-8021x-15-mt-book/sec-ieee-802x.html"
+    },
+    {
+      "command": "nmcli connection modify mywifi 802-1x.eap peap",
+      "description": "Configure 802.1X EAP method for a NetworkManager connection",
+      "scenario": "Use to set the EAP method for a specific Wi-Fi connection using NetworkManager.",
+      "language": "bash",
+      "tags": [
+        "NetworkManager",
+        "EAP",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.gnome.org/NetworkManager/stable/nmcli.html"
+    },
+    {
+      "command": "openssl x509 -in cert.pem -text -noout",
+      "description": "Display certificate details for 802.1X authentication",
+      "scenario": "Use to verify the details of a certificate used in 802.1X authentication.",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "certificate",
+        "authentication"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.openssl.org/docs/man1.1.1/man1/openssl-x509.html"
+    },
+    {
+      "command": "systemctl restart wpa_supplicant",
+      "description": "Restart wpa_supplicant service",
+      "scenario": "Use to apply changes to the wpa_supplicant configuration for 802.1X.",
+      "language": "bash",
+      "tags": [
+        "systemctl",
+        "service",
+        "restart"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.freedesktop.org/software/systemd/man/systemctl.html"
+    },
+    {
+      "command": "cat /etc/wpa_supplicant.conf",
+      "description": "View wpa_supplicant configuration file",
+      "scenario": "Use to inspect the current wpa_supplicant configuration for 802.1X.",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "wpa_supplicant",
+        "view"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "show authentication sessions interface gig0/1",
+      "description": "Check 802.1X authentication sessions on a specific interface",
+      "scenario": "Use to view active 802.1X sessions on a specific interface of a network device.",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "sessions",
+        "interface"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_8021x/configuration/15-mt/sec-usr-8021x-15-mt-book/sec-ieee-802x.html"
+    },
+    {
+      "command": "tcpdump -i eth0 port 1812",
+      "description": "Capture RADIUS authentication traffic on eth0",
+      "scenario": "Use to monitor RADIUS traffic for 802.1X authentication troubleshooting.",
+      "language": "bash",
+      "tags": [
+        "tcpdump",
+        "RADIUS",
+        "capture"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcpdump.org/manpages/tcpdump.1.html"
+    },
+    {
+      "command": "show radius statistics",
+      "description": "Display RADIUS statistics on network devices",
+      "scenario": "Use to check RADIUS server communication statistics for 802.1X.",
+      "language": "bash",
+      "tags": [
+        "RADIUS",
+        "statistics",
+        "network"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_8021x/configuration/15-mt/sec-usr-8021x-15-mt-book/sec-ieee-802x.html"
+    },
+    {
+      "command": "netsh lan show profiles",
+      "description": "List all 802.1X LAN profiles on Windows",
+      "scenario": "Use to view configured LAN profiles for 802.1X authentication on a Windows machine.",
+      "language": "bash",
+      "tags": [
+        "netsh",
+        "Windows",
+        "profiles"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-commands-for-wired-local-area-network-lan"
+    }
+  ]
+}

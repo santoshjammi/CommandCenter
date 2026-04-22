@@ -1,0 +1,165 @@
+{
+  "title": "Quip.com Cheat Sheet",
+  "slug": "quip-com",
+  "description": "Essential commands and tips for using Quip.com effectively.",
+  "audience": "engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "quip-cli login",
+      "description": "Log into your Quip account via CLI.",
+      "scenario": "Use when you need to authenticate your CLI session with Quip.",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "login",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://quip.com/dev/automation/documentation#authentication"
+    },
+    {
+      "command": "quip-cli list-documents",
+      "description": "List all documents in your Quip account.",
+      "scenario": "Use to view all your documents quickly from the command line.",
+      "language": "bash",
+      "tags": [
+        "documents",
+        "list",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://quip.com/dev/automation/documentation#listing-documents"
+    },
+    {
+      "command": "quip-cli create-document --title 'New Document'",
+      "description": "Create a new document with a specified title.",
+      "scenario": "Use when you need to create a new document programmatically.",
+      "language": "bash",
+      "tags": [
+        "create",
+        "document",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://quip.com/dev/automation/documentation#creating-documents"
+    },
+    {
+      "command": "quip-cli delete-document --id <document-id>",
+      "description": "Delete a document by its ID.",
+      "scenario": "Use to remove a document you no longer need.",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "document",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://quip.com/dev/automation/documentation#deleting-documents"
+    },
+    {
+      "command": "quip-cli export-document --id <document-id> --format pdf",
+      "description": "Export a document to PDF format.",
+      "scenario": "Use when you need a PDF version of your document.",
+      "language": "bash",
+      "tags": [
+        "export",
+        "pdf",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": "https://quip.com/dev/automation/documentation#exporting-documents"
+    },
+    {
+      "command": "quip-cli share-document --id <document-id> --user <user-email>",
+      "description": "Share a document with another user via email.",
+      "scenario": "Use to collaborate by sharing documents with team members.",
+      "language": "bash",
+      "tags": [
+        "share",
+        "collaborate",
+        "document"
+      ],
+      "is_curated": true,
+      "man_page": "https://quip.com/dev/automation/documentation#sharing-documents"
+    },
+    {
+      "command": "quip-cli update-document --id <document-id> --content 'New content'",
+      "description": "Update the content of a document by its ID.",
+      "scenario": "Use to modify the content of an existing document.",
+      "language": "bash",
+      "tags": [
+        "update",
+        "document",
+        "content"
+      ],
+      "is_curated": false,
+      "man_page": "https://quip.com/dev/automation/documentation#updating-documents"
+    },
+    {
+      "command": "quip-cli list-folders",
+      "description": "List all folders in your Quip account.",
+      "scenario": "Use to view the folder structure of your documents.",
+      "language": "bash",
+      "tags": [
+        "folders",
+        "list",
+        "cli"
+      ],
+      "is_curated": false,
+      "man_page": "https://quip.com/dev/automation/documentation#listing-folders"
+    },
+    {
+      "command": "quip-cli move-document --id <document-id> --folder-id <folder-id>",
+      "description": "Move a document to a different folder.",
+      "scenario": "Use to organize documents into folders.",
+      "language": "bash",
+      "tags": [
+        "move",
+        "document",
+        "folder"
+      ],
+      "is_curated": false,
+      "man_page": "https://quip.com/dev/automation/documentation#moving-documents"
+    },
+    {
+      "command": "quip-cli list-users",
+      "description": "List all users in your Quip account.",
+      "scenario": "Use to view all users who have access to your Quip account.",
+      "language": "bash",
+      "tags": [
+        "users",
+        "list",
+        "cli"
+      ],
+      "is_curated": false,
+      "man_page": "https://quip.com/dev/automation/documentation#listing-users"
+    },
+    {
+      "command": "quip-cli create-folder --name 'New Folder'",
+      "description": "Create a new folder with a specified name.",
+      "scenario": "Use when you need to organize documents into a new folder.",
+      "language": "bash",
+      "tags": [
+        "create",
+        "folder",
+        "organize"
+      ],
+      "is_curated": false,
+      "man_page": "https://quip.com/dev/automation/documentation#creating-folders"
+    },
+    {
+      "command": "quip-cli rename-folder --id <folder-id> --name 'Renamed Folder'",
+      "description": "Rename an existing folder by its ID.",
+      "scenario": "Use to change the name of a folder for better organization.",
+      "language": "bash",
+      "tags": [
+        "rename",
+        "folder",
+        "organize"
+      ],
+      "is_curated": false,
+      "man_page": "https://quip.com/dev/automation/documentation#renaming-folders"
+    }
+  ]
+}

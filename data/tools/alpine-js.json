@@ -1,0 +1,178 @@
+{
+  "title": "Alpine.js Cheat Sheet",
+  "slug": "alpine-js",
+  "description": "Quick reference for essential Alpine.js commands and patterns.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "<div x-data=\"{ open: false }\">...</div>",
+      "description": "Initialize Alpine.js component with reactive data",
+      "scenario": "Use when you need to create a reactive component with local state.",
+      "language": "html",
+      "tags": [
+        "reactive",
+        "component",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<button @click=\"open = !open\">Toggle</button>",
+      "description": "Toggle a boolean value on click",
+      "scenario": "Use when you need to toggle a component's visibility or state.",
+      "language": "html",
+      "tags": [
+        "toggle",
+        "click",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<div x-show=\"open\">Content</div>",
+      "description": "Conditionally render content based on a boolean value",
+      "scenario": "Use when you need to show or hide elements based on state.",
+      "language": "html",
+      "tags": [
+        "conditional",
+        "render",
+        "visibility"
+      ],
+      "is_curated": true,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<input x-model=\"searchQuery\">",
+      "description": "Two-way data binding with input elements",
+      "scenario": "Use when you need to bind input values to component data.",
+      "language": "html",
+      "tags": [
+        "binding",
+        "input",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<div x-init=\"fetchData()\">...</div>",
+      "description": "Run a function when a component is initialized",
+      "scenario": "Use when you need to perform actions on component mount.",
+      "language": "html",
+      "tags": [
+        "initialize",
+        "function",
+        "mount"
+      ],
+      "is_curated": true,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<div x-on:mouseover=\"hovered = true\">...</div>",
+      "description": "Handle mouseover events",
+      "scenario": "Use when you need to change state on mouseover.",
+      "language": "html",
+      "tags": [
+        "event",
+        "mouseover",
+        "state"
+      ],
+      "is_curated": false,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<div x-bind:class=\"{ 'active': isActive }\">...</div>",
+      "description": "Dynamically bind classes based on state",
+      "scenario": "Use when you need to apply classes conditionally.",
+      "language": "html",
+      "tags": [
+        "binding",
+        "class",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<template x-for=\"item in items\" :key=\"item.id\">...</template>",
+      "description": "Render a list of items using a loop",
+      "scenario": "Use when you need to iterate over a list of items in the DOM.",
+      "language": "html",
+      "tags": [
+        "loop",
+        "list",
+        "render"
+      ],
+      "is_curated": true,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<div x-effect=\"console.log(count)\">...</div>",
+      "description": "Run side effects in response to reactive data changes",
+      "scenario": "Use when you need to perform actions when data changes.",
+      "language": "html",
+      "tags": [
+        "effect",
+        "reactive",
+        "side-effect"
+      ],
+      "is_curated": false,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<button x-bind:disabled=\"isDisabled\">Submit</button>",
+      "description": "Conditionally disable elements based on state",
+      "scenario": "Use when you need to disable elements conditionally.",
+      "language": "html",
+      "tags": [
+        "binding",
+        "disabled",
+        "conditional"
+      ],
+      "is_curated": false,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<div x-transition:enter=\"transition ease-out duration-300\">...</div>",
+      "description": "Apply transitions to elements on enter",
+      "scenario": "Use when you need to animate elements when they enter the DOM.",
+      "language": "html",
+      "tags": [
+        "transition",
+        "animation",
+        "enter"
+      ],
+      "is_curated": false,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<div x-ref=\"myElement\">...</div>",
+      "description": "Create a reference to a DOM element",
+      "scenario": "Use when you need to directly interact with a DOM element.",
+      "language": "html",
+      "tags": [
+        "reference",
+        "DOM",
+        "element"
+      ],
+      "is_curated": false,
+      "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "<div x-spread=\"{ ...attributes }\">...</div>",
+      "description": "Spread attributes onto an element",
+      "scenario": "Use when you need to dynamically apply attributes to an element.",
+      "language": "html",
+      "tags": [
+        "spread",
+        "attributes",
+        "dynamic"
+      ],
+      "is_curated": false,
+      "man_page": "https://alpinejs.dev/start"
+    }
+  ]
+}

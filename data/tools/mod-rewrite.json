@@ -1,0 +1,165 @@
+{
+  "title": "mod_rewrite Cheat Sheet",
+  "slug": "mod-rewrite",
+  "description": "Essential mod_rewrite commands and patterns for Apache configuration.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "RewriteEngine On",
+      "description": "Enables the mod_rewrite engine.",
+      "scenario": "Use when you need to start using rewrite rules in your Apache configuration.",
+      "language": "text",
+      "tags": [
+        "apache",
+        "rewrite",
+        "enable"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriteengine"
+    },
+    {
+      "command": "RewriteRule ^oldpage\\.html$ newpage.html [R=301,L]",
+      "description": "Redirects oldpage.html to newpage.html with a 301 status code.",
+      "scenario": "Use when you need to permanently redirect a page to a new URL.",
+      "language": "text",
+      "tags": [
+        "redirect",
+        "301",
+        "permanent"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriterule"
+    },
+    {
+      "command": "RewriteCond %{HTTP_HOST} ^example\\.com$ [NC]",
+      "description": "Checks if the HTTP host is example.com, case-insensitive.",
+      "scenario": "Use when you need to apply rules based on the domain name.",
+      "language": "text",
+      "tags": [
+        "condition",
+        "host",
+        "domain"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritecond"
+    },
+    {
+      "command": "RewriteRule ^product/(.*)$ /newproduct/$1 [R=302,L]",
+      "description": "Temporarily redirects product URLs to newproduct URLs.",
+      "scenario": "Use when you need to temporarily redirect URLs during a site update.",
+      "language": "text",
+      "tags": [
+        "redirect",
+        "302",
+        "temporary"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriterule"
+    },
+    {
+      "command": "RewriteCond %{REQUEST_FILENAME} !-f",
+      "description": "Checks if the requested filename is not a file.",
+      "scenario": "Use when you need to ensure the request is not for an existing file.",
+      "language": "text",
+      "tags": [
+        "condition",
+        "file",
+        "check"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritecond"
+    },
+    {
+      "command": "RewriteCond %{REQUEST_FILENAME} !-d",
+      "description": "Checks if the requested filename is not a directory.",
+      "scenario": "Use when you need to ensure the request is not for an existing directory.",
+      "language": "text",
+      "tags": [
+        "condition",
+        "directory",
+        "check"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritecond"
+    },
+    {
+      "command": "RewriteRule ^index\\.php$ - [L]",
+      "description": "Stops processing if the request is for index.php.",
+      "scenario": "Use when you want to exclude index.php from further rewriting.",
+      "language": "text",
+      "tags": [
+        "exclude",
+        "stop",
+        "processing"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriterule"
+    },
+    {
+      "command": "RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]",
+      "description": "Forces HTTPS for all requests.",
+      "scenario": "Use when you need to enforce HTTPS across your site.",
+      "language": "text",
+      "tags": [
+        "https",
+        "secure",
+        "redirect"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriterule"
+    },
+    {
+      "command": "RewriteCond %{QUERY_STRING} ^id=([0-9]+)$",
+      "description": "Matches query string with an 'id' parameter containing digits.",
+      "scenario": "Use when you need to apply rules based on query parameters.",
+      "language": "text",
+      "tags": [
+        "query",
+        "parameter",
+        "match"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritecond"
+    },
+    {
+      "command": "RewriteRule ^blog/(.*)$ /blog.php?post=$1 [L]",
+      "description": "Rewrites blog URLs to a PHP script with a query parameter.",
+      "scenario": "Use when you want to map clean URLs to a script with parameters.",
+      "language": "text",
+      "tags": [
+        "rewrite",
+        "url",
+        "parameter"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriterule"
+    },
+    {
+      "command": "RewriteCond %{HTTP_USER_AGENT} ^Mozilla [NC]",
+      "description": "Checks if the user agent starts with 'Mozilla', case-insensitive.",
+      "scenario": "Use when you need to apply rules based on the user agent.",
+      "language": "text",
+      "tags": [
+        "user-agent",
+        "condition",
+        "check"
+      ],
+      "is_curated": false,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritecond"
+    },
+    {
+      "command": "RewriteRule ^(.*)$ /maintenance.html [R=503,L]",
+      "description": "Redirects all requests to a maintenance page with a 503 status code.",
+      "scenario": "Use when you need to take the site offline for maintenance.",
+      "language": "text",
+      "tags": [
+        "maintenance",
+        "offline",
+        "503"
+      ],
+      "is_curated": true,
+      "man_page": "https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriterule"
+    }
+  ]
+}
