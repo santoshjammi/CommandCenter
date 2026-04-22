@@ -15,7 +15,7 @@ export async function GET(_req: NextRequest) {
     `> ${SITE_URL}`,
     "",
     "## About",
-    "DevKeys is a comprehensive developer cheat sheet covering 900+ CLI tools, languages, frameworks,",
+    `DevKeys is a comprehensive developer cheat sheet covering ${generated.length}+ CLI tools, languages, frameworks,`,
     "databases, DevOps platforms, and cloud providers. Every page lists copy-ready commands alongside",
     "real-world usage scenarios so developers can find the right command instantly.",
     "",
