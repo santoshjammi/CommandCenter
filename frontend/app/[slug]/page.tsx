@@ -1,8 +1,6 @@
 import { notFound } from "next/navigation";
 import { getToolBySlug, getGeneratedSlugs } from "@/lib/data";
-import type { Command } from "@/lib/types";
 import TableOfContents from "@/components/TableOfContents";
-import { CommandBlock } from "@/components/CommandBlock";
 import CommandReferenceSection from "@/components/CommandReferenceSection";
 
 // Every slug page is statically generated at build time
