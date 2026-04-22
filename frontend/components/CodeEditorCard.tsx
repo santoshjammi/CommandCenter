@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useId } from "react";
+import { useState, useId, useRef, useEffect } from "react";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Types
@@ -91,16 +91,22 @@ export function CodeEditorCard({
   const id = useId();
   const [copied, setCopied] = useState(false);
   const [focused, setFocused] = useState(false);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const errorMsg = typeof error === "string" ? error : undefined;
   const isError   = Boolean(error);
   const isSuccess = success && !isError;
   const isReadOnly = !onChange;
 
-  // ── Textarea row count ───────────────────────────────────────────────────
-  // Stable on both server + client because `value` is static JSON data.
-  const lineCount = (value.match(/\n/g) ?? []).length + 1;
-  const rows = Math.min(Math.max(lineCount, 1), 4);
+  // ── Auto-grow textarea to fit full content ───────────────────────────────
+  // Runs after mount and whenever value changes.
+  // Server renders rows={1}; client sets exact pixel height — no hydration mismatch.
+  useEffect(() => {
+    const el = textareaRef.current;
+    if (!el) return;
+    el.style.height = "auto";           // collapse first so shrink works too
+    el.style.height = `${el.scrollHeight}px`;
+  }, [value]);
 
   // ── Copy handler ─────────────────────────────────────────────────────────
   const handleCopy = async () => {
@@ -269,7 +275,7 @@ export function CodeEditorCard({
         readOnly={isReadOnly}
         placeholder={placeholder}
         disabled={disabled}
-        rows={rows}
+        rows={1}
         spellCheck={false}
         autoCorrect="off"
         autoCapitalize="off"
@@ -298,13 +304,14 @@ export function CodeEditorCard({
           "border-0 outline-none ring-0 focus:ring-0 focus:outline-none",
           // resize
           "resize-none",
-          // scroll
-          "overflow-x-auto overflow-y-hidden",
+          // scroll — hidden until JS sets exact height; prevents scrollbar flash
+          "overflow-hidden",
           // cursor
           isReadOnly ? "cursor-default" : "cursor-text",
         ]
           .filter(Boolean)
           .join(" ")}
+        ref={textareaRef}
       />
     </article>
   );
