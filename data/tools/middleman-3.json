@@ -1,0 +1,165 @@
+{
+  "title": "Middleman 3 Cheat Sheet",
+  "slug": "middleman-3",
+  "description": "Essential commands and patterns for Middleman 3 static site generator.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "middleman init my_project",
+      "description": "Create a new Middleman project in the 'my_project' directory.",
+      "scenario": "Use when starting a new static site project with Middleman.",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://middlemanapp.com/basics/starting-out/"
+    },
+    {
+      "command": "middleman server",
+      "description": "Start the Middleman development server.",
+      "scenario": "Use to preview your Middleman site locally during development.",
+      "language": "bash",
+      "tags": [
+        "server",
+        "development",
+        "preview"
+      ],
+      "is_curated": true,
+      "man_page": "https://middlemanapp.com/basics/start-server/"
+    },
+    {
+      "command": "middleman build",
+      "description": "Build the Middleman project for deployment.",
+      "scenario": "Use to generate static files for deployment to a web server.",
+      "language": "bash",
+      "tags": [
+        "build",
+        "deploy",
+        "static"
+      ],
+      "is_curated": true,
+      "man_page": "https://middlemanapp.com/basics/build-and-deploy/"
+    },
+    {
+      "command": "middleman build --clean",
+      "description": "Build the project and remove orphaned files from the build directory.",
+      "scenario": "Use when you need a clean build without leftover files.",
+      "language": "bash",
+      "tags": [
+        "build",
+        "clean",
+        "deploy"
+      ],
+      "is_curated": false,
+      "man_page": "https://middlemanapp.com/advanced/file-cleaning/"
+    },
+    {
+      "command": "middleman server --port 4567",
+      "description": "Start the server on a custom port, e.g., 4567.",
+      "scenario": "Use to run the Middleman server on a non-default port.",
+      "language": "bash",
+      "tags": [
+        "server",
+        "port",
+        "custom"
+      ],
+      "is_curated": false,
+      "man_page": "https://middlemanapp.com/basics/start-server/"
+    },
+    {
+      "command": "middleman server --environment=production",
+      "description": "Run the server in production mode.",
+      "scenario": "Use to test the site in production mode locally.",
+      "language": "bash",
+      "tags": [
+        "server",
+        "production",
+        "environment"
+      ],
+      "is_curated": false,
+      "man_page": "https://middlemanapp.com/advanced/environments/"
+    },
+    {
+      "command": "middleman build --verbose",
+      "description": "Build the project with verbose output for debugging.",
+      "scenario": "Use when you need detailed output to troubleshoot build issues.",
+      "language": "bash",
+      "tags": [
+        "build",
+        "debug",
+        "verbose"
+      ],
+      "is_curated": false,
+      "man_page": "https://middlemanapp.com/basics/build-and-deploy/"
+    },
+    {
+      "command": "middleman extension my_extension",
+      "description": "Generate a new Middleman extension.",
+      "scenario": "Use to create a custom extension for Middleman.",
+      "language": "bash",
+      "tags": [
+        "extension",
+        "custom",
+        "generate"
+      ],
+      "is_curated": false,
+      "man_page": "https://middlemanapp.com/advanced/custom-extensions/"
+    },
+    {
+      "command": "bundle exec middleman",
+      "description": "Run Middleman commands with Bundler to ensure correct gem versions.",
+      "scenario": "Use when managing dependencies with Bundler in a Middleman project.",
+      "language": "bash",
+      "tags": [
+        "bundler",
+        "dependencies",
+        "gems"
+      ],
+      "is_curated": true,
+      "man_page": "https://middlemanapp.com/basics/bundler/"
+    },
+    {
+      "command": "middleman deploy",
+      "description": "Deploy the Middleman site using the deploy extension.",
+      "scenario": "Use to deploy your site to a hosting service.",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "hosting",
+        "extension"
+      ],
+      "is_curated": true,
+      "man_page": "https://middlemanapp.com/basics/deploying/"
+    },
+    {
+      "command": "middleman config",
+      "description": "View the current Middleman configuration.",
+      "scenario": "Use to check or debug the current configuration settings.",
+      "language": "bash",
+      "tags": [
+        "config",
+        "settings",
+        "debug"
+      ],
+      "is_curated": false,
+      "man_page": "https://middlemanapp.com/advanced/configuration/"
+    },
+    {
+      "command": "middleman server --host 0.0.0.0",
+      "description": "Make the Middleman server accessible from other devices on the network.",
+      "scenario": "Use to test the site on different devices in the same network.",
+      "language": "bash",
+      "tags": [
+        "server",
+        "network",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": "https://middlemanapp.com/basics/start-server/"
+    }
+  ]
+}

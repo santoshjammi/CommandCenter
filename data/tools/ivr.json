@@ -1,0 +1,165 @@
+{
+  "title": "IVR Cheat Sheet",
+  "slug": "ivr",
+  "description": "Essential commands and configurations for Interactive Voice Response systems.",
+  "audience": "engineer",
+  "category": "Other",
+  "commands": [
+    {
+      "command": "curl -X POST https://api.twilio.com/2010-04-01/Accounts/{AccountSid}/Calls.json \\\n--data-urlencode 'To=+1234567890' \\\n--data-urlencode 'From=+0987654321' \\\n--data-urlencode 'Url=http://demo.twilio.com/docs/voice.xml' \\\n-u {AccountSid}:{AuthToken}",
+      "description": "Initiate an outbound call using Twilio API.",
+      "scenario": "Use when you need to programmatically make a phone call through Twilio.",
+      "language": "bash",
+      "tags": [
+        "twilio",
+        "call",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.twilio.com/docs/voice/make-calls"
+    },
+    {
+      "command": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response>\n    <Gather input=\"dtmf\" timeout=\"10\" numDigits=\"1\">\n        <Say>Please press 1 for sales, 2 for support.</Say>\n    </Gather>\n    <Say>We didn't receive any input. Goodbye!</Say>\n</Response>",
+      "description": "XML to gather user input via DTMF tones in an IVR system.",
+      "scenario": "Use when you need to collect user input in an IVR menu.",
+      "language": "xml",
+      "tags": [
+        "xml",
+        "dtmf",
+        "ivr"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.twilio.com/docs/voice/twiml/gather"
+    },
+    {
+      "command": "aws polly synthesize-speech --output-format mp3 --voice-id Joanna --text 'Welcome to our service' welcome.mp3",
+      "description": "Convert text to speech using AWS Polly.",
+      "scenario": "Use when you need to generate audio files for IVR prompts.",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "polly",
+        "tts"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/polly/latest/dg/what-is.html"
+    },
+    {
+      "command": "import nexmo\n\nclient = nexmo.Client(key='your_key', secret='your_secret')\n\nresponse = client.send_ivr_message({'to': '441632960961', 'from': 'Nexmo', 'text': 'Hello, this is a test call'})",
+      "description": "Send an IVR message using the Nexmo API.",
+      "scenario": "Use when you need to send automated IVR messages via Nexmo.",
+      "language": "python",
+      "tags": [
+        "nexmo",
+        "ivr",
+        "python"
+      ],
+      "is_curated": false,
+      "man_page": "https://developer.nexmo.com/api/voice"
+    },
+    {
+      "command": "<Response>\n    <Play>https://api.twilio.com/cowbell.mp3</Play>\n</Response>",
+      "description": "Play an audio file in a Twilio IVR call.",
+      "scenario": "Use when you need to play a pre-recorded message in an IVR system.",
+      "language": "xml",
+      "tags": [
+        "twilio",
+        "audio",
+        "ivr"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.twilio.com/docs/voice/twiml/play"
+    },
+    {
+      "command": "twilio phone-numbers:update \"PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\" --sms-url=\"http://demo.twilio.com/docs/sms.xml\"",
+      "description": "Update a Twilio phone number to handle SMS with a webhook.",
+      "scenario": "Use when you need to configure a phone number to handle incoming SMS messages.",
+      "language": "bash",
+      "tags": [
+        "twilio",
+        "sms",
+        "webhook"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.twilio.com/docs/phone-numbers"
+    },
+    {
+      "command": "<Response>\n    <Record maxLength=\"20\" action=\"/handle-recording\" />\n</Response>",
+      "description": "Record a caller's message in a Twilio IVR system.",
+      "scenario": "Use when you need to record a message from the caller for later review.",
+      "language": "xml",
+      "tags": [
+        "twilio",
+        "record",
+        "ivr"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.twilio.com/docs/voice/twiml/record"
+    },
+    {
+      "command": "curl -X POST https://api.nexmo.com/v1/calls \\\n  -u 'API_KEY:API_SECRET' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n    \"to\": [{\"type\": \"phone\", \"number\": \"447700900000\"}],\n    \"from\": {\"type\": \"phone\", \"number\": \"447700900001\"},\n    \"answer_url\": [\"https://example.com/answer\"]\n  }'",
+      "description": "Make a call using Nexmo API with a specified answer URL.",
+      "scenario": "Use when you need to initiate a call and direct it to a specific handler.",
+      "language": "bash",
+      "tags": [
+        "nexmo",
+        "call",
+        "api"
+      ],
+      "is_curated": false,
+      "man_page": "https://developer.nexmo.com/api/voice#createCall"
+    },
+    {
+      "command": "<Response>\n    <Redirect>https://example.com/nextInstructions</Redirect>\n</Response>",
+      "description": "Redirect a call to another URL in a Twilio IVR system.",
+      "scenario": "Use when you need to transfer a call to another handler or URL.",
+      "language": "xml",
+      "tags": [
+        "twilio",
+        "redirect",
+        "ivr"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.twilio.com/docs/voice/twiml/redirect"
+    },
+    {
+      "command": "twilio calls:list --status completed",
+      "description": "List all completed calls in Twilio.",
+      "scenario": "Use when you need to review the history of completed calls.",
+      "language": "bash",
+      "tags": [
+        "twilio",
+        "calls",
+        "history"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.twilio.com/docs/voice/api/call-resource"
+    },
+    {
+      "command": "<Response>\n    <Enqueue workflowSid=\"WW0123456789abcdef0123456789abcdef\">\n        <Task>{\"account_number\": \"12345abcdef\"}</Task>\n    </Enqueue>\n</Response>",
+      "description": "Enqueue a call into a TaskRouter workflow in Twilio.",
+      "scenario": "Use when you need to route calls to specific workflows based on tasks.",
+      "language": "xml",
+      "tags": [
+        "twilio",
+        "enqueue",
+        "taskrouter"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.twilio.com/docs/taskrouter"
+    },
+    {
+      "command": "twilio calls:create --to \"+1234567890\" --from \"+0987654321\" --url \"http://demo.twilio.com/docs/voice.xml\"",
+      "description": "Create a new call using Twilio CLI.",
+      "scenario": "Use when you need to initiate a call from the command line.",
+      "language": "bash",
+      "tags": [
+        "twilio",
+        "cli",
+        "call"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.twilio.com/docs/twilio-cli/quickstart/voice"
+    }
+  ]
+}

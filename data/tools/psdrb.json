@@ -1,0 +1,165 @@
+{
+  "title": "PSD.rb Cheat Sheet",
+  "slug": "psdrb",
+  "description": "Quick reference for PSD.rb commands and usage patterns",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "psd parse myfile.psd",
+      "description": "Parse a PSD file and output its structure",
+      "scenario": "Use when you need to inspect the structure of a PSD file",
+      "language": "bash",
+      "tags": [
+        "parse",
+        "structure",
+        "psd"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd export myfile.psd --to output_folder",
+      "description": "Export layers of a PSD file to a specified folder",
+      "scenario": "Use when you need to extract all layers from a PSD file",
+      "language": "bash",
+      "tags": [
+        "export",
+        "layers",
+        "psd"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd info myfile.psd",
+      "description": "Display basic information about a PSD file",
+      "scenario": "Use when you need quick details about a PSD file",
+      "language": "bash",
+      "tags": [
+        "info",
+        "details",
+        "psd"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd extract myfile.psd --layer 3 --to layer3.png",
+      "description": "Extract a specific layer from a PSD file to an image",
+      "scenario": "Use when you need to save a specific layer as an image",
+      "language": "bash",
+      "tags": [
+        "extract",
+        "layer",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd layers myfile.psd",
+      "description": "List all layers in a PSD file",
+      "scenario": "Use when you need to see all layers in a PSD file",
+      "language": "bash",
+      "tags": [
+        "list",
+        "layers",
+        "psd"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd merge myfile.psd --output merged.png",
+      "description": "Merge all layers of a PSD file into a single image",
+      "scenario": "Use when you need a flattened version of a PSD file",
+      "language": "bash",
+      "tags": [
+        "merge",
+        "flatten",
+        "psd"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd resize myfile.psd --width 800 --height 600 --output resized.psd",
+      "description": "Resize a PSD file to new dimensions",
+      "scenario": "Use when you need to change the dimensions of a PSD file",
+      "language": "bash",
+      "tags": [
+        "resize",
+        "dimensions",
+        "psd"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd convert myfile.psd --format jpg --output myfile.jpg",
+      "description": "Convert a PSD file to another image format",
+      "scenario": "Use when you need to convert a PSD to a JPEG",
+      "language": "bash",
+      "tags": [
+        "convert",
+        "format",
+        "psd"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd compress myfile.psd --output compressed.psd",
+      "description": "Compress a PSD file to reduce its size",
+      "scenario": "Use when you need to reduce the file size of a PSD",
+      "language": "bash",
+      "tags": [
+        "compress",
+        "size",
+        "psd"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd compare file1.psd file2.psd",
+      "description": "Compare two PSD files for differences",
+      "scenario": "Use when you need to find differences between two PSD files",
+      "language": "bash",
+      "tags": [
+        "compare",
+        "diff",
+        "psd"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd metadata myfile.psd",
+      "description": "Extract metadata from a PSD file",
+      "scenario": "Use when you need to access metadata information of a PSD",
+      "language": "bash",
+      "tags": [
+        "metadata",
+        "info",
+        "psd"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/layervault/psd.rb"
+    },
+    {
+      "command": "psd repair myfile.psd --output repaired.psd",
+      "description": "Attempt to repair a corrupted PSD file",
+      "scenario": "Use when you need to fix a corrupted PSD file",
+      "language": "bash",
+      "tags": [
+        "repair",
+        "corrupt",
+        "psd"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/layervault/psd.rb"
+    }
+  ]
+}

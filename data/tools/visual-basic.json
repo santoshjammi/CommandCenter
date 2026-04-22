@@ -1,0 +1,165 @@
+{
+  "title": "Visual Basic Cheat Sheet",
+  "slug": "visual-basic",
+  "description": "Essential Visual Basic commands and syntax for software engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "Dim x As Integer",
+      "description": "Declare an integer variable named x.",
+      "scenario": "Use when you need to declare an integer variable.",
+      "language": "text",
+      "tags": [
+        "declare",
+        "variable",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/variables/variable-declaration"
+    },
+    {
+      "command": "If x > 10 Then\n    Console.WriteLine(\"x is greater than 10\")\nEnd If",
+      "description": "Conditional statement to check if x is greater than 10.",
+      "scenario": "Use when you need to perform actions based on a condition.",
+      "language": "text",
+      "tags": [
+        "conditional",
+        "if",
+        "statement"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/control-flow/decision-structures"
+    },
+    {
+      "command": "For i As Integer = 1 To 10\n    Console.WriteLine(i)\nNext",
+      "description": "Loop from 1 to 10 and print each number.",
+      "scenario": "Use when you need to iterate over a range of numbers.",
+      "language": "text",
+      "tags": [
+        "loop",
+        "for",
+        "iteration"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/control-flow/for-next-statements"
+    },
+    {
+      "command": "Sub Main()\n    ' Your code here\nEnd Sub",
+      "description": "Define the entry point of a VB program.",
+      "scenario": "Use to define the main procedure in a VB application.",
+      "language": "text",
+      "tags": [
+        "main",
+        "procedure",
+        "entry-point"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/main-procedure"
+    },
+    {
+      "command": "Function Add(a As Integer, b As Integer) As Integer\n    Return a + b\nEnd Function",
+      "description": "Define a function to add two integers.",
+      "scenario": "Use when you need to create a reusable function for addition.",
+      "language": "text",
+      "tags": [
+        "function",
+        "addition",
+        "integer"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/procedures"
+    },
+    {
+      "command": "Try\n    ' Code that may cause an exception\nCatch ex As Exception\n    Console.WriteLine(ex.Message)\nEnd Try",
+      "description": "Handle exceptions using Try-Catch block.",
+      "scenario": "Use when you need to handle runtime errors gracefully.",
+      "language": "text",
+      "tags": [
+        "exception",
+        "error-handling",
+        "try-catch"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/error-handling/structured-exception-handling"
+    },
+    {
+      "command": "Dim names As String() = {\"Alice\", \"Bob\", \"Charlie\"}",
+      "description": "Declare and initialize an array of strings.",
+      "scenario": "Use when you need to store multiple string values in an array.",
+      "language": "text",
+      "tags": [
+        "array",
+        "string",
+        "declare"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/arrays/arrays"
+    },
+    {
+      "command": "While x < 10\n    x += 1\nEnd While",
+      "description": "Loop while a condition is true.",
+      "scenario": "Use when you need to repeat actions while a condition holds true.",
+      "language": "text",
+      "tags": [
+        "loop",
+        "while",
+        "iteration"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/control-flow/while-end-while-statement"
+    },
+    {
+      "command": "Select Case day\n    Case \"Monday\"\n        Console.WriteLine(\"Start of work week\")\n    Case \"Friday\"\n        Console.WriteLine(\"End of work week\")\n    Case Else\n        Console.WriteLine(\"Midweek\")\nEnd Select",
+      "description": "Select Case statement for multi-way branching.",
+      "scenario": "Use when you need to choose between multiple options.",
+      "language": "text",
+      "tags": [
+        "select",
+        "case",
+        "branching"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/control-flow/select-case-statement"
+    },
+    {
+      "command": "Class Car\n    Public Property Make As String\n    Public Property Model As String\nEnd Class",
+      "description": "Define a simple class with properties.",
+      "scenario": "Use when you need to create a class to represent an object.",
+      "language": "text",
+      "tags": [
+        "class",
+        "object-oriented",
+        "properties"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/classes"
+    },
+    {
+      "command": "Module Module1\n    Sub Main()\n        Console.WriteLine(\"Hello, World!\")\n    End Sub\nEnd Module",
+      "description": "Basic structure of a VB program with a module and main subroutine.",
+      "scenario": "Use as a starting point for any VB console application.",
+      "language": "text",
+      "tags": [
+        "module",
+        "main",
+        "structure"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/modules"
+    },
+    {
+      "command": "Public Sub New(make As String, model As String)\n    Me.Make = make\n    Me.Model = model\nEnd Sub",
+      "description": "Constructor for a class to initialize properties.",
+      "scenario": "Use when you need to create a constructor for initializing class properties.",
+      "language": "text",
+      "tags": [
+        "constructor",
+        "class",
+        "initialize"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/constructors"
+    }
+  ]
+}

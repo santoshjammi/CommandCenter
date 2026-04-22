@@ -1,0 +1,204 @@
+{
+  "title": "Boundary",
+  "slug": "boundary",
+  "description": "A cheat sheet for HashiCorp Boundary CLI commands and configurations.",
+  "audience": "engineer",
+  "category": "Security",
+  "commands": [
+    {
+      "command": "boundary dev",
+      "description": "Start a Boundary dev server for local testing.",
+      "scenario": "Use when you want to quickly start a local Boundary server for development and testing.",
+      "language": "bash",
+      "tags": [
+        "dev",
+        "server",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.boundaryproject.io/docs/getting-started/dev"
+    },
+    {
+      "command": "boundary authenticate password -auth-method-id=ampw_1234567890 -login-name=admin -password=password",
+      "description": "Authenticate to Boundary using password authentication.",
+      "scenario": "Use when you need to authenticate to Boundary with a username and password.",
+      "language": "bash",
+      "tags": [
+        "auth",
+        "login",
+        "password"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.boundaryproject.io/docs/commands/authenticate"
+    },
+    {
+      "command": "boundary targets list -scope-id=global",
+      "description": "List all targets in the global scope.",
+      "scenario": "Use to view all available targets within the global scope of Boundary.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "targets",
+        "scope"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.boundaryproject.io/docs/commands/targets/list"
+    },
+    {
+      "command": "boundary connect -target-id ttcp_1234567890",
+      "description": "Establish a session to a target using its ID.",
+      "scenario": "Use when you need to connect to a specific target through Boundary.",
+      "language": "bash",
+      "tags": [
+        "connect",
+        "session",
+        "target"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.boundaryproject.io/docs/commands/connect"
+    },
+    {
+      "command": "boundary scopes create -name=\"New Project\" -scope-id=global",
+      "description": "Create a new scope under the global scope.",
+      "scenario": "Use to organize resources by creating a new scope in Boundary.",
+      "language": "bash",
+      "tags": [
+        "create",
+        "scope",
+        "organization"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/scopes/create"
+    },
+    {
+      "command": "boundary roles list -scope-id=global",
+      "description": "List all roles in the global scope.",
+      "scenario": "Use to view all roles available in the global scope of Boundary.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "roles",
+        "scope"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/roles/list"
+    },
+    {
+      "command": "boundary roles create -name=\"Admin Role\" -scope-id=global",
+      "description": "Create a new role in the global scope.",
+      "scenario": "Use to define a new role with specific permissions in Boundary.",
+      "language": "bash",
+      "tags": [
+        "create",
+        "role",
+        "permissions"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/roles/create"
+    },
+    {
+      "command": "boundary accounts list -scope-id=global",
+      "description": "List all accounts in the global scope.",
+      "scenario": "Use to see all user accounts within the global scope of Boundary.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "accounts",
+        "scope"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/accounts/list"
+    },
+    {
+      "command": "boundary accounts create -name=\"New User\" -scope-id=global",
+      "description": "Create a new account in the global scope.",
+      "scenario": "Use to add a new user account to Boundary.",
+      "language": "bash",
+      "tags": [
+        "create",
+        "account",
+        "user"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/accounts/create"
+    },
+    {
+      "command": "boundary targets create -name=\"New Target\" -scope-id=global",
+      "description": "Create a new target in the global scope.",
+      "scenario": "Use to define a new target resource in Boundary.",
+      "language": "bash",
+      "tags": [
+        "create",
+        "target",
+        "resource"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/targets/create"
+    },
+    {
+      "command": "boundary sessions list -scope-id=global",
+      "description": "List all sessions in the global scope.",
+      "scenario": "Use to monitor all active sessions within the global scope of Boundary.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "sessions",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.boundaryproject.io/docs/commands/sessions/list"
+    },
+    {
+      "command": "boundary sessions cancel -id=sess_1234567890",
+      "description": "Cancel a specific session by its ID.",
+      "scenario": "Use to terminate an active session in Boundary.",
+      "language": "bash",
+      "tags": [
+        "cancel",
+        "session",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.boundaryproject.io/docs/commands/sessions/cancel"
+    },
+    {
+      "command": "boundary workers list -scope-id=global",
+      "description": "List all workers in the global scope.",
+      "scenario": "Use to view all workers available in the global scope of Boundary.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "workers",
+        "scope"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/workers/list"
+    },
+    {
+      "command": "boundary workers create -name=\"New Worker\" -scope-id=global",
+      "description": "Create a new worker in the global scope.",
+      "scenario": "Use to add a new worker to handle sessions in Boundary.",
+      "language": "bash",
+      "tags": [
+        "create",
+        "worker",
+        "session"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/workers/create"
+    },
+    {
+      "command": "boundary auth-methods list -scope-id=global",
+      "description": "List all authentication methods in the global scope.",
+      "scenario": "Use to see all available authentication methods in Boundary.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "auth",
+        "methods"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.boundaryproject.io/docs/commands/auth-methods/list"
+    }
+  ]
+}

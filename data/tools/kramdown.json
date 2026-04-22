@@ -1,0 +1,165 @@
+{
+  "title": "Kramdown Cheat Sheet",
+  "slug": "kramdown",
+  "description": "Essential Kramdown commands and syntax for engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "kramdown myfile.md > myfile.html",
+      "description": "Convert Markdown file to HTML using Kramdown.",
+      "scenario": "Use when you need to convert a Markdown file to HTML format for web use.",
+      "language": "bash",
+      "tags": [
+        "markdown",
+        "html",
+        "conversion"
+      ],
+      "is_curated": true,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    },
+    {
+      "command": "kramdown --template template.html myfile.md > myfile.html",
+      "description": "Convert Markdown to HTML using a specific template.",
+      "scenario": "Use when you want to apply a custom HTML template during conversion.",
+      "language": "bash",
+      "tags": [
+        "template",
+        "html",
+        "markdown"
+      ],
+      "is_curated": true,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    },
+    {
+      "command": "kramdown --output pdf myfile.md > myfile.pdf",
+      "description": "Convert Markdown file to PDF format.",
+      "scenario": "Use when you need a PDF version of your Markdown document.",
+      "language": "bash",
+      "tags": [
+        "pdf",
+        "markdown",
+        "conversion"
+      ],
+      "is_curated": false,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    },
+    {
+      "command": "kramdown --syntax-highlighter coderay myfile.md > myfile.html",
+      "description": "Use CodeRay for syntax highlighting in HTML output.",
+      "scenario": "Use when you need syntax highlighting in your HTML output.",
+      "language": "bash",
+      "tags": [
+        "syntax",
+        "highlighting",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": "https://kramdown.gettalong.org/syntax_highlighter/coderay.html"
+    },
+    {
+      "command": "kramdown --no-auto-ids myfile.md > myfile.html",
+      "description": "Disable automatic ID generation for headers.",
+      "scenario": "Use when you want to prevent automatic ID generation for headers in HTML.",
+      "language": "bash",
+      "tags": [
+        "ids",
+        "headers",
+        "html"
+      ],
+      "is_curated": false,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    },
+    {
+      "command": "kramdown --smart-quotes apos,apos,quot,quot myfile.md > myfile.html",
+      "description": "Customize smart quotes in the output.",
+      "scenario": "Use when you need to customize the style of smart quotes in your HTML output.",
+      "language": "bash",
+      "tags": [
+        "quotes",
+        "customization",
+        "html"
+      ],
+      "is_curated": false,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    },
+    {
+      "command": "kramdown --footnote-backlink myfile.md > myfile.html",
+      "description": "Enable footnote backlinks in HTML output.",
+      "scenario": "Use when you want footnotes to have backlinks to their references.",
+      "language": "bash",
+      "tags": [
+        "footnotes",
+        "backlinks",
+        "html"
+      ],
+      "is_curated": false,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    },
+    {
+      "command": "kramdown --enable-coderay myfile.md > myfile.html",
+      "description": "Enable CodeRay syntax highlighting.",
+      "scenario": "Use when you need to enable CodeRay for syntax highlighting in your HTML output.",
+      "language": "bash",
+      "tags": [
+        "coderay",
+        "highlighting",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": "https://kramdown.gettalong.org/syntax_highlighter/coderay.html"
+    },
+    {
+      "command": "kramdown --math-engine mathjax myfile.md > myfile.html",
+      "description": "Use MathJax for rendering math in HTML output.",
+      "scenario": "Use when you need to render mathematical expressions using MathJax.",
+      "language": "bash",
+      "tags": [
+        "math",
+        "mathjax",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": "https://kramdown.gettalong.org/math_support.html"
+    },
+    {
+      "command": "kramdown --toc-levels 1..3 myfile.md > myfile.html",
+      "description": "Generate a table of contents for specified header levels.",
+      "scenario": "Use when you want to include a table of contents for specific header levels in HTML.",
+      "language": "bash",
+      "tags": [
+        "toc",
+        "headers",
+        "html"
+      ],
+      "is_curated": true,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    },
+    {
+      "command": "kramdown --warnings-as-errors myfile.md > myfile.html",
+      "description": "Treat warnings as errors during conversion.",
+      "scenario": "Use when you want to enforce strict conversion by treating warnings as errors.",
+      "language": "bash",
+      "tags": [
+        "warnings",
+        "errors",
+        "strict"
+      ],
+      "is_curated": false,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    },
+    {
+      "command": "kramdown --wrap none myfile.md > myfile.html",
+      "description": "Disable line wrapping in HTML output.",
+      "scenario": "Use when you need to disable line wrapping in the generated HTML for better readability.",
+      "language": "bash",
+      "tags": [
+        "wrap",
+        "html",
+        "output"
+      ],
+      "is_curated": false,
+      "man_page": "https://kramdown.gettalong.org/usage.html"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "title": "Routes Cheat Sheet",
+  "slug": "routes",
+  "description": "A concise guide to managing routes in web applications and APIs.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "router.get('/users', userController.getAllUsers)",
+      "description": "Defines a GET route for retrieving all users.",
+      "scenario": "Use when you need to define a route to fetch all user data from the server.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "nodejs",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "app.use('/api', apiRoutes)",
+      "description": "Mounts the API routes under the '/api' path.",
+      "scenario": "Use when you want to group API routes under a common path prefix.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "middleware",
+        "routing"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "Route::get('/users', [UserController::class, 'index']);",
+      "description": "Defines a GET route in Laravel for listing users.",
+      "scenario": "Use when setting up a route in a Laravel application to list users.",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "php",
+        "routing"
+      ],
+      "is_curated": true,
+      "man_page": "https://laravel.com/docs/8.x/routing"
+    },
+    {
+      "command": "router.post('/login', authController.login)",
+      "description": "Defines a POST route for user login.",
+      "scenario": "Use when you need to handle user login via a POST request.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "authentication",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "resources :users",
+      "description": "Creates RESTful routes for users in a Rails application.",
+      "scenario": "Use when you need to quickly generate all RESTful routes for a resource in Rails.",
+      "language": "ruby",
+      "tags": [
+        "rails",
+        "rest",
+        "routing"
+      ],
+      "is_curated": true,
+      "man_page": "https://guides.rubyonrails.org/routing.html"
+    },
+    {
+      "command": "router.put('/users/:id', userController.updateUser)",
+      "description": "Defines a PUT route for updating a user's information.",
+      "scenario": "Use when you need to update user details via an HTTP PUT request.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "http",
+        "crud"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "Route::delete('/users/{id}', [UserController::class, 'destroy']);",
+      "description": "Defines a DELETE route in Laravel for removing a user.",
+      "scenario": "Use when you need to delete a user record in a Laravel application.",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "php",
+        "crud"
+      ],
+      "is_curated": false,
+      "man_page": "https://laravel.com/docs/8.x/routing"
+    },
+    {
+      "command": "router.route('/products').get(productController.getAll).post(productController.create)",
+      "description": "Chains GET and POST routes for products on the same path.",
+      "scenario": "Use when you want to define multiple HTTP methods on the same route path.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "chaining",
+        "crud"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "Route::resource('photos', PhotoController::class);",
+      "description": "Creates a resource route for photos in Laravel.",
+      "scenario": "Use when you need to set up a full set of RESTful routes for a resource in Laravel.",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "rest",
+        "resource"
+      ],
+      "is_curated": false,
+      "man_page": "https://laravel.com/docs/8.x/controllers#resource-controllers"
+    },
+    {
+      "command": "app.get('/status', (req, res) => res.send('OK'))",
+      "description": "Defines a simple GET route that returns a status message.",
+      "scenario": "Use when you need a basic health check endpoint in your application.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "healthcheck",
+        "http"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "router.patch('/users/:id', userController.partialUpdateUser)",
+      "description": "Defines a PATCH route for partially updating a user's information.",
+      "scenario": "Use when you need to apply partial updates to a user's data.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "http",
+        "crud"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "Route::match(['get', 'post'], '/welcome', [WelcomeController::class, 'show']);",
+      "description": "Defines a route in Laravel that responds to both GET and POST requests.",
+      "scenario": "Use when you need a route to handle multiple HTTP methods in Laravel.",
+      "language": "php",
+      "tags": [
+        "laravel",
+        "http",
+        "flexible"
+      ],
+      "is_curated": false,
+      "man_page": "https://laravel.com/docs/8.x/routing#available-router-methods"
+    },
+    {
+      "command": "router.delete('/posts/:id', postController.deletePost)",
+      "description": "Defines a DELETE route for removing a post.",
+      "scenario": "Use when you need to delete a post resource via an HTTP DELETE request.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "http",
+        "crud"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    }
+  ]
+}

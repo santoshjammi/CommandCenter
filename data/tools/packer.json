@@ -1,0 +1,165 @@
+{
+  "title": "Packer Cheat Sheet",
+  "slug": "packer",
+  "description": "Essential Packer CLI commands for building and managing machine images.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "packer init .",
+      "description": "Initialize a Packer template and install plugins.",
+      "scenario": "Use when setting up a new Packer template to ensure all required plugins are installed.",
+      "language": "bash",
+      "tags": [
+        "init",
+        "setup",
+        "plugins"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.packer.io/docs/commands/init"
+    },
+    {
+      "command": "packer validate template.json",
+      "description": "Validate a Packer template for syntax errors.",
+      "scenario": "Use to ensure your Packer template is correctly formatted before building.",
+      "language": "bash",
+      "tags": [
+        "validate",
+        "syntax",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.packer.io/docs/commands/validate"
+    },
+    {
+      "command": "packer build template.json",
+      "description": "Build an image from a Packer template.",
+      "scenario": "Use to create a machine image using the specified Packer template.",
+      "language": "bash",
+      "tags": [
+        "build",
+        "image",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.packer.io/docs/commands/build"
+    },
+    {
+      "command": "packer inspect template.json",
+      "description": "Inspect a Packer template to see available variables and builders.",
+      "scenario": "Use to understand the components and variables in a Packer template.",
+      "language": "bash",
+      "tags": [
+        "inspect",
+        "template",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.packer.io/docs/commands/inspect"
+    },
+    {
+      "command": "packer console",
+      "description": "Launch an interactive console for evaluating HCL2 expressions.",
+      "scenario": "Use to test and evaluate expressions in your Packer templates interactively.",
+      "language": "bash",
+      "tags": [
+        "console",
+        "hcl2",
+        "evaluate"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.packer.io/docs/commands/console"
+    },
+    {
+      "command": "packer fix old-template.json",
+      "description": "Update an old JSON template to the latest format.",
+      "scenario": "Use to convert older Packer templates to the latest JSON format.",
+      "language": "bash",
+      "tags": [
+        "fix",
+        "update",
+        "template"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.packer.io/docs/commands/fix"
+    },
+    {
+      "command": "packer fmt template.json",
+      "description": "Format a Packer template to the standard style.",
+      "scenario": "Use to automatically format your Packer template for consistency.",
+      "language": "bash",
+      "tags": [
+        "format",
+        "style",
+        "template"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.packer.io/docs/commands/fmt"
+    },
+    {
+      "command": "packer version",
+      "description": "Display the installed Packer version.",
+      "scenario": "Use to check which version of Packer is installed on your system.",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "info"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.packer.io/docs/commands/version"
+    },
+    {
+      "command": "packer hcl2_upgrade template.json",
+      "description": "Upgrade a JSON template to HCL2 format.",
+      "scenario": "Use to migrate JSON templates to the HCL2 format for better readability and features.",
+      "language": "bash",
+      "tags": [
+        "upgrade",
+        "hcl2",
+        "migrate"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.packer.io/docs/commands/hcl2_upgrade"
+    },
+    {
+      "command": "packer plugins",
+      "description": "List all installed Packer plugins.",
+      "scenario": "Use to see which plugins are currently installed and available for use.",
+      "language": "bash",
+      "tags": [
+        "plugins",
+        "list",
+        "installed"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.packer.io/docs/commands/plugins"
+    },
+    {
+      "command": "packer build -only=amazon-ebs template.json",
+      "description": "Build an image using only the specified builder.",
+      "scenario": "Use to target a specific builder in a multi-builder template.",
+      "language": "bash",
+      "tags": [
+        "build",
+        "specific",
+        "builder"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.packer.io/docs/commands/build#only"
+    },
+    {
+      "command": "packer build -var 'key=value' template.json",
+      "description": "Pass variables to a Packer build command.",
+      "scenario": "Use to override or specify variables at build time.",
+      "language": "bash",
+      "tags": [
+        "variables",
+        "override",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.packer.io/docs/commands/build#var"
+    }
+  ]
+}

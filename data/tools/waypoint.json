@@ -1,0 +1,165 @@
+{
+  "title": "Waypoint",
+  "slug": "waypoint",
+  "description": "Essential Waypoint CLI commands for deployment and management.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "waypoint init",
+      "description": "Initialize a Waypoint project in the current directory.",
+      "scenario": "Use when setting up a new project to deploy with Waypoint.",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.waypointproject.io/docs/commands/init"
+    },
+    {
+      "command": "waypoint up",
+      "description": "Build, deploy, and release an application.",
+      "scenario": "Use when you need to deploy the latest version of your application.",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "release",
+        "build"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.waypointproject.io/docs/commands/up"
+    },
+    {
+      "command": "waypoint logs",
+      "description": "View logs for a deployed application.",
+      "scenario": "Use to troubleshoot or monitor application logs after deployment.",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "monitor",
+        "troubleshoot"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.waypointproject.io/docs/commands/logs"
+    },
+    {
+      "command": "waypoint exec",
+      "description": "Execute a command in a running application instance.",
+      "scenario": "Use to run commands in the context of your deployed application.",
+      "language": "bash",
+      "tags": [
+        "exec",
+        "command",
+        "instance"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.waypointproject.io/docs/commands/exec"
+    },
+    {
+      "command": "waypoint destroy",
+      "description": "Destroy all resources associated with a Waypoint deployment.",
+      "scenario": "Use when you need to clean up resources after testing or decommissioning an app.",
+      "language": "bash",
+      "tags": [
+        "destroy",
+        "cleanup",
+        "resources"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.waypointproject.io/docs/commands/destroy"
+    },
+    {
+      "command": "waypoint status",
+      "description": "Get the current status of a Waypoint deployment.",
+      "scenario": "Use to check the health and status of your deployed application.",
+      "language": "bash",
+      "tags": [
+        "status",
+        "health",
+        "check"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.waypointproject.io/docs/commands/status"
+    },
+    {
+      "command": "waypoint version",
+      "description": "Display the current version of Waypoint CLI.",
+      "scenario": "Use to verify the installed version of Waypoint CLI.",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "check"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.waypointproject.io/docs/commands/version"
+    },
+    {
+      "command": "waypoint config set",
+      "description": "Set configuration variables for a Waypoint application.",
+      "scenario": "Use to update configuration settings for your application.",
+      "language": "bash",
+      "tags": [
+        "config",
+        "set",
+        "variables"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.waypointproject.io/docs/commands/config-set"
+    },
+    {
+      "command": "waypoint config get",
+      "description": "Get configuration variables for a Waypoint application.",
+      "scenario": "Use to retrieve current configuration settings for your application.",
+      "language": "bash",
+      "tags": [
+        "config",
+        "get",
+        "variables"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.waypointproject.io/docs/commands/config-get"
+    },
+    {
+      "command": "waypoint deploy",
+      "description": "Deploy an application without building or releasing.",
+      "scenario": "Use when you only need to deploy changes without a new build.",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "application",
+        "changes"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.waypointproject.io/docs/commands/deploy"
+    },
+    {
+      "command": "waypoint release",
+      "description": "Release a previously built application.",
+      "scenario": "Use to release an application version that has already been built.",
+      "language": "bash",
+      "tags": [
+        "release",
+        "application",
+        "version"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.waypointproject.io/docs/commands/release"
+    },
+    {
+      "command": "waypoint server run",
+      "description": "Run a Waypoint server locally for development.",
+      "scenario": "Use to start a local Waypoint server for testing and development.",
+      "language": "bash",
+      "tags": [
+        "server",
+        "local",
+        "development"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.waypointproject.io/docs/commands/server-run"
+    }
+  ]
+}

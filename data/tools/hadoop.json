@@ -1,0 +1,178 @@
+{
+  "title": "Hadoop Cheat Sheet",
+  "slug": "hadoop",
+  "description": "Essential Hadoop CLI commands and configurations for engineers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "hadoop fs -ls /",
+      "description": "List files and directories in HDFS root directory",
+      "scenario": "Use when you need to see the contents of the HDFS root directory.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "list",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#ls"
+    },
+    {
+      "command": "hadoop fs -put localfile.txt /hdfs/path/",
+      "description": "Upload a file from local filesystem to HDFS",
+      "scenario": "Use when you need to upload data to HDFS for processing.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "upload",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#put"
+    },
+    {
+      "command": "hadoop fs -get /hdfs/path/file.txt localfile.txt",
+      "description": "Download a file from HDFS to local filesystem",
+      "scenario": "Use when you need to retrieve processed data from HDFS.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "download",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#get"
+    },
+    {
+      "command": "hadoop fs -rm /hdfs/path/file.txt",
+      "description": "Remove a file from HDFS",
+      "scenario": "Use when you need to delete unnecessary files from HDFS to free up space.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "delete",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#rm"
+    },
+    {
+      "command": "hadoop fs -mkdir /hdfs/newdir",
+      "description": "Create a new directory in HDFS",
+      "scenario": "Use when you need to organize files in HDFS by creating directories.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "create",
+        "directory"
+      ],
+      "is_curated": false,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#mkdir"
+    },
+    {
+      "command": "hadoop jar myapp.jar input output",
+      "description": "Run a Hadoop job using a JAR file",
+      "scenario": "Use when you need to execute a MapReduce job on your data.",
+      "language": "bash",
+      "tags": [
+        "MapReduce",
+        "job",
+        "execute"
+      ],
+      "is_curated": true,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html"
+    },
+    {
+      "command": "hadoop fsck /",
+      "description": "Check the health of the HDFS",
+      "scenario": "Use when you need to diagnose issues with HDFS.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "check",
+        "health"
+      ],
+      "is_curated": true,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HDFSCommands.html#fsck"
+    },
+    {
+      "command": "hadoop dfsadmin -report",
+      "description": "Get a report on HDFS status",
+      "scenario": "Use when you need a detailed status report of your HDFS cluster.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "report",
+        "status"
+      ],
+      "is_curated": false,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HDFSCommands.html#dfsadmin"
+    },
+    {
+      "command": "hadoop fs -chmod 755 /hdfs/path",
+      "description": "Change permissions of a file or directory in HDFS",
+      "scenario": "Use when you need to modify access permissions for HDFS files or directories.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "permissions",
+        "chmod"
+      ],
+      "is_curated": false,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#chmod"
+    },
+    {
+      "command": "hadoop fs -copyFromLocal localfile.txt /hdfs/path/",
+      "description": "Copy a file from local filesystem to HDFS",
+      "scenario": "Use when you need to copy files from local to HDFS for processing.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "copy",
+        "local"
+      ],
+      "is_curated": false,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#copyFromLocal"
+    },
+    {
+      "command": "hadoop fs -copyToLocal /hdfs/path/file.txt localfile.txt",
+      "description": "Copy a file from HDFS to local filesystem",
+      "scenario": "Use when you need to copy files from HDFS to local for analysis.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "copy",
+        "local"
+      ],
+      "is_curated": false,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#copyToLocal"
+    },
+    {
+      "command": "hadoop fs -du -h /hdfs/path/",
+      "description": "Display disk usage of HDFS directory",
+      "scenario": "Use when you need to check how much space a directory is using in HDFS.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "disk",
+        "usage"
+      ],
+      "is_curated": false,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#du"
+    },
+    {
+      "command": "hadoop fs -cat /hdfs/path/file.txt",
+      "description": "Display contents of a file in HDFS",
+      "scenario": "Use when you need to quickly view the contents of a file stored in HDFS.",
+      "language": "bash",
+      "tags": [
+        "HDFS",
+        "view",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html#cat"
+    }
+  ]
+}

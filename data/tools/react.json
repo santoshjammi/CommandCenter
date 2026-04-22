@@ -1,0 +1,191 @@
+{
+  "title": "React Cheat Sheet",
+  "slug": "react",
+  "description": "Essential React commands and patterns for engineers",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npx create-react-app my-app",
+      "description": "Create a new React application",
+      "scenario": "Use when starting a new React project to set up the basic structure.",
+      "language": "bash",
+      "tags": [
+        "react",
+        "setup",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactjs.org/docs/create-a-new-react-app.html#create-react-app"
+    },
+    {
+      "command": "npm start",
+      "description": "Start the React development server",
+      "scenario": "Use to start the development server and view your React app in the browser.",
+      "language": "bash",
+      "tags": [
+        "react",
+        "development",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactjs.org/docs/getting-started.html"
+    },
+    {
+      "command": "npm run build",
+      "description": "Build the React app for production",
+      "scenario": "Use to compile the React app into static files for production deployment.",
+      "language": "bash",
+      "tags": [
+        "react",
+        "build",
+        "production"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactjs.org/docs/optimizing-performance.html#use-the-production-build"
+    },
+    {
+      "command": "npm test",
+      "description": "Run tests for the React application",
+      "scenario": "Use to execute tests defined in the React app to ensure code quality.",
+      "language": "bash",
+      "tags": [
+        "react",
+        "testing",
+        "quality"
+      ],
+      "is_curated": false,
+      "man_page": "https://reactjs.org/docs/testing.html"
+    },
+    {
+      "command": "import React from 'react';",
+      "description": "Import React library in a component",
+      "scenario": "Use at the top of your component files to access React features.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "import",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactjs.org/docs/components-and-props.html"
+    },
+    {
+      "command": "const [state, setState] = useState(initialState);",
+      "description": "Declare state in a functional component",
+      "scenario": "Use to manage state in a functional component using React Hooks.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "hooks",
+        "state"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactjs.org/docs/hooks-state.html"
+    },
+    {
+      "command": "useEffect(() => { /* side effect */ }, [dependencies]);",
+      "description": "Perform side effects in a functional component",
+      "scenario": "Use to perform side effects like data fetching in functional components.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "hooks",
+        "effect"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactjs.org/docs/hooks-effect.html"
+    },
+    {
+      "command": "<BrowserRouter><Route path=\"/\" component={Home} /></BrowserRouter>",
+      "description": "Set up routing in a React app",
+      "scenario": "Use to define routes and navigate between different components in a React app.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "routing",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactrouter.com/web/guides/quick-start"
+    },
+    {
+      "command": "class MyComponent extends React.Component { render() { return <div>Hello World</div>; } }",
+      "description": "Create a class component in React",
+      "scenario": "Use to define a component using ES6 class syntax.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "class",
+        "component"
+      ],
+      "is_curated": false,
+      "man_page": "https://reactjs.org/docs/react-component.html"
+    },
+    {
+      "command": "<MyComponent propName={value} />",
+      "description": "Pass props to a React component",
+      "scenario": "Use to pass data to a component via props.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "props",
+        "component"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactjs.org/docs/components-and-props.html"
+    },
+    {
+      "command": "this.setState({ key: value });",
+      "description": "Update state in a class component",
+      "scenario": "Use to update the component's state in a class component.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "state",
+        "class"
+      ],
+      "is_curated": false,
+      "man_page": "https://reactjs.org/docs/react-component.html#setstate"
+    },
+    {
+      "command": "ReactDOM.render(<App />, document.getElementById('root'));",
+      "description": "Render a React component to the DOM",
+      "scenario": "Use to render the main React component into the DOM.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "render",
+        "dom"
+      ],
+      "is_curated": true,
+      "man_page": "https://reactjs.org/docs/react-dom.html#render"
+    },
+    {
+      "command": "<Fragment><Child1 /><Child2 /></Fragment>",
+      "description": "Use React Fragment to group children",
+      "scenario": "Use to group multiple elements without adding extra nodes to the DOM.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "fragment",
+        "jsx"
+      ],
+      "is_curated": false,
+      "man_page": "https://reactjs.org/docs/fragments.html"
+    },
+    {
+      "command": "const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);",
+      "description": "Optimize performance with useMemo",
+      "scenario": "Use to memoize expensive calculations to improve performance.",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "hooks",
+        "performance"
+      ],
+      "is_curated": false,
+      "man_page": "https://reactjs.org/docs/hooks-reference.html#usememo"
+    }
+  ]
+}

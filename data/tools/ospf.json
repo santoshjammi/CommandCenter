@@ -1,0 +1,165 @@
+{
+  "title": "OSPF Cheat Sheet",
+  "slug": "ospf",
+  "description": "Essential commands and configurations for OSPF network engineers.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "router ospf 1",
+      "description": "Enable OSPF on a router with process ID 1",
+      "scenario": "Use when you need to start OSPF on a router.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "networking",
+        "router"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16/iro-xe-16-book/ospf-cfg.html"
+    },
+    {
+      "command": "network 192.168.1.0 0.0.0.255 area 0",
+      "description": "Add a network to OSPF area 0",
+      "scenario": "Use when you need to include a network in OSPF area 0.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "networking",
+        "area"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16/iro-xe-16-book/ospf-cfg.html"
+    },
+    {
+      "command": "show ip ospf neighbor",
+      "description": "Display OSPF neighbor information",
+      "scenario": "Use to verify OSPF neighbor relationships.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "neighbor",
+        "verification"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/command/iro-cr-book/ospf-s1.html"
+    },
+    {
+      "command": "show ip ospf",
+      "description": "Show general OSPF routing process information",
+      "scenario": "Use to check the overall status of OSPF on a router.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "status",
+        "routing"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/command/iro-cr-book/ospf-s1.html"
+    },
+    {
+      "command": "show ip ospf interface",
+      "description": "Display OSPF-related interface information",
+      "scenario": "Use to view OSPF settings on interfaces.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "interface",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/command/iro-cr-book/ospf-s1.html"
+    },
+    {
+      "command": "clear ip ospf process",
+      "description": "Reset OSPF process on a router",
+      "scenario": "Use to restart OSPF without reloading the router.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "reset",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/command/iro-cr-book/ospf-c1.html"
+    },
+    {
+      "command": "ip ospf cost 10",
+      "description": "Set OSPF cost for an interface",
+      "scenario": "Use to manually set the OSPF cost on a specific interface.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "cost",
+        "interface"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16/iro-xe-16-book/ospf-cfg.html"
+    },
+    {
+      "command": "show ip ospf database",
+      "description": "Display the OSPF link-state database",
+      "scenario": "Use to inspect the OSPF link-state database for troubleshooting.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "database",
+        "troubleshooting"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/command/iro-cr-book/ospf-s1.html"
+    },
+    {
+      "command": "default-information originate",
+      "description": "Advertise a default route via OSPF",
+      "scenario": "Use to propagate a default route to OSPF neighbors.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "default route",
+        "advertise"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16/iro-xe-16-book/ospf-cfg.html"
+    },
+    {
+      "command": "area 1 stub",
+      "description": "Configure an OSPF area as a stub area",
+      "scenario": "Use to reduce routing table size in an OSPF area.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "stub",
+        "area"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16/iro-xe-16-book/ospf-cfg.html"
+    },
+    {
+      "command": "ip ospf priority 100",
+      "description": "Set OSPF router priority for DR election",
+      "scenario": "Use to influence the DR/BDR election process.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "priority",
+        "election"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16/iro-xe-16-book/ospf-cfg.html"
+    },
+    {
+      "command": "show ip ospf traffic",
+      "description": "Display OSPF traffic statistics",
+      "scenario": "Use to monitor OSPF traffic for performance analysis.",
+      "language": "text",
+      "tags": [
+        "ospf",
+        "traffic",
+        "monitoring"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/command/iro-cr-book/ospf-s1.html"
+    }
+  ]
+}

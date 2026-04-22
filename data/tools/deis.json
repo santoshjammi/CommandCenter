@@ -1,0 +1,165 @@
+{
+  "title": "Deis Cheat Sheet",
+  "slug": "deis",
+  "description": "Essential commands for managing applications with Deis PaaS.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "deis create <app-name>",
+      "description": "Create a new application on Deis.",
+      "scenario": "Use when you need to start a new application deployment.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "app",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": "https://deis.com/docs/workflow/users/application-creation/"
+    },
+    {
+      "command": "deis apps:list",
+      "description": "List all applications in the current Deis cluster.",
+      "scenario": "Use to view all deployed applications in your cluster.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "apps",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": "https://deis.com/docs/workflow/users/apps-list/"
+    },
+    {
+      "command": "deis apps:info",
+      "description": "Get detailed information about a specific application.",
+      "scenario": "Use to retrieve the status and details of an app.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "apps",
+        "info"
+      ],
+      "is_curated": true,
+      "man_page": "https://deis.com/docs/workflow/users/apps-info/"
+    },
+    {
+      "command": "deis config:set KEY=VALUE",
+      "description": "Set configuration environment variables for an app.",
+      "scenario": "Use to configure environment variables for your application.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "config",
+        "set"
+      ],
+      "is_curated": true,
+      "man_page": "https://deis.com/docs/workflow/users/config-set/"
+    },
+    {
+      "command": "deis config:unset KEY",
+      "description": "Remove configuration environment variables from an app.",
+      "scenario": "Use to delete environment variables you no longer need.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "config",
+        "unset"
+      ],
+      "is_curated": false,
+      "man_page": "https://deis.com/docs/workflow/users/config-unset/"
+    },
+    {
+      "command": "deis ps",
+      "description": "List processes for an application.",
+      "scenario": "Use to check the running processes of your app.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "processes",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": "https://deis.com/docs/workflow/users/ps/"
+    },
+    {
+      "command": "deis logs",
+      "description": "View aggregated application logs.",
+      "scenario": "Use to troubleshoot and monitor application logs.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "logs",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": "https://deis.com/docs/workflow/users/logs/"
+    },
+    {
+      "command": "deis scale web=3",
+      "description": "Scale the number of web processes for an application.",
+      "scenario": "Use to increase or decrease the app's web process count.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "scale",
+        "process"
+      ],
+      "is_curated": true,
+      "man_page": "https://deis.com/docs/workflow/users/scale/"
+    },
+    {
+      "command": "deis destroy --app=<app-name>",
+      "description": "Destroy an application and its resources.",
+      "scenario": "Use to remove an application you no longer need.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "destroy",
+        "app"
+      ],
+      "is_curated": false,
+      "man_page": "https://deis.com/docs/workflow/users/apps-destroy/"
+    },
+    {
+      "command": "deis pull <image>",
+      "description": "Deploy an image from a Docker registry to Deis.",
+      "scenario": "Use to deploy a Docker image directly to Deis.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "pull",
+        "docker"
+      ],
+      "is_curated": false,
+      "man_page": "https://deis.com/docs/workflow/users/pull/"
+    },
+    {
+      "command": "deis perms:list --app=<app-name>",
+      "description": "List users with access to an application.",
+      "scenario": "Use to audit user access to your application.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "permissions",
+        "list"
+      ],
+      "is_curated": false,
+      "man_page": "https://deis.com/docs/workflow/users/perms-list/"
+    },
+    {
+      "command": "deis perms:create <username> --app=<app-name>",
+      "description": "Grant a user access to an application.",
+      "scenario": "Use to add a collaborator to your application.",
+      "language": "bash",
+      "tags": [
+        "deis",
+        "permissions",
+        "create"
+      ],
+      "is_curated": false,
+      "man_page": "https://deis.com/docs/workflow/users/perms-create/"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Smile CLI Cheat Sheet",
+  "slug": "smile",
+  "description": "Essential commands for using the Smile CLI tool effectively.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "smile init",
+      "description": "Initialize a new Smile project.",
+      "scenario": "Use when starting a new project with Smile to set up the initial configuration.",
+      "language": "bash",
+      "tags": [
+        "init",
+        "project",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://smile-lang.org/docs/cli/init"
+    },
+    {
+      "command": "smile build",
+      "description": "Build the current Smile project.",
+      "scenario": "Use to compile and prepare your Smile project for deployment.",
+      "language": "bash",
+      "tags": [
+        "build",
+        "compile",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": "https://smile-lang.org/docs/cli/build"
+    },
+    {
+      "command": "smile run",
+      "description": "Run the Smile project locally.",
+      "scenario": "Use to execute your Smile project on your local machine for testing.",
+      "language": "bash",
+      "tags": [
+        "run",
+        "execute",
+        "local"
+      ],
+      "is_curated": true,
+      "man_page": "https://smile-lang.org/docs/cli/run"
+    },
+    {
+      "command": "smile test",
+      "description": "Run tests for the Smile project.",
+      "scenario": "Use to execute all tests and ensure your Smile project is working correctly.",
+      "language": "bash",
+      "tags": [
+        "test",
+        "validate",
+        "qa"
+      ],
+      "is_curated": true,
+      "man_page": "https://smile-lang.org/docs/cli/test"
+    },
+    {
+      "command": "smile deploy",
+      "description": "Deploy the Smile project to a server.",
+      "scenario": "Use to upload and deploy your Smile project to a live server.",
+      "language": "bash",
+      "tags": [
+        "deploy",
+        "upload",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": "https://smile-lang.org/docs/cli/deploy"
+    },
+    {
+      "command": "smile clean",
+      "description": "Clean up build artifacts in the Smile project.",
+      "scenario": "Use to remove temporary files and directories created during the build process.",
+      "language": "bash",
+      "tags": [
+        "clean",
+        "artifacts",
+        "build"
+      ],
+      "is_curated": false,
+      "man_page": "https://smile-lang.org/docs/cli/clean"
+    },
+    {
+      "command": "smile config --set key=value",
+      "description": "Set a configuration key-value pair for the Smile project.",
+      "scenario": "Use to update or add configuration settings for your project.",
+      "language": "bash",
+      "tags": [
+        "config",
+        "settings",
+        "update"
+      ],
+      "is_curated": false,
+      "man_page": "https://smile-lang.org/docs/cli/config"
+    },
+    {
+      "command": "smile config --get key",
+      "description": "Get the value of a configuration key in the Smile project.",
+      "scenario": "Use to retrieve current configuration values for verification or debugging.",
+      "language": "bash",
+      "tags": [
+        "config",
+        "settings",
+        "retrieve"
+      ],
+      "is_curated": false,
+      "man_page": "https://smile-lang.org/docs/cli/config"
+    },
+    {
+      "command": "smile logs",
+      "description": "View logs for the Smile project.",
+      "scenario": "Use to check logs for debugging or monitoring purposes.",
+      "language": "bash",
+      "tags": [
+        "logs",
+        "debug",
+        "monitor"
+      ],
+      "is_curated": true,
+      "man_page": "https://smile-lang.org/docs/cli/logs"
+    },
+    {
+      "command": "smile version",
+      "description": "Display the current version of the Smile CLI tool.",
+      "scenario": "Use to verify the installed version of Smile CLI for compatibility checks.",
+      "language": "bash",
+      "tags": [
+        "version",
+        "check",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://smile-lang.org/docs/cli/version"
+    },
+    {
+      "command": "smile help",
+      "description": "Display help information for Smile CLI commands.",
+      "scenario": "Use to get detailed usage instructions for Smile CLI commands.",
+      "language": "bash",
+      "tags": [
+        "help",
+        "usage",
+        "instructions"
+      ],
+      "is_curated": true,
+      "man_page": "https://smile-lang.org/docs/cli/help"
+    },
+    {
+      "command": "smile update",
+      "description": "Update the Smile CLI tool to the latest version.",
+      "scenario": "Use to ensure you have the latest features and bug fixes for Smile CLI.",
+      "language": "bash",
+      "tags": [
+        "update",
+        "upgrade",
+        "cli"
+      ],
+      "is_curated": false,
+      "man_page": "https://smile-lang.org/docs/cli/update"
+    }
+  ]
+}

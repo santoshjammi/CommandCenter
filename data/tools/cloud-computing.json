@@ -1,0 +1,204 @@
+{
+  "title": "Cloud Computing",
+  "slug": "cloud-computing",
+  "description": "Essential CLI commands and configurations for cloud computing tasks.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "aws s3 ls",
+      "description": "List all S3 buckets in your AWS account",
+      "scenario": "Use when you need to view all S3 buckets available in your AWS account.",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "s3",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html"
+    },
+    {
+      "command": "gcloud compute instances list",
+      "description": "List all Google Cloud Compute Engine instances",
+      "scenario": "Use to get a list of all VM instances running in Google Cloud.",
+      "language": "bash",
+      "tags": [
+        "gcloud",
+        "compute",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/compute/instances/list"
+    },
+    {
+      "command": "az vm list -o table",
+      "description": "List all Azure virtual machines in table format",
+      "scenario": "Use this to quickly see all VMs in your Azure account in a readable format.",
+      "language": "bash",
+      "tags": [
+        "azure",
+        "vm",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": "https://learn.microsoft.com/en-us/cli/azure/vm?view=azure-cli-latest#az-vm-list"
+    },
+    {
+      "command": "terraform init",
+      "description": "Initialize a Terraform working directory",
+      "scenario": "Run this to prepare your Terraform directory for other commands.",
+      "language": "bash",
+      "tags": [
+        "terraform",
+        "init",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.hashicorp.com/terraform/cli/commands/init"
+    },
+    {
+      "command": "kubectl get pods",
+      "description": "List all pods in the current Kubernetes namespace",
+      "scenario": "Use to check the status of all pods in your Kubernetes cluster.",
+      "language": "bash",
+      "tags": [
+        "kubernetes",
+        "pods",
+        "list"
+      ],
+      "is_curated": true,
+      "man_page": "https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#get"
+    },
+    {
+      "command": "aws ec2 describe-instances",
+      "description": "Describe one or more EC2 instances",
+      "scenario": "Use to get detailed information about your EC2 instances.",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "ec2",
+        "describe"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-instances.html"
+    },
+    {
+      "command": "gcloud auth login",
+      "description": "Authenticate gcloud CLI with your Google account",
+      "scenario": "Run this to log in and authenticate your Google Cloud CLI session.",
+      "language": "bash",
+      "tags": [
+        "gcloud",
+        "auth",
+        "login"
+      ],
+      "is_curated": false,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/auth/login"
+    },
+    {
+      "command": "az login",
+      "description": "Authenticate Azure CLI with your Azure account",
+      "scenario": "Use this command to log in to your Azure account via CLI.",
+      "language": "bash",
+      "tags": [
+        "azure",
+        "auth",
+        "login"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli"
+    },
+    {
+      "command": "terraform apply",
+      "description": "Apply the changes required to reach the desired state of the configuration",
+      "scenario": "Run this to apply your Terraform configuration to your cloud infrastructure.",
+      "language": "bash",
+      "tags": [
+        "terraform",
+        "apply",
+        "deploy"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.hashicorp.com/terraform/cli/commands/apply"
+    },
+    {
+      "command": "kubectl apply -f deployment.yaml",
+      "description": "Apply a Kubernetes configuration from a file",
+      "scenario": "Use to deploy or update resources in a Kubernetes cluster using a YAML file.",
+      "language": "bash",
+      "tags": [
+        "kubernetes",
+        "apply",
+        "yaml"
+      ],
+      "is_curated": true,
+      "man_page": "https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply"
+    },
+    {
+      "command": "aws configure",
+      "description": "Configure AWS CLI with your credentials",
+      "scenario": "Run this to set up your AWS CLI with access keys and region.",
+      "language": "bash",
+      "tags": [
+        "aws",
+        "configure",
+        "setup"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
+    },
+    {
+      "command": "gcloud config set project PROJECT_ID",
+      "description": "Set the active Google Cloud project",
+      "scenario": "Use to switch the active project in your gcloud CLI session.",
+      "language": "bash",
+      "tags": [
+        "gcloud",
+        "config",
+        "project"
+      ],
+      "is_curated": false,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/config/set"
+    },
+    {
+      "command": "az group create --name MyResourceGroup --location eastus",
+      "description": "Create a new Azure resource group",
+      "scenario": "Use this to organize your Azure resources into a new group.",
+      "language": "bash",
+      "tags": [
+        "azure",
+        "resource",
+        "group"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az-group-create"
+    },
+    {
+      "command": "terraform plan",
+      "description": "Generate and show an execution plan",
+      "scenario": "Run this to see what actions Terraform will take to change infrastructure.",
+      "language": "bash",
+      "tags": [
+        "terraform",
+        "plan",
+        "preview"
+      ],
+      "is_curated": false,
+      "man_page": "https://developer.hashicorp.com/terraform/cli/commands/plan"
+    },
+    {
+      "command": "kubectl delete pod POD_NAME",
+      "description": "Delete a specific pod in Kubernetes",
+      "scenario": "Use to remove a malfunctioning or unneeded pod from your cluster.",
+      "language": "bash",
+      "tags": [
+        "kubernetes",
+        "delete",
+        "pod"
+      ],
+      "is_curated": false,
+      "man_page": "https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete"
+    }
+  ]
+}

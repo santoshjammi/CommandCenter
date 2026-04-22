@@ -1,0 +1,217 @@
+{
+  "title": "InDesign Cheat Sheet",
+  "slug": "indesign",
+  "description": "Essential InDesign shortcuts and workflows for non-engineers.",
+  "audience": "non-engineer",
+  "category": "Design",
+  "commands": [
+    {
+      "command": "Ctrl+N",
+      "description": "Create a new document",
+      "scenario": "When starting a new project or document.",
+      "language": "text",
+      "tags": [
+        "new",
+        "document",
+        "create"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/indesign/using/creating-documents.html"
+    },
+    {
+      "command": "Ctrl+S",
+      "description": "Save the current document",
+      "scenario": "To save changes to your document.",
+      "language": "text",
+      "tags": [
+        "save",
+        "document",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/indesign/using/saving-documents.html"
+    },
+    {
+      "command": "Ctrl+Z",
+      "description": "Undo the last action",
+      "scenario": "When you make a mistake and want to revert it.",
+      "language": "text",
+      "tags": [
+        "undo",
+        "revert",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/indesign/using/undoing-reverting.html"
+    },
+    {
+      "command": "Ctrl+Shift+Z",
+      "description": "Redo the last undone action",
+      "scenario": "To redo an action you just undid.",
+      "language": "text",
+      "tags": [
+        "redo",
+        "action",
+        "edit"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/indesign/using/undoing-reverting.html"
+    },
+    {
+      "command": "Ctrl+C",
+      "description": "Copy selected text or object",
+      "scenario": "When you need to duplicate text or objects.",
+      "language": "text",
+      "tags": [
+        "copy",
+        "text",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/indesign/using/copying-pasting.html"
+    },
+    {
+      "command": "Ctrl+V",
+      "description": "Paste copied text or object",
+      "scenario": "To insert copied text or objects into your document.",
+      "language": "text",
+      "tags": [
+        "paste",
+        "text",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/indesign/using/copying-pasting.html"
+    },
+    {
+      "command": "Ctrl+Shift+>",
+      "description": "Increase font size",
+      "scenario": "When you need to make text larger.",
+      "language": "text",
+      "tags": [
+        "font",
+        "size",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/indesign/using/formatting-text.html"
+    },
+    {
+      "command": "Ctrl+Shift+<",
+      "description": "Decrease font size",
+      "scenario": "When you need to make text smaller.",
+      "language": "text",
+      "tags": [
+        "font",
+        "size",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/indesign/using/formatting-text.html"
+    },
+    {
+      "command": "Ctrl+P",
+      "description": "Print the current document",
+      "scenario": "When you need a physical copy of your document.",
+      "language": "text",
+      "tags": [
+        "print",
+        "document",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/indesign/using/printing-documents.html"
+    },
+    {
+      "command": "File > Export",
+      "description": "Export the document to various formats",
+      "scenario": "To save your document in different formats like PDF.",
+      "language": "text",
+      "tags": [
+        "export",
+        "document",
+        "file"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/indesign/using/exporting.html"
+    },
+    {
+      "command": "Ctrl+Shift+L",
+      "description": "Align text left",
+      "scenario": "To align text to the left margin.",
+      "language": "text",
+      "tags": [
+        "align",
+        "text",
+        "left"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/indesign/using/aligning-text.html"
+    },
+    {
+      "command": "Ctrl+Shift+R",
+      "description": "Align text right",
+      "scenario": "To align text to the right margin.",
+      "language": "text",
+      "tags": [
+        "align",
+        "text",
+        "right"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/indesign/using/aligning-text.html"
+    },
+    {
+      "command": "Ctrl+Shift+C",
+      "description": "Center align text",
+      "scenario": "To center text within its frame.",
+      "language": "text",
+      "tags": [
+        "align",
+        "text",
+        "center"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/indesign/using/aligning-text.html"
+    },
+    {
+      "command": "Ctrl+Shift+E",
+      "description": "Fit frame to content",
+      "scenario": "When you need the frame to match the size of its content.",
+      "language": "text",
+      "tags": [
+        "frame",
+        "content",
+        "fit"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/indesign/using/resizing-objects.html"
+    },
+    {
+      "command": "Ctrl+Shift+M",
+      "description": "Open the Paragraph Styles panel",
+      "scenario": "To apply or edit paragraph styles.",
+      "language": "text",
+      "tags": [
+        "styles",
+        "paragraph",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/indesign/using/paragraph-styles.html"
+    },
+    {
+      "command": "Ctrl+Shift+T",
+      "description": "Open the Tabs panel",
+      "scenario": "To set or adjust tab stops.",
+      "language": "text",
+      "tags": [
+        "tabs",
+        "text",
+        "panel"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/indesign/using/tabs.html"
+    }
+  ]
+}

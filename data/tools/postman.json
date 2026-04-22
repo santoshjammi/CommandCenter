@@ -1,0 +1,178 @@
+{
+  "title": "Postman",
+  "slug": "postman",
+  "description": "Essential Postman CLI commands and patterns for API testing and automation.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "newman run collection.json",
+      "description": "Run a Postman collection using Newman.",
+      "scenario": "Use when you want to execute a Postman collection from the command line.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "newman",
+        "collection"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json -e environment.json",
+      "description": "Run a collection with a specific environment.",
+      "scenario": "Use when you need to test against different environments.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "environment",
+        "newman"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --reporters cli,json",
+      "description": "Run a collection and output results in CLI and JSON format.",
+      "scenario": "Use when you need detailed test reports in multiple formats.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "report",
+        "newman"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --timeout 5000",
+      "description": "Set a request timeout for a collection run.",
+      "scenario": "Use when you need to limit the time a request can take.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "timeout",
+        "newman"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --delay-request 1000",
+      "description": "Add a delay between requests in a collection run.",
+      "scenario": "Use when you need to throttle requests to the server.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "delay",
+        "newman"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --bail",
+      "description": "Stop the collection run on the first failure.",
+      "scenario": "Use when you want to halt execution on errors.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "bail",
+        "newman"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --folder \"Folder Name\"",
+      "description": "Run a specific folder within a collection.",
+      "scenario": "Use when you want to test a subset of requests.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "folder",
+        "newman"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --global-var \"key=value\"",
+      "description": "Set a global variable for the collection run.",
+      "scenario": "Use when you need to override global variables temporarily.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "global",
+        "variable"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --export-environment output.json",
+      "description": "Export the environment variables after a run.",
+      "scenario": "Use when you need to save the state of environment variables.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "export",
+        "environment"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --export-globals output.json",
+      "description": "Export global variables after a run.",
+      "scenario": "Use when you need to save global variables state.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "export",
+        "globals"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --ignore-redirects",
+      "description": "Prevent Newman from following HTTP 3xx responses.",
+      "scenario": "Use when you need to test redirect behavior.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "redirect",
+        "newman"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --insecure",
+      "description": "Disable SSL verification for the run.",
+      "scenario": "Use when testing against servers with self-signed certificates.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "ssl",
+        "newman"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.npmjs.com/package/newman"
+    },
+    {
+      "command": "newman run collection.json --color off",
+      "description": "Disable colored CLI output.",
+      "scenario": "Use when you need plain text output for logs.",
+      "language": "bash",
+      "tags": [
+        "postman",
+        "color",
+        "cli"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.npmjs.com/package/newman"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "kdb+ Cheat Sheet",
+  "slug": "kdb",
+  "description": "Essential kdb+ commands and patterns for database management.",
+  "audience": "engineer",
+  "category": "Databases",
+  "commands": [
+    {
+      "command": "q)\\l myscript.q",
+      "description": "Load a q script into the kdb+ environment.",
+      "scenario": "Use when you need to load and execute a q script file.",
+      "language": "text",
+      "tags": [
+        "load",
+        "script",
+        "q"
+      ],
+      "is_curated": true,
+      "man_page": "https://code.kx.com/q/ref/file-text/#load-script"
+    },
+    {
+      "command": "q)select from trades where sym=`AAPL",
+      "description": "Select rows from a table where the symbol is AAPL.",
+      "scenario": "Use to filter data in a table based on a condition.",
+      "language": "text",
+      "tags": [
+        "select",
+        "filter",
+        "query"
+      ],
+      "is_curated": true,
+      "man_page": "https://code.kx.com/q/ref/select/"
+    },
+    {
+      "command": "q)insert[`trades;(`AAPL;42.5;100)]",
+      "description": "Insert a new row into the trades table.",
+      "scenario": "Use to add new data to a table.",
+      "language": "text",
+      "tags": [
+        "insert",
+        "table",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": "https://code.kx.com/q/ref/insert/"
+    },
+    {
+      "command": "q)delete from trades where sym=`GOOG",
+      "description": "Delete rows from a table where the symbol is GOOG.",
+      "scenario": "Use to remove specific data from a table.",
+      "language": "text",
+      "tags": [
+        "delete",
+        "table",
+        "data"
+      ],
+      "is_curated": true,
+      "man_page": "https://code.kx.com/q/ref/delete/"
+    },
+    {
+      "command": "q)update price:price*1.1 from trades where sym=`AAPL",
+      "description": "Update prices in the trades table for AAPL by 10%.",
+      "scenario": "Use to modify existing data in a table.",
+      "language": "text",
+      "tags": [
+        "update",
+        "modify",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": "https://code.kx.com/q/ref/update/"
+    },
+    {
+      "command": "q)select sum size by sym from trades",
+      "description": "Aggregate data by summing sizes grouped by symbol.",
+      "scenario": "Use to perform aggregation operations on table data.",
+      "language": "text",
+      "tags": [
+        "aggregate",
+        "group",
+        "sum"
+      ],
+      "is_curated": true,
+      "man_page": "https://code.kx.com/q/ref/select/"
+    },
+    {
+      "command": "q)\\t select from trades",
+      "description": "Time the execution of a query.",
+      "scenario": "Use to measure the performance of a query.",
+      "language": "text",
+      "tags": [
+        "performance",
+        "timing",
+        "query"
+      ],
+      "is_curated": false,
+      "man_page": "https://code.kx.com/q/ref/timing/"
+    },
+    {
+      "command": "q)\\d .myNamespace",
+      "description": "Change the current working namespace.",
+      "scenario": "Use to organize code into different namespaces.",
+      "language": "text",
+      "tags": [
+        "namespace",
+        "organize",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://code.kx.com/q/ref/dotz/"
+    },
+    {
+      "command": "q)show `trades",
+      "description": "Display the schema of the trades table.",
+      "scenario": "Use to inspect the structure of a table.",
+      "language": "text",
+      "tags": [
+        "schema",
+        "inspect",
+        "table"
+      ],
+      "is_curated": false,
+      "man_page": "https://code.kx.com/q/ref/show/"
+    },
+    {
+      "command": "q)meta trades",
+      "description": "Get metadata information of the trades table.",
+      "scenario": "Use to view metadata such as column types of a table.",
+      "language": "text",
+      "tags": [
+        "metadata",
+        "table",
+        "inspect"
+      ],
+      "is_curated": false,
+      "man_page": "https://code.kx.com/q/ref/meta/"
+    },
+    {
+      "command": "q)save `:trades.csv",
+      "description": "Save a table to a CSV file.",
+      "scenario": "Use to export table data to a CSV file for external use.",
+      "language": "text",
+      "tags": [
+        "export",
+        "csv",
+        "save"
+      ],
+      "is_curated": false,
+      "man_page": "https://code.kx.com/q/ref/save/"
+    },
+    {
+      "command": "q)\\p 5001",
+      "description": "Set the port for the kdb+ server.",
+      "scenario": "Use to change the port number for server connections.",
+      "language": "text",
+      "tags": [
+        "port",
+        "server",
+        "connection"
+      ],
+      "is_curated": false,
+      "man_page": "https://code.kx.com/q/ref/dotz/"
+    }
+  ]
+}

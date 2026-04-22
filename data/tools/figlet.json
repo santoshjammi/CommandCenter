@@ -1,0 +1,165 @@
+{
+  "title": "Figlet Cheat Sheet",
+  "slug": "figlet",
+  "description": "A quick reference for using Figlet to create ASCII art text in the terminal.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "figlet 'Hello World'",
+      "description": "Generate ASCII art for 'Hello World'.",
+      "scenario": "Use when you want to create an ASCII art banner for 'Hello World'.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "art",
+        "banner"
+      ],
+      "is_curated": true,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -f slant 'Hello'",
+      "description": "Create slanted ASCII art text.",
+      "scenario": "Use when you need a slanted style for your ASCII art text.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "style",
+        "slant"
+      ],
+      "is_curated": true,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -c 'Centered Text'",
+      "description": "Center the ASCII art text output.",
+      "scenario": "Use when you want to center the text output in your terminal.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "center",
+        "alignment"
+      ],
+      "is_curated": true,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -w 100 'Wide Text'",
+      "description": "Set the output width to 100 columns.",
+      "scenario": "Use when you need to adjust the width of the ASCII art output to fit your terminal.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "width",
+        "format"
+      ],
+      "is_curated": true,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -k 'Kerning'",
+      "description": "Enable kerning for the ASCII art text.",
+      "scenario": "Use when you want to adjust the spacing between characters in the ASCII art.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "kerning",
+        "spacing"
+      ],
+      "is_curated": true,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -f banner 'Big Text'",
+      "description": "Generate ASCII art using the 'banner' font.",
+      "scenario": "Use when you want to create large ASCII art text with the 'banner' font.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "font",
+        "banner"
+      ],
+      "is_curated": true,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -l 'Left Align'",
+      "description": "Left align the ASCII art text output.",
+      "scenario": "Use when you need the text to be left-aligned in your terminal.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "left",
+        "alignment"
+      ],
+      "is_curated": false,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -r 'Right Align'",
+      "description": "Right align the ASCII art text output.",
+      "scenario": "Use when you need the text to be right-aligned in your terminal.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "right",
+        "alignment"
+      ],
+      "is_curated": false,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -t 'Terminal Width'",
+      "description": "Fit the ASCII art to the terminal width.",
+      "scenario": "Use when you want the ASCII art to automatically fit the terminal width.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "terminal",
+        "fit"
+      ],
+      "is_curated": false,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -f digital 'Digital Font'",
+      "description": "Use the 'digital' font for ASCII art.",
+      "scenario": "Use when you want a digital-style font for your ASCII art text.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "digital",
+        "font"
+      ],
+      "is_curated": false,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -f small 'Small Font'",
+      "description": "Generate ASCII art using the 'small' font.",
+      "scenario": "Use when you need a compact ASCII art text with the 'small' font.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "small",
+        "font"
+      ],
+      "is_curated": false,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    },
+    {
+      "command": "figlet -f standard 'Standard Font'",
+      "description": "Use the 'standard' font for ASCII art.",
+      "scenario": "Use when you want to create ASCII art text with the default 'standard' font.",
+      "language": "bash",
+      "tags": [
+        "ascii",
+        "standard",
+        "font"
+      ],
+      "is_curated": false,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man6/figlet.6.html"
+    }
+  ]
+}

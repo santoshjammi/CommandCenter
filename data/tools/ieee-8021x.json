@@ -1,0 +1,165 @@
+{
+  "title": "IEEE 802.1X Cheat Sheet",
+  "slug": "ieee-8021x",
+  "description": "Essential commands and configurations for IEEE 802.1X network authentication.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf",
+      "description": "Start wpa_supplicant for wireless authentication",
+      "scenario": "Use when you need to authenticate a device on a wireless network using 802.1X.",
+      "language": "bash",
+      "tags": [
+        "wpa_supplicant",
+        "wireless",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": "https://w1.fi/cgit/hostap/plain/wpa_supplicant/wpa_supplicant.conf"
+    },
+    {
+      "command": "systemctl restart NetworkManager",
+      "description": "Restart NetworkManager to apply new configurations",
+      "scenario": "Use when you have updated 802.1X settings and need to apply them.",
+      "language": "bash",
+      "tags": [
+        "NetworkManager",
+        "restart",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": "https://man.archlinux.org/man/NetworkManager.8"
+    },
+    {
+      "command": "nmcli device wifi connect 'SSID' password 'your_password'",
+      "description": "Connect to a Wi-Fi network using nmcli",
+      "scenario": "Use when you need to connect to a secured Wi-Fi network using 802.1X.",
+      "language": "bash",
+      "tags": [
+        "nmcli",
+        "wifi",
+        "connect"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.gnome.org/NetworkManager/stable/nmcli.html"
+    },
+    {
+      "command": "openssl x509 -in cert.pem -text -noout",
+      "description": "Display certificate information",
+      "scenario": "Use when you need to verify the details of a certificate used in 802.1X authentication.",
+      "language": "bash",
+      "tags": [
+        "openssl",
+        "certificate",
+        "verify"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.openssl.org/docs/man1.1.1/man1/x509.html"
+    },
+    {
+      "command": "eapol_test -c eapol_test.conf -s secret",
+      "description": "Test EAP authentication with a RADIUS server",
+      "scenario": "Use when you need to test EAP authentication against a RADIUS server.",
+      "language": "bash",
+      "tags": [
+        "EAP",
+        "RADIUS",
+        "test"
+      ],
+      "is_curated": true,
+      "man_page": "https://w1.fi/cgit/hostap/plain/wpa_supplicant/eapol_test.txt"
+    },
+    {
+      "command": "tcpdump -i eth0 port 1812 or port 1813",
+      "description": "Capture RADIUS authentication packets",
+      "scenario": "Use when you need to troubleshoot 802.1X authentication issues by capturing RADIUS packets.",
+      "language": "bash",
+      "tags": [
+        "tcpdump",
+        "RADIUS",
+        "capture"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tcpdump.org/manpages/tcpdump.1.html"
+    },
+    {
+      "command": "cat /etc/wpa_supplicant/wpa_supplicant.conf",
+      "description": "View the wpa_supplicant configuration file",
+      "scenario": "Use when you need to review the current 802.1X configuration settings.",
+      "language": "bash",
+      "tags": [
+        "wpa_supplicant",
+        "configuration",
+        "view"
+      ],
+      "is_curated": false,
+      "man_page": "https://w1.fi/cgit/hostap/plain/wpa_supplicant/wpa_supplicant.conf"
+    },
+    {
+      "command": "radiusd -X",
+      "description": "Run FreeRADIUS in debug mode",
+      "scenario": "Use when you need to debug RADIUS server authentication issues.",
+      "language": "bash",
+      "tags": [
+        "FreeRADIUS",
+        "debug",
+        "authentication"
+      ],
+      "is_curated": true,
+      "man_page": "https://networkradius.com/doc/3.0.10/radiusd.html"
+    },
+    {
+      "command": "echo 'network={\\n ssid=\"SSID\"\\n key_mgmt=WPA-EAP\\n eap=PEAP\\n identity=\"user\"\\n password=\"pass\"\\n}' > /etc/wpa_supplicant.conf",
+      "description": "Create a basic wpa_supplicant configuration for 802.1X",
+      "scenario": "Use when you need to set up a basic 802.1X configuration for a network.",
+      "language": "bash",
+      "tags": [
+        "wpa_supplicant",
+        "configuration",
+        "802.1X"
+      ],
+      "is_curated": true,
+      "man_page": "https://w1.fi/cgit/hostap/plain/wpa_supplicant/wpa_supplicant.conf"
+    },
+    {
+      "command": "show dot1x all",
+      "description": "Display 802.1X status on Cisco switches",
+      "scenario": "Use when you need to check the 802.1X authentication status on a Cisco switch.",
+      "language": "text",
+      "tags": [
+        "Cisco",
+        "dot1x",
+        "status"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "netsh lan show interfaces",
+      "description": "Display 802.1X status on Windows",
+      "scenario": "Use when you need to check the 802.1X status of network interfaces on Windows.",
+      "language": "text",
+      "tags": [
+        "Windows",
+        "netsh",
+        "status"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-commands-for-wired-local-area-network-lan"
+    },
+    {
+      "command": "radiusclient -f /etc/radiusclient/radiusclient.conf",
+      "description": "Start radiusclient for testing RADIUS server",
+      "scenario": "Use when you need to test connectivity to a RADIUS server using radiusclient.",
+      "language": "bash",
+      "tags": [
+        "radiusclient",
+        "RADIUS",
+        "test"
+      ],
+      "is_curated": false,
+      "man_page": "http://manpages.ubuntu.com/manpages/bionic/man5/radiusclient.conf.5.html"
+    }
+  ]
+}

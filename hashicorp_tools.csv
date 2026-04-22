@@ -1,0 +1,7 @@
+Tool Name,Category,Description,Audience
+Packer,DevOps,Automated machine image creation for any platform,engineer
+Nomad,DevOps,Flexible workload orchestrator and scheduler for containers and VMs,engineer
+Vault,Security,Secrets management encryption as a service and privileged access management,engineer
+Consul,Networking,Service mesh and distributed service networking discovery and configuration,engineer
+Boundary,Security,Identity-based access management for dynamic infrastructure,engineer
+Waypoint,DevOps,Application deployment and lifecycle management across any platform,engineer

@@ -1,0 +1,204 @@
+{
+  "title": "ES2015+ Cheat Sheet",
+  "slug": "es2015",
+  "description": "Essential ES2015+ syntax and patterns for modern JavaScript development.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "let x = 10;",
+      "description": "Declare a block-scoped variable using 'let'.",
+      "scenario": "Use when you need a variable limited to the block scope.",
+      "language": "javascript",
+      "tags": [
+        "let",
+        "variable",
+        "scope"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+    },
+    {
+      "command": "const PI = 3.14;",
+      "description": "Declare a block-scoped, read-only constant.",
+      "scenario": "Use when you need a constant value that shouldn't change.",
+      "language": "javascript",
+      "tags": [
+        "const",
+        "constant",
+        "scope"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+    },
+    {
+      "command": "const add = (a, b) => a + b;",
+      "description": "Define an arrow function for concise syntax.",
+      "scenario": "Use for shorter function expressions and lexical 'this'.",
+      "language": "javascript",
+      "tags": [
+        "arrow function",
+        "function",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+    },
+    {
+      "command": "let [a, b] = [1, 2];",
+      "description": "Destructure arrays into individual variables.",
+      "scenario": "Use to extract values from arrays easily.",
+      "language": "javascript",
+      "tags": [
+        "destructuring",
+        "arrays",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+    },
+    {
+      "command": "let {x, y} = {x: 10, y: 20};",
+      "description": "Destructure objects into individual variables.",
+      "scenario": "Use to extract properties from objects easily.",
+      "language": "javascript",
+      "tags": [
+        "destructuring",
+        "objects",
+        "variables"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+    },
+    {
+      "command": "function* generator() { yield 1; yield 2; }",
+      "description": "Define a generator function for iterable sequences.",
+      "scenario": "Use to create iterators with lazy evaluation.",
+      "language": "javascript",
+      "tags": [
+        "generator",
+        "function",
+        "iterator"
+      ],
+      "is_curated": false,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*"
+    },
+    {
+      "command": "class Rectangle { constructor(height, width) { this.height = height; this.width = width; } }",
+      "description": "Define a class with a constructor.",
+      "scenario": "Use to create objects with shared properties and methods.",
+      "language": "javascript",
+      "tags": [
+        "class",
+        "constructor",
+        "object"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+    },
+    {
+      "command": "import { readFile } from 'fs';",
+      "description": "Import specific functions from a module.",
+      "scenario": "Use to include specific parts of a module in your code.",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "module",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"
+    },
+    {
+      "command": "export function myFunction() {}",
+      "description": "Export a function from a module.",
+      "scenario": "Use to make functions available for import in other files.",
+      "language": "javascript",
+      "tags": [
+        "export",
+        "module",
+        "function"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export"
+    },
+    {
+      "command": "const promise = new Promise((resolve, reject) => { resolve('Success!'); });",
+      "description": "Create a new Promise for asynchronous operations.",
+      "scenario": "Use to handle asynchronous operations with success/failure outcomes.",
+      "language": "javascript",
+      "tags": [
+        "promise",
+        "asynchronous",
+        "operation"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+    },
+    {
+      "command": "async function fetchData() { const response = await fetch('url'); }",
+      "description": "Use async/await for handling promises.",
+      "scenario": "Use for cleaner syntax when working with promises.",
+      "language": "javascript",
+      "tags": [
+        "async",
+        "await",
+        "promise"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+    },
+    {
+      "command": "const map = new Map(); map.set('key', 'value');",
+      "description": "Create a Map for key-value pairs.",
+      "scenario": "Use when you need a collection of key-value pairs with any data type.",
+      "language": "javascript",
+      "tags": [
+        "map",
+        "collection",
+        "key-value"
+      ],
+      "is_curated": false,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map"
+    },
+    {
+      "command": "const set = new Set([1, 2, 3]);",
+      "description": "Create a Set for unique values.",
+      "scenario": "Use when you need a collection of unique values.",
+      "language": "javascript",
+      "tags": [
+        "set",
+        "collection",
+        "unique"
+      ],
+      "is_curated": false,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set"
+    },
+    {
+      "command": "const str = `Hello, ${name}!`;",
+      "description": "Use template literals for string interpolation.",
+      "scenario": "Use for easier string construction with embedded expressions.",
+      "language": "javascript",
+      "tags": [
+        "template literals",
+        "string",
+        "interpolation"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+    },
+    {
+      "command": "const arr = [1, 2, 3]; const newArr = [...arr, 4];",
+      "description": "Use the spread operator to expand arrays.",
+      "scenario": "Use to easily copy or concatenate arrays.",
+      "language": "javascript",
+      "tags": [
+        "spread operator",
+        "arrays",
+        "syntax"
+      ],
+      "is_curated": true,
+      "man_page": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Google Maps API Cheat Sheet",
+  "slug": "google-maps",
+  "description": "Essential commands and snippets for using Google Maps API effectively.",
+  "audience": "engineer",
+  "category": "Cloud",
+  "commands": [
+    {
+      "command": "<script src=\"https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap\" async defer></script>",
+      "description": "Include Google Maps JavaScript API in your HTML.",
+      "scenario": "Use when you need to embed a Google Map on your webpage.",
+      "language": "html",
+      "tags": [
+        "Google Maps",
+        "API",
+        "JavaScript"
+      ],
+      "is_curated": true,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/tutorial"
+    },
+    {
+      "command": "var map = new google.maps.Map(document.getElementById('map'), { center: {lat: -34.397, lng: 150.644}, zoom: 8 });",
+      "description": "Initialize a Google Map centered at specific coordinates.",
+      "scenario": "Use to display a map centered on a specific location.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "JavaScript",
+        "Map"
+      ],
+      "is_curated": true,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/tutorial"
+    },
+    {
+      "command": "var marker = new google.maps.Marker({ position: {lat: -34.397, lng: 150.644}, map: map, title: 'Hello World!' });",
+      "description": "Add a marker to a Google Map at specified coordinates.",
+      "scenario": "Use to mark a specific location on the map.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Marker",
+        "JavaScript"
+      ],
+      "is_curated": true,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/markers"
+    },
+    {
+      "command": "var geocoder = new google.maps.Geocoder(); geocoder.geocode({'address': 'Sydney, AU'}, function(results, status) { if (status === 'OK') { map.setCenter(results[0].geometry.location); } });",
+      "description": "Geocode an address to get its coordinates and center the map there.",
+      "scenario": "Use to find and display a location based on an address.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Geocoding",
+        "JavaScript"
+      ],
+      "is_curated": true,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/geocoding"
+    },
+    {
+      "command": "var directionsService = new google.maps.DirectionsService(); var directionsRenderer = new google.maps.DirectionsRenderer(); directionsRenderer.setMap(map);",
+      "description": "Set up directions service and renderer on a map.",
+      "scenario": "Use to display routes and directions on a map.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Directions",
+        "JavaScript"
+      ],
+      "is_curated": true,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/directions"
+    },
+    {
+      "command": "directionsService.route({ origin: 'Chicago, IL', destination: 'Los Angeles, CA', travelMode: 'DRIVING' }, function(response, status) { if (status === 'OK') { directionsRenderer.setDirections(response); } });",
+      "description": "Request and display driving directions between two locations.",
+      "scenario": "Use to calculate and show a driving route on the map.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Directions",
+        "Route"
+      ],
+      "is_curated": true,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/directions"
+    },
+    {
+      "command": "var autocomplete = new google.maps.places.Autocomplete(document.getElementById('autocomplete'));",
+      "description": "Add an autocomplete feature to an input field for place searches.",
+      "scenario": "Use to enhance user input with location suggestions.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Autocomplete",
+        "Places"
+      ],
+      "is_curated": false,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/places-autocomplete"
+    },
+    {
+      "command": "var streetViewService = new google.maps.StreetViewService(); streetViewService.getPanorama({location: {lat: 37.869085, lng: -122.254775}, radius: 50}, processSVData);",
+      "description": "Retrieve Street View panorama data for a given location.",
+      "scenario": "Use to display Street View imagery for a location.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Street View",
+        "Panorama"
+      ],
+      "is_curated": false,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/streetview"
+    },
+    {
+      "command": "var trafficLayer = new google.maps.TrafficLayer(); trafficLayer.setMap(map);",
+      "description": "Add a traffic layer to a Google Map to show real-time traffic.",
+      "scenario": "Use to display current traffic conditions on the map.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Traffic",
+        "Layer"
+      ],
+      "is_curated": false,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/trafficlayer"
+    },
+    {
+      "command": "var heatmap = new google.maps.visualization.HeatmapLayer({ data: getPoints(), map: map });",
+      "description": "Create a heatmap layer on a Google Map using data points.",
+      "scenario": "Use to visualize data density on a map.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Heatmap",
+        "Visualization"
+      ],
+      "is_curated": false,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/heatmaplayer"
+    },
+    {
+      "command": "var circle = new google.maps.Circle({ strokeColor: '#FF0000', strokeOpacity: 0.8, strokeWeight: 2, fillColor: '#FF0000', fillOpacity: 0.35, map: map, center: {lat: -34.397, lng: 150.644}, radius: 10000 });",
+      "description": "Draw a circle overlay on a Google Map.",
+      "scenario": "Use to highlight a circular area on the map.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Circle",
+        "Overlay"
+      ],
+      "is_curated": false,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/shapes#circles"
+    },
+    {
+      "command": "map.setOptions({ styles: [{ featureType: 'water', stylers: [{ color: '#blue' }] }] });",
+      "description": "Apply custom styles to a Google Map.",
+      "scenario": "Use to change the appearance of map features.",
+      "language": "javascript",
+      "tags": [
+        "Google Maps",
+        "Styles",
+        "Customization"
+      ],
+      "is_curated": false,
+      "man_page": "https://developers.google.com/maps/documentation/javascript/styling"
+    }
+  ]
+}

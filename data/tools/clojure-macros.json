@@ -1,0 +1,165 @@
+{
+  "title": "Clojure Macros Cheat Sheet",
+  "slug": "clojure-macros",
+  "description": "Essential Clojure macros for metaprogramming and code transformation.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "(defmacro unless [pred a b] `(if (not ~pred) ~a ~b))",
+      "description": "Defines a macro 'unless' that acts as an inverse of 'if'.",
+      "scenario": "Use when you need to execute code only if a condition is false.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "conditional",
+        "clojure"
+      ],
+      "is_curated": true,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro when-let [bindings & body] `(let ~bindings (when (first ~bindings) ~@body)))",
+      "description": "Combines 'let' and 'when' for conditional binding.",
+      "scenario": "Use when you want to bind a value and execute code only if the value is truthy.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "binding",
+        "conditional"
+      ],
+      "is_curated": true,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro or [x & rest] `(let [or# ~x] (if or# or# (or ~@rest))))",
+      "description": "Defines a macro 'or' that evaluates expressions until one is truthy.",
+      "scenario": "Use when you need to return the first truthy value from a list of expressions.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "logical",
+        "clojure"
+      ],
+      "is_curated": true,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro and [x & rest] `(let [and# ~x] (if and# (and ~@rest) and#)))",
+      "description": "Defines a macro 'and' that evaluates expressions until one is falsey.",
+      "scenario": "Use when you need to ensure all expressions are truthy.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "logical",
+        "clojure"
+      ],
+      "is_curated": true,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro cond [& clauses] (when clauses `(if ~(first clauses) ~(second clauses) (cond ~@(nnext clauses)))))",
+      "description": "Defines a macro 'cond' for multiple conditional branches.",
+      "scenario": "Use when you need to evaluate multiple conditions in sequence.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "conditional",
+        "clojure"
+      ],
+      "is_curated": true,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro -> [x & forms] (reduce (fn [x f] (if (seq? f) (with-meta `(~(first f) ~x ~@(next f)) (meta f)) `(~f ~x))) x forms))",
+      "description": "Defines a threading macro '->' for left-to-right function application.",
+      "scenario": "Use when you want to apply a series of transformations to a value.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "threading",
+        "clojure"
+      ],
+      "is_curated": true,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro ->> [x & forms] (reduce (fn [x f] (if (seq? f) (with-meta `(~(first f) ~@(next f) ~x) (meta f)) `(~f ~x))) x forms))",
+      "description": "Defines a threading macro '->>' for right-to-left function application.",
+      "scenario": "Use when you want to apply a series of transformations to a value, passing it as the last argument.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "threading",
+        "clojure"
+      ],
+      "is_curated": true,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro defn-memo [name & body] `(def ~name (memoize (fn ~@body))))",
+      "description": "Defines a memoized function using 'defn'.",
+      "scenario": "Use when you need to cache the results of expensive function calls.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "memoization",
+        "function"
+      ],
+      "is_curated": false,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro time [expr] `(let [start# (. System (nanoTime)) result# ~expr] (println \"Elapsed time:\" (/ (double (- (. System (nanoTime)) start#)) 1000000.0) \"msecs\") result#))",
+      "description": "Measures the execution time of an expression.",
+      "scenario": "Use when you need to benchmark the performance of a code block.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "benchmark",
+        "performance"
+      ],
+      "is_curated": false,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro doseq [[item coll] & body] `(loop [coll# ~coll] (when (seq coll#) (let [~item (first coll#)] ~@body) (recur (rest coll#)))))",
+      "description": "Iterates over a collection, executing body for each item.",
+      "scenario": "Use when you need to perform side effects for each item in a collection.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "iteration",
+        "collection"
+      ],
+      "is_curated": false,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro for [[item coll] & body] `(map (fn [~item] ~@body) ~coll))",
+      "description": "List comprehension over a collection.",
+      "scenario": "Use when you need to transform a collection into another collection.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "comprehension",
+        "collection"
+      ],
+      "is_curated": false,
+      "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro lazy-seq [& body] `(new clojure.lang.LazySeq (fn [] ~@body)))",
+      "description": "Creates a lazy sequence.",
+      "scenario": "Use when you need to define a sequence that is computed on demand.",
+      "language": "clojure",
+      "tags": [
+        "macro",
+        "lazy",
+        "sequence"
+      ],
+      "is_curated": false,
+      "man_page": "https://clojure.org/reference/macros"
+    }
+  ]
+}

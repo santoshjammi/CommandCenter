@@ -4365,8 +4365,50 @@
     "audience": "engineer"
   },
   {
-    "name": "\u00e4\u00b8\u00ad\u00e6\u0096\u0087\u00e7\u0089\u0088",
+    "name": "ä¸­æç",
     "slug": "unknown",
+    "audience": "engineer"
+  },
+  {
+    "name": "Packer",
+    "slug": "packer",
+    "category": "DevOps",
+    "description": "Automated machine image creation for any platform",
+    "audience": "engineer"
+  },
+  {
+    "name": "Nomad",
+    "slug": "nomad",
+    "category": "DevOps",
+    "description": "Flexible workload orchestrator and scheduler for containers and VMs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vault",
+    "slug": "vault",
+    "category": "Security",
+    "description": "Secrets management encryption as a service and privileged access management",
+    "audience": "engineer"
+  },
+  {
+    "name": "Consul",
+    "slug": "consul",
+    "category": "Networking",
+    "description": "Service mesh and distributed service networking discovery and configuration",
+    "audience": "engineer"
+  },
+  {
+    "name": "Boundary",
+    "slug": "boundary",
+    "category": "Security",
+    "description": "Identity-based access management for dynamic infrastructure",
+    "audience": "engineer"
+  },
+  {
+    "name": "Waypoint",
+    "slug": "waypoint",
+    "category": "DevOps",
+    "description": "Application deployment and lifecycle management across any platform",
     "audience": "engineer"
   }
 ]

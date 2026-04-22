@@ -69,16 +69,14 @@ CATEGORIES = [
 # Pydantic Models (must match the frontend JSON schema exactly)
 # ---------------------------------------------------------------------------
 
-class SnippetItem(BaseModel):
-    intent: str = Field(description="Short plain-English description of what this snippet does")
-    command: str = Field(description="The command, code snippet, shortcut, or step")
-    language: str = Field(description="Language/syntax for highlighting, e.g. bash, python, text")
+class Command(BaseModel):
+    command: str = Field(description="The actual runnable command, code snippet, shortcut, or step")
+    description: str = Field(description="Brief one-line description of what this command does")
+    scenario: str = Field(description="Real-world scenario: when/why would you run this command?")
+    language: str = Field(description="Shiki language token for syntax highlighting, e.g. bash, python, text")
     tags: list[str] = Field(default_factory=list, description="2-4 keyword tags")
-
-
-class Section(BaseModel):
-    sectionTitle: str
-    items: list[SnippetItem] = Field(min_length=1)
+    is_curated: bool = Field(default=True, description="True for the most important commands shown by default")
+    man_page: str = Field(default="", description="URL to official documentation or man page for this command")
 
 
 class CheatSheet(BaseModel):
@@ -87,7 +85,14 @@ class CheatSheet(BaseModel):
     description: str = Field(description="One-sentence summary (max 120 chars)")
     audience: str = Field(description="engineer or non-engineer")
     category: str = Field(description=f"One of: {', '.join(CATEGORIES)}")
-    sections: list[Section] = Field(min_length=2, description="At least 2 sections with at least 3 items each")
+    commands: list[Command] = Field(
+        min_length=8,
+        description=(
+            "12-20 commands covering essential use cases. "
+            "Mark the 6-8 most important ones as is_curated=true, the rest as is_curated=false. "
+            "Include real man-page or docs URLs where known."
+        )
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -97,19 +102,30 @@ class CheatSheet(BaseModel):
 ENGINEER_SYSTEM = """\
 You are an expert developer who writes concise, accurate cheat sheets for software engineers.
 Generate a comprehensive cheat sheet as valid JSON matching the schema exactly.
-Focus on: CLI commands, code syntax, flags, configuration snippets, and common patterns.
-Every 'command' field must be actual runnable code or syntax — never pseudo-code.
-Every section must have at least 3 items. Use 4-6 sections total.
-The 'language' field should be a Shiki-supported language token (bash, python, javascript, sql, yaml, etc.)
-or 'text' for generic text/keyboard shortcuts."""
+Focus on: CLI commands, code syntax, flags, configuration snippets, and common real-world patterns.
+Each command must have:
+- 'command': actual runnable code or syntax — never pseudo-code
+- 'description': one-line summary of what it does
+- 'scenario': a real-world reason to use it (e.g. 'Use when you need to check running containers')
+- 'language': Shiki-supported token (bash, python, javascript, yaml, etc.) or 'text'
+- 'tags': 2-4 keywords
+- 'is_curated': true for the 6-8 most essential commands, false for the rest
+- 'man_page': official docs URL if known, empty string otherwise
+Generate 12-20 commands total."""
 
 NON_ENGINEER_SYSTEM = """\
 You are a UX expert who writes concise, accurate cheat sheets for non-technical users.
 Generate a comprehensive cheat sheet as valid JSON matching the schema exactly.
 Focus on: keyboard shortcuts, menu paths, GUI interactions, and step-by-step workflows.
-Write commands as "Ctrl+Z" or "File > Save As" — never CLI syntax.
-Every section must have at least 3 items. Use 4-6 sections total.
-The 'language' field should always be 'text' for shortcuts and steps."""
+Each command must have:
+- 'command': shortcut or menu path like 'Ctrl+Z' or 'File > Save As' — never CLI syntax
+- 'description': one-line summary of what it does
+- 'scenario': when a user would need this (e.g. 'When you accidentally delete text')
+- 'language': always 'text' for shortcuts and steps
+- 'tags': 2-4 keywords
+- 'is_curated': true for the 6-8 most essential shortcuts, false for the rest
+- 'man_page': official docs URL if known, empty string otherwise
+Generate 12-20 commands total."""
 
 
 def build_messages(tool: dict) -> list[dict]:
@@ -234,7 +250,7 @@ async def generate_tool(tool: dict, semaphore: asyncio.Semaphore) -> dict:
                 print(f"    ❌ OpenRouter also failed for {slug}: {or_exc}")
                 return {"slug": slug, "status": "error", "error": str(or_exc)}
 
-        # Write output
+        # Write output in the new commands schema
         TOOLS_DIR.mkdir(parents=True, exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(sheet.model_dump(), f, indent=2, ensure_ascii=False)

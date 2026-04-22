@@ -1,0 +1,165 @@
+{
+  "title": "Hack",
+  "slug": "hack",
+  "description": "Essential CLI commands and syntax for Hack programming.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "hh_client",
+      "description": "Run the Hack type checker.",
+      "scenario": "Use when you need to ensure your Hack code is type-safe.",
+      "language": "bash",
+      "tags": [
+        "type-checking",
+        "hack",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.hhvm.com/hack/typechecker/introduction"
+    },
+    {
+      "command": "hhvm my_script.hack",
+      "description": "Execute a Hack script using HHVM.",
+      "scenario": "Run this to execute a Hack script file.",
+      "language": "bash",
+      "tags": [
+        "execution",
+        "hack",
+        "hhvm"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.hhvm.com/hhvm/command-line-tools/hhvm"
+    },
+    {
+      "command": "<?hh // strict\nfunction add(int $a, int $b): int {\n  return $a + $b;\n}",
+      "description": "Define a strict Hack function.",
+      "scenario": "Use when you need to define a function with strict type checking.",
+      "language": "hack",
+      "tags": [
+        "function",
+        "strict",
+        "type"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.hhvm.com/hack/types/introduction"
+    },
+    {
+      "command": "<?hh\n$x = vec[1, 2, 3];",
+      "description": "Create a Hack vector.",
+      "scenario": "Use to initialize a vector with elements in Hack.",
+      "language": "hack",
+      "tags": [
+        "vector",
+        "collection",
+        "hack"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.hhvm.com/hack/arrays-and-collections/vectors"
+    },
+    {
+      "command": "<?hh\n$x = dict['key1' => 'value1', 'key2' => 'value2'];",
+      "description": "Create a Hack dictionary.",
+      "scenario": "Use to initialize a dictionary with key-value pairs in Hack.",
+      "language": "hack",
+      "tags": [
+        "dictionary",
+        "collection",
+        "hack"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.hhvm.com/hack/arrays-and-collections/dictionaries"
+    },
+    {
+      "command": "<?hh\n$x = keyset['value1', 'value2'];",
+      "description": "Create a Hack keyset.",
+      "scenario": "Use to initialize a keyset with unique values in Hack.",
+      "language": "hack",
+      "tags": [
+        "keyset",
+        "collection",
+        "hack"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.hhvm.com/hack/arrays-and-collections/keysets"
+    },
+    {
+      "command": "<?hh\nclass MyClass {\n  public function __construct(private int $x) {}\n}",
+      "description": "Define a Hack class with a constructor.",
+      "scenario": "Use when you need to create a class with a constructor in Hack.",
+      "language": "hack",
+      "tags": [
+        "class",
+        "constructor",
+        "hack"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.hhvm.com/hack/classes/introduction"
+    },
+    {
+      "command": "<?hh\nasync function fetchData(): Awaitable<string> {\n  // async code\n}",
+      "description": "Define an async function in Hack.",
+      "scenario": "Use when you need to perform asynchronous operations in Hack.",
+      "language": "hack",
+      "tags": [
+        "async",
+        "function",
+        "hack"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.hhvm.com/hack/async/introduction"
+    },
+    {
+      "command": "<?hh\nfunction example(?int $x): void {\n  if ($x !== null) {\n    // do something\n  }\n}",
+      "description": "Handle nullable types in Hack.",
+      "scenario": "Use when you need to handle nullable types in Hack functions.",
+      "language": "hack",
+      "tags": [
+        "nullable",
+        "types",
+        "hack"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.hhvm.com/hack/types/type-system#nullable-types"
+    },
+    {
+      "command": "<?hh\n<<__Override>>\nfunction myFunction(): void {}",
+      "description": "Use the Override attribute in Hack.",
+      "scenario": "Use when you need to override a parent class method in Hack.",
+      "language": "hack",
+      "tags": [
+        "override",
+        "attribute",
+        "hack"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.hhvm.com/hack/attributes/special#__override"
+    },
+    {
+      "command": "<?hh\n$x = shape('field1' => 'value1', 'field2' => 123);",
+      "description": "Create a shape in Hack.",
+      "scenario": "Use to define a shape with specific fields in Hack.",
+      "language": "hack",
+      "tags": [
+        "shape",
+        "structure",
+        "hack"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.hhvm.com/hack/shapes/introduction"
+    },
+    {
+      "command": "<?hh\nfunction foo<T>(T $x): T {\n  return $x;\n}",
+      "description": "Define a generic function in Hack.",
+      "scenario": "Use when you need a function to handle multiple types in Hack.",
+      "language": "hack",
+      "tags": [
+        "generic",
+        "function",
+        "hack"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.hhvm.com/hack/generics/introduction"
+    }
+  ]
+}

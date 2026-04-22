@@ -1,0 +1,178 @@
+{
+  "title": "Node.js API Cheat Sheet",
+  "slug": "nodejs-api",
+  "description": "Essential Node.js API commands and patterns for software engineers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "node app.js",
+      "description": "Run a Node.js application.",
+      "scenario": "Use when you need to start your Node.js application from the command line.",
+      "language": "bash",
+      "tags": [
+        "node",
+        "run",
+        "application"
+      ],
+      "is_curated": true,
+      "man_page": "https://nodejs.org/api/cli.html#cli_node_path"
+    },
+    {
+      "command": "npm init -y",
+      "description": "Initialize a new Node.js project with default settings.",
+      "scenario": "Use when starting a new Node.js project to create a package.json file quickly.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "init",
+        "project"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.npmjs.com/cli/v7/commands/npm-init"
+    },
+    {
+      "command": "npm install express",
+      "description": "Install the Express.js framework.",
+      "scenario": "Use when you need to add Express.js to your Node.js project.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "express",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/"
+    },
+    {
+      "command": "const express = require('express');",
+      "description": "Require the Express module in your application.",
+      "scenario": "Use when you need to include Express.js in your Node.js application.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "require",
+        "module"
+      ],
+      "is_curated": true,
+      "man_page": "https://nodejs.org/api/modules.html#modules_require"
+    },
+    {
+      "command": "app.listen(3000, () => console.log('Server running'));",
+      "description": "Start an Express server on port 3000.",
+      "scenario": "Use when you need to start your server and listen for incoming requests.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "server",
+        "listen"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/starter/hello-world.html"
+    },
+    {
+      "command": "npm install -g nodemon",
+      "description": "Install Nodemon globally for automatic restarts.",
+      "scenario": "Use when you want your Node.js server to restart automatically on file changes.",
+      "language": "bash",
+      "tags": [
+        "nodemon",
+        "install",
+        "global"
+      ],
+      "is_curated": false,
+      "man_page": "https://nodemon.io/"
+    },
+    {
+      "command": "nodemon app.js",
+      "description": "Run a Node.js application with Nodemon for automatic restarts.",
+      "scenario": "Use when developing and you want the server to restart on file changes.",
+      "language": "bash",
+      "tags": [
+        "nodemon",
+        "run",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": "https://nodemon.io/"
+    },
+    {
+      "command": "npm install mongoose",
+      "description": "Install Mongoose for MongoDB object modeling.",
+      "scenario": "Use when you need to interact with MongoDB in a structured way.",
+      "language": "bash",
+      "tags": [
+        "mongoose",
+        "mongodb",
+        "install"
+      ],
+      "is_curated": false,
+      "man_page": "https://mongoosejs.com/"
+    },
+    {
+      "command": "const mongoose = require('mongoose');",
+      "description": "Require the Mongoose module in your application.",
+      "scenario": "Use when you need to include Mongoose for MongoDB interaction.",
+      "language": "javascript",
+      "tags": [
+        "mongoose",
+        "require",
+        "mongodb"
+      ],
+      "is_curated": false,
+      "man_page": "https://mongoosejs.com/docs/index.html"
+    },
+    {
+      "command": "mongoose.connect('mongodb://localhost/mydb');",
+      "description": "Connect to a MongoDB database using Mongoose.",
+      "scenario": "Use when you need to establish a connection to your MongoDB database.",
+      "language": "javascript",
+      "tags": [
+        "mongoose",
+        "connect",
+        "mongodb"
+      ],
+      "is_curated": true,
+      "man_page": "https://mongoosejs.com/docs/connections.html"
+    },
+    {
+      "command": "app.use(express.json());",
+      "description": "Parse incoming JSON requests in Express.",
+      "scenario": "Use when you need to handle JSON payloads in your Express application.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "json",
+        "middleware"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/api.html#express.json"
+    },
+    {
+      "command": "npm install dotenv",
+      "description": "Install dotenv to manage environment variables.",
+      "scenario": "Use when you need to manage environment variables in your Node.js application.",
+      "language": "bash",
+      "tags": [
+        "dotenv",
+        "environment",
+        "variables"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.npmjs.com/package/dotenv"
+    },
+    {
+      "command": "require('dotenv').config();",
+      "description": "Load environment variables from a .env file.",
+      "scenario": "Use when you need to load environment variables into your Node.js application.",
+      "language": "javascript",
+      "tags": [
+        "dotenv",
+        "config",
+        "environment"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.npmjs.com/package/dotenv"
+    }
+  ]
+}

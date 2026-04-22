@@ -1,0 +1,230 @@
+{
+  "title": "Browse All Sheets",
+  "slug": "browse-all-sheets",
+  "description": "Essential CLI commands for browsing and managing sheets.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "ls",
+      "description": "List directory contents",
+      "scenario": "Use to view files and directories in the current directory.",
+      "language": "bash",
+      "tags": [
+        "list",
+        "directory",
+        "files"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/ls.1.html"
+    },
+    {
+      "command": "cd /path/to/directory",
+      "description": "Change the current directory",
+      "scenario": "Navigate to a different directory to access files or run scripts.",
+      "language": "bash",
+      "tags": [
+        "navigate",
+        "directory",
+        "change"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/cd.1p.html"
+    },
+    {
+      "command": "pwd",
+      "description": "Print working directory",
+      "scenario": "Determine your current directory location in the filesystem.",
+      "language": "bash",
+      "tags": [
+        "directory",
+        "location",
+        "current"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/pwd.1.html"
+    },
+    {
+      "command": "cat filename",
+      "description": "Concatenate and display file content",
+      "scenario": "Quickly view the content of a file in the terminal.",
+      "language": "bash",
+      "tags": [
+        "view",
+        "file",
+        "content"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/cat.1.html"
+    },
+    {
+      "command": "grep 'search_term' filename",
+      "description": "Search for a term in a file",
+      "scenario": "Find specific information in a file by searching for keywords.",
+      "language": "bash",
+      "tags": [
+        "search",
+        "file",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/grep.1.html"
+    },
+    {
+      "command": "find /path -name 'filename'",
+      "description": "Search for files in a directory hierarchy",
+      "scenario": "Locate files within a directory and its subdirectories.",
+      "language": "bash",
+      "tags": [
+        "search",
+        "files",
+        "directory"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/find.1.html"
+    },
+    {
+      "command": "mv source destination",
+      "description": "Move or rename files or directories",
+      "scenario": "Organize files by moving them to different directories or renaming them.",
+      "language": "bash",
+      "tags": [
+        "move",
+        "rename",
+        "files"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/mv.1.html"
+    },
+    {
+      "command": "cp source destination",
+      "description": "Copy files or directories",
+      "scenario": "Duplicate files or directories to another location.",
+      "language": "bash",
+      "tags": [
+        "copy",
+        "files",
+        "duplicate"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/cp.1.html"
+    },
+    {
+      "command": "rm filename",
+      "description": "Remove files or directories",
+      "scenario": "Delete files or directories that are no longer needed.",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "remove",
+        "files"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/rm.1.html"
+    },
+    {
+      "command": "chmod 755 filename",
+      "description": "Change file permissions",
+      "scenario": "Modify file permissions to control access rights.",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "files",
+        "access"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/chmod.1.html"
+    },
+    {
+      "command": "tar -czvf archive.tar.gz /path/to/directory",
+      "description": "Create a compressed archive of a directory",
+      "scenario": "Compress a directory into a .tar.gz file for storage or transfer.",
+      "language": "bash",
+      "tags": [
+        "compress",
+        "archive",
+        "tar"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/tar.1.html"
+    },
+    {
+      "command": "unzip archive.zip",
+      "description": "Extract files from a ZIP archive",
+      "scenario": "Decompress a .zip file to access its contents.",
+      "language": "bash",
+      "tags": [
+        "extract",
+        "zip",
+        "archive"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/unzip.1.html"
+    },
+    {
+      "command": "head -n 10 filename",
+      "description": "Display the first 10 lines of a file",
+      "scenario": "Preview the beginning of a file to understand its structure or content.",
+      "language": "bash",
+      "tags": [
+        "preview",
+        "file",
+        "lines"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/head.1.html"
+    },
+    {
+      "command": "tail -n 10 filename",
+      "description": "Display the last 10 lines of a file",
+      "scenario": "View the end of a file, often used for logs to see recent entries.",
+      "language": "bash",
+      "tags": [
+        "view",
+        "file",
+        "lines"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/tail.1.html"
+    },
+    {
+      "command": "diff file1 file2",
+      "description": "Compare two files line by line",
+      "scenario": "Identify differences between two files, useful for version control.",
+      "language": "bash",
+      "tags": [
+        "compare",
+        "files",
+        "difference"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/diff.1.html"
+    },
+    {
+      "command": "echo 'text' > filename",
+      "description": "Write text to a file",
+      "scenario": "Create a new file or overwrite an existing file with specific text.",
+      "language": "bash",
+      "tags": [
+        "write",
+        "file",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/echo.1.html"
+    },
+    {
+      "command": "nano filename",
+      "description": "Edit a file using the nano text editor",
+      "scenario": "Make quick edits to a file directly from the terminal.",
+      "language": "bash",
+      "tags": [
+        "edit",
+        "file",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/nano.1.html"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "mod_perl Cheat Sheet",
+  "slug": "modperl",
+  "description": "Essential commands and configurations for mod_perl usage.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "LoadModule perl_module modules/mod_perl.so",
+      "description": "Load the mod_perl module into Apache.",
+      "scenario": "Use when setting up mod_perl with Apache to enable Perl scripting.",
+      "language": "text",
+      "tags": [
+        "mod_perl",
+        "apache",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/install/install.html#Installing_mod_perl_2_0"
+    },
+    {
+      "command": "PerlSwitches -wT",
+      "description": "Enable warnings and taint mode in Perl scripts.",
+      "scenario": "Use to enforce safer coding practices in your Perl scripts.",
+      "language": "text",
+      "tags": [
+        "perl",
+        "warnings",
+        "security"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlSwitches_"
+    },
+    {
+      "command": "PerlRequire /path/to/startup.pl",
+      "description": "Execute a Perl script at server startup.",
+      "scenario": "Use to initialize Perl modules or set environment variables on server start.",
+      "language": "text",
+      "tags": [
+        "initialization",
+        "startup",
+        "perl"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlRequire_"
+    },
+    {
+      "command": "PerlModule CGI",
+      "description": "Load a Perl module at server startup.",
+      "scenario": "Use to preload Perl modules for faster script execution.",
+      "language": "text",
+      "tags": [
+        "performance",
+        "module",
+        "preload"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlModule_"
+    },
+    {
+      "command": "<Location /perl>\n    SetHandler perl-script\n    PerlResponseHandler My::Apache2::Handler\n</Location>",
+      "description": "Configure a Perl handler for a specific location.",
+      "scenario": "Use to handle requests with a custom Perl script at a specific URL path.",
+      "language": "text",
+      "tags": [
+        "handler",
+        "location",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/http.html#PerlResponseHandler"
+    },
+    {
+      "command": "PerlOptions +ParseHeaders",
+      "description": "Enable parsing of HTTP headers by mod_perl.",
+      "scenario": "Use when you need mod_perl to handle HTTP headers in your response.",
+      "language": "text",
+      "tags": [
+        "headers",
+        "http",
+        "response"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlOptions_"
+    },
+    {
+      "command": "PerlResponseHandler Apache2::Registry",
+      "description": "Run Perl scripts under mod_perl's Registry mode.",
+      "scenario": "Use to execute Perl scripts with mod_perl's performance benefits while maintaining CGI compatibility.",
+      "language": "text",
+      "tags": [
+        "registry",
+        "cgi",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/http.html#PerlResponseHandler"
+    },
+    {
+      "command": "PerlSetEnv DBI_DSN 'DBI:mysql:database=test;host=localhost'",
+      "description": "Set environment variables for Perl scripts.",
+      "scenario": "Use to configure database connection strings or other environment-specific settings.",
+      "language": "text",
+      "tags": [
+        "environment",
+        "database",
+        "configuration"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/config/config.html#C_PerlSetEnv_"
+    },
+    {
+      "command": "PerlCleanupHandler Apache2::SizeLimit",
+      "description": "Limit memory usage of Perl processes.",
+      "scenario": "Use to prevent runaway processes from consuming too much memory.",
+      "language": "text",
+      "tags": [
+        "memory",
+        "performance",
+        "cleanup"
+      ],
+      "is_curated": true,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/server.html#PerlCleanupHandler"
+    },
+    {
+      "command": "PerlPostReadRequestHandler My::Apache2::Auth",
+      "description": "Run a Perl handler after reading the request but before processing it.",
+      "scenario": "Use to implement custom authentication or logging logic.",
+      "language": "text",
+      "tags": [
+        "authentication",
+        "logging",
+        "request"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/http.html#PerlPostReadRequestHandler"
+    },
+    {
+      "command": "PerlChildInitHandler My::Apache2::Init",
+      "description": "Run a Perl handler when a child process is initialized.",
+      "scenario": "Use to perform initialization tasks specific to each child process.",
+      "language": "text",
+      "tags": [
+        "initialization",
+        "child",
+        "process"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/server.html#PerlChildInitHandler"
+    },
+    {
+      "command": "PerlOutputFilterHandler My::Apache2::OutputFilter",
+      "description": "Modify the response body before sending it to the client.",
+      "scenario": "Use to compress or transform output data on-the-fly.",
+      "language": "text",
+      "tags": [
+        "output",
+        "filter",
+        "response"
+      ],
+      "is_curated": false,
+      "man_page": "https://perl.apache.org/docs/2.0/user/handlers/filters.html#PerlOutputFilterHandler"
+    }
+  ]
+}

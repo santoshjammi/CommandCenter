@@ -1,0 +1,165 @@
+{
+  "title": "Git Flow Next",
+  "slug": "git-flow-next",
+  "description": "Essential Git Flow Next commands for streamlined version control.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "git flow init",
+      "description": "Initialize a git flow repository.",
+      "scenario": "Use when setting up git flow in an existing repository.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "init"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-init"
+    },
+    {
+      "command": "git flow feature start <feature-name>",
+      "description": "Start a new feature branch.",
+      "scenario": "Use when beginning work on a new feature.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "feature"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-feature"
+    },
+    {
+      "command": "git flow feature finish <feature-name>",
+      "description": "Finish a feature branch.",
+      "scenario": "Use when a feature is complete and ready to merge.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "feature"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-feature"
+    },
+    {
+      "command": "git flow release start <release-name>",
+      "description": "Start a new release branch.",
+      "scenario": "Use when preparing a new release version.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "release"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-release"
+    },
+    {
+      "command": "git flow release finish <release-name>",
+      "description": "Finish a release branch.",
+      "scenario": "Use when a release is ready to be finalized and merged.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "release"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-release"
+    },
+    {
+      "command": "git flow hotfix start <hotfix-name>",
+      "description": "Start a new hotfix branch.",
+      "scenario": "Use when fixing a critical bug in production.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "hotfix"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-hotfix"
+    },
+    {
+      "command": "git flow hotfix finish <hotfix-name>",
+      "description": "Finish a hotfix branch.",
+      "scenario": "Use when a hotfix is complete and ready to merge.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "hotfix"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-hotfix"
+    },
+    {
+      "command": "git flow bugfix start <bugfix-name>",
+      "description": "Start a new bugfix branch.",
+      "scenario": "Use when addressing a non-critical bug.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "bugfix"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-bugfix"
+    },
+    {
+      "command": "git flow bugfix finish <bugfix-name>",
+      "description": "Finish a bugfix branch.",
+      "scenario": "Use when a bugfix is complete and ready to merge.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "bugfix"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-bugfix"
+    },
+    {
+      "command": "git flow support start <support-name>",
+      "description": "Start a new support branch.",
+      "scenario": "Use when maintaining a previous release version.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "support"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-support"
+    },
+    {
+      "command": "git flow support finish <support-name>",
+      "description": "Finish a support branch.",
+      "scenario": "Use when support work is complete and ready to merge.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "support"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-support"
+    },
+    {
+      "command": "git flow version",
+      "description": "Display the version of git flow installed.",
+      "scenario": "Use to check the installed version of git flow.",
+      "language": "bash",
+      "tags": [
+        "git",
+        "flow",
+        "version"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/nvie/gitflow/wiki/Command-Line-Arguments#git-flow-version"
+    }
+  ]
+}

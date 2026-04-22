@@ -1,0 +1,165 @@
+{
+  "title": "Flux Architecture",
+  "slug": "flux-architecture",
+  "description": "Essential commands and patterns for working with Flux architecture.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm install flux",
+      "description": "Install the Flux library via npm",
+      "scenario": "Use when setting up a new project with Flux architecture.",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "install",
+        "flux"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.npmjs.com/package/flux"
+    },
+    {
+      "command": "import { Dispatcher } from 'flux';",
+      "description": "Import the Dispatcher from the Flux library",
+      "scenario": "Use when you need to create a new dispatcher in your Flux application.",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "dispatcher",
+        "flux"
+      ],
+      "is_curated": true,
+      "man_page": "https://facebook.github.io/flux/docs/in-depth-overview"
+    },
+    {
+      "command": "const dispatcher = new Dispatcher();",
+      "description": "Create a new dispatcher instance",
+      "scenario": "Use to initialize a dispatcher for managing actions in Flux.",
+      "language": "javascript",
+      "tags": [
+        "dispatcher",
+        "instance",
+        "flux"
+      ],
+      "is_curated": true,
+      "man_page": "https://facebook.github.io/flux/docs/dispatcher"
+    },
+    {
+      "command": "dispatcher.register(callback);",
+      "description": "Register a callback with the dispatcher",
+      "scenario": "Use when you need to listen for actions dispatched in the system.",
+      "language": "javascript",
+      "tags": [
+        "register",
+        "callback",
+        "dispatcher"
+      ],
+      "is_curated": true,
+      "man_page": "https://facebook.github.io/flux/docs/dispatcher"
+    },
+    {
+      "command": "dispatcher.dispatch({ type: 'ACTION_TYPE', payload: data });",
+      "description": "Dispatch an action to the dispatcher",
+      "scenario": "Use to send an action through the dispatcher to update stores.",
+      "language": "javascript",
+      "tags": [
+        "dispatch",
+        "action",
+        "flux"
+      ],
+      "is_curated": true,
+      "man_page": "https://facebook.github.io/flux/docs/dispatcher"
+    },
+    {
+      "command": "class Store extends EventEmitter { constructor() { super(); } }",
+      "description": "Create a basic store extending EventEmitter",
+      "scenario": "Use when defining a new store to handle application state.",
+      "language": "javascript",
+      "tags": [
+        "store",
+        "eventemitter",
+        "flux"
+      ],
+      "is_curated": true,
+      "man_page": "https://nodejs.org/api/events.html"
+    },
+    {
+      "command": "store.emit('change');",
+      "description": "Emit a change event from the store",
+      "scenario": "Use to notify views that the store's data has changed.",
+      "language": "javascript",
+      "tags": [
+        "emit",
+        "change",
+        "store"
+      ],
+      "is_curated": true,
+      "man_page": "https://nodejs.org/api/events.html"
+    },
+    {
+      "command": "store.on('change', callback);",
+      "description": "Listen for change events from the store",
+      "scenario": "Use in views to update UI when store data changes.",
+      "language": "javascript",
+      "tags": [
+        "listen",
+        "change",
+        "store"
+      ],
+      "is_curated": true,
+      "man_page": "https://nodejs.org/api/events.html"
+    },
+    {
+      "command": "const handleAction = (action) => { switch(action.type) { case 'ACTION_TYPE': // handle action break; } }",
+      "description": "Handle actions in the store",
+      "scenario": "Use to define how the store should respond to different actions.",
+      "language": "javascript",
+      "tags": [
+        "handle",
+        "action",
+        "store"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dispatcher.waitFor([store1.dispatchToken, store2.dispatchToken]);",
+      "description": "Wait for other stores to handle actions",
+      "scenario": "Use when a store's action handling depends on another store.",
+      "language": "javascript",
+      "tags": [
+        "waitFor",
+        "dispatcher",
+        "store"
+      ],
+      "is_curated": false,
+      "man_page": "https://facebook.github.io/flux/docs/dispatcher"
+    },
+    {
+      "command": "class MyStore extends Store { constructor() { super(); this.dispatchToken = dispatcher.register(this.handleAction.bind(this)); } }",
+      "description": "Register a store with the dispatcher",
+      "scenario": "Use to connect a store to the dispatcher for action handling.",
+      "language": "javascript",
+      "tags": [
+        "store",
+        "register",
+        "dispatcher"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "import { EventEmitter } from 'events';",
+      "description": "Import EventEmitter for store creation",
+      "scenario": "Use when creating a store that needs to emit events.",
+      "language": "javascript",
+      "tags": [
+        "import",
+        "eventemitter",
+        "store"
+      ],
+      "is_curated": false,
+      "man_page": "https://nodejs.org/api/events.html"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Unity 3D",
+  "slug": "unity-3d",
+  "description": "Essential Unity 3D commands and scripts for game development.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "transform.Translate(Vector3.forward * Time.deltaTime);",
+      "description": "Moves the object forward continuously.",
+      "scenario": "Use when you need to move a game object forward every frame.",
+      "language": "csharp",
+      "tags": [
+        "movement",
+        "gameobject",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/Transform.Translate.html"
+    },
+    {
+      "command": "Debug.Log(\"Hello, World!\");",
+      "description": "Logs a message to the Unity Console.",
+      "scenario": "Use to output debug information to the console.",
+      "language": "csharp",
+      "tags": [
+        "debug",
+        "console",
+        "log"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/Debug.Log.html"
+    },
+    {
+      "command": "Instantiate(prefab, new Vector3(0, 0, 0), Quaternion.identity);",
+      "description": "Creates a new instance of a prefab in the scene.",
+      "scenario": "Use to spawn new objects in the game world.",
+      "language": "csharp",
+      "tags": [
+        "instantiate",
+        "prefab",
+        "spawn"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/Object.Instantiate.html"
+    },
+    {
+      "command": "GetComponent<Rigidbody>().AddForce(Vector3.up * 10f);",
+      "description": "Applies an upward force to a Rigidbody component.",
+      "scenario": "Use to make an object jump or move upwards.",
+      "language": "csharp",
+      "tags": [
+        "physics",
+        "rigidbody",
+        "force"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html"
+    },
+    {
+      "command": "Application.Quit();",
+      "description": "Closes the application or game.",
+      "scenario": "Use to exit the game when a condition is met.",
+      "language": "csharp",
+      "tags": [
+        "application",
+        "quit",
+        "exit"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.unity3d.com/ScriptReference/Application.Quit.html"
+    },
+    {
+      "command": "SceneManager.LoadScene(\"MainMenu\");",
+      "description": "Loads a new scene by name.",
+      "scenario": "Use to transition between game levels or menus.",
+      "language": "csharp",
+      "tags": [
+        "scene",
+        "load",
+        "transition"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadScene.html"
+    },
+    {
+      "command": "Time.timeScale = 0;",
+      "description": "Pauses the game by setting time scale to zero.",
+      "scenario": "Use to pause the game during a menu or cutscene.",
+      "language": "csharp",
+      "tags": [
+        "time",
+        "pause",
+        "game"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/Time-timeScale.html"
+    },
+    {
+      "command": "PlayerPrefs.SetInt(\"HighScore\", 100);",
+      "description": "Saves an integer value to player preferences.",
+      "scenario": "Use to store player scores or settings persistently.",
+      "language": "csharp",
+      "tags": [
+        "playerprefs",
+        "save",
+        "persistent"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.unity3d.com/ScriptReference/PlayerPrefs.SetInt.html"
+    },
+    {
+      "command": "void OnTriggerEnter(Collider other) { Debug.Log(\"Triggered\"); }",
+      "description": "Detects when another collider enters the trigger collider.",
+      "scenario": "Use to trigger events when objects interact in the game.",
+      "language": "csharp",
+      "tags": [
+        "trigger",
+        "collision",
+        "event"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnTriggerEnter.html"
+    },
+    {
+      "command": "AudioSource.PlayClipAtPoint(audioClip, transform.position);",
+      "description": "Plays an audio clip at a specific position in the world.",
+      "scenario": "Use to play sound effects at the location of an event.",
+      "language": "csharp",
+      "tags": [
+        "audio",
+        "sound",
+        "play"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.unity3d.com/ScriptReference/AudioSource.PlayClipAtPoint.html"
+    },
+    {
+      "command": "using UnityEngine.UI;",
+      "description": "Imports the Unity UI namespace for UI elements.",
+      "scenario": "Use when working with UI components in Unity.",
+      "language": "csharp",
+      "tags": [
+        "ui",
+        "namespace",
+        "import"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.unity3d.com/Manual/UISystem.html"
+    },
+    {
+      "command": "void Update() { if (Input.GetKeyDown(KeyCode.Space)) { Jump(); } }",
+      "description": "Checks for spacebar press and calls Jump method.",
+      "scenario": "Use to trigger actions based on player input.",
+      "language": "csharp",
+      "tags": [
+        "input",
+        "keyboard",
+        "update"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html"
+    },
+    {
+      "command": "NavMeshAgent agent = GetComponent<NavMeshAgent>();\nagent.SetDestination(target.position);",
+      "description": "Sets a NavMeshAgent's destination to a target position.",
+      "scenario": "Use for AI pathfinding to move towards a target.",
+      "language": "csharp",
+      "tags": [
+        "ai",
+        "navigation",
+        "pathfinding"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.unity3d.com/ScriptReference/AI.NavMeshAgent.SetDestination.html"
+    },
+    {
+      "command": "void OnCollisionEnter(Collision collision) { Debug.Log(\"Collision detected\"); }",
+      "description": "Detects when a collision occurs with another collider.",
+      "scenario": "Use to handle collision events between objects.",
+      "language": "csharp",
+      "tags": [
+        "collision",
+        "event",
+        "physics"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnCollisionEnter.html"
+    },
+    {
+      "command": "gameObject.SetActive(false);",
+      "description": "Deactivates the game object, making it invisible and non-interactive.",
+      "scenario": "Use to temporarily disable objects without destroying them.",
+      "language": "csharp",
+      "tags": [
+        "gameobject",
+        "active",
+        "visibility"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html"
+    }
+  ]
+}

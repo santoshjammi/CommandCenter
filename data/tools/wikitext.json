@@ -1,0 +1,165 @@
+{
+  "title": "Wikitext Cheat Sheet",
+  "slug": "wikitext",
+  "description": "Essential Wikitext syntax and commands for editing MediaWiki pages.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "== Section Title ==",
+      "description": "Creates a section heading.",
+      "scenario": "Use to organize content into sections on a wiki page.",
+      "language": "text",
+      "tags": [
+        "section",
+        "heading",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Formatting"
+    },
+    {
+      "command": "* Bullet point",
+      "description": "Creates a bullet point list item.",
+      "scenario": "Use when listing items in an unordered list.",
+      "language": "text",
+      "tags": [
+        "list",
+        "bullet",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Lists"
+    },
+    {
+      "command": "# Numbered item",
+      "description": "Creates a numbered list item.",
+      "scenario": "Use when listing items in an ordered list.",
+      "language": "text",
+      "tags": [
+        "list",
+        "numbered",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Lists"
+    },
+    {
+      "command": "[[Page Title]]",
+      "description": "Creates a link to another wiki page.",
+      "scenario": "Use to link to another page within the same wiki.",
+      "language": "text",
+      "tags": [
+        "link",
+        "internal",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Links"
+    },
+    {
+      "command": "[[Page Title|Display Text]]",
+      "description": "Creates a link with custom display text.",
+      "scenario": "Use to link to a page with different text shown.",
+      "language": "text",
+      "tags": [
+        "link",
+        "custom",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Links"
+    },
+    {
+      "command": "[[File:Example.jpg]]",
+      "description": "Embeds an image from the wiki's file repository.",
+      "scenario": "Use to display an image on a wiki page.",
+      "language": "text",
+      "tags": [
+        "image",
+        "embed",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Images"
+    },
+    {
+      "command": "{{TemplateName}}",
+      "description": "Includes a template on a page.",
+      "scenario": "Use to reuse content across multiple pages.",
+      "language": "text",
+      "tags": [
+        "template",
+        "reuse",
+        "wiki"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Templates"
+    },
+    {
+      "command": "<nowiki>Text</nowiki>",
+      "description": "Prevents text from being formatted as Wikitext.",
+      "scenario": "Use to display raw Wikitext syntax.",
+      "language": "text",
+      "tags": [
+        "nowiki",
+        "raw",
+        "wiki"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Magic_words#Miscellaneous"
+    },
+    {
+      "command": "''Italic text''",
+      "description": "Formats text in italics.",
+      "scenario": "Use to emphasize text with italics.",
+      "language": "text",
+      "tags": [
+        "italic",
+        "format",
+        "wiki"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Formatting"
+    },
+    {
+      "command": "'''Bold text'''",
+      "description": "Formats text in bold.",
+      "scenario": "Use to emphasize text with bold.",
+      "language": "text",
+      "tags": [
+        "bold",
+        "format",
+        "wiki"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Formatting"
+    },
+    {
+      "command": "<ref>Reference text</ref>",
+      "description": "Adds a footnote or reference.",
+      "scenario": "Use to cite sources or add footnotes.",
+      "language": "text",
+      "tags": [
+        "reference",
+        "footnote",
+        "wiki"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Footnotes"
+    },
+    {
+      "command": "<references/>",
+      "description": "Displays all references on the page.",
+      "scenario": "Use to show the list of references at the end of a page.",
+      "language": "text",
+      "tags": [
+        "references",
+        "list",
+        "wiki"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.mediawiki.org/wiki/Help:Footnotes"
+    }
+  ]
+}

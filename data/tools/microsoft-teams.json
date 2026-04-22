@@ -1,0 +1,198 @@
+{
+  "title": "Microsoft Teams Cheat Sheet",
+  "slug": "microsoft-teams",
+  "description": "Essential shortcuts and workflows for Microsoft Teams.",
+  "audience": "non-engineer",
+  "category": "Productivity",
+  "commands": [
+    {
+      "command": "Ctrl+Shift+M",
+      "description": "Mute or unmute your microphone during a call.",
+      "scenario": "When you need to quickly mute or unmute yourself during a meeting.",
+      "language": "text",
+      "tags": [
+        "mute",
+        "call",
+        "audio"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+Shift+O",
+      "description": "Turn your camera on or off during a call.",
+      "scenario": "When you want to toggle your video during a meeting.",
+      "language": "text",
+      "tags": [
+        "video",
+        "call",
+        "camera"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+E",
+      "description": "Go to the search bar.",
+      "scenario": "When you need to quickly search for messages or files.",
+      "language": "text",
+      "tags": [
+        "search",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+N",
+      "description": "Start a new chat.",
+      "scenario": "When you want to begin a conversation with someone.",
+      "language": "text",
+      "tags": [
+        "chat",
+        "message",
+        "communication"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+1",
+      "description": "Go to the Activity feed.",
+      "scenario": "When you want to check recent notifications and updates.",
+      "language": "text",
+      "tags": [
+        "activity",
+        "notifications",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+2",
+      "description": "Go to the Chat tab.",
+      "scenario": "When you need to view or send messages.",
+      "language": "text",
+      "tags": [
+        "chat",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+3",
+      "description": "Go to the Teams tab.",
+      "scenario": "When you want to access your teams and channels.",
+      "language": "text",
+      "tags": [
+        "teams",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+4",
+      "description": "Go to the Calendar.",
+      "scenario": "When you need to view or schedule meetings.",
+      "language": "text",
+      "tags": [
+        "calendar",
+        "meetings",
+        "navigation"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+5",
+      "description": "Go to the Calls tab.",
+      "scenario": "When you want to make or view calls.",
+      "language": "text",
+      "tags": [
+        "calls",
+        "navigation"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+6",
+      "description": "Go to the Files tab.",
+      "scenario": "When you need to access shared files.",
+      "language": "text",
+      "tags": [
+        "files",
+        "navigation"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+Shift+X",
+      "description": "Expand the compose box.",
+      "scenario": "When you want more space to type a message.",
+      "language": "text",
+      "tags": [
+        "compose",
+        "message",
+        "typing"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+.",
+      "description": "Show keyboard shortcuts.",
+      "scenario": "When you need to quickly find a shortcut.",
+      "language": "text",
+      "tags": [
+        "shortcuts",
+        "help"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+Shift+P",
+      "description": "Start a video call from a chat.",
+      "scenario": "When you want to initiate a video call with someone.",
+      "language": "text",
+      "tags": [
+        "video",
+        "call",
+        "chat"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+Shift+A",
+      "description": "Accept a video call.",
+      "scenario": "When you receive an incoming video call.",
+      "language": "text",
+      "tags": [
+        "video",
+        "call",
+        "accept"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    },
+    {
+      "command": "Ctrl+Shift+D",
+      "description": "Decline a video call.",
+      "scenario": "When you want to reject an incoming video call.",
+      "language": "text",
+      "tags": [
+        "video",
+        "call",
+        "decline"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microsoft-teams-5f27f0f4-8a4e-4d3d-946e-3a803ea0d6fe"
+    }
+  ]
+}

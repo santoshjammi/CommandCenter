@@ -1,0 +1,165 @@
+{
+  "title": "Rsync Cheat Sheet",
+  "slug": "rsync",
+  "description": "Essential Rsync commands for efficient file synchronization and transfer.",
+  "audience": "engineer",
+  "category": "CLI Tools",
+  "commands": [
+    {
+      "command": "rsync -avz /source/dir/ user@remote:/destination/dir/",
+      "description": "Synchronize files from local to remote with compression.",
+      "scenario": "Use when you need to back up a local directory to a remote server efficiently.",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "sync",
+        "remote"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --delete /source/dir/ /destination/dir/",
+      "description": "Synchronize directories and delete extraneous files from destination.",
+      "scenario": "Use when you need to mirror a directory and remove files not present in the source.",
+      "language": "bash",
+      "tags": [
+        "mirror",
+        "delete",
+        "sync"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz -e 'ssh -p 2222' /source/dir/ user@remote:/destination/dir/",
+      "description": "Use a specific SSH port for remote synchronization.",
+      "scenario": "Use when the remote server SSH is running on a non-standard port.",
+      "language": "bash",
+      "tags": [
+        "ssh",
+        "port",
+        "remote"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --progress /source/dir/ /destination/dir/",
+      "description": "Show progress during file transfer.",
+      "scenario": "Use when you want to see detailed progress of the file transfer operation.",
+      "language": "bash",
+      "tags": [
+        "progress",
+        "transfer",
+        "sync"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --exclude '*.tmp' /source/dir/ /destination/dir/",
+      "description": "Exclude specific file patterns from synchronization.",
+      "scenario": "Use when you need to skip temporary files during synchronization.",
+      "language": "bash",
+      "tags": [
+        "exclude",
+        "filter",
+        "sync"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --dry-run /source/dir/ /destination/dir/",
+      "description": "Perform a trial run with no changes made.",
+      "scenario": "Use to verify what changes will be made without actually performing the synchronization.",
+      "language": "bash",
+      "tags": [
+        "dry-run",
+        "test",
+        "sync"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --bwlimit=1000 /source/dir/ /destination/dir/",
+      "description": "Limit the bandwidth used during transfer.",
+      "scenario": "Use when you need to control the network bandwidth used by rsync.",
+      "language": "bash",
+      "tags": [
+        "bandwidth",
+        "limit",
+        "sync"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --partial /source/dir/ /destination/dir/",
+      "description": "Keep partially transferred files to resume later.",
+      "scenario": "Use when you want to resume interrupted transfers without starting over.",
+      "language": "bash",
+      "tags": [
+        "resume",
+        "partial",
+        "sync"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --link-dest=/prev/backup/ /source/dir/ /destination/dir/",
+      "description": "Use hard links to save space with incremental backups.",
+      "scenario": "Use when you want to create efficient incremental backups.",
+      "language": "bash",
+      "tags": [
+        "incremental",
+        "backup",
+        "link"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r /source/dir/ /destination/dir/",
+      "description": "Set permissions on the destination files and directories.",
+      "scenario": "Use when you need to ensure specific permissions on synchronized files.",
+      "language": "bash",
+      "tags": [
+        "permissions",
+        "chmod",
+        "sync"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --backup --backup-dir=/backup/dir/ /source/dir/ /destination/dir/",
+      "description": "Backup files that are replaced during synchronization.",
+      "scenario": "Use when you want to keep backups of files that are overwritten during sync.",
+      "language": "bash",
+      "tags": [
+        "backup",
+        "overwrite",
+        "sync"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    },
+    {
+      "command": "rsync -avz --copy-links /source/dir/ /destination/dir/",
+      "description": "Copy symlinks as the referent files.",
+      "scenario": "Use when you need to copy the files symlinks point to, not the symlinks themselves.",
+      "language": "bash",
+      "tags": [
+        "symlink",
+        "copy",
+        "sync"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    }
+  ]
+}

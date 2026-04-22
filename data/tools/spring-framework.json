@@ -1,0 +1,204 @@
+{
+  "title": "Spring Framework",
+  "slug": "spring-framework",
+  "description": "Essential Spring Framework commands and configurations for developers.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "@SpringBootApplication",
+      "description": "Marks a configuration class that declares one or more @Bean methods and triggers auto-configuration and component scanning.",
+      "scenario": "Use when setting up a Spring Boot application to enable auto-configuration.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "boot",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/SpringBootApplication.html"
+    },
+    {
+      "command": "@Autowired",
+      "description": "Marks a constructor, field, setter method, or config method as to be autowired by Spring's dependency injection facilities.",
+      "scenario": "Use when you need to inject a bean into another bean in your Spring application.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "dependency injection",
+        "bean"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html"
+    },
+    {
+      "command": "@RestController",
+      "description": "Combines @Controller and @ResponseBody, indicating that the data returned by each method will be written straight into the response body.",
+      "scenario": "Use when creating RESTful web services in a Spring application.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "rest",
+        "controller"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RestController.html"
+    },
+    {
+      "command": "@GetMapping(\"/path\")",
+      "description": "Handles HTTP GET requests matched with the specified URI path.",
+      "scenario": "Use to map GET requests to specific handler methods in a Spring controller.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "get",
+        "mapping"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/GetMapping.html"
+    },
+    {
+      "command": "@Entity",
+      "description": "Specifies that the class is an entity and is mapped to a database table.",
+      "scenario": "Use when defining a JPA entity in a Spring application.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "jpa",
+        "entity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.oracle.com/javaee/7/api/javax/persistence/Entity.html"
+    },
+    {
+      "command": "@Transactional",
+      "description": "Demarcates transaction boundaries at the method level.",
+      "scenario": "Use when you need to ensure that a method executes within a transactional context.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "transaction",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/Transactional.html"
+    },
+    {
+      "command": "spring.datasource.url=jdbc:mysql://localhost:3306/mydb",
+      "description": "Configures the database URL for a Spring Boot application.",
+      "scenario": "Use when setting up a database connection in a Spring Boot application.",
+      "language": "properties",
+      "tags": [
+        "spring",
+        "database",
+        "configuration"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties.data.spring.datasource.url"
+    },
+    {
+      "command": "mvn spring-boot:run",
+      "description": "Runs a Spring Boot application using Maven.",
+      "scenario": "Use to start your Spring Boot application during development.",
+      "language": "bash",
+      "tags": [
+        "spring",
+        "maven",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#run"
+    },
+    {
+      "command": "@Component",
+      "description": "Indicates that an annotated class is a \"component\" and is eligible for component scanning.",
+      "scenario": "Use to declare a Spring-managed component without specifying a stereotype.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "component",
+        "bean"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html"
+    },
+    {
+      "command": "@RequestMapping(\"/path\")",
+      "description": "Maps HTTP requests to handler methods of MVC and REST controllers.",
+      "scenario": "Use to map web requests to specific handler methods in a Spring controller.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "mapping",
+        "request"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RequestMapping.html"
+    },
+    {
+      "command": "@Configuration",
+      "description": "Indicates that a class declares one or more @Bean methods and may be processed by the Spring container to generate bean definitions.",
+      "scenario": "Use when defining configuration classes in a Spring application.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "configuration",
+        "bean"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Configuration.html"
+    },
+    {
+      "command": "@Bean",
+      "description": "Indicates that a method produces a bean to be managed by the Spring container.",
+      "scenario": "Use when you need to define a bean in a Spring configuration class.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "bean",
+        "definition"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Bean.html"
+    },
+    {
+      "command": "spring-boot-starter-web",
+      "description": "Starter for building web, including RESTful, applications using Spring MVC. Uses Tomcat as the default embedded container.",
+      "scenario": "Use when you need to add web capabilities to your Spring Boot application.",
+      "language": "text",
+      "tags": [
+        "spring",
+        "starter",
+        "web"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter"
+    },
+    {
+      "command": "@Service",
+      "description": "Indicates that an annotated class is a \"Service\", originally defined by Domain-Driven Design (Evans, 2003) as \"an operation offered as an interface that stands alone in the model, with no encapsulated state.\"",
+      "scenario": "Use to declare a service layer component in a Spring application.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "service",
+        "component"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Service.html"
+    },
+    {
+      "command": "@Repository",
+      "description": "Indicates that an annotated class is a \"Repository\", which is an abstraction of data access and storage.",
+      "scenario": "Use to declare a data access layer component in a Spring application.",
+      "language": "java",
+      "tags": [
+        "spring",
+        "repository",
+        "data"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Repository.html"
+    }
+  ]
+}

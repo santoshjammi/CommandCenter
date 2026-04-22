@@ -1,0 +1,165 @@
+{
+  "title": "Express.js Cheat Sheet",
+  "slug": "express",
+  "description": "Essential Express.js commands and patterns for building web applications.",
+  "audience": "engineer",
+  "category": "Frameworks",
+  "commands": [
+    {
+      "command": "npm install express",
+      "description": "Install Express.js in your project.",
+      "scenario": "Use when setting up a new Express.js application.",
+      "language": "bash",
+      "tags": [
+        "express",
+        "npm",
+        "install"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/starter/installing.html"
+    },
+    {
+      "command": "const express = require('express'); const app = express();",
+      "description": "Initialize an Express application.",
+      "scenario": "Use to start setting up your Express.js server.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "setup",
+        "server"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/starter/hello-world.html"
+    },
+    {
+      "command": "app.listen(3000, () => console.log('Server running on port 3000'));",
+      "description": "Start the Express server on a specified port.",
+      "scenario": "Use to start listening for incoming requests on port 3000.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "server",
+        "listen"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/starter/hello-world.html"
+    },
+    {
+      "command": "app.get('/', (req, res) => res.send('Hello World!'));",
+      "description": "Define a GET route for the root URL.",
+      "scenario": "Use to handle GET requests to the root URL of your application.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "route",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/starter/basic-routing.html"
+    },
+    {
+      "command": "app.use(express.json());",
+      "description": "Enable JSON body parsing for incoming requests.",
+      "scenario": "Use when you need to parse JSON payloads in requests.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "middleware",
+        "json"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/api.html#express.json"
+    },
+    {
+      "command": "app.post('/submit', (req, res) => res.send(req.body));",
+      "description": "Define a POST route to handle form submissions.",
+      "scenario": "Use to handle POST requests and access the request body.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "route",
+        "post"
+      ],
+      "is_curated": true,
+      "man_page": "https://expressjs.com/en/starter/basic-routing.html"
+    },
+    {
+      "command": "const router = express.Router();",
+      "description": "Create a new router object.",
+      "scenario": "Use to modularize routes in your Express application.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "router",
+        "modular"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "router.get('/users', (req, res) => res.send('User list'));",
+      "description": "Define a GET route on a router object.",
+      "scenario": "Use to handle GET requests within a modular router.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "router",
+        "get"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "app.use('/api', router);",
+      "description": "Mount a router on a path in the app.",
+      "scenario": "Use to integrate a router into the main application with a specific path prefix.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "router",
+        "mount"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "command": "app.set('view engine', 'pug');",
+      "description": "Set Pug as the view engine for the app.",
+      "scenario": "Use when you want to render views using the Pug template engine.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "view",
+        "pug"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/using-template-engines.html"
+    },
+    {
+      "command": "app.use(express.static('public'));",
+      "description": "Serve static files from a directory.",
+      "scenario": "Use to serve static assets like images, CSS files, and JavaScript files.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "static",
+        "files"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/starter/static-files.html"
+    },
+    {
+      "command": "app.use((err, req, res, next) => { res.status(500).send('Something broke!'); });",
+      "description": "Define an error-handling middleware.",
+      "scenario": "Use to handle errors and send a response to the client.",
+      "language": "javascript",
+      "tags": [
+        "express",
+        "middleware",
+        "error"
+      ],
+      "is_curated": false,
+      "man_page": "https://expressjs.com/en/guide/error-handling.html"
+    }
+  ]
+}

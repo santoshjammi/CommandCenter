@@ -1,0 +1,191 @@
+{
+  "title": "Consul Cheat Sheet",
+  "slug": "consul",
+  "description": "Essential commands and configurations for managing Consul services.",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "consul agent -dev",
+      "description": "Start a Consul agent in development mode",
+      "scenario": "Use when you need to quickly start a Consul agent for testing purposes.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "agent",
+        "development"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.consul.io/docs/commands/agent"
+    },
+    {
+      "command": "consul members",
+      "description": "List all members in the Consul cluster",
+      "scenario": "Use to check the status and details of nodes in your Consul cluster.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "cluster",
+        "members"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.consul.io/docs/commands/members"
+    },
+    {
+      "command": "consul kv put my-key my-value",
+      "description": "Store a key-value pair in Consul's KV store",
+      "scenario": "Use to save configuration data or other information in Consul's key-value store.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "kv",
+        "store"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.consul.io/docs/commands/kv/put"
+    },
+    {
+      "command": "consul kv get my-key",
+      "description": "Retrieve a value from Consul's KV store",
+      "scenario": "Use to fetch configuration data stored in Consul's key-value store.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "kv",
+        "get"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.consul.io/docs/commands/kv/get"
+    },
+    {
+      "command": "consul kv delete my-key",
+      "description": "Delete a key-value pair from Consul's KV store",
+      "scenario": "Use to remove configuration data from Consul's key-value store.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "kv",
+        "delete"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.consul.io/docs/commands/kv/delete"
+    },
+    {
+      "command": "consul catalog services",
+      "description": "List all services registered with the Consul catalog",
+      "scenario": "Use to view all services currently registered in the Consul catalog.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "catalog",
+        "services"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.consul.io/docs/commands/catalog/services"
+    },
+    {
+      "command": "consul catalog nodes",
+      "description": "List all nodes registered with the Consul catalog",
+      "scenario": "Use to view all nodes currently registered in the Consul catalog.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "catalog",
+        "nodes"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.consul.io/docs/commands/catalog/nodes"
+    },
+    {
+      "command": "consul lock -name=my-lock-name",
+      "description": "Acquire a distributed lock with Consul",
+      "scenario": "Use to synchronize processes across distributed systems using Consul locks.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "lock",
+        "synchronization"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.consul.io/docs/commands/lock"
+    },
+    {
+      "command": "consul operator raft list-peers",
+      "description": "List the peers in the Consul Raft configuration",
+      "scenario": "Use to view the current Raft peer configuration in a Consul cluster.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "raft",
+        "peers"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.consul.io/docs/commands/operator/raft/list-peers"
+    },
+    {
+      "command": "consul operator raft remove-peer <peer-id>",
+      "description": "Remove a peer from the Consul Raft configuration",
+      "scenario": "Use to remove a failed or decommissioned peer from the Raft configuration.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "raft",
+        "remove"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.consul.io/docs/commands/operator/raft/remove-peer"
+    },
+    {
+      "command": "consul join <address>",
+      "description": "Join a node to a Consul cluster",
+      "scenario": "Use to add a new node to an existing Consul cluster.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "join",
+        "cluster"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.consul.io/docs/commands/join"
+    },
+    {
+      "command": "consul leave",
+      "description": "Gracefully leave a Consul cluster",
+      "scenario": "Use to safely remove a node from a Consul cluster without causing disruptions.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "leave",
+        "cluster"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.consul.io/docs/commands/leave"
+    },
+    {
+      "command": "consul monitor",
+      "description": "Stream logs from a Consul agent",
+      "scenario": "Use to monitor logs from a Consul agent for troubleshooting purposes.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "monitor",
+        "logs"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.consul.io/docs/commands/monitor"
+    },
+    {
+      "command": "consul exec -node=<node-name> <command>",
+      "description": "Execute a command on a remote Consul node",
+      "scenario": "Use to run a command across nodes in a Consul cluster for management tasks.",
+      "language": "bash",
+      "tags": [
+        "consul",
+        "exec",
+        "remote"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.consul.io/docs/commands/exec"
+    }
+  ]
+}

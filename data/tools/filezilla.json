@@ -1,0 +1,191 @@
+{
+  "title": "FileZilla Cheat Sheet",
+  "slug": "filezilla",
+  "description": "Essential commands and configurations for using FileZilla effectively.",
+  "audience": "engineer",
+  "category": "Networking",
+  "commands": [
+    {
+      "command": "filezilla",
+      "description": "Launch FileZilla GUI application",
+      "scenario": "Use when you need to start the FileZilla application to manage FTP connections.",
+      "language": "bash",
+      "tags": [
+        "launch",
+        "GUI",
+        "FTP"
+      ],
+      "is_curated": true,
+      "man_page": "https://wiki.filezilla-project.org/Client_Installation"
+    },
+    {
+      "command": "sftp://username@host",
+      "description": "Connect to an SFTP server using FileZilla",
+      "scenario": "Use when you need to securely transfer files over SFTP using FileZilla.",
+      "language": "text",
+      "tags": [
+        "SFTP",
+        "connect",
+        "secure"
+      ],
+      "is_curated": true,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "ftp://username@host",
+      "description": "Connect to an FTP server using FileZilla",
+      "scenario": "Use when you need to transfer files using FTP protocol in FileZilla.",
+      "language": "text",
+      "tags": [
+        "FTP",
+        "connect",
+        "transfer"
+      ],
+      "is_curated": true,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "Edit -> Settings -> Transfers -> Maximum simultaneous transfers",
+      "description": "Set the maximum number of simultaneous file transfers",
+      "scenario": "Use when you need to optimize transfer speed by adjusting simultaneous transfers.",
+      "language": "text",
+      "tags": [
+        "settings",
+        "transfer",
+        "optimize"
+      ],
+      "is_curated": false,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "Edit -> Settings -> Connection -> Timeout",
+      "description": "Configure connection timeout settings",
+      "scenario": "Use to prevent disconnections by adjusting timeout settings in FileZilla.",
+      "language": "text",
+      "tags": [
+        "timeout",
+        "connection",
+        "settings"
+      ],
+      "is_curated": false,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "File -> Site Manager -> New Site",
+      "description": "Create a new site entry in Site Manager",
+      "scenario": "Use when you need to save connection details for frequent access.",
+      "language": "text",
+      "tags": [
+        "site",
+        "manager",
+        "save"
+      ],
+      "is_curated": true,
+      "man_page": "https://wiki.filezilla-project.org/Site_Manager"
+    },
+    {
+      "command": "Edit -> Settings -> Interface -> Language",
+      "description": "Change the language of the FileZilla interface",
+      "scenario": "Use when you need to switch the interface language for better usability.",
+      "language": "text",
+      "tags": [
+        "language",
+        "interface",
+        "settings"
+      ],
+      "is_curated": false,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "View -> Directory Comparison -> Enable",
+      "description": "Enable directory comparison feature",
+      "scenario": "Use when you need to compare local and remote directories for differences.",
+      "language": "text",
+      "tags": [
+        "compare",
+        "directory",
+        "view"
+      ],
+      "is_curated": true,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "View -> Filename Filters",
+      "description": "Apply filename filters to hide/show files",
+      "scenario": "Use when you need to filter files by name to simplify file management.",
+      "language": "text",
+      "tags": [
+        "filter",
+        "filename",
+        "view"
+      ],
+      "is_curated": false,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "Edit -> Settings -> Transfers -> File Types",
+      "description": "Set default file types for ASCII/Binary transfer",
+      "scenario": "Use to ensure correct file type handling during transfers.",
+      "language": "text",
+      "tags": [
+        "file type",
+        "transfer",
+        "settings"
+      ],
+      "is_curated": false,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "Help -> Check for Updates",
+      "description": "Check for FileZilla software updates",
+      "scenario": "Use to ensure you are running the latest version of FileZilla.",
+      "language": "text",
+      "tags": [
+        "update",
+        "help",
+        "version"
+      ],
+      "is_curated": true,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "Edit -> Settings -> Transfers -> Speed Limits",
+      "description": "Set speed limits for file transfers",
+      "scenario": "Use when you need to control bandwidth usage during transfers.",
+      "language": "text",
+      "tags": [
+        "speed",
+        "limit",
+        "transfer"
+      ],
+      "is_curated": false,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "File -> Export -> Export Settings",
+      "description": "Export FileZilla settings to a file",
+      "scenario": "Use to backup or transfer settings to another FileZilla installation.",
+      "language": "text",
+      "tags": [
+        "export",
+        "settings",
+        "backup"
+      ],
+      "is_curated": true,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    },
+    {
+      "command": "File -> Import -> Import Settings",
+      "description": "Import FileZilla settings from a file",
+      "scenario": "Use to restore or apply settings from a previous FileZilla installation.",
+      "language": "text",
+      "tags": [
+        "import",
+        "settings",
+        "restore"
+      ],
+      "is_curated": true,
+      "man_page": "https://wiki.filezilla-project.org/Using"
+    }
+  ]
+}

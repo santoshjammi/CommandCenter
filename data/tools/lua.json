@@ -1,0 +1,191 @@
+{
+  "title": "Lua Cheat Sheet",
+  "slug": "lua",
+  "description": "Essential Lua commands and patterns for software engineers.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "lua -v",
+      "description": "Display the Lua version installed on your system",
+      "scenario": "Use when you need to verify the installed Lua version.",
+      "language": "bash",
+      "tags": [
+        "lua",
+        "version",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#7"
+    },
+    {
+      "command": "lua script.lua",
+      "description": "Execute a Lua script file",
+      "scenario": "Run a Lua script to perform tasks defined in the script file.",
+      "language": "bash",
+      "tags": [
+        "lua",
+        "execute",
+        "script"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#7"
+    },
+    {
+      "command": "local sum = 0; for i = 1, 10 do sum = sum + i end; print(sum)",
+      "description": "Calculate and print the sum of numbers from 1 to 10",
+      "scenario": "Use to quickly calculate a sum in a Lua script.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "loop",
+        "sum"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#3.3.5"
+    },
+    {
+      "command": "table.insert(t, value)",
+      "description": "Insert a value into a Lua table",
+      "scenario": "Add elements to a table when building a list dynamically.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "table",
+        "insert"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-table.insert"
+    },
+    {
+      "command": "table.remove(t, pos)",
+      "description": "Remove a value from a Lua table at a specific position",
+      "scenario": "Remove elements from a table when managing a list.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "table",
+        "remove"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-table.remove"
+    },
+    {
+      "command": "function greet(name) return 'Hello, ' .. name end",
+      "description": "Define a simple function to greet a user",
+      "scenario": "Create reusable functions for common tasks in Lua scripts.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "function",
+        "greet"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#3.4.10"
+    },
+    {
+      "command": "os.execute('ls')",
+      "description": "Execute an OS command from Lua",
+      "scenario": "Run shell commands from within a Lua script.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "os",
+        "execute"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-os.execute"
+    },
+    {
+      "command": "require('module')",
+      "description": "Load a Lua module",
+      "scenario": "Include external modules to extend Lua script functionality.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "module",
+        "require"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-require"
+    },
+    {
+      "command": "for k, v in pairs(t) do print(k, v) end",
+      "description": "Iterate over key-value pairs in a table",
+      "scenario": "Use to loop through all elements in a table.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "loop",
+        "table"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-pairs"
+    },
+    {
+      "command": "if x > 10 then print('x is greater than 10') end",
+      "description": "Conditional statement to check if a variable is greater than 10",
+      "scenario": "Perform conditional logic based on variable values.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "conditional",
+        "if"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#3.3.4"
+    },
+    {
+      "command": "setmetatable(t, mt)",
+      "description": "Set a metatable for a table",
+      "scenario": "Use metatables to change table behavior.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "metatable",
+        "table"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-setmetatable"
+    },
+    {
+      "command": "print('Hello, World!')",
+      "description": "Print a message to the console",
+      "scenario": "Output text to the console for debugging or user interaction.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "print",
+        "console"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-print"
+    },
+    {
+      "command": "coroutine.create(function() print('Coroutine') end)",
+      "description": "Create a new coroutine",
+      "scenario": "Use coroutines for non-blocking operations.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "coroutine",
+        "create"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-coroutine.create"
+    },
+    {
+      "command": "math.randomseed(os.time())",
+      "description": "Seed the random number generator",
+      "scenario": "Initialize the random number generator to produce different sequences.",
+      "language": "lua",
+      "tags": [
+        "lua",
+        "random",
+        "seed"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.lua.org/manual/5.4/manual.html#pdf-math.randomseed"
+    }
+  ]
+}

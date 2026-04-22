@@ -1,0 +1,178 @@
+{
+  "title": "Regular Expressions Cheat Sheet",
+  "slug": "regular-expressions",
+  "description": "Essential commands and patterns for using regular expressions effectively.",
+  "audience": "engineer",
+  "category": "Languages",
+  "commands": [
+    {
+      "command": "/^\\d{3}-\\d{2}-\\d{4}$/",
+      "description": "Matches a Social Security number format.",
+      "scenario": "Use to validate input when expecting a Social Security number.",
+      "language": "text",
+      "tags": [
+        "regex",
+        "validation",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.regular-expressions.info/numericranges.html"
+    },
+    {
+      "command": "grep -E 'error|fail' logfile.txt",
+      "description": "Searches for lines containing 'error' or 'fail' in a file.",
+      "scenario": "Use when you need to quickly find error messages in log files.",
+      "language": "bash",
+      "tags": [
+        "grep",
+        "search",
+        "logs"
+      ],
+      "is_curated": true,
+      "man_page": "https://man7.org/linux/man-pages/man1/grep.1.html"
+    },
+    {
+      "command": "s/\\bcat\\b/dog/g",
+      "description": "Replaces the word 'cat' with 'dog' globally in a text.",
+      "scenario": "Use when you need to replace specific words in a document.",
+      "language": "text",
+      "tags": [
+        "replace",
+        "substitution",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.gnu.org/software/sed/manual/sed.html#The-_0022s_0022-Command"
+    },
+    {
+      "command": "\\b\\w+\\b",
+      "description": "Matches any whole word in a text.",
+      "scenario": "Use to identify and extract words from a string.",
+      "language": "text",
+      "tags": [
+        "word",
+        "match",
+        "pattern"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.regular-expressions.info/wordboundaries.html"
+    },
+    {
+      "command": "awk '/^ERROR/' logfile.txt",
+      "description": "Prints lines starting with 'ERROR' from a file.",
+      "scenario": "Use to filter log entries that indicate errors.",
+      "language": "bash",
+      "tags": [
+        "awk",
+        "filter",
+        "logs"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.gnu.org/software/gawk/manual/gawk.html"
+    },
+    {
+      "command": "\\d{4}-\\d{2}-\\d{2}",
+      "description": "Matches a date format YYYY-MM-DD.",
+      "scenario": "Use to validate date input in a standard format.",
+      "language": "text",
+      "tags": [
+        "date",
+        "validation",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.regular-expressions.info/dates.html"
+    },
+    {
+      "command": "sed -n '/pattern/p' file.txt",
+      "description": "Prints lines matching a pattern from a file.",
+      "scenario": "Use to extract specific lines from a text file based on a pattern.",
+      "language": "bash",
+      "tags": [
+        "sed",
+        "extract",
+        "pattern"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.gnu.org/software/sed/manual/sed.html"
+    },
+    {
+      "command": "find . -regex '.*\\.txt$'",
+      "description": "Finds all text files in the current directory and subdirectories.",
+      "scenario": "Use to locate all text files within a directory tree.",
+      "language": "bash",
+      "tags": [
+        "find",
+        "search",
+        "files"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/find.1.html"
+    },
+    {
+      "command": "perl -pe 's/(\\d+)/($1*2)/ge' file.txt",
+      "description": "Doubles every number found in a file.",
+      "scenario": "Use to perform arithmetic operations on numbers within a text file.",
+      "language": "bash",
+      "tags": [
+        "perl",
+        "arithmetic",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://perldoc.perl.org/perlre"
+    },
+    {
+      "command": "\\s+",
+      "description": "Matches one or more whitespace characters.",
+      "scenario": "Use to identify and manipulate whitespace in strings.",
+      "language": "text",
+      "tags": [
+        "whitespace",
+        "pattern",
+        "match"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.regular-expressions.info/whitespace.html"
+    },
+    {
+      "command": "egrep -i 'warning|notice' logfile.txt",
+      "description": "Searches for 'warning' or 'notice' in a file, case-insensitive.",
+      "scenario": "Use to find non-critical log messages in a case-insensitive manner.",
+      "language": "bash",
+      "tags": [
+        "egrep",
+        "search",
+        "logs"
+      ],
+      "is_curated": false,
+      "man_page": "https://man7.org/linux/man-pages/man1/grep.1.html"
+    },
+    {
+      "command": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b",
+      "description": "Matches a standard email address format.",
+      "scenario": "Use to validate email addresses in user input.",
+      "language": "text",
+      "tags": [
+        "email",
+        "validation",
+        "pattern"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.regular-expressions.info/email.html"
+    },
+    {
+      "command": "vim -c '%s/foo/bar/g' -c 'wq' file.txt",
+      "description": "Replaces 'foo' with 'bar' in a file using Vim and saves it.",
+      "scenario": "Use to perform batch text replacements directly from the command line.",
+      "language": "bash",
+      "tags": [
+        "vim",
+        "replace",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://vimhelp.org/pattern.txt.html"
+    }
+  ]
+}

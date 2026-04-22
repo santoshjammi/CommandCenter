@@ -1,0 +1,178 @@
+{
+  "title": "Vault CLI Cheat Sheet",
+  "slug": "vault",
+  "description": "Essential commands for managing secrets with HashiCorp Vault.",
+  "audience": "engineer",
+  "category": "Security",
+  "commands": [
+    {
+      "command": "vault login",
+      "description": "Authenticate to Vault using a token or other method.",
+      "scenario": "Use when you need to authenticate to Vault to perform operations.",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "security",
+        "vault"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.vaultproject.io/docs/commands/login"
+    },
+    {
+      "command": "vault status",
+      "description": "Check the status of the Vault server.",
+      "scenario": "Use to verify if the Vault server is initialized and unsealed.",
+      "language": "bash",
+      "tags": [
+        "status",
+        "server",
+        "vault"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.vaultproject.io/docs/commands/status"
+    },
+    {
+      "command": "vault secrets enable kv",
+      "description": "Enable a key-value secrets engine at a given path.",
+      "scenario": "Use to start storing secrets in a new key-value store.",
+      "language": "bash",
+      "tags": [
+        "secrets",
+        "kv",
+        "vault"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.vaultproject.io/docs/commands/secrets"
+    },
+    {
+      "command": "vault kv put secret/mysecret mykey=myvalue",
+      "description": "Store a secret in the key-value store.",
+      "scenario": "Use to save a new secret or update an existing one.",
+      "language": "bash",
+      "tags": [
+        "store",
+        "secrets",
+        "vault"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.vaultproject.io/docs/commands/kv"
+    },
+    {
+      "command": "vault kv get secret/mysecret",
+      "description": "Retrieve a secret from the key-value store.",
+      "scenario": "Use to access a stored secret's value.",
+      "language": "bash",
+      "tags": [
+        "retrieve",
+        "secrets",
+        "vault"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.vaultproject.io/docs/commands/kv"
+    },
+    {
+      "command": "vault kv delete secret/mysecret",
+      "description": "Delete a secret from the key-value store.",
+      "scenario": "Use to remove a secret that is no longer needed.",
+      "language": "bash",
+      "tags": [
+        "delete",
+        "secrets",
+        "vault"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.vaultproject.io/docs/commands/kv"
+    },
+    {
+      "command": "vault operator unseal",
+      "description": "Unseal the Vault server with a key share.",
+      "scenario": "Use to unseal Vault after a restart or initialization.",
+      "language": "bash",
+      "tags": [
+        "unseal",
+        "operator",
+        "vault"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.vaultproject.io/docs/commands/operator/unseal"
+    },
+    {
+      "command": "vault operator init",
+      "description": "Initialize a new Vault server.",
+      "scenario": "Use to set up a new Vault server for the first time.",
+      "language": "bash",
+      "tags": [
+        "initialize",
+        "operator",
+        "vault"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.vaultproject.io/docs/commands/operator/init"
+    },
+    {
+      "command": "vault policy write my-policy my-policy.hcl",
+      "description": "Create or update a policy from a file.",
+      "scenario": "Use to define access control policies for Vault.",
+      "language": "bash",
+      "tags": [
+        "policy",
+        "security",
+        "vault"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.vaultproject.io/docs/commands/policy/write"
+    },
+    {
+      "command": "vault auth list",
+      "description": "List all enabled authentication methods.",
+      "scenario": "Use to see which auth methods are available in Vault.",
+      "language": "bash",
+      "tags": [
+        "authentication",
+        "methods",
+        "vault"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.vaultproject.io/docs/commands/auth/list"
+    },
+    {
+      "command": "vault lease revoke -prefix secret/",
+      "description": "Revoke all leases under a specific prefix.",
+      "scenario": "Use to revoke access to secrets under a specific path.",
+      "language": "bash",
+      "tags": [
+        "lease",
+        "revoke",
+        "vault"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.vaultproject.io/docs/commands/lease/revoke"
+    },
+    {
+      "command": "vault audit enable file file_path=/var/log/vault_audit.log",
+      "description": "Enable file audit logging to a specified path.",
+      "scenario": "Use to track access and operations in Vault for security auditing.",
+      "language": "bash",
+      "tags": [
+        "audit",
+        "logging",
+        "vault"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.vaultproject.io/docs/commands/audit/enable"
+    },
+    {
+      "command": "vault token create -policy=my-policy",
+      "description": "Create a new token with a specific policy attached.",
+      "scenario": "Use to generate a token for accessing Vault with defined permissions.",
+      "language": "bash",
+      "tags": [
+        "token",
+        "create",
+        "vault"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.vaultproject.io/docs/commands/token/create"
+    }
+  ]
+}

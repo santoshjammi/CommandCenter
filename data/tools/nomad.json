@@ -1,0 +1,165 @@
+{
+  "title": "Nomad Cheat Sheet",
+  "slug": "nomad",
+  "description": "Essential Nomad CLI commands for managing workloads",
+  "audience": "engineer",
+  "category": "DevOps",
+  "commands": [
+    {
+      "command": "nomad agent -dev",
+      "description": "Start a Nomad agent in development mode",
+      "scenario": "Use when you need to quickly start a Nomad agent for testing purposes",
+      "language": "bash",
+      "tags": [
+        "agent",
+        "development",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.nomadproject.io/docs/commands/agent"
+    },
+    {
+      "command": "nomad run example.nomad",
+      "description": "Run a job using a Nomad job file",
+      "scenario": "Use when you need to deploy a job defined in a Nomad job file",
+      "language": "bash",
+      "tags": [
+        "job",
+        "deployment",
+        "run"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.nomadproject.io/docs/commands/run"
+    },
+    {
+      "command": "nomad status",
+      "description": "Display the status of all jobs",
+      "scenario": "Use to check the current status of all running jobs in the cluster",
+      "language": "bash",
+      "tags": [
+        "status",
+        "jobs",
+        "monitoring"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.nomadproject.io/docs/commands/status"
+    },
+    {
+      "command": "nomad stop <job_id>",
+      "description": "Stop a running job by ID",
+      "scenario": "Use when you need to stop a specific job that is currently running",
+      "language": "bash",
+      "tags": [
+        "stop",
+        "job",
+        "terminate"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.nomadproject.io/docs/commands/stop"
+    },
+    {
+      "command": "nomad alloc status <alloc_id>",
+      "description": "Get the status of a specific allocation",
+      "scenario": "Use to retrieve detailed information about a specific allocation",
+      "language": "bash",
+      "tags": [
+        "allocation",
+        "status",
+        "details"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.nomadproject.io/docs/commands/alloc-status"
+    },
+    {
+      "command": "nomad server members",
+      "description": "List all server members in the cluster",
+      "scenario": "Use to view all the server nodes that are part of the Nomad cluster",
+      "language": "bash",
+      "tags": [
+        "server",
+        "cluster",
+        "members"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.nomadproject.io/docs/commands/server-members"
+    },
+    {
+      "command": "nomad node status",
+      "description": "List the status of all client nodes",
+      "scenario": "Use to check the status and health of all client nodes in the cluster",
+      "language": "bash",
+      "tags": [
+        "node",
+        "status",
+        "health"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.nomadproject.io/docs/commands/node-status"
+    },
+    {
+      "command": "nomad eval <eval_id>",
+      "description": "Evaluate a specific evaluation by ID",
+      "scenario": "Use to manually trigger an evaluation of a job or allocation",
+      "language": "bash",
+      "tags": [
+        "evaluation",
+        "trigger",
+        "manual"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.nomadproject.io/docs/commands/eval"
+    },
+    {
+      "command": "nomad job plan example.nomad",
+      "description": "Create a plan for a job without running it",
+      "scenario": "Use to preview the changes a job file will make before applying them",
+      "language": "bash",
+      "tags": [
+        "job",
+        "plan",
+        "preview"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.nomadproject.io/docs/commands/job-plan"
+    },
+    {
+      "command": "nomad job revert <job_id>",
+      "description": "Revert a job to a previous version",
+      "scenario": "Use to rollback a job to a previous stable version",
+      "language": "bash",
+      "tags": [
+        "job",
+        "revert",
+        "rollback"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.nomadproject.io/docs/commands/job-revert"
+    },
+    {
+      "command": "nomad agent-info",
+      "description": "Display information about the local agent",
+      "scenario": "Use to get details about the configuration and status of the local Nomad agent",
+      "language": "bash",
+      "tags": [
+        "agent",
+        "info",
+        "configuration"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.nomadproject.io/docs/commands/agent-info"
+    },
+    {
+      "command": "nomad acl policy apply <name> <policy.hcl>",
+      "description": "Apply an ACL policy from a file",
+      "scenario": "Use to enforce access control policies using a predefined HCL file",
+      "language": "bash",
+      "tags": [
+        "acl",
+        "policy",
+        "security"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.nomadproject.io/docs/commands/acl-policy-apply"
+    }
+  ]
+}
