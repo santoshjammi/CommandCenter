@@ -116,7 +116,7 @@ export async function buildSearchIndex(): Promise<object[]> {
     });
 
 // Per-snippet entries for deep search
-    for (const cmd of sheet.commands) {
+    for (const cmd of sheet.commands ?? []) {
       index.push({
         type: "snippet",
         slug: tool.slug,
