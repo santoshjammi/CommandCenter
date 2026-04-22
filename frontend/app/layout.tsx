@@ -5,9 +5,67 @@ import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
+const SITE_NAME = "DevKeys";
+const SITE_DESCRIPTION =
+  "Free developer cheat sheets for 900+ CLI tools, languages, frameworks, databases, DevOps platforms, and cloud providers — copy-ready commands with real-world scenarios.";
+
 export const metadata: Metadata = {
-  title: "Dev Cheat Sheets",
-  description: "The developer command center — keyboard-first cheat sheets for every tool.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${SITE_NAME} — Developer Cheat Sheets`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  keywords: [
+    "developer cheat sheets",
+    "CLI command reference",
+    "programming quick reference",
+    "devkeys",
+    "shell commands",
+    "keyboard shortcuts",
+    "devops commands",
+    "git cheat sheet",
+    "docker commands",
+    "developer tools reference",
+  ],
+  authors: [{ name: SITE_NAME, url: SITE_URL }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — Developer Cheat Sheets`,
+    description: SITE_DESCRIPTION,
+    images: [
+      {
+        url: "/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: `${SITE_NAME} — Developer Cheat Sheets`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} — Developer Cheat Sheets`,
+    description: SITE_DESCRIPTION,
+    images: ["/og-default.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -21,7 +79,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <footer className="mt-24 py-8 text-center text-sm" style={{ borderTop: "1px solid var(--ring)", color: "var(--muted-gray)" }}>
-          Dev Cheat Sheets — built with Next.js
+          {SITE_NAME} — built with Next.js
         </footer>
       </body>
     </html>

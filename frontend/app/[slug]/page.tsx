@@ -1,7 +1,10 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getToolBySlug, getGeneratedSlugs } from "@/lib/data";
 import TableOfContents from "@/components/TableOfContents";
 import CommandReferenceSection from "@/components/CommandReferenceSection";
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
 
 // Every slug page is statically generated at build time
 export const dynamic = "force-static";
@@ -16,13 +19,38 @@ export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>;
-}) {
+}): Promise<Metadata> {
   const { slug } = await params;
   const tool = await getToolBySlug(slug);
   if (!tool) return { title: "Not found" };
+
+  const title = `${tool.title} Cheat Sheet — Commands & Quick Reference`;
+  const description = `Complete ${tool.title} command reference with copy-ready examples and real-world scenarios. ${tool.description}`;
+
   return {
-    title: `${tool.title} Cheat Sheet`,
-    description: tool.description,
+    title,
+    description,
+    keywords: [
+      tool.title,
+      `${tool.title} commands`,
+      `${tool.title} cheat sheet`,
+      `${tool.title} reference`,
+      `${tool.title} quick reference`,
+      ...(tool.category ? [tool.category] : []),
+    ],
+    alternates: { canonical: `/${slug}` },
+    openGraph: {
+      type: "article",
+      url: `/${slug}`,
+      title,
+      description,
+      siteName: "DevKeys",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
   };
 }
 
@@ -35,8 +63,40 @@ export default async function ToolPage({
   const tool = await getToolBySlug(slug);
   if (!tool) notFound();
 
+  const commands = tool.commands ?? [];
+  const faqItems = commands.slice(0, 8).map((cmd) => ({
+    "@type": "Question",
+    name: `${tool.title}: ${cmd.scenario}`,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: `${cmd.command}${cmd.description ? ` — ${cmd.description}` : ""}`,
+    },
+  }));
+  const schema: Record<string, unknown>[] = [
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      headline: `${tool.title} Cheat Sheet`,
+      description: tool.description,
+      url: `${SITE_URL}/${slug}`,
+      author: { "@type": "Organization", name: "DevKeys", url: SITE_URL },
+      publisher: { "@type": "Organization", name: "DevKeys", url: SITE_URL },
+      keywords: `${tool.title}, ${tool.title} commands, ${tool.title} cheat sheet`,
+      about: { "@type": "SoftwareApplication", name: tool.title },
+      inLanguage: "en-US",
+    },
+    ...(faqItems.length > 0
+      ? [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqItems }]
+      : []),
+  ];
+
   return (
-    <div className="mx-auto max-w-7xl px-6 py-10">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <div className="mx-auto max-w-7xl px-6 py-10">
       <div className="flex gap-10">
         {/* Sticky ToC sidebar */}
         <aside className="hidden lg:block w-52 shrink-0">
@@ -67,5 +127,6 @@ export default async function ToolPage({
         </main>
       </div>
     </div>
+    </>
   );
 }
