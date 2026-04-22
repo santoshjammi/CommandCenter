@@ -100,7 +100,7 @@ export function CodeEditorCard({
   // ── Textarea row count ───────────────────────────────────────────────────
   // Stable on both server + client because `value` is static JSON data.
   const lineCount = (value.match(/\n/g) ?? []).length + 1;
-  const rows = Math.min(Math.max(lineCount, 2), 10);
+  const rows = Math.min(Math.max(lineCount, 1), 4);
 
   // ── Copy handler ─────────────────────────────────────────────────────────
   const handleCopy = async () => {
@@ -157,7 +157,7 @@ export function CodeEditorCard({
       className={[
         // shape + surface
         "rounded-2xl border overflow-hidden",
-        "bg-[#17181a]",
+        "bg-[#0d0e10]",
         // transition
         "transition-all duration-200",
         // ring state
@@ -171,7 +171,7 @@ export function CodeEditorCard({
       aria-label={title}
     >
       {/* ━━━ HEADER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}
-      <div className="flex items-center gap-3 bg-[#1f2022] border-b border-white/[0.055] px-4 py-3 min-h-[48px]">
+      <div className="flex items-center gap-3 bg-[#1c1d1f] border-b border-white/[0.055] px-4 py-3 min-h-[46px]">
 
         {/* Left — label + language badge + helper/error text */}
         <div className="flex min-w-0 flex-1 flex-col gap-[3px]">
@@ -288,16 +288,16 @@ export function CodeEditorCard({
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
         className={[
-          // shape + surface
+          // shape + surface — rounded bottom matches outer card
           "block w-full",
           "bg-[#0d0e10]",
           // typography
           "font-[JetBrains_Mono,Fira_Code,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace]",
-          "text-[13px] leading-[1.75] text-[#9fe870]",
-          // spacing
-          "px-5 py-4",
+          "text-[13px] leading-[1.7] text-[#9fe870]",
+          // spacing — tighter vertically so single-line stays compact
+          "px-4 py-3",
           // placeholder
-          "placeholder:text-[#9fe870]/18",
+          "placeholder:text-[#9fe870]/20",
           // no native border/outline — card handles focus
           "border-0 outline-none ring-0 focus:ring-0 focus:outline-none",
           // resize
@@ -306,8 +306,6 @@ export function CodeEditorCard({
           "overflow-x-auto overflow-y-hidden",
           // cursor
           isReadOnly ? "cursor-default" : "cursor-text",
-          // disable browser spellcheck underlines
-          "[&]:selection:bg-[#9fe870]/20 [&]:selection:text-[#9fe870]",
         ]
           .filter(Boolean)
           .join(" ")}
