@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
 /* =============================================================
-   Design tokens — Wise-inspired palette (from design.md)
+   Design tokens — Apple-inspired system (design.md)
+   Brand palette: wise-green accent instead of Apple blue
    ============================================================= */
 :root {
   --background:     #ffffff;
-  --foreground:     #0e0f0c;  /* Near Black */
+  --foreground:     #1d1d1f;  /* Apple Near-Black — design.md §2 */
 
   /* Brand */
   --wise-green:     #9fe870;
@@ -20,12 +21,13 @@
   --bright-orange:  #ffc091;
 
   /* Neutrals */
-  --warm-dark:      #454745;
-  --muted-gray:     #868685;
+  --warm-dark:      #424245;  /* Apple Utility Dark Gray — design.md §2 */
+  --muted-gray:     #6e6e73;  /* Apple Secondary Neutral Gray — design.md §2 */
   --light-surface:  #e8ebe6;
+  --pale-surface:   #f5f5f7;  /* Apple Pale Gray section bands — design.md §2 */
 
   /* Ring/elevation */
-  --ring:           rgba(14, 15, 12, 0.12);
+  --ring:           rgba(29, 29, 31, 0.10);  /* Apple-toned ring */
   --nav-hover:      rgba(211, 242, 192, 0.40);
 
   /* Card hover tint — wise-green at 4% */
@@ -43,10 +45,12 @@
   --color-warm-dark:      var(--warm-dark);
   --color-muted-gray:     var(--muted-gray);
   --color-light-surface:  var(--light-surface);
+  --color-pale-surface:   var(--pale-surface);
   --color-bright-orange:  var(--bright-orange);
   --color-positive-green: var(--positive-green);
   --color-danger-red:     var(--danger-red);
-  --font-sans: var(--font-inter);
+  --font-sans:       var(--font-inter);
+  --font-display:    var(--font-inter-tight);  /* Inter Tight — design.md §3 display sub */
 }
 
 /* =============================================================

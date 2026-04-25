@@ -72,15 +72,16 @@ export default async function Home() {
           }),
         }}
       />
-      {/* Hero — design.md §3: 64px Wise-style at weight 900, 0.9 line-height */}
+      {/* Hero — design.md §3: Inter Tight display, weight 600, compressed tracking */}
       <div className="mb-12">
         <h1
           className="text-[52px] sm:text-[64px]"
           style={{
-            fontWeight: 900,
-            lineHeight: 0.9,
+            fontFamily: "var(--font-inter-tight), var(--font-inter), system-ui, sans-serif",
+            fontWeight: 600,
+            lineHeight: 1.05,
             color: "var(--foreground)",
-            letterSpacing: "-1px",
+            letterSpacing: "-1.2px",
             fontFeatureSettings: "'calt' 1",
           }}
         >

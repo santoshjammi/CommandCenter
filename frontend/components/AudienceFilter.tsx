@@ -66,11 +66,16 @@ export default function AudienceFilter({
           No tools found.
         </p>
       ) : (
-        <div className="space-y-12">
-          {visibleCategories.map((cat) => (
-            <section key={cat}>
+        /* design.md §5: alternating pale-surface bands per category — the Apple section rhythm */
+        <div className="-mx-6">
+          {visibleCategories.map((cat, idx) => (
+            <section
+              key={cat}
+              className="px-6 py-10"
+              style={{ background: idx % 2 === 1 ? "var(--pale-surface)" : "var(--background)" }}
+            >
               <h2
-                className="mb-4 text-xs font-semibold uppercase tracking-widest"
+                className="mb-5 text-[11px] font-semibold uppercase"
                 style={{ color: "var(--muted-gray)", letterSpacing: "0.1em" }}
               >
                 {cat}

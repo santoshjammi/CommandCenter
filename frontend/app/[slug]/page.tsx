@@ -117,7 +117,13 @@ export default async function ToolPage({
                 {tool.audience}
               </span>
             </div>
-            <h1 className="text-[48px] font-black leading-[0.9] tracking-tight text-white">
+            <h1
+              className="text-[48px] font-semibold leading-tight tracking-tight text-white"
+              style={{
+                fontFamily: "var(--font-inter-tight), var(--font-inter), system-ui, sans-serif",
+                letterSpacing: "-0.5px",
+              }}
+            >
               {tool.title}
             </h1>
             <p className="mt-4 text-lg text-zinc-400">{tool.description}</p>
