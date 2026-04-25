@@ -62,8 +62,16 @@ CATEGORIES = [
     "Productivity",
     "Networking",
     "Security",
+    "AI Chatbot",
+    "Coding Assistant",
+    "Image Generation",
+    "AI Search",
+    "AI Tools",
     "Other",
 ]
+
+# Categories that use the AI-optimised prompt instead of the CLI prompt
+AI_CATEGORIES = {"AI Chatbot", "Coding Assistant", "Image Generation", "AI Search", "AI Tools"}
 
 # ---------------------------------------------------------------------------
 # Pydantic Models (must match the frontend JSON schema exactly)
@@ -127,13 +135,49 @@ Each command must have:
 - 'man_page': official docs URL if known, empty string otherwise
 Generate 12-20 commands total."""
 
+AI_ENGINEER_SYSTEM = """\
+You are an expert AI prompt engineer and developer advocate. Write a practical cheat sheet for engineers using the given AI tool.
+Generate a comprehensive cheat sheet as valid JSON matching the schema exactly.
+Focus on: API parameters, CLI flags, prompt techniques, model options, integration patterns, and advanced settings.
+Each command must have:
+- 'command': the exact prompt pattern, API parameter, CLI flag, or configuration setting
+  e.g. "temperature=0.2" or "Think step by step. Then verify your answer." or "--model gpt-4o --stream"
+- 'description': one-line summary of what it does or why it matters
+- 'scenario': a real engineering use case (e.g. 'When building a code review bot that needs deterministic output')
+- 'language': 'text' for prompt patterns, 'bash' for CLI flags, 'json' or 'python' for API config
+- 'tags': 2-4 keywords from: accuracy, speed, creativity, cost, reasoning, formatting, context, vision, code, streaming
+- 'is_curated': true for the 6-8 most impactful techniques, false for the rest
+- 'man_page': official docs URL if known, empty string otherwise
+Generate 12-20 entries total covering prompt engineering, API usage, and advanced features."""
+
+AI_NON_ENGINEER_SYSTEM = """\
+You are a plain-language AI coach. Write a practical cheat sheet for everyday users of the given AI tool.
+Generate a comprehensive cheat sheet as valid JSON matching the schema exactly.
+Focus on: everyday prompt phrases, formatting tricks, productivity shortcuts, and common use cases.
+Each command must have:
+- 'command': a plain-English prompt phrase or action the user types/clicks
+  e.g. "Rewrite this in simpler language" or "Summarise this in 3 bullet points"
+- 'description': one-line summary of what it produces
+- 'scenario': when an everyday user would need this (e.g. 'When an email sounds too formal')
+- 'language': always 'text'
+- 'tags': 2-4 keywords from: writing, summarise, explain, reformat, brainstorm, images, research, study
+- 'is_curated': true for the 6-8 most useful tips, false for the rest
+- 'man_page': link to official help page if known, empty string otherwise
+Generate 12-20 entries total covering everyday productivity use cases."""
+
 
 def build_messages(tool: dict) -> list[dict]:
-    system = ENGINEER_SYSTEM if tool["audience"] == "engineer" else NON_ENGINEER_SYSTEM
+    category = tool.get("category", "")
+    is_ai = category in AI_CATEGORIES
+    if is_ai:
+        system = AI_ENGINEER_SYSTEM if tool["audience"] == "engineer" else AI_NON_ENGINEER_SYSTEM
+    else:
+        system = ENGINEER_SYSTEM if tool["audience"] == "engineer" else NON_ENGINEER_SYSTEM
     user = (
         f"Create a cheat sheet for: {tool['name']}\n"
         f"Slug: {tool['slug']}\n"
         f"Audience: {tool['audience']}\n"
+        f"Category: {category}\n"
         f"Pick the most appropriate category from: {', '.join(CATEGORIES)}\n"
         f"Return ONLY the JSON object — no markdown, no explanation."
     )

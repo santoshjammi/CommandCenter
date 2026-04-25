@@ -51,7 +51,9 @@ TOOLS_DIR  = Path(__file__).parent / "data" / "tools"
 
 VALID_CATEGORIES = [
     "Languages", "Frameworks", "Databases", "DevOps", "CLI Tools",
-    "Cloud", "Editors", "Design", "Productivity", "Networking", "Security", "Other",
+    "Cloud", "Editors", "Design", "Productivity", "Networking", "Security",
+    "AI Chatbot", "Coding Assistant", "Image Generation", "AI Search", "AI Tools",
+    "Other",
 ]
 
 VALID_AUDIENCES = {"engineer", "non-engineer"}

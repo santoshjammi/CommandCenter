@@ -1,0 +1,72 @@
+Name,Category,Description,Audience
+ChatGPT,AI Chatbot,OpenAI conversational AI — prompt patterns and productivity techniques,non-engineer
+ChatGPT API,AI Chatbot,OpenAI GPT-4o API — parameters temperature streaming function calling and structured output,engineer
+Claude,AI Chatbot,Anthropic Claude — prompt patterns for writing research and analysis,non-engineer
+Claude API,AI Chatbot,Anthropic Claude API — system prompts streaming tool use and model selection,engineer
+Gemini,AI Chatbot,Google Gemini — multimodal prompts and productivity techniques,non-engineer
+Gemini API,AI Chatbot,Google Gemini API — model selection multimodal input streaming and grounding,engineer
+Perplexity AI,AI Search,Perplexity AI — search prompts source filtering and research techniques,non-engineer
+Perplexity API,AI Search,Perplexity Sonar API — search modes recency filters and streaming responses,engineer
+Microsoft Copilot,AI Chatbot,Microsoft Copilot — prompt patterns for document summarisation and office tasks,non-engineer
+Meta AI,AI Chatbot,Meta AI assistant — everyday prompt patterns for writing and research,non-engineer
+GitHub Copilot,Coding Assistant,GitHub Copilot — inline completions chat slash commands and CLI usage,engineer
+Cursor,Coding Assistant,Cursor AI editor — chat compose agent mode and codebase-aware prompting,engineer
+Windsurf,Coding Assistant,Windsurf AI editor — Cascade agent flows multi-file edits and command palette,engineer
+Continue.dev,Coding Assistant,Continue open-source AI coding assistant — config model selection and slash commands,engineer
+Aider,Coding Assistant,Aider CLI pair programmer — architect mode ask mode add files and git integration,engineer
+Copilot CLI,Coding Assistant,GitHub Copilot in the terminal — explain suggest and run shell commands,engineer
+Amazon Q Developer,Coding Assistant,Amazon Q Developer — inline completions chat and AWS resource generation,engineer
+Tabnine,Coding Assistant,Tabnine AI code completion — team training privacy mode and IDE integration,engineer
+Codeium,Coding Assistant,Codeium free AI code completion — autocomplete chat and refactoring,engineer
+v0.dev,Coding Assistant,Vercel v0 — prompt-to-UI generation with React and shadcn components,engineer
+Bolt.new,Coding Assistant,StackBlitz Bolt — full-stack app generation from natural language prompts,engineer
+Replit AI,Coding Assistant,Replit AI — Ghostwriter completions explain debug and generate features,engineer
+Midjourney,Image Generation,Midjourney — parameters prompts aspect ratios and style controls,non-engineer
+Midjourney Advanced,Image Generation,Midjourney advanced parameters — stylize chaos seeds permutations and pan/zoom,engineer
+DALL-E 3,Image Generation,OpenAI DALL-E 3 — prompt crafting style modifiers and API generation,non-engineer
+DALL-E API,Image Generation,OpenAI Images API — generate edit variations size quality and style parameters,engineer
+Stable Diffusion,Image Generation,Stable Diffusion — prompts negative prompts samplers cfg scale and steps,engineer
+Stable Diffusion WebUI,Image Generation,Automatic1111 WebUI — txt2img img2img extensions ControlNet and LoRA,engineer
+Adobe Firefly,Image Generation,Adobe Firefly — generative fill text effects and image generation prompts,non-engineer
+Ideogram,Image Generation,Ideogram AI — text-in-image prompts style presets and aspect ratio controls,non-engineer
+Flux,Image Generation,Black Forest Labs Flux — model variants prompt crafting and API parameters,engineer
+Leonardo AI,Image Generation,Leonardo AI — image generation model selection canvas and motion features,non-engineer
+Kling AI,Image Generation,Kling video generation — text-to-video image-to-video and motion parameters,non-engineer
+Runway ML,Image Generation,Runway Gen-3 — video generation editing tools and creative prompting,non-engineer
+Suno AI,AI Tools,Suno AI music generation — prompt crafting genre style and lyrics techniques,non-engineer
+Udio,AI Tools,Udio AI music generation — prompt patterns genre mixing and audio settings,non-engineer
+ElevenLabs,AI Tools,ElevenLabs text-to-speech — voice selection stability similarity and API usage,non-engineer
+ElevenLabs API,AI Tools,ElevenLabs API — voice synthesis streaming cloning and model parameters,engineer
+Whisper,AI Tools,OpenAI Whisper speech-to-text — CLI usage model selection language and timestamps,engineer
+Otter.ai,AI Tools,Otter.ai meeting transcription — recording highlights summary and export,non-engineer
+Notion AI,AI Chatbot,Notion AI — writing assistance summarisation and database generation prompts,non-engineer
+Grammarly AI,AI Tools,Grammarly AI — tone rewrite clarity and generative assist prompts,non-engineer
+Jasper AI,AI Tools,Jasper AI content platform — templates Brand Voice and campaign generation,non-engineer
+Copy.ai,AI Tools,Copy.ai — marketing copy blog posts and email generation prompts,non-engineer
+Writesonic,AI Tools,Writesonic AI writer — article generation SEO mode and brand voice settings,non-engineer
+Character.ai,AI Chatbot,Character.ai — persona creation conversation techniques and memory tips,non-engineer
+Poe,AI Chatbot,Poe multi-model AI chat — bot creation model switching and prompt templates,non-engineer
+HuggingChat,AI Chatbot,HuggingChat open-source assistant — model selection and web search prompts,non-engineer
+Ollama,AI Tools,Ollama — local LLM serving model pulling chat and API usage,engineer
+LM Studio,AI Tools,LM Studio — local model management server mode and inference parameters,engineer
+Jan.ai,AI Tools,Jan.ai — local AI assistant model install server and extension usage,engineer
+LangChain,AI Tools,LangChain — chains agents memory tools and LCEL pipeline patterns,engineer
+LlamaIndex,AI Tools,LlamaIndex — document indexing retrieval augmented generation and query engines,engineer
+OpenAI Agents SDK,AI Tools,OpenAI Agents SDK — agents tools handoffs and tracing patterns,engineer
+Vercel AI SDK,AI Tools,Vercel AI SDK — streamText generateText useChat and tool calling in Next.js,engineer
+Semantic Kernel,AI Tools,Microsoft Semantic Kernel — plugins planners memory and function calling patterns,engineer
+Haystack,AI Tools,Haystack AI framework — pipelines components RAG and evaluation,engineer
+CrewAI,AI Tools,CrewAI multi-agent framework — crews agents tasks tools and process flows,engineer
+AutoGen,AI Tools,Microsoft AutoGen — multi-agent conversations code execution and tool use,engineer
+DSPy,AI Tools,Stanford DSPy — modules signatures optimizers and compiled prompt programs,engineer
+Instructor,AI Tools,Instructor Python library — structured output validation retry and streaming with OpenAI,engineer
+Anthropic Claude Code,Coding Assistant,Claude Code CLI — slash commands file operations git integration and CLAUDE.md config,engineer
+OpenAI Codex,Coding Assistant,OpenAI Codex CLI — natural language shell commands explain patch and diff modes,engineer
+Sourcegraph Cody,Coding Assistant,Sourcegraph Cody — codebase chat commands autocomplete and repository search,engineer
+Pieces for Developers,Coding Assistant,Pieces AI developer tool — snippet capture context enrichment and Copilot chat,engineer
+AWS Bedrock,AI Tools,Amazon Bedrock — model invocation streaming agents knowledge bases and guardrails,engineer
+Azure OpenAI,AI Tools,Azure OpenAI Service — deployment management API versions DALL-E and content filters,engineer
+Google Vertex AI,AI Tools,Google Vertex AI — Gemini API model tuning evaluation and agent builder,engineer
+Together AI,AI Tools,Together AI inference API — model selection streaming fine-tuning and embeddings,engineer
+Groq,AI Tools,Groq LPU inference API — ultra-fast model serving streaming and tool use,engineer
+Replicate,AI Tools,Replicate — model deployment prediction streaming and webhook integration,engineer

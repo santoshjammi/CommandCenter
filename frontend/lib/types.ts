@@ -39,6 +39,11 @@ export const CATEGORIES = [
   "Productivity",
   "Networking",
   "Security",
+  "AI Chatbot",
+  "Coding Assistant",
+  "Image Generation",
+  "AI Search",
+  "AI Tools",
   "Other",
 ] as const;
 
