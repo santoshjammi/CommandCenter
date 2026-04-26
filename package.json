@@ -8,7 +8,7 @@
   },
   "scripts": {
     "install": "cd frontend && npm install",
-    "build": "cd frontend && rm -rf .next/cache && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public",
+    "build": "cd frontend && rm -rf .next/cache && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public/. .next/standalone/public/",
     "start": "node server.js"
   }
 }
