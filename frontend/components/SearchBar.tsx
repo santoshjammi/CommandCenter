@@ -32,35 +32,36 @@ export default function SearchBar() {
   const [results, setResults] = useState<SearchEntry[]>([]);
   const [index, setIndex] = useState<Fuse<SearchEntry> | null>(null);
   const [selected, setSelected] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const [loadError, setLoadError] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const indexLoaded = useRef(false);
 
-  // Eagerly load search index after page is idle — so ⌘K opens without a network wait
-  useEffect(() => {
-    const load = () => {
-      fetch("/search-index.json")
-        .then((r) => r.json())
-        .then((data: SearchEntry[]) => {
-          const fuse = new Fuse(data, {
-            keys: ["title", "text", "command", "description", "scenario", "tags"],
-            threshold: 0.3,
-            minMatchCharLength: 2,
-            includeScore: true,
-          });
-          setIndex(fuse);
-        })
-        .catch(() => {});
-    };
-
-    let handle: ReturnType<typeof setTimeout> | number;
-    if ("requestIdleCallback" in window) {
-      handle = window.requestIdleCallback(load);
-      return () => window.cancelIdleCallback(handle as number);
-    } else {
-      handle = setTimeout(load, 300);
-      return () => clearTimeout(handle as ReturnType<typeof setTimeout>);
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  const loadIndex = useCallback(() => {
+    if (indexLoaded.current || loading) return;
+    setLoading(true);
+    setLoadError(false);
+    fetch("/search-index.json")
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then((data: SearchEntry[]) => {
+        const fuse = new Fuse(data, {
+          keys: ["title", "text", "command", "description", "scenario", "tags"],
+          threshold: 0.3,
+          minMatchCharLength: 2,
+          includeScore: true,
+        });
+        setIndex(fuse);
+        indexLoaded.current = true;
+        setLoading(false);
+      })
+      .catch(() => {
+        setLoading(false);
+        setLoadError(true);
+      });
+  }, [loading]);
 
   // Run search on query change
   useEffect(() => {
@@ -99,15 +100,16 @@ export default function SearchBar() {
     return () => window.removeEventListener("keydown", handler);
   }, []);
 
-  // Focus input when opened
+  // Focus input when opened; trigger index load
   useEffect(() => {
     if (open) {
+      loadIndex();
       setTimeout(() => inputRef.current?.focus(), 50);
     } else {
       setQuery("");
       setResults([]);
     }
-  }, [open]);
+  }, [open, loadIndex]);
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
@@ -131,6 +133,8 @@ export default function SearchBar() {
       {/* Trigger button — secondary pill per design.md */}
       <button
         onClick={() => setOpen(true)}
+        onMouseEnter={loadIndex}
+        onFocus={loadIndex}
         className="btn-secondary items-center gap-2 text-sm hidden sm:inline-flex"
         aria-label="Search"
       >
@@ -148,6 +152,8 @@ export default function SearchBar() {
       {/* Mobile icon-only trigger */}
       <button
         onClick={() => setOpen(true)}
+        onMouseEnter={loadIndex}
+        onFocus={loadIndex}
         className="sm:hidden nav-hover rounded-lg p-2 transition-all"
         style={{ color: "var(--muted-gray)" }}
         aria-label="Search"
@@ -241,7 +247,19 @@ export default function SearchBar() {
               <p className="px-4 py-6 text-center text-sm" style={{ color: "var(--muted-gray)" }}>No results for "{query}"</p>
             )}
 
-            {!query && (
+            {!query && loading && (
+              <p className="px-4 py-4 text-xs" style={{ color: "var(--muted-gray)" }}>
+                Loading search index…
+              </p>
+            )}
+
+            {!query && loadError && (
+              <p className="px-4 py-4 text-xs" style={{ color: "var(--muted-gray)" }}>
+                Search unavailable — failed to load index.
+              </p>
+            )}
+
+            {!query && !loading && !loadError && (
               <p className="px-4 py-4 text-xs" style={{ color: "var(--muted-gray)" }}>
                 Type to search across all cheat sheets and snippets
               </p>
