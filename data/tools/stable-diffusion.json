@@ -1,0 +1,199 @@
+{
+  "title": "Stable Diffusion Cheat Sheet",
+  "slug": "stable-diffusion",
+  "description": "A practical guide for engineers using Stable Diffusion for image generation.",
+  "audience": "engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "--prompt \"A futuristic cityscape at sunset\"",
+      "description": "Generates an image based on the given text prompt.",
+      "scenario": "When you need to create concept art for a sci-fi project.",
+      "language": "bash",
+      "tags": [
+        "creativity",
+        "vision",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--steps 50",
+      "description": "Sets the number of diffusion steps for image generation.",
+      "scenario": "When you want a higher quality image with more detail.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "quality"
+      ],
+      "is_curated": true,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--cfg_scale 7.5",
+      "description": "Adjusts the classifier-free guidance scale for image generation.",
+      "scenario": "When you need to balance creativity and adherence to the prompt.",
+      "language": "bash",
+      "tags": [
+        "creativity",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--seed 42",
+      "description": "Sets a specific seed for reproducible image generation.",
+      "scenario": "When you need consistent outputs for testing purposes.",
+      "language": "bash",
+      "tags": [
+        "determinism",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--output_dir ./images",
+      "description": "Specifies the directory to save generated images.",
+      "scenario": "When organizing output files for a project.",
+      "language": "bash",
+      "tags": [
+        "organization",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--image_size 512x512",
+      "description": "Sets the resolution of the generated image.",
+      "scenario": "When you need a specific image size for a publication.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "quality"
+      ],
+      "is_curated": true,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--model_path ./models/stable-diffusion-v1-4",
+      "description": "Specifies the path to the model to be used for generation.",
+      "scenario": "When using a custom or specific version of the model.",
+      "language": "bash",
+      "tags": [
+        "customization",
+        "versioning"
+      ],
+      "is_curated": false,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--num_images 5",
+      "description": "Generates a specified number of images from a single prompt.",
+      "scenario": "When you need multiple variations of an image concept.",
+      "language": "bash",
+      "tags": [
+        "creativity",
+        "batch"
+      ],
+      "is_curated": false,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--use_fp16",
+      "description": "Enables half-precision floating-point for faster generation.",
+      "scenario": "When optimizing for speed and resource usage.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "optimization"
+      ],
+      "is_curated": true,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "\"Imagine a world where AI and humans coexist peacefully.\"",
+      "description": "A creative prompt to inspire peaceful coexistence themed images.",
+      "scenario": "When creating artwork for a campaign promoting AI ethics.",
+      "language": "text",
+      "tags": [
+        "creativity",
+        "ethics"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--eta 0.0",
+      "description": "Sets the noise schedule parameter for the diffusion process.",
+      "scenario": "When fine-tuning the noise schedule for specific artistic effects.",
+      "language": "bash",
+      "tags": [
+        "customization",
+        "artistic"
+      ],
+      "is_curated": false,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--stream",
+      "description": "Streams the image generation process in real-time.",
+      "scenario": "When demonstrating the generation process in a live setting.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "demonstration"
+      ],
+      "is_curated": true,
+      "man_page": "https://stability.ai/docs/stable-diffusion"
+    },
+    {
+      "command": "--negative_prompt \"blurry, low quality, distorted\"",
+      "description": "Defines tokens to explicitly exclude from the generation process to improve image fidelity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--sampler_name 'Euler a'",
+      "description": "Specifies the mathematical sampling algorithm used to denoise the latent space (e.g., Euler a, DPM++ 2M Karras).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--vae_path ./vae/vae-ft-mse-840000-ema-pruned.safetensors",
+      "description": "Loads a specific Variational Autoencoder to correct color banding and improve fine detail reconstruction.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--xformers",
+      "description": "Enables memory-efficient attention mechanisms to significantly reduce VRAM usage and increase generation speed.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--clip_skip 2",
+      "description": "Skips a specific number of layers in the CLIP text encoder to allow for more creative/abstract interpretations of prompts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

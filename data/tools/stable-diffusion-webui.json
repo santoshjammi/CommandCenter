@@ -1,0 +1,223 @@
+{
+  "title": "Stable Diffusion WebUI Cheat Sheet",
+  "slug": "stable-diffusion-webui",
+  "description": "A practical guide for engineers using Stable Diffusion WebUI for image generation.",
+  "audience": "engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Enables streaming mode with the gpt-4o model for real-time outputs.",
+      "scenario": "When you need real-time image generation updates in a web application.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "speed",
+        "vision"
+      ],
+      "is_curated": true,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/cli.html#streaming"
+    },
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the randomness of the output, lower values make it more deterministic.",
+      "scenario": "When generating images that need to follow a strict style guide.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/api.html#temperature"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages the model to generate more detailed and accurate images.",
+      "scenario": "When creating complex scenes that require multiple elements to be coherent.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "creativity",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/prompt.html#step-by-step"
+    },
+    {
+      "command": "--max-resolution 1024x1024",
+      "description": "Sets the maximum resolution for generated images.",
+      "scenario": "When high-resolution outputs are required for print media.",
+      "language": "bash",
+      "tags": [
+        "vision",
+        "formatting",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/cli.html#resolution"
+    },
+    {
+      "command": "\"Use a vibrant color palette.\"",
+      "description": "Instructs the model to generate images with vivid colors.",
+      "scenario": "When designing eye-catching graphics for marketing materials.",
+      "language": "text",
+      "tags": [
+        "creativity",
+        "vision",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/prompt.html#color-palette"
+    },
+    {
+      "command": "--batch-size 5",
+      "description": "Generates multiple images in a single batch to save time.",
+      "scenario": "When needing to quickly prototype several design options.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "productivity",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/cli.html#batch-size"
+    },
+    {
+      "command": "\"Focus on symmetry and balance.\"",
+      "description": "Guides the model to create aesthetically balanced images.",
+      "scenario": "When producing images for architectural visualizations.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "creativity",
+        "vision"
+      ],
+      "is_curated": false,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/prompt.html#symmetry"
+    },
+    {
+      "command": "--use-cpu",
+      "description": "Forces the use of CPU instead of GPU for image generation.",
+      "scenario": "When running on hardware without a compatible GPU.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "speed",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/cli.html#cpu"
+    },
+    {
+      "command": "\"Generate a futuristic cityscape.\"",
+      "description": "Prompts the model to create images of futuristic urban environments.",
+      "scenario": "When designing concept art for sci-fi projects.",
+      "language": "text",
+      "tags": [
+        "creativity",
+        "vision",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/prompt.html#futuristic"
+    },
+    {
+      "command": "--seed 42",
+      "description": "Sets a fixed seed for reproducible image generation results.",
+      "scenario": "When you need to ensure consistent outputs across different runs.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/cli.html#seed"
+    },
+    {
+      "command": "\"Incorporate elements of nature.\"",
+      "description": "Instructs the model to include natural elements in the image.",
+      "scenario": "When creating designs that need to blend with natural environments.",
+      "language": "text",
+      "tags": [
+        "creativity",
+        "vision",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/prompt.html#nature"
+    },
+    {
+      "command": "--optimize-memory",
+      "description": "Optimizes memory usage during image generation.",
+      "scenario": "When working on systems with limited RAM resources.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/cli.html#optimize-memory"
+    },
+    {
+      "command": "\"Create a minimalist design.\"",
+      "description": "Prompts the model to generate simple and clean images.",
+      "scenario": "When designing logos or UI elements that require minimalism.",
+      "language": "text",
+      "tags": [
+        "creativity",
+        "formatting",
+        "vision"
+      ],
+      "is_curated": true,
+      "man_page": "https://stablediffusionwebui.readthedocs.io/en/latest/prompt.html#minimalist"
+    },
+    {
+      "command": "--api",
+      "description": "Enables the HTTP API server, allowing external scripts and applications to interact with the WebUI via JSON requests.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--xformers",
+      "description": "Enables memory-efficient attention mechanisms to significantly increase generation speed and reduce VRAM usage.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(subject:weight)",
+      "description": "Prompt engineering syntax to adjust the importance of a specific token (e.g., '(cyberpunk:1.2)' increases emphasis).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--listen",
+      "description": "Allows the WebUI to be accessible from other devices on the local network by binding to all network interfaces.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--no-half-vae",
+      "description": "Forces the use of FP32 for the VAE to prevent 'black image' errors caused by precision loss in half-precision mode.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

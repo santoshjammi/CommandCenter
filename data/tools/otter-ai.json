@@ -1,0 +1,255 @@
+{
+  "title": "Otter.ai Cheat Sheet",
+  "slug": "otter-ai",
+  "description": "Quick reference for using Otter.ai for transcriptions and note-taking.",
+  "audience": "non-engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "Transcribe this audio file",
+      "description": "Converts an audio file into text",
+      "scenario": "When you need a written version of a meeting or lecture",
+      "language": "text",
+      "tags": [
+        "transcribe",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Summarise this meeting",
+      "description": "Provides a summary of the key points from a meeting transcript",
+      "scenario": "When you need a quick overview of a meeting",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "productivity",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Share this transcript",
+      "description": "Allows you to share a transcript with others",
+      "scenario": "When you need to collaborate or share meeting notes",
+      "language": "text",
+      "tags": [
+        "collaborate",
+        "share",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Highlight key points",
+      "description": "Highlights important sections of a transcript",
+      "scenario": "When you want to emphasize key information in a transcript",
+      "language": "text",
+      "tags": [
+        "highlight",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Export transcript to PDF",
+      "description": "Exports the transcript as a PDF file",
+      "scenario": "When you need a hard copy or offline version of a transcript",
+      "language": "text",
+      "tags": [
+        "export",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Search within transcript",
+      "description": "Finds specific words or phrases in a transcript",
+      "scenario": "When looking for specific details in a long transcript",
+      "language": "text",
+      "tags": [
+        "search",
+        "research",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Add images to transcript",
+      "description": "Inserts images into a transcript for better context",
+      "scenario": "When visual aids are needed alongside text",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Edit transcript text",
+      "description": "Allows editing of the transcribed text for accuracy",
+      "scenario": "When correcting errors in the transcription",
+      "language": "text",
+      "tags": [
+        "edit",
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Tag speakers in transcript",
+      "description": "Identifies and tags different speakers in a transcript",
+      "scenario": "When distinguishing between multiple speakers in a meeting",
+      "language": "text",
+      "tags": [
+        "tag",
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Integrate with Zoom",
+      "description": "Connects Otter.ai with Zoom for live transcription",
+      "scenario": "When you want real-time transcription during Zoom meetings",
+      "language": "text",
+      "tags": [
+        "integration",
+        "productivity",
+        "transcribe"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Organize transcripts into folders",
+      "description": "Sorts transcripts into folders for better organization",
+      "scenario": "When managing multiple transcripts and need organization",
+      "language": "text",
+      "tags": [
+        "organize",
+        "productivity",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Delete a transcript",
+      "description": "Removes a transcript from your account",
+      "scenario": "When you no longer need a transcript and want to free up space",
+      "language": "text",
+      "tags": [
+        "delete",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.otter.ai/hc/en-us/articles/360035128853-Transcribing-audio-files"
+    },
+    {
+      "command": "Generate action items and follow-up tasks",
+      "description": "Ask Otter to extract a specific checklist of tasks, owners, and deadlines from the conversation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a Q&A summary",
+      "description": "Use the Otter AI Chat to ask specific questions like 'What was the budget discussed?' or 'What was the consensus on the timeline?'",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Sync Otter with Google Calendar",
+      "description": "Automatically schedule Otter to join your upcoming calendar events without manual intervention.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a meeting outline",
+      "description": "Request a structured outline with headings and sub-points to understand the meeting flow at a glance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Search for specific keywords across all transcripts",
+      "description": "Use the global search bar to find every instance a specific term or project name was mentioned across your entire library.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ask Otter questions about the meeting content",
+      "description": "Use the Otter AI Chat to ask specific questions like 'What was the budget mentioned?' or 'Did anyone disagree with the proposal?' to extract instant answers without reading the full text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a custom study guide or quiz",
+      "description": "Paste the transcript into the AI chat and command: 'Based on this transcript, create a 5-question multiple-choice quiz to test my knowledge of the topics discussed.'",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Convert transcript to a LinkedIn post or email draft",
+      "description": "Use the prompt: 'Transform the key insights from this meeting into a professional LinkedIn post' or 'Draft a follow-up email to the team based on these notes.'",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a 'Sentiment Analysis' summary",
+      "description": "Ask the AI: 'Analyze the tone of this meeting. Was the feedback generally positive, neutral, or critical?' to gauge team morale or client satisfaction.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract a glossary of technical terms",
+      "description": "Use the prompt: 'Identify all technical jargon or acronyms used in this transcript and provide a brief definition for each' to help onboard new team members.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

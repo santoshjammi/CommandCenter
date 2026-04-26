@@ -1,0 +1,232 @@
+{
+  "title": "Ideogram Cheat Sheet",
+  "slug": "ideogram",
+  "description": "Quick guide for generating and customizing images with Ideogram.",
+  "audience": "non-engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "Create an image of a sunset",
+      "description": "Generates an image depicting a sunset scene.",
+      "scenario": "When you need a visual of a sunset for a presentation or project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a cartoon character",
+      "description": "Creates an image of a cartoon character based on your description.",
+      "scenario": "When you need a unique cartoon character for a story or animation.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Add text to image",
+      "description": "Overlays custom text onto an existing image.",
+      "scenario": "When you want to add captions or labels to an image.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Resize image to 1080x1080",
+      "description": "Changes the dimensions of an image to 1080x1080 pixels.",
+      "scenario": "When you need to adjust an image size for social media posts.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Enhance image quality",
+      "description": "Improves the quality and resolution of an image.",
+      "scenario": "When an image appears blurry or pixelated.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Convert image to black and white",
+      "description": "Transforms a color image into black and white.",
+      "scenario": "When you want a classic or vintage look for an image.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a collage from images",
+      "description": "Combines multiple images into a single collage.",
+      "scenario": "When you want to showcase a collection of images together.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a logo design",
+      "description": "Creates a custom logo based on your input and style preferences.",
+      "scenario": "When starting a new brand or project and need a logo.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Apply vintage filter to image",
+      "description": "Adds a vintage effect to an image.",
+      "scenario": "When you want to give an image a retro look.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create an infographic",
+      "description": "Generates an infographic based on provided data and style.",
+      "scenario": "When you need to visually present data or statistics.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Remove background from image",
+      "description": "Eliminates the background from an image, leaving only the main subject.",
+      "scenario": "When you need a transparent background for product images.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a meme",
+      "description": "Creates a meme with your chosen image and text.",
+      "scenario": "When you want to create a humorous or viral image for social media.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Add watermark to image",
+      "description": "Places a watermark on an image to protect it.",
+      "scenario": "When you want to prevent unauthorized use of your images.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a digital painting",
+      "description": "Transforms a photo into a digital painting style image.",
+      "scenario": "When you want an artistic version of a photo.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'aspect ratio 16:9' for cinematic wide shots",
+      "description": "Specify a cinematic widescreen format by adding aspect ratio instructions to your prompt.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Apply 'Typography style' to specific words",
+      "description": "Direct the AI to use specific fonts like 'neon signage', '3D bubble letters', or 'elegant calligraphy' for your text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'Magic Prompt' for prompt expansion",
+      "description": "Toggle the Magic Prompt feature to automatically turn simple ideas into highly detailed, descriptive instructions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate 'Isometric 3D icons'",
+      "description": "Create clean, professional 3D assets for websites or presentations using the 'isometric' keyword.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Iterate with 'Remix' mode",
+      "description": "Use the Remix button to keep the composition of an image while changing only the style or color palette.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -4,8 +4,8 @@ Phase 1: Async Cheat Sheet Generator
 Reads data/clean_tools.json, generates a structured cheat sheet for every tool
 that does not yet have a data/tools/{slug}.json file, and saves the output.
 
-Primary AI provider : OpenAI  (GPT-4o, structured output via Pydantic)
-Fallback provider   : OpenRouter (openai/gpt-4o, JSON mode + manual parse)
+Primary AI provider : OpenRouter (google/gemma-4-26b-a4b-it, JSON mode)
+Fallback provider   : OpenAI (GPT-4o, structured output via Pydantic)
 
 Run:
     python3 generator.py              # process all pending tools
@@ -32,16 +32,16 @@ from pydantic import BaseModel, Field
 # ---------------------------------------------------------------------------
 load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env")
 
-OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
-OPENAI_MODEL = "gpt-4o"
-OPENROUTER_MODEL = "openai/gpt-4o"          # any model on OpenRouter
+OPENROUTER_MODEL = "google/gemma-4-26b-a4b-it"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+OPENAI_MODEL = "gpt-4o"                     # fallback only
 
 CONCURRENCY = 5                             # simultaneous requests
-MAX_RETRIES_OPENAI = 3
-MAX_RETRIES_OPENROUTER = 2
+MAX_RETRIES_OPENROUTER = 3
+MAX_RETRIES_OPENAI = 2
 BASE_RETRY_DELAY = 2.0                      # seconds; doubles each attempt
 
 CLEAN_FILE = Path(__file__).parent / "data" / "clean_tools.json"
@@ -282,12 +282,12 @@ async def generate_tool(tool: dict, semaphore: asyncio.Semaphore) -> dict:
 
     async with semaphore:
         print(f"  🔨 Generating: {tool['name']} ({slug})")
-        provider = "openai"
+        provider = "openrouter"
         try:
-            sheet = await generate_with_openai(tool)
-        except Exception as openai_exc:
-            print(f"    ❌ OpenAI failed for {slug}: {openai_exc.__class__.__name__} — trying OpenRouter...")
-            provider = "openrouter"
+            sheet = await generate_with_openrouter(tool)
+        except Exception as or_exc:
+            print(f"    ❌ OpenRouter failed for {slug}: {or_exc.__class__.__name__} — trying OpenAI...")
+            provider = "openai"
             try:
                 sheet = await generate_with_openrouter(tool)
             except Exception as or_exc:

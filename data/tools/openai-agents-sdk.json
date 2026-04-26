@@ -1,0 +1,243 @@
+{
+  "title": "OpenAI Agents SDK Cheat Sheet",
+  "slug": "openai-agents-sdk",
+  "description": "Essential commands and configurations for using the OpenAI Agents SDK effectively.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the model's output.",
+      "scenario": "When generating creative content where variability is desired.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-temperature"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the number of tokens in the generated response.",
+      "scenario": "When you need concise answers to save on token usage.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-max_tokens"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Uses the GPT-4o model with streaming enabled for real-time output.",
+      "scenario": "When building a live chat application that requires immediate responses.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/models/gpt-4"
+    },
+    {
+      "command": "n=3",
+      "description": "Generates multiple response variations for each input.",
+      "scenario": "When testing different outputs to select the best one.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-n"
+    },
+    {
+      "command": "stop=['\\n']",
+      "description": "Defines a stopping sequence to end the generation.",
+      "scenario": "When you want to ensure the output stops at a specific point.",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-stop"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to reason through problems methodically.",
+      "scenario": "When solving complex problems that require logical reasoning.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--logprobs 5",
+      "description": "Returns the log probabilities of top tokens.",
+      "scenario": "When analyzing the model's confidence in its predictions.",
+      "language": "bash",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-logprobs"
+    },
+    {
+      "command": "presence_penalty=0.6",
+      "description": "Discourages the model from repeating similar phrases.",
+      "scenario": "When you want diverse and varied output.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-presence_penalty"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces the likelihood of repeating the same lines verbatim.",
+      "scenario": "When generating long-form content to avoid redundancy.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-frequency_penalty"
+    },
+    {
+      "command": "Use concise language and avoid jargon.",
+      "description": "Instructs the model to produce clear and simple output.",
+      "scenario": "When generating content for a general audience.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for the API request to avoid long waits.",
+      "scenario": "When integrating into systems with strict latency requirements.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-timeout"
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Specifies the API key for authentication with OpenAI services.",
+      "scenario": "When setting up the SDK for the first time.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "integration"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/authentication"
+    },
+    {
+      "command": "--seed 42",
+      "description": "Ensures deterministic outputs by setting a fixed seed for reproducibility during testing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Nucleus sampling: limits the model's consideration to the top tokens whose cumulative probability reaches P, reducing tail noise.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_fingerprint check",
+      "description": "Monitor the system_fingerprint in responses to detect backend model updates that might affect output consistency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Few-shot pattern: [Input] -> [Thought] -> [Output]",
+      "description": "Structure prompts with explicit reasoning steps in examples to improve complex logic handling.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--max-retries 3",
+      "description": "Configure automatic retry logic for handling rate limits (429) or transient server errors (5xx).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "tool_choice='required'",
+      "description": "Forces the agent to call a tool instead of responding with text, useful for strict function-calling workflows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "logit_bias={'<token_id>': -100}",
+      "description": "Programmatically prevents the model from generating specific words or tokens by applying a negative bias to their logit values.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Chain-of-Verification (CoVe) Pattern",
+      "description": "Prompt the agent to generate a baseline response, then generate verification questions to check its own facts, and finally produce a revised response.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--inspect-tools",
+      "description": "A debugging technique to dump the exact JSON schema being sent to the model to ensure tool definitions match the expected SDK structure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Context Caching (Prompt Prefilling)",
+      "description": "Optimizes performance and cost by reusing large system prompts or static datasets across multiple agent turns to reduce input token processing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

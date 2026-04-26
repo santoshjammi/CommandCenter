@@ -1,0 +1,281 @@
+{
+  "title": "Copy.ai Cheat Sheet",
+  "slug": "copy-ai",
+  "description": "Essential commands and tips for using Copy.ai effectively.",
+  "audience": "non-engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "Write a blog post about [topic]",
+      "description": "Generates a full blog post on a specified topic.",
+      "scenario": "When you need to create content for your blog quickly.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.copy.ai/blog-post"
+    },
+    {
+      "command": "Create a social media post for [platform] about [topic]",
+      "description": "Crafts a social media post tailored to a specific platform.",
+      "scenario": "When you need engaging content for social media.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "social media",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.copy.ai/social-media"
+    },
+    {
+      "command": "Generate a product description for [product]",
+      "description": "Creates a compelling product description.",
+      "scenario": "When launching a new product online.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "ecommerce",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.copy.ai/product-description"
+    },
+    {
+      "command": "Write an email to [recipient] about [subject]",
+      "description": "Drafts a professional email based on the given subject.",
+      "scenario": "When you need to send a formal email quickly.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "email",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.copy.ai/email"
+    },
+    {
+      "command": "Summarize this article",
+      "description": "Provides a concise summary of a given article.",
+      "scenario": "When you need to understand the main points quickly.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "reading",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.copy.ai/summarize"
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for better understanding.",
+      "scenario": "When a document is too technical or complex.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.copy.ai/rewrite"
+    },
+    {
+      "command": "Generate a list of blog ideas about [topic]",
+      "description": "Provides a list of potential blog post ideas.",
+      "scenario": "When brainstorming content topics.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.copy.ai/blog-ideas"
+    },
+    {
+      "command": "Create a catchy headline for [content]",
+      "description": "Generates an engaging headline for your content.",
+      "scenario": "When you need an attention-grabbing title.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.copy.ai/headline"
+    },
+    {
+      "command": "Translate this text to [language]",
+      "description": "Translates text into the specified language.",
+      "scenario": "When you need to communicate in a different language.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "translate",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.copy.ai/translate"
+    },
+    {
+      "command": "Create a persuasive ad copy for [product]",
+      "description": "Crafts an ad copy designed to persuade customers.",
+      "scenario": "When creating advertisements for products.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "advertising",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.copy.ai/ad-copy"
+    },
+    {
+      "command": "Generate a list of questions for [topic]",
+      "description": "Creates a list of questions related to a topic.",
+      "scenario": "When preparing for interviews or discussions.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.copy.ai/questions"
+    },
+    {
+      "command": "Write a personal bio",
+      "description": "Generates a personal biography for social profiles.",
+      "scenario": "When updating your LinkedIn or social media bio.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "social media",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.copy.ai/personal-bio"
+    },
+    {
+      "command": "Create a thank you note for [occasion]",
+      "description": "Drafts a thank you note for a specific occasion.",
+      "scenario": "When you need to express gratitude formally.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "email",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.copy.ai/thank-you-note"
+    },
+    {
+      "command": "Generate a list of pros and cons for [decision]",
+      "description": "Lists advantages and disadvantages of a decision.",
+      "scenario": "When weighing options for a decision.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "study",
+        "decision-making"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.copy.ai/pros-cons"
+    },
+    {
+      "command": "Act as a [persona/expert] and critique my [content/strategy]",
+      "description": "Uses role-prompting to get professional feedback on your writing or business ideas instead of just generating new text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this [text/article] into a [format, e.g., Twitter thread, FAQ, or bulleted summary]",
+      "description": "Repurposes existing content into different formats to save time on multi-channel marketing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Analyze the tone of this text and rewrite it to be more [desired tone, e.g., professional, witty, or empathetic]",
+      "description": "Adjusts the emotional resonance of your writing without changing the core message.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract the key action items and deadlines from these meeting notes",
+      "description": "Turns messy, unstructured notes into a clear, organized task list for productivity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a 7-day content calendar for [topic/niche]",
+      "description": "Moves from single posts to strategic planning by generating a structured schedule of ideas.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a comparison table between [Product A] and [Product B] focusing on [specific features/price/use case]",
+      "description": "Generates a structured side-by-side comparison to help users make decisions or create comparison content.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Turn this [raw transcript/notes] into a structured [format, e.g., SOP, step-by-step guide, or checklist]",
+      "description": "Transforms messy, unstructured information into organized, actionable documentation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Brainstorm 10 'counter-intuitive' or 'unpopular opinion' angles for [topic]",
+      "description": "Helps users break through creative blocks by generating unique, high-engagement perspectives that go against the grain.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Draft a response to this [customer review/comment] that addresses [specific concern] while maintaining a [desired tone]",
+      "description": "A workflow for community management and customer service to handle feedback efficiently.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this text using the [specific framework, e.g., PAS - Problem, Agitation, Solution or AIDA - Attention, Interest, Desire, Action]",
+      "description": "Uses proven marketing copywriting frameworks to restructure existing content for higher conversion.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

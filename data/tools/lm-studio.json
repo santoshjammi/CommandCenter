@@ -1,0 +1,245 @@
+{
+  "title": "LM Studio Cheat Sheet",
+  "slug": "lm-studio",
+  "description": "Essential commands and techniques for using LM Studio effectively.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the randomness of the model's output.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://lmstudio.docs/api#temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Specifies the model and enables streaming responses.",
+      "scenario": "When you need real-time feedback during a live demo.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://lmstudio.docs/cli#model"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages the model to reason through problems methodically.",
+      "scenario": "When solving complex engineering problems that require logical steps.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://lmstudio.docs/prompt#reasoning"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to control verbosity and cost.",
+      "scenario": "When generating concise summaries or answers.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://lmstudio.docs/api#max_tokens"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables detailed logging for debugging purposes.",
+      "scenario": "When troubleshooting issues with API requests or responses.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://lmstudio.docs/cli#verbose"
+    },
+    {
+      "command": "\"Use bullet points for clarity.\"",
+      "description": "Instructs the model to format the output in bullet points.",
+      "scenario": "When generating lists or structured information.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "clarity"
+      ],
+      "is_curated": false,
+      "man_page": "https://lmstudio.docs/prompt#formatting"
+    },
+    {
+      "command": "stop_sequences=[\"\\n\"]",
+      "description": "Defines custom stop sequences to end the model's output.",
+      "scenario": "When you need to terminate output after specific markers.",
+      "language": "json",
+      "tags": [
+        "control",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://lmstudio.docs/api#stop_sequences"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for requests to prevent hanging.",
+      "scenario": "When integrating with systems that require quick responses.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "reliability"
+      ],
+      "is_curated": false,
+      "man_page": "https://lmstudio.docs/cli#timeout"
+    },
+    {
+      "command": "\"Explain like I'm five.\"",
+      "description": "Prompts the model to simplify explanations.",
+      "scenario": "When explaining complex technical concepts to non-experts.",
+      "language": "text",
+      "tags": [
+        "clarity",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://lmstudio.docs/prompt#simplification"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces repetition in the model's output.",
+      "scenario": "When generating creative content like stories or poems.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://lmstudio.docs/api#frequency_penalty"
+    },
+    {
+      "command": "--dry-run",
+      "description": "Simulates the command without executing it.",
+      "scenario": "When testing configurations or scripts safely.",
+      "language": "bash",
+      "tags": [
+        "testing",
+        "safety"
+      ],
+      "is_curated": false,
+      "man_page": "https://lmstudio.docs/cli#dry-run"
+    },
+    {
+      "command": "\"Provide a detailed technical breakdown.\"",
+      "description": "Requests the model to give an in-depth analysis.",
+      "scenario": "When performing technical reviews or deep dives.",
+      "language": "text",
+      "tags": [
+        "detail",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://lmstudio.docs/prompt#technical"
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Nucleus sampling parameter to control diversity by selecting tokens from the smallest set whose cumulative probability exceeds the threshold.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_prompt=\"You are a Senior DevOps Engineer.\"",
+      "description": "Defining a persistent system role to anchor the model's persona and behavioral constraints across a session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--gpu_layers=35",
+      "description": "Offloads a specific number of layers to the GPU to accelerate inference when VRAM allows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "presence_penalty=0.6",
+      "description": "Penalizes new tokens based on whether they have appeared in the text so far, encouraging the model to discuss new topics.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "context_length=4096",
+      "description": "Explicitly sets the KV cache size to manage memory usage and prevent out-of-memory errors during long conversations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "seed=42",
+      "description": "Sets a specific seed to ensure deterministic outputs for testing and debugging model consistency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--keep-alive 3600",
+      "description": "Specifies the duration (in seconds) to keep the model loaded in memory after the last request to reduce cold-start latency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "repeat_penalty=1.1",
+      "description": "Adjusts the penalty applied to tokens that have already appeared, preventing the model from entering repetitive loops.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Logit Bias: {'<token_id>': -100}",
+      "description": "Used to manually decrease or increase the probability of specific tokens appearing in the output (e.g., banning specific words).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Few-shot prompting pattern",
+      "description": "Providing 2-3 examples of input/output pairs within the prompt to guide the model's response format and style.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "title": "Ollama AI Tool Cheat Sheet",
+  "slug": "ollama",
+  "description": "A practical guide for engineers using the Ollama AI tool, covering API and CLI usage.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative writing or brainstorming ideas.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://ollama.ai/docs/api-reference#temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Selects the GPT-4o model and enables streaming output.",
+      "scenario": "When you need real-time responses for a chat application.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://ollama.ai/docs/cli#model-selection"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in the response.",
+      "scenario": "When you need concise answers to save on API costs.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://ollama.ai/docs/api-reference#max-tokens"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables detailed logging for debugging purposes.",
+      "scenario": "When troubleshooting API requests in development.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://ollama.ai/docs/cli#verbose"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to follow a logical reasoning process.",
+      "scenario": "When solving complex engineering problems.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to 30 seconds.",
+      "scenario": "When integrating with systems that require fast responses.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "networking"
+      ],
+      "is_curated": false,
+      "man_page": "https://ollama.ai/docs/cli#timeout"
+    },
+    {
+      "command": "system_prompt='You are a helpful assistant.'",
+      "description": "Sets the initial system prompt to guide the AI's behavior.",
+      "scenario": "When building a customer support chatbot.",
+      "language": "json",
+      "tags": [
+        "context",
+        "AI Chatbot"
+      ],
+      "is_curated": true,
+      "man_page": "https://ollama.ai/docs/api-reference#system-prompt"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries the request up to 3 times on failure.",
+      "scenario": "When dealing with unstable network conditions.",
+      "language": "bash",
+      "tags": [
+        "networking",
+        "reliability"
+      ],
+      "is_curated": false,
+      "man_page": "https://ollama.ai/docs/cli#retry"
+    },
+    {
+      "command": "Use concise language.",
+      "description": "Instructs the model to keep responses brief and to the point.",
+      "scenario": "When generating summaries or abstracts.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Sets the logging level to debug for detailed output.",
+      "scenario": "When needing in-depth logs for performance analysis.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "performance"
+      ],
+      "is_curated": false,
+      "man_page": "https://ollama.ai/docs/cli#log-level"
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Sets the API key for authentication with the service.",
+      "scenario": "When making authenticated requests to the Ollama API.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "networking"
+      ],
+      "is_curated": true,
+      "man_page": "https://ollama.ai/docs/cli#api-key"
+    },
+    {
+      "command": "context_window=2048",
+      "description": "Defines the maximum context window size for the model.",
+      "scenario": "When handling large input texts for processing.",
+      "language": "json",
+      "tags": [
+        "context",
+        "performance"
+      ],
+      "is_curated": false,
+      "man_page": "https://ollama.ai/docs/api-reference#context-window"
+    },
+    {
+      "command": "--cache true",
+      "description": "Enables caching of responses to improve speed and reduce costs.",
+      "scenario": "When frequently requesting the same data.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://ollama.ai/docs/cli#cache"
+    },
+    {
+      "command": "Provide examples before asking questions.",
+      "description": "Helps the model understand the format and context before answering.",
+      "scenario": "When training the model on new data formats.",
+      "language": "text",
+      "tags": [
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "ollama run <model> --format json",
+      "description": "Forces the model to output valid JSON, essential for structured data extraction and programmatic integration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "num_gpu <value>",
+      "description": "Parameter to specify the number of layers to offload to the GPU, allowing for manual memory management on systems with limited VRAM.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ollama ps",
+      "description": "Displays currently running models in memory and their resource utilization, useful for monitoring local inference overhead.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "repeat_penalty=1.2",
+      "description": "Adjusts the penalty for repeating tokens; higher values prevent the model from getting stuck in repetitive loops during long generations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ollama serve --host 0.0.0.0",
+      "description": "Configures the Ollama server to listen on all network interfaces, enabling remote access from other devices on the local network.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ollama create <name> -f Modelfile",
+      "description": "Create custom model variations by defining a Modelfile with specific parameters, system prompts, and template structures.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "num_ctx <value>",
+      "description": "An API parameter to adjust the size of the context window (e.g., 4096, 8192) to prevent memory overflow or handle longer documents.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ollama rm <model>",
+      "description": "Remove a local model from storage to free up disk space and manage local model library.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_k <value>",
+      "description": "A parameter to limit the model's vocabulary sampling to the top K most likely next tokens, reducing randomness.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ollama pull <model>:latest",
+      "description": "Download or update a specific model version from the Ollama registry to ensure you have the latest weights and metadata.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

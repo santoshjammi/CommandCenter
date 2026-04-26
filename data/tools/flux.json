@@ -1,0 +1,199 @@
+{
+  "title": "Flux Image Generation Cheat Sheet",
+  "slug": "flux",
+  "description": "Essential commands and techniques for using Flux in image generation tasks.",
+  "audience": "engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "flux generate --style 'impressionist' --output 'sunset.png'",
+      "description": "Generates an image with an impressionist style.",
+      "scenario": "When creating artwork for a digital gallery with a specific art style.",
+      "language": "bash",
+      "tags": [
+        "creativity",
+        "style",
+        "image"
+      ],
+      "is_curated": true,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux set-api-key --key YOUR_API_KEY",
+      "description": "Sets the API key for authenticating with the Flux service.",
+      "scenario": "When configuring the CLI tool for first-time use or after a key rotation.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://flux.com/docs/cli#set-api-key"
+    },
+    {
+      "command": "flux generate --resolution '1920x1080'",
+      "description": "Specifies the resolution for the generated image.",
+      "scenario": "When high-resolution images are needed for print or large displays.",
+      "language": "bash",
+      "tags": [
+        "quality",
+        "resolution"
+      ],
+      "is_curated": true,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --prompt 'A futuristic cityscape at night'",
+      "description": "Generates an image based on a text prompt.",
+      "scenario": "When creating concept art based on specific themes or ideas.",
+      "language": "bash",
+      "tags": [
+        "creativity",
+        "prompt"
+      ],
+      "is_curated": true,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --model 'v2.0'",
+      "description": "Selects the model version to use for image generation.",
+      "scenario": "When testing new model capabilities or comparing outputs between versions.",
+      "language": "bash",
+      "tags": [
+        "model",
+        "version"
+      ],
+      "is_curated": false,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --output-format 'jpeg'",
+      "description": "Sets the output format of the generated image.",
+      "scenario": "When specific image formats are required for compatibility or size constraints.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "output"
+      ],
+      "is_curated": false,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --stream",
+      "description": "Streams the image generation process in real-time.",
+      "scenario": "When needing to monitor the progress of image generation for long-running tasks.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "monitoring"
+      ],
+      "is_curated": false,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --seed 42",
+      "description": "Sets a seed for random number generation to ensure reproducibility.",
+      "scenario": "When needing consistent outputs across multiple runs for testing or comparison.",
+      "language": "bash",
+      "tags": [
+        "consistency",
+        "testing"
+      ],
+      "is_curated": true,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --style-transfer 'source.jpg'",
+      "description": "Applies style transfer from a source image to the generated image.",
+      "scenario": "When blending styles from existing images into new creations.",
+      "language": "bash",
+      "tags": [
+        "style",
+        "transfer"
+      ],
+      "is_curated": false,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --batch 10",
+      "description": "Generates a batch of images in one command.",
+      "scenario": "When needing multiple images quickly for a project or experiment.",
+      "language": "bash",
+      "tags": [
+        "batch",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --context 'moodboard.json'",
+      "description": "Uses a context file to influence the image generation process.",
+      "scenario": "When aligning generated images with a specific theme or project guidelines.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "alignment"
+      ],
+      "is_curated": false,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --cost-limit 10",
+      "description": "Sets a cost limit for the image generation process.",
+      "scenario": "When operating under budget constraints for image generation tasks.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "budget"
+      ],
+      "is_curated": false,
+      "man_page": "https://flux.com/docs/cli#generate"
+    },
+    {
+      "command": "flux generate --guidance-scale 7.5 --cfg-scale 3.5",
+      "description": "Fine-tune the balance between prompt adherence and creative freedom by adjusting guidance and CFG scales independently.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "flux generate --negative-prompt 'blur, low quality, distorted' --denoising-strength 0.45",
+      "description": "Perform image-to-image refinements by specifying elements to exclude and controlling the amount of structural change.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "flux generate --sampler 'euler_ancestral' --steps 50",
+      "description": "Optimize generation quality and speed by selecting specific sampling algorithms and defining iteration depth.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "flux debug --trace-latency --log-tokens",
+      "description": "Analyze API response times and token usage to optimize cost and identify bottlenecks in the generation pipeline.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "flux generate --controlnet 'canny' --control-image 'edges.png'",
+      "description": "Use structural conditioning to force the model to follow specific geometric outlines or edge maps from a reference image.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

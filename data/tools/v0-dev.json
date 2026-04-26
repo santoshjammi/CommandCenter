@@ -1,0 +1,249 @@
+{
+  "title": "v0.dev Cheat Sheet",
+  "slug": "v0-dev",
+  "description": "Essential commands and techniques for using v0.dev effectively.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/api-reference#temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Selects the GPT-4o model and enables streaming responses.",
+      "scenario": "When integrating real-time code suggestions into an IDE.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/cli#model"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to provide more logical and verified responses.",
+      "scenario": "When debugging complex algorithms.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/prompt-techniques"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to control verbosity and cost.",
+      "scenario": "When generating concise code snippets.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/api-reference#max_tokens"
+    },
+    {
+      "command": "--context-size 4096",
+      "description": "Sets the context size for the model to remember previous interactions.",
+      "scenario": "When working on large projects requiring context retention.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "code",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/cli#context-size"
+    },
+    {
+      "command": "Use JSON format for output.",
+      "description": "Formats the response in JSON for easier parsing and integration.",
+      "scenario": "When integrating with other systems that require structured data.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code",
+        "integration"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/prompt-techniques"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent hanging.",
+      "scenario": "When ensuring responsiveness in a CI/CD pipeline.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "productivity",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.v0.dev/cli#timeout"
+    },
+    {
+      "command": "Use examples in prompts to guide the model.",
+      "description": "Provides examples to improve model's understanding and output quality.",
+      "scenario": "When teaching the model a new coding style or pattern.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/prompt-techniques"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries the request up to 3 times on failure.",
+      "scenario": "When dealing with intermittent network issues.",
+      "language": "bash",
+      "tags": [
+        "reliability",
+        "networking",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.v0.dev/cli#retry"
+    },
+    {
+      "command": "Use comments to clarify code logic.",
+      "description": "Instructs the model to add comments for better code readability.",
+      "scenario": "When generating educational code samples.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.v0.dev/prompt-techniques"
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Sets the logging level to debug for detailed output.",
+      "scenario": "When diagnosing issues with API requests.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "productivity",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.v0.dev/cli#log-level"
+    },
+    {
+      "command": "Use specific programming language tags in prompts.",
+      "description": "Guides the model to generate code in a specific language.",
+      "scenario": "When needing code in Python instead of JavaScript.",
+      "language": "text",
+      "tags": [
+        "code",
+        "accuracy",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/prompt-techniques"
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Sets the API key for authentication.",
+      "scenario": "When making authenticated requests to the v0.dev API.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "integration",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.v0.dev/cli#api-key"
+    },
+    {
+      "command": "Use constraints to limit output scope.",
+      "description": "Constrains the model's output to specific requirements.",
+      "scenario": "When generating code that must adhere to strict guidelines.",
+      "language": "text",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.v0.dev/prompt-techniques"
+    },
+    {
+      "command": "--region us-west",
+      "description": "Specifies the server region for processing requests.",
+      "scenario": "When optimizing for latency by choosing a closer server.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "networking",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.v0.dev/cli#region"
+    },
+    {
+      "command": "System Role Definition: 'You are a Senior Staff Engineer specializing in [Framework]'",
+      "description": "Assign a specific seniority level and domain expertise to the system prompt to improve architectural decision-making and code quality.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--component-library [shadcn/ui|tailwind]",
+      "description": "Explicitly pass the target component library flag to ensure the generated UI code uses the correct primitive patterns and styling utility classes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Iterative Refinement Pattern: 'Identify potential edge cases in the current code and suggest fixes.'",
+      "description": "A prompt-engineering technique to trigger self-correction and error-handling logic in generated components.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--output-format [tsx|jsx|html]",
+      "description": "Force the model to return a specific file extension to prevent mixed-syntax outputs when working in multi-language environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Modularization Prompt: 'Break this component into smaller, reusable sub-components.'",
+      "description": "A technique to prevent 'mega-component' syndrome and ensure the generated code adheres to the Single Responsibility Principle.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

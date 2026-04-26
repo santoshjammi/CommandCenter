@@ -1,0 +1,210 @@
+{
+  "title": "Bolt.new Cheat Sheet",
+  "slug": "bolt-new",
+  "description": "Essential commands and techniques for using Bolt.new effectively.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the randomness of the AI's responses to be low for more deterministic outputs.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://bolt.new/docs/api#temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Uses the GPT-4 optimized model with streaming for faster response times.",
+      "scenario": "When you need quick feedback on code during a live coding session.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://bolt.new/docs/cli#model"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Prompt pattern to encourage logical reasoning and verification in AI responses.",
+      "scenario": "When debugging complex algorithms and need thorough explanations.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://bolt.new/docs/prompt#reasoning"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to control verbosity and cost.",
+      "scenario": "When generating concise code snippets or explanations.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://bolt.new/docs/api#max_tokens"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables detailed logging for debugging purposes.",
+      "scenario": "When troubleshooting integration issues with Bolt.new.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://bolt.new/docs/cli#verbose"
+    },
+    {
+      "command": "Use examples to clarify your request.",
+      "description": "Prompt technique to improve AI understanding by providing examples.",
+      "scenario": "When the AI needs to generate code based on specific patterns.",
+      "language": "text",
+      "tags": [
+        "context",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://bolt.new/docs/prompt#examples"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API responses to ensure timely execution.",
+      "scenario": "When integrating Bolt.new in time-sensitive applications.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "code",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://bolt.new/docs/cli#timeout"
+    },
+    {
+      "command": "Use bullet points for clarity.",
+      "description": "Prompt technique to structure AI responses for better readability.",
+      "scenario": "When generating lists or step-by-step guides in code comments.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://bolt.new/docs/prompt#formatting"
+    },
+    {
+      "command": "n=3",
+      "description": "Requests multiple completions to explore different solutions.",
+      "scenario": "When brainstorming multiple approaches to solve a coding problem.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://bolt.new/docs/api#n"
+    },
+    {
+      "command": "--dry-run",
+      "description": "Simulates command execution without making actual changes.",
+      "scenario": "When testing CLI commands to ensure they perform as expected.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "code",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://bolt.new/docs/cli#dry-run"
+    },
+    {
+      "command": "Provide context about the problem domain.",
+      "description": "Prompt technique to improve AI's domain-specific responses.",
+      "scenario": "When working on niche or specialized software projects.",
+      "language": "text",
+      "tags": [
+        "context",
+        "accuracy",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://bolt.new/docs/prompt#context"
+    },
+    {
+      "command": "--retry 2",
+      "description": "Retries a failed request to handle transient errors.",
+      "scenario": "When ensuring reliability in network-dependent applications.",
+      "language": "bash",
+      "tags": [
+        "reliability",
+        "speed",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://bolt.new/docs/cli#retry"
+    },
+    {
+      "command": "Implement a 'Plan-First' pattern: Request a detailed architecture outline and file structure before allowing any code generation.",
+      "description": "Prevents architectural drift by forcing the model to commit to a design pattern before writing implementation code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'Incremental Refactoring' prompts: 'Refactor only the [specific function] to improve [specific metric] without changing the public API signature.'",
+      "description": "Reduces the risk of regression by limiting the scope of changes to specific logic blocks rather than entire files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Apply 'Constraint-Driven Development': Explicitly list forbidden libraries or patterns (e.g., 'Do not use Axios; use native Fetch API only').",
+      "description": "Ensures the generated code adheres to existing project standards and prevents dependency bloat.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Debug via 'Error Trace Injection': Paste the full stack trace and ask: 'Analyze this trace, identify the root cause, and provide a fix that addresses the underlying state issue.'",
+      "description": "Moves beyond simple syntax fixes to address logical errors and state management bugs identified in logs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Optimize with 'Complexity Constraints': Append 'Ensure time complexity is O(n) or better' to algorithmic requests.",
+      "description": "Directs the model to prioritize efficient data structures and algorithms during the initial code generation phase.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "title": "Midjourney Cheat Sheet",
+  "slug": "midjourney",
+  "description": "Quick guide for generating images using Midjourney AI.",
+  "audience": "non-engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "Create a fantasy landscape",
+      "description": "Generates an image of a fantasy landscape.",
+      "scenario": "When you need a creative background for a project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Generate a futuristic cityscape",
+      "description": "Produces an image of a futuristic city.",
+      "scenario": "When designing a sci-fi themed presentation.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "futuristic"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Design a surreal portrait",
+      "description": "Creates a surreal-style portrait image.",
+      "scenario": "When you want unique art for a personal project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "art",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Visualize a concept in abstract form",
+      "description": "Generates an abstract image based on a concept.",
+      "scenario": "When brainstorming ideas and need visual inspiration.",
+      "language": "text",
+      "tags": [
+        "images",
+        "brainstorm",
+        "abstract"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Create a vintage poster",
+      "description": "Produces an image styled as a vintage poster.",
+      "scenario": "When you need a retro look for an event flyer.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "vintage"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Illustrate a children's book character",
+      "description": "Generates an image of a character for a children's book.",
+      "scenario": "When developing visuals for a children's story.",
+      "language": "text",
+      "tags": [
+        "images",
+        "illustration",
+        "children"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Craft a logo for a new brand",
+      "description": "Creates a logo design for branding purposes.",
+      "scenario": "When starting a new business and need a logo.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "branding"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Design a minimalist artwork",
+      "description": "Generates a minimalist style image.",
+      "scenario": "When you want simple, clean art for a project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "art",
+        "minimalist"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Produce a photorealistic scene",
+      "description": "Creates a highly detailed, realistic image.",
+      "scenario": "When you need lifelike visuals for a presentation.",
+      "language": "text",
+      "tags": [
+        "images",
+        "realistic",
+        "detailed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Generate a horror-themed illustration",
+      "description": "Produces a spooky, horror-themed image.",
+      "scenario": "When designing visuals for a Halloween event.",
+      "language": "text",
+      "tags": [
+        "images",
+        "horror",
+        "themed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Create a comic-style character",
+      "description": "Generates an image of a character in comic style.",
+      "scenario": "When illustrating a comic book or graphic novel.",
+      "language": "text",
+      "tags": [
+        "images",
+        "comic",
+        "character"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Design a nature-inspired pattern",
+      "description": "Creates a pattern based on natural elements.",
+      "scenario": "When you need a nature-themed design for textiles.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "nature"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Visualize a historical scene",
+      "description": "Generates an image depicting a historical event.",
+      "scenario": "When creating educational materials about history.",
+      "language": "text",
+      "tags": [
+        "images",
+        "historical",
+        "educational"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "Illustrate a fantasy creature",
+      "description": "Creates an image of a creature from fantasy.",
+      "scenario": "When designing characters for a fantasy game.",
+      "language": "text",
+      "tags": [
+        "images",
+        "fantasy",
+        "creature"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com"
+    },
+    {
+      "command": "--tile",
+      "description": "Creates a seamless pattern that can be repeated infinitely for textures or wallpapers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--cref [URL]",
+      "description": "Character Reference: Maintains consistent character features across different prompts and scenes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--sref [URL]",
+      "description": "Style Reference: Mimics the specific aesthetic, color palette, and mood of an uploaded image.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Vary (Region)",
+      "description": "Allows you to select a specific part of a generated image to repaint or modify without changing the rest.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--chaos [0-100]",
+      "description": "Increases the variation and unexpectedness of the initial four results for more creative experimentation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

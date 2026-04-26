@@ -1,0 +1,294 @@
+{
+  "title": "Suno AI Cheat Sheet",
+  "slug": "suno-ai",
+  "description": "Essential commands for everyday use of Suno AI.",
+  "audience": "non-engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "Summarise this text",
+      "description": "Provides a concise summary of the given text.",
+      "scenario": "When you need to quickly understand a long article.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://suno.ai/docs/summarisation"
+    },
+    {
+      "command": "Explain this concept",
+      "description": "Gives a simple explanation of a complex concept.",
+      "scenario": "When you encounter a difficult topic.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "study",
+        "research"
+      ],
+      "is_curated": true,
+      "man_page": "https://suno.ai/docs/explanation"
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for better understanding.",
+      "scenario": "When an email or document is too technical.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": true,
+      "man_page": "https://suno.ai/docs/rewrite"
+    },
+    {
+      "command": "Generate ideas for a blog post",
+      "description": "Provides creative ideas for writing a blog post.",
+      "scenario": "When you're stuck on what to write about next.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://suno.ai/docs/brainstorming"
+    },
+    {
+      "command": "Translate this text to French",
+      "description": "Translates the given text into French.",
+      "scenario": "When you need to communicate with French speakers.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "languages"
+      ],
+      "is_curated": false,
+      "man_page": "https://suno.ai/docs/translation"
+    },
+    {
+      "command": "Create a to-do list from this text",
+      "description": "Extracts actionable items from a block of text.",
+      "scenario": "When you need to organize tasks from meeting notes.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://suno.ai/docs/todo"
+    },
+    {
+      "command": "Convert this list into a paragraph",
+      "description": "Turns a list of points into a coherent paragraph.",
+      "scenario": "When you need to present bullet points as prose.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://suno.ai/docs/reformatting"
+    },
+    {
+      "command": "Draft an email response",
+      "description": "Creates a professional email reply based on context.",
+      "scenario": "When you need help responding to an email.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "productivity",
+        "explain"
+      ],
+      "is_curated": true,
+      "man_page": "https://suno.ai/docs/email"
+    },
+    {
+      "command": "Summarise this in 3 bullet points",
+      "description": "Condenses information into three key points.",
+      "scenario": "When you need a quick overview of a document.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://suno.ai/docs/summarisation"
+    },
+    {
+      "command": "Generate a creative story idea",
+      "description": "Provides a unique idea for a story.",
+      "scenario": "When you're brainstorming for a new story.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://suno.ai/docs/creative-writing"
+    },
+    {
+      "command": "Find research papers on this topic",
+      "description": "Lists relevant academic papers for a given topic.",
+      "scenario": "When conducting research for a project.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://suno.ai/docs/research"
+    },
+    {
+      "command": "Create a summary for social media",
+      "description": "Generates a short, engaging summary for social media.",
+      "scenario": "When you need to post about an article or event.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "social media"
+      ],
+      "is_curated": false,
+      "man_page": "https://suno.ai/docs/social-media"
+    },
+    {
+      "command": "Explain this joke",
+      "description": "Breaks down the humor in a joke for better understanding.",
+      "scenario": "When you don't get a joke but want to understand it.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "study",
+        "entertainment"
+      ],
+      "is_curated": false,
+      "man_page": "https://suno.ai/docs/humor"
+    },
+    {
+      "command": "List pros and cons of this decision",
+      "description": "Provides a balanced view of the advantages and disadvantages.",
+      "scenario": "When evaluating a decision or choice.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "decision making"
+      ],
+      "is_curated": true,
+      "man_page": "https://suno.ai/docs/decision-making"
+    },
+    {
+      "command": "Create a mind map from this text",
+      "description": "Visualizes information in a mind map format.",
+      "scenario": "When you need to organize ideas visually.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "study",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://suno.ai/docs/mind-mapping"
+    },
+    {
+      "command": "Generate song lyrics in the style of [Artist/Genre]",
+      "description": "Create custom lyrics by specifying a particular musical era, artist, or genre to guide the AI's rhythmic structure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Add [Style Tag] to the prompt",
+      "description": "Use specific descriptors like 'Lo-fi', 'Cinematic', or '80s Synthwave' within the style box to override default generic outputs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use [Bracketed Metatags] for structure",
+      "description": "Insert tags like [Intro], [Chorus], [Bridge], or [Outro] within lyrics to control the song's arrangement and flow.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extend this clip by [Time/Section]",
+      "description": "Use the 'Extend' feature to build upon an existing generation, allowing for longer songs and complex transitions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a mashup of [Genre A] and [Genre B]",
+      "description": "Combine two contrasting musical styles in the style prompt to discover unique, hybrid sonic textures.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use [Vocal Style] tags",
+      "description": "Specify vocal characteristics like [Female Vocals], [Deep Male Voice], [Raspy], or [High-pitched] within brackets to control the singer's tone.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Inject [Instrumental Break] tags",
+      "description": "Insert [Instrumental Solo], [Drum Break], or [Piano Interlude] between lyric blocks to prevent the AI from singing through intended musical passages.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Apply [Atmospheric] descriptors",
+      "description": "Enhance the mood by adding texture keywords like 'Lo-fi', 'Reverb-heavy', 'Cinematic', or 'Live Recording' to the Style prompt.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Utilize [Dynamic Shift] commands",
+      "description": "Control energy levels by using tags like [Build-up], [Drop], or [Outro] to guide the song's structural progression.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Implement [Ad-lib] notation",
+      "description": "Add parenthetical text like (Ooh-ooh) or (Yeah!) within the lyrics to trigger background vocals and spontaneous ad-libs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

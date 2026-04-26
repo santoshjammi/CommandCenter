@@ -1,0 +1,223 @@
+{
+  "title": "Tabnine Cheat Sheet",
+  "slug": "tabnine",
+  "description": "A practical guide for engineers to effectively use Tabnine for code completion and assistance.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "tabnine --version",
+      "description": "Check the installed version of Tabnine.",
+      "scenario": "When verifying the current version of Tabnine installed on your system.",
+      "language": "bash",
+      "tags": [
+        "version",
+        "cli",
+        "verification"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --config",
+      "description": "Open the Tabnine configuration settings.",
+      "scenario": "When you need to adjust Tabnine settings to optimize performance or preferences.",
+      "language": "bash",
+      "tags": [
+        "configuration",
+        "cli",
+        "settings"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --disable",
+      "description": "Disable Tabnine temporarily.",
+      "scenario": "When you need to troubleshoot or temporarily stop Tabnine from running.",
+      "language": "bash",
+      "tags": [
+        "disable",
+        "cli",
+        "troubleshooting"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --enable",
+      "description": "Re-enable Tabnine after it has been disabled.",
+      "scenario": "When you want to resume using Tabnine after troubleshooting.",
+      "language": "bash",
+      "tags": [
+        "enable",
+        "cli",
+        "troubleshooting"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --uninstall",
+      "description": "Uninstall Tabnine from your system.",
+      "scenario": "When you need to remove Tabnine completely from your environment.",
+      "language": "bash",
+      "tags": [
+        "uninstall",
+        "cli",
+        "cleanup"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --log-level debug",
+      "description": "Set the logging level to debug for detailed logs.",
+      "scenario": "When diagnosing issues with Tabnine and needing detailed logs.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "cli",
+        "logging"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --api-key <your-api-key>",
+      "description": "Set the API key for Tabnine Pro features.",
+      "scenario": "When activating Tabnine Pro features that require an API key.",
+      "language": "bash",
+      "tags": [
+        "api",
+        "cli",
+        "pro"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --model deep",
+      "description": "Switch to the deep learning model for better accuracy.",
+      "scenario": "When you need more accurate code completions using deep learning models.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "model",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --model fast",
+      "description": "Switch to the fast model for quicker completions.",
+      "scenario": "When speed is prioritized over accuracy for code completions.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "model",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --context-aware",
+      "description": "Enable context-aware completions for smarter suggestions.",
+      "scenario": "When you want Tabnine to consider the context of your code for suggestions.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "cli",
+        "smart"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --disable-context-aware",
+      "description": "Disable context-aware completions.",
+      "scenario": "When context-aware suggestions are causing issues or not needed.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "cli",
+        "disable"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --feedback",
+      "description": "Provide feedback to Tabnine developers.",
+      "scenario": "When you want to report bugs or suggest improvements to Tabnine.",
+      "language": "bash",
+      "tags": [
+        "feedback",
+        "cli",
+        "support"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --install-vscode",
+      "description": "Install Tabnine extension for VSCode.",
+      "scenario": "When setting up Tabnine for use with Visual Studio Code.",
+      "language": "bash",
+      "tags": [
+        "vscode",
+        "installation",
+        "cli"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.tabnine.com/docs"
+    },
+    {
+      "command": "tabnine --local-model-path <path>",
+      "description": "Specifies a custom directory for storing and loading local model weights to optimize startup time in air-gapped environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "tabnine --proxy-url <url>",
+      "description": "Configures the connection to route Tabnine API requests through a corporate proxy server for secure network environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "tabnine --max-context-tokens <number>",
+      "description": "Limits the number of tokens sent to the model for context, useful for reducing latency in extremely large codebases.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "tabnine --clear-cache",
+      "description": "Purges the local indexing and suggestion cache to resolve hallucination issues or stale context errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "tabnine --check-updates",
+      "description": "Triggers a manual check for the latest engine and model updates without performing a full reinstall.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

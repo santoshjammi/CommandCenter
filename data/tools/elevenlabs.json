@@ -1,0 +1,284 @@
+{
+  "title": "ElevenLabs AI Tool Cheat Sheet",
+  "slug": "elevenlabs",
+  "description": "Quick guide for using ElevenLabs AI for text-to-speech and voice generation.",
+  "audience": "non-engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "Convert text to speech",
+      "description": "Transforms written text into spoken words.",
+      "scenario": "When you want to listen to a document instead of reading it.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://elevenlabs.io/docs/text-to-speech"
+    },
+    {
+      "command": "Generate a custom voice",
+      "description": "Creates a unique voice based on your specifications.",
+      "scenario": "When you need a distinct voice for a project.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://elevenlabs.io/docs/custom-voice"
+    },
+    {
+      "command": "Adjust speech speed",
+      "description": "Changes the speed of the generated speech.",
+      "scenario": "When the default speech speed is too fast or slow for your needs.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://elevenlabs.io/docs/speech-speed"
+    },
+    {
+      "command": "Change voice pitch",
+      "description": "Modifies the pitch of the generated voice.",
+      "scenario": "When you want the voice to sound higher or lower.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://elevenlabs.io/docs/voice-pitch"
+    },
+    {
+      "command": "Translate text to speech",
+      "description": "Converts text in one language to speech in another language.",
+      "scenario": "When you need to hear a translation spoken aloud.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://elevenlabs.io/docs/translate-text-to-speech"
+    },
+    {
+      "command": "Create a voiceover for a video",
+      "description": "Generates a voiceover track for video content.",
+      "scenario": "When producing a video and need a professional voiceover.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://elevenlabs.io/docs/voiceover"
+    },
+    {
+      "command": "Save speech as audio file",
+      "description": "Exports the generated speech to an audio file.",
+      "scenario": "When you want to save the speech for offline use.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://elevenlabs.io/docs/save-audio"
+    },
+    {
+      "command": "Preview voice before finalizing",
+      "description": "Allows you to listen to a voice sample before finalizing it.",
+      "scenario": "When you want to ensure the voice meets your expectations.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://elevenlabs.io/docs/preview-voice"
+    },
+    {
+      "command": "Use AI to improve voice clarity",
+      "description": "Enhances the clarity and quality of the generated voice.",
+      "scenario": "When the initial voice output is unclear or muffled.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://elevenlabs.io/docs/voice-clarity"
+    },
+    {
+      "command": "Integrate with other applications",
+      "description": "Connects ElevenLabs AI with other software tools.",
+      "scenario": "When you want to use the voice generation capabilities in another app.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://elevenlabs.io/docs/integration"
+    },
+    {
+      "command": "Set up a voice profile",
+      "description": "Creates a profile for consistent voice settings.",
+      "scenario": "When you need to maintain consistent voice settings across projects.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://elevenlabs.io/docs/voice-profile"
+    },
+    {
+      "command": "Access voice library",
+      "description": "Browse and select from a library of pre-made voices.",
+      "scenario": "When you need a quick voice option without customization.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://elevenlabs.io/docs/voice-library"
+    },
+    {
+      "command": "Adjust emotional tone of voice",
+      "description": "Changes the emotional tone of the generated speech.",
+      "scenario": "When you want the speech to convey specific emotions.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://elevenlabs.io/docs/emotional-tone"
+    },
+    {
+      "command": "Use voice for accessibility",
+      "description": "Generates speech to assist users with accessibility needs.",
+      "scenario": "When creating content for users with visual impairments.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://elevenlabs.io/docs/accessibility"
+    },
+    {
+      "command": "Schedule voice generation",
+      "description": "Automates the voice generation process at specific times.",
+      "scenario": "When you need regular voice updates or reminders.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://elevenlabs.io/docs/schedule-voice"
+    },
+    {
+      "command": "Use 'Speech-to-Speech' for nuanced acting",
+      "description": "Upload your own recording to guide the AI's delivery, rhythm, and emotion, rather than just typing text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Apply 'Voice Design' for unique character creation",
+      "description": "Use specific descriptors like 'raspy', 'breathy', or 'authoritative' in the Voice Design tool to generate entirely new, non-existent voices.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Utilize 'Professional Voice Cloning' for high-fidelity replicas",
+      "description": "Upload long-form, high-quality audio samples to create a near-perfect digital twin of a specific person's voice.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Implement 'Projects' for long-form content",
+      "description": "Use the Projects tool to manage multi-chapter books or long scripts, ensuring consistent voice performance across large files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Fine-tune 'Stability' and 'Similarity' sliders",
+      "description": "Adjust the Stability slider for more consistent vs. expressive delivery, and Similarity for how closely it matches the original sample.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use Punctuation for Pacing",
+      "description": "Insert ellipses (...) for dramatic pauses, dashes (—) for sudden breaks, or multiple exclamation marks to trigger higher energy levels in the AI delivery.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Implement Voice Lab 'Instant Voice Cloning'",
+      "description": "Upload a short, clean 1-minute audio sample to create a functional digital replica of a voice without the need for professional studio recordings.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Leverage Multilingual v2 Model",
+      "description": "Switch to the Multilingual v2 model to maintain the same character's voice identity while switching between different languages seamlessly.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create Sound Effects via Text-to-Sound",
+      "description": "Use the dedicated Sound Effects tool to generate ambient background noises or specific foley (e.g., 'door creaking' or 'rain on a window') to layer under your voiceovers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Batch Generate via API for Content Creators",
+      "description": "Use the API to automate the generation of hundreds of short-form audio clips (like social media captions) simultaneously instead of manual entry.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

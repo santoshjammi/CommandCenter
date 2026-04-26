@@ -1,0 +1,236 @@
+{
+  "title": "Gemini AI Chatbot Cheat Sheet",
+  "slug": "gemini",
+  "description": "Quick reference for using Gemini AI Chatbot effectively.",
+  "audience": "non-engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "Summarise this text",
+      "description": "Provides a concise summary of the given text.",
+      "scenario": "When you have a long article and need a quick overview.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for easier understanding.",
+      "scenario": "When the text is too technical or complex.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Generate ideas for a blog post about AI",
+      "description": "Provides creative ideas for writing a blog post.",
+      "scenario": "When you're brainstorming topics for your blog.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Translate this text to Spanish",
+      "description": "Translates the given text into Spanish.",
+      "scenario": "When you need to communicate with Spanish speakers.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a list of pros and cons for working remotely",
+      "description": "Generates a list of advantages and disadvantages.",
+      "scenario": "When evaluating remote work options.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Explain quantum computing in simple terms",
+      "description": "Breaks down complex topics into simple explanations.",
+      "scenario": "When you encounter a difficult concept.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "study",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Summarise this in 3 bullet points",
+      "description": "Condenses information into three key points.",
+      "scenario": "When you need a quick summary for a meeting.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Draft a professional email for a job application",
+      "description": "Helps create a formal email template for job applications.",
+      "scenario": "When applying for a new job.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "productivity",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Find recent studies on climate change",
+      "description": "Provides links or summaries of recent research articles.",
+      "scenario": "When researching current topics.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this list into a table format",
+      "description": "Transforms a list into a structured table.",
+      "scenario": "When organizing data for presentation.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Provide a daily schedule for productivity",
+      "description": "Creates a structured daily plan to enhance productivity.",
+      "scenario": "When planning your daily activities.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a creative story about a space adventure",
+      "description": "Creates an imaginative story based on a given theme.",
+      "scenario": "When writing fiction or for creative projects.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Check grammar and spelling",
+      "description": "Reviews text for grammatical and spelling errors.",
+      "scenario": "When finalizing a document or email.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "List key features of the latest iPhone",
+      "description": "Provides a list of notable features for a product.",
+      "scenario": "When comparing tech products.",
+      "language": "text",
+      "tags": [
+        "research",
+        "writing",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a [Role] and critique my [Work/Idea]",
+      "description": "Assign Gemini a specific persona (e.g., 'Act as a harsh editor' or 'Act as a marketing expert') to get specialized feedback on your writing or concepts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a step-by-step tutorial for [Task]",
+      "description": "Transform complex processes into easy-to-follow instructions, perfect for learning new software or hobbies.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract all dates and action items from this text",
+      "description": "Quickly pull out specific data points like deadlines, meeting times, or 'to-do' tasks from long emails or documents.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Give me 5 different variations of this [Sentence/Headline]",
+      "description": "Avoid writer's block by asking for multiple stylistic options (e.g., funny, formal, urgent, or short) for a single piece of text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Compare [Option A] and [Option B] in a side-by-side table",
+      "description": "Use this to make decisions, such as comparing two different vacuum cleaners, travel destinations, or software tools.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "title": "DALL-E API Cheat Sheet",
+  "slug": "dall-e-api",
+  "description": "A practical guide for engineers to effectively use the DALL-E API for image generation tasks.",
+  "audience": "engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "prompt=\"A futuristic cityscape with flying cars\"",
+      "description": "Generate an image based on a textual description.",
+      "scenario": "When creating concept art for a sci-fi project.",
+      "language": "text",
+      "tags": [
+        "creativity",
+        "vision",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "size=\"1024x1024\"",
+      "description": "Specify the resolution of the generated image.",
+      "scenario": "When high-resolution images are needed for print media.",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "num_images=3",
+      "description": "Generate multiple images for a single prompt.",
+      "scenario": "When needing multiple variations for a design review.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Authenticate API requests using your API key.",
+      "scenario": "When setting up the API for the first time.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/api-reference/authentication"
+    },
+    {
+      "command": "response_format=\"b64_json\"",
+      "description": "Receive the image data as a base64-encoded JSON string.",
+      "scenario": "When integrating with applications that process JSON data.",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "integration"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "style=\"impressionist\"",
+      "description": "Apply a specific artistic style to the generated image.",
+      "scenario": "When creating artwork that mimics historical art styles.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "vision"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Set a timeout for the API request in seconds.",
+      "scenario": "When handling requests in environments with strict time constraints.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/request-timeout"
+    },
+    {
+      "command": "seed=42",
+      "description": "Use a specific seed for deterministic image generation.",
+      "scenario": "When needing reproducible results for testing.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "aspect_ratio=\"16:9\"",
+      "description": "Define the aspect ratio of the generated image.",
+      "scenario": "When creating images for widescreen displays.",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "vision"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Enable detailed logging for troubleshooting API requests.",
+      "scenario": "When diagnosing issues with API calls.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "setup"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/logging"
+    },
+    {
+      "command": "content_policy=\"strict\"",
+      "description": "Apply a strict content policy to filter generated images.",
+      "scenario": "When adhering to strict content guidelines.",
+      "language": "json",
+      "tags": [
+        "security",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Automatically retry failed API requests up to three times.",
+      "scenario": "When ensuring reliability in unstable network conditions.",
+      "language": "bash",
+      "tags": [
+        "reliability",
+        "networking"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/retry-mechanism"
+    },
+    {
+      "command": "color_palette=\"vibrant\"",
+      "description": "Use a vibrant color palette for the generated image.",
+      "scenario": "When creating eye-catching marketing materials.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "vision"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/guides/images"
+    },
+    {
+      "command": "image_edit(image, mask, prompt)",
+      "description": "Utilize the inpainting endpoint to modify specific regions of an existing image by providing a mask image.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "variations(image)",
+      "description": "Generate subtle visual variations of an uploaded image while maintaining the original composition and subject matter.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "prompt_weighting_syntax (e.g., 'subject::2, background::0.5')",
+      "description": "Implement attention steering by adjusting the relative importance of specific tokens within the prompt string.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "request_id tracking",
+      "description": "Capture and log the unique 'request_id' from the response header to trace specific generation failures in high-concurrency environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "exponential_backoff_strategy",
+      "description": "Implement an exponential backoff algorithm for 429 (Too Many Requests) errors to optimize throughput without hitting rate limits.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

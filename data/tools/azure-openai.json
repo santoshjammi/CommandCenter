@@ -1,0 +1,281 @@
+{
+  "title": "Azure OpenAI Cheat Sheet",
+  "slug": "azure-openai",
+  "description": "A practical guide for engineers using Azure OpenAI for AI-driven applications.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the model's responses.",
+      "scenario": "When generating creative content like stories or poems.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to 150 tokens.",
+      "scenario": "When you need concise answers for a chatbot.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "--model gpt-4",
+      "description": "Specifies the model version to use.",
+      "scenario": "When you require the latest model for improved accuracy.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "code",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming responses for real-time applications.",
+      "scenario": "When building a live chat application that requires immediate feedback.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces the likelihood of repeating phrases in the output.",
+      "scenario": "When generating diverse text outputs for content creation.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "presence_penalty=0.6",
+      "description": "Increases the chance of introducing new topics.",
+      "scenario": "When encouraging the model to explore new ideas in brainstorming sessions.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "--api-key <your_api_key>",
+      "description": "Sets the API key for authentication.",
+      "scenario": "When initializing the API client to start making requests.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "networking",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/authentication"
+    },
+    {
+      "command": "--endpoint https://<your-resource-name>.openai.azure.com/",
+      "description": "Specifies the endpoint for API requests.",
+      "scenario": "When configuring the client to connect to your Azure OpenAI resource.",
+      "language": "bash",
+      "tags": [
+        "networking",
+        "cloud",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/authentication"
+    },
+    {
+      "command": "logit_bias={\"50256\":-100}",
+      "description": "Prevents the model from generating specific tokens.",
+      "scenario": "When you want to avoid certain phrases or words in the output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "Think step by step.",
+      "description": "Encourages the model to provide more detailed and logical responses.",
+      "scenario": "When solving complex problems that require detailed explanations.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Use bullet points for clarity.",
+      "description": "Instructs the model to format the response in bullet points.",
+      "scenario": "When generating lists or structured information.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "text",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent hanging.",
+      "scenario": "When ensuring the application does not wait indefinitely for a response.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "networking",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries the request up to 3 times in case of failure.",
+      "scenario": "When handling transient errors in network requests.",
+      "language": "bash",
+      "tags": [
+        "networking",
+        "code",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Sets the logging level to debug for detailed logs.",
+      "scenario": "When troubleshooting issues with API requests.",
+      "language": "bash",
+      "tags": [
+        "code",
+        "networking",
+        "security"
+      ],
+      "is_curated": false,
+      "man_page": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/use-api"
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Nucleus sampling: limits the model's consideration to a subset of tokens whose cumulative probability reaches the threshold, reducing the long tail of low-probability tokens.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "seed=<integer>",
+      "description": "Enables deterministic outputs by setting a specific seed for the random number generator, essential for debugging and reproducible testing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "System Message: 'You are a JSON-only assistant. Output valid JSON without markdown formatting.'",
+      "description": "Prompt engineering pattern to force structured data output and prevent the model from wrapping responses in triple backticks (```json).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--deployment <deployment-name>",
+      "description": "Required parameter in Azure OpenAI to specify the specific model deployment name rather than just the model type.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Check 'x-ms-client-request-id' in response headers",
+      "description": "Debugging technique: capture this unique header value to provide to Microsoft support for tracing specific failed requests in Azure logs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_k=50",
+      "description": "Limits the model's vocabulary to the top K most likely next tokens to reduce tail-end noise and improve coherence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "stop=['\n', 'User:']",
+      "description": "Defines specific sequences where the model should cease generation, preventing the model from hallucinating subsequent turns in a conversation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Few-shot prompting with delimiters",
+      "description": "Use triple backticks (```) or XML-style tags (<example></example>) to clearly separate few-shot examples from the actual instruction to prevent prompt injection/leakage.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Azure OpenAI Content Filter Bypass Testing",
+      "description": "Use the 'Hate/Violence/Self-Harm' detection headers in response to debug why a specific prompt was flagged and trigger a manual review via the Azure AI Studio.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Token usage monitoring: usage.prompt_tokens vs usage.completion_tokens",
+      "description": "Track the ratio of input to output tokens to optimize cost and manage context window limits for long-running agentic workflows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

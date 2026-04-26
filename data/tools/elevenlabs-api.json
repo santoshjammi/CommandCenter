@@ -1,0 +1,281 @@
+{
+  "title": "ElevenLabs API Cheat Sheet",
+  "slug": "elevenlabs-api",
+  "description": "A practical guide for engineers to effectively use the ElevenLabs API for AI-driven tasks.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "POST /v1/generate",
+      "description": "Generate text using the ElevenLabs API.",
+      "scenario": "When you need to generate creative content or responses based on input prompts.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "text",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.elevenlabs.io/docs#generate"
+    },
+    {
+      "command": "temperature=0.7",
+      "description": "Set the randomness of the output for more creative responses.",
+      "scenario": "When generating marketing copy that requires creative variations.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "text",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.elevenlabs.io/docs#parameters"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limit the number of tokens in the generated response.",
+      "scenario": "When you need concise answers for a chatbot response.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "text",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.elevenlabs.io/docs#parameters"
+    },
+    {
+      "command": "--model gpt-3.5",
+      "description": "Specify the model version for generation tasks.",
+      "scenario": "When you require a specific model version for compatibility reasons.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "text",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.elevenlabs.io/docs#models"
+    },
+    {
+      "command": "--stream",
+      "description": "Enable streaming of responses for real-time applications.",
+      "scenario": "When building a live chat application that requires immediate feedback.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.elevenlabs.io/docs#streaming"
+    },
+    {
+      "command": "prompt='Translate the following text to French: {text}'",
+      "description": "Use prompt engineering for translation tasks.",
+      "scenario": "When integrating a translation feature into an application.",
+      "language": "text",
+      "tags": [
+        "text",
+        "context",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduce repetition in generated output.",
+      "scenario": "When generating long-form content that should avoid repetitive phrases.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "text",
+        "api"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.elevenlabs.io/docs#parameters"
+    },
+    {
+      "command": "presence_penalty=0.3",
+      "description": "Encourage the model to introduce new topics.",
+      "scenario": "When brainstorming ideas and need diverse suggestions.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "text",
+        "api"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.elevenlabs.io/docs#parameters"
+    },
+    {
+      "command": "POST /v1/voice",
+      "description": "Generate speech from text input using the ElevenLabs API.",
+      "scenario": "When converting text to speech for accessibility features.",
+      "language": "json",
+      "tags": [
+        "vision",
+        "api",
+        "text"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.elevenlabs.io/docs#voice"
+    },
+    {
+      "command": "voice_id='en_us_male'",
+      "description": "Select a specific voice for text-to-speech conversion.",
+      "scenario": "When you need a specific voice profile for branding purposes.",
+      "language": "json",
+      "tags": [
+        "vision",
+        "api",
+        "text"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.elevenlabs.io/docs#voice"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Prompt technique to improve reasoning in responses.",
+      "scenario": "When solving complex problems that require logical reasoning.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "text",
+        "api"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Enable detailed logging for troubleshooting.",
+      "scenario": "When diagnosing issues with API requests or responses.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "api",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "context_length=2048",
+      "description": "Set the context length for the model to consider in responses.",
+      "scenario": "When handling large documents that require extensive context.",
+      "language": "json",
+      "tags": [
+        "context",
+        "text",
+        "api"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.elevenlabs.io/docs#parameters"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Set a timeout for API requests to prevent hanging.",
+      "scenario": "When ensuring API calls do not exceed a certain duration in production.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "api",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "POST /v1/text-to-speech/{voice_id}/stream",
+      "description": "Use the streaming endpoint with chunked transfer encoding to reduce Time To First Byte (TTFB) for real-time conversational applications.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "stability=0.5 & similarity_boost=0.75",
+      "description": "Fine-tune the output variance: lower stability increases emotional range/expressiveness, while higher similarity boost ensures the output stays closer to the original voice sample.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "POST /v1/voices/add",
+      "description": "Programmatically upload high-quality audio samples to create custom Instant Voice Clones via API.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use SSML-like punctuation (e.g., '... [pause] ...' or '!!!')",
+      "description": "Engineer prosody and pacing by using specific punctuation patterns or phonetic spelling to force natural breathing pauses and emphasis in the TTS engine.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "GET /v1/quotas",
+      "description": "Monitor real-time character usage and remaining credit balance to implement client-side circuit breakers and prevent API errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "POST /v1/text-to-speech/{voice_id}/with-latency-optimization",
+      "description": "Use the latency-optimized endpoint for real-time conversational agents to reduce Time To First Byte (TTFB).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "POST /v1/text-to-speech/{voice_id}/stream (with latency_optimization=true)",
+      "description": "Set 'latency_optimization' parameter to 'true' in the request body to prioritize speed over high-fidelity nuances for real-time use cases.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "GET /v1/history",
+      "description": "Retrieve a list of previous generation requests to audit costs, re-download assets, or debug failed synthesis attempts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "POST /v1/voices/add (with description='...')",
+      "description": "Utilize the 'description' field during voice cloning to provide semantic context, helping the model better understand the target persona's characteristics.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Prompt Pattern: [Emotion Tag] Text",
+      "description": "Inject emotional cues using bracketed descriptors like '[whispering]', '[shouting]', or '[laughing]' at the start of sentences to influence prosody in certain models.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

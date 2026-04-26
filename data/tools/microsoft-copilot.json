@@ -1,0 +1,249 @@
+{
+  "title": "Microsoft Copilot Cheat Sheet",
+  "slug": "microsoft-copilot",
+  "description": "Quick reference for using Microsoft Copilot in everyday tasks.",
+  "audience": "non-engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "Summarise this document",
+      "description": "Provides a concise summary of the document's content.",
+      "scenario": "When you need a quick overview of a long document.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "productivity",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/summarize-documents-with-copilot"
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for easier understanding.",
+      "scenario": "When a text is too complex for the audience.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/rewrite-text-with-copilot"
+    },
+    {
+      "command": "Generate a creative story about a dragon",
+      "description": "Creates an imaginative story based on the given prompt.",
+      "scenario": "When you need inspiration for creative writing.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/create-content-with-copilot"
+    },
+    {
+      "command": "Translate this paragraph to Spanish",
+      "description": "Translates text from one language to another.",
+      "scenario": "When you need to communicate with someone in a different language.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/translate-text-with-copilot"
+    },
+    {
+      "command": "Create a to-do list for a project",
+      "description": "Generates a structured to-do list based on project details.",
+      "scenario": "When organizing tasks for a new project.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing",
+        "organize"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/organize-tasks-with-copilot"
+    },
+    {
+      "command": "Explain this concept like I'm five",
+      "description": "Breaks down complex ideas into simple terms.",
+      "scenario": "When explaining a difficult concept to a beginner.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "writing",
+        "simplify"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/explain-concepts-with-copilot"
+    },
+    {
+      "command": "Draft an email to thank a client",
+      "description": "Creates a professional thank-you email draft.",
+      "scenario": "When you need to send a thank-you email to a client.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "productivity",
+        "email"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/draft-emails-with-copilot"
+    },
+    {
+      "command": "Brainstorm ideas for a marketing campaign",
+      "description": "Generates creative ideas for marketing strategies.",
+      "scenario": "When planning a new marketing campaign.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "creativity",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/brainstorm-with-copilot"
+    },
+    {
+      "command": "Convert this list into a table",
+      "description": "Transforms a list into a formatted table.",
+      "scenario": "When you need to organize data more clearly.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "organize",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/convert-lists-with-copilot"
+    },
+    {
+      "command": "Summarize this meeting transcript",
+      "description": "Provides key points from a meeting transcript.",
+      "scenario": "When you need to quickly understand meeting outcomes.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "productivity",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/summarize-meetings-with-copilot"
+    },
+    {
+      "command": "Generate a list of pros and cons",
+      "description": "Creates a balanced list of advantages and disadvantages.",
+      "scenario": "When evaluating a decision or choice.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "organize",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/evaluate-decisions-with-copilot"
+    },
+    {
+      "command": "Create a presentation outline",
+      "description": "Generates an outline for a presentation.",
+      "scenario": "When preparing for a presentation and need a structured outline.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "organize",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/create-presentations-with-copilot"
+    },
+    {
+      "command": "Find recent research on climate change",
+      "description": "Fetches the latest research articles on a given topic.",
+      "scenario": "When you need up-to-date information for a report.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/research-with-copilot"
+    },
+    {
+      "command": "Format this text as a formal letter",
+      "description": "Reformats text into a formal letter structure.",
+      "scenario": "When you need to send a formal letter.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.microsoft.com/en-us/office/format-letters-with-copilot"
+    },
+    {
+      "command": "List key takeaways from this article",
+      "description": "Identifies and lists the main points from an article.",
+      "scenario": "When you need to extract important information from a text.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.microsoft.com/en-us/office/extract-information-with-copilot"
+    },
+    {
+      "command": "Analyze this data and identify the three most significant trends",
+      "description": "Use this when you paste raw data or upload a spreadsheet to get high-level insights without manual calculation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a professional editor and critique my writing for tone and clarity",
+      "description": "Instead of just rewriting, this asks Copilot to provide feedback on how your message comes across to others.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a step-by-step tutorial based on this process",
+      "description": "Turn a messy description of a task into a structured, easy-to-follow guide for others to use.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate 5 different subject line options for this email",
+      "description": "Helps increase open rates by providing a variety of catchy, professional, or urgent options for your correspondence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Compare these two different products/ideas in a side-by-side comparison",
+      "description": "Perfect for decision-making when you need to weigh two specific options against each other based on provided text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

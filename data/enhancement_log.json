@@ -1,0 +1,352 @@
+{
+  "autogen": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "azure-openai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "crewai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "dspy": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "aws-bedrock": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "copy-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "elevenlabs-api": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "google-vertex-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "elevenlabs": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "grammarly-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "groq": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "instructor": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "haystack": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "langchain": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "jan-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "jasper-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "lm-studio": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "openai-agents-sdk": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "ollama": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "otter-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "suno-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "semantic-kernel": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "together-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "replicate": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "udio": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "whisper": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "writesonic": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "vercel-ai-sdk": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "llamaindex": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "claude": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "claude-api": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "gemini-api": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "character-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "chatgpt-api": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "notion-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "gemini": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "meta-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "huggingchat": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "poe": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "microsoft-copilot": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "aider": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "anthropic-claude-code": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "codeium": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "amazon-q-developer": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "bolt-new": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "continue-dev": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "cursor": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "openai-codex": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "copilot-cli": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "github-copilot": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "pieces-for-developers": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "tabnine": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "replit-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "sourcegraph-cody": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "windsurf": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "v0-dev": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "adobe-firefly": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "dall-e-api": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "flux": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "kling-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "leonardo-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "midjourney-advanced": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "midjourney": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "dall-e-3": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "runway-ml": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "stable-diffusion": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "ideogram": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "stable-diffusion-webui": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "perplexity-api": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "perplexity-ai": {
+    "last_enhanced": "2026-04-25",
+    "times_enhanced": 1,
+    "commands_added": 5
+  }
+}

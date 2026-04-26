@@ -1,0 +1,281 @@
+{
+  "title": "Haystack AI Tool Cheat Sheet",
+  "slug": "haystack",
+  "description": "Essential commands and configurations for using Haystack effectively in AI applications.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "pipeline.add_node(component, name='Retriever', inputs=['Query'])",
+      "description": "Add a retriever node to the pipeline for fetching relevant documents.",
+      "scenario": "When setting up a pipeline to retrieve documents based on a query.",
+      "language": "python",
+      "tags": [
+        "context",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://haystack.deepset.ai/docs/latest/pipelines"
+    },
+    {
+      "command": "--document_store 'ElasticsearchDocumentStore'",
+      "description": "Use Elasticsearch as the document store for efficient search and retrieval.",
+      "scenario": "When you need scalable and fast document retrieval capabilities.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "scalability",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": "https://haystack.deepset.ai/docs/latest/document_store"
+    },
+    {
+      "command": "retriever.retrieve(query, top_k=5)",
+      "description": "Retrieve the top 5 documents most relevant to the query.",
+      "scenario": "When you need to fetch a limited number of highly relevant documents.",
+      "language": "python",
+      "tags": [
+        "accuracy",
+        "speed",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://haystack.deepset.ai/docs/latest/retriever"
+    },
+    {
+      "command": "reader.predict(query, documents)",
+      "description": "Use a reader to extract answers from the retrieved documents.",
+      "scenario": "When you need to extract precise answers from a set of documents.",
+      "language": "python",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://haystack.deepset.ai/docs/latest/reader"
+    },
+    {
+      "command": "pipeline.run(query='What is Haystack?')",
+      "description": "Execute the pipeline to process a query and return results.",
+      "scenario": "When you want to get answers from your document database using a pipeline.",
+      "language": "python",
+      "tags": [
+        "context",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://haystack.deepset.ai/docs/latest/pipelines"
+    },
+    {
+      "command": "--use_gpu True",
+      "description": "Enable GPU usage for faster processing of queries and training.",
+      "scenario": "When you have access to a GPU and need to speed up processing.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost",
+        "performance"
+      ],
+      "is_curated": false,
+      "man_page": "https://haystack.deepset.ai/docs/latest/installation"
+    },
+    {
+      "command": "pipeline.add_node(component, name='Generator', inputs=['Retriever'])",
+      "description": "Add a generator node to create answers from retrieved documents.",
+      "scenario": "When you need to generate answers rather than extract them.",
+      "language": "python",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://haystack.deepset.ai/docs/latest/pipelines"
+    },
+    {
+      "command": "--batch_size 16",
+      "description": "Set the batch size for processing to optimize memory usage.",
+      "scenario": "When tuning performance to fit within memory constraints.",
+      "language": "bash",
+      "tags": [
+        "performance",
+        "cost",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://haystack.deepset.ai/docs/latest/installation"
+    },
+    {
+      "command": "document_store.write_documents(documents)",
+      "description": "Write documents to the document store for future retrieval.",
+      "scenario": "When you need to add new documents to your search index.",
+      "language": "python",
+      "tags": [
+        "context",
+        "code",
+        "search"
+      ],
+      "is_curated": true,
+      "man_page": "https://haystack.deepset.ai/docs/latest/document_store"
+    },
+    {
+      "command": "pipeline.add_node(component, name='Summarizer', inputs=['Retriever'])",
+      "description": "Add a summarizer node to condense information from documents.",
+      "scenario": "When you need to provide concise summaries of documents.",
+      "language": "python",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://haystack.deepset.ai/docs/latest/pipelines"
+    },
+    {
+      "command": "--top_k_retriever 10",
+      "description": "Set the number of top documents to retrieve initially.",
+      "scenario": "When you need more documents for better answer generation.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "context",
+        "performance"
+      ],
+      "is_curated": false,
+      "man_page": "https://haystack.deepset.ai/docs/latest/retriever"
+    },
+    {
+      "command": "pipeline.add_node(component, name='Classifier', inputs=['Retriever'])",
+      "description": "Add a classifier node to categorize documents or queries.",
+      "scenario": "When you need to classify documents for better organization.",
+      "language": "python",
+      "tags": [
+        "reasoning",
+        "context",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://haystack.deepset.ai/docs/latest/pipelines"
+    },
+    {
+      "command": "--progress_bar False",
+      "description": "Disable the progress bar for cleaner log output in production.",
+      "scenario": "When running in production and you want to reduce log clutter.",
+      "language": "bash",
+      "tags": [
+        "performance",
+        "cost",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://haystack.deepset.ai/docs/latest/installation"
+    },
+    {
+      "command": "pipeline.add_node(component, name='Translator', inputs=['Retriever'])",
+      "description": "Add a translator node to handle multilingual queries and documents.",
+      "scenario": "When dealing with multilingual data and need translation.",
+      "language": "python",
+      "tags": [
+        "context",
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://haystack.deepset.ai/docs/latest/pipelines"
+    },
+    {
+      "command": "pipeline.inspect()",
+      "description": "Visualizes the pipeline structure and connectivity to verify data flow between nodes before execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pipeline.run(query=..., params={'Retriever': {'top_k': 20}})",
+      "description": "Overrides specific component parameters dynamically at runtime without re-initializing the pipeline.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "document_store.update_index(documents, mode='incremental')",
+      "description": "Optimizes performance by performing incremental updates to the index instead of full re-indexing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pipeline.save(path='pipeline_config.json')",
+      "description": "Serializes the entire pipeline architecture and component configurations for deployment or versioning.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "component.set_prompt_template(template_string)",
+      "description": "Injects custom prompt-engineering patterns into Generator nodes to control output style and constraints.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pipeline.run(query=..., params={'Retriever': {'top_k': 10}, 'Generator': {'temperature': 0.7}})",
+      "description": "Override specific component parameters dynamically during runtime without modifying the pipeline definition.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "component.warmup()",
+      "description": "Pre-load model weights into GPU memory to prevent latency spikes during the first inference call.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pipeline.run(query=..., output_as_dict=True)",
+      "description": "Force the pipeline to return a dictionary of all component outputs instead of just the final node's result, useful for debugging intermediate steps.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "document_store.filter_documents(filters={'metadata': {'category': 'tech'}})",
+      "description": "Apply metadata-based pre-filtering to the document store to narrow the search space before retrieval.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pipeline.validate()",
+      "description": "Perform a structural check to ensure all input/output connections and data types are compatible before execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

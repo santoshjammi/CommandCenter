@@ -1,0 +1,223 @@
+{
+  "title": "Adobe Firefly Cheat Sheet",
+  "slug": "adobe-firefly",
+  "description": "Quick reference for everyday Adobe Firefly image generation tasks.",
+  "audience": "non-engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "Generate a landscape image of a sunset",
+      "description": "Creates a sunset landscape image.",
+      "scenario": "When you need a beautiful sunset image for a project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creative"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/firefly/using/generate-images.html"
+    },
+    {
+      "command": "Create an abstract art piece with blue and green tones",
+      "description": "Produces an abstract art image using specified colors.",
+      "scenario": "When designing a modern art piece for a presentation.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creative"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/firefly/using/generate-images.html"
+    },
+    {
+      "command": "Transform this photo into a watercolor painting",
+      "description": "Converts a photo into a watercolor-style image.",
+      "scenario": "When you want to give a photo an artistic touch.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "creative"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/firefly/using/transform-images.html"
+    },
+    {
+      "command": "Add a vintage filter to this image",
+      "description": "Applies a vintage filter to an image.",
+      "scenario": "When you want to give a photo a retro look.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/firefly/using/edit-images.html"
+    },
+    {
+      "command": "Generate a logo with a minimalist style",
+      "description": "Creates a minimalist style logo.",
+      "scenario": "When you need a simple and clean logo design.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creative"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/firefly/using/generate-logos.html"
+    },
+    {
+      "command": "Make this image black and white",
+      "description": "Converts an image to black and white.",
+      "scenario": "When you want to remove color for a classic look.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/firefly/using/edit-images.html"
+    },
+    {
+      "command": "Create a collage with these photos",
+      "description": "Generates a collage from multiple photos.",
+      "scenario": "When you want to combine several images into one.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creative"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/firefly/using/create-collages.html"
+    },
+    {
+      "command": "Enhance the brightness and contrast of this image",
+      "description": "Improves the brightness and contrast of an image.",
+      "scenario": "When an image looks dull and needs more vibrancy.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/firefly/using/edit-images.html"
+    },
+    {
+      "command": "Generate a fantasy creature illustration",
+      "description": "Creates an illustration of a fantasy creature.",
+      "scenario": "When you need an imaginative creature for a story.",
+      "language": "text",
+      "tags": [
+        "images",
+        "creative",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/firefly/using/generate-illustrations.html"
+    },
+    {
+      "command": "Add text overlay to this image",
+      "description": "Places text over an image.",
+      "scenario": "When you want to add a caption or title to an image.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/firefly/using/edit-images.html"
+    },
+    {
+      "command": "Create a pattern with floral designs",
+      "description": "Generates a pattern using floral designs.",
+      "scenario": "When designing backgrounds or textiles.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creative"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/firefly/using/generate-patterns.html"
+    },
+    {
+      "command": "Remove the background from this image",
+      "description": "Deletes the background of an image, leaving the subject.",
+      "scenario": "When you need a transparent background for a product image.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://helpx.adobe.com/firefly/using/edit-images.html"
+    },
+    {
+      "command": "Generate a 3D model of a chair",
+      "description": "Creates a 3D model of a chair.",
+      "scenario": "When you need a 3D representation for a furniture design.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creative"
+      ],
+      "is_curated": false,
+      "man_page": "https://helpx.adobe.com/firefly/using/generate-3d-models.html"
+    },
+    {
+      "command": "Apply 'Generative Fill' to replace a specific object in a photo",
+      "description": "Use the brush tool to select an area and type a prompt to swap objects (e.g., 'change shirt to red leather jacket').",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'Structure Reference' to maintain composition",
+      "description": "Upload a sketch or photo to use as a structural template so the AI follows your specific layout.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Apply 'Style Reference' for visual consistency",
+      "description": "Upload an existing image to force the AI to mimic its specific color palette, lighting, and aesthetic texture.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate 'Text Effects' with custom textures",
+      "description": "Type a word and use prompts like 'melting chocolate' or 'fluffy clouds' to turn typography into a 3D textured object.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Expand image boundaries using 'Generative Expand'",
+      "description": "Use the crop tool to pull edges outward and let Firefly fill in the missing scenery to change aspect ratios.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

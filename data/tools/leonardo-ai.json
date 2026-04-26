@@ -1,0 +1,234 @@
+{
+  "title": "Leonardo AI Cheat Sheet",
+  "slug": "leonardo-ai",
+  "description": "A practical guide for everyday users of Leonardo AI for image generation.",
+  "audience": "non-engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "Generate an image of a sunset",
+      "description": "Creates a digital image of a sunset scene.",
+      "scenario": "When you need a beautiful sunset image for a project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.leonardo.ai/generate-images"
+    },
+    {
+      "command": "Create a logo with a modern look",
+      "description": "Designs a modern-style logo.",
+      "scenario": "When starting a new business and need a logo.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.leonardo.ai/create-logo"
+    },
+    {
+      "command": "Enhance image quality",
+      "description": "Improves the resolution and clarity of an existing image.",
+      "scenario": "When an image looks blurry or pixelated.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.leonardo.ai/enhance-images"
+    },
+    {
+      "command": "Convert photo to sketch",
+      "description": "Transforms a photo into a pencil sketch style.",
+      "scenario": "When you want an artistic version of a photo.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.leonardo.ai/photo-to-sketch"
+    },
+    {
+      "command": "Add a vintage filter to this image",
+      "description": "Applies a vintage-style filter to an image.",
+      "scenario": "When you want an old-fashioned look for an image.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.leonardo.ai/add-filters"
+    },
+    {
+      "command": "Generate a fantasy landscape",
+      "description": "Creates a digital image of a fantasy landscape.",
+      "scenario": "When you need a creative background for a game or story.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.leonardo.ai/fantasy-landscape"
+    },
+    {
+      "command": "Design a poster for an event",
+      "description": "Creates a promotional poster for an event.",
+      "scenario": "When organizing an event and need a poster.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.leonardo.ai/design-poster"
+    },
+    {
+      "command": "Create a cartoon avatar",
+      "description": "Generates a cartoon-style avatar from a photo.",
+      "scenario": "When you want a fun profile picture.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.leonardo.ai/cartoon-avatar"
+    },
+    {
+      "command": "Remove background from image",
+      "description": "Eliminates the background from an image, leaving only the subject.",
+      "scenario": "When you need a transparent background for an image.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.leonardo.ai/remove-background"
+    },
+    {
+      "command": "Generate an abstract art piece",
+      "description": "Creates an abstract digital artwork.",
+      "scenario": "When you need unique art for a project or decoration.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.leonardo.ai/abstract-art"
+    },
+    {
+      "command": "Create a 3D model of a product",
+      "description": "Designs a 3D model for a product concept.",
+      "scenario": "When prototyping a new product design.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.leonardo.ai/3d-model"
+    },
+    {
+      "command": "Generate a realistic portrait",
+      "description": "Creates a lifelike digital portrait from a description.",
+      "scenario": "When you need a realistic image of a person.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.leonardo.ai/realistic-portrait"
+    },
+    {
+      "command": "Apply a watercolor effect to this image",
+      "description": "Adds a watercolor painting effect to an image.",
+      "scenario": "When you want a soft, artistic look for an image.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.leonardo.ai/watercolor-effect"
+    },
+    {
+      "command": "Generate a sci-fi cityscape",
+      "description": "Creates a digital image of a futuristic city.",
+      "scenario": "When you need a sci-fi themed background.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.leonardo.ai/sci-fi-cityscape"
+    },
+    {
+      "command": "Create a collage from these images",
+      "description": "Combines multiple images into a single collage.",
+      "scenario": "When you want to present several images together creatively.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.leonardo.ai/create-collage"
+    },
+    {
+      "command": "Use 'Negative Prompts' to exclude specific elements like 'blurry, distorted hands, or text'",
+      "description": "Add unwanted elements to the negative prompt box to refine the output and avoid common AI artifacts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Adjust 'Guidance Scale' to control prompt adherence",
+      "description": "Increase the scale to make the AI follow your text more strictly, or decrease it to allow for more creative freedom.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Utilize 'Image Guidance' for pose or depth control",
+      "description": "Upload a reference image and select 'Depth' or 'Edge' to force the AI to follow a specific structure or silhouette.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Apply 'Alchemy' mode for high-fidelity textures",
+      "description": "Toggle Alchemy on to use Leonardo's advanced pipeline for superior lighting, detail, and composition.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'Prompt Magic' to expand short descriptions",
+      "description": "Enable Prompt Magic to let the AI automatically add descriptive keywords to your simple prompts for more cinematic results.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

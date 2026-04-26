@@ -1,0 +1,236 @@
+{
+  "title": "Cursor",
+  "slug": "cursor",
+  "description": "A practical cheat sheet for engineers using Cursor, focusing on API parameters, CLI flags, and prompt techniques.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the randomness of the model's output to be more deterministic.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.cursor.com/temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Uses the GPT-4o model with streaming output for faster response.",
+      "scenario": "When you need quick feedback during live coding sessions.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.cursor.com/models"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to reason through problems methodically.",
+      "scenario": "When solving complex algorithmic challenges that require logical reasoning.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.cursor.com/prompt-techniques"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to control cost and focus on concise answers.",
+      "scenario": "When generating short code snippets or explanations.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.cursor.com/max-tokens"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables detailed logging for debugging purposes.",
+      "scenario": "When troubleshooting API integration issues.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.cursor.com/cli-flags"
+    },
+    {
+      "command": "Use examples to clarify your request.",
+      "description": "Improves model understanding by providing context through examples.",
+      "scenario": "When the model needs to generate code based on specific patterns.",
+      "language": "text",
+      "tags": [
+        "context",
+        "accuracy",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.cursor.com/prompt-techniques"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent hanging processes.",
+      "scenario": "When integrating with systems that require quick responses.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost",
+        "networking"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.cursor.com/cli-flags"
+    },
+    {
+      "command": "Use comments to guide the model's output.",
+      "description": "Instructs the model to follow specific coding styles or guidelines.",
+      "scenario": "When generating code that must adhere to team standards.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.cursor.com/prompt-techniques"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries the API call up to 3 times in case of failure.",
+      "scenario": "When network instability might cause intermittent API failures.",
+      "language": "bash",
+      "tags": [
+        "networking",
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.cursor.com/cli-flags"
+    },
+    {
+      "command": "temperature=0.8",
+      "description": "Increases the randomness of the model's output for creative tasks.",
+      "scenario": "When brainstorming new ideas or generating creative content.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.cursor.com/temperature"
+    },
+    {
+      "command": "Use specific function names to guide code generation.",
+      "description": "Helps the model generate code that matches existing codebases.",
+      "scenario": "When extending functionality in a large codebase with specific naming conventions.",
+      "language": "text",
+      "tags": [
+        "code",
+        "accuracy",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.cursor.com/prompt-techniques"
+    },
+    {
+      "command": "--dry-run",
+      "description": "Simulates the command without making actual changes.",
+      "scenario": "When testing configuration changes or new integrations.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "safety",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.cursor.com/cli-flags"
+    },
+    {
+      "command": "Use bullet points to structure your request.",
+      "description": "Encourages clear and organized responses from the model.",
+      "scenario": "When generating documentation or structured data outputs.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.cursor.com/prompt-techniques"
+    },
+    {
+      "command": "--log-level info",
+      "description": "Sets the logging level to info for general operational logging.",
+      "scenario": "When monitoring API usage without overwhelming detail.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.cursor.com/cli-flags"
+    },
+    {
+      "command": "@Codebase [query]",
+      "description": "Uses the semantic indexing feature to scan the entire repository for context-aware answers rather than just the current file.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Apply diff-only mode",
+      "description": "Instruct the model to output only the specific lines of code that need changing to minimize token usage and prevent full-file rewrites.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use .cursorrules file",
+      "description": "Create a project-specific .cursorrules file in the root directory to enforce permanent coding standards, architectural patterns, and library preferences.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Reference specific files with @[filename]",
+      "description": "Explicitly attach file context to the chat to prevent the model from hallucinating APIs or using outdated versions of local modules.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Iterative Refinement Loop: 'Refactor the above for [constraint]'",
+      "description": "A prompt pattern used to pass the previous output back into the context window to apply specific constraints like 'memory efficiency' or 'O(n) complexity'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

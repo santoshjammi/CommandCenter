@@ -1,0 +1,270 @@
+{
+  "title": "Semantic Kernel Cheat Sheet",
+  "slug": "semantic-kernel",
+  "description": "A practical guide for engineers using Semantic Kernel with API and CLI commands.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the model's responses.",
+      "scenario": "When generating creative content like poetry or storytelling.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://semantic-kernel.com/docs/api-reference#temperature"
+    },
+    {
+      "command": "--model gpt-3.5",
+      "description": "Specifies the AI model version to use.",
+      "scenario": "When you need specific features or capabilities of a certain model version.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "speed",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://semantic-kernel.com/docs/cli-reference#model"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in the response.",
+      "scenario": "When you want to control the length of generated text to save costs.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://semantic-kernel.com/docs/api-reference#max_tokens"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming of responses for real-time applications.",
+      "scenario": "When building a chat application that requires immediate response display.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://semantic-kernel.com/docs/cli-reference#stream"
+    },
+    {
+      "command": "\"Explain the code step by step.\"",
+      "description": "Instructs the model to break down code explanations into steps.",
+      "scenario": "When teaching programming concepts or debugging complex code.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "code",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://semantic-kernel.com/docs/prompt-techniques#step-by-step"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces the likelihood of repeating the same line verbatim.",
+      "scenario": "When generating text that should be diverse and non-repetitive.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://semantic-kernel.com/docs/api-reference#frequency_penalty"
+    },
+    {
+      "command": "--output-format json",
+      "description": "Outputs the result in JSON format for easy parsing.",
+      "scenario": "When integrating the tool with other systems that require JSON input.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "integration"
+      ],
+      "is_curated": true,
+      "man_page": "https://semantic-kernel.com/docs/cli-reference#output-format"
+    },
+    {
+      "command": "\"Summarize the following text.\"",
+      "description": "Prompts the model to generate a summary of the given text.",
+      "scenario": "When you need a concise version of a long document.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://semantic-kernel.com/docs/prompt-techniques#summarization"
+    },
+    {
+      "command": "presence_penalty=0.3",
+      "description": "Encourages the model to introduce new topics in the response.",
+      "scenario": "When you want the model to explore new ideas or topics.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://semantic-kernel.com/docs/api-reference#presence_penalty"
+    },
+    {
+      "command": "--verbose",
+      "description": "Provides detailed logs of the operations being performed.",
+      "scenario": "When debugging issues or understanding the tool's behavior in detail.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://semantic-kernel.com/docs/cli-reference#verbose"
+    },
+    {
+      "command": "\"Translate the following text to Spanish.\"",
+      "description": "Instructs the model to translate text into Spanish.",
+      "scenario": "When building a multilingual application or service.",
+      "language": "text",
+      "tags": [
+        "context",
+        "integration"
+      ],
+      "is_curated": false,
+      "man_page": "https://semantic-kernel.com/docs/prompt-techniques#translation"
+    },
+    {
+      "command": "stop_sequences=[\"\\n\"]",
+      "description": "Defines sequences where the model should stop generating further text.",
+      "scenario": "When you want to control where the output should end, such as after a sentence.",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "control"
+      ],
+      "is_curated": false,
+      "man_page": "https://semantic-kernel.com/docs/api-reference#stop_sequences"
+    },
+    {
+      "command": "\"List the pros and cons of using AI in healthcare.\"",
+      "description": "Prompts the model to generate a balanced view on a topic.",
+      "scenario": "When writing articles or reports that require a balanced perspective.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://semantic-kernel.com/docs/prompt-techniques#balanced-view"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for the operation to complete.",
+      "scenario": "When you need to ensure the operation completes within a certain time frame.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "control"
+      ],
+      "is_curated": false,
+      "man_page": "https://semantic-kernel.com/docs/cli-reference#timeout"
+    },
+    {
+      "command": "KernelFunctionFilter",
+      "description": "Implement a custom filter to intercept and modify function arguments or results globally before/after execution for centralized logging or validation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "KernelMemoryConnector",
+      "description": "Integrate vector databases (e.g., Qdrant, Pinecone) using the KernelMemory abstraction to enable RAG-based long-term memory retrieval.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Handle Function Calling via AutoFunctionInvocation",
+      "description": "Enable 'Function Choice Behavior' to allow the LLM to automatically select and execute multiple registered plugins in a single turn.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "KernelArguments.Bind()",
+      "description": "Use strongly-typed argument binding to map complex object properties directly to function parameters, reducing manual dictionary manipulation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "TelemetryConfiguration",
+      "description": "Attach an OpenTelemetry-compliant exporter to the Kernel to trace the exact execution flow and latency of individual plugin steps in distributed systems.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Kernel.ImportPluginFromType<T>()",
+      "description": "Instantly registers a C# class as a plugin by scanning for [KernelFunction] attributes, enabling seamless tool integration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "FunctionChoiceBehavior.Auto()",
+      "description": "Configures the LLM to dynamically decide which functions to call during a single invocation, enabling complex multi-step reasoning.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "KernelArguments.SetOrUpdate(\"key\", value)",
+      "description": "Dynamically injects runtime context or variables into a prompt template without modifying the underlying template string.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "OpenAIPromptExecutionSettings.ToolCallBehavior",
+      "description": "Advanced parameter to control whether the model returns tool calls immediately or waits for the kernel to execute them automatically.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Kernel.CreateMemoryStore<T>()",
+      "description": "Initializes a specialized vector database connector (like Qdrant or Chroma) to enable RAG (Retrieval-Augmented Generation) workflows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

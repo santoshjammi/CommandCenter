@@ -1,0 +1,249 @@
+{
+  "title": "Kling AI Cheat Sheet",
+  "slug": "kling-ai",
+  "description": "Quick reference for using Kling AI for image generation tasks.",
+  "audience": "non-engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "Create an image of a sunset over the ocean",
+      "description": "Generates an image depicting a sunset over the ocean.",
+      "scenario": "When you need a scenic image for a presentation or social media.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://kling-ai.com/docs#generate-image"
+    },
+    {
+      "command": "Generate a cartoon-style avatar",
+      "description": "Creates a cartoon-style avatar image.",
+      "scenario": "When you want a fun, personalized avatar for online profiles.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://kling-ai.com/docs#avatar"
+    },
+    {
+      "command": "Design a logo for a tech startup",
+      "description": "Produces a logo design suitable for a tech startup.",
+      "scenario": "When starting a new business and need a logo.",
+      "language": "text",
+      "tags": [
+        "design",
+        "images",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://kling-ai.com/docs#logo"
+    },
+    {
+      "command": "Make a vintage-style poster",
+      "description": "Generates a poster with a vintage aesthetic.",
+      "scenario": "When creating promotional material with a retro feel.",
+      "language": "text",
+      "tags": [
+        "design",
+        "images",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://kling-ai.com/docs#poster"
+    },
+    {
+      "command": "Create a fantasy landscape",
+      "description": "Produces an image of a fantasy landscape.",
+      "scenario": "When you need creative artwork for a story or game.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://kling-ai.com/docs#fantasy-landscape"
+    },
+    {
+      "command": "Generate a realistic portrait",
+      "description": "Creates a realistic portrait image.",
+      "scenario": "When you need a lifelike portrait for a project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://kling-ai.com/docs#portrait"
+    },
+    {
+      "command": "Illustrate a children's book scene",
+      "description": "Generates an illustration for a children's book.",
+      "scenario": "When illustrating a scene for a children's book project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://kling-ai.com/docs#childrens-book"
+    },
+    {
+      "command": "Create a futuristic cityscape",
+      "description": "Produces an image of a futuristic city.",
+      "scenario": "When you need a sci-fi themed cityscape for a project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://kling-ai.com/docs#cityscape"
+    },
+    {
+      "command": "Generate a minimalist art piece",
+      "description": "Creates a piece of minimalist art.",
+      "scenario": "When you want simple yet elegant artwork for decor.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://kling-ai.com/docs#minimalist-art"
+    },
+    {
+      "command": "Design a fantasy creature",
+      "description": "Produces an image of a fantasy creature.",
+      "scenario": "When creating characters for a game or story.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://kling-ai.com/docs#fantasy-creature"
+    },
+    {
+      "command": "Make a surreal artwork",
+      "description": "Generates a surreal piece of art.",
+      "scenario": "When you need imaginative and dream-like imagery.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://kling-ai.com/docs#surreal-art"
+    },
+    {
+      "command": "Create a botanical illustration",
+      "description": "Produces a detailed botanical illustration.",
+      "scenario": "When illustrating plants for educational or decorative purposes.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://kling-ai.com/docs#botanical-illustration"
+    },
+    {
+      "command": "Generate a comic strip",
+      "description": "Creates a short comic strip image.",
+      "scenario": "When you want to tell a story or joke in comic form.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://kling-ai.com/docs#comic-strip"
+    },
+    {
+      "command": "Design a custom tattoo",
+      "description": "Produces a design for a custom tattoo.",
+      "scenario": "When you want a unique tattoo design.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://kling-ai.com/docs#tattoo-design"
+    },
+    {
+      "command": "Create a digital collage",
+      "description": "Generates a digital collage from various images.",
+      "scenario": "When you want to combine multiple images into one artwork.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://kling-ai.com/docs#digital-collage"
+    },
+    {
+      "command": "Apply 'Cinematic Lighting' and 'Depth of Field' to a portrait",
+      "description": "Use these specific photography terms to add professional bokeh (blurred background) and dramatic light shadows to any subject.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate an 'Isometric 3D Render' of a room",
+      "description": "Use 'Isometric' to create a clean, 3D miniature-style view often used in game design and icon sets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a 'Double Exposure' effect combining two subjects",
+      "description": "A power-user trick to blend two images (e.g., a forest inside a wolf's silhouette) for high-end artistic results.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'Macro Photography' for extreme close-ups",
+      "description": "Add 'Macro' to your prompt to capture intense detail in small objects like insects, textures, or water droplets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Design an 'Ukiyo-e style' print",
+      "description": "A specific historical art style command that produces beautiful, traditional Japanese woodblock print aesthetics.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

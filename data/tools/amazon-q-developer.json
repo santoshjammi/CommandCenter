@@ -1,0 +1,211 @@
+{
+  "title": "Amazon Q Developer Cheat Sheet",
+  "slug": "amazon-q-developer",
+  "description": "Essential commands and techniques for using Amazon Q Developer effectively.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "--model q-advanced",
+      "description": "Selects the advanced model for complex queries",
+      "scenario": "When handling complex data queries that require deep analysis",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/models.html"
+    },
+    {
+      "command": "temperature=0.3",
+      "description": "Sets the randomness of the model's output",
+      "scenario": "When generating responses that need to be more deterministic and less creative",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/parameters.html#temperature"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming of responses for real-time applications",
+      "scenario": "When building a real-time data analysis dashboard",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/streaming.html"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to use logical reasoning",
+      "scenario": "When solving complex engineering problems that require step-by-step logic",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/prompt-techniques.html"
+    },
+    {
+      "command": "--contextual-awareness",
+      "description": "Enables the model to use contextual information for better results",
+      "scenario": "When integrating with a system that requires understanding of historical data",
+      "language": "bash",
+      "tags": [
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/contextual-awareness.html"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in the response",
+      "scenario": "When you need concise answers to save on processing costs",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/parameters.html#max-tokens"
+    },
+    {
+      "command": "--verbose",
+      "description": "Provides detailed output for debugging purposes",
+      "scenario": "When troubleshooting complex query results",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/verbose.html"
+    },
+    {
+      "command": "Use examples to clarify your request.",
+      "description": "Improves model understanding by providing examples",
+      "scenario": "When the model needs clarification on ambiguous queries",
+      "language": "text",
+      "tags": [
+        "accuracy",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/prompt-techniques.html"
+    },
+    {
+      "command": "--optimize-cost",
+      "description": "Adjusts settings to minimize cost while maintaining performance",
+      "scenario": "When running large-scale data processing tasks on a budget",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/optimization.html"
+    },
+    {
+      "command": "--debug-mode",
+      "description": "Activates debug mode for detailed logging",
+      "scenario": "When needing to trace errors in complex queries",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/debug-mode.html"
+    },
+    {
+      "command": "Use concise language for better results.",
+      "description": "Encourages the model to focus on key information",
+      "scenario": "When you need precise and relevant answers quickly",
+      "language": "text",
+      "tags": [
+        "accuracy",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/prompt-techniques.html"
+    },
+    {
+      "command": "--batch-process",
+      "description": "Enables batch processing for handling multiple queries efficiently",
+      "scenario": "When processing large datasets in parallel to save time",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/batch-processing.html"
+    },
+    {
+      "command": "--use-caching",
+      "description": "Utilizes caching to improve response times for repeated queries",
+      "scenario": "When frequently querying the same data sets to enhance performance",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/q/latest/developer-guide/caching.html"
+    },
+    {
+      "command": "--context-window-limit",
+      "description": "Manually constrain the token window to prioritize specific local files over global repository context to prevent noise.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a Senior Site Reliability Engineer (SRE) to review this code for potential race conditions and memory leaks.",
+      "description": "Role-based persona prompting to shift the model's reasoning from syntax correction to architectural robustness.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--diff-only",
+      "description": "Instructs the assistant to output only the changed lines of code rather than the entire file, reducing latency and token usage.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Analyze the following code and generate a JUnit/PyTest suite covering edge cases and boundary conditions.",
+      "description": "A specific pattern for automated test generation that forces the model to look for failure modes rather than happy paths.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--trace-latency",
+      "description": "Enables detailed timing metrics for each reasoning step, useful for identifying bottlenecks in complex multi-turn prompts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

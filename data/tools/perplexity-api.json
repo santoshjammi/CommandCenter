@@ -1,0 +1,198 @@
+{
+  "title": "Perplexity API Cheat Sheet",
+  "slug": "perplexity-api",
+  "description": "Essential commands and techniques for using the Perplexity API effectively.",
+  "audience": "engineer",
+  "category": "AI Search",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the output; higher values increase creativity",
+      "scenario": "When generating creative writing or brainstorming ideas",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.perplexity.ai/docs#temperature"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the number of tokens in the response to control output length",
+      "scenario": "When you need concise answers for a chatbot",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.perplexity.ai/docs#max_tokens"
+    },
+    {
+      "command": "--model perplexity-3.5",
+      "description": "Specifies the model version to use for the API request",
+      "scenario": "When you need to ensure compatibility with existing systems",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "compatibility"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.perplexity.ai/docs#model"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming of responses for real-time applications",
+      "scenario": "When building a live chat application that requires immediate responses",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.perplexity.ai/docs#stream"
+    },
+    {
+      "command": "prompt=\"Explain the theory of relativity in simple terms.\"",
+      "description": "Crafts a specific prompt to guide the AI's response",
+      "scenario": "When you need a clear and simplified explanation for educational purposes",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces the likelihood of repeating phrases in the output",
+      "scenario": "When generating diverse content such as poetry or music lyrics",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.perplexity.ai/docs#frequency_penalty"
+    },
+    {
+      "command": "presence_penalty=0.3",
+      "description": "Encourages the model to introduce new topics in the conversation",
+      "scenario": "When you want to explore a wide range of ideas in a brainstorming session",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.perplexity.ai/docs#presence_penalty"
+    },
+    {
+      "command": "Think step by step.",
+      "description": "Encourages the model to break down its reasoning process",
+      "scenario": "When solving complex problems that require detailed explanations",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Sets the API key for authenticating requests to the Perplexity API",
+      "scenario": "When making authorized requests to the API",
+      "language": "bash",
+      "tags": [
+        "security",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": "https://api.perplexity.ai/docs#authentication"
+    },
+    {
+      "command": "logprobs=5",
+      "description": "Returns the log probabilities of the top 5 tokens for each step",
+      "scenario": "When analyzing the model's decision-making process for research",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.perplexity.ai/docs#logprobs"
+    },
+    {
+      "command": "stop=[\"\\n\"]",
+      "description": "Defines a stopping sequence to control when the model should stop generating text",
+      "scenario": "When you need to ensure the output ends at a specific point",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "control"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.perplexity.ai/docs#stop"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent hanging",
+      "scenario": "When you need to ensure API requests complete in a timely manner",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "reliability"
+      ],
+      "is_curated": false,
+      "man_page": "https://api.perplexity.ai/docs#timeout"
+    },
+    {
+      "command": "search_domain_restriction",
+      "description": "Use specific site operators within the prompt (e.g., 'site:github.com') to force the Perplexity engine to prioritize technical documentation over general web results.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_role_injection",
+      "description": "Define a persona in the initial prompt to adjust the tone and depth of the search results (e.g., 'Act as a Senior DevOps Engineer analyzing this log').",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "citation_parsing_logic",
+      "description": "Implement regex patterns to extract and map the 'citations' array indices back to the source URLs for building verifiable UI components.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "context_window_management",
+      "description": "Monitor the ratio of search result snippets to user prompt length to prevent context overflow and ensure the most relevant citations are processed.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "error_handling_retry_strategy",
+      "description": "Implement exponential backoff specifically for 429 (Rate Limit) and 503 (Service Unavailable) errors to maintain stability during high-concurrency search tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

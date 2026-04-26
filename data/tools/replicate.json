@@ -1,0 +1,281 @@
+{
+  "title": "Replicate AI Tool Cheat Sheet",
+  "slug": "replicate",
+  "description": "A practical guide for engineers using the Replicate AI tool, covering API and CLI usage.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://replicate.com/docs/reference/temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Runs the GPT-4o model with streaming enabled.",
+      "scenario": "For real-time data processing applications.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://replicate.com/docs/reference/cli"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to reason logically and verify its conclusions.",
+      "scenario": "When developing a complex problem-solving AI.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://replicate.com/docs/reference/prompt-techniques"
+    },
+    {
+      "command": "--max-tokens 150",
+      "description": "Limits the response length to 150 tokens.",
+      "scenario": "To control API costs and response size.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/cli"
+    },
+    {
+      "command": "context_length=2048",
+      "description": "Sets the maximum context length for the model.",
+      "scenario": "When handling large input data for analysis.",
+      "language": "json",
+      "tags": [
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://replicate.com/docs/reference/context-length"
+    },
+    {
+      "command": "--api-key $REPLICATE_API_KEY",
+      "description": "Sets the API key for authentication.",
+      "scenario": "When initializing the CLI for authenticated requests.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://replicate.com/docs/reference/authentication"
+    },
+    {
+      "command": "Use vivid imagery to describe the scene.",
+      "description": "Enhances creative output by prompting for detailed descriptions.",
+      "scenario": "When generating creative writing or storytelling content.",
+      "language": "text",
+      "tags": [
+        "creativity",
+        "vision"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/prompt-techniques"
+    },
+    {
+      "command": "--output-format json",
+      "description": "Specifies JSON as the output format for responses.",
+      "scenario": "When integrating with systems requiring structured data.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "integration"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/cli"
+    },
+    {
+      "command": "model_version='latest'",
+      "description": "Selects the latest version of the model for use.",
+      "scenario": "To ensure the use of the most up-to-date model features.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://replicate.com/docs/reference/model-version"
+    },
+    {
+      "command": "--batch-size 10",
+      "description": "Processes 10 requests in a single batch for efficiency.",
+      "scenario": "When optimizing for throughput in high-load environments.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/cli"
+    },
+    {
+      "command": "Provide a summary of the key points.",
+      "description": "Prompts the model to generate a concise summary.",
+      "scenario": "When creating executive summaries from lengthy reports.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/prompt-techniques"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a 30-second timeout for API requests.",
+      "scenario": "To prevent hanging requests in time-sensitive applications.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/cli"
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Enables detailed logging for troubleshooting.",
+      "scenario": "When diagnosing issues with API requests or responses.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/cli"
+    },
+    {
+      "command": "Use bullet points for clarity.",
+      "description": "Instructs the model to format output as bullet points.",
+      "scenario": "When generating lists or structured content.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "clarity"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/prompt-techniques"
+    },
+    {
+      "command": "--region us-west-2",
+      "description": "Specifies the AWS region for hosting the model.",
+      "scenario": "To optimize latency based on geographical location.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://replicate.com/docs/reference/cli"
+    },
+    {
+      "command": "replicate.predictions.create(input={'prompt': '...'}, webhook='https://your-endpoint.com/webhook')",
+      "description": "Implement asynchronous processing using webhooks to avoid long-polling and connection timeouts during heavy inference tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "replicate.predictions.get(id).status",
+      "description": "Poll the prediction status (starting, processing, succeeded, failed) to implement robust error handling and state management in production pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--num_inference_steps 50",
+      "description": "Fine-tune the balance between generation speed and image/text quality by adjusting the iterative refinement steps in diffusion models.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'Negative Prompts' to explicitly exclude unwanted elements (e.g., 'blurry, low resolution, distorted').",
+      "description": "Enhance output precision by defining what the model should NOT include in the generation process.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "replicate.predictions.create(input={'image': open('input.jpg', 'rb')})",
+      "description": "Directly stream local binary file objects to the API to optimize multi-modal inputs without manual base64 encoding.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "replicate.predictions.create(input={...}, poll=False)",
+      "description": "Asynchronous execution pattern: Use poll=False to immediately receive a prediction object without waiting for completion, preventing client-side timeouts during long-running tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--safety_checker=false",
+      "description": "Advanced API parameter: Disable the default safety filter for specific research or uncensored creative workflows where content moderation might interfere with intended outputs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "replicate.predictions.create(input={...}, webhooks_events=['completed', 'failed'])",
+      "description": "Granular Webhook Control: Specify exactly which lifecycle events trigger your endpoint to reduce unnecessary server noise and optimize webhook processing logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Prompt Pattern: 'Act as a [Role]. Output only the raw data in [Format] without preamble or markdown blocks.'",
+      "description": "Prompt Engineering: Reduces token waste and parsing errors by forcing the model to skip conversational filler (e.g., 'Here is your JSON...') which often breaks automated pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "replicate.predictions.get(id).wait()",
+      "description": "Debugging/Performance: A synchronous blocking call that simplifies local script execution by pausing the thread until the prediction is ready, useful for CLI-based testing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

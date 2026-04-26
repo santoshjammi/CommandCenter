@@ -1,0 +1,267 @@
+{
+  "title": "Writesonic Cheat Sheet",
+  "slug": "writesonic",
+  "description": "Quick reference for everyday Writesonic commands and tips.",
+  "audience": "non-engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "Generate blog post ideas",
+      "description": "Provides a list of creative blog post ideas.",
+      "scenario": "When you're stuck on what to write about next.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": true,
+      "man_page": "https://writesonic.com/blog-ideas"
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for better understanding.",
+      "scenario": "When a text is too complex for your audience.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://writesonic.com/rephrase"
+    },
+    {
+      "command": "Summarise this in 3 bullet points",
+      "description": "Condenses text into three main points.",
+      "scenario": "When you need a quick summary of a document.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://writesonic.com/summarize"
+    },
+    {
+      "command": "Generate a catchy headline",
+      "description": "Creates an engaging headline for your content.",
+      "scenario": "When you need an attention-grabbing title.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": true,
+      "man_page": "https://writesonic.com/headline"
+    },
+    {
+      "command": "Create a product description",
+      "description": "Generates a compelling product description.",
+      "scenario": "When you need to describe a product for a listing.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain"
+      ],
+      "is_curated": true,
+      "man_page": "https://writesonic.com/product-description"
+    },
+    {
+      "command": "Write a social media post",
+      "description": "Crafts a post for social media platforms.",
+      "scenario": "When you need to engage your audience on social media.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://writesonic.com/social-media"
+    },
+    {
+      "command": "Expand this into a full article",
+      "description": "Transforms a brief idea into a detailed article.",
+      "scenario": "When you have a topic but need more content.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": "https://writesonic.com/article-writer"
+    },
+    {
+      "command": "Generate a list of FAQs",
+      "description": "Creates frequently asked questions for a topic.",
+      "scenario": "When you need to address common customer queries.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": false,
+      "man_page": "https://writesonic.com/faq-generator"
+    },
+    {
+      "command": "Translate this text to Spanish",
+      "description": "Translates text from English to Spanish.",
+      "scenario": "When you need to communicate with a Spanish-speaking audience.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://writesonic.com/translator"
+    },
+    {
+      "command": "Create an email campaign",
+      "description": "Generates content for an email marketing campaign.",
+      "scenario": "When you need to reach out to customers via email.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://writesonic.com/email-campaign"
+    },
+    {
+      "command": "Generate a press release",
+      "description": "Creates a professional press release document.",
+      "scenario": "When announcing a new product or service.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": "https://writesonic.com/press-release"
+    },
+    {
+      "command": "Write a LinkedIn bio",
+      "description": "Crafts a professional bio for LinkedIn.",
+      "scenario": "When updating your LinkedIn profile.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://writesonic.com/linkedin-bio"
+    },
+    {
+      "command": "Create a video script",
+      "description": "Generates a script for video content.",
+      "scenario": "When planning a video production.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": "https://writesonic.com/video-script"
+    },
+    {
+      "command": "Generate a list of keywords",
+      "description": "Provides a list of SEO keywords for content.",
+      "scenario": "When optimizing content for search engines.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "research"
+      ],
+      "is_curated": false,
+      "man_page": "https://writesonic.com/keyword-generator"
+    },
+    {
+      "command": "Change the tone to [Professional/Witty/Empathetic]",
+      "description": "Adjust the emotional resonance and personality of your text to match a specific brand voice.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a comparison table between [Product A] and [Product B]",
+      "description": "Transform unstructured data or feature lists into a clean, organized markdown table.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a [Persona, e.g., Marketing Expert] and critique this text",
+      "description": "Use role-prompting to receive constructive feedback and suggestions for improvement from a specific perspective.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Turn this text into a step-by-step tutorial",
+      "description": "Convert long-form prose or messy notes into a structured, instructional guide with numbered steps.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate 5 counter-arguments to this claim",
+      "description": "Identify potential weaknesses or opposing viewpoints in your writing to strengthen your logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract actionable takeaways from this transcript/text",
+      "description": "Identify and list specific tasks, deadlines, or lessons learned from a long piece of content.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a 7-day content calendar based on [Topic]",
+      "description": "Generate a structured weekly schedule of post ideas to maintain consistent social media presence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this text for a [Specific Platform, e.g., Instagram/Twitter] audience",
+      "description": "Optimize the formatting, length, and style specifically for the nuances of a particular social network.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a list of 'Hook' variations for this intro",
+      "description": "Create multiple attention-grabbing opening sentences to test which one performs best.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this article into a newsletter format",
+      "description": "Transform long-form content into a digestible, engaging email newsletter layout with a subject line.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

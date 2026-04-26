@@ -1,0 +1,224 @@
+{
+  "title": "Pieces for Developers Cheat Sheet",
+  "slug": "pieces-for-developers",
+  "description": "Quick reference for using Pieces for Developers effectively in coding tasks.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Enables streaming output with the GPT-4o model for real-time feedback.",
+      "scenario": "When you need real-time code suggestions while typing in an IDE.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.pieces.app/cli"
+    },
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the model's creativity level to low for more deterministic outputs.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "cost",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.pieces.app/api"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to 150 tokens to control output size.",
+      "scenario": "When generating concise code snippets or explanations.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.pieces.app/api"
+    },
+    {
+      "command": "--context-length 4096",
+      "description": "Sets the context length to 4096 tokens for handling larger inputs.",
+      "scenario": "When processing large codebases or documents.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.pieces.app/cli"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to reason through problems methodically.",
+      "scenario": "When debugging complex algorithms or logic errors.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--dry-run",
+      "description": "Simulates the command execution without making any changes.",
+      "scenario": "When testing scripts to ensure they perform as expected.",
+      "language": "bash",
+      "tags": [
+        "safety",
+        "testing"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.pieces.app/cli"
+    },
+    {
+      "command": "--verbose",
+      "description": "Increases the output verbosity for debugging purposes.",
+      "scenario": "When troubleshooting issues with the AI integration.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.pieces.app/cli"
+    },
+    {
+      "command": "Use concise variable names for clarity.",
+      "description": "Advises the model to generate code with clear and concise variable names.",
+      "scenario": "When generating code snippets for educational purposes.",
+      "language": "text",
+      "tags": [
+        "code",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--api-key <your-api-key>",
+      "description": "Sets the API key for authenticating requests to the Pieces API.",
+      "scenario": "When integrating Pieces into a new development environment.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "integration"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.pieces.app/cli"
+    },
+    {
+      "command": "log_level=debug",
+      "description": "Sets the logging level to debug for detailed logs.",
+      "scenario": "When needing detailed logs for auditing or debugging.",
+      "language": "json",
+      "tags": [
+        "debugging",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.pieces.app/api"
+    },
+    {
+      "command": "--output-format json",
+      "description": "Outputs the response in JSON format for easy parsing.",
+      "scenario": "When integrating with systems that require JSON input.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "integration"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.pieces.app/cli"
+    },
+    {
+      "command": "Use comments to explain complex code sections.",
+      "description": "Instructs the model to include comments in generated code for clarity.",
+      "scenario": "When generating code for collaborative projects.",
+      "language": "text",
+      "tags": [
+        "code",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets the request timeout to 30 seconds to prevent hanging requests.",
+      "scenario": "When dealing with network latency issues.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "networking"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.pieces.app/cli"
+    },
+    {
+      "command": "Use Python for data science tasks.",
+      "description": "Suggests using Python for tasks related to data science due to its libraries.",
+      "scenario": "When recommending languages for specific tasks.",
+      "language": "text",
+      "tags": [
+        "code",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--context-files <path/to/file>",
+      "description": "Inject specific local files into the LLM context to provide codebase-aware code generation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a Senior Staff Engineer. Review this code for architectural scalability and potential race conditions.",
+      "description": "A persona-based prompt engineering pattern to shift the assistant from simple syntax correction to high-level architectural review.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--temperature 0.0",
+      "description": "Set temperature to absolute zero for deterministic, reproducible outputs in unit test generation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--system-prompt \"<prompt>\"",
+      "description": "Define a persistent system role to enforce specific coding standards or library constraints across a session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Analyze the following stack trace and suggest a fix using the 'Chain of Thought' debugging method.",
+      "description": "A debugging technique that forces the assistant to map error logs to specific logic flows before proposing code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

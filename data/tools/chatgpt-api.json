@@ -1,0 +1,198 @@
+{
+  "title": "ChatGPT API Cheat Sheet",
+  "slug": "chatgpt-api",
+  "description": "Essential guide for engineers using the ChatGPT API effectively.",
+  "audience": "engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Controls randomness in the output; higher values for creative tasks.",
+      "scenario": "When generating creative writing or brainstorming ideas.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-temperature"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to manage cost and relevance.",
+      "scenario": "When you need concise answers to save on API costs.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-max_tokens"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming responses for faster interaction.",
+      "scenario": "When building a real-time chat application that requires quick responses.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-stream"
+    },
+    {
+      "command": "--model gpt-4",
+      "description": "Selects the GPT-4 model for more advanced reasoning.",
+      "scenario": "When developing an application that requires complex problem-solving capabilities.",
+      "language": "bash",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/models/gpt-4"
+    },
+    {
+      "command": "prompt=\"Summarize the following text: {text}\"",
+      "description": "Instructs the model to summarize given text.",
+      "scenario": "When creating a tool to generate summaries of articles or documents.",
+      "language": "text",
+      "tags": [
+        "context",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces repetition by penalizing frequent tokens.",
+      "scenario": "When generating diverse content without repeating phrases.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-frequency_penalty"
+    },
+    {
+      "command": "presence_penalty=0.3",
+      "description": "Encourages the model to introduce new topics.",
+      "scenario": "When you want to explore a wide range of topics in a conversation.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-presence_penalty"
+    },
+    {
+      "command": "stop=[\"\\n\"]",
+      "description": "Defines stop sequences to control where the model stops generating text.",
+      "scenario": "When you need the model to stop generating after a certain point.",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-stop"
+    },
+    {
+      "command": "n=3",
+      "description": "Generates multiple completions to choose the best one.",
+      "scenario": "When you want to present multiple options to users for selection.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-n"
+    },
+    {
+      "command": "logprobs=5",
+      "description": "Returns the log probabilities of the top tokens for analysis.",
+      "scenario": "When you need to analyze the model's decision-making process.",
+      "language": "json",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://platform.openai.com/docs/api-reference/completions/create#completions/create-logprobs"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to reason through problems methodically.",
+      "scenario": "When solving complex problems that require logical reasoning.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Sets the API key for authenticating requests.",
+      "scenario": "When initializing the API client to start making requests.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://platform.openai.com/docs/api-reference/authentication"
+    },
+    {
+      "command": "seed=42",
+      "description": "Enables deterministic outputs by setting a specific seed value, useful for debugging and consistent testing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "response_format={ \"type\": \"json_object\" }",
+      "description": "Forces the model to output a valid JSON object. Requires the word 'JSON' to be present in the system or user prompt.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Nucleus sampling: limits the model's vocabulary to a subset of tokens whose cumulative probability reaches the threshold P.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_prompt=\"You are a specialized code reviewer.\"",
+      "description": "Defines the persona and behavioral constraints of the assistant, separating high-level instructions from user input.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "tools=[{ \"type\": \"function\", \"function\": {...} }]",
+      "description": "Enables Function Calling, allowing the model to output structured arguments to call external APIs or local code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

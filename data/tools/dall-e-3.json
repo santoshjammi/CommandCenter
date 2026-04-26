@@ -1,0 +1,236 @@
+{
+  "title": "DALL-E 3 Cheat Sheet",
+  "slug": "dall-e-3",
+  "description": "Quick guide to using DALL-E 3 for image generation.",
+  "audience": "non-engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "Create an image of a futuristic cityscape",
+      "description": "Generates an image of a futuristic city.",
+      "scenario": "When you need a visual for a sci-fi project.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Generate a painting of a sunset over the ocean",
+      "description": "Creates a digital painting of a sunset scene.",
+      "scenario": "For use in a calming, nature-themed design.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Design a logo for a tech startup",
+      "description": "Produces a logo concept for a technology company.",
+      "scenario": "When starting a new tech business and need branding.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "branding"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Visualize a character from a fantasy novel",
+      "description": "Creates an image of a fantasy character.",
+      "scenario": "When illustrating a character for a book or game.",
+      "language": "text",
+      "tags": [
+        "images",
+        "creativity",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Illustrate a historical event",
+      "description": "Generates an illustration of a historical scene.",
+      "scenario": "For educational materials or presentations.",
+      "language": "text",
+      "tags": [
+        "images",
+        "education",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Create an abstract art piece",
+      "description": "Produces an abstract art image.",
+      "scenario": "When you need unique art for a modern space.",
+      "language": "text",
+      "tags": [
+        "images",
+        "art",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Make a cartoon version of a pet",
+      "description": "Generates a cartoon-style image of a pet.",
+      "scenario": "For fun or as a gift for a pet lover.",
+      "language": "text",
+      "tags": [
+        "images",
+        "fun",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Sketch a futuristic vehicle",
+      "description": "Creates a concept sketch of a future vehicle.",
+      "scenario": "For a design project or creative inspiration.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Draw a fantasy landscape",
+      "description": "Generates an image of a fantasy world landscape.",
+      "scenario": "When designing a setting for a game or story.",
+      "language": "text",
+      "tags": [
+        "images",
+        "creativity",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Create a vintage-style poster",
+      "description": "Produces an image of a vintage poster design.",
+      "scenario": "For retro-themed events or marketing.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "branding"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Generate a surreal art piece",
+      "description": "Creates a surrealistic art image.",
+      "scenario": "For artistic projects or personal enjoyment.",
+      "language": "text",
+      "tags": [
+        "images",
+        "art",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Illustrate a children's book page",
+      "description": "Generates an illustration suitable for a children's book.",
+      "scenario": "When creating visual content for kids' literature.",
+      "language": "text",
+      "tags": [
+        "images",
+        "education",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Design a futuristic fashion outfit",
+      "description": "Produces an image of a futuristic clothing design.",
+      "scenario": "For fashion design inspiration or projects.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "fashion"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Create a comic strip panel",
+      "description": "Generates a single panel for a comic strip.",
+      "scenario": "When illustrating a comic or graphic novel.",
+      "language": "text",
+      "tags": [
+        "images",
+        "design",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.openai.com/en/articles/6783456-dall-e-3-guide"
+    },
+    {
+      "command": "Add 'aspect ratio 16:9' or 'aspect ratio 9:16' to change image orientation for presentations or mobile screens",
+      "description": "Control the shape of your image to fit specific formats like cinematic wide-screen or vertical social media stories.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'in the style of [Specific Medium]' such as 'claymation', 'isometric 3D render', or 'watercolor' to control texture",
+      "description": "Go beyond general art styles by specifying exact physical mediums to get highly consistent visual textures.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Describe a 'top-down bird's eye view' or 'macro close-up shot' to control camera perspective",
+      "description": "Direct the 'camera' of the AI to change the scale and angle of the subject for more professional compositions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Request a 'flat vector illustration with a limited color palette' for professional UI/UX assets",
+      "description": "A specific workflow for creating clean, modern icons and website graphics that are easy to integrate into designs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'consistent character' prompts by describing a character's specific unique features in detail across multiple prompts",
+      "description": "A technique to maintain visual continuity for a character when generating multiple different scenes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

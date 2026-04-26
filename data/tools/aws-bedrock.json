@@ -1,0 +1,269 @@
+{
+  "title": "AWS Bedrock Cheat Sheet",
+  "slug": "aws-bedrock",
+  "description": "A practical guide for engineers using AWS Bedrock for AI model deployment and management.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Enables streaming mode for the GPT-4o model",
+      "scenario": "When you need real-time responses from the AI model in a chatbot application",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "speed",
+        "AI Chatbot"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/streaming.html"
+    },
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the model's response randomness to low for deterministic outputs",
+      "scenario": "When building a code review bot that needs deterministic output",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/temperature.html"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in a response",
+      "scenario": "When you need concise answers to save on processing costs",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/max-tokens.html"
+    },
+    {
+      "command": "--region us-west-2",
+      "description": "Specifies the AWS region for Bedrock operations",
+      "scenario": "When deploying models closer to your user base to reduce latency",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cloud"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/regions.html"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages the model to reason through problems methodically",
+      "scenario": "When solving complex engineering problems that require logical reasoning",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-techniques.html"
+    },
+    {
+      "command": "--endpoint-url https://bedrock.us-west-2.amazonaws.com",
+      "description": "Sets a custom endpoint URL for API requests",
+      "scenario": "When using a specific endpoint for compliance or testing purposes",
+      "language": "bash",
+      "tags": [
+        "networking",
+        "cloud"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/endpoints.html"
+    },
+    {
+      "command": "\"Use bullet points for clarity.\"",
+      "description": "Instructs the model to format responses with bullet points",
+      "scenario": "When generating reports or documentation that require clear formatting",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "clarity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/formatting.html"
+    },
+    {
+      "command": "--profile admin",
+      "description": "Uses a specific AWS CLI profile for authentication",
+      "scenario": "When managing multiple AWS accounts and needing to switch contexts",
+      "language": "bash",
+      "tags": [
+        "security",
+        "cloud"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html"
+    },
+    {
+      "command": "\"Provide examples for better understanding.\"",
+      "description": "Prompts the model to include examples in its responses",
+      "scenario": "When teaching new concepts or explaining complex ideas",
+      "language": "text",
+      "tags": [
+        "context",
+        "clarity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-techniques.html"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables verbose output for debugging purposes",
+      "scenario": "When troubleshooting API requests or model behavior",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-verbose.html"
+    },
+    {
+      "command": "\"Summarize the above content.\"",
+      "description": "Instructs the model to provide a summary of previous content",
+      "scenario": "When needing a quick overview of lengthy discussions or documents",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-techniques.html"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to avoid hanging operations",
+      "scenario": "When ensuring API requests do not exceed a certain duration",
+      "language": "bash",
+      "tags": [
+        "networking",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-timeouts.html"
+    },
+    {
+      "command": "\"Explain as if to a beginner.\"",
+      "description": "Prompts the model to simplify explanations for beginners",
+      "scenario": "When writing educational content or onboarding new team members",
+      "language": "text",
+      "tags": [
+        "clarity",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-techniques.html"
+    },
+    {
+      "command": "--dry-run",
+      "description": "Simulates a command without making actual changes",
+      "scenario": "When testing configuration changes before applying them",
+      "language": "bash",
+      "tags": [
+        "safety",
+        "debugging"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-dryrun.html"
+    },
+    {
+      "command": "modelId: 'amazon.titan-text-express-v1' + stop_sequences=['\n\n']",
+      "description": "Use stop sequences to prevent the model from hallucinating additional content or continuing past a specific logical boundary.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Adjust Nucleus Sampling to control the diversity of the output by selecting the smallest set of tokens whose cumulative probability exceeds the threshold.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Prompt Pattern: [Context] + [Few-Shot Examples] + [Task]",
+      "description": "Implement Few-Shot prompting by providing 2-3 input/output pairs within the prompt to significantly improve pattern recognition and output format adherence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws bedrock-runtime invoke-model --body fileb://request.json",
+      "description": "Use the 'fileb://' prefix in the AWS CLI to pass complex, multi-line JSON payloads from a local file instead of escaping strings in the terminal.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Guardrail Implementation: 'applyGuardrail' via Bedrock Agent API",
+      "description": "Integrate Amazon Bedrock Guardrails to filter PII (Personally Identifiable Information) and toxic content at the inference layer before the response reaches the user.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "modelId: 'anthropic.claude-3-sonnet-20240229-v1:0' + top_k=250",
+      "description": "Adjust top_k parameter to control the diversity of the sampling pool, specifically useful for Claude models to balance creativity and coherence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws bedrock-runtime list-provisioned-model-throughput",
+      "description": "Use this CLI command to audit and manage dedicated throughput capacity for high-traffic production workloads to avoid throttling.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Prompt Pattern: [System Prompt] + [User Input] + [XML Tags <context></context>]",
+      "description": "Leverage XML-style delimiters to prevent prompt injection and help Claude-family models distinguish between instructions and data.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws bedrock-agent create-agent --agent-action-group 'actionGroupName' + 'apiSchema'",
+      "description": "Define custom action groups using OpenAPI schemas to enable Bedrock Agents to call specific Lambda functions or external APIs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Enable 'inferenceConfig' with 'presence_penalty' and 'frequency_penalty'",
+      "description": "Fine-tune output variety by penalizing tokens based on their existing frequency or presence in the generated text to reduce repetitive loops.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

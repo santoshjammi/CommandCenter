@@ -1,0 +1,224 @@
+{
+  "title": "GitHub Copilot Cheat Sheet",
+  "slug": "github-copilot",
+  "description": "A practical guide for engineers using GitHub Copilot for coding assistance.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "// Write a function to calculate the factorial of a number",
+      "description": "Generate a function implementation based on a descriptive comment.",
+      "scenario": "When you need to quickly implement a common algorithm without writing it from scratch.",
+      "language": "text",
+      "tags": [
+        "code",
+        "speed",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "ctrl+enter",
+      "description": "Trigger Copilot to suggest code completions in the editor.",
+      "scenario": "When you want to see code suggestions for the current line or block.",
+      "language": "text",
+      "tags": [
+        "speed",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Create a REST API endpoint for user login",
+      "description": "Prompt Copilot to generate code for a REST API endpoint.",
+      "scenario": "When building backend services and needing boilerplate code.",
+      "language": "text",
+      "tags": [
+        "code",
+        "speed",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Explain this code",
+      "description": "Request an explanation of the code snippet below the comment.",
+      "scenario": "When reviewing unfamiliar code and needing a quick understanding.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Add error handling to this function",
+      "description": "Enhance a function with error handling mechanisms.",
+      "scenario": "When improving code robustness by adding error checks.",
+      "language": "text",
+      "tags": [
+        "code",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Optimize this function for performance",
+      "description": "Prompt Copilot to suggest performance improvements for a function.",
+      "scenario": "When needing to enhance the efficiency of existing code.",
+      "language": "text",
+      "tags": [
+        "speed",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Write unit tests for this function",
+      "description": "Generate unit tests for a given function.",
+      "scenario": "When ensuring code reliability by adding tests.",
+      "language": "text",
+      "tags": [
+        "code",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Convert this function to use async/await",
+      "description": "Refactor a function to use async/await syntax for asynchronous operations.",
+      "scenario": "When modernizing code to use asynchronous patterns.",
+      "language": "text",
+      "tags": [
+        "code",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Document this function",
+      "description": "Generate documentation comments for a function.",
+      "scenario": "When improving code documentation for better maintainability.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Implement a binary search algorithm",
+      "description": "Prompt Copilot to generate a binary search algorithm implementation.",
+      "scenario": "When needing a quick implementation of a common search algorithm.",
+      "language": "text",
+      "tags": [
+        "code",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Create a class for a bank account with deposit and withdraw methods",
+      "description": "Generate a class structure with specified methods.",
+      "scenario": "When designing object-oriented components quickly.",
+      "language": "text",
+      "tags": [
+        "code",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Refactor this code to improve readability",
+      "description": "Prompt Copilot to suggest code refactoring for better readability.",
+      "scenario": "When enhancing code maintainability by improving readability.",
+      "language": "text",
+      "tags": [
+        "code",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Generate a SQL query to find all users older than 30",
+      "description": "Prompt Copilot to create a SQL query based on a natural language description.",
+      "scenario": "When writing database queries without remembering exact SQL syntax.",
+      "language": "text",
+      "tags": [
+        "code",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "// Create a Dockerfile for a Node.js application",
+      "description": "Generate a Dockerfile setup for containerizing a Node.js app.",
+      "scenario": "When setting up containerization for a Node.js project.",
+      "language": "text",
+      "tags": [
+        "code",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.github.com/en/copilot"
+    },
+    {
+      "command": "/fix",
+      "description": "Use the slash command in Copilot Chat to automatically identify and propose fixes for syntax errors or logical bugs in the selected code block.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "// Convert this code to TypeScript and define interfaces for all objects",
+      "description": "A prompt engineering pattern to migrate dynamic languages or plain JavaScript to strictly typed TypeScript by generating necessary type definitions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ctrl+i (Inline Chat)",
+      "description": "Open the inline chat interface directly within the editor to perform quick, contextual code modifications without switching to the sidebar.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "// Create a mock implementation of this interface for testing",
+      "description": "A prompt pattern to accelerate test development by generating boilerplate mock objects and data structures based on existing type definitions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "// Add JSDoc comments with @param and @returns types",
+      "description": "A specific documentation pattern to ensure Copilot generates standardized, IDE-friendly documentation that improves IntelliSense hover previews.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

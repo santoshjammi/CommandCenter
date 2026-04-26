@@ -1,0 +1,232 @@
+{
+  "title": "OpenAI Codex Cheat Sheet",
+  "slug": "openai-codex",
+  "description": "A practical guide for engineers using OpenAI Codex for coding assistance.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the randomness of the model's output.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Selects the model version and enables streaming responses.",
+      "scenario": "When you need real-time code suggestions in an IDE.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/api-reference/models"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to reason through problems methodically.",
+      "scenario": "When debugging complex algorithms and need logical reasoning.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to control costs.",
+      "scenario": "When generating concise code snippets to save on API usage.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "--temperature 0.7",
+      "description": "Balances creativity and determinism in the output.",
+      "scenario": "When generating creative code solutions with some variability.",
+      "language": "bash",
+      "tags": [
+        "creativity",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "Use comments to clarify the task.",
+      "description": "Improves model understanding by providing context.",
+      "scenario": "When generating complex functions and need precise output.",
+      "language": "text",
+      "tags": [
+        "context",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces repetition in the output.",
+      "scenario": "When generating code with varied function names and structures.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "--stop 'END'",
+      "description": "Defines a stopping sequence for the model's output.",
+      "scenario": "When you want to terminate code generation at a specific point.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "control",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "Provide examples of input and output.",
+      "description": "Guides the model by showing expected patterns.",
+      "scenario": "When training the model to generate specific code formats.",
+      "language": "text",
+      "tags": [
+        "context",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "presence_penalty=0.3",
+      "description": "Encourages the model to introduce new concepts.",
+      "scenario": "When exploring new coding paradigms or libraries.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "--logprobs 5",
+      "description": "Returns the log probabilities of top tokens.",
+      "scenario": "When analyzing the model's decision-making process for debugging.",
+      "language": "bash",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "Use specific function names.",
+      "description": "Directs the model to generate code with predefined structures.",
+      "scenario": "When integrating generated code into existing codebases.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--n 3",
+      "description": "Generates multiple completions for comparison.",
+      "scenario": "When evaluating different code solutions for a problem.",
+      "language": "bash",
+      "tags": [
+        "creativity",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "temperature=0.0",
+      "description": "Ensures the most deterministic output possible.",
+      "scenario": "When exact code replication is necessary for compliance or testing.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://beta.openai.com/docs/api-reference/parameter-details"
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Use nucleus sampling to limit the model's vocabulary to the most likely tokens, improving coherence without the rigidity of temperature=0.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_fingerprint analysis",
+      "description": "Monitor the 'system_fingerprint' in API responses to detect backend model updates or configuration changes that might affect output consistency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Few-shot Chain-of-Thought (CoT) Pattern",
+      "description": "Instead of just asking to 'think step by step', provide 2-3 completed examples that include the reasoning process within the prompt to guide logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "JSON Mode (response_format: { 'type': 'json_object' })",
+      "description": "Enforce valid JSON output structure by setting the response format, ensuring the model's output is immediately parsable by your application.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "logit_bias manipulation",
+      "description": "Use the 'logit_bias' parameter to increase or decrease the probability of specific tokens appearing, useful for forcing specific syntax or banning certain words.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

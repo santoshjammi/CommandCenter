@@ -1,0 +1,307 @@
+{
+  "title": "Jasper AI Cheat Sheet",
+  "slug": "jasper-ai",
+  "description": "Quick reference for using Jasper AI effectively in everyday tasks.",
+  "audience": "non-engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "Write a blog post about [topic]",
+      "description": "Generates a full blog post on a specified topic.",
+      "scenario": "When you need to create content for your blog quickly.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Summarise this article",
+      "description": "Provides a concise summary of any given article.",
+      "scenario": "When you need to understand the main points of a long article quickly.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "research",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Rephrases text to make it easier to understand.",
+      "scenario": "When an email or document is too complex.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Generate ideas for [topic]",
+      "description": "Creates a list of ideas related to a specified topic.",
+      "scenario": "When brainstorming for new project or content ideas.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Create a social media post about [topic]",
+      "description": "Drafts a social media post for a specified topic.",
+      "scenario": "When you need engaging content for social media platforms.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "productivity",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Explain [concept] to a 5-year-old",
+      "description": "Simplifies complex concepts for easy understanding.",
+      "scenario": "When you need to break down complex ideas.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "study",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Translate this text to [language]",
+      "description": "Translates text into another language.",
+      "scenario": "When you need to communicate with someone in a different language.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "List pros and cons of [topic]",
+      "description": "Generates a list of advantages and disadvantages for a topic.",
+      "scenario": "When evaluating options or making decisions.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "research",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Create a catchy headline for [topic]",
+      "description": "Generates an attention-grabbing headline.",
+      "scenario": "When you need a compelling title for an article or post.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Draft an email about [subject]",
+      "description": "Creates a draft email based on the given subject.",
+      "scenario": "When you need to send a professional email quickly.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "productivity",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Summarise this in 3 bullet points",
+      "description": "Condenses information into three main points.",
+      "scenario": "When you need a quick overview of detailed information.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "reformat",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Create a to-do list for [task]",
+      "description": "Generates a list of steps or tasks to complete a project.",
+      "scenario": "When organizing tasks for a project or day.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Provide a detailed explanation of [topic]",
+      "description": "Gives an in-depth explanation of a specified topic.",
+      "scenario": "When you need to understand a topic thoroughly.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "study",
+        "research"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Generate a list of questions about [topic]",
+      "description": "Creates questions to explore a topic further.",
+      "scenario": "When preparing for interviews or research.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "study",
+        "research"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Write a product description for [item]",
+      "description": "Creates an engaging product description.",
+      "scenario": "When listing items for sale online.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Convert this list into a paragraph",
+      "description": "Reformats a list into a cohesive paragraph.",
+      "scenario": "When you need to present list information in narrative form.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "writing",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": "https://help.jasper.ai"
+    },
+    {
+      "command": "Change the tone of this text to [tone, e.g., witty, professional, urgent]",
+      "description": "Adjusts the emotional resonance and stylistic delivery of existing content without changing the core meaning.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a [persona, e.g., marketing expert, travel agent] and critique my [content]",
+      "description": "Uses role-prompting to get specialized feedback or a professional perspective on your drafts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Expand this sentence into a full paragraph about [context]",
+      "description": "Takes a brief thought or bullet point and builds it out into descriptive, flowing prose.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a table comparing [item A] and [item B] based on [criteria]",
+      "description": "Forces Jasper to organize information into a structured, easy-to-read grid format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract the key entities (names, dates, locations) from this text",
+      "description": "Scans long documents to pull out specific data points for quick reference.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Analyze the sentiment of this text and suggest improvements to make it more [positive/persuasive/empathetic]",
+      "description": "Evaluates the emotional undertone of your writing and provides actionable feedback to align with your desired audience reaction.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a 7-day content calendar for [platform] focusing on [niche/topic]",
+      "description": "Generates a structured weekly schedule of post ideas to prevent creator burnout and maintain consistency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Turn this transcript/notes into a structured FAQ section",
+      "description": "Converts messy meeting notes or raw video transcripts into a clean, customer-facing Frequently Asked Questions format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Write a 'Hook, Value, Call-to-Action' framework for this [topic]",
+      "description": "Uses proven marketing structures to ensure social media posts or ads grab attention and drive specific user actions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Identify potential counter-arguments to this argument and provide rebuttals",
+      "description": "Helps strengthen persuasive writing or debate prep by anticipating and addressing opposing viewpoints.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

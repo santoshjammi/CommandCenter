@@ -1,0 +1,268 @@
+{
+  "title": "Google Vertex AI Cheat Sheet",
+  "slug": "google-vertex-ai",
+  "description": "Essential commands and configurations for using Google Vertex AI effectively.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "gcloud ai custom-jobs create --region=us-central1",
+      "description": "Create a custom training job in a specific region.",
+      "scenario": "When deploying a custom model training job on Vertex AI.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "training",
+        "deployment"
+      ],
+      "is_curated": true,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/custom-jobs/create"
+    },
+    {
+      "command": "gcloud ai models upload --region=us-central1 --display-name=my-model",
+      "description": "Upload a model to Vertex AI with a display name.",
+      "scenario": "When you need to upload a trained model to Vertex AI for serving.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "deployment",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/models/upload"
+    },
+    {
+      "command": "gcloud ai endpoints create --region=us-central1",
+      "description": "Create an endpoint for model deployment in a specific region.",
+      "scenario": "When setting up an endpoint to serve predictions from your model.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "deployment",
+        "endpoint"
+      ],
+      "is_curated": true,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/endpoints/create"
+    },
+    {
+      "command": "temperature=0.5",
+      "description": "Set the randomness of the model's output.",
+      "scenario": "When you want a balance between creativity and determinism in model responses.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai endpoints deploy-model --model=my-model-id --endpoint=my-endpoint-id",
+      "description": "Deploy a model to a specific endpoint.",
+      "scenario": "When you need to deploy a model to an endpoint for serving predictions.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "deployment",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/endpoints/deploy-model"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Prompt technique to improve reasoning in model responses.",
+      "scenario": "When you need the model to provide logical and verified answers.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai models list --region=us-central1",
+      "description": "List all models available in a specific region.",
+      "scenario": "When you need to view all models deployed in a region on Vertex AI.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "model",
+        "management"
+      ],
+      "is_curated": false,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/models/list"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Use the GPT-4o model with streaming enabled.",
+      "scenario": "When you need real-time predictions from the model.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "speed",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai endpoints list --region=us-central1",
+      "description": "List all endpoints in a specific region.",
+      "scenario": "When managing or auditing endpoints in Vertex AI.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "endpoint",
+        "management"
+      ],
+      "is_curated": false,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/endpoints/list"
+    },
+    {
+      "command": "gcloud ai custom-jobs describe custom-job-id",
+      "description": "Describe a custom job to get details about its configuration and status.",
+      "scenario": "When you need to check the status or details of a custom training job.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "training",
+        "management"
+      ],
+      "is_curated": false,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/custom-jobs/describe"
+    },
+    {
+      "command": "gcloud ai models delete model-id --region=us-central1",
+      "description": "Delete a model from Vertex AI in a specific region.",
+      "scenario": "When you need to remove a deprecated or unused model from Vertex AI.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "model",
+        "management"
+      ],
+      "is_curated": false,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/models/delete"
+    },
+    {
+      "command": "Use detailed examples to clarify complex concepts.",
+      "description": "Prompt technique to enhance understanding and clarity in model outputs.",
+      "scenario": "When explaining complex ideas or processes through the model.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai endpoints delete endpoint-id --region=us-central1",
+      "description": "Delete an endpoint in a specific region.",
+      "scenario": "When you need to remove an endpoint that is no longer in use.",
+      "language": "bash",
+      "tags": [
+        "cloud",
+        "endpoint",
+        "management"
+      ],
+      "is_curated": false,
+      "man_page": "https://cloud.google.com/sdk/gcloud/reference/ai/endpoints/delete"
+    },
+    {
+      "command": "gcloud ai prediction-endpoints test-endpoint --endpoint=endpoint-id --instances='{\"prompt\": \"hello\"}'",
+      "description": "Perform a dry-run test on a deployed endpoint using a JSON payload to validate schema before application integration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_p=0.95 & presence_penalty=0.6",
+      "description": "Advanced sampling parameters: top_p controls nucleus sampling diversity, while presence_penalty reduces word repetition in long-form generation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai custom-jobs batch-predict --model=model-id --display-name=batch-job --input-config=input-uri --output-config=output-uri",
+      "description": "Execute high-throughput asynchronous batch prediction jobs on large datasets stored in Cloud Storage instead of real-time requests.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Few-shot prompting with JSON Schema enforcement",
+      "description": "Pattern: Provide 3-5 input/output pairs in the prompt and explicitly define a JSON schema to force the model to output structured data.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai models list --filter='display_name:my-model*' --format='value(name)'",
+      "description": "Use gcloud filters and output formatting to programmatically retrieve only the resource ID of a model matching a specific name pattern.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai reasoningengine create --location=us-central1 --display-name=my-agent",
+      "description": "Deploy a LangChain-based agent using Vertex AI Reasoning Engine (Managed Service) to orchestrate complex tool-calling workflows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_k=40 & stop_sequences=['\\n', 'User:']",
+      "description": "Control token sampling diversity and prevent model hallucination/runaway generation by defining explicit termination strings.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai endpoints predict --endpoint=endpoint-id --instances='...' --json-request",
+      "description": "Use the --json-request flag to bypass shell escaping issues when sending complex, nested JSON payloads to Vertex AI prediction endpoints.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Chain-of-Verification (CoVe) Prompting Pattern",
+      "description": "A prompt engineering technique where the model generates an initial response, identifies potential errors, and then performs a self-correction step to increase factual accuracy.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud ai custom-jobs create --machine-type=n1-standard-8 --accelerator=type=NVIDIA_TESLA_T4,count=1",
+      "description": "Explicitly specify hardware acceleration (GPUs) and machine types for custom training jobs to optimize cost and training throughput.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

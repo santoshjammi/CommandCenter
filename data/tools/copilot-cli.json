@@ -1,0 +1,210 @@
+{
+  "title": "Copilot CLI Cheat Sheet",
+  "slug": "copilot-cli",
+  "description": "A practical guide for engineers using Copilot CLI for efficient coding assistance.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "copilot init",
+      "description": "Initialize a new Copilot application.",
+      "scenario": "When starting a new project and you want to set up Copilot quickly.",
+      "language": "bash",
+      "tags": [
+        "setup",
+        "speed",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/init/"
+    },
+    {
+      "command": "copilot svc deploy",
+      "description": "Deploy a service to your environment.",
+      "scenario": "When you need to deploy changes to a service in your application.",
+      "language": "bash",
+      "tags": [
+        "deployment",
+        "cloud",
+        "automation"
+      ],
+      "is_curated": true,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/svc-deploy/"
+    },
+    {
+      "command": "copilot env init",
+      "description": "Create a new environment for your application.",
+      "scenario": "When setting up a new environment for testing or production.",
+      "language": "bash",
+      "tags": [
+        "environment",
+        "setup",
+        "cloud"
+      ],
+      "is_curated": true,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/env-init/"
+    },
+    {
+      "command": "copilot pipeline init",
+      "description": "Set up a new pipeline for continuous delivery.",
+      "scenario": "When automating the deployment process for your application.",
+      "language": "bash",
+      "tags": [
+        "pipeline",
+        "automation",
+        "ci/cd"
+      ],
+      "is_curated": true,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/pipeline-init/"
+    },
+    {
+      "command": "copilot pipeline update",
+      "description": "Update an existing pipeline with new configurations.",
+      "scenario": "When changes are made to the pipeline configuration and need to be applied.",
+      "language": "bash",
+      "tags": [
+        "pipeline",
+        "update",
+        "ci/cd"
+      ],
+      "is_curated": false,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/pipeline-update/"
+    },
+    {
+      "command": "copilot svc show",
+      "description": "Show details about a deployed service.",
+      "scenario": "When you need to inspect the status or configuration of a service.",
+      "language": "bash",
+      "tags": [
+        "inspection",
+        "service",
+        "status"
+      ],
+      "is_curated": false,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/svc-show/"
+    },
+    {
+      "command": "copilot app show",
+      "description": "Display information about the application and its services.",
+      "scenario": "When reviewing the overall setup of your application and its components.",
+      "language": "bash",
+      "tags": [
+        "overview",
+        "application",
+        "status"
+      ],
+      "is_curated": false,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/app-show/"
+    },
+    {
+      "command": "copilot storage init",
+      "description": "Add storage resources to your service.",
+      "scenario": "When your service needs to interact with databases or S3 buckets.",
+      "language": "bash",
+      "tags": [
+        "storage",
+        "database",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/storage-init/"
+    },
+    {
+      "command": "copilot secret init",
+      "description": "Manage secrets for your application.",
+      "scenario": "When you need to securely store and access sensitive information.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "secrets",
+        "management"
+      ],
+      "is_curated": true,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/secret-init/"
+    },
+    {
+      "command": "copilot svc delete",
+      "description": "Remove a service from your application.",
+      "scenario": "When a service is no longer needed and should be removed.",
+      "language": "bash",
+      "tags": [
+        "cleanup",
+        "service",
+        "deletion"
+      ],
+      "is_curated": false,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/svc-delete/"
+    },
+    {
+      "command": "copilot env delete",
+      "description": "Delete an environment and all its resources.",
+      "scenario": "When an environment is no longer needed and should be cleaned up.",
+      "language": "bash",
+      "tags": [
+        "cleanup",
+        "environment",
+        "deletion"
+      ],
+      "is_curated": false,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/env-delete/"
+    },
+    {
+      "command": "copilot app delete",
+      "description": "Delete an application and all its resources.",
+      "scenario": "When you need to completely remove an application and its infrastructure.",
+      "language": "bash",
+      "tags": [
+        "cleanup",
+        "application",
+        "deletion"
+      ],
+      "is_curated": false,
+      "man_page": "https://aws.github.io/copilot-cli/docs/commands/app-delete/"
+    },
+    {
+      "command": "copilot svc logs --follow --tail 100",
+      "description": "Stream real-time service logs with a tail buffer to debug runtime exceptions and deployment failures immediately.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "copilot env export --format json > env_backup.json",
+      "description": "Export the entire environment configuration into a machine-readable JSON format for version control or disaster recovery.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "copilot pipeline validate --dry-run",
+      "description": "Perform a syntax and logic check on pipeline definitions without executing the actual deployment steps.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "copilot app scale --replicas <n> --strategy rolling",
+      "description": "Dynamically adjust application resource allocation and scaling strategies to optimize cost and availability.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "copilot secret rotate --key <id> --version <v>",
+      "description": "Trigger an immediate rotation of sensitive credentials to mitigate security risks during potential leaks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

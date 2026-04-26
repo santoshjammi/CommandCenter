@@ -1,0 +1,268 @@
+{
+  "title": "DSPy Cheat Sheet",
+  "slug": "dspy",
+  "description": "A practical guide for engineers using DSPy, focusing on API parameters, CLI flags, and prompt techniques.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the output, balancing creativity and determinism.",
+      "scenario": "When generating creative content that still needs to adhere to some structure.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://dspy.docs/api#temperature"
+    },
+    {
+      "command": "--model gpt-3.5-turbo",
+      "description": "Selects the specific AI model version for processing requests.",
+      "scenario": "When needing a balance between performance and cost for general tasks.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "speed",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://dspy.docs/cli#model"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in the generated output.",
+      "scenario": "When generating concise responses to save on processing costs.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://dspy.docs/api#max_tokens"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming mode for real-time output.",
+      "scenario": "When building applications that require immediate feedback, like chatbots.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://dspy.docs/cli#stream"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to reason through problems methodically.",
+      "scenario": "When solving complex problems that require logical reasoning.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://dspy.docs/prompt#reasoning"
+    },
+    {
+      "command": "--output-format json",
+      "description": "Specifies the output format for easier parsing and integration.",
+      "scenario": "When integrating AI responses into systems that require structured data.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "integration",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://dspy.docs/cli#output-format"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Discourages repetition by penalizing frequent tokens.",
+      "scenario": "When generating diverse and varied text outputs.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "accuracy",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://dspy.docs/api#frequency_penalty"
+    },
+    {
+      "command": "presence_penalty=0.3",
+      "description": "Encourages the inclusion of new topics in the output.",
+      "scenario": "When aiming for exploratory and broad-ranging content.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "context",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://dspy.docs/api#presence_penalty"
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Sets the logging level to debug for detailed output during development.",
+      "scenario": "When troubleshooting or developing new features with DSPy.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "development",
+        "integration"
+      ],
+      "is_curated": false,
+      "man_page": "https://dspy.docs/cli#log-level"
+    },
+    {
+      "command": "Use concise language and avoid jargon.",
+      "description": "Instructs the model to produce clear and simple outputs.",
+      "scenario": "When generating content for a broad audience with varying expertise levels.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "context",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://dspy.docs/prompt#clarity"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for requests to prevent long-running processes.",
+      "scenario": "When operating in environments with strict time constraints.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost",
+        "integration"
+      ],
+      "is_curated": false,
+      "man_page": "https://dspy.docs/cli#timeout"
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Uses nucleus sampling to limit the token selection to a subset with cumulative probability.",
+      "scenario": "When you want a balance between randomness and reliability in output.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "accuracy",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://dspy.docs/api#top_p"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Automatically retries failed requests up to a specified number of times.",
+      "scenario": "When ensuring reliability in environments with intermittent connectivity.",
+      "language": "bash",
+      "tags": [
+        "reliability",
+        "integration",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://dspy.docs/cli#retry"
+    },
+    {
+      "command": "dspy.teleprompt.BootstrapFewShot(metric=metric)",
+      "description": "Use the BootstrapFewShot optimizer to automatically generate high-quality few-shot demonstrations by bootstrapping successful traces from your training data.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dspy.evaluate(devset, metric, num_threads=10)",
+      "description": "Parallelize evaluation across your dataset using the num_threads parameter to significantly reduce the time required for metric scoring.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dspy.inspect_history(n=1)",
+      "description": "Debug the exact prompt sent to the LLM by inspecting the internal history of calls, allowing you to verify how signatures are being compiled.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dspy.Signature(desc='...', instructions='...')",
+      "description": "Enhance prompt engineering by explicitly defining 'instructions' within a Signature to guide the model's reasoning behavior beyond just input/output fields.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dspy.TypedPredictor(output_type=PydanticModel)",
+      "description": "Enforce strict schema adherence by wrapping predictors with Pydantic models, ensuring the LLM output is structurally valid for downstream code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dspy.configure(lm=my_language_model)",
+      "description": "Sets the global language model instance for all subsequent DSPy modules and signatures in the session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dspy.ProgramOfThought(signature)",
+      "description": "A specialized predictor that instructs the model to generate code or logical steps to solve a problem rather than just text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dspy.teleprompt.MIPROv2(metric=metric, prompt_model=lm, optimizer_model=lm)",
+      "description": "An advanced optimizer that uses Bayesian optimization and Large Language Models to iteratively refine both instructions and few-shot examples.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "lm.inspect_history(n=10)",
+      "description": "Accesses the internal history of the language model object to debug exactly what prompts were sent and what completions were received.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dspy.Assert(condition, error_message)",
+      "description": "Implements programmatic constraints within a DSPy module to trigger retries or error handling if a specific logical condition is not met.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

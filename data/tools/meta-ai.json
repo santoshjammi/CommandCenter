@@ -1,0 +1,234 @@
+{
+  "title": "Meta AI Cheat Sheet",
+  "slug": "meta-ai",
+  "description": "Quick reference for using Meta AI in everyday tasks.",
+  "audience": "non-engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "Summarise this text",
+      "description": "Provides a concise summary of the given text.",
+      "scenario": "When you need a quick overview of a long article.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for easier understanding.",
+      "scenario": "When an email or document is too technical.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Generate ideas for a blog post about AI",
+      "description": "Provides a list of creative ideas for a blog post.",
+      "scenario": "When brainstorming topics for content creation.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Explain this concept to a 5-year-old",
+      "description": "Breaks down complex ideas into simple terms.",
+      "scenario": "When explaining difficult topics to children.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Translate this text to Spanish",
+      "description": "Translates the provided text into Spanish.",
+      "scenario": "When communicating with Spanish-speaking individuals.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Create a to-do list for the day",
+      "description": "Generates a structured to-do list based on your tasks.",
+      "scenario": "When organizing daily activities.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Find recent news about climate change",
+      "description": "Fetches the latest news articles on climate change.",
+      "scenario": "When staying updated on current events.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this list into a table",
+      "description": "Formats a list of items into a table layout.",
+      "scenario": "When needing a structured view of data.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Draft an apology email",
+      "description": "Creates a draft for an apology email.",
+      "scenario": "When you need to apologize formally.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "List pros and cons of remote work",
+      "description": "Provides a list of advantages and disadvantages of remote work.",
+      "scenario": "When evaluating work options.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Summarise this meeting transcript",
+      "description": "Condenses a meeting transcript into key points.",
+      "scenario": "When you need a quick recap of a meeting.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a creative story prompt",
+      "description": "Provides a starting idea for a creative story.",
+      "scenario": "When looking for inspiration to write fiction.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Explain the benefits of meditation",
+      "description": "Outlines the advantages of practicing meditation.",
+      "scenario": "When promoting wellness activities.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a shopping list from this recipe",
+      "description": "Generates a shopping list based on recipe ingredients.",
+      "scenario": "When preparing to cook a new dish.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Find synonyms for 'happy'",
+      "description": "Lists synonyms for the word 'happy'.",
+      "scenario": "When varying language in writing.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a travel agent and plan a 3-day itinerary for Tokyo",
+      "description": "Uses persona prompting to get highly specific, structured travel plans.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Proofread this text for tone and clarity",
+      "description": "Goes beyond simple rewriting to analyze the emotional impact and flow of your writing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a quiz based on this article to test my knowledge",
+      "description": "Turns passive reading into active learning by generating multiple-choice or short-answer questions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Give me a step-by-step guide on how to [insert task]",
+      "description": "Breaks down complex real-world activities into manageable, sequential instructions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Compare [Product A] and [Product B] in a comparison table",
+      "description": "Automates decision-making by organizing feature differences into a visual format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

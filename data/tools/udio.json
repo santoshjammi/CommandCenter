@@ -1,0 +1,286 @@
+{
+  "title": "Udio Cheat Sheet",
+  "slug": "udio",
+  "description": "A practical guide for using Udio AI tool for everyday tasks.",
+  "audience": "non-engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "Summarise this in 3 bullet points",
+      "description": "Creates a concise summary in three main points.",
+      "scenario": "When you need to understand a long article quickly.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for easier understanding.",
+      "scenario": "When an email sounds too formal.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a list of ideas for a blog post",
+      "description": "Provides creative ideas for blog content.",
+      "scenario": "When you're stuck on what to write about.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Translate this text to Spanish",
+      "description": "Translates text from English to Spanish.",
+      "scenario": "When communicating with Spanish-speaking friends.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Create a to-do list from this text",
+      "description": "Extracts tasks and creates a to-do list.",
+      "scenario": "When you need to organize tasks from meeting notes.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "productivity",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Explain this concept like I'm five",
+      "description": "Breaks down complex concepts into simple terms.",
+      "scenario": "When trying to understand a difficult topic.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "writing",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Correct grammar and spelling",
+      "description": "Fixes grammatical errors in text.",
+      "scenario": "When you want to ensure your email is error-free.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this list into a paragraph",
+      "description": "Turns a list into a coherent paragraph.",
+      "scenario": "When you need a narrative instead of bullet points.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a pros and cons list",
+      "description": "Generates a list of advantages and disadvantages.",
+      "scenario": "When evaluating a decision.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Summarise this email in one sentence",
+      "description": "Condenses an email into a single sentence.",
+      "scenario": "When you need a quick overview of an email.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a creative story from this prompt",
+      "description": "Creates a short story based on a given prompt.",
+      "scenario": "When you want to entertain or practice storytelling.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Find similar articles to this",
+      "description": "Searches for articles related to the given text.",
+      "scenario": "When researching a topic and need more sources.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this paragraph into bullet points",
+      "description": "Breaks down a paragraph into key bullet points.",
+      "scenario": "When you need to present information clearly.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a catchy headline for this text",
+      "description": "Creates an engaging headline.",
+      "scenario": "When you need a title for your article or blog post.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Summarise this book chapter",
+      "description": "Provides a summary of a book chapter.",
+      "scenario": "When you need to review a chapter quickly.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Turn this text into a social media caption with emojis",
+      "description": "Transforms long-form content into engaging, bite-sized posts optimized for platforms like Instagram or X (Twitter).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract all dates and action items from this text",
+      "description": "Scans through messy notes or long emails to pull out specific deadlines and tasks into a structured format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Change the tone of this text to be more professional",
+      "description": "Adjusts the vocabulary and structure of a draft to make it suitable for workplace communication or formal settings.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a quiz based on this information",
+      "description": "Generates multiple-choice or true/false questions from a provided text to help with studying or testing knowledge.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Draft a polite response to this message",
+      "description": "Analyzes an incoming message and suggests a courteous and appropriate reply to save time on correspondence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this text in the style of [Famous Person/Author]",
+      "description": "Mimics the unique voice, vocabulary, and sentence structure of a specific historical figure or well-known writer.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a table comparing [Topic A] and [Topic B]",
+      "description": "Organizes complex information into a structured grid format for easy side-by-side comparison.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Identify the main sentiment and emotional tone of this text",
+      "description": "Analyzes whether the writing is positive, negative, neutral, angry, or joyful to help understand subtext.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Turn this text into a script for a [YouTube video/TikTok/Podcast]",
+      "description": "Converts static information into a conversational, engaging dialogue format suitable for audio or video content.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Suggest 5 counter-arguments to the claims made in this text",
+      "description": "Acts as a devil's advocate to help you strengthen your own arguments or prepare for debates.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "title": "Groq AI Tool Cheat Sheet",
+  "slug": "groq",
+  "description": "A practical cheat sheet for engineers using the Groq AI tool, focusing on API parameters, CLI flags, and prompt techniques.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative content where diverse outputs are desired.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://groq.com/docs/api/temperature"
+    },
+    {
+      "command": "--model groq-3 --stream",
+      "description": "Selects the Groq-3 model with streaming output.",
+      "scenario": "When you need real-time responses in a chat application.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://groq.com/docs/cli/model"
+    },
+    {
+      "command": "\"Explain the concept of quantum computing in simple terms.\"",
+      "description": "Prompts the AI to simplify complex topics.",
+      "scenario": "When creating educational content for a general audience.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://groq.com/docs/prompt-engineering"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to control output verbosity.",
+      "scenario": "When integrating with platforms that have character limits.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://groq.com/docs/api/max_tokens"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages logical reasoning and verification in responses.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://groq.com/docs/prompt-engineering"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables detailed logging for debugging purposes.",
+      "scenario": "When troubleshooting API integration issues.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://groq.com/docs/cli/verbose"
+    },
+    {
+      "command": "stop_sequences=[\"\\n\"]",
+      "description": "Defines sequences where the AI should stop generating further text.",
+      "scenario": "When you need to ensure responses end at logical points.",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "accuracy",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://groq.com/docs/api/stop_sequences"
+    },
+    {
+      "command": "\"Generate a list of potential risks for this project.\"",
+      "description": "Prompts the AI to identify risks in project planning.",
+      "scenario": "When conducting a risk assessment for a new project.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "planning"
+      ],
+      "is_curated": false,
+      "man_page": "https://groq.com/docs/prompt-engineering"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces the likelihood of repeating the same line verbatim.",
+      "scenario": "When generating varied and non-repetitive content.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://groq.com/docs/api/frequency_penalty"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent long waits.",
+      "scenario": "When ensuring responsiveness in a time-sensitive application.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://groq.com/docs/cli/timeout"
+    },
+    {
+      "command": "\"Summarize the following text: ...\"",
+      "description": "Prompts the AI to provide a concise summary of a given text.",
+      "scenario": "When needing quick overviews of lengthy documents.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "speed",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://groq.com/docs/prompt-engineering"
+    },
+    {
+      "command": "presence_penalty=0.3",
+      "description": "Encourages the model to introduce new topics in the conversation.",
+      "scenario": "When you want the AI to explore diverse ideas in brainstorming sessions.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://groq.com/docs/api/presence_penalty"
+    },
+    {
+      "command": "\"Translate the following text to French: ...\"",
+      "description": "Prompts the AI to translate text into French.",
+      "scenario": "When creating multilingual content for international audiences.",
+      "language": "text",
+      "tags": [
+        "accuracy",
+        "context",
+        "language"
+      ],
+      "is_curated": true,
+      "man_page": "https://groq.com/docs/prompt-engineering"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries the API request up to 3 times on failure.",
+      "scenario": "When ensuring reliability in network communication.",
+      "language": "bash",
+      "tags": [
+        "reliability",
+        "speed",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://groq.com/docs/cli/retry"
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Nucleus sampling parameter to control the cumulative probability of the next token selection, useful for balancing diversity and coherence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_prompt=\"You are a senior DevOps engineer. Output only JSON.\"",
+      "description": "Defining a system role to enforce strict output formats and persona-driven responses.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "logprobs=True",
+      "description": "Requesting the log probabilities of the tokens to evaluate model confidence and uncertainty in specific outputs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "context_window_management (sliding window)",
+      "description": "Implementing a sliding window strategy to manage long-form conversations and prevent context overflow on LPU inference.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Few-shot prompting (In-context learning)",
+      "description": "Providing 3-5 input-output pairs within the prompt to guide the model toward a specific complex pattern or syntax.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_k=50",
+      "description": "Limits the sampling pool to the top K most likely next tokens to reduce tail-end noise and improve coherence in technical outputs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "JSON Mode: response_format={ \"type\": \"json_object\" }",
+      "description": "Enforces strict JSON output structure at the decoding level, preventing the model from including conversational filler outside the JSON block.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Chain-of-Verification (CoVe) Pattern",
+      "description": "Prompting technique: 'Generate an initial response, then identify potential inaccuracies, then verify each point against facts to provide a final corrected version.'",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Parallel Tool Calling",
+      "description": "Leveraging Groq's speed to execute multiple function calls in a single turn by defining multiple tool definitions in the tools array.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Token Usage Profiling",
+      "description": "Analyzing 'usage' object fields (prompt_tokens, completion_tokens, total_tokens) to calculate cost-per-request and optimize context window utilization.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

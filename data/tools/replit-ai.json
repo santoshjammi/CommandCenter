@@ -1,0 +1,207 @@
+{
+  "title": "Replit AI Cheat Sheet",
+  "slug": "replit-ai",
+  "description": "Quick reference for using Replit AI effectively in coding projects.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets randomness of AI output for creative coding solutions.",
+      "scenario": "When generating creative code snippets or brainstorming new ideas.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.replit.com/ai/temperature"
+    },
+    {
+      "command": "--model gpt-3.5",
+      "description": "Specifies the AI model version for code generation.",
+      "scenario": "When you need a balance between cost and performance in code suggestions.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "code",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.replit.com/ai/models"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages logical reasoning and verification in AI responses.",
+      "scenario": "When debugging complex algorithms or logic-heavy code.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.replit.com/ai/prompt-techniques"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming of AI responses for real-time feedback.",
+      "scenario": "When you need immediate insights or iterative code suggestions.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.replit.com/ai/streaming"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the length of AI-generated code to manage cost and relevance.",
+      "scenario": "When generating short code snippets or functions.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "code",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.replit.com/ai/max-tokens"
+    },
+    {
+      "command": "Provide detailed comments for each code block.",
+      "description": "Instructs AI to include comments for better understanding of generated code.",
+      "scenario": "When teaching or documenting code for educational purposes.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.replit.com/ai/prompt-techniques"
+    },
+    {
+      "command": "--context-length 2048",
+      "description": "Sets the context length for AI to consider in code generation.",
+      "scenario": "When working on large projects requiring extensive context.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "code",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.replit.com/ai/context-length"
+    },
+    {
+      "command": "Use concise variable names.",
+      "description": "Prompts AI to generate code with short, clear variable names.",
+      "scenario": "When optimizing code readability and maintainability.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.replit.com/ai/prompt-techniques"
+    },
+    {
+      "command": "--optimize-cost",
+      "description": "Adjusts AI settings to minimize cost while maintaining output quality.",
+      "scenario": "When running multiple AI queries and managing budget.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.replit.com/ai/cost-optimization"
+    },
+    {
+      "command": "temperature=0.2",
+      "description": "Reduces randomness for deterministic code outputs.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.replit.com/ai/temperature"
+    },
+    {
+      "command": "Provide examples of input and expected output.",
+      "description": "Instructs AI to generate code with example usage scenarios.",
+      "scenario": "When creating functions or APIs that require clear usage examples.",
+      "language": "text",
+      "tags": [
+        "context",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.replit.com/ai/prompt-techniques"
+    },
+    {
+      "command": "--debug-mode",
+      "description": "Enables detailed logging for troubleshooting AI-generated code.",
+      "scenario": "When diagnosing issues with AI suggestions or integrations.",
+      "language": "bash",
+      "tags": [
+        "code",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.replit.com/ai/debug-mode"
+    },
+    {
+      "command": "Act as a Senior Staff Engineer and perform a security audit on this snippet.",
+      "description": "Uses persona prompting to trigger more rigorous code review and vulnerability detection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--top-p 0.9",
+      "description": "Adjusts nucleus sampling to control the diversity of the output tokens, useful for creative coding tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Refactor this code to reduce time complexity from O(n^2) to O(n log n).",
+      "description": "Specific instruction pattern to force the AI to focus on algorithmic efficiency rather than just syntax.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate unit tests using the pytest framework with 100% edge case coverage.",
+      "description": "Directs the AI to focus on boundary conditions and specific testing libraries.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Explain this code using the Feynman Technique.",
+      "description": "A prompt engineering pattern that forces the AI to simplify complex logic into digestible, intuitive explanations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

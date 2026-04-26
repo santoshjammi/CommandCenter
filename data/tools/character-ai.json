@@ -1,0 +1,249 @@
+{
+  "title": "Character.ai Cheat Sheet",
+  "slug": "character-ai",
+  "description": "Quick reference for using Character.ai effectively in everyday scenarios.",
+  "audience": "non-engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "Start a conversation with a character",
+      "description": "Initiates a chat with a chosen character.",
+      "scenario": "When you want to interact with a specific character or persona.",
+      "language": "text",
+      "tags": [
+        "chat",
+        "interaction",
+        "AI"
+      ],
+      "is_curated": true,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Ask for advice on a personal issue",
+      "description": "Provides personal advice based on the character's persona.",
+      "scenario": "When you need guidance or a second opinion on personal matters.",
+      "language": "text",
+      "tags": [
+        "advice",
+        "personal",
+        "AI"
+      ],
+      "is_curated": true,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Generate a creative story",
+      "description": "Creates a unique story based on your prompts.",
+      "scenario": "When you need inspiration or a creative story idea.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "creativity",
+        "story"
+      ],
+      "is_curated": true,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Role-play a scenario",
+      "description": "Simulates a role-playing scenario with the character.",
+      "scenario": "When practicing dialogues or exploring hypothetical situations.",
+      "language": "text",
+      "tags": [
+        "role-play",
+        "simulation",
+        "practice"
+      ],
+      "is_curated": true,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Translate a phrase into another language",
+      "description": "Translates text using the character's language skills.",
+      "scenario": "When you need a quick translation for communication.",
+      "language": "text",
+      "tags": [
+        "translation",
+        "language",
+        "AI"
+      ],
+      "is_curated": true,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Explain a complex topic",
+      "description": "Breaks down complex topics into simpler terms.",
+      "scenario": "When you need help understanding difficult concepts.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "learning",
+        "AI"
+      ],
+      "is_curated": true,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Summarise a document",
+      "description": "Provides a concise summary of a given text.",
+      "scenario": "When you need a quick overview of a long document.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "reading",
+        "AI"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Brainstorm ideas for a project",
+      "description": "Generates creative ideas based on your project needs.",
+      "scenario": "When you're stuck and need fresh ideas for a project.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "creativity",
+        "project"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Rewrite text in a different tone",
+      "description": "Changes the tone of your text to suit different audiences.",
+      "scenario": "When you need to adjust the tone of a message or document.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "tone"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Create a dialogue between two characters",
+      "description": "Simulates a conversation between two chosen characters.",
+      "scenario": "When exploring interactions or writing scripts.",
+      "language": "text",
+      "tags": [
+        "dialogue",
+        "interaction",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Get a character's opinion on a topic",
+      "description": "Provides an opinion based on the character's persona.",
+      "scenario": "When you want to explore different perspectives on a topic.",
+      "language": "text",
+      "tags": [
+        "opinion",
+        "discussion",
+        "AI"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Practice a language with a character",
+      "description": "Engages in conversation to practice language skills.",
+      "scenario": "When learning a new language and needing practice.",
+      "language": "text",
+      "tags": [
+        "language",
+        "practice",
+        "learning"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Simulate a historical event",
+      "description": "Recreates a historical event with characters for learning.",
+      "scenario": "When studying history and wanting an interactive experience.",
+      "language": "text",
+      "tags": [
+        "history",
+        "learning",
+        "simulation"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Ask a character to tell a joke",
+      "description": "Provides a joke based on the character's style.",
+      "scenario": "When you need a quick laugh or icebreaker.",
+      "language": "text",
+      "tags": [
+        "joke",
+        "fun",
+        "interaction"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Explore a character's backstory",
+      "description": "Provides detailed background information on a character.",
+      "scenario": "When you want to learn more about a character's history.",
+      "language": "text",
+      "tags": [
+        "character",
+        "story",
+        "background"
+      ],
+      "is_curated": false,
+      "man_page": "https://character.ai/docs"
+    },
+    {
+      "command": "Use '(OOC: instruction)' for meta-direction",
+      "description": "Use 'Out of Character' notation in parentheses to give the AI direct instructions about the story or formatting without breaking the roleplay immersion.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Force a character's reaction with '*action description*'",
+      "description": "Use asterisks to describe physical actions or non-verbal cues to guide the AI into reacting to your movements rather than just your words.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Iterative 'Swipe' for better responses",
+      "description": "If a response feels off, swipe left on the message to generate an alternative version of that specific reply instead of continuing the conversation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a 'Multi-Character' thread",
+      "description": "Prompt the AI to play multiple distinct characters in a single chat by defining their names and traits in the initial prompt.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Establish a 'World Lore' anchor",
+      "description": "Start a chat by providing a 'Setting Summary' to ensure the AI maintains consistent environmental details and rules throughout the session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

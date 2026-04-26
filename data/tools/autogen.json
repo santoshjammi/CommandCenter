@@ -1,0 +1,255 @@
+{
+  "title": "AutoGen Cheat Sheet",
+  "slug": "autogen",
+  "description": "A practical guide for engineers using AutoGen, covering API, CLI, and advanced features.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative content that requires diverse outputs.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://autogen.ai/docs/temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Uses the GPT-4o model with streaming output.",
+      "scenario": "When building a real-time chatbot that requires immediate responses.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://autogen.ai/docs/models"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the model to reason through problems methodically.",
+      "scenario": "When solving complex engineering problems that require logical reasoning.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://autogen.ai/docs/prompt-techniques"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to save on processing costs.",
+      "scenario": "When generating concise summaries or short answers.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://autogen.ai/docs/max_tokens"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables detailed logging for debugging purposes.",
+      "scenario": "When troubleshooting API calls to understand request and response details.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://autogen.ai/docs/cli"
+    },
+    {
+      "command": "Use markdown format for the response.",
+      "description": "Instructs the model to format the output in markdown.",
+      "scenario": "When generating content for web pages or documentation.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://autogen.ai/docs/formatting"
+    },
+    {
+      "command": "--api-key=YOUR_API_KEY",
+      "description": "Specifies the API key for authentication.",
+      "scenario": "When making secure API requests to the AutoGen service.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "access"
+      ],
+      "is_curated": false,
+      "man_page": "https://autogen.ai/docs/authentication"
+    },
+    {
+      "command": "context_window=2048",
+      "description": "Sets the size of the context window for the model.",
+      "scenario": "When handling large documents or extensive conversations.",
+      "language": "json",
+      "tags": [
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://autogen.ai/docs/context_window"
+    },
+    {
+      "command": "Use examples to clarify your request.",
+      "description": "Provides examples to guide the model's understanding of the task.",
+      "scenario": "When the task is complex and requires specific guidance.",
+      "language": "text",
+      "tags": [
+        "accuracy",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://autogen.ai/docs/examples"
+    },
+    {
+      "command": "--timeout=30",
+      "description": "Sets a timeout for API requests to prevent hanging.",
+      "scenario": "When integrating into systems with strict performance requirements.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "reliability"
+      ],
+      "is_curated": false,
+      "man_page": "https://autogen.ai/docs/timeout"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces the likelihood of repeating the same line verbatim.",
+      "scenario": "When generating varied text in creative writing applications.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://autogen.ai/docs/frequency_penalty"
+    },
+    {
+      "command": "Use bullet points for clarity.",
+      "description": "Instructs the model to use bullet points for list formatting.",
+      "scenario": "When creating structured content like reports or presentations.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "clarity"
+      ],
+      "is_curated": false,
+      "man_page": "https://autogen.ai/docs/list-formatting"
+    },
+    {
+      "command": "--retry=3",
+      "description": "Retries failed API calls up to three times.",
+      "scenario": "When ensuring reliability in network communication.",
+      "language": "bash",
+      "tags": [
+        "reliability",
+        "networking"
+      ],
+      "is_curated": false,
+      "man_page": "https://autogen.ai/docs/retry"
+    },
+    {
+      "command": "register_for_llm",
+      "description": "Decorator used to bind a function to an agent's LLM capabilities, enabling seamless tool-calling workflows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "GroupChatManager(speaker_selection_method='auto')",
+      "description": "Configures the orchestration logic for multi-agent conversations, allowing the manager to dynamically select the next speaker.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "human_input_mode='NEVER'",
+      "description": "Sets the agent to run autonomously without waiting for user intervention, essential for automated testing and CI/CD pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "code_execution_config={'work_dir': 'coding_tasks'}",
+      "description": "Defines a dedicated sandbox directory for agent-generated code execution to prevent file system clutter and improve security.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_message='You are a critic. Identify logical fallacies in the previous response.'",
+      "description": "Implements a 'Critic-Agent' pattern to improve output accuracy through adversarial multi-agent prompting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "GroupChat(speaker_selection_method='round_robin')",
+      "description": "Enforces a strict sequential turn-taking order among agents, preventing a single agent from dominating the conversation loop.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "register_for_execution(name='tool_name')",
+      "description": "A decorator used to bind a Python function to an agent, allowing the LLM to trigger local code execution via tool calling.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "llm_config={'cache_seed': 42}",
+      "description": "Enables semantic caching to reduce API costs and latency by reusing responses for identical or highly similar prompts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "agent.receive(message, sender)",
+      "description": "Manually injects a message into an agent's context window, useful for programmatic state injection or simulating external events.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Use 'Self-Correction' pattern: 'Review your previous code for syntax errors and re-run it if necessary.'",
+      "description": "A prompt engineering technique to trigger an agent's internal feedback loop within a single turn to reduce execution failures.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "title": "Whisper AI Tool Cheat Sheet",
+  "slug": "whisper",
+  "description": "A practical guide for engineers using Whisper AI for transcription and audio processing.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "--model base",
+      "description": "Selects the base model for transcription tasks.",
+      "scenario": "When you need a balance between speed and accuracy for general transcription.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "speed",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/openai/whisper#available-models-and-languages"
+    },
+    {
+      "command": "--language en",
+      "description": "Sets the transcription language to English.",
+      "scenario": "When transcribing English audio files to ensure accurate language processing.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "language",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/openai/whisper#language-options"
+    },
+    {
+      "command": "temperature=0.5",
+      "description": "Adjusts the randomness of transcription output.",
+      "scenario": "When you want a balance between creativity and deterministic transcription results.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/openai/whisper#temperature"
+    },
+    {
+      "command": "--output_format json",
+      "description": "Outputs the transcription in JSON format for easy parsing.",
+      "scenario": "When integrating transcription results into a data pipeline that requires JSON.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "integration",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/openai/whisper#output-format"
+    },
+    {
+      "command": "--task translate",
+      "description": "Translates audio to English while transcribing.",
+      "scenario": "When you need to transcribe and translate non-English audio to English.",
+      "language": "bash",
+      "tags": [
+        "translation",
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/openai/whisper#translation"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables verbose mode to provide detailed processing logs.",
+      "scenario": "When debugging transcription issues or optimizing performance.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "performance",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/openai/whisper#verbose-mode"
+    },
+    {
+      "command": "--fp16 False",
+      "description": "Disables 16-bit floating point precision for compatibility.",
+      "scenario": "When running on hardware that does not support FP16 precision.",
+      "language": "bash",
+      "tags": [
+        "compatibility",
+        "performance",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/openai/whisper#fp16"
+    },
+    {
+      "command": "--beam_size 5",
+      "description": "Sets the beam size for beam search during transcription.",
+      "scenario": "When you need to improve transcription accuracy at the cost of speed.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "speed",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/openai/whisper#beam-search"
+    },
+    {
+      "command": "--best_of 3",
+      "description": "Chooses the best transcription from multiple attempts.",
+      "scenario": "When you want to increase the likelihood of accurate transcription by comparing outputs.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/openai/whisper#best-of"
+    },
+    {
+      "command": "--stream",
+      "description": "Streams audio input for real-time transcription.",
+      "scenario": "When implementing a live transcription service or application.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "speed",
+        "integration"
+      ],
+      "is_curated": true,
+      "man_page": "https://github.com/openai/whisper#streaming"
+    },
+    {
+      "command": "--temperature_increment_on_fallback 0.2",
+      "description": "Increases temperature if initial transcription fails.",
+      "scenario": "When you want to ensure transcription completion by adjusting randomness on failure.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/openai/whisper#temperature-increment"
+    },
+    {
+      "command": "--no_speech_threshold 0.6",
+      "description": "Sets threshold for detecting no speech in audio.",
+      "scenario": "When filtering out silent or non-speech segments from transcription.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "performance",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://github.com/openai/whisper#no-speech-threshold"
+    },
+    {
+      "command": "--initial_prompt \"[Contextual Keywords]\"",
+      "description": "Provides a prompt to guide the model on specific spelling, technical jargon, or punctuation styles, effectively acting as a prefix for the transcription.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--condition_on_previous_text True",
+      "description": "Enables the model to use the context from previous segments to improve consistency, though setting to False can prevent hallucination loops in long silences.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--compression_ratio_threshold 2.4",
+      "description": "A debugging parameter used to detect repetitive loops or hallucinations; if the ratio exceeds this, the segment is considered unreliable.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--suppress_tokens [token_ids]",
+      "description": "Allows developers to pass specific token IDs to prevent the model from generating certain characters or words that are problematic in specific datasets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Faster-Whisper implementation (CTranslate2)",
+      "description": "Use the CTranslate2 backend instead of the standard OpenAI implementation to achieve up to 4x speedup and lower memory footprint via quantization.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--word_timestamps True",
+      "description": "Enables precise timestamping for every individual word, essential for building karaoke-style subtitles or granular audio-to-text alignment.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--vad_filter True",
+      "description": "Utilizes Voice Activity Detection to skip silent segments before processing, significantly reducing compute time and preventing hallucination loops in silent audio.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--prompt '[Style/Format Instructions]'",
+      "description": "Beyond keywords, use this to enforce specific punctuation styles (e.g., 'All caps for emphasis') or to provide a transcript snippet to maintain speaker consistency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Logit Bias Adjustment",
+      "description": "Manually increase the probability of specific technical terms or proper nouns by adjusting logit biases to prevent common misspellings of niche jargon.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Batch Processing via Whisper.cpp",
+      "description": "Leverage the C++ port for highly optimized CPU inference and memory-mapped model loading, ideal for edge devices or low-RAM environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "title": "Midjourney Advanced",
+  "slug": "midjourney-advanced",
+  "description": "Advanced techniques and settings for engineers using Midjourney for image generation.",
+  "audience": "engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "--v 5",
+      "description": "Use version 5 of the Midjourney model for improved image quality.",
+      "scenario": "When generating high-quality images for a professional project.",
+      "language": "bash",
+      "tags": [
+        "quality",
+        "version",
+        "model"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com/version-5/"
+    },
+    {
+      "command": "--aspect 16:9",
+      "description": "Set the aspect ratio of the generated image to 16:9.",
+      "scenario": "When creating images for widescreen displays or presentations.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "aspect",
+        "design"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com/aspect-ratio/"
+    },
+    {
+      "command": "--no water",
+      "description": "Exclude water elements from the image generation.",
+      "scenario": "When generating images that should not contain water elements.",
+      "language": "bash",
+      "tags": [
+        "filtering",
+        "control",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com/exclusions/"
+    },
+    {
+      "command": "--chaos 50",
+      "description": "Increase the randomness and variety in the generated images.",
+      "scenario": "When exploring creative variations and unexpected outcomes.",
+      "language": "bash",
+      "tags": [
+        "creativity",
+        "randomness",
+        "exploration"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com/chaos/"
+    },
+    {
+      "command": "--quality 2",
+      "description": "Double the rendering quality of the generated image.",
+      "scenario": "When the highest possible image quality is required for print.",
+      "language": "bash",
+      "tags": [
+        "quality",
+        "rendering",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com/quality/"
+    },
+    {
+      "command": "--seed 12345",
+      "description": "Set a specific seed for reproducible image generation.",
+      "scenario": "When needing consistent outputs for A/B testing or comparisons.",
+      "language": "bash",
+      "tags": [
+        "consistency",
+        "testing",
+        "control"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com/seeds/"
+    },
+    {
+      "command": "--style 4a",
+      "description": "Apply a specific artistic style to the generated image.",
+      "scenario": "When matching the image style to a specific artistic direction.",
+      "language": "bash",
+      "tags": [
+        "style",
+        "design",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com/styles/"
+    },
+    {
+      "command": "--uplight",
+      "description": "Use a lighter version of the upscale algorithm for faster results.",
+      "scenario": "When needing quick results with reasonable quality.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "upscaling",
+        "efficiency"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com/upscaling/"
+    },
+    {
+      "command": "--tile",
+      "description": "Generate images that can be seamlessly tiled.",
+      "scenario": "When creating textures or patterns for backgrounds.",
+      "language": "bash",
+      "tags": [
+        "pattern",
+        "design",
+        "tiling"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com/tiling/"
+    },
+    {
+      "command": "--ar 1:1",
+      "description": "Set the aspect ratio to 1:1 for square images.",
+      "scenario": "When creating images for social media platforms like Instagram.",
+      "language": "bash",
+      "tags": [
+        "formatting",
+        "aspect",
+        "social"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.midjourney.com/aspect-ratio/"
+    },
+    {
+      "command": "--fast",
+      "description": "Switch to a faster rendering mode at the expense of quality.",
+      "scenario": "When speed is more critical than image quality.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "efficiency",
+        "trade-off"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com/fast-mode/"
+    },
+    {
+      "command": "--stop 50",
+      "description": "Stop the image generation process at 50% completion.",
+      "scenario": "When needing a rough draft or preview quickly.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "preview",
+        "efficiency"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.midjourney.com/stop-command/"
+    },
+    {
+      "command": "--stylize [0-1000]",
+      "description": "Adjusts how strongly Midjourney applies its default artistic training. Higher values increase aesthetic flair but may deviate from prompt literalism.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--weird [0-3000]",
+      "description": "Introduces unconventional, quirky, or offbeat aesthetics to the generation process to break standard AI patterns.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--iw [0-2]",
+      "description": "Image Weight parameter used in image prompting to control the influence of the reference image relative to the text prompt.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "/describe",
+      "description": "Reverse engineering tool: upload an image to receive four text prompt suggestions that would generate similar results.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--repeat [n]",
+      "description": "Batch execution command to run the same prompt multiple times, useful for large-scale dataset generation and sampling.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

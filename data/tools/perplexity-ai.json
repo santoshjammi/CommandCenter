@@ -1,0 +1,223 @@
+{
+  "title": "Perplexity AI Cheat Sheet",
+  "slug": "perplexity-ai",
+  "description": "Quick reference for using Perplexity AI for everyday tasks.",
+  "audience": "non-engineer",
+  "category": "AI Search",
+  "commands": [
+    {
+      "command": "Summarise this article",
+      "description": "Provides a concise summary of a given article.",
+      "scenario": "When you need a quick overview of a lengthy article.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "research",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.perplexity.ai/help/summarise"
+    },
+    {
+      "command": "Explain this concept",
+      "description": "Gives a simple explanation of a complex concept.",
+      "scenario": "When you encounter a difficult topic and need clarification.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "study",
+        "research"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.perplexity.ai/help/explain"
+    },
+    {
+      "command": "List key points",
+      "description": "Extracts and lists the main points from a text.",
+      "scenario": "When you want to capture the essential points from a document.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "research"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.perplexity.ai/help/key-points"
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Rephrases text to make it easier to understand.",
+      "scenario": "When an email or document is too complex.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.perplexity.ai/help/rewrite"
+    },
+    {
+      "command": "Generate ideas for a blog post",
+      "description": "Provides brainstorming ideas for writing a blog post.",
+      "scenario": "When you're stuck and need inspiration for writing.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.perplexity.ai/help/brainstorm"
+    },
+    {
+      "command": "Find similar articles",
+      "description": "Locates articles related to a given topic or article.",
+      "scenario": "When you need more information on a topic.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study",
+        "AI Search"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.perplexity.ai/help/similar-articles"
+    },
+    {
+      "command": "Translate this text",
+      "description": "Translates text from one language to another.",
+      "scenario": "When you need to understand text in a different language.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.perplexity.ai/help/translate"
+    },
+    {
+      "command": "Create a summary in bullet points",
+      "description": "Generates a bullet-point summary of a text.",
+      "scenario": "When you need a structured summary of information.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.perplexity.ai/help/bullet-points"
+    },
+    {
+      "command": "Check facts in this text",
+      "description": "Verifies the accuracy of information in a text.",
+      "scenario": "When you need to ensure the reliability of information.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study",
+        "AI Search"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.perplexity.ai/help/fact-check"
+    },
+    {
+      "command": "Find the author of this article",
+      "description": "Identifies the author of a given article.",
+      "scenario": "When you want to know who wrote an article.",
+      "language": "text",
+      "tags": [
+        "research",
+        "AI Search",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.perplexity.ai/help/find-author"
+    },
+    {
+      "command": "Suggest improvements for this text",
+      "description": "Offers suggestions to enhance the quality of a text.",
+      "scenario": "When you want to improve the clarity or impact of your writing.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "brainstorm"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.perplexity.ai/help/improve-text"
+    },
+    {
+      "command": "Identify the tone of this text",
+      "description": "Analyzes and describes the tone of a text.",
+      "scenario": "When you need to understand the emotional tone of communication.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.perplexity.ai/help/tone-analysis"
+    },
+    {
+      "command": "Find statistics on this topic",
+      "description": "Searches for relevant statistics about a specific topic.",
+      "scenario": "When you need data to support your research or argument.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study",
+        "AI Search"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.perplexity.ai/help/find-statistics"
+    },
+    {
+      "command": "Compare [Topic A] and [Topic B] in a table format",
+      "description": "Asks Perplexity to create a side-by-side comparison of two different subjects, making it easy to see pros, cons, or differences visually.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Find the most recent news about [Topic] from the last 24 hours",
+      "description": "Leverages Perplexity's real-time web searching to filter for extremely current events rather than general knowledge.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Provide a step-by-step guide on how to [Task]",
+      "description": "Instructs the AI to break down a complex process into actionable, sequential instructions based on current web tutorials.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Give me a list of pros and cons for [Product/Decision]",
+      "description": "Forces the AI to provide a balanced perspective on a specific purchase or decision, helping with critical thinking.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Recommend [Product Category] based on these specific criteria: [Criteria]",
+      "description": "Uses Perplexity as a personalized shopping assistant by filtering search results through your specific needs and constraints.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

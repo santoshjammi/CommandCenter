@@ -1,0 +1,223 @@
+{
+  "title": "LlamaIndex Cheat Sheet",
+  "slug": "llamaindex",
+  "description": "A practical guide for engineers using LlamaIndex for AI-driven indexing and search.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "--index-type=vector",
+      "description": "Sets the index type to vector for semantic search capabilities.",
+      "scenario": "When you need to perform semantic search over large text corpora.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "speed",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://llamaindex.ai/docs/cli#vector-index"
+    },
+    {
+      "command": "--optimize-for=latency",
+      "description": "Optimizes the index for low latency queries.",
+      "scenario": "When building a real-time search application requiring fast response times.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://llamaindex.ai/docs/cli#optimization"
+    },
+    {
+      "command": "{\"model\": \"llama-2\", \"temperature\": 0.5}",
+      "description": "Configures the API to use the Llama-2 model with moderate creativity.",
+      "scenario": "When generating creative content that still needs to be somewhat deterministic.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://llamaindex.ai/docs/api#model-config"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming responses for real-time data processing.",
+      "scenario": "When integrating LlamaIndex with a live data feed or dashboard.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://llamaindex.ai/docs/cli#streaming"
+    },
+    {
+      "command": "{\"context_window\": 2048}",
+      "description": "Sets the context window size for processing larger inputs.",
+      "scenario": "When dealing with large documents or datasets that exceed default limits.",
+      "language": "json",
+      "tags": [
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://llamaindex.ai/docs/api#context-window"
+    },
+    {
+      "command": "--cost-limit=10",
+      "description": "Sets a cost limit to manage API usage expenses.",
+      "scenario": "When operating under a strict budget for API calls.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "management"
+      ],
+      "is_curated": false,
+      "man_page": "https://llamaindex.ai/docs/cli#cost-management"
+    },
+    {
+      "command": "{\"use_gpu\": true}",
+      "description": "Enables GPU acceleration for faster processing.",
+      "scenario": "When processing large datasets that require high computational power.",
+      "language": "json",
+      "tags": [
+        "speed",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": "https://llamaindex.ai/docs/api#gpu-support"
+    },
+    {
+      "command": "--batch-size=64",
+      "description": "Configures the batch size for processing multiple queries simultaneously.",
+      "scenario": "When optimizing throughput for bulk query processing.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "performance"
+      ],
+      "is_curated": false,
+      "man_page": "https://llamaindex.ai/docs/cli#batch-processing"
+    },
+    {
+      "command": "\"Summarize the following text: \"",
+      "description": "Prompt technique for generating summaries of input text.",
+      "scenario": "When needing concise summaries of lengthy documents.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "{\"retry_attempts\": 3}",
+      "description": "Sets the number of retry attempts for failed API calls.",
+      "scenario": "When ensuring reliability in network-sensitive applications.",
+      "language": "json",
+      "tags": [
+        "reliability",
+        "networking"
+      ],
+      "is_curated": false,
+      "man_page": "https://llamaindex.ai/docs/api#retry-policy"
+    },
+    {
+      "command": "\"Explain the concept of AI in simple terms.\"",
+      "description": "Prompt technique for simplifying complex topics.",
+      "scenario": "When creating educational content for a non-technical audience.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--log-level=debug",
+      "description": "Sets the logging level to debug for detailed output.",
+      "scenario": "When troubleshooting issues during development or deployment.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "development"
+      ],
+      "is_curated": false,
+      "man_page": "https://llamaindex.ai/docs/cli#logging"
+    },
+    {
+      "command": "{\"enable_cache\": true}",
+      "description": "Enables caching to improve performance for repeated queries.",
+      "scenario": "When optimizing for speed in applications with repetitive queries.",
+      "language": "json",
+      "tags": [
+        "speed",
+        "performance"
+      ],
+      "is_curated": true,
+      "man_page": "https://llamaindex.ai/docs/api#caching"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Prompt technique for enhancing reasoning and accuracy.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "SimpleDirectoryReader(input_files=['data.pdf'], recursive=True)",
+      "description": "Recursively loads files from a directory structure for automated data ingestion.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "query_engine.set_chat_mode('context')",
+      "description": "Configures the query engine to maintain conversational context by injecting previous turns into the prompt.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "VectorStoreIndex.from_documents(documents, transformations=[TokenTextSplitter(chunk_size=512)])",
+      "description": "Defines custom chunking strategies during index creation to optimize retrieval granularity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ServiceContext(llm=llm, embed_model=embed_model, chunk_size=1024)",
+      "description": "Centralizes LLM, embedding, and parsing configurations into a single object for consistent pipeline execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "query_engine.query(\"...\") + retriever.retrieve(\"...\")",
+      "description": "Hybrid approach: combining direct query engine execution with manual retriever inspection for debugging retrieval quality.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "title": "Vercel AI SDK Cheat Sheet",
+  "slug": "vercel-ai-sdk",
+  "description": "Essential commands and techniques for using the Vercel AI SDK effectively.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative content or ideas where variability is desired.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://vercel.com/docs/ai-sdk/temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Selects the GPT-4o model and enables streaming responses.",
+      "scenario": "When you need real-time updates for a chatbot application.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://vercel.com/docs/ai-sdk/cli"
+    },
+    {
+      "command": "Think step by step. Then verify your answer.",
+      "description": "Encourages the AI to reason through problems methodically.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://vercel.com/docs/ai-sdk/prompt-engineering"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in the AI's response.",
+      "scenario": "When you need concise answers to save on processing costs.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://vercel.com/docs/ai-sdk/max-tokens"
+    },
+    {
+      "command": "--context-length 4096",
+      "description": "Sets the context length for the AI model.",
+      "scenario": "When handling large documents or conversations that require more context.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://vercel.com/docs/ai-sdk/context-length"
+    },
+    {
+      "command": "Use bullet points for clarity.",
+      "description": "Instructs the AI to format responses with bullet points for better readability.",
+      "scenario": "When generating documentation or reports that need clear formatting.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "clarity"
+      ],
+      "is_curated": false,
+      "man_page": "https://vercel.com/docs/ai-sdk/prompt-engineering"
+    },
+    {
+      "command": "temperature=0.2",
+      "description": "Reduces randomness for more deterministic responses.",
+      "scenario": "When generating legal or technical documents that require precision.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://vercel.com/docs/ai-sdk/temperature"
+    },
+    {
+      "command": "--model gpt-3.5",
+      "description": "Selects the GPT-3.5 model for processing.",
+      "scenario": "When cost efficiency is more important than the latest model features.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://vercel.com/docs/ai-sdk/cli"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables verbose logging for debugging purposes.",
+      "scenario": "When troubleshooting issues with AI response handling.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://vercel.com/docs/ai-sdk/cli"
+    },
+    {
+      "command": "Use examples to clarify your request.",
+      "description": "Helps the AI understand the task by providing examples.",
+      "scenario": "When the AI needs to perform a complex task with specific requirements.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://vercel.com/docs/ai-sdk/prompt-engineering"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent hanging.",
+      "scenario": "When integrating the AI into a time-sensitive application.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "reliability"
+      ],
+      "is_curated": false,
+      "man_page": "https://vercel.com/docs/ai-sdk/cli"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Adjusts the penalty for repeating phrases in the AI's response.",
+      "scenario": "When you want to encourage diversity in the AI's output.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://vercel.com/docs/ai-sdk/frequency-penalty"
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Sets the API key for authentication with Vercel AI services.",
+      "scenario": "When initializing the SDK to start making requests.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "setup"
+      ],
+      "is_curated": true,
+      "man_page": "https://vercel.com/docs/ai-sdk/authentication"
+    },
+    {
+      "command": "streamText({ tools: { ... }, toolChoice: 'required' })",
+      "description": "Forces the model to call a specific tool immediately, bypassing conversational filler.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "onChunk: (chunk) => { ... }",
+      "description": "Callback function within streamText to intercept and process individual delta chunks for custom UI animations or logging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "experimental_output: 'object'",
+      "description": "Enables strict schema adherence for structured outputs, ensuring the model returns valid JSON matching a Zod schema.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system: 'You are a JSON generator. Output ONLY raw JSON without markdown code blocks.'",
+      "description": "Prompt engineering pattern to prevent the LLM from wrapping structured responses in ```json blocks, reducing parsing errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "useChat({ maxSteps: 5 })",
+      "description": "Enables multi-step tool calling, allowing the agent to call a tool, observe the result, and call another tool in a single user turn.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "streamObject({ schema: z.object({ ... }) })",
+      "description": "Enables type-safe, streamed structured data generation using Zod schemas for seamless UI integration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "experimental_telemetry: true",
+      "description": "Enables built-in observability and tracing to monitor LLM latency and token usage in production.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "toolChoice: 'auto' vs 'required' vs 'none'",
+      "description": "Fine-tune agentic behavior: 'auto' lets the model decide, 'required' forces tool usage, and 'none' disables tools.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "onFinish: ({ text, toolCalls, usage }) => { ... }",
+      "description": "Callback function to handle the complete response, perfect for logging token usage or triggering post-generation side effects.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "prompt: `... ${context} ...` (Multi-modal prompt injection)",
+      "description": "Pattern for injecting dynamic application state or retrieved RAG documents directly into the prompt template.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

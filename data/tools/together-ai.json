@@ -1,0 +1,279 @@
+{
+  "title": "Together AI Cheat Sheet",
+  "slug": "together-ai",
+  "description": "A practical guide for engineers using Together AI, covering API, CLI, and advanced settings.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.5",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative content that still needs to be somewhat consistent.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.together.ai/api/temperature"
+    },
+    {
+      "command": "--model together-3b",
+      "description": "Specifies the Together AI model to use for processing.",
+      "scenario": "When you need a balance between performance and cost for general tasks.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.together.ai/models"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the number of tokens in the AI's response.",
+      "scenario": "When you need concise answers to save on processing costs.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.together.ai/api/max_tokens"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming of responses for real-time applications.",
+      "scenario": "When building a chatbot that requires immediate user feedback.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.together.ai/cli/streaming"
+    },
+    {
+      "command": "\"Explain the concept of recursion with examples.\"",
+      "description": "Prompts the AI to provide detailed explanations with examples.",
+      "scenario": "When creating educational content or tutorials.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent hanging.",
+      "scenario": "When integrating into systems with strict response time requirements.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.together.ai/cli/timeout"
+    },
+    {
+      "command": "\"List the pros and cons of using microservices architecture.\"",
+      "description": "Asks the AI to analyze and compare architectural choices.",
+      "scenario": "When evaluating different software architecture options.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\"Generate a Python script for data analysis.\"",
+      "description": "Instructs the AI to create code snippets for specific tasks.",
+      "scenario": "When you need quick code generation for data tasks.",
+      "language": "text",
+      "tags": [
+        "code",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--verbose",
+      "description": "Enables detailed logging for debugging purposes.",
+      "scenario": "When troubleshooting API integration issues.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "debugging"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.together.ai/cli/verbose"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages the AI to follow a structured reasoning process.",
+      "scenario": "When solving complex problems that require logical steps.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Authenticates API requests with your unique API key.",
+      "scenario": "When setting up the API for the first time.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.together.ai/cli/authentication"
+    },
+    {
+      "command": "\"Summarize the latest research on AI ethics.\"",
+      "description": "Requests a summary of current topics in AI ethics.",
+      "scenario": "When preparing reports or presentations on AI topics.",
+      "language": "text",
+      "tags": [
+        "context",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\"Translate the following text to French.\"",
+      "description": "Instructs the AI to perform language translation tasks.",
+      "scenario": "When you need quick translations for multilingual applications.",
+      "language": "text",
+      "tags": [
+        "context",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries failed API requests up to three times.",
+      "scenario": "When dealing with intermittent network issues.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "reliability"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.together.ai/cli/retry"
+    },
+    {
+      "command": "\"Provide a step-by-step guide to setting up a CI/CD pipeline.\"",
+      "description": "Prompts the AI to generate detailed procedural guides.",
+      "scenario": "When documenting processes for DevOps teams.",
+      "language": "text",
+      "tags": [
+        "context",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Adjusts nucleus sampling to control the diversity of the output by considering only the most likely tokens whose cumulative probability reaches the specified threshold.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "presence_penalty=1.2",
+      "description": "Increases the likelihood of the model talking about new topics by penalizing tokens that have already appeared in the text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "frequency_penalty=1.2",
+      "description": "Reduces the likelihood of the model repeating the exact same phrases or words by penalizing tokens based on their existing frequency in the text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "stop=['\n', 'User:']",
+      "description": "Defines specific sequences where the API should stop generating text, useful for preventing model hallucinations in multi-turn chat simulations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "logit_bias={'<token_id>': -100}",
+      "description": "Manually manipulates the probability of specific tokens appearing in the response, allowing you to strictly forbid or encourage certain words.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_k=50",
+      "description": "Limits the model's vocabulary choices to the top K most likely tokens, reducing the chance of low-probability 'hallucination' tokens.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "use_cache=True",
+      "description": "Enables prompt caching to reduce latency and costs for repetitive system prompts or long context windows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_prompt='You are a senior SRE...'",
+      "description": "Separates instructional context from user input to improve instruction following and prevent prompt injection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "seed=42",
+      "description": "Sets a fixed seed value to ensure deterministic outputs, essential for debugging and regression testing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "repetition_penalty=1.1",
+      "description": "A parameter distinct from frequency/presence penalty that penalizes tokens based on their occurrence in the sequence to prevent looping.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

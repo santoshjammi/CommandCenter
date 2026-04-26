@@ -1,0 +1,249 @@
+{
+  "title": "HuggingChat Cheat Sheet",
+  "slug": "huggingchat",
+  "description": "Essential commands and tips for using HuggingChat effectively.",
+  "audience": "non-engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "Summarise this text",
+      "description": "Produces a concise summary of the provided text.",
+      "scenario": "When you need to quickly understand a long article.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for easier understanding.",
+      "scenario": "When an email or document is too complex.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Generate ideas for a blog post about AI",
+      "description": "Provides creative ideas for blog posts.",
+      "scenario": "When you're stuck on what to write about next.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Translate this text to Spanish",
+      "description": "Translates text into Spanish.",
+      "scenario": "When communicating with Spanish-speaking colleagues.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "language"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Summarise this in 3 bullet points",
+      "description": "Creates a brief summary in bullet points.",
+      "scenario": "When you need a quick overview for a meeting.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Explain this concept like I'm five",
+      "description": "Breaks down complex concepts into simple terms.",
+      "scenario": "When learning a new topic or explaining to a child.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "writing",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Create a to-do list for my project",
+      "description": "Generates a structured to-do list.",
+      "scenario": "When organizing tasks for a new project.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Provide a detailed analysis of this topic",
+      "description": "Gives an in-depth analysis of a specified topic.",
+      "scenario": "When conducting research or preparing a report.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Make this text more formal",
+      "description": "Reformats text to sound more professional.",
+      "scenario": "When preparing a formal letter or report.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "List pros and cons of this decision",
+      "description": "Outlines advantages and disadvantages.",
+      "scenario": "When weighing options for a decision.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Draft a thank you email",
+      "description": "Creates a polite thank you email template.",
+      "scenario": "When you need to thank someone professionally.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a creative story about a dragon",
+      "description": "Produces a short creative story.",
+      "scenario": "When entertaining children or practicing creative writing.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this list into a paragraph",
+      "description": "Reformats a list into a cohesive paragraph.",
+      "scenario": "When turning bullet points into narrative text.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Identify key themes in this text",
+      "description": "Highlights main themes and ideas.",
+      "scenario": "When analyzing literature or preparing for discussion.",
+      "language": "text",
+      "tags": [
+        "study",
+        "summarise",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Correct grammar and spelling in this text",
+      "description": "Edits text for grammar and spelling errors.",
+      "scenario": "When proofreading documents or emails.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a [Role] and critique my work",
+      "description": "Assign a specific persona (e.g., 'an expert editor' or 'a skeptical customer') to get constructive feedback on your writing or ideas.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a table comparing [X] and [Y]",
+      "description": "Request information in a structured grid format to make comparisons between products, concepts, or options much easier to read.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract all dates and names from this text",
+      "description": "Use this to quickly pull specific data points out of a long article or messy document without reading the whole thing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Give me 5 different versions of this [text/idea]",
+      "description": "Ask for multiple variations (e.g., '5 different subject lines') to avoid getting stuck with just one option.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Write this in the style of [Famous Person/Author]",
+      "description": "Change the tone and personality of the text by mimicking a specific famous writer or public figure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

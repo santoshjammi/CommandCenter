@@ -1,0 +1,267 @@
+{
+  "title": "Instructor Cheat Sheet",
+  "slug": "instructor",
+  "description": "A practical guide to using the Instructor AI tool effectively.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative writing or brainstorming ideas.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.instructor.ai/temperature"
+    },
+    {
+      "command": "--model instructor-v2",
+      "description": "Selects the second version of the Instructor model.",
+      "scenario": "When you need the latest features and improvements in model performance.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.instructor.ai/models"
+    },
+    {
+      "command": "\"Explain like I'm five: {topic}\"",
+      "description": "Simplifies complex topics for better understanding.",
+      "scenario": "When explaining technical concepts to non-experts or beginners.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to save on costs and processing time.",
+      "scenario": "When generating concise summaries or responses.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.instructor.ai/max-tokens"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming responses for real-time applications.",
+      "scenario": "When building a live chat application that requires immediate feedback.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.instructor.ai/streaming"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages the AI to use logical reasoning and verification.",
+      "scenario": "When solving complex problems that require detailed analysis.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stop_sequences=[\"\\n\", \"END\"]",
+      "description": "Defines sequences that will terminate the AI's response.",
+      "scenario": "When you need to control where the response ends, such as in dialogue systems.",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.instructor.ai/stop-sequences"
+    },
+    {
+      "command": "\"List the pros and cons of {subject}.\"",
+      "description": "Generates a balanced view by listing advantages and disadvantages.",
+      "scenario": "When evaluating options or making decisions.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--verbose",
+      "description": "Provides detailed logging output for debugging purposes.",
+      "scenario": "When troubleshooting issues with the AI's responses or behavior.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.instructor.ai/verbose"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces the likelihood of repeating the same line verbatim.",
+      "scenario": "When generating varied and interesting text outputs.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.instructor.ai/frequency-penalty"
+    },
+    {
+      "command": "\"Generate a summary of {document}.\"",
+      "description": "Creates a concise summary of a given document or text.",
+      "scenario": "When needing a quick overview of lengthy content.",
+      "language": "text",
+      "tags": [
+        "speed",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API calls to prevent hanging requests.",
+      "scenario": "When integrating with systems that require quick responses.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.instructor.ai/timeout"
+    },
+    {
+      "command": "\"Provide a step-by-step guide on {task}.\"",
+      "description": "Generates detailed instructions for completing a task.",
+      "scenario": "When creating tutorials or guides for users.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\"What are the potential risks of {action}?\"",
+      "description": "Identifies possible risks associated with a specific action.",
+      "scenario": "When conducting risk assessments or planning projects.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "response_model=YourPydanticClass",
+      "description": "Enforce structured output by passing a Pydantic model to the instructor call for type-safe parsing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "max_retries=3",
+      "description": "Configure automatic retry logic for validation errors or API timeouts to improve system reliability.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_prompt=\"You are a senior software architect.\"",
+      "description": "Define a persistent persona in the system message to set high-level constraints and behavioral context.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "mode='json_object'",
+      "description": "Force the underlying LLM to operate in JSON mode to ensure valid syntax before Pydantic validation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "patch()",
+      "description": "Use the patch function to wrap existing OpenAI/Anthropic clients to inject Instructor's validation logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "validation_context={'user_id': 123}",
+      "description": "Passes external context into Pydantic validators to perform cross-reference checks during the extraction process.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "instructor.from_openai(client, mode=Mode.MD_JSON)",
+      "description": "Uses Markdown-wrapped JSON mode to improve parsing reliability when using models that struggle with raw JSON output.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "retries=Retries(max_retries=3, delay=2, backoff_factor=2)",
+      "description": "Implements exponential backoff strategy for handling rate limits (429 errors) more gracefully than simple integer retries.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "prompt: 'Extract data into the schema. If unsure, return null for that field rather than hallucinating.'",
+      "description": "A prompt-engineering pattern to minimize hallucinations by explicitly authorizing null values within the Pydantic schema.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "instructor.set_retries(max_retries=5)",
+      "description": "Global configuration to set a default retry policy across all instructor-wrapped client calls in a session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "title": "Runway ML Cheat Sheet",
+  "slug": "runway-ml",
+  "description": "Quick reference for using Runway ML for image generation tasks.",
+  "audience": "non-engineer",
+  "category": "Image Generation",
+  "commands": [
+    {
+      "command": "Generate an image from text",
+      "description": "Creates an image based on a text description you provide.",
+      "scenario": "When you need a visual representation of an idea or concept.",
+      "language": "text",
+      "tags": [
+        "images",
+        "writing",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Edit an image using AI",
+      "description": "Applies AI-powered edits to an existing image.",
+      "scenario": "When you want to enhance or modify an image easily.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Create a video from images",
+      "description": "Compiles a series of images into a video format.",
+      "scenario": "When you want to create a slideshow or video presentation.",
+      "language": "text",
+      "tags": [
+        "images",
+        "AI Tools",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Remove background from an image",
+      "description": "Deletes the background of an image, leaving the main subject.",
+      "scenario": "When you need a transparent background for an image.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Upscale image resolution",
+      "description": "Increases the resolution of an image for better quality.",
+      "scenario": "When you have a low-resolution image that needs to be clearer.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "AI Tools"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Apply artistic style to an image",
+      "description": "Transforms an image to mimic a specific art style.",
+      "scenario": "When you want to give an image a unique artistic flair.",
+      "language": "text",
+      "tags": [
+        "images",
+        "reformat",
+        "AI Tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Generate 3D models from images",
+      "description": "Creates 3D models based on 2D images.",
+      "scenario": "When you need a 3D representation of a design or concept.",
+      "language": "text",
+      "tags": [
+        "images",
+        "AI Tools",
+        "design"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Animate a still image",
+      "description": "Adds motion to a static image, creating an animation.",
+      "scenario": "When you want to bring a still image to life with movement.",
+      "language": "text",
+      "tags": [
+        "images",
+        "AI Tools",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Generate a photorealistic image",
+      "description": "Creates a highly realistic image from a description or concept.",
+      "scenario": "When you need a realistic image for a project or presentation.",
+      "language": "text",
+      "tags": [
+        "images",
+        "AI Tools",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Collaborate on a project",
+      "description": "Work with others on a shared Runway ML project.",
+      "scenario": "When you need to collaborate with team members remotely.",
+      "language": "text",
+      "tags": [
+        "AI Tools",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Export project in various formats",
+      "description": "Saves your project in different file formats for sharing or use.",
+      "scenario": "When you need to export your work for different platforms or uses.",
+      "language": "text",
+      "tags": [
+        "AI Tools",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Use pre-trained models for tasks",
+      "description": "Applies existing models to perform specific tasks without training.",
+      "scenario": "When you want to use AI capabilities without creating models from scratch.",
+      "language": "text",
+      "tags": [
+        "AI Tools",
+        "research",
+        "study"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.runwayml.com"
+    },
+    {
+      "command": "Use Motion Brush for localized animation",
+      "description": "Instead of animating the whole image, use the Motion Brush tool to paint specific areas (like water or hair) to control exactly where movement occurs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Implement Camera Motion Controls",
+      "description": "Use advanced settings to simulate specific cinematography moves like 'Pan', 'Tilt', 'Zoom', or 'Roll' to direct the virtual camera lens.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Apply Negative Prompting",
+      "description": "Use the negative prompt field to explicitly list elements you want to exclude from the generation (e.g., 'blurry, distorted, extra limbs') to refine quality.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Seed Control for Iterative Refinement",
+      "description": "Copy the 'Seed' number of a generated image to reuse the exact same noise pattern, allowing you to tweak prompts without changing the entire composition.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Image-to-Image Style Transfer via Reference",
+      "description": "Upload a structural image and a style image simultaneously to guide the AI on both the layout and the aesthetic texture of the output.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

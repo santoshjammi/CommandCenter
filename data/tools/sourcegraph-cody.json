@@ -1,0 +1,223 @@
+{
+  "title": "Sourcegraph Cody Cheat Sheet",
+  "slug": "sourcegraph-cody",
+  "description": "A practical guide for engineers using Sourcegraph Cody for code assistance and AI integration.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Use GPT-4o model with streaming output for real-time feedback.",
+      "scenario": "When you need immediate feedback while coding in a collaborative environment.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "temperature=0.2",
+      "description": "Set low temperature for deterministic and consistent outputs.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "prompt: \"Explain the function of this code.\"",
+      "description": "Request a detailed explanation of a code snippet.",
+      "scenario": "When you need to understand unfamiliar code quickly.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "--max-tokens 150",
+      "description": "Limit the response length to 150 tokens to control output size.",
+      "scenario": "When you need concise answers to fit within UI constraints.",
+      "language": "bash",
+      "tags": [
+        "cost",
+        "formatting",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourage the model to reason through problems methodically.",
+      "scenario": "When solving complex algorithmic challenges.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "--context-length 2048",
+      "description": "Extend context length to handle larger codebases.",
+      "scenario": "When working with extensive code repositories.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "\"Generate test cases for this function.\"",
+      "description": "Request automated generation of test cases for a given function.",
+      "scenario": "When you need to quickly create tests for new code.",
+      "language": "text",
+      "tags": [
+        "code",
+        "productivity",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enable verbose mode for detailed logging and debugging.",
+      "scenario": "When troubleshooting issues with Cody's responses.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "code",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "\"Refactor this code to improve efficiency.\"",
+      "description": "Ask Cody to refactor code for better performance.",
+      "scenario": "When optimizing code for speed and efficiency.",
+      "language": "text",
+      "tags": [
+        "code",
+        "productivity",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "\"Summarize this codebase.\"",
+      "description": "Get a high-level summary of a codebase's functionality.",
+      "scenario": "When onboarding new developers to a project.",
+      "language": "text",
+      "tags": [
+        "context",
+        "code",
+        "productivity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "--disable-cache",
+      "description": "Disable caching to ensure fresh outputs every time.",
+      "scenario": "When working with frequently changing codebases.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "context",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "\"Identify potential security vulnerabilities.\"",
+      "description": "Request Cody to find security issues in the code.",
+      "scenario": "When conducting a security audit of your codebase.",
+      "language": "text",
+      "tags": [
+        "security",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "--api-key=<your_api_key>",
+      "description": "Set the API key for authenticating requests to Cody.",
+      "scenario": "When configuring Cody for the first time in your environment.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "setup",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.sourcegraph.com/cody"
+    },
+    {
+      "command": "--context-files <path/to/file>",
+      "description": "Explicitly include specific files in the context window to improve accuracy for cross-file logic without indexing the entire repo.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "prompt: \"Using the patterns found in @file:example.ts, implement @file:new_feature.ts\"",
+      "description": "Use @-mentions to provide few-shot examples, forcing Cody to follow existing architectural patterns and coding styles.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--system-prompt \"<instruction>\"",
+      "description": "Override the default persona to enforce strict constraints, such as 'Always use functional programming patterns' or 'Never use external libraries'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "prompt: \"Compare the implementation of [Function A] with [Function B] and highlight edge case discrepancies.\"",
+      "description": "A comparative analysis pattern used to detect logic drift between two different implementations of similar logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--top-k <number>",
+      "description": "Adjust the number of code snippets retrieved from the local index to balance context relevance against token consumption.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

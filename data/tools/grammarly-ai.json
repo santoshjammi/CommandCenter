@@ -1,0 +1,267 @@
+{
+  "title": "Grammarly AI Cheat Sheet",
+  "slug": "grammarly-ai",
+  "description": "Essential tips for using Grammarly AI effectively in everyday writing.",
+  "audience": "non-engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "Check grammar and spelling",
+      "description": "Identifies and corrects grammar and spelling mistakes.",
+      "scenario": "When you want to ensure your document is error-free.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Rewrite this sentence for clarity",
+      "description": "Improves sentence clarity and readability.",
+      "scenario": "When a sentence feels awkward or unclear.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Suggest synonyms",
+      "description": "Provides alternative words to enhance vocabulary.",
+      "scenario": "When you want to avoid repetition or find a better word.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Summarize this paragraph",
+      "description": "Condenses a paragraph into a concise summary.",
+      "scenario": "When you need a quick overview of a long text.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Check tone of the text",
+      "description": "Analyzes and provides feedback on the tone of your writing.",
+      "scenario": "When you want to ensure the tone matches your intent.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Make this more formal",
+      "description": "Adjusts the text to a more formal tone.",
+      "scenario": "When an email or document sounds too casual.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Make this more concise",
+      "description": "Reduces wordiness to make text more concise.",
+      "scenario": "When a passage is too long-winded.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Explain this complex sentence",
+      "description": "Breaks down a complex sentence for better understanding.",
+      "scenario": "When a sentence is too complicated to grasp.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Translate this text",
+      "description": "Translates text into another language.",
+      "scenario": "When you need to communicate with someone in a different language.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Check for plagiarism",
+      "description": "Scans the text for potential plagiarism issues.",
+      "scenario": "When you want to ensure content originality.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "research"
+      ],
+      "is_curated": true,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Add a citation",
+      "description": "Generates a citation for a reference.",
+      "scenario": "When you need to cite a source in your writing.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "research"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Personalize writing suggestions",
+      "description": "Customizes suggestions based on your writing style.",
+      "scenario": "When you want feedback tailored to your preferences.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Set writing goals",
+      "description": "Allows setting specific goals for writing style and tone.",
+      "scenario": "When you want to define the purpose and audience of your text.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Generate a writing report",
+      "description": "Provides a detailed report on writing performance.",
+      "scenario": "When you want an overview of your writing strengths and weaknesses.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "research"
+      ],
+      "is_curated": false,
+      "man_page": "https://support.grammarly.com/hc/en-us/articles/115000090172"
+    },
+    {
+      "command": "Convert this list into a professional bulleted format",
+      "description": "Transforms messy or unorganized notes into structured, easy-to-read bullet points.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Draft a response to this email based on these key points",
+      "description": "Uses brief notes or context to generate a complete, polite email reply.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this to sound more empathetic and supportive",
+      "description": "Adjusts the emotional intelligence of the text, ideal for sensitive customer service or interpersonal messages.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create an engaging headline/subject line for this text",
+      "description": "Generates catchy or professional titles and email subject lines to increase open rates.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Identify the main call to action in this text",
+      "description": "Analyzes the writing to find the primary instruction or request being made to the reader.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Adjust reading level to [Grade Level/Audience]",
+      "description": "Instruct the AI to simplify or elevate the vocabulary to match a specific audience, such as '5th graders' or 'executive leadership'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Expand this point into a full paragraph",
+      "description": "Use a brief bullet point or thought to generate a cohesive, well-structured paragraph while maintaining the existing context.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Change the perspective to [First Person/Third Person]",
+      "description": "Rewrite a passage to shift the narrative voice, such as changing 'The team completed the task' to 'We completed the task'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract key action items from this meeting transcript",
+      "description": "Paste raw notes or a transcript to have the AI identify specific tasks, owners, and deadlines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Remove passive voice and make it more direct",
+      "description": "Specifically target passive sentence structures to make the writing more authoritative and energetic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

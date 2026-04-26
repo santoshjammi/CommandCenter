@@ -1,0 +1,282 @@
+{
+  "title": "CrewAI Cheat Sheet",
+  "slug": "crewai",
+  "description": "Essential commands and techniques for using CrewAI effectively in engineering projects.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative content or brainstorming ideas.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.crewai.com/temperature"
+    },
+    {
+      "command": "--model crewai-advanced",
+      "description": "Selects the advanced model for more complex tasks.",
+      "scenario": "When handling tasks requiring deep understanding and nuanced responses.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.crewai.com/models"
+    },
+    {
+      "command": "\"Explain like I'm five.\"",
+      "description": "Simplifies complex concepts into layman's terms.",
+      "scenario": "When explaining technical concepts to non-technical stakeholders.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.crewai.com/prompt-techniques"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables real-time streaming of responses.",
+      "scenario": "When building interactive applications that require immediate feedback.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.crewai.com/streaming"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages the model to follow a logical process and check its work.",
+      "scenario": "When solving complex problems that require detailed reasoning.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.crewai.com/prompt-techniques"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to manage cost and focus.",
+      "scenario": "When generating concise outputs for summaries or short answers.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.crewai.com/max-tokens"
+    },
+    {
+      "command": "--verbose",
+      "description": "Increases the detail level in the AI's responses.",
+      "scenario": "When detailed explanations are necessary for understanding or documentation.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.crewai.com/verbose"
+    },
+    {
+      "command": "\"Use bullet points to list the steps.\"",
+      "description": "Formats the response in a structured, easy-to-read manner.",
+      "scenario": "When creating step-by-step guides or instructions.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.crewai.com/prompt-techniques"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a maximum time limit for the AI to generate a response.",
+      "scenario": "When integrating into systems with strict response time requirements.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.crewai.com/timeout"
+    },
+    {
+      "command": "\"Focus on the main idea and ignore minor details.\"",
+      "description": "Directs the AI to prioritize key points over minutiae.",
+      "scenario": "When summarizing lengthy documents or discussions.",
+      "language": "text",
+      "tags": [
+        "context",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.crewai.com/prompt-techniques"
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Enables detailed logging for troubleshooting and analysis.",
+      "scenario": "When diagnosing issues or optimizing AI performance.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.crewai.com/logging"
+    },
+    {
+      "command": "\"Provide a counterargument to the following point.\"",
+      "description": "Generates an opposing viewpoint for balanced discussions.",
+      "scenario": "When preparing for debates or critical analysis.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.crewai.com/prompt-techniques"
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Authenticates API requests with your unique key.",
+      "scenario": "When setting up CrewAI for the first time in your application.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.crewai.com/authentication"
+    },
+    {
+      "command": "\"Summarize the following text in three sentences.\"",
+      "description": "Condenses information into a brief summary.",
+      "scenario": "When needing quick overviews of lengthy texts.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "speed"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.crewai.com/prompt-techniques"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries the request up to three times in case of failure.",
+      "scenario": "When ensuring reliability in unstable network conditions.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.crewai.com/retry"
+    },
+    {
+      "command": "process=Process.hierarchical",
+      "description": "Enables a manager agent to oversee the workflow, delegating tasks and validating outputs instead of a simple sequential flow.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "allow_delegation=True",
+      "description": "A parameter within the Agent definition that permits the agent to pass tasks to other specialized agents in the crew.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "memory=True",
+      "description": "Activates short-term, long-term, and entity memory, allowing agents to learn from previous interactions within the crew execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "output_json=True",
+      "description": "Forces the task output to conform to a specific Pydantic model or JSON schema for seamless downstream API integration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "max_rpm=10",
+      "description": "Sets a rate limit (Requests Per Minute) to prevent API provider throttling and manage token consumption costs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cache=True",
+      "description": "Enable local caching to prevent redundant LLM calls for identical tasks, reducing latency and API costs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "manager_llm=ChatOpenAI(model='gpt-4')",
+      "description": "Explicitly assign a more capable model to the manager in hierarchical processes to improve orchestration logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "embedder={'provider': 'openai', 'config': {'model': 'text-embedding-3-small'}}",
+      "description": "Configure specific embedding models for the CrewAI memory system to improve RAG-based retrieval accuracy.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "step_callback=my_custom_function",
+      "description": "Pass a callback function to monitor and log every individual step taken by an agent for real-time debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "expected_output='A structured JSON object containing [key_name]'",
+      "description": "Define a precise schema in the task's expected_output to force the agent into a specific structural pattern.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

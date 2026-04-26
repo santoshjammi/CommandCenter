@@ -1,0 +1,211 @@
+{
+  "title": "Anthropic Claude Code Cheat Sheet",
+  "slug": "anthropic-claude-code",
+  "description": "A practical guide for engineers using Anthropic Claude Code for coding assistance.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the model's output",
+      "scenario": "When generating creative code solutions that require variability",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.anthropic.com/claude/reference/temperature"
+    },
+    {
+      "command": "--model claude-v1",
+      "description": "Selects the Claude v1 model for processing",
+      "scenario": "When you need stable and reliable code generation",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.anthropic.com/claude/reference/models"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in the output",
+      "scenario": "When generating concise code snippets",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.anthropic.com/claude/reference/max_tokens"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming of the output for real-time applications",
+      "scenario": "When integrating with a live coding assistant tool",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.anthropic.com/claude/reference/streaming"
+    },
+    {
+      "command": "\"Explain the code step by step.\"",
+      "description": "Instructs the model to provide a detailed explanation of code",
+      "scenario": "When debugging or learning from complex code",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "stop_sequences=[\"\\n\"]",
+      "description": "Defines sequences where the model should stop generating further tokens",
+      "scenario": "When you need to control the end of code generation",
+      "language": "json",
+      "tags": [
+        "formatting",
+        "control"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.anthropic.com/claude/reference/stop_sequences"
+    },
+    {
+      "command": "\"Refactor this code to improve efficiency.\"",
+      "description": "Prompts the model to optimize code for performance",
+      "scenario": "When enhancing the performance of existing code",
+      "language": "text",
+      "tags": [
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--model claude-v2",
+      "description": "Selects the Claude v2 model for more advanced features",
+      "scenario": "When you need cutting-edge capabilities in code generation",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.anthropic.com/claude/reference/models"
+    },
+    {
+      "command": "\"Write unit tests for this function.\"",
+      "description": "Instructs the model to generate unit tests for given code",
+      "scenario": "When ensuring code reliability through testing",
+      "language": "text",
+      "tags": [
+        "code",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Applies nucleus sampling to limit the token distribution",
+      "scenario": "When balancing creativity and coherence in code generation",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.anthropic.com/claude/reference/top_p"
+    },
+    {
+      "command": "\"Document this code with comments.\"",
+      "description": "Prompts the model to add comments for code documentation",
+      "scenario": "When enhancing code readability and maintainability",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces the likelihood of repeating tokens in the output",
+      "scenario": "When generating diverse code solutions",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.anthropic.com/claude/reference/frequency_penalty"
+    },
+    {
+      "command": "\"Summarize this code in simple terms.\"",
+      "description": "Instructs the model to provide a high-level overview of code",
+      "scenario": "When explaining code functionality to non-experts",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--dangerously-skip-permissions",
+      "description": "Bypasses interactive confirmation prompts for file system operations, useful for automated CI/CD pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_prompt=\"You are a senior security auditor. Scan for OWASP Top 10 vulnerabilities.\"",
+      "description": "Injects a persistent persona to shift the model's focus toward security-first code analysis.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--context-window-limit [tokens]",
+      "description": "Manually restricts the token window to prevent high latency or cost spikes during large repository indexing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Log Analysis Pattern: \"Analyze the following stack trace and identify the exact line causing the memory leak.\"",
+      "description": "A specific debugging pattern designed to map error logs directly to source code locations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--output-format json",
+      "description": "Forces the CLI to return structured data instead of markdown, enabling easy piping into tools like jq.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "title": "Jan.ai Cheat Sheet",
+  "slug": "jan-ai",
+  "description": "A practical guide for engineers using Jan.ai, focusing on API, CLI, and prompt techniques.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative writing or brainstorming ideas.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.jan.ai/api/temperature"
+    },
+    {
+      "command": "--model jan-4 --stream",
+      "description": "Uses the Jan 4 model with streaming output.",
+      "scenario": "When you need real-time responses in a chat application.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.jan.ai/cli/model"
+    },
+    {
+      "command": "\"Explain like I'm five.\"",
+      "description": "Simplifies complex topics for better understanding.",
+      "scenario": "When explaining technical concepts to non-experts.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.jan.ai/prompt/explain"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to control verbosity.",
+      "scenario": "When integrating with systems with character limits.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.jan.ai/api/max_tokens"
+    },
+    {
+      "command": "\"List the pros and cons.\"",
+      "description": "Generates a balanced analysis of a topic.",
+      "scenario": "When conducting a SWOT analysis or decision-making process.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.jan.ai/prompt/list"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent hanging.",
+      "scenario": "When ensuring API calls do not exceed a certain duration.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.jan.ai/cli/timeout"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages logical reasoning and verification.",
+      "scenario": "When solving complex problems that require detailed solutions.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.jan.ai/prompt/think"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces repetition in generated text.",
+      "scenario": "When creating diverse content without repeated phrases.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.jan.ai/api/frequency_penalty"
+    },
+    {
+      "command": "\"Summarize the following text.\"",
+      "description": "Generates a concise summary of a given text.",
+      "scenario": "When needing a quick overview of lengthy documents.",
+      "language": "text",
+      "tags": [
+        "speed",
+        "formatting",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.jan.ai/prompt/summarize"
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Sets the logging level to debug for detailed logs.",
+      "scenario": "When troubleshooting or debugging API integrations.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "context",
+        "accuracy"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.jan.ai/cli/log-level"
+    },
+    {
+      "command": "\"Generate a code snippet for...\"",
+      "description": "Creates code snippets based on a given description.",
+      "scenario": "When automating code generation for development tasks.",
+      "language": "text",
+      "tags": [
+        "code",
+        "speed",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.jan.ai/prompt/code"
+    },
+    {
+      "command": "presence_penalty=0.6",
+      "description": "Encourages the model to introduce new topics.",
+      "scenario": "When exploring new ideas or topics in a conversation.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.jan.ai/api/presence_penalty"
+    },
+    {
+      "command": "\"Translate the following text to Spanish.\"",
+      "description": "Translates text to a specified language.",
+      "scenario": "When needing quick translations for multilingual support.",
+      "language": "text",
+      "tags": [
+        "speed",
+        "context",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.jan.ai/prompt/translate"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries failed API requests up to three times.",
+      "scenario": "When ensuring reliability in network communication.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "accuracy",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.jan.ai/cli/retry"
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Adjusts nucleus sampling to limit the cumulative probability of the next token, reducing the likelihood of nonsensical output.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_prompt=\"You are a senior software architect. Use concise, technical language.\"",
+      "description": "Defines the persona and behavioral constraints at the system level to maintain consistent tone throughout a session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--gpu-layers 35",
+      "description": "Offloads specific numbers of model layers to the GPU to optimize inference speed and manage VRAM usage.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "stop=['\n', 'User:']",
+      "description": "Defines custom stop sequences to prevent the model from hallucinating further dialogue turns or unwanted line breaks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Few-Shot Prompting: 'Input: A -> Output: B; Input: C -> Output: D; Input: E -> Output:'",
+      "description": "Provides a pattern of input-output pairs to guide the model toward a specific format or logic style.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_k=40",
+      "description": "Limits the model's vocabulary choice to the top K most likely next tokens, reducing the probability of 'hallucinated' or nonsensical word choices.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--num_ctx 8192",
+      "description": "Manually overrides the context window size to prevent memory overflow or to maximize long-document processing capabilities.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Chain-of-Verification (CoVe): 'Generate an answer, then identify potential inaccuracies in that answer, then rewrite the answer based on those corrections.'",
+      "description": "A prompt engineering pattern used to reduce hallucinations by forcing the model to self-audit its own logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--threads 8",
+      "description": "Explicitly sets the number of CPU threads to use for inference, useful for optimizing performance on multi-core workstations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Check local inference logs via: `tail -f ~/.jan/logs/main.log`",
+      "description": "A debugging technique to monitor real-time inference errors, model loading issues, or resource allocation failures.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

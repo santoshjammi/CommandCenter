@@ -4522,5 +4522,495 @@
     "category": "Other",
     "description": "p5.js cheat sheet.",
     "audience": "engineer"
+  },
+  {
+    "name": "ChatGPT API",
+    "slug": "chatgpt-api",
+    "category": "AI Chatbot",
+    "description": "OpenAI GPT-4o API — parameters temperature streaming function calling and structured output",
+    "audience": "engineer"
+  },
+  {
+    "name": "Claude",
+    "slug": "claude",
+    "category": "AI Chatbot",
+    "description": "Anthropic Claude — prompt patterns for writing research and analysis",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Claude API",
+    "slug": "claude-api",
+    "category": "AI Chatbot",
+    "description": "Anthropic Claude API — system prompts streaming tool use and model selection",
+    "audience": "engineer"
+  },
+  {
+    "name": "Gemini",
+    "slug": "gemini",
+    "category": "AI Chatbot",
+    "description": "Google Gemini — multimodal prompts and productivity techniques",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Gemini API",
+    "slug": "gemini-api",
+    "category": "AI Chatbot",
+    "description": "Google Gemini API — model selection multimodal input streaming and grounding",
+    "audience": "engineer"
+  },
+  {
+    "name": "Perplexity AI",
+    "slug": "perplexity-ai",
+    "category": "AI Search",
+    "description": "Perplexity AI — search prompts source filtering and research techniques",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Perplexity API",
+    "slug": "perplexity-api",
+    "category": "AI Search",
+    "description": "Perplexity Sonar API — search modes recency filters and streaming responses",
+    "audience": "engineer"
+  },
+  {
+    "name": "Microsoft Copilot",
+    "slug": "microsoft-copilot",
+    "category": "AI Chatbot",
+    "description": "Microsoft Copilot — prompt patterns for document summarisation and office tasks",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Meta AI",
+    "slug": "meta-ai",
+    "category": "AI Chatbot",
+    "description": "Meta AI assistant — everyday prompt patterns for writing and research",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "category": "Coding Assistant",
+    "description": "GitHub Copilot — inline completions chat slash commands and CLI usage",
+    "audience": "engineer"
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "category": "Coding Assistant",
+    "description": "Cursor AI editor — chat compose agent mode and codebase-aware prompting",
+    "audience": "engineer"
+  },
+  {
+    "name": "Windsurf",
+    "slug": "windsurf",
+    "category": "Coding Assistant",
+    "description": "Windsurf AI editor — Cascade agent flows multi-file edits and command palette",
+    "audience": "engineer"
+  },
+  {
+    "name": "Continue.dev",
+    "slug": "continue-dev",
+    "category": "Coding Assistant",
+    "description": "Continue open-source AI coding assistant — config model selection and slash commands",
+    "audience": "engineer"
+  },
+  {
+    "name": "Aider",
+    "slug": "aider",
+    "category": "Coding Assistant",
+    "description": "Aider CLI pair programmer — architect mode ask mode add files and git integration",
+    "audience": "engineer"
+  },
+  {
+    "name": "Copilot CLI",
+    "slug": "copilot-cli",
+    "category": "Coding Assistant",
+    "description": "GitHub Copilot in the terminal — explain suggest and run shell commands",
+    "audience": "engineer"
+  },
+  {
+    "name": "Amazon Q Developer",
+    "slug": "amazon-q-developer",
+    "category": "Coding Assistant",
+    "description": "Amazon Q Developer — inline completions chat and AWS resource generation",
+    "audience": "engineer"
+  },
+  {
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "category": "Coding Assistant",
+    "description": "Tabnine AI code completion — team training privacy mode and IDE integration",
+    "audience": "engineer"
+  },
+  {
+    "name": "Codeium",
+    "slug": "codeium",
+    "category": "Coding Assistant",
+    "description": "Codeium free AI code completion — autocomplete chat and refactoring",
+    "audience": "engineer"
+  },
+  {
+    "name": "v0.dev",
+    "slug": "v0-dev",
+    "category": "Coding Assistant",
+    "description": "Vercel v0 — prompt-to-UI generation with React and shadcn components",
+    "audience": "engineer"
+  },
+  {
+    "name": "Bolt.new",
+    "slug": "bolt-new",
+    "category": "Coding Assistant",
+    "description": "StackBlitz Bolt — full-stack app generation from natural language prompts",
+    "audience": "engineer"
+  },
+  {
+    "name": "Replit AI",
+    "slug": "replit-ai",
+    "category": "Coding Assistant",
+    "description": "Replit AI — Ghostwriter completions explain debug and generate features",
+    "audience": "engineer"
+  },
+  {
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "category": "Image Generation",
+    "description": "Midjourney — parameters prompts aspect ratios and style controls",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Midjourney Advanced",
+    "slug": "midjourney-advanced",
+    "category": "Image Generation",
+    "description": "Midjourney advanced parameters — stylize chaos seeds permutations and pan/zoom",
+    "audience": "engineer"
+  },
+  {
+    "name": "DALL-E 3",
+    "slug": "dall-e-3",
+    "category": "Image Generation",
+    "description": "OpenAI DALL-E 3 — prompt crafting style modifiers and API generation",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "DALL-E API",
+    "slug": "dall-e-api",
+    "category": "Image Generation",
+    "description": "OpenAI Images API — generate edit variations size quality and style parameters",
+    "audience": "engineer"
+  },
+  {
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "category": "Image Generation",
+    "description": "Stable Diffusion — prompts negative prompts samplers cfg scale and steps",
+    "audience": "engineer"
+  },
+  {
+    "name": "Stable Diffusion WebUI",
+    "slug": "stable-diffusion-webui",
+    "category": "Image Generation",
+    "description": "Automatic1111 WebUI — txt2img img2img extensions ControlNet and LoRA",
+    "audience": "engineer"
+  },
+  {
+    "name": "Adobe Firefly",
+    "slug": "adobe-firefly",
+    "category": "Image Generation",
+    "description": "Adobe Firefly — generative fill text effects and image generation prompts",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Ideogram",
+    "slug": "ideogram",
+    "category": "Image Generation",
+    "description": "Ideogram AI — text-in-image prompts style presets and aspect ratio controls",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Flux",
+    "slug": "flux",
+    "category": "Image Generation",
+    "description": "Black Forest Labs Flux — model variants prompt crafting and API parameters",
+    "audience": "engineer"
+  },
+  {
+    "name": "Leonardo AI",
+    "slug": "leonardo-ai",
+    "category": "Image Generation",
+    "description": "Leonardo AI — image generation model selection canvas and motion features",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Kling AI",
+    "slug": "kling-ai",
+    "category": "Image Generation",
+    "description": "Kling video generation — text-to-video image-to-video and motion parameters",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Runway ML",
+    "slug": "runway-ml",
+    "category": "Image Generation",
+    "description": "Runway Gen-3 — video generation editing tools and creative prompting",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Suno AI",
+    "slug": "suno-ai",
+    "category": "AI Tools",
+    "description": "Suno AI music generation — prompt crafting genre style and lyrics techniques",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Udio",
+    "slug": "udio",
+    "category": "AI Tools",
+    "description": "Udio AI music generation — prompt patterns genre mixing and audio settings",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "category": "AI Tools",
+    "description": "ElevenLabs text-to-speech — voice selection stability similarity and API usage",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "ElevenLabs API",
+    "slug": "elevenlabs-api",
+    "category": "AI Tools",
+    "description": "ElevenLabs API — voice synthesis streaming cloning and model parameters",
+    "audience": "engineer"
+  },
+  {
+    "name": "Whisper",
+    "slug": "whisper",
+    "category": "AI Tools",
+    "description": "OpenAI Whisper speech-to-text — CLI usage model selection language and timestamps",
+    "audience": "engineer"
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "category": "AI Tools",
+    "description": "Otter.ai meeting transcription — recording highlights summary and export",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "category": "AI Chatbot",
+    "description": "Notion AI — writing assistance summarisation and database generation prompts",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Grammarly AI",
+    "slug": "grammarly-ai",
+    "category": "AI Tools",
+    "description": "Grammarly AI — tone rewrite clarity and generative assist prompts",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Jasper AI",
+    "slug": "jasper-ai",
+    "category": "AI Tools",
+    "description": "Jasper AI content platform — templates Brand Voice and campaign generation",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copy-ai",
+    "category": "AI Tools",
+    "description": "Copy.ai — marketing copy blog posts and email generation prompts",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "category": "AI Tools",
+    "description": "Writesonic AI writer — article generation SEO mode and brand voice settings",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Character.ai",
+    "slug": "character-ai",
+    "category": "AI Chatbot",
+    "description": "Character.ai — persona creation conversation techniques and memory tips",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Poe",
+    "slug": "poe",
+    "category": "AI Chatbot",
+    "description": "Poe multi-model AI chat — bot creation model switching and prompt templates",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "HuggingChat",
+    "slug": "huggingchat",
+    "category": "AI Chatbot",
+    "description": "HuggingChat open-source assistant — model selection and web search prompts",
+    "audience": "non-engineer"
+  },
+  {
+    "name": "Ollama",
+    "slug": "ollama",
+    "category": "AI Tools",
+    "description": "Ollama — local LLM serving model pulling chat and API usage",
+    "audience": "engineer"
+  },
+  {
+    "name": "LM Studio",
+    "slug": "lm-studio",
+    "category": "AI Tools",
+    "description": "LM Studio — local model management server mode and inference parameters",
+    "audience": "engineer"
+  },
+  {
+    "name": "Jan.ai",
+    "slug": "jan-ai",
+    "category": "AI Tools",
+    "description": "Jan.ai — local AI assistant model install server and extension usage",
+    "audience": "engineer"
+  },
+  {
+    "name": "LangChain",
+    "slug": "langchain",
+    "category": "AI Tools",
+    "description": "LangChain — chains agents memory tools and LCEL pipeline patterns",
+    "audience": "engineer"
+  },
+  {
+    "name": "LlamaIndex",
+    "slug": "llamaindex",
+    "category": "AI Tools",
+    "description": "LlamaIndex — document indexing retrieval augmented generation and query engines",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenAI Agents SDK",
+    "slug": "openai-agents-sdk",
+    "category": "AI Tools",
+    "description": "OpenAI Agents SDK — agents tools handoffs and tracing patterns",
+    "audience": "engineer"
+  },
+  {
+    "name": "Vercel AI SDK",
+    "slug": "vercel-ai-sdk",
+    "category": "AI Tools",
+    "description": "Vercel AI SDK — streamText generateText useChat and tool calling in Next.js",
+    "audience": "engineer"
+  },
+  {
+    "name": "Semantic Kernel",
+    "slug": "semantic-kernel",
+    "category": "AI Tools",
+    "description": "Microsoft Semantic Kernel — plugins planners memory and function calling patterns",
+    "audience": "engineer"
+  },
+  {
+    "name": "Haystack",
+    "slug": "haystack",
+    "category": "AI Tools",
+    "description": "Haystack AI framework — pipelines components RAG and evaluation",
+    "audience": "engineer"
+  },
+  {
+    "name": "CrewAI",
+    "slug": "crewai",
+    "category": "AI Tools",
+    "description": "CrewAI multi-agent framework — crews agents tasks tools and process flows",
+    "audience": "engineer"
+  },
+  {
+    "name": "AutoGen",
+    "slug": "autogen",
+    "category": "AI Tools",
+    "description": "Microsoft AutoGen — multi-agent conversations code execution and tool use",
+    "audience": "engineer"
+  },
+  {
+    "name": "DSPy",
+    "slug": "dspy",
+    "category": "AI Tools",
+    "description": "Stanford DSPy — modules signatures optimizers and compiled prompt programs",
+    "audience": "engineer"
+  },
+  {
+    "name": "Instructor",
+    "slug": "instructor",
+    "category": "AI Tools",
+    "description": "Instructor Python library — structured output validation retry and streaming with OpenAI",
+    "audience": "engineer"
+  },
+  {
+    "name": "Anthropic Claude Code",
+    "slug": "anthropic-claude-code",
+    "category": "Coding Assistant",
+    "description": "Claude Code CLI — slash commands file operations git integration and CLAUDE.md config",
+    "audience": "engineer"
+  },
+  {
+    "name": "OpenAI Codex",
+    "slug": "openai-codex",
+    "category": "Coding Assistant",
+    "description": "OpenAI Codex CLI — natural language shell commands explain patch and diff modes",
+    "audience": "engineer"
+  },
+  {
+    "name": "Sourcegraph Cody",
+    "slug": "sourcegraph-cody",
+    "category": "Coding Assistant",
+    "description": "Sourcegraph Cody — codebase chat commands autocomplete and repository search",
+    "audience": "engineer"
+  },
+  {
+    "name": "Pieces for Developers",
+    "slug": "pieces-for-developers",
+    "category": "Coding Assistant",
+    "description": "Pieces AI developer tool — snippet capture context enrichment and Copilot chat",
+    "audience": "engineer"
+  },
+  {
+    "name": "AWS Bedrock",
+    "slug": "aws-bedrock",
+    "category": "AI Tools",
+    "description": "Amazon Bedrock — model invocation streaming agents knowledge bases and guardrails",
+    "audience": "engineer"
+  },
+  {
+    "name": "Azure OpenAI",
+    "slug": "azure-openai",
+    "category": "AI Tools",
+    "description": "Azure OpenAI Service — deployment management API versions DALL-E and content filters",
+    "audience": "engineer"
+  },
+  {
+    "name": "Google Vertex AI",
+    "slug": "google-vertex-ai",
+    "category": "AI Tools",
+    "description": "Google Vertex AI — Gemini API model tuning evaluation and agent builder",
+    "audience": "engineer"
+  },
+  {
+    "name": "Together AI",
+    "slug": "together-ai",
+    "category": "AI Tools",
+    "description": "Together AI inference API — model selection streaming fine-tuning and embeddings",
+    "audience": "engineer"
+  },
+  {
+    "name": "Groq",
+    "slug": "groq",
+    "category": "AI Tools",
+    "description": "Groq LPU inference API — ultra-fast model serving streaming and tool use",
+    "audience": "engineer"
+  },
+  {
+    "name": "Replicate",
+    "slug": "replicate",
+    "category": "AI Tools",
+    "description": "Replicate — model deployment prediction streaming and webhook integration",
+    "audience": "engineer"
   }
 ]

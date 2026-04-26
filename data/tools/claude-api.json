@@ -1,0 +1,234 @@
+{
+  "title": "Claude API Cheat Sheet",
+  "slug": "claude-api",
+  "description": "A practical guide for engineers using the Claude API for AI chatbot development.",
+  "audience": "engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative writing or brainstorming ideas.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "cost"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.claude.ai/api/temperature"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in the AI's response.",
+      "scenario": "When you need concise answers to save on API costs.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.claude.ai/api/max_tokens"
+    },
+    {
+      "command": "--model claude-2",
+      "description": "Selects the Claude-2 model for processing requests.",
+      "scenario": "When you require the latest model for improved accuracy and performance.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "speed"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.claude.ai/models"
+    },
+    {
+      "command": "--stream",
+      "description": "Enables streaming of responses for real-time applications.",
+      "scenario": "When building a chatbot that needs to respond quickly to user input.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.claude.ai/streaming"
+    },
+    {
+      "command": "\"Explain like I'm five.\"",
+      "description": "Simplifies complex explanations for better understanding.",
+      "scenario": "When the AI needs to explain technical concepts to non-experts.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages logical reasoning and verification of results.",
+      "scenario": "When solving complex problems that require detailed analysis.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "context_window=2048",
+      "description": "Sets the size of the context window for the AI's memory.",
+      "scenario": "When handling large conversations or documents that need more context.",
+      "language": "json",
+      "tags": [
+        "context",
+        "cost"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.claude.ai/api/context_window"
+    },
+    {
+      "command": "\"Use bullet points for clarity.\"",
+      "description": "Formats the response in bullet points for better readability.",
+      "scenario": "When the output needs to be easily digestible and organized.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "clarity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--verbose",
+      "description": "Provides detailed logs of the API's processing steps.",
+      "scenario": "When debugging or optimizing the API's performance.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "performance"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.claude.ai/verbose"
+    },
+    {
+      "command": "\"Summarize the following text.\"",
+      "description": "Generates a summary of the provided text input.",
+      "scenario": "When you need a quick overview of a long document.",
+      "language": "text",
+      "tags": [
+        "speed",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\"Translate to French.\"",
+      "description": "Translates the input text to French.",
+      "scenario": "When developing a multilingual chatbot that supports French.",
+      "language": "text",
+      "tags": [
+        "language",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\"List pros and cons.\"",
+      "description": "Generates a list of advantages and disadvantages.",
+      "scenario": "When evaluating different options or making decisions.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "api_key=YOUR_API_KEY",
+      "description": "Sets the API key for authenticating requests.",
+      "scenario": "When initializing the API client to start making requests.",
+      "language": "json",
+      "tags": [
+        "security",
+        "access"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.claude.ai/api/authentication"
+    },
+    {
+      "command": "\"Provide a counterargument.\"",
+      "description": "Offers a counterargument to the given statement.",
+      "scenario": "When exploring different perspectives in a discussion.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\"Generate a code snippet in Python.\"",
+      "description": "Creates a Python code snippet based on the given description.",
+      "scenario": "When building a coding assistant that provides code examples.",
+      "language": "text",
+      "tags": [
+        "code",
+        "creativity"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system_prompt=\"You are a senior DevOps engineer...\"",
+      "description": "Use the system parameter to define persona, constraints, and output format independently of the user message for better instruction adherence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "top_p=0.9",
+      "description": "Adjust nucleus sampling to control the diversity of the output by limiting the cumulative probability of the next token selection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "XML Tagging: <context>...</context>",
+      "description": "Wrap large datasets or instructions in XML tags to help Claude distinguish between instructions and data, reducing prompt injection and confusion.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Stop Sequences: stop=['\\n', 'User:']",
+      "description": "Define specific strings that signal the model to cease generation, preventing 'hallucinated' dialogue or trailing text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Few-Shot Prompting: [Input/Output Examples]",
+      "description": "Provide 2-3 completed examples of the desired task within the prompt to drastically improve pattern recognition and formatting accuracy.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

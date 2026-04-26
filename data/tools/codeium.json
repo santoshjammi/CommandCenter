@@ -1,0 +1,236 @@
+{
+  "title": "Codeium Cheat Sheet",
+  "slug": "codeium",
+  "description": "Essential commands and techniques for using Codeium effectively in coding projects.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Enables streaming with the GPT-4o model for real-time code suggestions.",
+      "scenario": "When you need continuous code suggestions while typing in an IDE.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.codeium.com/cli"
+    },
+    {
+      "command": "temperature=0.2",
+      "description": "Sets the model's temperature for more deterministic outputs.",
+      "scenario": "When building a code review bot that needs deterministic output.",
+      "language": "json",
+      "tags": [
+        "accuracy",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.codeium.com/api"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the maximum number of tokens in a generated response.",
+      "scenario": "When you need concise code snippets without excessive verbosity.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "speed",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.codeium.com/api"
+    },
+    {
+      "command": "\"Explain the code step by step.\"",
+      "description": "Prompts the model to provide a detailed explanation of code.",
+      "scenario": "When you need to understand complex code logic for debugging.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--language python",
+      "description": "Specifies the programming language for more accurate code suggestions.",
+      "scenario": "When working on a Python project and need language-specific assistance.",
+      "language": "bash",
+      "tags": [
+        "accuracy",
+        "code",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": "https://docs.codeium.com/cli"
+    },
+    {
+      "command": "\"Generate test cases for the following function.\"",
+      "description": "Asks the model to create test cases for a given function.",
+      "scenario": "When you need to ensure code reliability by testing edge cases.",
+      "language": "text",
+      "tags": [
+        "code",
+        "reasoning",
+        "creativity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--context-length 2048",
+      "description": "Sets the context length for the model to consider in its responses.",
+      "scenario": "When dealing with large codebases and need broader context for suggestions.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.codeium.com/cli"
+    },
+    {
+      "command": "\"Refactor this code to improve performance.\"",
+      "description": "Instructs the model to optimize code for better performance.",
+      "scenario": "When you need to enhance the efficiency of existing code.",
+      "language": "text",
+      "tags": [
+        "creativity",
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--api-key YOUR_API_KEY",
+      "description": "Sets the API key for authenticating requests to the Codeium API.",
+      "scenario": "When integrating Codeium into your development workflow programmatically.",
+      "language": "bash",
+      "tags": [
+        "security",
+        "integration",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.codeium.com/api"
+    },
+    {
+      "command": "\"Document this function with comments.\"",
+      "description": "Prompts the model to add comments to a function for better understanding.",
+      "scenario": "When you need to improve code readability and maintainability.",
+      "language": "text",
+      "tags": [
+        "formatting",
+        "code",
+        "context"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent long waits.",
+      "scenario": "When you need to ensure quick responses from the API during development.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "cost",
+        "integration"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.codeium.com/cli"
+    },
+    {
+      "command": "\"What are the potential security vulnerabilities in this code?\"",
+      "description": "Asks the model to identify security issues in the code.",
+      "scenario": "When performing a security audit on a codebase.",
+      "language": "text",
+      "tags": [
+        "security",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Sets the logging level to debug for detailed logs.",
+      "scenario": "When troubleshooting issues with Codeium's integration.",
+      "language": "bash",
+      "tags": [
+        "debugging",
+        "integration",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://docs.codeium.com/cli"
+    },
+    {
+      "command": "\"Summarize this code in plain English.\"",
+      "description": "Requests a plain English summary of the given code.",
+      "scenario": "When you need a high-level overview of what a piece of code does.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "--files ./src/utils/*.py",
+      "description": "Limit the context window to specific file patterns to prevent token overflow and improve relevance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a Senior Site Reliability Engineer. Review this code for race conditions and deadlocks.",
+      "description": "Role-based prompting to shift the model's persona toward specific architectural concerns like concurrency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--system-prompt \"You are a strict TypeScript expert. Use only interfaces, no types.\"",
+      "description": "Enforce strict coding standards and stylistic constraints at the system level.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this logic into a functional programming paradigm using map/reduce/filter.",
+      "description": "Request specific architectural or stylistic transformations beyond simple refactoring.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "--temperature 0.0",
+      "description": "Set temperature to absolute zero for deterministic, repeatable code generation in production pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

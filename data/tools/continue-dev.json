@@ -1,0 +1,217 @@
+{
+  "title": "Continue.dev Cheat Sheet",
+  "slug": "continue-dev",
+  "description": "Essential guide for engineers using Continue.dev for coding assistance.",
+  "audience": "engineer",
+  "category": "Coding Assistant",
+  "commands": [
+    {
+      "command": "temperature=0.7",
+      "description": "Sets the randomness of the AI's responses.",
+      "scenario": "When generating creative code solutions or brainstorming ideas.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://continue.dev/docs/api#temperature"
+    },
+    {
+      "command": "--model gpt-4o --stream",
+      "description": "Uses the GPT-4o model with streaming output.",
+      "scenario": "When you need real-time code suggestions as you type.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "streaming",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://continue.dev/docs/cli#model"
+    },
+    {
+      "command": "\"Think step by step. Then verify your answer.\"",
+      "description": "Encourages the AI to reason through problems methodically.",
+      "scenario": "When debugging complex code issues.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "accuracy",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://continue.dev/docs/prompt-techniques"
+    },
+    {
+      "command": "max_tokens=150",
+      "description": "Limits the response length to manage cost and focus.",
+      "scenario": "When you need concise code snippets or explanations.",
+      "language": "json",
+      "tags": [
+        "cost",
+        "formatting",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://continue.dev/docs/api#max_tokens"
+    },
+    {
+      "command": "--timeout 30",
+      "description": "Sets a timeout for API requests to prevent hanging.",
+      "scenario": "When integrating into systems with strict response time requirements.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://continue.dev/docs/cli#timeout"
+    },
+    {
+      "command": "\"Use Python 3.8 syntax.\"",
+      "description": "Instructs the AI to generate code compatible with Python 3.8.",
+      "scenario": "When working on projects that require specific language versions.",
+      "language": "text",
+      "tags": [
+        "code",
+        "context",
+        "formatting"
+      ],
+      "is_curated": true,
+      "man_page": "https://continue.dev/docs/prompt-techniques"
+    },
+    {
+      "command": "frequency_penalty=0.5",
+      "description": "Reduces repetition in the AI's responses.",
+      "scenario": "When generating varied code examples or documentation.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "formatting"
+      ],
+      "is_curated": false,
+      "man_page": "https://continue.dev/docs/api#frequency_penalty"
+    },
+    {
+      "command": "\"Explain this code in simple terms.\"",
+      "description": "Requests a plain language explanation of code.",
+      "scenario": "When onboarding new team members or learning new codebases.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "context",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://continue.dev/docs/prompt-techniques"
+    },
+    {
+      "command": "--log-level debug",
+      "description": "Sets the logging level to debug for detailed output.",
+      "scenario": "When troubleshooting integration issues with the API.",
+      "language": "bash",
+      "tags": [
+        "context",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://continue.dev/docs/cli#log-level"
+    },
+    {
+      "command": "presence_penalty=0.6",
+      "description": "Encourages the AI to introduce new topics or ideas.",
+      "scenario": "When exploring innovative solutions or new features.",
+      "language": "json",
+      "tags": [
+        "creativity",
+        "reasoning"
+      ],
+      "is_curated": false,
+      "man_page": "https://continue.dev/docs/api#presence_penalty"
+    },
+    {
+      "command": "\"Summarize the key points of this code.\"",
+      "description": "Asks the AI to provide a summary of the code's functionality.",
+      "scenario": "When documenting code or preparing reports.",
+      "language": "text",
+      "tags": [
+        "reasoning",
+        "formatting",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://continue.dev/docs/prompt-techniques"
+    },
+    {
+      "command": "--retry 3",
+      "description": "Retries the API request up to 3 times on failure.",
+      "scenario": "When ensuring reliability in automated systems.",
+      "language": "bash",
+      "tags": [
+        "speed",
+        "context"
+      ],
+      "is_curated": false,
+      "man_page": "https://continue.dev/docs/cli#retry"
+    },
+    {
+      "command": "\"Refactor this code to improve efficiency.\"",
+      "description": "Instructs the AI to optimize code for performance.",
+      "scenario": "When enhancing existing code for better performance.",
+      "language": "text",
+      "tags": [
+        "code",
+        "reasoning"
+      ],
+      "is_curated": true,
+      "man_page": "https://continue.dev/docs/prompt-techniques"
+    },
+    {
+      "command": "@Codebase [query]",
+      "description": "Uses local embeddings to perform semantic search across your entire codebase for context-aware answers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "config.json: \"contextProviders\"",
+      "description": "Configure custom context providers (like docs, terminal, or git) to feed specific metadata into the LLM prompt.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd/Ctrl + L",
+      "description": "Quickly adds selected code blocks to the Chat sidebar context without manual copying.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd/Ctrl + I",
+      "description": "Triggers 'Inline Edit' mode to apply code transformations directly within the active file editor.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "System Prompt: \"You are an expert in [Framework]. Only use [Version] syntax.\"",
+      "description": "Advanced prompt pattern to constrain the LLM to specific library versions and prevent deprecated API suggestions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

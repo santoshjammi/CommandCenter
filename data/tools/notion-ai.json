@@ -1,0 +1,224 @@
+{
+  "title": "Notion AI Cheat Sheet",
+  "slug": "notion-ai",
+  "description": "Quick guide to using Notion AI for everyday tasks.",
+  "audience": "non-engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "Summarise this text",
+      "description": "Provides a concise summary of the given text.",
+      "scenario": "When you need a quick overview of a long article.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Generate a to-do list",
+      "description": "Creates a to-do list based on your input.",
+      "scenario": "When planning tasks for a project or day.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for better understanding.",
+      "scenario": "When a document is too technical or formal.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Brainstorm ideas for a blog post",
+      "description": "Generates creative ideas for blog content.",
+      "scenario": "When you're stuck on what to write about.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Translate this text to Spanish",
+      "description": "Translates the provided text into Spanish.",
+      "scenario": "When communicating with Spanish-speaking colleagues.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "translate"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Create a meeting agenda",
+      "description": "Drafts an agenda for an upcoming meeting.",
+      "scenario": "When preparing for a structured meeting.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Summarise this in 3 bullet points",
+      "description": "Condenses information into three key points.",
+      "scenario": "When you need to present main ideas quickly.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Explain this concept",
+      "description": "Provides a simple explanation of a complex concept.",
+      "scenario": "When you need to understand a difficult topic.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Draft an email response",
+      "description": "Creates a draft reply based on the email context.",
+      "scenario": "When you need to quickly respond to an email.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "List pros and cons",
+      "description": "Generates a list of advantages and disadvantages.",
+      "scenario": "When evaluating a decision or option.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Create a project timeline",
+      "description": "Outlines a timeline for project tasks.",
+      "scenario": "When organizing project milestones and deadlines.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Generate a creative story",
+      "description": "Produces a short creative story from a prompt.",
+      "scenario": "When you want to entertain or practice creative writing.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Convert this list to a table",
+      "description": "Transforms a list into a structured table format.",
+      "scenario": "When you need to organize information neatly.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Find similar topics",
+      "description": "Suggests related topics based on the current content.",
+      "scenario": "When expanding research or content ideas.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": "https://www.notion.so/help/notion-ai"
+    },
+    {
+      "command": "Change the tone to [Professional/Friendly/Urgent]",
+      "description": "Adjust the emotional delivery of your existing text to suit a specific audience without changing the core meaning.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract action items and assignees",
+      "description": "Scan long meeting notes or messy transcripts to pull out specific tasks and identify who is responsible for them.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Create a FAQ section based on this content",
+      "description": "Automatically generate a list of frequently asked questions and answers derived from the provided text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Critique my argument/writing",
+      "description": "Ask the AI to act as a devil's advocate to find logical gaps, weaknesses, or missing perspectives in your text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Format this as Markdown",
+      "description": "Convert unformatted text or raw data into clean Markdown syntax with headers, bolding, and lists.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

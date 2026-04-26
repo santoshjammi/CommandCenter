@@ -1,0 +1,249 @@
+{
+  "title": "Poe AI Chatbot Cheat Sheet",
+  "slug": "poe",
+  "description": "Quick reference guide for using Poe AI Chatbot effectively.",
+  "audience": "non-engineer",
+  "category": "AI Chatbot",
+  "commands": [
+    {
+      "command": "Summarise this text",
+      "description": "Provides a concise summary of the given text.",
+      "scenario": "When you need a quick overview of a long article.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Rewrite this in simpler language",
+      "description": "Simplifies complex text for better understanding.",
+      "scenario": "When an email or document is too technical.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "explain",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Generate ideas for a blog post about AI",
+      "description": "Provides creative ideas for writing a blog post.",
+      "scenario": "When you're brainstorming topics for your blog.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "AI"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Translate this text to Spanish",
+      "description": "Translates the given text into Spanish.",
+      "scenario": "When communicating with Spanish-speaking friends or colleagues.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "language"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Explain this concept like I'm five",
+      "description": "Breaks down complex concepts into simple terms.",
+      "scenario": "When trying to understand or explain a difficult topic.",
+      "language": "text",
+      "tags": [
+        "explain",
+        "study",
+        "writing"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Create a to-do list for moving house",
+      "description": "Generates a detailed to-do list for moving.",
+      "scenario": "When planning a move and need to organize tasks.",
+      "language": "text",
+      "tags": [
+        "productivity",
+        "writing",
+        "brainstorm"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Make this text more formal",
+      "description": "Adjusts the tone of the text to be more formal.",
+      "scenario": "When preparing a business email or report.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Summarise this in 3 bullet points",
+      "description": "Condenses information into three key points.",
+      "scenario": "When you need a quick summary for a presentation.",
+      "language": "text",
+      "tags": [
+        "summarise",
+        "writing",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Find recent news about climate change",
+      "description": "Fetches the latest news articles on climate change.",
+      "scenario": "When researching current events for a project.",
+      "language": "text",
+      "tags": [
+        "research",
+        "study",
+        "AI"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "List pros and cons of electric cars",
+      "description": "Provides a balanced list of advantages and disadvantages.",
+      "scenario": "When considering purchasing an electric car.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "study",
+        "writing"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Draft a thank you note for a job interview",
+      "description": "Creates a polite thank you note template.",
+      "scenario": "After attending a job interview.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "productivity",
+        "reformat"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Check grammar and spelling",
+      "description": "Reviews text for grammatical errors and typos.",
+      "scenario": "When finalizing a document or email.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "reformat",
+        "productivity"
+      ],
+      "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "Convert this list into a paragraph",
+      "description": "Transforms a list format into a narrative paragraph.",
+      "scenario": "When needing to present list information in prose.",
+      "language": "text",
+      "tags": [
+        "reformat",
+        "writing",
+        "explain"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Provide a quote about motivation",
+      "description": "Offers an inspirational quote related to motivation.",
+      "scenario": "When seeking motivation or inspiration.",
+      "language": "text",
+      "tags": [
+        "writing",
+        "brainstorm",
+        "study"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Generate a creative story prompt",
+      "description": "Creates an imaginative prompt for story writing.",
+      "scenario": "When looking for inspiration to start a new story.",
+      "language": "text",
+      "tags": [
+        "brainstorm",
+        "writing",
+        "AI"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Act as a [Role]",
+      "description": "Assign a specific persona (e.g., 'Act as a senior travel agent' or 'Act as a fitness coach') to change the tone and expertise level of the responses.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Tabularize this data",
+      "description": "Ask the bot to take a messy list or text and organize it into a clean, structured table format for better readability.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Reverse Prompting",
+      "description": "Ask the bot: 'What information do you need from me to create a perfect [Project Name]?' to let the AI guide your input.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Step-by-step reasoning (Chain of Thought)",
+      "description": "Add 'Think step-by-step' to your prompt to force the AI to show its logic, which significantly improves accuracy in math or complex logic tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Extract key entities",
+      "description": "Use this to quickly pull out specific names, dates, locations, or prices from a long document or email thread.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}

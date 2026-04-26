@@ -1,0 +1,281 @@
+{
+  "title": "LangChain Cheat Sheet",
+  "slug": "langchain",
+  "description": "A practical guide for engineers using LangChain for AI tool development.",
+  "audience": "engineer",
+  "category": "AI Tools",
+  "commands": [
+    {
+      "command": "from langchain.prompts import PromptTemplate",
+      "description": "Import the PromptTemplate class for creating structured prompts.",
+      "scenario": "When you need to create a custom prompt template for a specific task.",
+      "language": "python",
+      "tags": [
+        "prompt",
+        "template",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://python.langchain.com/en/latest/modules/prompts.html"
+    },
+    {
+      "command": "llm_chain = LLMChain(llm=llm, prompt=prompt)",
+      "description": "Initialize an LLMChain with a language model and prompt.",
+      "scenario": "To set up a chain for processing prompts with a language model.",
+      "language": "python",
+      "tags": [
+        "chain",
+        "model",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://python.langchain.com/en/latest/modules/chains.html"
+    },
+    {
+      "command": "--verbose",
+      "description": "Enable verbose mode to get detailed logs of operations.",
+      "scenario": "When debugging or trying to understand the flow of execution.",
+      "language": "bash",
+      "tags": [
+        "debug",
+        "logging",
+        "cli"
+      ],
+      "is_curated": false,
+      "man_page": "https://python.langchain.com/en/latest/cli.html"
+    },
+    {
+      "command": "output = llm_chain.run(input_data)",
+      "description": "Execute the LLMChain with input data to get the output.",
+      "scenario": "When processing input data through the chain to generate results.",
+      "language": "python",
+      "tags": [
+        "execution",
+        "output",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://python.langchain.com/en/latest/modules/chains.html"
+    },
+    {
+      "command": "memory = ConversationBufferMemory()",
+      "description": "Create a memory buffer to store conversation history.",
+      "scenario": "When building a chatbot that requires context retention.",
+      "language": "python",
+      "tags": [
+        "memory",
+        "context",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://python.langchain.com/en/latest/modules/memory.html"
+    },
+    {
+      "command": "agent = initialize_agent(tools, llm, agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION)",
+      "description": "Initialize an agent with tools and a language model for zero-shot tasks.",
+      "scenario": "For creating an agent capable of handling tasks without prior examples.",
+      "language": "python",
+      "tags": [
+        "agent",
+        "zero-shot",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://python.langchain.com/en/latest/modules/agents.html"
+    },
+    {
+      "command": "tool = Tool(name='search', func=search_function)",
+      "description": "Define a tool with a specific function for the agent to use.",
+      "scenario": "When adding custom functionality to an agent.",
+      "language": "python",
+      "tags": [
+        "tool",
+        "agent",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://python.langchain.com/en/latest/modules/tools.html"
+    },
+    {
+      "command": "--config-file path/to/config.yaml",
+      "description": "Specify a configuration file for setting up the environment.",
+      "scenario": "To load environment settings from a predefined YAML file.",
+      "language": "bash",
+      "tags": [
+        "config",
+        "setup",
+        "cli"
+      ],
+      "is_curated": false,
+      "man_page": "https://python.langchain.com/en/latest/cli.html"
+    },
+    {
+      "command": "prompt = PromptTemplate(template='Translate {text} to {language}', input_variables=['text', 'language'])",
+      "description": "Create a prompt template for translation tasks.",
+      "scenario": "When designing a prompt for translating text between languages.",
+      "language": "python",
+      "tags": [
+        "prompt",
+        "template",
+        "translation"
+      ],
+      "is_curated": false,
+      "man_page": "https://python.langchain.com/en/latest/modules/prompts.html"
+    },
+    {
+      "command": "llm = OpenAI(model='gpt-3.5-turbo')",
+      "description": "Initialize an OpenAI language model with a specific version.",
+      "scenario": "To use a specific OpenAI model for language processing tasks.",
+      "language": "python",
+      "tags": [
+        "model",
+        "openai",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://python.langchain.com/en/latest/modules/models.html"
+    },
+    {
+      "command": "agent_executor = AgentExecutor(agent=agent, tools=tools)",
+      "description": "Set up an executor to run an agent with its tools.",
+      "scenario": "When you need to execute tasks using an agent and its tools.",
+      "language": "python",
+      "tags": [
+        "executor",
+        "agent",
+        "tools"
+      ],
+      "is_curated": false,
+      "man_page": "https://python.langchain.com/en/latest/modules/agents.html"
+    },
+    {
+      "command": "--disable-streaming",
+      "description": "Disable streaming mode for non-streaming output.",
+      "scenario": "When you need to process outputs in a batch mode instead of streaming.",
+      "language": "bash",
+      "tags": [
+        "streaming",
+        "output",
+        "cli"
+      ],
+      "is_curated": false,
+      "man_page": "https://python.langchain.com/en/latest/cli.html"
+    },
+    {
+      "command": "llm_chain.add_memory(memory)",
+      "description": "Attach a memory component to an LLMChain for stateful interactions.",
+      "scenario": "When you want to maintain state across multiple interactions in a chain.",
+      "language": "python",
+      "tags": [
+        "memory",
+        "stateful",
+        "code"
+      ],
+      "is_curated": true,
+      "man_page": "https://python.langchain.com/en/latest/modules/chains.html"
+    },
+    {
+      "command": "agent.run(input_data)",
+      "description": "Execute an agent with given input data to perform tasks.",
+      "scenario": "To perform tasks using an agent with the provided input.",
+      "language": "python",
+      "tags": [
+        "agent",
+        "execution",
+        "code"
+      ],
+      "is_curated": false,
+      "man_page": "https://python.langchain.com/en/latest/modules/agents.html"
+    },
+    {
+      "command": "langchain.callbacks.tracers.langchain_hub.trace",
+      "description": "Use the LangSmith callback handler to enable deep-trace debugging and observability for complex chain execution flows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chain = prompt | llm | StrOutputParser()",
+      "description": "Implement LCEL (LangChain Expression Language) for modular, composable, and asynchronous chain construction instead of legacy LLMChain.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "llm.bind(stop=['\n'])",
+      "description": "Use the .bind() method to pass specific stop sequences or model-specific parameters (like temperature or top_p) directly to the underlying LLM during chain execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "vectorstore.as_retriever(search_type='mmr', search_kwargs={'k': 5})",
+      "description": "Optimize retrieval quality by using Maximum Marginal Relevance (MMR) to reduce redundancy in retrieved document chunks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chain.astream(input_data)",
+      "description": "Utilize asynchronous streaming to reduce perceived latency by yielding tokens as they are generated rather than waiting for the full response.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chain.with_config({'callbacks': [handler]})",
+      "description": "Pass custom callback handlers (like LangSmith or custom logging) at runtime to a specific chain execution without modifying the chain definition.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "llm.bind_tools(tools=[...])",
+      "description": "The modern way to attach tool definitions directly to an LLM object, enabling native function calling capabilities for models like GPT-4.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "RunnablePassthrough.assign(new_key=lambda x: ...)",
+      "description": "Used within LCEL to add new keys to the input dictionary while preserving existing ones, essential for complex data flow in chains.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "vectorstore.as_retriever(search_type='similarity_score_threshold', search_kwargs={'score_threshold': 0.5})",
+      "description": "Filters retrieved documents based on a minimum similarity score rather than just returning the top 'k' results, reducing noise in RAG pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chain.batch([input_1, input_2, ...])",
+      "description": "Executes multiple inputs through a chain in parallel using asyncio, significantly improving throughput compared to sequential loops.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    }
+  ]
+}
