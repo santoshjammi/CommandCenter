@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 
 // Detect Mac once on the client — navigator.platform is deprecated but still
@@ -25,6 +26,7 @@ interface SearchEntry {
 }
 
 export default function SearchBar() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchEntry[]>([]);
@@ -116,10 +118,12 @@ export default function SearchBar() {
         e.preventDefault();
         setSelected((s) => Math.max(s - 1, 0));
       } else if (e.key === "Enter" && results[selected]) {
+        e.preventDefault();
         setOpen(false);
+        router.push(`/${results[selected].slug}`);
       }
     },
-    [results, selected]
+    [results, selected, router]
   );
 
   return (

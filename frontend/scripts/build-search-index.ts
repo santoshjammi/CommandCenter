@@ -36,10 +36,11 @@ interface SearchRecord {
   description?: string;
   category?: string;
   audience: string;
-  // snippet-specific
-  intent?: string;
   text?: string;
-  tags?: string[];
+  // snippet-specific
+  command?: string;
+  scenario?: string;
+  tags?: string;
 }
 
 async function main() {
@@ -81,6 +82,7 @@ async function main() {
         description: tool.description,
         category: tool.category,
         audience: tool.audience ?? "engineer",
+        text: (tool.title ?? "") + " " + (tool.description ?? ""),
       });
 
       // Enriched metadata for the homepage
@@ -92,20 +94,20 @@ async function main() {
         category: tool.category,
       });
 
-      // One record per snippet for granular search
-      for (const section of tool.sections ?? []) {
-        for (const item of section.items ?? []) {
-          records.push({
-            type: "snippet",
-            slug,
-            title: tool.title ?? nameBySlug[slug] ?? slug,
-            category: tool.category,
-            audience: tool.audience ?? "engineer",
-            intent: item.intent,
-            text: item.command,
-            tags: item.tags,
-          });
-        }
+      // Per-command snippet records for granular search
+      for (const cmd of tool.commands ?? []) {
+        records.push({
+          type: "snippet",
+          slug,
+          title: tool.title ?? nameBySlug[slug] ?? slug,
+          category: tool.category,
+          audience: tool.audience ?? "engineer",
+          command: cmd.command,
+          description: cmd.description,
+          scenario: cmd.scenario,
+          tags: (cmd.tags ?? []).join(" "),
+          text: [cmd.command, cmd.description, cmd.scenario, ...(cmd.tags ?? [])].filter(Boolean).join(" "),
+        });
       }
     } catch (err) {
       console.warn(`Skipping ${file}: ${err}`);
