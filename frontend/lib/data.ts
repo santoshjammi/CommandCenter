@@ -58,7 +58,7 @@ async function _getAllToolMeta(): Promise<ToolMeta[]> {
 
 /** All tool metadata (base + enriched from generated files). Cached 1 h. */
 export const getAllToolMeta = unstable_cache(_getAllToolMeta, ["all-tool-meta"], {
-  revalidate: 3600,
+  revalidate: false,
 });
 
 /** Single cheat sheet by slug. Cached 1 h per slug. */

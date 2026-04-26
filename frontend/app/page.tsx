@@ -5,8 +5,8 @@ import { CATEGORIES } from "@/lib/types";
 import ToolCard from "@/components/ToolCard";
 import AudienceFilter from "@/components/AudienceFilter";
 
-// Fully static — rebuild every hour on ISR or at next deploy
-export const revalidate = 3600;
+// Fully static — data is baked in at build time, no runtime filesystem reads
+export const dynamic = "force-static";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
 

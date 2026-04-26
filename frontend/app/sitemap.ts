@@ -4,7 +4,8 @@ import fs from "fs/promises";
 import path from "path";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
-const TOOLS_DIR = path.join(process.cwd(), "..", "data", "tools");
+// Use the same baked DATA_DIR that data.ts uses — avoids process.cwd() ambiguity
+const TOOLS_DIR = path.join(process.env.DATA_DIR ?? path.join(process.cwd(), "..", "data"), "tools");
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const slugs = await getGeneratedSlugs();
