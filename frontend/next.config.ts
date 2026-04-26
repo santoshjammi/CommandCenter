@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "standalone",
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  turbopack: {
+    root: __dirname,   // tells Turbopack to ignore the parent package-lock.json
+  },
   experimental: {
     optimizePackageImports: ["shiki", "fuse.js"],
   },
