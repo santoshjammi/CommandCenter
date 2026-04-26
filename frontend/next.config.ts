@@ -1,12 +1,21 @@
 import type { NextConfig } from "next";
+import path from "path";
+
+// __dirname here is always the frontend/ directory — resolved at BUILD time.
+// This absolute path is baked into the bundle, so the standalone server
+// always knows where data/ is regardless of what cwd Hostinger uses.
+const DATA_DIR = path.join(__dirname, "..", "data");
 
 const nextConfig: NextConfig = {
   output: "standalone",
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  env: {
+    DATA_DIR,
+  },
   turbopack: {
-    root: __dirname,   // tells Turbopack to ignore the parent package-lock.json
+    root: __dirname,
   },
   experimental: {
     optimizePackageImports: ["shiki", "fuse.js"],

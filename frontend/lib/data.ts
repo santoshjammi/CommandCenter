@@ -3,9 +3,11 @@ import path from "path";
 import { unstable_cache } from "next/cache";
 import type { CheatSheet, ToolMeta } from "./types";
 
-// Absolute path to the data/tools directory — one level up from the Next.js project
-const TOOLS_DIR = path.join(process.cwd(), "..", "data", "tools");
-const CLEAN_TOOLS_FILE = path.join(process.cwd(), "..", "data", "clean_tools.json");
+// DATA_DIR is baked in at build time by next.config.ts (absolute path to repo/data/).
+// Falls back to process.cwd()-relative path for local dev without a build.
+const _DATA_ROOT = process.env.DATA_DIR ?? path.join(process.cwd(), "..", "data");
+const TOOLS_DIR = path.join(_DATA_ROOT, "tools");
+const CLEAN_TOOLS_FILE = path.join(_DATA_ROOT, "clean_tools.json");
 
 // ---------------------------------------------------------------------------
 // Raw readers (not exported — called only through the cached wrappers)
