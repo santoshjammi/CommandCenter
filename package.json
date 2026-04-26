@@ -4,7 +4,7 @@
   "private": true,
   "description": "DevKeys — developer cheat sheets",
   "engines": {
-    "node": ">=18"
+    "node": ">=20.9.0"
   },
   "scripts": {
     "install": "cd frontend && npm install",
