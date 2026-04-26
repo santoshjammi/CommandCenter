@@ -13,11 +13,20 @@ import path from "path";
 const TOOLS_DIR = path.join(process.cwd(), "..", "data", "tools");
 const CLEAN_TOOLS = path.join(process.cwd(), "..", "data", "clean_tools.json");
 const OUT_FILE = path.join(process.cwd(), "public", "search-index.json");
+const TOOLS_META_FILE = path.join(process.cwd(), "public", "tools-meta.json");
 
 interface ToolEntry {
   slug: string;
   name: string;
   audience: string;
+}
+
+interface ToolMeta {
+  slug: string;
+  name: string;
+  audience: string;
+  description?: string;
+  category?: string;
 }
 
 interface SearchRecord {
@@ -35,14 +44,17 @@ interface SearchRecord {
 
 async function main() {
   const records: SearchRecord[] = [];
+  const toolsMeta: ToolMeta[] = [];
 
   // Load clean tools for display names
   const cleanTools: ToolEntry[] = JSON.parse(
     fs.readFileSync(CLEAN_TOOLS, "utf-8")
   );
   const nameBySlug: Record<string, string> = {};
+  const audienceBySlug: Record<string, string> = {};
   for (const t of cleanTools) {
     nameBySlug[t.slug] = t.name;
+    audienceBySlug[t.slug] = t.audience;
   }
 
   if (!fs.existsSync(TOOLS_DIR)) {
@@ -71,6 +83,15 @@ async function main() {
         audience: tool.audience ?? "engineer",
       });
 
+      // Enriched metadata for the homepage
+      toolsMeta.push({
+        slug,
+        name: nameBySlug[slug] ?? tool.title ?? slug,
+        audience: tool.audience ?? audienceBySlug[slug] ?? "engineer",
+        description: tool.description,
+        category: tool.category,
+      });
+
       // One record per snippet for granular search
       for (const section of tool.sections ?? []) {
         for (const item of section.items ?? []) {
@@ -93,6 +114,9 @@ async function main() {
 
   fs.writeFileSync(OUT_FILE, JSON.stringify(records));
   console.log(`Wrote ${records.length} records to public/search-index.json`);
+
+  fs.writeFileSync(TOOLS_META_FILE, JSON.stringify(toolsMeta));
+  console.log(`Wrote ${toolsMeta.length} records to public/tools-meta.json`);
 }
 
 main().catch((err) => {

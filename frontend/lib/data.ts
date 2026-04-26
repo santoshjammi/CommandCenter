@@ -21,7 +21,10 @@ function resolveDataRoot(): string {
 
 const _DATA_ROOT = resolveDataRoot();
 const TOOLS_DIR = path.join(_DATA_ROOT, "tools");
-const CLEAN_TOOLS_FILE = path.join(_DATA_ROOT, "clean_tools.json");
+
+// tools-meta.json is written by scripts/build-search-index.ts immediately before
+// `next build` runs. Reading one file is far more reliable than 963 concurrent reads.
+const TOOLS_META_FILE = path.join(process.cwd(), "public", "tools-meta.json");
 
 // ---------------------------------------------------------------------------
 // Data readers — plain async functions, no caching layer.
@@ -41,25 +44,8 @@ export async function getToolBySlug(slug: string): Promise<CheatSheet | null> {
 
 export async function getAllToolMeta(): Promise<ToolMeta[]> {
   try {
-    const raw = await fs.readFile(CLEAN_TOOLS_FILE, "utf8");
-    const base: ToolMeta[] = JSON.parse(raw);
-
-    // Enrich with category/description from individual tool files where available
-    const enriched = await Promise.all(
-      base.map(async (tool) => {
-        try {
-          const sheet = await getToolBySlug(tool.slug);
-          if (sheet) {
-            return { ...tool, description: sheet.description, category: sheet.category };
-          }
-        } catch {
-          // tool not yet generated — return base meta
-        }
-        return tool;
-      })
-    );
-
-    return enriched;
+    const raw = await fs.readFile(TOOLS_META_FILE, "utf8");
+    return JSON.parse(raw) as ToolMeta[];
   } catch {
     return [];
   }
