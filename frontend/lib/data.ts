@@ -1,10 +1,25 @@
 import fs from "fs/promises";
+import { existsSync } from "fs";
 import path from "path";
 import type { CheatSheet, ToolMeta } from "./types";
 
-// DATA_DIR is baked in at build time by next.config.ts (absolute path to repo/data/).
-// Falls back to process.cwd()-relative path for local dev without a build.
-const _DATA_ROOT = process.env.DATA_DIR ?? path.join(process.cwd(), "..", "data");
+// Resolve the data directory by testing multiple candidate paths in order.
+// This is robust across different CWDs (local dev, Hostinger build, standalone server).
+function resolveDataRoot(): string {
+  const candidates = [
+    // 1. Explicit override via real env var (set in Hostinger environment panel if needed)
+    process.env.DATA_DIR,
+    // 2. cwd() is frontend/ when built via `cd frontend && npm run build`
+    path.join(process.cwd(), "..", "data"),
+    // 3. cwd() is repo root (some hosts run build from root)
+    path.join(process.cwd(), "data"),
+  ].filter(Boolean) as string[];
+
+  const found = candidates.find((p) => existsSync(p));
+  return found ?? candidates[1]; // default to cwd()/../data if none exist yet
+}
+
+const _DATA_ROOT = resolveDataRoot();
 const TOOLS_DIR = path.join(_DATA_ROOT, "tools");
 const CLEAN_TOOLS_FILE = path.join(_DATA_ROOT, "clean_tools.json");
 

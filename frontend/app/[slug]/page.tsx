@@ -8,7 +8,6 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysne
 
 // Every slug page is statically generated at build time
 export const dynamic = "force-static";
-export const revalidate = 3600;
 
 export async function generateStaticParams() {
   const slugs = await getGeneratedSlugs();
