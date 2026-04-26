@@ -148,6 +148,7 @@ export default function SearchBar() {
         </svg>
         Search tools…
         <kbd
+          suppressHydrationWarning
           className="inline-flex items-center px-1.5 py-0.5 text-xs rounded-md"
           style={{ background: "var(--light-mint)", color: "var(--dark-green)", fontFamily: "inherit" }}
         >
