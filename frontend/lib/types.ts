@@ -48,3 +48,38 @@ export const CATEGORIES = [
 ] as const;
 
 export type Category = (typeof CATEGORIES)[number];
+
+// ---------------------------------------------------------------------------
+// How-To types
+// ---------------------------------------------------------------------------
+
+export interface HowToStep {
+  title: string;
+  explanation: string;
+  code?: string;
+  language?: string;
+}
+
+export interface HowTo {
+  slug: string;
+  question: string;
+  description: string;
+  topic: string;
+  difficulty: "beginner" | "intermediate" | "advanced";
+  tags: string[];
+  steps: HowToStep[];
+  full_example?: {
+    code: string;
+    language: string;
+  };
+  related_slugs?: string[];
+}
+
+export interface HowToMeta {
+  slug: string;
+  question: string;
+  description: string;
+  topic: string;
+  difficulty: "beginner" | "intermediate" | "advanced";
+  tags: string[];
+}

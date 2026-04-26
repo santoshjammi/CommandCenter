@@ -13,7 +13,7 @@ function isMac(): boolean {
 }
 
 interface SearchEntry {
-  type: "tool" | "snippet";
+  type: "tool" | "snippet" | "howto";
   slug: string;
   title: string;
   description?: string;
@@ -23,6 +23,7 @@ interface SearchEntry {
   intent?: string;
   command?: string;
   text: string;
+  path?: string;
 }
 
 export default function SearchBar() {
@@ -76,7 +77,10 @@ export default function SearchBar() {
     const deduped: SearchEntry[] = [];
     for (const r of raw) {
       const item = r.item;
-      const key = item.type === "tool" ? `tool-${item.slug}` : `snippet-${item.slug}-${item.command}`;
+      const key =
+        item.type === "howto" ? `howto-${item.slug}` :
+        item.type === "tool"  ? `tool-${item.slug}` :
+                                `snippet-${item.slug}-${item.command}`;
       
       if (!seen.has(key)) {
         seen.add(key);
@@ -122,7 +126,8 @@ export default function SearchBar() {
       } else if (e.key === "Enter" && results[selected]) {
         e.preventDefault();
         setOpen(false);
-        router.push(`/${results[selected].slug}`);
+        const r = results[selected];
+        router.push(r.path ?? `/${r.slug}`);
       }
     },
     [results, selected, router]
@@ -214,7 +219,7 @@ export default function SearchBar() {
                 {results.map((r, i) => (
                   <li key={`${r.slug}-${i}`}>
                     <Link
-                      href={`/${r.slug}`}
+                      href={r.path ?? `/${r.slug}`}
                       onClick={() => setOpen(false)}
                       className="flex items-start gap-3 px-4 py-2.5 text-sm transition-colors"
                       style={{

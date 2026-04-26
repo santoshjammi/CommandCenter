@@ -1,0 +1,39 @@
+{
+  "slug": "html-modal",
+  "question": "How to create a modal dialog in HTML",
+  "description": "The native <dialog> element provides accessible modals with built-in focus trapping, Escape key support, and a ::backdrop pseudo-element — no library needed.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["dialog", "modal", "popup", "accessibility", "javascript"],
+  "steps": [
+    {
+      "title": "Create the <dialog> element",
+      "explanation": "Add a <dialog> element anywhere in your HTML. It is hidden by default. Give it an id so you can reference it from JavaScript.",
+      "code": "<dialog id=\"myModal\">\n  <h2>Confirm action</h2>\n  <p>Are you sure you want to proceed?</p>\n  <button id=\"closeBtn\">Close</button>\n</dialog>\n\n<button id=\"openBtn\">Open modal</button>",
+      "language": "html"
+    },
+    {
+      "title": "Open and close with showModal() and close()",
+      "explanation": "showModal() opens the dialog as a true modal — it traps focus inside and closes automatically when the user presses Escape. close() dismisses it.",
+      "code": "const modal = document.getElementById('myModal');\n\ndocument.getElementById('openBtn')\n  .addEventListener('click', () => modal.showModal());\n\ndocument.getElementById('closeBtn')\n  .addEventListener('click', () => modal.close());",
+      "language": "javascript"
+    },
+    {
+      "title": "Close on backdrop click",
+      "explanation": "Clicking the backdrop does not close the modal by default. Check that the click target is the <dialog> element itself (not its children) to dismiss on outside-click.",
+      "code": "modal.addEventListener('click', (e) => {\n  if (e.target === modal) modal.close();\n});",
+      "language": "javascript"
+    },
+    {
+      "title": "Style the backdrop with ::backdrop",
+      "explanation": "The ::backdrop pseudo-element covers the page behind the dialog. You can blur or dim it freely with CSS.",
+      "code": "dialog {\n  border: none;\n  border-radius: 12px;\n  padding: 2rem;\n  max-width: 480px;\n  width: 100%;\n}\n\ndialog::backdrop {\n  background: rgba(0, 0, 0, 0.5);\n  backdrop-filter: blur(4px);\n}",
+      "language": "css"
+    }
+  ],
+  "full_example": {
+    "code": "<!-- HTML -->\n<dialog id=\"confirmModal\">\n  <form method=\"dialog\">\n    <h2>Delete item?</h2>\n    <p>This action cannot be undone.</p>\n    <menu>\n      <button value=\"cancel\">Cancel</button>\n      <button value=\"confirm\" autofocus>Delete</button>\n    </menu>\n  </form>\n</dialog>\n\n<button onclick=\"document.getElementById('confirmModal').showModal()\">\n  Delete item\n</button>\n\n<script>\n  document.getElementById('confirmModal').addEventListener('close', (e) => {\n    if (e.target.returnValue === 'confirm') {\n      console.log('Deleted!');\n    }\n  });\n</script>",
+    "language": "html"
+  },
+  "related_slugs": ["html-form-validation", "html-accordion", "html"]
+}

@@ -27,6 +27,13 @@ export default function Header() {
 
         {/* Right side */}
         <div className="flex items-center gap-2">
+          <Link
+            href="/howto"
+            className="nav-hover hidden sm:inline-flex items-center px-3 py-1.5 rounded-lg text-sm font-semibold transition-all"
+            style={{ color: "var(--muted-gray)" }}
+          >
+            How-To&apos;s
+          </Link>
           <SearchBar />
           <a
             href="https://github.com"

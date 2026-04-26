@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import { existsSync } from "fs";
 import path from "path";
-import type { CheatSheet, ToolMeta } from "./types";
+import type { CheatSheet, HowTo, HowToMeta, ToolMeta } from "./types";
 
 // Resolve the data directory by testing multiple candidate paths in order.
 // This is robust across different CWDs (local dev, Hostinger build, standalone server).
@@ -21,10 +21,12 @@ function resolveDataRoot(): string {
 
 const _DATA_ROOT = resolveDataRoot();
 const TOOLS_DIR = path.join(_DATA_ROOT, "tools");
+const HOWTOS_DIR = path.join(_DATA_ROOT, "howtos");
 
 // tools-meta.json is written by scripts/build-search-index.ts immediately before
 // `next build` runs. Reading one file is far more reliable than 963 concurrent reads.
 const TOOLS_META_FILE = path.join(process.cwd(), "public", "tools-meta.json");
+const HOWTOS_META_FILE = path.join(process.cwd(), "public", "howtos-meta.json");
 
 // ---------------------------------------------------------------------------
 // Data readers — plain async functions, no caching layer.
@@ -116,4 +118,35 @@ export async function buildSearchIndex(): Promise<object[]> {
   }
 
   return index;
+}
+
+// ---------------------------------------------------------------------------
+// How-To data readers
+// ---------------------------------------------------------------------------
+
+export async function getHowToBySlug(slug: string): Promise<HowTo | null> {
+  try {
+    const raw = await fs.readFile(path.join(HOWTOS_DIR, `${slug}.json`), "utf8");
+    return JSON.parse(raw) as HowTo;
+  } catch {
+    return null;
+  }
+}
+
+export async function getHowToSlugs(): Promise<string[]> {
+  try {
+    const files = await fs.readdir(HOWTOS_DIR);
+    return files.filter((f) => f.endsWith(".json")).map((f) => f.replace(".json", ""));
+  } catch {
+    return [];
+  }
+}
+
+export async function getAllHowToMeta(): Promise<HowToMeta[]> {
+  try {
+    const raw = await fs.readFile(HOWTOS_META_FILE, "utf8");
+    return JSON.parse(raw) as HowToMeta[];
+  } catch {
+    return [];
+  }
 }

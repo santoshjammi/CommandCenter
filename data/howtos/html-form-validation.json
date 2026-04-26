@@ -1,0 +1,39 @@
+{
+  "slug": "html-form-validation",
+  "question": "How to add form validation in HTML",
+  "description": "Use HTML5 constraint attributes to validate user input before submission — no JavaScript required for common cases like required fields, email formats, and length limits.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["form", "input", "required", "pattern", "validation", "accessibility"],
+  "steps": [
+    {
+      "title": "Mark required fields",
+      "explanation": "The required attribute prevents form submission if the field is empty. Pair it with <label> and aria-describedby so screen readers communicate what's needed.",
+      "code": "<label for=\"email\">Email address <span aria-hidden=\"true\">*</span></label>\n<input\n  type=\"email\"\n  id=\"email\"\n  name=\"email\"\n  required\n  autocomplete=\"email\"\n  aria-required=\"true\"\n/>",
+      "language": "html"
+    },
+    {
+      "title": "Use semantic input types",
+      "explanation": "Semantic types (email, url, tel, number, date) trigger browser-level validation automatically and show the right keyboard on mobile. They require no extra code.",
+      "code": "<input type=\"email\" name=\"email\" required />\n<input type=\"url\" name=\"website\" placeholder=\"https://\" />\n<input type=\"tel\" name=\"phone\" />\n<input type=\"number\" name=\"age\" min=\"18\" max=\"120\" />\n<input type=\"date\" name=\"dob\" />",
+      "language": "html"
+    },
+    {
+      "title": "Enforce patterns with regex",
+      "explanation": "The pattern attribute accepts a JavaScript regex. The title is shown in the browser's validation tooltip and should describe the expected format.",
+      "code": "<!-- UK postcode -->\n<input\n  type=\"text\"\n  name=\"postcode\"\n  pattern=\"[A-Z]{1,2}[0-9][0-9A-Z]? [0-9][A-Z]{2}\"\n  title=\"Enter a valid UK postcode, e.g. SW1A 1AA\"\n  required\n/>\n\n<!-- Password: 8+ chars, 1 uppercase, 1 digit -->\n<input\n  type=\"password\"\n  name=\"password\"\n  pattern=\"(?=.*[A-Z])(?=.*\\d).{8,}\"\n  title=\"Minimum 8 characters, one uppercase letter and one digit\"\n  required\n/>",
+      "language": "html"
+    },
+    {
+      "title": "Set length and range limits",
+      "explanation": "Use minlength/maxlength for text and min/max/step for numbers. The step attribute controls the increment for number and range inputs.",
+      "code": "<input\n  type=\"text\"\n  name=\"username\"\n  minlength=\"3\"\n  maxlength=\"20\"\n  required\n/>\n\n<input\n  type=\"number\"\n  name=\"quantity\"\n  min=\"1\"\n  max=\"99\"\n  step=\"1\"\n  value=\"1\"\n/>\n\n<input\n  type=\"range\"\n  name=\"rating\"\n  min=\"1\"\n  max=\"10\"\n  step=\"1\"\n  value=\"5\"\n/>",
+      "language": "html"
+    }
+  ],
+  "full_example": {
+    "code": "<form action=\"/register\" method=\"post\" novalidate id=\"regForm\">\n  <fieldset>\n    <legend>Create account</legend>\n\n    <label for=\"name\">Full name *</label>\n    <input type=\"text\" id=\"name\" name=\"name\" required minlength=\"2\" maxlength=\"60\" autocomplete=\"name\" />\n\n    <label for=\"regEmail\">Email address *</label>\n    <input type=\"email\" id=\"regEmail\" name=\"email\" required autocomplete=\"email\" />\n\n    <label for=\"pwd\">Password *</label>\n    <input\n      type=\"password\"\n      id=\"pwd\"\n      name=\"password\"\n      required\n      minlength=\"8\"\n      pattern=\"(?=.*[A-Z])(?=.*\\d).{8,}\"\n      title=\"At least 8 characters, one uppercase letter, one number\"\n      autocomplete=\"new-password\"\n    />\n\n    <label for=\"age\">Age</label>\n    <input type=\"number\" id=\"age\" name=\"age\" min=\"18\" max=\"120\" />\n\n    <label>\n      <input type=\"checkbox\" name=\"terms\" required />\n      I agree to the terms\n    </label>\n\n    <button type=\"submit\">Create account</button>\n  </fieldset>\n</form>",
+    "language": "html"
+  },
+  "related_slugs": ["html-dropdown", "html-modal", "html"]
+}

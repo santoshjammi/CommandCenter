@@ -1,0 +1,39 @@
+{
+  "slug": "html-responsive-image",
+  "question": "How to add responsive images in HTML",
+  "description": "Serve the right image size for every device using srcset, sizes, and the <picture> element — reducing bandwidth without sacrificing quality.",
+  "topic": "html",
+  "difficulty": "intermediate",
+  "tags": ["img", "srcset", "picture", "responsive", "performance", "lazy-loading"],
+  "steps": [
+    {
+      "title": "Use srcset for resolution switching",
+      "explanation": "srcset lets the browser choose the best image based on the device pixel ratio. Use 1x, 2x, 3x descriptors so retina screens get a sharper image automatically.",
+      "code": "<img\n  src=\"photo-800.jpg\"\n  srcset=\"photo-800.jpg 1x, photo-1600.jpg 2x\"\n  alt=\"A mountain landscape\"\n  width=\"800\"\n  height=\"533\"\n/>",
+      "language": "html"
+    },
+    {
+      "title": "Use srcset with sizes for viewport-based switching",
+      "explanation": "Use width descriptors (w) and a sizes attribute to tell the browser the intended display width at each breakpoint. The browser picks the smallest image that still looks sharp.",
+      "code": "<img\n  src=\"photo-800.jpg\"\n  srcset=\"\n    photo-400.jpg  400w,\n    photo-800.jpg  800w,\n    photo-1200.jpg 1200w\n  \"\n  sizes=\"\n    (max-width: 600px)  100vw,\n    (max-width: 1200px) 50vw,\n    800px\n  \"\n  alt=\"A mountain landscape\"\n  width=\"800\"\n  height=\"533\"\n/>",
+      "language": "html"
+    },
+    {
+      "title": "Use <picture> for art direction",
+      "explanation": "<picture> lets you swap entirely different images (not just sizes) at different breakpoints — useful when a wide crop works on desktop but a tight crop works better on mobile.",
+      "code": "<picture>\n  <!-- Mobile: portrait crop -->\n  <source media=\"(max-width: 600px)\" srcset=\"photo-portrait.webp\" type=\"image/webp\" />\n  <source media=\"(max-width: 600px)\" srcset=\"photo-portrait.jpg\" />\n  <!-- Desktop: landscape crop -->\n  <source srcset=\"photo-landscape.webp\" type=\"image/webp\" />\n  <!-- Fallback -->\n  <img src=\"photo-landscape.jpg\" alt=\"A mountain landscape\" width=\"1200\" height=\"800\" />\n</picture>",
+      "language": "html"
+    },
+    {
+      "title": "Add lazy loading and async decoding",
+      "explanation": "loading=\"lazy\" defers off-screen images until the user scrolls near them, cutting initial page load. decoding=\"async\" lets the browser decode the image off the main thread.",
+      "code": "<img\n  src=\"photo.jpg\"\n  alt=\"A mountain landscape\"\n  width=\"800\"\n  height=\"533\"\n  loading=\"lazy\"\n  decoding=\"async\"\n/>",
+      "language": "html"
+    }
+  ],
+  "full_example": {
+    "code": "<picture>\n  <source\n    media=\"(max-width: 600px)\"\n    srcset=\"hero-mobile.webp 600w, hero-mobile-2x.webp 1200w\"\n    sizes=\"100vw\"\n    type=\"image/webp\"\n  />\n  <source\n    srcset=\"hero-desktop.webp 1200w, hero-desktop-2x.webp 2400w\"\n    sizes=\"(max-width: 1400px) 100vw, 1400px\"\n    type=\"image/webp\"\n  />\n  <img\n    src=\"hero-desktop.jpg\"\n    srcset=\"hero-desktop.jpg 1200w, hero-desktop-2x.jpg 2400w\"\n    sizes=\"(max-width: 1400px) 100vw, 1400px\"\n    alt=\"Hero banner — a mountain at sunset\"\n    width=\"1200\"\n    height=\"630\"\n    loading=\"eager\"\n    decoding=\"async\"\n    fetchpriority=\"high\"\n  />\n</picture>",
+    "language": "html"
+  },
+  "related_slugs": ["html-video", "html-semantic", "html"]
+}

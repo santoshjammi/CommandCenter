@@ -1,0 +1,39 @@
+{
+  "slug": "html-dropdown",
+  "question": "How to create a dropdown menu in HTML",
+  "description": "Use the native <select> element for accessible, form-ready dropdown menus with no JavaScript required.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["select", "option", "optgroup", "form", "dropdown"],
+  "steps": [
+    {
+      "title": "Basic dropdown with <select> and <option>",
+      "explanation": "The <select> element creates the dropdown container. Each <option> child is a selectable item. The name attribute is used when the form is submitted.",
+      "code": "<select name=\"country\">\n  <option value=\"us\">United States</option>\n  <option value=\"uk\">United Kingdom</option>\n  <option value=\"au\">Australia</option>\n</select>",
+      "language": "html"
+    },
+    {
+      "title": "Add a placeholder prompt",
+      "explanation": "Use an empty-value <option> with selected and disabled to act as a placeholder. This prevents users from accidentally submitting a blank value.",
+      "code": "<select name=\"country\" required>\n  <option value=\"\" selected disabled>Choose a country…</option>\n  <option value=\"us\">United States</option>\n  <option value=\"uk\">United Kingdom</option>\n  <option value=\"au\">Australia</option>\n</select>",
+      "language": "html"
+    },
+    {
+      "title": "Group related options with <optgroup>",
+      "explanation": "<optgroup label=\"…\"> creates a labelled group of options. The group label itself is not selectable.",
+      "code": "<select name=\"city\">\n  <option value=\"\" disabled selected>Choose a city…</option>\n  <optgroup label=\"North America\">\n    <option value=\"nyc\">New York</option>\n    <option value=\"la\">Los Angeles</option>\n  </optgroup>\n  <optgroup label=\"Europe\">\n    <option value=\"lon\">London</option>\n    <option value=\"par\">Paris</option>\n  </optgroup>\n</select>",
+      "language": "html"
+    },
+    {
+      "title": "Allow multiple selections",
+      "explanation": "Add multiple to let users select more than one option (Ctrl/Cmd+click). The size attribute sets how many rows are visible without scrolling.",
+      "code": "<select name=\"skills\" multiple size=\"4\">\n  <option value=\"html\">HTML</option>\n  <option value=\"css\">CSS</option>\n  <option value=\"js\">JavaScript</option>\n  <option value=\"ts\">TypeScript</option>\n</select>",
+      "language": "html"
+    }
+  ],
+  "full_example": {
+    "code": "<form action=\"/submit\" method=\"post\">\n  <label for=\"role\">Select your role</label>\n  <select id=\"role\" name=\"role\" required>\n    <option value=\"\" selected disabled>Choose a role…</option>\n    <optgroup label=\"Engineering\">\n      <option value=\"frontend\">Frontend Developer</option>\n      <option value=\"backend\">Backend Developer</option>\n      <option value=\"fullstack\">Full-Stack Developer</option>\n    </optgroup>\n    <optgroup label=\"Design\">\n      <option value=\"ux\">UX Designer</option>\n      <option value=\"ui\">UI Designer</option>\n    </optgroup>\n  </select>\n  <button type=\"submit\">Submit</button>\n</form>",
+    "language": "html"
+  },
+  "related_slugs": ["html-form-validation", "html-table", "html"]
+}

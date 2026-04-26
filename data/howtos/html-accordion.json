@@ -1,0 +1,39 @@
+{
+  "slug": "html-accordion",
+  "question": "How to create an accordion without JavaScript",
+  "description": "Use the native <details> and <summary> elements to build fully functional, accessible accordions with zero JavaScript and no dependencies.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["details", "summary", "accordion", "disclosure", "css", "no-javascript"],
+  "steps": [
+    {
+      "title": "Basic <details> and <summary>",
+      "explanation": "<details> is a disclosure widget. Clicking <summary> toggles the open state of all sibling content. The open attribute marks it expanded by default.",
+      "code": "<details>\n  <summary>What is HTML?</summary>\n  <p>HTML (HyperText Markup Language) is the standard markup language used to\n  structure content on the web.</p>\n</details>\n\n<!-- Open by default -->\n<details open>\n  <summary>What is CSS?</summary>\n  <p>CSS (Cascading Style Sheets) controls the visual presentation of HTML elements.</p>\n</details>",
+      "language": "html"
+    },
+    {
+      "title": "Style the marker and animate the open state",
+      "explanation": "Remove the default triangle with list-style: none on summary. Use CSS grid or max-height to animate the expanding content — no JavaScript needed.",
+      "code": "summary {\n  cursor: pointer;\n  list-style: none; /* hides default triangle in Firefox */\n  font-weight: 600;\n  padding: 1rem;\n  border-bottom: 1px solid #e5e7eb;\n}\n\nsummary::-webkit-details-marker {\n  display: none; /* hides triangle in Safari/Chrome */\n}\n\n/* Custom open/close indicator */\nsummary::after {\n  content: '+';\n  float: right;\n  font-size: 1.25rem;\n}\n\ndetails[open] summary::after {\n  content: '−';\n}\n\ndetails > :not(summary) {\n  padding: 1rem;\n}",
+      "language": "css"
+    },
+    {
+      "title": "Build a full accordion stack",
+      "explanation": "Stack multiple <details> elements inside a wrapper for a classic accordion. They operate independently by default — any number can be open simultaneously.",
+      "code": "<div class=\"accordion\">\n  <details>\n    <summary>Shipping policy</summary>\n    <p>We ship worldwide. Standard delivery takes 5–7 business days.</p>\n  </details>\n  <details>\n    <summary>Return policy</summary>\n    <p>Returns are accepted within 30 days. Items must be unused.</p>\n  </details>\n  <details>\n    <summary>Payment options</summary>\n    <p>We accept Visa, Mastercard, PayPal, and Apple Pay.</p>\n  </details>\n</div>",
+      "language": "html"
+    },
+    {
+      "title": "Exclusive accordion — only one item open at a time",
+      "explanation": "HTML 2024 introduced the name attribute on <details>. All <details> elements sharing the same name behave like a radio group — opening one closes the others automatically.",
+      "code": "<!-- name= groups them into an exclusive set -->\n<details name=\"faq\">\n  <summary>What is your refund policy?</summary>\n  <p>Full refund within 30 days of purchase.</p>\n</details>\n\n<details name=\"faq\">\n  <summary>How long does shipping take?</summary>\n  <p>5–7 business days for standard delivery.</p>\n</details>\n\n<details name=\"faq\">\n  <summary>Do you ship internationally?</summary>\n  <p>Yes — we ship to over 50 countries.</p>\n</details>",
+      "language": "html"
+    }
+  ],
+  "full_example": {
+    "code": "<style>\n  .faq { border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; }\n  .faq details { border-top: 1px solid #e5e7eb; }\n  .faq details:first-child { border-top: none; }\n  .faq summary { cursor: pointer; list-style: none; padding: 1rem 1.25rem;\n    font-weight: 600; display: flex; justify-content: space-between; }\n  .faq summary::-webkit-details-marker { display: none; }\n  .faq summary::after { content: '+'; font-size: 1.2rem; }\n  .faq details[open] summary::after { content: '−'; }\n  .faq .content { padding: 0 1.25rem 1rem; color: #4b5563; }\n</style>\n\n<div class=\"faq\" role=\"list\">\n  <details name=\"faq\" role=\"listitem\">\n    <summary>What is your refund policy?</summary>\n    <div class=\"content\"><p>Full refund within 30 days of purchase, no questions asked.</p></div>\n  </details>\n  <details name=\"faq\" role=\"listitem\">\n    <summary>How long does shipping take?</summary>\n    <div class=\"content\"><p>Standard: 5–7 business days. Express: 1–2 business days.</p></div>\n  </details>\n  <details name=\"faq\" role=\"listitem\">\n    <summary>Do you ship internationally?</summary>\n    <div class=\"content\"><p>Yes — we deliver to 50+ countries. Rates calculated at checkout.</p></div>\n  </details>\n</div>",
+    "language": "html"
+  },
+  "related_slugs": ["html-modal", "html-semantic", "html"]
+}

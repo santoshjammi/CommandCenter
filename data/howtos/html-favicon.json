@@ -1,0 +1,39 @@
+{
+  "slug": "html-favicon",
+  "question": "How to add a favicon to a website",
+  "description": "Add favicons that look sharp on every device — from classic browser tabs to iOS home-screen icons and PWA manifests — with just a few <link> tags.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["favicon", "link", "icon", "pwa", "apple-touch-icon", "seo"],
+  "steps": [
+    {
+      "title": "Add the basic .ico favicon",
+      "explanation": "Place a favicon.ico at your site root — most browsers look there automatically. Add a <link> tag as well for explicit control over the path.",
+      "code": "<head>\n  <!-- Place favicon.ico at the site root for browsers that look there -->\n  <link rel=\"icon\" href=\"/favicon.ico\" sizes=\"32x32\" />\n</head>",
+      "language": "html"
+    },
+    {
+      "title": "Use an SVG favicon for crispness at any size",
+      "explanation": "An SVG favicon scales perfectly on retina displays, supports dark-mode switching via CSS prefers-color-scheme, and is now supported in all modern browsers.",
+      "code": "<link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\" />\n<!-- Fallback .ico for older browsers -->\n<link rel=\"icon\" href=\"/favicon.ico\" sizes=\"32x32\" />",
+      "language": "html"
+    },
+    {
+      "title": "Add Apple touch icon for iOS",
+      "explanation": "When users add your site to their iOS home screen, Safari uses the apple-touch-icon. Provide a 180×180px PNG for best results.",
+      "code": "<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\" />",
+      "language": "html"
+    },
+    {
+      "title": "Add a web app manifest for PWAs and Android",
+      "explanation": "A manifest.json (or manifest.webmanifest) lets Android and desktop Chrome use your icons on the home screen / taskbar. Reference it with a <link> tag.",
+      "code": "<!-- In <head> -->\n<link rel=\"manifest\" href=\"/manifest.webmanifest\" />\n\n<!-- manifest.webmanifest -->\n{\n  \"name\": \"My App\",\n  \"short_name\": \"MyApp\",\n  \"icons\": [\n    { \"src\": \"/icon-192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\" },\n    { \"src\": \"/icon-512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\" }\n  ],\n  \"theme_color\": \"#ffffff\",\n  \"background_color\": \"#ffffff\",\n  \"display\": \"standalone\"\n}",
+      "language": "json"
+    }
+  ],
+  "full_example": {
+    "code": "<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title>My Site</title>\n\n  <!-- SVG — scales perfectly, supports dark mode -->\n  <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\" />\n  <!-- .ico fallback for IE / older browsers -->\n  <link rel=\"icon\" href=\"/favicon.ico\" sizes=\"32x32\" />\n  <!-- 180×180 PNG for iOS home screen -->\n  <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\" />\n  <!-- Web app manifest for Android / PWA -->\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\" />\n  <!-- Browser toolbar / tile colour -->\n  <meta name=\"theme-color\" content=\"#1a1a1a\" />\n</head>",
+    "language": "html"
+  },
+  "related_slugs": ["html-meta-seo", "html-semantic", "html"]
+}

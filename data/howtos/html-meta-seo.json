@@ -1,0 +1,39 @@
+{
+  "slug": "html-meta-seo",
+  "question": "How to add meta tags for SEO in HTML",
+  "description": "Essential <meta> and <link> tags every page needs: charset, viewport, title, description, canonical, Open Graph, and Twitter Card.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["meta", "seo", "open-graph", "twitter-card", "canonical", "head"],
+  "steps": [
+    {
+      "title": "Fundamentals — charset, viewport, title",
+      "explanation": "charset must be the very first tag inside <head>. The viewport meta tag prevents mobile browsers from zooming out. Title is the most important on-page SEO signal.",
+      "code": "<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title>Page Title — Brand Name</title>\n  <meta name=\"description\" content=\"A clear, 150–160 character description of this page that entices clicks in search results.\" />\n</head>",
+      "language": "html"
+    },
+    {
+      "title": "Canonical URL and robots",
+      "explanation": "The canonical link tells search engines which URL is the definitive version of the page, preventing duplicate-content penalties. robots controls indexing and link-following.",
+      "code": "<!-- Tell Google this is the authoritative URL -->\n<link rel=\"canonical\" href=\"https://example.com/blog/my-post\" />\n\n<!-- Index the page and follow its links (default) -->\n<meta name=\"robots\" content=\"index, follow\" />\n\n<!-- Block indexing of thin/filtered pages -->\n<meta name=\"robots\" content=\"noindex, nofollow\" />",
+      "language": "html"
+    },
+    {
+      "title": "Open Graph tags for social sharing",
+      "explanation": "Open Graph tags control how your page looks when shared on Facebook, LinkedIn, Slack, and most other platforms. og:title, og:description, og:image, and og:url are the minimum.",
+      "code": "<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:url\" content=\"https://example.com/blog/my-post\" />\n<meta property=\"og:title\" content=\"My Post Title\" />\n<meta property=\"og:description\" content=\"A compelling preview description, ideally under 150 characters.\" />\n<meta property=\"og:image\" content=\"https://example.com/blog/my-post-og.png\" />\n<meta property=\"og:image:width\" content=\"1200\" />\n<meta property=\"og:image:height\" content=\"630\" />\n<meta property=\"og:site_name\" content=\"My Site\" />",
+      "language": "html"
+    },
+    {
+      "title": "Twitter Card tags",
+      "explanation": "Twitter reads its own subset of meta tags. summary_large_image displays a large preview image in tweets. If open graph tags are already set, Twitter falls back to them for title/description.",
+      "code": "<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@YourHandle\" />\n<meta name=\"twitter:title\" content=\"My Post Title\" />\n<meta name=\"twitter:description\" content=\"A short description for the tweet card preview.\" />\n<meta name=\"twitter:image\" content=\"https://example.com/blog/my-post-twitter.png\" />",
+      "language": "html"
+    }
+  ],
+  "full_example": {
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <!-- Required -->\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title>How to Bake Sourdough Bread — Baker's Guide</title>\n  <meta name=\"description\" content=\"Step-by-step sourdough bread recipe for beginners. Learn to make a crispy, open-crumb loaf at home with just flour, water, salt, and a starter.\" />\n\n  <!-- Canonical -->\n  <link rel=\"canonical\" href=\"https://bakerguide.com/sourdough\" />\n  <meta name=\"robots\" content=\"index, follow\" />\n\n  <!-- Open Graph -->\n  <meta property=\"og:type\" content=\"article\" />\n  <meta property=\"og:url\" content=\"https://bakerguide.com/sourdough\" />\n  <meta property=\"og:title\" content=\"How to Bake Sourdough Bread\" />\n  <meta property=\"og:description\" content=\"A beginner-friendly sourdough recipe with step-by-step photos.\" />\n  <meta property=\"og:image\" content=\"https://bakerguide.com/sourdough-og.jpg\" />\n  <meta property=\"og:image:width\" content=\"1200\" />\n  <meta property=\"og:image:height\" content=\"630\" />\n  <meta property=\"og:site_name\" content=\"Baker's Guide\" />\n\n  <!-- Twitter Card -->\n  <meta name=\"twitter:card\" content=\"summary_large_image\" />\n  <meta name=\"twitter:site\" content=\"@bakersguide\" />\n  <meta name=\"twitter:image\" content=\"https://bakerguide.com/sourdough-og.jpg\" />\n</head>\n<body>…</body>\n</html>",
+    "language": "html"
+  },
+  "related_slugs": ["html-favicon", "html-semantic", "html"]
+}

@@ -11,9 +11,11 @@ import fs from "fs";
 import path from "path";
 
 const TOOLS_DIR = path.join(process.cwd(), "..", "data", "tools");
+const HOWTOS_DIR = path.join(process.cwd(), "..", "data", "howtos");
 const CLEAN_TOOLS = path.join(process.cwd(), "..", "data", "clean_tools.json");
 const OUT_FILE = path.join(process.cwd(), "public", "search-index.json");
 const TOOLS_META_FILE = path.join(process.cwd(), "public", "tools-meta.json");
+const HOWTOS_META_FILE = path.join(process.cwd(), "public", "howtos-meta.json");
 
 interface ToolEntry {
   slug: string;
@@ -30,17 +32,27 @@ interface ToolMeta {
 }
 
 interface SearchRecord {
-  type: "tool" | "snippet";
+  type: "tool" | "snippet" | "howto";
   slug: string;
   title: string;
   description?: string;
   category?: string;
   audience: string;
   text?: string;
+  path?: string;
   // snippet-specific
   command?: string;
   scenario?: string;
   tags?: string;
+}
+
+interface HowToMetaRecord {
+  slug: string;
+  question: string;
+  description: string;
+  topic: string;
+  difficulty: string;
+  tags: string[];
 }
 
 async function main() {
@@ -119,6 +131,43 @@ async function main() {
 
   fs.writeFileSync(TOOLS_META_FILE, JSON.stringify(toolsMeta));
   console.log(`Wrote ${toolsMeta.length} records to public/tools-meta.json`);
+
+  // Index how-tos
+  if (fs.existsSync(HOWTOS_DIR)) {
+    const howtoFiles = fs.readdirSync(HOWTOS_DIR).filter((f) => f.endsWith(".json"));
+    const howtosMeta: HowToMetaRecord[] = [];
+
+    for (const file of howtoFiles) {
+      try {
+        const howto = JSON.parse(fs.readFileSync(path.join(HOWTOS_DIR, file), "utf-8"));
+        howtosMeta.push({
+          slug: howto.slug,
+          question: howto.question,
+          description: howto.description,
+          topic: howto.topic,
+          difficulty: howto.difficulty,
+          tags: howto.tags ?? [],
+        });
+        records.push({
+          type: "howto",
+          slug: howto.slug,
+          title: howto.question,
+          description: howto.description,
+          category: howto.topic,
+          audience: "engineer",
+          text: howto.question + " " + howto.description + " " + (howto.tags ?? []).join(" "),
+          path: `/howto/${howto.slug}`,
+        });
+      } catch (err) {
+        console.warn(`Skipping how-to ${file}: ${err}`);
+      }
+    }
+
+    fs.writeFileSync(HOWTOS_META_FILE, JSON.stringify(howtosMeta));
+    console.log(`Wrote ${howtosMeta.length} howto records to public/howtos-meta.json`);
+  } else {
+    console.warn("No howtos directory found — skipping how-to index.");
+  }
 }
 
 main().catch((err) => {

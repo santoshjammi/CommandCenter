@@ -1,0 +1,39 @@
+{
+  "slug": "html-table",
+  "question": "How to create a data table in HTML",
+  "description": "Build accessible, well-structured data tables using semantic HTML elements like <thead>, <tbody>, <th scope>, and <caption>.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["table", "thead", "tbody", "th", "caption", "accessibility", "data"],
+  "steps": [
+    {
+      "title": "Use the full semantic table structure",
+      "explanation": "Always include <thead>, <tbody>, and optionally <tfoot>. This gives browsers and assistive technology the correct reading order and allows CSS to target each section independently.",
+      "code": "<table>\n  <thead>\n    <tr>\n      <th>Name</th>\n      <th>Role</th>\n      <th>Team</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Alice</td>\n      <td>Engineer</td>\n      <td>Platform</td>\n    </tr>\n    <tr>\n      <td>Bob</td>\n      <td>Designer</td>\n      <td>Product</td>\n    </tr>\n  </tbody>\n</table>",
+      "language": "html"
+    },
+    {
+      "title": "Add scope for accessibility",
+      "explanation": "The scope attribute on <th> tells screen readers whether a header applies to a column, a row, or a group. Always use scope=\"col\" for column headers and scope=\"row\" for row headers.",
+      "code": "<table>\n  <thead>\n    <tr>\n      <th scope=\"col\">Name</th>\n      <th scope=\"col\">Q1</th>\n      <th scope=\"col\">Q2</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th scope=\"row\">Revenue</th>\n      <td>$42k</td>\n      <td>$58k</td>\n    </tr>\n    <tr>\n      <th scope=\"row\">Expenses</th>\n      <td>$31k</td>\n      <td>$37k</td>\n    </tr>\n  </tbody>\n</table>",
+      "language": "html"
+    },
+    {
+      "title": "Add a caption and summary",
+      "explanation": "<caption> acts as a title for the table and is the primary way screen readers identify it. Place it as the first child of <table>.",
+      "code": "<table>\n  <caption>Q1–Q2 Financial Summary (USD thousands)</caption>\n  <thead>…</thead>\n  <tbody>…</tbody>\n</table>",
+      "language": "html"
+    },
+    {
+      "title": "Span columns and rows with colspan and rowspan",
+      "explanation": "colspan merges cells horizontally; rowspan merges them vertically. Both take a number indicating how many cells to span.",
+      "code": "<table>\n  <thead>\n    <tr>\n      <th scope=\"col\" rowspan=\"2\">Product</th>\n      <th scope=\"colgroup\" colspan=\"2\">Sales</th>\n    </tr>\n    <tr>\n      <th scope=\"col\">Online</th>\n      <th scope=\"col\">In-store</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Widget A</td>\n      <td>1,200</td>\n      <td>340</td>\n    </tr>\n  </tbody>\n</table>",
+      "language": "html"
+    }
+  ],
+  "full_example": {
+    "code": "<table>\n  <caption>Team members — Engineering department</caption>\n  <thead>\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">Name</th>\n      <th scope=\"col\">Role</th>\n      <th scope=\"col\">Location</th>\n      <th scope=\"col\">Status</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>1</td>\n      <td>Alice Nguyen</td>\n      <td>Senior Engineer</td>\n      <td>Remote</td>\n      <td><span aria-label=\"Active\">✅</span></td>\n    </tr>\n    <tr>\n      <td>2</td>\n      <td>Bob Singh</td>\n      <td>Tech Lead</td>\n      <td>London</td>\n      <td><span aria-label=\"Active\">✅</span></td>\n    </tr>\n    <tr>\n      <td>3</td>\n      <td>Carol Reyes</td>\n      <td>Engineer</td>\n      <td>Remote</td>\n      <td><span aria-label=\"On leave\">🟡</span></td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"5\">Last updated: April 2026</td>\n    </tr>\n  </tfoot>\n</table>",
+    "language": "html"
+  },
+  "related_slugs": ["html-dropdown", "html-form-validation", "html"]
+}

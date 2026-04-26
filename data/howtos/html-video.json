@@ -1,0 +1,39 @@
+{
+  "slug": "html-video",
+  "question": "How to embed a video in HTML",
+  "description": "Use the <video> element to embed self-hosted videos with multiple format fallbacks, poster images, and performance-friendly preload settings.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["video", "source", "poster", "autoplay", "media", "performance"],
+  "steps": [
+    {
+      "title": "Basic video with controls",
+      "explanation": "The controls attribute renders the browser's native play/pause/volume UI. Always provide alt-equivalent content inside <video> for non-supporting browsers.",
+      "code": "<video width=\"1280\" height=\"720\" controls>\n  <source src=\"video.mp4\" type=\"video/mp4\" />\n  <source src=\"video.webm\" type=\"video/webm\" />\n  <p>Your browser does not support HTML video. <a href=\"video.mp4\">Download it</a>.</p>\n</video>",
+      "language": "html"
+    },
+    {
+      "title": "Add a poster image",
+      "explanation": "The poster attribute sets a thumbnail shown before the video plays. This prevents an ugly blank frame on slow connections.",
+      "code": "<video\n  width=\"1280\"\n  height=\"720\"\n  controls\n  poster=\"thumbnail.jpg\"\n  preload=\"metadata\"\n>\n  <source src=\"video.mp4\" type=\"video/mp4\" />\n  <source src=\"video.webm\" type=\"video/webm\" />\n</video>",
+      "language": "html"
+    },
+    {
+      "title": "Auto-playing background video",
+      "explanation": "For decorative background videos, use autoplay muted playsinline loop. muted is required for autoplay to work in most browsers. playsinline prevents fullscreen on iOS.",
+      "code": "<video\n  autoplay\n  muted\n  loop\n  playsinline\n  preload=\"auto\"\n  aria-hidden=\"true\"\n>\n  <source src=\"bg-video.mp4\" type=\"video/mp4\" />\n  <source src=\"bg-video.webm\" type=\"video/webm\" />\n</video>",
+      "language": "html"
+    },
+    {
+      "title": "Control preload behaviour",
+      "explanation": "Use preload to balance performance. 'none' downloads nothing until play — best for many videos per page. 'metadata' downloads only duration/dimensions. 'auto' downloads the whole file.",
+      "code": "<!-- Many videos on one page: don't preload -->\n<video preload=\"none\" poster=\"thumb.jpg\" controls>\n  <source src=\"video.mp4\" type=\"video/mp4\" />\n</video>\n\n<!-- Single hero video: preload metadata -->\n<video preload=\"metadata\" poster=\"hero-thumb.jpg\" controls>\n  <source src=\"hero.mp4\" type=\"video/mp4\" />\n</video>",
+      "language": "html"
+    }
+  ],
+  "full_example": {
+    "code": "<figure>\n  <video\n    id=\"demoVideo\"\n    width=\"1280\"\n    height=\"720\"\n    controls\n    poster=\"demo-poster.jpg\"\n    preload=\"metadata\"\n    aria-label=\"Product demo video\"\n  >\n    <source src=\"demo.mp4\" type=\"video/mp4\" />\n    <source src=\"demo.webm\" type=\"video/webm\" />\n    <track kind=\"subtitles\" src=\"demo-en.vtt\" srclang=\"en\" label=\"English\" default />\n    <p>\n      Your browser does not support HTML video.\n      <a href=\"demo.mp4\">Download the video (MP4)</a>.\n    </p>\n  </video>\n  <figcaption>A short walkthrough of the product dashboard.</figcaption>\n</figure>",
+    "language": "html"
+  },
+  "related_slugs": ["html-responsive-image", "html-semantic", "html"]
+}

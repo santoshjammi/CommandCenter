@@ -1,0 +1,39 @@
+{
+  "slug": "html-semantic",
+  "question": "How to use semantic HTML5 elements",
+  "description": "Replace generic <div> containers with semantic elements like <main>, <article>, <section>, and <aside> — improving accessibility, SEO, and code readability.",
+  "topic": "html",
+  "difficulty": "beginner",
+  "tags": ["semantic", "article", "section", "aside", "main", "nav", "header", "footer", "accessibility", "seo"],
+  "steps": [
+    {
+      "title": "Page-level structure: header, main, footer",
+      "explanation": "<header> contains the logo and navigation. <main> wraps the page's primary content — there should only be one per page. <footer> holds legal, contact, and site-wide links.",
+      "code": "<body>\n  <header>\n    <a href=\"/\">Brand</a>\n    <nav aria-label=\"Main navigation\">\n      <ul>\n        <li><a href=\"/about\">About</a></li>\n        <li><a href=\"/blog\">Blog</a></li>\n      </ul>\n    </nav>\n  </header>\n\n  <main>\n    <!-- page-specific content -->\n  </main>\n\n  <footer>\n    <p>&copy; 2026 Brand. All rights reserved.</p>\n  </footer>\n</body>",
+      "language": "html"
+    },
+    {
+      "title": "Content sectioning: article, section, aside",
+      "explanation": "<article> is self-contained content that makes sense on its own (blog post, card, tweet). <section> groups thematically related content inside an article or page. <aside> holds supplementary content tangentially related to the main content.",
+      "code": "<main>\n  <article>\n    <header>\n      <h1>Getting Started with HTML</h1>\n      <time datetime=\"2026-04-26\">April 26, 2026</time>\n    </header>\n    <section>\n      <h2>What Is HTML?</h2>\n      <p>HTML is the backbone of the web…</p>\n    </section>\n    <section>\n      <h2>Basic Structure</h2>\n      <p>Every page starts with a DOCTYPE…</p>\n    </section>\n  </article>\n\n  <aside>\n    <h2>Related articles</h2>\n    <ul>…</ul>\n  </aside>\n</main>",
+      "language": "html"
+    },
+    {
+      "title": "Inline semantics: time, mark, figure, address",
+      "explanation": "Inline semantic elements mark up meaning within a paragraph. <time> marks dates and times with a machine-readable datetime. <mark> highlights text. <figure> wraps images, diagrams, and code examples with an optional <figcaption>.",
+      "code": "<!-- Publish date -->\n<p>Published <time datetime=\"2026-04-26\">April 26, 2026</time></p>\n\n<!-- Highlighted search term -->\n<p>Results for <mark>responsive images</mark>:</p>\n\n<!-- Image with caption -->\n<figure>\n  <img src=\"chart.png\" alt=\"Bar chart showing monthly signups\" width=\"800\" height=\"400\" />\n  <figcaption>Monthly signups grew 40% in Q1 2026.</figcaption>\n</figure>\n\n<!-- Contact information -->\n<address>\n  <a href=\"mailto:hello@example.com\">hello@example.com</a>\n</address>",
+      "language": "html"
+    },
+    {
+      "title": "Navigation patterns",
+      "explanation": "Use <nav> for landmark navigation blocks. Provide aria-label to distinguish multiple <nav> elements on one page (e.g. main navigation vs. breadcrumb vs. pagination).",
+      "code": "<!-- Main navigation -->\n<nav aria-label=\"Main navigation\">\n  <ul>\n    <li><a href=\"/\">Home</a></li>\n    <li><a href=\"/blog\">Blog</a></li>\n  </ul>\n</nav>\n\n<!-- Breadcrumb -->\n<nav aria-label=\"Breadcrumb\">\n  <ol>\n    <li><a href=\"/\">Home</a></li>\n    <li><a href=\"/blog\">Blog</a></li>\n    <li aria-current=\"page\">HTML Semantics</li>\n  </ol>\n</nav>",
+      "language": "html"
+    }
+  ],
+  "full_example": {
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title>Getting Started with HTML — DevKeys</title>\n</head>\n<body>\n  <header>\n    <a href=\"/\">DevKeys</a>\n    <nav aria-label=\"Main navigation\">\n      <ul>\n        <li><a href=\"/\">Cheat Sheets</a></li>\n        <li><a href=\"/howto\">How-To's</a></li>\n      </ul>\n    </nav>\n  </header>\n\n  <main>\n    <nav aria-label=\"Breadcrumb\">\n      <ol>\n        <li><a href=\"/\">Home</a></li>\n        <li><a href=\"/howto\">How-To's</a></li>\n        <li aria-current=\"page\">Semantic HTML</li>\n      </ol>\n    </nav>\n\n    <article>\n      <header>\n        <h1>Getting Started with HTML</h1>\n        <p>By <address><a href=\"/author\">DevKeys</a></address> &mdash;\n          <time datetime=\"2026-04-26\">April 26, 2026</time></p>\n      </header>\n\n      <section>\n        <h2>What Is HTML?</h2>\n        <p>HTML is the markup language of the web.</p>\n        <figure>\n          <img src=\"html-diagram.png\" alt=\"Diagram of an HTML element\" width=\"600\" height=\"300\" loading=\"lazy\" />\n          <figcaption>Anatomy of an HTML element.</figcaption>\n        </figure>\n      </section>\n\n      <section>\n        <h2>Key semantic elements</h2>\n        <p>Use <mark>semantic elements</mark> over generic divs wherever possible.</p>\n      </section>\n    </article>\n\n    <aside>\n      <h2>Related how-tos</h2>\n      <ul>\n        <li><a href=\"/howto/html-meta-seo\">How to add meta tags for SEO</a></li>\n        <li><a href=\"/howto/html-accordion\">How to create an accordion</a></li>\n      </ul>\n    </aside>\n  </main>\n\n  <footer>\n    <p>&copy; 2026 DevKeys</p>\n  </footer>\n</body>\n</html>",
+    "language": "html"
+  },
+  "related_slugs": ["html-meta-seo", "html-favicon", "html"]
+}
