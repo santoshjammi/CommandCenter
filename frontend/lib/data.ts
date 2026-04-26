@@ -1,6 +1,5 @@
 import fs from "fs/promises";
 import path from "path";
-import { unstable_cache } from "next/cache";
 import type { CheatSheet, ToolMeta } from "./types";
 
 // DATA_DIR is baked in at build time by next.config.ts (absolute path to repo/data/).
@@ -10,9 +9,12 @@ const TOOLS_DIR = path.join(_DATA_ROOT, "tools");
 const CLEAN_TOOLS_FILE = path.join(_DATA_ROOT, "clean_tools.json");
 
 // ---------------------------------------------------------------------------
-// Raw readers (not exported — called only through the cached wrappers)
+// Data readers — plain async functions, no caching layer.
+// All pages are force-static so data is read ONCE at build time; no runtime
+// caching is needed and unstable_cache was causing stale [] results between
+// Hostinger deployments.
 // ---------------------------------------------------------------------------
-async function _getToolBySlug(slug: string): Promise<CheatSheet | null> {
+export async function getToolBySlug(slug: string): Promise<CheatSheet | null> {
   try {
     const filePath = path.join(TOOLS_DIR, `${slug}.json`);
     const raw = await fs.readFile(filePath, "utf8");
@@ -22,7 +24,7 @@ async function _getToolBySlug(slug: string): Promise<CheatSheet | null> {
   }
 }
 
-async function _getAllToolMeta(): Promise<ToolMeta[]> {
+export async function getAllToolMeta(): Promise<ToolMeta[]> {
   try {
     const raw = await fs.readFile(CLEAN_TOOLS_FILE, "utf8");
     const base: ToolMeta[] = JSON.parse(raw);
@@ -31,13 +33,9 @@ async function _getAllToolMeta(): Promise<ToolMeta[]> {
     const enriched = await Promise.all(
       base.map(async (tool) => {
         try {
-          const sheet = await _getToolBySlug(tool.slug);
+          const sheet = await getToolBySlug(tool.slug);
           if (sheet) {
-            return {
-              ...tool,
-              description: sheet.description,
-              category: sheet.category,
-            };
+            return { ...tool, description: sheet.description, category: sheet.category };
           }
         } catch {
           // tool not yet generated — return base meta
@@ -51,22 +49,6 @@ async function _getAllToolMeta(): Promise<ToolMeta[]> {
     return [];
   }
 }
-
-// ---------------------------------------------------------------------------
-// Cached public API — avoids N+1 reads on every dev-server request
-// ---------------------------------------------------------------------------
-
-/** All tool metadata (base + enriched from generated files). Cached 1 h. */
-export const getAllToolMeta = unstable_cache(_getAllToolMeta, ["all-tool-meta"], {
-  revalidate: false,
-});
-
-/** Single cheat sheet by slug. Cached 1 h per slug. */
-export const getToolBySlug = unstable_cache(
-  _getToolBySlug,
-  ["tool-by-slug"],
-  { revalidate: 3600 }
-);
 
 // ---------------------------------------------------------------------------
 // Load generated tools only (have a JSON file in data/tools/)
