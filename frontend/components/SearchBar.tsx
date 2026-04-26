@@ -5,12 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 
-// Detect Mac once on the client — navigator.platform is deprecated but still
-// the most reliable cross-browser way to distinguish Mac from Win/Linux.
-function isMac(): boolean {
-  if (typeof navigator === "undefined") return false;
-  return /Mac|iPhone|iPad|iPod/.test(navigator.platform);
-}
+
 
 interface SearchEntry {
   type: "tool" | "snippet" | "howto";
@@ -37,6 +32,11 @@ export default function SearchBar() {
   const [loadError, setLoadError] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const indexLoaded = useRef(false);
+  const [mac, setMac] = useState(false);
+
+  useEffect(() => {
+    setMac(/Mac|iPhone|iPad|iPod/.test(navigator.platform));
+  }, []);
 
   const loadIndex = useCallback(() => {
     if (indexLoaded.current || loading) return;
@@ -151,7 +151,7 @@ export default function SearchBar() {
           className="inline-flex items-center px-1.5 py-0.5 text-xs rounded-md"
           style={{ background: "var(--light-mint)", color: "var(--dark-green)", fontFamily: "inherit" }}
         >
-          {isMac() ? "⌘K" : "Ctrl+K"}
+          {mac ? "⌘K" : "Ctrl+K"}
         </kbd>
       </button>
       {/* Mobile icon-only trigger */}
