@@ -4,6 +4,13 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import Fuse from "fuse.js";
 
+// Detect Mac once on the client — navigator.platform is deprecated but still
+// the most reliable cross-browser way to distinguish Mac from Win/Linux.
+function isMac(): boolean {
+  if (typeof navigator === "undefined") return false;
+  return /Mac|iPhone|iPad|iPod/.test(navigator.platform);
+}
+
 interface SearchEntry {
   type: "tool" | "snippet";
   slug: string;
@@ -131,7 +138,7 @@ export default function SearchBar() {
           className="inline-flex items-center px-1.5 py-0.5 text-xs rounded-md"
           style={{ background: "var(--light-mint)", color: "var(--dark-green)", fontFamily: "inherit" }}
         >
-          ⌘K
+          {isMac() ? "⌘K" : "Ctrl+K"}
         </kbd>
       </button>
       {/* Mobile icon-only trigger */}
