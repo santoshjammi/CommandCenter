@@ -5,7 +5,9 @@ import type { HowToMeta } from "@/lib/types";
 
 export const dynamic = "force-static";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cheatsheets.countrysnews.com";
+const COMPANY_NAME = "Ameya Labs";
+const COMPANY_URL = "https://ameyalabs.in";
 
 export const metadata: Metadata = {
   title: "How-To Guides — Step-by-Step Web Development Solutions | DevKeys",
@@ -65,7 +67,7 @@ export default async function HowToListingPage() {
             description:
               "Step-by-step guides for common HTML, CSS, and JavaScript tasks.",
             url: `${SITE_URL}/howto`,
-            publisher: { "@type": "Organization", name: "DevKeys", url: SITE_URL },
+            publisher: { "@type": "Organization", name: COMPANY_NAME, url: COMPANY_URL },
           }),
         }}
       />

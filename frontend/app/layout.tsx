@@ -6,8 +6,10 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const interTight = Inter_Tight({ subsets: ["latin"], variable: "--font-inter-tight", display: "swap" });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cheatsheets.countrysnews.com";
 const SITE_NAME = "DevKeys";
+const COMPANY_NAME = "Ameya Labs";
+const COMPANY_URL = "https://ameyalabs.in";
 const SITE_DESCRIPTION =
   "Free developer cheat sheets for 900+ CLI tools, languages, frameworks, databases, DevOps platforms, and cloud providers — copy-ready commands with real-world scenarios.";
 
@@ -31,9 +33,9 @@ export const metadata: Metadata = {
     "docker commands",
     "developer tools reference",
   ],
-  authors: [{ name: SITE_NAME, url: SITE_URL }],
-  creator: SITE_NAME,
-  publisher: SITE_NAME,
+  authors: [{ name: COMPANY_NAME, url: COMPANY_URL }],
+  creator: COMPANY_NAME,
+  publisher: COMPANY_NAME,
   robots: {
     index: true,
     follow: true,
@@ -70,17 +72,64 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: COMPANY_NAME,
+    url: COMPANY_URL,
+    sameAs: [COMPANY_URL],
+  };
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: SITE_DESCRIPTION,
+    publisher: {
+      "@type": "Organization",
+      name: COMPANY_NAME,
+      url: COMPANY_URL,
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/?q={search_term_string}` },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
-      <html lang="en" className={`${inter.variable} ${interTight.variable}`}>
+    <html lang="en" className={`${inter.variable} ${interTight.variable}`}>
       <head>
         {/* Prefetch the search index so ⌘K opens instantly */}
         <link rel="prefetch" href="/search-index.json" as="fetch" crossOrigin="anonymous" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
       </head>
       <body className="min-h-screen font-(--font-inter)">
         <Header />
         <main>{children}</main>
-        <footer className="mt-24 py-8 text-center text-sm" style={{ borderTop: "1px solid var(--ring)", color: "var(--muted-gray)" }}>
-          {SITE_NAME} — built with Next.js
+        <footer
+          className="mt-24 py-8 text-center text-sm"
+          style={{ borderTop: "1px solid var(--ring)", color: "var(--muted-gray)" }}
+        >
+          <p>
+            {SITE_NAME} — built with Next.js &middot; Powered by{" "}
+            <a
+              href={COMPANY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold hover:underline"
+              style={{ color: "var(--dark-green)" }}
+            >
+              {COMPANY_NAME}
+            </a>
+          </p>
         </footer>
       </body>
     </html>

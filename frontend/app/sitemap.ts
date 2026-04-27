@@ -3,7 +3,7 @@ import { getGeneratedSlugs, getHowToSlugs } from "@/lib/data";
 import fs from "fs/promises";
 import path from "path";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cheatsheets.countrysnews.com";
 // Use the same baked DATA_DIR that data.ts uses — avoids process.cwd() ambiguity
 const TOOLS_DIR = path.join(process.env.DATA_DIR ?? path.join(process.cwd(), "..", "data"), "tools");
 

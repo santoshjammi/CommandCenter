@@ -8,7 +8,9 @@ import AudienceFilter from "@/components/AudienceFilter";
 // Fully static — data is baked in at build time, no runtime filesystem reads
 export const dynamic = "force-static";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cheatsheets.countrysnews.com";
+const COMPANY_NAME = "Ameya Labs";
+const COMPANY_URL = "https://ameyalabs.in";
 
 export const metadata: Metadata = {
   title: {
@@ -61,6 +63,11 @@ export default async function Home() {
             url: SITE_URL,
             description:
               "Free developer cheat sheets for every CLI tool, language, framework, and cloud platform.",
+            publisher: {
+              "@type": "Organization",
+              name: COMPANY_NAME,
+              url: COMPANY_URL,
+            },
             potentialAction: {
               "@type": "SearchAction",
               target: {

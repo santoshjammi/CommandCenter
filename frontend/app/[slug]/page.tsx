@@ -4,7 +4,9 @@ import { getToolBySlug, getGeneratedSlugs } from "@/lib/data";
 import TableOfContents from "@/components/TableOfContents";
 import CommandReferenceSection from "@/components/CommandReferenceSection";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cheatsheets.countrysnews.com";
+const COMPANY_NAME = "Ameya Labs";
+const COMPANY_URL = "https://ameyalabs.in";
 
 // Every slug page is statically generated at build time
 export const dynamic = "force-static";
@@ -78,8 +80,8 @@ export default async function ToolPage({
       headline: `${tool.title} Cheat Sheet`,
       description: tool.description,
       url: `${SITE_URL}/${slug}`,
-      author: { "@type": "Organization", name: "DevKeys", url: SITE_URL },
-      publisher: { "@type": "Organization", name: "DevKeys", url: SITE_URL },
+      author: { "@type": "Organization", name: COMPANY_NAME, url: COMPANY_URL },
+      publisher: { "@type": "Organization", name: COMPANY_NAME, url: COMPANY_URL },
       keywords: `${tool.title}, ${tool.title} commands, ${tool.title} cheat sheet`,
       about: { "@type": "SoftwareApplication", name: tool.title },
       inLanguage: "en-US",

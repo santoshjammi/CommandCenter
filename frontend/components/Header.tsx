@@ -3,10 +3,28 @@ import SearchBar from "./SearchBar";
 
 export default function Header() {
   return (
-    <header
-      className="sticky top-0 z-40 backdrop-blur-sm"
-      style={{ background: "rgba(255,255,255,0.92)", borderBottom: "1px solid var(--ring)" }}
-    >
+    <>
+      {/* Ameya Labs attribution bar */}
+      <div
+        className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs font-medium"
+        style={{ background: "var(--light-mint)", color: "var(--dark-green)" }}
+      >
+        Powered by{" "}
+        <a
+          href="https://ameyalabs.in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold underline underline-offset-2 hover:opacity-75 transition-opacity"
+          style={{ color: "var(--dark-green)" }}
+        >
+          Ameya Labs
+        </a>
+      </div>
+
+      <header
+        className="sticky top-0 z-40 backdrop-blur-sm"
+        style={{ background: "rgba(255,255,255,0.92)", borderBottom: "1px solid var(--ring)" }}
+      >
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-1.5 nav-hover px-2 py-1 -ml-2 transition-all">
@@ -50,5 +68,6 @@ export default function Header() {
         </div>
       </div>
     </header>
+    </>
   );
 }

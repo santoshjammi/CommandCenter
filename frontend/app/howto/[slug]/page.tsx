@@ -4,7 +4,9 @@ import Link from "next/link";
 import { getHowToBySlug, getHowToSlugs, getAllHowToMeta } from "@/lib/data";
 import { CodeEditorCard } from "@/components/CodeEditorCard";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://devkeys.countrysnews.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cheatsheets.countrysnews.com";
+const COMPANY_NAME = "Ameya Labs";
+const COMPANY_URL = "https://ameyalabs.in";
 
 export const dynamic = "force-static";
 
@@ -80,6 +82,7 @@ export default async function HowToDetailPage({
     name: howto.question,
     description: howto.description,
     url: `${SITE_URL}/howto/${slug}`,
+    publisher: { "@type": "Organization", name: COMPANY_NAME, url: COMPANY_URL },
     step: howto.steps.map((s, i) => ({
       "@type": "HowToStep",
       position: i + 1,
