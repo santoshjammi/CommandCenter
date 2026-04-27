@@ -199,6 +199,51 @@
       ],
       "is_curated": false,
       "man_page": "https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete"
+    },
+    {
+      "command": "aws s3 sync local_dir s3://bucket_name --delete",
+      "description": "Synchronizes a local directory with an S3 bucket, using the --delete flag to remove files in the destination that are no longer present in the source, ensuring an exact mirror.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "kubectl logs -f <pod_name> --previous",
+      "description": "Retrieves logs from a previously terminated or crashed container within a pod, essential for debugging CrashLoopBackOff errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "terraform state list",
+      "description": "Lists all resources currently managed by the Terraform state file, useful for verifying exactly what infrastructure is tracked in the backend.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "gcloud compute ssh <instance_name> --tunnel-through-iap",
+      "description": "Uses Identity-Aware Proxy (IAP) to SSH into a VM instance without needing a public IP address, enhancing security by keeping the instance private.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "az resource list --resource-type Microsoft.Compute/virtualMachines --output json",
+      "description": "Filters and retrieves specific resource types across a subscription in JSON format, allowing for complex programmatic parsing and automation scripts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

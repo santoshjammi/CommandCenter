@@ -199,6 +199,71 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "rg 'pattern' --type rust --hidden",
+      "description": "Faster alternative to grep with automatic respect for .gitignore.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [
+        "search",
+        "performance",
+        "ripgrep"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker stats --format \"table {{.Name}}\\t{{.CPUPerc}}\\t{{.MemUsage}}\"",
+      "description": "Real-time stream of CPU, memory, and network usage for running containers.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [
+        "docker",
+        "debugging",
+        "monitoring"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "git reflog",
+      "description": "Find the SHA of a lost commit or a deleted branch after a hard reset.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [
+        "git",
+        "recovery",
+        "workflow"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cat data.json | jq '.users[0].profile.email'",
+      "description": "Extract a specific field from a nested JSON object via CLI.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [
+        "json",
+        "cli",
+        "jq"
+      ],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "npm audit fix --force",
+      "description": "Automatically install compatible updates to fix security vulnerabilities in dependencies.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [
+        "npm",
+        "security",
+        "node"
+      ],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

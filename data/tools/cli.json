@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "journalctl -u service_name --since \"1 hour ago\"",
+      "description": "Query systemd logs for a specific service within a specific time window for rapid debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "find . -type f -name \"*.log\" -mtime +7 -delete",
+      "description": "Locate and automatically delete files matching a pattern that are older than 7 days to manage disk space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -i :8080",
+      "description": "Identify which process is currently occupying a specific network port to resolve 'address already in use' errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "tar -czvf archive.tar.gz --exclude='node_modules' ./project",
+      "description": "Create a compressed tarball while explicitly excluding heavy dependency directories to optimize archive size.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "strace -p <pid>",
+      "description": "Attach to a running process to trace system calls, useful for diagnosing why a process is hanging or failing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

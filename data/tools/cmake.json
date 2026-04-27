@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "cmake --graphviz=graph.dot .",
+      "description": "Generates a DOT file representing the dependency graph of the project, useful for visualizing target relationships.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cmake --build . --target help",
+      "description": "Lists all available targets defined in the current build directory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cmake -L .",
+      "description": "Lists all currently cached variables and their values in the build directory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cmake --build . --parallel 8",
+      "description": "Speeds up the build process by utilizing multiple CPU cores (replaces manual -j flag for many generators).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cmake --trace-expand .",
+      "description": "Runs CMake with full trace output, expanding all variables, to debug complex logic in CMakeLists.txt files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "@property (nonatomic, strong) NSString *name;",
+      "description": "Declares an auto-synthesized property with memory management policy (strong, weak, assign, copy).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "[NSThread isMainThread];",
+      "description": "Checks if the current execution context is the main run loop thread.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "@synchronized(object) { ... }",
+      "description": "Provides a mutual exclusion lock on a specific object to prevent race conditions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dispatch_async(dispatch_get_main_queue(), ^{ ... });",
+      "description": "Asynchronously submits a block of code to the Grand Central Dispatch (GCD) main queue.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(method:) name:name object:nil;",
+      "description": "Registers an object to listen for specific system or custom notifications.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

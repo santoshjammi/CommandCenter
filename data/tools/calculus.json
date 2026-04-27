@@ -45,7 +45,7 @@
       "man_page": ""
     },
     {
-      "command": "\u222b c dx = c*x + C",
+      "command": "∫ c dx = c*x + C",
       "description": "Integrate a constant",
       "scenario": "Integrate a constant",
       "language": "text",
@@ -58,7 +58,7 @@
       "man_page": ""
     },
     {
-      "command": "\u222b x^n dx = (x^(n+1))/(n+1) + C",
+      "command": "∫ x^n dx = (x^(n+1))/(n+1) + C",
       "description": "Integrate x raised to a power",
       "scenario": "Integrate x raised to a power",
       "language": "text",
@@ -71,7 +71,7 @@
       "man_page": ""
     },
     {
-      "command": "\u222b (f(x) + g(x)) dx = \u222b f(x) dx + \u222b g(x) dx",
+      "command": "∫ (f(x) + g(x)) dx = ∫ f(x) dx + ∫ g(x) dx",
       "description": "Integrate a sum of functions",
       "scenario": "Integrate a sum of functions",
       "language": "text",
@@ -198,6 +198,51 @@
         "calculus"
       ],
       "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(ln(f(x))) = f'(x) / f(x)",
+      "description": "The derivative of a natural logarithm function, useful for logarithmic differentiation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "∫ (1/x) dx = ln|x| + C",
+      "description": "The integral of the reciprocal function, resulting in the natural logarithm of the absolute value of x.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "d/dx(arcsin(x)) = 1 / sqrt(1 - x^2)",
+      "description": "Derivative of the inverse sine function, critical for trigonometric substitution in integration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Integration by Parts: ∫ u dv = uv - ∫ v du",
+      "description": "A technique used to integrate the product of two functions by transforming the integral.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Second Derivative Test: f''(c) > 0 (Min), f''(c) < 0 (Max)",
+      "description": "Using the sign of the second derivative at a critical point to determine local extrema.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
       "man_page": ""
     }
   ]

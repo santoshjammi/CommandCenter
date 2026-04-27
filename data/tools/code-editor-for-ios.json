@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Cmd + Shift + F",
+      "description": "Global search across all files in the current workspace/project.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Option + F",
+      "description": "Find and replace within the current active file.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "git commit -m '<message>'",
+      "description": "Commit staged changes via the integrated terminal for version control workflows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + [ or ]",
+      "description": "Indent or outdent the current line or selected block of code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Cmd + Shift + P",
+      "description": "Open the Command Palette to access all editor functions and settings via text search.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "expect(obj).to.include.members([val1, val2]);",
+      "description": "Checks if an array or object contains a specific subset of elements, regardless of order.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chai.use(require('chai-as-promised'));",
+      "description": "Global configuration required to enable asynchronous assertion syntax (e.g., .eventually).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "expect(val).to.satisfy((n) => n % 2 === 0);",
+      "description": "Advanced assertion using a custom predicate function for complex logic validation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "expect(obj).to.have.property('key').that.is.a('number');",
+      "description": "Chaining property existence checks with type validation in a single fluent statement.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chai.config.truncateThreshold = 0;",
+      "description": "Performance/Debugging: Disables object truncation in error messages to see full diffs in large payloads.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "codehouse build --watch",
+      "description": "Enables incremental build mode, re-compiling only modified files in real-time during development.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse doctor",
+      "description": "Runs a diagnostic suite to check environment health, dependency integrity, and configuration syntax errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse config set --global key value",
+      "description": "Updates the global configuration file to persist settings across all local projects.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse logs --tail 50 --follow",
+      "description": "Streams live deployment logs from the remote environment to the local terminal for real-time monitoring.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "codehouse scaffold --template react-ts",
+      "description": "Generates a new project structure using a specific pre-defined architectural template.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

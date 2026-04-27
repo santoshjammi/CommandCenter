@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "image.grayscale!",
+      "description": "In-place conversion of the image to grayscale, modifying the original object to save memory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "image.flip_horizontal!",
+      "description": "Mirrors the image horizontally in-place.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ChunkyPNG::Color.rgba(r, g, b, a)",
+      "description": "Creates a color object with a specific alpha channel (0-255) for transparency support.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "image.rotate(angle)",
+      "description": "Returns a new image rotated by the specified angle (in degrees).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "image.crop(x, y, width, height)",
+      "description": "Extracts a rectangular sub-section of the image starting from coordinates x, y.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

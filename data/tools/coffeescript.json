@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "obj = { a: 1, ...otherObj }",
+      "description": "Object spread syntax for shallow merging objects, similar to ES6 spread properties.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "coffee --watch --print src/main.coffee",
+      "description": "CLI flag to enable continuous compilation on file changes and immediately output the result to stdout.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "func = (x) -> x unless x is null",
+      "description": "Use the 'unless' keyword as a logical inverse of 'if' for cleaner conditional guard clauses.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "coffee -c -o dist/ lib/",
+      "description": "Advanced CLI pattern to compile an entire directory of CoffeeScript files into a specific output directory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "try/catch/finally blocks",
+      "description": "Standard error handling pattern: 'try\n  doSomething()\ncatch err\n  handle(err)\nfinally\n  cleanup()'",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

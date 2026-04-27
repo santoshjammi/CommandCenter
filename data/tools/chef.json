@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "knife cookbook lint",
+      "description": "Runs Cookstyle to perform linting and syntax checks on cookbook code to ensure compliance with best practices.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chef-client -l debug",
+      "description": "Runs the chef-client with the debug log level to provide granular output for troubleshooting failed resource convergence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "knife search node 'role:webserver AND chef_environment:production'",
+      "description": "Uses advanced search syntax to filter nodes based on specific attributes, roles, or environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chef install --dry-run",
+      "description": "Simulates the execution of a recipe without making actual changes to the system to preview intended effects.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ruby_block 'debug_variable' do\n  block do\n    Chef::Log.info(\"Value is: #{my_variable}\")\n  end\nend",
+      "description": "A pattern used to inject arbitrary Ruby code into a recipe for real-time debugging of variable states during a run.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Global Search > Click Search Bar (Top Left) > Type Keyword",
+      "description": "Quickly find specific assignments, discussions, or files across all your courses using the universal search bar.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Dashboard > Card View > Toggle 'More Options' > Enable/Disable Course Cards",
+      "description": "Customize your dashboard view to show or hide specific course cards to reduce visual clutter.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Course Content > Modules > Click 'View Calendar' icon",
+      "description": "Jump directly from a specific module to the calendar view to see upcoming deadlines for those specific topics.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Files > Drag and Drop > Upload File",
+      "description": "Instead of clicking 'Upload', simply drag a file from your computer desktop directly into the Canvas Files area to save time.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Account > Settings > Enable 'Immersive Reader' (if available)",
+      "description": "Use accessibility tools to have text read aloud or change font spacing to improve reading comprehension.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "(alexandria:when-let (var expression) ...)",
+      "description": "A common pattern (often via the Alexandria library) to bind a variable only if the expression evaluates to a non-nil value, reducing nested if-statements.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(trace function-name)",
+      "description": "A debugging tool that prints the arguments and return values of a function every time it is called.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(setf (gethash key hash-table) value)",
+      "description": "The standard way to assign or update a value in a hash table using a key.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(loop for i from 1 to 10 collect i)",
+      "description": "Utilizes the powerful and highly readable DSL 'loop' for complex iterations, transformations, and reductions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(compile-file 'filename.lisp)",
+      "description": "Compiles a source file into a machine-code object file, significantly improving execution performance compared to interpreted code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

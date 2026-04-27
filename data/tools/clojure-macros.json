@@ -160,6 +160,51 @@
       ],
       "is_curated": false,
       "man_page": "https://clojure.org/reference/macros"
+    },
+    {
+      "command": "(defmacro with-debug [expr] `(let [result# ~expr] (println \"Debug Output:\" result#) result#))",
+      "description": "A debugging macro that wraps an expression, prints its evaluated result to stdout, and then returns the result, useful for quick trace inspection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(defmacro assert-not-nil [x & body] `(if (nil? ~x) (throw (Exception. \"Assertion failed: ~x is nil\")) ~@body))",
+      "description": "A lightweight assertion macro that validates an expression is not nil before proceeding with the body, throwing an exception on failure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(defmacro wrap-try [body error-handler] `(try ~@body catch [e :as e#] (~error-handler e#)))",
+      "description": "A macro to encapsulate error handling logic, allowing a user to pass a function to handle exceptions within a specific block.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(defmacro maybe-execute [pred expr] `(when (~pred) ~expr))",
+      "description": "A conditional execution macro that evaluates a predicate and only executes the expression if the predicate returns truthy.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(defmacro repeat-until [pred expr] `(loop [val# ~expr] (if (~pred val#) val# (recur ~expr))))",
+      "description": "A control flow macro that repeatedly evaluates an expression until a predicate condition is met, useful for polling or retry logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

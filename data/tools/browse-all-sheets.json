@@ -225,6 +225,51 @@
       ],
       "is_curated": false,
       "man_page": "https://man7.org/linux/man-pages/man1/nano.1.html"
+    },
+    {
+      "command": "watch -n 1 'ls -l /path/to/directory'",
+      "description": "Periodically runs the ls command every second to monitor real-time file changes or directory updates.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "du -sh /path/to/directory",
+      "description": "Displays the total disk usage of a specific directory in a human-readable format (e.g., MB, GB).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "stat filename",
+      "description": "Provides detailed metadata about a file, including exact size, inode number, and precise timestamps for access, modification, and change.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "lsof /path/to/file",
+      "description": "Lists all open files and the processes that are currently accessing them, useful for troubleshooting 'file in use' errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "xargs -I {} mv {} /destination/path/{}",
+      "description": "A powerful pattern to pipe the output of a search or list command into a bulk move operation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

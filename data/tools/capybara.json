@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Capybara.default_max_wait_time = 5",
+      "description": "Sets the global maximum time Capybara will wait for an element to appear before throwing an error, useful for handling slow AJAX requests.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "find('.selector', visible: false)",
+      "description": "Locates an element even if it is hidden from view, which is necessary for interacting with hidden inputs or testing CSS visibility logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "page.driver.browser.manage.window.maximize",
+      "description": "Directly interacts with the underlying Selenium driver to resize the browser window, ensuring elements aren't hidden by responsive design breakpoints.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "using_wait_time(10) { click_link 'Slow Link' }",
+      "description": "Temporarily overrides the default wait time for a specific block of code, ideal for testing specific slow-loading components without slowing down the entire suite.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Capybara.save_and_open_page",
+      "description": "Saves the current HTML state and opens it in your default browser, allowing for quick visual debugging of the DOM state during a test failure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "codex config get <key>",
+      "description": "Retrieve the value of a specific configuration setting without listing the entire config object.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "codex deploy --dry-run",
+      "description": "Simulate a deployment to validate configuration and file integrity without pushing changes to the environment.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "codex sync --force",
+      "description": "Forcefully synchronize the local project state with the remote repository, overwriting local metadata conflicts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "codex analyze --complexity",
+      "description": "Run a static analysis on the added files to report on code complexity and potential optimization areas.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "codex logs --tail <n>",
+      "description": "Stream the last 'n' lines of deployment logs in real-time for live monitoring.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

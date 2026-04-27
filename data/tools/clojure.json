@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "(map inc [1 2 3])",
+      "description": "Applies a function to every item in a collection, returning a lazy sequence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(reduce + [1 2 3 4])",
+      "description": "Combines elements of a collection using a binary function to produce a single cumulative value.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(filter even? [1 2 3 4 5 6])",
+      "description": "Returns a lazy sequence containing only the elements for which the predicate returns true.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(let [{:keys [key1 key2]} my-map] ...)",
+      "description": "Destructures a map to extract specific keys into local variables within a scoped block.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(println (clojure.pprint/pp my-complex-data))",
+      "description": "Uses pretty-printing to output complex nested data structures in a human-readable format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

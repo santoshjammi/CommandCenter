@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "netstat -tunlp | grep :<port>",
+      "description": "Identify the specific Process ID (PID) and program name listening on a given port to resolve binding conflicts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "lsof -i :<port>",
+      "description": "List all open files and active network connections associated with a specific port, useful for finding hidden processes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "nc -zv <host> <port>",
+      "description": "Perform a zero-I/O scan to quickly verify if a specific port is open/reachable on a remote host without establishing a full connection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ss -antp",
+      "description": "A modern, faster alternative to netstat for displaying all TCP socket statistics, including process information and timer states.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sV -p <port> <target>",
+      "description": "Service version detection: probes the port to determine not just if it is open, but exactly what service and version is running.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

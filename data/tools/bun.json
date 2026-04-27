@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bun x <package-name>",
+      "description": "Executes a binary from an npm package without installing it globally, similar to npx.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bun pm cache rm",
+      "description": "Clears the Bun package manager cache to resolve corrupted installation issues or free up disk space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bun --watch <file>.js",
+      "description": "Runs a file in watch mode, automatically restarting the process whenever a file change is detected in the dependency graph.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bun --minify <file>.js",
+      "description": "A flag used during build or execution to reduce file size by removing whitespace and shortening variable names.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bun --inspect <file>.js",
+      "description": "Starts the Bun runtime with the inspector enabled, allowing you to attach a debugger via Chrome DevTools or VS Code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

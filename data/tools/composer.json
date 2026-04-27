@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "composer diagnose",
+      "description": "Checks your environment for common issues such as connectivity, disk space, and configuration errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "composer why vendor/package",
+      "description": "Identifies which installed packages are requiring a specific dependency, useful for dependency resolution debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "composer validate",
+      "description": "Checks if the composer.json file is valid and if the lock file is in sync with the json file.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "composer list --format=json",
+      "description": "Outputs the list of available commands in JSON format, useful for automating CLI workflows or building custom tooling.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "composer config --list",
+      "description": "Displays all current configuration settings, including local, home, and system-level settings.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "git reflog",
+      "description": "View a log of all recent changes to the HEAD, allowing you to recover lost commits or undo accidental hard resets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux | grep <process_name>",
+      "description": "Find the Process ID (PID) and detailed status of a specific running process to assist in debugging or killing hung tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker system prune -a",
+      "description": "Remove all unused containers, networks, images (both dangling and unused), and optionally volumes to reclaim disk space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "find . -name \"*.log\" -mtime +7 -delete",
+      "description": "Locate and delete files ending in .log that were last modified more than 7 days ago to automate log rotation/cleanup.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "EXPLAIN ANALYZE SELECT * FROM table_name WHERE id = 1;",
+      "description": "Execute a query and show the actual execution plan, including timing, to identify performance bottlenecks in SQL queries.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

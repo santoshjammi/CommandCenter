@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "citron logs --tail 50 --follow",
+      "description": "Streams real-time application logs with a specific line buffer for live debugging of the running process.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "citron build --profile production --minify",
+      "description": "Triggers a production-optimized build pipeline including code minification and tree-shaking.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "citron config export --format json > config.json",
+      "description": "Exports the current configuration state to a JSON file for version control or environment synchronization.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "citron analyze --complexity",
+      "description": "Runs a static analysis report to identify high cyclomatic complexity and potential performance bottlenecks in the codebase.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "citron sync --remote origin",
+      "description": "Synchronizes local component definitions and configuration settings with a remote repository or cloud workspace.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

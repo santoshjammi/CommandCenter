@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bundle viz",
+      "description": "Generates a visual dependency graph of your current bundle (requires graphviz).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bundle platform --ruby",
+      "description": "Displays the specific Ruby version required by the current Gemfile.lock to ensure environment parity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bundle config set --local deployment true",
+      "description": "Sets the deployment mode via configuration rather than a CLI flag, ensuring consistent CI/CD behavior.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bundle info <gem_name>",
+      "description": "Provides detailed information about a specific gem, including its summary, homepage, and local installation path.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bundle lock --add-platform x86_64-linux",
+      "description": "Adds a specific platform to the Gemfile.lock to prevent resolution errors when deploying to different OS architectures (e.g., local macOS to Linux Docker).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

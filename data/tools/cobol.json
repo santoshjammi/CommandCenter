@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "SEARCH ALL (Binary Search)",
+      "description": "Performs a high-performance binary search on a table. Requires the table to be pre-sorted and the index to be defined with the SEARCH ALL clause.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "INSPECT ... TALLYING",
+      "description": "Counts the occurrences of specific characters or substrings within a data item. Example: INSPECT WS-STRING TALLYING WS-COUNT FOR ALL 'A'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "MOVE CORRESPONDING",
+      "description": "Efficiently moves data between two group items with matching field names, reducing the need for multiple individual MOVE statements.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "SET ... TO DEPENDING ON",
+      "description": "Used for subscripted tables to dynamically set the size or index of a table based on a variable value.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "REDEFINES Clause",
+      "description": "Allows the same memory area to be interpreted under different data descriptions, useful for parsing complex or varying data formats.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

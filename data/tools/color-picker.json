@@ -121,6 +121,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "color-picker --format hsl --precision 2",
+      "description": "Output color in HSL format with a specific decimal precision for fine-tuned design adjustments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --config ~/.color-picker.json",
+      "description": "Load a custom configuration file to bypass global settings for project-specific color schemes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --check-contrast --bg #ffffff --fg [color]",
+      "description": "Perform an accessibility check to ensure the selected color meets WCAG contrast ratios against a background color.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --list-palettes",
+      "description": "Display all available pre-installed color palettes available for selection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "color-picker --dry-run",
+      "description": "Simulate the color selection process and output the intended result without interacting with the GUI or clipboard.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

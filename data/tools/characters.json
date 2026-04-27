@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "sed 's/[[:space:]]/_/g' input.txt",
+      "description": "Use sed with POSIX character classes to replace all whitespace characters (including tabs and newlines) with underscores.",
+      "scenario": "",
+      "language": "Bash/sed",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "string.split('separator')",
+      "description": "Break a string into an array of substrings based on a specified delimiter.",
+      "scenario": "",
+      "language": "JavaScript/Python",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "LC_ALL=C sort input.txt",
+      "description": "Force byte-wise sorting by setting locale to 'C', bypassing language-specific collation rules for faster, predictable performance.",
+      "scenario": "",
+      "language": "Bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "SELECT SUBSTRING(column_name, start, length) FROM table_name;",
+      "description": "Extract a specific portion of a string from a column based on starting position and character count.",
+      "scenario": "",
+      "language": "SQL",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "str.trimStart() / str.trimEnd()",
+      "description": "Remove whitespace specifically from only the beginning or only the end of a string to preserve internal formatting.",
+      "scenario": "",
+      "language": "JavaScript",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

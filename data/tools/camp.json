@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "camp logs --follow --tail 50",
+      "description": "Streams real-time application logs with a buffer of the last 50 lines for live debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "camp config set <key> <value>",
+      "description": "Dynamically updates the local .camprc configuration file without manual text editing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "camp status --verbose",
+      "description": "Displays detailed health metrics of the current local environment, including memory usage and active route listeners.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "camp doctor",
+      "description": "Runs a diagnostic suite to check for dependency mismatches, port conflicts, and corrupted build artifacts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "camp build --profile production",
+      "description": "Triggers a highly optimized build process that strips development dependencies and minifies assets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

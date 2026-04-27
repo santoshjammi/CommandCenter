@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "zip -m archive.zip file1.txt",
+      "description": "Move mode: Adds files to the archive and then deletes them from the original filesystem location.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "zip -X archive.zip file1.txt",
+      "description": "Extra attributes: Stores extra file attributes (like UID/GID or extended attributes) which are otherwise stripped.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "zip -r archive.zip /path/to/dir -x '*.log' '*.tmp'",
+      "description": "Exclusion pattern: Creates an archive while explicitly excluding specific file patterns or directories.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "unzip -P password archive.zip",
+      "description": "Password injection: Unzip an encrypted archive directly from the CLI by providing the password as a flag.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "zip -sf archive.zip",
+      "description": "Split archive: Tests the integrity of a split/multi-part zip archive to ensure all segments are present and valid.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

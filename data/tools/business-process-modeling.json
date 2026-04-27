@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "<bpmn:boundaryEvent id=\"Boundary_1\" attachedToRef=\"Task_1\"\"",
+      "description": "Attaches an event (Error, Timer, or Message) to the boundary of an existing task to handle interruptions or timeouts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:callActivity id=\"CallActivity_1\" calledElement=\"SubProcess_Ref\"/>",
+      "description": "Invokes a reusable subprocess defined elsewhere, allowing for modularity and standardized process patterns.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:userTask id=\"UserTask_1\" name=\"Manual Approval\"/>",
+      "description": "Defines a task that requires human intervention via a task list or UI, distinct from automated service tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:dataObjectReference id=\"Data_1\" name=\"Invoice\" dataObjectRef=\"DataObject_1\"/>",
+      "description": "Models the data objects that are produced, consumed, or transformed during the execution of a process.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<bpmn:subProcess id=\"SubProcess_1\" isExpanded=\"false\">",
+      "description": "Encapsulates a group of activities into a single unit to reduce visual complexity and manage scope.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

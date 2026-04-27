@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "chmod a+X filename",
+      "description": "Applies the 'conditional execute' bit, which only adds execute permissions if the file is a directory or already has execute permissions for some user, preventing accidental execution of non-executable data files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chmod u+rw,g+r,o-r filename",
+      "description": "Uses comma-separated symbolic notation to perform multiple permission changes in a single atomic operation, improving efficiency in scripts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chmod --reference=file1 file2",
+      "description": "Synchronizes the mode of 'file2' to match exactly the permissions of 'file1', useful for ensuring configuration files match a known good template.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chmod 2775 directory",
+      "description": "Sets the SetGID bit (2) along with standard permissions, ensuring that new files created within the directory inherit the group ownership of the parent directory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "stat -c '%a %n' * | xargs -n2 chmod",
+      "description": "A high-performance pattern to batch-apply permissions by piping octal modes from 'stat' directly into 'chmod', often faster than 'find -exec' for massive file sets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

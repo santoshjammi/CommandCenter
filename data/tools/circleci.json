@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "circleci api usage",
+      "description": "Retrieve usage statistics and consumption data via the CircleCI API to monitor build minutes and resource usage.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "parameters: type: enum",
+      "description": "Define restricted input values for reusable commands or jobs to ensure strict configuration validation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "circleci local execute --environment KEY=VALUE",
+      "description": "Inject specific environment variables into a local execution to simulate different deployment or testing contexts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "when: << parameters.CONDITION >>",
+      "description": "Implement conditional step execution within a job based on parameter values or logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "resource_class: large",
+      "description": "Assign specific hardware profiles (e.g., medium, large, xlarge) to a job to optimize performance for CPU/RAM intensive tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

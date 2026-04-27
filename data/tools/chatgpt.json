@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "chatgpt-cli --system \"You are a senior DevOps engineer\" --prompt \"Optimize this Dockerfile\"",
+      "description": "Uses the system role flag to set persistent persona/context for the session, improving specialized task accuracy.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl -X POST https://api.openai.com/v1/chat/completions -d @request_body.json",
+      "description": "Efficiently sends complex JSON payloads by reading from a local file instead of escaping strings in the terminal.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chatgpt-cli --stream",
+      "description": "Enables server-sent events (SSE) to receive token-by-token streaming output, reducing perceived latency in the CLI.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "export OPENAI_ORG_ID='your-org-id'",
+      "description": "Configures the organization ID environment variable to ensure API calls are billed to the correct enterprise account.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chatgpt-cli --temperature 0 --top_p 1",
+      "description": "Tuning parameters for deterministic output; setting temperature to 0 is critical for code generation and mathematical tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

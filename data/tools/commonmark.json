@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Footnotes (Extended Syntax)",
+      "description": "Use `[^1]` in text and `[^1]: Description` at the bottom to create interactive footnotes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "HTML Tag Integration",
+      "description": "CommonMark allows raw HTML tags like `<kbd>Ctrl</kbd>` or `<br>` for fine-grained control over formatting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Definition Lists",
+      "description": "Use `:` to create term-definition pairs (e.g., `Term\n: Definition`) in parsers supporting extended CommonMark.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Escaping Characters",
+      "description": "Use a backslash `\\` before Markdown syntax characters (e.g., `\\*not italic\\*`) to render them as literal text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Table Syntax",
+      "description": "Create data tables using pipes `|` and hyphens `---` for header separation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

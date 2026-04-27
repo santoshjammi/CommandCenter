@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "(GET \"/api/v1/resource\" [id] (get-in request [:params :id]))",
+      "description": "Accessing specific parameters from the request map within a handler.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(defroutes app (GET \"/admin\" [] (if (auth? request) \"Welcome\" (redirect \"/login\"))))",
+      "description": "Implementing conditional routing logic based on request state or authentication.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(def app (wrap-defaults settings handler))",
+      "description": "Using wrap-defaults to apply a standard set of middleware (params, session, cookies) in one call.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(GET \"/files/:ext\" [ext] (read-file (str \"data.\" ext)))",
+      "description": "Using path parameters to drive dynamic file system or resource lookups.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(defroutes app (GET \"/search\" [q] (str \"Searching for: \" q)))",
+      "description": "Handling query string parameters (e.g., /search?q=clojure) via the params map.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

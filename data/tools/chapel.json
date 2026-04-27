@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "chpl --version",
+      "description": "Displays the current version of the Chapel compiler and build information.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chpl --debug",
+      "description": "Compiles the program with debug symbols enabled, useful for GDB/LLDB debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chpl --optimize=high",
+      "description": "Enables aggressive optimization flags to improve runtime performance for HPC workloads.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chpl --target=x86_64-linux-gnu",
+      "description": "Specifies the target architecture and operating system for cross-compilation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "var d = new dmap(1..10, 1..10);",
+      "description": "Creates a distributed associative array (dmap) for sparse data structures across locales.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

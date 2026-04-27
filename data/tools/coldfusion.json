@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "<cfscript>",
+      "description": "Enables CFScript syntax within CFML files, allowing for a more JavaScript-like coding style instead of tag-based syntax.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<cfthread>",
+      "description": "Executes a block of code in a separate thread, enabling asynchronous processing and background task execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<cfcomponent>",
+      "description": "Defines a ColdFusion Component (CFC), the building block for object-oriented programming in CFML.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<cfhttp>",
+      "description": "Performs HTTP requests (GET, POST, etc.) to external APIs or web services directly from the server.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<cfdiags>",
+      "description": "Used in conjunction with the ColdFusion Administrator to view and analyze detailed diagnostic logs for performance troubleshooting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

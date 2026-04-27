@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "colorscreen status",
+      "description": "Displays a real-time summary of the current active scheme, running processes, and resource usage.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen export --format json",
+      "description": "Exports the current active color profile and configuration settings to a JSON file for environment replication.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen test-palette",
+      "description": "Renders a full spectrum grid of the current scheme to verify color contrast and accessibility compliance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen config validate",
+      "description": "Performs a syntax check on the current configuration file to ensure no schema violations exist.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "colorscreen logs --tail 50",
+      "description": "Streams the last 50 lines of the ColorScreen engine logs to the terminal for rapid troubleshooting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

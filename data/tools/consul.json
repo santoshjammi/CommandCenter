@@ -186,6 +186,51 @@
       ],
       "is_curated": false,
       "man_page": "https://www.consul.io/docs/commands/exec"
+    },
+    {
+      "command": "consul health checks",
+      "description": "List all service health checks and their current statuses across the cluster to identify failing instances.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "consul kv transaction <file.json>",
+      "description": "Perform multiple KV operations (put, delete, etc.) atomically in a single transaction to ensure data consistency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "consul intend <service-a> <service-b>",
+      "description": "Create an intention to allow or deny communication between two specific services using Consul Connect/Service Mesh.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "consul watch <type> <key>",
+      "description": "Monitor a specific KV key or service change and trigger a local script or command immediately when the value changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "consul info",
+      "description": "Display detailed information about the local agent, including its configuration, version, and role.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

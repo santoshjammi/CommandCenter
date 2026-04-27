@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "csc -optimize-level 3 file.scm",
+      "description": "Compiles the Scheme file with maximum optimizations enabled for production performance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(import (chicken egg))",
+      "description": "Loads an extension module (egg) into the current session, essential for accessing extended libraries.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "csc -debug-info file.scm",
+      "description": "Compiles with debug information included, allowing for better stack traces and debugging via CHICKEN's runtime.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "(current-exception)",
+      "description": "Retrieves the current exception object within a condition-handler, useful for inspecting error metadata.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "chicken-install <egg-name>",
+      "description": "The standard CLI tool to download, compile, and install community-contributed extensions (eggs).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

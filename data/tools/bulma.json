@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "is-loading",
+      "description": "Add this modifier to buttons or navbar-item to display a built-in loading spinner animation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "is-mobile",
+      "description": "Apply to the 'columns' container to prevent columns from stacking vertically on mobile devices.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "is-fullwidth",
+      "description": "Modifier for inputs, buttons, and selects to force the element to span the entire width of its container.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "is-family-monospace",
+      "description": "Apply to the body or specific containers to switch the entire typography stack to a monospace font.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "is-hidden-tablet",
+      "description": "Responsive utility class to hide an element specifically on tablet-sized screens and larger.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

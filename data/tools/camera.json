@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "v4l2-ctl --list-ctrls",
+      "description": "Lists all available hardware controls (exposure, focus, white balance, etc.) supported by the specific camera driver to identify valid parameter names.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ffmpeg -f v4l2 -input_format mjpeg -i /dev/video0 output.mp4",
+      "description": "Forces the input format to MJPEG, which is often necessary to achieve higher frame rates on USB 2.0 bandwidth-limited connections.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "v4l2-ctl --set-ctrl=exposure_auto=1",
+      "description": "Switches the camera from manual exposure mode to aperture priority/auto mode, essential for correcting underexposed shots in changing lighting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ffplay -f v4l2 -video_size 640x480 -framerate 60 /dev/video0",
+      "description": "Uses ffplay for low-latency real-time monitoring of the camera feed with specific resolution and frame rate constraints.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "v4l2-ctl --set-ctrl=focus_absolute=40",
+      "description": "Manually sets the lens focus position using an absolute value, useful for fixed-focus industrial or surveillance setups.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

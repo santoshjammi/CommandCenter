@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "browserify main.js --standalone 'MyLibrary' -o bundle.js",
+      "description": "Wraps the bundle in a UMD-like pattern, exposing the entry point as a global variable named 'MyLibrary' for use in non-module environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js --external module_name -o bundle.js",
+      "description": "Prevents a specific module from being bundled, assuming it will be provided by the environment (e.g., via a <script> tag) instead.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js --env { 'DEBUG': true } -o bundle.js",
+      "description": "Injects environment variables into the bundle, allowing for conditional code execution based on build-time constants.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js --cache [path] --package [path] -o bundle.js",
+      "description": "Optimizes build performance by specifying custom paths for the internal cache and package data files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "browserify main.js --plugin [plugin-name] --transform [transform-name] -o bundle.js",
+      "description": "Demonstrates the ability to chain multiple plugins and transforms in a single CLI execution for complex build pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

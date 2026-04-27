@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "claude doctor",
+      "description": "Runs a diagnostic suite to check environment health, connectivity, and authentication status.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "claude config set <key> <value>",
+      "description": "Updates persistent CLI configuration settings without manually editing config files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "claude run --dry-run",
+      "description": "Simulates the execution process and shows planned file changes without applying them to the filesystem.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "claude logs --tail",
+      "description": "Streams real-time execution logs to the terminal for live monitoring of agentic processes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "claude update",
+      "description": "Checks for and installs the latest version of the Claude Code CLI tool.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

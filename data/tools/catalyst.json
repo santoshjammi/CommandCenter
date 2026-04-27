@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "catalyst doctor",
+      "description": "Runs a diagnostic suite to check local environment compatibility, network connectivity to the Catalyst cloud, and dependency integrity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst deploy --dry-run",
+      "description": "Simulates the deployment process, validating configuration files and build artifacts without pushing changes to the live environment.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst rollback [deployment-id]",
+      "description": "Reverts the current production environment to a previously successful deployment state using a specific ID.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst config set --global KEY=VALUE",
+      "description": "Sets a configuration parameter at the user level, persisting across different project directories.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "catalyst monitor --stream",
+      "description": "Opens a real-time WebSocket connection to stream live performance metrics and resource utilization directly to the terminal.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

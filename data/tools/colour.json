@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "color-mix(in srgb, var(--primary), white 20%)",
+      "description": "Uses the CSS color-mix function to dynamically blend two colors with a specific interpolation space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "color-contrast(color1, color2)",
+      "description": "A programmatic check (via utility library) to return a boolean indicating if two colors meet WCAG AA standards.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "oklch(60% 0.15 250)",
+      "description": "Utilizes the OKLCH color space for perceptually uniform lightness and more intuitive color manipulation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "clamp(min, preferred, max) for color transitions",
+      "description": "Applying clamp logic within CSS custom properties to scale color intensity based on viewport width or user preference.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "color-scheme: dark light;",
+      "description": "A CSS property used to inform the user agent that the document supports both light and dark color schemes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "docker system prune -af",
+      "description": "Forcefully removes all unused containers, networks, images, and build caches to free up disk space on CI runners.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "git log --oneline --graph --decorate --all",
+      "description": "Visualizes the commit history and branch structure to debug merge conflicts or identify the exact commit causing a build failure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker build --build-arg BUILDKIT_INLINE_CACHE=1 -t my-image:latest .",
+      "description": "Enables build caching mechanisms to speed up subsequent CI builds by utilizing existing image layers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "npm audit fix",
+      "description": "Automatically updates vulnerable dependencies to secure the build pipeline against known security flaws.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "jenkins-cli.jar -s <URL> get-job <job_name> > config.xml",
+      "description": "Exports the XML configuration of a specific Jenkins job for version control or migration purposes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

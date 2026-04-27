@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "python3 -c 'import ipaddress; print(list(ipaddress.ip_network(\"192.168.1.0/24\").hosts()))'",
+      "description": "Use Python's ipaddress module to programmatically generate a list of all usable host IP addresses within a CIDR block.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "sipcalc 192.168.1.0/24",
+      "description": "Use sipcalc for a more detailed breakdown including broadcast, network, and subnet mask information in a structured format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "nmap -sn 192.168.1.0/24",
+      "description": "Perform a 'Ping Sweep' to identify active hosts within a CIDR range without performing a full port scan.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ipcalc -s 192.168.1.0/24",
+      "description": "Display the subnet mask specifically using the ipcalc -s flag for quick verification of network boundaries.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "echo \"192.168.1.0/24\" | grepcidr 192.168.1.5",
+      "description": "Use grepcidr to filter large log files or lists of IPs to see which ones fall within a specific CIDR range.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }
