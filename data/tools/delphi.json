@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "interface / implementation",
+      "description": "Structure a unit to separate the public interface from the private implementation logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "property FField: Integer read FField write SetFField;",
+      "description": "Encapsulate class fields using properties to control access and trigger logic on read/write.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "TList<T> = class of T",
+      "description": "Use Generics to create type-safe collections instead of using untyped pointers or arrays.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "inline;",
+      "description": "Suggest the compiler to embed the procedure code directly at the call site to reduce overhead.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "record",
+      "description": "Define a value type structure that is allocated on the stack rather than the heap for high-performance data grouping.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

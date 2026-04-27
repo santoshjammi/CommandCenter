@@ -160,6 +160,33 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "<!--[if IE]> <!DOCTYPE html> <![endif]-->",
+      "description": "Conditional comments used in legacy workflows to force specific doctype rendering for Internet Explorer versions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">",
+      "description": "The doctype declaration for XHTML 1.1, which is a modular version of XHTML 1.0.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Validation Workflow: W3C Validator CLI",
+      "description": "Use `xmllint --noout --dtdvalid <url> <file>` to validate a document against a specific DTD locally.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

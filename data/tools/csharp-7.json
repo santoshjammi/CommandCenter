@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "expression-bodied members",
+      "description": "Use the => operator to simplify methods, properties, and indexers that contain a single expression.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pattern matching with relational patterns",
+      "description": "Combine type patterns with logical patterns to create more expressive conditional logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "readonly struct",
+      "description": "Define structs as readonly to ensure immutability and allow the compiler to optimize performance by avoiding defensive copies.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ref returns with readonly ref",
+      "description": "Use 'in' parameters or 'readonly ref' to pass large structs by reference for performance while preventing modification.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deconstruction in foreach",
+      "description": "Directly deconstruct tuples or objects within a foreach loop to improve readability.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

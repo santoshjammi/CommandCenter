@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "curl -v http://example.com",
+      "description": "Verbose mode: Displays the full request and response headers, including the TLS handshake, which is essential for debugging connection issues.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl --config config_file.txt http://example.com",
+      "description": "Use a configuration file to store complex options, headers, and settings, keeping CLI commands clean and reproducible.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl -w \"%{http_code} %{time_total}\\n\" -o /dev/null -s http://example.com",
+      "description": "Write-out: Extracts specific metadata like HTTP status code and total request time, useful for performance benchmarking and automation scripts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl --retry 3 --retry-delay 2 http://example.com",
+      "description": "Resilience: Automatically retries a failed request a specified number of times with a delay, ideal for flaky network environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl --next -X GET http://api.com/v1 && curl --next -X POST http://api.com/v2",
+      "description": "Multi-request: Uses the --next flag to separate multiple requests within a single command execution, allowing different settings per request.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

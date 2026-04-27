@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Invariant Enforcement",
+      "description": "The set of rules that must always be true within an Aggregate to maintain data integrity during state transitions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Policy (Domain Policy)",
+      "description": "A rule that defines how the domain reacts to specific Domain Events, often implemented as a listener or a reaction mechanism.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Side-Effect-Free Functions",
+      "description": "A pattern for Value Objects and Domain Services where operations return a new instance instead of mutating the current state, ensuring predictability.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Saga Pattern",
+      "description": "A mechanism to manage long-running business processes that span multiple Bounded Contexts, ensuring eventual consistency via distributed transactions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Read Model (Projection)",
+      "description": "A specialized data structure optimized for queries in CQRS, often denormalized to provide high-performance views of the domain state.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

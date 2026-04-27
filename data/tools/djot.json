@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "# Header 1",
+      "description": "Create a top-level heading using the hash symbol followed by a space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "## Header 2",
+      "description": "Create a second-level heading for sub-sections.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "> Blockquote",
+      "description": "Create a blockquote by prefixing a line with the greater-than symbol.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "---",
+      "description": "Create a horizontal rule (thematic break) using three or more hyphens on a new line.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "[link text]{.class-name}",
+      "description": "Apply a CSS class to a link using attribute syntax for custom styling.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "selector { aspect-ratio: 16 / 9; }",
+      "description": "Sets a preferred aspect ratio for an element, preventing layout shifts during image loading.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "selector { place-items: center; }",
+      "description": "Shorthand for setting both align-items and justify-items to center in Grid or Flexbox layouts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "selector { clamp(1rem, 5vw, 3rem); }",
+      "description": "Sets a responsive value that fluctuates between a defined minimum and maximum based on viewport width.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "selector { scroll-behavior: smooth; }",
+      "description": "Enables smooth scrolling for the entire page or a specific container when navigating via anchor links.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "selector { user-select: none; }",
+      "description": "Prevents the user from being able to highlight or select text within a specific element.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

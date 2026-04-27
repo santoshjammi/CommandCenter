@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "python manage.py shell_plus",
+      "description": "Automatically imports all models and common dependencies into the Django shell (requires django-extensions).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "python manage.py sqlmigrate <app_name> <migration_name>",
+      "description": "Outputs the raw SQL that a specific migration will execute against the database without actually running it.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "python manage.py check --deploy",
+      "description": "Runs a system check to identify potential security misconfigurations and deployment readiness issues.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "python manage.py collectstatic --noinput",
+      "description": "Gathers all static files into a single directory for production deployment without prompting for user input.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "python manage.py dumpdata <app_name> --indent 4 > data.json",
+      "description": "Serializes the database content of a specific app into a formatted JSON file for backups or data migration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

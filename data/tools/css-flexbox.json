@@ -160,6 +160,51 @@
       ],
       "is_curated": false,
       "man_page": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-self"
+    },
+    {
+      "command": "gap: 1rem;",
+      "description": "Sets the gutter space between flex items without needing margins on child elements.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "flex: 1 1 auto;",
+      "description": "A shorthand property combining flex-grow, flex-shrink, and flex-basis for cleaner code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "justify-content: space-around;",
+      "description": "Distributes items so that there is equal space around each item (half-size space on edges).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "align-content: stretch;",
+      "description": "Defines how multi-line flex containers distribute space between rows when there is extra space in the container.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "flex-direction: row-reverse;",
+      "description": "Reverses the visual order of flex items along the main axis without changing the DOM order.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

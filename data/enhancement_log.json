@@ -1093,5 +1093,250 @@
     "last_enhanced": "2026-04-27",
     "times_enhanced": 1,
     "commands_added": 5
+  },
+  "cplusplus": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "cpp": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "coq": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "countries": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "cron": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "crystal": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "csharp": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "csharp-7": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "css-flexbox": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "css-3": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "css-tricks": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "css-grid": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "css": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "cssnext": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "csv": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "curl": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "cursor-cli": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "cvs": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "cypher": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "dart": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "cue": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "datalog": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "db2": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "ddd": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "deis": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "deku-v1": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "debian": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "db4o": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "delphi": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "developer-tools": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "devhintsio": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "design-pattern": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "deku-v2": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "dhall": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "devise": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "devsheets": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "directx-9": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "divshot": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "djot": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "django": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "docker": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "dockerfile": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "docker-cli": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "doctrine": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "doctypes": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 3
+  },
+  "dom": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "dom-range": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "do-gem": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "domain-driven-design": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
   }
 }

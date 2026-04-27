@@ -173,6 +173,51 @@
       ],
       "is_curated": false,
       "man_page": "https://en.cppreference.com/w/cpp/language/try_catch"
+    },
+    {
+      "command": "g++ -Wall -Wextra -Werror source.cpp",
+      "description": "Enables all common warnings and treats them as errors to ensure high code quality and catch potential bugs early.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "g++ -O3 -march=native source.cpp",
+      "description": "Applies aggressive optimizations and tunes the binary specifically for the host machine's CPU architecture.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "gdb --args ./output arg1 arg2",
+      "description": "Starts the GNU Debugger with specific command-line arguments passed to the executable.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "std::unique_ptr<T> ptr = std::make_unique<T>(args...);",
+      "description": "Uses RAII to manage heap memory via a smart pointer, ensuring automatic deallocation and preventing memory leaks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "valgrind --leak-check=full ./output",
+      "description": "Runs the executable through Valgrind to detect memory leaks, invalid accesses, and uninitialized memory usage.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

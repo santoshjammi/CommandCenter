@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "grid-template-rows: repeat(auto-fill, minmax(100px, auto));",
+      "description": "Uses auto-fill to create as many rows as possible within the container, unlike auto-fit which collapses empty tracks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "place-items: center;",
+      "description": "Shorthand property that combines justify-items and align-items into a single declaration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "grid-auto-flow: dense;",
+      "description": "Tells the algorithm to attempt to fill in holes earlier in the grid if smaller items come later in the source order.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "grid-template-columns: [sidebar] 250px [content] 1fr [gap] 20px [main] 1fr;",
+      "description": "Uses named lines to allow referencing specific grid lines by name (e.g., grid-column: content / main) instead of numbers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "align-self: end;",
+      "description": "Overrides the container's align-items value for a specific individual grid item.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

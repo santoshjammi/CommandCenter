@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "deku watch",
+      "description": "Starts a development server with hot-module replacement (HMR) enabled, automatically rebuilding on file changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deku clean",
+      "description": "Removes all build artifacts, temporary cache files, and the output directory to ensure a fresh build state.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deku build --profile production",
+      "description": "Triggers a build using the production optimization profile, enabling minification, tree-shaking, and dead code elimination.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deku doctor",
+      "description": "Runs a diagnostic suite to check environment variables, dependency integrity, and system compatibility for the Deku runtime.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deku logs --tail 50",
+      "description": "Streams the most recent 50 lines of runtime logs from the local Deku instance for real-time debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

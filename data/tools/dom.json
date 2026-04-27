@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "element.closest('.selector')",
+      "description": "Traverses the element and its parents (upwards) until it finds a match for the specified selector. Essential for event delegation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Element.insertAdjacentHTML(position, text)",
+      "description": "Parses specified text as HTML and inserts the resulting nodes into the DOM at a specific position ('beforebegin', 'afterbegin', 'beforeend', or 'afterend'). Faster than innerHTML for appending.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "element.matches('.selector')",
+      "description": "Returns a boolean indicating whether the element would be selected by the given selector string. Useful for conditional logic in event listeners.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "new MutationObserver((mutations) => { /* callback */ })",
+      "description": "A built-in object that provides the ability to watch for changes being made to the DOM tree (attribute changes, child additions/removals, etc.).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "element.getBoundingClientRect()",
+      "description": "Returns a DOMRect object providing information about the size of an element and its position relative to the viewport. Crucial for animations and scroll logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

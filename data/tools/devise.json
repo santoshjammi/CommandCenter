@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "rails generate devise:views",
+      "description": "Generates all Devise views into app/views/devise for local customization.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "config.authentication_keys = [:email, :username]",
+      "description": "Configures Devise to use multiple keys for authentication instead of just email.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "devise :lockable, :timeoutable",
+      "description": "Adds security modules to the model to handle account locking after failed attempts and session timeouts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Warden::Test::Helpers",
+      "description": "Include 'include Warden::Test::Helpers' in rails_helper.rb to use 'login_as(user)' in integration tests.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "config.navigational_formats = [:html, :json]",
+      "description": "Extends Devise to handle authentication flows for API requests by allowing JSON formats.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "aspect-ratio: 16 / 9;",
+      "description": "Sets a preferred aspect ratio for an element, replacing the need for the old padding-top hack.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "place-items: center;",
+      "description": "A shorthand property for grid and flex containers that sets both align-items and justify-items simultaneously.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "clamp(1rem, 5vw, 3rem);",
+      "description": "A responsive typography/sizing function that sets a minimum, preferred, and maximum value to prevent extreme scaling.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "backdrop-filter: blur(10px);",
+      "description": "Applies graphical effects like blur or color shifts to the area behind an element, useful for glassmorphism.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "user-select: none;",
+      "description": "Prevents the user from selecting text within an element, often used for UI components like buttons or icons.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

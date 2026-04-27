@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "dart analyze",
+      "description": "Runs the static analyzer to find potential errors, warnings, and lints in your project code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dart compile exe <file>.dart",
+      "description": "Compiles a Dart file into a self-contained, native executable binary for high performance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dart pub outdated",
+      "description": "Checks for newer versions of your project's dependencies and suggests upgrade paths.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dart test",
+      "description": "Executes unit and widget tests defined in your project to ensure code reliability.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dart pub deps",
+      "description": "Displays a visual tree of all project dependencies, helping to debug version conflicts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

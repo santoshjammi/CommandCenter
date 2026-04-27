@@ -121,6 +121,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "curl -s 'https://restcountries.com/v3.1/all?fields=name,capital,currencies' | jq '.[].capital'",
+      "description": "Use the 'fields' query parameter to reduce payload size and improve performance by requesting only specific data keys.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl -s 'https://restcountries.com/v3.1/all' | jq 'map(select(.region == \"Europe\")) | length'",
+      "description": "Calculate the total count of countries within a specific region using jq's map and length functions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl -I 'https://restcountries.com/v3.1/alpha/us'",
+      "description": "Perform a HEAD request to check API availability and response headers (like rate limiting or cache status) without downloading the body.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl -s 'https://restcountries.com/v3.1/all' | jq 'group_by(.subregion) | map({subregion: .[0].subregion, count: length})'",
+      "description": "Group countries by their subregion and count the occurrences of each to generate a statistical summary.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl -s 'https://restcountries.com/v3.1/all' | jq 'map(select(.cca3 != null)) | map(.cca3) | unique'",
+      "description": "Extract a unique list of all 3-letter ISO country codes (CCA3) from the full dataset.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "sudo apt autoremove --purge",
+      "description": "Removes unused dependencies and their configuration files to clean up the system.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "journalctl -xe --since '1 hour ago'",
+      "description": "Displays recent system logs with detailed error explanations, filtered by time.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ss -tulpn",
+      "description": "A modern replacement for netstat that provides detailed information about listening sockets and associated processes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "systemctl list-units --type=service --state=running",
+      "description": "Lists all currently active and running system services.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "du -sh <directory>/* | sort -h",
+      "description": "Calculates the size of directories and files, then sorts them in human-readable format to identify disk space hogs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

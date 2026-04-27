@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "// Use Value Objects to replace primitive obsession",
+      "description": "Instead of using a string for an email, create an Email class that validates the format upon instantiation to ensure domain integrity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "// Implement Domain Events to decouple aggregates",
+      "description": "Publish an event like 'OrderPlaced' when an aggregate state changes, allowing other bounded contexts to react asynchronously.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "// Use a Factory pattern for complex aggregate creation",
+      "description": "Encapsulate the logic of creating a complex aggregate with multiple child entities within a dedicated Factory to ensure it always starts in a valid state.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "// Apply the Specification pattern for complex business rules",
+      "description": "Encapsulate reusable business validation logic into 'Specification' objects that can be combined using AND/OR/NOT logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "// Distinguish between Domain Services and Application Services",
+      "description": "Use Domain Services for business logic that doesn't naturally belong to a single entity, and Application Services for orchestration and transaction management.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

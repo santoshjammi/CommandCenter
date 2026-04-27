@@ -160,6 +160,51 @@
       ],
       "is_curated": false,
       "man_page": "https://deis.com/docs/workflow/users/perms-create/"
+    },
+    {
+      "command": "deis apps:promote <app-name>",
+      "description": "Promotes a specific application instance to the production slot, useful for blue-green deployment workflows.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deis deploy <app-name> --tag <version-tag>",
+      "description": "Deploys a specific image tag to an existing application, enabling precise version rollbacks and releases.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deis exec <app-name> --container <container-name> --command <cmd>",
+      "description": "Executes a command within a running container instance for real-time debugging and inspection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deis apps:stats <app-name>",
+      "description": "Displays real-time resource utilization metrics (CPU, Memory, Network) for the specified application.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deis config:export <app-name>",
+      "description": "Dumps all current environment configuration variables to stdout in a format ready for backup or migration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

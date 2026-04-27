@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "crystal build --release program.cr",
+      "description": "Compiles the program with optimizations enabled, significantly improving execution speed and reducing binary size.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "crystal build --debug program.cr",
+      "description": "Compiles the program with debug symbols and disables optimizations, making it easier to use debuggers like GDB or LLDB.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "crystal report",
+      "description": "Generates a detailed report of the current Crystal installation, including compiler version, target architecture, and build settings.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "module MyModule; end",
+      "description": "Defines a namespace to group related classes, modules, and methods, preventing name collisions in larger projects.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "require \"json\"",
+      "description": "Loads the standard library module for JSON parsing and serialization, essential for web APIs and data processing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

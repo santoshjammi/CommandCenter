@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "dhall freeze --file ./config.dhall",
+      "description": "Locks remote imports to specific semantic versions/hashes to ensure reproducible builds.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dhall format --file ./example.dhall",
+      "description": "Automatically reformats Dhall code to follow standard style conventions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dhall lint --file ./example.dhall",
+      "description": "Analyzes the Dhall file for potential issues, such as unused bindings or redundant expressions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dhall-to-yaml --file ./example.dhall",
+      "description": "Converts Dhall expressions into YAML format for compatibility with Kubernetes or other YAML-based tools.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "let x = (./other.dhall) in x",
+      "description": "Using relative file paths to import local Dhall files as modules.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

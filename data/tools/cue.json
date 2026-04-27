@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "cue export -e schema.cue config.cue",
+      "description": "Exports the merged result of a configuration file against a specific schema, ensuring the output adheres to the defined types.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cue graph",
+      "description": "Generates a DOT format representation of the CUE configuration graph, useful for visualizing complex dependencies and inheritance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cue embed",
+      "description": "Embeds external files (like JSON, YAML, or text) directly into CUE values using the '#' directive for static asset inclusion.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cue insight",
+      "description": "Provides a summary of the configuration, including the number of definitions, values, and potential issues in the graph.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cue test",
+      "description": "Executes unit tests defined within CUE files to validate logic, constraints, and complex value computations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

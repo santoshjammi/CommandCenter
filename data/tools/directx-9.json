@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "d3dDevice->SetRenderState(D3DRS_ZENABLE, TRUE);",
+      "description": "Enables the depth buffer (Z-buffer) to ensure correct occlusion and depth testing during the rendering pass.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->Reset(&d3dpp);",
+      "description": "Reinitializes the device after a device loss event (e.g., window resizing or Alt-Tab), requiring all volatile resources to be released first.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->SetStreamSource(0, vertexBuffer, 0, sizeof(VertexStruct));",
+      "description": "Binds a vertex buffer to the specified stream, defining the stride and offset for the vertex shader to read geometry data.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->SetTransform(D3DTS_WORLD, &worldMatrix);",
+      "description": "Sets the transformation matrix for the World stage of the fixed-function pipeline, positioning objects in 3D space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "d3dDevice->GetDeviceStatus(); // Check for D3DERR_DEVICELOST",
+      "description": "Used in the main loop to detect if the device has been lost, triggering the necessary cleanup and Reset() workflow.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

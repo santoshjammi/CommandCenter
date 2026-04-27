@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Command Pattern with Undo/Redo Stack",
+      "description": "Implement a Command pattern using a stack to manage history, allowing for reversible operations by storing the inverse command.",
+      "scenario": "",
+      "language": "Python",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Proxy Pattern for Lazy Initialization",
+      "description": "Use a Proxy to delay the instantiation of a heavy object until its methods are actually called, optimizing startup performance.",
+      "scenario": "",
+      "language": "JavaScript",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Adapter Pattern for Interface Mismatch",
+      "description": "Create an Adapter class to wrap an incompatible legacy interface, translating its calls into the format expected by a new client interface.",
+      "scenario": "",
+      "language": "Java",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Template Method Pattern for Algorithm Skeleton",
+      "description": "Define the skeleton of an algorithm in a base class method, deferring specific steps to subclasses via abstract methods.",
+      "scenario": "",
+      "language": "C++",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "State Pattern for Behavior Switching",
+      "description": "Encapsulate state-specific behaviors into separate classes, allowing an object to change its behavior when its internal state changes.",
+      "scenario": "",
+      "language": "TypeScript",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

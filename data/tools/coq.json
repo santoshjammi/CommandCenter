@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "coqidetool",
+      "description": "A command-line tool to run Coq proofs in an interactive mode, useful for automated testing of proof scripts in CI/CD pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Print Kernel/Print Term",
+      "description": "Use `Print Kernel.` to inspect the internal state of the kernel or `Print Term.` to see the exact term being checked, which is essential for debugging proof irrelevance issues.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "coq_ide",
+      "description": "Launch the Coq Integrated Development Environment (often via Emacs/CoqIDE) to provide a GUI-based feedback loop for real-time proof checking.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Set Printing All.",
+      "description": "A tactic/command used to disable all printing optimizations, allowing you to see the full, un-simplified structure of inductive types and definitions during debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "coqtop -batch < file.v",
+      "description": "Run Coq in batch mode to process a file and exit, useful for checking the correctness of a file without entering the interactive loop.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

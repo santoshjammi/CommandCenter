@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "std::unique_ptr<T> ptr = std::make_unique<T>(args);",
+      "description": "RAII-based smart pointer for exclusive ownership; automatically deallocates memory when the pointer goes out of scope to prevent memory leaks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "g++ -O3 -march=native -flto main.cpp -o main",
+      "description": "Advanced compilation flags: -O3 for high-level optimization, -march=native to tune for the current CPU architecture, and -flto for Link Time Optimization.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "auto lambda = [](int x, int y) -> int { return x + y; };",
+      "description": "Defining an anonymous function (lambda expression) with an explicit return type for localized logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "std::move(obj);",
+      "description": "Casts an lvalue to an rvalue, enabling move semantics to transfer resources instead of performing expensive deep copies.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "valgrind --leak-check=full ./executable",
+      "description": "CLI tool for detecting memory leaks, memory corruption, and uninitialized memory reads in C++ applications.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

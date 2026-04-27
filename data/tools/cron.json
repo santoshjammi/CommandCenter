@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "crontab -u <username> -l",
+      "description": "List the crontab entries for a specific user (requires root/sudo privileges).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "flock -n /tmp/cronjob.lock /path/to/command",
+      "description": "Prevents cron job overlap by using a file lock; ensures the next instance doesn't start if the previous one is still running.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "grep CRON /var/log/syslog",
+      "description": "Search system logs to verify if a cron job was triggered and check for execution errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "diff <(crontab -l) <(crontab -l.bak)",
+      "description": "Compare current crontab with a backup file to identify recent changes or accidental deletions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "2>&1 | logger -t cron_debug",
+      "description": "Redirect stderr to stdout and pipe to syslog, allowing custom tagging of cron output for easier log filtering.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

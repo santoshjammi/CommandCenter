@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": ".decl relation_name(type, type)",
+      "description": "Explicitly declare relations with specific types to enable static type checking and optimize memory layout.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": ".output relation_name",
+      "description": "Direct the engine to stream the results of a specific relation directly to a file or stdout for large dataset processing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": ".plan",
+      "description": "Generate and inspect the query execution plan to identify join order inefficiencies and unexpected nested loops.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "relation_name(X, Y), X = 'constant'",
+      "description": "Use constant binding in the first subgoal of a rule to prune the search space early (Magic Sets optimization pattern).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": ".limit N",
+      "description": "Restrict the engine to only find the first N satisfying tuples, useful for quick exploratory queries on massive datasets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

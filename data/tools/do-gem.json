@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "do --dry-run",
+      "description": "Simulates task execution without running the actual logic, useful for verifying dependency resolution and task order.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Do.tasks.each { |t| puts t.name }",
+      "description": "Programmatically iterates through all registered tasks in the current runtime session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "do --trace",
+      "description": "Enables verbose debugging output, showing the full execution stack and internal state transitions during task processing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Do.task :cleanup, thread_safe: true do ... end",
+      "description": "Defines a task with thread-safety constraints to prevent race conditions when running tasks in parallel environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "do --list-only",
+      "description": "Displays a formatted list of all available tasks and their descriptions without executing any tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

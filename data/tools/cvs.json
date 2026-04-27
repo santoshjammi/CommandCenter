@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "cvs annotate <file>",
+      "description": "Displays the revision history and author information for each line in a file, useful for tracing line-by-line changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cvs status",
+      "description": "Shows the current state of a file or directory, including its revision, whether it is locally modified, and its existence in the repository.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cvs diff -u <file>",
+      "description": "Generates a unified diff format output, which is more readable and standard for applying patches compared to the default format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cvs revert <file>",
+      "description": "Discards local changes to a file, restoring it to its last known state from the repository.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cvs list -r <tag_or_branch>",
+      "description": "Lists all tags or branches available in the repository, helping to identify valid targets for checkout or update.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "cssnext --minify input.css output.css",
+      "description": "Compresses the output CSS by removing whitespace and comments to optimize production file size.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cssnext --sourcemaps input.css output.css",
+      "description": "Generates a .map file to enable easier debugging of transformed CSS in browser developer tools.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "{ \"postcss\": { \"plugins\": { \"autoprefixer\": { \"grid\": \"autoplace\" } } } }",
+      "description": "Advanced configuration to enable CSS Grid polyfilling for older browsers via the PostCSS plugin ecosystem.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "@import 'variables.css';",
+      "description": "Standard module pattern to split large CSS files into smaller, maintainable components using the built-in import logic.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cssnext --verbose input.css output.css",
+      "description": "Increases logging output to track which specific PostCSS plugins are processing the file during compilation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

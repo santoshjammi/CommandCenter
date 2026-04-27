@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "git cherry-pick <commit-hash>",
+      "description": "Apply the changes introduced by an existing commit from another branch to your current branch.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker system prune -a --volumes",
+      "description": "Remove all unused containers, networks, images (both dangling and unreferenced), and volumes to reclaim disk space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "npm audit fix",
+      "description": "Automatically install compatible updates to resolve known security vulnerabilities in your dependency tree.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "grep -r \"search_term\" .",
+      "description": "Recursively search for a specific string within all files in the current directory and subdirectories.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "git reflog",
+      "description": "View a log of all recent actions on the repository (commits, checkouts, resets) to recover 'lost' commits or undo mistakes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

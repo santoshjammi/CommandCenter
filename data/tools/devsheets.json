@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "git reflog",
+      "description": "View a log of all recent changes to the HEAD, allowing you to recover lost commits or undo accidental hard resets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker system prune -a --volumes",
+      "description": "Deep clean: Removes all unused containers, networks, images (including those without at least one container associated), and volumes to reclaim disk space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ps aux | grep <process_name>",
+      "description": "Find the Process ID (PID) and resource usage of a specific running process to assist in debugging or killing hung tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "EXPLAIN ANALYZE SELECT * FROM table_name WHERE id = 1;",
+      "description": "Executes the query and provides a detailed execution plan with actual timing, essential for identifying slow database bottlenecks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "tar -czvf archive.tar.gz /path/to/directory",
+      "description": "Compress a directory into a gzipped tarball for efficient storage or transfer.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

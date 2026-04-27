@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "git reflog",
+      "description": "View a log of all recent changes to the tip of branches, useful for recovering lost commits or accidental resets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker system prune -a --volumes",
+      "description": "Deep clean: removes all unused containers, networks, images (both dangling and unreferenced), and volumes to reclaim disk space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "grep -rI --exclude-dir={.git,node_modules} 'search_term' .",
+      "description": "Recursively search for a string while ignoring binary files and common heavy dependency/metadata directories.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "find . -type f -name '*.log' -mtime +7 -delete",
+      "description": "Find and delete all files ending in .log that were modified more than 7 days ago to manage log rotation manually.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "EXPLAIN ANALYZE SELECT * FROM table_name WHERE condition;",
+      "description": "Execute a query and show the actual execution plan with timing statistics to identify performance bottlenecks in SQL.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

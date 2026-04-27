@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "php bin/console doctrine:query:sql \"SELECT * FROM users\" --platform=mysql",
+      "description": "Execute a raw SQL query through Doctrine to verify the exact SQL being generated for a specific platform.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "php bin/console doctrine:migrations:diff",
+      "description": "Compare current entity mappings against the database schema and automatically generate a migration file to bridge the gap.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "$query = $entityManager->createQuery('SELECT u FROM App\\Entity\\User u WHERE u.id = :id')->setParameter('id', $id);",
+      "description": "Use DQL (Doctrine Query Language) for object-oriented queries that remain database-agnostic while allowing complex joins.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "$entityManager->clear();",
+      "description": "Detach all loaded entities from the Unit of Work to free up memory and prevent stale data during large batch processing loops.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "php bin/console doctrine:schema:validate",
+      "description": "Check if your current database schema matches your entity mapping definitions to catch synchronization issues early.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

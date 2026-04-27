@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Span<T> and Memory<T>",
+      "description": "Use Span<T> for high-performance, allocation-free slicing of arrays, strings, or unmanaged memory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Pattern Matching (Switch Expressions)",
+      "description": "Use advanced pattern matching: var result = input switch { int i when i > 0 => \"Positive\", _ => \"Other\" };",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dotnet publish -c Release -r win-x64 --self-contained true",
+      "description": "CLI flag to publish a single-file, self-contained executable for a specific runtime architecture.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ValueTask<T>",
+      "description": "Use ValueTask<T> instead of Task<T> for asynchronous methods that frequently complete synchronously to reduce heap allocations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "using var statement",
+      "description": "Implement the 'using declaration' for cleaner scope-based resource management: using var stream = new FileStream(...);",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

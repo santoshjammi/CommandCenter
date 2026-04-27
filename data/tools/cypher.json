@@ -159,6 +159,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "CALL db.labels()",
+      "description": "Returns a list of all unique node labels currently present in the database.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "CALL db.relationshipTypes()",
+      "description": "Lists all relationship types defined within the graph database.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (n) RETURN apoc.coll.frequencies(n.tags) AS tagCounts",
+      "description": "Uses APOC library to count occurrences of elements within a list property (requires APOC plugin).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "CALL dbms.listQueries()",
+      "description": "Displays currently executing queries to monitor database performance and identify long-running transactions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "MATCH (n:Person) SET n += {new_property: 'value', updated_at: datetime()}",
+      "description": "Uses the += operator to perform a map-based update, adding or overwriting multiple properties at once without losing existing ones.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

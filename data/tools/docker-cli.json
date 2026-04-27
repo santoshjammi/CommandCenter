@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "docker system prune -a --volumes",
+      "description": "Deep clean: removes all unused containers, networks, images (including dangling ones), and all unused volumes to reclaim disk space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker exec -it <container_id> /bin/bash",
+      "description": "Open an interactive shell inside a running container to debug the environment or inspect files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker inspect <object_id>",
+      "description": "Returns low-level JSON information about Docker objects (containers, images, networks, volumes) for deep configuration inspection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker stats",
+      "description": "Provides a live, real-time stream of resource usage statistics (CPU, Memory, Network I/O, Block I/O) for all running containers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker logs -f --tail 100 <container_id>",
+      "description": "Follows the container's log output in real-time, limiting the initial buffer to the last 100 lines to prevent terminal flooding.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

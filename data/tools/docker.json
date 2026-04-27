@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "docker system prune -a --volumes",
+      "description": "Deep clean: removes all unused containers, networks, images (both dangling and unused), and volumes to reclaim disk space.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker exec -it <container_id> /bin/bash",
+      "description": "Opens an interactive terminal session inside a running container for real-time debugging and shell access.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker inspect <object_id>",
+      "description": "Returns low-level detailed information about Docker objects (containers, images, volumes) in JSON format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker stats",
+      "description": "Displays a live streaming resource usage statistics (CPU, memory, network I/O, block I/O) for all running containers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "docker build --target <stage_name> <path>",
+      "description": "Uses multi-stage builds to build a specific stage of a Dockerfile, useful for isolating build-time dependencies from production artifacts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

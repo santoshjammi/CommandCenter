@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "deku build --minify --target esnext",
+      "description": "Triggers a production build with aggressive minification and targets the latest ECMAScript version for smaller bundle sizes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deku clean",
+      "description": "Removes the build artifacts and the local cache directory to resolve stale dependency or build issues.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deku lint --fix",
+      "description": "Runs the built-in linter on the project source and automatically applies fixes for stylistic and syntax errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deku config set environment=production",
+      "description": "Updates the local .deku/config.json to switch the global execution context to production mode.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "deku trace --profile",
+      "description": "Generates a performance trace report to identify bottlenecks in the compilation or execution lifecycle.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "range.getBoundingClientRect()",
+      "description": "Returns the size of a rectangle whose edges are at the boundaries of the range, useful for positioning custom tooltips or UI overlays over selected text.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "range.surroundContents(newNode)",
+      "description": "Wraps the contents of the range in a new DOM node. Note: This will throw a DOMException if the range partially intersects with other nodes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "range.setStartBefore(node) / range.setEndAfter(node)",
+      "description": "Sets the boundary of the range relative to the node itself rather than an offset within the node, useful for selecting entire elements.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "range.toString()",
+      "description": "Returns the text content of the range as a string, providing a quick way to extract raw text from a selection without manual traversal.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Range.compareBoundaryPoints(type, range1, range2)",
+      "description": "Static method used to compare the relative positions of the boundaries of two ranges (e.g., checking if one range starts before another).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

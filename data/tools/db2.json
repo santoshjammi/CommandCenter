@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "db2pd -db mydb -tables",
+      "description": "Uses the high-performance db2pd tool to extract table metadata and statistics without the overhead of a standard SQL query.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db2 get snapshot for database on mydb",
+      "description": "Captures a point-in-time snapshot of the database state, including buffer pool usage and lock statistics for troubleshooting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db2 list applications",
+      "description": "Lists all active connections and application handles currently connected to the Db2 instance, useful for identifying hung processes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db2 reorg table employees",
+      "description": "Reorganizes the physical storage of a table to reclaim space and improve scan performance by reducing fragmentation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db2look -d mydb -e -o schema.sql",
+      "description": "Extracts the entire DDL (schema) of a database or specific objects into a SQL script file for migration or version control.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

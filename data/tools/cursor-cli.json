@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "cursor sync --remote <target>",
+      "description": "Synchronizes local workspace configuration and context indexes with a remote development environment or cloud instance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cursor logs --tail --follow",
+      "description": "Streams real-time logs from the Cursor background language server and indexing engine for troubleshooting performance issues.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cursor context --analyze <path>",
+      "description": "Performs a static analysis of a directory to suggest optimal indexing patterns and identify large files that should be ignored by the AI.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cursor config export <file_path>",
+      "description": "Exports the current CLI and editor configuration to a JSON file for easy sharing or environment replication.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cursor doctor",
+      "description": "Runs a diagnostic suite to check for corrupted index caches, outdated CLI versions, and connectivity issues with Cursor services.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

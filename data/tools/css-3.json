@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "aspect-ratio: 16 / 9;",
+      "description": "Sets a preferred aspect ratio for an element, preventing layout shifts during image loading.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "clamp(minimum, preferred, maximum);",
+      "description": "Sets a responsive value that fluidly scales between a defined minimum and maximum range.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "backdrop-filter: blur(10px);",
+      "description": "Applies graphical effects (like blur or color shift) to the area behind an element.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "@container (min-width: 400px) { ... }",
+      "description": "Container Queries: Styles an element based on the size of its parent container rather than the viewport.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "user-select: none;",
+      "description": "Controls whether the user can select text within an element, useful for UI components like buttons.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

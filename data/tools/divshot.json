@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "divshot logs --tail 50",
+      "description": "Streams real-time deployment and runtime logs from the server with a specific line buffer.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "divshot rollback",
+      "description": "Immediately reverts the current environment to the previous successful deployment version.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "divshot config validate",
+      "description": "Checks the local divshot.json file for syntax errors and schema compliance before pushing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "divshot status",
+      "description": "Displays a summary of the current environment, active domain bindings, and deployment health.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "divshot build --minify",
+      "description": "Triggers a local build process with production-grade minification and asset optimization enabled.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

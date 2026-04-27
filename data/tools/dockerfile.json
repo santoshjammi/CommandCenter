@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "RUN --mount=type=cache,target=/var/cache/apt",
+      "description": "Uses BuildKit cache mounts to persist package manager caches between builds, significantly speeding up subsequent builds.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "HEALTHCHECK --interval=30s --timeout=10s CMD curl -f http://localhost:8080/ || exit 1",
+      "description": "Defines a command to check the container's health status, allowing the Docker engine to restart unhealthy containers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ARG VERSION=latest",
+      "description": "Defines variables that users can pass at build-time using --build-arg, allowing for dynamic image customization.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "USER node",
+      "description": "Sets the user for subsequent instructions and the runtime, following the principle of least privilege to avoid running as root.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "LABEL maintainer=\"devops-team@example.com\"",
+      "description": "Adds metadata to the image, such as versioning, authorship, or description, which can be queried via 'docker inspect'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

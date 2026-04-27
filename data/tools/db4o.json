@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "config.common().objectClass(MyClass.class).useImplicitActivation(true);",
+      "description": "Enables implicit activation, allowing the database to automatically activate objects as they are accessed, reducing manual db.activate() calls.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "config.common().objectClass(MyClass.class).setVersion(1);",
+      "description": "Sets a specific version for a class to manage schema evolution and handle object transformations during upgrades.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db.query(new Query<MyClass>() { ... });",
+      "description": "Uses the Query interface for more complex, multi-step retrieval patterns that go beyond simple Predicates.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "config.common().objectClass(MyClass.class).setUpdateDepth(0);",
+      "description": "Optimizes write performance by setting update depth to 0, preventing the engine from traversing the entire object graph during a store operation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Db4oEmbedded.openFile(config, \"path\").close();",
+      "description": "Ensures proper resource management and file lock release by explicitly closing the database connection in a finally block.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

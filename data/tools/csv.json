@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "csvkit - c2d file.csv | csvlook",
+      "description": "Use csvkit to convert CSV to JSON and pipe it into csvlook for a beautifully formatted, human-readable ASCII table in the terminal.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "datamash --header-in --input-delim ',' summarize cols 1,2 sum",
+      "description": "Use datamash to perform high-performance statistical operations (like sum, mean, or min/max) directly on CSV columns via CLI.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "df = pd.read_csv('file.csv', chunksize=1000)",
+      "description": "Use the chunksize parameter in Pandas to process massive CSV files that exceed available RAM by iterating through the file in smaller segments.",
+      "scenario": "",
+      "language": "python",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "awk -F',' '{print $1, $3}' file.csv",
+      "description": "Use AWK to quickly extract specific columns (e.g., 1st and 3rd) without loading the entire file into a heavy data processing engine.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "csvclean file.csv",
+      "description": "Run csvkit's csvclean utility to identify and fix common CSV errors like unclosed quotes or inconsistent column counts.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }
