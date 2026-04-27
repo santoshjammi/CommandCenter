@@ -22,6 +22,16 @@ const nextConfig: NextConfig = {
           { key: "X-DNS-Prefetch-Control", value: "on" },
         ],
       },
+      // HTML pages: allow CDN to cache but revalidate every hour
+      {
+        source: "/((?!_next/static|_next/image|favicon|robots|sitemap|llms).*)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400",
+          },
+        ],
+      },
       {
         source: "/search-index.json",
         headers: [
