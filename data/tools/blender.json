@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "blender -b myfile.blend --python-expr \"import bpy; bpy.ops.wm.quit_blender()\"",
+      "description": "Execute a one-line Python snippet directly from the CLI without creating a .py file, useful for quick automation or closing Blender after a task.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.ops.wm.save_as_mainfile(filepath='path/to/file.blend')",
+      "description": "Programmatically save the current state of the Blender session to a specific file path during a script execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blender -b myfile.blend --python-console",
+      "description": "Launch Blender in background mode but open an interactive Python console, allowing for real-time debugging and inspection of the data API.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bpy.data.collections.get('CollectionName')",
+      "description": "Safely access a collection by name using .get() to prevent script crashes if the collection does not exist (returns None instead of raising KeyError).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blender -b myfile.blend --factory-startup",
+      "description": "Launch Blender with factory settings, ignoring all user preferences and add-ons. Essential for debugging script behavior in a clean environment.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

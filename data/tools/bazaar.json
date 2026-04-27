@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bzr revert <file>",
+      "description": "Discards local changes in the working directory and restores the file to its state in the last committed revision.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bzr pull",
+      "description": "Fetches changes from a remote repository and merges them into the current working directory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bzr bisect",
+      "description": "Uses a binary search algorithm to find the specific revision that introduced a bug or regression.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bzr archive",
+      "description": "Creates a compressed archive (tar/zip) of the current working directory state for distribution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bzr info",
+      "description": "Displays detailed information about the current working copy, including the repository URL, branch name, and revision number.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

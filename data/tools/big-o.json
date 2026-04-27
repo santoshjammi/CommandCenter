@@ -186,6 +186,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Amortized Analysis",
+      "description": "Evaluate the average time taken per operation over a sequence of operations, even if a single operation is expensive (e.g., dynamic array resizing).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Space Complexity Analysis",
+      "description": "Measure the additional memory/auxiliary space required by an algorithm relative to the input size, distinct from the input itself.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Best-case vs. Average-case vs. Worst-case",
+      "description": "Distinguish between Ω (Big Omega) for lower bounds, Θ (Big Theta) for tight bounds, and O (Big O) for upper bounds.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Drop Constants and Lower-Order Terms",
+      "description": "When simplifying, ignore coefficients (e.g., 5n -> n) and non-dominant terms (e.g., n^2 + 100n -> n^2) to find the growth rate.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Recursive Complexity (Master Theorem)",
+      "description": "Use the Master Theorem to solve recurrence relations of the form T(n) = aT(n/b) + f(n) for divide-and-conquer algorithms.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

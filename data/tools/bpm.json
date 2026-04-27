@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bpm doctor",
+      "description": "Runs a diagnostic suite to check environment variables, network connectivity to the registry, and local dependency integrity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bpm diff <project-a> <project-b>",
+      "description": "Performs a structural comparison between two local projects or a local project and a published version to identify schema drift.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bpm logs --follow --tail 100",
+      "description": "Streams real-time execution logs from the BPM engine with advanced filtering and buffer limits for live debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bpm prune",
+      "description": "Cleans up orphaned dependencies, unused cached packages, and temporary build artifacts to optimize local storage.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bpm export --format json <project-name>",
+      "description": "Serializes the current project definition into a portable JSON format for CI/CD pipeline injection or manual auditing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

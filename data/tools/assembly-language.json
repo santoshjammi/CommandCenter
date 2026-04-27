@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "LEA EAX, [EBX + ECX*4 + 8]",
+      "description": "Load Effective Address: Calculates the memory address using scaled indexing, useful for array access without arithmetic overhead.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "SHL AX, CL",
+      "description": "Shift Logical Left: Shifts bits to the left, effectively multiplying the value by powers of two; useful for high-performance bit manipulation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "TEST EAX, EAX",
+      "description": "Logical Compare: Performs a bitwise AND without modifying the destination, commonly used to check if a register is zero by setting the Zero Flag.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "REP MOVSB",
+      "description": "Repeat Move String Byte: A high-performance instruction used in loops to copy blocks of memory rapidly.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "INT 0x80 / SYSCALL",
+      "description": "Software Interrupt/System Call: Triggers a transition from user mode to kernel mode to request OS services (e.g., file I/O, process exit).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

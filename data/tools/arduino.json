@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "millis()",
+      "description": "Returns the number of milliseconds passed since the Arduino board began running the current program; essential for non-blocking timing without using delay().",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Serial.print(value, HEX/DEC/BIN)",
+      "description": "Allows formatting output in different bases (Hexadecimal, Decimal, Binary) for easier debugging of register values and raw sensor data.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Interrupts: attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)",
+      "description": "Configures a hardware interrupt to trigger a specific Interrupt Service Routine (ISR) on a state change (RISING, FALLING, CHANGE), allowing immediate response to external events.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "EEPROM.write(address, value) / EEPROM.read(address)",
+      "description": "Provides non-volatile memory storage to save configuration settings or state that persists even after the power is disconnected.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Low Power: sleep_mode() / sleep_cpu()",
+      "description": "Utilizes AVR power-down modes to reduce current consumption significantly during idle periods, critical for battery-operated IoT devices.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

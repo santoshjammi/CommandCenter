@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "aws s3api list-objects-v2 --bucket my-bucket --query 'Contents[?Size > `1048576'].{Key: Key, Size: Size}' --output table",
+      "description": "Advanced S3 filtering: Uses the S3API and JMESPath queries to list only files larger than 1MB in a formatted table, useful for finding large storage consumers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 describe-instances --query 'Reservations[*].Instances[*].{ID:InstanceId,State:State.Name,Type:InstanceType}' --output text",
+      "description": "Performance/Reporting: Quickly extracts a lightweight text-based summary of all instance IDs, states, and types, bypassing the heavy JSON overhead for quick audits.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws iam get-user --user-name newuser --query 'User.Arn' --output text",
+      "description": "Workflow optimization: Retrieves only the Amazon Resource Name (ARN) of a specific user, which is essential for piping into subsequent automation scripts or policy attachments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws configure set default.region us-west-2",
+      "description": "Config Management: Directly modifies the AWS config file via CLI to switch default regions without entering the interactive setup wizard.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws cloudwatch get-metric-statistics --namespace AWS/EC2 --metric-name CPUUtilization --dimensions Name=InstanceId,Value=i-1234567890abcdef0 --start-time 2023-01-01T00:00:00Z --end-time 2023-01-01T23:59:59Z --period 3600 --statistics Average",
+      "description": "Debugging/Analysis: Retrieves historical metric data points for a specific time range, allowing engineers to debug performance spikes via the CLI.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

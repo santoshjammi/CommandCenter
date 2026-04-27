@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "aspect-ratio: auto 16 / 9;",
+      "description": "Uses the intrinsic aspect ratio of the content if available, falling back to 16/9 if the content has no intrinsic ratio.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "object-fit: cover / contain;",
+      "description": "Pairs with aspect-ratio to control how replaced content (img/video) fills the defined ratio box without distortion.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ResizeObserver API",
+      "description": "const ro = new ResizeObserver(entries => { const ratio = entries[0].contentRect.width / entries[0].contentRect.height; });",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aspect-ratio within Flexbox/Grid",
+      "description": "Use 'min-width: 0' or 'min-height: 0' on flex/grid items to prevent aspect-ratio containers from overflowing their parents.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "container-type: size;",
+      "description": "Combines Container Queries with aspect-ratio to change element styles based on the container's calculated ratio rather than viewport.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

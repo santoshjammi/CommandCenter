@@ -45,7 +45,7 @@
       "man_page": ""
     },
     {
-      "command": "\u03a9(1)",
+      "command": "Ω(1)",
       "description": "Express constant lower bound",
       "scenario": "Express constant lower bound",
       "language": "text",
@@ -58,7 +58,7 @@
       "man_page": ""
     },
     {
-      "command": "\u03a9(log n)",
+      "command": "Ω(log n)",
       "description": "Express logarithmic lower bound",
       "scenario": "Express logarithmic lower bound",
       "language": "text",
@@ -71,7 +71,7 @@
       "man_page": ""
     },
     {
-      "command": "\u03a9(n)",
+      "command": "Ω(n)",
       "description": "Express linear lower bound",
       "scenario": "Express linear lower bound",
       "language": "text",
@@ -84,7 +84,7 @@
       "man_page": ""
     },
     {
-      "command": "\u0398(1)",
+      "command": "Θ(1)",
       "description": "Express constant bound",
       "scenario": "Express constant bound",
       "language": "text",
@@ -97,7 +97,7 @@
       "man_page": ""
     },
     {
-      "command": "\u0398(log n)",
+      "command": "Θ(log n)",
       "description": "Express logarithmic bound",
       "scenario": "Express logarithmic bound",
       "language": "text",
@@ -110,7 +110,7 @@
       "man_page": ""
     },
     {
-      "command": "\u0398(n)",
+      "command": "Θ(n)",
       "description": "Express linear bound",
       "scenario": "Express linear bound",
       "language": "text",
@@ -198,6 +198,51 @@
         "class"
       ],
       "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "o(g(n)) [Little-o notation]",
+      "description": "Represents an upper bound that is NOT tight; f(n) becomes insignificant compared to g(n) as n approaches infinity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ω(g(n)) [Little-omega notation]",
+      "description": "Represents a lower bound that is NOT tight; f(n) grows much faster than g(n) as n approaches infinity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "NP-Complete",
+      "description": "A subset of NP problems that are the hardest in NP; if any NP-Complete problem is solved in polynomial time, P = NP.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "co-NP",
+      "description": "The class of problems for which a 'no' instance can be verified in polynomial time.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Space Complexity Analysis",
+      "description": "Evaluating the amount of working memory an algorithm uses relative to the input size, distinct from time complexity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
       "man_page": ""
     }
   ]

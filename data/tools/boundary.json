@@ -199,6 +199,51 @@
       ],
       "is_curated": false,
       "man_page": "https://www.boundaryproject.io/docs/commands/auth-methods/list"
+    },
+    {
+      "command": "boundary proxy connect -target-id ttcp_1234567890 -proxy-addr 127.0.0.1:12345",
+      "description": "Starts a local proxy listener to tunnel traffic to a target, allowing local applications to connect via localhost instead of using the Boundary CLI directly.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "boundary debug sessions list -id sess_1234567890",
+      "description": "Provides detailed diagnostic information about a specific session, useful for troubleshooting connection failures or worker-side issues.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "boundary auth-methods create -type oidc -name=\"Okta\" -scope-id global",
+      "description": "Configures an OIDC authentication method to enable enterprise Single Sign-On (SSO) integration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "boundary targets update -id ttcp_1234567890 -address 10.0.0.5 -port 22",
+      "description": "Modifies the connection parameters (address or port) of an existing target without needing to recreate the entire object.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "boundary workers list -scope-id global -worker-type worker",
+      "description": "Filters the worker list to specifically view standard worker nodes, useful in large environments with mixed worker types.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

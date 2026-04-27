@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Tab + Enter",
+      "description": "Quickly create a new task immediately after finishing the current task without clicking the 'Add Task' button.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Type '#' in a comment",
+      "description": "Instantly link a task to your comment by typing the hash symbol followed by the task name.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Type '@' in a comment",
+      "description": "Mention a teammate or a specific project directly within a comment to trigger a notification.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Multi-select tasks using Shift + Click",
+      "description": "Hold Shift while clicking tasks in a list view to select a range of tasks for bulk editing or moving.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Click task avatar to change assignee",
+      "description": "Hover over the assignee icon on a task card to quickly switch the owner without opening the task details.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

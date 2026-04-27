@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Application State Management",
+      "description": "Store global variables accessible across all user sessions using the Application object.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Database Connection (ADO)",
+      "description": "Establish a connection to a database using ActiveX Data Objects (ADO).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "URL Redirection",
+      "description": "Redirect the user to a different URL or page within the application.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "HTTP Header Manipulation",
+      "description": "Set custom HTTP headers or modify response headers (e.g., for caching or security).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Server-Side Includes (SSI)",
+      "description": "Include the content of another file into the current page during server-side processing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

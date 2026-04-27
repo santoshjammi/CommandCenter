@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "db_stat -h <env_dir>",
+      "description": "Displays detailed statistics about the environment, including cache hit ratios, number of transactions, and current log size.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db_recover -v <env_dir>",
+      "description": "Performs a verbose recovery of the database environment to fix inconsistencies caused by improper shutdowns.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db_dump -p <db_file> > <dump_file>",
+      "description": "Dumps the contents of a database in a human-readable format for inspection or migration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db_load -f <dump_file> <db_file>",
+      "description": "Loads data from a dump file back into a Berkeley DB file, used for restoring or bulk loading.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db_verify <db_file>",
+      "description": "Checks the internal consistency of a database file to detect corruption.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

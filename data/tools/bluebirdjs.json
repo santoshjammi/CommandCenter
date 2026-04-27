@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Promise.props({ key1: promise1, key2: promise2 })",
+      "description": "Resolves an object of promises into an object containing the resolved values, similar to Promise.all but for objects.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.settled([promise1, promise2])",
+      "description": "Waits for all promises to settle (either fulfilled or rejected) and returns an array of objects describing the outcome of each.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.using(resource, (resource) => { ... })",
+      "description": "Implements the 'disposable' pattern, ensuring a resource is automatically cleaned up (via a .disposer() method) even if the promise chain fails.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Promise.config({ cancellation: true, warnings: true })",
+      "description": "Global configuration to enable advanced features like cancellation support and to suppress or enable specific library warnings.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "promise.cancel()",
+      "description": "Aborts a pending promise. Requires the promise to have been created with cancellation support enabled via Promise.config.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -163,6 +163,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "brave-browser --remote-debugging-port=9222",
+      "description": "Enables the remote debugging protocol, allowing developers to inspect and control the browser instance via Chrome DevTools Protocol (CDP) from external scripts or tools.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --user-data-dir=/path/to/custom/dir",
+      "description": "Specifies a custom directory for the user profile, useful for running isolated, sandboxed testing environments without affecting the main user installation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --disk-cache-size=104857600",
+      "description": "Sets the maximum size of the disk cache in bytes (e.g., 100MB). Useful for performance tuning and managing disk space in CI/CD or automated testing environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --disable-extensions",
+      "description": "Launches the browser with all extensions disabled. Essential for troubleshooting site behavior and determining if an extension is interfering with web applications.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "brave-browser --proxy-server='http://user:password@proxyip:port'",
+      "description": "Forces the browser to route all traffic through a specific proxy server via the command line, ideal for testing network-restricted environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "audacity -new-project",
+      "description": "Starts Audacity with a fresh, empty project instead of reopening the last session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Tools > Macros...",
+      "description": "Automates a sequence of multiple effects or commands into a single-click batch process.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Preferences > Modules",
+      "description": "Enables or disables specific plugin modules to optimize startup time and memory footprint.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Analyze > Label Sounds...",
+      "description": "Uses amplitude thresholds to automatically detect and place labels at audio segments/silences.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "View > Show Tempo Track",
+      "description": "Displays the tempo track for time-stretching and pitch-shifting synchronization.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

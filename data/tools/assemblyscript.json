@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "asbuild --optimize --runtime stub",
+      "description": "Builds the project with full optimizations and uses a stub runtime, useful for testing logic in environments where the full WebAssembly runtime isn't available.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "@assemblyscript/loader",
+      "description": "The essential JavaScript loader used to instantiate the .wasm module and manage memory/garbage collection between JS and Wasm.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "asconfig.json",
+      "description": "The configuration file used to define build settings, optimization levels, and target environments for the AssemblyScript compiler.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "extern \"C\" { ... }",
+      "description": "Used to declare external functions imported from the host environment (JavaScript) into the AssemblyScript module.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "as-inspect",
+      "description": "A tool/pattern for inspecting the generated WebAssembly text format (.wat) to debug instruction-level performance and memory layout.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

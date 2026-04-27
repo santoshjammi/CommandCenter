@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "show ip bgp neighbors <IP> advertised-routes",
+      "description": "Displays the specific prefixes being sent to a particular BGP neighbor, essential for verifying outbound policy application.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "neighbor <IP> soft-reconfiguration inbound",
+      "description": "Enables storage of received routes in memory before policy application, allowing for route-map changes without tearing down the BGP session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "show ip bgp <prefix>",
+      "description": "Provides detailed information about a specific route, including all available paths, attributes, and the best path selection reason.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "clear ip bgp <IP> soft out",
+      "description": "Triggers a refresh of outbound updates to a neighbor without resetting the TCP session, useful for applying new outbound route-maps.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bgp log-neighbor-changes",
+      "description": "Configures the router to generate syslog messages whenever a BGP neighbor relationship changes state (up/down).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

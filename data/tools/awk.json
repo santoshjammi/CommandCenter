@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "awk '{count[$1]++} END {for (i in count) print i, count[i]}' filename",
+      "description": "Frequency analysis: Counts occurrences of unique values in a specific column and prints them.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "awk 'BEGIN {FS=OFS=\"|\"} {print $1, $3}' filename",
+      "description": "Set both Input Field Separator and Output Field Separator simultaneously using BEGIN block.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "awk 'NR==FNR {a[$1]; next} $1 in a' file1 file2",
+      "description": "Join/Intersection: Prints lines from file2 where the first field exists in file1.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "awk '{printf \"%-10s %-5d\\n\", $1, $2}' filename",
+      "description": "Formatted output: Uses printf for aligned, columnar text output instead of standard print.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "awk 'BEGIN {srand()} {print rand()}' filename",
+      "description": "Randomization: Seeds the random number generator and prints a random float between 0 and 1 for each line.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

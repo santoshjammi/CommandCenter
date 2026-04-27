@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "npm install sass bootstrap",
+      "description": "Install Sass to enable custom theme overriding via Bootstrap's source SCSS files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "@import 'bootstrap/scss/bootstrap';",
+      "description": "Import the full Bootstrap SCSS library into your custom stylesheet to use variables and mixins.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": ".custom-card { @include make-col(4); }",
+      "description": "Use Bootstrap's mixins in your own SCSS to generate responsive grid columns programmatically.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"d-flex justify-content-between align-items-center\">",
+      "description": "Utilize Flexbox utilities for precise alignment and distribution of child elements within a container.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<div class=\"position-absolute top-0 start-0\">",
+      "description": "Use position utilities to place elements relative to their nearest positioned ancestor.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

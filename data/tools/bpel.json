@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "<pick>",
+      "description": "Selects one of several available messages based on a specific condition or the first message to arrive, useful for non-deterministic message routing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<wait>",
+      "description": "Suspends process execution for a specified duration or until a specific condition is met, often used for implementing timeouts or delays.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<forEach>",
+      "description": "Iterates over a collection of items within a variable, allowing for repetitive execution of activities for each element in the set.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Scope-level Fault Handling",
+      "description": "Defining <faultHandlers> within a specific <scope> rather than at the process level to localize error recovery and prevent global process termination.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Dehydration/Hydration Patterns",
+      "description": "Managing long-running process state by persisting variables to a database during wait states to optimize memory usage in high-concurrency environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

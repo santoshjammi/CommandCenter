@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bb pullrequest merge <pullrequest-id> --merge-strategy <merge|squash|fast-forward>",
+      "description": "Merges a specific pull request using a defined strategy (squash is recommended for clean history).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bb pullrequest diff <pullrequest-id>",
+      "description": "Displays the code changes/diff for a specific pull request directly in the terminal.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "git remote set-url origin <new-url>",
+      "description": "Updates the remote URL for the existing origin, useful when migrating repositories or switching from HTTPS to SSH.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bb workspaces list",
+      "description": "Lists all available workspaces the authenticated user has access to, useful for multi-tenant environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "git fetch --prune",
+      "description": "Fetches updates from the remote and removes local references to branches that have been deleted on Bitbucket.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bowler telemetry --stream --port 8080",
+      "description": "Starts a real-time telemetry stream to a local web dashboard for monitoring sensor data and motor telemetry.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bowler deploy --remote <ip_address> --force",
+      "description": "Overwrites the existing firmware on a remote robot via network connection, bypassing local safety checks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bowler simulate --scenario <file.json>",
+      "description": "Runs the current project logic through a physics-based digital twin simulator without requiring physical hardware.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bowler logs --tail 50 --filter 'motor_error'",
+      "description": "Filters and displays the last 50 lines of the robot's system logs specifically looking for motor-related exceptions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "config: set-latency-mode high-performance",
+      "description": "Adjusts the internal scheduler to prioritize low-latency motor control loops over background telemetry tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "blueprint build --no-cache",
+      "description": "Forces a clean build by bypassing the local build cache, useful for resolving dependency corruption or stale artifacts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint config export --path <file.yaml>",
+      "description": "Dumps the entire current configuration hierarchy into a structured file for auditing or version control.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint deploy --dry-run",
+      "description": "Simulates a deployment process and outputs the execution plan without making actual changes to the infrastructure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint doctor",
+      "description": "Runs a diagnostic suite to check local environment health, including CLI version, network connectivity, and credential validity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blueprint logs --filter 'level=error'",
+      "description": "Applies server-side filtering to log streams to reduce noise and focus on specific event types or severity levels.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

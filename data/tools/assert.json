@@ -121,6 +121,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "pytest.raises(ExceptionType)",
+      "description": "Assert that a specific block of code raises a specific exception type in Python testing.",
+      "scenario": "",
+      "language": "Python",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "expect(actual).toBeCloseTo(expected, precision)",
+      "description": "Assert equality for floating-point numbers within a specific decimal precision to avoid rounding errors.",
+      "scenario": "",
+      "language": "JavaScript (Jest)",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "assert.allEq(collection, expected_set)",
+      "description": "Assert that all elements in a collection match the elements of a provided set, regardless of order.",
+      "scenario": "",
+      "language": "Python (Hypothesis/Custom)",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "assert.deepStrictEqual(obj1, obj2)",
+      "description": "Perform a deep recursive comparison of object properties and values rather than checking reference equality.",
+      "scenario": "",
+      "language": "Node.js",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "assert(condition) { with context(message) }",
+      "description": "Using context managers or assertion wrappers to attach metadata/traceability to failed assertions in complex workflows.",
+      "scenario": "",
+      "language": "General/Pattern",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "set -x",
+      "description": "Enable execution tracing to print each command before it is executed, useful for debugging script flow.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "trap 'cleanup_function' SIGINT SIGTERM",
+      "description": "Catch signals (like Ctrl+C) to execute a cleanup function before the script exits.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "export PATH=\"$PATH:/custom/bin\"",
+      "description": "Add a custom directory to the current shell session's PATH environment variable.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "[[ $string == *pattern* ]]",
+      "description": "Use double brackets for advanced pattern matching and string comparison with wildcards.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "mapfile -t my_array < file.txt",
+      "description": "Efficiently read lines from a file directly into an array using the built-in mapfile (readarray) command.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

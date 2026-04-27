@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "blogger-cli post list --status draft --limit 10",
+      "description": "Filters the post list by specific lifecycle status (draft, published, archived) and applies pagination limits for faster retrieval.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blogger-cli config validate",
+      "description": "Performs a connectivity and syntax check on the current configuration file to ensure API keys and Blog IDs are valid before running operations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blogger-cli post create --file ./content.md --template ./theme.tmpl",
+      "description": "Creates a post using a local Markdown file and applies a predefined template for consistent formatting and metadata injection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blogger-cli debug --verbose --trace-api",
+      "description": "Enables high-verbosity logging and raw HTTP request/response tracing to diagnose authentication or network-level failures.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blogger-cli post batch-delete --ids 123,456,789",
+      "description": "Performs a bulk deletion of multiple posts in a single command to reduce API overhead and manual repetitive tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

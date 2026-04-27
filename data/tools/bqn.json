@@ -6,7 +6,7 @@
   "category": "Languages",
   "commands": [
     {
-      "command": "a \u2190 5",
+      "command": "a ← 5",
       "description": "Assign a value to a variable",
       "scenario": "Assign a value to a variable",
       "language": "text",
@@ -19,7 +19,7 @@
       "man_page": ""
     },
     {
-      "command": "Add \u2190 {\ud835\udd69 + \ud835\udd68}",
+      "command": "Add ← {𝕩 + 𝕨}",
       "description": "Define a function that adds two numbers",
       "scenario": "Define a function that adds two numbers",
       "language": "text",
@@ -32,7 +32,7 @@
       "man_page": ""
     },
     {
-      "command": "list \u2190 1\u203f2\u203f3\u203f4\u203f5",
+      "command": "list ← 1‿2‿3‿4‿5",
       "description": "Create a list of numbers from 1 to 5",
       "scenario": "Create a list of numbers from 1 to 5",
       "language": "text",
@@ -45,7 +45,7 @@
       "man_page": ""
     },
     {
-      "command": "IfTrue \u2190 {\ud835\udd69 > 0 \u2192 'Positive' ; 'Non-positive'}",
+      "command": "IfTrue ← {𝕩 > 0 → 'Positive' ; 'Non-positive'}",
       "description": "Conditional execution with if-else",
       "scenario": "Conditional execution with if-else",
       "language": "text",
@@ -58,7 +58,7 @@
       "man_page": ""
     },
     {
-      "command": "{\ud835\udd69 + 1}\u00a8 1\u203f2\u203f3",
+      "command": "{𝕩 + 1}¨ 1‿2‿3",
       "description": "Loop over a list and apply a function",
       "scenario": "Loop over a list and apply a function",
       "language": "text",
@@ -71,7 +71,7 @@
       "man_page": ""
     },
     {
-      "command": "{\ud835\udd69|2 = 0}\u233f 1\u203f2\u203f3\u203f4\u203f5",
+      "command": "{𝕩|2 = 0}⌿ 1‿2‿3‿4‿5",
       "description": "Filter a list for even numbers",
       "scenario": "Filter a list for even numbers",
       "language": "text",
@@ -84,7 +84,7 @@
       "man_page": ""
     },
     {
-      "command": "+\u00b4 1\u203f2\u203f3\u203f4\u203f5",
+      "command": "+´ 1‿2‿3‿4‿5",
       "description": "Sum all elements in a list",
       "scenario": "Sum all elements in a list",
       "language": "text",
@@ -97,7 +97,7 @@
       "man_page": ""
     },
     {
-      "command": "\u233d 1\u203f2\u203f3\u203f4\u203f5",
+      "command": "⌽ 1‿2‿3‿4‿5",
       "description": "Reverse a list",
       "scenario": "Reverse a list",
       "language": "text",
@@ -110,7 +110,7 @@
       "man_page": ""
     },
     {
-      "command": "\u2349 1\u203f2\u203f3\u203f4\u203f5",
+      "command": "⍉ 1‿2‿3‿4‿5",
       "description": "Transpose a matrix",
       "scenario": "Transpose a matrix",
       "language": "text",
@@ -123,7 +123,7 @@
       "man_page": ""
     },
     {
-      "command": "{\ud835\udd69 + \ud835\udd68}\u00a8 1\u203f2\u203f3\u203f4\u203f5 \u294a 6\u203f7\u203f8\u203f9\u203f10",
+      "command": "{𝕩 + 𝕨}¨ 1‿2‿3‿4‿5 ⥊ 6‿7‿8‿9‿10",
       "description": "Apply a function to each pair of elements from two lists",
       "scenario": "Apply a function to each pair of elements from two lists",
       "language": "text",
@@ -136,7 +136,7 @@
       "man_page": ""
     },
     {
-      "command": "Fact \u2190 {\ud835\udd69 = 0 \u2192 1 ; \ud835\udd69 \u00d7 \u2207 \ud835\udd69 - 1}",
+      "command": "Fact ← {𝕩 = 0 → 1 ; 𝕩 × ∇ 𝕩 - 1}",
       "description": "Define a recursive function for factorial",
       "scenario": "Define a recursive function for factorial",
       "language": "text",
@@ -149,7 +149,7 @@
       "man_page": ""
     },
     {
-      "command": "\u2308\u00b4 1\u203f2\u203f3\u203f4\u203f5",
+      "command": "⌈´ 1‿2‿3‿4‿5",
       "description": "Use a reduction to compute the maximum value",
       "scenario": "Use a reduction to compute the maximum value",
       "language": "text",
@@ -159,6 +159,51 @@
         "advanced"
       ],
       "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "⍝",
+      "description": "Single-line comment syntax to document code within a script or REPL session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "⍒",
+      "description": "The 'abort' or 'stop' operator, used to terminate execution or signal an error state in complex functions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "⍣",
+      "description": "Power operator (exponentiation), used for repeated multiplication or scaling values.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "⍳",
+      "description": "The 'iota' function, used to generate integer sequences (e.g., ⍳5 yields 1 2 3 4 5).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "⌽",
+      "description": "Reverse function, used to flip the order of elements in an array or vector.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
       "man_page": ""
     }
   ]

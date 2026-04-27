@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "printf '\\x41\\x42\\x43\\n'",
+      "description": "Print characters using hexadecimal escape sequences in Bash/Zsh.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cat -v filename",
+      "description": "Display non-printing characters (like ^M or ^I) in a file using caret notation.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "python3 -c 'import sys; print(sys.stdin.buffer.read())'",
+      "description": "Read raw byte streams to inspect non-ASCII/binary data in the terminal.",
+      "scenario": "",
+      "language": "python",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "xxd filename",
+      "description": "Create a hex dump of a file to visualize ASCII and non-printable bytes side-by-side.",
+      "scenario": "",
+      "language": "bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "String.fromCharCode(...Array.from({length: 32}, (_, i) => i + 32))",
+      "description": "Generate a continuous string of ASCII characters using spread syntax and Array mapping.",
+      "scenario": "",
+      "language": "javascript",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

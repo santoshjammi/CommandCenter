@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "aws s3api list-objects-v2 --bucket my-bucket --query 'Contents[].Key' --output text",
+      "description": "Uses s3api and JMESPath queries to return only the keys (filenames) of objects in a bucket, which is faster and cleaner for scripting than standard s3 ls.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 describe-instances --filters 'Name=instance-state-name,Values=running' --query 'Reservations[*].Instances[*].[InstanceId,State.Name]' --output table",
+      "description": "Advanced filtering and formatting: returns a human-readable table of only running instances using server-side filters and client-side JMESPath queries.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws configure set default.region us-west-2",
+      "description": "Directly modifies the AWS config file via CLI to change the default region without entering the interactive setup wizard.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws sts get-caller-identity",
+      "description": "The 'who am i' command. Essential for debugging to verify which IAM user, role, or profile is currently being used by the CLI session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws s3api get-bucket-lifecycle-configuration --bucket my-bucket",
+      "description": "Accesses the low-level s3api to inspect lifecycle rules, which is not possible using the standard 'aws s3' high-level commands.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

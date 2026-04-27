@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "python3 -c \"print(list(map(ord, 'ASCII')))\"",
+      "description": "Quickly convert an entire string into a list of its decimal ASCII integer values using Python's map function.",
+      "scenario": "",
+      "language": "Python",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "echo -e '\\x48\\x65\\x6c\\x6c\\x6f'",
+      "description": "Interpret hex-encoded ASCII escape sequences in the shell to output raw characters.",
+      "scenario": "",
+      "language": "Bash",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "od -t u1 -N 10 filename.txt",
+      "description": "Use the 'octal dump' command to view the first 10 bytes of a file as unsigned decimal ASCII values.",
+      "scenario": "",
+      "language": "CLI",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Buffer.from('A').readUInt8(0)",
+      "description": "Retrieve the ASCII integer value from a specific byte index within a Node.js Buffer.",
+      "scenario": "",
+      "language": "Node.js",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "perl -e 'print unpack(\"C*\", \"ASCII\")'",
+      "description": "Use Perl's unpack function to transform a string into a sequence of unsigned character (ASCII) integers.",
+      "scenario": "",
+      "language": "Perl",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

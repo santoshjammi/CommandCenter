@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "birt-runner -f report.rptdesign -p param1=value -p param2=test",
+      "description": "Pass runtime parameters directly from the CLI to the report engine.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "birt.properties -Djava.awt.headless=true",
+      "description": "Set headless mode in the configuration to prevent GUI errors when running BIRT on Linux servers without an X11 display.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "emitter.setFormat('excel')",
+      "description": "Programmatically switch the report output format within the script engine using the Emitter API.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "birt-runner -f report.rptdesign -t html -o /tmp/report.html",
+      "description": "Specify the output target type (e.g., html, pptx, xls) explicitly via the CLI runner.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "EngineConfig.setSessionTimeout(3600)",
+      "description": "Tune performance and resource management by adjusting the session timeout in the BIRT Engine configuration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

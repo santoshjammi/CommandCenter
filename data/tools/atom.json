@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": "https://flight-manual.atom.io/using-atom/sections/writing-in-atom/"
+    },
+    {
+      "command": "atom --disable-package package-name",
+      "description": "Launch Atom with a specific package disabled to troubleshoot startup crashes or performance issues caused by a single plugin.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "atom --new-window",
+      "description": "Force Atom to open a completely new instance/window instead of adding a tab to the existing window.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apm list --outdated",
+      "description": "Check which installed packages have available updates in the Atom ecosystem.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "atom --check-config",
+      "description": "Verify the integrity of the config.cson file and identify syntax errors that might prevent settings from applying.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apm cache clean",
+      "description": "Clear the apm cache to resolve issues with corrupted package downloads or failed installations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

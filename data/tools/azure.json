@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "az configure --defaults group=MyResourceGroup location=eastus",
+      "description": "Set default values for commands to reduce repetitive typing of --resource-group and --location flags.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "az interactive",
+      "description": "Launch the interactive shell mode which provides auto-completion, command suggestions, and real-time documentation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "az extension add --name resource-graph",
+      "description": "Install the resource-graph extension to perform high-performance, complex queries across all subscriptions simultaneously.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "az cli version --verbose",
+      "description": "Use the verbose flag to debug CLI issues, providing detailed logs of the underlying REST API calls and authentication steps.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "az resource list --query \"[?location=='eastus'].name\" --output tsv",
+      "description": "Use JMESPath queries with --query to filter specific properties and --output tsv for clean, script-friendly text output.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

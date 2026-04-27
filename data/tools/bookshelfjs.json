@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "User.where('active', true).fetch({ patch: true }).then(user => { ... });",
+      "description": "Perform a partial update (PATCH) instead of a full replacement to prevent overwriting fields not included in the set.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "const query = User.where('age', '>', 18); query.fetch().then(...); query.count().then(...);",
+      "description": "Chainable query builder pattern: reuse a base query object for multiple operations like fetching and counting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Post.where('id', 1).fetch({ related: ['comments', 'author'] }).then(post => { ... });",
+      "description": "Eager load multiple nested relationships in a single query using an array of relationship names.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "User.forge({ firstName: 'Alice' }).save().then(user => { return user.reload(); });",
+      "description": "Use .reload() to refresh the model instance with the latest data from the database after a save or update operation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bookshelf.knex.raw('SELECT * FROM users WHERE id = ?', [1]).then(res => { ... });",
+      "description": "Access the underlying Knex.js instance via bookshelf.knex to execute raw SQL queries for complex performance tuning.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

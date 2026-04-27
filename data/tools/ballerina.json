@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bal test",
+      "description": "Executes all unit and integration tests within the project directory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bal clean",
+      "description": "Removes the bin/ and target/ directories to clear build artifacts and perform a fresh build.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bal run --config file:config.toml",
+      "description": "Runs the application using a specific TOML configuration file to override configurable variables.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bal build --readonly",
+      "description": "Builds the project while enforcing strict read-only checks to ensure immutability in specific modules.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bal vet",
+      "description": "Runs a static analysis tool to check for potential errors, style violations, and code quality issues without compiling.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

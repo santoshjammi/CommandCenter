@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "myModel.set({attr: val}, {silent: true});",
+      "description": "Updates model attributes without triggering the 'change' or 'set' events, useful for batch updates to prevent excessive re-renders.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "myCollection.fetch({reset: true});",
+      "description": "Fetches data from the server and replaces the entire collection with the new data, triggering a 'reset' event.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "this.listenTo(model, 'change', this.render);",
+      "description": "Uses listenTo instead of on to ensure the view automatically unbinds its listener when the view is removed, preventing memory leaks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "myModel.save(null, {patchSet: true});",
+      "description": "A pattern used with custom sync methods to send only the changed attributes to the server rather than the entire model.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "myView.remove();",
+      "description": "Removes the view's element from the DOM and unbinds all events (including delegated events) to ensure proper garbage collection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

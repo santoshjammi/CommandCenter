@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "blazeds-server start --config /path/to/custom-blaze-config.xml",
+      "description": "Specifies a custom configuration file path instead of using the default server configuration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<destination id=\"secureDest\"><properties><security><auth-command class=\"com.example.CustomAuthCommand\"/></security></properties></destination>",
+      "description": "Implements custom authentication logic by defining a specific auth-command within a destination property.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "flex.messaging.remoting.AMFRecorder.enable(true);",
+      "description": "Programmatic way to enable AMF packet recording for deep inspection of binary data during debugging sessions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<properties><network><url>http://localhost:8400/myapp</url><use-compression>true</use-compression></network></properties>",
+      "description": "Enables AMF payload compression to reduce bandwidth consumption for large data transfers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "remoteObject.addEventListener(FaultEvent.FAULT, faultHandler);",
+      "description": "The essential pattern for catching server-side exceptions and RemotingFaults on the client side.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

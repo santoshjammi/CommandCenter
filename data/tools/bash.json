@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "shopt -s globstar",
+      "description": "Enables recursive globbing with '**', allowing you to match files in all subdirectories (e.g., ls **/file.txt).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "trap 'command' SIGINT",
+      "description": "Defines a custom cleanup action or error handler that executes when the script receives a specific signal like Ctrl+C.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "find . -type f -mtime -1",
+      "description": "Locates files within the current directory modified within the last 24 hours.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "xargs -I {} mv {} {}.bak",
+      "description": "Passes output from a previous command as arguments to another, useful for bulk renaming or processing files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "set -xeu pipefail",
+      "description": "A 'strict mode' for debugging: -x (trace), -e (exit on error), -u (error on unset variables), and pipefail (catch errors in piped commands).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

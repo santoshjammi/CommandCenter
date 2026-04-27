@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "role:[class-name]",
+      "description": "Applies a CSS class or role to an element for custom styling via stylesheets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ifdef::VAR_NAME[] / ifdef::VAR_NAME[]",
+      "description": "Conditional inclusion: includes content only if a specific attribute or variable is defined during processing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "include::filename.adoc[lines=10..20]",
+      "description": "Includes the content of an external file, with the ability to specify specific line ranges.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "admonition:NOTE/TIP/IMPORTANT/CAUTION/WARNING",
+      "description": "Creates styled callout boxes for important information or warnings.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "asciidoctor -a attribute=value",
+      "description": "CLI flag to pass custom attributes/variables into the document during the build process.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

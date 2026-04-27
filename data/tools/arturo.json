@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "async function fetchData() { await api.get('/data') }",
+      "description": "Asynchronous function definition using async/await for non-blocking I/O operations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "map(myList, (x) => x * 2)",
+      "description": "Higher-order function to transform collections using a lambda/anonymous function.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "import { module } from \"path/to/lib\"",
+      "description": "Modular programming syntax to import specific symbols from external libraries.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "class User { constructor(n) { this.name = n } }",
+      "description": "Object-Oriented Programming (OOP) syntax for defining classes and constructors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "let [a, b] = [1, 2]",
+      "description": "Destructuring assignment to unpack values from arrays or objects into distinct variables.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

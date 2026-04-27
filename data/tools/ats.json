@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "ats build --release --optimize-level 3",
+      "description": "Triggers a production build with maximum compiler optimizations enabled.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ats doctor",
+      "description": "Performs a diagnostic check on the local environment, compiler toolchain, and dependency integrity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ats profile --duration 30s",
+      "description": "Runs the application under a profiler to identify CPU and memory bottlenecks during execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ats config set --global cache_dir ~/.ats/cache",
+      "description": "Updates the global configuration file to redirect the dependency cache directory.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ats logs --follow --tail 100",
+      "description": "Streams real-time runtime logs with a buffer of the last 100 lines for live debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

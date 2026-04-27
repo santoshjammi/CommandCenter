@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "db_stat -h <env_dir>",
+      "description": "Displays detailed statistics about the database environment, including cache usage, page counts, and transaction activity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dbp->set_async_mode(dbp, 1);",
+      "description": "Enables asynchronous mode to improve write performance by allowing the application to continue before data is physically written to disk.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db_recover -v <env_dir>",
+      "description": "Performs a manual recovery of the database environment using the log files, useful for repairing corruption after a crash.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db_load -T <env_dir> <data_file>",
+      "description": "Bulk loads data from a text file into the database; the -T flag ensures the database is properly initialized/rebuilt.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "db_dump <db_file>",
+      "description": "Dumps the contents of a database file into a format that can be used with db_load for backups or migrations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

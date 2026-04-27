@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "astro check",
+      "description": "Runs TypeScript and Astro-specific linting to catch errors in components, props, and routing before building.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "astro dev --host",
+      "description": "Exposes the local development server to your local network, allowing testing on mobile devices via IP address.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "output: 'server' or 'hybrid'",
+      "description": "Configures Astro for SSR (Server-Side Rendering) instead of the default static site generation (SSG).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "astro build --dry-run",
+      "description": "Simulates the build process to validate configuration and file structure without writing files to the disk.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "astro optimize",
+      "description": "Analyzes the build output to identify large assets or unoptimized images that could impact Core Web Vitals.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

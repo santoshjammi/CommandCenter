@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "<parallel>",
+      "description": "Executes multiple child processes or tasks concurrently, waiting for all branches to complete before proceeding to the next sequence element.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<wait condition=\"expr\" timeout=\"ms\"/>",
+      "description": "Pauses process execution until a specific logical condition evaluates to true or the specified timeout period is reached.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<error-handler type=\"retry\" max-attempts=\"n\" delay=\"ms\"/>",
+      "description": "A specialized wrapper for service calls that implements automated exponential backoff or fixed-interval retry logic upon failure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<scope id=\"unique_id\" context=\"global\"/>",
+      "description": "Defines a logical boundary for variable visibility and transaction atomicity, allowing for localized rollback without terminating the entire process.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<log level=\"DEBUG|INFO|ERROR\" format=\"json\"/>",
+      "description": "Injects structured telemetry into the process execution stream, useful for auditing state transitions and variable values during runtime.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

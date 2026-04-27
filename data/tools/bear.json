@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bear config reset <key>",
+      "description": "Reverts a specific configuration key to its default factory value.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bear analyze --output <format>",
+      "description": "Runs a post-build analysis on the captured trace data and exports results in JSON, XML, or HTML format.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bear start --exclude <pattern>",
+      "description": "Starts a build session while ignoring specific file patterns or directories from being recorded in the trace.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bear logs tail",
+      "description": "Streams real-time internal process logs to stdout for monitoring long-running build captures.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bear sync --remote <url>",
+      "description": "Synchronizes local component metadata and build traces with a centralized Bear repository.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

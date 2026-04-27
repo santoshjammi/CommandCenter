@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "blessed doctor",
+      "description": "Runs a diagnostic suite to check environment health, dependency integrity, and configuration validity.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blessed config export --path <file_path>",
+      "description": "Exports the current configuration to a JSON or YAML file for version control or sharing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blessed run --profile",
+      "description": "Executes the application with built-in performance profiling to identify bottlenecks in the runtime.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blessed logs --tail <lines>",
+      "description": "Streams the most recent application logs directly to the terminal for real-time monitoring.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "blessed scaffold <template_name>",
+      "description": "Generates a full project structure based on a predefined architectural template (e.g., microservice, monolith).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

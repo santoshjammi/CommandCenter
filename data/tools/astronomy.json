@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "astronomy-cli sync --dry-run --exclude '*.tmp'",
+      "description": "Perform a simulated synchronization of local observation data with remote archives to validate file transfers without moving data.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "astropy.utils.data.get_pkg_data_filename('example.fits')",
+      "description": "Retrieve the absolute path to sample FITS files bundled with the library for testing scripts and pipelines.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "fits_inspect --stats --threshold 5.0 input.fits",
+      "description": "Advanced CLI flag to generate a statistical summary of pixel intensity distributions, filtering out low-signal noise.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "import astropy.units as u; flux = 10 * u.erg / (u.cm**2 * u.s)",
+      "description": "Use the Astropy Units module to prevent dimensional errors in physical calculations and automated scripting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "astronomy-cli config set --global telemetry_logging=true",
+      "description": "Enable global verbose logging for all CLI operations to debug pipeline failures in automated cron jobs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

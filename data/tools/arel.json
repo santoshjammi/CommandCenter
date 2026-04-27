@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "users.project(users[:name].matches('%John%'))",
+      "description": "Generates a LIKE clause for pattern matching (case-sensitive depending on DB collation).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "users.project(users[:id]).union(other_table.project(:id))",
+      "description": "Combines the results of two SELECT statements using a UNION operator.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "users.where(users[:created_at].between(start_date..end_date))",
+      "description": "Creates a BETWEEN clause for range comparisons using a Ruby Range object.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "users.project(users[:id]).group(users[:role]).having(users[:id].count.gt(5))",
+      "description": "Adds a HAVING clause to filter grouped results based on aggregate conditions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "users.project(users[:id]).lock('FOR UPDATE')",
+      "description": "Appends a locking clause to the query for row-level pessimistic locking.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

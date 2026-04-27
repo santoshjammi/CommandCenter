@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bolt task run --dry-run",
+      "description": "Simulates task execution to validate syntax and target reachability without performing actual operations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bolt config set <key> <value>",
+      "description": "Programmatically updates configuration values in the global config file without manual text editing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bolt task list --filter <pattern>",
+      "description": "Filters the list of available tasks using regex or substring matching to quickly find specific automation scripts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bolt status --watch",
+      "description": "Enters a continuous monitoring mode that polls the status of active tasks or target connectivity in real-time.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bolt package update <package_name> --force",
+      "description": "Forces a re-installation or upgrade of a specific package, bypassing local cache to resolve dependency conflicts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }
