@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "mvn dependency:analyze",
+      "description": "Identifies used-undeclared and unused-declared dependencies to help clean up the pom.xml.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "mvn clean install -T 1C",
+      "description": "Enables parallel builds using one thread per CPU core to significantly reduce build time.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "mvn help:evaluate -Dexpression=project.version",
+      "description": "Evaluates a specific Maven property or expression and returns its value from the effective model.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "mvn dependency:purge-local-repository",
+      "description": "Clears the local repository of specific dependencies to force a fresh download, resolving corrupted artifacts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "mvn -X",
+      "description": "Runs Maven in full debug mode, outputting detailed logs for troubleshooting plugin execution and lifecycle issues.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

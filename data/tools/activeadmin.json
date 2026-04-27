@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "register_form :custom_step, as: :wizard",
+      "description": "Implement multi-step forms within the ActiveAdmin resource using custom form builders or specialized gems to break down complex data entry.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "controller { def list_items; ... end }",
+      "description": "Override internal controller methods (like index, create, or update) within the ActiveAdmin resource block to inject custom middleware or modify response headers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ActiveAdmin.setup { |config| config.respond_to_all_routes = true }",
+      "description": "Enable the ability to respond to all routes within the admin namespace, useful for handling legacy URL patterns or custom API endpoints hosted under /admin.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "sidebar do ... end",
+      "description": "Add a contextual sidebar to the show or edit pages to display metadata, related resources, or quick-action links without cluttering the main attributes table.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "index { select_column :status }",
+      "description": "Use select_column to render a dropdown menu directly within the index table rows, allowing for quick inline status updates via AJAX/Remote calls.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

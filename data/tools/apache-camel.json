@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "camel run my-route.yaml --inspect",
+      "description": "Runs a Camel route with the inspector enabled to allow real-time inspection of the route state and exchange data.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "camel catalog component list --format json",
+      "description": "Lists all available components in the Camel catalog and outputs the metadata in JSON format for programmatic consumption.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "camel.main.endpoint.tracing=true",
+      "description": "Enables tracing at the endpoint level, providing granular visibility into message flow through specific endpoints in the logs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "from('direct:start').throttle(10).timePeriodMillis(1000)",
+      "description": "Implements a Throttler EIP to limit the number of exchanges processed to 10 per 1000 milliseconds.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "camel.main.shutdownTimeout=30",
+      "description": "Configures the maximum time (in seconds) the Camel Context will wait for routes to gracefully shut down before forcing a stop.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

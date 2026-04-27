@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Cache-Control: max-age=0",
+      "description": "Forces the browser to revalidate the manifest file itself before checking for updates, ensuring the user doesn't get stuck on an old version.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Update on Reload",
+      "description": "In DevTools > Application > AppCache, check 'Update on reload' to force the browser to re-fetch the manifest and update the cache every time the page is refreshed during development.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Fallback: /error 404.html",
+      "description": "Specifies a specific fallback page for any resource that returns a 404 error, rather than just a general offline page.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Service Worker Migration Pattern",
+      "description": "When migrating from Appcache to Service Workers, use the 'unregister()' method in the client-side script to clear the legacy Appcache lifecycle.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Manifest Versioning Strategy",
+      "description": "Instead of manual version numbers, append a query string to the manifest link (e.g., <html manifest=\"/app.appcache?v=1.2\") to trigger an immediate update check.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

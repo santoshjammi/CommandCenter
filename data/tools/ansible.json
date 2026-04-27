@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "ansible-playbook playbook.yml --check --diff",
+      "description": "Run a dry run (check mode) and display the actual differences in files that would be changed without applying them.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ansible-inventory --list",
+      "description": "View the entire inventory structure in JSON format, useful for debugging dynamic inventory scripts and variable precedence.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ansible-vault encrypt credentials.yml",
+      "description": "Encrypt sensitive files or variables so they can be safely stored in version control systems.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ansible-playbook playbook.yml -f 20",
+      "description": "Increase the number of concurrent forks to speed up execution when managing a large number of hosts simultaneously.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ansible-playbook playbook.yml --syntax-check",
+      "description": "Verify the YAML syntax of a playbook without executing any tasks to catch indentation or structural errors early.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

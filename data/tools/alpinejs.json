@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "x-effect=\"expression\"",
+      "description": "Runs a side effect whenever any reactive dependency used within the expression changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "x-init=\"expression\"",
+      "description": "Executes a piece of code immediately when the element is initialized in the DOM.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "@keydown.window.escape=\"close()\"",
+      "description": "Listens for a specific keypress event globally on the window object rather than the element itself.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "x-teleport=\"selector\"",
+      "description": "Moves the content of the element to a different part of the DOM tree (e.g., moving a modal to document.body).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "$nextTick(() => { ... })",
+      "description": "A magic property that waits for the next DOM update cycle before executing the callback, useful for measuring DOM changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

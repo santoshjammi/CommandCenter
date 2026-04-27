@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "ant -listener <listener-class>",
+      "description": "Specifies a custom listener class to monitor build progress, useful for integrating with CI/CD reporting tools or XML outputters.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ant -property <name>=<value>",
+      "description": "Injects a property value directly from the command line, allowing for dynamic build configurations without modifying build.xml.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<condition>",
+      "description": "An advanced task used to set properties based on logical tests (e.g., checking if a file exists or if a property is set) using <isset> or <available>.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ant -diagnostics",
+      "description": "Displays detailed information about the Ant installation, including the JVM version, classpath, and loaded libraries, essential for debugging environment mismatches.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<parallel>",
+      "description": "Enables parallel execution of tasks or targets, significantly reducing build time on multi-core systems by running independent processes concurrently.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

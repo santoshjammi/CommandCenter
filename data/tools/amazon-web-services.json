@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "aws s3 sync . s3://my-bucket/ --exclude \"*.log\" --include \"*.txt\"",
+      "description": "Synchronizes local directories with S3 buckets using pattern matching to include or exclude specific file types, more efficient than recursive 'cp'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws ec2 describe-instances --query 'Reservations[*].Instances[*].{ID:InstanceId,State:State.Name,Type:InstanceType}' --output table",
+      "description": "Uses JMESPath queries to filter specific attributes and formats the output into a human-readable ASCII table for quick auditing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws sts get-caller-identity",
+      "description": "A critical debugging command to verify which IAM user or role is currently active in the current shell session/profile.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws lambda update-function-configuration --function-name my-func --timeout 30",
+      "description": "Updates specific runtime configurations (like timeout, memory, or environment variables) without needing to re-upload the deployment package.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aws configure set default.region us-west-2",
+      "description": "Programmatically updates the default region in the AWS config file without entering the interactive setup wizard.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

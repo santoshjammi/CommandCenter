@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + Shift + C",
+      "description": "Copy appearance from selected object to another object (Style Transfer).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + J (Duplicate Layer)",
+      "description": "Duplicate the currently selected layer or object instantly.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Drag",
+      "description": "Duplicate an object while moving it with the selection tool.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + X",
+      "description": "Toggle 'X-ray' mode to see through layers and check alignment/overlap.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + X",
+      "description": "Swap Fill and Stroke colors instantly.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

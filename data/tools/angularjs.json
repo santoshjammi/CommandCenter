@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "$scope.$watch('property', function(newVal, oldVal) { ... });",
+      "description": "Creates a watcher to monitor changes to a specific scope variable and execute logic when it changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "app.run(function($rootScope) { $rootScope.$on('$locationChangeSuccess', function() { ... }); });",
+      "description": "Uses the .run() block to execute code during the application bootstrap phase, useful for global event listeners.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<div ng-if=\"condition\">...</div>",
+      "description": "Removes or recreates an element in the DOM based on an expression, unlike ng-show which only toggles visibility.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "app.directive('myDir', function() { return { scope: { data: '=' } }; });",
+      "description": "Implements two-way data binding between a parent scope and an isolated directive scope.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "$timeout(function() { $scope.data = newData; }, 1000);",
+      "description": "Uses the $timeout service to wrap setTimeout, ensuring the digest cycle is triggered after the delay.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

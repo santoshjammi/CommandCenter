@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "nodetool status",
+      "description": "Displays the status of all nodes in the cluster, including their IP addresses, rack, and state (Up/Down/Joining).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "nodetool repair -full",
+      "description": "Triggers a full anti-entropy repair to ensure data consistency across all replicas in the cluster.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "nodetool cfstats",
+      "description": "Provides detailed statistics for each column family (table), including read/write latency and partition sizes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "TRUNCATE my_keyspace.users;",
+      "description": "Removes all data from a table while keeping the schema intact, useful for resetting test environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "nodetool flush",
+      "description": "Forces the Memtables to be written to SSTables on disk, ensuring data is persisted to the data directory immediately.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

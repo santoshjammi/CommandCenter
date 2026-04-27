@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Ctrl + T (Auto Format)",
+      "description": "Instantly reformats the entire sketch to follow standard indentation and coding style rules.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + M (Serial Monitor)",
+      "description": "Quickly toggles the Serial Monitor window to inspect real-time data output from the microcontroller.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + / (Comment/Uncomment)",
+      "description": "Toggles single-line comments for the selected line or block of code, speeding up debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Tools -> Board Manager",
+      "description": "Access the repository to install third-party core support (e.g., ESP32, STM32) not included in the default installation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Tools -> Library Manager",
+      "description": "Search and install community-contributed libraries directly without manual ZIP imports.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -173,6 +173,51 @@
       ],
       "is_curated": false,
       "man_page": "https://alpinejs.dev/start"
+    },
+    {
+      "command": "x-teleport=\"#target-id\"",
+      "description": "Moves an element's DOM node to a different part of the document (e.g., moving a modal to the body) while maintaining its Alpine component scope.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "x-cloak",
+      "description": "Used with CSS `[x-cloak] { display: none !important; }` to prevent uninitialized Alpine templates from flashing on the screen during page load.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "x-ignore",
+      "description": "Tells Alpine to ignore a specific element and all of its children, preventing Alpine from attempting to initialize or manage them.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "$nextTick(() => { ... })",
+      "description": "A magic property that allows you to wait until the next DOM update cycle is complete before executing code, essential for measuring DOM changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "x-model.debounce.250ms=\"search\"",
+      "description": "Applies a debounce modifier to x-model to limit the frequency of updates, highly effective for optimizing search input performance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "ng build --configuration production",
+      "description": "Triggers the production build process, applying optimizations like Ahead-of-Time (AOT) compilation, minification, and tree-shaking.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ng test --code-coverage",
+      "description": "Runs unit tests using Karma and generates a detailed code coverage report to identify untested lines of code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ng lint",
+      "description": "Runs the configured linter (typically ESLint) to check the codebase for stylistic and programmatic errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ng update @angular/core @angular/cli",
+      "description": "The standard workflow for upgrading Angular versions, which handles dependency updates and runs automated migration schematics.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "ng serve --open --port 4201",
+      "description": "Starts the local development server, automatically opens the browser, and specifies a custom port to avoid conflicts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

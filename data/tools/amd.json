@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "sudo amdgpu-top",
+      "description": "A specialized terminal-based monitoring tool for AMD GPUs that provides detailed real-time metrics on GPU utilization, memory usage, and power consumption.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cat /sys/class/drm/card0/device/pp_od_clk_voltage",
+      "description": "Directly accesses the PowerPlay Overdrive interface to view and manually manipulate clock frequencies and voltage offsets for fine-grained performance tuning.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "sudo amdgpu-kernel-module-debug",
+      "description": "Utilizes specific kernel debugfs entries to trace driver-level interactions and identify bottlenecks in the AMDGPU driver stack.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "rocm-smi --showtop",
+      "description": "Part of the ROCm stack, this command provides a high-level overview of all compute devices, including temperature, power, and utilization for ROCm-enabled hardware.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "echo 'high' > /sys/class/drm/card0/device/power_dpm_state",
+      "description": "Forces the Dynamic Power Management (DPM) state to 'high' to prevent aggressive downclocking during latency-sensitive workloads.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

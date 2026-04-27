@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "qpdf --replace-input --empty --pages input.pdf 1-z -- output.pdf",
+      "description": "Removes all metadata, incremental updates, and unused objects to minimize file size and sanitize the PDF structure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pdftocairo -pdf input.pdf output.pdf",
+      "description": "Converts PDF to a high-fidelity PDF via Cairo, useful for fixing broken internal cross-reference tables or font encoding errors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Edit > Preferences > Accessibility > Check 'Replace Document Colors' ",
+      "description": "Forces high-contrast color modes for better readability during long-form technical document reviews.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pdftk input.pdf uncompress output.pdf",
+      "description": "Decompresses the PDF streams, making the underlying content readable in a text editor for debugging syntax errors in the PDF structure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "qpdf --check input.pdf",
+      "description": "Performs a structural integrity check to identify corruption or non-standard compliance issues before automated processing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

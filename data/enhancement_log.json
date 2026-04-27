@@ -348,5 +348,255 @@
     "last_enhanced": "2026-04-25",
     "times_enhanced": 1,
     "commands_added": 5
+  },
+  "ada": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "1password": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "activeadmin": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "actionscript": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "adobe-acrobat": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "adobe-illustrator": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "adobe-lightroom-cc": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "adobe-photoshop": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "adobe-xd": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "adobe-coldfusion": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "affinity-designer": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "agda": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "affinity-photo": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "airtable": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "adodotnet": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "alan-ai": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "algebra": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "amazon-web-services": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "alpine-linux": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "alpinejs": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "ajax": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "alpine-js": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "android-studio": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "android": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "angular": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "amd": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "angularjs": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "ansible": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "ansi-codes": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-ant": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-camel": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-cordova": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-maven": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-cassandra": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-servicemix": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-hbase": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-hadoop": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-wicket": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache-solr": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apex-legends": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apiomat": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apl": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apache": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "applescript": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "appcache": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "arduino-ide": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apple-music": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "applinks": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "apt": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
+  },
+  "arduino-programming": {
+    "last_enhanced": "2026-04-27",
+    "times_enhanced": 1,
+    "commands_added": 5
   }
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/mycore/admin/ping'",
+      "description": "Checks the health and availability of a specific core, returning its status and configuration details.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/mycore/admin/requestheaders'",
+      "description": "Useful for debugging proxy or load balancer issues by inspecting the HTTP headers received by the Solr instance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/mycore/select?q=*:*&debugQuery=true'",
+      "description": "Enables detailed query debugging, showing how the query was parsed, which clauses were matched, and the weight of each clause.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "solr bin/solr zk clusterinfo",
+      "description": "In SolrCloud mode, provides a high-level overview of the ZooKeeper cluster state and the Solr nodes connected to it.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl 'http://localhost:8983/solr/mycore/admin/dataimport?command=full'",
+      "description": "Triggers a manual Data Import Handler (DIH) execution to pull data from external sources into the core.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

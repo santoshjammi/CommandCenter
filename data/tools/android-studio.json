@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Analyze Stacktrace / Profiler",
+      "description": "Use 'View > Tool Windows > Profiler' to monitor CPU, Memory, and Network usage in real-time during execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "adb shell dumpsys activity",
+      "description": "Retrieve detailed information about the current activity stack, recent tasks, and window states to debug lifecycle issues.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "./gradlew assembleDebug --scan",
+      "description": "Generates a detailed Gradle Build Scan URL to analyze build performance, dependency resolution, and cache hits.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + L",
+      "description": "Reformat code according to the project's specified style guide (e.g., ktlint or Google Java Style).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "adb shell am force-stop <package_name>",
+      "description": "Programmatically kills the application process via CLI, useful for automation scripts or testing clean starts.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

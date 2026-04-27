@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "apk add --no-cache <package-name>",
+      "description": "Installs a package without caching the index locally, reducing the final image size in Docker/container environments.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "rc-service <service-name> status",
+      "description": "Checks the current running state of a service managed by OpenRC.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apk info -W <package-name>",
+      "description": "Displays the installation path/directory of a specific installed package.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "dmesg | tail -n 50",
+      "description": "View the most recent kernel ring buffer messages, useful for debugging hardware or driver issues in Alpine.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "rc-update add <service-name> default",
+      "description": "Configures a service to start automatically during the boot sequence using OpenRC.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

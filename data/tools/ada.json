@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "task My_Task is end My_Task;",
+      "description": "Declares a concurrent task for multitasking and parallel execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "type Pointer is access all Integer;",
+      "description": "Defines an access type (pointer) for dynamic memory allocation and linked structures.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "pragma Suppress(All_Checks);",
+      "description": "Compiler directive to disable runtime checks for performance tuning in production builds.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "subtype Small_Int is Integer range -100 .. 100;",
+      "description": "Creates a subtype to enforce range constraints at compile-time and runtime.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "protected object My_Mutex is procedure Lock; end My_Mutex;",
+      "description": "Defines a protected object to manage shared data access and prevent race conditions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

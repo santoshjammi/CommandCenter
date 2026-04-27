@@ -19,7 +19,7 @@
       "man_page": ""
     },
     {
-      "command": "4 \u00d7 5",
+      "command": "4 × 5",
       "description": "Multiplication of two numbers",
       "scenario": "Multiplication of two numbers",
       "language": "apl",
@@ -32,7 +32,7 @@
       "man_page": ""
     },
     {
-      "command": "10 \u00f7 2",
+      "command": "10 ÷ 2",
       "description": "Division of two numbers",
       "scenario": "Division of two numbers",
       "language": "apl",
@@ -45,7 +45,7 @@
       "man_page": ""
     },
     {
-      "command": "\u23735",
+      "command": "⍳5",
       "description": "Create a vector of numbers from 1 to 5",
       "scenario": "Create a vector of numbers from 1 to 5",
       "language": "apl",
@@ -58,7 +58,7 @@
       "man_page": ""
     },
     {
-      "command": "\u233d1 2 3 4 5",
+      "command": "⌽1 2 3 4 5",
       "description": "Reverse an array",
       "scenario": "Reverse an array",
       "language": "apl",
@@ -71,7 +71,7 @@
       "man_page": ""
     },
     {
-      "command": "2 3\u23741 2 3 4 5 6",
+      "command": "2 3⍴1 2 3 4 5 6",
       "description": "Reshape an array into a 2x3 matrix",
       "scenario": "Reshape an array into a 2x3 matrix",
       "language": "apl",
@@ -84,7 +84,7 @@
       "man_page": ""
     },
     {
-      "command": "1 \u2227 0",
+      "command": "1 ∧ 0",
       "description": "Logical AND operation",
       "scenario": "Logical AND operation",
       "language": "apl",
@@ -97,7 +97,7 @@
       "man_page": ""
     },
     {
-      "command": "1 \u2228 0",
+      "command": "1 ∨ 0",
       "description": "Logical OR operation",
       "scenario": "Logical OR operation",
       "language": "apl",
@@ -123,7 +123,7 @@
       "man_page": ""
     },
     {
-      "command": "+\u233f1 2 3 4 5",
+      "command": "+⌿1 2 3 4 5",
       "description": "Sum of elements in an array",
       "scenario": "Sum of elements in an array",
       "language": "apl",
@@ -136,7 +136,7 @@
       "man_page": ""
     },
     {
-      "command": "\u00d7\u233f1 2 3 4 5",
+      "command": "×⌿1 2 3 4 5",
       "description": "Product of elements in an array",
       "scenario": "Product of elements in an array",
       "language": "apl",
@@ -175,7 +175,7 @@
       "man_page": ""
     },
     {
-      "command": "\u23492 2\u23741 2 3 4",
+      "command": "⍉2 2⍴1 2 3 4",
       "description": "Transpose a matrix",
       "scenario": "Transpose a matrix",
       "language": "apl",
@@ -188,7 +188,7 @@
       "man_page": ""
     },
     {
-      "command": "\u2308/1 2 3 4 5",
+      "command": "⌈/1 2 3 4 5",
       "description": "Find the maximum of an array",
       "scenario": "Find the maximum of an array",
       "language": "apl",
@@ -198,6 +198,51 @@
         "miscellaneous"
       ],
       "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "⍪",
+      "description": "Grade down: Returns the indices of elements that satisfy a condition (e.g., ⍪ x > 5).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "⍣",
+      "description": "Power/Exponentiation: Raises a base to a specified power (e.g., 2 ⍣ 3 is 8).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "⌽",
+      "description": "Reverse: Reverses the order of elements in an array.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "⍣ (Recursion Pattern)",
+      "description": "Using the power operator for fast computation of factorials or iterative processes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "⍝",
+      "description": "Comment: Used to insert single-line comments within APL code.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
       "man_page": ""
     }
   ]

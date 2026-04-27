@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "curl -H \"Authorization: Bearer $DEVELOPER_TOKEN\" -H \"Music-User-Token: $USER_TOKEN\" https://api.music.apple.com/v1/me/library/songs",
+      "description": "Access the authenticated user's private library by providing the Music-User-Token in addition to the Developer Token.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl -H \"Authorization: Bearer $DEVELOPER_TOKEN\" \"https://api.music.apple.com/v1/catalog/us/search?term=artist_name&limit=50&offset=50\"",
+      "description": "Implement pagination using 'limit' and 'offset' parameters to traverse large search result sets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "jq '.data[].attributes.name' response.json",
+      "description": "Use the 'jq' CLI tool to rapidly parse and filter specific metadata fields from the JSON API response directly in the terminal.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "curl -I -H \"Authorization: Bearer $DEVELOPER_TOKEN\" https://api.music.apple.com/v1/catalog/us/songs/ID",
+      "description": "Perform a HEAD request using '-I' to check resource existence and metadata headers without downloading the full payload, saving bandwidth.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "export DEVELOPER_TOKEN=$(jwt -k AuthKey.p8 -i TEAM_ID -a KEY_ID)",
+      "description": "Pipeline the JWT generation directly into an environment variable to streamline subsequent curl commands in a single session.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "<cfthread action=\"run\" name=\"worker\" function=\"myAsyncFunction\">",
+      "description": "Execute a function asynchronously in a separate thread to prevent blocking the main request execution flow.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<cfcache mode=\"application\">",
+      "description": "Implement application-level caching to store frequently accessed data in memory, reducing database load and improving response times.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<cfdump var=\"myObject\" expand=\"false\" abort=\"true\">",
+      "description": "Use for rapid debugging to output the structure of a variable and immediately terminate script execution to inspect the state.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<cfscript>",
+      "description": "Wrap logic in a script block to use modern JavaScript-like syntax (e.g., var, function, if/else) instead of tag-based syntax.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<cfhttp url=\"https://api.example.com\" method=\"GET\" result=\"httpResponse\">",
+      "description": "Perform RESTful API calls and HTTP requests to external services, capturing the response in a structured object.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

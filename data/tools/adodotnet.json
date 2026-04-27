@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "command.CommandTimeout = 60; // Sets the wait time (in seconds) before terminating an attempt to execute a command.",
+      "description": "Performance tuning: Adjusts the execution timeout to prevent long-running queries from hanging the application indefinitely.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "using (SqlDataReader reader = command.ExecuteReader(CommandBehavior.CloseConnection)) { ... }",
+      "description": "Workflow pattern: Automatically closes the associated connection when the DataReader is closed, preventing connection leaks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "command.CommandType = CommandType.StoredProcedure; // command.CommandText = \"usp_GetEmployeeData\";",
+      "description": "Advanced usage: Instructs the command object to treat the CommandText as a stored procedure name rather than a raw SQL string.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "SqlParameter param = new SqlParameter(\"@id\", SqlDbType.Int); param.Value = 10; command.Parameters.Add(param);",
+      "description": "Performance & Security: Explicitly defining SqlDbType prevents implicit type conversion overhead and mitigates SQL injection more robustly than AddWithValue.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "connection.ConnectionString += \";Pooling=true;Min Pool Size=5;Max Pool Size=100;\"",
+      "description": "Performance tuning: Configures Connection Pooling settings in the connection string to optimize resource reuse and manage database load.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

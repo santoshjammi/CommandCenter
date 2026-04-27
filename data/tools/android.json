@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "adb shell dumpsys activity processes",
+      "description": "Displays detailed information about all running processes, including memory usage and PID, useful for diagnosing process death or leaks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "./gradlew assembleDebug --scan",
+      "description": "Generates a Gradle Build Scan, providing a deep-dive web-based report on build performance, dependency resolution, and task execution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "adb shell am force-stop com.example.app",
+      "description": "Immediately terminates the specified application process, useful for testing app startup performance and lifecycle resets.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "adb logcat -v time *:E",
+      "description": "Filters the system log to show only Error level logs with timestamps, reducing noise during debugging sessions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "adb shell pm list packages -3",
+      "description": "Lists all third-party (user-installed) packages currently on the device, helpful for identifying conflicting apps or verifying installation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

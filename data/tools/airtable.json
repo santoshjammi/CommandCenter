@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + F",
+      "description": "Quickly open the global search bar to find specific records, fields, or views across the entire base.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Drag and drop field headers",
+      "description": "Reorder columns instantly by clicking and dragging the field name to a new position.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Right-click > Group by [Field]",
+      "description": "Instantly organize records into visual clusters based on a specific field's values without creating a new view.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + C (on a record) > Ctrl + V (in another table)",
+      "description": "Copy an entire record's data and paste it into a different table, provided the field structures match.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Click the 'Expand Record' icon (or press Spacebar)",
+      "description": "Open a full-screen modal for a single record to view all field details and attachments clearly without scrolling horizontally.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

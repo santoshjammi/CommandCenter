@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "apiomat logs --follow --tail 100",
+      "description": "Streams real-time application logs from the remote server with a buffer of the last 100 lines for live debugging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat config set --key TIMEOUT --value 5000",
+      "description": "Dynamically updates the global request timeout setting in the local configuration file without manual editing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat validate --schema ./schema.json",
+      "description": "Performs a local structural validation of your module definitions against a specific JSON schema before deployment.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat rollback --version v1.2.0",
+      "description": "Reverts the current environment to a specific previous deployment version in case of critical failure.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apiomat status --check-health",
+      "description": "Runs a comprehensive health check on all connected modules, verifying connectivity, latency, and dependency status.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

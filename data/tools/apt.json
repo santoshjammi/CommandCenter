@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "sudo apt dist-upgrade",
+      "description": "Performs a more intelligent upgrade than 'upgrade' by handling changing dependencies in new versions of packages, allowing for the removal of obsolete packages if necessary.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "aptitude search '~i <package-name>'",
+      "description": "Uses advanced pattern matching to search for specific states; '~i' filters for installed packages, allowing for precise dependency and state auditing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apt list --upgradable",
+      "description": "Displays a list of all packages that currently have available updates without performing the actual upgrade process.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apt mark auto/hold <package-name>",
+      "description": "Uses 'mark' to set a package to 'hold' status, preventing it from being upgraded during a system-wide upgrade to maintain environment stability.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apt-cache policy <package-name>",
+      "description": "Shows the installation candidate, the version currently installed, and the priority/source of all available versions in the configured repositories.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

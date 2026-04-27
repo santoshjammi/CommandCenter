@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "sudo apache2ctl configtest",
+      "description": "Performs a syntax check on all configuration files to ensure there are no errors before restarting the service.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apache2ctl graceful",
+      "description": "Restarts the server without dropping active connections, allowing current requests to finish before applying changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "sudo apache2ctl -S",
+      "description": "Displays the current virtual host configuration, showing which IP/port combinations are mapped to which config files.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "mod_deflate (Enable Gzip compression)",
+      "description": "Use 'a2enmod deflate' and the <IfModule mod_deflate.c> block to compress text-based responses and improve performance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "KeepAliveTimeout 5",
+      "description": "Configures the number of seconds that the server will wait for subsequent requests on a persistent connection before closing it.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

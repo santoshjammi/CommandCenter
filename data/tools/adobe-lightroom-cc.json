@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + U",
+      "description": "Quickly toggle between Color and Black & White mode to compare tonal range.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + V",
+      "description": "Open the Quick Develop panel to make rapid adjustments without entering the full Develop module.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Press 'Q' in Library Mode",
+      "description": "Quickly toggle the flag status (Pick/Reject) for rapid photo sorting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + C / Ctrl + Shift + V",
+      "description": "Copy specific edit settings from one photo and paste them onto another to maintain consistency.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Press 'Caps Lock'",
+      "description": "Enables 'Auto-Advance' mode, automatically moving to the next photo as soon as you apply a rating or flag.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

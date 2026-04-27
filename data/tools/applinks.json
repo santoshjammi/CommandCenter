@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "applinks export --format json --output ./backup.json",
+      "description": "Exports the current active applinks configuration to a specified file for version control or migration.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "applinks check-connectivity --domain example.com",
+      "description": "Tests the network reachability and SSL validity of the domain hosting the AASA (Apple App Site Association) file.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "applinks sync --source ./local_config.json --target production",
+      "description": "Synchronizes local configuration files with a remote environment or production server.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "applinks list --filter 'appID=ABCDE12345.*'",
+      "description": "Filters the list of existing applinks using a regex or wildcard pattern to find specific app IDs.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "applinks dry-run --config applinks.json",
+      "description": "Simulates the application of a new configuration to verify syntax and path logic without applying actual changes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

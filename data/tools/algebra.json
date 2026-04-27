@@ -58,7 +58,7 @@
       "man_page": ""
     },
     {
-      "command": "x = (-b \u00b1 \u221a(b\u00b2-4ac)) / (2a)",
+      "command": "x = (-b ± √(b²-4ac)) / (2a)",
       "description": "Quadratic formula for solving ax^2 + bx + c = 0",
       "scenario": "Quadratic formula for solving ax^2 + bx + c = 0",
       "language": "text",
@@ -198,6 +198,51 @@
         "quadratic"
       ],
       "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "log_base(x, base)",
+      "description": "Calculate the logarithm of x with a custom base, useful for complexity analysis.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "simplify_expression(expr)",
+      "description": "Reduces complex algebraic expressions to their simplest form by combining like terms and canceling common factors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "solve_system(eq1, eq2, ...)",
+      "description": "Finds the intersection points or common solutions for a set of multiple simultaneous equations.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "derivative(f(x), x)",
+      "description": "Computes the first derivative of a function with respect to x to find the rate of change.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "expand_binomial(a, b, n)",
+      "description": "Applies the Binomial Theorem to expand (a + b)^n into a polynomial string.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
       "man_page": ""
     }
   ]

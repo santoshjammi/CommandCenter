@@ -110,7 +110,7 @@
       "man_page": ""
     },
     {
-      "command": "set i to 1\nrepeat while i \u2264 5\n    display dialog \"Iteration \" & i\n    set i to i + 1\nend repeat",
+      "command": "set i to 1\nrepeat while i ≤ 5\n    display dialog \"Iteration \" & i\n    set i to i + 1\nend repeat",
       "description": "While loop",
       "scenario": "While loop",
       "language": "applescript",
@@ -198,6 +198,51 @@
         "tab"
       ],
       "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "on run handler",
+      "description": "Defines the entry point for a script, allowing for the passing of parameters from the command line via 'osascript'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "try...on error block",
+      "description": "Implements error handling to prevent script crashes when an application is unresponsive or a file is missing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "osascript -e flag",
+      "description": "Executes a single line of AppleScript directly from the Terminal/CLI without needing a .scpt file.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "POSIX path conversion",
+      "description": "Converts standard Unix-style paths (/Users/name/file) to AppleScript's colon-delimited format (Macintosh HD:Users:name:file).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "do shell script",
+      "description": "Allows the execution of arbitrary shell commands (bash/zsh) from within an AppleScript context.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
       "man_page": ""
     }
   ]

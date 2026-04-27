@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "cordova requirements",
+      "description": "Checks if the necessary SDKs and tools (JDK, Android SDK, etc.) are correctly installed and configured for the added platforms.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cordova prepare <platform>",
+      "description": "Copies web assets (www folder) to the platform-specific project directories without performing a full build; useful for rapid testing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cordova plugin list --runtime",
+      "description": "Lists installed plugins and specifically identifies which ones are currently active in the runtime environment.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<preference name=\"KeepRunning\" value=\"true\" />",
+      "description": "Config.xml entry to prevent the application from being suspended immediately when the user switches to another app.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "cordova build <platform> --debug",
+      "description": "Builds the application with debug symbols enabled, facilitating easier stack trace analysis during native crashes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

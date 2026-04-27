@@ -121,6 +121,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "AbortController for fetch cancellation",
+      "description": "Use AbortController to cancel a fetch request manually, which is the modern replacement for xhr.abort().",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Progress monitoring with XMLHttpRequest",
+      "description": "Track upload progress using the xhr.upload object to create progress bars.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Fetch with Request/Response streaming",
+      "description": "Handle large data payloads by reading the response body as a stream rather than waiting for the full JSON parsing.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Handling CORS preflight requests",
+      "description": "Note that adding custom headers (like 'X-Custom-Header') triggers an automatic OPTIONS preflight request by the browser.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Retry logic with exponential backoff",
+      "description": "A pattern for implementing resilient AJAX requests that retry on failure with increasing delays.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

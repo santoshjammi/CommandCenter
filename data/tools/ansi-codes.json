@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "\\033[?25l",
+      "description": "Hides the terminal cursor; useful when performing complex terminal UI updates or animations to prevent flickering.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[?25h",
+      "description": "Shows the terminal cursor; must be paired with the hide command to restore the cursor after a script finishes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[38;5;Nm",
+      "description": "Uses 256-color mode (where N is 0-255) instead of the standard 8/16 colors for extended color palettes.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[48;5;Nm",
+      "description": "Sets the background color using the 256-color extended palette (where N is 0-255).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "\\033[K",
+      "description": "Clears the line from the current cursor position to the end of the line; ideal for updating progress bars in-place.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

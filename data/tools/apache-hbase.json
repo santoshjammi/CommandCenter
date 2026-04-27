@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "scan 'my_table', {STARTROW => 'row1', STOPROW => 'row10', CACHE => 100}",
+      "description": "Perform a filtered scan with specific boundaries and cache size to optimize network throughput and reduce RPC calls.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "status",
+      "description": "Displays the current state of the HBase cluster, including the number of active regions and the status of the Master/RegionServer.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "alter 'my_table', NAME => 'cf', VERSIONS => 5",
+      "description": "Modify an existing table schema to change column family properties, such as increasing the number of cell versions kept.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "count 'my_table'",
+      "description": "Quickly returns the total number of rows in a table, useful for verifying data ingestion completeness.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "hbck",
+      "description": "The HBase Check (hbck) tool used to verify cluster integrity, fix inconsistencies in region assignments, and repair metadata.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

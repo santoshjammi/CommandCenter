@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "component.setOutputMarkupId(true);",
+      "description": "Required for any component that needs to be updated dynamically via Ajax; ensures the component has a stable HTML ID for DOM manipulation.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "target.add(component);",
+      "description": "Used within an AjaxRequestTarget handler to instruct Wicket to re-render and send the specific component's HTML back to the browser.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "getMarkupSettings().setCopyUnusedAttributes(false);",
+      "description": "Performance tuning: prevents Wicket from copying all HTML attributes to the rendered markup, reducing payload size and improving rendering speed.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "IModel<?> model = new LoadableDetachableModel<>() { @Override protected Object load() { return service.getData(); } };",
+      "description": "Crucial for memory management; prevents large object graphs from being serialized into the session by detaching the model at the end of the request cycle.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "component.setRenderBodyOnly(true);",
+      "description": "Optimization for custom components to prevent Wicket from wrapping the component's content in its own outer HTML tags, allowing for cleaner markup control.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

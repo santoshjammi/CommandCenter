@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Ctrl + T",
+      "description": "Free Transform: Allows you to resize, rotate, skew, or distort a selected layer or selection.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Spacebar (Hold)",
+      "description": "Hand Tool: Temporarily switches to the Hand tool to pan around your canvas without changing your current tool.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + I",
+      "description": "Image Size: Quickly opens the dialog to change the dimensions and resolution of your entire document.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "[ and ] (Bracket Keys)",
+      "description": "Brush Size: Instantly increase or decrease the size of your current brush tool.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Shift + Alt + E",
+      "description": "Stamp Visible: Creates a new layer that contains a merged copy of all visible layers, preserving your original layers.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

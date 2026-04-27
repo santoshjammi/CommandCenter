@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "agda --compile MyFile.agda",
+      "description": "Compiles the Agda module into a Haskell source file for external use.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": ":load-with-imports MyFile.agda",
+      "description": "Loads a file and automatically attempts to resolve and load its dependencies.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "agda --with-package <package-name> MyFile.agda",
+      "description": "Specifies a specific package to be included in the load path during compilation or type-checking.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": ":set-syntax <syntax-name>",
+      "description": "Changes the syntax rules within the current session (e.g., for different indentation or notation styles).",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "agda --make-package <name>",
+      "description": "Generates the necessary boilerplate files to turn a directory into a distributable Agda package.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

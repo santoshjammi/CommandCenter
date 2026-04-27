@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Ctrl + Y",
+      "description": "Toggle Outline Mode to see the wireframe structure of your paths without colors or effects.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + D",
+      "description": "Transform Again: Repeats the last transformation (move, rotate, or scale) to create patterns quickly.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Drag",
+      "description": "Duplicate an object instantly by holding Alt while dragging the selected item.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + G",
+      "description": "Group selected objects together so they behave as a single unit.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Spacebar (Hold)",
+      "description": "Temporary Hand Tool: Hold the spacebar to pan around your canvas without switching tools.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

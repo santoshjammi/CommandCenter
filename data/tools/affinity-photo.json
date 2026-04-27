@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + Shift + E",
+      "description": "Stamp Visible: Creates a new merged layer containing all visible layers below the current layer, preserving the original layer stack.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + I",
+      "description": "Image Size Dialog: Opens the modal to adjust pixel dimensions, resolution (DPI), and aspect ratio constraints.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Alt + Click (Layer)",
+      "description": "Create Clipping Mask: Sets the selected layer as a mask for the layer directly above it in the stack.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + Alt + Shift + S",
+      "description": "Export Persona: Switches the workspace to the dedicated Export Persona for batch processing assets and defining slice-based export settings.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + [ or ]",
+      "description": "Reorder Layers: Moves the currently selected layer one step up or down in the layer stack hierarchy.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

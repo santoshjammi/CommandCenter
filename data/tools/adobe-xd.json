@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "V",
+      "description": "Select Tool: Switches to the standard selection tool to move or resize elements.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + D",
+      "description": "Duplicate: Instantly creates a copy of the selected object or group.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Repeat Grid",
+      "description": "Select an element and click 'Repeat Grid' in the right panel to quickly create lists or galleries.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Shift + Drag",
+      "description": "Constrain Proportions: Hold Shift while dragging to resize an object without distorting its aspect ratio.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Ctrl + R",
+      "description": "Rulers: Toggles the visibility of rulers to help with precise alignment and measurement.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

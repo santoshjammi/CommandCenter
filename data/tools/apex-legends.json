@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "apex_legends.exe -dev",
+      "description": "Enables developer mode/console access for advanced debugging and engine-level commands.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "seta mat_disable_bloom \"1\"",
+      "description": "Disables bloom lighting effects to reduce visual noise and improve clarity during high-action combat.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apex_legends.exe -preload",
+      "description": "Forces the engine to preload assets into memory during the initial loading screen to mitigate mid-match stuttering.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "seta r_lod_switch_scale \"0.6\"",
+      "description": "Adjusts the Level of Detail (LOD) distance scaling; lower values increase FPS by reducing model complexity at distance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "apex_legends.exe -dx12",
+      "description": "Forces the game to run using the DirectX 12 API, which can offer better CPU utilization on modern hardware.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

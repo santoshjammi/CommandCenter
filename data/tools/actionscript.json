@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "package { public class MyClass { ... } }",
+      "description": "Defines the namespace for a class, essential for organizing large-scale projects and avoiding naming collisions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "import flash.display.Sprite;",
+      "description": "Explicitly imports a class from a specific package to make it available in the current scope without using fully qualified names.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "var list:Array = [1, \"text\", true];",
+      "description": "Creates a dynamic, heterogeneous array that can store multiple data types simultaneously.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "interface IClickable { function click():void; }",
+      "description": "Defines a contract that classes must implement, enabling polymorphism through type checking rather than inheritance.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "var timer:Timer = new Timer(1000, 5); timer.addEventListener(TimerEvent.TIMER, onTimer); timer.start();",
+      "description": "Implements scheduled execution of code using the Timer class for periodic or delayed tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

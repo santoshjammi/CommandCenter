@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "millis()",
+      "description": "Returns the number of milliseconds passed since the Arduino board began running the current program; essential for non-blocking timing without using delay().",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Interrupts: attachInterrupt(digitalPinToInterrupt(pin), ISR, mode);",
+      "description": "Configures a pin to trigger an Interrupt Service Routine (ISR) on specific signal changes (RISING, FALLING, CHANGE), allowing immediate response to external events.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "EEPROM.put(address, data); / EEPROM.get(address, data);",
+      "description": "Uses the EEPROM library to store and retrieve complex data structures (not just bytes) in non-volatile memory, surviving power cycles.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Serial.printBytes(buffer, length);",
+      "description": "Sends raw binary data from a buffer to the Serial port rather than converting it to human-readable ASCII, optimizing bandwidth for high-speed data logging.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "Low Power: sleep_mode();",
+      "description": "Utilizes AVR-specific sleep modes to reduce current consumption during idle periods, critical for battery-operated IoT applications.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

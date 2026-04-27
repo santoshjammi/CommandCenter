@@ -160,6 +160,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "bundle:diag <bundle-id>",
+      "description": "Displays detailed diagnostic information explaining why a specific bundle is in a 'Failure' or 'Installed' state instead of 'Active'.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "feature:install <feature-name>",
+      "description": "Installs a predefined set of bundles and configurations defined in a feature XML, ensuring all dependencies are met automatically.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "log:display --limit 100",
+      "description": "Retrieves the log buffer from memory rather than reading from the file, useful for quick inspection of recent events without disk I/O overhead.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "bundle:capabilities <bundle-id>",
+      "description": "Inspects the service capabilities (packages, services, or requirements) provided by a specific bundle to troubleshoot dependency resolution.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "system:property <key>",
+      "description": "Checks or modifies JVM system properties at runtime, essential for tuning memory settings or changing environment-specific behaviors.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }

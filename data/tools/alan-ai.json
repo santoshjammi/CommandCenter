@@ -123,7 +123,7 @@
       "man_page": ""
     },
     {
-      "command": "intent('Default Fallback Intent', p => {\n  p.play('Sorry, I didn\u2019t understand that.');\n});",
+      "command": "intent('Default Fallback Intent', p => {\n  p.play('Sorry, I didn’t understand that.');\n});",
       "description": "Handle fallback intents",
       "scenario": "Handle fallback intents",
       "language": "javascript",
@@ -159,6 +159,51 @@
         "sequence"
       ],
       "is_curated": true,
+      "man_page": ""
+    },
+    {
+      "command": "alan deploy --env production",
+      "description": "Deploys the current project to a specific environment (e.g., staging or production) using the CLI flag.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "p.setContext({ key: 'value' });",
+      "description": "Stores session-specific data in the user's context to maintain state across multiple intent executions.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "p.ask('What is your name?', (p) => { ... });",
+      "description": "Prompts the user for a specific piece of information and provides a callback to handle the response.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "alan run --debug",
+      "description": "Runs the local development server with enhanced logging to trace intent matching and execution flow.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "p.callExternal('functionName', { data: 123 }, (err, res) => { ... });",
+      "description": "Invokes an external API or cloud function from within the Alan AI script to extend capabilities.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
       "man_page": ""
     }
   ]

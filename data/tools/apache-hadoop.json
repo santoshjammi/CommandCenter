@@ -199,6 +199,51 @@
       ],
       "is_curated": true,
       "man_page": ""
+    },
+    {
+      "command": "hdfs dfs -fsck /path/to/directory",
+      "description": "Run a File System Check to identify missing blocks, corrupt files, or under-replicated blocks in the HDFS cluster.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "yarn application -logs -applicationId application_1234567890123_0001",
+      "description": "Retrieve all container logs for a specific completed or running YARN application for troubleshooting.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "hdfs dfs -expunge",
+      "description": "Force the HDFS client to synchronize its local cache with the NameNode, useful when files appear missing due to metadata caching.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "<property>\n  <name>mapreduce.job.reduce.slowstart.threshold</name>\n  <value>0.50</value>\n</property>",
+      "description": "Performance tuning: Set the threshold (0.0 to 1.0) at which reducers start to launch relative to the completion of map tasks.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
+    },
+    {
+      "command": "hdfs dfs -mkdir -p /path/to/nested/directory",
+      "description": "Create a directory and all necessary parent directories in a single command using the -p flag.",
+      "scenario": "",
+      "language": "text",
+      "tags": [],
+      "is_curated": false,
+      "man_page": ""
     }
   ]
 }
